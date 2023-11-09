@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 340,
-    "Name": "Schneider, Kuhn and Rath",
-    "Tooltip": "incidunt",
-    "Rank": 777,
+    "SaleTypeId": 517,
+    "Name": "Davis LLC",
+    "Tooltip": "voluptas",
+    "Rank": 748,
     "DurationUnit": "Century",
-    "SaleDuration": 610,
-    "SaleTypeCatId": 555,
+    "SaleDuration": 938,
+    "SaleTypeCatId": 603,
     "Deleted": false,
     "HasGuide": true,
     "HasStakeholders": false,
-    "IsAutoAdvance": false,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 27,
-    "QuoteLinesTemplate": 524,
-    "ConfirmationLinesTemplate": 994,
+    "DefaultQuoteValidity": 636,
+    "QuoteLinesTemplate": 525,
+    "ConfirmationLinesTemplate": 460,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 254,
-    "MinEarningPercent": 492,
-    "GroupQuoteLinesBy": 11,
-    "SortGroupLinesBy": 264,
+    "MaxDiscountPercent": 891,
+    "MinEarningPercent": 996,
+    "GroupQuoteLinesBy": 720,
+    "SortGroupLinesBy": 583,
     "Stages": [
       {
-        "Id": 632,
-        "Name": "VonRueden, Koss and Lind",
-        "ToolTip": "Placeat facere incidunt ducimus quia mollitia.",
+        "Id": 550,
+        "Name": "Bednar Group",
+        "ToolTip": "Tempora excepturi laudantium.",
         "Deleted": true,
-        "Rank": 810,
-        "Type": "ipsum",
-        "ColorBlock": 383,
-        "IconHint": "quidem",
+        "Rank": 602,
+        "Type": "voluptas",
+        "ColorBlock": 683,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2001-02-28T03:24:52.4119449+01:00",
+        "LastChanged": "2016-04-08T11:06:43.0534497+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Henriette Boehm",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Major Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 903
+            "FieldType": "System.String",
+            "FieldLength": 381
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 870
       }
     }
   }

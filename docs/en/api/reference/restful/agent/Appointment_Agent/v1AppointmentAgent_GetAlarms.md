@@ -81,9 +81,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeInvitations": true,
+  "IncludeInvitations": false,
   "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 925
+  "DefaultAlarmLeadTimeInMinutes": 806
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 166,
-      "StartTime": "2007-12-26T03:24:46.9713962+01:00",
-      "EndDate": "2008-12-03T03:24:46.9713962+01:00",
-      "AlarmTime": "1997-08-24T03:24:46.9713962+02:00",
-      "PersonId": 75,
-      "PersonFullName": "Rosario Vandervort",
-      "ContactName": "McDermott-Schaefer",
-      "ProjectId": 541,
-      "ProjectName": "Harris-Dicki",
-      "AppointmentText": "ut",
-      "SaleId": 85,
-      "SaleName": "Quigley LLC",
-      "Location": "eligendi",
+      "AppointmentId": 595,
+      "StartTime": "2013-07-27T11:06:33.4913656+02:00",
+      "EndDate": "2002-10-25T11:06:33.4913656+02:00",
+      "AlarmTime": "2023-04-24T11:06:33.4913656+02:00",
+      "PersonId": 82,
+      "PersonFullName": "Olaf McClure",
+      "ContactName": "Effertz LLC",
+      "ProjectId": 579,
+      "ProjectName": "Stracke-Heidenreich",
+      "AppointmentText": "illo",
+      "SaleId": 99,
+      "SaleName": "Bashirian-McGlynn",
+      "Location": "reiciendis",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 600,
+      "ContactId": 51,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Zulauf-Monahan",
-      "TaskName": "Wolf, Larson and Gottlieb",
-      "ContactDepartment": "",
-      "ContactFullName": "Stevie Ryley Renner DVM",
+      "FormalName": "Botsford-Harber",
+      "TaskName": "Cole-Jenkins",
+      "ContactDepartment": "implement frictionless solutions",
+      "ContactFullName": "Tia Parker",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldType": "System.String",
+          "FieldLength": 893
         }
       }
     }
   ],
-  "PollingInterval": 74,
-  "SilentAfter": 901,
+  "PollingInterval": 125,
+  "SilentAfter": 297,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 964
     }
   }
 }

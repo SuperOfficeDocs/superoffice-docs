@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 886
+  "PersonId": 177
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 85,
-  "BlobSize": 614,
-  "Description": "Cloned logistical product",
-  "ExtraInfo": "explicabo",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "nam",
-  "OriginalSize": 112,
-  "CreatedDate": "2016-06-27T03:24:47.2677007+02:00",
-  "UpdatedDate": "1999-05-23T03:24:47.2677007+02:00",
+  "BlobId": 175,
+  "BlobSize": 175,
+  "Description": "Cross-platform neutral hierarchy",
+  "ExtraInfo": "quia",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "aperiam",
+  "OriginalSize": 966,
+  "CreatedDate": "2000-10-15T11:06:33.812894+02:00",
+  "UpdatedDate": "2022-06-16T11:06:33.812894+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 357
+      "FieldType": "System.Int32",
+      "FieldLength": 211
     }
   }
 }

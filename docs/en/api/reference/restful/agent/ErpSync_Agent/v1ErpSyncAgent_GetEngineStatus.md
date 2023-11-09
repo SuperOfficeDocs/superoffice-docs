@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetEngineStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsRunning": true,
-  "StatusMessage": "nobis",
-  "Interval": "voluptatem",
+  "IsRunning": false,
+  "StatusMessage": "quis",
+  "Interval": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 893
     }
   }
 }

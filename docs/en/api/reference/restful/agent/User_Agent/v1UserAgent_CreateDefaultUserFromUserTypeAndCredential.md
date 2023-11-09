@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 791,
-  "CredentialType": "soluta",
-  "CredentialValue": "eveniet",
-  "CredentialDisplayValue": "eum"
+  "ContactId": 765,
+  "CredentialType": "temporibus",
+  "CredentialValue": "impedit",
+  "CredentialDisplayValue": "qui"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 88,
-  "Name": "Jaskolski, Lynch and Lakin",
-  "Rank": 233,
-  "Tooltip": "vero",
+  "AssociateId": 323,
+  "Name": "Padberg Inc and Sons",
+  "Rank": 818,
+  "Tooltip": "nostrum",
   "LicenseOwners": [
     {
-      "Name": "Schuster, Prohaska and Wintheiser",
-      "Description": "Optimized directional system engine",
+      "Name": "Schmidt-Will",
+      "Description": "Distributed 3rd generation model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 993
+          "FieldLength": 772
         }
       }
     },
     {
-      "Name": "Schuster, Prohaska and Wintheiser",
-      "Description": "Optimized directional system engine",
+      "Name": "Schmidt-Will",
+      "Description": "Distributed 3rd generation model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 993
+          "FieldLength": 772
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "doloribus",
-      "Tooltip": "et",
-      "Id": 267,
-      "Rank": 909,
+      "Value": "distinctio",
+      "Tooltip": "quos",
+      "Id": 585,
+      "Rank": 343,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 911
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2003-06-05T03:24:48.5185139+02:00",
-  "Lastlogout": "2018-11-08T03:24:48.5185139+01:00",
-  "EjUserId": 141,
-  "RequestSignature": "rerum",
+  "Lastlogin": "2002-12-20T11:06:35.6627548+01:00",
+  "Lastlogout": "1996-07-10T11:06:35.6627548+02:00",
+  "EjUserId": 351,
+  "RequestSignature": "vitae",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "vel",
-      "DisplayValue": "voluptate",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 497
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "vel",
-      "DisplayValue": "voluptate",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 497
-        }
-      }
-    }
-  ],
-  "UserName": "Rohan, Runolfsson and Moen",
-  "TicketCategories": [
-    {
-      "Id": 471,
-      "Name": "Kovacek Inc and Sons",
-      "ToolTip": "Voluptate omnis pariatur aut provident ut.",
-      "Deleted": true,
-      "Rank": 99,
-      "Type": "voluptas",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "veniam",
-      "ColorBlock": 321,
-      "ExtraInfo": "perferendis",
-      "StyleHint": "omnis",
-      "FullName": "Santino Alexandre Gutkowski DDS",
+      "Value": "ipsa",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 623
+          "FieldLength": 1002
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ipsa",
+      "DisplayValue": "repudiandae",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 1002
         }
       }
     }
   ],
-  "NickName": "Emard Inc and Sons",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "aut"
-  },
-  "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "aperiam"
-  },
-  "PostSaveCommands": [
+  "UserName": "Langosh Group",
+  "TicketCategories": [
     {
-      "Name": "Bode Inc and Sons",
-      "DisplayName": "Beier Group",
-      "Description": "Mandatory attitude-oriented budgetary management",
-      "ToolTip": "Quo quaerat impedit quos.",
-      "Actions": "Implicit",
-      "ActionData": "odio",
+      "Id": 768,
+      "Name": "Kihn LLC",
+      "ToolTip": "Nemo dolor et error.",
+      "Deleted": false,
+      "Rank": 832,
+      "Type": "odit",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "labore",
+      "ColorBlock": 812,
+      "ExtraInfo": "recusandae",
+      "StyleHint": "est",
+      "FullName": "Prof. Daija Kiel Deckow Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 402
+        }
+      }
+    }
+  ],
+  "NickName": "Steuber Group",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "a",
+    "ExtraFields2": "dolorum"
+  },
+  "CustomFields": {
+    "CustomFields1": "quia",
+    "CustomFields2": "aut"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Hane-Boehm",
+      "DisplayName": "Berge LLC",
+      "Description": "Focused client-server interface",
+      "ToolTip": "Nesciunt ipsum qui perferendis.",
+      "Actions": "Implicit",
+      "ActionData": "sapiente",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 645
         }
       }
     }
@@ -284,8 +284,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldType": "System.String",
+      "FieldLength": 688
     }
   }
 }

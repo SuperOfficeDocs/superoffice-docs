@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 705,
-  "Restrictions": "nostrum"
+  "DashboardTileId": 493,
+  "Restrictions": "illum"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Nader, Jacobs and Parker",
-        "DisplayTooltip": "dolor",
-        "DisplayType": "provident",
-        "CanOrderBy": true,
-        "Name": "Considine-Windler",
-        "CanRestrictBy": false,
-        "RestrictionType": "harum",
-        "RestrictionListName": "Zboncak, Schamberger and Hessel",
+        "DisplayName": "Hudson Inc and Sons",
+        "DisplayTooltip": "eligendi",
+        "DisplayType": "esse",
+        "CanOrderBy": false,
+        "Name": "Bauch-Emard",
+        "CanRestrictBy": true,
+        "RestrictionType": "illo",
+        "RestrictionListName": "Pouros Group",
         "IsVisible": true,
-        "ExtraInfo": "maxime",
-        "Width": "sapiente",
-        "IconHint": "dolores",
-        "HeadingIconHint": "ullam"
+        "ExtraInfo": "velit",
+        "Width": "necessitatibus",
+        "IconHint": "qui",
+        "HeadingIconHint": "velit"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Nader, Jacobs and Parker",
-        "DisplayTooltip": "dolor",
-        "DisplayType": "provident",
-        "CanOrderBy": true,
-        "Name": "Considine-Windler",
-        "CanRestrictBy": false,
-        "RestrictionType": "harum",
-        "RestrictionListName": "Zboncak, Schamberger and Hessel",
+        "DisplayName": "Hudson Inc and Sons",
+        "DisplayTooltip": "eligendi",
+        "DisplayType": "esse",
+        "CanOrderBy": false,
+        "Name": "Bauch-Emard",
+        "CanRestrictBy": true,
+        "RestrictionType": "illo",
+        "RestrictionListName": "Pouros Group",
         "IsVisible": true,
-        "ExtraInfo": "maxime",
-        "Width": "sapiente",
-        "IconHint": "dolores",
-        "HeadingIconHint": "ullam"
+        "ExtraInfo": "velit",
+        "Width": "necessitatibus",
+        "IconHint": "qui",
+        "HeadingIconHint": "velit"
       }
     ],
     "Result": null

@@ -104,7 +104,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 347,
-  "ColumnId": 299,
-  "FieldDefault": "illo",
-  "FieldHeight": 642,
-  "FieldLabel": "voluptate",
-  "FieldLeft": 601,
-  "FieldTop": 431,
+  "UDefFieldId": 174,
+  "ColumnId": 479,
+  "FieldDefault": "temporibus",
+  "FieldHeight": 423,
+  "FieldLabel": "mollitia",
+  "FieldLeft": 219,
+  "FieldTop": 254,
   "FieldType": "Checkbox",
-  "FieldWidth": 250,
-  "FormatMask": "non",
-  "HideLabel": false,
+  "FieldWidth": 40,
+  "FormatMask": "accusantium",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 153,
-  "LabelLeft": 370,
-  "LabelTop": 304,
-  "LabelWidth": 519,
-  "LastVersionId": 702,
-  "ListTableId": 753,
-  "IsMandatory": false,
+  "LabelHeight": 709,
+  "LabelLeft": 744,
+  "LabelTop": 750,
+  "LabelWidth": 242,
+  "LastVersionId": 481,
+  "ListTableId": 8,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 856,
-  "ProgId": "rem",
-  "IsReadOnly": false,
+  "Page1LineNo": 773,
+  "ProgId": "et",
+  "IsReadOnly": true,
   "ShortLabel": "ut",
-  "TabOrder": 300,
-  "TextLength": 928,
-  "Tooltip": "eius",
-  "UdefIdentity": 110,
-  "UDListDefinitionId": 672,
+  "TabOrder": 311,
+  "TextLength": 548,
+  "Tooltip": "dolores",
+  "UdefIdentity": 137,
+  "UDListDefinitionId": 293,
   "Justification": "Center",
-  "Version": 999,
-  "TemplateVariableName": "Hettinger Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Hirthe, Beer and Considine",
+  "Version": 947,
+  "TemplateVariableName": "Kuhlman-Lemke",
+  "HasBeenPublished": false,
+  "MdoListName": "Schmidt-O'Reilly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 970
     }
   }
 }

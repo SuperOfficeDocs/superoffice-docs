@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 567,
-  "Name": "Hilll, Casper and Christiansen",
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
-  "UdListDefinitionId": 755,
-  "Rank": 878,
+  "Id": 71,
+  "Name": "Wunsch, Jerde and Rice",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 600,
+  "Rank": 363,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 632
+      "FieldType": "System.Int32",
+      "FieldLength": 812
     }
   }
 }

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 55,
-  "Name": "Mueller-Dietrich",
-  "Tooltip": "provident",
+  "Id": 595,
+  "Name": "Hahn-Wintheiser",
+  "Tooltip": "autem",
   "Deleted": false,
-  "UdListDefinitionId": 409,
-  "Rank": 654,
+  "UdListDefinitionId": 502,
+  "Rank": 438,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldLength": 187
     }
   }
 }

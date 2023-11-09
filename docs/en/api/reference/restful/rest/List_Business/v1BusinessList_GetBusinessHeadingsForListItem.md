@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Gleason-Senger",
-    "ToolTip": "Recusandae et et rem.",
-    "Deleted": true,
-    "Rank": 428,
-    "Type": "error",
-    "ColorBlock": 422,
-    "IconHint": "quos",
-    "Selected": true,
-    "LastChanged": "2022-02-26T03:24:52.1619753+01:00",
+    "Id": 479,
+    "Name": "Hayes Group",
+    "ToolTip": "Fugiat et quo.",
+    "Deleted": false,
+    "Rank": 778,
+    "Type": "molestiae",
+    "ColorBlock": 196,
+    "IconHint": "quasi",
+    "Selected": false,
+    "LastChanged": "2019-11-06T11:06:42.6784463+01:00",
     "ChildItems": [
       {
-        "Id": 295,
-        "Name": "Rice-Donnelly",
-        "ToolTip": "Libero at temporibus.",
+        "Id": 478,
+        "Name": "Grady-Rogahn",
+        "ToolTip": "Et et.",
         "Deleted": false,
-        "Rank": 907,
-        "Type": "numquam",
-        "ColorBlock": 749,
-        "IconHint": "pariatur",
+        "Rank": 92,
+        "Type": "molestiae",
+        "ColorBlock": 676,
+        "IconHint": "inventore",
         "Selected": false,
-        "LastChanged": "2020-06-14T03:24:52.1619753+02:00",
+        "LastChanged": "2016-01-09T11:06:42.6784463+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "earum",
+        "ExtraInfo": "aut",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Litzy Brakus",
+        "FullName": "Dr. Dejah Ahmad Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 827
+            "FieldLength": 981
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "ab",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Jasmin Corkery",
+    "FullName": "Jude Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 587
       }
     }
   }

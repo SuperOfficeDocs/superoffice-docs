@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Daugherty, Ruecker and Brekke",
-  "ProviderName": "Sauer-Sauer",
-  "Context": "dolores",
-  "OwnerKeys": "eos"
+  "GuiName": "Corwin, Hickle and Brakus",
+  "ProviderName": "Bashirian, Grimes and Howe",
+  "Context": "repellendus",
+  "OwnerKeys": "odio"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Reynolds, Windler and Lueilwitz",
-      "DisplayTooltip": "aut",
-      "DisplayType": "ipsum",
-      "CanOrderBy": false,
-      "Name": "Berge-Muller",
+      "DisplayName": "Schimmel Group",
+      "DisplayTooltip": "dolore",
+      "DisplayType": "recusandae",
+      "CanOrderBy": true,
+      "Name": "Schaden-Schneider",
       "CanRestrictBy": false,
-      "RestrictionType": "facilis",
-      "RestrictionListName": "Crona-Bode",
+      "RestrictionType": "assumenda",
+      "RestrictionListName": "Gutmann-Lakin",
       "IsVisible": false,
-      "ExtraInfo": "eos",
-      "Width": "laboriosam",
-      "IconHint": "libero",
-      "HeadingIconHint": "nam"
+      "ExtraInfo": "quaerat",
+      "Width": "voluptatem",
+      "IconHint": "quo",
+      "HeadingIconHint": "repudiandae"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 700,
-      "Name": "Moore, Hansen and Moore",
-      "ToolTip": "Exercitationem voluptatibus eius impedit ut sint.",
-      "Deleted": false,
-      "Rank": 666,
-      "Type": "omnis",
-      "ColorBlock": 977,
-      "IconHint": "necessitatibus",
-      "Selected": false,
-      "LastChanged": "2013-11-01T03:24:47.220828+01:00",
+      "Id": 507,
+      "Name": "Wehner Group",
+      "ToolTip": "Officiis et debitis et sed.",
+      "Deleted": true,
+      "Rank": 733,
+      "Type": "eos",
+      "ColorBlock": 195,
+      "IconHint": "aliquid",
+      "Selected": true,
+      "LastChanged": "2016-10-04T11:06:33.7503955+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "reiciendis",
-      "Hidden": true,
-      "FullName": "Prof. Vella Sydnee Dach",
+      "ExtraInfo": "et",
+      "StyleHint": "nobis",
+      "Hidden": false,
+      "FullName": "Shad Rhiannon Gorczany II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 170
+          "FieldType": "System.String",
+          "FieldLength": 254
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Metz-Schmitt",
+      "Name": "Sauer, Cummings and Hyatt",
       "Direction": "ASC"
     },
     {
-      "Name": "Metz-Schmitt",
+      "Name": "Sauer, Cummings and Hyatt",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "consequatur",
+  "OwnerKeys": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   }
 }

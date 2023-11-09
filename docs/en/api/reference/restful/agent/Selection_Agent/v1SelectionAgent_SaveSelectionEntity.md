@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform 24 hour neural-net",
-  "Postit": "fugiat",
+  "Description": "Inverse reciprocal utilisation",
+  "Postit": "perferendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 925,
-  "IncludePerson": 608,
-  "MemberCount": 83,
-  "Name": "Blick, Pagac and Abshire",
-  "PostitTextId": 653,
-  "CreatedDate": "2010-12-22T03:24:48.2409231+01:00",
-  "SelectionId": 370,
-  "SoundEx": "sequi",
-  "Source": 926,
-  "TextId": 113,
-  "UpdatedDate": "2015-09-04T03:24:48.2409231+02:00",
-  "UpdatedCount": 897,
-  "Visibility": 366,
+  "GroupIdx": 262,
+  "IncludePerson": 788,
+  "MemberCount": 885,
+  "Name": "Rippin-Dickens",
+  "PostitTextId": 733,
+  "CreatedDate": "2023-02-20T11:06:35.3489438+01:00",
+  "SelectionId": 753,
+  "SoundEx": "itaque",
+  "Source": 194,
+  "TextId": 237,
+  "UpdatedDate": "2005-11-15T11:06:35.3489438+01:00",
+  "UpdatedCount": 147,
+  "Visibility": 429,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 133,
-  "TargetTableName": "Schowalter-McLaughlin",
+  "TargetTableNumber": 140,
+  "TargetTableName": "Russel LLC",
   "Completed": false,
-  "LeftSelectionId": 426,
-  "RightSelectionId": 227,
+  "LeftSelectionId": 447,
+  "RightSelectionId": 815,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stamm LLC",
-  "ShadowProviderName": "Romaguera, Raynor and Cartwright",
-  "ChartKey": "ullam",
-  "LastLoaded": "2017-10-26T03:24:48.2409231+02:00",
-  "LastLoadedBy": 533,
+  "MainProviderName": "Braun, Schuppe and Botsford",
+  "ShadowProviderName": "Gulgowski LLC",
+  "ChartKey": "veniam",
+  "LastLoaded": "1997-04-05T11:06:35.3489438+02:00",
+  "LastLoadedBy": 280,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-06-27T03:24:48.2409231+02:00",
-  "LastMembershipChangeBy": 378,
+  "LastMembershipChange": "2023-06-21T11:06:35.3489438+02:00",
+  "LastMembershipChangeBy": 962,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quis",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Pacocha LLC",
-  "DashboardTileDefinitionId": 951,
+  "MainHeading": "officia",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Barton, Daugherty and Little",
+  "DashboardTileDefinitionId": 292,
   "VisibleFor": [
     {
-      "VisibleId": 484,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "dolor"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 484,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "dolor"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Operative hybrid projection",
-  "Postit": "iusto",
+  "Description": "Cloned tangible internet solution",
+  "Postit": "assumenda",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 986,
-  "IncludePerson": 992,
-  "MemberCount": 213,
-  "Name": "Brakus Group",
-  "PostitTextId": 663,
-  "CreatedDate": "1996-06-24T03:24:48.2409231+02:00",
-  "SelectionId": 48,
-  "SoundEx": "aut",
-  "Source": 15,
-  "TextId": 842,
-  "UpdatedDate": "2021-12-11T03:24:48.2409231+01:00",
-  "UpdatedCount": 978,
-  "Visibility": 754,
+  "GroupIdx": 406,
+  "IncludePerson": 325,
+  "MemberCount": 378,
+  "Name": "Cummerata Group",
+  "PostitTextId": 605,
+  "CreatedDate": "2014-03-13T11:06:35.3489438+01:00",
+  "SelectionId": 310,
+  "SoundEx": "qui",
+  "Source": 221,
+  "TextId": 839,
+  "UpdatedDate": "2004-03-22T11:06:35.3489438+01:00",
+  "UpdatedCount": 194,
+  "Visibility": 59,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 708,
-  "TargetTableName": "Emmerich-Ullrich",
+  "CompanyUnique": false,
+  "TargetTableNumber": 592,
+  "TargetTableName": "McKenzie, Beatty and McDermott",
   "Completed": false,
-  "LeftSelectionId": 88,
-  "RightSelectionId": 361,
+  "LeftSelectionId": 151,
+  "RightSelectionId": 683,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mueller-Aufderhar",
-  "ShadowProviderName": "Gislason-Reynolds",
-  "ChartKey": "et",
-  "LastLoaded": "2023-08-16T03:24:48.2409231+02:00",
-  "LastLoadedBy": 877,
+  "MainProviderName": "Kris, Gutmann and Huel",
+  "ShadowProviderName": "Bogisich-Toy",
+  "ChartKey": "tempore",
+  "LastLoaded": "2017-10-19T11:06:35.3489438+02:00",
+  "LastLoadedBy": 668,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-02-14T03:24:48.2409231+01:00",
-  "LastMembershipChangeBy": 93,
+  "LastMembershipChange": "2013-02-08T11:06:35.3489438+01:00",
+  "LastMembershipChangeBy": 20,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "cum",
-  "MailingsProviderName": "Mueller, Gorczany and Weber",
-  "DashboardTileDefinitionId": 622,
+  "MainHeading": "a",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Nitzsche Group",
+  "DashboardTileDefinitionId": 112,
   "VisibleFor": [
     {
-      "VisibleId": 517,
+      "VisibleId": 333,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 998
+          "FieldType": "System.String",
+          "FieldLength": 527
         }
       }
     },
     {
-      "VisibleId": 517,
+      "VisibleId": 333,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 998
+          "FieldType": "System.String",
+          "FieldLength": 527
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 351
     }
   }
 }

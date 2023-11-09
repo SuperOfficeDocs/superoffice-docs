@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 214,
+  "ErpConnectionId": 294,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 319,
+  "ErpConnectionId": 928,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 330,
-      "CrmFieldKey": "omnis",
-      "CrmDisplayName": "Koelpin-Keeling",
-      "CrmDisplayTooltip": "quas",
-      "ErpFieldKey": "et",
+      "ErpFieldId": 389,
+      "CrmFieldKey": "consectetur",
+      "CrmDisplayName": "Corkery-Jast",
+      "CrmDisplayTooltip": "eius",
+      "ErpFieldKey": "sed",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Heathcote-Heller",
-      "ErpDisplayTooltip": "neque",
+      "ErpDisplayName": "Konopelski Inc and Sons",
+      "ErpDisplayTooltip": "excepturi",
       "SyncToCrm": false,
       "SyncToErp": false,
-      "ShowInGui": false,
-      "ShowInSearch": true,
+      "ShowInGui": true,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "dolorum",
+      "ListReference": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldType": "System.String",
+          "FieldLength": 527
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 721
     }
   }
 }

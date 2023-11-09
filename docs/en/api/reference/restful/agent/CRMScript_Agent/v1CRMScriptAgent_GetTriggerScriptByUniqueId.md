@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "rem"
+  "TriggerScriptUniqueId": "cupiditate"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 882,
-  "Name": "Beatty-Beier",
+  "ScreenChooserId": 785,
+  "Name": "Ziemann Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "qui",
-  "Source": "delectus",
-  "Registered": "2012-05-10T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 159,
-  "Updated": "2002-04-05T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 93,
+  "UniqueIdentifier": "mollitia",
+  "Source": "laborum",
+  "Registered": "2007-08-24T11:06:34.2383276+02:00",
+  "RegisteredAssociateId": 176,
+  "Updated": "2014-10-02T11:06:34.2383276+02:00",
+  "UpdatedAssociateId": 887,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 320
+      "FieldLength": 335
     }
   }
 }

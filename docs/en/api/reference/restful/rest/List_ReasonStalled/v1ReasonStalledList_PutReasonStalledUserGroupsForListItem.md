@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 29,
-    "Name": "Pacocha-Rau",
-    "ToolTip": "Ea et perferendis repellat.",
+    "Id": 288,
+    "Name": "Jacobson-Hackett",
+    "ToolTip": "Error et quod voluptate praesentium autem labore.",
     "Deleted": false,
-    "Rank": 922,
-    "Type": "quaerat",
-    "ColorBlock": 160,
-    "IconHint": "beatae",
-    "Selected": true,
-    "LastChanged": "2023-07-25T03:24:52.3963183+02:00",
+    "Rank": 458,
+    "Type": "repudiandae",
+    "ColorBlock": 351,
+    "IconHint": "hic",
+    "Selected": false,
+    "LastChanged": "2012-02-17T11:06:43.037826+01:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Beier LLC",
-        "ToolTip": "Ullam harum aut aliquid excepturi est.",
-        "Deleted": true,
-        "Rank": 547,
-        "Type": "voluptate",
-        "ColorBlock": 365,
-        "IconHint": "occaecati",
-        "Selected": true,
-        "LastChanged": "1998-05-08T03:24:52.3963183+02:00",
+        "Id": 454,
+        "Name": "Hammes-Hintz",
+        "ToolTip": "Et nesciunt eius enim pariatur.",
+        "Deleted": false,
+        "Rank": 373,
+        "Type": "dolore",
+        "ColorBlock": 372,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2007-02-05T11:06:43.037826+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Ms. Kane Botsford"
+        "ExtraInfo": "dolore",
+        "StyleHint": "illo",
+        "Hidden": false,
+        "FullName": "Daisha Mayer"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Miss Henderson Rempel"
+    "ExtraInfo": "ut",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Mr. Royce Ransom Ritchie"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "Streich-Cummings",
-    "ToolTip": "Aut necessitatibus autem saepe reiciendis minima et.",
-    "Deleted": false,
-    "Rank": 362,
-    "Type": "voluptatem",
-    "ColorBlock": 129,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2008-10-11T03:24:52.3963183+02:00",
+    "Id": 864,
+    "Name": "Streich Group",
+    "ToolTip": "Inventore et qui voluptas corporis.",
+    "Deleted": true,
+    "Rank": 566,
+    "Type": "sapiente",
+    "ColorBlock": 574,
+    "IconHint": "accusamus",
+    "Selected": true,
+    "LastChanged": "2015-09-18T11:06:43.037826+02:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Feeney-Crona",
-        "ToolTip": "Quaerat voluptas aut.",
-        "Deleted": false,
-        "Rank": 375,
-        "Type": "officiis",
-        "ColorBlock": 743,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2014-02-05T03:24:52.3963183+01:00",
+        "Id": 948,
+        "Name": "King, Collier and Cassin",
+        "ToolTip": "Placeat ipsam ullam.",
+        "Deleted": true,
+        "Rank": 340,
+        "Type": "sed",
+        "ColorBlock": 249,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2021-03-06T11:06:43.037826+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "sunt",
+        "StyleHint": "consectetur",
         "Hidden": true,
-        "FullName": "Mr. Kathlyn Noemy Grimes MD",
+        "FullName": "Maia Haag Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
+            "FieldType": "System.String",
             "FieldLength": 817
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
+    "ExtraInfo": "corporis",
     "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Favian Koss",
+    "FullName": "Thora Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 75
+        "FieldType": "System.Int32",
+        "FieldLength": 302
       }
     }
   }

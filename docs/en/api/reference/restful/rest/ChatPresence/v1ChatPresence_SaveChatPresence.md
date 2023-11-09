@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 167,
-    "DisplayName": "Bogan, Gibson and Schmeler",
-    "OngoingChats": 897,
-    "Present": true,
+    "UserId": 891,
+    "DisplayName": "Bogisich, Goyette and Erdman",
+    "OngoingChats": 406,
+    "Present": false,
     "ChatTopics": [
-      276,
-      87
+      762,
+      730
     ]
   },
   {
-    "UserId": 167,
-    "DisplayName": "Bogan, Gibson and Schmeler",
-    "OngoingChats": 897,
-    "Present": true,
+    "UserId": 891,
+    "DisplayName": "Bogisich, Goyette and Erdman",
+    "OngoingChats": 406,
+    "Present": false,
     "ChatTopics": [
-      276,
-      87
+      762,
+      730
     ]
   }
 ]

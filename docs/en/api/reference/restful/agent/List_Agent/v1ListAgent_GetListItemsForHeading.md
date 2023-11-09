@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 156,
-  "HeadingId": 679
+  "UdListDefinitionId": 140,
+  "HeadingId": 92
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 980,
-    "Name": "Ernser Group",
-    "ToolTip": "Totam omnis.",
+    "Id": 591,
+    "Name": "Hahn-Bins",
+    "ToolTip": "Doloremque velit eaque et labore ut accusamus.",
     "Deleted": true,
-    "Rank": 892,
-    "Type": "eum",
-    "ColorBlock": 913,
-    "IconHint": "perferendis",
+    "Rank": 257,
+    "Type": "sunt",
+    "ColorBlock": 600,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1997-10-06T03:24:47.8770078+02:00",
+    "LastChanged": "2001-12-25T11:06:34.723933+01:00",
     "ChildItems": [
       {
-        "Id": 550,
-        "Name": "Beer-Farrell",
-        "ToolTip": "Sunt enim dolores aut dolores autem.",
+        "Id": 957,
+        "Name": "Fisher LLC",
+        "ToolTip": "Et sed laborum quaerat sunt amet distinctio ratione.",
         "Deleted": false,
-        "Rank": 165,
-        "Type": "corporis",
-        "ColorBlock": 4,
-        "IconHint": "officiis",
-        "Selected": false,
-        "LastChanged": "2005-07-19T03:24:47.8770078+02:00",
+        "Rank": 982,
+        "Type": "qui",
+        "ColorBlock": 489,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "1998-09-28T11:06:34.723933+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "perferendis",
-        "Hidden": true,
-        "FullName": "Yasmeen Wisozk",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "quibusdam",
+        "Hidden": false,
+        "FullName": "Jamil Stanton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 269
+            "FieldLength": 572
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "eligendi",
-    "Hidden": false,
-    "FullName": "Kris Carlotta Toy V",
+    "ExtraInfo": "veniam",
+    "StyleHint": "inventore",
+    "Hidden": true,
+    "FullName": "Ila Vandervort",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldLength": 168
       }
     }
   }

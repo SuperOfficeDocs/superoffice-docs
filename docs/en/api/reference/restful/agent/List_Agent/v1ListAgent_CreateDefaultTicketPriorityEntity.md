@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 123,
-  "Name": "Lang-Wiza",
+  "TicketPriorityId": 630,
+  "Name": "Goyette, Rohan and Robel",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 846,
+  "SortOrder": 142,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 778,
-  "MonStart": "2001-01-31T03:24:47.908255+01:00",
-  "MonStop": "2001-06-27T03:24:47.908255+02:00",
-  "TueStart": "2009-01-08T03:24:47.908255+01:00",
-  "TueStop": "2019-09-29T03:24:47.908255+02:00",
-  "WedStart": "2002-03-28T03:24:47.908255+01:00",
-  "WedStop": "1997-01-21T03:24:47.908255+01:00",
-  "ThuStart": "2011-05-07T03:24:47.908255+02:00",
-  "ThuStop": "2004-04-23T03:24:47.908255+02:00",
-  "FriStart": "1999-09-30T03:24:47.908255+02:00",
-  "FriStop": "2008-09-14T03:24:47.908255+02:00",
-  "SatStart": "2014-04-16T03:24:47.908255+02:00",
-  "SatStop": "2002-03-11T03:24:47.908255+01:00",
-  "SunStart": "2021-03-15T03:24:47.908255+01:00",
-  "SunStop": "2020-07-18T03:24:47.908255+02:00",
+  "Deadline": 425,
+  "MonStart": "2014-07-04T11:06:34.7708179+02:00",
+  "MonStop": "2012-05-26T11:06:34.7708179+02:00",
+  "TueStart": "2022-08-20T11:06:34.7708179+02:00",
+  "TueStop": "2001-04-03T11:06:34.7708179+02:00",
+  "WedStart": "2019-03-07T11:06:34.7708179+01:00",
+  "WedStop": "2020-01-09T11:06:34.7708179+01:00",
+  "ThuStart": "2012-10-24T11:06:34.7708179+02:00",
+  "ThuStop": "2020-01-27T11:06:34.7708179+01:00",
+  "FriStart": "2006-06-13T11:06:34.7708179+02:00",
+  "FriStop": "2001-09-11T11:06:34.7708179+02:00",
+  "SatStart": "2021-12-06T11:06:34.7708179+01:00",
+  "SatStop": "2022-10-03T11:06:34.7708179+02:00",
+  "SunStart": "2015-01-06T11:06:34.7708179+01:00",
+  "SunStop": "2016-08-13T11:06:34.7708179+02:00",
   "NonDates": [
-    "hic",
-    "aut"
+    "id",
+    "in"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 9,
-      "AlertLevel": 114,
-      "AlertTimeout": 582,
-      "Action": 32,
-      "DelegateTo": 932,
-      "ScriptId": 497,
-      "EmailTo": "anjali@runolfsdottir.biz",
-      "SmsTo": "voluptatem",
-      "ReplyTemplateIdCustomer": 251,
-      "ReplyTemplateIdUser": 80,
-      "ReplyTemplateIdCatmast": 83,
-      "ReplyTemplateIdEmail": 821,
-      "RtiCustomerSms": 187,
-      "ReplyTemplateIdUserSms": 365,
-      "ReplyTemplateIdCatmastSms": 845,
-      "ReplyTemplateIdSms": 606,
+      "TicketAlertId": 536,
+      "AlertLevel": 886,
+      "AlertTimeout": 192,
+      "Action": 678,
+      "DelegateTo": 158,
+      "ScriptId": 545,
+      "EmailTo": "johan.kshlerin@considine.co.uk",
+      "SmsTo": "illum",
+      "ReplyTemplateIdCustomer": 38,
+      "ReplyTemplateIdUser": 594,
+      "ReplyTemplateIdCatmast": 783,
+      "ReplyTemplateIdEmail": 96,
+      "RtiCustomerSms": 306,
+      "ReplyTemplateIdUserSms": 565,
+      "ReplyTemplateIdCatmastSms": 135,
+      "ReplyTemplateIdSms": 671,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 695
+          "FieldLength": 234
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 896
     }
   }
 }

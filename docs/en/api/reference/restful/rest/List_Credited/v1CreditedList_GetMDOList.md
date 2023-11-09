@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=atque
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=ex
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 889,
-    "Name": "Kuhic-McGlynn",
-    "ToolTip": "Nulla autem commodi.",
-    "Deleted": true,
-    "Rank": 555,
-    "Type": "ea",
+    "Id": 480,
+    "Name": "Mraz-Leuschke",
+    "ToolTip": "Optio nobis eius.",
+    "Deleted": false,
+    "Rank": 488,
+    "Type": "sequi",
     "ChildItems": [
       {
-        "Id": 383,
-        "Name": "Nicolas-Daugherty",
-        "ToolTip": "Ut eligendi et placeat asperiores repellat blanditiis repellendus.",
+        "Id": 210,
+        "Name": "Cassin, Nienow and Casper",
+        "ToolTip": "Est eligendi quisquam dolorem aut rerum.",
         "Deleted": false,
-        "Rank": 989,
-        "Type": "ipsam",
+        "Rank": 492,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 2,
-        "ExtraInfo": "quia",
-        "StyleHint": "dolor",
-        "FullName": "Miss Katheryn Glover",
+        "IconHint": "voluptatem",
+        "ColorBlock": 820,
+        "ExtraInfo": "aperiam",
+        "StyleHint": "ullam",
+        "FullName": "Dillon O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 653
+            "FieldLength": 399
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 999,
-    "ExtraInfo": "dolore",
-    "StyleHint": "commodi",
-    "FullName": "Della Paucek",
+    "IconHint": "fuga",
+    "ColorBlock": 399,
+    "ExtraInfo": "aut",
+    "StyleHint": "sequi",
+    "FullName": "Rhett Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldType": "System.String",
+        "FieldLength": 762
       }
     }
   }

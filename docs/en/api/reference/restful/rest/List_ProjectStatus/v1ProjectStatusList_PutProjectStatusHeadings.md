@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 572,
-    "Name": "O'Kon, Cruickshank and Fay",
-    "Tooltip": "earum",
-    "Deleted": true,
-    "Rank": 904,
-    "UdListDefinitionId": 781
+    "HeadingId": 234,
+    "Name": "Ondricka, Buckridge and VonRueden",
+    "Tooltip": "mollitia",
+    "Deleted": false,
+    "Rank": 311,
+    "UdListDefinitionId": 13
   },
   {
-    "HeadingId": 572,
-    "Name": "O'Kon, Cruickshank and Fay",
-    "Tooltip": "earum",
-    "Deleted": true,
-    "Rank": 904,
-    "UdListDefinitionId": 781
+    "HeadingId": 234,
+    "Name": "Ondricka, Buckridge and VonRueden",
+    "Tooltip": "mollitia",
+    "Deleted": false,
+    "Rank": 311,
+    "UdListDefinitionId": 13
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 491,
-    "Name": "O'Conner, Douglas and Jones",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 766,
-    "UdListDefinitionId": 525,
+    "HeadingId": 976,
+    "Name": "Torphy-Schneider",
+    "Tooltip": "explicabo",
+    "Deleted": false,
+    "Rank": 676,
+    "UdListDefinitionId": 680,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 699
       }
     }
   }

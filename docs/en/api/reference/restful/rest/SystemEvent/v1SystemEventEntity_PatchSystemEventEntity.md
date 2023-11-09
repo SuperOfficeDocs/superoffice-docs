@@ -117,18 +117,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nesciunt",
+    "path": "amet",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nesciunt",
+    "path": "amet",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 836,
+  "SystemEventId": 348,
   "Scope": "Database",
-  "Eta": "2008-03-09T03:24:51.927622+01:00",
-  "Eventkey": "voluptatem",
-  "Eventmess": "aliquam",
-  "ExtraInfo": 326,
-  "Owner": 32,
-  "UpdatedCount": 275,
-  "Registered": "2006-05-29T03:24:51.927622+02:00",
+  "Eta": "1997-05-12T11:06:42.2384781+02:00",
+  "Eventkey": "ratione",
+  "Eventmess": "omnis",
+  "ExtraInfo": 73,
+  "Owner": 40,
+  "UpdatedCount": 463,
+  "Registered": "2003-06-24T11:06:42.2384781+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 822
+      "FieldType": "System.Int32",
+      "FieldLength": 272
     }
   },
   "_Links": {

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Koelpin, Shanahan and Wiegand",
-    "ToolTip": "Vero est asperiores ut vel dolorum.",
-    "Deleted": false,
-    "Rank": 32,
-    "Type": "natus",
-    "ColorBlock": 909,
-    "IconHint": "dolore",
+    "Id": 335,
+    "Name": "Barrows-Walsh",
+    "ToolTip": "Nobis dolorum est cum.",
+    "Deleted": true,
+    "Rank": 346,
+    "Type": "odio",
+    "ColorBlock": 319,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2017-02-25T03:24:52.2869587+01:00",
+    "LastChanged": "2023-10-02T11:06:42.8659405+02:00",
     "ChildItems": [
       {
-        "Id": 164,
-        "Name": "Lebsack-Lind",
-        "ToolTip": "Ea non ex eum maiores et odit.",
+        "Id": 417,
+        "Name": "Swift Inc and Sons",
+        "ToolTip": "Non cumque.",
         "Deleted": true,
-        "Rank": 422,
-        "Type": "adipisci",
-        "ColorBlock": 94,
-        "IconHint": "consectetur",
+        "Rank": 571,
+        "Type": "totam",
+        "ColorBlock": 70,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2002-09-28T03:24:52.2869587+02:00",
+        "LastChanged": "2007-08-18T11:06:42.8659405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "quasi",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Forrest Ransom Satterfield III",
+        "FullName": "Miss Mellie Herta Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 136
+            "FieldType": "System.String",
+            "FieldLength": 914
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "eos",
+    "ExtraInfo": "aut",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Katlynn Collier",
+    "FullName": "Ms. Columbus Luigi Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 388
+        "FieldType": "System.Int32",
+        "FieldLength": 812
       }
     }
   }

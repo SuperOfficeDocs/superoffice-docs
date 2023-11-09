@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 41
+  "Id": 929
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 357,
-    "Name": "McGlynn Inc and Sons",
-    "Tooltip": "provident",
+    "HeadingId": 53,
+    "Name": "Bayer, Bechtelar and Robel",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 338,
-    "UdListDefinitionId": 773,
+    "Rank": 562,
+    "UdListDefinitionId": 657,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldLength": 627
       }
     }
   }

@@ -83,15 +83,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 863,
-  "PersonName": "Auer, Hoppe and Schinner",
+  "ContactId": 635,
+  "PersonName": "Kessler-Heaney",
   "PhoneNumbers": [
-    "958110",
-    "854089"
+    "921765",
+    "450250"
   ],
   "Emails": [
-    "katlynn@buckridge.biz",
-    "isidro_tromp@oconnerrau.info"
+    "annabelle@farrell.biz",
+    "oscar@carterconnelly.ca"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldType": "System.String",
+      "FieldLength": 95
     }
   }
 }

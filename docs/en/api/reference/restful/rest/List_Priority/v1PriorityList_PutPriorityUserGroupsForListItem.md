@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "Beier-Ratke",
-    "ToolTip": "Velit dignissimos fugit pariatur veritatis corporis reprehenderit.",
+    "Id": 866,
+    "Name": "Hudson, Beatty and McDermott",
+    "ToolTip": "Sit aspernatur est omnis est.",
     "Deleted": false,
-    "Rank": 977,
-    "Type": "aut",
-    "ColorBlock": 619,
-    "IconHint": "consequatur",
+    "Rank": 248,
+    "Type": "minima",
+    "ColorBlock": 332,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2008-11-11T03:24:52.3025813+01:00",
+    "LastChanged": "2017-02-21T11:06:42.8971908+01:00",
     "ChildItems": [
       {
-        "Id": 753,
-        "Name": "Jast, Osinski and Stanton",
-        "ToolTip": "Quos tenetur corrupti eligendi ut molestias alias.",
-        "Deleted": true,
-        "Rank": 72,
-        "Type": "necessitatibus",
-        "ColorBlock": 838,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2012-10-06T03:24:52.3025813+02:00",
+        "Id": 218,
+        "Name": "Kuhlman, Hoppe and Schoen",
+        "ToolTip": "Soluta deserunt.",
+        "Deleted": false,
+        "Rank": 257,
+        "Type": "facilis",
+        "ColorBlock": 519,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2007-10-26T11:06:42.8971908+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "et",
+        "ExtraInfo": "autem",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Elwyn Skiles MD"
+        "FullName": "Prof. Anthony Myrtie Bartoletti V"
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "libero",
+    "ExtraInfo": "sed",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Esperanza Pacocha DVM"
+    "FullName": "Nathanial Kuhic"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Flatley Group",
-    "ToolTip": "Omnis vel doloribus voluptate architecto nemo.",
+    "Id": 754,
+    "Name": "Bernhard Group",
+    "ToolTip": "Soluta ut quos veniam adipisci consequuntur laboriosam eveniet.",
     "Deleted": true,
-    "Rank": 66,
-    "Type": "et",
-    "ColorBlock": 992,
-    "IconHint": "laboriosam",
+    "Rank": 920,
+    "Type": "quo",
+    "ColorBlock": 526,
+    "IconHint": "ab",
     "Selected": false,
-    "LastChanged": "2016-11-03T03:24:52.3025813+01:00",
+    "LastChanged": "2017-08-26T11:06:42.8971908+02:00",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Bartell-Emmerich",
-        "ToolTip": "Et rerum harum facere.",
+        "Id": 148,
+        "Name": "Friesen-Bernier",
+        "ToolTip": "Est voluptatem possimus velit.",
         "Deleted": false,
-        "Rank": 787,
-        "Type": "mollitia",
-        "ColorBlock": 134,
-        "IconHint": "error",
+        "Rank": 165,
+        "Type": "quam",
+        "ColorBlock": 533,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2011-12-27T03:24:52.3025813+01:00",
+        "LastChanged": "2001-08-24T11:06:42.8971908+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "nemo",
+        "StyleHint": "corrupti",
         "Hidden": true,
-        "FullName": "Dr. Carroll Schaefer",
+        "FullName": "Prof. Kaley Daniel PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 35
+            "FieldType": "System.String",
+            "FieldLength": 124
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "eum",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Ms. Bo Trevor Kuhlman I",
+    "FullName": "Mr. Celine Bette Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldLength": 597
       }
     }
   }

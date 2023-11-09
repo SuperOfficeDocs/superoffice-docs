@@ -85,15 +85,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 252,
-  "ChatSessionId": 854,
+  "ChatMessageId": 986,
+  "ChatSessionId": 475,
   "Type": "Invalid",
-  "Message": "sunt",
-  "Author": "corrupti",
-  "ReadByCustomer": 296,
+  "Message": "possimus",
+  "Author": "autem",
+  "ReadByCustomer": 754,
   "SpecialType": "Block",
-  "SpecialParam": "ut",
-  "WhenPosted": "2023-08-31T03:24:51.4429545+02:00"
+  "SpecialParam": "dolorem",
+  "WhenPosted": "2008-11-05T11:06:41.5353656+01:00"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 172,
-  "ChatSessionId": 452,
+  "ChatMessageId": 5,
+  "ChatSessionId": 669,
   "Type": "Invalid",
-  "Message": "sunt",
-  "Author": "est",
-  "ReadByCustomer": 484,
+  "Message": "ut",
+  "Author": "voluptatem",
+  "ReadByCustomer": 964,
   "SpecialType": "Block",
-  "SpecialParam": "autem",
-  "WhenPosted": "2004-12-22T03:24:51.4429545+01:00"
+  "SpecialParam": "laborum",
+  "WhenPosted": "2010-04-11T11:06:41.5353656+02:00"
 }
 ```

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 501,
-  "ColumnId": 574,
-  "FieldDefault": "alias",
-  "FieldHeight": 660,
-  "FieldLabel": "ut",
-  "FieldLeft": 489,
-  "FieldTop": 342,
+  "UDefFieldId": 129,
+  "ColumnId": 724,
+  "FieldDefault": "perferendis",
+  "FieldHeight": 795,
+  "FieldLabel": "beatae",
+  "FieldLeft": 887,
+  "FieldTop": 154,
   "FieldType": "Checkbox",
-  "FieldWidth": 23,
-  "FormatMask": "facilis",
+  "FieldWidth": 380,
+  "FormatMask": "ut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 137,
-  "LabelLeft": 396,
-  "LabelTop": 494,
-  "LabelWidth": 423,
-  "LastVersionId": 834,
-  "ListTableId": 963,
-  "IsMandatory": true,
+  "LabelHeight": 283,
+  "LabelLeft": 306,
+  "LabelTop": 717,
+  "LabelWidth": 861,
+  "LastVersionId": 49,
+  "ListTableId": 228,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 132,
-  "ProgId": "accusantium",
+  "Page1LineNo": 821,
+  "ProgId": "aliquam",
   "IsReadOnly": false,
-  "ShortLabel": "quis",
-  "TabOrder": 79,
-  "TextLength": 405,
-  "Tooltip": "sed",
-  "UdefIdentity": 281,
-  "UDListDefinitionId": 810,
+  "ShortLabel": "suscipit",
+  "TabOrder": 598,
+  "TextLength": 406,
+  "Tooltip": "consequuntur",
+  "UdefIdentity": 763,
+  "UDListDefinitionId": 593,
   "Justification": "Center",
-  "Version": 701,
-  "TemplateVariableName": "Pollich, Will and Kerluke",
-  "HasBeenPublished": false,
-  "MdoListName": "Herzog Inc and Sons",
+  "Version": 353,
+  "TemplateVariableName": "Jakubowski Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Strosin LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldType": "System.Int32",
+      "FieldLength": 338
     }
   }
 }

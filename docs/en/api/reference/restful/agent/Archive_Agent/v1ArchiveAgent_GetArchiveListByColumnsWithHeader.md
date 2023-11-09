@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Graham, Lubowitz and Marks",
+  "ProviderName": "Kunze-Littel",
   "Columns": [
-    "et",
-    "commodi"
+    "perferendis",
+    "iure"
   ],
   "SortOrder": [
     {
-      "Name": "Parker Inc and Sons",
+      "Name": "Bergnaum, Kling and Padberg",
       "Direction": "ASC"
     },
     {
-      "Name": "Parker Inc and Sons",
+      "Name": "Bergnaum, Kling and Padberg",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kuvalis, Nitzsche and Borer",
-      "Operator": "mollitia",
+      "Name": "Labadie LLC",
+      "Operator": "dicta",
       "Values": [
-        "corrupti",
-        "doloribus"
+        "itaque",
+        "aperiam"
       ],
       "DisplayValues": [
-        "numquam",
-        "quo"
+        "beatae",
+        "incidunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 424,
+      "InterParenthesis": 36,
       "InterOperator": "And",
-      "UniqueHash": 180
+      "UniqueHash": 886
     }
   ],
   "Entities": [
-    "quo",
-    "officiis"
+    "officia",
+    "reprehenderit"
   ],
-  "Page": 529,
-  "PageSize": 934,
-  "Options": "fugiat"
+  "Page": 259,
+  "PageSize": 416,
+  "Options": "rerum"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 668,
+  "RowCount": 406,
   "Rows": [
     {
-      "EntityName": "Tromp, Gottlieb and Harvey",
-      "PrimaryKey": 552,
+      "EntityName": "Pagac, Jaskolski and Marks",
+      "PrimaryKey": 182,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "vel",
-          "TooltipHint": "eos",
-          "LinkHint": "consequatur"
+          "DisplayValue": "ab",
+          "TooltipHint": "esse",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "magni",
-      "StyleHint": "quis",
+      "LinkHint": "reprehenderit",
+      "StyleHint": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 64
+          "FieldType": "System.Int32",
+          "FieldLength": 1001
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldType": "System.String",
+      "FieldLength": 879
     }
   }
 }

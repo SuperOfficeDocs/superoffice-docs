@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 714,
+  "TargetYear": 532,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 912,
-  "DimensionId": 749
+  "Id": 641,
+  "DimensionId": 208
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 356,
+  "TargetAssignmentInfoId": 923,
   "Values": [
-    20,
-    127
+    400,
+    444
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 16,
-  "DimensionListItemDisplayName": "Bailey Group",
+  "DimensionListItem": 532,
+  "DimensionListItemDisplayName": "Dibbert LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldType": "System.String",
+      "FieldLength": 730
     }
   }
 }

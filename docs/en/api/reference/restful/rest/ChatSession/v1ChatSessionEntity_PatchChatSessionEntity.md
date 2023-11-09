@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 347,
-  "TopicId": 495,
+  "ChatSessionId": 15,
+  "TopicId": 309,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quaerat",
-  "CustomerHost": "vel",
-  "CustomerName": "Prosacco-Wiegand",
-  "CustomerEmail": "joanny.mills@gislasonlueilwitz.us",
-  "CustomerPhone": "958.656.4642",
+  "CustomerAlias": "fuga",
+  "CustomerHost": "sequi",
+  "CustomerName": "Bailey-Cartwright",
+  "CustomerEmail": "elias@halvorsoncarter.biz",
+  "CustomerPhone": "1-221-385-9361 x860",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Towne LLC",
+  "CustomerCompanyName": "Mitchell Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "sint",
-  "LastMessage": "ab",
-  "WhenRequested": "2005-05-12T03:24:51.3960792+02:00",
-  "WhenStarted": "2010-11-26T03:24:51.3960792+01:00",
-  "WhenEnded": "2002-06-09T03:24:51.3960792+02:00",
-  "WhenIdle": "2002-04-26T03:24:51.3960792+02:00",
-  "WhenFetched": "2015-03-17T03:24:51.3960792+01:00",
-  "SessionKey": "nesciunt",
-  "InitialQueuePos": 693,
-  "AlertLevel": 949,
-  "Rank": 311,
+  "FirstMessage": "magnam",
+  "LastMessage": "quia",
+  "WhenRequested": "1996-07-20T11:06:41.4728673+02:00",
+  "WhenStarted": "2002-06-05T11:06:41.4728673+02:00",
+  "WhenEnded": "2013-03-17T11:06:41.4728673+01:00",
+  "WhenIdle": "2006-03-03T11:06:41.4728673+01:00",
+  "WhenFetched": "2006-05-02T11:06:41.4728673+02:00",
+  "SessionKey": "quod",
+  "InitialQueuePos": 932,
+  "AlertLevel": 192,
+  "Rank": 325,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,18 +192,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 643,
+  "Rating": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldType": "System.Int32",
+      "FieldLength": 260
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

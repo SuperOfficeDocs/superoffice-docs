@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Toy, Gusikowski and Stark",
-    "ToolTip": "Odio minima ex blanditiis voluptatem esse tempore.",
-    "Deleted": true,
-    "Rank": 448,
-    "Type": "eum",
-    "ColorBlock": 597,
-    "IconHint": "similique",
-    "Selected": false,
-    "LastChanged": "2011-01-12T03:24:52.2244666+01:00",
+    "Id": 554,
+    "Name": "Okuneva LLC",
+    "ToolTip": "Ea nam sequi repellat deserunt amet et voluptas.",
+    "Deleted": false,
+    "Rank": 693,
+    "Type": "est",
+    "ColorBlock": 991,
+    "IconHint": "reiciendis",
+    "Selected": true,
+    "LastChanged": "2001-11-13T11:06:42.7565694+01:00",
     "ChildItems": [
       {
-        "Id": 364,
-        "Name": "Auer-Boyer",
-        "ToolTip": "Nisi et eaque.",
-        "Deleted": false,
-        "Rank": 811,
-        "Type": "ipsam",
-        "ColorBlock": 681,
-        "IconHint": "excepturi",
-        "Selected": true,
-        "LastChanged": "2002-08-30T03:24:52.2244666+02:00",
+        "Id": 330,
+        "Name": "Gorczany-Koelpin",
+        "ToolTip": "At voluptas.",
+        "Deleted": true,
+        "Rank": 507,
+        "Type": "sit",
+        "ColorBlock": 747,
+        "IconHint": "repellendus",
+        "Selected": false,
+        "LastChanged": "2018-05-31T11:06:42.7565694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Carlos Schumm",
+        "FullName": "Serena Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 946
+            "FieldLength": 323
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "atque",
-    "Hidden": true,
-    "FullName": "Thalia Herman II",
+    "ExtraInfo": "enim",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Noel Georgianna Wolf PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldType": "System.String",
+        "FieldLength": 127
       }
     }
   }

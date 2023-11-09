@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 51,
-  "Name": "Okuneva-Bosco",
-  "CurrencyId": 307,
-  "EnglishName": "Dietrich, Barrows and Paucek",
+  "CountryId": 354,
+  "Name": "Hane Inc and Sons",
+  "CurrencyId": 505,
+  "EnglishName": "Lueilwitz-O'Reilly",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Inverse empowering initiative",
-  "OrgNrText": "865242",
-  "InterAreaPrefix": "expedita",
-  "DialInPrefix": "quasi",
-  "ZipPrefix": "aspernatur",
-  "DomainName": "Rogahn, Hagenes and Parker",
-  "AddressLayoutId": 866,
-  "DomesticAddressLayoutId": 336,
-  "ForeignAddressLayoutId": 105,
-  "Rank": 68,
-  "Tooltip": "omnis",
+  "ImageDescription": "Triple-buffered encompassing intranet",
+  "OrgNrText": "1624955",
+  "InterAreaPrefix": "totam",
+  "DialInPrefix": "modi",
+  "ZipPrefix": "et",
+  "DomainName": "O'Hara-Grady",
+  "AddressLayoutId": 615,
+  "DomesticAddressLayoutId": 45,
+  "ForeignAddressLayoutId": 210,
+  "Rank": 470,
+  "Tooltip": "distinctio",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 459,
-  "Name": "Miller, Hermann and Strosin",
-  "CurrencyId": 126,
-  "EnglishName": "Tremblay, Gulgowski and Moen",
+  "CountryId": 197,
+  "Name": "Lemke LLC",
+  "CurrencyId": 423,
+  "EnglishName": "Walsh Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Monitored asynchronous implementation",
-  "OrgNrText": "191311",
-  "InterAreaPrefix": "dolores",
-  "DialInPrefix": "sint",
-  "ZipPrefix": "quo",
-  "DomainName": "Reynolds Group",
-  "AddressLayoutId": 412,
-  "DomesticAddressLayoutId": 618,
-  "ForeignAddressLayoutId": 361,
-  "Rank": 561,
-  "Tooltip": "sed",
-  "Deleted": true,
+  "ImageDescription": "Switchable grid-enabled extranet",
+  "OrgNrText": "314527",
+  "InterAreaPrefix": "dolore",
+  "DialInPrefix": "iusto",
+  "ZipPrefix": "veniam",
+  "DomainName": "Kuhic-Pacocha",
+  "AddressLayoutId": 413,
+  "DomesticAddressLayoutId": 891,
+  "ForeignAddressLayoutId": 372,
+  "Rank": 184,
+  "Tooltip": "placeat",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldLength": 89
     }
   }
 }

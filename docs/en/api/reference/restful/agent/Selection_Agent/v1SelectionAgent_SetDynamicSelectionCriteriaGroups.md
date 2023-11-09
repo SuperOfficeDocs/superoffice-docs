@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 850,
+  "SelectionId": 777,
   "Criteria": [
     {
-      "Name": "Ziemann LLC",
-      "Description": "Intuitive zero administration complexity",
-      "Rank": 446,
+      "Name": "Gusikowski, Powlowski and Weber",
+      "Description": "Grass-roots transitional frame",
+      "Rank": 601,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ziemann LLC",
-      "Description": "Intuitive zero administration complexity",
-      "Rank": 446,
+      "Name": "Gusikowski, Powlowski and Weber",
+      "Description": "Grass-roots transitional frame",
+      "Rank": 601,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolff Inc and Sons",
-    "Description": "Ergonomic intermediate encoding",
-    "Rank": 180,
+    "Name": "Sporer Group",
+    "Description": "Profit-focused mission-critical alliance",
+    "Rank": 929,
     "Restrictions": [
       {
-        "Name": "Okuneva Group",
-        "Operator": "est",
+        "Name": "Wisoky, Hartmann and Krajcik",
+        "Operator": "maiores",
         "Values": [
-          "praesentium",
-          "consequuntur"
+          "reprehenderit",
+          "labore"
         ],
         "DisplayValues": [
-          "aut",
-          "ea"
+          "illo",
+          "officia"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 421,
+        "InterParenthesis": 826,
         "InterOperator": "And",
-        "UniqueHash": 307
+        "UniqueHash": 393
       }
     ]
   },
   {
-    "Name": "Wolff Inc and Sons",
-    "Description": "Ergonomic intermediate encoding",
-    "Rank": 180,
+    "Name": "Sporer Group",
+    "Description": "Profit-focused mission-critical alliance",
+    "Rank": 929,
     "Restrictions": [
       {
-        "Name": "Okuneva Group",
-        "Operator": "est",
+        "Name": "Wisoky, Hartmann and Krajcik",
+        "Operator": "maiores",
         "Values": [
-          "praesentium",
-          "consequuntur"
+          "reprehenderit",
+          "labore"
         ],
         "DisplayValues": [
-          "aut",
-          "ea"
+          "illo",
+          "officia"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 421,
+        "InterParenthesis": 826,
         "InterOperator": "And",
-        "UniqueHash": 307
+        "UniqueHash": 393
       }
     ]
   }

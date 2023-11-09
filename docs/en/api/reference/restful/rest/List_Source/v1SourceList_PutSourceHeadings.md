@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 971,
-    "Name": "Steuber, Mayert and Dach",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "Rank": 709,
-    "UdListDefinitionId": 227
+    "HeadingId": 988,
+    "Name": "Jacobs, Littel and Cassin",
+    "Tooltip": "esse",
+    "Deleted": false,
+    "Rank": 131,
+    "UdListDefinitionId": 197
   },
   {
-    "HeadingId": 971,
-    "Name": "Steuber, Mayert and Dach",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "Rank": 709,
-    "UdListDefinitionId": 227
+    "HeadingId": 988,
+    "Name": "Jacobs, Littel and Cassin",
+    "Tooltip": "esse",
+    "Deleted": false,
+    "Rank": 131,
+    "UdListDefinitionId": 197
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 285,
-    "Name": "Kreiger Group",
-    "Tooltip": "recusandae",
-    "Deleted": false,
-    "Rank": 336,
-    "UdListDefinitionId": 237,
+    "HeadingId": 728,
+    "Name": "VonRueden Group",
+    "Tooltip": "incidunt",
+    "Deleted": true,
+    "Rank": 22,
+    "UdListDefinitionId": 907,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldLength": 562
       }
     }
   }

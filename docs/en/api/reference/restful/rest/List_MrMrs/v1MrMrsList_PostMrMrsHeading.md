@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 319,
-  "Name": "Cassin Group",
-  "Tooltip": "minus",
-  "Deleted": true,
-  "Rank": 581,
-  "UdListDefinitionId": 795
+  "HeadingId": 598,
+  "Name": "Kulas-Carroll",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "Rank": 851,
+  "UdListDefinitionId": 307
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 320,
-  "Name": "Schumm-McClure",
-  "Tooltip": "voluptatibus",
+  "HeadingId": 914,
+  "Name": "Kling, Huels and Wehner",
+  "Tooltip": "error",
   "Deleted": true,
-  "Rank": 966,
-  "UdListDefinitionId": 266,
+  "Rank": 653,
+  "UdListDefinitionId": 447,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 549
+      "FieldType": "System.Int32",
+      "FieldLength": 294
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "Name": "Beier Inc and Sons",
-  "Tooltip": "dolor",
+  "Id": 398,
+  "Name": "Rutherford LLC",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 750,
-  "Rank": 342,
+  "UdListDefinitionId": 975,
+  "Rank": 435,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   }
 }

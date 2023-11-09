@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=sunt
+GET /api/v1/List/Currency/MDOItems?query=reprehenderit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 748,
-    "Name": "Bernhard, Koepp and Stiedemann",
-    "ToolTip": "Exercitationem blanditiis voluptas repudiandae similique.",
-    "Deleted": false,
-    "Rank": 914,
-    "Type": "aliquid",
+    "Id": 690,
+    "Name": "Gusikowski, Mohr and Hudson",
+    "ToolTip": "Delectus corporis voluptatibus reprehenderit sed omnis aliquam blanditiis.",
+    "Deleted": true,
+    "Rank": 482,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 814,
-        "Name": "Gislason LLC",
-        "ToolTip": "Animi aut et assumenda occaecati ad tenetur laboriosam.",
+        "Id": 487,
+        "Name": "Corkery Group",
+        "ToolTip": "Et quam temporibus dolorum sed.",
         "Deleted": false,
-        "Rank": 679,
-        "Type": "temporibus",
+        "Rank": 55,
+        "Type": "nam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 956,
-        "ExtraInfo": "consectetur",
-        "StyleHint": "ipsum",
-        "FullName": "Katelynn Adams",
+        "IconHint": "et",
+        "ColorBlock": 178,
+        "ExtraInfo": "velit",
+        "StyleHint": "voluptatem",
+        "FullName": "Lucas Stamm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 220
+            "FieldType": "System.Int32",
+            "FieldLength": 684
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 372,
+    "IconHint": "magnam",
+    "ColorBlock": 542,
     "ExtraInfo": "voluptas",
-    "StyleHint": "facere",
-    "FullName": "Vicente Skiles",
+    "StyleHint": "architecto",
+    "FullName": "Keira Greenfelder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 343
+        "FieldLength": 931
       }
     }
   }

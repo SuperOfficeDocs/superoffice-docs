@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "McKenzie, Bartoletti and Green",
-    "ToolTip": "Numquam qui earum architecto magni.",
-    "Deleted": true,
-    "Rank": 211,
-    "Type": "ut",
-    "ColorBlock": 316,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2002-07-02T03:24:52.4119449+02:00",
+    "Id": 514,
+    "Name": "Luettgen-Muller",
+    "ToolTip": "Officia corrupti consequatur itaque quidem.",
+    "Deleted": false,
+    "Rank": 2,
+    "Type": "minima",
+    "ColorBlock": 259,
+    "IconHint": "natus",
+    "Selected": true,
+    "LastChanged": "2022-07-01T11:06:43.069069+02:00",
     "ChildItems": [
       {
-        "Id": 301,
-        "Name": "Carter LLC",
-        "ToolTip": "Nesciunt aut voluptates voluptatibus quas dolore dolore.",
-        "Deleted": true,
-        "Rank": 996,
-        "Type": "autem",
-        "ColorBlock": 595,
-        "IconHint": "cum",
-        "Selected": false,
-        "LastChanged": "2006-02-24T03:24:52.4119449+01:00",
+        "Id": 996,
+        "Name": "Trantow, Vandervort and Kling",
+        "ToolTip": "Vel eos provident distinctio nesciunt.",
+        "Deleted": false,
+        "Rank": 426,
+        "Type": "ea",
+        "ColorBlock": 849,
+        "IconHint": "perferendis",
+        "Selected": true,
+        "LastChanged": "2008-11-15T11:06:43.069069+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "aut",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Layne Sporer",
+        "FullName": "Rowan Lesch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 1001
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "fugiat",
-    "Hidden": true,
-    "FullName": "Arturo Rempel",
+    "ExtraInfo": "quia",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Jarrod Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 392
+        "FieldLength": 578
       }
     }
   }

@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 274
+  "ContactId": 533
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Moore Group",
-    "SaleDate": "2014-09-19T03:24:48.2207231+02:00",
-    "SaleId": 763,
-    "Probability": 651,
-    "Title": "accusamus",
-    "Amount": 18481.198,
-    "Currency": "provident",
-    "ProjectName": "Kertzmann-Pfeffer",
-    "AssociateFullName": "Miss Tate Paige O'Reilly",
-    "Description": "Realigned fresh-thinking methodology",
+    "ContactName": "Reinger, Erdman and Stark",
+    "SaleDate": "2012-04-02T11:06:35.3333182+02:00",
+    "SaleId": 489,
+    "Probability": 478,
+    "Title": "maxime",
+    "Amount": 6327.5459999999994,
+    "Currency": "est",
+    "ProjectName": "Hayes-Jaskolski",
+    "AssociateFullName": "Dr. Celestino Abernathy",
+    "Description": "Total analyzing migration",
     "Status": "Lost",
-    "WeightedAmount": 11357.616,
-    "ProjectId": 380,
-    "EarningPercent": 24435.798,
-    "Earning": 30133.41,
-    "ContactId": 430,
-    "AssociateId": 893,
-    "PersonId": 468,
-    "SaleTypeId": 668,
-    "SaleTypeName": "Kunze-Borer",
-    "PersonFullName": "Ms. Christ Elbert Rempel",
+    "WeightedAmount": 15011.859999999999,
+    "ProjectId": 696,
+    "EarningPercent": 12128.58,
+    "Earning": 10251.314,
+    "ContactId": 6,
+    "AssociateId": 193,
+    "PersonId": 647,
+    "SaleTypeId": 213,
+    "SaleTypeName": "Huel-Morar",
+    "PersonFullName": "Prof. Mavis Myrtie Herzog III",
     "Completed": "Completed",
-    "ActiveErpLinks": 879,
-    "NextDueDate": "2023-09-02T03:24:48.2207231+02:00",
-    "Number": "1070075",
+    "ActiveErpLinks": 211,
+    "NextDueDate": "2011-06-14T11:06:35.3333182+02:00",
+    "Number": "1198716",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 654
+        "FieldLength": 776
       }
     }
   }

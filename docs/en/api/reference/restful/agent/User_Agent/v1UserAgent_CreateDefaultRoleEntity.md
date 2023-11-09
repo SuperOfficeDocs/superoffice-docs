@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 133,
-  "Name": "Beatty LLC",
-  "Tooltip": "repellat",
+  "RoleId": 222,
+  "Name": "Gottlieb, Price and Nikolaus",
+  "Tooltip": "doloribus",
   "RoleType": "Anonymous",
-  "Deleted": 253,
-  "Rank": 641,
-  "Created": "2016-11-18T03:24:48.5341362+01:00",
-  "UseCategories": 246,
+  "Deleted": 81,
+  "Rank": 958,
+  "Created": "2012-07-06T11:06:35.6627548+02:00",
+  "UseCategories": 281,
   "CreatedBy": null,
-  "Updated": "2004-11-23T03:24:48.5341362+01:00",
+  "Updated": "2010-04-27T11:06:35.6627548+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 337
     }
   }
 }

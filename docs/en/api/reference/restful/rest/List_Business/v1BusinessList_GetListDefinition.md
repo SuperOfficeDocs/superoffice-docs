@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 210,
-  "Name": "Bode, Hudson and Friesen",
-  "Tooltip": "ex",
+  "Id": 843,
+  "Name": "Kuhn, Larson and Barton",
+  "Tooltip": "praesentium",
   "Deleted": true,
-  "Rank": 994,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 737,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
+  "ListType": "incidunt",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldType": "System.Int32",
+      "FieldLength": 802
     }
   },
   "_Links": {

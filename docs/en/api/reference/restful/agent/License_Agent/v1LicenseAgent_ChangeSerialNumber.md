@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "O'Conner-Denesik",
-  "NewSerialNumber": "1147811"
+  "NewCompanyName": "Erdman Inc and Sons",
+  "NewSerialNumber": "1040910"
 }
 ```
 
@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": true,
-  "Reason": "empower bricks-and-clicks applications",
+  "Succeeded": false,
+  "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 764
     }
   }
 }

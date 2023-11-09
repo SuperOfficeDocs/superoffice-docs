@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 202
+  "QuoteAlternativeId": 210
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 827,
-    "ERPQuoteLineKey": "minus",
-    "QuoteAlternativeId": 572,
-    "ERPProductKey": "placeat",
+    "QuoteLineId": 724,
+    "ERPQuoteLineKey": "officia",
+    "QuoteAlternativeId": 675,
+    "ERPProductKey": "est",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 26253.518,
-    "DeliveredQuantity": 29550.486,
-    "Rank": 128,
-    "Name": "Hermann Inc and Sons",
-    "Description": "Object-based eco-centric toolset",
-    "Code": "ut",
-    "QuantityUnit": "eveniet",
-    "PriceUnit": "alias",
-    "ItemNumber": "834176",
+    "Quantity": 26015.334,
+    "DeliveredQuantity": 2757.92,
+    "Rank": 689,
+    "Name": "Bayer-Gleason",
+    "Description": "Integrated bandwidth-monitored array",
+    "Code": "quo",
+    "QuantityUnit": "et",
+    "PriceUnit": "praesentium",
+    "ItemNumber": "1284266",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "vel",
-    "ProductTypeKey": "aspernatur",
-    "Supplier": "reiciendis",
-    "SupplierCode": "odit",
-    "Thumbnail": "distinctio",
-    "VATInfo": "non",
-    "VAT": 27820.518,
-    "UnitCost": 1523.124,
-    "UnitMinimumPrice": 23818.399999999998,
-    "UnitListPrice": 27550.994,
+    "ProductFamilyKey": "ipsum",
+    "ProductTypeKey": "voluptatum",
+    "Supplier": "accusamus",
+    "SupplierCode": "perferendis",
+    "Thumbnail": "repellendus",
+    "VATInfo": "vero",
+    "VAT": 30039.39,
+    "UnitCost": 7286.55,
+    "UnitMinimumPrice": 15488.228,
+    "UnitListPrice": 4509.826,
     "ExtraInfo": [
       {
-        "Name": "Pouros, Gaylord and Bayer",
-        "Value": "velit",
+        "Name": "Friesen-Johns",
+        "Value": "quia",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 414
+            "FieldType": "System.Int32",
+            "FieldLength": 335
           }
         }
       },
       {
-        "Name": "Pouros, Gaylord and Bayer",
-        "Value": "velit",
+        "Name": "Friesen-Johns",
+        "Value": "quia",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 414
+            "FieldType": "System.Int32",
+            "FieldLength": 335
           }
         }
       }
     ],
-    "RawExtraInfo": "voluptas",
-    "IsSubscription": false,
-    "SubscriptionUnit": "eum",
-    "SubscriptionQuantity": 19759.87,
-    "SubscriptionStart": "2002-02-19T03:24:48.1582254+01:00",
-    "ERPDiscountPercent": 15206.168,
-    "ERPDiscountAmount": 15566.578,
-    "DiscountPercent": 18036.17,
-    "DiscountAmount": 53.278,
+    "RawExtraInfo": "voluptatem",
+    "IsSubscription": true,
+    "SubscriptionUnit": "asperiores",
+    "SubscriptionQuantity": 3579.028,
+    "SubscriptionStart": "2004-10-09T11:06:35.2395651+02:00",
+    "ERPDiscountPercent": 12351.094,
+    "ERPDiscountAmount": 25833.561999999998,
+    "DiscountPercent": 18001.696,
+    "DiscountAmount": 10552.178,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 17901.408,
-    "EarningAmount": 16155.769999999999,
-    "SubTotal": 21994.412,
-    "TotalPrice": 10138.49,
-    "Rights": "sit",
-    "Rule": "sit",
-    "ExtraField1": "sint",
-    "ExtraField2": "magni",
-    "ExtraField3": "quos",
-    "ExtraField4": "perspiciatis",
-    "ExtraField5": "maiores",
+    "EarningPercent": 9038.456,
+    "EarningAmount": 24573.694,
+    "SubTotal": 2538.54,
+    "TotalPrice": 16757.498,
+    "Rights": "perferendis",
+    "Rule": "quo",
+    "ExtraField1": "ut",
+    "ExtraField2": "sunt",
+    "ExtraField3": "sunt",
+    "ExtraField4": "tempora",
+    "ExtraField5": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldType": "System.String",
+        "FieldLength": 749
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "quia",
-  "PrefKey": "quaerat",
+  "PrefSection": "vel",
+  "PrefKey": "est",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "tempora",
+  "RawValue": "ipsum",
   "Specification": null,
-  "DisplayValue": "nulla",
-  "DisplayTooltip": "accusamus",
+  "DisplayValue": "amet",
+  "DisplayTooltip": "ex",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 376,
-  "PrefDescId": 56,
-  "TableName": "Hessel-Kreiger",
-  "UserPreferenceId": 665,
+  "TargetId": 746,
+  "PrefDescId": 85,
+  "TableName": "Hills, Jewess and Paucek",
+  "UserPreferenceId": 233,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 291
+      "FieldLength": 375
     }
   }
 }

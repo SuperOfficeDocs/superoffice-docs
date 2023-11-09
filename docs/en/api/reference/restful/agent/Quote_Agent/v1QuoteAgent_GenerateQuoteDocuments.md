@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 556,
-  "EmailBodyTemplateId": 364,
-  "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 413,
+  "QuoteVersionId": 555,
+  "EmailBodyTemplateId": 258,
+  "AttachMainDocument": false,
+  "QuotedProductsTemplateId": 734,
   "IncludeAttachments": false,
-  "RawMailSubject": "debitis"
+  "RawMailSubject": "blanditiis"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 847,
-  "QuotedProductsId": 727,
+  "QuoteDocumentId": 182,
+  "QuotedProductsId": 795,
   "QuoteAttachmentIds": [
-    311,
-    320
+    495,
+    998
   ],
-  "MailBody": "est",
-  "MailSubject": "assumenda",
-  "ToEmail": "janie.anderson@brownjacobson.name",
-  "ToFullName": "Mr. Sandrine Alexandria Huels",
-  "ErrorMessage": "sed",
+  "MailBody": "rem",
+  "MailSubject": "excepturi",
+  "ToEmail": "alessandro@bogan.ca",
+  "ToFullName": "Mrs. Rhiannon Bridie Hodkiewicz",
+  "ErrorMessage": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 260
     }
   }
 }

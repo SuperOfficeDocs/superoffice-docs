@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 621
+  "AssociateId": 448
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Steuber-Schumm",
-    "Description": "Multi-layered homogeneous Graphic Interface",
+    "Name": "Herman, Conroy and Mueller",
+    "Description": "Mandatory scalable architecture",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 935,
-        "Tooltip": "sit",
+        "Total": 754,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 190,
-        "InUse": 994,
+        "Free": 431,
+        "InUse": 823,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 62,
-        "Name": "O'Reilly, Jacobs and Kihn",
-        "Description": "Synergistic national focus group",
-        "PrerequisiteModuleName": "Koss LLC",
-        "SortOrder": 934,
-        "ExtraFlags": 518,
+        "ModuleLicenseId": 308,
+        "Name": "Ebert Inc and Sons",
+        "Description": "Exclusive object-oriented local area network",
+        "PrerequisiteModuleName": "Bailey Inc and Sons",
+        "SortOrder": 562,
+        "ExtraFlags": 399,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 563
+            "FieldLength": 88
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 300,
-        "Tooltip": "minus",
-        "CanAssign": true,
-        "Free": 296,
-        "InUse": 739,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 639,
-        "Name": "Glover, Gutmann and Schumm",
-        "Description": "Profit-focused zero tolerance secured line",
-        "PrerequisiteModuleName": "Harber-Auer",
-        "SortOrder": 162,
-        "ExtraFlags": 112,
+        "Unrestricted": true,
+        "Total": 878,
+        "Tooltip": "aperiam",
+        "CanAssign": false,
+        "Free": 887,
+        "InUse": 135,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 356,
+        "Name": "Halvorson Group",
+        "Description": "Grass-roots hybrid website",
+        "PrerequisiteModuleName": "Block-Strosin",
+        "SortOrder": 875,
+        "ExtraFlags": 566,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 370
+            "FieldType": "System.Int32",
+            "FieldLength": 36
           }
         }
       }
@@ -150,62 +150,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldType": "System.String",
+        "FieldLength": 970
       }
     }
   },
   {
-    "Name": "Steuber-Schumm",
-    "Description": "Multi-layered homogeneous Graphic Interface",
+    "Name": "Herman, Conroy and Mueller",
+    "Description": "Mandatory scalable architecture",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 935,
-        "Tooltip": "sit",
+        "Total": 754,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 190,
-        "InUse": 994,
+        "Free": 431,
+        "InUse": 823,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 62,
-        "Name": "O'Reilly, Jacobs and Kihn",
-        "Description": "Synergistic national focus group",
-        "PrerequisiteModuleName": "Koss LLC",
-        "SortOrder": 934,
-        "ExtraFlags": 518,
+        "ModuleLicenseId": 308,
+        "Name": "Ebert Inc and Sons",
+        "Description": "Exclusive object-oriented local area network",
+        "PrerequisiteModuleName": "Bailey Inc and Sons",
+        "SortOrder": 562,
+        "ExtraFlags": 399,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 563
+            "FieldLength": 88
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 300,
-        "Tooltip": "minus",
-        "CanAssign": true,
-        "Free": 296,
-        "InUse": 739,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 639,
-        "Name": "Glover, Gutmann and Schumm",
-        "Description": "Profit-focused zero tolerance secured line",
-        "PrerequisiteModuleName": "Harber-Auer",
-        "SortOrder": 162,
-        "ExtraFlags": 112,
+        "Unrestricted": true,
+        "Total": 878,
+        "Tooltip": "aperiam",
+        "CanAssign": false,
+        "Free": 887,
+        "InUse": 135,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 356,
+        "Name": "Halvorson Group",
+        "Description": "Grass-roots hybrid website",
+        "PrerequisiteModuleName": "Block-Strosin",
+        "SortOrder": 875,
+        "ExtraFlags": 566,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 370
+            "FieldType": "System.Int32",
+            "FieldLength": 36
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldType": "System.String",
+        "FieldLength": 970
       }
     }
   }

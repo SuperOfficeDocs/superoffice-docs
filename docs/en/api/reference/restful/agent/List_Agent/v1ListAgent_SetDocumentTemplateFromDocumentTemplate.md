@@ -102,7 +102,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 628,
+  "SourceDocumentTemplateId": 213,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 715,
-  "Name": "Bailey Inc and Sons",
-  "Tooltip": "porro",
-  "SaveInDb": 838,
-  "Filename": "rem",
-  "DefaultOref": "non",
+  "DocumentTemplateId": 435,
+  "Name": "Rogahn LLC",
+  "Tooltip": "dolorem",
+  "SaveInDb": 362,
+  "Filename": "quidem",
+  "DefaultOref": "praesentium",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 843,
-  "IntentId": 607,
-  "IsDefaultPublished": false,
-  "Rank": 719,
-  "LoadTemplateFromPlugin": 952,
-  "MimeType": "modi",
+  "AutoeventId": 621,
+  "IntentId": 564,
+  "IsDefaultPublished": true,
+  "Rank": 602,
+  "LoadTemplateFromPlugin": 184,
+  "MimeType": "labore",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 58,
+  "DocumentTypeKey": 750,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "allen@torpdickens.com",
-  "IncludeSignature": true,
+  "EmailSubject": "rigoberto@spinkahills.name",
+  "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "cecile@bailey.com",
+  "SenderEmailAddress": "keegan.boyle@fritsch.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldType": "System.String",
+      "FieldLength": 208
     }
   }
 }

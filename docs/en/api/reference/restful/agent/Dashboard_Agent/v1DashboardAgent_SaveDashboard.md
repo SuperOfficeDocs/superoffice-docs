@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 205,
-  "AssociateId": 679,
-  "Caption": "qui",
+  "DashboardId": 554,
+  "AssociateId": 217,
+  "Caption": "doloremque",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 743,
-      "Caption": "ad",
-      "Description": "Intuitive radical structure",
-      "ChartName": "Zboncak LLC",
-      "ChartId": "ipsa",
+      "DashboardTileId": 644,
+      "Caption": "quas",
+      "Description": "Realigned multimedia database",
+      "ChartName": "Lebsack LLC",
+      "ChartId": "dolor",
       "IsDefault": false,
-      "AssociateId": 613,
-      "GroupId": 134,
-      "SelectionId": 373,
-      "Config": "quibusdam",
+      "AssociateId": 853,
+      "GroupId": 206,
+      "SelectionId": 841,
+      "Config": "magni",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 980,
-  "AssociateId": 387,
-  "Caption": "accusamus",
+  "DashboardId": 8,
+  "AssociateId": 650,
+  "Caption": "qui",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 551,
-      "Caption": "nihil",
-      "Description": "Business-focused maximized process improvement",
-      "ChartName": "Nikolaus, Casper and Metz",
-      "ChartId": "et",
-      "IsDefault": true,
-      "AssociateId": 333,
-      "GroupId": 425,
-      "SelectionId": 17,
-      "Config": "eveniet",
+      "DashboardTileId": 501,
+      "Caption": "ea",
+      "Description": "Open-source needs-based alliance",
+      "ChartName": "Lemke-Kertzmann",
+      "ChartId": "occaecati",
+      "IsDefault": false,
+      "AssociateId": 950,
+      "GroupId": 2,
+      "SelectionId": 642,
+      "Config": "tenetur",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 990
+          "FieldType": "System.Int32",
+          "FieldLength": 255
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 600
+      "FieldType": "System.Int32",
+      "FieldLength": 575
     }
   }
 }

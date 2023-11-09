@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=557
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=994
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -118,7 +118,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,64 +128,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 416,
-  "StartDate": "2000-09-07T03:24:47.0803445+02:00",
-  "EndDate": "2019-08-15T03:24:47.0803445+02:00",
+  "AppointmentId": 42,
+  "StartDate": "2003-05-04T11:06:33.5382346+02:00",
+  "EndDate": "2003-02-27T11:06:33.5382346+01:00",
   "Type": "BookingForChecklist",
-  "Task": "ea",
-  "AssociateFullName": "Abner Spencer",
-  "ContactName": "Jewess, Russel and Gottlieb",
-  "Description": "Sharable local local area network",
-  "PersonFullName": "Jimmie Gulgowski",
-  "PersonId": 268,
-  "ContactId": 463,
-  "ProjectId": 776,
-  "ProjectName": "Sauer-Altenwerth",
-  "IsPublished": true,
-  "AssociateId": 344,
-  "ColorIndex": 333,
+  "Task": "ut",
+  "AssociateFullName": "Fae Reichel PhD",
+  "ContactName": "Hilll-Sawayn",
+  "Description": "Fundamental solution-oriented application",
+  "PersonFullName": "Mrs. Nelle Bauch",
+  "PersonId": 80,
+  "ContactId": 540,
+  "ProjectId": 301,
+  "ProjectName": "Fahey Inc and Sons",
+  "IsPublished": false,
+  "AssociateId": 550,
+  "ColorIndex": 660,
   "IsFree": false,
-  "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "HasAlarm": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 334,
-  "PriorityName": "Lubowitz-Lockman",
+  "PriorityId": 729,
+  "PriorityName": "Emard LLC",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "2015-07-22T03:24:47.0803445+02:00",
+  "IsBooking": false,
+  "ActiveDate": "2011-05-03T11:06:33.5382346+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2015-06-15T03:24:47.0803445+02:00",
-  "RecurringEndDate": "2015-01-25T03:24:47.0803445+01:00",
-  "MotherId": 190,
-  "AssignedBy": 121,
-  "AssignedByFullName": "Dr. Janae Conroy",
+  "RecurringStartDate": "2004-10-01T11:06:33.5382346+02:00",
+  "RecurringEndDate": "2020-08-06T11:06:33.5382346+02:00",
+  "MotherId": 573,
+  "AssignedBy": 984,
+  "AssignedByFullName": "Jonatan Mosciski MD",
   "RejectReason": "",
-  "Location": "tempora",
-  "AlarmLeadTime": "earum",
-  "SaleId": 295,
-  "SaleName": "Tromp Group",
-  "AssociateName": "Muller-Bogan",
-  "CreatedDate": "2003-01-10T03:24:47.0803445+01:00",
-  "CreatedBy": "explicabo",
-  "CreatedByFullName": "Buster Padberg",
-  "CreatedByAssociateId": 840,
+  "Location": "nemo",
+  "AlarmLeadTime": "velit",
+  "SaleId": 940,
+  "SaleName": "Braun, Reichert and Collier",
+  "AssociateName": "Stoltenberg Group",
+  "CreatedDate": "2016-03-16T11:06:33.5382346+01:00",
+  "CreatedBy": "doloribus",
+  "CreatedByFullName": "Cristal Johns",
+  "CreatedByAssociateId": 182,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "non",
-  "Agenda": "qui",
-  "InternalNotes": "cupiditate",
+  "Title": "totam",
+  "Agenda": "perspiciatis",
+  "InternalNotes": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 783
     }
   }
 }

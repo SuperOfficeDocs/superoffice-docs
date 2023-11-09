@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=voluptatem
+GET /api/v1/List/Competitor/MDOItems?query=doloremque
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Tillman-Lemke",
-    "ToolTip": "Doloremque dicta aut.",
-    "Deleted": false,
-    "Rank": 119,
-    "Type": "quo",
+    "Id": 940,
+    "Name": "Legros-Okuneva",
+    "ToolTip": "Et consequuntur dignissimos hic fugiat aspernatur dolor.",
+    "Deleted": true,
+    "Rank": 212,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Bosco LLC",
-        "ToolTip": "Molestias numquam consequuntur ullam qui et et quisquam.",
+        "Id": 807,
+        "Name": "Huel LLC",
+        "ToolTip": "Sint eos eos iste.",
         "Deleted": false,
-        "Rank": 859,
-        "Type": "expedita",
+        "Rank": 211,
+        "Type": "beatae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 970,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "sequi",
-        "FullName": "Dr. Amani Delia Grimes II",
+        "IconHint": "ex",
+        "ColorBlock": 516,
+        "ExtraInfo": "optio",
+        "StyleHint": "occaecati",
+        "FullName": "Christina Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 243
+            "FieldType": "System.Int32",
+            "FieldLength": 172
           }
         }
       }
     ],
-    "IconHint": "labore",
-    "ColorBlock": 417,
-    "ExtraInfo": "neque",
-    "StyleHint": "excepturi",
-    "FullName": "Destiney Beatty",
+    "IconHint": "rerum",
+    "ColorBlock": 572,
+    "ExtraInfo": "doloribus",
+    "StyleHint": "expedita",
+    "FullName": "Madge Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 803
+        "FieldLength": 703
       }
     }
   }

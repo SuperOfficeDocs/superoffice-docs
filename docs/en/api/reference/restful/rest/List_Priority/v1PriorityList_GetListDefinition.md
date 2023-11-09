@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 132,
-  "Name": "Stamm Group",
-  "Tooltip": "quos",
+  "Id": 896,
+  "Name": "Weissnat Inc and Sons",
+  "Tooltip": "aliquam",
   "Deleted": true,
-  "Rank": 211,
-  "IsCustomList": false,
+  "Rank": 56,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldLength": 139
     }
   },
   "_Links": {

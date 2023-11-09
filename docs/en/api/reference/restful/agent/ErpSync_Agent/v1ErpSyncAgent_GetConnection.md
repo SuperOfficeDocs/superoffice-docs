@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 854
+  "ErpConnectionId": 351
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 634,
-  "ErpConnectorId": 564,
-  "DisplayName": "Ondricka-Harvey",
-  "DisplayDescription": "Managed bottom-line core",
+  "ErpConnectionId": 257,
+  "ErpConnectorId": 970,
+  "DisplayName": "Hartmann Inc and Sons",
+  "DisplayDescription": "Vision-oriented leading edge synergy",
   "Active": false,
-  "ConnectionId": "deserunt",
-  "MostRecentTimestamp": "ipsa",
+  "ConnectionId": "fugiat",
+  "MostRecentTimestamp": "id",
   "ConfigFields": {
-    "ConfigFields1": "ipsum",
-    "ConfigFields2": "et"
+    "ConfigFields1": "perspiciatis",
+    "ConfigFields2": "ad"
   },
   "Deleted": false,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    937,
-    52
+    231,
+    864
   ],
   "AssociateAccessIds": [
-    483,
-    699
+    660,
+    815
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 458
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 520,
-    "Name": "Schuster-Bergstrom",
-    "Tooltip": "ut",
+    "Id": 127,
+    "Name": "Hintz LLC",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "UdListDefinitionId": 428,
-    "Rank": 113,
+    "UdListDefinitionId": 492,
+    "Rank": 821,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 776
+        "FieldLength": 91
       }
     }
   }

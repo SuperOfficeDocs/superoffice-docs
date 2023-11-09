@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Hettinger, Dicki and Fritsch",
-    "ToolTip": "Architecto impedit quos ipsam iusto officiis corrupti.",
-    "Deleted": false,
-    "Rank": 374,
-    "Type": "incidunt",
-    "ColorBlock": 542,
-    "IconHint": "sequi",
+    "Id": 250,
+    "Name": "Jewess Group",
+    "ToolTip": "Sequi consequuntur ut dolore reiciendis doloribus.",
+    "Deleted": true,
+    "Rank": 660,
+    "Type": "aut",
+    "ColorBlock": 23,
+    "IconHint": "minus",
     "Selected": true,
-    "LastChanged": "1997-05-20T03:24:52.2557133+02:00",
+    "LastChanged": "2013-12-31T11:06:42.8346931+01:00",
     "ChildItems": [
       {
-        "Id": 320,
-        "Name": "Heaney, Gulgowski and Pouros",
-        "ToolTip": "Repudiandae perspiciatis suscipit.",
+        "Id": 259,
+        "Name": "McCullough, Leffler and Lebsack",
+        "ToolTip": "Illum nulla dolores laboriosam.",
         "Deleted": true,
-        "Rank": 432,
-        "Type": "dolores",
-        "ColorBlock": 902,
-        "IconHint": "odit",
+        "Rank": 423,
+        "Type": "provident",
+        "ColorBlock": 585,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2007-08-06T03:24:52.2557133+02:00",
+        "LastChanged": "2008-08-27T11:06:42.8346931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "facilis",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Elmira Reinger",
+        "FullName": "Brice Stanford Keeling IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 542
+            "FieldLength": 326
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "vitae",
+    "ExtraInfo": "vitae",
+    "StyleHint": "expedita",
     "Hidden": true,
-    "FullName": "Beryl Michale Rogahn III",
+    "FullName": "Virginia Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 435
+        "FieldLength": 385
       }
     }
   }

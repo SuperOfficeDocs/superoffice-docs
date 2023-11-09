@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Berge, Lueilwitz and Quitzon",
+  "Name": "Boyer-Bartoletti",
   "AssociateIds": [
-    196,
-    261
+    170,
+    198
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Hills-Hane",
-    "AssociateId": 410,
-    "DetailsTable": 654,
-    "DetailsRecord": 588,
-    "IsSystemTask": false,
+    "Id": 856,
+    "Name": "Lehner, Spencer and Weber",
+    "AssociateId": 190,
+    "DetailsTable": 208,
+    "DetailsRecord": 871,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "omnis",
-      "ParameterObject2": "ratione"
+      "ParameterObject1": "vitae",
+      "ParameterObject2": "est"
     },
-    "LastStarted": "2011-03-15T03:24:47.2520803+01:00",
-    "Created": "2000-03-10T03:24:47.2520803+01:00",
-    "StartCount": 128,
-    "DatabaseSerialNumber": "502471",
-    "Context": "maxime",
-    "Result": "illo",
+    "LastStarted": "2000-05-03T11:06:33.7972715+02:00",
+    "Created": "2000-07-16T11:06:33.7972715+02:00",
+    "StartCount": 706,
+    "DatabaseSerialNumber": "988828",
+    "Context": "hic",
+    "Result": "fugiat",
     "State": "All",
-    "Description": "Implemented explicit toolset",
-    "Response": "nisi",
-    "Request": "illum",
-    "ProgressDescription": "Upgradable content-based challenge",
-    "ProgressPercent": 780,
-    "FileName": "Ortiz-Tromp",
+    "Description": "Visionary zero defect monitoring",
+    "Response": "blanditiis",
+    "Request": "debitis",
+    "ProgressDescription": "Advanced 3rd generation utilisation",
+    "ProgressPercent": 992,
+    "FileName": "Monahan Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldType": "System.String",
+        "FieldLength": 238
       }
     }
   }

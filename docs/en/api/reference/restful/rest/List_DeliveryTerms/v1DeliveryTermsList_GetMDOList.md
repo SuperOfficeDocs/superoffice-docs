@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=dolor
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=a
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Hilpert, Lemke and Hyatt",
-    "ToolTip": "Eligendi aut mollitia.",
-    "Deleted": false,
-    "Rank": 605,
-    "Type": "molestiae",
+    "Id": 281,
+    "Name": "Mueller-Wilderman",
+    "ToolTip": "Modi qui.",
+    "Deleted": true,
+    "Rank": 942,
+    "Type": "odit",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Okuneva, Wiza and Haag",
-        "ToolTip": "Dolore laborum.",
-        "Deleted": false,
-        "Rank": 845,
-        "Type": "doloremque",
+        "Id": 530,
+        "Name": "Yundt, Konopelski and Stiedemann",
+        "ToolTip": "Nihil quasi minima et doloribus quibusdam labore aut.",
+        "Deleted": true,
+        "Rank": 77,
+        "Type": "rerum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 507,
-        "ExtraInfo": "cumque",
-        "StyleHint": "qui",
-        "FullName": "Miss Roel Volkman I",
+        "IconHint": "maiores",
+        "ColorBlock": 633,
+        "ExtraInfo": "quis",
+        "StyleHint": "voluptates",
+        "FullName": "Shanna Dooley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 71
+            "FieldLength": 675
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 968,
-    "ExtraInfo": "quae",
-    "StyleHint": "incidunt",
-    "FullName": "Miss Adrain Bosco V",
+    "IconHint": "qui",
+    "ColorBlock": 699,
+    "ExtraInfo": "numquam",
+    "StyleHint": "animi",
+    "FullName": "Mrs. Gerson Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 103
       }
     }
   }

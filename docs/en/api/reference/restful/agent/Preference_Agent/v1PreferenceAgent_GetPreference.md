@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 207
+  "Id": 550
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "officiis",
+  "RawValue": "consequatur",
   "Specification": null,
-  "DisplayValue": "officiis",
-  "DisplayTooltip": "placeat",
+  "DisplayValue": "quaerat",
+  "DisplayTooltip": "dolorum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 925,
-  "PrefDescId": 648,
-  "TableName": "Abbott, Lind and Smith",
-  "UserPreferenceId": 165,
+  "TargetId": 723,
+  "PrefDescId": 260,
+  "TableName": "Conn Group",
+  "UserPreferenceId": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldType": "System.String",
+      "FieldLength": 96
     }
   }
 }

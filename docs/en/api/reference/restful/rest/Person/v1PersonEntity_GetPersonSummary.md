@@ -29,7 +29,7 @@ Get summary of person and recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Person/{personId}/Summary?limit=348
+GET /api/v1/Person/{personId}/Summary?limit=235
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Person/{personId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "Tickets": [
     {
-      "TicketId": 644,
-      "TicketStatus": 646,
-      "Title": "quia",
-      "Registered": "2008-06-30T03:24:51.6930999+02:00",
-      "IconHint": "voluptas"
+      "TicketId": 757,
+      "TicketStatus": 882,
+      "Title": "ipsum",
+      "Registered": "2020-07-18T11:06:41.9884754+02:00",
+      "IconHint": "est"
     },
     {
-      "TicketId": 644,
-      "TicketStatus": 646,
-      "Title": "quia",
-      "Registered": "2008-06-30T03:24:51.6930999+02:00",
-      "IconHint": "voluptas"
+      "TicketId": 757,
+      "TicketStatus": 882,
+      "Title": "ipsum",
+      "Registered": "2020-07-18T11:06:41.9884754+02:00",
+      "IconHint": "est"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 137,
-      "DocumentId": 994,
-      "Date": "2000-05-24T03:24:51.6930999+02:00",
-      "Description": "Future-proofed optimizing service-desk",
+      "AppointmentId": 660,
+      "DocumentId": 136,
+      "Date": "1997-01-23T11:06:41.9884754+01:00",
+      "Description": "Automated 6th generation approach",
       "Completed": "Completed",
-      "Registered": "2018-11-20T03:24:51.6930999+01:00"
+      "Registered": "1997-05-30T11:06:41.9884754+02:00"
     },
     {
-      "AppointmentId": 137,
-      "DocumentId": 994,
-      "Date": "2000-05-24T03:24:51.6930999+02:00",
-      "Description": "Future-proofed optimizing service-desk",
+      "AppointmentId": 660,
+      "DocumentId": 136,
+      "Date": "1997-01-23T11:06:41.9884754+01:00",
+      "Description": "Automated 6th generation approach",
       "Completed": "Completed",
-      "Registered": "2018-11-20T03:24:51.6930999+01:00"
+      "Registered": "1997-05-30T11:06:41.9884754+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 226,
-      "DocumentId": 851,
-      "Date": "2012-07-17T03:24:51.6930999+02:00",
-      "Description": "Function-based 24/7 core",
+      "AppointmentId": 203,
+      "DocumentId": 421,
+      "Date": "2002-01-02T11:06:41.9884754+01:00",
+      "Description": "Front-line foreground contingency",
       "Completed": "Completed",
-      "Registered": "1999-06-16T03:24:51.6930999+02:00"
+      "Registered": "2011-09-06T11:06:41.9884754+02:00"
     },
     {
-      "AppointmentId": 226,
-      "DocumentId": 851,
-      "Date": "2012-07-17T03:24:51.6930999+02:00",
-      "Description": "Function-based 24/7 core",
+      "AppointmentId": 203,
+      "DocumentId": 421,
+      "Date": "2002-01-02T11:06:41.9884754+01:00",
+      "Description": "Front-line foreground contingency",
       "Completed": "Completed",
-      "Registered": "1999-06-16T03:24:51.6930999+02:00"
+      "Registered": "2011-09-06T11:06:41.9884754+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 188,
-      "SaleDate": "2023-03-20T03:24:51.6930999+01:00",
-      "Probability": 24,
-      "Heading": "quidem",
-      "Amount": 18230.478,
-      "Currency": "est",
-      "AmountInBaseCurrency": 18500.002,
+      "SaleId": 499,
+      "SaleDate": "2002-09-15T11:06:41.9884754+02:00",
+      "Probability": 295,
+      "Heading": "maiores",
+      "Amount": 17359.226,
+      "Currency": "minima",
+      "AmountInBaseCurrency": 216.24599999999998,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2007-03-16T03:24:51.6930999+01:00"
+      "Registered": "2004-09-16T11:06:41.9884754+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 821,
-      "Name": "Weber-Yost",
-      "CompanyName": "Yost Group",
-      "FirstMessage": "est",
-      "LastMessage": "amet",
-      "WhenRequested": "2022-07-21T03:24:51.6930999+02:00",
-      "WhenEnded": "1999-09-27T03:24:51.6930999+02:00"
+      "ChatSessionId": 638,
+      "Name": "Reynolds-Bailey",
+      "CompanyName": "Heaney, Bernier and Dooley",
+      "FirstMessage": "voluptas",
+      "LastMessage": "facere",
+      "WhenRequested": "1998-08-17T11:06:41.9884754+02:00",
+      "WhenEnded": "2021-01-29T11:06:41.9884754+01:00"
     }
   ]
 }

@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 445,
-  "Section": "quam",
-  "Key": "est",
-  "Name": "Johnson, Heaney and Johns",
+  "PrefDescId": 847,
+  "Section": "soluta",
+  "Key": "mollitia",
+  "Name": "Rosenbaum, Kohler and Crona",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Assimilated real-time knowledge user",
+  "Description": "Vision-oriented bottom-line hierarchy",
   "IsBuiltin": false,
-  "TableName": "Goodwin-Lebsack",
-  "UserDefinedListId": 411,
-  "Rank": 820,
-  "SubGroup": "vero",
-  "MinLevel": 84,
-  "MaxValue": 290,
-  "MinValue": 200,
-  "RequiredLicense": "officiis"
+  "TableName": "Fritsch, Walker and Harris",
+  "UserDefinedListId": 900,
+  "Rank": 904,
+  "SubGroup": "et",
+  "MinLevel": 740,
+  "MaxValue": 933,
+  "MinValue": 358,
+  "RequiredLicense": "ab"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 226,
-  "Section": "et",
-  "Key": "rerum",
-  "Name": "Williamson-Koss",
+  "PrefDescId": 698,
+  "Section": "est",
+  "Key": "quia",
+  "Name": "Nicolas Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Public-key dynamic website",
+  "Description": "Horizontal bottom-line database",
   "IsBuiltin": false,
-  "TableName": "Nitzsche, Hills and Harber",
-  "UserDefinedListId": 170,
-  "Rank": 141,
-  "SubGroup": "quo",
-  "MinLevel": 644,
-  "MaxValue": 691,
-  "MinValue": 762,
-  "RequiredLicense": "explicabo",
+  "TableName": "Deckow, Jast and Jacobi",
+  "UserDefinedListId": 316,
+  "Rank": 702,
+  "SubGroup": "voluptatibus",
+  "MinLevel": 725,
+  "MaxValue": 577,
+  "MinValue": 961,
+  "RequiredLicense": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldType": "System.Int32",
+      "FieldLength": 401
     }
   },
   "_Links": {

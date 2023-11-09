@@ -96,25 +96,25 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "officia",
-    "InputValues2": "quis"
+    "InputValues1": "dolore",
+    "InputValues2": "dignissimos"
   },
-  "BlockExecution": false,
-  "NavigateTo": "autem",
-  "Message": "commodi",
-  "ShowDialog": "adipisci",
+  "BlockExecution": true,
+  "NavigateTo": "architecto",
+  "Message": "tempora",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "dolorem",
-    "OutputValues2": "quia"
+    "OutputValues1": "dolores",
+    "OutputValues2": "alias"
   },
   "StateValues": {
-    "StateValues1": "voluptas",
-    "StateValues2": "nihil"
+    "StateValues1": "esse",
+    "StateValues2": "sint"
   },
-  "Exception": "quia",
+  "Exception": "qui",
   "ParserValues": {
     "ParserValues1": "quia",
-    "ParserValues2": "sed"
+    "ParserValues2": "eligendi"
   }
 }
 ```
@@ -128,32 +128,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "cum",
-    "InputValues2": "quia"
+    "InputValues1": "ratione",
+    "InputValues2": "eligendi"
   },
-  "BlockExecution": true,
-  "NavigateTo": "commodi",
-  "Message": "quae",
+  "BlockExecution": false,
+  "NavigateTo": "possimus",
+  "Message": "repellat",
   "ShowDialog": "aut",
   "OutputValues": {
-    "OutputValues1": "explicabo",
-    "OutputValues2": "sit"
+    "OutputValues1": "ipsam",
+    "OutputValues2": "molestias"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "non"
+    "StateValues1": "sed",
+    "StateValues2": "qui"
   },
-  "Exception": "officiis",
+  "Exception": "inventore",
   "ParserValues": {
-    "ParserValues1": "minima",
-    "ParserValues2": "voluptatem"
+    "ParserValues1": "sint",
+    "ParserValues2": "ipsum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 111
     }
   }
 }

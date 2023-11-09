@@ -124,11 +124,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 564
+  "AppointmentId": 823
 }
 ```
 
@@ -139,64 +139,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 631,
-  "StartDate": "2012-05-17T03:24:46.9550719+02:00",
-  "EndDate": "2004-08-16T03:24:46.9550719+02:00",
+  "AppointmentId": 313,
+  "StartDate": "2001-06-29T11:06:33.4601191+02:00",
+  "EndDate": "2009-10-15T11:06:33.4601191+02:00",
   "Type": "BookingForChecklist",
-  "Task": "eaque",
-  "AssociateFullName": "Evie Beahan",
-  "ContactName": "Deckow-Quigley",
-  "Description": "Fundamental assymetric analyzer",
-  "PersonFullName": "Darby Valentine Brown II",
-  "PersonId": 159,
-  "ContactId": 811,
-  "ProjectId": 55,
-  "ProjectName": "Orn Group",
+  "Task": "necessitatibus",
+  "AssociateFullName": "Randall Mosciski",
+  "ContactName": "Homenick LLC",
+  "Description": "Automated attitude-oriented model",
+  "PersonFullName": "Roxane Simonis",
+  "PersonId": 28,
+  "ContactId": 664,
+  "ProjectId": 2,
+  "ProjectName": "Hagenes, Upton and Gerhold",
   "IsPublished": false,
-  "AssociateId": 81,
-  "ColorIndex": 846,
+  "AssociateId": 887,
+  "ColorIndex": 586,
   "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "HasAlarm": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 885,
-  "PriorityName": "Veum Group",
+  "PriorityId": 507,
+  "PriorityName": "Prosacco-Batz",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2000-11-28T03:24:46.9550719+01:00",
+  "ActiveDate": "2010-03-04T11:06:33.4601191+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2010-01-12T03:24:46.9550719+01:00",
-  "RecurringEndDate": "2022-03-31T03:24:46.9550719+02:00",
-  "MotherId": 106,
-  "AssignedBy": 14,
-  "AssignedByFullName": "Ariane Bogisich",
+  "RecurringStartDate": "2005-09-09T11:06:33.4601191+02:00",
+  "RecurringEndDate": "2010-02-16T11:06:33.4601191+01:00",
+  "MotherId": 615,
+  "AssignedBy": 590,
+  "AssignedByFullName": "Mrs. Emmalee Hegmann",
   "RejectReason": "",
-  "Location": "sequi",
-  "AlarmLeadTime": "et",
-  "SaleId": 118,
-  "SaleName": "Cummerata, Ward and Wisoky",
-  "AssociateName": "Parker, Casper and Herman",
-  "CreatedDate": "1997-07-09T03:24:46.9550719+02:00",
-  "CreatedBy": "molestias",
-  "CreatedByFullName": "Dr. Federico Hagenes IV",
-  "CreatedByAssociateId": 869,
+  "Location": "fugit",
+  "AlarmLeadTime": "quos",
+  "SaleId": 69,
+  "SaleName": "Quigley LLC",
+  "AssociateName": "Quitzon LLC",
+  "CreatedDate": "2007-12-05T11:06:33.4601191+01:00",
+  "CreatedBy": "libero",
+  "CreatedByFullName": "Prof. Mark Ernser Sr.",
+  "CreatedByAssociateId": 715,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "ut",
-  "Agenda": "est",
-  "InternalNotes": "qui",
+  "Title": "autem",
+  "Agenda": "fuga",
+  "InternalNotes": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 810
     }
   }
 }

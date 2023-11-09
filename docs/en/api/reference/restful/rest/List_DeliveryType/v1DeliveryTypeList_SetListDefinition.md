@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 965,
-  "Name": "Ondricka-Frami",
-  "Tooltip": "explicabo",
-  "Deleted": true,
-  "Rank": 521,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "error",
+  "Id": 64,
+  "Name": "Tillman-Murray",
+  "Tooltip": "voluptate",
+  "Deleted": false,
+  "Rank": 702,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "alias",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 671,
-  "Name": "Cremin-Braun",
-  "Tooltip": "a",
+  "Id": 450,
+  "Name": "Koss-Crooks",
+  "Tooltip": "rerum",
   "Deleted": false,
   "Rank": 327,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
+  "ListType": "error",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 599
     }
   }
 }

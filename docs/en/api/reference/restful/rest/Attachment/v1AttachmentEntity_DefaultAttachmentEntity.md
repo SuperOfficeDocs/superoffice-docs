@@ -63,7 +63,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 397,
-  "Name": "Kohler-Marquardt",
-  "ContentType": "quia",
-  "AttSize": 766,
+  "AttachmentId": 856,
+  "Name": "Collins-Medhurst",
+  "ContentType": "quasi",
+  "AttSize": 764,
   "InlineImage": false,
-  "ContentId": "id",
-  "AuthKey": "et",
+  "ContentId": "incidunt",
+  "AuthKey": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldType": "System.String",
+      "FieldLength": 669
     }
   }
 }

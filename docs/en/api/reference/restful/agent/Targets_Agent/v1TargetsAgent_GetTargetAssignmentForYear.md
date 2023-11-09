@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 676,
+  "TargetYear": 742,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 70
+  "Id": 858
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 503,
+  "TargetAssignmentInfoId": 536,
   "Values": [
-    985,
-    568
+    881,
+    650
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 926,
-  "DimensionListItemDisplayName": "Emmerich, West and Cummerata",
+  "DimensionListItem": 328,
+  "DimensionListItemDisplayName": "Rice-Moore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 588
     }
   }
 }

@@ -39,6 +39,7 @@ Download [WSDL file for Services88/Ticket](../Services88-Ticket.md) if you need 
 * [GetTicketAttachments](GetTicketAttachments.md)
 * [GetTicketEntity](GetTicketEntity.md)
 * [GetTicketMessage](GetTicketMessage.md)
+* [GetTicketMessageEntities](GetTicketMessageEntities.md)
 * [GetTicketMessageEntity](GetTicketMessageEntity.md)
 * [GetTicketMessageWithEmbeddedData](GetTicketMessageWithEmbeddedData.md)
 * [GetTicketMessageWithOptions](GetTicketMessageWithOptions.md)

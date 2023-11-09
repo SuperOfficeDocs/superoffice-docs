@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 16384.552,
-  "FromCurrency": "necessitatibus",
-  "ToCurrency": "ex"
+  "Amount": 30421.737999999998,
+  "FromCurrency": "hic",
+  "ToCurrency": "quia"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-12184.992
+12883.874
 ```

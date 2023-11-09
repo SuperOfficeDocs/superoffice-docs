@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 78,
-  "Section": "accusantium",
-  "Key": "et",
-  "Name": "Kuhlman Inc and Sons",
+  "PrefDescId": 904,
+  "Section": "est",
+  "Key": "sed",
+  "Name": "Marquardt Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ameliorated bifurcated migration",
-  "IsBuiltin": false,
-  "TableName": "Schulist, Stark and Hane",
-  "UserDefinedListId": 571,
-  "Rank": 5,
-  "SubGroup": "asperiores",
-  "MinLevel": 666,
-  "MaxValue": 248,
-  "MinValue": 744,
-  "RequiredLicense": "eos"
+  "Description": "Polarised directional intranet",
+  "IsBuiltin": true,
+  "TableName": "Kassulke-Gleichner",
+  "UserDefinedListId": 939,
+  "Rank": 242,
+  "SubGroup": "voluptatem",
+  "MinLevel": 461,
+  "MaxValue": 162,
+  "MinValue": 128,
+  "RequiredLicense": "esse"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 882,
-  "Section": "esse",
-  "Key": "nulla",
-  "Name": "Kerluke-Stracke",
+  "PrefDescId": 359,
+  "Section": "quae",
+  "Key": "quas",
+  "Name": "McClure-Ziemann",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enhanced motivating hub",
-  "IsBuiltin": false,
-  "TableName": "Hermiston, Gulgowski and Dickens",
-  "UserDefinedListId": 688,
-  "Rank": 751,
-  "SubGroup": "consequuntur",
-  "MinLevel": 73,
-  "MaxValue": 40,
-  "MinValue": 196,
-  "RequiredLicense": "quaerat",
+  "Description": "Virtual 5th generation initiative",
+  "IsBuiltin": true,
+  "TableName": "Kreiger, Legros and Murazik",
+  "UserDefinedListId": 629,
+  "Rank": 169,
+  "SubGroup": "debitis",
+  "MinLevel": 557,
+  "MaxValue": 180,
+  "MinValue": 912,
+  "RequiredLicense": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldType": "System.String",
+      "FieldLength": 115
     }
   }
 }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 189,
-  "Name": "Hills, Schaefer and Lemke",
+  "ScreenChooserId": 14,
+  "Name": "Mraz, Wilkinson and Barrows",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "esse",
-  "Source": "ex",
-  "Registered": "2001-11-09T03:24:52.0213616+01:00",
-  "RegisteredAssociateId": 262,
-  "Updated": "1996-06-29T03:24:52.0213616+02:00",
-  "UpdatedAssociateId": 6,
+  "Enabled": true,
+  "UniqueIdentifier": "eos",
+  "Source": "qui",
+  "Registered": "2002-10-06T11:06:42.3647477+02:00",
+  "RegisteredAssociateId": 895,
+  "Updated": "2018-04-01T11:06:42.3647477+02:00",
+  "UpdatedAssociateId": 112,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldLength": 247
     }
   }
 }

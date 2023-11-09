@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 911,
+  "UdListDefinitionId": 291,
   "HeadingIds": [
-    883,
-    361
+    572,
+    450
   ]
 }
 ```

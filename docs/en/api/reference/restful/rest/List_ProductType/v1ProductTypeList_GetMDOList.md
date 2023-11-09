@@ -26,8 +26,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=id
+GET /api/v1/List/ProductType/MDOItems?flat=True
+GET /api/v1/List/ProductType/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 830,
-    "Name": "McLaughlin Group",
-    "ToolTip": "Excepturi quae cupiditate culpa et eligendi autem aut.",
+    "Id": 165,
+    "Name": "Bailey LLC",
+    "ToolTip": "Quisquam et.",
     "Deleted": false,
-    "Rank": 170,
-    "Type": "odio",
+    "Rank": 754,
+    "Type": "quod",
     "ChildItems": [
       {
-        "Id": 590,
-        "Name": "Schulist-Gerhold",
-        "ToolTip": "Tenetur sequi ut molestiae.",
+        "Id": 88,
+        "Name": "Prosacco-Bins",
+        "ToolTip": "Non fugit est accusantium.",
         "Deleted": false,
-        "Rank": 874,
-        "Type": "quis",
+        "Rank": 984,
+        "Type": "cumque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "error",
-        "ColorBlock": 485,
-        "ExtraInfo": "dolor",
-        "StyleHint": "tempora",
-        "FullName": "Mrs. Zakary Reagan Eichmann",
+        "IconHint": "qui",
+        "ColorBlock": 349,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "amet",
+        "FullName": "Lucinda Lehner Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 811
+            "FieldLength": 926
           }
         }
       }
     ],
-    "IconHint": "beatae",
-    "ColorBlock": 938,
-    "ExtraInfo": "ut",
-    "StyleHint": "tenetur",
-    "FullName": "Letitia Fisher",
+    "IconHint": "minima",
+    "ColorBlock": 226,
+    "ExtraInfo": "alias",
+    "StyleHint": "aut",
+    "FullName": "Mr. Alexandria Rey Kerluke Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 177
       }
     }
   }

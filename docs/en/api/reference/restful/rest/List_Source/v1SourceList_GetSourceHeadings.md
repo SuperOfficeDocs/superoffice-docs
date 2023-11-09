@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 826,
-    "Name": "Littel-Hills",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 11,
-    "UdListDefinitionId": 765,
+    "HeadingId": 43,
+    "Name": "Casper, Hamill and Brekke",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 358,
+    "UdListDefinitionId": 692,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 819
+        "FieldType": "System.Int32",
+        "FieldLength": 939
       }
     }
   }

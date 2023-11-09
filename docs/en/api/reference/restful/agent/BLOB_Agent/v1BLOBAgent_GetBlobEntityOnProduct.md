@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 336
+  "ProductId": 847
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 118,
-  "BlobSize": 894,
-  "Description": "Open-architected contextually-based extranet",
-  "ExtraInfo": "neque",
-  "IsEncrypted": true,
+  "BlobId": 371,
+  "BlobSize": 208,
+  "Description": "Multi-lateral modular installation",
+  "ExtraInfo": "maiores",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "molestiae",
-  "OriginalSize": 480,
-  "CreatedDate": "1998-12-29T03:24:47.2677007+01:00",
-  "UpdatedDate": "2013-07-14T03:24:47.2677007+02:00",
+  "MimeType": "non",
+  "OriginalSize": 685,
+  "CreatedDate": "2003-02-18T11:06:33.812894+01:00",
+  "UpdatedDate": "2022-11-13T11:06:33.812894+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fugiat",
+  "ConceptualType": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldType": "System.String",
+      "FieldLength": 7
     }
   }
 }

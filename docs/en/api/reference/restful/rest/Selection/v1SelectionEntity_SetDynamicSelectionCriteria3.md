@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Von-Gusikowski",
-    "Operator": "quaerat",
+    "Name": "Balistreri, Kuhlman and Armstrong",
+    "Operator": "quibusdam",
     "Values": [
-      "quos",
-      "consequuntur"
+      "ut",
+      "voluptatibus"
     ],
     "DisplayValues": [
-      "consequuntur",
+      "consequatur",
       "aut"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Leannon, Oberbrunner and Bahringer",
-        "Operator": "labore",
+        "Name": "Gutkowski LLC",
+        "Operator": "ut",
         "Values": [
-          "ut",
-          "sed"
+          "consequatur",
+          "natus"
         ],
         "DisplayValues": [
-          "suscipit",
-          "placeat"
+          "consequuntur",
+          "sit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 49,
+        "InterParenthesis": 194,
         "InterOperator": "And",
-        "UniqueHash": 812
+        "UniqueHash": 653
       }
     ],
-    "InterParenthesis": 434,
+    "InterParenthesis": 962,
     "InterOperator": "And",
-    "UniqueHash": 564
+    "UniqueHash": 854
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Carter, Tromp and Emard",
-    "Operator": "aliquam",
+    "Name": "Keebler Inc and Sons",
+    "Operator": "vitae",
     "Values": [
-      "enim",
-      "officiis"
+      "omnis",
+      "quaerat"
     ],
     "DisplayValues": [
-      "rerum",
-      "eos"
+      "deserunt",
+      "dolor"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kling, Labadie and Morissette",
-        "Operator": "debitis",
+        "Name": "Ebert Inc and Sons",
+        "Operator": "ipsam",
         "Values": [
-          "eius",
-          "et"
+          "dignissimos",
+          "ipsa"
         ],
         "DisplayValues": [
-          "sed",
-          "consequatur"
+          "et",
+          "itaque"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 70,
+        "InterParenthesis": 931,
         "InterOperator": "And",
-        "UniqueHash": 825
+        "UniqueHash": 275
       }
     ],
-    "InterParenthesis": 10,
+    "InterParenthesis": 38,
     "InterOperator": "And",
-    "UniqueHash": 448
+    "UniqueHash": 104
   }
 ]
 ```

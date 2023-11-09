@@ -87,14 +87,14 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 823,
-  "Name": "Schmeler, Gibson and Emard",
-  "Tooltip": "minus",
-  "Rank": 214,
-  "DoctmplId": 474,
-  "Header": "ullam",
-  "OurRef": "et",
-  "Deleted": false,
+  "SuggestedDocumentId": 898,
+  "Name": "Goyette, Rath and Fay",
+  "Tooltip": "eum",
+  "Rank": 926,
+  "DoctmplId": 503,
+  "Header": "explicabo",
+  "OurRef": "quasi",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 522,
-  "Name": "Mertz, Pacocha and Leannon",
-  "Tooltip": "ipsa",
-  "Rank": 713,
-  "DoctmplId": 340,
-  "Header": "iure",
-  "OurRef": "reprehenderit",
+  "SuggestedDocumentId": 45,
+  "Name": "Hessel-VonRueden",
+  "Tooltip": "ut",
+  "Rank": 886,
+  "DoctmplId": 388,
+  "Header": "incidunt",
+  "OurRef": "aliquam",
   "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldLength": 90
     }
   }
 }

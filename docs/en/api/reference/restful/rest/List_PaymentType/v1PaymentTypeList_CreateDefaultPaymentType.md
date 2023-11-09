@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 349,
-  "Name": "Gerhold-Hermann",
-  "Tooltip": "nemo",
-  "Deleted": false,
-  "UdListDefinitionId": 493,
-  "Rank": 591,
+  "Id": 512,
+  "Name": "Nader-Schaden",
+  "Tooltip": "nesciunt",
+  "Deleted": true,
+  "UdListDefinitionId": 537,
+  "Rank": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldType": "System.String",
+      "FieldLength": 270
     }
   }
 }

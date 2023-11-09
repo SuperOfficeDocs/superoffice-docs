@@ -26,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=72
+POST /api/v1/Agents/Project/GetProject?projectId=948
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 719,
-  "Name": "Steuber, Nicolas and Jewess",
-  "Description": "Self-enabling logistical orchestration",
+  "ProjectId": 128,
+  "Name": "Balistreri Inc and Sons",
+  "Description": "Horizontal 24/7 access",
   "URL": "http://www.example.com/",
-  "Type": "eaque",
-  "AssociateId": 813,
-  "AssociateFullName": "Mrs. Zella Marcia Cartwright",
-  "TypeId": 288,
-  "Updated": "2001-09-05T03:24:48.0801113+02:00",
-  "StatusId": 826,
-  "Status": "deleniti",
-  "TextId": 129,
-  "PublishTo": "2004-05-23T03:24:48.0801113+02:00",
-  "PublishFrom": "2010-05-02T03:24:48.0801113+02:00",
+  "Type": "magnam",
+  "AssociateId": 354,
+  "AssociateFullName": "Emil Paucek",
+  "TypeId": 536,
+  "Updated": "2023-03-20T11:06:35.1301898+01:00",
+  "StatusId": 413,
+  "Status": "ut",
+  "TextId": 547,
+  "PublishTo": "2008-02-15T11:06:35.1301898+01:00",
+  "PublishFrom": "1998-01-27T11:06:35.1301898+01:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1278662",
-  "ActiveErpLinks": 102,
+  "ProjectNumber": "750223",
+  "ActiveErpLinks": 862,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 744
     }
   }
 }

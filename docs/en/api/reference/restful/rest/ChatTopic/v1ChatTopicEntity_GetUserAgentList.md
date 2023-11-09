@@ -28,7 +28,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
+GET /api/v1/ChatTopic/UserAgents?flat=False
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 442,
-    "Name": "Jacobson, Ullrich and Miller",
-    "ToolTip": "Ratione et.",
+    "Id": 487,
+    "Name": "Schaden-Padberg",
+    "ToolTip": "Praesentium quos.",
     "Deleted": false,
-    "Rank": 561,
-    "Type": "non",
+    "Rank": 673,
+    "Type": "odio",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Hudson Inc and Sons",
-        "ToolTip": "Illo aliquid earum dolor nemo.",
-        "Deleted": true,
-        "Rank": 710,
-        "Type": "deleniti",
+        "Id": 445,
+        "Name": "Considine, Skiles and Smith",
+        "ToolTip": "Itaque nam iure et quibusdam sapiente.",
+        "Deleted": false,
+        "Rank": 429,
+        "Type": "adipisci",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 264,
-        "ExtraInfo": "et",
-        "StyleHint": "nulla",
-        "FullName": "Dianna Nolan",
+        "IconHint": "eligendi",
+        "ColorBlock": 608,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "aut",
+        "FullName": "Mr. Elizabeth Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 479
+            "FieldType": "System.Int32",
+            "FieldLength": 611
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 348,
-    "ExtraInfo": "tempora",
-    "StyleHint": "vel",
-    "FullName": "Lolita Roob",
+    "IconHint": "sequi",
+    "ColorBlock": 682,
+    "ExtraInfo": "non",
+    "StyleHint": "nisi",
+    "FullName": "Samson Daugherty DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 580
+        "FieldType": "System.Int32",
+        "FieldLength": 390
       }
     }
   }

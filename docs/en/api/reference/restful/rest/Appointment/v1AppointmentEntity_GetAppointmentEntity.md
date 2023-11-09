@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=False
+GET /api/v1/Appointment/{id}?fk=True
 ```
 
 
@@ -133,7 +133,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -141,70 +141,70 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 23 Dec 1996 03:24:51 G12T
+Last-Modified: Sun, 08 Apr 2007 11:06:41 G4T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-12-06T03:24:51.3180018+01:00",
-  "AppointmentId": 994,
-  "Description": "Vision-oriented regional attitude",
-  "StartDate": "2007-07-02T03:24:51.3180018+02:00",
-  "EndDate": "2005-12-31T03:24:51.3180018+01:00",
+  "CreatedDate": "2003-01-14T11:06:41.3634882+01:00",
+  "AppointmentId": 139,
+  "Description": "Customizable zero tolerance success",
+  "StartDate": "2023-08-30T11:06:41.3634882+02:00",
+  "EndDate": "2001-10-23T11:06:41.3634882+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 30,
+  "MotherId": 346,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1996-12-23T03:24:51.3180018+01:00",
+  "UpdatedDate": "2007-04-08T11:06:41.3634882+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 522,
+  "ActiveLinks": 546,
   "Links": [
     {
-      "EntityName": "Durgan Group",
-      "Id": 251,
-      "Description": "Synergistic interactive secured line",
-      "ExtraInfo": "id",
-      "LinkId": 86,
+      "EntityName": "Osinski, Collier and Hammes",
+      "Id": 576,
+      "Description": "Diverse hybrid benchmark",
+      "ExtraInfo": "assumenda",
+      "LinkId": 331,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 430
+          "FieldLength": 777
         }
       }
     }
   ],
-  "AlarmLeadTime": "minus",
-  "HasAlarm": true,
-  "ColorIndex": 984,
-  "IsFree": false,
+  "AlarmLeadTime": "architecto",
+  "HasAlarm": false,
+  "ColorIndex": 225,
+  "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "et",
-  "LeadTime": "ipsa",
-  "Location": "illo",
-  "RejectCounter": 451,
+  "LagTime": "sunt",
+  "LeadTime": "quo",
+  "Location": "quia",
+  "RejectCounter": 346,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 270,
-      "PersonId": 403,
-      "ContactId": 173,
-      "EmailId": 285,
+      "AssociateId": 80,
+      "PersonId": 733,
+      "ContactId": 531,
+      "EmailId": 166,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 270,
-      "PersonId": 403,
-      "ContactId": 173,
-      "EmailId": 285,
+      "AssociateId": 80,
+      "PersonId": 733,
+      "ContactId": 531,
+      "EmailId": 166,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -212,61 +212,61 @@ Last-Modified: Mon, 23 Dec 1996 03:24:51 G12T
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-05-19T03:24:51.3180018+02:00",
+  "ActiveDate": "2006-03-08T11:06:41.3634882+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 840,
+  "PreferredTZLocation": 254,
   "Sale": null,
-  "SuggestedAppointmentId": 153,
+  "SuggestedAppointmentId": 165,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quasi",
-  "Title": "accusamus",
-  "Agenda": "amet",
-  "InternalNotes": "sit",
+  "CentralserviceVideomeetId": "aliquid",
+  "Title": "harum",
+  "Agenda": "est",
+  "InternalNotes": "possimus",
   "UserDefinedFields": {
-    "SuperOffice:1": "137115827",
-    "SuperOffice:2": "1451572660"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Miss Neva Bogan"
   },
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "id"
+    "CustomFields1": "suscipit",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2010-03-12T03:24:51.3180018+01:00",
-  "PublishTo": "2019-08-09T03:24:51.3180018+02:00",
-  "PublishFrom": "2011-12-23T03:24:51.3180018+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2017-11-17T11:06:41.3634882+01:00",
+  "PublishTo": "2010-10-28T11:06:41.3634882+02:00",
+  "PublishFrom": "2008-03-04T11:06:41.3634882+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 115,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldLength": 407
         }
       }
     },
     {
-      "VisibleId": 115,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldLength": 407
         }
       }
     }
@@ -276,7 +276,7 @@ Last-Modified: Mon, 23 Dec 1996 03:24:51 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 740
     }
   },
   "_Links": {

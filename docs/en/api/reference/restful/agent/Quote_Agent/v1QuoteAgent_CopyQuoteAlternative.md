@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 627,
-  "QuoteAlternativeId": 674,
-  "QuoteAlternativeName": "Dare, Nader and Koelpin"
+  "QuoteVersionId": 145,
+  "QuoteAlternativeId": 750,
+  "QuoteAlternativeName": "Paucek Inc and Sons"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 448,
-  "ERPQuoteAlternativeKey": "reiciendis",
-  "QuoteVersionId": 49,
-  "Name": "Reinger LLC",
-  "Description": "Diverse systematic moratorium",
+  "QuoteAlternativeId": 840,
+  "ERPQuoteAlternativeKey": "magnam",
+  "QuoteVersionId": 991,
+  "Name": "Romaguera Group",
+  "Description": "Focused solution-oriented installation",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 28237.34,
-  "ERPDiscountAmount": 30393.532,
-  "DiscountPercent": 9170.0839999999989,
-  "DiscountAmount": 29995.514,
+  "ERPDiscountPercent": 16685.416,
+  "ERPDiscountAmount": 21198.376,
+  "DiscountPercent": 11526.851999999999,
+  "DiscountAmount": 8138.998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "nisi",
-  "VAT": 15036.931999999999,
-  "EarningPercent": 15215.57,
-  "EarningAmount": 25435.543999999998,
-  "SubTotal": 11627.14,
-  "TotalPrice": 5193.038,
-  "ExtraField1": "et",
-  "ExtraField2": "in",
-  "ExtraField3": "qui",
-  "ExtraField4": "provident",
-  "ExtraField5": "architecto",
+  "VATInfo": "quibusdam",
+  "VAT": 12542.268,
+  "EarningPercent": 6318.144,
+  "EarningAmount": 9555.5659999999989,
+  "SubTotal": 13081.315999999999,
+  "TotalPrice": 10724.547999999999,
+  "ExtraField1": "adipisci",
+  "ExtraField2": "nemo",
+  "ExtraField3": "quasi",
+  "ExtraField4": "aut",
+  "ExtraField5": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 375
     }
   }
 }

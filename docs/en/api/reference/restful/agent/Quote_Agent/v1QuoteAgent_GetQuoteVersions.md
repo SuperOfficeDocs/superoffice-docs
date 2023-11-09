@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 520
+  "QuoteId": 69
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 569,
-    "ERPQuoteVersionKey": "tempore",
-    "QuoteId": 67,
-    "Description": "Assimilated human-resource support",
-    "Number": "458058",
+    "QuoteVersionId": 996,
+    "ERPQuoteVersionKey": "et",
+    "QuoteId": 931,
+    "Description": "Adaptive demand-driven system engine",
+    "Number": "1429137",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "embrace 24/7 networks",
-    "LikelyQuoteAlternativeId": 566,
-    "SentDate": "2023-01-29T03:24:48.111357+01:00",
-    "FollowupId": 429,
-    "ExpirationDate": "2015-10-31T03:24:48.111357+01:00",
-    "DeliveryCountryId": 223,
+    "Reason": "",
+    "LikelyQuoteAlternativeId": 434,
+    "SentDate": "2005-08-29T11:06:35.1770754+02:00",
+    "FollowupId": 405,
+    "ExpirationDate": "2012-02-16T11:06:35.1770754+01:00",
+    "DeliveryCountryId": 455,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 890,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "quisquam",
-    "ERPPaymentTypeKey": "maiores",
-    "ERPDeliveryTermsKey": "ut",
-    "ERPDeliveryTypeKey": "perferendis",
-    "Rank": 193,
-    "ApprovedBy": 807,
-    "ApprovedText": "neque",
-    "ApprovedRegisteredBy": 347,
-    "ApprovedRegisteredDate": "2004-09-30T03:24:48.111357+02:00",
-    "ExtraField1": "minus",
-    "ExtraField2": "dolores",
-    "ExtraField3": "repellendus",
-    "ExtraField4": "fugit",
-    "ExtraField5": "assumenda",
-    "LastRecalculated": "2001-12-11T03:24:48.111357+01:00",
-    "Updated": "2006-11-08T03:24:48.111357+01:00",
-    "UpdatedAssociateId": 939,
-    "Registered": "2017-05-10T03:24:48.111357+02:00",
-    "RegisteredAssociateId": 673,
-    "RequestAssociateId": 862,
-    "RequestComment": "sint",
+    "InvoiceCountryId": 969,
+    "HasOwnInvoiceAddress": true,
+    "ERPPaymentTermsKey": "distinctio",
+    "ERPPaymentTypeKey": "ut",
+    "ERPDeliveryTermsKey": "debitis",
+    "ERPDeliveryTypeKey": "ut",
+    "Rank": 978,
+    "ApprovedBy": 742,
+    "ApprovedText": "inventore",
+    "ApprovedRegisteredBy": 839,
+    "ApprovedRegisteredDate": "2015-11-16T11:06:35.1770754+01:00",
+    "ExtraField1": "enim",
+    "ExtraField2": "doloribus",
+    "ExtraField3": "autem",
+    "ExtraField4": "delectus",
+    "ExtraField5": "omnis",
+    "LastRecalculated": "2014-06-18T11:06:35.1926981+02:00",
+    "Updated": "2022-08-18T11:06:35.1926981+02:00",
+    "UpdatedAssociateId": 235,
+    "Registered": "1998-08-01T11:06:35.1926981+02:00",
+    "RegisteredAssociateId": 645,
+    "RequestAssociateId": 993,
+    "RequestComment": "hic",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 440,
-        "ERPQuoteAlternativeKey": "voluptatem",
-        "QuoteVersionId": 667,
-        "Name": "Lynch-Lebsack",
-        "Description": "Synchronised high-level definition",
+        "QuoteAlternativeId": 53,
+        "ERPQuoteAlternativeKey": "cumque",
+        "QuoteVersionId": 775,
+        "Name": "Mueller-Medhurst",
+        "Description": "Switchable logistical functionalities",
         "Status": "Error",
-        "Reason": "",
-        "ERPDiscountPercent": 13379.046,
-        "ERPDiscountAmount": 22448.842,
-        "DiscountPercent": 29926.566,
-        "DiscountAmount": 24517.282,
+        "Reason": "empower one-to-one experiences",
+        "ERPDiscountPercent": 8612.232,
+        "ERPDiscountAmount": 19471.541999999998,
+        "DiscountPercent": 29782.402,
+        "DiscountAmount": 11981.282,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "nam",
-        "VAT": 18647.3,
-        "EarningPercent": 19054.72,
-        "EarningAmount": 24282.232,
-        "SubTotal": 23241.744,
-        "TotalPrice": 15290.786,
-        "ExtraField1": "fugiat",
-        "ExtraField2": "nam",
-        "ExtraField3": "doloribus",
-        "ExtraField4": "ipsam",
-        "ExtraField5": "voluptatem",
+        "VATInfo": "consequatur",
+        "VAT": 21032.273999999998,
+        "EarningPercent": 26416.486,
+        "EarningAmount": 30735.138,
+        "SubTotal": 2522.87,
+        "TotalPrice": 15090.21,
+        "ExtraField1": "accusantium",
+        "ExtraField2": "eos",
+        "ExtraField3": "delectus",
+        "ExtraField4": "ut",
+        "ExtraField5": "eum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 856
+            "FieldType": "System.String",
+            "FieldLength": 324
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 635
       }
     }
   }

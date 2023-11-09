@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 640,
-    "Name": "King LLC",
-    "AssociateId": 784,
-    "DetailsTable": 761,
-    "DetailsRecord": 593,
+    "Id": 931,
+    "Name": "Torphy, Kunze and Koss",
+    "AssociateId": 648,
+    "DetailsTable": 250,
+    "DetailsRecord": 46,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "provident",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "voluptatum",
+      "ParameterObject2": "rerum"
     },
-    "LastStarted": "2010-05-04T03:24:47.2520803+02:00",
-    "Created": "2008-05-07T03:24:47.2520803+02:00",
-    "StartCount": 450,
-    "DatabaseSerialNumber": "215977",
-    "Context": "repellendus",
-    "Result": "voluptate",
+    "LastStarted": "2019-03-25T11:06:33.7972715+01:00",
+    "Created": "2010-05-19T11:06:33.7972715+02:00",
+    "StartCount": 480,
+    "DatabaseSerialNumber": "466131",
+    "Context": "vero",
+    "Result": "inventore",
     "State": "All",
-    "Description": "Up-sized user-facing moratorium",
-    "Response": "et",
-    "Request": "expedita",
-    "ProgressDescription": "Proactive multi-state approach",
-    "ProgressPercent": 331,
-    "FileName": "Leannon, Crooks and Stroman",
+    "Description": "Managed client-driven moderator",
+    "Response": "ea",
+    "Request": "a",
+    "ProgressDescription": "Programmable local function",
+    "ProgressPercent": 34,
+    "FileName": "Hane, Howell and Dickens",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldLength": 803
       }
     }
   }

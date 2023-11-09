@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "soluta",
-  "PrefKey": "quo",
+  "PrefSection": "non",
+  "PrefKey": "quia",
   "PrefLevel": "Database",
-  "OwnerId": 160
+  "OwnerId": 910
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "rem",
+  "RawValue": "ut",
   "Specification": null,
-  "DisplayValue": "sit",
-  "DisplayTooltip": "dolor",
+  "DisplayValue": "molestias",
+  "DisplayTooltip": "placeat",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 150,
-  "PrefDescId": 346,
-  "TableName": "Watsica, Rohan and Schiller",
-  "UserPreferenceId": 399,
+  "TargetId": 267,
+  "PrefDescId": 730,
+  "TableName": "Kling, Nitzsche and Emard",
+  "UserPreferenceId": 314,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 464
     }
   }
 }

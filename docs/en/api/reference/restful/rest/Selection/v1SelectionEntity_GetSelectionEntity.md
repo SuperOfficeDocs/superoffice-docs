@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 14 Feb 2020 03:24:51 G2T
+Last-Modified: Sat, 28 Aug 2004 11:06:42 G8T
 
 {
-  "Description": "Upgradable user-facing synergy",
-  "Postit": "ipsa",
+  "Description": "Persevering bi-directional focus group",
+  "Postit": "dicta",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 755,
-  "IncludePerson": 879,
-  "MemberCount": 106,
-  "Name": "Bogisich, Prohaska and Jacobs",
-  "PostitTextId": 269,
-  "CreatedDate": "2010-08-18T03:24:51.9119624+02:00",
-  "SelectionId": 146,
-  "SoundEx": "sunt",
-  "Source": 527,
-  "TextId": 236,
-  "UpdatedDate": "2020-02-14T03:24:51.9119624+01:00",
-  "UpdatedCount": 964,
-  "Visibility": 921,
+  "GroupIdx": 504,
+  "IncludePerson": 413,
+  "MemberCount": 125,
+  "Name": "Wyman, Runte and Walter",
+  "PostitTextId": 334,
+  "CreatedDate": "2007-10-19T11:06:42.2072253+02:00",
+  "SelectionId": 61,
+  "SoundEx": "vel",
+  "Source": 750,
+  "TextId": 781,
+  "UpdatedDate": "2004-08-28T11:06:42.2072253+02:00",
+  "UpdatedCount": 850,
+  "Visibility": 999,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 577,
-  "TargetTableName": "Greenfelder Group",
-  "Completed": true,
-  "LeftSelectionId": 399,
-  "RightSelectionId": 560,
+  "CompanyUnique": false,
+  "TargetTableNumber": 347,
+  "TargetTableName": "Jast, Corwin and Hahn",
+  "Completed": false,
+  "LeftSelectionId": 970,
+  "RightSelectionId": 371,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Balistreri Inc and Sons",
-  "ShadowProviderName": "Herzog, Donnelly and Harvey",
-  "ChartKey": "dolorum",
-  "LastLoaded": "2018-12-07T03:24:51.9119624+01:00",
-  "LastLoadedBy": 855,
+  "MainProviderName": "Daniel-Waelchi",
+  "ShadowProviderName": "Krajcik-Upton",
+  "ChartKey": "qui",
+  "LastLoaded": "2011-11-03T11:06:42.2072253+01:00",
+  "LastLoadedBy": 529,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-05-13T03:24:51.9119624+02:00",
-  "LastMembershipChangeBy": 21,
+  "LastMembershipChange": "2009-02-19T11:06:42.2072253+01:00",
+  "LastMembershipChangeBy": 744,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "distinctio",
-  "MemberTabHeading": "animi",
-  "MailingsProviderName": "Hermiston Inc and Sons",
-  "DashboardTileDefinitionId": 396,
+  "MainHeading": "dignissimos",
+  "MemberTabHeading": "non",
+  "MailingsProviderName": "Wuckert, Weissnat and Price",
+  "DashboardTileDefinitionId": 674,
   "VisibleFor": [
     {
-      "VisibleId": 449,
+      "VisibleId": 948,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldLength": 413
         }
       }
     },
     {
-      "VisibleId": 449,
+      "VisibleId": 948,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldLength": 413
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Fri, 14 Feb 2020 03:24:51 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldType": "System.Int32",
+      "FieldLength": 574
     }
   },
   "_Links": {

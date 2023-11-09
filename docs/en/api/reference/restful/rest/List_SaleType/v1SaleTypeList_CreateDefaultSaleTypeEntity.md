@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 857,
-  "Name": "Rogahn-Daniel",
-  "Tooltip": "ut",
-  "Rank": 843,
+  "SaleTypeId": 715,
+  "Name": "Mohr LLC",
+  "Tooltip": "numquam",
+  "Rank": 885,
   "DurationUnit": "Century",
-  "SaleDuration": 223,
-  "SaleTypeCatId": 626,
+  "SaleDuration": 733,
+  "SaleTypeCatId": 134,
   "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 589,
-  "QuoteLinesTemplate": 538,
-  "ConfirmationLinesTemplate": 595,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 4,
-  "MinEarningPercent": 521,
-  "GroupQuoteLinesBy": 240,
-  "SortGroupLinesBy": 442,
+  "DefaultQuoteValidity": 804,
+  "QuoteLinesTemplate": 404,
+  "ConfirmationLinesTemplate": 572,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 954,
+  "MinEarningPercent": 878,
+  "GroupQuoteLinesBy": 277,
+  "SortGroupLinesBy": 534,
   "Stages": [
     {
-      "Id": 978,
-      "Name": "Flatley, Nicolas and Heidenreich",
-      "ToolTip": "Quia quia.",
-      "Deleted": true,
-      "Rank": 788,
-      "Type": "optio",
-      "ColorBlock": 592,
-      "IconHint": "occaecati",
-      "Selected": false,
-      "LastChanged": "2012-03-12T03:24:52.4119449+01:00",
+      "Id": 43,
+      "Name": "Friesen-Torphy",
+      "ToolTip": "Quo voluptatibus velit asperiores velit.",
+      "Deleted": false,
+      "Rank": 771,
+      "Type": "numquam",
+      "ColorBlock": 558,
+      "IconHint": "ab",
+      "Selected": true,
+      "LastChanged": "2022-06-23T11:06:43.0534497+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "voluptatem",
+      "ExtraInfo": "excepturi",
+      "StyleHint": "aut",
       "Hidden": true,
-      "FullName": "Nikolas Zulauf",
+      "FullName": "Mrs. Mittie Lysanne McLaughlin Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldLength": 667
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldLength": 606
     }
   }
 }

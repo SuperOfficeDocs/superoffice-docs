@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Ondricka, Jacobi and Maggio",
-    "ToolTip": "Praesentium blanditiis et autem.",
+    "Id": 142,
+    "Name": "Kuvalis-Will",
+    "ToolTip": "Quae ex numquam qui ut ex sunt sequi.",
     "Deleted": false,
-    "Rank": 712,
-    "Type": "autem",
-    "ColorBlock": 294,
-    "IconHint": "veniam",
+    "Rank": 988,
+    "Type": "nihil",
+    "ColorBlock": 444,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2003-06-23T03:24:52.2088405+02:00",
+    "LastChanged": "2005-03-01T11:06:42.7409447+01:00",
     "ChildItems": [
       {
-        "Id": 421,
-        "Name": "Jast Inc and Sons",
-        "ToolTip": "Ut explicabo eveniet iusto aspernatur dolores in.",
-        "Deleted": true,
-        "Rank": 94,
-        "Type": "reprehenderit",
-        "ColorBlock": 465,
-        "IconHint": "magnam",
-        "Selected": true,
-        "LastChanged": "2003-04-06T03:24:52.2088405+02:00",
+        "Id": 55,
+        "Name": "Wiza LLC",
+        "ToolTip": "Est impedit consectetur fuga quos.",
+        "Deleted": false,
+        "Rank": 286,
+        "Type": "occaecati",
+        "ColorBlock": 938,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "2002-04-04T11:06:42.7409447+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "enim",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Miss Orrin Kessler",
+        "FullName": "Roselyn Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 545
+            "FieldType": "System.Int32",
+            "FieldLength": 202
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ratione",
+    "ExtraInfo": "repellat",
+    "StyleHint": "dolores",
     "Hidden": true,
-    "FullName": "Ms. Dedric Daniel",
+    "FullName": "Stanford Reichel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldType": "System.String",
+        "FieldLength": 604
       }
     }
   }

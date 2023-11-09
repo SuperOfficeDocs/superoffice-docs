@@ -90,8 +90,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 898,
-  "Name": "Yundt, Ernser and Doyle"
+  "DashboardId": 576,
+  "Name": "Lockman, Kunze and Stark"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 130,
-  "UniqueId": "dolor",
-  "Name": "Runolfsson-Schowalter",
-  "Description": "Realigned high-level architecture",
-  "AssociateId": 164,
-  "Columns": 108,
+  "DashboardId": 285,
+  "UniqueId": "aut",
+  "Name": "Senger, Kuphal and Welch",
+  "Description": "Open-architected zero defect knowledge base",
+  "AssociateId": 416,
+  "Columns": 893,
   "Theme": null,
-  "VisibleForAll": 583,
+  "VisibleForAll": 516,
   "VisibleForAssociates": [
-    268,
-    201
+    437,
+    66
   ],
   "VisibleForGroups": [
-    760,
-    335
+    793,
+    396
   ],
-  "PinForAll": 334,
+  "PinForAll": 134,
   "PinForAssociates": [
-    367,
-    704
+    146,
+    537
   ],
   "PinForGroups": [
-    788,
-    627
+    544,
+    474
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldType": "System.String",
+      "FieldLength": 192
     }
   }
 }

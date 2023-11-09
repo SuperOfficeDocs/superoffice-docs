@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 260,
+  "TicketId": 165,
   "MessageActionType": "Forward",
-  "TicketMessageId": 986
+  "TicketMessageId": 124
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quibusdam"
+"est"
 ```

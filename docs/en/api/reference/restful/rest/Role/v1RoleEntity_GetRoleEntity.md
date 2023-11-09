@@ -97,24 +97,24 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 865,
-  "Name": "Zulauf-Heller",
-  "Tooltip": "consequuntur",
+  "RoleId": 781,
+  "Name": "Hammes-Graham",
+  "Tooltip": "eum",
   "RoleType": "Anonymous",
-  "Deleted": 743,
-  "Rank": 421,
-  "Created": "2021-04-10T03:24:51.7401403+02:00",
-  "UseCategories": 424,
+  "Deleted": 359,
+  "Rank": 701,
+  "Created": "2004-09-30T11:06:42.0822263+02:00",
+  "UseCategories": 371,
   "CreatedBy": null,
-  "Updated": "2018-04-27T03:24:51.7401403+02:00",
+  "Updated": "2016-02-08T11:06:42.0822263+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldType": "System.String",
+      "FieldLength": 32
     }
   },
   "_Links": {

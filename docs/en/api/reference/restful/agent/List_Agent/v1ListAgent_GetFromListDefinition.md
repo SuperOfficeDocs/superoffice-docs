@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 235,
-  "UdListDefinitionId": 292
+  "Id": 679,
+  "UdListDefinitionId": 839
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 599,
-  "Name": "O'Connell-Lockman",
-  "Tooltip": "unde",
-  "Deleted": false,
-  "UdListDefinitionId": 449,
-  "Rank": 510,
+  "Id": 386,
+  "Name": "Goyette LLC",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "UdListDefinitionId": 357,
+  "Rank": 406,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldType": "System.String",
+      "FieldLength": 668
     }
   }
 }

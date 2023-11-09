@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
-  "Name": "Dach, Sanford and Davis",
-  "Tooltip": "eos",
+  "Id": 536,
+  "Name": "Stroman Inc and Sons",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 57,
-  "Rank": 807
+  "UdListDefinitionId": 183,
+  "Rank": 248
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 965,
-  "Name": "Olson Group",
-  "Tooltip": "doloribus",
-  "Deleted": true,
-  "UdListDefinitionId": 195,
-  "Rank": 150,
+  "Id": 176,
+  "Name": "Predovic, McCullough and Johnson",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "UdListDefinitionId": 124,
+  "Rank": 376,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 67
     }
   }
 }

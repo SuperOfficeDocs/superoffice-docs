@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 57,
-  "Name": "Eichmann LLC",
-  "CreatedDate": "2000-04-16T03:24:47.8145137+02:00",
-  "UpdatedDate": "1997-01-02T03:24:47.8145137+01:00",
+  "ForeignAppId": 580,
+  "Name": "Crooks, Welch and Wolf",
+  "CreatedDate": "2002-11-10T11:06:34.6145606+01:00",
+  "UpdatedDate": "2001-12-26T11:06:34.6145606+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 928,
-      "Name": "Torp, Hauck and Wilkinson",
-      "CreatedDate": "2008-03-17T03:24:47.8145137+01:00",
-      "UpdatedDate": "2000-02-23T03:24:47.8145137+01:00",
-      "AssociateFullName": "Furman Hickle",
-      "CreatedBy": "a",
-      "UpdatedBy": "pariatur",
-      "DeviceIdentifier": "incidunt",
-      "ForeignAppId": 941,
+      "ForeignDeviceId": 991,
+      "Name": "Little, Smith and Hermiston",
+      "CreatedDate": "2013-05-21T11:06:34.6145606+02:00",
+      "UpdatedDate": "2009-12-30T11:06:34.6145606+01:00",
+      "AssociateFullName": "Garett Bartell",
+      "CreatedBy": "dolorum",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 766,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 503
+          "FieldLength": 328
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 675
     }
   }
 }

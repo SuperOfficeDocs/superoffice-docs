@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    996,
-    765
+    896,
+    997
   ],
-  "TargetTableNumber": 901
+  "TargetTableNumber": 38
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-centric real-time hierarchy",
-  "Postit": "nihil",
+  "Description": "User-friendly fresh-thinking budgetary management",
+  "Postit": "voluptatem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 385,
-  "IncludePerson": 766,
-  "MemberCount": 129,
-  "Name": "Cole-Wolff",
-  "PostitTextId": 488,
-  "CreatedDate": "1999-01-28T03:24:48.2680521+01:00",
-  "SelectionId": 433,
-  "SoundEx": "veritatis",
-  "Source": 860,
-  "TextId": 622,
-  "UpdatedDate": "2022-02-17T03:24:48.2680521+01:00",
-  "UpdatedCount": 133,
-  "Visibility": 524,
+  "GroupIdx": 811,
+  "IncludePerson": 555,
+  "MemberCount": 107,
+  "Name": "Funk, Goldner and Wiegand",
+  "PostitTextId": 290,
+  "CreatedDate": "2011-05-25T11:06:35.3958193+02:00",
+  "SelectionId": 586,
+  "SoundEx": "est",
+  "Source": 624,
+  "TextId": 436,
+  "UpdatedDate": "1997-09-05T11:06:35.3958193+02:00",
+  "UpdatedCount": 331,
+  "Visibility": 371,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 898,
-  "TargetTableName": "Fadel LLC",
+  "CompanyUnique": true,
+  "TargetTableNumber": 189,
+  "TargetTableName": "Cummings, Braun and Tremblay",
   "Completed": false,
-  "LeftSelectionId": 470,
-  "RightSelectionId": 635,
+  "LeftSelectionId": 731,
+  "RightSelectionId": 360,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Dach-Stehr",
-  "ShadowProviderName": "Ullrich-Durgan",
-  "ChartKey": "officiis",
-  "LastLoaded": "1997-09-30T03:24:48.2680521+02:00",
-  "LastLoadedBy": 204,
+  "MainProviderName": "Vandervort-Lemke",
+  "ShadowProviderName": "Hodkiewicz, Schultz and Pollich",
+  "ChartKey": "accusantium",
+  "LastLoaded": "2016-09-18T11:06:35.3958193+02:00",
+  "LastLoadedBy": 666,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-01-20T03:24:48.2680521+01:00",
-  "LastMembershipChangeBy": 955,
+  "LastMembershipChange": "2011-05-21T11:06:35.3958193+02:00",
+  "LastMembershipChangeBy": 742,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "molestias",
-  "MailingsProviderName": "Smitham-Howe",
-  "DashboardTileDefinitionId": 208,
+  "MainHeading": "ratione",
+  "MemberTabHeading": "aspernatur",
+  "MailingsProviderName": "McDermott, Legros and Jerde",
+  "DashboardTileDefinitionId": 742,
   "VisibleFor": [
     {
-      "VisibleId": 811,
+      "VisibleId": 359,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 507
+          "FieldType": "System.Int32",
+          "FieldLength": 115
         }
       }
     },
     {
-      "VisibleId": 811,
+      "VisibleId": 359,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 507
+          "FieldType": "System.Int32",
+          "FieldLength": 115
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldLength": 926
     }
   }
 }

@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "maiores",
-      "Key": "accusantium"
+      "Section": "autem",
+      "Key": "fugiat"
     },
     {
-      "Section": "maiores",
-      "Key": "accusantium"
+      "Section": "autem",
+      "Key": "fugiat"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "voluptatem",
+    "RawValue": "vitae",
     "Specification": null,
-    "DisplayValue": "architecto",
-    "DisplayTooltip": "ea",
+    "DisplayValue": "dolores",
+    "DisplayTooltip": "ipsam",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 446,
-    "PrefDescId": 885,
-    "TableName": "Crist Inc and Sons",
-    "UserPreferenceId": 269,
+    "TargetId": 87,
+    "PrefDescId": 555,
+    "TableName": "Brakus-Cummings",
+    "UserPreferenceId": 646,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldLength": 691
       }
     }
   }

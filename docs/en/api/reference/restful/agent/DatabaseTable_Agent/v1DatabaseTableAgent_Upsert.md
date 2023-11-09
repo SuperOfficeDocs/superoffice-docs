@@ -85,17 +85,17 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Miller-Boyle",
+  "TableName": "Ritchie Inc and Sons",
   "Columns": [
-    "enim",
-    "delectus"
+    "nulla",
+    "voluptates"
   ],
   "Keys": [
-    "labore",
+    "est",
     "ut"
   ],
   "Data": [
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": false
+  "ReturnRowStatus": true
 }
 ```
 
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "dolorem",
-  "Inserts": 108,
-  "Updates": 845,
-  "Deletes": 567,
+  "Message": "minima",
+  "Inserts": 970,
+  "Updates": 525,
+  "Deletes": 949,
   "RowStatus": [
     {
-      "PrimaryKey": 779,
+      "PrimaryKey": 298,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "architecto",
-        "et"
+        "exercitationem",
+        "vitae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 796
         }
       }
     },
     {
-      "PrimaryKey": 779,
+      "PrimaryKey": 298,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "architecto",
-        "et"
+        "exercitationem",
+        "vitae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 796
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldLength": 742
     }
   }
 }

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 25,
-  "Name": "Baumbach, Willms and Reilly",
-  "Tooltip": "est",
+  "Id": 540,
+  "Name": "Pacocha, Kessler and Padberg",
+  "Tooltip": "voluptatibus",
   "Deleted": true,
-  "UdListDefinitionId": 114,
-  "Rank": 232
+  "UdListDefinitionId": 348,
+  "Rank": 146
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 781,
-  "Name": "Smitham Inc and Sons",
-  "Tooltip": "et",
+  "Id": 79,
+  "Name": "O'Conner Group",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "UdListDefinitionId": 280,
-  "Rank": 975,
+  "UdListDefinitionId": 423,
+  "Rank": 343,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 820
+      "FieldLength": 410
     }
   }
 }

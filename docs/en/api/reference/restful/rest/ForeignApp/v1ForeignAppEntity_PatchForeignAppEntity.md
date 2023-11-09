@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "expedita",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "expedita",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 423,
-  "Name": "Schmidt, Boyle and Funk",
-  "CreatedDate": "2013-04-06T03:24:51.6149823+02:00",
-  "UpdatedDate": "1998-10-11T03:24:51.6149823+02:00",
+  "ForeignAppId": 659,
+  "Name": "Runolfsson LLC",
+  "CreatedDate": "2013-12-03T11:06:41.8947242+01:00",
+  "UpdatedDate": "2002-05-18T11:06:41.8947242+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 432,
-      "Name": "Jast, Mante and Bruen",
-      "CreatedDate": "2000-01-01T03:24:51.6149823+01:00",
-      "UpdatedDate": "2006-05-23T03:24:51.6149823+02:00",
-      "AssociateFullName": "Jessie Runolfsson",
-      "CreatedBy": "odit",
-      "UpdatedBy": "suscipit",
-      "DeviceIdentifier": "animi",
-      "ForeignAppId": 91,
+      "ForeignDeviceId": 483,
+      "Name": "Sporer-Harber",
+      "CreatedDate": "2013-01-25T11:06:41.8947242+01:00",
+      "UpdatedDate": "2004-08-02T11:06:41.8947242+02:00",
+      "AssociateFullName": "Kaela Darby Larson V",
+      "CreatedBy": "quis",
+      "UpdatedBy": "tenetur",
+      "DeviceIdentifier": "fugiat",
+      "ForeignAppId": 688,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 710
+          "FieldLength": 327
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldLength": 491
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

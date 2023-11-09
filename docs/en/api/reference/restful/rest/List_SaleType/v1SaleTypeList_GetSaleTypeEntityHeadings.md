@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 818,
-    "Name": "Wuckert Inc and Sons",
-    "Tooltip": "soluta",
+    "HeadingId": 81,
+    "Name": "Weber, Lind and Wisozk",
+    "Tooltip": "asperiores",
     "Deleted": true,
-    "Rank": 436,
-    "UdListDefinitionId": 837,
+    "Rank": 181,
+    "UdListDefinitionId": 354,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 566
+        "FieldType": "System.Int32",
+        "FieldLength": 710
       }
     }
   }

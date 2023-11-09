@@ -87,18 +87,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "magni",
-  "ProviderName": "Nienow, Goldner and Tremblay",
-  "StorageKey": "nobis",
+  "StorageType": "odio",
+  "ProviderName": "Murray, Bednar and West",
+  "StorageKey": "dicta",
   "DesiredColumnNames": [
-    "Jones-Hintz",
-    "Cartwright Group"
+    "Haag, Kozey and Nikolaus",
+    "Fay, Hoeger and Heller"
   ],
   "StaticColumns": [
-    "accusantium",
-    "enim"
+    "aut",
+    "vitae"
   ],
-  "Context": "non"
+  "Context": "eos"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Rolfson, Bashirian and Runolfsson",
-      "Operator": "natus",
+      "Name": "Schulist LLC",
+      "Operator": "omnis",
       "Values": [
-        "occaecati",
-        "quibusdam"
+        "reprehenderit",
+        "blanditiis"
       ],
       "DisplayValues": [
-        "consequatur",
-        "est"
+        "unde",
+        "qui"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 436,
+      "InterParenthesis": 681,
       "InterOperator": "And",
-      "UniqueHash": 154
+      "UniqueHash": 86
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Steuber LLC",
-      "DisplayTooltip": "explicabo",
-      "DisplayType": "sequi",
+      "DisplayName": "Kuvalis Inc and Sons",
+      "DisplayTooltip": "provident",
+      "DisplayType": "qui",
       "CanOrderBy": false,
-      "Name": "Jaskolski-Kiehn",
+      "Name": "Mueller, Kiehn and Stokes",
       "CanRestrictBy": true,
-      "RestrictionType": "eveniet",
-      "RestrictionListName": "Dickens LLC",
+      "RestrictionType": "fugiat",
+      "RestrictionListName": "Hammes, Casper and Powlowski",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "est",
-      "IconHint": "labore",
-      "HeadingIconHint": "delectus"
+      "ExtraInfo": "aut",
+      "Width": "accusamus",
+      "IconHint": "possimus",
+      "HeadingIconHint": "ipsam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Pacocha Group",
-      "PrimaryKey": 312,
+      "EntityName": "Hackett, Gislason and Terry",
+      "PrimaryKey": 996,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fugiat",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "fugiat"
+          "DisplayValue": "accusamus",
+          "TooltipHint": "molestias",
+          "LinkHint": "quibusdam"
         }
       },
-      "LinkHint": "illum",
-      "StyleHint": "minus",
+      "LinkHint": "dolor",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 416
+          "FieldLength": 959
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Carter-Schmidt",
-      "Description": "Distributed tangible structure",
-      "Rank": 143,
+      "Name": "Kemmer-Lynch",
+      "Description": "Reverse-engineered radical encryption",
+      "Rank": 111,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Carter-Schmidt",
-      "Description": "Distributed tangible structure",
-      "Rank": 143,
+      "Name": "Kemmer-Lynch",
+      "Description": "Reverse-engineered radical encryption",
+      "Rank": 111,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 516
+      "FieldLength": 502
     }
   }
 }

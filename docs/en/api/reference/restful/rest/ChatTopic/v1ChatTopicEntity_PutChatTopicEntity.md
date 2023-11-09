@@ -139,25 +139,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 865,
-  "Name": "Roob Group",
-  "Description": "Distributed responsive approach",
-  "WelcomeMessage": "velit",
+  "ChatTopicId": 363,
+  "Name": "McDermott-Toy",
+  "Description": "Object-based human-resource framework",
+  "WelcomeMessage": "est",
   "Language": null,
-  "LastAccept": "2014-11-18T03:24:51.4429545+01:00",
-  "SecondsPrAccept": 48,
-  "AlertRecipient": "similique",
+  "LastAccept": "2009-12-07T11:06:41.5353656+01:00",
+  "SecondsPrAccept": 711,
+  "AlertRecipient": "eos",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "enim",
+  "BadgeHeader": "voluptas",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "doloribus",
-  "WarnNewChatMinutes": 916,
-  "WarnManagerNewChatMinutes": 674,
+  "CustomQueueText": "aperiam",
+  "WarnNewChatMinutes": 904,
+  "WarnManagerNewChatMinutes": 660,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -167,13 +167,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 451,
-  "WarnManagerChatMessageMinutes": 503,
+  "WarnChatMessageMinutes": 699,
+  "WarnManagerChatMessageMinutes": 761,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 308,
-  "OfflineFormQueueLength": 611,
+  "OfflineFormTimeLimit": 65,
+  "OfflineFormQueueLength": 770,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quibusdam"
+  "WidgetRatingText": "et"
 }
 ```
 
@@ -184,43 +184,43 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 641,
-  "Name": "Bailey Group",
-  "Description": "User-friendly grid-enabled parallelism",
-  "WelcomeMessage": "commodi",
+  "ChatTopicId": 39,
+  "Name": "Koelpin Group",
+  "Description": "Organized methodical hierarchy",
+  "WelcomeMessage": "quia",
   "Language": null,
-  "LastAccept": "2020-11-09T03:24:51.4429545+01:00",
-  "SecondsPrAccept": 572,
-  "AlertRecipient": "deleniti",
+  "LastAccept": "2018-07-02T11:06:41.550993+02:00",
+  "SecondsPrAccept": 944,
+  "AlertRecipient": "occaecati",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "ipsa",
+  "CollectConsent": true,
+  "BadgeHeader": "aspernatur",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "autem",
-  "WarnNewChatMinutes": 654,
-  "WarnManagerNewChatMinutes": 816,
-  "TicketEnabled": true,
+  "CustomQueueText": "ea",
+  "WarnNewChatMinutes": 764,
+  "WarnManagerNewChatMinutes": 289,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 631,
-  "WarnManagerChatMessageMinutes": 859,
+  "WarnChatMessageMinutes": 774,
+  "WarnManagerChatMessageMinutes": 201,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 972,
-  "OfflineFormQueueLength": 576,
+  "OfflineFormTimeLimit": 106,
+  "OfflineFormQueueLength": 935,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "sed",
+  "WidgetRatingText": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldLength": 334
     }
   },
   "_Links": {

@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "commodi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "commodi",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive value-added function",
-  "Postit": "asperiores",
+  "Description": "Reduced object-oriented software",
+  "Postit": "odit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 975,
-  "IncludePerson": 507,
-  "MemberCount": 712,
-  "Name": "Kovacek, Schamberger and Lesch",
-  "PostitTextId": 716,
-  "CreatedDate": "2003-05-22T03:24:51.927622+02:00",
-  "SelectionId": 627,
-  "SoundEx": "quia",
-  "Source": 398,
-  "TextId": 331,
-  "UpdatedDate": "2007-08-27T03:24:51.927622+02:00",
-  "UpdatedCount": 90,
-  "Visibility": 370,
+  "GroupIdx": 624,
+  "IncludePerson": 816,
+  "MemberCount": 660,
+  "Name": "Farrell, Johnston and Price",
+  "PostitTextId": 82,
+  "CreatedDate": "2015-03-12T11:06:42.2228527+01:00",
+  "SelectionId": 792,
+  "SoundEx": "et",
+  "Source": 81,
+  "TextId": 770,
+  "UpdatedDate": "2011-05-25T11:06:42.2228527+02:00",
+  "UpdatedCount": 313,
+  "Visibility": 997,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 36,
-  "TargetTableName": "Hayes-Ziemann",
-  "Completed": false,
-  "LeftSelectionId": 522,
-  "RightSelectionId": 336,
+  "TargetTableNumber": 852,
+  "TargetTableName": "Conroy, Littel and Volkman",
+  "Completed": true,
+  "LeftSelectionId": 61,
+  "RightSelectionId": 792,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bosco, Haley and Fahey",
-  "ShadowProviderName": "Von, Shanahan and Eichmann",
-  "ChartKey": "sint",
-  "LastLoaded": "2006-01-09T03:24:51.927622+01:00",
-  "LastLoadedBy": 560,
+  "MainProviderName": "Simonis LLC",
+  "ShadowProviderName": "Mante, Bartoletti and Hessel",
+  "ChartKey": "ipsam",
+  "LastLoaded": "2012-08-13T11:06:42.2228527+02:00",
+  "LastLoadedBy": 244,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-01-20T03:24:51.927622+01:00",
-  "LastMembershipChangeBy": 532,
+  "LastMembershipChange": "2001-02-28T11:06:42.2228527+01:00",
+  "LastMembershipChangeBy": 853,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "unde",
-  "MailingsProviderName": "Grant Group",
-  "DashboardTileDefinitionId": 250,
+  "MainHeading": "ipsa",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Romaguera, Beier and Nitzsche",
+  "DashboardTileDefinitionId": 254,
   "VisibleFor": [
     {
-      "VisibleId": 732,
+      "VisibleId": 617,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 851
         }
       }
     },
     {
-      "VisibleId": 732,
+      "VisibleId": 617,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 851
         }
       }
     }
@@ -245,7 +245,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 897
     }
   },
   "_Links": {

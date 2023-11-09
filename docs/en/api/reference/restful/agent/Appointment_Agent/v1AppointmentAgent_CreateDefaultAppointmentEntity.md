@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -128,125 +128,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-03-15T03:24:46.9864372+01:00",
-  "AppointmentId": 591,
-  "Description": "Business-focused asynchronous benchmark",
-  "StartDate": "2011-05-01T03:24:46.9864372+02:00",
-  "EndDate": "2016-08-26T03:24:46.9864372+02:00",
+  "CreatedDate": "2013-02-20T11:06:33.5226133+01:00",
+  "AppointmentId": 629,
+  "Description": "Horizontal bandwidth-monitored moderator",
+  "StartDate": "2006-04-04T11:06:33.5226133+02:00",
+  "EndDate": "2007-02-02T11:06:33.5226133+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 576,
+  "MotherId": 907,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-04-01T03:24:46.9864372+02:00",
+  "UpdatedDate": "2021-03-03T11:06:33.5226133+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 834,
+  "ActiveLinks": 888,
   "Links": [
     {
-      "EntityName": "Jones-Brakus",
-      "Id": 174,
-      "Description": "Centralized radical hardware",
-      "ExtraInfo": "non",
-      "LinkId": 75,
+      "EntityName": "Kautzer, Kshlerin and Robel",
+      "Id": 707,
+      "Description": "Quality-focused dynamic internet solution",
+      "ExtraInfo": "et",
+      "LinkId": 469,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldLength": 372
         }
       }
     }
   ],
-  "AlarmLeadTime": "consequuntur",
+  "AlarmLeadTime": "nihil",
   "HasAlarm": false,
-  "ColorIndex": 730,
-  "IsFree": true,
+  "ColorIndex": 75,
+  "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "molestiae",
+  "LagTime": "ut",
   "LeadTime": "ab",
-  "Location": "magni",
-  "RejectCounter": 731,
+  "Location": "eum",
+  "RejectCounter": 977,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 639,
-      "PersonId": 615,
-      "ContactId": 225,
-      "EmailId": 671,
-      "SendEmail": true,
+      "AssociateId": 680,
+      "PersonId": 929,
+      "ContactId": 25,
+      "EmailId": 698,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 639,
-      "PersonId": 615,
-      "ContactId": 225,
-      "EmailId": 671,
-      "SendEmail": true,
+      "AssociateId": 680,
+      "PersonId": 929,
+      "ContactId": 25,
+      "EmailId": 698,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-09-14T03:24:46.9864372+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2016-10-03T11:06:33.5226133+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 279,
+  "PreferredTZLocation": 926,
   "Sale": null,
-  "SuggestedAppointmentId": 343,
+  "SuggestedAppointmentId": 424,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ipsam",
-  "Title": "vel",
-  "Agenda": "inventore",
-  "InternalNotes": "et",
+  "CentralserviceVideomeetId": "eligendi",
+  "Title": "ipsa",
+  "Agenda": "vitae",
+  "InternalNotes": "perferendis",
   "UserDefinedFields": {
-    "SuperOffice:1": "Guido Hane",
-    "SuperOffice:2": "Kiel Kuhn MD"
+    "SuperOffice:1": "Hillard Alberto Kuhic DDS",
+    "SuperOffice:2": "Rosalia Johnston"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "accusamus",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "ex",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "quia",
+    "CustomFields2": "numquam"
   },
-  "PublishEventDate": "1999-10-17T03:24:46.9864372+02:00",
-  "PublishTo": "1999-04-28T03:24:46.9864372+02:00",
-  "PublishFrom": "2010-08-02T03:24:46.9864372+02:00",
+  "PublishEventDate": "2001-11-15T11:06:33.5226133+01:00",
+  "PublishTo": "2022-12-04T11:06:33.5226133+01:00",
+  "PublishFrom": "2005-06-06T11:06:33.5226133+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 412,
+      "VisibleId": 38,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 942
+          "FieldLength": 86
         }
       }
     },
     {
-      "VisibleId": 412,
+      "VisibleId": 38,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 942
+          "FieldLength": 86
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 827
     }
   }
 }

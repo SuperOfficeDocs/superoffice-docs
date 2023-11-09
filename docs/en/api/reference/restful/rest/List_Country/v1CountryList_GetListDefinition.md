@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Grady-McClure",
-  "Tooltip": "reiciendis",
+  "Id": 431,
+  "Name": "Klein Group",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 228,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 134,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "nisi",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 135
+      "FieldType": "System.Int32",
+      "FieldLength": 323
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

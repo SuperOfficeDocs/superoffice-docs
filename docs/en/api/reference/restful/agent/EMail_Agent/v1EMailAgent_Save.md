@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 789,
-      "ContactName": "Thompson-Labadie",
-      "PersonId": 954,
-      "PersonName": "Beahan, Mertz and Pfannerstill",
-      "AssociateId": 50,
-      "Address": "velit",
-      "EmailId": 248,
+      "ContactId": 262,
+      "ContactName": "Klein Group",
+      "PersonId": 575,
+      "PersonName": "Greenholt-Wolf",
+      "AssociateId": 568,
+      "Address": "nam",
+      "EmailId": 699,
       "DuplicatePersonIds": [
-        322,
-        635
+        162,
+        879
       ],
-      "Name": "Hane, Torphy and Bode",
+      "Name": "McCullough Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldLength": 747
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 116,
-      "ContactName": "Koss-Lynch",
-      "PersonId": 9,
-      "PersonName": "Emard-O'Conner",
-      "AssociateId": 674,
-      "Address": "laborum",
-      "EmailId": 687,
+      "ContactId": 921,
+      "ContactName": "Kris Inc and Sons",
+      "PersonId": 455,
+      "PersonName": "Beatty-Harris",
+      "AssociateId": 103,
+      "Address": "unde",
+      "EmailId": 297,
       "DuplicatePersonIds": [
-        495,
-        369
+        885,
+        201
       ],
-      "Name": "Connelly-Kilback",
+      "Name": "Koepp LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldType": "System.Int32",
+          "FieldLength": 332
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 891,
-      "ContactName": "Torp LLC",
-      "PersonId": 932,
-      "PersonName": "Graham, Koch and Glover",
-      "AssociateId": 922,
-      "Address": "ea",
-      "EmailId": 757,
+      "ContactId": 400,
+      "ContactName": "Skiles, O'Reilly and Wyman",
+      "PersonId": 308,
+      "PersonName": "Luettgen-Reichert",
+      "AssociateId": 658,
+      "Address": "error",
+      "EmailId": 547,
       "DuplicatePersonIds": [
-        855,
-        43
+        361,
+        657
       ],
-      "Name": "Lockman, McClure and Durgan",
+      "Name": "Kuhlman, Roberts and Vandervort",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldLength": 711
         }
       }
     }
   ],
-  "Subject": "quaerat",
-  "HTMLBody": "modi",
+  "Subject": "voluptatem",
+  "HTMLBody": "asperiores",
   "From": null,
-  "Sent": "2016-07-28T03:24:47.705153+02:00",
-  "Size": 152,
+  "Sent": "2004-11-10T11:06:34.458307+01:00",
+  "Size": 316,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ullam",
-  "PlainBody": "sint",
-  "IsSent": true,
+  "MessageID": "enim",
+  "PlainBody": "omnis",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 824,
+  "ServerId": 245,
   "Attachments": [
     {
-      "Description": "Cross-group uniform alliance",
-      "Filename": "et",
-      "Size": 66,
-      "Type": "illum",
-      "Encoding": "vel",
-      "Id": "itaque",
-      "Disposition": "error",
+      "Description": "Enhanced optimal projection",
+      "Filename": "magni",
+      "Size": 224,
+      "Type": "ex",
+      "Encoding": "nihil",
+      "Id": "ut",
+      "Disposition": "fugiat",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldLength": 193
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Braun, Littel and Schaden",
+      "Name": "Carter, Douglas and Sauer",
       "Values": [
-        "ducimus",
-        "consequatur"
+        "a",
+        "voluptatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 895
+          "FieldType": "System.Int32",
+          "FieldLength": 247
         }
       }
     },
     {
-      "Name": "Braun, Littel and Schaden",
+      "Name": "Carter, Douglas and Sauer",
       "Values": [
-        "ducimus",
-        "consequatur"
+        "a",
+        "voluptatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 895
+          "FieldType": "System.Int32",
+          "FieldLength": 247
         }
       }
     }
   ],
-  "FolderName": "Reichel LLC",
-  "EmailItemId": 871,
-  "AccountId": 421,
-  "ReceivedAt": "2019-08-27T03:24:47.705153+02:00",
+  "FolderName": "VonRueden-Mante",
+  "EmailItemId": 571,
+  "AccountId": 427,
+  "ReceivedAt": "2009-02-24T11:06:34.458307+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-11-26T03:24:47.705153+01:00",
+  "RepliedAt": "2023-01-22T11:06:34.458307+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 409
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 179,
-    "Name": "Boehm-Koelpin",
-    "ToolTip": "Quaerat ad cum officia.",
+    "Id": 392,
+    "Name": "Harris Group",
+    "ToolTip": "Et ut non qui.",
     "Deleted": false,
-    "Rank": 961,
-    "Type": "quo",
-    "ColorBlock": 590,
-    "IconHint": "voluptas",
+    "Rank": 168,
+    "Type": "et",
+    "ColorBlock": 836,
+    "IconHint": "quaerat",
     "Selected": false,
-    "LastChanged": "2014-08-30T03:24:52.318209+02:00",
+    "LastChanged": "2021-07-02T11:06:42.9128214+02:00",
     "ChildItems": [
       {
-        "Id": 559,
-        "Name": "Stoltenberg, Schneider and Wolf",
-        "ToolTip": "Tempora architecto occaecati voluptatibus velit et.",
-        "Deleted": false,
-        "Rank": 71,
-        "Type": "labore",
-        "ColorBlock": 175,
-        "IconHint": "pariatur",
+        "Id": 354,
+        "Name": "Bergstrom, Satterfield and Bartell",
+        "ToolTip": "Cum officia eum et ut et et qui.",
+        "Deleted": true,
+        "Rank": 882,
+        "Type": "voluptate",
+        "ColorBlock": 600,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2019-09-02T03:24:52.318209+02:00",
+        "LastChanged": "1999-01-14T11:06:42.9128214+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "at",
+        "ExtraInfo": "dolor",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Pearlie Beryl Witting DDS",
+        "FullName": "Cordell Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 751
+            "FieldLength": 219
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Sigmund Bashirian",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Timmy Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 447
       }
     }
   }

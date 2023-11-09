@@ -107,27 +107,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 556,
-  "PlainMessage": "in",
-  "HtmlMessage": "dignissimos",
-  "SmsMessage": "sed",
-  "Description": "Virtual asynchronous software",
-  "Subject": "iste",
-  "FolderId": 299,
-  "HeaderField": "et",
-  "Design": "dolores",
+  "ShipmentMessageId": 454,
+  "PlainMessage": "qui",
+  "HtmlMessage": "maxime",
+  "SmsMessage": "consectetur",
+  "Description": "Automated systematic hub",
+  "Subject": "voluptas",
+  "FolderId": 185,
+  "HeaderField": "numquam",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Public-key hybrid ability",
-  "AccessKey": "cum",
-  "DocumentMessage": 518,
-  "Registered": "2015-09-15T03:24:47.9238778+02:00",
-  "RegisteredAssociateId": 377,
-  "Updated": "2005-05-29T03:24:47.9238778+02:00",
-  "UpdatedAssociateId": 763,
-  "UpdatedCount": 504
+  "LongDescription": "Profound next generation adapter",
+  "AccessKey": "et",
+  "DocumentMessage": 286,
+  "Registered": "2013-12-24T11:06:34.7864409+01:00",
+  "RegisteredAssociateId": 782,
+  "Updated": "2002-02-28T11:06:34.7864409+01:00",
+  "UpdatedAssociateId": 290,
+  "UpdatedCount": 195
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 623,
-  "PlainMessage": "et",
-  "HtmlMessage": "iusto",
-  "SmsMessage": "similique",
-  "Description": "Progressive local structure",
-  "Subject": "et",
-  "FolderId": 257,
-  "HeaderField": "eos",
-  "Design": "maxime",
+  "ShipmentMessageId": 130,
+  "PlainMessage": "molestias",
+  "HtmlMessage": "odio",
+  "SmsMessage": "ipsum",
+  "Description": "Profound high-level instruction set",
+  "Subject": "quis",
+  "FolderId": 869,
+  "HeaderField": "quasi",
+  "Design": "eos",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Inverse bottom-line pricing structure",
-  "AccessKey": "accusamus",
-  "DocumentMessage": 736,
-  "Registered": "2009-08-01T03:24:47.9238778+02:00",
-  "RegisteredAssociateId": 300,
-  "Updated": "2014-05-09T03:24:47.9238778+02:00",
-  "UpdatedAssociateId": 490,
-  "UpdatedCount": 1001,
+  "InlineImages": true,
+  "LongDescription": "Down-sized contextually-based utilisation",
+  "AccessKey": "eveniet",
+  "DocumentMessage": 481,
+  "Registered": "2001-09-16T11:06:34.7864409+02:00",
+  "RegisteredAssociateId": 453,
+  "Updated": "2020-03-28T11:06:34.7864409+01:00",
+  "UpdatedAssociateId": 184,
+  "UpdatedCount": 462,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldType": "System.String",
+      "FieldLength": 147
     }
   }
 }

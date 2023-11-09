@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 237,
-  "ErpConnectorId": 61,
-  "DisplayName": "Kohler, Thompson and Kertzmann",
-  "DisplayDescription": "Compatible uniform neural-net",
-  "Active": false,
-  "ConnectionId": "porro",
-  "MostRecentTimestamp": "explicabo",
+  "ErpConnectionId": 213,
+  "ErpConnectorId": 910,
+  "DisplayName": "Williamson LLC",
+  "DisplayDescription": "Ameliorated homogeneous complexity",
+  "Active": true,
+  "ConnectionId": "ullam",
+  "MostRecentTimestamp": "et",
   "ConfigFields": {
-    "ConfigFields1": "aliquid",
-    "ConfigFields2": "id"
+    "ConfigFields1": "est",
+    "ConfigFields2": "non"
   },
   "Deleted": false,
-  "AllAccess": false,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    170,
-    735
+    86,
+    298
   ],
   "AssociateAccessIds": [
-    914,
-    915
+    346,
+    120
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 534
     }
   }
 }

@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Huel, Howe and McDermott",
-    "ToolTip": "Quos totam aspernatur aut quia fuga cumque.",
+    "Id": 171,
+    "Name": "Jacobi Inc and Sons",
+    "ToolTip": "Sit eum autem.",
     "Deleted": false,
-    "Rank": 791,
-    "Type": "aliquam",
-    "ColorBlock": 593,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2012-04-06T03:24:48.5497594+02:00",
+    "Rank": 198,
+    "Type": "rem",
+    "ColorBlock": 850,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "1997-01-01T11:06:35.6939994+01:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Heathcote, Flatley and Marquardt",
-        "ToolTip": "Ipsa officiis unde commodi.",
+        "Id": 116,
+        "Name": "Bernier-Hamill",
+        "ToolTip": "Officiis ea est.",
         "Deleted": false,
-        "Rank": 381,
-        "Type": "asperiores",
-        "ColorBlock": 404,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2020-11-13T03:24:48.5497594+01:00",
+        "Rank": 226,
+        "Type": "ex",
+        "ColorBlock": 782,
+        "IconHint": "illum",
+        "Selected": true,
+        "LastChanged": "2003-04-15T11:06:35.6939994+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "id",
+        "ExtraInfo": "quae",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Donald Beer",
+        "FullName": "Dr. Micah Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 727
+            "FieldLength": 382
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "sint",
+    "ExtraInfo": "ea",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Miss Jacky Myrtice Johnston",
+    "FullName": "Addie Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldType": "System.Int32",
+        "FieldLength": 929
       }
     }
   }

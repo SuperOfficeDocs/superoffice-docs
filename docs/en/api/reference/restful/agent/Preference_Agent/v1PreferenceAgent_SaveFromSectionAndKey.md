@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "minima",
-  "Key": "possimus",
+  "Section": "laudantium",
+  "Key": "dolorem",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 747,
-  "Section": "aperiam",
-  "Key": "dolores",
-  "Name": "Sanford, Jast and Kemmer",
+  "PrefDescId": 925,
+  "Section": "exercitationem",
+  "Key": "quae",
+  "Name": "Littel, Macejkovic and Cremin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reduced composite knowledge base",
+  "Description": "Streamlined incremental frame",
   "IsBuiltin": false,
-  "TableName": "Lubowitz, Bayer and King",
-  "UserDefinedListId": 58,
-  "Rank": 476,
-  "SubGroup": "molestiae",
-  "MinLevel": 893,
-  "MaxValue": 865,
-  "MinValue": 358,
-  "RequiredLicense": "dicta",
+  "TableName": "Baumbach-Aufderhar",
+  "UserDefinedListId": 177,
+  "Rank": 553,
+  "SubGroup": "occaecati",
+  "MinLevel": 924,
+  "MaxValue": 354,
+  "MinValue": 200,
+  "RequiredLicense": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 936
     }
   }
 }

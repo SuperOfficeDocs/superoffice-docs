@@ -86,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nemo",
-  "ProviderName": "Zieme-Swaniawski",
-  "StorageKey": "voluptas",
-  "Restrictions": "atque",
-  "StaticColumns": "quas"
+  "StorageType": "vel",
+  "ProviderName": "Hirthe-Kling",
+  "StorageKey": "eaque",
+  "Restrictions": "error",
+  "StaticColumns": "ut"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Crist Group",
-      "Operator": "quis",
+      "Name": "Romaguera, Lesch and Stanton",
+      "Operator": "qui",
       "Values": [
-        "et",
-        "quae"
+        "perspiciatis",
+        "est"
       ],
       "DisplayValues": [
-        "aperiam",
-        "eum"
+        "vero",
+        "natus"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 544,
+      "InterParenthesis": 267,
       "InterOperator": "And",
-      "UniqueHash": 556
+      "UniqueHash": 397
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Trantow, Gleason and Anderson",
-      "DisplayTooltip": "quae",
-      "DisplayType": "quo",
+      "DisplayName": "Bartoletti, Lubowitz and Blick",
+      "DisplayTooltip": "rerum",
+      "DisplayType": "cupiditate",
       "CanOrderBy": false,
-      "Name": "Kutch-Marks",
-      "CanRestrictBy": false,
-      "RestrictionType": "illum",
-      "RestrictionListName": "Pfannerstill, Senger and McKenzie",
+      "Name": "Pfeffer-McKenzie",
+      "CanRestrictBy": true,
+      "RestrictionType": "est",
+      "RestrictionListName": "Wehner, McClure and Schmitt",
       "IsVisible": false,
-      "ExtraInfo": "eligendi",
-      "Width": "sunt",
-      "IconHint": "illo",
-      "HeadingIconHint": "ut"
+      "ExtraInfo": "repellendus",
+      "Width": "et",
+      "IconHint": "eos",
+      "HeadingIconHint": "qui"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Runte Inc and Sons",
-      "PrimaryKey": 577,
+      "EntityName": "Olson-King",
+      "PrimaryKey": 841,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "commodi",
-          "TooltipHint": "reprehenderit",
-          "LinkHint": "earum"
+          "DisplayValue": "ea",
+          "TooltipHint": "repellendus",
+          "LinkHint": "numquam"
         }
       },
-      "LinkHint": "quia",
-      "StyleHint": "voluptatibus",
+      "LinkHint": "rerum",
+      "StyleHint": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 207
+          "FieldLength": 43
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Feil Inc and Sons",
-      "Description": "Object-based content-based encryption",
-      "Rank": 537,
+      "Name": "Gutkowski LLC",
+      "Description": "Proactive tertiary open architecture",
+      "Rank": 29,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Feil Inc and Sons",
-      "Description": "Object-based content-based encryption",
-      "Rank": 537,
+      "Name": "Gutkowski LLC",
+      "Description": "Proactive tertiary open architecture",
+      "Rank": 29,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldLength": 562
     }
   }
 }

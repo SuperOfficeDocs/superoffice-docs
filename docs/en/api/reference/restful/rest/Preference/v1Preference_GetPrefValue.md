@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "expedita",
+  "RawValue": "tenetur",
   "Specification": null,
-  "DisplayValue": "saepe",
-  "DisplayTooltip": "accusantium",
+  "DisplayValue": "iure",
+  "DisplayTooltip": "est",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 519,
-  "PrefDescId": 425,
-  "TableName": "Davis-Reichert",
-  "UserPreferenceId": 934,
+  "TargetId": 112,
+  "PrefDescId": 755,
+  "TableName": "Yost Inc and Sons",
+  "UserPreferenceId": 945,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 917
     }
   }
 }

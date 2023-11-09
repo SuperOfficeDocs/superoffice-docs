@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hintz, Ratke and Thompson",
-  "Columns": "facilis",
-  "SortOrder": "ipsum",
-  "Restriction": "cum",
-  "Entities": "architecto",
-  "Page": 127,
-  "PageSize": 649,
-  "Options": "et"
+  "ProviderName": "Carter-Langosh",
+  "Columns": "dolor",
+  "SortOrder": "dolorem",
+  "Restriction": "voluptas",
+  "Entities": "blanditiis",
+  "Page": 362,
+  "PageSize": 336,
+  "Options": "aut"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 414,
+  "RowCount": 601,
   "Rows": [
     {
-      "EntityName": "Bednar Inc and Sons",
-      "PrimaryKey": 186,
+      "EntityName": "Oberbrunner-Mayert",
+      "PrimaryKey": 560,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolorem",
-          "TooltipHint": "velit",
-          "LinkHint": "et"
+          "DisplayValue": "iusto",
+          "TooltipHint": "adipisci",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "mollitia",
-      "StyleHint": "magnam",
+      "LinkHint": "ut",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 651
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 536
     }
   }
 }

@@ -70,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Quigley LLC",
-      "DisplayName": "Blick, Mohr and Rosenbaum",
-      "DisplayTooltip": "tenetur",
-      "IsActive": false
+      "Name": "Franecki, Franecki and Waelchi",
+      "DisplayName": "Rowe Inc and Sons",
+      "DisplayTooltip": "et",
+      "IsActive": true
     },
     {
-      "Name": "Quigley LLC",
-      "DisplayName": "Blick, Mohr and Rosenbaum",
-      "DisplayTooltip": "tenetur",
-      "IsActive": false
+      "Name": "Franecki, Franecki and Waelchi",
+      "DisplayName": "Rowe Inc and Sons",
+      "DisplayTooltip": "et",
+      "IsActive": true
     }
   ]
 }

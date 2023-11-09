@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 763,
+  "RecordId": 935,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Harris-Steuber",
+    "DisplayName": "Frami, Zboncak and Schultz",
     "CrmFieldKey": "velit",
-    "Value": "in",
-    "DisplayValue": "vero",
-    "SyncToCrm": false,
+    "Value": "odio",
+    "DisplayValue": "est",
+    "SyncToCrm": true,
     "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldLength": 653
       }
     }
   }

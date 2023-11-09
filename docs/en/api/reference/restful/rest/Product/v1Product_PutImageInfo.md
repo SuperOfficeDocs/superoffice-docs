@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 716,
-  "BlobSize": 627,
-  "Description": "Operative background workforce",
-  "ExtraInfo": "cupiditate",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 941,
-  "CreatedDate": "2015-12-31T03:24:52.0682283+01:00",
-  "UpdatedDate": "2010-11-16T03:24:52.0682283+01:00",
+  "BlobId": 332,
+  "BlobSize": 111,
+  "Description": "Multi-tiered transitional success",
+  "ExtraInfo": "commodi",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "consequuntur",
+  "OriginalSize": 149,
+  "CreatedDate": "2015-09-18T11:06:42.4272471+02:00",
+  "UpdatedDate": "2005-08-21T11:06:42.4272471+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsum"
+  "ConceptualType": "laborum"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 435,
-  "BlobSize": 981,
-  "Description": "Focused client-server conglomeration",
-  "ExtraInfo": "eos",
+  "BlobId": 501,
+  "BlobSize": 368,
+  "Description": "Grass-roots encompassing groupware",
+  "ExtraInfo": "voluptatem",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "saepe",
-  "OriginalSize": 270,
-  "CreatedDate": "2008-07-29T03:24:52.0682283+02:00",
-  "UpdatedDate": "2005-09-09T03:24:52.0682283+02:00",
+  "MimeType": "voluptatibus",
+  "OriginalSize": 338,
+  "CreatedDate": "2006-04-14T11:06:42.4272471+02:00",
+  "UpdatedDate": "2005-12-09T11:06:42.4272471+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldType": "System.String",
+      "FieldLength": 430
     }
   }
 }

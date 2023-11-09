@@ -29,7 +29,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=True
+PUT /api/v1/TicketMessage/{id}?notify=False
 ```
 
 
@@ -128,66 +128,66 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 360,
+  "EjMessageId": 320,
   "Ticket": null,
-  "CreatedAt": "2014-09-07T03:24:52.0057419+02:00",
+  "CreatedAt": "2016-05-16T11:06:42.3491134+02:00",
   "CreatedBy": null,
-  "Author": "animi",
+  "Author": "autem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "deserunt",
-  "TimeSpent": 825,
-  "Body": "aut",
-  "HtmlBody": "in",
-  "EmailHeader": "forrest_halvorson@upton.us",
-  "DebugInfo": "enim",
-  "MailSorter": "natus",
+  "MessageId": "consequatur",
+  "TimeSpent": 699,
+  "Body": "mollitia",
+  "HtmlBody": "sunt",
+  "EmailHeader": "morris.murray@adams.name",
+  "DebugInfo": "voluptatum",
+  "MailSorter": "enim",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quod",
+  "SearchTitle": "officiis",
   "MessageHeaders": [
     {
-      "Id": 336,
-      "Name": "Kris-Mayer",
-      "Value": "a",
+      "Id": 231,
+      "Name": "Tromp Inc and Sons",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 336,
-      "Name": "Kris-Mayer",
-      "Value": "a",
+      "Id": 231,
+      "Name": "Tromp Inc and Sons",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
+  "Important": false,
   "Language": "aut",
-  "Sentiment": 207,
-  "SentimentConfidence": 978,
+  "Sentiment": 313,
+  "SentimentConfidence": 868,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 135,
-      "Name": "Ryan, Schaefer and Runte",
-      "ContentType": "est",
-      "AttSize": 143,
-      "InlineImage": false,
-      "ContentId": "hic",
-      "AuthKey": "qui"
+      "AttachmentId": 240,
+      "Name": "Leffler, Crist and Flatley",
+      "ContentType": "amet",
+      "AttSize": 187,
+      "InlineImage": true,
+      "ContentId": "quis",
+      "AuthKey": "autem"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "cum",
-    "ExtraFields2": "tempora"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "quisquam",
+    "CustomFields2": "fuga"
   }
 }
 ```
@@ -199,78 +199,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 219,
+  "EjMessageId": 959,
   "Ticket": null,
-  "CreatedAt": "1999-06-27T03:24:52.0057419+02:00",
+  "CreatedAt": "2003-09-14T11:06:42.3491134+02:00",
   "CreatedBy": null,
-  "Author": "odit",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "libero",
-  "TimeSpent": 685,
-  "Body": "suscipit",
-  "HtmlBody": "doloribus",
-  "EmailHeader": "charity@nikolaus.us",
-  "DebugInfo": "maxime",
-  "MailSorter": "quia",
+  "MessageId": "magnam",
+  "TimeSpent": 221,
+  "Body": "qui",
+  "HtmlBody": "quis",
+  "EmailHeader": "jadon.okon@doylekreiger.ca",
+  "DebugInfo": "voluptatem",
+  "MailSorter": "minus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ipsa",
+  "SearchTitle": "quia",
   "MessageHeaders": [
     {
-      "Id": 429,
-      "Name": "West-Torphy",
-      "Value": "ducimus",
+      "Id": 869,
+      "Name": "Berge, Robel and Waelchi",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 875
+          "FieldType": "System.String",
+          "FieldLength": 12
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "perspiciatis",
-  "Sentiment": 461,
-  "SentimentConfidence": 539,
+  "Important": false,
+  "Language": "impedit",
+  "Sentiment": 849,
+  "SentimentConfidence": 689,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 981,
-      "Name": "Thiel-Tillman",
-      "ContentType": "dicta",
-      "AttSize": 666,
-      "InlineImage": false,
-      "ContentId": "eos",
-      "AuthKey": "suscipit",
+      "AttachmentId": 229,
+      "Name": "Beahan, Labadie and Pacocha",
+      "ContentType": "in",
+      "AttSize": 783,
+      "InlineImage": true,
+      "ContentId": "numquam",
+      "AuthKey": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldLength": 255
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "amet"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "ut"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "possimus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 655
+      "FieldType": "System.Int32",
+      "FieldLength": 13
     }
   }
 }

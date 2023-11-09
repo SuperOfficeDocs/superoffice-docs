@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 792,
-  "ColumnId": 303,
-  "FieldDefault": "velit",
-  "FieldHeight": 71,
-  "FieldLabel": "atque",
-  "FieldLeft": 33,
-  "FieldTop": 767,
+  "UDefFieldId": 696,
+  "ColumnId": 375,
+  "FieldDefault": "omnis",
+  "FieldHeight": 249,
+  "FieldLabel": "numquam",
+  "FieldLeft": 534,
+  "FieldTop": 446,
   "FieldType": "Checkbox",
-  "FieldWidth": 119,
-  "FormatMask": "enim",
-  "HideLabel": false,
+  "FieldWidth": 387,
+  "FormatMask": "et",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 415,
-  "LabelLeft": 820,
-  "LabelTop": 901,
-  "LabelWidth": 984,
-  "LastVersionId": 13,
-  "ListTableId": 247,
-  "IsMandatory": true,
+  "LabelHeight": 733,
+  "LabelLeft": 660,
+  "LabelTop": 17,
+  "LabelWidth": 637,
+  "LastVersionId": 90,
+  "ListTableId": 898,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 968,
-  "ProgId": "libero",
+  "Page1LineNo": 231,
+  "ProgId": "soluta",
   "IsReadOnly": false,
-  "ShortLabel": "quod",
-  "TabOrder": 563,
-  "TextLength": 536,
-  "Tooltip": "ut",
-  "UdefIdentity": 663,
-  "UDListDefinitionId": 119,
+  "ShortLabel": "doloribus",
+  "TabOrder": 895,
+  "TextLength": 125,
+  "Tooltip": "et",
+  "UdefIdentity": 778,
+  "UDListDefinitionId": 120,
   "Justification": "Center",
-  "Version": 535,
-  "TemplateVariableName": "Grady-Upton",
-  "HasBeenPublished": false,
-  "MdoListName": "Yundt Inc and Sons",
+  "Version": 367,
+  "TemplateVariableName": "Smitham, Goyette and Jacobi",
+  "HasBeenPublished": true,
+  "MdoListName": "Kuvalis LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldType": "System.String",
+      "FieldLength": 49
     }
   }
 }

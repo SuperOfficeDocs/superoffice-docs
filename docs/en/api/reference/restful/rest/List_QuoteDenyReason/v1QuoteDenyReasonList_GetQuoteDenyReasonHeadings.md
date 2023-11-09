@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 599,
-    "Name": "Medhurst, Hand and Mohr",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 691,
-    "UdListDefinitionId": 223,
+    "HeadingId": 348,
+    "Name": "Von-Considine",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "Rank": 1000,
+    "UdListDefinitionId": 198,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 995
+        "FieldType": "System.Int32",
+        "FieldLength": 363
       }
     }
   }

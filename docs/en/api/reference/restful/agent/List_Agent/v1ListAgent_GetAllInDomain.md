@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 948,
+    "HierarchyId": 779,
     "Domain": "Dashboards",
-    "Name": "Moen Group",
-    "Fullname": "recusandae",
-    "ParentId": 925,
+    "Name": "McClure, Pacocha and Keeling",
+    "Fullname": "ut",
+    "ParentId": 448,
     "Children": [
       {
-        "HierarchyId": 905,
+        "HierarchyId": 344,
         "Domain": "Dashboards",
-        "Name": "Heaney, Schmidt and Davis",
-        "Fullname": "enim",
-        "ParentId": 287,
+        "Name": "Emard-Hills",
+        "Fullname": "aut",
+        "ParentId": 438,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2008-09-10T03:24:47.8926276+02:00",
-        "RegisteredAssociateId": 970,
-        "Updated": "2015-08-08T03:24:47.8926276+02:00",
-        "UpdatedAssociateId": 927,
+        "Registered": "2013-07-17T11:06:34.7551834+02:00",
+        "RegisteredAssociateId": 815,
+        "Updated": "2023-10-17T11:06:34.7551834+02:00",
+        "UpdatedAssociateId": 679,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 789
+            "FieldType": "System.Int32",
+            "FieldLength": 705
           }
         }
       }
     ],
-    "Registered": "2010-12-13T03:24:47.8926276+01:00",
-    "RegisteredAssociateId": 686,
-    "Updated": "2017-06-05T03:24:47.8926276+02:00",
-    "UpdatedAssociateId": 457,
+    "Registered": "2016-03-03T11:06:34.7551834+01:00",
+    "RegisteredAssociateId": 607,
+    "Updated": "2018-04-13T11:06:34.7551834+02:00",
+    "UpdatedAssociateId": 304,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 544
+        "FieldLength": 740
       }
     }
   }

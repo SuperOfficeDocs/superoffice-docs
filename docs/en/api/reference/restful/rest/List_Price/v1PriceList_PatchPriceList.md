@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "quisquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "quisquam",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 769,
-  "ERPPriceListKey": "sit",
-  "QuoteConnectionId": 20,
-  "Name": "Leuschke LLC",
-  "Description": "Open-source exuding workforce",
-  "Currency": "enim",
-  "CurrencyName": "Beier-Yundt",
-  "ValidFrom": "2022-10-09T03:24:52.3025813+02:00",
-  "ValidTo": "2021-05-07T03:24:52.3025813+02:00",
+  "PriceListId": 39,
+  "ERPPriceListKey": "tenetur",
+  "QuoteConnectionId": 131,
+  "Name": "Boyle, Mann and Predovic",
+  "Description": "Front-line multimedia open system",
+  "Currency": "est",
+  "CurrencyName": "Satterfield Inc and Sons",
+  "ValidFrom": "2008-02-25T11:06:42.8971908+01:00",
+  "ValidTo": "2002-12-01T11:06:42.8971908+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 337
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -92,7 +92,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "impedit",
+  "TriggerScriptUniqueId": "quidem",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 88,
-  "Name": "Cassin Inc and Sons",
+  "ScreenChooserId": 967,
+  "Name": "Krajcik-Zieme",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "autem",
-  "Source": "voluptas",
-  "Registered": "2012-05-07T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 568,
-  "Updated": "2004-02-13T03:24:47.4708008+01:00",
-  "UpdatedAssociateId": 225,
+  "Enabled": true,
+  "UniqueIdentifier": "maxime",
+  "Source": "occaecati",
+  "Registered": "2011-06-12T11:06:34.2539546+02:00",
+  "RegisteredAssociateId": 632,
+  "Updated": "2016-10-30T11:06:34.2539546+01:00",
+  "UpdatedAssociateId": 585,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 233
     }
   }
 }

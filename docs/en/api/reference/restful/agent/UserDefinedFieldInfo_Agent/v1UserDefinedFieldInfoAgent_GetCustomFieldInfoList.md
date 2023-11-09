@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cummings LLC",
+  "TableName": "Kuhlman-Cormier",
   "IncludeStandard": true
 }
 ```
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Baumbach, Conroy and Kovacek",
-    "DisplayName": "Schamberger-Mayer",
-    "Description": "Multi-layered 24/7 superstructure",
-    "ShortLabel": "nostrum",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": false,
+    "FieldName": "Kassulke LLC",
+    "DisplayName": "Buckridge Inc and Sons",
+    "Description": "Stand-alone intermediate local area network",
+    "ShortLabel": "sequi",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 298,
-    "TemplateVariableName": "Harber, Dooley and Leuschke"
+    "Rank": 181,
+    "TemplateVariableName": "West LLC"
   }
 ]
 ```

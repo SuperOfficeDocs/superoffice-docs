@@ -70,13 +70,13 @@ No Content
 POST /api/v1/Agents/Person/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourcePersonId": 674,
-  "DestinationPersonId": 839,
-  "MoveAfterDate": "2016-04-12T03:24:48.0176214+02:00",
+  "SourcePersonId": 448,
+  "DestinationPersonId": 754,
+  "MoveAfterDate": "2004-02-12T11:06:35.0208116+01:00",
   "DeleteSource": false,
   "ReplaceEmptyFieldsOnDestination": true
 }

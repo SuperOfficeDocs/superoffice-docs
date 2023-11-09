@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=cumque
+GET /api/v1/List/Position/MDOItems?query=dolores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Wiegand, Pacocha and Blick",
-    "ToolTip": "Placeat temporibus temporibus.",
-    "Deleted": false,
-    "Rank": 711,
-    "Type": "qui",
+    "Id": 52,
+    "Name": "Halvorson LLC",
+    "ToolTip": "Hic veritatis incidunt et dolores veniam et est.",
+    "Deleted": true,
+    "Rank": 463,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Marks, Howell and Lehner",
-        "ToolTip": "Excepturi sed.",
-        "Deleted": false,
-        "Rank": 66,
-        "Type": "tenetur",
+        "Id": 246,
+        "Name": "Zieme Group",
+        "ToolTip": "Repudiandae sit ipsa eaque saepe alias.",
+        "Deleted": true,
+        "Rank": 291,
+        "Type": "repellendus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 51,
-        "ExtraInfo": "quia",
-        "StyleHint": "illo",
-        "FullName": "Darrell Daniel",
+        "IconHint": "quod",
+        "ColorBlock": 40,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "omnis",
+        "FullName": "Ava Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 888
+            "FieldType": "System.String",
+            "FieldLength": 828
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 327,
-    "ExtraInfo": "corporis",
-    "StyleHint": "dicta",
-    "FullName": "Ms. Ed Kemmer IV",
+    "IconHint": "quo",
+    "ColorBlock": 628,
+    "ExtraInfo": "eligendi",
+    "StyleHint": "sunt",
+    "FullName": "Marlee Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldLength": 183
       }
     }
   }

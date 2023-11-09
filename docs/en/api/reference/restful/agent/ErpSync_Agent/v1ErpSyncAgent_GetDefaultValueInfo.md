@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 100
+  "ErpFieldId": 956
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 538,
-  "DefaultValue": "earum",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "atque",
+  "ErpFieldId": 644,
+  "DefaultValue": "fuga",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "impedit",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "error",
+  "ErpFieldKey": "ut",
   "FieldType": "Checkbox",
-  "ListName": "Padberg Group",
+  "ListName": "Morissette-Ortiz",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 687
+      "FieldType": "System.Int32",
+      "FieldLength": 271
     }
   }
 }

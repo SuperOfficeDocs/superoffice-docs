@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 509,
-    "Name": "Hamill-Schinner",
-    "ToolTip": "Dolorem voluptatem reiciendis neque delectus animi.",
+    "Id": 361,
+    "Name": "Auer-Lemke",
+    "ToolTip": "Amet distinctio deserunt autem qui.",
     "Deleted": false,
-    "Rank": 689,
-    "Type": "accusamus",
-    "ColorBlock": 613,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2022-09-10T03:24:52.3025813+02:00",
+    "Rank": 231,
+    "Type": "ut",
+    "ColorBlock": 748,
+    "IconHint": "saepe",
+    "Selected": true,
+    "LastChanged": "2005-11-10T11:06:42.8971908+01:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Batz-Rohan",
-        "ToolTip": "Velit velit molestiae exercitationem voluptatibus.",
+        "Id": 162,
+        "Name": "Kerluke Group",
+        "ToolTip": "Hic officia numquam enim.",
         "Deleted": false,
-        "Rank": 512,
-        "Type": "est",
-        "ColorBlock": 447,
-        "IconHint": "velit",
+        "Rank": 567,
+        "Type": "deserunt",
+        "ColorBlock": 267,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "1997-01-22T03:24:52.3025813+01:00",
+        "LastChanged": "2000-08-13T11:06:42.8971908+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "eos",
+        "ExtraInfo": "sit",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Una Kuphal",
+        "FullName": "Bruce Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 125
+            "FieldLength": 64
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "tempora",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Mrs. Lonzo Sigmund Mayert MD",
+    "FullName": "Kitty Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldLength": 885
       }
     }
   }

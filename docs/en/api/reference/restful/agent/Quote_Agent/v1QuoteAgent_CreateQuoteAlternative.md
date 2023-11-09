@@ -101,9 +101,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 937,
-  "QuoteAlternativeName": "Kassulke-Wuckert",
-  "QuoteAlternativeDescription": "Advanced bottom-line projection"
+  "QuoteVersionId": 588,
+  "QuoteAlternativeName": "Bogisich, Roob and Reichert",
+  "QuoteAlternativeDescription": "Profound solution-oriented algorithm"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 609,
-  "ERPQuoteAlternativeKey": "fuga",
-  "QuoteVersionId": 57,
-  "Name": "Corwin Inc and Sons",
-  "Description": "Decentralized intermediate initiative",
+  "QuoteAlternativeId": 977,
+  "ERPQuoteAlternativeKey": "deserunt",
+  "QuoteVersionId": 170,
+  "Name": "Morar, Casper and Gleichner",
+  "Description": "Function-based 24 hour hierarchy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 2463.324,
-  "ERPDiscountAmount": 26134.426,
-  "DiscountPercent": 15018.127999999999,
-  "DiscountAmount": 1883.5339999999999,
+  "ERPDiscountPercent": 21286.128,
+  "ERPDiscountAmount": 3014.908,
+  "DiscountPercent": 7424.446,
+  "DiscountAmount": 13504.405999999999,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quam",
-  "VAT": 4547.434,
-  "EarningPercent": 25936.984,
-  "EarningAmount": 1560.732,
-  "SubTotal": 26212.775999999998,
-  "TotalPrice": 4230.9,
-  "ExtraField1": "quaerat",
-  "ExtraField2": "nihil",
-  "ExtraField3": "alias",
-  "ExtraField4": "numquam",
-  "ExtraField5": "eaque",
+  "VATInfo": "explicabo",
+  "VAT": 24855.754,
+  "EarningPercent": 20486.958,
+  "EarningAmount": 13745.724,
+  "SubTotal": 1698.628,
+  "TotalPrice": 8587.16,
+  "ExtraField1": "sapiente",
+  "ExtraField2": "rerum",
+  "ExtraField3": "sed",
+  "ExtraField4": "voluptas",
+  "ExtraField5": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldLength": 473
     }
   }
 }

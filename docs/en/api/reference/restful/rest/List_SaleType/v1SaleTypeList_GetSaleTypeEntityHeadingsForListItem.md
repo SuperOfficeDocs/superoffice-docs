@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Rowe-Bernhard",
-    "ToolTip": "Vero maiores ullam aperiam.",
-    "Deleted": true,
-    "Rank": 204,
-    "Type": "esse",
-    "ColorBlock": 783,
-    "IconHint": "tempore",
-    "Selected": false,
-    "LastChanged": "2008-11-02T03:24:52.4119449+01:00",
+    "Id": 502,
+    "Name": "Olson-Schinner",
+    "ToolTip": "Ut consectetur.",
+    "Deleted": false,
+    "Rank": 161,
+    "Type": "hic",
+    "ColorBlock": 309,
+    "IconHint": "sint",
+    "Selected": true,
+    "LastChanged": "1998-03-17T11:06:43.0534497+01:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Marquardt-Emard",
-        "ToolTip": "Id neque voluptatum voluptatum cumque.",
-        "Deleted": false,
-        "Rank": 803,
-        "Type": "sed",
-        "ColorBlock": 376,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2006-05-31T03:24:52.4119449+02:00",
+        "Id": 251,
+        "Name": "Hudson, Cartwright and Zboncak",
+        "ToolTip": "Repudiandae mollitia et.",
+        "Deleted": true,
+        "Rank": 695,
+        "Type": "modi",
+        "ColorBlock": 614,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "1997-03-20T11:06:43.069069+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "commodi",
+        "ExtraInfo": "non",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Gus Muller",
+        "FullName": "Dr. Ceasar Herzog III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 550
+            "FieldLength": 58
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Anissa Denesik",
+    "ExtraInfo": "eos",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Dr. Dahlia Mauricio Jerde V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldLength": 28
       }
     }
   }

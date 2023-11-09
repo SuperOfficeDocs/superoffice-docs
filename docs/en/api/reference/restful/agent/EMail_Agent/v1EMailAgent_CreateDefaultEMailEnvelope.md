@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 724,
-  "MessageId": "dolores",
-  "Subject": "voluptas",
+  "ServerId": 528,
+  "MessageId": "repellendus",
+  "Subject": "recusandae",
   "From": null,
   "To": [
     {
-      "ContactId": 882,
-      "ContactName": "Hayes-Nitzsche",
-      "PersonId": 505,
-      "PersonName": "Roberts-Kub",
-      "AssociateId": 204,
-      "Address": "ut",
-      "EmailId": 676,
+      "ContactId": 678,
+      "ContactName": "Ferry-Runte",
+      "PersonId": 127,
+      "PersonName": "Mayert Group",
+      "AssociateId": 930,
+      "Address": "asperiores",
+      "EmailId": 145,
       "DuplicatePersonIds": [
-        990,
-        128
+        795,
+        925
       ],
-      "Name": "Grady Inc and Sons",
+      "Name": "Stokes, Gottlieb and Ferry",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 140
+          "FieldLength": 2
         }
       }
     }
   ],
-  "Sent": "2006-03-21T03:24:47.7363985+01:00",
+  "Sent": "2010-09-30T11:06:34.505187+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 213,
+  "Size": 451,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 148
+      "FieldLength": 502
     }
   }
 }

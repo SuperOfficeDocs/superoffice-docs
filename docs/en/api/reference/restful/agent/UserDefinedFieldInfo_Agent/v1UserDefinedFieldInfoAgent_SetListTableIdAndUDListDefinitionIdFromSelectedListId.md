@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 340
+  "SelectedListId": 156
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 775,
-  "ColumnId": 169,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 988,
-  "FieldLabel": "impedit",
-  "FieldLeft": 311,
-  "FieldTop": 396,
+  "UDefFieldId": 261,
+  "ColumnId": 390,
+  "FieldDefault": "quasi",
+  "FieldHeight": 430,
+  "FieldLabel": "id",
+  "FieldLeft": 773,
+  "FieldTop": 653,
   "FieldType": "Checkbox",
-  "FieldWidth": 412,
-  "FormatMask": "magni",
+  "FieldWidth": 581,
+  "FormatMask": "dolorem",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 543,
-  "LabelLeft": 955,
-  "LabelTop": 193,
-  "LabelWidth": 439,
-  "LastVersionId": 261,
-  "ListTableId": 325,
+  "IsIndexed": true,
+  "LabelHeight": 541,
+  "LabelLeft": 869,
+  "LabelTop": 124,
+  "LabelWidth": 358,
+  "LastVersionId": 425,
+  "ListTableId": 797,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 8,
-  "ProgId": "mollitia",
-  "IsReadOnly": true,
-  "ShortLabel": "qui",
-  "TabOrder": 804,
-  "TextLength": 74,
-  "Tooltip": "dolorum",
-  "UdefIdentity": 202,
-  "UDListDefinitionId": 591,
+  "Page1LineNo": 4,
+  "ProgId": "ex",
+  "IsReadOnly": false,
+  "ShortLabel": "quia",
+  "TabOrder": 697,
+  "TextLength": 31,
+  "Tooltip": "unde",
+  "UdefIdentity": 679,
+  "UDListDefinitionId": 807,
   "Justification": "Center",
-  "Version": 19,
-  "TemplateVariableName": "Barton LLC",
+  "Version": 713,
+  "TemplateVariableName": "Kulas Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Corkery-Yost",
+  "MdoListName": "Kiehn LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 803
     }
   }
 }

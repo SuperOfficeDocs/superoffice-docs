@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 517,
-  "Currency": "non"
+  "QuoteConnectionId": 580,
+  "Currency": "et"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 454,
-    "ERPPriceListKey": "voluptate",
-    "QuoteConnectionId": 303,
-    "Name": "Kihn, Jerde and Schuster",
-    "Description": "Adaptive foreground circuit",
-    "Currency": "excepturi",
-    "CurrencyName": "Lynch-Casper",
-    "ValidFrom": "2014-12-06T03:24:48.1426062+01:00",
-    "ValidTo": "2023-09-10T03:24:48.1426062+02:00",
+    "PriceListId": 691,
+    "ERPPriceListKey": "rerum",
+    "QuoteConnectionId": 224,
+    "Name": "O'Keefe-Haag",
+    "Description": "Secured web-enabled firmware",
+    "Currency": "eius",
+    "CurrencyName": "Thompson, DuBuque and O'Hara",
+    "ValidFrom": "2008-07-05T11:06:35.2239506+02:00",
+    "ValidTo": "2004-01-24T11:06:35.2239506+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldLength": 246
       }
     }
   }

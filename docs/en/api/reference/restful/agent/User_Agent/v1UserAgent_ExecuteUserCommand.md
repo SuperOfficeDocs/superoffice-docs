@@ -73,7 +73,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Durgan-VonRueden",
+  "CommandName": "Davis Group",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -87,14 +87,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "officiis",
+  "Message": "vel",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 167
     }
   }
 }

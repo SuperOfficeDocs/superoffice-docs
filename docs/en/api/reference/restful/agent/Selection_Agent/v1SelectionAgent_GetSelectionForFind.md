@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Dach, Glover and Mosciski",
-  "TypicalSearchId": 260
+  "EntityName": "Swift Inc and Sons",
+  "TypicalSearchId": 643
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gislason-Bogan",
-  "SelectionId": 866,
-  "CanSaveAsSelection": false,
-  "MainHeading": "facilis",
-  "FilterScreenHeading": "aut",
-  "SelectionEntityHeading": "minus",
+  "ProviderName": "Hackett Inc and Sons",
+  "SelectionId": 320,
+  "CanSaveAsSelection": true,
+  "MainHeading": "dolore",
+  "FilterScreenHeading": "numquam",
+  "SelectionEntityHeading": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 138
     }
   }
 }

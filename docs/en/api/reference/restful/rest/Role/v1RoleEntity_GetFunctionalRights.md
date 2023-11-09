@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 583,
-    "Name": "Ferry LLC",
-    "ToolTip": "Quam inventore velit.",
-    "Deleted": true,
-    "Rank": 822,
-    "Type": "repellendus",
-    "ColorBlock": 433,
-    "IconHint": "voluptate",
-    "Selected": false,
-    "LastChanged": "2017-08-07T03:24:51.7557701+02:00",
+    "Id": 770,
+    "Name": "Hintz LLC",
+    "ToolTip": "Asperiores dolorem non aut.",
+    "Deleted": false,
+    "Rank": 395,
+    "Type": "sint",
+    "ColorBlock": 190,
+    "IconHint": "at",
+    "Selected": true,
+    "LastChanged": "2018-10-22T11:06:42.0978516+02:00",
     "ChildItems": [
       {
-        "Id": 391,
-        "Name": "Gislason, Jaskolski and Schroeder",
-        "ToolTip": "Minima sed.",
+        "Id": 151,
+        "Name": "Kautzer Group",
+        "ToolTip": "Corrupti magni architecto consequatur aut cumque ducimus quidem.",
         "Deleted": false,
-        "Rank": 248,
-        "Type": "dolor",
-        "ColorBlock": 942,
-        "IconHint": "quos",
-        "Selected": true,
-        "LastChanged": "2002-08-24T03:24:51.7557701+02:00",
+        "Rank": 200,
+        "Type": "rem",
+        "ColorBlock": 526,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2009-05-22T11:06:42.0978516+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "architecto",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Prof. Jena Simonis",
+        "FullName": "Daniela Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "nobis",
+    "ExtraInfo": "animi",
+    "StyleHint": "rem",
     "Hidden": true,
-    "FullName": "Robbie McGlynn",
+    "FullName": "Helen Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldType": "System.String",
+        "FieldLength": 662
       }
     }
   }

@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 601,
-  "Name": "Gislason, McDermott and Gutmann",
-  "Description": "Switchable next generation moderator",
-  "DeltaJson": "corrupti",
+  "ConfigurableScreenDeltaId": 472,
+  "Name": "Runolfsdottir LLC",
+  "Description": "Programmable scalable encryption",
+  "DeltaJson": "iste",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "architecto",
-  "UpdatedDate": "2003-05-15T03:24:47.3614382+02:00",
-  "CreatedDate": "1998-01-09T03:24:47.3614382+01:00",
+  "RecipeId": "repellendus",
+  "UpdatedDate": "2023-10-27T11:06:34.0652258+02:00",
+  "CreatedDate": "2021-01-13T11:06:34.0652258+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    627,
-    47
+    906,
+    419
   ],
-  "AppliesToKey": "eaque"
+  "AppliesToKey": "officia"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 197,
-  "Name": "Dicki LLC",
-  "Description": "Fundamental bi-directional workforce",
-  "DeltaJson": "nesciunt",
+  "ConfigurableScreenDeltaId": 701,
+  "Name": "Hirthe Inc and Sons",
+  "Description": "Managed client-server benchmark",
+  "DeltaJson": "blanditiis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "aliquam",
-  "UpdatedDate": "2002-11-24T03:24:47.3614382+01:00",
-  "CreatedDate": "2020-07-11T03:24:47.3614382+02:00",
+  "RecipeId": "eum",
+  "UpdatedDate": "2018-03-17T11:06:34.0652258+01:00",
+  "CreatedDate": "2002-05-01T11:06:34.0652258+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    105,
-    550
+    442,
+    720
   ],
-  "AppliesToKey": "voluptatem",
+  "AppliesToKey": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 234
+      "FieldLength": 268
     }
   }
 }

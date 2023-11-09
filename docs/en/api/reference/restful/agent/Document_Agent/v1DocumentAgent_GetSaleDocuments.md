@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 38
+  "SaleId": 290
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 434,
-    "Attention": "quae",
-    "Header": "et",
-    "Name": "Lesch-Stroman",
-    "OurRef": "in",
-    "YourRef": "quidem",
-    "Description": "Face to face interactive methodology",
-    "DocumentTemplate": "tempore",
-    "IsPublished": false,
-    "PersonId": 376,
-    "PersonFullName": "Dr. Kellen Joana Heidenreich",
-    "AssociateFullName": "Mr. Arnaldo Holden Wolff Sr.",
-    "ContactId": 273,
-    "ContactName": "Rau, Kirlin and Raynor",
-    "ProjectId": 960,
-    "ProjectName": "Rempel, Kuhic and Kunde",
-    "AssociateId": 573,
-    "Snum": 654,
-    "SaleId": 526,
-    "SaleName": "Lebsack LLC",
+    "DocumentId": 290,
+    "Attention": "repellendus",
+    "Header": "quibusdam",
+    "Name": "Schumm LLC",
+    "OurRef": "iure",
+    "YourRef": "minus",
+    "Description": "Secured stable structure",
+    "DocumentTemplate": "repudiandae",
+    "IsPublished": true,
+    "PersonId": 263,
+    "PersonFullName": "Mrs. Ryley Jeffry Greenfelder",
+    "AssociateFullName": "Rafael Kozey",
+    "ContactId": 810,
+    "ContactName": "Jacobs LLC",
+    "ProjectId": 793,
+    "ProjectName": "Jones Inc and Sons",
+    "AssociateId": 381,
+    "Snum": 849,
+    "SaleId": 319,
+    "SaleName": "Reichert-Lakin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 66
+        "FieldLength": 5
       }
     }
   }

@@ -91,17 +91,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 998,
-  "Name": "Gislason-Lang",
-  "ContentType": "dolor",
-  "AttSize": 961,
-  "InlineImage": false,
-  "ContentId": "eaque",
-  "AuthKey": "asperiores"
+  "AttachmentId": 453,
+  "Name": "Zulauf-O'Connell",
+  "ContentType": "qui",
+  "AttSize": 109,
+  "InlineImage": true,
+  "ContentId": "aperiam",
+  "AuthKey": "natus"
 }
 ```
 
@@ -112,19 +112,19 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 782,
-  "Name": "Sipes, Kilback and Monahan",
-  "ContentType": "ab",
-  "AttSize": 194,
+  "AttachmentId": 376,
+  "Name": "Lubowitz-Walter",
+  "ContentType": "aut",
+  "AttSize": 164,
   "InlineImage": false,
-  "ContentId": "atque",
-  "AuthKey": "sapiente",
+  "ContentId": "quo",
+  "AuthKey": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldType": "System.Int32",
+      "FieldLength": 92
     }
   },
   "_Links": {

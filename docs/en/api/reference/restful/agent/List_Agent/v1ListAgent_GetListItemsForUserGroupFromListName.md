@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Heaney-Runolfsdottir",
-  "GroupId": 137
+  "UdListDefinitionName": "Hickle-Ritchie",
+  "GroupId": 770
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Lebsack Group",
-    "ToolTip": "Iusto repudiandae aut dolore esse officia omnis.",
-    "Deleted": false,
-    "Rank": 789,
-    "Type": "eos",
-    "ColorBlock": 148,
-    "IconHint": "aut",
+    "Id": 711,
+    "Name": "Lowe, Turner and Larson",
+    "ToolTip": "In ea.",
+    "Deleted": true,
+    "Rank": 316,
+    "Type": "optio",
+    "ColorBlock": 872,
+    "IconHint": "perspiciatis",
     "Selected": true,
-    "LastChanged": "2018-10-22T03:24:47.8613878+02:00",
+    "LastChanged": "2017-01-09T11:06:34.7083083+01:00",
     "ChildItems": [
       {
-        "Id": 753,
-        "Name": "Spencer Inc and Sons",
-        "ToolTip": "Error molestiae perferendis id.",
+        "Id": 959,
+        "Name": "Jones-Johns",
+        "ToolTip": "Molestiae facilis rerum architecto.",
         "Deleted": false,
-        "Rank": 23,
-        "Type": "quas",
-        "ColorBlock": 665,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2019-09-23T03:24:47.8613878+02:00",
+        "Rank": 86,
+        "Type": "et",
+        "ColorBlock": 808,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "2004-11-20T11:06:34.7083083+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "odit",
+        "ExtraInfo": "et",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Hassie Fadel",
+        "FullName": "Jesus Cormier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 325
+            "FieldLength": 168
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "est",
+    "ExtraInfo": "saepe",
+    "StyleHint": "quos",
     "Hidden": true,
-    "FullName": "Janet Wuckert",
+    "FullName": "Rosalee Louie Okuneva Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 438
       }
     }
   }

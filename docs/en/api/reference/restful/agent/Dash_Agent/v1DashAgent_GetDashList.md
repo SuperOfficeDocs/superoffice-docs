@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    673,
-    432
+    120,
+    276
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 86,
-    "UniqueId": "quam",
-    "Name": "Towne Inc and Sons",
-    "Description": "Assimilated bottom-line moratorium",
-    "AssociateId": 648,
-    "Columns": 395,
+    "DashboardId": 7,
+    "UniqueId": "est",
+    "Name": "Frami-Wehner",
+    "Description": "Multi-lateral zero defect Graphical User Interface",
+    "AssociateId": 107,
+    "Columns": 1001,
     "Theme": null,
-    "VisibleForAll": 395,
+    "VisibleForAll": 885,
     "VisibleForAssociates": [
-      790,
-      500
+      593,
+      276
     ],
     "VisibleForGroups": [
-      706,
-      148
+      133,
+      321
     ],
-    "PinForAll": 452,
+    "PinForAll": 678,
     "PinForAssociates": [
-      355,
-      859
+      684,
+      555
     ],
     "PinForGroups": [
-      425,
-      65
+      130,
+      166
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 918
+        "FieldLength": 523
       }
     }
   }

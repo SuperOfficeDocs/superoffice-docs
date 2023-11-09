@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Hintz, Murphy and Reynolds",
-    "ToolTip": "Et dolorum.",
+    "Id": 907,
+    "Name": "Ruecker, Harris and Adams",
+    "ToolTip": "Vero perspiciatis ut aut minima fugiat quam est.",
     "Deleted": false,
-    "Rank": 735,
-    "Type": "numquam",
-    "ColorBlock": 34,
-    "IconHint": "ratione",
-    "Selected": false,
-    "LastChanged": "1999-02-05T03:24:52.3963183+01:00",
+    "Rank": 700,
+    "Type": "omnis",
+    "ColorBlock": 411,
+    "IconHint": "possimus",
+    "Selected": true,
+    "LastChanged": "2016-04-14T11:06:43.037826+02:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Schamberger LLC",
-        "ToolTip": "Ut aut quaerat.",
+        "Id": 562,
+        "Name": "Hamill LLC",
+        "ToolTip": "Nobis aut quos ex.",
         "Deleted": false,
-        "Rank": 690,
-        "Type": "dolor",
-        "ColorBlock": 750,
-        "IconHint": "debitis",
-        "Selected": false,
-        "LastChanged": "2012-11-28T03:24:52.3963183+01:00",
+        "Rank": 709,
+        "Type": "quos",
+        "ColorBlock": 533,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2000-02-07T11:06:43.037826+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Karson Denesik",
+        "FullName": "D'angelo Schultz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 219
+            "FieldLength": 987
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "esse",
-    "Hidden": true,
-    "FullName": "Ms. Sierra Marisol Will III",
+    "ExtraInfo": "est",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Kaelyn Larson PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 50
       }
     }
   }

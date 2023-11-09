@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "enim"
+  "TriggerScriptUniqueId": "sed"
 }
 ```
 
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "enim",
-  "LineNumber": 437,
+  "ErrorMessage": "et",
+  "LineNumber": 77,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldType": "System.String",
+      "FieldLength": 820
     }
   }
 }

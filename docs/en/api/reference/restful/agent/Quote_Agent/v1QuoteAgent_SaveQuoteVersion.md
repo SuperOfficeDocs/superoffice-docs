@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 145,
-  "ERPQuoteVersionKey": "ea",
-  "QuoteId": 428,
-  "Description": "Re-contextualized well-modulated focus group",
-  "Number": "1273557",
+  "QuoteVersionId": 924,
+  "ERPQuoteVersionKey": "qui",
+  "QuoteId": 729,
+  "Description": "Self-enabling homogeneous implementation",
+  "Number": "1207051",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 16,
-  "SentDate": "2018-11-27T03:24:48.111357+01:00",
-  "FollowupId": 480,
-  "ExpirationDate": "2021-09-04T03:24:48.111357+02:00",
-  "DeliveryCountryId": 798,
+  "LikelyQuoteAlternativeId": 259,
+  "SentDate": "2019-04-24T11:06:35.1926981+02:00",
+  "FollowupId": 618,
+  "ExpirationDate": "2012-06-30T11:06:35.1926981+02:00",
+  "DeliveryCountryId": 81,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 831,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "possimus",
-  "ERPPaymentTypeKey": "dolor",
-  "ERPDeliveryTermsKey": "adipisci",
-  "ERPDeliveryTypeKey": "tempora",
-  "Rank": 306,
-  "ApprovedBy": 770,
-  "ApprovedText": "enim",
-  "ApprovedRegisteredBy": 923,
-  "ApprovedRegisteredDate": "2008-02-16T03:24:48.111357+01:00",
-  "ExtraField1": "blanditiis",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "et",
-  "ExtraField4": "eum",
-  "ExtraField5": "enim",
-  "LastRecalculated": "2020-09-11T03:24:48.1269787+02:00",
-  "Updated": "2000-10-27T03:24:48.1269787+02:00",
-  "UpdatedAssociateId": 688,
-  "Registered": "2013-11-04T03:24:48.1269787+01:00",
-  "RegisteredAssociateId": 902,
-  "RequestAssociateId": 511,
-  "RequestComment": "enim",
+  "InvoiceCountryId": 299,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "qui",
+  "ERPPaymentTypeKey": "sint",
+  "ERPDeliveryTermsKey": "sed",
+  "ERPDeliveryTypeKey": "dolorem",
+  "Rank": 784,
+  "ApprovedBy": 55,
+  "ApprovedText": "laboriosam",
+  "ApprovedRegisteredBy": 36,
+  "ApprovedRegisteredDate": "2000-01-13T11:06:35.1926981+01:00",
+  "ExtraField1": "et",
+  "ExtraField2": "omnis",
+  "ExtraField3": "repudiandae",
+  "ExtraField4": "sit",
+  "ExtraField5": "sit",
+  "LastRecalculated": "2008-12-04T11:06:35.1926981+01:00",
+  "Updated": "1996-09-05T11:06:35.1926981+02:00",
+  "UpdatedAssociateId": 190,
+  "Registered": "2021-12-30T11:06:35.1926981+01:00",
+  "RegisteredAssociateId": 472,
+  "RequestAssociateId": 783,
+  "RequestComment": "corporis",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 379,
-      "ERPQuoteAlternativeKey": "eos",
-      "QuoteVersionId": 892,
-      "Name": "Abernathy, Klocko and Runolfsson",
-      "Description": "Multi-layered encompassing paradigm",
+      "QuoteAlternativeId": 261,
+      "ERPQuoteAlternativeKey": "esse",
+      "QuoteVersionId": 338,
+      "Name": "Kulas Group",
+      "Description": "Monitored zero defect project",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 21436.559999999998,
-      "ERPDiscountAmount": 153.566,
-      "DiscountPercent": 30847.962,
-      "DiscountAmount": 9098.002,
+      "ERPDiscountPercent": 20355.329999999998,
+      "ERPDiscountAmount": 5932.6619999999994,
+      "DiscountPercent": 7427.58,
+      "DiscountAmount": 21630.868,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "quia",
-      "VAT": 31070.476,
-      "EarningPercent": 25466.884,
-      "EarningAmount": 14347.452,
-      "SubTotal": 8424.192,
-      "TotalPrice": 10414.282,
+      "VATInfo": "est",
+      "VAT": 25592.244,
+      "EarningPercent": 30393.532,
+      "EarningAmount": 5412.418,
+      "SubTotal": 16644.674,
+      "TotalPrice": 29121.128,
       "ExtraField1": "et",
-      "ExtraField2": "odio",
-      "ExtraField3": "nobis",
-      "ExtraField4": "error",
-      "ExtraField5": "autem",
+      "ExtraField2": "nihil",
+      "ExtraField3": "qui",
+      "ExtraField4": "molestias",
+      "ExtraField5": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 963
+          "FieldLength": 348
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 232
+      "FieldLength": 308
     }
   }
 }

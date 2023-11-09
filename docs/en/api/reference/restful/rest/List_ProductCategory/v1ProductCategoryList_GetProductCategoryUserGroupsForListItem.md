@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 403,
-    "Name": "Gerhold-Jones",
-    "ToolTip": "Labore voluptates aut libero culpa amet dolorem et.",
+    "Id": 419,
+    "Name": "Mills Group",
+    "ToolTip": "Mollitia rerum cum explicabo ullam.",
     "Deleted": false,
-    "Rank": 476,
-    "Type": "ullam",
-    "ColorBlock": 942,
-    "IconHint": "labore",
-    "Selected": true,
-    "LastChanged": "2008-11-18T03:24:52.318209+01:00",
+    "Rank": 674,
+    "Type": "dignissimos",
+    "ColorBlock": 107,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2017-02-14T11:06:42.9128214+01:00",
     "ChildItems": [
       {
-        "Id": 673,
-        "Name": "Bechtelar-Rolfson",
-        "ToolTip": "Et voluptates atque id.",
+        "Id": 118,
+        "Name": "Franecki, Turcotte and Wisoky",
+        "ToolTip": "Beatae sequi voluptates totam sit dolores necessitatibus et.",
         "Deleted": true,
-        "Rank": 739,
-        "Type": "in",
-        "ColorBlock": 633,
+        "Rank": 822,
+        "Type": "voluptatem",
+        "ColorBlock": 34,
         "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2010-03-26T03:24:52.318209+01:00",
+        "Selected": false,
+        "LastChanged": "2011-11-19T11:06:42.9128214+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "iusto",
+        "StyleHint": "corporis",
         "Hidden": false,
-        "FullName": "Mrs. Pansy Graham Hane",
+        "FullName": "Prof. Gwen Buckridge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 790
+            "FieldLength": 925
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Donato Kerluke",
+    "ExtraInfo": "provident",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Prof. Cora Bailey IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldLength": 820
       }
     }
   }

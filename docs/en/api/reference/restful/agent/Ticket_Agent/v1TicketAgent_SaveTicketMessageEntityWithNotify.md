@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 169,
+  "EjMessageId": 446,
   "Ticket": null,
-  "CreatedAt": "2017-04-15T03:24:48.5028909+02:00",
+  "CreatedAt": "2013-06-08T11:06:35.6158782+02:00",
   "CreatedBy": null,
-  "Author": "quia",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "praesentium",
-  "TimeSpent": 823,
-  "Body": "quod",
-  "HtmlBody": "saepe",
-  "EmailHeader": "margret.schiller@franecki.uk",
-  "DebugInfo": "voluptatum",
-  "MailSorter": "quia",
+  "MessageId": "est",
+  "TimeSpent": 842,
+  "Body": "in",
+  "HtmlBody": "et",
+  "EmailHeader": "sage_berge@heidenreich.com",
+  "DebugInfo": "et",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ipsum",
+  "SearchTitle": "omnis",
   "MessageHeaders": [
     {
-      "Id": 714,
-      "Name": "Koelpin Group",
-      "Value": "quasi",
+      "Id": 211,
+      "Name": "Jenkins-Tillman",
+      "Value": "voluptate",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 831
+          "FieldLength": 248
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "facere",
-  "Sentiment": 762,
-  "SentimentConfidence": 421,
+  "Important": true,
+  "Language": "et",
+  "Sentiment": 245,
+  "SentimentConfidence": 711,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 382,
-      "Name": "Schulist-Wisozk",
-      "ContentType": "harum",
-      "AttSize": 730,
+      "AttachmentId": 843,
+      "Name": "Wehner, Mayer and Bechtelar",
+      "ContentType": "cum",
+      "AttSize": 797,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "voluptas",
+      "ContentId": "totam",
+      "AuthKey": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldLength": 200
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "velit"
+    "CustomFields1": "maxime",
+    "CustomFields2": "rem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 772
     }
   }
 }

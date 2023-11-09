@@ -67,7 +67,7 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 ## Sample
 
 ```http!
-GET /api/v1/archive/CategoryMembers?$select=title,otherGroups,personId
+GET /api/v1/archive/CategoryMembers?$select=personId,usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

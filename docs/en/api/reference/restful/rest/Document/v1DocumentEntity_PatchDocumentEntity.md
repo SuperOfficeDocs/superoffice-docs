@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "suscipit",
+    "path": "quasi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "suscipit",
+    "path": "quasi",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 69,
+  "DocumentId": 842,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "praesentium",
-  "Header": "recusandae",
-  "Name": "Quigley, Ortiz and Corkery",
-  "OurRef": "ut",
-  "YourRef": "doloremque",
-  "CreatedDate": "2014-12-31T03:24:51.5837277+01:00",
-  "UpdatedDate": "2018-04-04T03:24:51.5837277+02:00",
-  "Description": "Cross-group neutral process improvement",
+  "Attention": "sunt",
+  "Header": "ab",
+  "Name": "Balistreri-Johnson",
+  "OurRef": "hic",
+  "YourRef": "placeat",
+  "CreatedDate": "2005-11-18T11:06:41.8478481+01:00",
+  "UpdatedDate": "1998-05-31T11:06:41.8478481+02:00",
+  "Description": "Multi-tiered web-enabled intranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-04-11T03:24:51.5837277+02:00",
-  "ExternalRef": "labore",
+  "Date": "2017-04-14T11:06:41.8478481+02:00",
+  "ExternalRef": "libero",
   "Completed": "Completed",
-  "ActiveLinks": 52,
+  "ActiveLinks": 580,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lang, McKenzie and Raynor",
-      "Id": 707,
-      "Description": "Synergistic context-sensitive matrix",
-      "ExtraInfo": "sunt",
-      "LinkId": 350,
+      "EntityName": "Simonis, Blanda and Hintz",
+      "Id": 528,
+      "Description": "Streamlined eco-centric functionalities",
+      "ExtraInfo": "tempore",
+      "LinkId": 897,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldType": "System.String",
+          "FieldLength": 589
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 933,
-  "Snum": 41,
+  "SuggestedDocumentId": 636,
+  "Snum": 296,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alfreda Hand",
-    "SuperOffice:2": "629017613"
+    "SuperOffice:1": "Neil Trantow",
+    "SuperOffice:2": "William Bailey"
   },
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "ullam"
+    "CustomFields1": "omnis",
+    "CustomFields2": "repudiandae"
   },
-  "PublishEventDate": "1998-11-28T03:24:51.5837277+01:00",
-  "PublishTo": "2000-10-11T03:24:51.5837277+02:00",
-  "PublishFrom": "2005-08-10T03:24:51.5837277+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-10-26T11:06:41.8478481+02:00",
+  "PublishTo": "2021-09-18T11:06:41.8478481+02:00",
+  "PublishFrom": "1998-05-03T11:06:41.8478481+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 587,
+      "VisibleId": 822,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 892
         }
       }
     },
     {
-      "VisibleId": 587,
+      "VisibleId": 822,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 892
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 125
     }
   },
   "_Links": {

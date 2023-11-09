@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 308,
-    "Name": "Strosin, Ernser and Cartwright",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 665,
-    "UdListDefinitionId": 681
+    "HeadingId": 261,
+    "Name": "DuBuque-Ankunding",
+    "Tooltip": "laborum",
+    "Deleted": true,
+    "Rank": 288,
+    "UdListDefinitionId": 197
   },
   {
-    "HeadingId": 308,
-    "Name": "Strosin, Ernser and Cartwright",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 665,
-    "UdListDefinitionId": 681
+    "HeadingId": 261,
+    "Name": "DuBuque-Ankunding",
+    "Tooltip": "laborum",
+    "Deleted": true,
+    "Rank": 288,
+    "UdListDefinitionId": 197
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 212,
-    "Name": "Rice, Lebsack and Kerluke",
-    "Tooltip": "aut",
+    "HeadingId": 149,
+    "Name": "Runolfsson Group",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 243,
-    "UdListDefinitionId": 115,
+    "Rank": 295,
+    "UdListDefinitionId": 83,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldType": "System.String",
+        "FieldLength": 979
       }
     }
   }

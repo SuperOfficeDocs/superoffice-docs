@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "recusandae",
-  "ProviderName": "Morissette LLC",
-  "StorageKey": "atque",
-  "Restrictions": "aut"
+  "StorageType": "reprehenderit",
+  "ProviderName": "Hickle Group",
+  "StorageKey": "ea",
+  "Restrictions": "occaecati"
 }
 ```
 

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ernser, Koepp and Schultz",
+  "UdListDefinitionName": "Carroll Inc and Sons",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Pacocha LLC",
-    "Tooltip": "necessitatibus",
-    "Deleted": false,
-    "UdListDefinitionId": 157,
-    "Rank": 321,
+    "Id": 723,
+    "Name": "Johnson-Olson",
+    "Tooltip": "dolorem",
+    "Deleted": true,
+    "UdListDefinitionId": 374,
+    "Rank": 481,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldLength": 654
       }
     }
   }

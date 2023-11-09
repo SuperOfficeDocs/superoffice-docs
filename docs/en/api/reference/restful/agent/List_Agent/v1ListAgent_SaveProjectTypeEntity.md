@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 549,
-  "Name": "Stehr LLC",
-  "Tooltip": "et",
-  "Rank": 510,
+  "ProjTypeId": 544,
+  "Name": "Cormier-Davis",
+  "Tooltip": "harum",
+  "Rank": 643,
   "DurationUnit": "Century",
-  "ProjectDuration": 510,
-  "Deleted": true,
+  "ProjectDuration": 118,
+  "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 986,
-      "Name": "Schmitt-Collins",
-      "ToolTip": "Et velit commodi aliquam cumque.",
+      "Id": 216,
+      "Name": "Oberbrunner, Wehner and Collins",
+      "ToolTip": "Beatae molestiae ad ut non.",
       "Deleted": false,
-      "Rank": 458,
-      "Type": "sit",
-      "ColorBlock": 762,
-      "IconHint": "ut",
+      "Rank": 21,
+      "Type": "harum",
+      "ColorBlock": 66,
+      "IconHint": "reprehenderit",
       "Selected": false,
-      "LastChanged": "2023-06-19T03:24:47.908255+02:00",
+      "LastChanged": "2019-07-09T11:06:34.7708179+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "autem",
-      "StyleHint": "illum",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Hillard Carli Ankunding DDS"
+      "FullName": "Muhammad Mills PhD"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 343,
-  "Name": "Blick Inc and Sons",
-  "Tooltip": "qui",
-  "Rank": 2,
+  "ProjTypeId": 777,
+  "Name": "Champlin, Schamberger and Spinka",
+  "Tooltip": "porro",
+  "Rank": 324,
   "DurationUnit": "Century",
-  "ProjectDuration": 107,
-  "Deleted": true,
+  "ProjectDuration": 588,
+  "Deleted": false,
   "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 523,
-      "Name": "Volkman Inc and Sons",
-      "ToolTip": "Corporis cumque.",
-      "Deleted": true,
-      "Rank": 522,
-      "Type": "numquam",
-      "ColorBlock": 525,
-      "IconHint": "quia",
+      "Id": 128,
+      "Name": "Douglas, Fisher and Hermann",
+      "ToolTip": "Rerum ab.",
+      "Deleted": false,
+      "Rank": 203,
+      "Type": "ut",
+      "ColorBlock": 376,
+      "IconHint": "at",
       "Selected": false,
-      "LastChanged": "2014-11-18T03:24:47.908255+01:00",
+      "LastChanged": "2014-06-03T11:06:34.7708179+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "commodi",
+      "ExtraInfo": "deleniti",
+      "StyleHint": "non",
       "Hidden": false,
-      "FullName": "Abdul Shields",
+      "FullName": "Dr. Icie Jude Barton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldType": "System.String",
+          "FieldLength": 557
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldType": "System.String",
+      "FieldLength": 735
     }
   }
 }

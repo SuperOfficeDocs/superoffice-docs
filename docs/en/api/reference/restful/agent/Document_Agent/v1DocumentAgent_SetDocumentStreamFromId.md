@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 241,
+  "DocumentId": 514,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 127,
+  "DocumentId": 371,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "officiis",
-  "Header": "non",
-  "Name": "Welch-Swaniawski",
-  "OurRef": "vitae",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2006-03-04T03:24:47.6895288+01:00",
-  "UpdatedDate": "2002-09-17T03:24:47.6895288+02:00",
-  "Description": "Quality-focused bifurcated software",
+  "Attention": "quis",
+  "Header": "ea",
+  "Name": "Gutmann-Reichert",
+  "OurRef": "error",
+  "YourRef": "a",
+  "CreatedDate": "2007-11-29T11:06:34.4426806+01:00",
+  "UpdatedDate": "2021-09-27T11:06:34.4426806+02:00",
+  "Description": "Expanded even-keeled database",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-06-23T03:24:47.6895288+02:00",
-  "ExternalRef": "sed",
+  "Date": "1996-09-05T11:06:34.4426806+02:00",
+  "ExternalRef": "adipisci",
   "Completed": "Completed",
-  "ActiveLinks": 321,
+  "ActiveLinks": 602,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Dach-Steuber",
-      "Id": 351,
-      "Description": "Sharable well-modulated workforce",
-      "ExtraInfo": "sed",
-      "LinkId": 833,
+      "EntityName": "Langosh LLC",
+      "Id": 559,
+      "Description": "Profit-focused explicit workforce",
+      "ExtraInfo": "qui",
+      "LinkId": 463,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldLength": 111
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 718,
-  "Snum": 10,
+  "SuggestedDocumentId": 853,
+  "Snum": 233,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Charlotte Mellie Kling Sr.",
-    "SuperOffice:2": "Gladyce Schmeler"
+    "SuperOffice:1": "Joannie Roberts",
+    "SuperOffice:2": "Dr. Nikolas Bednar MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
     "CustomFields1": "et",
-    "CustomFields2": "magni"
+    "CustomFields2": "reprehenderit"
   },
-  "PublishEventDate": "2013-08-17T03:24:47.6895288+02:00",
-  "PublishTo": "1998-03-31T03:24:47.6895288+02:00",
-  "PublishFrom": "1997-03-24T03:24:47.6895288+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1999-09-12T11:06:34.4426806+02:00",
+  "PublishTo": "2012-05-07T11:06:34.4426806+02:00",
+  "PublishFrom": "2007-02-09T11:06:34.4426806+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 774,
+      "VisibleId": 124,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 517
+          "FieldLength": 268
         }
       }
     },
     {
-      "VisibleId": 774,
+      "VisibleId": 124,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 517
+          "FieldLength": 268
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldType": "System.Int32",
+      "FieldLength": 803
     }
   }
 }

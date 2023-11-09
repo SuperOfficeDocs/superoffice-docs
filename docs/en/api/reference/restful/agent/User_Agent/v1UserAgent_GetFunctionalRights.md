@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 991
+  "RoleId": 856
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Name": "Stamm-Smith",
-    "ToolTip": "Enim autem omnis et.",
-    "Deleted": true,
-    "Rank": 30,
-    "Type": "accusamus",
-    "ColorBlock": 410,
-    "IconHint": "sint",
+    "Id": 999,
+    "Name": "Jenkins, Kemmer and Prohaska",
+    "ToolTip": "Nostrum ut.",
+    "Deleted": false,
+    "Rank": 521,
+    "Type": "qui",
+    "ColorBlock": 636,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2011-08-09T03:24:48.5497594+02:00",
+    "LastChanged": "2001-08-05T11:06:35.6939994+02:00",
     "ChildItems": [
       {
-        "Id": 831,
-        "Name": "Robel LLC",
-        "ToolTip": "Accusantium aut ut ab.",
+        "Id": 35,
+        "Name": "Hessel-Stark",
+        "ToolTip": "Doloribus repellat molestiae nulla.",
         "Deleted": false,
-        "Rank": 779,
-        "Type": "eos",
-        "ColorBlock": 983,
-        "IconHint": "consequatur",
+        "Rank": 607,
+        "Type": "in",
+        "ColorBlock": 287,
+        "IconHint": "architecto",
         "Selected": true,
-        "LastChanged": "2010-03-17T03:24:48.5497594+01:00",
+        "LastChanged": "2017-03-27T11:06:35.6939994+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "dolore",
+        "ExtraInfo": "ad",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Ms. Gayle Wiza MD",
+        "FullName": "Carey Schultz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 113
+            "FieldLength": 62
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "iusto",
-    "Hidden": true,
-    "FullName": "Rogers Kole Koch DVM",
+    "ExtraInfo": "ab",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Irma Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldType": "System.Int32",
+        "FieldLength": 738
       }
     }
   }

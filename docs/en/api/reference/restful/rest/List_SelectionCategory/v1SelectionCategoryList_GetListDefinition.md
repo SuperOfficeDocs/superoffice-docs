@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 211,
-  "Name": "O'Kon Inc and Sons",
+  "Id": 733,
+  "Name": "Greenfelder-Smith",
   "Tooltip": "et",
   "Deleted": false,
-  "Rank": 57,
+  "Rank": 168,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "sint",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 689
+      "FieldType": "System.Int32",
+      "FieldLength": 754
     }
   },
   "_Links": {

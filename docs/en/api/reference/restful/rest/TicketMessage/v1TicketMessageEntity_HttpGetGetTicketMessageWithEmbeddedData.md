@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,78 +107,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 736,
+  "EjMessageId": 193,
   "Ticket": null,
-  "CreatedAt": "2009-11-19T03:24:52.0057419+01:00",
+  "CreatedAt": "2001-06-26T11:06:42.3322282+02:00",
   "CreatedBy": null,
-  "Author": "quia",
+  "Author": "pariatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sint",
-  "TimeSpent": 839,
-  "Body": "assumenda",
-  "HtmlBody": "ut",
-  "EmailHeader": "zelma.denesik@kiehn.co.uk",
-  "DebugInfo": "reprehenderit",
-  "MailSorter": "non",
+  "MessageId": "molestias",
+  "TimeSpent": 543,
+  "Body": "voluptas",
+  "HtmlBody": "tenetur",
+  "EmailHeader": "gwen.strosin@von.ca",
+  "DebugInfo": "quo",
+  "MailSorter": "sit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eos",
+  "SearchTitle": "facere",
   "MessageHeaders": [
     {
-      "Id": 835,
-      "Name": "Anderson LLC",
-      "Value": "odit",
+      "Id": 52,
+      "Name": "Cronin-West",
+      "Value": "sapiente",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 130
+          "FieldType": "System.Int32",
+          "FieldLength": 253
         }
       }
     }
   ],
   "Important": false,
   "Language": "ut",
-  "Sentiment": 44,
-  "SentimentConfidence": 386,
+  "Sentiment": 621,
+  "SentimentConfidence": 637,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 858,
-      "Name": "Boehm LLC",
-      "ContentType": "voluptas",
-      "AttSize": 42,
+      "AttachmentId": 624,
+      "Name": "Simonis Group",
+      "ContentType": "molestiae",
+      "AttSize": 631,
       "InlineImage": true,
-      "ContentId": "id",
-      "AuthKey": "sequi",
+      "ContentId": "ut",
+      "AuthKey": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldLength": 397
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "similique",
+    "CustomFields2": "unde"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 329
     }
   }
 }

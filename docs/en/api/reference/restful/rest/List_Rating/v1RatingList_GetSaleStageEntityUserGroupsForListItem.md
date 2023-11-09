@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Yost-Jast",
-    "ToolTip": "Velit et deleniti.",
+    "Id": 68,
+    "Name": "Will-Hilpert",
+    "ToolTip": "Quisquam amet dolor.",
     "Deleted": true,
-    "Rank": 382,
-    "Type": "voluptatem",
-    "ColorBlock": 743,
-    "IconHint": "commodi",
-    "Selected": true,
-    "LastChanged": "1997-01-07T03:24:52.3806958+01:00",
+    "Rank": 861,
+    "Type": "omnis",
+    "ColorBlock": 267,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2004-08-21T11:06:43.006573+02:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "McClure Inc and Sons",
-        "ToolTip": "Exercitationem non unde molestiae.",
+        "Id": 617,
+        "Name": "Haley, Zboncak and Schaefer",
+        "ToolTip": "Quia ut.",
         "Deleted": false,
-        "Rank": 822,
-        "Type": "suscipit",
-        "ColorBlock": 840,
-        "IconHint": "dolores",
-        "Selected": true,
-        "LastChanged": "2007-01-04T03:24:52.3806958+01:00",
+        "Rank": 256,
+        "Type": "corporis",
+        "ColorBlock": 272,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2000-11-20T11:06:43.006573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
+        "ExtraInfo": "et",
         "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Mr. Jazmyn Alexa Kerluke",
+        "Hidden": true,
+        "FullName": "Chaz Milford Greenfelder II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 543
+            "FieldLength": 518
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Miss Keshaun Mann",
+    "ExtraInfo": "qui",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Petra Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 845
+        "FieldType": "System.Int32",
+        "FieldLength": 434
       }
     }
   }

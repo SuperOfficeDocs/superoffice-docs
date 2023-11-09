@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 315,
-  "Name": "Prohaska-Barton",
-  "Tooltip": "ipsum",
+  "Id": 855,
+  "Name": "Jaskolski Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 417,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": false
+  "Rank": 232,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "neque",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 8,
-  "Name": "Hilpert Group",
-  "Tooltip": "id",
+  "Id": 13,
+  "Name": "Wisozk, Koepp and Reinger",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "Rank": 510,
-  "IsCustomList": true,
+  "Rank": 551,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "culpa",
+  "ListType": "in",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldType": "System.String",
+      "FieldLength": 403
     }
   }
 }

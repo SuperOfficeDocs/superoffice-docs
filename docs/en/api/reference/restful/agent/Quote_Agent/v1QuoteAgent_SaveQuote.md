@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 358,
-  "SaleId": 1002,
-  "QuoteConnectionId": 532,
-  "ERPQuoteKey": "omnis",
-  "ERPOrderKey": "est",
-  "ActiveQuoteVersionId": 126,
-  "AcceptedQuoteAlternativeId": 575,
-  "UseValuesFromQuote": 150,
-  "DocumentId": 619,
-  "PoNumber": "1480857",
-  "OrderComment": "tempora",
-  "PreferredEmailCulture": "sasha.roob@murphy.name",
+  "QuoteId": 359,
+  "SaleId": 206,
+  "QuoteConnectionId": 590,
+  "ERPQuoteKey": "eum",
+  "ERPOrderKey": "voluptate",
+  "ActiveQuoteVersionId": 413,
+  "AcceptedQuoteAlternativeId": 300,
+  "UseValuesFromQuote": 832,
+  "DocumentId": 390,
+  "PoNumber": "1281480",
+  "OrderComment": "alias",
+  "PreferredEmailCulture": "arnold_rau@hauck.ca",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldType": "System.String",
+      "FieldLength": 265
     }
   }
 }

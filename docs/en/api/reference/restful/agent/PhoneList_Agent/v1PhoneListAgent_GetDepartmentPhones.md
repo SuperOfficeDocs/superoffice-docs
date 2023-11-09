@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 538
+  "DepartmentId": 84
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "762.935.2691 x32821",
-    "PersonCellPhone": "721.285.6845",
-    "PersonPrivatePhone": "583-204-6281 x1550",
-    "PersonFaxNumber": "1492557",
-    "PersonPagerNumber": "633871",
-    "PersonEmail": "antonina@kihn.ca",
-    "Id": 92,
-    "Name": "Breitenberg-Dibbert",
-    "Tooltip": "officiis",
-    "UniqueId": "occaecati",
+    "PersonDirectPhone": "(768)442-3005 x4615",
+    "PersonCellPhone": "615-718-1581 x410",
+    "PersonPrivatePhone": "1-901-631-9912",
+    "PersonFaxNumber": "799335",
+    "PersonPagerNumber": "1525415",
+    "PersonEmail": "tomasa@metz.us",
+    "Id": 412,
+    "Name": "Bernhard, Stracke and Gulgowski",
+    "Tooltip": "rerum",
+    "UniqueId": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldType": "System.Int32",
+        "FieldLength": 882
       }
     }
   }

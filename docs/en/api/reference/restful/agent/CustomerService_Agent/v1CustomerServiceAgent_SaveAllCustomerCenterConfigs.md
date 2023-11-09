@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigs": [
     {
-      "CustConfigId": 155,
+      "CustConfigId": 98,
       "Type": "Options",
-      "Config": "tenetur",
-      "CustLangId": 126,
-      "Registered": "1996-07-21T03:24:47.4708008+02:00",
-      "RegisteredAssociateId": 816,
-      "Updated": "2007-01-30T03:24:47.4708008+01:00",
-      "UpdatedAssociateId": 214
+      "Config": "rerum",
+      "CustLangId": 838,
+      "Registered": "1996-06-29T11:06:34.2539546+02:00",
+      "RegisteredAssociateId": 65,
+      "Updated": "2016-09-18T11:06:34.2539546+02:00",
+      "UpdatedAssociateId": 650
     }
   ]
 }

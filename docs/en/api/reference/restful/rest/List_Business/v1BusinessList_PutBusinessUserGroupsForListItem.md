@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 841,
-    "Name": "Kiehn, Fadel and Breitenberg",
-    "ToolTip": "Minima et sunt.",
+    "Id": 984,
+    "Name": "Lang-Connelly",
+    "ToolTip": "Vel nisi aut sit itaque.",
     "Deleted": true,
-    "Rank": 313,
-    "Type": "deleniti",
-    "ColorBlock": 257,
-    "IconHint": "quibusdam",
+    "Rank": 681,
+    "Type": "autem",
+    "ColorBlock": 341,
+    "IconHint": "consectetur",
     "Selected": false,
-    "LastChanged": "2018-10-24T03:24:52.1619753+02:00",
+    "LastChanged": "2022-05-01T11:06:42.6784463+02:00",
     "ChildItems": [
       {
-        "Id": 461,
-        "Name": "Brekke LLC",
-        "ToolTip": "Earum qui quis voluptatem eos quaerat excepturi ut.",
+        "Id": 313,
+        "Name": "Hudson Group",
+        "ToolTip": "Sit nihil possimus et voluptas.",
         "Deleted": false,
-        "Rank": 162,
-        "Type": "rerum",
-        "ColorBlock": 274,
-        "IconHint": "voluptatem",
+        "Rank": 178,
+        "Type": "alias",
+        "ColorBlock": 796,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2009-04-13T03:24:52.1619753+02:00",
+        "LastChanged": "1996-06-15T11:06:42.6784463+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "facilis",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "cum",
         "Hidden": true,
-        "FullName": "Bobbie Hirthe"
+        "FullName": "August Balistreri"
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "iure",
+    "ExtraInfo": "vel",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Estel Bashirian DDS"
+    "FullName": "Cornelius Leannon"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Jenkins Group",
-    "ToolTip": "Ut et laboriosam qui veniam tenetur.",
+    "Id": 828,
+    "Name": "Lakin, Little and Jerde",
+    "ToolTip": "Id dolores voluptas velit maiores esse inventore voluptatibus.",
     "Deleted": false,
-    "Rank": 26,
-    "Type": "a",
-    "ColorBlock": 558,
-    "IconHint": "in",
+    "Rank": 334,
+    "Type": "qui",
+    "ColorBlock": 34,
+    "IconHint": "ipsum",
     "Selected": true,
-    "LastChanged": "2022-11-23T03:24:52.1619753+01:00",
+    "LastChanged": "2009-07-01T11:06:42.6784463+02:00",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Greenfelder Inc and Sons",
-        "ToolTip": "Occaecati dignissimos.",
+        "Id": 99,
+        "Name": "Marvin Group",
+        "ToolTip": "Ducimus illum magni facilis ipsam.",
         "Deleted": true,
-        "Rank": 298,
-        "Type": "aut",
-        "ColorBlock": 404,
-        "IconHint": "tempore",
+        "Rank": 959,
+        "Type": "rerum",
+        "ColorBlock": 2,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2005-02-18T03:24:52.1619753+01:00",
+        "LastChanged": "2003-02-20T11:06:42.6784463+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "modi",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Mr. Elisa Adrain Marvin",
+        "FullName": "Ms. Cathryn Naomie Crooks DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 425
+            "FieldLength": 392
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "quis",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Gia Rolfson II",
+    "FullName": "Jalyn Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 446
+        "FieldLength": 360
       }
     }
   }

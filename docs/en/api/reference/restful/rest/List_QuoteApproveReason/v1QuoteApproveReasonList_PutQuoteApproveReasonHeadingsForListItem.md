@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Name": "McCullough, Runte and Yundt",
-    "ToolTip": "Est ipsum voluptatem atque veniam.",
+    "Id": 112,
+    "Name": "Schaden, Hagenes and Hegmann",
+    "ToolTip": "Non non officia.",
     "Deleted": false,
-    "Rank": 611,
-    "Type": "molestiae",
-    "ColorBlock": 281,
-    "IconHint": "doloremque",
-    "Selected": true,
-    "LastChanged": "2002-09-08T03:24:52.3650758+02:00",
+    "Rank": 593,
+    "Type": "blanditiis",
+    "ColorBlock": 727,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2004-03-08T11:06:42.9753225+01:00",
     "ChildItems": [
       {
-        "Id": 737,
-        "Name": "Hintz, Hyatt and Johnston",
-        "ToolTip": "Sed cumque distinctio dolorem.",
-        "Deleted": true,
-        "Rank": 80,
-        "Type": "pariatur",
-        "ColorBlock": 809,
-        "IconHint": "et",
+        "Id": 638,
+        "Name": "Dibbert Group",
+        "ToolTip": "Optio repudiandae magnam facilis sit.",
+        "Deleted": false,
+        "Rank": 314,
+        "Type": "tenetur",
+        "ColorBlock": 643,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2021-07-21T03:24:52.3650758+02:00",
+        "LastChanged": "2020-03-09T11:06:42.9753225+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "nemo",
+        "StyleHint": "repudiandae",
         "Hidden": true,
-        "FullName": "Miss Wilfrid Brock Kutch"
+        "FullName": "Una Annabel Kiehn I"
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Miss Jordan Carroll"
+    "ExtraInfo": "alias",
+    "StyleHint": "exercitationem",
+    "Hidden": false,
+    "FullName": "Mrs. Mollie Moses Runolfsdottir IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Becker-Nicolas",
-    "ToolTip": "Omnis nulla veniam aut mollitia.",
+    "Id": 444,
+    "Name": "Mitchell LLC",
+    "ToolTip": "Suscipit molestias commodi atque nihil.",
     "Deleted": false,
-    "Rank": 729,
-    "Type": "repellendus",
-    "ColorBlock": 245,
-    "IconHint": "molestias",
+    "Rank": 904,
+    "Type": "eveniet",
+    "ColorBlock": 20,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2008-04-28T03:24:52.3650758+02:00",
+    "LastChanged": "1998-07-24T11:06:42.9753225+02:00",
     "ChildItems": [
       {
-        "Id": 775,
-        "Name": "Stark-Koss",
-        "ToolTip": "Voluptate quaerat.",
+        "Id": 429,
+        "Name": "Lehner-Bode",
+        "ToolTip": "Consectetur quos.",
         "Deleted": true,
-        "Rank": 705,
-        "Type": "est",
-        "ColorBlock": 954,
-        "IconHint": "ipsa",
+        "Rank": 223,
+        "Type": "molestiae",
+        "ColorBlock": 476,
+        "IconHint": "vero",
         "Selected": true,
-        "LastChanged": "2010-03-20T03:24:52.3650758+01:00",
+        "LastChanged": "2017-02-07T11:06:42.9753225+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "modi",
+        "ExtraInfo": "nobis",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Mr. Reid Wellington Prosacco IV",
+        "FullName": "Dahlia Kemmer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 971
+            "FieldType": "System.String",
+            "FieldLength": 999
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Aracely Kovacek",
+    "ExtraInfo": "ex",
+    "StyleHint": "cum",
+    "Hidden": true,
+    "FullName": "Ms. Nick Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldLength": 209
       }
     }
   }

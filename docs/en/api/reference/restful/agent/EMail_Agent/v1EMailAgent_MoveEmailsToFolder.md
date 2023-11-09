@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/EMail/MoveEmailsToFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 322,
+  "FolderId": 179,
   "EmailItemIds": [
-    458,
-    546
+    61,
+    728
   ]
 }
 ```

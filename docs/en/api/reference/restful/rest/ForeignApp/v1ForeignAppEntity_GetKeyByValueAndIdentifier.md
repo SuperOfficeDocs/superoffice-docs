@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=iure
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sunt
 ```
 
 
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 21 Dec 2015 03:24:51 G12T
+Last-Modified: Sun, 02 Oct 2016 11:06:41 G10T
 
 {
-  "Key": "quo",
-  "Value": "odio",
-  "RecordId": 449,
-  "CreatedDate": "2007-10-11T03:24:51.630601+02:00",
-  "UpdatedDate": "2015-12-21T03:24:51.630601+01:00",
-  "UpdatedBy": "libero",
-  "CreatedBy": "placeat",
-  "TableName": "Kutch-D'Amore",
+  "Key": "quae",
+  "Value": "libero",
+  "RecordId": 798,
+  "CreatedDate": "2001-03-19T11:06:41.8947242+01:00",
+  "UpdatedDate": "2016-10-02T11:06:41.8947242+02:00",
+  "UpdatedBy": "nam",
+  "CreatedBy": "officia",
+  "TableName": "Cassin, Schamberger and Emard",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldType": "System.Int32",
+      "FieldLength": 880
     }
   }
 }

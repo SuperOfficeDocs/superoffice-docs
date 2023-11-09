@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Douglas Inc and Sons",
-    "DisplayName": "Schamberger-Smith",
-    "DisplayTooltip": "numquam",
-    "IsActive": true,
+    "Name": "Farrell Inc and Sons",
+    "DisplayName": "Nolan-Grady",
+    "DisplayTooltip": "dolores",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldLength": 470
       }
     }
   },
   {
-    "Name": "Douglas Inc and Sons",
-    "DisplayName": "Schamberger-Smith",
-    "DisplayTooltip": "numquam",
-    "IsActive": true,
+    "Name": "Farrell Inc and Sons",
+    "DisplayName": "Nolan-Grady",
+    "DisplayTooltip": "dolores",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldLength": 470
       }
     }
   }

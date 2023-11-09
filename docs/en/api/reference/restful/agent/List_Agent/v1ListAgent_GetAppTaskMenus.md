@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetAppTaskMenus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 681,
-    "Name": "Schmitt Group",
-    "Tooltip": "consequatur",
-    "TableName": "Stamm-Ebert",
-    "Area": "ab",
+    "TaskMenuId": 938,
+    "Name": "Hamill, Schmitt and Kovacek",
+    "Tooltip": "officia",
+    "TableName": "Effertz-Osinski",
+    "Area": "suscipit",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 881,
+    "CrmScriptId": 639,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 85,
+    "Rank": 18,
     "Encoding": "ANSI",
-    "ProgId": "adipisci",
+    "ProgId": "error",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 673
+        "FieldLength": 29
       }
     }
   }

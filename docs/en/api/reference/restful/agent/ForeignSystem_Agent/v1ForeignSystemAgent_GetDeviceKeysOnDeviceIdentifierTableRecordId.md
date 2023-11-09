@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stark Group",
-  "DeviceName": "Baumbach Inc and Sons",
-  "DeviceIdentifier": "molestiae",
-  "TableName": "Parker-Cole",
-  "RecordId": 806
+  "ApplicationName": "Mante LLC",
+  "DeviceName": "Kozey, Wyman and Robel",
+  "DeviceIdentifier": "ducimus",
+  "TableName": "Paucek, Ledner and Batz",
+  "RecordId": 172
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "porro",
-    "Value": "eos",
-    "RecordId": 750,
-    "CreatedDate": "2012-10-21T03:24:47.8301403+02:00",
-    "UpdatedDate": "2011-10-23T03:24:47.8301403+02:00",
-    "UpdatedBy": "in",
-    "CreatedBy": "voluptas",
-    "TableName": "Kiehn-Murazik",
+    "Key": "debitis",
+    "Value": "eius",
+    "RecordId": 716,
+    "CreatedDate": "2011-06-04T11:06:34.6458113+02:00",
+    "UpdatedDate": "2002-04-06T11:06:34.6458113+02:00",
+    "UpdatedBy": "dolores",
+    "CreatedBy": "voluptatum",
+    "TableName": "Batz-Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldType": "System.String",
+        "FieldLength": 810
       }
     }
   }

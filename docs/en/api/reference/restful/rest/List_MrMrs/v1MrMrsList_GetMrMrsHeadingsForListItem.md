@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Spinka-Jaskolski",
-    "ToolTip": "Eos voluptate et omnis nisi qui sint.",
+    "Id": 54,
+    "Name": "King-Cummings",
+    "ToolTip": "Nam rerum quis et vitae excepturi cumque.",
     "Deleted": false,
-    "Rank": 814,
-    "Type": "est",
-    "ColorBlock": 447,
-    "IconHint": "architecto",
+    "Rank": 418,
+    "Type": "odio",
+    "ColorBlock": 262,
+    "IconHint": "nostrum",
     "Selected": true,
-    "LastChanged": "2011-07-19T03:24:52.2713365+02:00",
+    "LastChanged": "2007-01-28T11:06:42.8503167+01:00",
     "ChildItems": [
       {
-        "Id": 41,
-        "Name": "Buckridge, Swift and Goodwin",
-        "ToolTip": "Quos minima rerum voluptatem.",
-        "Deleted": false,
-        "Rank": 317,
-        "Type": "necessitatibus",
-        "ColorBlock": 160,
-        "IconHint": "quod",
+        "Id": 458,
+        "Name": "Wolff-Gislason",
+        "ToolTip": "Ut repellat.",
+        "Deleted": true,
+        "Rank": 83,
+        "Type": "alias",
+        "ColorBlock": 270,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "2002-01-13T03:24:52.2713365+01:00",
+        "LastChanged": "2014-05-30T11:06:42.8503167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "sit",
+        "ExtraInfo": "unde",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Prof. Maxie Janick Swaniawski Sr.",
+        "FullName": "Blair O'Connell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 144
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "libero",
-    "Hidden": true,
-    "FullName": "Crystel Feil",
+    "ExtraInfo": "qui",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Dandre Swaniawski DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldType": "System.String",
+        "FieldLength": 519
       }
     }
   }

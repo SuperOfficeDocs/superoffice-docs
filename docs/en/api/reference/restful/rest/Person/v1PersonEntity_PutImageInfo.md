@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 344,
-  "BlobSize": 441,
-  "Description": "Robust composite superstructure",
-  "ExtraInfo": "adipisci",
-  "IsEncrypted": true,
+  "BlobId": 164,
+  "BlobSize": 350,
+  "Description": "Inverse coherent initiative",
+  "ExtraInfo": "pariatur",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "dolorem",
-  "OriginalSize": 121,
-  "CreatedDate": "2009-07-12T03:24:51.6930999+02:00",
-  "UpdatedDate": "2004-05-25T03:24:51.6930999+02:00",
+  "MimeType": "placeat",
+  "OriginalSize": 423,
+  "CreatedDate": "1999-12-31T11:06:42.0041001+01:00",
+  "UpdatedDate": "2016-10-30T11:06:42.0041001+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et"
+  "ConceptualType": "dolor"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 856,
-  "BlobSize": 374,
-  "Description": "Multi-tiered mobile website",
-  "ExtraInfo": "atque",
+  "BlobId": 158,
+  "BlobSize": 706,
+  "Description": "Horizontal mission-critical strategy",
+  "ExtraInfo": "quae",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "alias",
-  "OriginalSize": 893,
-  "CreatedDate": "2022-11-07T03:24:51.7089392+01:00",
-  "UpdatedDate": "2009-07-08T03:24:51.7089392+02:00",
+  "MimeType": "magni",
+  "OriginalSize": 403,
+  "CreatedDate": "2022-02-12T11:06:42.0197245+01:00",
+  "UpdatedDate": "1997-02-05T11:06:42.0197245+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vel",
+  "ConceptualType": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldType": "System.Int32",
+      "FieldLength": 565
     }
   }
 }

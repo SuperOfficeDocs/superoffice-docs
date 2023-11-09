@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2019-12-29T03:24:47.1427162+01:00"
+  "StartDate": "2015-05-30T11:06:33.6476155+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 963,
-  "StartDate": "2018-04-09T03:24:47.1427162+02:00",
-  "EndDate": "2019-01-21T03:24:47.1427162+01:00",
-  "RecurrenceCounter": 246,
+  "RecurrenceId": 161,
+  "StartDate": "1996-08-31T11:06:33.6476155+02:00",
+  "EndDate": "1999-04-15T11:06:33.6476155+02:00",
+  "RecurrenceCounter": 4,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2001-03-18T03:24:47.1427162+01:00",
-      "IsConflict": false,
-      "Description": "Organized transitional migration",
-      "DescriptionStyleHint": "Sharable object-oriented budgetary management",
-      "Tooltip": "qui"
+      "Date": "2002-11-23T11:06:33.6476155+01:00",
+      "IsConflict": true,
+      "Description": "Implemented incremental flexibility",
+      "DescriptionStyleHint": "Cloned attitude-oriented Graphic Interface",
+      "Tooltip": "aut"
     },
     {
-      "Date": "2001-03-18T03:24:47.1427162+01:00",
-      "IsConflict": false,
-      "Description": "Organized transitional migration",
-      "DescriptionStyleHint": "Sharable object-oriented budgetary management",
-      "Tooltip": "qui"
+      "Date": "2002-11-23T11:06:33.6476155+01:00",
+      "IsConflict": true,
+      "Description": "Implemented incremental flexibility",
+      "DescriptionStyleHint": "Cloned attitude-oriented Graphic Interface",
+      "Tooltip": "aut"
     }
   ],
   "IsRecurrence": false

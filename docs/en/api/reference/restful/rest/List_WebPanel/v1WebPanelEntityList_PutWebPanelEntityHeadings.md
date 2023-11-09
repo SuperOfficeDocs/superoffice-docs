@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 248,
-    "Name": "Luettgen-Hauck",
-    "Tooltip": "nemo",
-    "Deleted": false,
-    "Rank": 649,
-    "UdListDefinitionId": 302
+    "HeadingId": 250,
+    "Name": "White LLC",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 224,
+    "UdListDefinitionId": 855
   },
   {
-    "HeadingId": 248,
-    "Name": "Luettgen-Hauck",
-    "Tooltip": "nemo",
-    "Deleted": false,
-    "Rank": 649,
-    "UdListDefinitionId": 302
+    "HeadingId": 250,
+    "Name": "White LLC",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 224,
+    "UdListDefinitionId": 855
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 648,
-    "Name": "Stracke, Kshlerin and Douglas",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 970,
+    "Name": "Wisoky, Hackett and Morissette",
+    "Tooltip": "rerum",
     "Deleted": true,
-    "Rank": 717,
-    "UdListDefinitionId": 7,
+    "Rank": 81,
+    "UdListDefinitionId": 684,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldType": "System.String",
+        "FieldLength": 220
       }
     }
   }

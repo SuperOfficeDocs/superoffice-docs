@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    384,
-    142
+    593,
+    834
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 884,
-    "MessageId": "deserunt",
-    "Subject": "totam",
+    "ServerId": 832,
+    "MessageId": "non",
+    "Subject": "asperiores",
     "From": null,
     "To": [
       {
-        "ContactId": 743,
-        "ContactName": "Heathcote LLC",
-        "PersonId": 698,
-        "PersonName": "Abernathy-Paucek",
-        "AssociateId": 569,
-        "Address": "sint",
-        "EmailId": 165,
+        "ContactId": 886,
+        "ContactName": "Raynor-Hilpert",
+        "PersonId": 216,
+        "PersonName": "Stanton Group",
+        "AssociateId": 382,
+        "Address": "laborum",
+        "EmailId": 772,
         "DuplicatePersonIds": [
-          810,
-          824
+          791,
+          894
         ],
-        "Name": "Fahey Inc and Sons",
+        "Name": "Crooks Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 297
+            "FieldType": "System.Int32",
+            "FieldLength": 220
           }
         }
       }
     ],
-    "Sent": "2002-03-05T03:24:47.705153+01:00",
+    "Sent": "2019-02-10T11:06:34.458307+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 852,
+    "Size": 114,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 245
+        "FieldLength": 528
       }
     }
   }

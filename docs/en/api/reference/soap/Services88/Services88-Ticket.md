@@ -1686,6 +1686,27 @@ title: Services88.TicketAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetTicketMessageEntities">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+            <xs:element minOccurs="0" name="MessageIds" nillable="true" type="q25:ArrayOfint" xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTicketMessageEntitiesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketMessageEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfTicketMessageEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="TicketMessageEntity" nillable="true" type="tns:TicketMessageEntity" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfTicketMessageEntity" nillable="true" type="tns:ArrayOfTicketMessageEntity" />
       <xs:element name="GetTicketMessage">
         <xs:complexType>
           <xs:sequence>
@@ -1743,14 +1764,14 @@ title: Services88.TicketAgent WSDL
       <xs:element name="SanitizeMailContents">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Contents" nillable="true" type="q25:ArrayOfstring" xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Contents" nillable="true" type="q26:ArrayOfstring" xmlns:q26="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SanitizeMailContentsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q26:ArrayOfstring" xmlns:q26="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q27:ArrayOfstring" xmlns:q27="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1800,7 +1821,7 @@ title: Services88.TicketAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="TicketMessageEntityId" type="xs:int" />
-            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q27:ArrayOfint" xmlns:q27="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q28:ArrayOfint" xmlns:q28="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1813,7 +1834,7 @@ title: Services88.TicketAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="TicketMessageEntityId" type="xs:int" />
-            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q28:ArrayOfint" xmlns:q28="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q29:ArrayOfint" xmlns:q29="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1853,9 +1874,9 @@ title: Services88.TicketAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="TicketMessageEntityId" type="xs:int" />
-            <xs:element minOccurs="0" name="To" nillable="true" type="q29:ArrayOfstring" xmlns:q29="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="Cc" nillable="true" type="q30:ArrayOfstring" xmlns:q30="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="Bcc" nillable="true" type="q31:ArrayOfstring" xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="To" nillable="true" type="q30:ArrayOfstring" xmlns:q30="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Cc" nillable="true" type="q31:ArrayOfstring" xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Bcc" nillable="true" type="q32:ArrayOfstring" xmlns:q32="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="ReplyTemplateId" type="xs:int" />
             <xs:element minOccurs="0" name="GdprSource" nillable="true" type="xs:string" />
@@ -1872,7 +1893,7 @@ title: Services88.TicketAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="TicketMessageEntityId" type="xs:int" />
             <xs:element minOccurs="0" name="ReplyTemplateId" type="xs:int" />
-            <xs:element minOccurs="0" name="Sms" nillable="true" type="q32:ArrayOfstring" xmlns:q32="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Sms" nillable="true" type="q33:ArrayOfstring" xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1968,7 +1989,7 @@ title: Services88.TicketAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="Entity" nillable="true" type="tns:TicketMessageEntity" />
             <xs:element minOccurs="0" name="Notify" type="xs:boolean" />
-            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q33:ArrayOfint" xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q34:ArrayOfint" xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="UpdateRepliedAt" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -2021,7 +2042,7 @@ title: Services88.TicketAgent WSDL
       <xs:element name="DeleteMessageHeaders">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="HeaderIds" nillable="true" type="q34:ArrayOfint" xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="HeaderIds" nillable="true" type="q35:ArrayOfint" xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2048,7 +2069,7 @@ title: Services88.TicketAgent WSDL
       <xs:element name="GetTicketSummaries">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q35:ArrayOfint" xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q36:ArrayOfint" xmlns:q36="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2750,6 +2771,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetTicketMessageEntitiesRequest">
+    <wsdl:part name="parameters" element="tns:GetTicketMessageEntities" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketMessageEntitiesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketMessageEntitiesResponse">
+    <wsdl:part name="parameters" element="tns:GetTicketMessageEntitiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketMessageEntitiesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetTicketMessageRequest">
     <wsdl:part name="parameters" element="tns:GetTicketMessage" />
   </wsdl:message>
@@ -3268,6 +3306,10 @@ title: Services88.TicketAgent WSDL
     <wsdl:operation name="ClearNotify">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ClearNotify" name="ClearNotifyRequest" message="tns:ClearNotifyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ClearNotifyResponse" name="ClearNotifyResponse" message="tns:ClearNotifyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketMessageEntities">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageEntities" name="GetTicketMessageEntitiesRequest" message="tns:GetTicketMessageEntitiesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageEntitiesResponse" name="GetTicketMessageEntitiesResponse" message="tns:GetTicketMessageEntitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketMessage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessage" name="GetTicketMessageRequest" message="tns:GetTicketMessageRequest" />
@@ -3933,6 +3975,22 @@ title: Services88.TicketAgent WSDL
         <soap:header message="tns:ClearNotifyResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ClearNotifyResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ClearNotifyResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketMessageEntities">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageEntities" style="document" />
+      <wsdl:input name="GetTicketMessageEntitiesRequest">
+        <soap:header message="tns:GetTicketMessageEntitiesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetTicketMessageEntitiesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetTicketMessageEntitiesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetTicketMessageEntitiesResponse">
+        <soap:header message="tns:GetTicketMessageEntitiesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetTicketMessageEntitiesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetTicketMessageEntitiesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetTicketMessageEntitiesResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

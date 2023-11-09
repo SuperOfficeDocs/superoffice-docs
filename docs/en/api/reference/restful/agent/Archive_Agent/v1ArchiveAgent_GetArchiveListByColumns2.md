@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Daugherty, Rutherford and Nicolas",
-  "Columns": "maiores",
-  "SortOrder": "dicta",
-  "Restrictions": "maxime",
-  "Entities": "recusandae",
-  "Page": 682,
-  "PageSize": 784
+  "ProviderName": "Barton, Von and Weimann",
+  "Columns": "perferendis",
+  "SortOrder": "quo",
+  "Restrictions": "est",
+  "Entities": "aut",
+  "Page": 813,
+  "PageSize": 987
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Carter, Hagenes and Green",
-    "PrimaryKey": 438,
+    "EntityName": "Pfeffer-Gorczany",
+    "PrimaryKey": 372,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "architecto",
-        "TooltipHint": "perferendis",
-        "LinkHint": "iure"
+        "DisplayValue": "doloribus",
+        "TooltipHint": "necessitatibus",
+        "LinkHint": "amet"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "aut",
+    "LinkHint": "qui",
+    "StyleHint": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldType": "System.Int32",
+        "FieldLength": 715
       }
     }
   }

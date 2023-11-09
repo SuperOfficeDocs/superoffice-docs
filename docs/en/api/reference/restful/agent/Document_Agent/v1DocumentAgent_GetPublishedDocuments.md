@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    855,
-    88
+    684,
+    366
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 428,
-    "Attention": "repellat",
-    "Header": "omnis",
-    "Name": "Halvorson, Emard and Morissette",
-    "OurRef": "et",
-    "YourRef": "recusandae",
-    "Description": "Customer-focused assymetric strategy",
-    "DocumentTemplate": "molestias",
+    "DocumentId": 221,
+    "Attention": "et",
+    "Header": "dolor",
+    "Name": "Jaskolski LLC",
+    "OurRef": "dolor",
+    "YourRef": "temporibus",
+    "Description": "Automated 24 hour utilisation",
+    "DocumentTemplate": "eveniet",
     "IsPublished": false,
-    "PersonId": 386,
-    "PersonFullName": "Carley Schaden Jr.",
-    "AssociateFullName": "Makayla Orrin Nicolas Jr.",
-    "ContactId": 199,
-    "ContactName": "Swift-Frami",
-    "ProjectId": 715,
-    "ProjectName": "Bernhard LLC",
-    "AssociateId": 121,
-    "Snum": 834,
-    "SaleId": 935,
-    "SaleName": "Waters, Deckow and Breitenberg",
+    "PersonId": 673,
+    "PersonFullName": "Makenna Emard",
+    "AssociateFullName": "Madge Veum",
+    "ContactId": 702,
+    "ContactName": "Sanford Inc and Sons",
+    "ProjectId": 743,
+    "ProjectName": "Bahringer Group",
+    "AssociateId": 828,
+    "Snum": 777,
+    "SaleId": 375,
+    "SaleName": "Hintz, Hermiston and Bernier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldType": "System.Int32",
+        "FieldLength": 547
       }
     }
   }

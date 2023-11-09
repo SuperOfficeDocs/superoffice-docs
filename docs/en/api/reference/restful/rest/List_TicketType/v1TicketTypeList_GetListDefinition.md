@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 776,
-  "Name": "Kautzer-Treutel",
-  "Tooltip": "et",
+  "Id": 390,
+  "Name": "Schmitt Group",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 227,
-  "IsCustomList": false,
+  "Rank": 502,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "UseGroupsAndHeadings": false,
+  "ListType": "id",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 124
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

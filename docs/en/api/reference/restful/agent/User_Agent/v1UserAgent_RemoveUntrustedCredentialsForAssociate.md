@@ -72,9 +72,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 790,
-  "Type": "velit",
-  "PublicValue": "cupiditate"
+  "AssociateId": 45,
+  "Type": "repellendus",
+  "PublicValue": "quas"
 }
 ```
 

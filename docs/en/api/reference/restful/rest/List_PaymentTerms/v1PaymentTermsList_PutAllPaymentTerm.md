@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 348,
-    "Name": "Mosciski, White and Wilkinson",
-    "Tooltip": "sit",
+    "Id": 98,
+    "Name": "McCullough LLC",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 713,
-    "Rank": 453
+    "UdListDefinitionId": 195,
+    "Rank": 411
   },
   {
-    "Id": 348,
-    "Name": "Mosciski, White and Wilkinson",
-    "Tooltip": "sit",
+    "Id": 98,
+    "Name": "McCullough LLC",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 713,
-    "Rank": 453
+    "UdListDefinitionId": 195,
+    "Rank": 411
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 363,
-    "Name": "Abshire-Stoltenberg",
-    "Tooltip": "error",
-    "Deleted": false,
-    "UdListDefinitionId": 341,
-    "Rank": 687,
+    "Id": 988,
+    "Name": "Koepp-Koelpin",
+    "Tooltip": "accusantium",
+    "Deleted": true,
+    "UdListDefinitionId": 799,
+    "Rank": 796,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 208
       }
     }
   }

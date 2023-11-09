@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 673,
-  "BlobSize": 844,
-  "Description": "Business-focused holistic service-desk",
-  "ExtraInfo": "molestiae",
-  "IsEncrypted": false,
+  "BlobId": 481,
+  "BlobSize": 343,
+  "Description": "Fully-configurable clear-thinking benchmark",
+  "ExtraInfo": "beatae",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "iusto",
-  "OriginalSize": 160,
-  "CreatedDate": "1998-02-02T03:24:47.2520803+01:00",
-  "UpdatedDate": "2010-09-22T03:24:47.2520803+02:00",
+  "MimeType": "nostrum",
+  "OriginalSize": 355,
+  "CreatedDate": "2010-01-06T11:06:33.7972715+01:00",
+  "UpdatedDate": "1999-11-26T11:06:33.7972715+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rerum"
+  "ConceptualType": "ut"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 794,
-  "BlobSize": 888,
-  "Description": "Innovative user-facing infrastructure",
-  "ExtraInfo": "ut",
+  "BlobId": 660,
+  "BlobSize": 337,
+  "Description": "Horizontal mobile migration",
+  "ExtraInfo": "optio",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "mollitia",
-  "OriginalSize": 108,
-  "CreatedDate": "2003-04-30T03:24:47.2520803+02:00",
-  "UpdatedDate": "2020-11-03T03:24:47.2520803+01:00",
+  "MimeType": "occaecati",
+  "OriginalSize": 115,
+  "CreatedDate": "2014-02-12T11:06:33.7972715+01:00",
+  "UpdatedDate": "1997-07-17T11:06:33.7972715+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut",
+  "ConceptualType": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldLength": 467
     }
   }
 }

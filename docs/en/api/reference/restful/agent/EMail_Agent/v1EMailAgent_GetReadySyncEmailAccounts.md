@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 731,
-    "AssociateName": "Fritsch LLC",
-    "AssociateId": 684,
+    "AccountId": 414,
+    "AssociateName": "Nikolaus-Cremin",
+    "AssociateId": 907,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldType": "System.String",
+        "FieldLength": 416
       }
     }
   },
   {
-    "AccountId": 731,
-    "AssociateName": "Fritsch LLC",
-    "AssociateId": 684,
+    "AccountId": 414,
+    "AssociateName": "Nikolaus-Cremin",
+    "AssociateId": 907,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldType": "System.String",
+        "FieldLength": 416
       }
     }
   }

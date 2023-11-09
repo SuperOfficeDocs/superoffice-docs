@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ferry, Schoen and Lebsack",
-  "ProviderName": "Osinski, Huels and Hodkiewicz",
-  "Context": "dolore",
-  "OwnerKeys": "sed",
+  "GuiName": "Nienow-Funk",
+  "ProviderName": "Bradtke, Cruickshank and Wyman",
+  "Context": "dolores",
+  "OwnerKeys": "dolores",
   "Entities": [
-    "velit",
-    "est"
+    "mollitia",
+    "velit"
   ]
 }
 ```

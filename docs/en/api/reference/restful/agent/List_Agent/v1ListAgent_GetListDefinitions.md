@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 431,
-    "Name": "Gottlieb Group",
-    "Tooltip": "perferendis",
+    "Id": 358,
+    "Name": "Torphy, Beer and Gibson",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 994,
+    "Rank": 575,
     "IsCustomList": false,
-    "IsMDOList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "blanditiis",
+    "ListType": "laboriosam",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 520
+        "FieldType": "System.Int32",
+        "FieldLength": 48
       }
     }
   }

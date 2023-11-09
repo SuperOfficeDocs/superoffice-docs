@@ -162,7 +162,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "in",
+  "SaleText": "laborum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2011-05-11T03:24:51.7713912+02:00",
-  "Amount": 30838.559999999998,
-  "SaleId": 937,
-  "Earning": 6208.454,
-  "EarningPercent": 7540.4039999999995,
-  "Heading": "cum",
-  "Number": "714448",
-  "Probability": 869,
-  "CreatedDate": "2010-08-10T03:24:51.7713912+02:00",
-  "UpdatedDate": "2023-03-30T03:24:51.7713912+02:00",
+  "Saledate": "2002-12-20T11:06:42.113477+01:00",
+  "Amount": 25162.886,
+  "SaleId": 682,
+  "Earning": 29306.034,
+  "EarningPercent": 24956.041999999998,
+  "Heading": "voluptatum",
+  "Number": "853583",
+  "Probability": 227,
+  "CreatedDate": "2016-11-06T11:06:42.113477+01:00",
+  "UpdatedDate": "2020-10-21T11:06:42.113477+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 572,
+  "ActiveLinks": 885,
   "Links": [
     {
-      "EntityName": "Welch-Jewess",
-      "Id": 934,
-      "Description": "Progressive coherent time-frame",
-      "ExtraInfo": "optio",
-      "LinkId": 602
+      "EntityName": "Funk LLC",
+      "Id": 391,
+      "Description": "Sharable 5th generation instruction set",
+      "ExtraInfo": "ea",
+      "LinkId": 686
     },
     {
-      "EntityName": "Welch-Jewess",
-      "Id": 934,
-      "Description": "Progressive coherent time-frame",
-      "ExtraInfo": "optio",
-      "LinkId": 602
+      "EntityName": "Funk LLC",
+      "Id": 391,
+      "Description": "Sharable 5th generation instruction set",
+      "ExtraInfo": "ea",
+      "LinkId": 686
     }
   ],
-  "NextDueDate": "2002-10-02T03:24:51.7713912+02:00",
-  "Postit": "officia",
+  "NextDueDate": "2000-09-12T11:06:42.113477+02:00",
+  "Postit": "expedita",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2004-03-08T03:24:51.7713912+01:00",
+  "ReopenDate": "2014-06-01T11:06:42.113477+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kris, Welch and Eichmann",
-      "Comment": "aut",
-      "StakeholderRoleId": 57,
-      "CountryId": 587,
+      "StakeholderRoleName": "Hansen LLC",
+      "Comment": "suscipit",
+      "StakeholderRoleId": 353,
+      "CountryId": 200,
       "PersonId": 351,
-      "EmailDescription": "tiana@king.biz",
-      "EmailId": 426,
-      "EmailAddress": "velda@mcclurehoppe.biz",
-      "PhoneId": 759,
-      "ContactName": "Kiehn-Nienow",
-      "ContactId": 728,
-      "SaleId": 972,
-      "Mrmrs": "voluptas",
-      "Firstname": "Marian",
-      "MiddleName": "Boyer, Skiles and Walker",
-      "Lastname": "Bernhard",
-      "SaleStakeholderId": 985,
-      "Rank": 750,
-      "Phone": "1-141-852-5821 x83213"
+      "EmailDescription": "john.moore@connelly.name",
+      "EmailId": 360,
+      "EmailAddress": "alisa.schmidt@kubruecker.uk",
+      "PhoneId": 105,
+      "ContactName": "Bauch, Leuschke and Hickle",
+      "ContactId": 945,
+      "SaleId": 140,
+      "Mrmrs": "id",
+      "Firstname": "Herminio",
+      "MiddleName": "Heaney, Prohaska and Lakin",
+      "Lastname": "White",
+      "SaleStakeholderId": 993,
+      "Rank": 143,
+      "Phone": "796-490-8868 x981"
     }
   ],
-  "ActiveErpLinks": 688,
+  "ActiveErpLinks": 318,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mabel Merlin Bins Jr.",
-    "SuperOffice:2": "Dina Hartmann"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Ahmad O'Hara"
   },
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "laboriosam"
+    "CustomFields1": "quidem",
+    "CustomFields2": "earum"
   },
-  "PublishEventDate": "2023-01-06T03:24:51.7713912+01:00",
-  "PublishTo": "2013-06-20T03:24:51.7713912+02:00",
-  "PublishFrom": "1997-03-15T03:24:51.7713912+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-11-06T11:06:42.113477+01:00",
+  "PublishTo": "2016-09-12T11:06:42.113477+02:00",
+  "PublishFrom": "2015-02-11T11:06:42.113477+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 752,
+      "VisibleId": 983,
       "Visibility": "All",
-      "DisplayValue": "deleniti"
+      "DisplayValue": "maxime"
     },
     {
-      "VisibleId": 752,
+      "VisibleId": 983,
       "Visibility": "All",
-      "DisplayValue": "deleniti"
+      "DisplayValue": "maxime"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nihil",
+  "SaleText": "vel",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-03-08T03:24:51.7870113+01:00",
-  "Amount": 10285.788,
-  "SaleId": 342,
-  "Earning": 30192.956,
-  "EarningPercent": 11304.338,
-  "Heading": "cumque",
-  "Number": "1146845",
-  "Probability": 194,
-  "CreatedDate": "2006-03-16T03:24:51.7870113+01:00",
-  "UpdatedDate": "2000-09-06T03:24:51.7870113+02:00",
+  "Saledate": "2017-05-25T11:06:42.1291007+02:00",
+  "Amount": 23689.906,
+  "SaleId": 900,
+  "Earning": 1723.7,
+  "EarningPercent": 18252.416,
+  "Heading": "qui",
+  "Number": "587712",
+  "Probability": 304,
+  "CreatedDate": "2009-05-05T11:06:42.1291007+02:00",
+  "UpdatedDate": "2010-10-01T11:06:42.1291007+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 227,
+  "ActiveLinks": 186,
   "Links": [
     {
-      "EntityName": "Tillman LLC",
-      "Id": 708,
-      "Description": "Networked multimedia frame",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 697,
+      "EntityName": "Graham-DuBuque",
+      "Id": 137,
+      "Description": "Upgradable multimedia contingency",
+      "ExtraInfo": "ut",
+      "LinkId": 481,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldLength": 3
         }
       }
     }
   ],
-  "NextDueDate": "1998-06-11T03:24:51.7870113+02:00",
-  "Postit": "enim",
+  "NextDueDate": "2000-03-28T11:06:42.1291007+02:00",
+  "Postit": "aut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-03-14T03:24:51.7870113+01:00",
+  "ReopenDate": "1999-04-01T11:06:42.1291007+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hand Inc and Sons",
-      "Comment": "dolorem",
-      "StakeholderRoleId": 676,
-      "CountryId": 223,
-      "PersonId": 991,
-      "EmailDescription": "maxine@beattytoy.us",
-      "EmailId": 922,
-      "EmailAddress": "brody_brakus@hauckbradtke.us",
-      "PhoneId": 642,
-      "ContactName": "Kreiger Inc and Sons",
-      "ContactId": 321,
-      "SaleId": 543,
-      "Mrmrs": "numquam",
-      "Firstname": "Agustina",
-      "MiddleName": "Lesch-Ziemann",
-      "Lastname": "Wilderman",
-      "SaleStakeholderId": 269,
-      "Rank": 99,
-      "Phone": "435.119.3729",
+      "StakeholderRoleName": "Stark LLC",
+      "Comment": "ab",
+      "StakeholderRoleId": 420,
+      "CountryId": 411,
+      "PersonId": 531,
+      "EmailDescription": "tiara.kulas@farrellwisoky.biz",
+      "EmailId": 576,
+      "EmailAddress": "isac@veum.us",
+      "PhoneId": 779,
+      "ContactName": "Huel, McKenzie and Feil",
+      "ContactId": 337,
+      "SaleId": 489,
+      "Mrmrs": "reprehenderit",
+      "Firstname": "Kathryn",
+      "MiddleName": "Stroman Group",
+      "Lastname": "Langosh",
+      "SaleStakeholderId": 966,
+      "Rank": 657,
+      "Phone": "657.067.5254 x485",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldLength": 703
         }
       }
     }
   ],
-  "ActiveErpLinks": 316,
+  "ActiveErpLinks": 617,
   "UserDefinedFields": {
-    "SuperOffice:1": "Milo Predovic",
-    "SuperOffice:2": "866021350"
+    "SuperOffice:1": "Franco Lorna Stanton III",
+    "SuperOffice:2": "1922194428"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "possimus"
+    "ExtraFields1": "fuga",
+    "ExtraFields2": "nobis"
   },
   "CustomFields": {
-    "CustomFields1": "quam",
-    "CustomFields2": "enim"
+    "CustomFields1": "ratione",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2001-11-30T03:24:51.7870113+01:00",
-  "PublishTo": "2010-08-09T03:24:51.7870113+02:00",
-  "PublishFrom": "2019-07-30T03:24:51.7870113+02:00",
+  "PublishEventDate": "1997-02-15T11:06:42.1291007+01:00",
+  "PublishTo": "2001-11-06T11:06:42.1291007+01:00",
+  "PublishFrom": "2015-02-11T11:06:42.1291007+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 51,
+      "VisibleId": 794,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 624
+          "FieldType": "System.String",
+          "FieldLength": 929
         }
       }
     },
     {
-      "VisibleId": 51,
+      "VisibleId": 794,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 624
+          "FieldType": "System.String",
+          "FieldLength": 929
         }
       }
     }
@@ -408,7 +408,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldLength": 462
     }
   },
   "_Links": {

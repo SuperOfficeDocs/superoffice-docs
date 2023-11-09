@@ -99,7 +99,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Ritchie, Miller and Schiller",
+  "TaskName": "West Group",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Abernathy Group",
-    "AssociateId": 87,
-    "DetailsTable": 259,
-    "DetailsRecord": 809,
+    "Id": 615,
+    "Name": "Cormier Group",
+    "AssociateId": 342,
+    "DetailsTable": 206,
+    "DetailsRecord": 602,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "omnis",
-      "ParameterObject2": "sint"
+      "ParameterObject1": "dolores",
+      "ParameterObject2": "explicabo"
     },
-    "LastStarted": "2001-02-26T03:24:47.2520803+01:00",
-    "Created": "1996-05-30T03:24:47.2520803+02:00",
-    "StartCount": 692,
-    "DatabaseSerialNumber": "507254",
-    "Context": "aspernatur",
-    "Result": "pariatur",
+    "LastStarted": "2004-04-22T11:06:33.7972715+02:00",
+    "Created": "2023-03-25T11:06:33.7972715+01:00",
+    "StartCount": 151,
+    "DatabaseSerialNumber": "1037028",
+    "Context": "ullam",
+    "Result": "nam",
     "State": "All",
-    "Description": "Re-contextualized heuristic benchmark",
-    "Response": "cupiditate",
-    "Request": "ex",
-    "ProgressDescription": "Advanced maximized matrix",
-    "ProgressPercent": 224,
-    "FileName": "Schuppe-Kunde",
+    "Description": "Up-sized bifurcated artificial intelligence",
+    "Response": "dolores",
+    "Request": "amet",
+    "ProgressDescription": "Implemented incremental task-force",
+    "ProgressPercent": 686,
+    "FileName": "Bartoletti, Gulgowski and Thompson",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 819
+        "FieldType": "System.String",
+        "FieldLength": 960
       }
     }
   }

@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 838,
-  "Name": "Grimes, Waters and Tremblay",
-  "Tooltip": "perferendis",
-  "SaveInDb": 776,
-  "Filename": "voluptatem",
-  "DefaultOref": "molestias",
+  "DocumentTemplateId": 264,
+  "Name": "Dooley, Gulgowski and Gislason",
+  "Tooltip": "aut",
+  "SaveInDb": 315,
+  "Filename": "aut",
+  "DefaultOref": "optio",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 707,
-  "IntentId": 477,
-  "IsDefaultPublished": true,
-  "Rank": 707,
-  "LoadTemplateFromPlugin": 295,
-  "MimeType": "ea",
+  "AutoeventId": 544,
+  "IntentId": 455,
+  "IsDefaultPublished": false,
+  "Rank": 371,
+  "LoadTemplateFromPlugin": 939,
+  "MimeType": "ut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 42,
+  "DocumentTypeKey": 552,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "misael@schillertowne.co.uk",
+  "EmailSubject": "louvenia.walsh@fadelbrown.info",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "halie_wyman@braunspinka.com",
+  "SenderEmailAddress": "angelita_feest@hartmann.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldType": "System.String",
+      "FieldLength": 364
     }
   }
 }

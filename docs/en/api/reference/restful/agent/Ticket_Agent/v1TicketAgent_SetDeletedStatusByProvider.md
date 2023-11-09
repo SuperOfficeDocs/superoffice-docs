@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Reynolds, Koch and Bernhard",
+  "ProviderName": "Pfeffer Group",
   "Restrictions": [
     {
-      "Name": "Flatley, Dach and Swift",
-      "Operator": "maxime",
+      "Name": "Stehr Inc and Sons",
+      "Operator": "tempora",
       "Values": [
-        "aliquam",
-        "cupiditate"
+        "deserunt",
+        "molestiae"
       ],
       "DisplayValues": [
-        "consectetur",
-        "libero"
+        "facere",
+        "molestias"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 550,
+      "InterParenthesis": 958,
       "InterOperator": "And",
-      "UniqueHash": 527
+      "UniqueHash": 571
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  789,
-  65
+  768,
+  860
 ]
 ```

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Parker LLC",
-  "Tooltip": "ducimus",
-  "Deleted": false,
-  "Rank": 712,
+  "Id": 300,
+  "Name": "Greenholt-Schultz",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 544,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true
+  "ListType": "sapiente",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 709,
-  "Name": "Sipes Inc and Sons",
-  "Tooltip": "quis",
+  "Id": 421,
+  "Name": "Friesen Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 493,
+  "Rank": 155,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ea",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "assumenda",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 316
     }
   }
 }

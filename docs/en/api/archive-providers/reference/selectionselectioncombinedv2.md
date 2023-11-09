@@ -79,7 +79,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionCombinedV2?$select=selectionAssociate/ejUserId,lastLoadedByFullName,selectionAssociate/fullName
+GET /api/v1/archive/SelectionSelectionCombinedV2?$select=lastLoadedByFullName,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

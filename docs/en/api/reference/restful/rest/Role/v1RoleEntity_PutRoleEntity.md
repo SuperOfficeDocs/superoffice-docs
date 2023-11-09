@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 22,
-  "Name": "Beahan, Waters and Metz",
-  "Tooltip": "repellat",
+  "RoleId": 684,
+  "Name": "Hilpert-Kuvalis",
+  "Tooltip": "natus",
   "RoleType": "Anonymous",
-  "Deleted": 476,
-  "Rank": 268,
-  "Created": "2012-12-24T03:24:51.7557701+01:00",
-  "UseCategories": 60,
+  "Deleted": 562,
+  "Rank": 605,
+  "Created": "2022-05-21T11:06:42.0822263+02:00",
+  "UseCategories": 571,
   "CreatedBy": null,
-  "Updated": "2012-12-29T03:24:51.7557701+01:00",
+  "Updated": "2008-11-23T11:06:42.0822263+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,29 +129,29 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 821,
-  "Name": "Rath Inc and Sons",
-  "Tooltip": "omnis",
+  "RoleId": 535,
+  "Name": "Hansen-Langosh",
+  "Tooltip": "id",
   "RoleType": "Anonymous",
-  "Deleted": 582,
-  "Rank": 572,
-  "Created": "1998-07-16T03:24:51.7557701+02:00",
-  "UseCategories": 855,
+  "Deleted": 398,
+  "Rank": 444,
+  "Created": "2013-01-18T11:06:42.0822263+01:00",
+  "UseCategories": 151,
   "CreatedBy": null,
-  "Updated": "2010-10-05T03:24:51.7557701+02:00",
+  "Updated": "2002-03-15T11:06:42.0822263+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldType": "System.String",
+      "FieldLength": 23
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

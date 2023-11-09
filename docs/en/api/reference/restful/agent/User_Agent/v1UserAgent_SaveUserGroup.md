@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/User/SaveUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "hic",
-  "Tooltip": "non",
-  "Id": 999,
-  "Rank": 249,
+  "Value": "minima",
+  "Tooltip": "amet",
+  "Id": 183,
+  "Rank": 595,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 248
+      "FieldLength": 32
     }
   }
 }

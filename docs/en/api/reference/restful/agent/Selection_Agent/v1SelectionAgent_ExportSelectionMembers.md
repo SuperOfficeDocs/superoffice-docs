@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 277,
-  "TemplateName": "Abshire, Jewess and Dicki",
+  "SelectionId": 722,
+  "TemplateName": "Renner-Gutkowski",
   "UseContacts": false
 }
 ```

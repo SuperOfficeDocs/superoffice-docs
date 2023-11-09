@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 478,
-  "ColumnId": 445,
-  "FieldDefault": "cupiditate",
-  "FieldHeight": 590,
-  "FieldLabel": "et",
-  "FieldLeft": 632,
-  "FieldTop": 267,
+  "UDefFieldId": 452,
+  "ColumnId": 241,
+  "FieldDefault": "velit",
+  "FieldHeight": 213,
+  "FieldLabel": "sapiente",
+  "FieldLeft": 381,
+  "FieldTop": 942,
   "FieldType": "Checkbox",
-  "FieldWidth": 191,
-  "FormatMask": "iste",
+  "FieldWidth": 646,
+  "FormatMask": "deleniti",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 39,
-  "LabelLeft": 947,
-  "LabelTop": 661,
-  "LabelWidth": 450,
-  "LastVersionId": 437,
-  "ListTableId": 892,
+  "IsIndexed": false,
+  "LabelHeight": 519,
+  "LabelLeft": 934,
+  "LabelTop": 900,
+  "LabelWidth": 819,
+  "LastVersionId": 741,
+  "ListTableId": 340,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 189,
-  "ProgId": "architecto",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptas",
-  "TabOrder": 602,
-  "TextLength": 939,
-  "Tooltip": "dolorem",
-  "UdefIdentity": 162,
-  "UDListDefinitionId": 759,
+  "Page1LineNo": 1002,
+  "ProgId": "quo",
+  "IsReadOnly": true,
+  "ShortLabel": "tempora",
+  "TabOrder": 782,
+  "TextLength": 453,
+  "Tooltip": "velit",
+  "UdefIdentity": 79,
+  "UDListDefinitionId": 57,
   "Justification": "Center",
-  "Version": 888,
-  "TemplateVariableName": "Boyle-Howe",
+  "Version": 20,
+  "TemplateVariableName": "Toy, Friesen and Mayer",
   "HasBeenPublished": false,
-  "MdoListName": "Fritsch LLC",
+  "MdoListName": "Bashirian LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldLength": 19
     }
   }
 }

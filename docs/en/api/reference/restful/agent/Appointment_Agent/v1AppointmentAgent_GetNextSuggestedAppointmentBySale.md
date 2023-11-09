@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 883,
-  "CurrentAppointmentId": 119,
-  "SkipCompleteCheck": true
+  "SaleId": 843,
+  "CurrentAppointmentId": 664,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 141,
-  "Deleted": 529,
-  "DaysFuture": 133,
-  "Tooltip": "nulla",
-  "Text": "nam",
-  "TaskId": 669,
-  "SuggestedAppointmentId": 633,
-  "SaleTypeStageLinkId": 728,
-  "RegisteredAssociateId": 745,
-  "Rank": 853,
-  "ProjectTypeStatusLinkId": 700,
-  "Name": "Larson, Rohan and Beier",
-  "Duration": 767,
+  "AutoSuggest": 161,
+  "Deleted": 634,
+  "DaysFuture": 969,
+  "Tooltip": "et",
+  "Text": "cum",
+  "TaskId": 857,
+  "SuggestedAppointmentId": 68,
+  "SaleTypeStageLinkId": 382,
+  "RegisteredAssociateId": 397,
+  "Rank": 557,
+  "ProjectTypeStatusLinkId": 167,
+  "Name": "Becker, Satterfield and Marks",
+  "Duration": 814,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 851
     }
   }
 }

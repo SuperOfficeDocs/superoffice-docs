@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 508
+  "DocumentId": 474
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 450,
-  "Name": "Heidenreich-Hilll",
-  "ContentType": "libero",
-  "AttSize": 892,
+  "AttachmentId": 827,
+  "Name": "Runolfsdottir-Erdman",
+  "ContentType": "dolorem",
+  "AttSize": 532,
   "InlineImage": false,
-  "ContentId": "autem",
-  "AuthKey": "voluptatem",
+  "ContentId": "enim",
+  "AuthKey": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 196
+      "FieldType": "System.Int32",
+      "FieldLength": 792
     }
   }
 }

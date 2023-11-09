@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 721,
-  "TopicId": 341,
+  "ChatSessionId": 196,
+  "TopicId": 790,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatem",
-  "CustomerHost": "tempora",
-  "CustomerName": "Olson Group",
-  "CustomerEmail": "isaias@schowalter.co.uk",
-  "CustomerPhone": "060-442-9184 x7165",
+  "CustomerAlias": "consequatur",
+  "CustomerHost": "ipsam",
+  "CustomerName": "Bergstrom, Sanford and Friesen",
+  "CustomerEmail": "rowena@bechtelar.us",
+  "CustomerPhone": "1-771-778-9581 x175",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schultz Inc and Sons",
+  "CustomerCompanyName": "Kuvalis, Torp and Swift",
   "Status": "Closed",
-  "FirstMessage": "ducimus",
-  "LastMessage": "blanditiis",
-  "WhenRequested": "2005-12-31T03:24:51.4117024+01:00",
-  "WhenStarted": "2009-03-30T03:24:51.4117024+02:00",
-  "WhenEnded": "1999-06-10T03:24:51.4117024+02:00",
-  "WhenIdle": "2004-12-24T03:24:51.4117024+01:00",
-  "WhenFetched": "2004-02-14T03:24:51.4117024+01:00",
-  "SessionKey": "dolorum",
-  "InitialQueuePos": 595,
-  "AlertLevel": 299,
-  "Rank": 811,
+  "FirstMessage": "omnis",
+  "LastMessage": "aliquid",
+  "WhenRequested": "2003-11-19T11:06:41.5041186+01:00",
+  "WhenStarted": "2003-11-30T11:06:41.5041186+01:00",
+  "WhenEnded": "1999-10-29T11:06:41.5041186+02:00",
+  "WhenIdle": "2000-09-12T11:06:41.5041186+02:00",
+  "WhenFetched": "2014-10-26T11:06:41.5041186+01:00",
+  "SessionKey": "dolorem",
+  "InitialQueuePos": 842,
+  "AlertLevel": 945,
+  "Rank": 304,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 725,
+  "Rating": 29,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 396
     }
   }
 }

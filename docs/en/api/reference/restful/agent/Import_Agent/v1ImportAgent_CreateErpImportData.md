@@ -77,21 +77,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Maggio, Kulas and Gleichner",
-      "Operator": "voluptas",
+      "Name": "Borer Inc and Sons",
+      "Operator": "molestiae",
       "Values": [
-        "provident",
-        "optio"
+        "fugiat",
+        "fuga"
       ],
       "DisplayValues": [
-        "hic",
-        "ut"
+        "vel",
+        "in"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 111,
+      "InterParenthesis": 714,
       "InterOperator": "And",
-      "UniqueHash": 302
+      "UniqueHash": 29
     }
   ],
   "Columns": [
-    "fugiat",
-    "quam"
+    "debitis",
+    "odio"
   ],
-  "ConnectionId": 836,
+  "ConnectionId": 530,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "aut",
-        "laudantium"
+        "autem",
+        "fugiat"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "pariatur",
+      "ExternalKey": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 413
+          "FieldLength": 569
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Marquardt-Wyman",
-      "DisplayName": "Durgan Inc and Sons",
+      "Name": "Walker, Boyer and Terry",
+      "DisplayName": "Kessler Group",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 187
         }
       }
     },
     {
-      "Name": "Marquardt-Wyman",
-      "DisplayName": "Durgan Inc and Sons",
+      "Name": "Walker, Boyer and Terry",
+      "DisplayName": "Kessler Group",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 187
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 415
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=359
+POST /api/v1/Agents/List/GetCountry?countryId=802
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 529,
-  "Name": "Schiller LLC",
-  "CurrencyId": 699,
-  "EnglishName": "Weissnat LLC",
+  "CountryId": 533,
+  "Name": "Kutch-Vandervort",
+  "CurrencyId": 520,
+  "EnglishName": "Osinski Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Reverse-engineered contextually-based pricing structure",
-  "OrgNrText": "1332773",
-  "InterAreaPrefix": "sequi",
-  "DialInPrefix": "vel",
-  "ZipPrefix": "ut",
-  "DomainName": "Carroll, Stroman and Lowe",
-  "AddressLayoutId": 741,
-  "DomesticAddressLayoutId": 867,
-  "ForeignAddressLayoutId": 926,
-  "Rank": 440,
-  "Tooltip": "quia",
+  "ImageDescription": "Synergistic mobile functionalities",
+  "OrgNrText": "1758223",
+  "InterAreaPrefix": "voluptas",
+  "DialInPrefix": "officia",
+  "ZipPrefix": "consequuntur",
+  "DomainName": "Dickens-Boyle",
+  "AddressLayoutId": 854,
+  "DomesticAddressLayoutId": 909,
+  "ForeignAddressLayoutId": 587,
+  "Rank": 665,
+  "Tooltip": "consectetur",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 632
     }
   }
 }

@@ -76,30 +76,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 810,
-  "Name": "Tromp, Emard and Leannon",
-  "Rank": 395,
-  "Tooltip": "aut",
-  "Icon": "dolor",
-  "DefaultTicketStatus": 990,
+  "TicketTypeId": 371,
+  "Name": "Reichel, Jacobson and Considine",
+  "Rank": 145,
+  "Tooltip": "eligendi",
+  "Icon": "eaque",
+  "DefaultTicketStatus": 264,
   "TicketStatuses": [
-    879,
-    190
+    130,
+    9
   ],
-  "DefaultTicketPriority": 195,
+  "DefaultTicketPriority": 370,
   "TicketPriorities": [
-    645,
-    908
+    837,
+    604
   ],
-  "ReplyTemplate": 961,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 214,
+  "IsExternalVisible": true,
   "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 375
     }
   }
 }

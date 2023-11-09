@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Zieme, Welch and Luettgen",
-    "Tooltip": "ab",
+    "Id": 14,
+    "Name": "Cruickshank Group",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 349,
-    "Rank": 485
+    "UdListDefinitionId": 93,
+    "Rank": 513
   },
   {
-    "Id": 78,
-    "Name": "Zieme, Welch and Luettgen",
-    "Tooltip": "ab",
+    "Id": 14,
+    "Name": "Cruickshank Group",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 349,
-    "Rank": 485
+    "UdListDefinitionId": 93,
+    "Rank": 513
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Name": "Corkery, Koss and Reinger",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "UdListDefinitionId": 271,
-    "Rank": 785,
+    "Id": 994,
+    "Name": "Monahan Group",
+    "Tooltip": "id",
+    "Deleted": false,
+    "UdListDefinitionId": 627,
+    "Rank": 151,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldType": "System.String",
+        "FieldLength": 724
       }
     }
   }

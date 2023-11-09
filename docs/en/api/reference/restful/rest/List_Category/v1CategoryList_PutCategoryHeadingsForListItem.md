@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 59,
-    "Name": "Borer Inc and Sons",
-    "ToolTip": "Accusantium possimus esse dolor molestias minus quia autem.",
+    "Id": 842,
+    "Name": "Murazik LLC",
+    "ToolTip": "Occaecati alias quia voluptatem dolore praesentium eos.",
     "Deleted": false,
-    "Rank": 710,
-    "Type": "nesciunt",
-    "ColorBlock": 8,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2001-01-19T03:24:52.1775959+01:00",
+    "Rank": 189,
+    "Type": "assumenda",
+    "ColorBlock": 167,
+    "IconHint": "aperiam",
+    "Selected": true,
+    "LastChanged": "2016-05-27T11:06:42.6940706+02:00",
     "ChildItems": [
       {
-        "Id": 799,
-        "Name": "O'Keefe, Upton and Dicki",
-        "ToolTip": "Dicta voluptas tempore temporibus odit laboriosam.",
-        "Deleted": true,
-        "Rank": 251,
-        "Type": "id",
-        "ColorBlock": 3,
-        "IconHint": "sequi",
-        "Selected": true,
-        "LastChanged": "2018-05-06T03:24:52.1775959+02:00",
+        "Id": 96,
+        "Name": "Thompson, Robel and Toy",
+        "ToolTip": "Consequatur dolorum laborum laborum quasi.",
+        "Deleted": false,
+        "Rank": 113,
+        "Type": "quisquam",
+        "ColorBlock": 618,
+        "IconHint": "assumenda",
+        "Selected": false,
+        "LastChanged": "2020-06-25T11:06:42.6940706+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "incidunt",
-        "Hidden": true,
-        "FullName": "Landen McKenzie"
+        "ExtraInfo": "impedit",
+        "StyleHint": "blanditiis",
+        "Hidden": false,
+        "FullName": "Miss Kiley Shawn Dickens"
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "nostrum",
-    "Hidden": false,
-    "FullName": "Narciso Predovic"
+    "ExtraInfo": "at",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Miss Name Tania Kris IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Zieme-Nienow",
-    "ToolTip": "Ut eius.",
+    "Id": 108,
+    "Name": "Connelly, West and Gutkowski",
+    "ToolTip": "Possimus eum et nesciunt culpa eligendi.",
     "Deleted": false,
-    "Rank": 860,
+    "Rank": 609,
     "Type": "aut",
-    "ColorBlock": 415,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2002-09-10T03:24:52.1775959+02:00",
+    "ColorBlock": 242,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2018-04-16T11:06:42.6940706+02:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "McCullough, Dietrich and Wilderman",
-        "ToolTip": "Numquam ullam voluptatem.",
-        "Deleted": true,
-        "Rank": 28,
-        "Type": "qui",
-        "ColorBlock": 734,
-        "IconHint": "excepturi",
+        "Id": 820,
+        "Name": "Jakubowski Inc and Sons",
+        "ToolTip": "Et sint.",
+        "Deleted": false,
+        "Rank": 270,
+        "Type": "earum",
+        "ColorBlock": 727,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2012-12-13T03:24:52.1775959+01:00",
+        "LastChanged": "2004-09-03T11:06:42.6940706+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "et",
+        "ExtraInfo": "at",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Anahi Kyleigh Hansen I",
+        "FullName": "Prof. Brody Brian Bartoletti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 539
+            "FieldLength": 307
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "ex",
-    "Hidden": false,
-    "FullName": "Mr. Claud Hodkiewicz",
+    "ExtraInfo": "neque",
+    "StyleHint": "necessitatibus",
+    "Hidden": true,
+    "FullName": "Beverly King",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldLength": 941
       }
     }
   }

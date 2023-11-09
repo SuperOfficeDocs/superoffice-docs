@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended responsive adapter",
-  "Postit": "quaerat",
+  "Description": "Fundamental holistic product",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 744,
-  "IncludePerson": 964,
-  "MemberCount": 269,
-  "Name": "Abshire, Kohler and Lynch",
-  "PostitTextId": 455,
-  "CreatedDate": "2001-11-25T03:24:48.2524255+01:00",
-  "SelectionId": 53,
-  "SoundEx": "dolores",
-  "Source": 558,
-  "TextId": 747,
-  "UpdatedDate": "2014-05-08T03:24:48.2524255+02:00",
-  "UpdatedCount": 948,
-  "Visibility": 804,
+  "GroupIdx": 557,
+  "IncludePerson": 916,
+  "MemberCount": 850,
+  "Name": "Eichmann, Daugherty and Fahey",
+  "PostitTextId": 219,
+  "CreatedDate": "2019-12-27T11:06:35.3801953+01:00",
+  "SelectionId": 810,
+  "SoundEx": "neque",
+  "Source": 442,
+  "TextId": 6,
+  "UpdatedDate": "2018-02-25T11:06:35.3801953+01:00",
+  "UpdatedCount": 972,
+  "Visibility": 719,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 769,
-  "TargetTableName": "Johnston-Jacobson",
+  "TargetTableNumber": 85,
+  "TargetTableName": "Haley, Berge and Rolfson",
   "Completed": false,
-  "LeftSelectionId": 261,
-  "RightSelectionId": 5,
+  "LeftSelectionId": 158,
+  "RightSelectionId": 370,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Dooley, Bernier and Hackett",
-  "ShadowProviderName": "Conn-Waters",
-  "ChartKey": "non",
-  "LastLoaded": "2003-11-09T03:24:48.2524255+01:00",
-  "LastLoadedBy": 383,
+  "MainProviderName": "Adams LLC",
+  "ShadowProviderName": "Morissette Group",
+  "ChartKey": "culpa",
+  "LastLoaded": "2023-04-14T11:06:35.3801953+02:00",
+  "LastLoadedBy": 243,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-02-06T03:24:48.2524255+01:00",
-  "LastMembershipChangeBy": 42,
+  "LastMembershipChange": "1999-11-07T11:06:35.3801953+01:00",
+  "LastMembershipChangeBy": 607,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fuga",
-  "MemberTabHeading": "provident",
-  "MailingsProviderName": "Brakus LLC",
-  "DashboardTileDefinitionId": 956,
+  "MainHeading": "saepe",
+  "MemberTabHeading": "culpa",
+  "MailingsProviderName": "Davis-Tillman",
+  "DashboardTileDefinitionId": 822,
   "VisibleFor": [
     {
-      "VisibleId": 818,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 321
+          "FieldType": "System.String",
+          "FieldLength": 14
         }
       }
     },
     {
-      "VisibleId": 818,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 321
+          "FieldType": "System.String",
+          "FieldLength": 14
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 614
     }
   }
 }

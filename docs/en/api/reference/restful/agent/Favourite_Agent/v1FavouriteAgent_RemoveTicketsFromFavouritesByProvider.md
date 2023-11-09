@@ -70,18 +70,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hintz Group",
+  "ProviderName": "Toy, Stoltenberg and Fay",
   "Restrictions": [
     {
-      "Name": "Kuhn Inc and Sons",
-      "Operator": "ducimus",
+      "Name": "Hudson Group",
+      "Operator": "quia",
       "Values": [
-        "vel",
-        "praesentium"
+        "eligendi",
+        "et"
       ],
       "DisplayValues": [
-        "consectetur",
-        "consequatur"
+        "est",
+        "temporibus"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 993,
+      "InterParenthesis": 893,
       "InterOperator": "And",
-      "UniqueHash": 136
+      "UniqueHash": 272
     }
   ],
-  "AssociateId": 191
+  "AssociateId": 21
 }
 ```
 

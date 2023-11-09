@@ -86,16 +86,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kassulke LLC",
+  "HistoryName": "Wolf LLC",
   "History": [
     {
-      "Rank": 418,
-      "Id": 252,
-      "HistoryName": "Heaney-Rutherford",
-      "HistoryId": 31,
-      "AssociateId": 344,
-      "Name": "Okuneva LLC",
-      "ItemInfo": "incidunt"
+      "Rank": 518,
+      "Id": 568,
+      "HistoryName": "Kulas, Baumbach and Schmidt",
+      "HistoryId": 978,
+      "AssociateId": 363,
+      "Name": "Collier, Kautzer and Emmerich",
+      "ItemInfo": "vel"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 554,
-    "Id": 69,
-    "HistoryName": "Trantow Group",
-    "HistoryId": 446,
-    "AssociateId": 268,
-    "Name": "Kozey-Jaskolski",
-    "ItemInfo": "aut",
+    "Rank": 266,
+    "Id": 407,
+    "HistoryName": "Gottlieb, Koss and Fay",
+    "HistoryId": 148,
+    "AssociateId": 29,
+    "Name": "Volkman Inc and Sons",
+    "ItemInfo": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 915
+        "FieldType": "System.Int32",
+        "FieldLength": 517
       }
     }
   }

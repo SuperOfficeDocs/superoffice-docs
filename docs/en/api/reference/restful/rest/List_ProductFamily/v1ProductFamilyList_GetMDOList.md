@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=eum
+GET /api/v1/List/ProductFamily/MDOItems?query=in
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Auer, Blick and Padberg",
-    "ToolTip": "Harum aut nisi odit ut aut.",
+    "Id": 575,
+    "Name": "Emard-Cassin",
+    "ToolTip": "Qui sint cupiditate sint aut hic necessitatibus.",
     "Deleted": false,
-    "Rank": 376,
-    "Type": "voluptatem",
+    "Rank": 610,
+    "Type": "quod",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Littel-Schulist",
-        "ToolTip": "Necessitatibus amet molestias.",
+        "Id": 512,
+        "Name": "Nikolaus Inc and Sons",
+        "ToolTip": "Reiciendis dicta dignissimos quibusdam dignissimos ea et at.",
         "Deleted": false,
-        "Rank": 1000,
-        "Type": "ab",
+        "Rank": 86,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 171,
-        "ExtraInfo": "aut",
-        "StyleHint": "deleniti",
-        "FullName": "Miss Daphne Stroman PhD",
+        "IconHint": "repellat",
+        "ColorBlock": 818,
+        "ExtraInfo": "eos",
+        "StyleHint": "et",
+        "FullName": "Ms. Aurelia Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 962
+            "FieldLength": 675
           }
         }
       }
     ],
-    "IconHint": "laboriosam",
-    "ColorBlock": 23,
-    "ExtraInfo": "aut",
-    "StyleHint": "provident",
-    "FullName": "Mrs. Ethelyn Stehr",
+    "IconHint": "vel",
+    "ColorBlock": 88,
+    "ExtraInfo": "quam",
+    "StyleHint": "illo",
+    "FullName": "Manuel Gutmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldLength": 87
       }
     }
   }

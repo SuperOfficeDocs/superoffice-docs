@@ -92,78 +92,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 663,
+  "EjMessageId": 139,
   "Ticket": null,
-  "CreatedAt": "2006-02-06T03:24:48.4092931+01:00",
+  "CreatedAt": "1999-08-14T11:06:35.4739443+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "quisquam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "facere",
-  "TimeSpent": 529,
-  "Body": "repudiandae",
-  "HtmlBody": "perferendis",
-  "EmailHeader": "elyssa@kilbackhammes.biz",
-  "DebugInfo": "sint",
-  "MailSorter": "quis",
+  "MessageId": "eos",
+  "TimeSpent": 434,
+  "Body": "autem",
+  "HtmlBody": "expedita",
+  "EmailHeader": "teresa_collier@spencer.name",
+  "DebugInfo": "iusto",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "facere",
+  "SearchTitle": "quae",
   "MessageHeaders": [
     {
-      "Id": 770,
-      "Name": "Hilpert LLC",
-      "Value": "sequi",
+      "Id": 940,
+      "Name": "Volkman, Sawayn and Okuneva",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 910
+          "FieldType": "System.Int32",
+          "FieldLength": 124
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "repellat",
-  "Sentiment": 98,
-  "SentimentConfidence": 67,
+  "Important": true,
+  "Language": "harum",
+  "Sentiment": 91,
+  "SentimentConfidence": 873,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 209,
-      "Name": "Brakus Inc and Sons",
-      "ContentType": "sit",
-      "AttSize": 170,
-      "InlineImage": false,
-      "ContentId": "atque",
-      "AuthKey": "vero",
+      "AttachmentId": 881,
+      "Name": "Bergstrom-Corwin",
+      "ContentType": "non",
+      "AttSize": 440,
+      "InlineImage": true,
+      "ContentId": "ut",
+      "AuthKey": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 727
+          "FieldLength": 769
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "error"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "mollitia"
+    "CustomFields1": "est",
+    "CustomFields2": "rem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 765
+      "FieldLength": 434
     }
   }
 }

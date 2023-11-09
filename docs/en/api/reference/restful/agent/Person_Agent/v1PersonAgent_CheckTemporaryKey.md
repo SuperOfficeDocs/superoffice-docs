@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Person/CheckTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemporaryKey": "aspernatur"
+  "TemporaryKey": "ipsum"
 }
 ```
 
@@ -92,15 +92,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 218,
-  "PersonId": 709,
+  "TargetId": 942,
+  "PersonId": 572,
   "IsExpired": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldType": "System.Int32",
+      "FieldLength": 365
     }
   }
 }

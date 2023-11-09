@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wolf, Rodriguez and Medhurst"
+  "Name": "Hills-Hansen"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Sawayn Inc and Sons",
-    "SoPrimaryKey": 211,
-    "EntryName": "Rohan-Pfeffer",
-    "EntryIdentifier": "nobis",
-    "RuleDisplayName": "Thiel, Hettinger and Haag",
+    "RuleName": "Balistreri, Hartmann and Miller",
+    "SoPrimaryKey": 985,
+    "EntryName": "Borer, Auer and Leuschke",
+    "EntryIdentifier": "possimus",
+    "RuleDisplayName": "Friesen-Kshlerin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 247
+        "FieldType": "System.String",
+        "FieldLength": 176
       }
     }
   }

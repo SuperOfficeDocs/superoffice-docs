@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 515,
-  "UserInput": "maiores",
-  "PriceListKey": "sit"
+  "QuoteAlternativeId": 183,
+  "UserInput": "voluptatem",
+  "PriceListKey": "dolorem"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 131,
-    "ERPProductKey": "incidunt",
-    "ERPPriceListKey": "omnis",
-    "Name": "Crona, Breitenberg and Stoltenberg",
-    "Description": "Multi-lateral neutral projection",
-    "Code": "quae",
-    "PriceUnit": "nobis",
-    "QuantityUnit": "illo",
+    "ProductId": 420,
+    "ERPProductKey": "labore",
+    "ERPPriceListKey": "laudantium",
+    "Name": "Rodriguez, Reynolds and Schaden",
+    "Description": "Versatile hybrid open architecture",
+    "Code": "molestias",
+    "PriceUnit": "facilis",
+    "QuantityUnit": "libero",
     "IsSubscription": false,
-    "SubscriptionUnit": "officiis",
-    "DefaultSubscriptionQuantity": 12213.198,
-    "ItemNumber": "621730",
+    "SubscriptionUnit": "sed",
+    "DefaultSubscriptionQuantity": 27478.912,
+    "ItemNumber": "818281",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "qui",
-    "ProductTypeKey": "quaerat",
-    "VAT": 10367.271999999999,
-    "VATInfo": "est",
-    "UnitCost": 23501.865999999998,
-    "UnitMinimumPrice": 22978.487999999998,
-    "UnitListPrice": 5161.6979999999994,
+    "ProductFamilyKey": "cum",
+    "ProductTypeKey": "et",
+    "VAT": 16967.476,
+    "VATInfo": "iure",
+    "UnitCost": 8236.152,
+    "UnitMinimumPrice": 14488.482,
+    "UnitListPrice": 20208.032,
     "InAssortment": false,
-    "Supplier": "maxime",
-    "SupplierCode": "est",
-    "Rights": "ut",
-    "Rule": "autem",
+    "Supplier": "molestiae",
+    "SupplierCode": "sapiente",
+    "Rights": "harum",
+    "Rule": "iure",
     "ExtraInfo": [
       {
-        "Name": "O'Conner Inc and Sons",
-        "Value": "tempora",
+        "Name": "Heller LLC",
+        "Value": "dolorum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldLength": 536
           }
         }
       },
       {
-        "Name": "O'Conner Inc and Sons",
-        "Value": "tempora",
+        "Name": "Heller LLC",
+        "Value": "dolorum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldLength": 536
           }
         }
       }
     ],
-    "RawExtraInfo": "facilis",
-    "ExtraField1": "quod",
-    "ExtraField2": "impedit",
-    "ExtraField3": "nostrum",
-    "ExtraField4": "ad",
-    "ExtraField5": "quam",
-    "InStock": 1886.668,
+    "RawExtraInfo": "ut",
+    "ExtraField1": "sint",
+    "ExtraField2": "qui",
+    "ExtraField3": "facere",
+    "ExtraField4": "omnis",
+    "ExtraField5": "vero",
+    "InStock": 22085.298,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 664
+        "FieldLength": 681
       }
     }
   }

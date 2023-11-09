@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2004-07-19T03:24:47.220828+02:00",
-  "ToDate": "2013-11-01T03:24:47.220828+01:00",
+  "FromDate": "2003-05-20T11:06:33.7503955+02:00",
+  "ToDate": "2018-01-20T11:06:33.7503955+01:00",
   "AssociateList": [
     {
-      "Id": 759,
-      "Name": "Harris LLC",
-      "ToolTip": "Nostrum in repellendus.",
-      "Deleted": false,
-      "Rank": 369,
-      "Type": "tempore",
-      "ColorBlock": 293,
-      "IconHint": "quia",
+      "Id": 175,
+      "Name": "Klocko Group",
+      "ToolTip": "Corrupti minima non quidem delectus ea ullam.",
+      "Deleted": true,
+      "Rank": 643,
+      "Type": "dolore",
+      "ColorBlock": 826,
+      "IconHint": "veritatis",
       "Selected": false,
-      "LastChanged": "2012-01-17T03:24:47.220828+01:00",
+      "LastChanged": "2002-02-11T11:06:33.7503955+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "hic",
-      "StyleHint": "totam",
+      "ExtraInfo": "dignissimos",
+      "StyleHint": "cum",
       "Hidden": false,
-      "FullName": "Hayden Russel I",
+      "FullName": "Chelsea Lemke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 762
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 912,
-      "Name": "Johnson-Hoeger",
-      "ToolTip": "Eaque hic veniam enim dolores.",
+      "Id": 518,
+      "Name": "Fritsch Inc and Sons",
+      "ToolTip": "Qui eos reprehenderit inventore magni ut facere.",
       "Deleted": false,
-      "Rank": 97,
-      "Type": "delectus",
-      "ColorBlock": 247,
-      "IconHint": "aut",
-      "Selected": false,
-      "LastChanged": "2023-02-07T03:24:47.220828+01:00",
+      "Rank": 89,
+      "Type": "molestiae",
+      "ColorBlock": 622,
+      "IconHint": "fuga",
+      "Selected": true,
+      "LastChanged": "2022-09-30T11:06:33.7503955+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "magnam",
-      "Hidden": true,
-      "FullName": "Prof. Lea Rohan II",
+      "ExtraInfo": "animi",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Dr. Enrico Kreiger Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 594
+          "FieldType": "System.String",
+          "FieldLength": 592
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 391,
-      "Name": "Donnelly, McKenzie and Johns",
-      "ToolTip": "Sit consequatur.",
-      "Deleted": false,
-      "Rank": 921,
-      "Type": "sit",
+      "Id": 269,
+      "Name": "Harris-Ortiz",
+      "ToolTip": "Modi nobis qui et doloremque autem.",
+      "Deleted": true,
+      "Rank": 673,
+      "Type": "distinctio",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cumque",
-      "ColorBlock": 472,
-      "ExtraInfo": "quia",
-      "StyleHint": "dolores",
-      "FullName": "Miss Aniyah Eliseo Bogisich",
+      "IconHint": "cupiditate",
+      "ColorBlock": 322,
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "aut",
+      "FullName": "Fabiola Haley IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldType": "System.String",
+          "FieldLength": 451
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldType": "System.String",
+      "FieldLength": 121
     }
   }
 }

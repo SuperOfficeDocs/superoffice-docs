@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 172,
-  "Name": "Carroll-Lehner",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 161,
-  "Rank": 365,
+  "Id": 508,
+  "Name": "Okuneva-Dickinson",
+  "Tooltip": "atque",
+  "Deleted": false,
+  "UdListDefinitionId": 343,
+  "Rank": 1002,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 782
     }
   }
 }

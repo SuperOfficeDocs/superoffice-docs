@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 693,
-  "TopicId": 841,
+  "ChatSessionId": 830,
+  "TopicId": 787,
   "User": null,
   "Person": null,
-  "CustomerAlias": "impedit",
-  "CustomerHost": "facere",
-  "CustomerName": "Herman, Kuhic and Emard",
-  "CustomerEmail": "jovany@kleinhilpert.info",
-  "CustomerPhone": "976-554-8994 x9647",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Little-Davis",
+  "CustomerAlias": "natus",
+  "CustomerHost": "magnam",
+  "CustomerName": "White Inc and Sons",
+  "CustomerEmail": "zelda.weber@rueckerrice.biz",
+  "CustomerPhone": "956.429.5888",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Stamm, Thiel and Spencer",
   "Status": "Closed",
-  "FirstMessage": "debitis",
-  "LastMessage": "dignissimos",
-  "WhenRequested": "2021-12-17T03:24:51.4273279+01:00",
-  "WhenStarted": "2009-07-27T03:24:51.4273279+02:00",
-  "WhenEnded": "2020-04-01T03:24:51.4273279+02:00",
-  "WhenIdle": "2005-11-13T03:24:51.4273279+01:00",
-  "WhenFetched": "2007-03-13T03:24:51.4273279+01:00",
-  "SessionKey": "debitis",
-  "InitialQueuePos": 638,
-  "AlertLevel": 339,
-  "Rank": 623,
+  "FirstMessage": "consequuntur",
+  "LastMessage": "reprehenderit",
+  "WhenRequested": "2017-06-26T11:06:41.5197412+02:00",
+  "WhenStarted": "2020-02-13T11:06:41.5197412+01:00",
+  "WhenEnded": "1999-01-26T11:06:41.5197412+01:00",
+  "WhenIdle": "1996-09-25T11:06:41.5197412+02:00",
+  "WhenFetched": "2014-10-22T11:06:41.5197412+02:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 472,
+  "AlertLevel": 317,
+  "Rank": 697,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 383,
+  "Rating": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 948
     }
   }
 }

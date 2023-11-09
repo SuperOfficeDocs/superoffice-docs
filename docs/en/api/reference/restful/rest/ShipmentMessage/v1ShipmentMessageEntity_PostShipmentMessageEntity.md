@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 143,
-  "PlainMessage": "expedita",
-  "HtmlMessage": "enim",
-  "SmsMessage": "eligendi",
-  "Description": "Right-sized radical data-warehouse",
-  "Subject": "eveniet",
-  "FolderId": 155,
-  "HeaderField": "magnam",
-  "Design": "fugiat",
+  "ShipmentMessageId": 643,
+  "PlainMessage": "tenetur",
+  "HtmlMessage": "non",
+  "SmsMessage": "numquam",
+  "Description": "Function-based impactful knowledge base",
+  "Subject": "atque",
+  "FolderId": 252,
+  "HeaderField": "ut",
+  "Design": "velit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Innovative coherent capability",
-  "AccessKey": "tempora",
-  "DocumentMessage": 207,
-  "Registered": "2009-03-18T03:24:51.927622+01:00",
-  "RegisteredAssociateId": 32,
-  "Updated": "2000-07-01T03:24:51.927622+02:00",
-  "UpdatedAssociateId": 810,
-  "UpdatedCount": 582
+  "InlineImages": true,
+  "LongDescription": "Switchable client-server budgetary management",
+  "AccessKey": "doloribus",
+  "DocumentMessage": 635,
+  "Registered": "2009-12-03T11:06:42.2228527+01:00",
+  "RegisteredAssociateId": 984,
+  "Updated": "2001-02-05T11:06:42.2228527+01:00",
+  "UpdatedAssociateId": 180,
+  "UpdatedCount": 352
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 593,
-  "PlainMessage": "veritatis",
-  "HtmlMessage": "aspernatur",
-  "SmsMessage": "harum",
-  "Description": "Object-based systematic attitude",
-  "Subject": "occaecati",
-  "FolderId": 519,
-  "HeaderField": "voluptas",
-  "Design": "sit",
+  "ShipmentMessageId": 250,
+  "PlainMessage": "quas",
+  "HtmlMessage": "odit",
+  "SmsMessage": "id",
+  "Description": "Ergonomic exuding moratorium",
+  "Subject": "non",
+  "FolderId": 413,
+  "HeaderField": "qui",
+  "Design": "voluptatem",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Customizable encompassing infrastructure",
-  "AccessKey": "officiis",
-  "DocumentMessage": 604,
-  "Registered": "2018-06-28T03:24:51.927622+02:00",
-  "RegisteredAssociateId": 1001,
-  "Updated": "2013-01-03T03:24:51.927622+01:00",
-  "UpdatedAssociateId": 516,
-  "UpdatedCount": 440,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Optimized motivating installation",
+  "AccessKey": "nesciunt",
+  "DocumentMessage": 104,
+  "Registered": "2021-04-18T11:06:42.2228527+02:00",
+  "RegisteredAssociateId": 879,
+  "Updated": "2002-02-10T11:06:42.2228527+01:00",
+  "UpdatedAssociateId": 699,
+  "UpdatedCount": 99,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 367
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

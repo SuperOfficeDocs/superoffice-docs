@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 285
+  "Id": 591
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 323,
-  "Name": "Dicki, Reilly and Graham",
-  "AssociateId": 929,
-  "DetailsTable": 480,
-  "DetailsRecord": 732,
+  "Id": 722,
+  "Name": "Bruen, Brakus and Green",
+  "AssociateId": 50,
+  "DetailsTable": 504,
+  "DetailsRecord": 600,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "reiciendis",
-    "ParameterObject2": "maxime"
+    "ParameterObject1": "culpa",
+    "ParameterObject2": "impedit"
   },
-  "LastStarted": "2013-11-09T03:24:47.2520803+01:00",
-  "Created": "2005-03-17T03:24:47.2520803+01:00",
-  "StartCount": 511,
-  "DatabaseSerialNumber": "781942",
-  "Context": "sint",
-  "Result": "magni",
+  "LastStarted": "2015-04-25T11:06:33.7816525+02:00",
+  "Created": "2015-08-19T11:06:33.7816525+02:00",
+  "StartCount": 801,
+  "DatabaseSerialNumber": "1621596",
+  "Context": "est",
+  "Result": "velit",
   "State": "All",
-  "Description": "Organized bi-directional artificial intelligence",
-  "Response": "fugit",
-  "Request": "qui",
-  "ProgressDescription": "Streamlined grid-enabled methodology",
-  "ProgressPercent": 565,
-  "FileName": "Hilpert-Spencer",
+  "Description": "Enhanced 4th generation core",
+  "Response": "dolore",
+  "Request": "velit",
+  "ProgressDescription": "Cloned context-sensitive synergy",
+  "ProgressPercent": 974,
+  "FileName": "O'Conner Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldType": "System.String",
+      "FieldLength": 782
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 610,
-  "Name": "Glover, McKenzie and Rowe",
-  "Description": "Total cohesive open architecture",
-  "DefaultHeight": 877,
-  "DefaultWidth": 870,
+  "DashboardTileDefinitionId": 377,
+  "Name": "Jewess-Mosciski",
+  "Description": "Fully-configurable zero tolerance paradigm",
+  "DefaultHeight": 288,
+  "DefaultWidth": 802,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Shanahan-Kuhn",
-  "SelectionId": 948,
+  "EntityName": "Skiles, Ernser and Zboncak",
+  "SelectionId": 178,
   "CurrencyMode": "Base",
-  "CurrencyCode": "porro",
+  "CurrencyCode": "enim",
   "Measure": "Average",
-  "MeasureField": "vel",
-  "SortBy": "earum",
-  "LayoutConfig": "vel",
-  "SecondarySelectionId": 809,
-  "MeasureByField": "sit",
+  "MeasureField": "enim",
+  "SortBy": "consequatur",
+  "LayoutConfig": "quibusdam",
+  "SecondarySelectionId": 202,
+  "MeasureByField": "aliquid",
   "Usage": "Dashboard",
-  "ProviderName": "Muller, Batz and Bernhard",
+  "ProviderName": "Sanford-Willms",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldLength": 694
     }
   }
 }

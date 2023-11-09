@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 533,
-    "Name": "McLaughlin Inc and Sons",
-    "Tooltip": "aut",
+    "Id": 450,
+    "Name": "Olson LLC",
+    "Tooltip": "a",
     "Deleted": false,
-    "UdListDefinitionId": 110,
-    "Rank": 482,
+    "UdListDefinitionId": 893,
+    "Rank": 292,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 604
+        "FieldType": "System.Int32",
+        "FieldLength": 906
       }
     }
   }

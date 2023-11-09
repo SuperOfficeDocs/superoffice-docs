@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": false,
+  "Notify": true,
   "AttachmentIds": [
-    325,
-    209
+    171,
+    666
   ],
   "UpdateRepliedAt": false
 }
@@ -122,78 +122,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 305,
+  "EjMessageId": 383,
   "Ticket": null,
-  "CreatedAt": "2001-07-26T03:24:48.5028909+02:00",
+  "CreatedAt": "2009-12-04T11:06:35.6314993+01:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "alias",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quam",
-  "TimeSpent": 851,
-  "Body": "ut",
-  "HtmlBody": "recusandae",
-  "EmailHeader": "chaim@kovacek.biz",
-  "DebugInfo": "quisquam",
-  "MailSorter": "tempora",
+  "MessageId": "impedit",
+  "TimeSpent": 502,
+  "Body": "reprehenderit",
+  "HtmlBody": "voluptatem",
+  "EmailHeader": "karley@jacobi.name",
+  "DebugInfo": "omnis",
+  "MailSorter": "eveniet",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatum",
+  "SearchTitle": "enim",
   "MessageHeaders": [
     {
-      "Id": 714,
-      "Name": "Franecki-Weissnat",
-      "Value": "ut",
+      "Id": 806,
+      "Name": "Balistreri Inc and Sons",
+      "Value": "culpa",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldType": "System.String",
+          "FieldLength": 53
         }
       }
     }
   ],
   "Important": false,
-  "Language": "velit",
-  "Sentiment": 951,
-  "SentimentConfidence": 445,
+  "Language": "voluptatem",
+  "Sentiment": 157,
+  "SentimentConfidence": 489,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 402,
-      "Name": "Schoen Inc and Sons",
-      "ContentType": "hic",
-      "AttSize": 876,
+      "AttachmentId": 396,
+      "Name": "Paucek Group",
+      "ContentType": "velit",
+      "AttSize": 187,
       "InlineImage": false,
-      "ContentId": "est",
-      "AuthKey": "recusandae",
+      "ContentId": "quisquam",
+      "AuthKey": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 15
+          "FieldType": "System.Int32",
+          "FieldLength": 491
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "animi"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "molestias"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldType": "System.Int32",
+      "FieldLength": 516
     }
   }
 }

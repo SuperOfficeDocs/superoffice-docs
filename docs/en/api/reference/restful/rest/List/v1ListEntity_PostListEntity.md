@@ -94,19 +94,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 227,
-  "Name": "Gleason Group",
-  "Tooltip": "sed",
+  "Id": 791,
+  "Name": "Kling Inc and Sons",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 629,
+  "Rank": 165,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ex",
+  "ListType": "a",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 245,
-  "Name": "Kuhic, Beatty and Fisher",
-  "Tooltip": "possimus",
-  "Deleted": false,
-  "Rank": 892,
-  "IsCustomList": true,
+  "Id": 557,
+  "Name": "Beer Inc and Sons",
+  "Tooltip": "temporibus",
+  "Deleted": true,
+  "Rank": 245,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eaque",
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldType": "System.Int32",
+      "FieldLength": 76
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

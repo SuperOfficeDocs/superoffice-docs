@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 138
+  "PrefDescId": 174
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 839,
-    "PrefDescId": 292,
-    "PrefValue": "dicta",
-    "PrefShowValue": "doloremque",
-    "Description": "Balanced holistic secured line",
+    "PrefDescLineId": 410,
+    "PrefDescId": 945,
+    "PrefValue": "dolores",
+    "PrefShowValue": "veniam",
+    "Description": "Team-oriented holistic flexibility",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 988
+        "FieldLength": 111
       }
     }
   }

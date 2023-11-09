@@ -124,11 +124,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 314
+  "ProjectId": 329
 }
 ```
 
@@ -139,64 +139,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 466,
-  "StartDate": "2016-01-03T03:24:48.0957311+01:00",
-  "EndDate": "2007-01-07T03:24:48.0957311+01:00",
+  "AppointmentId": 953,
+  "StartDate": "2005-12-14T11:06:35.1458211+01:00",
+  "EndDate": "2022-04-06T11:06:35.1458211+02:00",
   "Type": "BookingForChecklist",
-  "Task": "quia",
-  "AssociateFullName": "Mr. Koby Pfeffer",
-  "ContactName": "Strosin-Lindgren",
-  "Description": "Organic regional application",
-  "PersonFullName": "Monserrat Beahan",
-  "PersonId": 436,
-  "ContactId": 101,
-  "ProjectId": 38,
-  "ProjectName": "Nikolaus, Farrell and DuBuque",
+  "Task": "et",
+  "AssociateFullName": "Telly Price V",
+  "ContactName": "Schimmel-Keebler",
+  "Description": "Function-based composite functionalities",
+  "PersonFullName": "Sammy Hegmann",
+  "PersonId": 958,
+  "ContactId": 901,
+  "ProjectId": 657,
+  "ProjectName": "Wolff, Runolfsdottir and Dooley",
   "IsPublished": false,
-  "AssociateId": 304,
-  "ColorIndex": 784,
+  "AssociateId": 859,
+  "ColorIndex": 198,
   "IsFree": false,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 137,
-  "PriorityName": "Padberg Inc and Sons",
+  "PriorityId": 555,
+  "PriorityName": "Schultz Group",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "2023-05-29T03:24:48.0957311+02:00",
+  "IsRecurrence": false,
+  "IsBooking": false,
+  "ActiveDate": "2004-10-16T11:06:35.1458211+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1998-10-16T03:24:48.0957311+02:00",
-  "RecurringEndDate": "2016-09-26T03:24:48.0957311+02:00",
-  "MotherId": 648,
-  "AssignedBy": 478,
-  "AssignedByFullName": "Mr. Turner O'Reilly",
+  "RecurringStartDate": "2019-12-22T11:06:35.1458211+01:00",
+  "RecurringEndDate": "2019-03-22T11:06:35.1458211+01:00",
+  "MotherId": 595,
+  "AssignedBy": 800,
+  "AssignedByFullName": "Jeanne Corwin V",
   "RejectReason": "",
-  "Location": "a",
-  "AlarmLeadTime": "ut",
-  "SaleId": 595,
-  "SaleName": "Welch Group",
-  "AssociateName": "Mann Group",
-  "CreatedDate": "2021-01-07T03:24:48.0957311+01:00",
-  "CreatedBy": "quos",
-  "CreatedByFullName": "Abdullah Miller",
-  "CreatedByAssociateId": 769,
+  "Location": "qui",
+  "AlarmLeadTime": "minus",
+  "SaleId": 691,
+  "SaleName": "Berge, Huel and Ferry",
+  "AssociateName": "Kohler, Carroll and Purdy",
+  "CreatedDate": "2022-10-23T11:06:35.1458211+02:00",
+  "CreatedBy": "enim",
+  "CreatedByFullName": "Clyde Nils Mayer DVM",
+  "CreatedByAssociateId": 804,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "magnam",
-  "Agenda": "porro",
-  "InternalNotes": "enim",
+  "Title": "eveniet",
+  "Agenda": "asperiores",
+  "InternalNotes": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 623
     }
   }
 }

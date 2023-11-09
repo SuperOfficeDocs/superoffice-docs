@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 495,
-  "Select": "dolore"
+  "SelectionId": 165,
+  "Select": "nostrum"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schultz-Will",
-    "PrimaryKey": 224,
+    "EntityName": "VonRueden-Bins",
+    "PrimaryKey": 710,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "aspernatur",
-        "TooltipHint": "quia",
-        "LinkHint": "asperiores"
+        "DisplayValue": "ut",
+        "TooltipHint": "deserunt",
+        "LinkHint": "possimus"
       }
     },
-    "LinkHint": "libero",
-    "StyleHint": "omnis",
+    "LinkHint": "ad",
+    "StyleHint": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 536
+        "FieldType": "System.Int32",
+        "FieldLength": 850
       }
     }
   }

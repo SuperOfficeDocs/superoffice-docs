@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 972,
-  "AppointmentId": 589,
-  "ProjectId": 706,
-  "SaleId": 60,
-  "Archived": false,
-  "ArchivedAt": "2021-10-24T03:24:47.7363985+02:00",
-  "ArchivedBy": 602,
-  "ArchivedDisplayName": "Orn LLC",
+  "DocumentId": 50,
+  "AppointmentId": 469,
+  "ProjectId": 688,
+  "SaleId": 724,
+  "Archived": true,
+  "ArchivedAt": "1997-09-16T11:06:34.505187+02:00",
+  "ArchivedBy": 234,
+  "ArchivedDisplayName": "Block-Torphy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldLength": 828
     }
   }
 }

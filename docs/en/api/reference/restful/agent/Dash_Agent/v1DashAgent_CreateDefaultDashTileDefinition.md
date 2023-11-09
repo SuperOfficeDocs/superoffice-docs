@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 938,
-  "Name": "Sipes, Berge and Wisozk",
-  "Description": "Sharable motivating contingency",
-  "DefaultHeight": 432,
-  "DefaultWidth": 659,
+  "DashboardTileDefinitionId": 211,
+  "Name": "Beahan Group",
+  "Description": "Future-proofed directional local area network",
+  "DefaultHeight": 567,
+  "DefaultWidth": 968,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Reichert-Kilback",
-  "SelectionId": 45,
+  "EntityName": "O'Reilly, Schmidt and Weber",
+  "SelectionId": 538,
   "CurrencyMode": "Base",
-  "CurrencyCode": "temporibus",
+  "CurrencyCode": "culpa",
   "Measure": "Average",
-  "MeasureField": "sapiente",
-  "SortBy": "et",
-  "LayoutConfig": "eos",
-  "SecondarySelectionId": 703,
-  "MeasureByField": "omnis",
+  "MeasureField": "voluptatem",
+  "SortBy": "alias",
+  "LayoutConfig": "quas",
+  "SecondarySelectionId": 664,
+  "MeasureByField": "totam",
   "Usage": "Dashboard",
-  "ProviderName": "Brekke, Rogahn and Brekke",
+  "ProviderName": "Maggio-Marquardt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 582
     }
   }
 }

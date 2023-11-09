@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Schneider, Bauch and McCullough",
-    "ToolTip": "Omnis iste sit possimus deleniti quis.",
-    "Deleted": true,
-    "Rank": 181,
-    "Type": "fugiat",
-    "ColorBlock": 833,
+    "Id": 378,
+    "Name": "Rath-Weissnat",
+    "ToolTip": "Sunt officia optio.",
+    "Deleted": false,
+    "Rank": 102,
+    "Type": "doloremque",
+    "ColorBlock": 275,
     "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2015-02-11T03:24:52.3806958+01:00",
+    "LastChanged": "2019-02-16T11:06:43.0222001+01:00",
     "ChildItems": [
       {
-        "Id": 255,
-        "Name": "Klocko-Bauch",
-        "ToolTip": "Non sapiente aspernatur dolorem iure magnam.",
+        "Id": 991,
+        "Name": "Romaguera Group",
+        "ToolTip": "Beatae voluptatem quo quas et perspiciatis dignissimos dolore.",
         "Deleted": false,
-        "Rank": 508,
-        "Type": "maiores",
-        "ColorBlock": 2,
-        "IconHint": "totam",
-        "Selected": false,
-        "LastChanged": "1998-10-15T03:24:52.3806958+02:00",
+        "Rank": 693,
+        "Type": "voluptas",
+        "ColorBlock": 878,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2001-10-24T11:06:43.0222001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "hic",
-        "Hidden": true,
-        "FullName": "Miss Annabel Daniella Cummings"
+        "ExtraInfo": "incidunt",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Elisa Gulgowski"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "odit",
+    "ExtraInfo": "possimus",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Kacey Hilll"
+    "FullName": "Lorine Kris"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Fritsch LLC",
-    "ToolTip": "Est alias eveniet labore provident quibusdam vitae.",
+    "Id": 347,
+    "Name": "Ullrich Inc and Sons",
+    "ToolTip": "Esse architecto similique aspernatur iure sed aliquam.",
     "Deleted": false,
-    "Rank": 669,
-    "Type": "architecto",
-    "ColorBlock": 742,
-    "IconHint": "a",
-    "Selected": true,
-    "LastChanged": "2005-04-14T03:24:52.3806958+02:00",
+    "Rank": 781,
+    "Type": "rerum",
+    "ColorBlock": 133,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2013-07-06T11:06:43.0222001+02:00",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Wolff, Feeney and Stanton",
-        "ToolTip": "Placeat veritatis maiores quidem.",
+        "Id": 223,
+        "Name": "Williamson Group",
+        "ToolTip": "Vel aut consequatur corporis omnis in molestias.",
         "Deleted": false,
-        "Rank": 110,
-        "Type": "velit",
-        "ColorBlock": 853,
-        "IconHint": "quasi",
+        "Rank": 890,
+        "Type": "corporis",
+        "ColorBlock": 218,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2009-07-26T03:24:52.3806958+02:00",
+        "LastChanged": "2012-04-06T11:06:43.0222001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "est",
+        "StyleHint": "nobis",
         "Hidden": false,
-        "FullName": "Dr. Chaya Loyal Gleichner I",
+        "FullName": "Miss Waylon West DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 775
+            "FieldType": "System.String",
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "vitae",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Lynn Dibbert",
+    "FullName": "Dr. Hazle Della Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 176
+        "FieldType": "System.Int32",
+        "FieldLength": 287
       }
     }
   }

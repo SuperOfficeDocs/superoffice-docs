@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 802,
-    "Name": "Grant-Nikolaus",
-    "Tooltip": "deleniti",
-    "Deleted": true,
-    "Rank": 177,
-    "UdListDefinitionId": 802,
+    "HeadingId": 433,
+    "Name": "Stanton, Welch and Schultz",
+    "Tooltip": "eveniet",
+    "Deleted": false,
+    "Rank": 709,
+    "UdListDefinitionId": 234,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldType": "System.String",
+        "FieldLength": 738
       }
     }
   }

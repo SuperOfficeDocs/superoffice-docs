@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 313,
-  "Rank": 685,
-  "DefaultTask": 516,
-  "DefaultTaskText": "repellat",
+  "OwnerTable": 261,
+  "Rank": 563,
+  "DefaultTask": 550,
+  "DefaultTaskText": "dolores",
   "IsVisual": false,
-  "LastGenerated": "2011-10-16T03:24:48.1738537+02:00",
-  "Description": "Visionary exuding algorithm",
-  "Name": "Jast-Gleichner",
-  "StatusMonitorId": 807,
-  "PictureId": 149,
+  "LastGenerated": "2022-03-13T11:06:35.2708148+01:00",
+  "Description": "Assimilated fresh-thinking encryption",
+  "Name": "Morar Inc and Sons",
+  "StatusMonitorId": 260,
+  "PictureId": 36,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 641,
-  "NumNeedUpdate": 372,
-  "GenerationStart": "2020-10-14T03:24:48.1738537+02:00",
+  "Deleted": true,
+  "NumMatches": 752,
+  "NumNeedUpdate": 399,
+  "GenerationStart": "2020-05-18T11:06:35.2708148+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 838
     }
   }
 }

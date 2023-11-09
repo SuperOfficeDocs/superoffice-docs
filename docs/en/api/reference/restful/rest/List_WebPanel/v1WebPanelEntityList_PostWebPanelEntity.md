@@ -105,30 +105,30 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 777,
-  "Name": "Bode, Macejkovic and Carter",
-  "Tooltip": "perspiciatis",
+  "WebPanelId": 401,
+  "Name": "Mayert Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 647,
+  "Rank": 968,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Langosh-Renner",
+  "WindowName": "Parisian-Stamm",
   "Url": "http://www.example.com/",
-  "ProgId": "sequi",
-  "Icon": 990,
+  "ProgId": "saepe",
+  "Icon": 378,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -140,33 +140,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 182,
-  "Name": "Wiegand Inc and Sons",
+  "WebPanelId": 862,
+  "Name": "Gerlach-Cassin",
   "Tooltip": "et",
   "Deleted": false,
-  "Rank": 802,
+  "Rank": 469,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Veum-Blick",
+  "ShowInStatusBar": true,
+  "WindowName": "Simonis Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "sunt",
-  "Icon": 873,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "et",
+  "Icon": 682,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 835
     }
   }
 }

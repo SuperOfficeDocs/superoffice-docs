@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 996,
-  "Name": "Kuphal-Hartmann",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "UdListDefinitionId": 592,
-  "Rank": 377,
+  "Id": 471,
+  "Name": "Becker, Torphy and Gaylord",
+  "Tooltip": "reiciendis",
+  "Deleted": true,
+  "UdListDefinitionId": 999,
+  "Rank": 1002,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 780
     }
   }
 }

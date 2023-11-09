@@ -81,36 +81,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 436,
+  "HierarchyId": 153,
   "Domain": "Dashboards",
-  "Name": "Sanford, Grady and Dicki",
-  "Fullname": "quae",
-  "ParentId": 401,
+  "Name": "Lehner LLC",
+  "Fullname": "dolorem",
+  "ParentId": 376,
   "Children": [
     {
-      "HierarchyId": 281,
+      "HierarchyId": 448,
       "Domain": "Dashboards",
-      "Name": "Torphy, Gutmann and Greenfelder",
-      "Fullname": "pariatur",
-      "ParentId": 785,
+      "Name": "O'Conner Inc and Sons",
+      "Fullname": "quo",
+      "ParentId": 45,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-02-14T03:24:47.908255+01:00",
-      "RegisteredAssociateId": 795,
-      "Updated": "2003-07-30T03:24:47.908255+02:00",
-      "UpdatedAssociateId": 671
+      "Registered": "2011-01-05T11:06:34.7551834+01:00",
+      "RegisteredAssociateId": 914,
+      "Updated": "2000-03-29T11:06:34.7551834+02:00",
+      "UpdatedAssociateId": 896
     }
   ],
-  "Registered": "2001-05-20T03:24:47.908255+02:00",
-  "RegisteredAssociateId": 50,
-  "Updated": "2020-07-06T03:24:47.908255+02:00",
-  "UpdatedAssociateId": 110
+  "Registered": "2020-04-28T11:06:34.7551834+02:00",
+  "RegisteredAssociateId": 789,
+  "Updated": "2008-04-20T11:06:34.7551834+02:00",
+  "UpdatedAssociateId": 474
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 714,
+  "HierarchyId": 583,
   "Domain": "Dashboards",
-  "Name": "Reynolds-Rolfson",
-  "Fullname": "sit",
-  "ParentId": 556,
+  "Name": "Rempel, Jacobson and Greenholt",
+  "Fullname": "unde",
+  "ParentId": 947,
   "Children": [
     {
-      "HierarchyId": 761,
+      "HierarchyId": 602,
       "Domain": "Dashboards",
-      "Name": "Lynch-Blanda",
-      "Fullname": "aliquam",
-      "ParentId": 590,
+      "Name": "Wolf, Little and Kuhic",
+      "Fullname": "non",
+      "ParentId": 819,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-05-25T03:24:47.908255+02:00",
-      "RegisteredAssociateId": 931,
-      "Updated": "2021-11-23T03:24:47.908255+01:00",
-      "UpdatedAssociateId": 362,
+      "Registered": "2004-06-08T11:06:34.7551834+02:00",
+      "RegisteredAssociateId": 31,
+      "Updated": "1998-07-12T11:06:34.7551834+02:00",
+      "UpdatedAssociateId": 37,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 476
         }
       }
     }
   ],
-  "Registered": "2002-05-23T03:24:47.908255+02:00",
-  "RegisteredAssociateId": 626,
-  "Updated": "2012-06-15T03:24:47.908255+02:00",
-  "UpdatedAssociateId": 205,
+  "Registered": "2017-09-22T11:06:34.7551834+02:00",
+  "RegisteredAssociateId": 735,
+  "Updated": "2001-10-13T11:06:34.7551834+02:00",
+  "UpdatedAssociateId": 45,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldLength": 328
     }
   }
 }

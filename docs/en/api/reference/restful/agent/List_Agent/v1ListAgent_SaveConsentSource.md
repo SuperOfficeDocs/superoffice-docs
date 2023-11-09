@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 167,
-  "Name": "Rowe-Hane",
-  "Tooltip": "cupiditate",
-  "Rank": 672,
-  "Key": "qui",
-  "MailTemplateId": 704,
+  "ConsentSourceId": 4,
+  "Name": "Prosacco-Carter",
+  "Tooltip": "doloremque",
+  "Rank": 698,
+  "Key": "quis",
+  "MailTemplateId": 925,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

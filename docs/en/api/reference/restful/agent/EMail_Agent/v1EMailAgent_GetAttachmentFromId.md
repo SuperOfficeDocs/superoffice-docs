@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 6,
-  "AttachmentId": "ratione"
+  "MailItemId": 912,
+  "AttachmentId": "aut"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized dynamic moratorium",
-  "Filename": "placeat",
-  "Size": 665,
-  "Type": "et",
-  "Encoding": "eius",
-  "Id": "laudantium",
-  "Disposition": "aliquid",
-  "IsSafeFileExtension": false,
+  "Description": "Enhanced transitional time-frame",
+  "Filename": "esse",
+  "Size": 364,
+  "Type": "fugit",
+  "Encoding": "doloribus",
+  "Id": "nobis",
+  "Disposition": "voluptatem",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 330
     }
   }
 }

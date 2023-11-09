@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "beatae",
+    "path": "animi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "beatae",
+    "path": "animi",
     "value": {}
   }
 ]
@@ -146,29 +146,29 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 295,
-  "Name": "Jacobson-West",
-  "Tooltip": "enim",
+  "RoleId": 515,
+  "Name": "Kemmer-Lowe",
+  "Tooltip": "nostrum",
   "RoleType": "Anonymous",
-  "Deleted": 852,
-  "Rank": 841,
-  "Created": "2003-05-17T03:24:51.7557701+02:00",
-  "UseCategories": 72,
+  "Deleted": 348,
+  "Rank": 981,
+  "Created": "2017-07-23T11:06:42.0822263+02:00",
+  "UseCategories": 720,
   "CreatedBy": null,
-  "Updated": "2020-07-29T03:24:51.7557701+02:00",
+  "Updated": "1999-10-21T11:06:42.0822263+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldType": "System.String",
+      "FieldLength": 383
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

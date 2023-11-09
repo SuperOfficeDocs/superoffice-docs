@@ -980,7 +980,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimplePerson?$select=personNumber,personSource,personTargetRelation/hasCompany,personContact/contactSupportAssociate/contactFullName,personContact/contactSupportPerson/personInfo/infoText
+GET /api/v1/archive/SimplePerson?$select=personRegisteredBy,personTargetRelation/personNumber,correspondingAssociate/mrMrs,personContact/department,personContact/contactAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

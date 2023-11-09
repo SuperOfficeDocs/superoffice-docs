@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 347,
-  "CountryId": 590
+  "ContactId": 942,
+  "CountryId": 829
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 12786.72,
-  "Wgs84Longitude": 12244.538,
+  "Wgs84Latitude": 962.13799999999992,
+  "Wgs84Longitude": 15469.423999999999,
   "LocalizedAddress": [
     [
       {
-        "Name": "Weissnat-Stamm",
-        "Value": "ullam",
-        "Tooltip": "officiis",
-        "Label": "voluptatibus",
-        "ValueLength": 588,
-        "AddressType": "ipsum",
+        "Name": "Stanton-Mohr",
+        "Value": "non",
+        "Tooltip": "molestias",
+        "Label": "autem",
+        "ValueLength": 595,
+        "AddressType": "unde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 877
+            "FieldType": "System.Int32",
+            "FieldLength": 692
           }
         }
       }
     ],
     [
       {
-        "Name": "Keeling-Prosacco",
-        "Value": "vel",
-        "Tooltip": "beatae",
-        "Label": "voluptatem",
-        "ValueLength": 182,
-        "AddressType": "vitae",
+        "Name": "Crooks, Cronin and Hoeger",
+        "Value": "rerum",
+        "Tooltip": "animi",
+        "Label": "enim",
+        "ValueLength": 883,
+        "AddressType": "explicabo",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 424
+            "FieldType": "System.Int32",
+            "FieldLength": 255
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "dolor",
+  "Formatted": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldType": "System.Int32",
+      "FieldLength": 745
     }
   }
 }

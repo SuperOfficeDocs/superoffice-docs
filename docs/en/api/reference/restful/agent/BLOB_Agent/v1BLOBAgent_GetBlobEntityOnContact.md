@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 14
+  "ContactId": 600
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 454,
-  "BlobSize": 938,
-  "Description": "Enterprise-wide demand-driven algorithm",
-  "ExtraInfo": "eum",
+  "BlobId": 105,
+  "BlobSize": 603,
+  "Description": "Compatible system-worthy contingency",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "occaecati",
-  "OriginalSize": 49,
-  "CreatedDate": "2015-11-27T03:24:47.2677007+01:00",
-  "UpdatedDate": "2018-02-03T03:24:47.2677007+01:00",
+  "IsZipped": true,
+  "MimeType": "eligendi",
+  "OriginalSize": 778,
+  "CreatedDate": "2007-02-21T11:06:33.812894+01:00",
+  "UpdatedDate": "2017-11-17T11:06:33.812894+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "mollitia",
+  "ConceptualType": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

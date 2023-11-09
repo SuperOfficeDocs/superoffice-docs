@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Conroy-Runte",
-    "ToolTip": "Molestiae adipisci eveniet repudiandae pariatur.",
+    "Id": 120,
+    "Name": "Abernathy-Schaden",
+    "ToolTip": "Libero ipsam quidem distinctio.",
     "Deleted": false,
-    "Rank": 159,
-    "Type": "quod",
-    "ColorBlock": 196,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2020-08-22T03:24:52.3650758+02:00",
+    "Rank": 940,
+    "Type": "ipsa",
+    "ColorBlock": 105,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "2007-10-31T11:06:42.9753225+01:00",
     "ChildItems": [
       {
-        "Id": 193,
-        "Name": "Dietrich Inc and Sons",
-        "ToolTip": "Doloribus accusantium id veniam quam consectetur.",
-        "Deleted": false,
-        "Rank": 941,
-        "Type": "est",
-        "ColorBlock": 305,
-        "IconHint": "voluptatum",
+        "Id": 122,
+        "Name": "Schneider, Kulas and Schroeder",
+        "ToolTip": "Sit ut et consequatur cum asperiores eaque.",
+        "Deleted": true,
+        "Rank": 925,
+        "Type": "deserunt",
+        "ColorBlock": 505,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "2021-08-01T03:24:52.3650758+02:00",
+        "LastChanged": "2006-08-25T11:06:42.9753225+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Deshawn Runte",
+        "ExtraInfo": "ut",
+        "StyleHint": "natus",
+        "Hidden": false,
+        "FullName": "Miss Issac Beer Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 163
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "et",
+    "StyleHint": "esse",
     "Hidden": false,
-    "FullName": "Dannie Tromp",
+    "FullName": "Khalil Adrain Mitchell DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 585
       }
     }
   }

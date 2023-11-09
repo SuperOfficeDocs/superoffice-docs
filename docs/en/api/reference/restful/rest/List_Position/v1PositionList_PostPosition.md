@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 72,
-  "Name": "Huel-Williamson",
-  "Tooltip": "enim",
+  "Id": 942,
+  "Name": "Hoppe LLC",
+  "Tooltip": "provident",
   "Deleted": false,
-  "UdListDefinitionId": 86,
-  "Rank": 117
+  "UdListDefinitionId": 921,
+  "Rank": 586
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 852,
-  "Name": "Olson, Hammes and Kulas",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "UdListDefinitionId": 801,
-  "Rank": 499,
+  "Id": 627,
+  "Name": "Raynor-Weimann",
+  "Tooltip": "ipsam",
+  "Deleted": false,
+  "UdListDefinitionId": 317,
+  "Rank": 142,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 147
     }
   }
 }

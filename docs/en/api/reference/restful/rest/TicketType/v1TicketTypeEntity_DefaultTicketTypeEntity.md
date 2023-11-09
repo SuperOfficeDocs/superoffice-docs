@@ -78,30 +78,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 530,
-  "Name": "Strosin, Lakin and Kihn",
-  "Rank": 485,
-  "Tooltip": "quaerat",
-  "Icon": "dolores",
-  "DefaultTicketStatus": 915,
+  "TicketTypeId": 906,
+  "Name": "Beer-Kohler",
+  "Rank": 682,
+  "Tooltip": "exercitationem",
+  "Icon": "debitis",
+  "DefaultTicketStatus": 423,
   "TicketStatuses": [
-    154,
-    890
+    936,
+    37
   ],
-  "DefaultTicketPriority": 705,
+  "DefaultTicketPriority": 606,
   "TicketPriorities": [
-    213,
-    347
+    726,
+    870
   ],
-  "ReplyTemplate": 451,
+  "ReplyTemplate": 528,
   "IsExternalVisible": true,
-  "IsDefault": true,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 799
+      "FieldType": "System.Int32",
+      "FieldLength": 361
     }
   }
 }

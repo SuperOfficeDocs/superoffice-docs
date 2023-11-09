@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 180,
-  "Name": "Gerhold-Nitzsche",
-  "Tooltip": "laudantium",
+  "Id": 904,
+  "Name": "Leannon Group",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "Rank": 195,
+  "Rank": 493,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quaerat",
+  "ListType": "accusantium",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 668
     }
   },
   "_Links": {

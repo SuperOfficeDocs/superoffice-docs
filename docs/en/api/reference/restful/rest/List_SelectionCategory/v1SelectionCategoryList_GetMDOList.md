@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=sint
+GET /api/v1/List/SelectionCategory/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Marks Inc and Sons",
-    "ToolTip": "Assumenda architecto doloremque.",
+    "Id": 751,
+    "Name": "Corwin Group",
+    "ToolTip": "Dolore eius nobis culpa non aperiam.",
     "Deleted": false,
-    "Rank": 578,
-    "Type": "quia",
+    "Rank": 534,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 113,
-        "Name": "Anderson-Durgan",
-        "ToolTip": "Eos impedit occaecati autem.",
-        "Deleted": false,
-        "Rank": 472,
-        "Type": "rerum",
+        "Id": 234,
+        "Name": "Huel-Beier",
+        "ToolTip": "Omnis quod quas et ipsa assumenda atque.",
+        "Deleted": true,
+        "Rank": 212,
+        "Type": "rem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 35,
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "molestiae",
-        "FullName": "Mr. Chester Sonny Lebsack I",
+        "IconHint": "qui",
+        "ColorBlock": 12,
+        "ExtraInfo": "a",
+        "StyleHint": "repellendus",
+        "FullName": "Mrs. Alison Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 75
+            "FieldLength": 589
           }
         }
       }
     ],
-    "IconHint": "repellendus",
-    "ColorBlock": 620,
-    "ExtraInfo": "et",
-    "StyleHint": "voluptates",
-    "FullName": "Mrs. Benjamin Missouri Smitham V",
+    "IconHint": "explicabo",
+    "ColorBlock": 886,
+    "ExtraInfo": "quo",
+    "StyleHint": "eligendi",
+    "FullName": "Darby Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldLength": 243
       }
     }
   }

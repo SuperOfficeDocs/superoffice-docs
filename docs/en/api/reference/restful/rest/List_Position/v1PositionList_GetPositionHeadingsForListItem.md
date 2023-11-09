@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Mosciski, Stehr and Funk",
-    "ToolTip": "Sit eos.",
-    "Deleted": false,
-    "Rank": 153,
-    "Type": "voluptates",
-    "ColorBlock": 608,
-    "IconHint": "consectetur",
+    "Id": 472,
+    "Name": "Lehner-Gutkowski",
+    "ToolTip": "Animi dolorem corrupti et voluptatem dolorem necessitatibus voluptas.",
+    "Deleted": true,
+    "Rank": 839,
+    "Type": "unde",
+    "ColorBlock": 945,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2005-09-10T03:24:52.3025813+02:00",
+    "LastChanged": "2009-01-02T11:06:42.8815714+01:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Hermiston, Hoppe and Ritchie",
-        "ToolTip": "Doloremque omnis eveniet occaecati sit occaecati.",
-        "Deleted": true,
-        "Rank": 768,
-        "Type": "ut",
-        "ColorBlock": 547,
-        "IconHint": "fugiat",
+        "Id": 810,
+        "Name": "Hamill, Schroeder and Parker",
+        "ToolTip": "Sapiente voluptate eius voluptatem sunt dolores deserunt rem.",
+        "Deleted": false,
+        "Rank": 105,
+        "Type": "eligendi",
+        "ColorBlock": 664,
+        "IconHint": "iste",
         "Selected": false,
-        "LastChanged": "2000-09-17T03:24:52.3025813+02:00",
+        "LastChanged": "2005-11-13T11:06:42.8815714+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Isabella Gibson",
+        "ExtraInfo": "hic",
+        "StyleHint": "commodi",
+        "Hidden": true,
+        "FullName": "Miss Isabelle Ophelia West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 584
+            "FieldType": "System.Int32",
+            "FieldLength": 31
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "et",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "id",
     "Hidden": true,
-    "FullName": "Helena Muller PhD",
+    "FullName": "Dillan Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 237
+        "FieldLength": 898
       }
     }
   }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 694,
-    "Name": "Bailey-Mertz",
+    "TicketStatusId": 979,
+    "Name": "McLaughlin-O'Connell",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": true,
+    "IsDefault": true,
+    "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 607
+        "FieldLength": 399
       }
     }
   }

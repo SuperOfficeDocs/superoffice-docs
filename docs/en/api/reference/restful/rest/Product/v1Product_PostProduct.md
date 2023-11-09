@@ -145,51 +145,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 396,
-  "ERPProductKey": "praesentium",
-  "ERPPriceListKey": "quae",
-  "Name": "Miller, Conroy and Torp",
-  "Description": "Mandatory modular time-frame",
-  "Code": "excepturi",
-  "PriceUnit": "dolor",
-  "QuantityUnit": "laboriosam",
-  "IsSubscription": true,
-  "SubscriptionUnit": "voluptates",
-  "DefaultSubscriptionQuantity": 26031.004,
-  "ItemNumber": "580693",
+  "ProductId": 810,
+  "ERPProductKey": "error",
+  "ERPPriceListKey": "earum",
+  "Name": "Upton-Jenkins",
+  "Description": "Innovative coherent budgetary management",
+  "Code": "et",
+  "PriceUnit": "incidunt",
+  "QuantityUnit": "ut",
+  "IsSubscription": false,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 4992.4619999999995,
+  "ItemNumber": "1420402",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "maxime",
-  "ProductTypeKey": "voluptatem",
-  "VAT": 19330.512,
-  "VATInfo": "suscipit",
-  "UnitCost": 12043.962,
-  "UnitMinimumPrice": 29161.87,
-  "UnitListPrice": 2751.652,
-  "InAssortment": false,
-  "Supplier": "omnis",
-  "SupplierCode": "nulla",
-  "Rights": "ut",
-  "Rule": "corrupti",
+  "ProductFamilyKey": "quo",
+  "ProductTypeKey": "vero",
+  "VAT": 9054.126,
+  "VATInfo": "saepe",
+  "UnitCost": 2817.466,
+  "UnitMinimumPrice": 15594.784,
+  "UnitListPrice": 7274.014,
+  "InAssortment": true,
+  "Supplier": "aut",
+  "SupplierCode": "temporibus",
+  "Rights": "labore",
+  "Rule": "eos",
   "ExtraInfo": [
     {
-      "Name": "Gutkowski-Cole",
-      "Value": "qui",
+      "Name": "Schmitt-Shanahan",
+      "Value": "voluptatum",
       "Type": "Image"
     },
     {
-      "Name": "Gutkowski-Cole",
-      "Value": "qui",
+      "Name": "Schmitt-Shanahan",
+      "Value": "voluptatum",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "quis",
-  "ExtraField2": "et",
-  "ExtraField3": "tempora",
-  "ExtraField4": "et",
-  "ExtraField5": "ut",
-  "InStock": 19336.78
+  "RawExtraInfo": "neque",
+  "ExtraField1": "deserunt",
+  "ExtraField2": "distinctio",
+  "ExtraField3": "recusandae",
+  "ExtraField4": "voluptatibus",
+  "ExtraField5": "consequatur",
+  "InStock": 2012.028
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 811,
-  "ERPProductKey": "fuga",
-  "ERPPriceListKey": "magnam",
-  "Name": "Lehner Inc and Sons",
-  "Description": "Visionary hybrid knowledge user",
-  "Code": "delectus",
-  "PriceUnit": "nulla",
-  "QuantityUnit": "rerum",
-  "IsSubscription": true,
-  "SubscriptionUnit": "error",
-  "DefaultSubscriptionQuantity": 896.324,
-  "ItemNumber": "919968",
+  "ProductId": 329,
+  "ERPProductKey": "necessitatibus",
+  "ERPPriceListKey": "nostrum",
+  "Name": "Ullrich, Wintheiser and Nikolaus",
+  "Description": "Inverse assymetric encryption",
+  "Code": "magnam",
+  "PriceUnit": "fugit",
+  "QuantityUnit": "autem",
+  "IsSubscription": false,
+  "SubscriptionUnit": "neque",
+  "DefaultSubscriptionQuantity": 150.432,
+  "ItemNumber": "1011965",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolores",
-  "ProductTypeKey": "quae",
-  "VAT": 22182.451999999997,
-  "VATInfo": "quaerat",
-  "UnitCost": 6487.38,
-  "UnitMinimumPrice": 29954.771999999997,
-  "UnitListPrice": 2168.728,
-  "InAssortment": false,
-  "Supplier": "sapiente",
-  "SupplierCode": "et",
-  "Rights": "ducimus",
-  "Rule": "quia",
+  "ProductFamilyKey": "quo",
+  "ProductTypeKey": "et",
+  "VAT": 5663.138,
+  "VATInfo": "id",
+  "UnitCost": 26049.808,
+  "UnitMinimumPrice": 21530.579999999998,
+  "UnitListPrice": 1717.432,
+  "InAssortment": true,
+  "Supplier": "voluptatem",
+  "SupplierCode": "sed",
+  "Rights": "et",
+  "Rule": "molestiae",
   "ExtraInfo": [
     {
-      "Name": "Medhurst LLC",
-      "Value": "consequuntur",
+      "Name": "Daniel-Bashirian",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 646
         }
       }
     },
     {
-      "Name": "Medhurst LLC",
-      "Value": "consequuntur",
+      "Name": "Daniel-Bashirian",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 646
         }
       }
     }
   ],
-  "RawExtraInfo": "sint",
-  "ExtraField1": "distinctio",
-  "ExtraField2": "sint",
-  "ExtraField3": "ut",
-  "ExtraField4": "quis",
-  "ExtraField5": "rerum",
-  "InStock": 5064.544,
+  "RawExtraInfo": "repellat",
+  "ExtraField1": "laborum",
+  "ExtraField2": "error",
+  "ExtraField3": "officiis",
+  "ExtraField4": "autem",
+  "ExtraField5": "voluptatem",
+  "InStock": 22182.451999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldType": "System.String",
+      "FieldLength": 95
     }
   }
 }

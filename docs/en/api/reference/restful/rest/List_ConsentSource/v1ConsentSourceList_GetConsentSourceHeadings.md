@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 398,
-    "Name": "Lubowitz-Carter",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "Rank": 194,
-    "UdListDefinitionId": 293,
+    "HeadingId": 8,
+    "Name": "Hodkiewicz-Keebler",
+    "Tooltip": "eaque",
+    "Deleted": true,
+    "Rank": 930,
+    "UdListDefinitionId": 978,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 229
       }
     }
   }

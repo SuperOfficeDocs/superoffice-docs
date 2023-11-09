@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 798,
+  "UdListDefinitionId": 611,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 927,
-  "Name": "Ryan Inc and Sons",
-  "Tooltip": "blanditiis",
-  "Deleted": true,
-  "UdListDefinitionId": 205,
-  "Rank": 82,
+  "Id": 263,
+  "Name": "Dare, Hagenes and Reinger",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "UdListDefinitionId": 743,
+  "Rank": 503,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldType": "System.String",
+      "FieldLength": 246
     }
   }
 }

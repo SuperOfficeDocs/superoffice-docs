@@ -110,30 +110,30 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 590,
-  "Name": "D'Amore, Rowe and Funk",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "Rank": 436,
+  "WebPanelId": 41,
+  "Name": "Mraz-Hagenes",
+  "Tooltip": "vero",
+  "Deleted": true,
+  "Rank": 387,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Turner, Lueilwitz and Gerhold",
+  "ShowInStatusBar": true,
+  "WindowName": "Thiel, Klein and Schaefer",
   "Url": "http://www.example.com/",
-  "ProgId": "explicabo",
-  "Icon": 667,
+  "ProgId": "odit",
+  "Icon": 868,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -145,33 +145,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 652,
-  "Name": "Mraz Group",
-  "Tooltip": "sit",
+  "WebPanelId": 889,
+  "Name": "Borer LLC",
+  "Tooltip": "facilis",
   "Deleted": false,
-  "Rank": 369,
+  "Rank": 378,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Towne-Zulauf",
+  "WindowName": "McDermott LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "nihil",
-  "Icon": 24,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "occaecati",
+  "Icon": 797,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 851
     }
   }
 }

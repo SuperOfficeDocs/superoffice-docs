@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Donnelly-Turner",
-  "Tooltip": "ea",
+  "Id": 252,
+  "Name": "Ernser, Walter and Quigley",
+  "Tooltip": "a",
   "Deleted": false,
-  "UdListDefinitionId": 371,
-  "Rank": 106,
+  "UdListDefinitionId": 326,
+  "Rank": 16,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldType": "System.Int32",
+      "FieldLength": 72
     }
   }
 }

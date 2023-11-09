@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 665,
-  "Name": "Johnson Inc and Sons",
-  "Tooltip": "sapiente",
-  "Deleted": false,
-  "Rank": 384,
+  "Id": 178,
+  "Name": "Hirthe, Bernier and Harris",
+  "Tooltip": "tempora",
+  "Deleted": true,
+  "Rank": 599,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "UseGroupsAndHeadings": false,
+  "ListType": "unde",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   },
   "_Links": {

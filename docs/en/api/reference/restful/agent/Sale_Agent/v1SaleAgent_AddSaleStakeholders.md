@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 388,
+  "SaleId": 291,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Keebler LLC",
-      "Comment": "ratione",
-      "StakeholderRoleId": 40,
-      "CountryId": 567,
-      "PersonId": 306,
-      "EmailDescription": "william@prohaska.info",
-      "EmailId": 264,
-      "EmailAddress": "junior@runolfssonlowe.uk",
-      "PhoneId": 179,
-      "ContactName": "Grimes-Ziemann",
-      "ContactId": 678,
-      "SaleId": 473,
-      "Mrmrs": "pariatur",
-      "Firstname": "Janis",
-      "MiddleName": "Wyman Group",
-      "Lastname": "Ankunding",
-      "SaleStakeholderId": 961,
-      "Rank": 797,
-      "Phone": "(550)659-8765"
+      "StakeholderRoleName": "Bogan Inc and Sons",
+      "Comment": "tempore",
+      "StakeholderRoleId": 614,
+      "CountryId": 254,
+      "PersonId": 71,
+      "EmailDescription": "ludwig@douglasbatz.name",
+      "EmailId": 938,
+      "EmailAddress": "jedediah@simonis.com",
+      "PhoneId": 862,
+      "ContactName": "Wuckert-Christiansen",
+      "ContactId": 163,
+      "SaleId": 248,
+      "Mrmrs": "qui",
+      "Firstname": "Urban",
+      "MiddleName": "Bahringer Inc and Sons",
+      "Lastname": "Jast",
+      "SaleStakeholderId": 153,
+      "Rank": 514,
+      "Phone": "392-745-5599 x60780"
     }
   ]
 }

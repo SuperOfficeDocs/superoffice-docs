@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 956,
-  "ConfirmationTemplateId": 32
+  "QuoteVersionId": 151,
+  "ConfirmationTemplateId": 64
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"fugiat"
+"sit"
 ```

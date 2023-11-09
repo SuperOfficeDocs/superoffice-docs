@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 55,
-  "ServerName": "Blanda-O'Reilly",
-  "Protocol": "aperiam",
-  "UserName": "Batz Group",
-  "Password": "libero",
-  "UseSSL": false,
-  "Folder": "aut",
+  "Port": 580,
+  "ServerName": "Marvin-Hilpert",
+  "Protocol": "non",
+  "UserName": "Raynor Inc and Sons",
+  "Password": "et",
+  "UseSSL": true,
+  "Folder": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   }
 }

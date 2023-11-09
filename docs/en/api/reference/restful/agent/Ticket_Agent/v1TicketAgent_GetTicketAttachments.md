@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 52
+  "TicketEntityId": 985
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 519,
-    "Name": "VonRueden-Shanahan",
-    "ContentType": "tempora",
-    "AttSize": 76,
+    "AttachmentId": 461,
+    "Name": "Haag, Deckow and Wilderman",
+    "ContentType": "non",
+    "AttSize": 437,
     "InlineImage": false,
-    "ContentId": "deserunt",
-    "AuthKey": "sit",
+    "ContentId": "aliquid",
+    "AuthKey": "cupiditate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldType": "System.String",
+        "FieldLength": 271
       }
     }
   }

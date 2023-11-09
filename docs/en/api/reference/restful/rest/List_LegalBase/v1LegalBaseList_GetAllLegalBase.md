@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 270,
-    "Name": "Hermann-Walker",
-    "Tooltip": "quia",
-    "Rank": 47,
-    "Key": "omnis",
-    "Deleted": true,
+    "LegalBaseId": 212,
+    "Name": "Stokes-Hahn",
+    "Tooltip": "et",
+    "Rank": 877,
+    "Key": "est",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 542
       }
     }
   }

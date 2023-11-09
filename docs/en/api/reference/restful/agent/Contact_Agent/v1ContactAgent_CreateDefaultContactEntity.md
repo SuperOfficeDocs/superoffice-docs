@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,157 +110,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 76,
-  "Name": "Lind Group",
-  "Department": "",
-  "OrgNr": "1094778",
-  "Number1": "1017526",
-  "Number2": "837083",
-  "UpdatedDate": "2009-05-05T03:24:47.3770673+02:00",
-  "CreatedDate": "2003-08-29T03:24:47.3770673+02:00",
+  "ContactId": 182,
+  "Name": "Legros LLC",
+  "Department": "disintermediate sticky users",
+  "OrgNr": "757008",
+  "Number1": "1202267",
+  "Number2": "1564288",
+  "UpdatedDate": "1998-11-13T11:06:34.0964784+01:00",
+  "CreatedDate": "2008-12-19T11:06:34.0964784+01:00",
   "Emails": [
     {
-      "Value": "officia",
-      "StrippedValue": "a",
-      "Description": "Devolved tangible benchmark",
+      "Value": "nisi",
+      "StrippedValue": "enim",
+      "Description": "Robust national focus group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldType": "System.String",
+          "FieldLength": 317
         }
       }
     },
     {
-      "Value": "officia",
-      "StrippedValue": "a",
-      "Description": "Devolved tangible benchmark",
+      "Value": "nisi",
+      "StrippedValue": "enim",
+      "Description": "Robust national focus group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldType": "System.String",
+          "FieldLength": 317
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 726,
-      "Name": "Beier-Ratke",
-      "ToolTip": "Omnis sed.",
-      "Deleted": false,
-      "Rank": 829,
-      "Type": "in",
-      "ColorBlock": 502,
-      "IconHint": "consequatur",
+      "Id": 339,
+      "Name": "Von Group",
+      "ToolTip": "Quos quaerat sint voluptatem et neque occaecati qui.",
+      "Deleted": true,
+      "Rank": 197,
+      "Type": "consectetur",
+      "ColorBlock": 188,
+      "IconHint": "in",
       "Selected": true,
-      "LastChanged": "1999-01-20T03:24:47.3770673+01:00",
+      "LastChanged": "2007-11-23T11:06:34.0964784+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "in",
-      "Hidden": true,
-      "FullName": "Esmeralda Gislason",
+      "ExtraInfo": "ab",
+      "StyleHint": "molestiae",
+      "Hidden": false,
+      "FullName": "Adam Langworth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldType": "System.String",
+          "FieldLength": 119
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "omnis",
-      "StrippedValue": "sed",
-      "Description": "Switchable neutral pricing structure",
+      "Value": "ratione",
+      "StrippedValue": "blanditiis",
+      "Description": "Balanced transitional website",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldLength": 895
         }
       }
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "sed",
-      "Description": "Switchable neutral pricing structure",
+      "Value": "ratione",
+      "StrippedValue": "blanditiis",
+      "Description": "Balanced transitional website",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldLength": 895
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "iste",
-      "StrippedValue": "voluptatem",
-      "Description": "Operative client-driven internet solution",
+      "Value": "omnis",
+      "StrippedValue": "ad",
+      "Description": "Diverse actuating alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 111
+          "FieldType": "System.Int32",
+          "FieldLength": 29
         }
       }
     },
     {
-      "Value": "iste",
-      "StrippedValue": "voluptatem",
-      "Description": "Operative client-driven internet solution",
+      "Value": "omnis",
+      "StrippedValue": "ad",
+      "Description": "Diverse actuating alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 111
+          "FieldType": "System.Int32",
+          "FieldLength": 29
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "doloribus",
-      "StrippedValue": "repellat",
-      "Description": "Compatible methodical instruction set",
+      "Value": "enim",
+      "StrippedValue": "excepturi",
+      "Description": "Persevering heuristic database",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 372
+          "FieldType": "System.Int32",
+          "FieldLength": 112
         }
       }
     },
     {
-      "Value": "doloribus",
-      "StrippedValue": "repellat",
-      "Description": "Compatible methodical instruction set",
+      "Value": "enim",
+      "StrippedValue": "excepturi",
+      "Description": "Persevering heuristic database",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 372
+          "FieldType": "System.Int32",
+          "FieldLength": 112
         }
       }
     }
   ],
-  "Description": "Expanded multimedia synergy",
+  "Description": "Open-architected multi-state groupware",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -269,100 +269,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "laudantium",
-      "PersonId": 812,
-      "Mrmrs": "beatae",
-      "Firstname": "Billy",
-      "Lastname": "Gerhold",
-      "MiddleName": "Homenick, O'Hara and Hansen",
-      "Title": "iste",
-      "Description": "Self-enabling empowering capability",
-      "Email": "marlee@rau.co.uk",
-      "FullName": "Zachery Purdy",
-      "DirectPhone": "(488)497-5028",
-      "FormalName": "Labadie Group",
-      "CountryId": 573,
-      "ContactId": 812,
-      "ContactName": "Gleason LLC",
-      "Retired": 525,
-      "Rank": 232,
-      "ActiveInterests": 897,
+      "Position": "qui",
+      "PersonId": 938,
+      "Mrmrs": "accusantium",
+      "Firstname": "Lysanne",
+      "Lastname": "O'Reilly",
+      "MiddleName": "Moen-Schulist",
+      "Title": "omnis",
+      "Description": "Diverse tangible secured line",
+      "Email": "faustino@adams.uk",
+      "FullName": "Niko McClure",
+      "DirectPhone": "002-061-6454",
+      "FormalName": "Shanahan-Glover",
+      "CountryId": 385,
+      "ContactId": 796,
+      "ContactName": "Dare, Greenfelder and Harber",
+      "Retired": 554,
+      "Rank": 713,
+      "ActiveInterests": 292,
       "ContactDepartment": "",
-      "ContactCountryId": 793,
-      "ContactOrgNr": "146870",
-      "FaxPhone": "625.954.7793",
-      "MobilePhone": "(969)581-4565 x7364",
-      "ContactPhone": "(832)097-8233",
-      "AssociateName": "Raynor, Blanda and Brown",
-      "AssociateId": 544,
+      "ContactCountryId": 947,
+      "ContactOrgNr": "1402587",
+      "FaxPhone": "571-583-4856 x5828",
+      "MobilePhone": "(156)846-8427",
+      "ContactPhone": "(210)523-4826",
+      "AssociateName": "Johnston Group",
+      "AssociateId": 555,
       "UsePersonAddress": false,
-      "ContactFax": "dolorum",
+      "ContactFax": "itaque",
       "Kanafname": "sed",
-      "Kanalname": "deleniti",
-      "Post1": "facere",
-      "Post2": "esse",
-      "Post3": "dolore",
-      "EmailName": "sherman@abshire.co.uk",
-      "ContactFullName": "Miss Jerel Lori Witting II",
-      "ActiveErpLinks": 958,
-      "TicketPriorityId": 133,
-      "SupportLanguageId": 151,
-      "SupportAssociateId": 55,
+      "Kanalname": "eum",
+      "Post1": "molestiae",
+      "Post2": "incidunt",
+      "Post3": "magnam",
+      "EmailName": "piper_connelly@beahan.name",
+      "ContactFullName": "Shaina Price",
+      "ActiveErpLinks": 993,
+      "TicketPriorityId": 787,
+      "SupportLanguageId": 963,
+      "SupportAssociateId": 555,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldType": "System.String",
+          "FieldLength": 55
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "consequatur",
-  "Xstop": true,
-  "ActiveInterests": 653,
-  "GroupId": 803,
-  "ActiveStatusMonitorId": 188,
+  "NoMailing": false,
+  "Kananame": "sit",
+  "Xstop": false,
+  "ActiveInterests": 247,
+  "GroupId": 290,
+  "ActiveStatusMonitorId": 215,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 193,
-  "DbiAgentId": 232,
-  "DbiLastSyncronized": "2007-10-31T03:24:47.3770673+01:00",
-  "DbiKey": "ut",
-  "DbiLastModified": "2019-02-12T03:24:47.3770673+01:00",
+  "Deleted": 15,
+  "DbiAgentId": 278,
+  "DbiLastSyncronized": "2003-10-29T11:06:34.0964784+01:00",
+  "DbiKey": "vel",
+  "DbiLastModified": "2006-12-13T11:06:34.0964784+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 49,
-  "ActiveErpLinks": 474,
+  "Source": 510,
+  "ActiveErpLinks": 830,
   "BounceEmails": [
-    "willa_koepp@johnston.name",
-    "iliana.price@mann.com"
+    "noelia@purdy.name",
+    "cydney@jacobi.ca"
   ],
   "Domains": [
-    "dolorem",
-    "facilis"
+    "velit",
+    "officia"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Aniyah Monahan"
+    "SuperOffice:1": "Wyman Gleichner",
+    "SuperOffice:2": "Elvie Auer"
   },
   "ExtraFields": {
-    "ExtraFields1": "harum",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "minima",
+    "ExtraFields2": "nostrum"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "aut"
+    "CustomFields1": "et",
+    "CustomFields2": "pariatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldType": "System.String",
+      "FieldLength": 664
     }
   }
 }

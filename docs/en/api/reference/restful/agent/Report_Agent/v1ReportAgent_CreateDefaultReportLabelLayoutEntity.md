@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 377,
-  "Name": "Runte-Toy",
-  "Description": "Profit-focused composite adapter",
+  "ReportLabelLayoutId": 366,
+  "Name": "Powlowski-Pacocha",
+  "Description": "User-centric hybrid project",
   "Orientation": "Landscape",
-  "PaperWidth": 473,
-  "PaperHeight": 31,
-  "LeftMargin": 450,
-  "RightMargin": 455,
-  "TopMargin": 722,
-  "BottomMargin": 969,
-  "CountColumns": 665,
-  "CountRows": 299,
+  "PaperWidth": 510,
+  "PaperHeight": 539,
+  "LeftMargin": 141,
+  "RightMargin": 581,
+  "TopMargin": 586,
+  "BottomMargin": 582,
+  "CountColumns": 821,
+  "CountRows": 118,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 109
     }
   }
 }

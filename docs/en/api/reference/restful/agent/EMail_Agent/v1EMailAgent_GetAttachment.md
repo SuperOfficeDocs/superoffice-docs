@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 78,
-  "AttachmentId": "voluptatibus"
+  "MessageServerId": 950,
+  "AttachmentId": "dolore"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reactive non-volatile toolset",
-  "Filename": "qui",
-  "Size": 679,
-  "Type": "et",
-  "Encoding": "itaque",
-  "Id": "eos",
-  "Disposition": "sit",
-  "IsSafeFileExtension": true,
+  "Description": "Enhanced 5th generation local area network",
+  "Filename": "culpa",
+  "Size": 719,
+  "Type": "veniam",
+  "Encoding": "est",
+  "Id": "eum",
+  "Disposition": "laborum",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 174
     }
   }
 }

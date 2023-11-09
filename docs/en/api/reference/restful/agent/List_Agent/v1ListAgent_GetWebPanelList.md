@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,11 +96,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 54,
-    "Name": "Nolan Inc and Sons",
-    "Tooltip": "ullam",
+    "WebPanelId": 298,
+    "Name": "Hagenes-Hahn",
+    "Tooltip": "blanditiis",
     "Deleted": true,
-    "Rank": 465,
+    "Rank": 762,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
@@ -110,19 +110,19 @@ Content-Type: application/json; charset=utf-8
     "OnSalesMarketingPocket": true,
     "ShowInMenuBar": true,
     "ShowInToolBar": true,
-    "ShowInAddressBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "King Inc and Sons",
+    "WindowName": "Wehner Group",
     "Url": "http://www.example.com/",
-    "ProgId": "ullam",
-    "Icon": 970,
+    "ProgId": "maxime",
+    "Icon": 670,
     "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldLength": 410
       }
     }
   }

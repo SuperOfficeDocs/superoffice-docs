@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 367,
+  "Id": 700,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 744,
-  "Name": "Effertz-Wilkinson",
-  "Tooltip": "veritatis",
+  "HeadingId": 598,
+  "Name": "Lebsack Group",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 56,
-  "UdListDefinitionId": 128,
+  "Rank": 981,
+  "UdListDefinitionId": 380,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 806
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

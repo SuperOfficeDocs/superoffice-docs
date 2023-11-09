@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Ticket/GetPreviewAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 259
+  "AttachmentId": 908
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Koch, Wehner and Bogisich",
-  "Type": "consequatur",
-  "Size": 341,
+  "Name": "Senger LLC",
+  "Type": "architecto",
+  "Size": 782,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldLength": 413
     }
   }
 }

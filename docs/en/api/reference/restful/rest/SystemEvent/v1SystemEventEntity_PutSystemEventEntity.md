@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 331,
+  "SystemEventId": 811,
   "Scope": "Database",
-  "Eta": "2005-05-13T03:24:51.927622+02:00",
-  "Eventkey": "aliquam",
-  "Eventmess": "vel",
-  "ExtraInfo": 669,
-  "Owner": 510,
-  "UpdatedCount": 559,
-  "Registered": "2020-01-27T03:24:51.927622+01:00",
+  "Eta": "2011-08-28T11:06:42.2384781+02:00",
+  "Eventkey": "et",
+  "Eventmess": "praesentium",
+  "ExtraInfo": 575,
+  "Owner": 356,
+  "UpdatedCount": 602,
+  "Registered": "2016-11-05T11:06:42.2384781+01:00",
   "ActivatedBy": null
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 589,
+  "SystemEventId": 349,
   "Scope": "Database",
-  "Eta": "1999-08-15T03:24:51.927622+02:00",
-  "Eventkey": "debitis",
-  "Eventmess": "in",
-  "ExtraInfo": 846,
-  "Owner": 432,
-  "UpdatedCount": 203,
-  "Registered": "2002-07-25T03:24:51.927622+02:00",
+  "Eta": "2002-02-23T11:06:42.2384781+01:00",
+  "Eventkey": "saepe",
+  "Eventmess": "aliquid",
+  "ExtraInfo": 455,
+  "Owner": 474,
+  "UpdatedCount": 563,
+  "Registered": "1999-08-18T11:06:42.2384781+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 725
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

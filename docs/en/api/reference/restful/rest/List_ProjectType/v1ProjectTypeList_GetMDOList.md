@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=sunt
+GET /api/v1/List/ProjectType/MDOItems?query=voluptates
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Kuphal-Waelchi",
-    "ToolTip": "Molestiae voluptatibus.",
+    "Id": 867,
+    "Name": "Kessler, Bernier and Schneider",
+    "ToolTip": "Molestiae natus sit aut tenetur ad distinctio consequatur.",
     "Deleted": false,
-    "Rank": 723,
-    "Type": "adipisci",
+    "Rank": 898,
+    "Type": "voluptatibus",
     "ChildItems": [
       {
-        "Id": 680,
-        "Name": "Balistreri LLC",
-        "ToolTip": "Vel sit rem impedit omnis eligendi.",
+        "Id": 427,
+        "Name": "Lueilwitz, Thiel and Bailey",
+        "ToolTip": "Dolores et incidunt cumque odio est quibusdam quis.",
         "Deleted": false,
-        "Rank": 644,
-        "Type": "excepturi",
+        "Rank": 775,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 920,
-        "ExtraInfo": "modi",
-        "StyleHint": "velit",
-        "FullName": "Demetris Champlin",
+        "IconHint": "aut",
+        "ColorBlock": 352,
+        "ExtraInfo": "tempora",
+        "StyleHint": "aut",
+        "FullName": "Grant Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 228
+            "FieldType": "System.String",
+            "FieldLength": 36
           }
         }
       }
     ],
-    "IconHint": "provident",
-    "ColorBlock": 288,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "dolore",
-    "FullName": "Wilhelm Frami",
+    "IconHint": "commodi",
+    "ColorBlock": 622,
+    "ExtraInfo": "sint",
+    "StyleHint": "placeat",
+    "FullName": "Fern Block",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldType": "System.String",
+        "FieldLength": 313
       }
     }
   }

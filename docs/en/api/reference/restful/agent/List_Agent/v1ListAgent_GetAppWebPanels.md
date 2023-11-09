@@ -96,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 187,
-    "Name": "Marquardt LLC",
-    "Tooltip": "tempore",
-    "Deleted": false,
-    "Rank": 993,
+    "WebPanelId": 695,
+    "Name": "Emmerich-Kautzer",
+    "Tooltip": "laboriosam",
+    "Deleted": true,
+    "Rank": 679,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": false,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": true,
+    "OnCentral": true,
+    "OnSatellite": true,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Pagac, Kutch and Lynch",
+    "ShowInStatusBar": true,
+    "WindowName": "Baumbach, Collier and Block",
     "Url": "http://www.example.com/",
-    "ProgId": "quasi",
-    "Icon": 361,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "dignissimos",
+    "Icon": 974,
+    "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldLength": 339
       }
     }
   }

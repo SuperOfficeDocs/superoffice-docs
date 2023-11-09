@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "et",
-  "Key": "enim"
+  "Section": "aut",
+  "Key": "odio"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 67,
-  "Section": "iusto",
-  "Key": "corporis",
-  "Name": "McClure, Block and Rolfson",
+  "PrefDescId": 617,
+  "Section": "explicabo",
+  "Key": "quae",
+  "Name": "Hagenes, Ziemann and Gibson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Face to face zero administration intranet",
-  "IsBuiltin": true,
-  "TableName": "Dibbert-Roberts",
-  "UserDefinedListId": 805,
-  "Rank": 644,
-  "SubGroup": "consequatur",
-  "MinLevel": 450,
-  "MaxValue": 2,
-  "MinValue": 732,
-  "RequiredLicense": "dolor",
+  "Description": "Total bottom-line pricing structure",
+  "IsBuiltin": false,
+  "TableName": "Strosin, Schaefer and Lindgren",
+  "UserDefinedListId": 169,
+  "Rank": 934,
+  "SubGroup": "asperiores",
+  "MinLevel": 946,
+  "MaxValue": 994,
+  "MinValue": 629,
+  "RequiredLicense": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldType": "System.String",
+      "FieldLength": 505
     }
   }
 }

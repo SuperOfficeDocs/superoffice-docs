@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 204,
-  "ERPProductKey": "saepe"
+  "QuoteAlternativeId": 866,
+  "ERPProductKey": "ea"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 934,
-  "ERPQuoteLineKey": "vero",
-  "QuoteAlternativeId": 828,
-  "ERPProductKey": "maiores",
+  "QuoteLineId": 556,
+  "ERPQuoteLineKey": "qui",
+  "QuoteAlternativeId": 30,
+  "ERPProductKey": "explicabo",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 18995.174,
-  "DeliveredQuantity": 29453.332,
-  "Rank": 189,
-  "Name": "Douglas-Cronin",
-  "Description": "Stand-alone impactful application",
-  "Code": "veniam",
-  "QuantityUnit": "rerum",
-  "PriceUnit": "quia",
-  "ItemNumber": "1266010",
+  "Quantity": 6092.496,
+  "DeliveredQuantity": 22348.554,
+  "Rank": 733,
+  "Name": "Johnston-Berge",
+  "Description": "Customer-focused contextually-based function",
+  "Code": "non",
+  "QuantityUnit": "magnam",
+  "PriceUnit": "eligendi",
+  "ItemNumber": "519633",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quidem",
-  "ProductTypeKey": "sed",
-  "Supplier": "officiis",
-  "SupplierCode": "quo",
-  "Thumbnail": "sed",
-  "VATInfo": "dolor",
-  "VAT": 29243.354,
-  "UnitCost": 9464.68,
-  "UnitMinimumPrice": 7831.866,
-  "UnitListPrice": 9853.296,
+  "ProductFamilyKey": "voluptatum",
+  "ProductTypeKey": "quia",
+  "Supplier": "accusamus",
+  "SupplierCode": "iusto",
+  "Thumbnail": "rerum",
+  "VATInfo": "et",
+  "VAT": 24614.435999999998,
+  "UnitCost": 30061.327999999998,
+  "UnitMinimumPrice": 3256.226,
+  "UnitListPrice": 5026.936,
   "ExtraInfo": [
     {
-      "Name": "Moen, Abbott and Aufderhar",
-      "Value": "voluptatem",
+      "Name": "Gutmann-White",
+      "Value": "ex",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldType": "System.String",
+          "FieldLength": 224
         }
       }
     },
     {
-      "Name": "Moen, Abbott and Aufderhar",
-      "Value": "voluptatem",
+      "Name": "Gutmann-White",
+      "Value": "ex",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldType": "System.String",
+          "FieldLength": 224
         }
       }
     }
   ],
-  "RawExtraInfo": "autem",
+  "RawExtraInfo": "quaerat",
   "IsSubscription": false,
-  "SubscriptionUnit": "amet",
-  "SubscriptionQuantity": 23226.074,
-  "SubscriptionStart": "2016-09-21T03:24:48.1426062+02:00",
-  "ERPDiscountPercent": 12062.766,
-  "ERPDiscountAmount": 3312.638,
-  "DiscountPercent": 1178.384,
-  "DiscountAmount": 25238.102,
+  "SubscriptionUnit": "non",
+  "SubscriptionQuantity": 18274.354,
+  "SubscriptionStart": "2012-05-17T11:06:35.2395651+02:00",
+  "ERPDiscountPercent": 15024.395999999999,
+  "ERPDiscountAmount": 25648.656,
+  "DiscountPercent": 13084.449999999999,
+  "DiscountAmount": 12253.939999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 12730.307999999999,
-  "EarningAmount": 16406.489999999998,
-  "SubTotal": 24714.724,
-  "TotalPrice": 20374.134,
-  "Rights": "reiciendis",
-  "Rule": "ut",
-  "ExtraField1": "dolor",
-  "ExtraField2": "sed",
-  "ExtraField3": "et",
-  "ExtraField4": "qui",
-  "ExtraField5": "possimus",
+  "EarningPercent": 81.484,
+  "EarningAmount": 12836.864,
+  "SubTotal": 23345.165999999997,
+  "TotalPrice": 5368.5419999999995,
+  "Rights": "dolore",
+  "Rule": "quo",
+  "ExtraField1": "illo",
+  "ExtraField2": "itaque",
+  "ExtraField3": "molestiae",
+  "ExtraField4": "ratione",
+  "ExtraField5": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 507
     }
   }
 }

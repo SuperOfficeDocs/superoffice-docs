@@ -64,7 +64,7 @@ OK
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 616,
-  "Name": "Upton Group",
-  "Tooltip": "quia",
-  "PassiveText": "sed",
+  "ReldefId": 281,
+  "Name": "Hegmann-Kihn",
+  "Tooltip": "impedit",
+  "PassiveText": "ducimus",
   "Deleted": true,
-  "Rank": 446,
+  "Rank": 158,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 777
+      "FieldLength": 694
     }
   }
 }

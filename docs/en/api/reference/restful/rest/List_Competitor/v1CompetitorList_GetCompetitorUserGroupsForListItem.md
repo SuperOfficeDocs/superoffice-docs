@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Hirthe LLC",
-    "ToolTip": "Quis dolorem.",
+    "Id": 259,
+    "Name": "Effertz, Quitzon and Walsh",
+    "ToolTip": "Placeat culpa veritatis.",
     "Deleted": false,
-    "Rank": 165,
-    "Type": "eos",
-    "ColorBlock": 970,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "1998-12-16T03:24:52.1775959+01:00",
+    "Rank": 531,
+    "Type": "ipsam",
+    "ColorBlock": 50,
+    "IconHint": "minus",
+    "Selected": false,
+    "LastChanged": "2013-02-08T11:06:42.7096943+01:00",
     "ChildItems": [
       {
-        "Id": 324,
-        "Name": "Pfannerstill-Huels",
-        "ToolTip": "Ut est iusto.",
+        "Id": 880,
+        "Name": "Morar Inc and Sons",
+        "ToolTip": "Exercitationem tenetur amet quidem doloribus aut animi.",
         "Deleted": false,
-        "Rank": 744,
-        "Type": "dignissimos",
-        "ColorBlock": 951,
-        "IconHint": "et",
+        "Rank": 820,
+        "Type": "accusamus",
+        "ColorBlock": 962,
+        "IconHint": "quod",
         "Selected": false,
-        "LastChanged": "1998-06-18T03:24:52.1775959+02:00",
+        "LastChanged": "2008-04-19T11:06:42.7096943+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "sit",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Ms. Yadira Agustin Hamill III",
+        "FullName": "Lee Green",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 957
+            "FieldLength": 402
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "in",
+    "ExtraInfo": "eaque",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Karli Considine",
+    "FullName": "Cortez Lockman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 998
       }
     }
   }

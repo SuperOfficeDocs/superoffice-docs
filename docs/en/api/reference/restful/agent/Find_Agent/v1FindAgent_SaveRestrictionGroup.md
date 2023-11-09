@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolor",
-  "ProviderName": "Littel-Harber",
-  "StorageKey": "voluptatum",
+  "StorageType": "non",
+  "ProviderName": "Welch, Lang and Sporer",
+  "StorageKey": "ut",
   "RestrictionGroup": null,
-  "Context": "officia"
+  "Context": "soluta"
 }
 ```
 

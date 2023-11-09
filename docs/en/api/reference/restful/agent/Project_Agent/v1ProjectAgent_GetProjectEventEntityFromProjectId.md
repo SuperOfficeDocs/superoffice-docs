@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 230
+  "ProjectId": 668
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quia",
-  "SignOffText": "nesciunt",
-  "SignOnConfirmationText": "accusantium",
-  "SignOnText": "quia",
-  "EventDate": "2020-01-30T03:24:48.0957311+01:00",
+  "SignOffConfirmationText": "aut",
+  "SignOffText": "quia",
+  "SignOnConfirmationText": "quia",
+  "SignOnText": "voluptatibus",
+  "EventDate": "2006-11-09T11:06:35.1614465+01:00",
   "Enabled": false,
-  "CreatedDate": "2022-03-28T03:24:48.0957311+02:00",
-  "SignOff": false,
+  "CreatedDate": "2001-09-22T11:06:35.1614465+02:00",
+  "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 512,
+  "SignOffTaskId": 556,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 272,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 969,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2014-12-09T03:24:48.0957311+01:00",
+  "UpdatedDate": "2023-08-26T11:06:35.1614465+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 125,
-  "Id": 297,
-  "PublishFrom": "2022-03-02T03:24:48.0957311+01:00",
+  "ProjectId": 56,
+  "Id": 631,
+  "PublishFrom": "2018-02-26T11:06:35.1614465+01:00",
   "PublishType": "External",
-  "PublishTo": "2004-02-11T03:24:48.0957311+01:00",
+  "PublishTo": "2004-03-20T11:06:35.1614465+01:00",
   "VisibleForCategories": [
     {
-      "Id": 54,
-      "Name": "Prosacco-Tromp",
-      "ToolTip": "Ipsa quas libero possimus perferendis earum.",
-      "Deleted": true,
-      "Rank": 703,
-      "Type": "provident",
+      "Id": 311,
+      "Name": "Stamm, Wisozk and Jerde",
+      "ToolTip": "Animi dolore possimus.",
+      "Deleted": false,
+      "Rank": 124,
+      "Type": "necessitatibus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "maxime",
-      "ColorBlock": 257,
-      "ExtraInfo": "enim",
-      "StyleHint": "vel",
-      "FullName": "Tristian Kozey Sr.",
+      "IconHint": "eum",
+      "ColorBlock": 962,
+      "ExtraInfo": "consequatur",
+      "StyleHint": "sequi",
+      "FullName": "Chauncey Jewess",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldLength": 251
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 345,
-      "Name": "Muller-Stroman",
-      "ToolTip": "Et dolores ut omnis quibusdam.",
-      "Deleted": false,
-      "Rank": 145,
-      "Type": "quas",
+      "Id": 665,
+      "Name": "Fahey LLC",
+      "ToolTip": "Sapiente ea est porro ad iure tempora ut.",
+      "Deleted": true,
+      "Rank": 542,
+      "Type": "dolor",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ea",
-      "ColorBlock": 317,
-      "ExtraInfo": "sed",
-      "StyleHint": "error",
-      "FullName": "Minnie Lemke",
+      "IconHint": "voluptatibus",
+      "ColorBlock": 386,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "ea",
+      "FullName": "Henriette Schuppe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 28
+          "FieldType": "System.Int32",
+          "FieldLength": 674
         }
       }
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": true,
+  "IsPublished": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 98,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 915,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldType": "System.String",
+      "FieldLength": 383
     }
   }
 }

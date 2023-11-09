@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "expedita",
+  "SaleText": "est",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2010-08-07T03:24:51.8963736+02:00",
-  "Amount": 31340.0,
-  "SaleId": 402,
-  "Earning": 2911.486,
-  "EarningPercent": 9809.42,
-  "Heading": "qui",
-  "Number": "1103399",
-  "Probability": 371,
-  "CreatedDate": "2020-03-22T03:24:51.8963736+01:00",
-  "UpdatedDate": "2023-05-26T03:24:51.8963736+02:00",
+  "Saledate": "2014-01-15T11:06:42.1916015+01:00",
+  "Amount": 30876.167999999998,
+  "SaleId": 48,
+  "Earning": 20831.698,
+  "EarningPercent": 26993.142,
+  "Heading": "voluptas",
+  "Number": "1055741",
+  "Probability": 272,
+  "CreatedDate": "2003-09-10T11:06:42.1916015+02:00",
+  "UpdatedDate": "2006-04-27T11:06:42.1916015+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 671,
+  "ActiveLinks": 364,
   "Links": [
     {
-      "EntityName": "Nienow LLC",
-      "Id": 265,
-      "Description": "Reactive explicit parallelism",
-      "ExtraInfo": "iure",
-      "LinkId": 737
+      "EntityName": "Spencer Inc and Sons",
+      "Id": 637,
+      "Description": "Profit-focused homogeneous knowledge user",
+      "ExtraInfo": "quasi",
+      "LinkId": 621
     },
     {
-      "EntityName": "Nienow LLC",
-      "Id": 265,
-      "Description": "Reactive explicit parallelism",
-      "ExtraInfo": "iure",
-      "LinkId": 737
+      "EntityName": "Spencer Inc and Sons",
+      "Id": 637,
+      "Description": "Profit-focused homogeneous knowledge user",
+      "ExtraInfo": "quasi",
+      "LinkId": 621
     }
   ],
-  "NextDueDate": "2021-08-10T03:24:51.8963736+02:00",
-  "Postit": "voluptatem",
+  "NextDueDate": "1999-12-18T11:06:42.1916015+01:00",
+  "Postit": "aut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-07-22T03:24:51.8963736+02:00",
+  "ReopenDate": "2002-05-22T11:06:42.1916015+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Brekke-Gutmann",
-      "Comment": "blanditiis",
-      "StakeholderRoleId": 510,
-      "CountryId": 970,
-      "PersonId": 197,
-      "EmailDescription": "walker_steuber@mclaughlinhermann.com",
-      "EmailId": 695,
-      "EmailAddress": "amya@trantow.co.uk",
-      "PhoneId": 629,
-      "ContactName": "Brown-Langworth",
-      "ContactId": 289,
-      "SaleId": 369,
-      "Mrmrs": "distinctio",
-      "Firstname": "Daphne",
-      "MiddleName": "Stracke-Boehm",
-      "Lastname": "Lockman",
-      "SaleStakeholderId": 538,
-      "Rank": 286,
-      "Phone": "362.535.0733 x83857"
+      "StakeholderRoleName": "Tremblay LLC",
+      "Comment": "itaque",
+      "StakeholderRoleId": 734,
+      "CountryId": 927,
+      "PersonId": 953,
+      "EmailDescription": "elliot@kohlerhammes.us",
+      "EmailId": 495,
+      "EmailAddress": "sydnie.bailey@hahnswaniawski.name",
+      "PhoneId": 720,
+      "ContactName": "Stark, Renner and Murazik",
+      "ContactId": 777,
+      "SaleId": 796,
+      "Mrmrs": "aperiam",
+      "Firstname": "Catharine",
+      "MiddleName": "Deckow, Berge and Wyman",
+      "Lastname": "Sanford",
+      "SaleStakeholderId": 604,
+      "Rank": 420,
+      "Phone": "550.040.9697 x9291"
     }
   ],
-  "ActiveErpLinks": 46,
+  "ActiveErpLinks": 228,
   "UserDefinedFields": {
-    "SuperOffice:1": "610403024",
-    "SuperOffice:2": "1601245532"
+    "SuperOffice:1": "1513154139",
+    "SuperOffice:2": "Bud Anderson O'Keefe Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "odio",
+    "ExtraFields2": "distinctio"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "quasi"
+    "CustomFields1": "reprehenderit",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2014-09-14T03:24:51.8963736+02:00",
-  "PublishTo": "2011-12-28T03:24:51.8963736+01:00",
-  "PublishFrom": "2006-06-15T03:24:51.8963736+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-04-13T11:06:42.1916015+02:00",
+  "PublishTo": "1996-11-23T11:06:42.1916015+01:00",
+  "PublishFrom": "1997-03-13T11:06:42.1916015+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 823,
+      "VisibleId": 170,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "autem"
     },
     {
-      "VisibleId": 823,
+      "VisibleId": 170,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "autem"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sapiente",
-  "2": "sint"
+  "1": "eum",
+  "2": "modi"
 }
 ```

@@ -111,8 +111,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 158,
-  "ERPProductKey": "voluptatem"
+  "QuoteConnectionId": 486,
+  "ERPProductKey": "aut"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 761,
-  "ERPProductKey": "est",
-  "ERPPriceListKey": "occaecati",
-  "Name": "Bechtelar-Langosh",
-  "Description": "Cross-group actuating productivity",
-  "Code": "quos",
-  "PriceUnit": "placeat",
-  "QuantityUnit": "sed",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 16907.93,
-  "ItemNumber": "989318",
+  "ProductId": 835,
+  "ERPProductKey": "occaecati",
+  "ERPPriceListKey": "libero",
+  "Name": "Homenick Group",
+  "Description": "Object-based interactive internet solution",
+  "Code": "voluptatem",
+  "PriceUnit": "consequatur",
+  "QuantityUnit": "aliquid",
+  "IsSubscription": true,
+  "SubscriptionUnit": "non",
+  "DefaultSubscriptionQuantity": 24109.862,
+  "ItemNumber": "1036836",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "assumenda",
-  "ProductTypeKey": "perferendis",
-  "VAT": 6568.864,
-  "VATInfo": "enim",
-  "UnitCost": 27557.262,
-  "UnitMinimumPrice": 6518.7199999999993,
-  "UnitListPrice": 14422.668,
+  "ProductFamilyKey": "dolore",
+  "ProductTypeKey": "sed",
+  "VAT": 12285.279999999999,
+  "VATInfo": "non",
+  "UnitCost": 6377.69,
+  "UnitMinimumPrice": 1576.402,
+  "UnitListPrice": 4575.6399999999994,
   "InAssortment": false,
-  "Supplier": "pariatur",
-  "SupplierCode": "alias",
-  "Rights": "quidem",
-  "Rule": "libero",
+  "Supplier": "dolores",
+  "SupplierCode": "beatae",
+  "Rights": "aut",
+  "Rule": "eos",
   "ExtraInfo": [
     {
-      "Name": "O'Keefe, Okuneva and Gulgowski",
-      "Value": "doloremque",
+      "Name": "Durgan, Douglas and Hauck",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     },
     {
-      "Name": "O'Keefe, Okuneva and Gulgowski",
-      "Value": "doloremque",
+      "Name": "Durgan, Douglas and Hauck",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     }
   ],
-  "RawExtraInfo": "quia",
-  "ExtraField1": "atque",
-  "ExtraField2": "aut",
-  "ExtraField3": "corrupti",
-  "ExtraField4": "sit",
-  "ExtraField5": "sed",
-  "InStock": 10815.434,
+  "RawExtraInfo": "aliquid",
+  "ExtraField1": "est",
+  "ExtraField2": "ut",
+  "ExtraField3": "labore",
+  "ExtraField4": "sapiente",
+  "ExtraField5": "reprehenderit",
+  "InStock": 29976.71,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 961
+      "FieldLength": 515
     }
   }
 }

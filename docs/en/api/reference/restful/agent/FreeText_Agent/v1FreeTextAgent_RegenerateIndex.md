@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 325,
-  "Name": "Williamson Inc and Sons",
-  "AssociateId": 147,
-  "DetailsTable": 818,
-  "DetailsRecord": 631,
+  "Id": 532,
+  "Name": "Hermann-Dooley",
+  "AssociateId": 404,
+  "DetailsTable": 651,
+  "DetailsRecord": 556,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "voluptatem",
-    "ParameterObject2": "dolorem"
+    "ParameterObject1": "quis",
+    "ParameterObject2": "qui"
   },
-  "LastStarted": "1999-01-25T03:24:47.8301403+01:00",
-  "Created": "1998-10-24T03:24:47.8301403+02:00",
-  "StartCount": 706,
-  "DatabaseSerialNumber": "1101607",
-  "Context": "nisi",
-  "Result": "dolorum",
+  "LastStarted": "2020-09-03T11:06:34.6458113+02:00",
+  "Created": "2001-05-13T11:06:34.6458113+02:00",
+  "StartCount": 933,
+  "DatabaseSerialNumber": "1826848",
+  "Context": "explicabo",
+  "Result": "unde",
   "State": "All",
-  "Description": "Mandatory cohesive success",
-  "Response": "laboriosam",
-  "Request": "sunt",
-  "ProgressDescription": "Automated contextually-based capability",
-  "ProgressPercent": 374,
-  "FileName": "Gorczany-Dare",
+  "Description": "Optimized neutral groupware",
+  "Response": "aut",
+  "Request": "et",
+  "ProgressDescription": "Centralized background infrastructure",
+  "ProgressPercent": 439,
+  "FileName": "Halvorson-Schmidt",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 44
     }
   }
 }

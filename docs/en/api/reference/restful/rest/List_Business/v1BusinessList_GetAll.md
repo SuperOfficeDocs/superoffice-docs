@@ -25,7 +25,7 @@ Gets all the Business items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Business/Items?includeDeleted=False
+GET /api/v1/List/Business/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 968,
-    "Name": "Raynor, Wisozk and Hayes",
-    "Tooltip": "tempore",
+    "Id": 711,
+    "Name": "Stracke Group",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 19,
-    "Rank": 288,
+    "UdListDefinitionId": 473,
+    "Rank": 279,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldLength": 988
       }
     }
   }

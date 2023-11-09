@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "nesciunt"
+  "Context": "qui"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "CanSupportMultiUse": false,
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "est",
-    "ValueType": "ut",
-    "Mandatory": false,
-    "EncodedDisplayName": "Hegmann-Bogan",
-    "EncodedDisplayDescription": "Synergized 6th generation definition",
-    "IconHint": "et",
+    "Key": "fuga",
+    "ValueType": "nihil",
+    "Mandatory": true,
+    "EncodedDisplayName": "Lehner Group",
+    "EncodedDisplayDescription": "Fully-configurable national algorithm",
+    "IconHint": "perferendis",
     "ControlInfos": [
       {
-        "Type": "iure",
-        "Label": "sapiente",
-        "Dimension": 893,
-        "ListProviderName": "Padberg, Reinger and Blanda",
-        "ListProviderExtraInfo": "fugit",
-        "ListProviderPrimaryKeyName": "Bahringer LLC",
-        "ListLeadText": "assumenda",
+        "Type": "cum",
+        "Label": "maiores",
+        "Dimension": 726,
+        "ListProviderName": "Hamill-Wiegand",
+        "ListProviderExtraInfo": "expedita",
+        "ListProviderPrimaryKeyName": "Dooley, Steuber and McKenzie",
+        "ListLeadText": "dolorum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 836
+            "FieldLength": 886
           }
         }
       }
     ],
-    "EncodedDataCaption": "quia",
-    "EncodedDataCaptionDescription": "Cross-platform cohesive circuit",
-    "CurrentOperationType": "recusandae",
+    "EncodedDataCaption": "assumenda",
+    "EncodedDataCaptionDescription": "Focused radical neural-net",
+    "CurrentOperationType": "nobis",
     "Values": [
-      "voluptas",
-      "nostrum"
+      "dolorum",
+      "itaque"
     ],
     "DisplayValues": [
-      "quis",
-      "enim"
+      "id",
+      "molestias"
     ],
     "OperationInfos": [
       {
         "Key": "sunt",
-        "EncodedDisplayName": "Block Group",
+        "EncodedDisplayName": "Yost-Swift",
         "EncodedLeadTexts": [
-          "sunt",
-          "amet"
+          "velit",
+          "voluptatem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 393
+            "FieldType": "System.String",
+            "FieldLength": 636
           }
         }
       },
       {
         "Key": "sunt",
-        "EncodedDisplayName": "Block Group",
+        "EncodedDisplayName": "Yost-Swift",
         "EncodedLeadTexts": [
-          "sunt",
-          "amet"
+          "velit",
+          "voluptatem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 393
+            "FieldType": "System.String",
+            "FieldLength": 636
           }
         }
       }

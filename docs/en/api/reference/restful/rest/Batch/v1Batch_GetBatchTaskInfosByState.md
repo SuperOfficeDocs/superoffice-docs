@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 486,
-    "Name": "Hane Inc and Sons",
-    "AssociateId": 543,
-    "DetailsTable": 469,
-    "DetailsRecord": 527,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 763,
+    "Name": "Harris-Morissette",
+    "AssociateId": 875,
+    "DetailsTable": 102,
+    "DetailsRecord": 39,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "adipisci"
+      "ParameterObject1": "minima",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2016-09-01T03:24:52.0369874+02:00",
-    "Created": "2001-03-01T03:24:52.0369874+01:00",
-    "StartCount": 1002,
-    "DatabaseSerialNumber": "475996",
-    "Context": "architecto",
-    "Result": "et",
+    "LastStarted": "2011-09-11T11:06:42.3803732+02:00",
+    "Created": "2000-04-10T11:06:42.3803732+02:00",
+    "StartCount": 141,
+    "DatabaseSerialNumber": "1580544",
+    "Context": "est",
+    "Result": "ducimus",
     "State": "All",
-    "Description": "Profit-focused homogeneous open system",
-    "Response": "harum",
-    "Request": "est",
-    "ProgressDescription": "Reactive multimedia monitoring",
-    "ProgressPercent": 471,
-    "FileName": "Greenfelder LLC",
+    "Description": "Visionary disintermediate middleware",
+    "Response": "dolor",
+    "Request": "doloremque",
+    "ProgressDescription": "Compatible upward-trending website",
+    "ProgressPercent": 499,
+    "FileName": "Medhurst-Pouros",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 932
+        "FieldType": "System.Int32",
+        "FieldLength": 108
       }
     }
   }

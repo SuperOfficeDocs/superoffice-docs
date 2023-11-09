@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 592,
-  "Name": "Connelly-Stehr",
+  "ScreenChooserId": 38,
+  "Name": "O'Kon Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "voluptas",
-  "Source": "reiciendis",
-  "Registered": "2016-02-27T03:24:47.4708008+01:00",
-  "RegisteredAssociateId": 166,
-  "Updated": "2006-05-30T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 654
+  "Enabled": false,
+  "UniqueIdentifier": "dicta",
+  "Source": "rerum",
+  "Registered": "2023-04-04T11:06:34.2383276+02:00",
+  "RegisteredAssociateId": 520,
+  "Updated": "2003-07-27T11:06:34.2383276+02:00",
+  "UpdatedAssociateId": 106
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 478,
-  "Name": "Abshire LLC",
+  "ScreenChooserId": 339,
+  "Name": "Turner, Pagac and D'Amore",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "non",
+  "Enabled": false,
+  "UniqueIdentifier": "nesciunt",
   "Source": "quo",
-  "Registered": "2021-08-13T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 64,
-  "Updated": "2023-04-16T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 522,
+  "Registered": "1998-11-12T11:06:34.2383276+01:00",
+  "RegisteredAssociateId": 645,
+  "Updated": "2010-09-18T11:06:34.2383276+02:00",
+  "UpdatedAssociateId": 794,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 350
     }
   }
 }

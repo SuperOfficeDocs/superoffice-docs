@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 977,
-  "Name": "O'Connell-Weimann",
-  "Tooltip": "et",
+  "Id": 152,
+  "Name": "White Group",
+  "Tooltip": "iste",
   "Deleted": false,
-  "Rank": 848,
+  "Rank": 945,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "numquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 641
+      "FieldType": "System.Int32",
+      "FieldLength": 789
     }
   },
   "_Links": {

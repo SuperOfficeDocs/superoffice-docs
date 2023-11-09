@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "VonRueden Group",
-  "Context": "aut"
+  "ProviderName": "Klein, Jacobs and Schumm",
+  "Context": "tenetur"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gleason, Brakus and Kunze",
-    "DisplayTooltip": "molestias",
-    "DisplayType": "qui",
-    "CanOrderBy": true,
-    "Name": "Stoltenberg, Dooley and Stark",
-    "CanRestrictBy": true,
-    "RestrictionType": "eum",
-    "RestrictionListName": "Jones, Kozey and Gerhold",
-    "IsVisible": false,
-    "ExtraInfo": "et",
-    "Width": "aspernatur",
-    "IconHint": "sunt",
-    "HeadingIconHint": "alias"
+    "DisplayName": "Emmerich LLC",
+    "DisplayTooltip": "occaecati",
+    "DisplayType": "consequatur",
+    "CanOrderBy": false,
+    "Name": "Terry, Wisoky and Erdman",
+    "CanRestrictBy": false,
+    "RestrictionType": "aliquam",
+    "RestrictionListName": "Johnston-Fisher",
+    "IsVisible": true,
+    "ExtraInfo": "qui",
+    "Width": "illum",
+    "IconHint": "qui",
+    "HeadingIconHint": "nesciunt"
   }
 ]
 ```

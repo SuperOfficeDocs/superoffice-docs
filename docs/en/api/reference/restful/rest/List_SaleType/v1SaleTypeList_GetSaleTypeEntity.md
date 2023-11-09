@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 702,
-  "Name": "Mertz, Ratke and Torp",
-  "Tooltip": "nam",
-  "Rank": 305,
+  "SaleTypeId": 488,
+  "Name": "Rogahn, Wilkinson and White",
+  "Tooltip": "minus",
+  "Rank": 954,
   "DurationUnit": "Century",
-  "SaleDuration": 202,
-  "SaleTypeCatId": 730,
+  "SaleDuration": 554,
+  "SaleTypeCatId": 499,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 3,
-  "QuoteLinesTemplate": 849,
-  "ConfirmationLinesTemplate": 515,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 890,
-  "MinEarningPercent": 768,
-  "GroupQuoteLinesBy": 350,
-  "SortGroupLinesBy": 791,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 962,
+  "QuoteLinesTemplate": 534,
+  "ConfirmationLinesTemplate": 69,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 505,
+  "MinEarningPercent": 392,
+  "GroupQuoteLinesBy": 513,
+  "SortGroupLinesBy": 660,
   "Stages": [
     {
-      "Id": 93,
-      "Name": "Mann-Miller",
-      "ToolTip": "Dolorum est et.",
-      "Deleted": false,
-      "Rank": 716,
-      "Type": "sint",
-      "ColorBlock": 118,
-      "IconHint": "pariatur",
-      "Selected": false,
-      "LastChanged": "2006-10-27T03:24:52.4119449+02:00",
+      "Id": 121,
+      "Name": "Brown LLC",
+      "ToolTip": "Eum in suscipit sed.",
+      "Deleted": true,
+      "Rank": 662,
+      "Type": "consequatur",
+      "ColorBlock": 248,
+      "IconHint": "saepe",
+      "Selected": true,
+      "LastChanged": "2003-12-05T11:06:43.0534497+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "explicabo",
-      "StyleHint": "repellat",
+      "ExtraInfo": "nostrum",
+      "StyleHint": "recusandae",
       "Hidden": true,
-      "FullName": "Erick Tillman",
+      "FullName": "Palma Erdman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldType": "System.Int32",
+          "FieldLength": 840
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 823
     }
   }
 }

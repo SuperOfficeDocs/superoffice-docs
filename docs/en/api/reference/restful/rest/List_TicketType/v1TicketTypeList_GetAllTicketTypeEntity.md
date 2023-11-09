@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 412,
-    "Name": "Brakus Inc and Sons",
-    "Rank": 93,
-    "Tooltip": "quidem",
-    "Icon": "accusantium",
-    "DefaultTicketStatus": 549,
+    "TicketTypeId": 981,
+    "Name": "D'Amore LLC",
+    "Rank": 461,
+    "Tooltip": "ipsam",
+    "Icon": "eligendi",
+    "DefaultTicketStatus": 728,
     "TicketStatuses": [
-      390,
-      262
+      624,
+      219
     ],
-    "DefaultTicketPriority": 613,
+    "DefaultTicketPriority": 521,
     "TicketPriorities": [
-      657,
-      657
+      168,
+      510
     ],
-    "ReplyTemplate": 965,
-    "IsExternalVisible": true,
-    "IsDefault": true,
+    "ReplyTemplate": 336,
+    "IsExternalVisible": false,
+    "IsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 439
+        "FieldType": "System.Int32",
+        "FieldLength": 998
       }
     }
   }

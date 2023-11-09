@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 374,
-  "ColumnId": 661,
-  "FieldDefault": "in",
-  "FieldHeight": 368,
-  "FieldLabel": "deleniti",
-  "FieldLeft": 10,
-  "FieldTop": 17,
+  "UDefFieldId": 54,
+  "ColumnId": 526,
+  "FieldDefault": "nisi",
+  "FieldHeight": 431,
+  "FieldLabel": "dolorum",
+  "FieldLeft": 707,
+  "FieldTop": 824,
   "FieldType": "Checkbox",
-  "FieldWidth": 753,
-  "FormatMask": "eius",
+  "FieldWidth": 93,
+  "FormatMask": "consequuntur",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 201,
-  "LabelLeft": 953,
-  "LabelTop": 817,
-  "LabelWidth": 564,
-  "LastVersionId": 265,
-  "ListTableId": 420,
+  "LabelHeight": 923,
+  "LabelLeft": 470,
+  "LabelTop": 794,
+  "LabelWidth": 249,
+  "LastVersionId": 212,
+  "ListTableId": 750,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 324,
-  "ProgId": "quis",
-  "IsReadOnly": true,
-  "ShortLabel": "sit",
-  "TabOrder": 378,
-  "TextLength": 683,
-  "Tooltip": "cupiditate",
-  "UdefIdentity": 639,
-  "UDListDefinitionId": 734,
+  "Page1LineNo": 655,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "debitis",
+  "TabOrder": 234,
+  "TextLength": 277,
+  "Tooltip": "iusto",
+  "UdefIdentity": 273,
+  "UDListDefinitionId": 373,
   "Justification": "Center",
-  "Version": 599,
-  "TemplateVariableName": "Brekke-Larkin",
-  "HasBeenPublished": true,
-  "MdoListName": "Kilback-Auer",
+  "Version": 267,
+  "TemplateVariableName": "Shields-Schmeler",
+  "HasBeenPublished": false,
+  "MdoListName": "Moore Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 444
+      "FieldLength": 998
     }
   }
 }

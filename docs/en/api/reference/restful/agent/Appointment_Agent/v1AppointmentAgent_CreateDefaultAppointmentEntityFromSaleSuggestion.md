@@ -133,14 +133,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 350,
-  "SaleId": 240,
-  "CreateNow": false,
-  "OwnerId": 70
+  "SuggestedAppointmentId": 357,
+  "SaleId": 379,
+  "CreateNow": true,
+  "OwnerId": 271
 }
 ```
 
@@ -155,125 +155,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-11-17T03:24:47.1583343+01:00",
-  "AppointmentId": 420,
-  "Description": "Pre-emptive bi-directional forecast",
-  "StartDate": "2005-10-09T03:24:47.1583343+02:00",
-  "EndDate": "2007-02-17T03:24:47.1583343+01:00",
+  "CreatedDate": "2008-09-18T11:06:33.6632537+02:00",
+  "AppointmentId": 39,
+  "Description": "Ameliorated transitional benchmark",
+  "StartDate": "2014-06-12T11:06:33.6632537+02:00",
+  "EndDate": "1999-07-12T11:06:33.6632537+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 586,
+  "MotherId": 9,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-04-16T03:24:47.1583343+02:00",
+  "UpdatedDate": "2001-01-31T11:06:33.6632537+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 705,
+  "ActiveLinks": 719,
   "Links": [
     {
-      "EntityName": "Padberg, Bayer and Greenfelder",
-      "Id": 740,
-      "Description": "Streamlined upward-trending circuit",
-      "ExtraInfo": "quibusdam",
-      "LinkId": 942,
+      "EntityName": "Donnelly Group",
+      "Id": 450,
+      "Description": "Team-oriented stable pricing structure",
+      "ExtraInfo": "distinctio",
+      "LinkId": 311,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldLength": 79
         }
       }
     }
   ],
-  "AlarmLeadTime": "eligendi",
-  "HasAlarm": false,
-  "ColorIndex": 492,
+  "AlarmLeadTime": "iste",
+  "HasAlarm": true,
+  "ColorIndex": 232,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "unde",
-  "LeadTime": "quas",
-  "Location": "dignissimos",
-  "RejectCounter": 353,
+  "IsAlldayEvent": true,
+  "LagTime": "repellendus",
+  "LeadTime": "libero",
+  "Location": "itaque",
+  "RejectCounter": 314,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 301,
-      "PersonId": 117,
-      "ContactId": 493,
-      "EmailId": 556,
-      "SendEmail": true,
+      "AssociateId": 554,
+      "PersonId": 214,
+      "ContactId": 642,
+      "EmailId": 420,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 301,
-      "PersonId": 117,
-      "ContactId": 493,
-      "EmailId": 556,
-      "SendEmail": true,
+      "AssociateId": 554,
+      "PersonId": 214,
+      "ContactId": 642,
+      "EmailId": 420,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-10-04T03:24:47.1583343+02:00",
+  "ActiveDate": "2014-06-27T11:06:33.6632537+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 150,
+  "PreferredTZLocation": 939,
   "Sale": null,
-  "SuggestedAppointmentId": 837,
+  "SuggestedAppointmentId": 369,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "rem",
-  "Title": "voluptatem",
-  "Agenda": "voluptatem",
-  "InternalNotes": "vel",
+  "CentralserviceVideomeetId": "quasi",
+  "Title": "provident",
+  "Agenda": "ratione",
+  "InternalNotes": "consequuntur",
   "UserDefinedFields": {
-    "SuperOffice:1": "907957978",
-    "SuperOffice:2": "1411204891"
+    "SuperOffice:1": "358769971",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "eveniet",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "est"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "nihil"
   },
-  "PublishEventDate": "1998-01-17T03:24:47.1583343+01:00",
-  "PublishTo": "2004-05-13T03:24:47.1583343+02:00",
-  "PublishFrom": "1996-08-04T03:24:47.1583343+02:00",
+  "PublishEventDate": "2016-08-25T11:06:33.6632537+02:00",
+  "PublishTo": "2001-03-09T11:06:33.6632537+01:00",
+  "PublishFrom": "1997-09-28T11:06:33.6632537+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 759,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 387
+          "FieldType": "System.Int32",
+          "FieldLength": 294
         }
       }
     },
     {
-      "VisibleId": 759,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 387
+          "FieldType": "System.Int32",
+          "FieldLength": 294
         }
       }
     }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 248
     }
   }
 }

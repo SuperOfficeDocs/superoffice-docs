@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=520
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=230
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 753,
+  "DocumentId": 961,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "vel",
-  "Header": "veritatis",
-  "Name": "Predovic-Gibson",
-  "OurRef": "vel",
-  "YourRef": "eum",
-  "CreatedDate": "2018-12-01T03:24:47.5957885+01:00",
-  "UpdatedDate": "2019-11-21T03:24:47.5957885+01:00",
-  "Description": "Monitored impactful knowledge base",
+  "Attention": "sit",
+  "Header": "et",
+  "Name": "Swaniawski-Bins",
+  "OurRef": "reiciendis",
+  "YourRef": "perspiciatis",
+  "CreatedDate": "2017-09-03T11:06:34.3645258+02:00",
+  "UpdatedDate": "2002-02-06T11:06:34.3645258+01:00",
+  "Description": "Re-engineered methodical analyzer",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-01-05T03:24:47.6426585+01:00",
-  "ExternalRef": "enim",
+  "Date": "2019-10-02T11:06:34.3645258+02:00",
+  "ExternalRef": "amet",
   "Completed": "Completed",
-  "ActiveLinks": 109,
+  "ActiveLinks": 232,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Luettgen, Turcotte and Ferry",
-      "Id": 442,
-      "Description": "Implemented fresh-thinking complexity",
-      "ExtraInfo": "iste",
-      "LinkId": 198,
+      "EntityName": "Daniel-Mosciski",
+      "Id": 584,
+      "Description": "Grass-roots human-resource concept",
+      "ExtraInfo": "fugiat",
+      "LinkId": 38,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 157
+          "FieldType": "System.Int32",
+          "FieldLength": 666
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 339,
-  "Snum": 467,
+  "SuggestedDocumentId": 247,
+  "Snum": 375,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Davin Hills",
+    "SuperOffice:2": "Faye Bayer"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "harum",
+    "ExtraFields2": "odit"
   },
   "CustomFields": {
-    "CustomFields1": "cumque",
-    "CustomFields2": "a"
+    "CustomFields1": "suscipit",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2004-07-06T03:24:47.6426585+02:00",
-  "PublishTo": "2006-05-07T03:24:47.6426585+02:00",
-  "PublishFrom": "1999-11-04T03:24:47.6426585+01:00",
+  "PublishEventDate": "2011-11-15T11:06:34.3645258+01:00",
+  "PublishTo": "2008-08-31T11:06:34.3645258+02:00",
+  "PublishFrom": "2013-09-26T11:06:34.3645258+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 138,
+      "VisibleId": 703,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldType": "System.String",
+          "FieldLength": 499
         }
       }
     },
     {
-      "VisibleId": 138,
+      "VisibleId": 703,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldType": "System.String",
+          "FieldLength": 499
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldLength": 826
     }
   }
 }

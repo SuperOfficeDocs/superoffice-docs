@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "consequuntur",
-    "odio"
+    "saepe",
+    "amet"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 737,
-  "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 756,
-  "ERPProductKey": "qui",
+  "QuoteLineId": 467,
+  "ERPQuoteLineKey": "a",
+  "QuoteAlternativeId": 364,
+  "ERPProductKey": "voluptas",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1629.6799999999998,
-  "DeliveredQuantity": 19822.55,
-  "Rank": 59,
-  "Name": "Farrell, Nicolas and Dooley",
-  "Description": "Robust client-server adapter",
-  "Code": "doloremque",
-  "QuantityUnit": "ipsum",
-  "PriceUnit": "aut",
-  "ItemNumber": "1055121",
+  "Quantity": 14964.85,
+  "DeliveredQuantity": 30973.322,
+  "Rank": 77,
+  "Name": "Simonis, Rogahn and Jerde",
+  "Description": "Pre-emptive even-keeled implementation",
+  "Code": "voluptatem",
+  "QuantityUnit": "quas",
+  "PriceUnit": "consequatur",
+  "ItemNumber": "386372",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aperiam",
-  "ProductTypeKey": "in",
-  "Supplier": "exercitationem",
-  "SupplierCode": "perspiciatis",
-  "Thumbnail": "reiciendis",
-  "VATInfo": "voluptate",
-  "VAT": 20540.236,
-  "UnitCost": 20944.522,
-  "UnitMinimumPrice": 8113.9259999999995,
-  "UnitListPrice": 8903.694,
+  "ProductFamilyKey": "saepe",
+  "ProductTypeKey": "ut",
+  "Supplier": "voluptatem",
+  "SupplierCode": "rerum",
+  "Thumbnail": "in",
+  "VATInfo": "vel",
+  "VAT": 27986.62,
+  "UnitCost": 18503.136,
+  "UnitMinimumPrice": 17067.764,
+  "UnitListPrice": 28187.196,
   "ExtraInfo": [
     {
-      "Name": "Von Group",
-      "Value": "cumque",
+      "Name": "Turcotte-Kshlerin",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 342
+          "FieldLength": 748
         }
       }
     },
     {
-      "Name": "Von Group",
-      "Value": "cumque",
+      "Name": "Turcotte-Kshlerin",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 342
+          "FieldLength": 748
         }
       }
     }
   ],
-  "RawExtraInfo": "facilis",
-  "IsSubscription": true,
-  "SubscriptionUnit": "alias",
-  "SubscriptionQuantity": 17121.041999999998,
-  "SubscriptionStart": "2018-01-22T03:24:48.111357+01:00",
-  "ERPDiscountPercent": 463.832,
-  "ERPDiscountAmount": 12059.632,
-  "DiscountPercent": 18866.68,
-  "DiscountAmount": 26335.002,
+  "RawExtraInfo": "aliquid",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ut",
+  "SubscriptionQuantity": 15394.207999999999,
+  "SubscriptionStart": "2018-06-12T11:06:35.1770754+02:00",
+  "ERPDiscountPercent": 2187.532,
+  "ERPDiscountAmount": 13053.109999999999,
+  "DiscountPercent": 20740.811999999998,
+  "DiscountAmount": 11761.902,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 30832.291999999998,
-  "EarningAmount": 3249.958,
-  "SubTotal": 22593.005999999998,
-  "TotalPrice": 1197.1879999999999,
-  "Rights": "ullam",
-  "Rule": "facilis",
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "perspiciatis",
-  "ExtraField3": "quia",
-  "ExtraField4": "rem",
+  "EarningPercent": 18136.458,
+  "EarningAmount": 25523.296,
+  "SubTotal": 10151.026,
+  "TotalPrice": 9204.5579999999991,
+  "Rights": "et",
+  "Rule": "laborum",
+  "ExtraField1": "ullam",
+  "ExtraField2": "odio",
+  "ExtraField3": "natus",
+  "ExtraField4": "sunt",
   "ExtraField5": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 197
+      "FieldLength": 764
     }
   }
 }

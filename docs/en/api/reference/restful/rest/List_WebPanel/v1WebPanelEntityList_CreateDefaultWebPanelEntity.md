@@ -85,33 +85,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 520,
-  "Name": "Rogahn LLC",
-  "Tooltip": "sit",
+  "WebPanelId": 714,
+  "Name": "Hane, Schuppe and Hartmann",
+  "Tooltip": "ullam",
   "Deleted": true,
-  "Rank": 582,
+  "Rank": 155,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Fritsch-Bauch",
+  "WindowName": "Ratke, Schmitt and Hayes",
   "Url": "http://www.example.com/",
-  "ProgId": "animi",
-  "Icon": 485,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "vel",
+  "Icon": 136,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldLength": 549
     }
   }
 }

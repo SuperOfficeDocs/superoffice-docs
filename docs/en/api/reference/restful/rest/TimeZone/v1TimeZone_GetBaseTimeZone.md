@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 804,
-  "Name": "Murphy-Wolf",
-  "TZLocationCode": "repudiandae",
-  "TZLocationCities": "distinctio",
-  "IsoNumber": 635,
+  "TZLocationID": 899,
+  "Name": "Flatley-Marks",
+  "TZLocationCode": "aspernatur",
+  "TZLocationCities": "ut",
+  "IsoNumber": 827,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 742,
-      "StartMonth": 365,
-      "EndDay": 255,
-      "EndMonth": 181,
-      "TZOffset": 291,
-      "StartRulePattern": "voluptas",
-      "EndRulePattern": "nihil"
+      "StartDay": 635,
+      "StartMonth": 765,
+      "EndDay": 769,
+      "EndMonth": 826,
+      "TZOffset": 853,
+      "StartRulePattern": "nobis",
+      "EndRulePattern": "pariatur"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 485,
-      "StartMonth": 671,
-      "EndDay": 900,
-      "EndMonth": 458,
-      "TZOffset": 304,
-      "StartRulePattern": "molestiae",
-      "EndRulePattern": "quasi"
+      "StartDay": 430,
+      "StartMonth": 491,
+      "EndDay": 356,
+      "EndMonth": 485,
+      "TZOffset": 563,
+      "StartRulePattern": "rerum",
+      "EndRulePattern": "ipsa"
     }
   }
 }

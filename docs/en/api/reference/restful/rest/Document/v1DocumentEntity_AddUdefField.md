@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 804,
-  "ColumnId": 885,
-  "FieldDefault": "aut",
-  "FieldHeight": 73,
-  "FieldLabel": "rerum",
-  "FieldLeft": 106,
-  "FieldTop": 997,
+  "UDefFieldId": 730,
+  "ColumnId": 120,
+  "FieldDefault": "harum",
+  "FieldHeight": 592,
+  "FieldLabel": "dolore",
+  "FieldLeft": 756,
+  "FieldTop": 122,
   "FieldType": "Checkbox",
-  "FieldWidth": 505,
-  "FormatMask": "repudiandae",
+  "FieldWidth": 885,
+  "FormatMask": "laudantium",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 453,
-  "LabelLeft": 506,
-  "LabelTop": 268,
-  "LabelWidth": 91,
-  "LastVersionId": 858,
-  "ListTableId": 244,
+  "LabelHeight": 672,
+  "LabelLeft": 303,
+  "LabelTop": 760,
+  "LabelWidth": 642,
+  "LastVersionId": 616,
+  "ListTableId": 480,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 298,
-  "ProgId": "inventore",
+  "Page1LineNo": 16,
+  "ProgId": "ut",
   "IsReadOnly": true,
-  "ShortLabel": "nulla",
-  "TabOrder": 732,
-  "TextLength": 276,
-  "Tooltip": "iusto",
-  "UdefIdentity": 195,
-  "UDListDefinitionId": 395,
+  "ShortLabel": "accusamus",
+  "TabOrder": 967,
+  "TextLength": 624,
+  "Tooltip": "explicabo",
+  "UdefIdentity": 779,
+  "UDListDefinitionId": 317,
   "Justification": "Center",
-  "Version": 631,
-  "TemplateVariableName": "Hilpert-Dibbert",
-  "HasBeenPublished": false,
-  "MdoListName": "Collier, Dooley and Willms",
+  "Version": 64,
+  "TemplateVariableName": "Kassulke, Cremin and Howell",
+  "HasBeenPublished": true,
+  "MdoListName": "Hamill LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 4
     }
   }
 }

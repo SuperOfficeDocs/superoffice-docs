@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "minima",
-  "ProgramName": "Anderson-Monahan",
-  "Action": "perspiciatis",
-  "ExtraParameters": "aut"
+  "Language": "perferendis",
+  "ProgramName": "Osinski Group",
+  "Action": "sapiente",
+  "ExtraParameters": "aliquid"
 }
 ```
 

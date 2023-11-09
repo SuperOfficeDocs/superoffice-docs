@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 76,
-  "Year": 644,
+  "TargetGroupId": 126,
+  "Year": 256,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 689,
+      "TargetAssignmentInfoId": 416,
       "Values": [
-        546,
-        335
+        319,
+        246
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 15,
-      "DimensionListItemDisplayName": "Bailey Inc and Sons"
+      "DimensionListItem": 120,
+      "DimensionListItemDisplayName": "Lowe-Johnston"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 980,
-  "Year": 916,
+  "TargetGroupId": 276,
+  "Year": 513,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 567,
+      "TargetAssignmentInfoId": 581,
       "Values": [
-        884,
-        238
+        809,
+        299
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 354,
-      "DimensionListItemDisplayName": "Reilly, Jacobi and Becker",
+      "DimensionListItem": 971,
+      "DimensionListItemDisplayName": "Jones-Windler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldLength": 295
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 182
+      "FieldLength": 294
     }
   }
 }

@@ -74,22 +74,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 476,
+  "TicketMessageEntityId": 436,
   "To": [
-    "qui",
-    "quisquam"
+    "maiores",
+    "quas"
   ],
   "Cc": [
-    "et",
-    "voluptates"
+    "eaque",
+    "dolores"
   ],
   "Bcc": [
-    "qui",
-    "rem"
+    "quas",
+    "corporis"
   ],
-  "Subject": "voluptatum",
-  "ReplyTemplateId": 97,
-  "GdprSource": "deserunt"
+  "Subject": "velit",
+  "ReplyTemplateId": 461,
+  "GdprSource": "voluptatem"
 }
 ```
 

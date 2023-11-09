@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 509
+  "TargetGroupId": 452
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 337,
-  "FileName": "Gaylord, Swift and Feest",
-  "Message": "quae",
+  "BatchTaskId": 654,
+  "FileName": "Jacobson, Weimann and Kling",
+  "Message": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldLength": 218
     }
   }
 }

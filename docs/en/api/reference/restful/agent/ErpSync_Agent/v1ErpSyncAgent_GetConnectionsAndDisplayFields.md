@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 278
+  "EntityId": 879
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 920,
-    "ConnectionName": "Ratke Inc and Sons",
+    "ErpConnectionId": 336,
+    "ConnectionName": "Heller, Wilderman and McLaughlin",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "ipsa",
-        "Rank": 701,
-        "DisplayName": "Ziemann, Spinka and Johnston",
-        "DisplayDescription": "Assimilated upward-trending toolset",
+        "FieldKey": "sint",
+        "Rank": 525,
+        "DisplayName": "Reilly, Schimmel and Greenholt",
+        "DisplayDescription": "Object-based 4th generation encoding",
         "FieldType": "Checkbox",
-        "ListName": "McLaughlin-Emard",
-        "DefaultValue": "accusantium",
-        "MaxLength": 870,
+        "ListName": "Rempel-Goyette",
+        "DefaultValue": "praesentium",
+        "MaxLength": 826,
         "Access": "Mandatory",
-        "ShowInSearch": true,
+        "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 253
+            "FieldLength": 262
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "id",
-      "porro"
+      "est",
+      "praesentium"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 945
+        "FieldType": "System.Int32",
+        "FieldLength": 769
       }
     }
   }

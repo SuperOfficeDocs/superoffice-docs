@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 178
+  "ProjectId": 573
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 569,
-  "BlobSize": 521,
-  "Description": "Ergonomic optimizing structure",
-  "ExtraInfo": "vero",
+  "BlobId": 238,
+  "BlobSize": 131,
+  "Description": "Business-focused tangible productivity",
+  "ExtraInfo": "fugiat",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quisquam",
-  "OriginalSize": 174,
-  "CreatedDate": "2004-11-08T03:24:47.2677007+01:00",
-  "UpdatedDate": "2010-01-08T03:24:47.2677007+01:00",
+  "MimeType": "nulla",
+  "OriginalSize": 299,
+  "CreatedDate": "2019-08-17T11:06:33.7972715+02:00",
+  "UpdatedDate": "2014-10-12T11:06:33.7972715+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ex",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldType": "System.Int32",
+      "FieldLength": 296
     }
   }
 }

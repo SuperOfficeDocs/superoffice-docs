@@ -124,13 +124,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    534,
-    920
+    816,
+    747
   ]
 }
 ```
@@ -143,64 +143,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 43,
-    "StartDate": "2019-03-21T03:24:46.9550719+01:00",
-    "EndDate": "2010-04-08T03:24:46.9550719+02:00",
+    "AppointmentId": 255,
+    "StartDate": "2000-06-29T11:06:33.4601191+02:00",
+    "EndDate": "2021-07-13T11:06:33.4601191+02:00",
     "Type": "BookingForChecklist",
-    "Task": "est",
-    "AssociateFullName": "Hilbert Warren Davis MD",
-    "ContactName": "Marks LLC",
-    "Description": "Focused didactic analyzer",
-    "PersonFullName": "Julio Gorczany",
-    "PersonId": 732,
-    "ContactId": 23,
-    "ProjectId": 125,
-    "ProjectName": "Daniel-Harvey",
-    "IsPublished": true,
-    "AssociateId": 814,
-    "ColorIndex": 466,
+    "Task": "in",
+    "AssociateFullName": "Ms. Jeanne Reinger",
+    "ContactName": "Stamm Group",
+    "Description": "Cross-platform real-time process improvement",
+    "PersonFullName": "Ms. Ayden Louisa Swaniawski",
+    "PersonId": 596,
+    "ContactId": 537,
+    "ProjectId": 100,
+    "ProjectName": "Leffler, Wyman and Nikolaus",
+    "IsPublished": false,
+    "AssociateId": 159,
+    "ColorIndex": 249,
     "IsFree": true,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 677,
-    "PriorityName": "Auer-Greenholt",
+    "PriorityId": 419,
+    "PriorityName": "O'Connell, Hamill and Johnston",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2005-05-06T03:24:46.9550719+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2019-08-13T11:06:33.475738+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-06-01T03:24:46.9550719+02:00",
-    "RecurringEndDate": "2008-11-09T03:24:46.9550719+01:00",
-    "MotherId": 71,
-    "AssignedBy": 177,
-    "AssignedByFullName": "Laisha Emard",
+    "RecurringStartDate": "2018-06-28T11:06:33.475738+02:00",
+    "RecurringEndDate": "2002-04-18T11:06:33.475738+02:00",
+    "MotherId": 408,
+    "AssignedBy": 201,
+    "AssignedByFullName": "Aurore Wolff",
     "RejectReason": "",
-    "Location": "quam",
-    "AlarmLeadTime": "aut",
-    "SaleId": 512,
-    "SaleName": "Hirthe, Mayer and Lakin",
-    "AssociateName": "Durgan-Goodwin",
-    "CreatedDate": "2005-01-28T03:24:46.9550719+01:00",
-    "CreatedBy": "accusantium",
-    "CreatedByFullName": "Ashlynn Parker",
-    "CreatedByAssociateId": 249,
+    "Location": "non",
+    "AlarmLeadTime": "deleniti",
+    "SaleId": 219,
+    "SaleName": "Hermann Inc and Sons",
+    "AssociateName": "Beier Inc and Sons",
+    "CreatedDate": "2003-12-19T11:06:33.475738+01:00",
+    "CreatedBy": "odio",
+    "CreatedByFullName": "Miss Bernice Kerluke",
+    "CreatedByAssociateId": 791,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "autem",
-    "Agenda": "ea",
-    "InternalNotes": "sed",
+    "Title": "natus",
+    "Agenda": "provident",
+    "InternalNotes": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 430
+        "FieldLength": 984
       }
     }
   }

@@ -93,14 +93,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": false,
-  "StatusMessage": "odit",
-  "Interval": "magnam",
+  "StatusMessage": "amet",
+  "Interval": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 645
     }
   }
 }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Value": "voluptatem",
-    "Tooltip": "quae",
+    "Id": 348,
+    "Value": "consequatur",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldLength": 2
       }
     }
   },
   {
-    "Id": 734,
-    "Value": "voluptatem",
-    "Tooltip": "quae",
+    "Id": 348,
+    "Value": "consequatur",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldLength": 2
       }
     }
   }

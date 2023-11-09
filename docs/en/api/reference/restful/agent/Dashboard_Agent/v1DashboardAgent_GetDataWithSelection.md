@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 37,
-  "SelectionId": 835,
-  "Restrictions": "tempora"
+  "DashboardTileId": 285,
+  "SelectionId": 627,
+  "Restrictions": "non"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Waters, Larson and Runte",
-        "DisplayTooltip": "laboriosam",
-        "DisplayType": "in",
-        "CanOrderBy": false,
-        "Name": "Weimann, Champlin and Denesik",
+        "DisplayName": "Toy-Waelchi",
+        "DisplayTooltip": "repellendus",
+        "DisplayType": "aut",
+        "CanOrderBy": true,
+        "Name": "Kovacek LLC",
         "CanRestrictBy": false,
-        "RestrictionType": "numquam",
-        "RestrictionListName": "Hoppe Group",
-        "IsVisible": false,
-        "ExtraInfo": "sit",
-        "Width": "facere",
-        "IconHint": "vitae",
-        "HeadingIconHint": "amet"
+        "RestrictionType": "praesentium",
+        "RestrictionListName": "Goldner, Murray and Heathcote",
+        "IsVisible": true,
+        "ExtraInfo": "ducimus",
+        "Width": "autem",
+        "IconHint": "eos",
+        "HeadingIconHint": "aut"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Waters, Larson and Runte",
-        "DisplayTooltip": "laboriosam",
-        "DisplayType": "in",
-        "CanOrderBy": false,
-        "Name": "Weimann, Champlin and Denesik",
+        "DisplayName": "Toy-Waelchi",
+        "DisplayTooltip": "repellendus",
+        "DisplayType": "aut",
+        "CanOrderBy": true,
+        "Name": "Kovacek LLC",
         "CanRestrictBy": false,
-        "RestrictionType": "numquam",
-        "RestrictionListName": "Hoppe Group",
-        "IsVisible": false,
-        "ExtraInfo": "sit",
-        "Width": "facere",
-        "IconHint": "vitae",
-        "HeadingIconHint": "amet"
+        "RestrictionType": "praesentium",
+        "RestrictionListName": "Goldner, Murray and Heathcote",
+        "IsVisible": true,
+        "ExtraInfo": "ducimus",
+        "Width": "autem",
+        "IconHint": "eos",
+        "HeadingIconHint": "aut"
       }
     ],
     "Result": null

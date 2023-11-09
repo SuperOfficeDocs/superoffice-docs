@@ -79,7 +79,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,24 +89,24 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 267,
-  "Name": "Rolfson Group",
-  "ContentType": "rerum",
-  "AttSize": 818,
-  "InlineImage": false,
-  "ContentId": "fugit",
-  "AuthKey": "maxime",
+  "AttachmentId": 812,
+  "Name": "Mann-Deckow",
+  "ContentType": "sit",
+  "AttSize": 695,
+  "InlineImage": true,
+  "ContentId": "delectus",
+  "AuthKey": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 134
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

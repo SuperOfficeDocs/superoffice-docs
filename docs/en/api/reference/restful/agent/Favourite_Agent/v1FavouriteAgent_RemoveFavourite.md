@@ -70,9 +70,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mohr-Greenfelder",
-  "RecordId": 707,
-  "AssociateId": 659
+  "TableName": "Ziemann Inc and Sons",
+  "RecordId": 412,
+  "AssociateId": 524
 }
 ```
 

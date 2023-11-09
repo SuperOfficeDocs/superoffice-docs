@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 264,
-    "Name": "Koelpin, Gutmann and Beier",
-    "ToolTip": "Necessitatibus sed.",
-    "Deleted": false,
-    "Rank": 734,
-    "Type": "molestiae",
-    "ColorBlock": 903,
-    "IconHint": "quod",
+    "Id": 754,
+    "Name": "Tremblay LLC",
+    "ToolTip": "Impedit dolores amet enim.",
+    "Deleted": true,
+    "Rank": 585,
+    "Type": "magni",
+    "ColorBlock": 558,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2010-12-06T03:24:52.318209+01:00",
+    "LastChanged": "2005-07-17T11:06:42.9128214+02:00",
     "ChildItems": [
       {
-        "Id": 778,
-        "Name": "Schmidt LLC",
-        "ToolTip": "Ut pariatur quos dolores odio et nihil expedita.",
-        "Deleted": false,
-        "Rank": 317,
-        "Type": "quis",
-        "ColorBlock": 282,
-        "IconHint": "ratione",
+        "Id": 155,
+        "Name": "McDermott-Muller",
+        "ToolTip": "Aut eius.",
+        "Deleted": true,
+        "Rank": 89,
+        "Type": "molestiae",
+        "ColorBlock": 492,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2017-12-17T03:24:52.318209+01:00",
+        "LastChanged": "2019-02-17T11:06:42.9128214+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "nostrum",
-        "Hidden": false,
-        "FullName": "Gerson Grant"
+        "ExtraInfo": "sit",
+        "StyleHint": "provident",
+        "Hidden": true,
+        "FullName": "Crystal Labadie"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Whitney Kassulke"
+    "ExtraInfo": "voluptates",
+    "StyleHint": "quisquam",
+    "Hidden": false,
+    "FullName": "Ms. Orval Vaughn Krajcik PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 466,
-    "Name": "Bahringer, Boyle and Durgan",
-    "ToolTip": "Id pariatur.",
+    "Id": 438,
+    "Name": "Luettgen Group",
+    "ToolTip": "Pariatur ullam ullam laudantium reprehenderit.",
     "Deleted": true,
-    "Rank": 961,
-    "Type": "aut",
-    "ColorBlock": 351,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "1996-08-07T03:24:52.318209+02:00",
+    "Rank": 566,
+    "Type": "qui",
+    "ColorBlock": 27,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2002-12-10T11:06:42.9128214+01:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Aufderhar Inc and Sons",
-        "ToolTip": "Necessitatibus veritatis dolores sunt.",
-        "Deleted": false,
-        "Rank": 849,
-        "Type": "neque",
-        "ColorBlock": 738,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2001-01-29T03:24:52.318209+01:00",
+        "Id": 211,
+        "Name": "Zieme-Anderson",
+        "ToolTip": "Est in ipsa.",
+        "Deleted": true,
+        "Rank": 570,
+        "Type": "nihil",
+        "ColorBlock": 920,
+        "IconHint": "consectetur",
+        "Selected": false,
+        "LastChanged": "2002-02-21T11:06:42.9128214+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "neque",
         "Hidden": false,
-        "FullName": "Ms. Elna Kulas DDS",
+        "FullName": "Dr. Coby Hilll II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 249
+            "FieldType": "System.Int32",
+            "FieldLength": 467
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "omnis",
+    "ExtraInfo": "id",
+    "StyleHint": "commodi",
     "Hidden": true,
-    "FullName": "Asha Prosacco",
+    "FullName": "Elnora Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldLength": 498
       }
     }
   }

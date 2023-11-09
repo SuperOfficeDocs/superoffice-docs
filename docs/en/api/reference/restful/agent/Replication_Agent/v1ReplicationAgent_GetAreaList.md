@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 820,
-    "Name": "Halvorson, Heathcote and Cremin",
-    "MaxDataAge": 526,
-    "NumberOfUsers": 316,
-    "NumberOfLogins": 44,
+    "AreaId": 52,
+    "Name": "Fritsch, Denesik and McCullough",
+    "MaxDataAge": 658,
+    "NumberOfUsers": 622,
+    "NumberOfLogins": 116,
     "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldLength": 99
       }
     }
   }

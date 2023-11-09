@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 882,
+  "ErpConnectionId": 1002,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 863,
-      "CrmFieldKey": "repellendus",
-      "CrmDisplayName": "Mann, Mann and Schimmel",
-      "CrmDisplayTooltip": "similique",
-      "ErpFieldKey": "dolorum",
+      "ErpFieldId": 896,
+      "CrmFieldKey": "neque",
+      "CrmDisplayName": "Oberbrunner, Kub and Terry",
+      "CrmDisplayTooltip": "et",
+      "ErpFieldKey": "animi",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Adams-Hartmann",
-      "ErpDisplayTooltip": "voluptatibus",
+      "ErpDisplayName": "Rice, Fahey and Ernser",
+      "ErpDisplayTooltip": "asperiores",
       "SyncToCrm": false,
-      "SyncToErp": true,
+      "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
-      "AlreadyMapped": false,
-      "MissingInERP": true,
+      "AlreadyMapped": true,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "voluptatem",
+      "ListReference": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldLength": 433
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldType": "System.String",
+      "FieldLength": 264
     }
   }
 }

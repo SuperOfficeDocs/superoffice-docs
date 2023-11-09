@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 951,
-    "LCID": 238,
-    "EnglishName": "Daniel-Barton",
-    "NativeName": "Friesen, Murphy and Kemmer",
-    "ThreeLetterISOLanguageName": "West, Cruickshank and Hand",
-    "TwoLetterISOLanguageName": "Gorczany, Connelly and Russel",
+    "LanguageInfoId": 1000,
+    "LCID": 393,
+    "EnglishName": "Sanford LLC",
+    "NativeName": "Brakus-O'Kon",
+    "ThreeLetterISOLanguageName": "Jones-Koss",
+    "TwoLetterISOLanguageName": "Ryan-Stehr",
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldType": "System.Int32",
+        "FieldLength": 759
       }
     }
   }

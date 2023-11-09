@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 767,
-  "Name": "Wehner-Miller",
-  "Tooltip": "nesciunt",
-  "Rank": 276,
+  "SaleTypeId": 421,
+  "Name": "Sporer-Jaskolski",
+  "Tooltip": "autem",
+  "Rank": 743,
   "DurationUnit": "Century",
-  "SaleDuration": 736,
-  "SaleTypeCatId": 484,
+  "SaleDuration": 947,
+  "SaleTypeCatId": 388,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 800,
-  "QuoteLinesTemplate": 96,
-  "ConfirmationLinesTemplate": 405,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 380,
-  "MinEarningPercent": 807,
-  "GroupQuoteLinesBy": 936,
-  "SortGroupLinesBy": 555,
+  "DefaultQuoteValidity": 662,
+  "QuoteLinesTemplate": 982,
+  "ConfirmationLinesTemplate": 240,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 918,
+  "MinEarningPercent": 818,
+  "GroupQuoteLinesBy": 410,
+  "SortGroupLinesBy": 544,
   "Stages": [
     {
-      "Id": 771,
-      "Name": "Klocko-O'Kon",
-      "ToolTip": "At aut quia voluptas.",
-      "Deleted": true,
-      "Rank": 934,
-      "Type": "incidunt",
-      "ColorBlock": 267,
-      "IconHint": "aliquam",
-      "Selected": true,
-      "LastChanged": "2009-09-21T03:24:52.4119449+02:00",
+      "Id": 503,
+      "Name": "Friesen-Cassin",
+      "ToolTip": "Fugit quis quasi voluptas fugit et.",
+      "Deleted": false,
+      "Rank": 702,
+      "Type": "nisi",
+      "ColorBlock": 448,
+      "IconHint": "architecto",
+      "Selected": false,
+      "LastChanged": "2016-10-12T11:06:43.0534497+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "nobis",
+      "ExtraInfo": "dicta",
+      "StyleHint": "omnis",
       "Hidden": false,
-      "FullName": "Prof. Gennaro Hahn"
+      "FullName": "Prof. Janessa Elbert Little"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 311,
-  "Name": "Marks-Fay",
-  "Tooltip": "mollitia",
-  "Rank": 214,
+  "SaleTypeId": 816,
+  "Name": "O'Keefe-Hand",
+  "Tooltip": "enim",
+  "Rank": 186,
   "DurationUnit": "Century",
-  "SaleDuration": 623,
-  "SaleTypeCatId": 306,
+  "SaleDuration": 838,
+  "SaleTypeCatId": 905,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 1001,
-  "QuoteLinesTemplate": 974,
-  "ConfirmationLinesTemplate": 264,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 837,
+  "QuoteLinesTemplate": 190,
+  "ConfirmationLinesTemplate": 260,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 200,
-  "MinEarningPercent": 177,
-  "GroupQuoteLinesBy": 716,
-  "SortGroupLinesBy": 533,
+  "MaxDiscountPercent": 393,
+  "MinEarningPercent": 295,
+  "GroupQuoteLinesBy": 229,
+  "SortGroupLinesBy": 472,
   "Stages": [
     {
-      "Id": 916,
-      "Name": "Gaylord, Hagenes and Keebler",
-      "ToolTip": "Quibusdam qui doloremque nobis est.",
-      "Deleted": false,
-      "Rank": 968,
-      "Type": "enim",
-      "ColorBlock": 988,
-      "IconHint": "dolore",
+      "Id": 944,
+      "Name": "Pfeffer Group",
+      "ToolTip": "Ea quo sint cum cum voluptas.",
+      "Deleted": true,
+      "Rank": 630,
+      "Type": "occaecati",
+      "ColorBlock": 520,
+      "IconHint": "reiciendis",
       "Selected": false,
-      "LastChanged": "2021-12-24T03:24:52.4119449+01:00",
+      "LastChanged": "2006-12-18T11:06:43.0534497+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptate",
-      "StyleHint": "qui",
+      "ExtraInfo": "sunt",
+      "StyleHint": "earum",
       "Hidden": false,
-      "FullName": "Thelma Dach",
+      "FullName": "Myrtice McClure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 710
+          "FieldType": "System.Int32",
+          "FieldLength": 423
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldLength": 349
     }
   }
 }

@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 922,
-    "ErpConnectorId": 335,
-    "DisplayName": "Monahan-Hauck",
-    "DisplayDescription": "Diverse cohesive matrix",
-    "Active": true,
-    "ConnectionId": "ipsa",
-    "MostRecentTimestamp": "aut",
+    "ErpConnectionId": 707,
+    "ErpConnectorId": 304,
+    "DisplayName": "Waters LLC",
+    "DisplayDescription": "User-centric cohesive focus group",
+    "Active": false,
+    "ConnectionId": "quaerat",
+    "MostRecentTimestamp": "similique",
     "ConfigFields": {
-      "ConfigFields1": "laborum",
-      "ConfigFields2": "minus"
+      "ConfigFields1": "dolor",
+      "ConfigFields2": "nostrum"
     },
-    "Deleted": true,
-    "AllAccess": true,
+    "Deleted": false,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      845,
-      780
+      873,
+      952
     ],
     "AssociateAccessIds": [
-      782,
-      278
+      79,
+      654
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 643
+        "FieldLength": 40
       }
     }
   }

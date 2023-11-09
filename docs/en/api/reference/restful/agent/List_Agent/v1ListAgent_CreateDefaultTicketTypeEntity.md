@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 374,
-  "Name": "Conroy, Olson and Carroll",
-  "Rank": 40,
-  "Tooltip": "et",
-  "Icon": "ad",
-  "DefaultTicketStatus": 962,
+  "TicketTypeId": 726,
+  "Name": "Aufderhar-Moore",
+  "Rank": 860,
+  "Tooltip": "quaerat",
+  "Icon": "doloribus",
+  "DefaultTicketStatus": 842,
   "TicketStatuses": [
-    727,
-    676
+    509,
+    267
   ],
-  "DefaultTicketPriority": 467,
+  "DefaultTicketPriority": 35,
   "TicketPriorities": [
-    405,
-    834
+    171,
+    63
   ],
-  "ReplyTemplate": 559,
+  "ReplyTemplate": 511,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 731
     }
   }
 }

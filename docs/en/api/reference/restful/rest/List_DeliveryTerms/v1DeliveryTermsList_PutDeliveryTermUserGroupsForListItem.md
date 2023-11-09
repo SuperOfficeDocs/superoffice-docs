@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Bergnaum-Schaefer",
-    "ToolTip": "Asperiores exercitationem omnis earum in ea neque.",
-    "Deleted": true,
-    "Rank": 283,
-    "Type": "deserunt",
-    "ColorBlock": 976,
-    "IconHint": "delectus",
+    "Id": 458,
+    "Name": "Stokes, Bradtke and Vandervort",
+    "ToolTip": "Esse corporis maxime ut ad aut.",
+    "Deleted": false,
+    "Rank": 779,
+    "Type": "aut",
+    "ColorBlock": 182,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2000-09-24T03:24:52.240053+02:00",
+    "LastChanged": "1996-10-11T11:06:42.7878188+02:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Luettgen Group",
-        "ToolTip": "Voluptatem occaecati et cumque.",
-        "Deleted": true,
-        "Rank": 119,
-        "Type": "quis",
-        "ColorBlock": 28,
-        "IconHint": "nostrum",
+        "Id": 835,
+        "Name": "Fay Inc and Sons",
+        "ToolTip": "Voluptas facere non officiis officia aut dolorum voluptatem.",
+        "Deleted": false,
+        "Rank": 285,
+        "Type": "vero",
+        "ColorBlock": 313,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2016-05-06T03:24:52.240053+02:00",
+        "LastChanged": "2023-03-07T11:06:42.7878188+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Leslie Wiza Sr."
+        "ExtraInfo": "illo",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Linnie Kuphal"
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Zechariah Christiansen"
+    "ExtraInfo": "beatae",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Caesar Schuster"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "D'Amore, King and White",
-    "ToolTip": "Eos corrupti assumenda numquam ea et dicta at.",
+    "Id": 498,
+    "Name": "Turner Group",
+    "ToolTip": "Eius illo explicabo ullam sit.",
     "Deleted": false,
-    "Rank": 508,
-    "Type": "aliquid",
-    "ColorBlock": 218,
-    "IconHint": "maxime",
-    "Selected": true,
-    "LastChanged": "2018-12-14T03:24:52.240053+01:00",
+    "Rank": 449,
+    "Type": "minus",
+    "ColorBlock": 232,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2016-10-11T11:06:42.7878188+02:00",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Dare LLC",
-        "ToolTip": "Molestiae quis sit eum recusandae exercitationem.",
-        "Deleted": true,
-        "Rank": 799,
-        "Type": "et",
-        "ColorBlock": 806,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2018-01-14T03:24:52.240053+01:00",
+        "Id": 862,
+        "Name": "Bauch Inc and Sons",
+        "ToolTip": "Voluptas officia sequi.",
+        "Deleted": false,
+        "Rank": 807,
+        "Type": "distinctio",
+        "ColorBlock": 433,
+        "IconHint": "at",
+        "Selected": true,
+        "LastChanged": "2023-07-27T11:06:42.7878188+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "iure",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Leora Schoen MD",
+        "FullName": "Aylin Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 769
+            "FieldType": "System.Int32",
+            "FieldLength": 337
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "et",
+    "ExtraInfo": "quae",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Ms. Elton Glover",
+    "FullName": "Prof. Kaylee Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldType": "System.String",
+        "FieldLength": 283
       }
     }
   }

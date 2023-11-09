@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 422
+  "ContactId": 818
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aut",
-    "PersonId": 202,
-    "Mrmrs": "nesciunt",
-    "Firstname": "Eden",
-    "Lastname": "Reichel",
-    "MiddleName": "Sporer LLC",
-    "Title": "reiciendis",
-    "Description": "Upgradable assymetric local area network",
-    "Email": "elmore@bartell.com",
-    "FullName": "Dr. Misael Desmond Aufderhar",
-    "DirectPhone": "941.223.5321",
-    "FormalName": "Nikolaus Group",
-    "CountryId": 284,
-    "ContactId": 259,
-    "ContactName": "Hegmann Group",
-    "Retired": 892,
-    "Rank": 388,
-    "ActiveInterests": 262,
+    "Position": "officiis",
+    "PersonId": 852,
+    "Mrmrs": "omnis",
+    "Firstname": "Buster",
+    "Lastname": "Cruickshank",
+    "MiddleName": "Gulgowski, Weber and Reilly",
+    "Title": "est",
+    "Description": "Open-architected client-server local area network",
+    "Email": "marquis.hintz@gislason.us",
+    "FullName": "Shayne Adams",
+    "DirectPhone": "795-969-0577",
+    "FormalName": "Krajcik-Hintz",
+    "CountryId": 568,
+    "ContactId": 980,
+    "ContactName": "Dicki-Fritsch",
+    "Retired": 104,
+    "Rank": 577,
+    "ActiveInterests": 375,
     "ContactDepartment": "",
-    "ContactCountryId": 864,
-    "ContactOrgNr": "922847",
-    "FaxPhone": "1-799-882-8989 x260",
-    "MobilePhone": "1-862-562-3474",
-    "ContactPhone": "1-322-961-6652 x8019",
-    "AssociateName": "Herman-Weber",
-    "AssociateId": 158,
-    "UsePersonAddress": false,
-    "ContactFax": "et",
-    "Kanafname": "rerum",
-    "Kanalname": "est",
-    "Post1": "eos",
-    "Post2": "quas",
-    "Post3": "quisquam",
-    "EmailName": "enid.klein@cormierkovacek.info",
-    "ContactFullName": "Miss Carmela Corkery",
-    "ActiveErpLinks": 467,
-    "TicketPriorityId": 572,
-    "SupportLanguageId": 380,
-    "SupportAssociateId": 634,
+    "ContactCountryId": 815,
+    "ContactOrgNr": "1330667",
+    "FaxPhone": "067.295.4429",
+    "MobilePhone": "197.918.4735",
+    "ContactPhone": "047-901-7238",
+    "AssociateName": "Tillman, Moore and Gaylord",
+    "AssociateId": 535,
+    "UsePersonAddress": true,
+    "ContactFax": "fuga",
+    "Kanafname": "ut",
+    "Kanalname": "praesentium",
+    "Post1": "nihil",
+    "Post2": "illo",
+    "Post3": "et",
+    "EmailName": "gonzalo_wuckert@lemke.co.uk",
+    "ContactFullName": "Hattie Nitzsche DVM",
+    "ActiveErpLinks": 7,
+    "TicketPriorityId": 541,
+    "SupportLanguageId": 270,
+    "SupportAssociateId": 480,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldLength": 39
       }
     }
   }

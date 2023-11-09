@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "quia",
   "Specification": null,
-  "DisplayValue": "nihil",
-  "DisplayTooltip": "asperiores",
+  "DisplayValue": "quam",
+  "DisplayTooltip": "autem",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 737,
-  "PrefDescId": 698,
-  "TableName": "Dibbert-Hamill",
-  "UserPreferenceId": 313,
+  "TargetId": 106,
+  "PrefDescId": 674,
+  "TableName": "Purdy-Yundt",
+  "UserPreferenceId": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldType": "System.String",
+      "FieldLength": 116
     }
   }
 }

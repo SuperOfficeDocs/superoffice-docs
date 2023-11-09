@@ -75,12 +75,12 @@ OK
 POST /api/v1/Agents/User/GetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 544,
-  "TableName": "Brown LLC",
+  "RoleId": 762,
+  "TableName": "Mayer-Prohaska",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolores"
+"cupiditate"
 ```

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Becker Group",
-  "ListItemId": 782,
+  "UdListDefinitionName": "Schumm Group",
+  "ListItemId": 697,
   "UserGroups": [
     {
-      "Id": 689,
-      "Name": "Rohan-Carroll",
-      "ToolTip": "Omnis eveniet quod eveniet recusandae.",
-      "Deleted": false,
-      "Rank": 32,
-      "Type": "eos",
-      "ColorBlock": 257,
-      "IconHint": "sed",
+      "Id": 95,
+      "Name": "Medhurst LLC",
+      "ToolTip": "Quo ut aliquam odit iure.",
+      "Deleted": true,
+      "Rank": 24,
+      "Type": "occaecati",
+      "ColorBlock": 586,
+      "IconHint": "voluptatibus",
       "Selected": false,
-      "LastChanged": "1996-05-22T03:24:47.8613878+02:00",
+      "LastChanged": "2006-11-19T11:06:34.7083083+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sequi",
-      "StyleHint": "aperiam",
+      "ExtraInfo": "ratione",
+      "StyleHint": "similique",
       "Hidden": true,
-      "FullName": "Maurine Orn"
+      "FullName": "Alexander Labadie"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 971,
-    "Name": "Mosciski, Rolfson and Carter",
-    "ToolTip": "Quis in.",
-    "Deleted": false,
-    "Rank": 533,
-    "Type": "vel",
-    "ColorBlock": 281,
-    "IconHint": "molestias",
-    "Selected": false,
-    "LastChanged": "2002-08-30T03:24:47.8613878+02:00",
+    "Id": 26,
+    "Name": "Luettgen Inc and Sons",
+    "ToolTip": "Quo expedita fugiat.",
+    "Deleted": true,
+    "Rank": 999,
+    "Type": "commodi",
+    "ColorBlock": 516,
+    "IconHint": "tempore",
+    "Selected": true,
+    "LastChanged": "2005-12-14T11:06:34.7083083+01:00",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Cremin-Wintheiser",
-        "ToolTip": "Quis distinctio aut nihil cupiditate.",
+        "Id": 609,
+        "Name": "Rowe-Torp",
+        "ToolTip": "Optio tenetur temporibus magnam.",
         "Deleted": false,
-        "Rank": 885,
-        "Type": "vero",
-        "ColorBlock": 944,
-        "IconHint": "totam",
+        "Rank": 639,
+        "Type": "ea",
+        "ColorBlock": 665,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2023-09-09T03:24:47.8613878+02:00",
+        "LastChanged": "2018-08-31T11:06:34.7083083+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "dolor",
+        "ExtraInfo": "minus",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Prof. Jackie Isadore Abbott",
+        "FullName": "Mr. Marcus Tyshawn O'Connell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 535
+            "FieldLength": 567
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "hic",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Prof. Jaida Kohler II",
+    "FullName": "Austen DuBuque MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 816
+        "FieldLength": 679
       }
     }
   }

@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 461,
-  "Name": "Erdman Inc and Sons",
-  "ConsentText": "ex",
-  "FormText": "corporis",
-  "Key": "voluptatem",
-  "Tooltip": "accusamus",
-  "Active": 783,
-  "UpdatedDate": "2008-08-05T03:24:52.1932187+02:00",
+  "ConsentPurposeId": 208,
+  "Name": "Halvorson, Tillman and Satterfield",
+  "ConsentText": "ab",
+  "FormText": "fugit",
+  "Key": "praesentium",
+  "Tooltip": "voluptate",
+  "Active": 110,
+  "UpdatedDate": "2001-03-16T11:06:42.7096943+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 151,
-  "PrivacyStatementDesc": "expedita",
+  "Rank": 831,
+  "PrivacyStatementDesc": "omnis",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 853,
-  "Name": "Ritchie-Hagenes",
-  "ConsentText": "inventore",
-  "FormText": "vero",
-  "Key": "sit",
-  "Tooltip": "inventore",
-  "Active": 978,
-  "UpdatedDate": "2014-11-25T03:24:52.1932187+01:00",
+  "ConsentPurposeId": 215,
+  "Name": "Corkery-Graham",
+  "ConsentText": "excepturi",
+  "FormText": "ullam",
+  "Key": "quo",
+  "Tooltip": "et",
+  "Active": 209,
+  "UpdatedDate": "2002-09-20T11:06:42.7253202+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 994,
-  "PrivacyStatementDesc": "placeat",
+  "Deleted": false,
+  "Rank": 860,
+  "PrivacyStatementDesc": "incidunt",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldType": "System.Int32",
+      "FieldLength": 457
     }
   }
 }

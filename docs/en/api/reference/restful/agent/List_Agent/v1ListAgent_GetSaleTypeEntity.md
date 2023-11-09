@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=998
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=822
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 905,
-  "Name": "Reinger, Fritsch and Daugherty",
-  "Tooltip": "quae",
-  "Rank": 861,
+  "SaleTypeId": 615,
+  "Name": "DuBuque, Reinger and Mante",
+  "Tooltip": "et",
+  "Rank": 817,
   "DurationUnit": "Century",
-  "SaleDuration": 616,
-  "SaleTypeCatId": 431,
-  "Deleted": false,
-  "HasGuide": true,
+  "SaleDuration": 142,
+  "SaleTypeCatId": 154,
+  "Deleted": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 358,
-  "QuoteLinesTemplate": 255,
-  "ConfirmationLinesTemplate": 837,
+  "DefaultQuoteValidity": 936,
+  "QuoteLinesTemplate": 475,
+  "ConfirmationLinesTemplate": 702,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 422,
-  "MinEarningPercent": 727,
-  "GroupQuoteLinesBy": 567,
-  "SortGroupLinesBy": 159,
+  "MaxDiscountPercent": 84,
+  "MinEarningPercent": 7,
+  "GroupQuoteLinesBy": 299,
+  "SortGroupLinesBy": 285,
   "Stages": [
     {
-      "Id": 642,
-      "Name": "Roob, Mueller and Abshire",
-      "ToolTip": "Laudantium et quae repudiandae aut debitis odio odit.",
-      "Deleted": false,
-      "Rank": 45,
-      "Type": "aspernatur",
-      "ColorBlock": 490,
-      "IconHint": "pariatur",
+      "Id": 11,
+      "Name": "Schinner, Windler and Berge",
+      "ToolTip": "Accusamus aspernatur quis at.",
+      "Deleted": true,
+      "Rank": 357,
+      "Type": "eos",
+      "ColorBlock": 611,
+      "IconHint": "fugit",
       "Selected": true,
-      "LastChanged": "2014-02-12T03:24:47.8613878+01:00",
+      "LastChanged": "2023-03-08T11:06:34.6926855+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatum",
-      "StyleHint": "quos",
+      "ExtraInfo": "sunt",
+      "StyleHint": "ut",
       "Hidden": false,
-      "FullName": "Dr. Randi Fidel Roberts",
+      "FullName": "Moshe Fadel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 394
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldLength": 346
     }
   }
 }

@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,43 +113,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 775,
-  "Name": "Borer-Ward",
-  "Description": "Managed value-added encoding",
-  "WelcomeMessage": "dolorem",
+  "ChatTopicId": 541,
+  "Name": "Dooley, Batz and Kiehn",
+  "Description": "Decentralized tangible structure",
+  "WelcomeMessage": "pariatur",
   "Language": null,
-  "LastAccept": "2013-08-31T03:24:51.4429545+02:00",
-  "SecondsPrAccept": 246,
-  "AlertRecipient": "et",
+  "LastAccept": "2011-02-24T11:06:41.5353656+01:00",
+  "SecondsPrAccept": 687,
+  "AlertRecipient": "sunt",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "repellat",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "sunt",
-  "WarnNewChatMinutes": 792,
-  "WarnManagerNewChatMinutes": 162,
+  "BadgeHeader": "et",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "pariatur",
+  "WarnNewChatMinutes": 465,
+  "WarnManagerNewChatMinutes": 225,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 406,
-  "WarnManagerChatMessageMinutes": 277,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 379,
+  "WarnManagerChatMessageMinutes": 225,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 473,
-  "OfflineFormQueueLength": 878,
+  "OfflineFormTimeLimit": 345,
+  "OfflineFormQueueLength": 56,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "aut",
+  "WidgetRatingText": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   },
   "_Links": {

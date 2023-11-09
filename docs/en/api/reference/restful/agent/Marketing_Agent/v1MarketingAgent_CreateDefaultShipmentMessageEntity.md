@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 537,
-  "PlainMessage": "optio",
-  "HtmlMessage": "odio",
-  "SmsMessage": "doloremque",
-  "Description": "Vision-oriented full-range access",
-  "Subject": "perferendis",
-  "FolderId": 419,
-  "HeaderField": "repudiandae",
+  "ShipmentMessageId": 75,
+  "PlainMessage": "consequuntur",
+  "HtmlMessage": "mollitia",
+  "SmsMessage": "harum",
+  "Description": "Digitized incremental emulation",
+  "Subject": "eius",
+  "FolderId": 413,
+  "HeaderField": "quas",
   "Design": "eos",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Quality-focused methodical challenge",
-  "AccessKey": "molestias",
-  "DocumentMessage": 831,
-  "Registered": "2011-06-19T03:24:47.9238778+02:00",
-  "RegisteredAssociateId": 203,
-  "Updated": "2007-03-21T03:24:47.9238778+01:00",
-  "UpdatedAssociateId": 398,
-  "UpdatedCount": 853,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Self-enabling multi-tasking groupware",
+  "AccessKey": "autem",
+  "DocumentMessage": 229,
+  "Registered": "2004-11-13T11:06:34.7864409+01:00",
+  "RegisteredAssociateId": 1000,
+  "Updated": "2007-06-11T11:06:34.7864409+02:00",
+  "UpdatedAssociateId": 52,
+  "UpdatedCount": 245,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 934
+      "FieldType": "System.Int32",
+      "FieldLength": 641
     }
   }
 }

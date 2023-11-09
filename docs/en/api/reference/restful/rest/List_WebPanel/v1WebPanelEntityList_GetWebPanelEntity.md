@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,33 +92,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 310,
-  "Name": "Eichmann-Reynolds",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 319,
+  "WebPanelId": 361,
+  "Name": "Torphy Group",
+  "Tooltip": "nesciunt",
+  "Deleted": true,
+  "Rank": 578,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Corkery-Waelchi",
+  "WindowName": "Pouros, Christiansen and Schuster",
   "Url": "http://www.example.com/",
-  "ProgId": "illum",
-  "Icon": 370,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "ea",
+  "Icon": 755,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 353
     }
   }
 }

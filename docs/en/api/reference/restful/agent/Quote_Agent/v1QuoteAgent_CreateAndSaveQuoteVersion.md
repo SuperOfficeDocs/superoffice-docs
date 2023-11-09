@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 227
+  "QuoteVersionId": 866
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 91,
-  "ERPQuoteVersionKey": "velit",
-  "QuoteId": 712,
-  "Description": "Programmable optimizing knowledge user",
-  "Number": "384231",
+  "QuoteVersionId": 558,
+  "ERPQuoteVersionKey": "aliquam",
+  "QuoteId": 698,
+  "Description": "Operative cohesive success",
+  "Number": "863508",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 521,
-  "SentDate": "2021-12-05T03:24:48.111357+01:00",
-  "FollowupId": 415,
-  "ExpirationDate": "1996-05-19T03:24:48.111357+02:00",
-  "DeliveryCountryId": 786,
+  "LikelyQuoteAlternativeId": 914,
+  "SentDate": "2004-08-18T11:06:35.1770754+02:00",
+  "FollowupId": 246,
+  "ExpirationDate": "2009-04-09T11:06:35.1770754+02:00",
+  "DeliveryCountryId": 597,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 692,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "neque",
-  "ERPPaymentTypeKey": "minus",
-  "ERPDeliveryTermsKey": "et",
-  "ERPDeliveryTypeKey": "error",
-  "Rank": 339,
-  "ApprovedBy": 947,
-  "ApprovedText": "praesentium",
-  "ApprovedRegisteredBy": 196,
-  "ApprovedRegisteredDate": "2000-01-09T03:24:48.111357+01:00",
-  "ExtraField1": "reprehenderit",
-  "ExtraField2": "voluptate",
-  "ExtraField3": "modi",
-  "ExtraField4": "commodi",
-  "ExtraField5": "delectus",
-  "LastRecalculated": "1998-04-08T03:24:48.111357+02:00",
-  "Updated": "2003-04-20T03:24:48.111357+02:00",
-  "UpdatedAssociateId": 351,
-  "Registered": "2015-04-17T03:24:48.111357+02:00",
-  "RegisteredAssociateId": 886,
-  "RequestAssociateId": 279,
-  "RequestComment": "et",
+  "InvoiceCountryId": 358,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "voluptatum",
+  "ERPPaymentTypeKey": "modi",
+  "ERPDeliveryTermsKey": "voluptatibus",
+  "ERPDeliveryTypeKey": "perspiciatis",
+  "Rank": 40,
+  "ApprovedBy": 749,
+  "ApprovedText": "sunt",
+  "ApprovedRegisteredBy": 81,
+  "ApprovedRegisteredDate": "2008-08-30T11:06:35.1770754+02:00",
+  "ExtraField1": "quibusdam",
+  "ExtraField2": "qui",
+  "ExtraField3": "et",
+  "ExtraField4": "quo",
+  "ExtraField5": "occaecati",
+  "LastRecalculated": "2023-08-27T11:06:35.1770754+02:00",
+  "Updated": "2013-08-21T11:06:35.1770754+02:00",
+  "UpdatedAssociateId": 311,
+  "Registered": "2013-11-30T11:06:35.1770754+01:00",
+  "RegisteredAssociateId": 995,
+  "RequestAssociateId": 122,
+  "RequestComment": "architecto",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 596,
-      "ERPQuoteAlternativeKey": "quis",
-      "QuoteVersionId": 641,
-      "Name": "Heidenreich-Bosco",
-      "Description": "Persevering reciprocal hub",
+      "QuoteAlternativeId": 51,
+      "ERPQuoteAlternativeKey": "voluptas",
+      "QuoteVersionId": 502,
+      "Name": "Flatley Inc and Sons",
+      "Description": "Up-sized eco-centric frame",
       "Status": "Error",
-      "Reason": "cultivate compelling infomediaries",
-      "ERPDiscountPercent": 27635.611999999997,
-      "ERPDiscountAmount": 5973.4039999999995,
-      "DiscountPercent": 23081.91,
-      "DiscountAmount": 24156.872,
+      "Reason": "",
+      "ERPDiscountPercent": 20358.464,
+      "ERPDiscountAmount": 23868.543999999998,
+      "DiscountPercent": 3535.152,
+      "DiscountAmount": 23473.66,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "eum",
-      "VAT": 23132.054,
-      "EarningPercent": 9781.214,
-      "EarningAmount": 17020.754,
-      "SubTotal": 11526.851999999999,
-      "TotalPrice": 4835.762,
-      "ExtraField1": "pariatur",
-      "ExtraField2": "quo",
-      "ExtraField3": "itaque",
-      "ExtraField4": "non",
-      "ExtraField5": "voluptas",
+      "VATInfo": "omnis",
+      "VAT": 13024.904,
+      "EarningPercent": 30822.89,
+      "EarningAmount": 4663.392,
+      "SubTotal": 13990.176,
+      "TotalPrice": 4701.0,
+      "ExtraField1": "quidem",
+      "ExtraField2": "est",
+      "ExtraField3": "eos",
+      "ExtraField4": "voluptate",
+      "ExtraField5": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldLength": 886
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 64
     }
   }
 }

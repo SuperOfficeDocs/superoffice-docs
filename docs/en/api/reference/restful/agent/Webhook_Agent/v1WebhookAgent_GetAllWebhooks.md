@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Bashirian-Rowe",
-  "EventFilter": "incidunt",
+  "NameFilter": "Rutherford-Corwin",
+  "EventFilter": "laborum",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 709,
-    "Name": "Littel, Barton and Schowalter",
+    "WebhookId": 465,
+    "Name": "Konopelski, Christiansen and Kuhlman",
     "Events": [
-      "iusto",
-      "unde"
+      "deserunt",
+      "voluptas"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "rerum",
+    "Secret": "non",
     "State": "Active",
-    "Type": "sit",
+    "Type": "quo",
     "Headers": {
-      "Headers1": "dolores",
-      "Headers2": "aspernatur"
+      "Headers1": "voluptatem",
+      "Headers2": "blanditiis"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2000-06-19T03:24:48.5966823+02:00",
+    "Registered": "2005-08-08T11:06:35.7733119+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2014-11-28T03:24:48.5966823+01:00",
+    "Updated": "1999-12-16T11:06:35.7733119+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "herta@mcdermott.com"
+    "ErrorsEmail": "zoe_stanton@balistrerischumm.us"
   }
 ]
 ```

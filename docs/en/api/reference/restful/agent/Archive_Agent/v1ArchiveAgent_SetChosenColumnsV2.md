@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Goodwin, Towne and Wolff",
-  "ProviderName": "Buckridge Group",
-  "Context": "illum",
-  "OwnerKeys": "voluptatibus",
+  "GuiName": "Murazik, DuBuque and Grant",
+  "ProviderName": "Crona-Schroeder",
+  "Context": "quisquam",
+  "OwnerKeys": "natus",
   "ChosenColumns": [
-    "delectus",
-    "a"
+    "ratione",
+    "ut"
   ]
 }
 ```

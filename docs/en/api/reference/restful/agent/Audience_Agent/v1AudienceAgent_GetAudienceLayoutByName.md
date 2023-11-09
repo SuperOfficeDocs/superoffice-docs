@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Stoltenberg LLC"
+  "LayoutName": "Moore-Mraz"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 644,
-  "InstanceLayout": "animi",
-  "InstanceName": "Johnston LLC",
-  "CreatedDate": "2008-09-21T03:24:47.2520803+02:00",
-  "UpdatedDate": "1997-03-21T03:24:47.2520803+01:00",
+  "AudienceLayoutId": 808,
+  "InstanceLayout": "ipsum",
+  "InstanceName": "Dickinson, Romaguera and Larson",
+  "CreatedDate": "2006-02-02T11:06:33.7816525+01:00",
+  "UpdatedDate": "2001-06-26T11:06:33.7816525+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldType": "System.String",
+      "FieldLength": 616
     }
   }
 }

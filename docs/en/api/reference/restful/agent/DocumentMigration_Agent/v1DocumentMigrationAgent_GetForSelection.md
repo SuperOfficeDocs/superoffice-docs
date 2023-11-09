@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 971,
-  "SelectionId": 465,
-  "IncludeEmails": true
+  "DocumentPluginId": 428,
+  "SelectionId": 481,
+  "IncludeEmails": false
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 434,
-  "NumDocumentsAlreadyMigrated": 65,
+  "NumDocumentsOmitted": 934,
+  "NumDocumentsAlreadyMigrated": 127,
   "Documents": [
     {
-      "DocumentId": 536,
-      "ContactId": 594,
-      "PersonId": 329,
-      "SaleId": 613,
-      "ProjectId": 116,
-      "DocTmplId": 159,
-      "AssociateId": 151,
-      "UserGroupId": 589,
-      "VisibleForId": 247
+      "DocumentId": 359,
+      "ContactId": 194,
+      "PersonId": 246,
+      "SaleId": 695,
+      "ProjectId": 556,
+      "DocTmplId": 586,
+      "AssociateId": 464,
+      "UserGroupId": 870,
+      "VisibleForId": 529
     }
   ],
   "Associates": [
     {
-      "AssociateId": 803,
-      "EmailAddress": "vallie@littel.ca"
+      "AssociateId": 472,
+      "EmailAddress": "sierra_miller@jakubowski.co.uk"
     },
     {
-      "AssociateId": 803,
-      "EmailAddress": "vallie@littel.ca"
+      "AssociateId": 472,
+      "EmailAddress": "sierra_miller@jakubowski.co.uk"
     }
   ]
 }

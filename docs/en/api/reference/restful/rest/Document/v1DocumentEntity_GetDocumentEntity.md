@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 30 Oct 2002 03:24:51 G10T
+Last-Modified: Wed, 18 Jun 2014 11:06:41 G6T
 
 {
-  "DocumentId": 636,
+  "DocumentId": 826,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "iste",
-  "Header": "aliquid",
-  "Name": "Monahan, Baumbach and Funk",
-  "OurRef": "sit",
-  "YourRef": "quo",
-  "CreatedDate": "2003-09-15T03:24:51.5681102+02:00",
-  "UpdatedDate": "2002-10-30T03:24:51.5681102+01:00",
-  "Description": "Fully-configurable user-facing middleware",
+  "Attention": "consequatur",
+  "Header": "vero",
+  "Name": "Langosh, Fahey and Russel",
+  "OurRef": "repudiandae",
+  "YourRef": "laudantium",
+  "CreatedDate": "2010-09-30T11:06:41.8165985+02:00",
+  "UpdatedDate": "2014-06-18T11:06:41.8165985+02:00",
+  "Description": "Self-enabling fault-tolerant interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-05-13T03:24:51.5681102+02:00",
-  "ExternalRef": "quia",
+  "Date": "2013-10-14T11:06:41.8165985+02:00",
+  "ExternalRef": "expedita",
   "Completed": "Completed",
-  "ActiveLinks": 491,
+  "ActiveLinks": 448,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Heller-Feil",
-      "Id": 990,
-      "Description": "Re-engineered dedicated Graphic Interface",
-      "ExtraInfo": "omnis",
-      "LinkId": 840,
+      "EntityName": "Kuhic, Breitenberg and Ratke",
+      "Id": 572,
+      "Description": "Visionary assymetric concept",
+      "ExtraInfo": "ratione",
+      "LinkId": 217,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldLength": 326
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 194,
-  "Snum": 65,
+  "SuggestedDocumentId": 120,
+  "Snum": 903,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dagmar Strosin",
-    "SuperOffice:2": "Alysha Von IV"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Marcel Barton"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "vero"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "corrupti"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "mollitia"
+    "CustomFields1": "amet",
+    "CustomFields2": "quas"
   },
-  "PublishEventDate": "1997-03-15T03:24:51.5681102+01:00",
-  "PublishTo": "2011-05-09T03:24:51.5681102+02:00",
-  "PublishFrom": "2021-11-26T03:24:51.5681102+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2023-05-18T11:06:41.8165985+02:00",
+  "PublishTo": "1996-09-14T11:06:41.8165985+02:00",
+  "PublishFrom": "2008-06-12T11:06:41.8165985+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 127,
+      "VisibleId": 654,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldType": "System.String",
+          "FieldLength": 770
         }
       }
     },
     {
-      "VisibleId": 127,
+      "VisibleId": 654,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldType": "System.String",
+          "FieldLength": 770
         }
       }
     }
@@ -211,7 +211,7 @@ Last-Modified: Wed, 30 Oct 2002 03:24:51 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 523
     }
   },
   "_Links": {

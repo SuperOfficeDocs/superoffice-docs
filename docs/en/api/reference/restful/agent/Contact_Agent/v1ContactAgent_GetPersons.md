@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 694
+  "ContactId": 189
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "eos",
-    "PersonId": 798,
-    "Mrmrs": "qui",
-    "Firstname": "Vergie",
-    "Lastname": "Cole",
-    "MiddleName": "Stoltenberg Group",
-    "Title": "necessitatibus",
-    "Description": "Organized well-modulated pricing structure",
-    "Email": "warren@okuneva.co.uk",
-    "FullName": "Mrs. Randi Zulauf",
-    "DirectPhone": "(985)883-9156",
-    "FormalName": "Hilll Group",
-    "CountryId": 855,
-    "ContactId": 396,
-    "ContactName": "Kuvalis Group",
-    "Retired": 110,
-    "Rank": 773,
-    "ActiveInterests": 293,
+    "Position": "doloribus",
+    "PersonId": 414,
+    "Mrmrs": "ipsum",
+    "Firstname": "Petra",
+    "Lastname": "Walsh",
+    "MiddleName": "Maggio Group",
+    "Title": "tempora",
+    "Description": "Synchronised national superstructure",
+    "Email": "ova.trantow@hansen.co.uk",
+    "FullName": "Eladio Cassidy Goldner I",
+    "DirectPhone": "290.522.6374",
+    "FormalName": "Veum-Upton",
+    "CountryId": 566,
+    "ContactId": 400,
+    "ContactName": "Mertz-Koch",
+    "Retired": 981,
+    "Rank": 679,
+    "ActiveInterests": 378,
     "ContactDepartment": "",
-    "ContactCountryId": 430,
-    "ContactOrgNr": "817513",
-    "FaxPhone": "735.650.1017",
-    "MobilePhone": "1-924-920-5958 x497",
-    "ContactPhone": "(009)880-5009",
-    "AssociateName": "Bogan-Blick",
-    "AssociateId": 300,
-    "UsePersonAddress": true,
-    "ContactFax": "et",
-    "Kanafname": "iusto",
-    "Kanalname": "unde",
-    "Post1": "est",
-    "Post2": "facere",
-    "Post3": "soluta",
-    "EmailName": "alayna.larkin@kunze.com",
-    "ContactFullName": "Hazle Brakus",
-    "ActiveErpLinks": 913,
-    "TicketPriorityId": 879,
-    "SupportLanguageId": 214,
-    "SupportAssociateId": 892,
+    "ContactCountryId": 438,
+    "ContactOrgNr": "254473",
+    "FaxPhone": "1-253-778-3167 x01473",
+    "MobilePhone": "(184)448-7558 x32632",
+    "ContactPhone": "1-268-198-3872 x008",
+    "AssociateName": "Harvey, Skiles and Kiehn",
+    "AssociateId": 527,
+    "UsePersonAddress": false,
+    "ContactFax": "debitis",
+    "Kanafname": "culpa",
+    "Kanalname": "laboriosam",
+    "Post1": "mollitia",
+    "Post2": "blanditiis",
+    "Post3": "sunt",
+    "EmailName": "estrella@friesen.info",
+    "ContactFullName": "Lawson Feeney",
+    "ActiveErpLinks": 95,
+    "TicketPriorityId": 170,
+    "SupportLanguageId": 137,
+    "SupportAssociateId": 652,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldLength": 12
       }
     }
   }

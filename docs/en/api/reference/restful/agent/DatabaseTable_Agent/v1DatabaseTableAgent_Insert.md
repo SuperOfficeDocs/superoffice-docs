@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Moen-Marvin",
+  "TableName": "Beahan, Emmerich and Nienow",
   "Columns": [
-    "ut",
-    "consequatur"
+    "corporis",
+    "libero"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "et",
-  "Inserts": 60,
-  "Updates": 845,
-  "Deletes": 249,
+  "Message": "fugit",
+  "Inserts": 961,
+  "Updates": 674,
+  "Deletes": 6,
   "RowStatus": [
     {
-      "PrimaryKey": 668,
+      "PrimaryKey": 127,
       "Action": "ColumnsZeroed",
       "RowKeys": [
         "ut",
-        "eum"
+        "exercitationem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldType": "System.String",
+          "FieldLength": 898
         }
       }
     },
     {
-      "PrimaryKey": 668,
+      "PrimaryKey": 127,
       "Action": "ColumnsZeroed",
       "RowKeys": [
         "ut",
-        "eum"
+        "exercitationem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldType": "System.String",
+          "FieldLength": 898
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

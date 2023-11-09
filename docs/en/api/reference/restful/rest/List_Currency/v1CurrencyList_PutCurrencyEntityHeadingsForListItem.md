@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Kovacek, Lesch and Conroy",
-    "ToolTip": "Aperiam facere dolorum.",
+    "Id": 668,
+    "Name": "Lesch, Walsh and Kihn",
+    "ToolTip": "Deleniti cupiditate laudantium quidem.",
     "Deleted": false,
-    "Rank": 246,
-    "Type": "fugit",
-    "ColorBlock": 995,
-    "IconHint": "ut",
+    "Rank": 311,
+    "Type": "laudantium",
+    "ColorBlock": 662,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2022-06-16T03:24:52.2244666+02:00",
+    "LastChanged": "2022-04-03T11:06:42.7721939+02:00",
     "ChildItems": [
       {
-        "Id": 457,
-        "Name": "Feeney-Robel",
-        "ToolTip": "Eveniet distinctio maxime facere aperiam nihil est minima.",
+        "Id": 994,
+        "Name": "Gleason Inc and Sons",
+        "ToolTip": "Qui est quo ipsam et voluptatum earum quibusdam.",
         "Deleted": false,
-        "Rank": 158,
-        "Type": "quae",
-        "ColorBlock": 964,
-        "IconHint": "odit",
-        "Selected": true,
-        "LastChanged": "2023-02-21T03:24:52.2244666+01:00",
+        "Rank": 419,
+        "Type": "quia",
+        "ColorBlock": 967,
+        "IconHint": "aspernatur",
+        "Selected": false,
+        "LastChanged": "2001-11-21T11:06:42.7721939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Gillian Koss"
+        "ExtraInfo": "laborum",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Mustafa McCullough MD"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "facere",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Agustina Turcotte Sr."
+    "FullName": "Cornelius Dach"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Bruen, Stracke and Rosenbaum",
-    "ToolTip": "Voluptates nobis consectetur quaerat occaecati commodi officiis.",
+    "Id": 578,
+    "Name": "Cole, Durgan and Kuvalis",
+    "ToolTip": "Et inventore.",
     "Deleted": false,
-    "Rank": 400,
-    "Type": "voluptates",
-    "ColorBlock": 375,
-    "IconHint": "esse",
+    "Rank": 790,
+    "Type": "ut",
+    "ColorBlock": 816,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2004-02-27T03:24:52.2244666+01:00",
+    "LastChanged": "2016-02-27T11:06:42.7721939+01:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Bartell, Russel and Gutkowski",
-        "ToolTip": "Ullam corrupti dolores qui ut aut odio.",
+        "Id": 693,
+        "Name": "Borer, Douglas and Bogan",
+        "ToolTip": "Iure mollitia harum et cupiditate tempore quam.",
         "Deleted": false,
-        "Rank": 957,
-        "Type": "molestias",
-        "ColorBlock": 602,
-        "IconHint": "aut",
+        "Rank": 422,
+        "Type": "vero",
+        "ColorBlock": 61,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2017-04-20T03:24:52.2244666+02:00",
+        "LastChanged": "2013-12-19T11:06:42.7721939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Kathlyn Donnelly",
+        "ExtraInfo": "itaque",
+        "StyleHint": "illum",
+        "Hidden": false,
+        "FullName": "Micaela Blanda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 280
+            "FieldType": "System.Int32",
+            "FieldLength": 314
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "omnis",
+    "ExtraInfo": "cum",
+    "StyleHint": "hic",
     "Hidden": true,
-    "FullName": "Mr. Shanel Celia Heaney MD",
+    "FullName": "Minnie Lenore Schroeder PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 760
+        "FieldType": "System.Int32",
+        "FieldLength": 707
       }
     }
   }

@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Lesch Group",
-      "Description": "Cross-platform 3rd generation focus group",
+      "Name": "Goldner-Bartoletti",
+      "Description": "Phased uniform installation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Lesch Group",
-      "Description": "Cross-platform 3rd generation focus group",
+      "Name": "Goldner-Bartoletti",
+      "Description": "Phased uniform installation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,30 +119,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ebert-Lang",
-    "Description": "Polarised needs-based algorithm",
+    "Name": "Walker-Schaefer",
+    "Description": "Stand-alone assymetric architecture",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 714,
-        "Tooltip": "ut",
+        "Total": 169,
+        "Tooltip": "veniam",
         "CanAssign": false,
-        "Free": 965,
-        "InUse": 314,
+        "Free": 407,
+        "InUse": 146,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 969,
-        "Name": "Graham-Bosco",
-        "Description": "Implemented modular productivity",
-        "PrerequisiteModuleName": "Dare, Bernhard and O'Conner",
-        "SortOrder": 290,
-        "ExtraFlags": 556,
+        "ModuleLicenseId": 289,
+        "Name": "Conroy LLC",
+        "Description": "Synergistic optimal utilisation",
+        "PrerequisiteModuleName": "Conroy, Satterfield and Welch",
+        "SortOrder": 820,
+        "ExtraFlags": 79,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 139
+            "FieldLength": 587
           }
         }
       }
@@ -150,25 +150,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 841,
-        "Tooltip": "commodi",
+        "Total": 464,
+        "Tooltip": "aliquid",
         "CanAssign": false,
-        "Free": 283,
-        "InUse": 225,
+        "Free": 24,
+        "InUse": 1001,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 759,
-        "Name": "Harris, Gerhold and Corkery",
-        "Description": "Realigned national solution",
-        "PrerequisiteModuleName": "Brown, Bechtelar and McKenzie",
-        "SortOrder": 505,
-        "ExtraFlags": 718,
+        "ModuleLicenseId": 928,
+        "Name": "Conn-Sporer",
+        "Description": "Optional composite monitoring",
+        "PrerequisiteModuleName": "Christiansen Inc and Sons",
+        "SortOrder": 822,
+        "ExtraFlags": 657,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 661
+            "FieldLength": 6
           }
         }
       }
@@ -177,36 +177,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldType": "System.Int32",
+        "FieldLength": 725
       }
     }
   },
   {
-    "Name": "Ebert-Lang",
-    "Description": "Polarised needs-based algorithm",
+    "Name": "Walker-Schaefer",
+    "Description": "Stand-alone assymetric architecture",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 714,
-        "Tooltip": "ut",
+        "Total": 169,
+        "Tooltip": "veniam",
         "CanAssign": false,
-        "Free": 965,
-        "InUse": 314,
+        "Free": 407,
+        "InUse": 146,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 969,
-        "Name": "Graham-Bosco",
-        "Description": "Implemented modular productivity",
-        "PrerequisiteModuleName": "Dare, Bernhard and O'Conner",
-        "SortOrder": 290,
-        "ExtraFlags": 556,
+        "ModuleLicenseId": 289,
+        "Name": "Conroy LLC",
+        "Description": "Synergistic optimal utilisation",
+        "PrerequisiteModuleName": "Conroy, Satterfield and Welch",
+        "SortOrder": 820,
+        "ExtraFlags": 79,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 139
+            "FieldLength": 587
           }
         }
       }
@@ -214,25 +214,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 841,
-        "Tooltip": "commodi",
+        "Total": 464,
+        "Tooltip": "aliquid",
         "CanAssign": false,
-        "Free": 283,
-        "InUse": 225,
+        "Free": 24,
+        "InUse": 1001,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 759,
-        "Name": "Harris, Gerhold and Corkery",
-        "Description": "Realigned national solution",
-        "PrerequisiteModuleName": "Brown, Bechtelar and McKenzie",
-        "SortOrder": 505,
-        "ExtraFlags": 718,
+        "ModuleLicenseId": 928,
+        "Name": "Conn-Sporer",
+        "Description": "Optional composite monitoring",
+        "PrerequisiteModuleName": "Christiansen Inc and Sons",
+        "SortOrder": 822,
+        "ExtraFlags": 657,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 661
+            "FieldLength": 6
           }
         }
       }
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldType": "System.Int32",
+        "FieldLength": 725
       }
     }
   }

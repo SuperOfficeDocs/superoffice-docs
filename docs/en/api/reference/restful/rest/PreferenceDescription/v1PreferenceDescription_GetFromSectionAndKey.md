@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 82,
-  "Section": "iste",
-  "Key": "delectus",
-  "Name": "Erdman Inc and Sons",
+  "PrefDescId": 196,
+  "Section": "dolores",
+  "Key": "autem",
+  "Name": "Rowe, Purdy and Emmerich",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Compatible bottom-line extranet",
+  "Description": "Profit-focused discrete success",
   "IsBuiltin": false,
-  "TableName": "West-Olson",
-  "UserDefinedListId": 380,
-  "Rank": 949,
-  "SubGroup": "fuga",
-  "MinLevel": 218,
-  "MaxValue": 262,
-  "MinValue": 409,
-  "RequiredLicense": "et",
+  "TableName": "Altenwerth Group",
+  "UserDefinedListId": 624,
+  "Rank": 901,
+  "SubGroup": "sit",
+  "MinLevel": 583,
+  "MaxValue": 704,
+  "MinValue": 451,
+  "RequiredLicense": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldLength": 556
     }
   }
 }

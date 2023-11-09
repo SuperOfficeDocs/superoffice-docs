@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 412,
-  "Name": "Labadie Group",
-  "Tooltip": "fuga",
-  "Rank": 630,
-  "Key": "ullam",
+  "LegalBaseId": 686,
+  "Name": "Howell, Mohr and Hodkiewicz",
+  "Tooltip": "quis",
+  "Rank": 464,
+  "Key": "sapiente",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   }
 }

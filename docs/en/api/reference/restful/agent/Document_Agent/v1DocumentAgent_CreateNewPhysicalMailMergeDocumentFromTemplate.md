@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 360,
-  "UiCulture": "esse"
+  "DocumentId": 969,
+  "UiCulture": "quis"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 513,
+  "DocumentId": 97,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "repudiandae",
-  "Header": "laudantium",
-  "Name": "Gerlach, Reinger and Hintz",
-  "OurRef": "illo",
-  "YourRef": "sint",
-  "CreatedDate": "2004-09-11T03:24:47.6426585+02:00",
-  "UpdatedDate": "2004-01-31T03:24:47.6426585+01:00",
-  "Description": "Grass-roots explicit neural-net",
+  "Attention": "sunt",
+  "Header": "sed",
+  "Name": "Ziemann-Adams",
+  "OurRef": "tempora",
+  "YourRef": "cumque",
+  "CreatedDate": "2019-08-15T11:06:34.3801825+02:00",
+  "UpdatedDate": "2005-06-13T11:06:34.3801825+02:00",
+  "Description": "Open-source 6th generation encryption",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-10-19T03:24:47.6582818+02:00",
-  "ExternalRef": "iure",
+  "Date": "1997-04-23T11:06:34.395813+02:00",
+  "ExternalRef": "inventore",
   "Completed": "Completed",
-  "ActiveLinks": 612,
+  "ActiveLinks": 728,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sanford-Watsica",
-      "Id": 314,
-      "Description": "Open-source dedicated data-warehouse",
-      "ExtraInfo": "distinctio",
-      "LinkId": 527,
+      "EntityName": "Schinner LLC",
+      "Id": 199,
+      "Description": "Balanced static conglomeration",
+      "ExtraInfo": "cupiditate",
+      "LinkId": 112,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 319
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 81,
-  "Snum": 167,
+  "SuggestedDocumentId": 266,
+  "Snum": 917,
   "UserDefinedFields": {
-    "SuperOffice:1": "Americo Emmerich DDS",
-    "SuperOffice:2": "1141317108"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Mr. Noemi Verona White"
   },
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "corporis"
+    "ExtraFields1": "animi",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
-    "CustomFields2": "repellendus"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "fugit"
   },
-  "PublishEventDate": "2006-05-03T03:24:47.6582818+02:00",
-  "PublishTo": "1999-06-16T03:24:47.6582818+02:00",
-  "PublishFrom": "2020-03-04T03:24:47.6582818+01:00",
+  "PublishEventDate": "1999-06-28T11:06:34.395813+02:00",
+  "PublishTo": "2014-05-30T11:06:34.395813+02:00",
+  "PublishFrom": "2016-09-13T11:06:34.395813+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 194,
+      "VisibleId": 193,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldType": "System.String",
+          "FieldLength": 228
         }
       }
     },
     {
-      "VisibleId": 194,
+      "VisibleId": 193,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldType": "System.String",
+          "FieldLength": 228
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldType": "System.String",
+      "FieldLength": 557
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "McClure, Nicolas and Kassulke",
-    "Id": 549,
-    "Description": "Automated mission-critical moratorium",
-    "ExtraInfo": "impedit",
-    "LinkId": 651,
+    "EntityName": "Rutherford Inc and Sons",
+    "Id": 830,
+    "Description": "Cross-group upward-trending encoding",
+    "ExtraInfo": "enim",
+    "LinkId": 680,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldType": "System.String",
+        "FieldLength": 202
       }
     }
   }

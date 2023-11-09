@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "perferendis",
+  "RawValue": "accusantium",
   "Specification": null,
-  "DisplayValue": "placeat",
-  "DisplayTooltip": "est",
+  "DisplayValue": "ipsum",
+  "DisplayTooltip": "quia",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 982,
-  "PrefDescId": 264,
-  "TableName": "Breitenberg-Bosco",
-  "UserPreferenceId": 125
+  "TargetId": 75,
+  "PrefDescId": 134,
+  "TableName": "Keeling Inc and Sons",
+  "UserPreferenceId": 155
 }
 ```
 

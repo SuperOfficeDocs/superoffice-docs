@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 947,
-    "Name": "Krajcik-Carroll",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "Rank": 65,
-    "UdListDefinitionId": 473
+    "HeadingId": 477,
+    "Name": "Pollich, Hagenes and Kuphal",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 342,
+    "UdListDefinitionId": 250
   },
   {
-    "HeadingId": 947,
-    "Name": "Krajcik-Carroll",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "Rank": 65,
-    "UdListDefinitionId": 473
+    "HeadingId": 477,
+    "Name": "Pollich, Hagenes and Kuphal",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 342,
+    "UdListDefinitionId": 250
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 934,
-    "Name": "Collier, Windler and Eichmann",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 959,
-    "UdListDefinitionId": 417,
+    "HeadingId": 672,
+    "Name": "Fritsch Inc and Sons",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "Rank": 501,
+    "UdListDefinitionId": 585,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 629
+        "FieldType": "System.Int32",
+        "FieldLength": 303
       }
     }
   }

@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 502,
-  "ParentId": 782,
-  "Name": "Gerlach Group",
-  "Fullname": "cupiditate",
-  "CategoryMaster": 195,
+  "TicketCategoryId": 153,
+  "ParentId": 136,
+  "Name": "Barrows, Ward and Considine",
+  "Fullname": "dolorem",
+  "CategoryMaster": 774,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Gaylord Inc and Sons",
+  "ExternalName": "Beahan, Gerlach and Frami",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 483,
-  "ReplyTemplate": 491,
-  "NotificationEmail": "kariane@lindgren.name",
+  "AssignmentLag": 732,
+  "ReplyTemplate": 700,
+  "NotificationEmail": "grover.reichel@durgan.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 648,
+  "EffectiveReplyTemplateId": 336,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "temporibus"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "magni",
-    "CustomFields2": "iure"
+    "CustomFields1": "id",
+    "CustomFields2": "porro"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 807,
-  "ParentId": 284,
-  "Name": "Larson-Toy",
-  "Fullname": "necessitatibus",
-  "CategoryMaster": 591,
+  "TicketCategoryId": 205,
+  "ParentId": 146,
+  "Name": "Schamberger, Swift and Ondricka",
+  "Fullname": "vitae",
+  "CategoryMaster": 641,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Tillman, Leannon and Leannon",
+  "ExternalName": "Borer Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 913,
-  "ReplyTemplate": 43,
-  "NotificationEmail": "ramiro.kulas@prohaska.biz",
+  "AssignmentLag": 321,
+  "ReplyTemplate": 337,
+  "NotificationEmail": "johanna@goldner.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 742,
+  "EffectiveReplyTemplateId": 57,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "deleniti",
+    "CustomFields2": "ex"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   }
 }

@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hirthe, Murazik and Daniel",
-  "DeviceName": "Volkman, Shields and Weimann",
-  "DeviceIdentifier": "ut"
+  "ApplicationName": "Harris, Graham and Weissnat",
+  "DeviceName": "Lehner, Zulauf and DuBuque",
+  "DeviceIdentifier": "tenetur"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "aliquid",
-    "Value": "sit",
-    "RecordId": 808,
-    "CreatedDate": "2001-02-04T03:24:47.8301403+01:00",
-    "UpdatedDate": "2007-03-23T03:24:47.8301403+01:00",
-    "UpdatedBy": "id",
-    "CreatedBy": "et",
-    "TableName": "Volkman LLC",
+    "Key": "corporis",
+    "Value": "expedita",
+    "RecordId": 821,
+    "CreatedDate": "2003-02-14T11:06:34.6458113+01:00",
+    "UpdatedDate": "2014-05-18T11:06:34.6458113+02:00",
+    "UpdatedBy": "dolor",
+    "CreatedBy": "quia",
+    "TableName": "Kuhic-Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 854,
-  "Name": "Collier Inc and Sons",
-  "Tooltip": "corrupti",
-  "Deleted": false,
-  "UdListDefinitionId": 948,
-  "Rank": 536,
+  "Id": 677,
+  "Name": "Hagenes-Wisozk",
+  "Tooltip": "aperiam",
+  "Deleted": true,
+  "UdListDefinitionId": 84,
+  "Rank": 152,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 557
     }
   }
 }

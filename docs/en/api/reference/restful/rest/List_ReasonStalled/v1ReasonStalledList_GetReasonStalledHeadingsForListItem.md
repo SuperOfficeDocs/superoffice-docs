@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Vandervort, Dicki and Zemlak",
-    "ToolTip": "Mollitia aut dolorum quia odio.",
-    "Deleted": true,
-    "Rank": 520,
-    "Type": "dolores",
-    "ColorBlock": 721,
-    "IconHint": "architecto",
-    "Selected": true,
-    "LastChanged": "2020-08-13T03:24:52.3963183+02:00",
+    "Id": 827,
+    "Name": "Vandervort-Strosin",
+    "ToolTip": "Sint eum et earum sunt.",
+    "Deleted": false,
+    "Rank": 202,
+    "Type": "aut",
+    "ColorBlock": 763,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "2002-11-18T11:06:43.037826+01:00",
     "ChildItems": [
       {
-        "Id": 834,
-        "Name": "Jacobson-Pollich",
-        "ToolTip": "Alias sunt ipsum.",
-        "Deleted": true,
-        "Rank": 47,
-        "Type": "magni",
+        "Id": 189,
+        "Name": "Mayer-Bailey",
+        "ToolTip": "Animi eos porro nemo voluptatum.",
+        "Deleted": false,
+        "Rank": 508,
+        "Type": "ea",
         "ColorBlock": 729,
-        "IconHint": "atque",
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2007-05-29T03:24:52.3963183+02:00",
+        "LastChanged": "2016-03-18T11:06:43.037826+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "culpa",
+        "ExtraInfo": "velit",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Johnnie Corwin",
+        "FullName": "Aimee Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 543
+            "FieldLength": 837
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "omnis",
+    "StyleHint": "iure",
     "Hidden": false,
-    "FullName": "Clifton Boyer",
+    "FullName": "Ms. Shad Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 312
+        "FieldLength": 168
       }
     }
   }

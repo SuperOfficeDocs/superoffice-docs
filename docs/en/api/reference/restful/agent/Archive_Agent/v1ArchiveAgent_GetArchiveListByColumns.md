@@ -103,54 +103,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gutmann Group",
+  "ProviderName": "Flatley, Zulauf and Considine",
   "Columns": [
-    "quidem",
-    "numquam"
+    "aut",
+    "excepturi"
   ],
   "SortOrder": [
     {
-      "Name": "Herzog, Mosciski and Ullrich",
+      "Name": "Boyle-Runte",
       "Direction": "ASC"
     },
     {
-      "Name": "Herzog, Mosciski and Ullrich",
+      "Name": "Boyle-Runte",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Zieme-Hodkiewicz",
-      "Operator": "non",
+      "Name": "Aufderhar, Krajcik and Gutkowski",
+      "Operator": "autem",
       "Values": [
-        "ut",
-        "tempore"
+        "culpa",
+        "et"
       ],
       "DisplayValues": [
-        "earum",
-        "aperiam"
+        "provident",
+        "voluptate"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 295,
+      "InterParenthesis": 467,
       "InterOperator": "And",
-      "UniqueHash": 273
+      "UniqueHash": 657
     }
   ],
   "Entities": [
-    "ea",
-    "qui"
+    "et",
+    "exercitationem"
   ],
-  "Page": 175,
-  "PageSize": 719
+  "Page": 141,
+  "PageSize": 420
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Luettgen, Goldner and Mills",
-    "PrimaryKey": 172,
+    "EntityName": "Mueller, Hermann and Bartoletti",
+    "PrimaryKey": 786,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ipsam",
-        "TooltipHint": "sed",
-        "LinkHint": "magnam"
+        "DisplayValue": "velit",
+        "TooltipHint": "ab",
+        "LinkHint": "qui"
       }
     },
-    "LinkHint": "ut",
-    "StyleHint": "praesentium",
+    "LinkHint": "et",
+    "StyleHint": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 923
+        "FieldType": "System.Int32",
+        "FieldLength": 941
       }
     }
   }

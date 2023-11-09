@@ -83,38 +83,38 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 45,
-  "Field": "autem",
-  "RecordId": 505,
+  "RefCountsId": 443,
+  "Field": "rerum",
+  "RecordId": 916,
   "SuggestedRecords": [
     {
-      "Id": 740,
-      "Name": "Mayer, Stiedemann and Bashirian",
-      "ToolTip": "Odio et ut et quo ratione optio fugiat.",
+      "Id": 653,
+      "Name": "Corkery LLC",
+      "ToolTip": "Et ea debitis non perspiciatis quia fuga cumque.",
       "Deleted": false,
-      "Rank": 745,
-      "Type": "est",
+      "Rank": 814,
+      "Type": "minus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "velit",
-      "ColorBlock": 631,
-      "ExtraInfo": "deserunt",
-      "StyleHint": "vitae",
-      "FullName": "Thaddeus Cremin"
+      "IconHint": "excepturi",
+      "ColorBlock": 591,
+      "ExtraInfo": "doloribus",
+      "StyleHint": "sequi",
+      "FullName": "Arielle Quitzon"
     }
   ],
-  "CurrentValue": 278,
-  "TravelPrefix": 187,
-  "SatPrefix": 393,
+  "CurrentValue": 528,
+  "TravelPrefix": 59,
+  "SatPrefix": 894,
   "Allocate": true,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false
 }
 ```
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 302,
-  "Field": "reprehenderit",
-  "RecordId": 864,
+  "RefCountsId": 630,
+  "Field": "ipsam",
+  "RecordId": 343,
   "SuggestedRecords": [
     {
-      "Id": 88,
-      "Name": "Wisozk-Schultz",
-      "ToolTip": "Nostrum voluptas et expedita veniam natus doloremque illum.",
+      "Id": 620,
+      "Name": "Ledner-Hagenes",
+      "ToolTip": "Dicta illo.",
       "Deleted": false,
-      "Rank": 222,
-      "Type": "cum",
+      "Rank": 508,
+      "Type": "necessitatibus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 827,
-      "ExtraInfo": "omnis",
-      "StyleHint": "aspernatur",
-      "FullName": "Mrs. Chandler Kozey",
+      "IconHint": "assumenda",
+      "ColorBlock": 630,
+      "ExtraInfo": "similique",
+      "StyleHint": "et",
+      "FullName": "Kari Hickle",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 891
+          "FieldLength": 960
         }
       }
     }
   ],
-  "CurrentValue": 289,
-  "TravelPrefix": 916,
-  "SatPrefix": 154,
-  "Allocate": false,
-  "Unique": false,
-  "ReadOnly": false,
+  "CurrentValue": 191,
+  "TravelPrefix": 982,
+  "SatPrefix": 691,
+  "Allocate": true,
+  "Unique": true,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldType": "System.String",
+      "FieldLength": 381
     }
   }
 }

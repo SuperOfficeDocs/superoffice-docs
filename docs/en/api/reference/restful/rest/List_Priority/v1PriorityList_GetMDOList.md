@@ -27,7 +27,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=iusto
+GET /api/v1/List/Priority/MDOItems?query=similique
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "Murphy-Morar",
-    "ToolTip": "Ut quos fugiat.",
+    "Id": 9,
+    "Name": "Bradtke-Kris",
+    "ToolTip": "Omnis iure qui iusto sed sint sit.",
     "Deleted": false,
-    "Rank": 219,
-    "Type": "et",
+    "Rank": 568,
+    "Type": "molestias",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Wintheiser Inc and Sons",
-        "ToolTip": "Aut debitis ullam quis aut.",
+        "Id": 675,
+        "Name": "Lynch-Prohaska",
+        "ToolTip": "Corporis quod totam autem dolores fuga sint et.",
         "Deleted": false,
-        "Rank": 11,
-        "Type": "nihil",
+        "Rank": 758,
+        "Type": "esse",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 568,
-        "ExtraInfo": "qui",
-        "StyleHint": "omnis",
-        "FullName": "Ms. Maximus Sienna Franecki",
+        "IconHint": "nemo",
+        "ColorBlock": 574,
+        "ExtraInfo": "optio",
+        "StyleHint": "totam",
+        "FullName": "Ethel Nikolaus IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 839
+            "FieldType": "System.String",
+            "FieldLength": 450
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 159,
-    "ExtraInfo": "non",
-    "StyleHint": "iste",
-    "FullName": "Felipe Feil DVM",
+    "IconHint": "fugiat",
+    "ColorBlock": 724,
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "sequi",
+    "FullName": "Eugene Raven Vandervort V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldLength": 468
       }
     }
   }

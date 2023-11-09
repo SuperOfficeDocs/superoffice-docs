@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 855,
-    "Name": "Harvey Group",
-    "Tooltip": "similique",
-    "Deleted": true,
-    "Rank": 455,
-    "UdListDefinitionId": 943,
+    "HeadingId": 802,
+    "Name": "Bartoletti Group",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 944,
+    "UdListDefinitionId": 54,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldType": "System.String",
+        "FieldLength": 974
       }
     }
   }

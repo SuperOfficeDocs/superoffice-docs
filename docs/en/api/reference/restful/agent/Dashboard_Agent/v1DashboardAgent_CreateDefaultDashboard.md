@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 192,
-  "AssociateId": 960,
-  "Caption": "repellat",
+  "DashboardId": 858,
+  "AssociateId": 764,
+  "Caption": "rerum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 791,
-      "Caption": "explicabo",
-      "Description": "Multi-layered 6th generation encryption",
-      "ChartName": "Friesen, Lesch and Stark",
-      "ChartId": "id",
-      "IsDefault": true,
-      "AssociateId": 248,
-      "GroupId": 750,
-      "SelectionId": 251,
-      "Config": "quas",
+      "DashboardTileId": 204,
+      "Caption": "vel",
+      "Description": "Profit-focused national installation",
+      "ChartName": "Bruen-Koss",
+      "ChartId": "odio",
+      "IsDefault": false,
+      "AssociateId": 268,
+      "GroupId": 392,
+      "SelectionId": 438,
+      "Config": "voluptatem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 785
+          "FieldLength": 359
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 472
+      "FieldType": "System.Int32",
+      "FieldLength": 459
     }
   }
 }

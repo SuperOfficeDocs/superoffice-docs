@@ -738,7 +738,7 @@ Shadow contact provider for the static ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowStaticSelection?$select=readByCustomer,contact/registeredByFullName,contact/contactAssociate/associateDbId,project/NumberOfSalesInPeriod
+GET /api/v1/archive/TicketShadowStaticSelection?$select=priorityName,person/personRegisteredBy,person/personActiveErpLinks,person/personAssociate/assocName,person/correspondingAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

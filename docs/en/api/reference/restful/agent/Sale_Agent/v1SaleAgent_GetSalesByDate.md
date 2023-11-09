@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "1998-01-17T03:24:48.2207231+01:00",
-  "ToDate": "2011-09-30T03:24:48.2207231+02:00",
-  "AmountLimit": 100,
+  "FromDate": "2013-04-30T11:06:35.3333182+02:00",
+  "ToDate": "2016-05-27T11:06:35.3333182+02:00",
+  "AmountLimit": 316,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lind, Veum and Morissette",
-    "SaleDate": "2009-06-27T03:24:48.2207231+02:00",
-    "SaleId": 696,
-    "Probability": 174,
-    "Title": "aut",
-    "Amount": 4691.598,
-    "Currency": "labore",
-    "ProjectName": "Leuschke, Ullrich and Emard",
-    "AssociateFullName": "Mr. Kathlyn Gutkowski I",
-    "Description": "Profound static array",
+    "ContactName": "Denesik-Champlin",
+    "SaleDate": "2016-02-14T11:06:35.3333182+01:00",
+    "SaleId": 784,
+    "Probability": 490,
+    "Title": "id",
+    "Amount": 20994.666,
+    "Currency": "dignissimos",
+    "ProjectName": "O'Hara Inc and Sons",
+    "AssociateFullName": "Kaylah Batz",
+    "Description": "Persistent object-oriented application",
     "Status": "Lost",
-    "WeightedAmount": 4033.458,
-    "ProjectId": 348,
-    "EarningPercent": 4494.156,
-    "Earning": 5888.786,
-    "ContactId": 773,
-    "AssociateId": 677,
-    "PersonId": 300,
-    "SaleTypeId": 653,
-    "SaleTypeName": "Dicki Inc and Sons",
-    "PersonFullName": "Kennith Padberg",
+    "WeightedAmount": 24338.644,
+    "ProjectId": 403,
+    "EarningPercent": 19728.53,
+    "Earning": 244.452,
+    "ContactId": 38,
+    "AssociateId": 486,
+    "PersonId": 100,
+    "SaleTypeId": 607,
+    "SaleTypeName": "Ziemann, Rohan and Langosh",
+    "PersonFullName": "Zoe Torp",
     "Completed": "Completed",
-    "ActiveErpLinks": 806,
-    "NextDueDate": "2010-01-27T03:24:48.2207231+01:00",
-    "Number": "1117321",
+    "ActiveErpLinks": 524,
+    "NextDueDate": "2000-11-14T11:06:35.3333182+01:00",
+    "Number": "317970",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 683
+        "FieldLength": 763
       }
     }
   }

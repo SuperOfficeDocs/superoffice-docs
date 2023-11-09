@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Okuneva, Kessler and Corkery",
-  "Comment": "nobis",
-  "StakeholderRoleId": 647,
-  "CountryId": 52,
-  "PersonId": 412,
-  "EmailDescription": "mina.bednar@schmittflatley.co.uk",
-  "EmailId": 174,
-  "EmailAddress": "hunter_dare@mohrkrajcik.name",
-  "PhoneId": 830,
-  "ContactName": "Kub Inc and Sons",
-  "ContactId": 781,
-  "SaleId": 940,
-  "Mrmrs": "optio",
-  "Firstname": "Murray",
-  "MiddleName": "Anderson-Gislason",
-  "Lastname": "Tremblay",
-  "SaleStakeholderId": 302,
-  "Rank": 910,
-  "Phone": "688-723-5011",
+  "StakeholderRoleName": "Cruickshank, Crona and Kuhic",
+  "Comment": "voluptas",
+  "StakeholderRoleId": 110,
+  "CountryId": 370,
+  "PersonId": 406,
+  "EmailDescription": "aaliyah@bernhard.name",
+  "EmailId": 518,
+  "EmailAddress": "tamara@labadie.us",
+  "PhoneId": 855,
+  "ContactName": "Aufderhar Inc and Sons",
+  "ContactId": 899,
+  "SaleId": 846,
+  "Mrmrs": "harum",
+  "Firstname": "Lucius",
+  "MiddleName": "Harris, Bogisich and Graham",
+  "Lastname": "Shields",
+  "SaleStakeholderId": 85,
+  "Rank": 437,
+  "Phone": "169.268.5493",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldType": "System.String",
+      "FieldLength": 451
     }
   }
 }

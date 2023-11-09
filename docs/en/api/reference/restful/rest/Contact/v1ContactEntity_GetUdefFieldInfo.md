@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 39,
-  "ColumnId": 708,
-  "FieldDefault": "ut",
-  "FieldHeight": 7,
-  "FieldLabel": "debitis",
-  "FieldLeft": 185,
-  "FieldTop": 210,
+  "UDefFieldId": 405,
+  "ColumnId": 562,
+  "FieldDefault": "velit",
+  "FieldHeight": 321,
+  "FieldLabel": "beatae",
+  "FieldLeft": 377,
+  "FieldTop": 226,
   "FieldType": "Checkbox",
-  "FieldWidth": 652,
-  "FormatMask": "a",
+  "FieldWidth": 284,
+  "FormatMask": "vitae",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 88,
-  "LabelLeft": 507,
-  "LabelTop": 25,
-  "LabelWidth": 638,
-  "LastVersionId": 300,
-  "ListTableId": 815,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 200,
+  "LabelLeft": 1001,
+  "LabelTop": 934,
+  "LabelWidth": 318,
+  "LastVersionId": 938,
+  "ListTableId": 181,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 283,
-  "ProgId": "repellendus",
+  "Page1LineNo": 972,
+  "ProgId": "fugit",
   "IsReadOnly": true,
-  "ShortLabel": "dignissimos",
-  "TabOrder": 787,
-  "TextLength": 243,
-  "Tooltip": "labore",
-  "UdefIdentity": 545,
-  "UDListDefinitionId": 516,
+  "ShortLabel": "ut",
+  "TabOrder": 145,
+  "TextLength": 674,
+  "Tooltip": "dolor",
+  "UdefIdentity": 157,
+  "UDListDefinitionId": 228,
   "Justification": "Center",
-  "Version": 658,
-  "TemplateVariableName": "McGlynn Inc and Sons",
+  "Version": 566,
+  "TemplateVariableName": "Botsford-Jast",
   "HasBeenPublished": true,
-  "MdoListName": "Cassin-Kuvalis",
+  "MdoListName": "Nolan-Nolan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

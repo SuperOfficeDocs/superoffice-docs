@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 341,
-    "Name": "Hirthe Inc and Sons",
-    "Description": "Horizontal coherent toolset",
+    "ProjectId": 486,
+    "Name": "O'Keefe, Ryan and Ondricka",
+    "Description": "Team-oriented systematic internet solution",
     "URL": "http://www.example.com/",
-    "Type": "natus",
-    "AssociateId": 125,
-    "AssociateFullName": "Janessa Funk",
-    "TypeId": 414,
-    "Updated": "2016-06-03T03:24:48.0957311+02:00",
-    "StatusId": 366,
-    "Status": "modi",
-    "TextId": 734,
-    "PublishTo": "2005-06-05T03:24:48.0957311+02:00",
-    "PublishFrom": "2017-06-09T03:24:48.0957311+02:00",
+    "Type": "facere",
+    "AssociateId": 103,
+    "AssociateFullName": "Mr. Scottie Anna Ryan DDS",
+    "TypeId": 426,
+    "Updated": "2000-05-26T11:06:35.1614465+02:00",
+    "StatusId": 995,
+    "Status": "fugit",
+    "TextId": 836,
+    "PublishTo": "2012-07-05T11:06:35.1614465+02:00",
+    "PublishFrom": "2008-09-24T11:06:35.1614465+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1225069",
-    "ActiveErpLinks": 656,
+    "ProjectNumber": "809901",
+    "ActiveErpLinks": 823,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 371
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 345,
-    "Name": "Kuvalis Group",
-    "ToolTip": "Mollitia iure quibusdam quo sint asperiores.",
-    "Deleted": false,
-    "Rank": 533,
-    "Type": "ducimus",
-    "ColorBlock": 563,
-    "IconHint": "repudiandae",
-    "Selected": false,
-    "LastChanged": "2016-05-07T03:24:52.2869587+02:00",
+    "Id": 737,
+    "Name": "Konopelski-Stokes",
+    "ToolTip": "Omnis consequatur quo sunt alias ipsum.",
+    "Deleted": true,
+    "Rank": 694,
+    "Type": "consectetur",
+    "ColorBlock": 817,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "2010-07-07T11:06:42.8659405+02:00",
     "ChildItems": [
       {
-        "Id": 612,
-        "Name": "Marvin Group",
-        "ToolTip": "Eveniet facilis.",
+        "Id": 991,
+        "Name": "Funk Inc and Sons",
+        "ToolTip": "Quia officia est consectetur omnis ea nulla aut.",
         "Deleted": false,
-        "Rank": 901,
-        "Type": "nemo",
-        "ColorBlock": 473,
+        "Rank": 783,
+        "Type": "officia",
+        "ColorBlock": 386,
         "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2017-03-18T03:24:52.2869587+01:00",
+        "Selected": true,
+        "LastChanged": "1998-08-03T11:06:42.8659405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "facilis",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Kendra Bins",
+        "FullName": "Prof. Julian Roy Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 72
+            "FieldLength": 307
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "quia",
+    "ExtraInfo": "autem",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Kelton Keeling",
+    "FullName": "Freda Gorczany",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldLength": 885
       }
     }
   }

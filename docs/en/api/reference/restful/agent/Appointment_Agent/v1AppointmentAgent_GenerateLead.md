@@ -88,22 +88,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 111,
-  "LeadDescription": "Proactive multimedia local area network",
-  "Relation": "harum",
-  "RelationId": 162,
-  "LeadContact": "et",
-  "LeadPersonFirstname": "Damon",
-  "LeadPersonLastname": "Altenwerth",
-  "LeadPersonEmail": "mckayla@treutel.com",
-  "LeadPhoneNumber": "846692",
-  "CreatorsContact": "libero",
-  "CreatorsFirstname": "Gus",
-  "CreatorsLastname": "Waters"
+  "AssociateIdForNewContact": 680,
+  "LeadDescription": "Multi-lateral human-resource knowledge user",
+  "Relation": "aut",
+  "RelationId": 314,
+  "LeadContact": "possimus",
+  "LeadPersonFirstname": "Alana",
+  "LeadPersonLastname": "Bergnaum",
+  "LeadPersonEmail": "dejon.wuckert@stark.info",
+  "LeadPhoneNumber": "1030766",
+  "CreatorsContact": "blanditiis",
+  "CreatorsFirstname": "Teagan",
+  "CreatorsLastname": "Johnston"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 86,
-      "Name": "Stark-White",
-      "OrgNr": "685149",
+      "ContactId": 608,
+      "Name": "Larson, Fay and Runolfsson",
+      "OrgNr": "1728623",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "esse",
-      "DirectPhone": "(574)803-5101 x6488",
-      "AssociateId": 269,
+      "City": "repudiandae",
+      "DirectPhone": "(326)193-6677",
+      "AssociateId": 704,
       "CountryId": 921,
-      "EmailAddress": "zella.gutmann@wisozk.biz",
-      "Kananame": "porro",
-      "EmailAddressName": "tre_auer@donnelly.uk",
+      "EmailAddress": "zelda_lowe@lockman.biz",
+      "Kananame": "dolor",
+      "EmailAddressName": "clementine@sawayn.co.uk",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Phyllis McGlynn",
+      "AssociateFullName": "Archibald West",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "veniam",
-      "FullName": "Mrs. Loren Marietta Heidenreich PhD",
+      "FormattedAddress": "iure",
+      "FullName": "Jerrold Balistreri",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 77,
-      "Number1": "1097249",
-      "Number2": "306864",
+      "ActiveErpLinks": 52,
+      "Number1": "880756",
+      "Number2": "937787",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 151
+          "FieldType": "System.Int32",
+          "FieldLength": 98
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 80
     }
   }
 }

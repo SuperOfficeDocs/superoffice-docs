@@ -74,15 +74,15 @@ No Content
 POST /api/v1/Agents/User/SetExternalUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 266,
-  "UserName": "Harvey LLC",
-  "Password": "natus",
-  "IsActive": true,
-  "RoleId": 894,
+  "AssociateId": 124,
+  "UserName": "Sipes Group",
+  "Password": "sed",
+  "IsActive": false,
+  "RoleId": 56,
   "ExternalUserInfoModification": "Active"
 }
 ```

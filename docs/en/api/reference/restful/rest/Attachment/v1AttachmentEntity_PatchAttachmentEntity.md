@@ -114,18 +114,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -138,19 +138,19 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 599,
-  "Name": "Conroy Group",
-  "ContentType": "a",
-  "AttSize": 983,
+  "AttachmentId": 347,
+  "Name": "Streich LLC",
+  "ContentType": "non",
+  "AttSize": 559,
   "InlineImage": false,
-  "ContentId": "cum",
-  "AuthKey": "rem",
+  "ContentId": "consectetur",
+  "AuthKey": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 938
     }
   },
   "_Links": {

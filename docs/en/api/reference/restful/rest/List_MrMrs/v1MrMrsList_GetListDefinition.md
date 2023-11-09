@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 817,
-  "Name": "Borer-Spinka",
-  "Tooltip": "ad",
+  "Id": 182,
+  "Name": "Hoeger, Schaden and Kassulke",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "Rank": 70,
+  "Rank": 756,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "laborum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldLength": 159
     }
   },
   "_Links": {

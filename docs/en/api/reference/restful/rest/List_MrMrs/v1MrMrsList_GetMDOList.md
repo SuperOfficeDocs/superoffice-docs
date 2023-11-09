@@ -26,7 +26,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=False
+GET /api/v1/List/MrMrs/MDOItems?flat=True
 GET /api/v1/List/MrMrs/MDOItems?query=et
 ```
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 542,
-    "Name": "Ruecker, Raynor and Zulauf",
-    "ToolTip": "Est non repellendus aut ea quo odio.",
+    "Id": 429,
+    "Name": "Collier, Thiel and Doyle",
+    "ToolTip": "Maiores eligendi.",
     "Deleted": false,
-    "Rank": 640,
-    "Type": "quisquam",
+    "Rank": 727,
+    "Type": "debitis",
     "ChildItems": [
       {
-        "Id": 329,
-        "Name": "Monahan, Trantow and Roob",
-        "ToolTip": "Corporis non sit officiis alias beatae consequatur tempore.",
+        "Id": 697,
+        "Name": "Gaylord-Reichel",
+        "ToolTip": "Veritatis quis animi.",
         "Deleted": true,
-        "Rank": 252,
-        "Type": "voluptatem",
+        "Rank": 892,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 428,
-        "ExtraInfo": "iure",
-        "StyleHint": "ut",
-        "FullName": "Newell Hackett PhD",
+        "IconHint": "architecto",
+        "ColorBlock": 104,
+        "ExtraInfo": "in",
+        "StyleHint": "quia",
+        "FullName": "Hiram Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 711
+            "FieldLength": 893
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 714,
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "officia",
-    "FullName": "Chanel Monahan",
+    "IconHint": "nostrum",
+    "ColorBlock": 901,
+    "ExtraInfo": "magnam",
+    "StyleHint": "et",
+    "FullName": "Justina Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldLength": 590
       }
     }
   }

@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=eum
-GET /api/v1/MDOList/{listname}?query=dolor
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=tempora
+GET /api/v1/MDOList/{listname}?query=in
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Hauck, Gaylord and Satterfield",
-    "ToolTip": "Ut dolore commodi error aut vero vel.",
-    "Deleted": false,
-    "Rank": 699,
-    "Type": "distinctio",
+    "Id": 859,
+    "Name": "Grant Group",
+    "ToolTip": "Quis nostrum.",
+    "Deleted": true,
+    "Rank": 702,
+    "Type": "nisi",
     "ChildItems": [
       {
-        "Id": 164,
-        "Name": "Feest Group",
-        "ToolTip": "Est consequatur ut repellendus nihil facilis.",
-        "Deleted": true,
-        "Rank": 664,
-        "Type": "nulla",
+        "Id": 530,
+        "Name": "Marvin-Konopelski",
+        "ToolTip": "Tempora ad.",
+        "Deleted": false,
+        "Rank": 206,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deserunt",
-        "ColorBlock": 657,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "et",
-        "FullName": "Miss Otis Hoeger IV",
+        "IconHint": "dolor",
+        "ColorBlock": 287,
+        "ExtraInfo": "quia",
+        "StyleHint": "aut",
+        "FullName": "Karelle Aiden Wiza III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldType": "System.String",
+            "FieldLength": 638
           }
         }
       }
     ],
-    "IconHint": "praesentium",
-    "ColorBlock": 753,
-    "ExtraInfo": "numquam",
-    "StyleHint": "reiciendis",
-    "FullName": "Cordelia McLaughlin",
+    "IconHint": "est",
+    "ColorBlock": 513,
+    "ExtraInfo": "doloremque",
+    "StyleHint": "pariatur",
+    "FullName": "Marilyne Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   }

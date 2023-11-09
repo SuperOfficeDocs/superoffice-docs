@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 83,
+  "TargetAssignmentInfoId": 235,
   "Values": [
-    3,
-    902
+    92,
+    546
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 243,
-  "DimensionListItemDisplayName": "Metz Inc and Sons",
+  "DimensionListItem": 663,
+  "DimensionListItemDisplayName": "Bernhard-Eichmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldType": "System.Int32",
+      "FieldLength": 991
     }
   }
 }

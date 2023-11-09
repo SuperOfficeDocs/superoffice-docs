@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 346,
-  "Name": "Lakin LLC",
-  "Rank": 333,
-  "Tooltip": "quis",
+  "ResourceId": 603,
+  "Name": "Kutch LLC",
+  "Rank": 352,
+  "Tooltip": "quidem",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "sit",
+  "IsLocation": false,
+  "LocationAddress": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 717
     }
   }
 }

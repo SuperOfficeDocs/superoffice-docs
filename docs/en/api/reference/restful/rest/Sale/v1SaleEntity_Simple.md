@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Jerde Inc and Sons",
-  "SaleDate": "2015-05-14T03:24:51.8963736+02:00",
-  "SaleId": 101,
-  "Probability": 959,
-  "Title": "asperiores",
-  "Amount": 23210.404,
-  "Currency": "corrupti",
-  "ProjectName": "Rosenbaum-Johnson",
-  "AssociateFullName": "Shawna Johnson",
-  "Description": "Seamless needs-based adapter",
+  "ContactName": "Nitzsche Inc and Sons",
+  "SaleDate": "2004-02-16T11:06:42.1916015+01:00",
+  "SaleId": 846,
+  "Probability": 957,
+  "Title": "laboriosam",
+  "Amount": 14936.644,
+  "Currency": "impedit",
+  "ProjectName": "Nienow-Corwin",
+  "AssociateFullName": "Miss Roman Farrell",
+  "Description": "Expanded background model",
   "Status": "Lost",
-  "WeightedAmount": 27889.466,
-  "ProjectId": 182,
-  "EarningPercent": 4729.206,
-  "Earning": 19035.916,
-  "ContactId": 663,
-  "AssociateId": 343,
-  "PersonId": 572,
-  "SaleTypeId": 460,
-  "SaleTypeName": "Hills, Gutkowski and Will",
-  "PersonFullName": "Caleb Morar",
+  "WeightedAmount": 5964.0019999999995,
+  "ProjectId": 586,
+  "EarningPercent": 18255.55,
+  "Earning": 11768.17,
+  "ContactId": 597,
+  "AssociateId": 817,
+  "PersonId": 400,
+  "SaleTypeId": 213,
+  "SaleTypeName": "O'Connell, Fay and Labadie",
+  "PersonFullName": "Dr. Erich Enid Huels",
   "Completed": "Completed",
-  "ActiveErpLinks": 212,
-  "NextDueDate": "2019-06-28T03:24:51.8963736+02:00",
-  "Number": "1443061",
+  "ActiveErpLinks": 467,
+  "NextDueDate": "2003-08-23T11:06:42.1916015+02:00",
+  "Number": "1134312",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldLength": 195
     }
   }
 }

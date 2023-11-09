@@ -91,7 +91,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSelection?$select=selectionAssociate/title,lastLoadedBy,selectionAssociate/middleName
+GET /api/v1/archive/FreetextSelection?$select=lastLoadedBy,selectionAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

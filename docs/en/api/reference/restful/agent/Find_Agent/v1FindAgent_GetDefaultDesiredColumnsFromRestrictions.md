@@ -90,18 +90,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ziemann, Schaden and Beahan",
+  "ProviderName": "Halvorson, Watsica and Hane",
   "Restrictions": [
     {
-      "Name": "Marks, Oberbrunner and Hauck",
-      "Operator": "incidunt",
+      "Name": "Kuphal-Stiedemann",
+      "Operator": "similique",
       "Values": [
-        "modi",
-        "consequatur"
+        "pariatur",
+        "dolor"
       ],
       "DisplayValues": [
-        "aut",
-        "incidunt"
+        "voluptate",
+        "iure"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 32,
+      "InterParenthesis": 574,
       "InterOperator": "And",
-      "UniqueHash": 241
+      "UniqueHash": 311
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Hegmann, Bins and Deckow",
-    "DisplayTooltip": "incidunt",
-    "DisplayType": "et",
-    "CanOrderBy": false,
-    "Name": "Gaylord, Marks and Harris",
+    "DisplayName": "Connelly Group",
+    "DisplayTooltip": "qui",
+    "DisplayType": "nihil",
+    "CanOrderBy": true,
+    "Name": "Runte-Graham",
     "CanRestrictBy": false,
-    "RestrictionType": "labore",
-    "RestrictionListName": "Pollich-Goldner",
-    "IsVisible": false,
-    "ExtraInfo": "quia",
-    "Width": "asperiores",
-    "IconHint": "magni",
-    "HeadingIconHint": "vel"
+    "RestrictionType": "illo",
+    "RestrictionListName": "Weimann Group",
+    "IsVisible": true,
+    "ExtraInfo": "fugit",
+    "Width": "possimus",
+    "IconHint": "enim",
+    "HeadingIconHint": "quia"
   }
 ]
 ```

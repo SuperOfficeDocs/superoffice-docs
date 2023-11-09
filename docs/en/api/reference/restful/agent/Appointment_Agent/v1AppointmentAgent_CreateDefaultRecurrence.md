@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 788,
-  "StartDate": "2000-07-07T03:24:47.1270922+02:00",
-  "EndDate": "2019-05-27T03:24:47.1270922+02:00",
-  "RecurrenceCounter": 446,
+  "RecurrenceId": 479,
+  "StartDate": "2007-01-15T11:06:33.6007343+01:00",
+  "EndDate": "2012-03-26T11:06:33.6007343+02:00",
+  "RecurrenceCounter": 698,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2015-05-30T03:24:47.1270922+02:00",
-      "IsConflict": true,
-      "Description": "Ameliorated fresh-thinking challenge",
-      "DescriptionStyleHint": "Horizontal heuristic array",
-      "Tooltip": "quo"
+      "Date": "2003-07-30T11:06:33.6007343+02:00",
+      "IsConflict": false,
+      "Description": "Monitored 6th generation help-desk",
+      "DescriptionStyleHint": "Adaptive impactful function",
+      "Tooltip": "laudantium"
     },
     {
-      "Date": "2015-05-30T03:24:47.1270922+02:00",
-      "IsConflict": true,
-      "Description": "Ameliorated fresh-thinking challenge",
-      "DescriptionStyleHint": "Horizontal heuristic array",
-      "Tooltip": "quo"
+      "Date": "2003-07-30T11:06:33.6007343+02:00",
+      "IsConflict": false,
+      "Description": "Monitored 6th generation help-desk",
+      "DescriptionStyleHint": "Adaptive impactful function",
+      "Tooltip": "laudantium"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

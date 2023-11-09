@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 873,
-  "Name": "Shields Group",
-  "Tooltip": "sapiente",
+  "Id": 996,
+  "Name": "Olson, Gaylord and Kihn",
+  "Tooltip": "quod",
   "Deleted": false,
-  "UdListDefinitionId": 629,
-  "Rank": 215,
+  "UdListDefinitionId": 855,
+  "Rank": 106,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 737
     }
   }
 }

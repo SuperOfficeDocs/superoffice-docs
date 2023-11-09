@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 387,
-    "Name": "Trantow-Cronin",
-    "ToolTip": "Dolores necessitatibus delectus reiciendis esse.",
+    "Id": 56,
+    "Name": "Pacocha, Stokes and Daniel",
+    "ToolTip": "Error delectus quasi aliquid vitae asperiores.",
     "Deleted": true,
-    "Rank": 261,
-    "Type": "deleniti",
-    "ColorBlock": 755,
-    "IconHint": "debitis",
+    "Rank": 814,
+    "Type": "perferendis",
+    "ColorBlock": 949,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "1996-05-09T03:24:52.2244666+02:00",
+    "LastChanged": "2006-06-15T11:06:42.7721939+02:00",
     "ChildItems": [
       {
-        "Id": 972,
-        "Name": "Reynolds, Aufderhar and Zboncak",
-        "ToolTip": "Vitae exercitationem qui.",
+        "Id": 735,
+        "Name": "Streich, Ziemann and Shields",
+        "ToolTip": "Maiores non.",
         "Deleted": false,
-        "Rank": 355,
-        "Type": "sed",
-        "ColorBlock": 827,
-        "IconHint": "adipisci",
-        "Selected": true,
-        "LastChanged": "2021-10-12T03:24:52.2244666+02:00",
+        "Rank": 320,
+        "Type": "laudantium",
+        "ColorBlock": 434,
+        "IconHint": "voluptate",
+        "Selected": false,
+        "LastChanged": "2015-11-29T11:06:42.7721939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "debitis",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Malinda Kuhic",
+        "FullName": "Lionel Gorczany DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 773
+            "FieldLength": 159
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Mrs. Emilio Fabiola Hettinger",
+    "ExtraInfo": "est",
+    "StyleHint": "distinctio",
+    "Hidden": false,
+    "FullName": "Francisco Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldType": "System.Int32",
+        "FieldLength": 971
       }
     }
   }

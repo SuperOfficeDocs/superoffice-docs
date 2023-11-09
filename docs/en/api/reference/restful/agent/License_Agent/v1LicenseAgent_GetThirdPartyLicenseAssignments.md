@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 193,
-  "ModuleOwner": "aperiam"
+  "AssociateId": 537,
+  "ModuleOwner": "est"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 365,
-    "Tooltip": "harum",
-    "CanAssign": false,
-    "Free": 907,
-    "InUse": 167,
+    "Total": 664,
+    "Tooltip": "aut",
+    "CanAssign": true,
+    "Free": 23,
+    "InUse": 252,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 783,
-    "Name": "Okuneva-Turner",
-    "Description": "Streamlined coherent solution",
-    "PrerequisiteModuleName": "Marks, O'Connell and Heaney",
-    "SortOrder": 406,
-    "ExtraFlags": 322,
+    "Assigned": true,
+    "ModuleLicenseId": 570,
+    "Name": "Morar LLC",
+    "Description": "Fundamental 24/7 utilisation",
+    "PrerequisiteModuleName": "Legros-Kirlin",
+    "SortOrder": 345,
+    "ExtraFlags": 358,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldLength": 121
       }
     }
   }

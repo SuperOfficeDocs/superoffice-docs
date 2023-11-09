@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 901,
-    "Name": "Hettinger Inc and Sons",
-    "ToolTip": "Aut incidunt voluptate accusamus.",
+    "Id": 57,
+    "Name": "Stokes Group",
+    "ToolTip": "Vel magni soluta cupiditate quod.",
     "Deleted": true,
-    "Rank": 18,
-    "Type": "voluptatem",
-    "ColorBlock": 784,
-    "IconHint": "atque",
+    "Rank": 558,
+    "Type": "sed",
+    "ColorBlock": 365,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "1996-05-20T03:24:52.2869587+02:00",
+    "LastChanged": "2020-11-10T11:06:42.8659405+01:00",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Howe, Rodriguez and Kuvalis",
-        "ToolTip": "Corporis et illum.",
-        "Deleted": false,
-        "Rank": 813,
-        "Type": "voluptatem",
-        "ColorBlock": 600,
-        "IconHint": "nemo",
-        "Selected": false,
-        "LastChanged": "2003-04-28T03:24:52.2869587+02:00",
+        "Id": 116,
+        "Name": "Reilly-Dare",
+        "ToolTip": "Atque dolores.",
+        "Deleted": true,
+        "Rank": 605,
+        "Type": "et",
+        "ColorBlock": 98,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2016-12-07T11:06:42.8659405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "ab",
-        "Hidden": true,
-        "FullName": "Bonnie Huels"
+        "ExtraInfo": "natus",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Carolyn Hauck"
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "qui",
+    "ExtraInfo": "quia",
+    "StyleHint": "iure",
     "Hidden": true,
-    "FullName": "Genesis Schumm"
+    "FullName": "Ms. Jayne Heathcote"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 910,
-    "Name": "Koch-Prosacco",
-    "ToolTip": "Dolores explicabo dolor adipisci magnam maiores.",
+    "Id": 44,
+    "Name": "Mann LLC",
+    "ToolTip": "Necessitatibus aliquid.",
     "Deleted": true,
-    "Rank": 362,
+    "Rank": 768,
     "Type": "non",
-    "ColorBlock": 991,
-    "IconHint": "recusandae",
+    "ColorBlock": 361,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2016-10-23T03:24:52.2869587+02:00",
+    "LastChanged": "2010-12-19T11:06:42.8659405+01:00",
     "ChildItems": [
       {
-        "Id": 759,
-        "Name": "Ernser LLC",
-        "ToolTip": "Ipsa enim quaerat omnis illo dicta.",
-        "Deleted": false,
-        "Rank": 957,
-        "Type": "iusto",
-        "ColorBlock": 134,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2020-12-08T03:24:52.2869587+01:00",
+        "Id": 414,
+        "Name": "Skiles, Koelpin and VonRueden",
+        "ToolTip": "Aut distinctio dolorem.",
+        "Deleted": true,
+        "Rank": 20,
+        "Type": "voluptatem",
+        "ColorBlock": 340,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "2017-11-15T11:06:42.8659405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "omnis",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Marley Odell Roob",
+        "FullName": "Laron Dibbert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldLength": 170
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "quas",
-    "Hidden": false,
-    "FullName": "Ofelia Bauch",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "blanditiis",
+    "Hidden": true,
+    "FullName": "Dr. Maverick Howell IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldType": "System.String",
+        "FieldLength": 811
       }
     }
   }

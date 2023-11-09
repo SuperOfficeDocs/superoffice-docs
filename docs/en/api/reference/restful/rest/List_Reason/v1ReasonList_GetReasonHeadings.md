@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 448,
-    "Name": "Wunsch Group",
-    "Tooltip": "eaque",
+    "HeadingId": 471,
+    "Name": "Metz, Will and Bode",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 810,
-    "UdListDefinitionId": 525,
+    "Rank": 857,
+    "UdListDefinitionId": 448,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldType": "System.String",
+        "FieldLength": 410
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 927,
-  "WorkflowId": 224,
+  "WorkflowTriggerId": 996,
+  "WorkflowId": 8,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Towne-Stracke",
-      "Description": "Virtual upward-trending framework",
-      "Rank": 811,
+      "Name": "Senger-Purdy",
+      "Description": "Synchronised regional budgetary management",
+      "Rank": 458,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Towne-Stracke",
-      "Description": "Virtual upward-trending framework",
-      "Rank": 811,
+      "Name": "Senger-Purdy",
+      "Description": "Synchronised regional budgetary management",
+      "Rank": 458,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldType": "System.String",
+      "FieldLength": 643
     }
   }
 }

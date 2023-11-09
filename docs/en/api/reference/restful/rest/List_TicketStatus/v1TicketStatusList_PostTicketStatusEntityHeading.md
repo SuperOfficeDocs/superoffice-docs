@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 817,
-  "Name": "Wunsch-Casper",
-  "Tooltip": "unde",
+  "HeadingId": 87,
+  "Name": "Hettinger Inc and Sons",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 999,
-  "UdListDefinitionId": 131
+  "Rank": 566,
+  "UdListDefinitionId": 499
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 913,
-  "Name": "Gutkowski Group",
-  "Tooltip": "autem",
+  "HeadingId": 945,
+  "Name": "Botsford Group",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 993,
-  "UdListDefinitionId": 29,
+  "Rank": 912,
+  "UdListDefinitionId": 433,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 647
     }
   }
 }

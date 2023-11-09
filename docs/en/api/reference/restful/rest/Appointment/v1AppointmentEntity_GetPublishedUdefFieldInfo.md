@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 95,
-  "ColumnId": 361,
-  "FieldDefault": "nam",
-  "FieldHeight": 849,
-  "FieldLabel": "error",
-  "FieldLeft": 466,
-  "FieldTop": 153,
+  "UDefFieldId": 184,
+  "ColumnId": 326,
+  "FieldDefault": "nemo",
+  "FieldHeight": 466,
+  "FieldLabel": "perferendis",
+  "FieldLeft": 463,
+  "FieldTop": 788,
   "FieldType": "Checkbox",
-  "FieldWidth": 939,
-  "FormatMask": "repellendus",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 286,
-  "LabelLeft": 426,
-  "LabelTop": 923,
-  "LabelWidth": 268,
-  "LastVersionId": 405,
-  "ListTableId": 943,
+  "FieldWidth": 358,
+  "FormatMask": "illo",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 475,
+  "LabelLeft": 890,
+  "LabelTop": 252,
+  "LabelWidth": 152,
+  "LastVersionId": 529,
+  "ListTableId": 797,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 1002,
-  "ProgId": "nihil",
-  "IsReadOnly": true,
-  "ShortLabel": "quas",
-  "TabOrder": 949,
-  "TextLength": 547,
-  "Tooltip": "inventore",
-  "UdefIdentity": 998,
-  "UDListDefinitionId": 685,
+  "Page1LineNo": 20,
+  "ProgId": "omnis",
+  "IsReadOnly": false,
+  "ShortLabel": "rerum",
+  "TabOrder": 493,
+  "TextLength": 987,
+  "Tooltip": "excepturi",
+  "UdefIdentity": 778,
+  "UDListDefinitionId": 212,
   "Justification": "Center",
-  "Version": 117,
-  "TemplateVariableName": "Wuckert, O'Conner and Cruickshank",
-  "HasBeenPublished": true,
-  "MdoListName": "Kuphal LLC",
+  "Version": 346,
+  "TemplateVariableName": "Pollich, Kuvalis and Greenholt",
+  "HasBeenPublished": false,
+  "MdoListName": "Metz Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldLength": 89
     }
   }
 }

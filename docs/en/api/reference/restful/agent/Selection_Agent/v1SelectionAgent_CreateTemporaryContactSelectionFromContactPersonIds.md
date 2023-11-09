@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 425,
-      "ContactId": 160
+      "PersonId": 970,
+      "ContactId": 874
     },
     {
-      "PersonId": 425,
-      "ContactId": 160
+      "PersonId": 970,
+      "ContactId": 874
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended bifurcated solution",
-  "Postit": "odio",
+  "Description": "Cloned interactive neural-net",
+  "Postit": "minima",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 431,
-  "IncludePerson": 130,
-  "MemberCount": 259,
-  "Name": "Harber, Bosco and Graham",
-  "PostitTextId": 98,
-  "CreatedDate": "2018-10-18T03:24:48.2524255+02:00",
-  "SelectionId": 143,
-  "SoundEx": "illo",
-  "Source": 604,
-  "TextId": 113,
-  "UpdatedDate": "2004-04-03T03:24:48.2524255+02:00",
-  "UpdatedCount": 787,
-  "Visibility": 674,
+  "GroupIdx": 807,
+  "IncludePerson": 542,
+  "MemberCount": 320,
+  "Name": "Koch-Swift",
+  "PostitTextId": 232,
+  "CreatedDate": "2018-04-30T11:06:35.364568+02:00",
+  "SelectionId": 693,
+  "SoundEx": "consequuntur",
+  "Source": 892,
+  "TextId": 236,
+  "UpdatedDate": "2022-02-07T11:06:35.364568+01:00",
+  "UpdatedCount": 929,
+  "Visibility": 565,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 433,
-  "TargetTableName": "Runte-Pollich",
-  "Completed": true,
-  "LeftSelectionId": 989,
-  "RightSelectionId": 761,
+  "TargetTableNumber": 354,
+  "TargetTableName": "Stoltenberg Group",
+  "Completed": false,
+  "LeftSelectionId": 796,
+  "RightSelectionId": 870,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Carroll Group",
-  "ShadowProviderName": "Haley Inc and Sons",
-  "ChartKey": "ut",
-  "LastLoaded": "2017-03-20T03:24:48.2524255+01:00",
-  "LastLoadedBy": 351,
+  "MainProviderName": "Sawayn Group",
+  "ShadowProviderName": "Johnson Inc and Sons",
+  "ChartKey": "non",
+  "LastLoaded": "2013-10-24T11:06:35.364568+02:00",
+  "LastLoadedBy": 588,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-10-24T03:24:48.2524255+02:00",
-  "LastMembershipChangeBy": 729,
+  "LastMembershipChange": "2007-06-07T11:06:35.364568+02:00",
+  "LastMembershipChangeBy": 469,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolores",
-  "MemberTabHeading": "enim",
-  "MailingsProviderName": "Schultz-Mertz",
-  "DashboardTileDefinitionId": 949,
+  "MainHeading": "maiores",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Schmeler, Runolfsson and Kris",
+  "DashboardTileDefinitionId": 563,
   "VisibleFor": [
     {
-      "VisibleId": 521,
+      "VisibleId": 956,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 531
+          "FieldLength": 609
         }
       }
     },
     {
-      "VisibleId": 521,
+      "VisibleId": 956,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 531
+          "FieldLength": 609
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 996
     }
   }
 }

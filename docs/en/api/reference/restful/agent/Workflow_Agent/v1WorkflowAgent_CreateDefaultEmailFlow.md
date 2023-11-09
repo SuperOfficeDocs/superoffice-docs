@@ -82,6 +82,10 @@ OK
 | Goals | array | The goals for the workflow. |
 | Filter | WorkflowFilter | The filter for the workflow. |
 | BlockLists | array | Persons in the given selections are not allowed to enter this workflow |
+| CreatedBy | Associate | The associate that first created the flow. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the flow. |
+| CreatedDate | date-time | Registered date  in UTC. |
+| UpdatedDate | date-time | Updated date  in UTC. |
 | VisibleFor | array | The set of users or groups the record is visible for |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -102,34 +106,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 236,
-  "Name": "Predovic Group",
-  "Description": "Robust content-based matrices",
+  "EmailFlowId": 60,
+  "Name": "Hodkiewicz Inc and Sons",
+  "Description": "Re-engineered discrete task-force",
   "Status": "None",
-  "JumpToFinish": false,
+  "JumpToFinish": true,
   "StartOnlyOnce": false,
-  "OverrideConsentSubscription": true,
+  "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Olson, Pagac and Collins",
-  "FromAddr": "ut",
+  "FromName": "Kirlin LLC",
+  "FromAddr": "laborum",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "ut",
-  "ReplyToName": "Zulauf LLC",
-  "SmsSender": "recusandae",
-  "UseGoogleAnalytics": false,
-  "GaSource": "dicta",
-  "GaCampaign": "nisi",
+  "ReplyToAddr": "corporis",
+  "ReplyToName": "Wisozk, Klocko and Kuhlman",
+  "SmsSender": "necessitatibus",
+  "UseGoogleAnalytics": true,
+  "GaSource": "eos",
+  "GaCampaign": "amet",
   "UseTimeframe": false,
   "SelectedDays": "Friday",
-  "TimeframeStart": "similique",
-  "TimeframeEnd": "et",
-  "UseWorkflowStart": true,
-  "WorkflowStart": "enim",
+  "TimeframeStart": "officia",
+  "TimeframeEnd": "quae",
+  "UseWorkflowStart": false,
+  "WorkflowStart": "illum",
   "UseEnrollmentEnd": false,
-  "EnrollmentEnd": "nihil",
+  "EnrollmentEnd": "voluptas",
   "RemoveFromFlows": [
-    277,
-    163
+    916,
+    666
   ],
   "TzLocation": null,
   "Folder": null,
@@ -137,22 +141,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 488,
-      "WorkflowId": 485,
+      "WorkflowStepId": 731,
+      "WorkflowId": 502,
       "StepType": "AddToList",
-      "Rank": 620
+      "Rank": 192
     },
     {
-      "WorkflowStepId": 488,
-      "WorkflowId": 485,
+      "WorkflowStepId": 731,
+      "WorkflowId": 502,
       "StepType": "AddToList",
-      "Rank": 620
+      "Rank": 192
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 604,
-      "WorkflowId": 543,
+      "WorkflowTriggerId": 745,
+      "WorkflowId": 112,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -162,14 +166,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldType": "System.Int32",
+          "FieldLength": 972
         }
       }
     },
     {
-      "WorkflowTriggerId": 604,
-      "WorkflowId": 543,
+      "WorkflowTriggerId": 745,
+      "WorkflowId": 112,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -179,16 +183,16 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldType": "System.Int32",
+          "FieldLength": 972
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 368,
-      "WorkflowId": 24,
+      "WorkflowGoalId": 772,
+      "WorkflowId": 263,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -199,13 +203,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 998
+          "FieldLength": 368
         }
       }
     },
     {
-      "WorkflowGoalId": 368,
-      "WorkflowId": 24,
+      "WorkflowGoalId": 772,
+      "WorkflowId": 263,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -216,40 +220,44 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 998
+          "FieldLength": 368
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    269,
-    203
+    851,
+    589
   ],
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "CreatedDate": "2014-10-26T11:06:35.7889311+01:00",
+  "UpdatedDate": "2016-02-06T11:06:35.7889311+01:00",
   "VisibleFor": [
     {
-      "VisibleId": 630,
+      "VisibleId": 998,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 857
         }
       }
     },
     {
-      "VisibleId": 630,
+      "VisibleId": 998,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 857
         }
       }
     }
@@ -259,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 155
     }
   }
 }

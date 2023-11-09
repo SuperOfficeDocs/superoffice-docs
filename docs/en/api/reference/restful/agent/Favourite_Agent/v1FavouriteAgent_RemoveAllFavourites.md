@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wintheiser-Kuhn",
-  "AssociateId": 505
+  "TableName": "DuBuque, Daniel and Kuphal",
+  "AssociateId": 315
 }
 ```
 

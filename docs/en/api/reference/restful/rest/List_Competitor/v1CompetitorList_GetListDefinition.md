@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 270,
-  "Name": "Boehm Inc and Sons",
-  "Tooltip": "odio",
+  "Id": 875,
+  "Name": "Crooks, Koelpin and Simonis",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "Rank": 424,
-  "IsCustomList": true,
+  "Rank": 935,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laboriosam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "esse",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldLength": 785
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

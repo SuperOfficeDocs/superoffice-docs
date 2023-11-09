@@ -65,7 +65,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 325,
-    "Name": "Hammes Group",
-    "ContentType": "nostrum",
-    "AttSize": 446,
-    "InlineImage": false,
-    "ContentId": "asperiores",
-    "AuthKey": "velit",
+    "AttachmentId": 693,
+    "Name": "Ledner, Doyle and Rodriguez",
+    "ContentType": "nisi",
+    "AttSize": 918,
+    "InlineImage": true,
+    "ContentId": "fuga",
+    "AuthKey": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldType": "System.String",
+        "FieldLength": 428
       }
     }
   }

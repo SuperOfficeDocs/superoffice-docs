@@ -69,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PrefDescIds": [
-    92,
-    640
+    4,
+    93
   ]
 }
 ```

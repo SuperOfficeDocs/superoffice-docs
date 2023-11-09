@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 342,
-  "Name": "Schiller-Kertzmann",
-  "Tooltip": "odit",
+  "HeadingId": 485,
+  "Name": "Kertzmann Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 591,
-  "UdListDefinitionId": 19
+  "Rank": 931,
+  "UdListDefinitionId": 40
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 899,
-  "Name": "Smith, Steuber and Gibson",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 418,
-  "UdListDefinitionId": 766,
+  "HeadingId": 332,
+  "Name": "Ullrich-Beer",
+  "Tooltip": "quibusdam",
+  "Deleted": true,
+  "Rank": 247,
+  "UdListDefinitionId": 603,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 61
     }
   }
 }

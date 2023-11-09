@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 05 Jun 2008 03:24:51 G6T
+Last-Modified: Sun, 02 Oct 2005 11:06:41 G10T
 
 {
-  "Key": "eligendi",
-  "Value": "error",
-  "RecordId": 542,
-  "CreatedDate": "1996-05-31T03:24:51.630601+02:00",
-  "UpdatedDate": "2008-06-05T03:24:51.630601+02:00",
-  "UpdatedBy": "eos",
-  "CreatedBy": "dolores",
-  "TableName": "Rogahn Group",
+  "Key": "eaque",
+  "Value": "ullam",
+  "RecordId": 247,
+  "CreatedDate": "2004-06-20T11:06:41.8947242+02:00",
+  "UpdatedDate": "2005-10-02T11:06:41.8947242+02:00",
+  "UpdatedBy": "itaque",
+  "CreatedBy": "et",
+  "TableName": "Hansen LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldType": "System.Int32",
+      "FieldLength": 892
     }
   }
 }

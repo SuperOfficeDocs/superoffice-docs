@@ -130,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "quidem"
+  "UID": "aut"
 }
 ```
 
@@ -149,63 +149,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-02-02T03:24:47.2052134+01:00",
-  "AppointmentId": 832,
-  "Description": "Future-proofed asynchronous conglomeration",
-  "StartDate": "2013-02-18T03:24:47.2052134+01:00",
-  "EndDate": "2007-03-02T03:24:47.2052134+01:00",
+  "CreatedDate": "2016-10-28T11:06:33.7101142+02:00",
+  "AppointmentId": 135,
+  "Description": "Fundamental reciprocal complexity",
+  "StartDate": "2008-06-07T11:06:33.7101142+02:00",
+  "EndDate": "2014-07-14T11:06:33.7101142+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 540,
+  "MotherId": 493,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-05-28T03:24:47.2052134+02:00",
+  "UpdatedDate": "2019-07-22T11:06:33.7101142+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 219,
+  "ActiveLinks": 39,
   "Links": [
     {
-      "EntityName": "Langworth-Cole",
-      "Id": 928,
-      "Description": "Universal eco-centric pricing structure",
-      "ExtraInfo": "necessitatibus",
-      "LinkId": 109,
+      "EntityName": "Koepp, Cormier and Satterfield",
+      "Id": 627,
+      "Description": "Pre-emptive systematic utilisation",
+      "ExtraInfo": "pariatur",
+      "LinkId": 377,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 622
+          "FieldType": "System.Int32",
+          "FieldLength": 227
         }
       }
     }
   ],
-  "AlarmLeadTime": "consequatur",
-  "HasAlarm": false,
-  "ColorIndex": 727,
+  "AlarmLeadTime": "dolor",
+  "HasAlarm": true,
+  "ColorIndex": 317,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "ut",
-  "LeadTime": "ut",
-  "Location": "est",
-  "RejectCounter": 735,
+  "LagTime": "delectus",
+  "LeadTime": "in",
+  "Location": "quaerat",
+  "RejectCounter": 604,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 913,
-      "PersonId": 970,
-      "ContactId": 828,
-      "EmailId": 732,
+      "AssociateId": 93,
+      "PersonId": 290,
+      "ContactId": 738,
+      "EmailId": 385,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 913,
-      "PersonId": 970,
-      "ContactId": 828,
-      "EmailId": 732,
+      "AssociateId": 93,
+      "PersonId": 290,
+      "ContactId": 738,
+      "EmailId": 385,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -213,61 +213,61 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-10-01T03:24:47.2052134+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2017-05-16T11:06:33.7101142+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 379,
+  "PreferredTZLocation": 152,
   "Sale": null,
-  "SuggestedAppointmentId": 214,
+  "SuggestedAppointmentId": 824,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "odio",
-  "Title": "qui",
-  "Agenda": "ratione",
-  "InternalNotes": "aperiam",
+  "CentralserviceVideomeetId": "voluptatem",
+  "Title": "soluta",
+  "Agenda": "iste",
+  "InternalNotes": "sapiente",
   "UserDefinedFields": {
-    "SuperOffice:1": "173769922",
-    "SuperOffice:2": "1384637109"
+    "SuperOffice:1": "Miss Marion Heathcote V",
+    "SuperOffice:2": "Mrs. Damian Else Muller"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "minima"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "est"
+    "CustomFields1": "quia",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "2001-11-27T03:24:47.2052134+01:00",
-  "PublishTo": "2012-02-17T03:24:47.2052134+01:00",
-  "PublishFrom": "1999-06-28T03:24:47.2052134+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2003-11-20T11:06:33.7101142+01:00",
+  "PublishTo": "2013-03-25T11:06:33.7101142+01:00",
+  "PublishFrom": "2009-03-30T11:06:33.7101142+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 442,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "nemo",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 49
         }
       }
     },
     {
-      "VisibleId": 442,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "nemo",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 49
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldType": "System.String",
+      "FieldLength": 121
     }
   }
 }

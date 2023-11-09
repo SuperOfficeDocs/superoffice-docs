@@ -71,13 +71,13 @@ GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
 GET /api/v1/Pricelist?$entities=ut
-GET /api/v1/Pricelist?$top=665
-GET /api/v1/Pricelist?$skip=161
+GET /api/v1/Pricelist?$top=932
+GET /api/v1/Pricelist?$skip=728
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=omnis
+GET /api/v1/Pricelist?$context=possimus
 GET /api/v1/Pricelist?$format=JSON
-GET /api/v1/Pricelist?$jsonSafe=False
+GET /api/v1/Pricelist?$jsonSafe=True
 GET /api/v1/Pricelist?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "molestiae",
+  "odata.nextLink": "ratione",
   "value": [
     {
-      "PrimaryKey": 3750,
+      "PrimaryKey": 9160,
       "EntityName": "person",
-      "personId": 3750,
-      "fullName": "Carmela Wilford Collins PhD"
+      "personId": 9160,
+      "fullName": "Burnice Herzog"
     },
     {
-      "PrimaryKey": 3884,
+      "PrimaryKey": 8138,
       "EntityName": "person",
-      "personId": 3884,
-      "fullName": "Justus Schaefer"
+      "personId": 8138,
+      "fullName": "Ellie Mertz"
     }
   ]
 }

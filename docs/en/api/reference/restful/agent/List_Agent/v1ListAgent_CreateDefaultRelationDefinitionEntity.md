@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 238,
-  "Name": "Denesik-Dooley",
-  "Tooltip": "quia",
-  "PassiveText": "itaque",
-  "Deleted": true,
-  "Rank": 485,
+  "ReldefId": 917,
+  "Name": "Schumm Group",
+  "Tooltip": "qui",
+  "PassiveText": "quia",
+  "Deleted": false,
+  "Rank": 1002,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 958
     }
   }
 }

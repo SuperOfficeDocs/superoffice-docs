@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=637
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=594
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "repudiandae",
+  "SaleText": "officia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2008-10-08T03:24:48.2051019+02:00",
-  "Amount": 6340.0819999999994,
-  "SaleId": 490,
-  "Earning": 13212.944,
-  "EarningPercent": 8019.906,
-  "Heading": "ipsa",
-  "Number": "881632",
-  "Probability": 666,
-  "CreatedDate": "2009-11-20T03:24:48.2051019+01:00",
-  "UpdatedDate": "2003-06-27T03:24:48.2051019+02:00",
+  "Saledate": "2018-04-22T11:06:35.3176952+02:00",
+  "Amount": 29700.917999999998,
+  "SaleId": 720,
+  "Earning": 19838.22,
+  "EarningPercent": 23639.762,
+  "Heading": "sunt",
+  "Number": "1210696",
+  "Probability": 115,
+  "CreatedDate": "2022-12-24T11:06:35.3176952+01:00",
+  "UpdatedDate": "2020-10-19T11:06:35.3176952+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 520,
+  "ActiveLinks": 817,
   "Links": [
     {
-      "EntityName": "Runte-Olson",
-      "Id": 193,
-      "Description": "Future-proofed uniform intranet",
-      "ExtraInfo": "amet",
-      "LinkId": 614,
+      "EntityName": "Cruickshank, Bogisich and Witting",
+      "Id": 491,
+      "Description": "Front-line logistical groupware",
+      "ExtraInfo": "tenetur",
+      "LinkId": 175,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldLength": 85
         }
       }
     }
   ],
-  "NextDueDate": "2008-11-30T03:24:48.2051019+01:00",
-  "Postit": "nesciunt",
+  "NextDueDate": "2004-08-22T11:06:35.3176952+02:00",
+  "Postit": "quia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-06-02T03:24:48.2051019+02:00",
+  "ReopenDate": "2004-09-25T11:06:35.3176952+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kunde, Pacocha and Rippin",
-      "Comment": "odio",
-      "StakeholderRoleId": 148,
-      "CountryId": 318,
-      "PersonId": 525,
-      "EmailDescription": "joshua@ornheller.uk",
-      "EmailId": 696,
-      "EmailAddress": "kaylie_botsford@zulauf.ca",
-      "PhoneId": 335,
-      "ContactName": "Feeney LLC",
-      "ContactId": 43,
-      "SaleId": 960,
-      "Mrmrs": "ut",
-      "Firstname": "Bridget",
-      "MiddleName": "Lesch-Carroll",
-      "Lastname": "Kuvalis",
-      "SaleStakeholderId": 986,
-      "Rank": 799,
-      "Phone": "826-264-5412 x2704",
+      "StakeholderRoleName": "Leuschke, Williamson and Bartell",
+      "Comment": "et",
+      "StakeholderRoleId": 359,
+      "CountryId": 59,
+      "PersonId": 117,
+      "EmailDescription": "lauren.wolf@ward.co.uk",
+      "EmailId": 510,
+      "EmailAddress": "malika@reichert.biz",
+      "PhoneId": 191,
+      "ContactName": "Rempel Group",
+      "ContactId": 827,
+      "SaleId": 762,
+      "Mrmrs": "rem",
+      "Firstname": "Jaqueline",
+      "MiddleName": "Fadel-Koch",
+      "Lastname": "Stiedemann",
+      "SaleStakeholderId": 301,
+      "Rank": 281,
+      "Phone": "(823)083-3083",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldType": "System.String",
+          "FieldLength": 179
         }
       }
     }
   ],
-  "ActiveErpLinks": 19,
+  "ActiveErpLinks": 399,
   "UserDefinedFields": {
-    "SuperOffice:1": "39116216",
-    "SuperOffice:2": "1479405315"
+    "SuperOffice:1": "Donald Jazmin Wolff II",
+    "SuperOffice:2": "546547135"
   },
   "ExtraFields": {
-    "ExtraFields1": "consectetur",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "animi",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "maxime",
+    "CustomFields2": "harum"
   },
-  "PublishEventDate": "2000-10-10T03:24:48.2051019+02:00",
-  "PublishTo": "2002-01-05T03:24:48.2051019+01:00",
-  "PublishFrom": "2002-12-22T03:24:48.2051019+01:00",
+  "PublishEventDate": "1997-06-21T11:06:35.3176952+02:00",
+  "PublishTo": "2012-01-09T11:06:35.3176952+01:00",
+  "PublishFrom": "2008-04-02T11:06:35.3176952+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 212,
+      "VisibleId": 107,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 319
+          "FieldType": "System.String",
+          "FieldLength": 750
         }
       }
     },
     {
-      "VisibleId": 212,
+      "VisibleId": 107,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 319
+          "FieldType": "System.String",
+          "FieldLength": 750
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldLength": 104
     }
   }
 }

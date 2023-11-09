@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 652
+  "UserGroupId": 935
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 819,
-    "ColumnId": 330,
-    "FieldDefault": "illo",
-    "FieldHeight": 918,
-    "FieldLabel": "mollitia",
-    "FieldLeft": 382,
-    "FieldTop": 620,
+    "UDefFieldId": 381,
+    "ColumnId": 279,
+    "FieldDefault": "distinctio",
+    "FieldHeight": 161,
+    "FieldLabel": "ab",
+    "FieldLeft": 153,
+    "FieldTop": 737,
     "FieldType": "Checkbox",
-    "FieldWidth": 86,
-    "FormatMask": "cum",
-    "HideLabel": false,
+    "FieldWidth": 932,
+    "FormatMask": "aut",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 830,
-    "LabelLeft": 64,
-    "LabelTop": 423,
-    "LabelWidth": 244,
-    "LastVersionId": 610,
-    "ListTableId": 773,
+    "LabelHeight": 135,
+    "LabelLeft": 68,
+    "LabelTop": 995,
+    "LabelWidth": 564,
+    "LastVersionId": 135,
+    "ListTableId": 438,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 810,
-    "ProgId": "deleniti",
+    "Page1LineNo": 666,
+    "ProgId": "est",
     "IsReadOnly": true,
-    "ShortLabel": "quidem",
-    "TabOrder": 224,
-    "TextLength": 498,
-    "Tooltip": "doloremque",
-    "UdefIdentity": 661,
-    "UDListDefinitionId": 198,
+    "ShortLabel": "officia",
+    "TabOrder": 677,
+    "TextLength": 404,
+    "Tooltip": "at",
+    "UdefIdentity": 820,
+    "UDListDefinitionId": 533,
     "Justification": "Center",
-    "Version": 569,
-    "TemplateVariableName": "Nitzsche-Skiles",
-    "HasBeenPublished": false,
-    "MdoListName": "Lang-Champlin",
+    "Version": 794,
+    "TemplateVariableName": "Bradtke LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Auer, Leannon and Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 12
+        "FieldType": "System.Int32",
+        "FieldLength": 592
       }
     }
   }

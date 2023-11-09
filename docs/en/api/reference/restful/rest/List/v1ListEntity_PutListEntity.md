@@ -97,19 +97,19 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 625,
-  "Name": "Hansen Group",
-  "Tooltip": "sed",
+  "Id": 815,
+  "Name": "Sipes, Kreiger and Emmerich",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 346,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 632,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 718,
-  "Name": "Bechtelar-Mraz",
-  "Tooltip": "sed",
+  "Id": 120,
+  "Name": "Renner Group",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 180,
+  "Rank": 390,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusantium",
+  "ListType": "est",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 41
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -87,14 +87,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aut",
-  "Value": "eius",
-  "RecordId": 165,
-  "CreatedDate": "2015-07-16T03:24:51.630601+02:00",
-  "UpdatedDate": "2004-08-17T03:24:51.630601+02:00",
-  "UpdatedBy": "velit",
-  "CreatedBy": "delectus",
-  "TableName": "Schumm Group"
+  "Key": "vel",
+  "Value": "omnis",
+  "RecordId": 376,
+  "CreatedDate": "2008-12-22T11:06:41.8947242+01:00",
+  "UpdatedDate": "2013-07-16T11:06:41.8947242+02:00",
+  "UpdatedBy": "cumque",
+  "CreatedBy": "est",
+  "TableName": "Bechtelar Group"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "occaecati",
-  "Value": "sunt",
-  "RecordId": 974,
-  "CreatedDate": "2013-12-25T03:24:51.630601+01:00",
-  "UpdatedDate": "2006-07-25T03:24:51.630601+02:00",
-  "UpdatedBy": "provident",
-  "CreatedBy": "quia",
-  "TableName": "Quigley LLC",
+  "Key": "consequuntur",
+  "Value": "quo",
+  "RecordId": 10,
+  "CreatedDate": "1997-03-13T11:06:41.8947242+01:00",
+  "UpdatedDate": "2009-03-24T11:06:41.8947242+01:00",
+  "UpdatedBy": "omnis",
+  "CreatedBy": "nihil",
+  "TableName": "Marvin LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 119
+      "FieldLength": 978
     }
   }
 }

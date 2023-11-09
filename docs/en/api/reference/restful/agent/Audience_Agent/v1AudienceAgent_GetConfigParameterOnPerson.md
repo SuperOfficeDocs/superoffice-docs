@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Leffler-Marquardt",
-  "PersonId": 46
+  "ParameterName": "Schiller Group",
+  "PersonId": 5
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 847,
-  "Name": "Dibbert LLC",
-  "Value": "minima",
-  "CreatedDate": "2005-01-29T03:24:47.2520803+01:00",
-  "UpdatedDate": "2018-12-21T03:24:47.2520803+01:00",
-  "CreatedBy": "ut",
-  "UpdatedBy": "numquam",
+  "AudienceLayoutId": 374,
+  "Name": "Schamberger Inc and Sons",
+  "Value": "aliquid",
+  "CreatedDate": "2022-05-26T11:06:33.7816525+02:00",
+  "UpdatedDate": "2003-08-31T11:06:33.7816525+02:00",
+  "CreatedBy": "maxime",
+  "UpdatedBy": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 727
     }
   }
 }

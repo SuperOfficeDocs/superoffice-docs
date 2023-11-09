@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 867,
-    "Tooltip": "placeat",
-    "CanAssign": true,
-    "Free": 270,
-    "InUse": 735,
+    "Unrestricted": true,
+    "Total": 949,
+    "Tooltip": "fuga",
+    "CanAssign": false,
+    "Free": 878,
+    "InUse": 39,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 490,
-    "Name": "Veum, Schuppe and Jacobi",
-    "Description": "Profit-focused zero administration intranet",
-    "PrerequisiteModuleName": "Armstrong, Hegmann and Walker",
-    "SortOrder": 454,
-    "ExtraFlags": 79,
+    "ModuleLicenseId": 42,
+    "Name": "Gerlach-Ryan",
+    "Description": "Mandatory composite knowledge user",
+    "PrerequisiteModuleName": "Reinger-Bartoletti",
+    "SortOrder": 275,
+    "ExtraFlags": 587,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 164
       }
     }
   }

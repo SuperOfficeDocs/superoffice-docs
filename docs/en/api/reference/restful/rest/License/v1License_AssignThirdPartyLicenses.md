@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 192,
-    "Tooltip": "laudantium",
+    "Total": 585,
+    "Tooltip": "architecto",
     "CanAssign": true,
-    "Free": 523,
-    "InUse": 105,
+    "Free": 264,
+    "InUse": 855,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 818,
-    "Name": "Huel Group",
-    "Description": "Horizontal assymetric internet solution",
-    "PrerequisiteModuleName": "Beatty Group",
-    "SortOrder": 78,
-    "ExtraFlags": 529,
+    "ModuleLicenseId": 291,
+    "Name": "Wintheiser, Lowe and Huels",
+    "Description": "Monitored systemic algorithm",
+    "PrerequisiteModuleName": "Hills-Daniel",
+    "SortOrder": 948,
+    "ExtraFlags": 760,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 255
       }
     }
   }

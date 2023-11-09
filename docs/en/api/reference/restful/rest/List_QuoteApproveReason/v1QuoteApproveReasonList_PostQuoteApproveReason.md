@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 352,
-  "Name": "D'Amore Group",
-  "Tooltip": "labore",
+  "Id": 809,
+  "Name": "Purdy, Emmerich and Powlowski",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 273,
-  "Rank": 760
+  "UdListDefinitionId": 994,
+  "Rank": 449
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 82,
-  "Name": "Barton LLC",
-  "Tooltip": "nihil",
+  "Id": 304,
+  "Name": "Renner Inc and Sons",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "UdListDefinitionId": 605,
-  "Rank": 850,
+  "UdListDefinitionId": 585,
+  "Rank": 18,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 919
+      "FieldType": "System.Int32",
+      "FieldLength": 470
     }
   }
 }

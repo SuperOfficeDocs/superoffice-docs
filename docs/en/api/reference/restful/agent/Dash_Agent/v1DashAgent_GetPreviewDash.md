@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 931
+  "DashboardId": 79
 }
 ```
 
@@ -92,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kunde LLC",
-  "Description": "Stand-alone logistical alliance",
-  "OwnedByFullName": "Pete Heller",
-  "Registered": "2001-03-27T03:24:47.5020527+02:00",
+  "Name": "Bergstrom-Crooks",
+  "Description": "Inverse motivating parallelism",
+  "OwnedByFullName": "Lily Ondricka",
+  "Registered": "2011-08-22T11:06:34.2852061+02:00",
   "Tiles": [
     {
-      "Name": "Pfannerstill-Wiegand",
+      "Name": "Aufderhar-Nader",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 766
         }
       }
     },
     {
-      "Name": "Pfannerstill-Wiegand",
+      "Name": "Aufderhar-Nader",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 766
         }
       }
     }
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldLength": 379
     }
   }
 }

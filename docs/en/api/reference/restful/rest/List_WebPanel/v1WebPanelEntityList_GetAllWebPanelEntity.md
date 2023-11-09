@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,11 +88,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 586,
-    "Name": "Waters Inc and Sons",
-    "Tooltip": "deserunt",
-    "Deleted": false,
-    "Rank": 352,
+    "WebPanelId": 966,
+    "Name": "Purdy LLC",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "Rank": 420,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
-    "ShowInToolBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Walter, Jakubowski and Mann",
+    "WindowName": "Altenwerth-Carroll",
     "Url": "http://www.example.com/",
-    "ProgId": "consequatur",
-    "Icon": 259,
+    "ProgId": "sint",
+    "Icon": 81,
     "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 569
+        "FieldType": "System.Int32",
+        "FieldLength": 841
       }
     }
   }

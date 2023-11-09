@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=147
+POST /api/v1/Agents/Person/GetPerson?personId=134
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "dolore",
-  "PersonId": 946,
-  "Mrmrs": "dolor",
-  "Firstname": "Denis",
-  "Lastname": "Conroy",
-  "MiddleName": "Effertz LLC",
-  "Title": "ut",
-  "Description": "Stand-alone responsive function",
-  "Email": "clair@mckenzie.us",
-  "FullName": "Ms. Josianne Nadia Feest",
-  "DirectPhone": "126-912-4123",
-  "FormalName": "Botsford-Will",
-  "CountryId": 37,
-  "ContactId": 831,
-  "ContactName": "Keeling LLC",
-  "Retired": 862,
-  "Rank": 674,
-  "ActiveInterests": 347,
-  "ContactDepartment": "engage cross-platform infrastructures",
-  "ContactCountryId": 673,
-  "ContactOrgNr": "1509296",
-  "FaxPhone": "1-096-243-7013",
-  "MobilePhone": "473.574.4653",
-  "ContactPhone": "(959)105-5646 x931",
-  "AssociateName": "Purdy-Bergnaum",
-  "AssociateId": 236,
+  "Position": "omnis",
+  "PersonId": 858,
+  "Mrmrs": "est",
+  "Firstname": "Camren",
+  "Lastname": "McGlynn",
+  "MiddleName": "Lubowitz LLC",
+  "Title": "beatae",
+  "Description": "Assimilated full-range synergy",
+  "Email": "filiberto_stehr@ritchie.info",
+  "FullName": "Marjorie Sawayn",
+  "DirectPhone": "878-231-5834 x31238",
+  "FormalName": "Hayes, Mante and Lindgren",
+  "CountryId": 287,
+  "ContactId": 602,
+  "ContactName": "Wilderman, Ledner and Douglas",
+  "Retired": 261,
+  "Rank": 28,
+  "ActiveInterests": 510,
+  "ContactDepartment": "",
+  "ContactCountryId": 902,
+  "ContactOrgNr": "676881",
+  "FaxPhone": "1-430-888-7646",
+  "MobilePhone": "651-780-2185",
+  "ContactPhone": "(512)274-9281 x3417",
+  "AssociateName": "Buckridge Group",
+  "AssociateId": 806,
   "UsePersonAddress": false,
-  "ContactFax": "libero",
-  "Kanafname": "dolores",
-  "Kanalname": "fugit",
-  "Post1": "optio",
-  "Post2": "adipisci",
-  "Post3": "pariatur",
-  "EmailName": "kelley@millerruecker.ca",
-  "ContactFullName": "Ambrose Stehr",
-  "ActiveErpLinks": 47,
-  "TicketPriorityId": 205,
-  "SupportLanguageId": 961,
-  "SupportAssociateId": 349,
+  "ContactFax": "saepe",
+  "Kanafname": "aut",
+  "Kanalname": "vel",
+  "Post1": "reiciendis",
+  "Post2": "non",
+  "Post3": "necessitatibus",
+  "EmailName": "destini_osinski@hartmann.uk",
+  "ContactFullName": "Michale Pfannerstill PhD",
+  "ActiveErpLinks": 387,
+  "TicketPriorityId": 142,
+  "SupportLanguageId": 552,
+  "SupportAssociateId": 959,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   }
 }

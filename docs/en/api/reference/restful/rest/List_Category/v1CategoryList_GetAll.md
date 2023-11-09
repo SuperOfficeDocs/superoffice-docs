@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Koch-Goldner",
-    "Tooltip": "aliquid",
-    "Deleted": true,
-    "UdListDefinitionId": 499,
-    "Rank": 582,
+    "Id": 315,
+    "Name": "Treutel-Gleichner",
+    "Tooltip": "nisi",
+    "Deleted": false,
+    "UdListDefinitionId": 915,
+    "Rank": 179,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldType": "System.String",
+        "FieldLength": 236
       }
     }
   }

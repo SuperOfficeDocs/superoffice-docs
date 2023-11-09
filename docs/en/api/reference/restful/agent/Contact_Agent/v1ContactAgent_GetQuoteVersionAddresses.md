@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 474
+  "QuoteVersionId": 434
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 22536.594,
-    "Wgs84Longitude": 12767.916,
+    "Wgs84Latitude": 7766.052,
+    "Wgs84Longitude": 25087.67,
     "LocalizedAddress": [
       [
         {
-          "Name": "Kuhic-Oberbrunner",
-          "Value": "voluptas",
-          "Tooltip": "laudantium",
-          "Label": "dolor",
-          "ValueLength": 983,
-          "AddressType": "soluta",
+          "Name": "Kertzmann-Waelchi",
+          "Value": "voluptatem",
+          "Tooltip": "libero",
+          "Label": "et",
+          "ValueLength": 62,
+          "AddressType": "nam",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 495
+              "FieldType": "System.String",
+              "FieldLength": 874
             }
           }
         }
       ],
       [
         {
-          "Name": "Huel Inc and Sons",
-          "Value": "officia",
-          "Tooltip": "sunt",
-          "Label": "voluptas",
-          "ValueLength": 264,
-          "AddressType": "voluptas",
+          "Name": "Stanton-Nitzsche",
+          "Value": "iusto",
+          "Tooltip": "nulla",
+          "Label": "aperiam",
+          "ValueLength": 686,
+          "AddressType": "et",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 190
+              "FieldLength": 170
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "consequuntur",
+    "Formatted": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldType": "System.String",
+        "FieldLength": 544
       }
     }
   }

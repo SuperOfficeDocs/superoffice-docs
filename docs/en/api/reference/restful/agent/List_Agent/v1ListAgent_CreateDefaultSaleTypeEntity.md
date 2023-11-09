@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 759,
-  "Name": "Ebert Inc and Sons",
-  "Tooltip": "expedita",
-  "Rank": 329,
+  "SaleTypeId": 567,
+  "Name": "Abshire-Lind",
+  "Tooltip": "vitae",
+  "Rank": 246,
   "DurationUnit": "Century",
-  "SaleDuration": 478,
-  "SaleTypeCatId": 137,
+  "SaleDuration": 674,
+  "SaleTypeCatId": 78,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 211,
-  "QuoteLinesTemplate": 58,
-  "ConfirmationLinesTemplate": 902,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 281,
+  "QuoteLinesTemplate": 259,
+  "ConfirmationLinesTemplate": 119,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 776,
-  "MinEarningPercent": 522,
-  "GroupQuoteLinesBy": 320,
-  "SortGroupLinesBy": 993,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 437,
+  "MinEarningPercent": 166,
+  "GroupQuoteLinesBy": 53,
+  "SortGroupLinesBy": 439,
   "Stages": [
     {
-      "Id": 303,
-      "Name": "Hane-Dach",
-      "ToolTip": "Perspiciatis tempora architecto et recusandae.",
+      "Id": 944,
+      "Name": "Senger Inc and Sons",
+      "ToolTip": "Odit saepe dolorem.",
       "Deleted": false,
-      "Rank": 926,
-      "Type": "omnis",
-      "ColorBlock": 749,
-      "IconHint": "quod",
+      "Rank": 111,
+      "Type": "voluptas",
+      "ColorBlock": 960,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2013-05-02T03:24:47.908255+02:00",
+      "LastChanged": "2013-11-05T11:06:34.7708179+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "enim",
-      "StyleHint": "quia",
+      "ExtraInfo": "omnis",
+      "StyleHint": "optio",
       "Hidden": false,
-      "FullName": "Conrad Johns",
+      "FullName": "Isaac Gleichner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldLength": 425
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldLength": 915
     }
   }
 }

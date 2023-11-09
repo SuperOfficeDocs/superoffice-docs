@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 589,
-    "Name": "VonRueden, Weissnat and Osinski",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 162,
-    "UdListDefinitionId": 536
+    "HeadingId": 378,
+    "Name": "Quitzon Inc and Sons",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 364,
+    "UdListDefinitionId": 393
   },
   {
-    "HeadingId": 589,
-    "Name": "VonRueden, Weissnat and Osinski",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 162,
-    "UdListDefinitionId": 536
+    "HeadingId": 378,
+    "Name": "Quitzon Inc and Sons",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 364,
+    "UdListDefinitionId": 393
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 421,
-    "Name": "Leffler LLC",
-    "Tooltip": "esse",
+    "HeadingId": 443,
+    "Name": "Gerhold-Rath",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 547,
-    "UdListDefinitionId": 509,
+    "Rank": 840,
+    "UdListDefinitionId": 815,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldLength": 755
       }
     }
   }

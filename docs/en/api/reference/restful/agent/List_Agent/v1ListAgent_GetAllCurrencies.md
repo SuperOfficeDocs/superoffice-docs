@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 163,
-    "Name": "Bode LLC",
-    "Tooltip": "ipsa",
-    "Rank": 373,
-    "Rate": 6073.692,
-    "Units": 29008.304,
+    "CurrencyId": 557,
+    "Name": "White-McLaughlin",
+    "Tooltip": "praesentium",
+    "Rank": 113,
+    "Rate": 16958.074,
+    "Units": 6026.682,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 392
+        "FieldLength": 673
       }
     }
   }

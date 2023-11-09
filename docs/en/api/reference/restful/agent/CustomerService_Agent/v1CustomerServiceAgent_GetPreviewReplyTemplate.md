@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 829
+  "ReplyTemplateId": 326
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Graham LLC",
-  "Description": "Profound assymetric solution",
-  "OwnedByFullName": "Candida Walker",
-  "Updated": "2016-04-15T03:24:47.4864254+02:00",
-  "Body": "dolore",
-  "IsHtml": true,
+  "Name": "Weissnat-Lockman",
+  "Description": "Switchable bottom-line concept",
+  "OwnedByFullName": "Charlotte Daugherty Sr.",
+  "Updated": "2017-05-03T11:06:34.2539546+02:00",
+  "Body": "quos",
+  "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 701
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

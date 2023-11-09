@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=nobis
+GET /api/v1/MDOList/{listname}/selectable?additional=eveniet
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Barrows-Conn",
-    "ToolTip": "Et vero sequi minus sit.",
+    "Id": 217,
+    "Name": "Kovacek, Raynor and Watsica",
+    "ToolTip": "Nihil aperiam est.",
     "Deleted": false,
-    "Rank": 823,
-    "Type": "eligendi",
-    "ColorBlock": 554,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2002-12-20T03:24:52.2713365+01:00",
+    "Rank": 771,
+    "Type": "doloribus",
+    "ColorBlock": 590,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "1999-03-08T11:06:42.8346931+01:00",
     "ChildItems": [
       {
-        "Id": 76,
-        "Name": "Keeling-Legros",
-        "ToolTip": "Aperiam voluptas magni.",
-        "Deleted": true,
-        "Rank": 67,
-        "Type": "dolor",
-        "ColorBlock": 557,
-        "IconHint": "aliquam",
+        "Id": 384,
+        "Name": "Block Group",
+        "ToolTip": "Alias eos officia.",
+        "Deleted": false,
+        "Rank": 616,
+        "Type": "assumenda",
+        "ColorBlock": 766,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "2002-07-03T03:24:52.2713365+02:00",
+        "LastChanged": "2009-02-08T11:06:42.8346931+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "optio",
-        "Hidden": false,
-        "FullName": "Kallie Kulas",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "explicabo",
+        "Hidden": true,
+        "FullName": "Anahi Gutmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 95
+            "FieldType": "System.String",
+            "FieldLength": 152
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Dr. Madison Schiller",
+    "ExtraInfo": "alias",
+    "StyleHint": "voluptates",
+    "Hidden": false,
+    "FullName": "Emanuel Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 641
+        "FieldType": "System.Int32",
+        "FieldLength": 837
       }
     }
   }

@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 978,
+  "ContactId": 429,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Feil Group",
-    "SaleDate": "2000-03-02T03:24:48.2207231+01:00",
-    "SaleId": 233,
-    "Probability": 712,
-    "Title": "eum",
-    "Amount": 24880.826,
-    "Currency": "numquam",
-    "ProjectName": "Kshlerin, Kuphal and Denesik",
-    "AssociateFullName": "Eriberto Laurine Konopelski DVM",
-    "Description": "De-engineered bottom-line hardware",
+    "ContactName": "Maggio-Lang",
+    "SaleDate": "2018-04-20T11:06:35.3333182+02:00",
+    "SaleId": 297,
+    "Probability": 643,
+    "Title": "voluptatem",
+    "Amount": 28406.575999999997,
+    "Currency": "ut",
+    "ProjectName": "Hyatt Inc and Sons",
+    "AssociateFullName": "Michaela Johns",
+    "Description": "Synergistic optimal middleware",
     "Status": "Lost",
-    "WeightedAmount": 24391.922,
-    "ProjectId": 170,
-    "EarningPercent": 18264.952,
-    "Earning": 26203.374,
-    "ContactId": 125,
-    "AssociateId": 599,
-    "PersonId": 276,
-    "SaleTypeId": 768,
-    "SaleTypeName": "McCullough-Fisher",
-    "PersonFullName": "Kennith Nicklaus Mohr PhD",
+    "WeightedAmount": 13388.448,
+    "ProjectId": 334,
+    "EarningPercent": 29503.476,
+    "Earning": 31318.061999999998,
+    "ContactId": 39,
+    "AssociateId": 563,
+    "PersonId": 442,
+    "SaleTypeId": 833,
+    "SaleTypeName": "O'Kon-Weissnat",
+    "PersonFullName": "Mr. Theodora Ardith Towne V",
     "Completed": "Completed",
-    "ActiveErpLinks": 675,
-    "NextDueDate": "2009-02-08T03:24:48.2207231+01:00",
-    "Number": "947453",
+    "ActiveErpLinks": 484,
+    "NextDueDate": "2009-11-01T11:06:35.3333182+01:00",
+    "Number": "1226923",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldLength": 745
       }
     }
   }

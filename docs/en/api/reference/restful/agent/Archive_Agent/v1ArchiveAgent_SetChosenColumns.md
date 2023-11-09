@@ -72,11 +72,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Aufderhar, Daniel and Bayer",
-  "ProviderName": "Quitzon, Barrows and Sawayn",
+  "GuiName": "Kirlin, Barton and Ritchie",
+  "ProviderName": "Carter LLC",
   "ChosenColumns": [
-    "temporibus",
-    "reprehenderit"
+    "ut",
+    "est"
   ]
 }
 ```

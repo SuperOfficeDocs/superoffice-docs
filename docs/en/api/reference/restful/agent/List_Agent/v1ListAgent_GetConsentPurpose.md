@@ -26,7 +26,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=218
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=870
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 661,
-  "Name": "Turcotte LLC",
-  "ConsentText": "eaque",
-  "FormText": "quidem",
-  "Key": "sit",
-  "Tooltip": "soluta",
-  "Active": 131,
-  "UpdatedDate": "2010-06-07T03:24:47.9238778+02:00",
+  "ConsentPurposeId": 542,
+  "Name": "Wyman LLC",
+  "ConsentText": "non",
+  "FormText": "et",
+  "Key": "voluptatem",
+  "Tooltip": "minus",
+  "Active": 360,
+  "UpdatedDate": "2022-09-15T11:06:34.7864409+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 217,
-  "PrivacyStatementDesc": "ab",
+  "Rank": 826,
+  "PrivacyStatementDesc": "sit",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 399
     }
   }
 }

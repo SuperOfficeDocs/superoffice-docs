@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 443,
-  "Name": "Ullrich, Quitzon and Ullrich",
-  "Description": "Persistent intangible migration",
-  "WelcomeMessage": "ea",
+  "ChatTopicId": 469,
+  "Name": "Osinski, Gerlach and Lueilwitz",
+  "Description": "Versatile full-range throughput",
+  "WelcomeMessage": "id",
   "Language": null,
-  "LastAccept": "2016-05-15T03:24:47.2833249+02:00",
-  "SecondsPrAccept": 837,
-  "AlertRecipient": "maxime",
+  "LastAccept": "2015-04-01T11:06:33.9714362+02:00",
+  "SecondsPrAccept": 111,
+  "AlertRecipient": "rem",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "fugiat",
+  "BadgeHeader": "officia",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "hic",
-  "WarnNewChatMinutes": 156,
-  "WarnManagerNewChatMinutes": 193,
+  "CustomQueueText": "itaque",
+  "WarnNewChatMinutes": 311,
+  "WarnManagerNewChatMinutes": 641,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 712,
-  "WarnManagerChatMessageMinutes": 917,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 672,
-  "OfflineFormQueueLength": 339,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "et"
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 415,
+  "WarnManagerChatMessageMinutes": 481,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 500,
+  "OfflineFormQueueLength": 528,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "nihil"
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 890,
-  "Name": "Renner-Harber",
-  "Description": "Monitored needs-based array",
-  "WelcomeMessage": "ex",
+  "ChatTopicId": 433,
+  "Name": "Schuppe-Nolan",
+  "Description": "Progressive fault-tolerant emulation",
+  "WelcomeMessage": "quas",
   "Language": null,
-  "LastAccept": "2006-01-22T03:24:47.2833249+01:00",
-  "SecondsPrAccept": 868,
-  "AlertRecipient": "blanditiis",
+  "LastAccept": "2010-02-18T11:06:33.9714362+01:00",
+  "SecondsPrAccept": 662,
+  "AlertRecipient": "non",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "esse",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "qui",
-  "WarnNewChatMinutes": 399,
-  "WarnManagerNewChatMinutes": 733,
-  "TicketEnabled": false,
+  "CollectConsent": true,
+  "BadgeHeader": "odit",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "repellendus",
+  "WarnNewChatMinutes": 515,
+  "WarnManagerNewChatMinutes": 268,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 294,
-  "WarnManagerChatMessageMinutes": 84,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 488,
-  "OfflineFormQueueLength": 299,
+  "WarnChatMessageMinutes": 685,
+  "WarnManagerChatMessageMinutes": 845,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 356,
+  "OfflineFormQueueLength": 129,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quae",
+  "WidgetRatingText": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldLength": 315
     }
   }
 }

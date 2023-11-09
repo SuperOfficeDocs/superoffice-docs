@@ -87,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 522,
+  "SelectionId": 468,
   "Criteria": [
     {
-      "Name": "Volkman Group",
-      "Operator": "iusto",
+      "Name": "Daniel, McLaughlin and Cummerata",
+      "Operator": "enim",
       "Values": [
-        "quibusdam",
-        "tempore"
+        "molestiae",
+        "qui"
       ],
       "DisplayValues": [
-        "odit",
-        "vero"
+        "consequatur",
+        "magni"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 337,
+      "InterParenthesis": 630,
       "InterOperator": "And",
-      "UniqueHash": 393
+      "UniqueHash": 712
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Quitzon-Goyette",
-    "Operator": "ut",
+    "Name": "Jacobson LLC",
+    "Operator": "est",
     "Values": [
-      "earum",
-      "reiciendis"
+      "magni",
+      "et"
     ],
     "DisplayValues": [
-      "voluptate",
-      "sunt"
+      "voluptas",
+      "nihil"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Jast, O'Connell and Metz",
-        "Operator": "sint",
+        "Name": "Pagac LLC",
+        "Operator": "velit",
         "Values": [
-          "rem",
-          "assumenda"
+          "quae",
+          "non"
         ],
         "DisplayValues": [
-          "voluptas",
-          "laborum"
+          "aut",
+          "expedita"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -154,12 +154,12 @@ Content-Type: application/json; charset=utf-8
         ],
         "InterParenthesis": 355,
         "InterOperator": "And",
-        "UniqueHash": 785
+        "UniqueHash": 92
       }
     ],
-    "InterParenthesis": 748,
+    "InterParenthesis": 160,
     "InterOperator": "And",
-    "UniqueHash": 262
+    "UniqueHash": 379
   }
 ]
 ```

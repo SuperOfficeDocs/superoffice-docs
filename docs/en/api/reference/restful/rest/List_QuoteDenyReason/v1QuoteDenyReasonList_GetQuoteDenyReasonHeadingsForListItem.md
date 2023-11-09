@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 425,
-    "Name": "Friesen LLC",
-    "ToolTip": "Doloremque iusto.",
-    "Deleted": false,
-    "Rank": 231,
-    "Type": "libero",
-    "ColorBlock": 911,
-    "IconHint": "fugit",
+    "Id": 178,
+    "Name": "Gaylord Group",
+    "ToolTip": "Repellendus itaque dignissimos.",
+    "Deleted": true,
+    "Rank": 405,
+    "Type": "sunt",
+    "ColorBlock": 804,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2005-10-21T03:24:52.3650758+02:00",
+    "LastChanged": "2020-01-19T11:06:42.9909515+01:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Batz Inc and Sons",
-        "ToolTip": "Vel sed.",
-        "Deleted": true,
-        "Rank": 581,
-        "Type": "sunt",
-        "ColorBlock": 567,
-        "IconHint": "recusandae",
+        "Id": 122,
+        "Name": "Hermann LLC",
+        "ToolTip": "Saepe et.",
+        "Deleted": false,
+        "Rank": 894,
+        "Type": "et",
+        "ColorBlock": 12,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2015-12-17T03:24:52.3650758+01:00",
+        "LastChanged": "1997-12-05T11:06:42.9909515+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "porro",
+        "ExtraInfo": "et",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Althea Kuhlman",
+        "FullName": "Toney O'Hara",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 999
+            "FieldType": "System.String",
+            "FieldLength": 318
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "fuga",
+    "StyleHint": "amet",
     "Hidden": true,
-    "FullName": "Darlene Runolfsdottir I",
+    "FullName": "Dorian McKenzie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldLength": 580
       }
     }
   }

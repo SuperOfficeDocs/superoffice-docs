@@ -134,13 +134,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -157,125 +157,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-11-16T03:24:47.1114653+01:00",
-  "AppointmentId": 670,
-  "Description": "Adaptive clear-thinking core",
-  "StartDate": "2003-08-30T03:24:47.1114653+02:00",
-  "EndDate": "2007-08-29T03:24:47.1114653+02:00",
+  "CreatedDate": "2015-04-24T11:06:33.6007343+02:00",
+  "AppointmentId": 812,
+  "Description": "User-centric fresh-thinking array",
+  "StartDate": "2014-09-22T11:06:33.6007343+02:00",
+  "EndDate": "2018-03-23T11:06:33.6007343+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 153,
+  "MotherId": 765,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-01-05T03:24:47.1114653+01:00",
+  "UpdatedDate": "2012-09-26T11:06:33.6007343+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 560,
+  "ActiveLinks": 1000,
   "Links": [
     {
-      "EntityName": "Kreiger-White",
-      "Id": 754,
-      "Description": "Optional optimal help-desk",
-      "ExtraInfo": "quia",
-      "LinkId": 375,
+      "EntityName": "Bednar Inc and Sons",
+      "Id": 668,
+      "Description": "Up-sized system-worthy success",
+      "ExtraInfo": "aperiam",
+      "LinkId": 818,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldType": "System.String",
+          "FieldLength": 54
         }
       }
     }
   ],
-  "AlarmLeadTime": "earum",
+  "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 862,
-  "IsFree": false,
+  "ColorIndex": 217,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "qui",
-  "LeadTime": "dicta",
-  "Location": "et",
-  "RejectCounter": 230,
+  "LagTime": "voluptatem",
+  "LeadTime": "cum",
+  "Location": "non",
+  "RejectCounter": 502,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 195,
-      "PersonId": 767,
-      "ContactId": 671,
-      "EmailId": 919,
-      "SendEmail": true,
+      "AssociateId": 341,
+      "PersonId": 982,
+      "ContactId": 840,
+      "EmailId": 184,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 195,
-      "PersonId": 767,
-      "ContactId": 671,
-      "EmailId": 919,
-      "SendEmail": true,
+      "AssociateId": 341,
+      "PersonId": 982,
+      "ContactId": 840,
+      "EmailId": 184,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-09-16T03:24:47.1114653+02:00",
+  "ActiveDate": "2022-08-26T11:06:33.6007343+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 143,
+  "PreferredTZLocation": 947,
   "Sale": null,
-  "SuggestedAppointmentId": 337,
+  "SuggestedAppointmentId": 500,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "reiciendis",
-  "Title": "beatae",
-  "Agenda": "blanditiis",
-  "InternalNotes": "provident",
+  "CentralserviceVideomeetId": "dignissimos",
+  "Title": "blanditiis",
+  "Agenda": "voluptas",
+  "InternalNotes": "alias",
   "UserDefinedFields": {
-    "SuperOffice:1": "Genoveva Schneider Jr.",
-    "SuperOffice:2": "650897835"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1816843454"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "fugiat"
   },
   "CustomFields": {
-    "CustomFields1": "sequi",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "natus"
   },
-  "PublishEventDate": "2019-03-06T03:24:47.1114653+01:00",
-  "PublishTo": "2001-03-26T03:24:47.1114653+02:00",
-  "PublishFrom": "2004-06-05T03:24:47.1114653+02:00",
+  "PublishEventDate": "2007-12-19T11:06:33.6007343+01:00",
+  "PublishTo": "2007-05-10T11:06:33.6007343+02:00",
+  "PublishFrom": "2017-11-25T11:06:33.6007343+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 208,
+      "VisibleId": 434,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 925
         }
       }
     },
     {
-      "VisibleId": 208,
+      "VisibleId": 434,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 925
         }
       }
     }
@@ -285,7 +285,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldLength": 69
     }
   }
 }

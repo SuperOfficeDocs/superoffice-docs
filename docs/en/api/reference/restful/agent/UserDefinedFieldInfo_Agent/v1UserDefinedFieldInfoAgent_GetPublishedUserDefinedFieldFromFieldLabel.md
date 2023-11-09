@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "aut",
+  "FieldLabel": "molestiae",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 430,
-  "ColumnId": 801,
-  "FieldDefault": "atque",
-  "FieldHeight": 539,
-  "FieldLabel": "qui",
-  "FieldLeft": 328,
-  "FieldTop": 122,
+  "UDefFieldId": 682,
+  "ColumnId": 907,
+  "FieldDefault": "omnis",
+  "FieldHeight": 132,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 664,
+  "FieldTop": 90,
   "FieldType": "Checkbox",
-  "FieldWidth": 708,
-  "FormatMask": "fugit",
-  "HideLabel": true,
+  "FieldWidth": 348,
+  "FormatMask": "quia",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 454,
-  "LabelLeft": 391,
-  "LabelTop": 810,
-  "LabelWidth": 141,
-  "LastVersionId": 390,
-  "ListTableId": 414,
-  "IsMandatory": true,
+  "LabelHeight": 128,
+  "LabelLeft": 666,
+  "LabelTop": 978,
+  "LabelWidth": 649,
+  "LastVersionId": 800,
+  "ListTableId": 957,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 412,
-  "ProgId": "iusto",
+  "Page1LineNo": 806,
+  "ProgId": "dicta",
   "IsReadOnly": false,
-  "ShortLabel": "perspiciatis",
-  "TabOrder": 977,
-  "TextLength": 988,
-  "Tooltip": "voluptatem",
-  "UdefIdentity": 120,
-  "UDListDefinitionId": 859,
+  "ShortLabel": "perferendis",
+  "TabOrder": 516,
+  "TextLength": 553,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 767,
+  "UDListDefinitionId": 481,
   "Justification": "Center",
-  "Version": 845,
-  "TemplateVariableName": "Effertz, Casper and Volkman",
-  "HasBeenPublished": false,
-  "MdoListName": "Wolff-Johns",
+  "Version": 378,
+  "TemplateVariableName": "Dooley-Block",
+  "HasBeenPublished": true,
+  "MdoListName": "Simonis, Von and Prohaska",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 239
     }
   }
 }

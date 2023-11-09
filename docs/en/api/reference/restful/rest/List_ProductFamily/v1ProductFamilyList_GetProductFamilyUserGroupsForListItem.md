@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 424,
-    "Name": "Altenwerth LLC",
-    "ToolTip": "Reiciendis consequatur tenetur sunt.",
+    "Id": 133,
+    "Name": "Ledner, Lindgren and Hudson",
+    "ToolTip": "Dolorum neque deleniti rem.",
     "Deleted": true,
-    "Rank": 505,
-    "Type": "eos",
-    "ColorBlock": 743,
-    "IconHint": "ut",
+    "Rank": 614,
+    "Type": "et",
+    "ColorBlock": 686,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "1997-04-26T03:24:52.318209+02:00",
+    "LastChanged": "2014-02-02T11:06:42.9284383+01:00",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Wehner, Grimes and Jacobson",
-        "ToolTip": "Consequatur nam et sunt rem.",
+        "Id": 50,
+        "Name": "Thiel LLC",
+        "ToolTip": "Id earum distinctio quidem quasi commodi corporis ut.",
         "Deleted": true,
-        "Rank": 537,
-        "Type": "pariatur",
-        "ColorBlock": 332,
-        "IconHint": "ipsam",
+        "Rank": 129,
+        "Type": "dolorem",
+        "ColorBlock": 170,
+        "IconHint": "aperiam",
         "Selected": false,
-        "LastChanged": "2023-02-23T03:24:52.318209+01:00",
+        "LastChanged": "2007-01-05T11:06:42.9284383+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "similique",
-        "Hidden": false,
-        "FullName": "Dr. Maggie Zieme",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Augustus Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 229
+            "FieldType": "System.String",
+            "FieldLength": 780
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "velit",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Millie Ayden Jerde IV",
+    "FullName": "Jacynthe Pollich PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 476
+        "FieldLength": 972
       }
     }
   }

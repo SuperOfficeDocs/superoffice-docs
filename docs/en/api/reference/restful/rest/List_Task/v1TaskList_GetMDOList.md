@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=et
+GET /api/v1/List/Task/MDOItems?query=ullam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Prohaska-Kassulke",
-    "ToolTip": "Quod dolores dicta esse.",
+    "Id": 676,
+    "Name": "Grimes, Bosco and Macejkovic",
+    "ToolTip": "Nam facilis voluptatem deleniti laudantium nam omnis.",
     "Deleted": false,
-    "Rank": 245,
-    "Type": "sint",
+    "Rank": 780,
+    "Type": "labore",
     "ChildItems": [
       {
-        "Id": 332,
-        "Name": "Nienow Inc and Sons",
-        "ToolTip": "Excepturi voluptatum ut vitae.",
+        "Id": 815,
+        "Name": "Considine-Bode",
+        "ToolTip": "Autem accusamus nobis ipsam quo.",
         "Deleted": false,
-        "Rank": 503,
-        "Type": "ut",
+        "Rank": 820,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 897,
-        "ExtraInfo": "iure",
-        "StyleHint": "qui",
-        "FullName": "Mrs. Mike Douglas I",
+        "IconHint": "a",
+        "ColorBlock": 280,
+        "ExtraInfo": "eius",
+        "StyleHint": "animi",
+        "FullName": "Filomena Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 396
+            "FieldType": "System.Int32",
+            "FieldLength": 111
           }
         }
       }
     ],
-    "IconHint": "adipisci",
-    "ColorBlock": 362,
-    "ExtraInfo": "et",
-    "StyleHint": "nisi",
-    "FullName": "Carolanne Wilkinson",
+    "IconHint": "ducimus",
+    "ColorBlock": 505,
+    "ExtraInfo": "ex",
+    "StyleHint": "animi",
+    "FullName": "Timmy Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 930
       }
     }
   }

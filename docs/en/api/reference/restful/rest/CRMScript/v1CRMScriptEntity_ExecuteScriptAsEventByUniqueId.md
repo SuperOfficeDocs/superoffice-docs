@@ -90,31 +90,31 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "consectetur",
-    "InputValues2": "maiores"
+    "InputValues1": "quo",
+    "InputValues2": "corporis"
   },
-  "BlockExecution": true,
-  "NavigateTo": "beatae",
-  "Message": "corporis",
-  "ShowDialog": "aut",
+  "BlockExecution": false,
+  "NavigateTo": "dicta",
+  "Message": "rerum",
+  "ShowDialog": "maiores",
   "OutputValues": {
-    "OutputValues1": "expedita",
-    "OutputValues2": "aperiam"
+    "OutputValues1": "commodi",
+    "OutputValues2": "magnam"
   },
   "StateValues": {
-    "StateValues1": "labore",
-    "StateValues2": "nesciunt"
+    "StateValues1": "enim",
+    "StateValues2": "voluptatum"
   },
-  "Exception": "possimus",
+  "Exception": "blanditiis",
   "ParserValues": {
     "ParserValues1": "illum",
-    "ParserValues2": "consequatur"
+    "ParserValues2": "asperiores"
   }
 }
 ```
@@ -128,32 +128,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "itaque",
-    "InputValues2": "corporis"
+    "InputValues1": "repudiandae",
+    "InputValues2": "qui"
   },
   "BlockExecution": false,
-  "NavigateTo": "doloremque",
-  "Message": "animi",
-  "ShowDialog": "sit",
+  "NavigateTo": "sint",
+  "Message": "et",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "et",
-    "OutputValues2": "dolorem"
+    "OutputValues1": "nihil",
+    "OutputValues2": "occaecati"
   },
   "StateValues": {
-    "StateValues1": "non",
-    "StateValues2": "adipisci"
+    "StateValues1": "molestias",
+    "StateValues2": "consequatur"
   },
-  "Exception": "numquam",
+  "Exception": "et",
   "ParserValues": {
-    "ParserValues1": "error",
-    "ParserValues2": "enim"
+    "ParserValues1": "sit",
+    "ParserValues2": "nihil"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldType": "System.String",
+      "FieldLength": 795
     }
   }
 }

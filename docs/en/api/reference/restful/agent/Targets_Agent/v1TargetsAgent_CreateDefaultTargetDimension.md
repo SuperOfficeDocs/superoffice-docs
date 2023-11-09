@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 748,
+  "TargetDimensionId": 86,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "ab",
-  "DimensionListName": "Carroll LLC",
-  "DimensionListId": 106,
-  "DimensionListLabel": "maiores",
+  "DimensionListField": "repellendus",
+  "DimensionListName": "Rowe, Gerhold and Jerde",
+  "DimensionListId": 766,
+  "DimensionListLabel": "deleniti",
   "SelectedDimensions": [
-    110,
-    573
+    599,
+    203
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldLength": 215
     }
   }
 }

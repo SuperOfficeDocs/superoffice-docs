@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 432,
-    "Name": "Erdman-Wisozk",
-    "OrgNr": "1627078",
-    "Department": "",
+    "ContactId": 604,
+    "Name": "Gutkowski Inc and Sons",
+    "OrgNr": "1319101",
+    "Department": "matrix e-business e-commerce",
     "URL": "http://www.example.com/",
-    "City": "debitis",
-    "DirectPhone": "987.172.2272",
-    "AssociateId": 284,
-    "CountryId": 246,
-    "EmailAddress": "keshaun_lesch@turcotte.biz",
-    "Kananame": "blanditiis",
-    "EmailAddressName": "soledad.robel@witting.us",
+    "City": "minus",
+    "DirectPhone": "1-996-165-7390 x5628",
+    "AssociateId": 26,
+    "CountryId": 699,
+    "EmailAddress": "juvenal_schulist@koss.co.uk",
+    "Kananame": "fugiat",
+    "EmailAddressName": "tierra_schmidt@labadie.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ms. Izaiah Lakin I",
+    "AssociateFullName": "Fleta Frami",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "consectetur",
-    "FullName": "Lesly Tatum Kuvalis I",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 775,
-    "Number1": "1408372",
-    "Number2": "1141999",
+    "FormattedAddress": "odio",
+    "FullName": "Dr. Camila Amani Jast I",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 594,
+    "Number1": "1081433",
+    "Number2": "1459403",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 458
+        "FieldType": "System.Int32",
+        "FieldLength": 207
       }
     }
   }

@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 206,
-  "Name": "Oberbrunner-Stark",
-  "Tooltip": "enim",
+  "RoleId": 765,
+  "Name": "Farrell, Kris and Olson",
+  "Tooltip": "modi",
   "RoleType": "Anonymous",
-  "Deleted": 520,
-  "Rank": 544,
-  "Created": "2010-01-29T03:24:48.5341362+01:00",
-  "UseCategories": 435,
+  "Deleted": 704,
+  "Rank": 325,
+  "Created": "2014-08-11T11:06:35.6627548+02:00",
+  "UseCategories": 606,
   "CreatedBy": null,
-  "Updated": "2018-07-31T03:24:48.5341362+02:00",
+  "Updated": "2009-09-25T11:06:35.6627548+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 551,
-  "Name": "Mante, King and Goldner",
-  "Tooltip": "et",
+  "RoleId": 447,
+  "Name": "Goyette, Gusikowski and Schumm",
+  "Tooltip": "in",
   "RoleType": "Anonymous",
-  "Deleted": 266,
-  "Rank": 385,
-  "Created": "2002-09-08T03:24:48.5341362+02:00",
-  "UseCategories": 211,
+  "Deleted": 934,
+  "Rank": 958,
+  "Created": "2014-12-04T11:06:35.6783758+01:00",
+  "UseCategories": 992,
   "CreatedBy": null,
-  "Updated": "1999-02-13T03:24:48.5341362+01:00",
+  "Updated": "1999-10-24T11:06:35.6783758+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldType": "System.String",
+      "FieldLength": 525
     }
   }
 }

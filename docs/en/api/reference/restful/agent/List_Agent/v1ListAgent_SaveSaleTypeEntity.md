@@ -109,47 +109,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 16,
-  "Name": "Kulas, Kreiger and Romaguera",
-  "Tooltip": "consequatur",
-  "Rank": 952,
+  "SaleTypeId": 340,
+  "Name": "Okuneva Group",
+  "Tooltip": "accusantium",
+  "Rank": 743,
   "DurationUnit": "Century",
-  "SaleDuration": 808,
-  "SaleTypeCatId": 444,
+  "SaleDuration": 496,
+  "SaleTypeCatId": 190,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 18,
-  "QuoteLinesTemplate": 671,
-  "ConfirmationLinesTemplate": 846,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 470,
-  "MinEarningPercent": 167,
-  "GroupQuoteLinesBy": 655,
-  "SortGroupLinesBy": 521,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 768,
+  "QuoteLinesTemplate": 788,
+  "ConfirmationLinesTemplate": 737,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 964,
+  "MinEarningPercent": 275,
+  "GroupQuoteLinesBy": 134,
+  "SortGroupLinesBy": 246,
   "Stages": [
     {
-      "Id": 210,
-      "Name": "Hyatt, Stoltenberg and McClure",
-      "ToolTip": "Nisi saepe.",
+      "Id": 827,
+      "Name": "Huels, Balistreri and Bailey",
+      "ToolTip": "Iusto soluta quidem vel reiciendis maiores.",
       "Deleted": false,
-      "Rank": 137,
-      "Type": "esse",
-      "ColorBlock": 309,
-      "IconHint": "temporibus",
-      "Selected": true,
-      "LastChanged": "2001-02-05T03:24:47.908255+01:00",
+      "Rank": 523,
+      "Type": "nemo",
+      "ColorBlock": 145,
+      "IconHint": "optio",
+      "Selected": false,
+      "LastChanged": "2006-09-02T11:06:34.7708179+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "natus",
+      "ExtraInfo": "sequi",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Mr. Estevan Titus Stanton"
+      "FullName": "Prof. Aditya Kilback II"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 770,
-  "Name": "Kunze-Runolfsdottir",
-  "Tooltip": "qui",
-  "Rank": 889,
+  "SaleTypeId": 593,
+  "Name": "Schinner-Rath",
+  "Tooltip": "fugit",
+  "Rank": 942,
   "DurationUnit": "Century",
-  "SaleDuration": 754,
-  "SaleTypeCatId": 231,
+  "SaleDuration": 693,
+  "SaleTypeCatId": 580,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 582,
-  "QuoteLinesTemplate": 840,
-  "ConfirmationLinesTemplate": 821,
+  "DefaultQuoteValidity": 208,
+  "QuoteLinesTemplate": 511,
+  "ConfirmationLinesTemplate": 811,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 575,
-  "MinEarningPercent": 401,
-  "GroupQuoteLinesBy": 517,
-  "SortGroupLinesBy": 191,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 913,
+  "MinEarningPercent": 352,
+  "GroupQuoteLinesBy": 349,
+  "SortGroupLinesBy": 916,
   "Stages": [
     {
-      "Id": 317,
-      "Name": "Reinger, Russel and Dickens",
-      "ToolTip": "Quos nisi et.",
+      "Id": 400,
+      "Name": "Brown, Kub and Schulist",
+      "ToolTip": "Voluptate ducimus rerum consectetur.",
       "Deleted": false,
-      "Rank": 587,
-      "Type": "est",
-      "ColorBlock": 329,
-      "IconHint": "explicabo",
+      "Rank": 897,
+      "Type": "eos",
+      "ColorBlock": 391,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2015-07-11T03:24:47.908255+02:00",
+      "LastChanged": "2023-09-29T11:06:34.7708179+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "doloremque",
-      "StyleHint": "enim",
+      "ExtraInfo": "quos",
+      "StyleHint": "nobis",
       "Hidden": true,
-      "FullName": "Turner Brown",
+      "FullName": "Mr. Tianna Nienow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldType": "System.String",
+          "FieldLength": 532
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 222
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   }
 }

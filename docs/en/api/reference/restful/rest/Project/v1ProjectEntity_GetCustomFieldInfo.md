@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Lemke-Gutmann",
-  "DisplayName": "Hand Inc and Sons",
-  "Description": "Polarised 3rd generation process improvement",
-  "ShortLabel": "ipsa",
+  "FieldName": "Gusikowski-Stokes",
+  "DisplayName": "Kovacek, Ondricka and Schneider",
+  "Description": "Integrated global protocol",
+  "ShortLabel": "sit",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 915,
-  "TemplateVariableName": "Jones-Klocko"
+  "Rank": 14,
+  "TemplateVariableName": "Rodriguez, McCullough and Wehner"
 }
 ```

@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 782,
-    "Name": "Pollich-Bayer",
+    "TicketStatusId": 629,
+    "Name": "Harber, Pacocha and Becker",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
-    "IsDefault": false,
-    "UsedInQueue": true,
+    "IsDefault": true,
+    "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 189
+        "FieldLength": 402
       }
     }
   }

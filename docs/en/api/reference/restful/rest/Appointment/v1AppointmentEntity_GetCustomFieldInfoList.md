@@ -67,7 +67,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Goodwin, Collier and Spencer",
-    "DisplayName": "Wisoky, Waters and Bogisich",
-    "Description": "Multi-channelled content-based protocol",
-    "ShortLabel": "velit",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
+    "FieldName": "Gerlach, Dicki and Rogahn",
+    "DisplayName": "Kuhlman, Effertz and Rodriguez",
+    "Description": "Realigned multi-state leverage",
+    "ShortLabel": "ratione",
+    "HideLabel": true,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 451,
-    "TemplateVariableName": "Pfannerstill LLC"
+    "Rank": 388,
+    "TemplateVariableName": "Bergnaum LLC"
   }
 ]
 ```

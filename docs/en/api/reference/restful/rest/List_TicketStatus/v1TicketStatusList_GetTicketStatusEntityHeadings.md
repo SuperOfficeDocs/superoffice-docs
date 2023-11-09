@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 162,
-    "Name": "Robel-Paucek",
-    "Tooltip": "illo",
+    "HeadingId": 575,
+    "Name": "Bahringer Inc and Sons",
+    "Tooltip": "ipsum",
     "Deleted": false,
-    "Rank": 124,
-    "UdListDefinitionId": 54,
+    "Rank": 279,
+    "UdListDefinitionId": 626,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldLength": 569
       }
     }
   }

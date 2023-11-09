@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Glover Inc and Sons",
-  "Tooltip": "eum",
+  "Id": 883,
+  "Name": "Beier, Olson and Ratke",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "UdListDefinitionId": 231,
-  "Rank": 376
+  "UdListDefinitionId": 666,
+  "Rank": 718
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 151,
-  "Name": "Vandervort, Satterfield and Leannon",
-  "Tooltip": "asperiores",
+  "Id": 71,
+  "Name": "Goyette-Kihn",
+  "Tooltip": "voluptatum",
   "Deleted": false,
-  "UdListDefinitionId": 994,
-  "Rank": 741,
+  "UdListDefinitionId": 463,
+  "Rank": 935,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldType": "System.String",
+      "FieldLength": 792
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 267,
-  "Name": "Brekke Inc and Sons",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 357,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 861,
+  "Name": "Littel Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 296,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "similique",
+  "ListType": "dolor",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 733
+      "FieldType": "System.Int32",
+      "FieldLength": 87
     }
   },
   "_Links": {

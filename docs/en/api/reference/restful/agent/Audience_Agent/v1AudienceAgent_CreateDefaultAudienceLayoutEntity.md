@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 892,
-  "InstanceLayout": "et",
-  "InstanceName": "Orn Group",
-  "CreatedDate": "2003-12-23T03:24:47.2364513+01:00",
-  "UpdatedDate": "1996-05-25T03:24:47.2364513+02:00",
+  "AudienceLayoutId": 755,
+  "InstanceLayout": "earum",
+  "InstanceName": "Graham-Mraz",
+  "CreatedDate": "2003-09-03T11:06:33.7816525+02:00",
+  "UpdatedDate": "2012-09-19T11:06:33.7816525+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 205
+      "FieldType": "System.Int32",
+      "FieldLength": 196
     }
   }
 }

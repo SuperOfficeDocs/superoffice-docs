@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "dignissimos",
-    "explicabo"
+    "autem",
+    "ut"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Paucek LLC",
-    "Delimiter": "corrupti",
-    "Flags": "sed",
-    "TotalItems": 832,
-    "UnreadItems": 881,
-    "Subscribed": false,
-    "EmailFolderId": 245,
+    "Name": "Ortiz-Hand",
+    "Delimiter": "quod",
+    "Flags": "quis",
+    "TotalItems": 868,
+    "UnreadItems": 213,
+    "Subscribed": true,
+    "EmailFolderId": 365,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldLength": 189
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Lemke, Lockman and Shanahan",
-    "ToolTip": "Possimus qui et est.",
+    "Id": 592,
+    "Name": "Wilderman-Hagenes",
+    "ToolTip": "Quo quia praesentium sunt.",
     "Deleted": false,
-    "Rank": 4,
-    "Type": "nihil",
-    "ColorBlock": 330,
-    "IconHint": "excepturi",
-    "Selected": true,
-    "LastChanged": "1998-09-01T03:24:52.3806958+02:00",
+    "Rank": 552,
+    "Type": "vel",
+    "ColorBlock": 101,
+    "IconHint": "soluta",
+    "Selected": false,
+    "LastChanged": "2019-08-25T11:06:43.006573+02:00",
     "ChildItems": [
       {
-        "Id": 890,
-        "Name": "Raynor-Pagac",
-        "ToolTip": "Distinctio maiores occaecati eos quasi repellendus nesciunt.",
+        "Id": 430,
+        "Name": "Frami-Raynor",
+        "ToolTip": "Excepturi nesciunt.",
         "Deleted": false,
-        "Rank": 799,
-        "Type": "consequatur",
-        "ColorBlock": 233,
-        "IconHint": "illum",
-        "Selected": true,
-        "LastChanged": "2001-02-06T03:24:52.3806958+01:00",
+        "Rank": 555,
+        "Type": "soluta",
+        "ColorBlock": 57,
+        "IconHint": "incidunt",
+        "Selected": false,
+        "LastChanged": "2009-08-13T11:06:43.006573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "veniam",
-        "Hidden": true,
-        "FullName": "Brice Cassin",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "repudiandae",
+        "Hidden": false,
+        "FullName": "Mohamed Fahey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 646
+            "FieldLength": 263
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Rudy Schuppe",
+    "ExtraInfo": "omnis",
+    "StyleHint": "nulla",
+    "Hidden": true,
+    "FullName": "Jaime O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldType": "System.String",
+        "FieldLength": 196
       }
     }
   }

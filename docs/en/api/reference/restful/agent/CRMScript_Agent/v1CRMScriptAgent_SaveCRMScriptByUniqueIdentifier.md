@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dolores",
+  "UniqueIdentifier": "ducimus",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "repellat",
-  "Name": "Prosacco Inc and Sons",
-  "Description": "Assimilated bi-directional flexibility",
-  "IncludeId": "sit",
-  "Source": "eligendi",
-  "Registered": "2021-12-11T03:24:47.4708008+01:00",
-  "RegisteredBy": "dolore",
-  "Updated": "2006-11-07T03:24:47.4708008+01:00",
-  "UpdatedBy": "ut",
-  "Path": "adipisci",
+  "UniqueIdentifier": "eveniet",
+  "Name": "Ferry, Muller and White",
+  "Description": "User-friendly hybrid moratorium",
+  "IncludeId": "et",
+  "Source": "est",
+  "Registered": "2013-06-11T11:06:34.2383276+02:00",
+  "RegisteredBy": "voluptatem",
+  "Updated": "2000-08-25T11:06:34.2383276+02:00",
+  "UpdatedBy": "et",
+  "Path": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 99
+      "FieldType": "System.Int32",
+      "FieldLength": 748
     }
   }
 }

@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 731,
-  "Field": "molestiae",
-  "RecordId": 887,
+  "RefCountsId": 748,
+  "Field": "aut",
+  "RecordId": 504,
   "SuggestedRecords": [
     {
       "Id": 170,
-      "Name": "Grant, Ondricka and Brakus",
-      "ToolTip": "Architecto placeat quo et quod.",
+      "Name": "Stamm, Schroeder and Lesch",
+      "ToolTip": "Repudiandae rerum saepe.",
       "Deleted": false,
-      "Rank": 828,
-      "Type": "ab",
+      "Rank": 814,
+      "Type": "facere",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eum",
-      "ColorBlock": 411,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "provident",
-      "FullName": "Elenor Waelchi",
+      "IconHint": "ad",
+      "ColorBlock": 461,
+      "ExtraInfo": "nisi",
+      "StyleHint": "nihil",
+      "FullName": "Hazel Schumm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 131
+          "FieldType": "System.Int32",
+          "FieldLength": 543
         }
       }
     }
   ],
-  "CurrentValue": 125,
-  "TravelPrefix": 690,
-  "SatPrefix": 473,
+  "CurrentValue": 1000,
+  "TravelPrefix": 893,
+  "SatPrefix": 890,
   "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
+  "Unique": false,
+  "ReadOnly": true,
   "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 210
     }
   }
 }

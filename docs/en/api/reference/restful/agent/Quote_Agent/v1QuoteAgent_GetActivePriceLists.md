@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 313,
-  "Currency": "nam"
+  "QuoteConnectionId": 94,
+  "Currency": "ullam"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 429,
-    "ERPPriceListKey": "reprehenderit",
-    "QuoteConnectionId": 203,
-    "Name": "Stamm Inc and Sons",
-    "Description": "Fully-configurable discrete groupware",
-    "Currency": "quis",
-    "CurrencyName": "Cremin-Kihn",
-    "ValidFrom": "2016-05-14T03:24:48.1426062+02:00",
-    "ValidTo": "2015-12-05T03:24:48.1426062+01:00",
+    "PriceListId": 850,
+    "ERPPriceListKey": "aut",
+    "QuoteConnectionId": 834,
+    "Name": "Gottlieb, Collins and Skiles",
+    "Description": "Focused non-volatile installation",
+    "Currency": "laudantium",
+    "CurrencyName": "DuBuque Group",
+    "ValidFrom": "1996-08-01T11:06:35.2239506+02:00",
+    "ValidTo": "2014-07-07T11:06:35.2239506+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 960
       }
     }
   }

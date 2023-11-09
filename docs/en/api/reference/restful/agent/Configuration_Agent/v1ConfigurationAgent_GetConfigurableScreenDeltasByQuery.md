@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 220,
-    "Name": "Smitham Inc and Sons",
-    "Description": "Down-sized user-facing frame",
-    "DeltaJson": "voluptatem",
+    "ConfigurableScreenDeltaId": 679,
+    "Name": "Conroy Group",
+    "Description": "Cross-group fault-tolerant capability",
+    "DeltaJson": "nulla",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "quia",
-    "UpdatedDate": "2000-11-21T03:24:47.3614382+01:00",
-    "CreatedDate": "2001-04-02T03:24:47.3614382+02:00",
+    "RecipeId": "velit",
+    "UpdatedDate": "2000-07-20T11:06:34.080854+02:00",
+    "CreatedDate": "1998-03-12T11:06:34.080854+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      317,
-      334
+      589,
+      595
     ],
-    "AppliesToKey": "et",
+    "AppliesToKey": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldLength": 809
       }
     }
   }

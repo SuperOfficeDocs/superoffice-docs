@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 297,
-  "Name": "Pouros, Kshlerin and Renner",
-  "Tooltip": "voluptatem",
+  "Id": 521,
+  "Name": "Deckow LLC",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 98,
-  "IsCustomList": false,
+  "Rank": 882,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "labore",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldLength": 215
     }
   },
   "_Links": {

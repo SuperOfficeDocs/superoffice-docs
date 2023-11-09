@@ -92,26 +92,26 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 690,
-  "Name": "Parker-Botsford",
-  "Rank": 91,
-  "Tooltip": "aut",
-  "Icon": "qui",
-  "DefaultTicketStatus": 498,
+  "TicketTypeId": 547,
+  "Name": "Schmitt LLC",
+  "Rank": 981,
+  "Tooltip": "nemo",
+  "Icon": "similique",
+  "DefaultTicketStatus": 204,
   "TicketStatuses": [
-    341,
-    29
+    732,
+    692
   ],
-  "DefaultTicketPriority": 404,
+  "DefaultTicketPriority": 145,
   "TicketPriorities": [
-    342,
-    557
+    400,
+    593
   ],
-  "ReplyTemplate": 603,
+  "ReplyTemplate": 763,
   "IsExternalVisible": true,
   "IsDefault": true
 }
@@ -124,22 +124,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 167,
-  "Name": "Lockman-Trantow",
-  "Rank": 889,
-  "Tooltip": "inventore",
-  "Icon": "dicta",
-  "DefaultTicketStatus": 829,
+  "TicketTypeId": 731,
+  "Name": "Schmitt Inc and Sons",
+  "Rank": 694,
+  "Tooltip": "quos",
+  "Icon": "eos",
+  "DefaultTicketStatus": 977,
   "TicketStatuses": [
-    638,
-    352
+    282,
+    486
   ],
-  "DefaultTicketPriority": 722,
+  "DefaultTicketPriority": 713,
   "TicketPriorities": [
-    501,
-    135
+    298,
+    39
   ],
-  "ReplyTemplate": 578,
+  "ReplyTemplate": 519,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 235
+      "FieldLength": 304
     }
   }
 }

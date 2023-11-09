@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 47
+  "SelectionId": 463
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  227,
-  25
+  564,
+  615
 ]
 ```

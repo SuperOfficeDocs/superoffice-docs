@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "placeat",
-      "Key": "minus"
+      "Section": "quasi",
+      "Key": "blanditiis"
     },
     {
-      "Section": "placeat",
-      "Key": "minus"
+      "Section": "quasi",
+      "Key": "blanditiis"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "et",
+    "RawValue": "neque",
     "Specification": null,
-    "DisplayValue": "quia",
-    "DisplayTooltip": "non",
+    "DisplayValue": "impedit",
+    "DisplayTooltip": "minima",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 200,
-    "PrefDescId": 106,
-    "TableName": "Nolan, Rice and Zboncak",
-    "UserPreferenceId": 72,
+    "TargetId": 118,
+    "PrefDescId": 648,
+    "TableName": "Feil, Hirthe and Schimmel",
+    "UserPreferenceId": 983,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldType": "System.Int32",
+        "FieldLength": 234
       }
     }
   }

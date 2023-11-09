@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 633,
-  "AssociateId": 964,
-  "Caption": "unde",
+  "DashboardId": 693,
+  "AssociateId": 868,
+  "Caption": "minus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 732,
-      "Caption": "quam",
-      "Description": "Versatile motivating toolset",
-      "ChartName": "Hickle, Zemlak and Mante",
-      "ChartId": "accusamus",
-      "IsDefault": false,
-      "AssociateId": 93,
-      "GroupId": 926,
-      "SelectionId": 926,
-      "Config": "possimus",
+      "DashboardTileId": 767,
+      "Caption": "odio",
+      "Description": "Advanced full-range frame",
+      "ChartName": "Monahan, Legros and Schinner",
+      "ChartId": "fuga",
+      "IsDefault": true,
+      "AssociateId": 109,
+      "GroupId": 436,
+      "SelectionId": 549,
+      "Config": "provident",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldType": "System.String",
+          "FieldLength": 659
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 597
     }
   }
 }

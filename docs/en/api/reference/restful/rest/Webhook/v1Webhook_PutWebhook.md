@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 733,
-  "Name": "Hoeger, Brakus and Koch",
+  "WebhookId": 893,
+  "Name": "Treutel, Cronin and Cassin",
   "Events": [
-    "cupiditate",
-    "dolor"
+    "omnis",
+    "veniam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "exercitationem",
+  "Secret": "laborum",
   "State": "Active",
-  "Type": "cupiditate",
+  "Type": "quos",
   "Headers": {
-    "Headers1": "voluptas",
-    "Headers2": "quidem"
+    "Headers1": "est",
+    "Headers2": "ut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-12-28T03:24:52.1307225+01:00",
+  "Registered": "2004-10-03T11:06:42.6315642+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2015-04-02T03:24:52.1307225+02:00",
+  "Updated": "2004-01-21T11:06:42.6315642+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "lorena_kshlerin@auerrowe.uk"
+  "ErrorsEmail": "telly@ankundingjast.us"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 353,
-  "Name": "Langworth-Jakubowski",
+  "WebhookId": 553,
+  "Name": "Lebsack LLC",
   "Events": [
-    "accusamus",
-    "mollitia"
+    "autem",
+    "adipisci"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptates",
+  "Secret": "quia",
   "State": "Active",
-  "Type": "a",
+  "Type": "eveniet",
   "Headers": {
-    "Headers1": "quasi",
-    "Headers2": "voluptatem"
+    "Headers1": "ad",
+    "Headers2": "est"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-09-30T03:24:52.1463474+02:00",
+  "Registered": "2007-07-13T11:06:42.6315642+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-12-29T03:24:52.1463474+01:00",
+  "Updated": "2017-03-03T11:06:42.6315642+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "erika@friesenkuhn.us",
+  "ErrorsEmail": "sonny@kozey.com",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

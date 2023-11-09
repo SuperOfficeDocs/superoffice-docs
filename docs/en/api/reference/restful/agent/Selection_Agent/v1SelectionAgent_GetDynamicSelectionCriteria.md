@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 471
+  "SelectionId": 925
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sanford-Lebsack",
-    "Operator": "hic",
+    "Name": "Green Inc and Sons",
+    "Operator": "sint",
     "Values": [
-      "culpa",
-      "voluptatem"
+      "perspiciatis",
+      "esse"
     ],
     "DisplayValues": [
-      "dolor",
-      "ipsum"
+      "repellat",
+      "aut"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Champlin-Dickinson",
-        "Operator": "commodi",
+        "Name": "Ruecker, Thompson and Hamill",
+        "Operator": "explicabo",
         "Values": [
-          "cupiditate",
-          "eos"
+          "nemo",
+          "quas"
         ],
         "DisplayValues": [
-          "ipsam",
-          "facere"
+          "consequatur",
+          "fugit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 395,
+        "InterParenthesis": 23,
         "InterOperator": "And",
-        "UniqueHash": 100
+        "UniqueHash": 461
       }
     ],
-    "InterParenthesis": 743,
+    "InterParenthesis": 32,
     "InterOperator": "And",
-    "UniqueHash": 589
+    "UniqueHash": 930
   }
 ]
 ```

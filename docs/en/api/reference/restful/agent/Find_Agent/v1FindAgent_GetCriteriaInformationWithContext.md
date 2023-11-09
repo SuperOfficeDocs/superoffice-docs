@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "unde",
-  "ProviderName": "Schiller Inc and Sons",
-  "StorageKey": "saepe",
+  "StorageType": "impedit",
+  "ProviderName": "Crist-Hessel",
+  "StorageKey": "iure",
   "StaticColumns": [
-    "alias",
-    "ullam"
+    "id",
+    "debitis"
   ],
-  "Context": "ipsa"
+  "Context": "vero"
 }
 ```
 
@@ -106,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Klocko, Littel and Lind",
-      "Operator": "ratione",
+      "Name": "Spencer Inc and Sons",
+      "Operator": "ducimus",
       "Values": [
-        "doloribus",
-        "assumenda"
+        "beatae",
+        "officia"
       ],
       "DisplayValues": [
-        "est",
-        "sed"
+        "deserunt",
+        "iusto"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 75,
+      "InterParenthesis": 190,
       "InterOperator": "And",
-      "UniqueHash": 2
+      "UniqueHash": 609
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Stoltenberg, Shields and Breitenberg",
-      "DisplayTooltip": "architecto",
-      "DisplayType": "consequatur",
+      "DisplayName": "Ritchie-Murazik",
+      "DisplayTooltip": "distinctio",
+      "DisplayType": "molestias",
       "CanOrderBy": false,
-      "Name": "Buckridge Inc and Sons",
+      "Name": "Waelchi-Conroy",
       "CanRestrictBy": true,
-      "RestrictionType": "repudiandae",
-      "RestrictionListName": "Thompson Group",
-      "IsVisible": true,
-      "ExtraInfo": "expedita",
-      "Width": "quas",
-      "IconHint": "perspiciatis",
-      "HeadingIconHint": "occaecati"
+      "RestrictionType": "est",
+      "RestrictionListName": "Schuster-Price",
+      "IsVisible": false,
+      "ExtraInfo": "cumque",
+      "Width": "et",
+      "IconHint": "ex",
+      "HeadingIconHint": "quis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Purdy, Morar and Heller",
-      "PrimaryKey": 941,
+      "EntityName": "Gaylord Group",
+      "PrimaryKey": 694,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "earum",
-          "TooltipHint": "quas",
-          "LinkHint": "quasi"
+          "DisplayValue": "quas",
+          "TooltipHint": "at",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "quod",
+      "LinkHint": "ipsam",
+      "StyleHint": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 976
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Wehner, Nolan and Haley",
-      "Description": "Reactive high-level customer loyalty",
-      "Rank": 50,
+      "Name": "Hilpert LLC",
+      "Description": "Self-enabling actuating process improvement",
+      "Rank": 956,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wehner, Nolan and Haley",
-      "Description": "Reactive high-level customer loyalty",
-      "Rank": 50,
+      "Name": "Hilpert LLC",
+      "Description": "Self-enabling actuating process improvement",
+      "Rank": 956,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 529
     }
   }
 }

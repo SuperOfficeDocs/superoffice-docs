@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 930
+  "TicketMessageEntityId": 473
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 335,
-    "Name": "Ruecker Group",
-    "ContentType": "natus",
-    "AttSize": 887,
-    "InlineImage": false,
-    "ContentId": "vel",
-    "AuthKey": "magni",
+    "AttachmentId": 680,
+    "Name": "Champlin-Braun",
+    "ContentType": "et",
+    "AttSize": 345,
+    "InlineImage": true,
+    "ContentId": "omnis",
+    "AuthKey": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 63
       }
     }
   }

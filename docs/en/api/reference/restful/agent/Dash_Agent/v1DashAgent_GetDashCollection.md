@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 199,
-      "UniqueId": "doloribus",
-      "Name": "Hegmann Group",
-      "Description": "Expanded homogeneous secured line",
-      "AssociateId": 154,
-      "Columns": 687,
+      "DashboardId": 94,
+      "UniqueId": "vel",
+      "Name": "Howell Inc and Sons",
+      "Description": "Focused 6th generation open architecture",
+      "AssociateId": 654,
+      "Columns": 308,
       "Theme": null,
-      "VisibleForAll": 486,
+      "VisibleForAll": 689,
       "VisibleForAssociates": [
-        723,
-        106
+        308,
+        528
       ],
       "VisibleForGroups": [
-        648,
-        398
+        488,
+        321
       ],
-      "PinForAll": 786,
+      "PinForAll": 900,
       "PinForAssociates": [
-        498,
-        362
+        726,
+        563
       ],
       "PinForGroups": [
-        151,
-        556
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 592
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 105,
-      "UniqueId": "laborum",
-      "Name": "Carroll-Funk",
-      "Description": "Pre-emptive needs-based core",
-      "AssociateId": 329,
-      "Columns": 828,
-      "Theme": null,
-      "VisibleForAll": 553,
-      "VisibleForAssociates": [
-        498,
-        915
-      ],
-      "VisibleForGroups": [
-        856,
-        357
-      ],
-      "PinForAll": 121,
-      "PinForAssociates": [
-        368,
-        769
-      ],
-      "PinForGroups": [
-        993,
-        355
+        407,
+        719
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldLength": 278
+        }
+      }
+    }
+  ],
+  "Favourites": [
+    {
+      "DashboardId": 23,
+      "UniqueId": "tenetur",
+      "Name": "Schaefer Inc and Sons",
+      "Description": "Reduced 24/7 access",
+      "AssociateId": 297,
+      "Columns": 919,
+      "Theme": null,
+      "VisibleForAll": 533,
+      "VisibleForAssociates": [
+        898,
+        150
+      ],
+      "VisibleForGroups": [
+        44,
+        74
+      ],
+      "PinForAll": 569,
+      "PinForAssociates": [
+        992,
+        122
+      ],
+      "PinForGroups": [
+        699,
+        403
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 883
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 919,
-      "UniqueId": "molestias",
-      "Name": "Mayer LLC",
-      "Description": "Universal next generation info-mediaries",
-      "AssociateId": 271,
-      "Columns": 905,
+      "DashboardId": 909,
+      "UniqueId": "eum",
+      "Name": "Beier-Waelchi",
+      "Description": "Optional secondary orchestration",
+      "AssociateId": 744,
+      "Columns": 242,
       "Theme": null,
-      "VisibleForAll": 257,
+      "VisibleForAll": 949,
       "VisibleForAssociates": [
-        213,
-        495
+        874,
+        798
       ],
       "VisibleForGroups": [
-        95,
-        642
+        979,
+        200
       ],
-      "PinForAll": 583,
+      "PinForAll": 682,
       "PinForAssociates": [
-        433,
-        350
+        449,
+        246
       ],
       "PinForGroups": [
-        351,
-        349
+        895,
+        842
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 913
+          "FieldLength": 648
         }
       }
     }
@@ -192,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldType": "System.Int32",
+      "FieldLength": 179
     }
   }
 }

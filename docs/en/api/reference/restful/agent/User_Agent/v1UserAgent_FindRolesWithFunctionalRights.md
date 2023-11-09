@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Quigley-Hettinger",
-    "Raynor, Herzog and Sauer"
+    "Gaylord-Parker",
+    "Dach-Bednar"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  919,
-  59
+  577,
+  723
 ]
 ```

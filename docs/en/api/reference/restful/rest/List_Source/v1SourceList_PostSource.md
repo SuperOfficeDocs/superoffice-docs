@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 776,
-  "Name": "Green, Cole and Leffler",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "UdListDefinitionId": 278,
-  "Rank": 724
+  "Id": 688,
+  "Name": "Gislason LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 86,
+  "Rank": 642
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 825,
-  "Name": "Larson LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 516,
-  "Rank": 762,
+  "Id": 48,
+  "Name": "Fahey-Sanford",
+  "Tooltip": "voluptatibus",
+  "Deleted": false,
+  "UdListDefinitionId": 752,
+  "Rank": 592,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 95
     }
   }
 }

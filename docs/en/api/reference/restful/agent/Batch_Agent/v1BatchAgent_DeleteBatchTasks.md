@@ -69,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "BatchTaskIds": [
-    343,
-    673
+    665,
+    925
   ]
 }
 ```

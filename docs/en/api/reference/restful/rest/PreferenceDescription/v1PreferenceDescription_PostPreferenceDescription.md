@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 989,
-  "Section": "dolore",
-  "Key": "numquam",
-  "Name": "Feeney LLC",
+  "PrefDescId": 842,
+  "Section": "rem",
+  "Key": "modi",
+  "Name": "Oberbrunner-Lockman",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enterprise-wide fault-tolerant protocol",
+  "Description": "Self-enabling heuristic benchmark",
   "IsBuiltin": true,
-  "TableName": "Gutkowski LLC",
-  "UserDefinedListId": 436,
-  "Rank": 954,
-  "SubGroup": "et",
-  "MinLevel": 370,
-  "MaxValue": 626,
-  "MinValue": 632,
-  "RequiredLicense": "dolor"
+  "TableName": "Mitchell, Jerde and O'Kon",
+  "UserDefinedListId": 770,
+  "Rank": 103,
+  "SubGroup": "maiores",
+  "MinLevel": 351,
+  "MaxValue": 396,
+  "MinValue": 109,
+  "RequiredLicense": "voluptatibus"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 330,
-  "Section": "placeat",
-  "Key": "assumenda",
-  "Name": "Blanda, Gusikowski and Hermann",
+  "PrefDescId": 825,
+  "Section": "unde",
+  "Key": "laudantium",
+  "Name": "Littel LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fundamental zero tolerance project",
-  "IsBuiltin": true,
-  "TableName": "Harris-Goodwin",
-  "UserDefinedListId": 363,
-  "Rank": 514,
-  "SubGroup": "exercitationem",
-  "MinLevel": 650,
-  "MaxValue": 716,
-  "MinValue": 779,
-  "RequiredLicense": "doloremque",
+  "Description": "Expanded bandwidth-monitored circuit",
+  "IsBuiltin": false,
+  "TableName": "Purdy, Deckow and Yost",
+  "UserDefinedListId": 352,
+  "Rank": 751,
+  "SubGroup": "fugiat",
+  "MinLevel": 57,
+  "MaxValue": 176,
+  "MinValue": 178,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 457
     }
   },
   "_Links": {

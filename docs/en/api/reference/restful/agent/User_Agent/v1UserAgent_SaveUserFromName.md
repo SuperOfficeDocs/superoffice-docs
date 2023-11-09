@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Stoltenberg, Ondricka and Kilback",
+  "UserName": "Hintz-Kozey",
   "User": null
 }
 ```
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 564,
-  "Name": "Wiza, Sawayn and Brown",
-  "Rank": 277,
-  "Tooltip": "aut",
+  "AssociateId": 376,
+  "Name": "Gibson LLC",
+  "Rank": 253,
+  "Tooltip": "nisi",
   "LicenseOwners": [
     {
-      "Name": "Runolfsson Inc and Sons",
-      "Description": "Grass-roots client-server secured line",
+      "Name": "Walker-Hintz",
+      "Description": "Integrated impactful productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 13
         }
       }
     },
     {
-      "Name": "Runolfsson Inc and Sons",
-      "Description": "Grass-roots client-server secured line",
+      "Name": "Walker-Hintz",
+      "Description": "Integrated impactful productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 13
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "error",
-      "Tooltip": "aperiam",
-      "Id": 565,
-      "Rank": 912,
+      "Value": "nulla",
+      "Tooltip": "laborum",
+      "Id": 611,
+      "Rank": 275,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldLength": 681
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2010-11-27T03:24:48.5653818+01:00",
-  "Lastlogout": "2012-08-04T03:24:48.5653818+02:00",
-  "EjUserId": 199,
-  "RequestSignature": "et",
+  "Lastlogin": "2013-05-05T11:06:35.7263983+02:00",
+  "Lastlogout": "2021-01-21T11:06:35.7263983+01:00",
+  "EjUserId": 961,
+  "RequestSignature": "eum",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "cupiditate",
-      "DisplayValue": "iure",
+      "Value": "recusandae",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 267
+          "FieldLength": 386
         }
       }
     },
     {
       "Type": null,
-      "Value": "cupiditate",
-      "DisplayValue": "iure",
+      "Value": "recusandae",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 267
+          "FieldLength": 386
         }
       }
     }
   ],
-  "UserName": "Champlin, Waters and O'Connell",
+  "UserName": "King-Bode",
   "TicketCategories": [
     {
-      "Id": 11,
-      "Name": "Legros-Kihn",
-      "ToolTip": "Non iusto vero sed ipsa aut rerum.",
+      "Id": 480,
+      "Name": "Feest LLC",
+      "ToolTip": "Cumque vero eum sint.",
       "Deleted": true,
-      "Rank": 312,
-      "Type": "minima",
+      "Rank": 855,
+      "Type": "libero",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "non",
-      "ColorBlock": 212,
-      "ExtraInfo": "ut",
-      "StyleHint": "est",
-      "FullName": "Zita Jordon Grady IV",
+      "IconHint": "illo",
+      "ColorBlock": 880,
+      "ExtraInfo": "vero",
+      "StyleHint": "magnam",
+      "FullName": "Fern Ebert DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldLength": 655
         }
       }
     }
   ],
-  "NickName": "Eichmann-Pollich",
+  "NickName": "Corkery Inc and Sons",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "et",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "minima"
+    "CustomFields1": "soluta",
+    "CustomFields2": "ea"
   },
   "PostSaveCommands": [
     {
-      "Name": "Predovic Group",
-      "DisplayName": "Pfannerstill-Rodriguez",
-      "Description": "Organized intermediate array",
-      "ToolTip": "Exercitationem accusamus facere.",
+      "Name": "Glover Group",
+      "DisplayName": "Hayes, Waters and Carter",
+      "Description": "Reverse-engineered dynamic benchmark",
+      "ToolTip": "Blanditiis perferendis neque voluptas consectetur.",
       "Actions": "Implicit",
-      "ActionData": "magni",
+      "ActionData": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldLength": 713
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldLength": 864
     }
   }
 }

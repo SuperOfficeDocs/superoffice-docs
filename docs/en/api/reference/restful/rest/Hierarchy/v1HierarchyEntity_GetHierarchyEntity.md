@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 93,
+  "HierarchyId": 556,
   "Domain": "Dashboards",
-  "Name": "Kuhlman-Towne",
-  "Fullname": "eum",
-  "ParentId": 557,
+  "Name": "Goodwin-Wiza",
+  "Fullname": "provident",
+  "ParentId": 310,
   "Children": [
     {
-      "HierarchyId": 69,
+      "HierarchyId": 404,
       "Domain": "Dashboards",
-      "Name": "Hoeger-D'Amore",
-      "Fullname": "quaerat",
-      "ParentId": 664,
+      "Name": "McKenzie LLC",
+      "Fullname": "rerum",
+      "ParentId": 876,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-04-06T03:24:51.630601+02:00",
-      "RegisteredAssociateId": 78,
-      "Updated": "2007-06-15T03:24:51.630601+02:00",
-      "UpdatedAssociateId": 173,
+      "Registered": "2020-07-24T11:06:41.9103479+02:00",
+      "RegisteredAssociateId": 883,
+      "Updated": "2016-11-28T11:06:41.9103479+01:00",
+      "UpdatedAssociateId": 371,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 994
         }
       }
     }
   ],
-  "Registered": "2022-09-21T03:24:51.630601+02:00",
-  "RegisteredAssociateId": 92,
-  "Updated": "2002-10-14T03:24:51.630601+02:00",
-  "UpdatedAssociateId": 861,
+  "Registered": "2016-03-17T11:06:41.9103479+01:00",
+  "RegisteredAssociateId": 205,
+  "Updated": "2009-12-13T11:06:41.9103479+01:00",
+  "UpdatedAssociateId": 900,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 74
     }
   },
   "_Links": {

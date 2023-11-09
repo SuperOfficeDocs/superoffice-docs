@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Okuneva, Cormier and Waelchi",
-    "ToolTip": "Cupiditate velit sit voluptas quis similique neque sit.",
+    "Id": 732,
+    "Name": "Johnson, Langosh and Berge",
+    "ToolTip": "Sed cumque sed fugiat sint nesciunt.",
     "Deleted": true,
-    "Rank": 746,
-    "Type": "et",
+    "Rank": 678,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Nienow-Kling",
-        "ToolTip": "Et suscipit eveniet voluptas.",
-        "Deleted": true,
-        "Rank": 324,
-        "Type": "nostrum",
+        "Id": 453,
+        "Name": "Emard, Cassin and Nikolaus",
+        "ToolTip": "Odit sunt aut nostrum expedita delectus dolor eum.",
+        "Deleted": false,
+        "Rank": 809,
+        "Type": "eligendi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 402,
-        "ExtraInfo": "quia",
-        "StyleHint": "fugiat",
-        "FullName": "Ms. Connie Kohler II",
+        "IconHint": "alias",
+        "ColorBlock": 898,
+        "ExtraInfo": "eum",
+        "StyleHint": "culpa",
+        "FullName": "Miss Helene Ryan DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 330
+            "FieldLength": 880
           }
         }
       }
     ],
-    "IconHint": "unde",
-    "ColorBlock": 547,
-    "ExtraInfo": "placeat",
-    "StyleHint": "quod",
-    "FullName": "Herminia Rempel",
+    "IconHint": "enim",
+    "ColorBlock": 997,
+    "ExtraInfo": "sit",
+    "StyleHint": "consequatur",
+    "FullName": "Jermey Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 531
+        "FieldType": "System.Int32",
+        "FieldLength": 303
       }
     }
   }

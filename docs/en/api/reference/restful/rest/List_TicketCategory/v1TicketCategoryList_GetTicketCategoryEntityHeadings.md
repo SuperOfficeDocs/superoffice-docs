@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 411,
-    "Name": "Hintz Group",
-    "Tooltip": "eum",
+    "HeadingId": 848,
+    "Name": "McGlynn-Padberg",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "Rank": 792,
-    "UdListDefinitionId": 28,
+    "Rank": 165,
+    "UdListDefinitionId": 458,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 767
       }
     }
   }

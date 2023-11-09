@@ -94,36 +94,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 634,
+  "HierarchyId": 752,
   "Domain": "Dashboards",
-  "Name": "Farrell Group",
-  "Fullname": "ut",
-  "ParentId": 253,
+  "Name": "Schuppe-Bauch",
+  "Fullname": "molestiae",
+  "ParentId": 263,
   "Children": [
     {
-      "HierarchyId": 711,
+      "HierarchyId": 590,
       "Domain": "Dashboards",
-      "Name": "Pacocha, Russel and Emard",
-      "Fullname": "vitae",
-      "ParentId": 1002,
+      "Name": "Pagac, Cruickshank and Bashirian",
+      "Fullname": "quo",
+      "ParentId": 139,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-11-21T03:24:51.630601+01:00",
-      "RegisteredAssociateId": 456,
-      "Updated": "2013-04-06T03:24:51.630601+02:00",
-      "UpdatedAssociateId": 962
+      "Registered": "2006-03-23T11:06:41.8947242+01:00",
+      "RegisteredAssociateId": 106,
+      "Updated": "2010-02-19T11:06:41.8947242+01:00",
+      "UpdatedAssociateId": 675
     }
   ],
-  "Registered": "1997-08-04T03:24:51.630601+02:00",
-  "RegisteredAssociateId": 503,
-  "Updated": "2021-05-16T03:24:51.630601+02:00",
-  "UpdatedAssociateId": 78
+  "Registered": "2016-01-21T11:06:41.8947242+01:00",
+  "RegisteredAssociateId": 221,
+  "Updated": "2022-11-14T11:06:41.8947242+01:00",
+  "UpdatedAssociateId": 437
 }
 ```
 
@@ -134,46 +134,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 635,
+  "HierarchyId": 984,
   "Domain": "Dashboards",
-  "Name": "Hansen-Hand",
-  "Fullname": "dolorem",
-  "ParentId": 584,
+  "Name": "Russel Inc and Sons",
+  "Fullname": "amet",
+  "ParentId": 783,
   "Children": [
     {
-      "HierarchyId": 965,
+      "HierarchyId": 237,
       "Domain": "Dashboards",
-      "Name": "Satterfield Inc and Sons",
-      "Fullname": "nemo",
-      "ParentId": 663,
+      "Name": "Blanda-Lynch",
+      "Fullname": "vero",
+      "ParentId": 687,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-12-02T03:24:51.630601+01:00",
-      "RegisteredAssociateId": 458,
-      "Updated": "1999-03-02T03:24:51.630601+01:00",
-      "UpdatedAssociateId": 318,
+      "Registered": "2019-07-15T11:06:41.8947242+02:00",
+      "RegisteredAssociateId": 599,
+      "Updated": "2003-06-26T11:06:41.8947242+02:00",
+      "UpdatedAssociateId": 642,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 391
+          "FieldLength": 143
         }
       }
     }
   ],
-  "Registered": "2021-01-31T03:24:51.630601+01:00",
-  "RegisteredAssociateId": 185,
-  "Updated": "2005-10-30T03:24:51.630601+01:00",
-  "UpdatedAssociateId": 662,
+  "Registered": "2002-05-17T11:06:41.8947242+02:00",
+  "RegisteredAssociateId": 386,
+  "Updated": "2006-09-23T11:06:41.8947242+02:00",
+  "UpdatedAssociateId": 10,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   },
   "_Links": {

@@ -94,10 +94,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lindgren Inc and Sons",
-  "ForceFlatList": true,
-  "AdditionalInfo": "recusandae",
-  "OnlyHistory": true
+  "Name": "Raynor Group",
+  "ForceFlatList": false,
+  "AdditionalInfo": "nobis",
+  "OnlyHistory": false
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Gulgowski LLC",
-    "ToolTip": "Quae ut et.",
+    "Id": 900,
+    "Name": "Gutkowski-Kerluke",
+    "ToolTip": "Aliquam qui harum expedita necessitatibus architecto dolor expedita.",
     "Deleted": false,
-    "Rank": 270,
-    "Type": "esse",
-    "ColorBlock": 183,
-    "IconHint": "sequi",
+    "Rank": 250,
+    "Type": "aliquid",
+    "ColorBlock": 496,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2016-01-20T03:24:47.9395013+01:00",
+    "LastChanged": "2003-08-29T11:06:34.8020663+02:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Johnston-King",
-        "ToolTip": "Et corrupti fugiat ullam ab.",
+        "Id": 2,
+        "Name": "Pouros, Sauer and Gutmann",
+        "ToolTip": "Sit et aspernatur odio omnis magnam rerum hic.",
         "Deleted": false,
-        "Rank": 166,
-        "Type": "quia",
-        "ColorBlock": 194,
-        "IconHint": "iusto",
-        "Selected": true,
-        "LastChanged": "2013-09-18T03:24:47.9395013+02:00",
+        "Rank": 329,
+        "Type": "qui",
+        "ColorBlock": 991,
+        "IconHint": "delectus",
+        "Selected": false,
+        "LastChanged": "2008-07-30T11:06:34.8020663+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "quae",
+        "ExtraInfo": "odit",
+        "StyleHint": "exercitationem",
         "Hidden": true,
-        "FullName": "Enos Carroll Rodriguez I",
+        "FullName": "Sylvia Huel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 948
+            "FieldLength": 312
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "non",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Adrain Lakin V",
+    "FullName": "Odell Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 922
       }
     }
   }

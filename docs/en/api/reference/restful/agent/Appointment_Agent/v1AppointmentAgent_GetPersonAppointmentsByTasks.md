@@ -131,18 +131,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 609,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2022-02-10T03:24:46.9394467+01:00",
-  "EndTime": "1997-09-02T03:24:46.9394467+02:00",
-  "Count": 271,
+  "PersonId": 227,
+  "IncludeProjectAppointments": false,
+  "StartTime": "1998-12-25T11:06:33.4444886+01:00",
+  "EndTime": "2003-07-26T11:06:33.4444886+02:00",
+  "Count": 205,
   "TaskIds": [
-    881,
-    641
+    948,
+    671
   ]
 }
 ```
@@ -155,64 +155,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 680,
-    "StartDate": "2017-05-07T03:24:46.9394467+02:00",
-    "EndDate": "1999-12-10T03:24:46.9394467+01:00",
+    "AppointmentId": 374,
+    "StartDate": "2000-08-04T11:06:33.4444886+02:00",
+    "EndDate": "1999-01-24T11:06:33.4444886+01:00",
     "Type": "BookingForChecklist",
-    "Task": "saepe",
-    "AssociateFullName": "Isai Dietrich",
-    "ContactName": "Conn LLC",
-    "Description": "Programmable clear-thinking success",
-    "PersonFullName": "Destin Wolff",
-    "PersonId": 745,
-    "ContactId": 406,
-    "ProjectId": 777,
-    "ProjectName": "Rice, Herman and Eichmann",
+    "Task": "voluptatum",
+    "AssociateFullName": "Loyce Schowalter",
+    "ContactName": "Zieme, Cremin and Beer",
+    "Description": "Grass-roots national attitude",
+    "PersonFullName": "Ms. Elva Marianna Moen V",
+    "PersonId": 310,
+    "ContactId": 781,
+    "ProjectId": 507,
+    "ProjectName": "Beier-O'Kon",
     "IsPublished": false,
-    "AssociateId": 320,
-    "ColorIndex": 336,
+    "AssociateId": 150,
+    "ColorIndex": 99,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 585,
-    "PriorityName": "Becker, Morar and Goldner",
+    "PriorityId": 700,
+    "PriorityName": "Stamm-Ullrich",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2001-09-09T03:24:46.9394467+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2018-07-05T11:06:33.4444886+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-06-30T03:24:46.9394467+02:00",
-    "RecurringEndDate": "1997-10-16T03:24:46.9394467+02:00",
-    "MotherId": 510,
-    "AssignedBy": 131,
-    "AssignedByFullName": "Hector Yundt",
+    "RecurringStartDate": "2015-10-21T11:06:33.4444886+02:00",
+    "RecurringEndDate": "2009-11-01T11:06:33.4444886+01:00",
+    "MotherId": 700,
+    "AssignedBy": 883,
+    "AssignedByFullName": "Miss Anabel Paxton Prohaska",
     "RejectReason": "",
-    "Location": "earum",
-    "AlarmLeadTime": "ut",
-    "SaleId": 863,
-    "SaleName": "Sipes, Cartwright and Fay",
-    "AssociateName": "Vandervort, Hayes and Marvin",
-    "CreatedDate": "2010-01-04T03:24:46.9394467+01:00",
-    "CreatedBy": "laborum",
-    "CreatedByFullName": "Miss Elliot Wisozk",
-    "CreatedByAssociateId": 989,
+    "Location": "voluptatum",
+    "AlarmLeadTime": "nam",
+    "SaleId": 533,
+    "SaleName": "Quitzon-Hudson",
+    "AssociateName": "Cronin LLC",
+    "CreatedDate": "2004-08-27T11:06:33.4444886+02:00",
+    "CreatedBy": "ullam",
+    "CreatedByFullName": "Alexandria Runolfsdottir",
+    "CreatedByAssociateId": 840,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "sed",
-    "Agenda": "quia",
-    "InternalNotes": "nobis",
+    "Title": "nihil",
+    "Agenda": "facilis",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 305
+        "FieldType": "System.Int32",
+        "FieldLength": 64
       }
     }
   }

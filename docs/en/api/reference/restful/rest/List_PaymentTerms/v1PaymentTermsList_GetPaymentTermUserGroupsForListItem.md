@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Veum-Kessler",
-    "ToolTip": "Doloremque harum aut quisquam aut sapiente.",
+    "Id": 154,
+    "Name": "Macejkovic Group",
+    "ToolTip": "Et facere impedit architecto iure nesciunt ut est.",
     "Deleted": false,
-    "Rank": 474,
-    "Type": "vitae",
-    "ColorBlock": 365,
-    "IconHint": "sit",
+    "Rank": 560,
+    "Type": "rerum",
+    "ColorBlock": 208,
+    "IconHint": "voluptatem",
     "Selected": true,
-    "LastChanged": "2006-01-28T03:24:52.2869587+01:00",
+    "LastChanged": "2008-09-25T11:06:42.8503167+02:00",
     "ChildItems": [
       {
-        "Id": 627,
-        "Name": "Prosacco-Fahey",
-        "ToolTip": "Eos aspernatur itaque.",
+        "Id": 697,
+        "Name": "Dooley-Stoltenberg",
+        "ToolTip": "Hic minus unde cupiditate.",
         "Deleted": false,
-        "Rank": 928,
-        "Type": "in",
-        "ColorBlock": 50,
-        "IconHint": "deleniti",
+        "Rank": 20,
+        "Type": "et",
+        "ColorBlock": 906,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "2018-07-06T03:24:52.2869587+02:00",
+        "LastChanged": "1997-04-19T11:06:42.8503167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eum",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "eaque",
         "Hidden": true,
-        "FullName": "Fred Stokes",
+        "FullName": "Geraldine Borer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 329
+            "FieldLength": 25
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "qui",
+    "ExtraInfo": "eos",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Mr. Lacy Lucas Block IV",
+    "FullName": "Malcolm Leuschke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 479
+        "FieldType": "System.Int32",
+        "FieldLength": 210
       }
     }
   }

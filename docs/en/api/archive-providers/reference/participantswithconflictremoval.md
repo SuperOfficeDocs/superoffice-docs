@@ -36,6 +36,8 @@ inner participants provider, so that the conflict checking is performed.
 |inhibitConflictsInformation|bool|No conflict checking: This restriction is used to turn off conflict checking in the participants list|  |
 |startTimeInformation|datetime|Start time: Information for data fetcher, specifies start time for conflict checker|  |
 |endTimeInformation|datetime|End time: Information for data fetcher, specifies end time for conflict checker|  |
+|startTimeUtcInformation|datetime|Start time: Information for data fetcher, specifies start time for conflict checker|  |
+|endTimeUtcInformation|datetime|End time: Information for data fetcher, specifies end time for conflict checker|  |
 |dateInformation|date|Date information: Date information, used by conflict checker|  |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
@@ -129,12 +131,12 @@ inner participants provider, so that the conflict checking is performed.
 |personUrl/URLAddress|string|URL|  |
 |personUrl/URLDescription|string|Description|  |
 |personContact/contactId| *None* |Company ID: Database ID of company|  |
-|personContact/name| *None* |Company name|  |
-|personContact/department| *None* |Department|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/name| *None* |Company name|  |
+|personContact/department| *None* |Department|  |
 |personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to|  |
 |personContact/hasInfoText| *None* |Has note: Displays an icon indicating if there is additional information available about the contact|  |
 |personContact/hasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
@@ -175,7 +177,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=resourceRestrictionId,personEmail,personUpdatedBy
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=birthdate,personContact/email/emailLastBounce,otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

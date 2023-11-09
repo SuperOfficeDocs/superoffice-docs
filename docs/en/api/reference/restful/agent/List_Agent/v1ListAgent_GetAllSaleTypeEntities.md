@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 82,
-    "Name": "Hodkiewicz, Kohler and Bernier",
-    "Tooltip": "consequuntur",
-    "Rank": 631,
+    "SaleTypeId": 529,
+    "Name": "Herzog Group",
+    "Tooltip": "dolorem",
+    "Rank": 202,
     "DurationUnit": "Century",
-    "SaleDuration": 250,
-    "SaleTypeCatId": 249,
+    "SaleDuration": 422,
+    "SaleTypeCatId": 604,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 864,
-    "QuoteLinesTemplate": 253,
-    "ConfirmationLinesTemplate": 409,
-    "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 624,
-    "MinEarningPercent": 198,
-    "GroupQuoteLinesBy": 589,
-    "SortGroupLinesBy": 282,
+    "DefaultQuoteValidity": 342,
+    "QuoteLinesTemplate": 477,
+    "ConfirmationLinesTemplate": 410,
+    "MaxDiscountPercentSet": true,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 669,
+    "MinEarningPercent": 917,
+    "GroupQuoteLinesBy": 778,
+    "SortGroupLinesBy": 489,
     "Stages": [
       {
-        "Id": 668,
-        "Name": "Bosco, Greenholt and Wunsch",
-        "ToolTip": "Velit autem incidunt tempora.",
+        "Id": 998,
+        "Name": "Graham-Mosciski",
+        "ToolTip": "Vel quibusdam quia corporis natus consequatur omnis.",
         "Deleted": false,
-        "Rank": 46,
-        "Type": "corrupti",
-        "ColorBlock": 719,
-        "IconHint": "quia",
+        "Rank": 96,
+        "Type": "itaque",
+        "ColorBlock": 153,
+        "IconHint": "tempore",
         "Selected": true,
-        "LastChanged": "2016-01-18T03:24:47.8613878+01:00",
+        "LastChanged": "2000-01-06T11:06:34.6926855+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Ms. Elbert Adriana Collier Jr.",
+        "ExtraInfo": "veniam",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Aliyah Runte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 533
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 774
+        "FieldType": "System.Int32",
+        "FieldLength": 698
       }
     }
   }

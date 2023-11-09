@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Erdman-Nader",
-    "ToolTip": "Et rerum dignissimos est ipsum.",
-    "Deleted": false,
-    "Rank": 34,
-    "Type": "sit",
-    "ColorBlock": 770,
-    "IconHint": "est",
+    "Id": 999,
+    "Name": "Strosin, Luettgen and Goldner",
+    "ToolTip": "Soluta eligendi eveniet.",
+    "Deleted": true,
+    "Rank": 906,
+    "Type": "harum",
+    "ColorBlock": 678,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2021-12-07T03:24:52.240053+01:00",
+    "LastChanged": "2014-10-14T11:06:42.8034416+02:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Cummerata, Bauch and Fahey",
-        "ToolTip": "Mollitia quae.",
+        "Id": 303,
+        "Name": "Boehm-Kerluke",
+        "ToolTip": "Omnis ea labore numquam dolore ut quos unde.",
         "Deleted": false,
-        "Rank": 149,
-        "Type": "nulla",
-        "ColorBlock": 267,
-        "IconHint": "qui",
+        "Rank": 998,
+        "Type": "corporis",
+        "ColorBlock": 949,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2006-02-01T03:24:52.240053+01:00",
+        "LastChanged": "2001-01-25T11:06:42.8034416+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "quasi",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Mrs. Shanel Cecelia Marvin V",
+        "FullName": "Hayden Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 348
+            "FieldLength": 82
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "aut",
+    "ExtraInfo": "quo",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Elna Kirlin",
+    "FullName": "Cleta Toy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 715
+        "FieldType": "System.Int32",
+        "FieldLength": 665
       }
     }
   }

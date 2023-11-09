@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 296,
-  "Name": "Gusikowski Inc and Sons",
-  "Rank": 573,
-  "Tooltip": "omnis",
+  "ResourceId": 157,
+  "Name": "Williamson Inc and Sons",
+  "Rank": 532,
+  "Tooltip": "officia",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "itaque"
+  "LocationAddress": "quisquam"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 667,
-  "Name": "Mayert, Bechtelar and Greenholt",
-  "Rank": 273,
-  "Tooltip": "minima",
+  "ResourceId": 878,
+  "Name": "Goyette-Dickinson",
+  "Rank": 362,
+  "Tooltip": "nihil",
   "Deleted": false,
   "IsLocation": true,
-  "LocationAddress": "et",
+  "LocationAddress": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 658
+      "FieldLength": 914
     }
   }
 }

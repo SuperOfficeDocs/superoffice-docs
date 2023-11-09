@@ -27,7 +27,7 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=True
+GET /api/v1/List/Currency/Items?includeDeleted=False
 ```
 
 
@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 97,
-    "Name": "Jakubowski Inc and Sons",
-    "Tooltip": "similique",
-    "Rank": 322,
-    "Rate": 29284.095999999998,
-    "Units": 14422.668,
+    "CurrencyId": 161,
+    "Name": "Hammes Inc and Sons",
+    "Tooltip": "sint",
+    "Rank": 249,
+    "Rate": 9931.6459999999988,
+    "Units": 12999.832,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldType": "System.String",
+        "FieldLength": 814
       }
     }
   }

@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 885,
-  "Name": "Goldner-Schuster",
-  "CurrencyId": 808,
-  "EnglishName": "Oberbrunner-Harvey",
+  "CountryId": 511,
+  "Name": "Mosciski-Considine",
+  "CurrencyId": 387,
+  "EnglishName": "Okuneva-Tillman",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Switchable responsive functionalities",
-  "OrgNrText": "359384",
-  "InterAreaPrefix": "ut",
-  "DialInPrefix": "vel",
-  "ZipPrefix": "maxime",
-  "DomainName": "Haag, Rath and Huels",
-  "AddressLayoutId": 114,
-  "DomesticAddressLayoutId": 231,
-  "ForeignAddressLayoutId": 66,
-  "Rank": 198,
-  "Tooltip": "omnis",
+  "ImageDescription": "Realigned real-time initiative",
+  "OrgNrText": "1794734",
+  "InterAreaPrefix": "nihil",
+  "DialInPrefix": "ut",
+  "ZipPrefix": "porro",
+  "DomainName": "Littel, Kozey and Howe",
+  "AddressLayoutId": 632,
+  "DomesticAddressLayoutId": 8,
+  "ForeignAddressLayoutId": 26,
+  "Rank": 756,
+  "Tooltip": "minima",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 330,
-  "Name": "Hahn LLC",
-  "CurrencyId": 350,
-  "EnglishName": "Will-Beer",
+  "CountryId": 954,
+  "Name": "Little Inc and Sons",
+  "CurrencyId": 793,
+  "EnglishName": "Hane, Lakin and Greenholt",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Sharable systemic Graphical User Interface",
-  "OrgNrText": "1482034",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "soluta",
-  "ZipPrefix": "aspernatur",
-  "DomainName": "Kerluke-Schimmel",
-  "AddressLayoutId": 21,
-  "DomesticAddressLayoutId": 318,
-  "ForeignAddressLayoutId": 15,
-  "Rank": 431,
-  "Tooltip": "officiis",
-  "Deleted": true,
+  "ImageDescription": "Centralized reciprocal core",
+  "OrgNrText": "725059",
+  "InterAreaPrefix": "quis",
+  "DialInPrefix": "eligendi",
+  "ZipPrefix": "molestiae",
+  "DomainName": "Bradtke, Wolf and Torp",
+  "AddressLayoutId": 277,
+  "DomesticAddressLayoutId": 626,
+  "ForeignAddressLayoutId": 907,
+  "Rank": 977,
+  "Tooltip": "non",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 364
     }
   }
 }

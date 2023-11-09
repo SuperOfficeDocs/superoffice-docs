@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 331,
-    "Name": "Collins, Lindgren and Buckridge",
-    "ToolTip": "Qui soluta beatae corporis repudiandae laborum amet ut.",
-    "Deleted": false,
-    "Rank": 804,
-    "Type": "dolores",
-    "ColorBlock": 30,
-    "IconHint": "rerum",
+    "Id": 440,
+    "Name": "Koch-Bednar",
+    "ToolTip": "Ipsam consequatur ab sunt rem.",
+    "Deleted": true,
+    "Rank": 862,
+    "Type": "non",
+    "ColorBlock": 331,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2015-09-05T03:24:52.2869587+02:00",
+    "LastChanged": "2008-07-27T11:06:42.8659405+02:00",
     "ChildItems": [
       {
-        "Id": 936,
-        "Name": "Reichert-Walker",
-        "ToolTip": "Eos perspiciatis harum.",
+        "Id": 924,
+        "Name": "Wilkinson, Dooley and Cassin",
+        "ToolTip": "Vel possimus voluptatem.",
         "Deleted": true,
-        "Rank": 501,
-        "Type": "quas",
-        "ColorBlock": 760,
-        "IconHint": "accusamus",
+        "Rank": 162,
+        "Type": "et",
+        "ColorBlock": 786,
+        "IconHint": "quod",
         "Selected": false,
-        "LastChanged": "2017-10-28T03:24:52.2869587+02:00",
+        "LastChanged": "2016-08-20T11:06:42.8659405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "est",
+        "ExtraInfo": "et",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Coralie Thiel DVM",
+        "FullName": "Dennis Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 413
+            "FieldType": "System.Int32",
+            "FieldLength": 328
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "qui",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Lowell Huel",
+    "FullName": "Cruz Kozey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 81
       }
     }
   }

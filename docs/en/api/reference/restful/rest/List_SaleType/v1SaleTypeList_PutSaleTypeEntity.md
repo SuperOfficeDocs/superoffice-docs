@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 283,
-  "Name": "Hane, Kessler and Gorczany",
-  "Tooltip": "voluptatem",
-  "Rank": 145,
+  "SaleTypeId": 636,
+  "Name": "Hermann-Considine",
+  "Tooltip": "quia",
+  "Rank": 635,
   "DurationUnit": "Century",
-  "SaleDuration": 881,
-  "SaleTypeCatId": 143,
+  "SaleDuration": 945,
+  "SaleTypeCatId": 530,
   "Deleted": true,
   "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 594,
-  "QuoteLinesTemplate": 205,
-  "ConfirmationLinesTemplate": 347,
+  "DefaultQuoteValidity": 307,
+  "QuoteLinesTemplate": 764,
+  "ConfirmationLinesTemplate": 860,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 402,
-  "MinEarningPercent": 702,
-  "GroupQuoteLinesBy": 70,
-  "SortGroupLinesBy": 276,
+  "MaxDiscountPercent": 971,
+  "MinEarningPercent": 369,
+  "GroupQuoteLinesBy": 158,
+  "SortGroupLinesBy": 843,
   "Stages": [
     {
-      "Id": 845,
-      "Name": "Schamberger-Harvey",
-      "ToolTip": "Quas ratione nam ut eum qui.",
-      "Deleted": true,
-      "Rank": 98,
-      "Type": "eius",
-      "ColorBlock": 84,
-      "IconHint": "debitis",
+      "Id": 105,
+      "Name": "Funk, Parisian and Rau",
+      "ToolTip": "Laborum maiores ut voluptatem.",
+      "Deleted": false,
+      "Rank": 899,
+      "Type": "ut",
+      "ColorBlock": 67,
+      "IconHint": "quibusdam",
       "Selected": true,
-      "LastChanged": "2012-06-21T03:24:52.4119449+02:00",
+      "LastChanged": "2011-03-01T11:06:43.0534497+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "perferendis",
-      "StyleHint": "quia",
+      "ExtraInfo": "nihil",
+      "StyleHint": "corporis",
       "Hidden": true,
-      "FullName": "Dr. Christopher Steve Sporer"
+      "FullName": "Albert Gottlieb"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 593,
-  "Name": "Hermiston Group",
-  "Tooltip": "molestias",
-  "Rank": 463,
+  "SaleTypeId": 23,
+  "Name": "Kerluke Group",
+  "Tooltip": "odit",
+  "Rank": 358,
   "DurationUnit": "Century",
-  "SaleDuration": 352,
-  "SaleTypeCatId": 516,
+  "SaleDuration": 632,
+  "SaleTypeCatId": 197,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 821,
-  "QuoteLinesTemplate": 104,
-  "ConfirmationLinesTemplate": 217,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 694,
+  "QuoteLinesTemplate": 216,
+  "ConfirmationLinesTemplate": 436,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 286,
-  "MinEarningPercent": 286,
-  "GroupQuoteLinesBy": 638,
-  "SortGroupLinesBy": 795,
+  "MaxDiscountPercent": 985,
+  "MinEarningPercent": 917,
+  "GroupQuoteLinesBy": 462,
+  "SortGroupLinesBy": 688,
   "Stages": [
     {
-      "Id": 143,
-      "Name": "Prohaska, Boyer and Hudson",
-      "ToolTip": "Amet quia et delectus.",
+      "Id": 893,
+      "Name": "Senger Group",
+      "ToolTip": "Omnis repellat.",
       "Deleted": true,
-      "Rank": 359,
-      "Type": "sit",
-      "ColorBlock": 457,
-      "IconHint": "quia",
+      "Rank": 405,
+      "Type": "voluptate",
+      "ColorBlock": 72,
+      "IconHint": "possimus",
       "Selected": false,
-      "LastChanged": "2020-10-22T03:24:52.4119449+02:00",
+      "LastChanged": "2011-11-25T11:06:43.0534497+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "nostrum",
+      "ExtraInfo": "id",
+      "StyleHint": "quaerat",
       "Hidden": false,
-      "FullName": "Dorcas Orn",
+      "FullName": "Alek Bruen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 595
+          "FieldType": "System.String",
+          "FieldLength": 720
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldType": "System.String",
+      "FieldLength": 15
     }
   }
 }

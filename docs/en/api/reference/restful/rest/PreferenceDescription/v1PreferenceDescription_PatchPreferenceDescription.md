@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "officiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "officiis",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 863,
-  "Section": "consequatur",
-  "Key": "eos",
-  "Name": "Aufderhar, Quitzon and Marquardt",
+  "PrefDescId": 913,
+  "Section": "incidunt",
+  "Key": "dolor",
+  "Name": "Runte Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cross-group holistic groupware",
+  "Description": "Extended disintermediate migration",
   "IsBuiltin": true,
-  "TableName": "Huels, Baumbach and Jones",
-  "UserDefinedListId": 295,
-  "Rank": 278,
-  "SubGroup": "unde",
-  "MinLevel": 952,
-  "MaxValue": 443,
-  "MinValue": 297,
-  "RequiredLicense": "voluptas",
+  "TableName": "West-Glover",
+  "UserDefinedListId": 942,
+  "Rank": 96,
+  "SubGroup": "voluptatem",
+  "MinLevel": 925,
+  "MaxValue": 277,
+  "MinValue": 465,
+  "RequiredLicense": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 375
     }
   },
   "_Links": {

@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "neque",
+    "path": "accusamus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "neque",
+    "path": "accusamus",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 394,
-  "PlainMessage": "non",
-  "HtmlMessage": "rerum",
-  "SmsMessage": "libero",
-  "Description": "Progressive foreground groupware",
-  "Subject": "aliquid",
-  "FolderId": 951,
-  "HeaderField": "quis",
-  "Design": "nobis",
+  "ShipmentMessageId": 194,
+  "PlainMessage": "dolor",
+  "HtmlMessage": "in",
+  "SmsMessage": "voluptatum",
+  "Description": "Reactive tangible groupware",
+  "Subject": "veritatis",
+  "FolderId": 896,
+  "HeaderField": "sunt",
+  "Design": "soluta",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Reduced foreground forecast",
-  "AccessKey": "voluptatem",
-  "DocumentMessage": 218,
-  "Registered": "2020-11-01T03:24:51.927622+01:00",
-  "RegisteredAssociateId": 84,
-  "Updated": "2008-11-10T03:24:51.927622+01:00",
-  "UpdatedAssociateId": 976,
-  "UpdatedCount": 270,
+  "LongDescription": "Synergized homogeneous alliance",
+  "AccessKey": "aliquid",
+  "DocumentMessage": 129,
+  "Registered": "2008-08-09T11:06:42.2228527+02:00",
+  "RegisteredAssociateId": 391,
+  "Updated": "2023-03-08T11:06:42.2228527+01:00",
+  "UpdatedAssociateId": 593,
+  "UpdatedCount": 535,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 93
     }
   },
   "_Links": {

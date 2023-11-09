@@ -69,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 987,
+  "QuoteLineId": 871,
   "Direction": false
 }
 ```

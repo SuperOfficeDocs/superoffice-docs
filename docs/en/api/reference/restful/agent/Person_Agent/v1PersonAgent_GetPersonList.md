@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -120,52 +120,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "excepturi",
-    "PersonId": 209,
-    "Mrmrs": "asperiores",
-    "Firstname": "Tiara",
-    "Lastname": "Prohaska",
-    "MiddleName": "Howe Inc and Sons",
-    "Title": "a",
-    "Description": "Switchable global interface",
-    "Email": "selina.ward@davisschuppe.co.uk",
-    "FullName": "Prof. Marcos Nienow",
-    "DirectPhone": "696.762.5146 x9867",
-    "FormalName": "Strosin-Bayer",
-    "CountryId": 692,
-    "ContactId": 758,
-    "ContactName": "Gerhold-Boyle",
-    "Retired": 566,
-    "Rank": 152,
-    "ActiveInterests": 311,
+    "Position": "et",
+    "PersonId": 74,
+    "Mrmrs": "earum",
+    "Firstname": "Mazie",
+    "Lastname": "Morissette",
+    "MiddleName": "Orn-Beer",
+    "Title": "consectetur",
+    "Description": "Managed grid-enabled service-desk",
+    "Email": "wilton_witting@kessler.info",
+    "FullName": "Berry Pollich",
+    "DirectPhone": "(073)955-6618 x719",
+    "FormalName": "Herman, Walter and Adams",
+    "CountryId": 253,
+    "ContactId": 370,
+    "ContactName": "Walker, Gibson and Stehr",
+    "Retired": 984,
+    "Rank": 398,
+    "ActiveInterests": 981,
     "ContactDepartment": "",
-    "ContactCountryId": 861,
-    "ContactOrgNr": "968021",
-    "FaxPhone": "573-806-4548",
-    "MobilePhone": "999.678.6481",
-    "ContactPhone": "739.758.0087 x688",
-    "AssociateName": "Jacobson-Hills",
-    "AssociateId": 422,
+    "ContactCountryId": 353,
+    "ContactOrgNr": "1647824",
+    "FaxPhone": "(775)020-9630 x574",
+    "MobilePhone": "903-443-0703 x72228",
+    "ContactPhone": "138.328.9294 x04697",
+    "AssociateName": "Smitham, Predovic and Boehm",
+    "AssociateId": 184,
     "UsePersonAddress": true,
-    "ContactFax": "iusto",
-    "Kanafname": "dolorem",
-    "Kanalname": "illum",
-    "Post1": "possimus",
-    "Post2": "voluptas",
-    "Post3": "exercitationem",
-    "EmailName": "khalil@pollich.us",
-    "ContactFullName": "Ibrahim Mraz Jr.",
-    "ActiveErpLinks": 109,
-    "TicketPriorityId": 658,
-    "SupportLanguageId": 866,
-    "SupportAssociateId": 376,
+    "ContactFax": "ut",
+    "Kanafname": "sed",
+    "Kanalname": "sit",
+    "Post1": "quisquam",
+    "Post2": "et",
+    "Post3": "nihil",
+    "EmailName": "marcelina@hintz.us",
+    "ContactFullName": "Dr. Lorenz Lysanne Dietrich",
+    "ActiveErpLinks": 334,
+    "TicketPriorityId": 252,
+    "SupportLanguageId": 805,
+    "SupportAssociateId": 812,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 61
+        "FieldType": "System.Int32",
+        "FieldLength": 652
       }
     }
   }

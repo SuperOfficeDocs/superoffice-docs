@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 434,
-  "Name": "Harris-Schneider",
-  "Tooltip": "eveniet",
-  "Deleted": true,
-  "Rank": 412,
+  "Id": 807,
+  "Name": "Kuphal Group",
+  "Tooltip": "nemo",
+  "Deleted": false,
+  "Rank": 41,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "id",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 83,
-  "Name": "Nader, Hoeger and Walker",
-  "Tooltip": "aut",
+  "Id": 291,
+  "Name": "Bergnaum Inc and Sons",
+  "Tooltip": "atque",
   "Deleted": true,
-  "Rank": 235,
+  "Rank": 334,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "ListType": "eligendi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldLength": 183
     }
   }
 }

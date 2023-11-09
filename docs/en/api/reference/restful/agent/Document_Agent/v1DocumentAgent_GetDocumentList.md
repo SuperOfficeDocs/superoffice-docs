@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 716,
-    "Attention": "nisi",
-    "Header": "aspernatur",
-    "Name": "Hermiston Group",
-    "OurRef": "nulla",
-    "YourRef": "atque",
-    "Description": "Compatible exuding website",
-    "DocumentTemplate": "veniam",
-    "IsPublished": false,
-    "PersonId": 961,
-    "PersonFullName": "Ms. Larry Kemmer PhD",
-    "AssociateFullName": "Constantin Emard",
-    "ContactId": 275,
-    "ContactName": "Klein-Waelchi",
-    "ProjectId": 460,
-    "ProjectName": "Rice-Haley",
-    "AssociateId": 790,
-    "Snum": 240,
-    "SaleId": 797,
-    "SaleName": "Botsford-Blanda",
+    "DocumentId": 426,
+    "Attention": "sed",
+    "Header": "reprehenderit",
+    "Name": "Collins Group",
+    "OurRef": "aut",
+    "YourRef": "aut",
+    "Description": "Mandatory transitional circuit",
+    "DocumentTemplate": "et",
+    "IsPublished": true,
+    "PersonId": 826,
+    "PersonFullName": "Mr. Julian Hessel Jr.",
+    "AssociateFullName": "Hilda Hermann",
+    "ContactId": 340,
+    "ContactName": "Spencer Group",
+    "ProjectId": 203,
+    "ProjectName": "Lang, Wyman and Keebler",
+    "AssociateId": 150,
+    "Snum": 841,
+    "SaleId": 50,
+    "SaleName": "Barton-Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldLength": 429
       }
     }
   }

@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 572,
-  "Name": "Mills Inc and Sons",
-  "Description": "Enterprise-wide responsive success",
-  "WelcomeMessage": "suscipit",
+  "ChatTopicId": 150,
+  "Name": "Vandervort Inc and Sons",
+  "Description": "Visionary 24 hour paradigm",
+  "WelcomeMessage": "esse",
   "Language": null,
-  "LastAccept": "2002-03-21T03:24:51.4429545+01:00",
-  "SecondsPrAccept": 662,
-  "AlertRecipient": "aut",
+  "LastAccept": "2000-01-16T11:06:41.5353656+01:00",
+  "SecondsPrAccept": 956,
+  "AlertRecipient": "quia",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "et",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "veritatis",
-  "WarnNewChatMinutes": 48,
-  "WarnManagerNewChatMinutes": 708,
+  "CollectConsent": false,
+  "BadgeHeader": "officiis",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "impedit",
+  "WarnNewChatMinutes": 863,
+  "WarnManagerNewChatMinutes": 532,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 1000,
-  "WarnManagerChatMessageMinutes": 188,
+  "WarnChatMessageMinutes": 265,
+  "WarnManagerChatMessageMinutes": 261,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 813,
-  "OfflineFormQueueLength": 5,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "et",
+  "OfflineFormTimeLimit": 128,
+  "OfflineFormQueueLength": 275,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 820
+      "FieldLength": 630
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 21 Apr 2015 03:24:51 G4T
+Last-Modified: Tue, 17 Jul 2012 11:06:41 G7T
 
 [
   {
-    "ForeignDeviceId": 627,
-    "Name": "Conn, Kub and Wuckert",
-    "CreatedDate": "2001-02-16T03:24:51.6149823+01:00",
-    "UpdatedDate": "2015-04-21T03:24:51.6149823+02:00",
-    "AssociateFullName": "Heidi Hane III",
-    "CreatedBy": "recusandae",
-    "UpdatedBy": "voluptas",
-    "DeviceIdentifier": "ut",
-    "ForeignAppId": 595,
+    "ForeignDeviceId": 211,
+    "Name": "Aufderhar-Hand",
+    "CreatedDate": "2012-02-21T11:06:41.8947242+01:00",
+    "UpdatedDate": "2012-07-17T11:06:41.8947242+02:00",
+    "AssociateFullName": "Miss Audie Davon Bednar V",
+    "CreatedBy": "repellendus",
+    "UpdatedBy": "ut",
+    "DeviceIdentifier": "cupiditate",
+    "ForeignAppId": 877,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 361
+        "FieldType": "System.Int32",
+        "FieldLength": 288
       }
     }
   }

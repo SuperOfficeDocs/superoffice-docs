@@ -42,7 +42,7 @@ security items.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ModuleLicense?$select=allowedAssocs,moduleName,licenseType
+GET /api/v1/archive/ModuleLicense?$select=moduleName,licenseType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

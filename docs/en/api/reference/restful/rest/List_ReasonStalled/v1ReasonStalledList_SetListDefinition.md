@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 632,
-  "Name": "Schmitt Group",
-  "Tooltip": "aut",
+  "Id": 474,
+  "Name": "Gulgowski-Witting",
+  "Tooltip": "accusantium",
   "Deleted": true,
-  "Rank": 516,
+  "Rank": 810,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "nemo",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "Swift Group",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 109,
+  "Id": 878,
+  "Name": "Leannon Inc and Sons",
+  "Tooltip": "architecto",
+  "Deleted": false,
+  "Rank": 555,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quasi",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 221
     }
   }
 }

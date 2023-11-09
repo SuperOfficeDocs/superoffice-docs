@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/DatabaseTable/ReadRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Douglas LLC",
-  "Id": 241
+  "TableName": "Labadie, Abernathy and Ebert",
+  "Id": 274
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "facilis",
-    "Values2": "vero"
+    "Values1": "officia",
+    "Values2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldType": "System.Int32",
+      "FieldLength": 217
     }
   }
 }

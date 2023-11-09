@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "voluptas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "voluptas",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 645,
-  "Name": "Harber, Gutmann and Schaefer",
+  "ScreenChooserId": 601,
+  "Name": "Hoppe-Feil",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "perspiciatis",
-  "Source": "dolores",
-  "Registered": "2008-03-17T03:24:52.0213616+01:00",
-  "RegisteredAssociateId": 247,
-  "Updated": "2019-12-02T03:24:52.0213616+01:00",
-  "UpdatedAssociateId": 934,
+  "UniqueIdentifier": "illo",
+  "Source": "non",
+  "Registered": "2020-03-03T11:06:42.3647477+01:00",
+  "RegisteredAssociateId": 148,
+  "Updated": "2021-08-06T11:06:42.3647477+02:00",
+  "UpdatedAssociateId": 818,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldType": "System.String",
+      "FieldLength": 732
     }
   },
   "_Links": {

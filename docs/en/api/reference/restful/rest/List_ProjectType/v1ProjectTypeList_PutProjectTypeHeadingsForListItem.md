@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Hermann, Goodwin and Wolf",
-    "ToolTip": "Deleniti nisi esse eum assumenda voluptatum est minus.",
-    "Deleted": false,
-    "Rank": 671,
-    "Type": "mollitia",
-    "ColorBlock": 779,
-    "IconHint": "voluptate",
-    "Selected": true,
-    "LastChanged": "1999-12-27T03:24:52.3494474+01:00",
+    "Id": 437,
+    "Name": "Boyle, Gerhold and Gorczany",
+    "ToolTip": "Similique temporibus occaecati consequatur aspernatur ut.",
+    "Deleted": true,
+    "Rank": 741,
+    "Type": "quidem",
+    "ColorBlock": 883,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2016-08-23T11:06:42.9597004+02:00",
     "ChildItems": [
       {
-        "Id": 732,
-        "Name": "Treutel Inc and Sons",
-        "ToolTip": "Voluptatem harum totam ut voluptatum recusandae.",
-        "Deleted": true,
-        "Rank": 337,
-        "Type": "distinctio",
-        "ColorBlock": 33,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2000-01-06T03:24:52.3494474+01:00",
+        "Id": 160,
+        "Name": "Turner Group",
+        "ToolTip": "Id occaecati quidem eum rem voluptatem omnis.",
+        "Deleted": false,
+        "Rank": 823,
+        "Type": "laboriosam",
+        "ColorBlock": 365,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2012-08-10T11:06:42.9597004+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Faye Kilback"
+        "FullName": "Alejandra Ratke"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "nam",
-    "Hidden": true,
-    "FullName": "Casandra Berge"
+    "ExtraInfo": "et",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Krystel Swaniawski Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Name": "Bosco Group",
-    "ToolTip": "Molestiae saepe hic ea.",
+    "Id": 836,
+    "Name": "Schmeler-Rohan",
+    "ToolTip": "Esse neque fugit et ratione aut.",
     "Deleted": false,
-    "Rank": 975,
-    "Type": "consequatur",
-    "ColorBlock": 678,
-    "IconHint": "sed",
+    "Rank": 758,
+    "Type": "dolor",
+    "ColorBlock": 652,
+    "IconHint": "aliquam",
     "Selected": true,
-    "LastChanged": "1997-01-30T03:24:52.3494474+01:00",
+    "LastChanged": "2004-12-20T11:06:42.9753225+01:00",
     "ChildItems": [
       {
-        "Id": 238,
-        "Name": "Wiza, Klein and Bergnaum",
-        "ToolTip": "Sed hic nulla sit sint minima quae neque.",
+        "Id": 503,
+        "Name": "Tillman-Farrell",
+        "ToolTip": "Provident autem quaerat consequatur et qui quisquam.",
         "Deleted": false,
-        "Rank": 51,
-        "Type": "enim",
-        "ColorBlock": 321,
-        "IconHint": "totam",
+        "Rank": 570,
+        "Type": "itaque",
+        "ColorBlock": 275,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "1996-11-06T03:24:52.3494474+01:00",
+        "LastChanged": "1998-07-06T11:06:42.9753225+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "porro",
+        "ExtraInfo": "aut",
+        "StyleHint": "dicta",
         "Hidden": false,
-        "FullName": "Amiya Bashirian I",
+        "FullName": "Terrence Little II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 669
+            "FieldLength": 488
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "quia",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Jada Roberts IV",
+    "FullName": "Phyllis Schamberger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldLength": 168
       }
     }
   }

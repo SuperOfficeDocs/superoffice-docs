@@ -64,18 +64,18 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Zboncak-Marvin",
-      "State": true
+      "Name": "Durgan Inc and Sons",
+      "State": false
     },
     {
-      "Name": "Zboncak-Marvin",
-      "State": true
+      "Name": "Durgan Inc and Sons",
+      "State": false
     }
   ]
 }

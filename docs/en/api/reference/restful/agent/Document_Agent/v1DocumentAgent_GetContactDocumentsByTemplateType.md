@@ -102,11 +102,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 617,
-  "StartTime": "1997-11-04T03:24:47.5020527+01:00",
-  "EndTime": "1998-11-01T03:24:47.5020527+01:00",
-  "Count": 55,
-  "DocumentTemplateId": 346
+  "ContactId": 959,
+  "StartTime": "2009-12-04T11:06:34.3008382+01:00",
+  "EndTime": "2020-09-05T11:06:34.3008382+02:00",
+  "Count": 43,
+  "DocumentTemplateId": 83
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 443,
-    "Attention": "tempora",
-    "Header": "id",
-    "Name": "Hammes, Schmeler and Gleason",
-    "OurRef": "unde",
-    "YourRef": "asperiores",
-    "Description": "Inverse explicit process improvement",
-    "DocumentTemplate": "eos",
-    "IsPublished": false,
-    "PersonId": 988,
-    "PersonFullName": "Mr. Ivory Lamar Fahey",
-    "AssociateFullName": "Mrs. Conrad Emmie Medhurst PhD",
-    "ContactId": 729,
-    "ContactName": "Heaney LLC",
-    "ProjectId": 309,
-    "ProjectName": "Herzog LLC",
-    "AssociateId": 106,
-    "Snum": 654,
-    "SaleId": 156,
-    "SaleName": "Cassin LLC",
+    "DocumentId": 632,
+    "Attention": "quod",
+    "Header": "quis",
+    "Name": "Swift-Hickle",
+    "OurRef": "accusamus",
+    "YourRef": "et",
+    "Description": "Devolved zero tolerance infrastructure",
+    "DocumentTemplate": "ex",
+    "IsPublished": true,
+    "PersonId": 406,
+    "PersonFullName": "Monroe Stoltenberg",
+    "AssociateFullName": "Michelle Pfeffer DDS",
+    "ContactId": 115,
+    "ContactName": "McGlynn-Cartwright",
+    "ProjectId": 933,
+    "ProjectName": "Herman Group",
+    "AssociateId": 998,
+    "Snum": 405,
+    "SaleId": 675,
+    "SaleName": "Kub, Haag and O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 68
+        "FieldType": "System.Int32",
+        "FieldLength": 432
       }
     }
   }

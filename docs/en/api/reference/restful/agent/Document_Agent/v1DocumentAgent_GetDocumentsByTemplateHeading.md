@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 647
+  "TemplateHeadingId": 882
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 723,
-    "Attention": "magnam",
-    "Header": "voluptatum",
-    "Name": "Yundt Inc and Sons",
+    "DocumentId": 782,
+    "Attention": "repellendus",
+    "Header": "ad",
+    "Name": "Okuneva LLC",
     "OurRef": "cumque",
-    "YourRef": "ab",
-    "Description": "Customer-focused user-facing intranet",
-    "DocumentTemplate": "eligendi",
-    "IsPublished": false,
-    "PersonId": 675,
-    "PersonFullName": "Ethel Wilderman",
-    "AssociateFullName": "Bradly Grimes",
-    "ContactId": 960,
-    "ContactName": "Sauer-Donnelly",
-    "ProjectId": 675,
-    "ProjectName": "Franecki-Collins",
-    "AssociateId": 67,
-    "Snum": 491,
-    "SaleId": 35,
-    "SaleName": "Corwin, Gibson and Balistreri",
+    "YourRef": "sequi",
+    "Description": "Polarised homogeneous throughput",
+    "DocumentTemplate": "quis",
+    "IsPublished": true,
+    "PersonId": 279,
+    "PersonFullName": "Dr. Bret Estevan Huel",
+    "AssociateFullName": "Dr. Vaughn Mariane VonRueden",
+    "ContactId": 695,
+    "ContactName": "Pfannerstill, Jast and McKenzie",
+    "ProjectId": 632,
+    "ProjectName": "Doyle, Beer and Rolfson",
+    "AssociateId": 547,
+    "Snum": 32,
+    "SaleId": 541,
+    "SaleName": "Vandervort Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldLength": 689
       }
     }
   }

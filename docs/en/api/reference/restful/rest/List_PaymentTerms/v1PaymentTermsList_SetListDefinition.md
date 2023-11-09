@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Padberg Group",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 676,
+  "Id": 567,
+  "Name": "Daugherty LLC",
+  "Tooltip": "vero",
+  "Deleted": false,
+  "Rank": 134,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "saepe",
+  "UseGroupsAndHeadings": true,
+  "ListType": "repellat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 708,
-  "Name": "Christiansen-Conroy",
-  "Tooltip": "cumque",
-  "Deleted": false,
-  "Rank": 367,
-  "IsCustomList": true,
+  "Id": 173,
+  "Name": "Kutch, Gutmann and Luettgen",
+  "Tooltip": "architecto",
+  "Deleted": true,
+  "Rank": 83,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "ListType": "illum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 71
     }
   }
 }

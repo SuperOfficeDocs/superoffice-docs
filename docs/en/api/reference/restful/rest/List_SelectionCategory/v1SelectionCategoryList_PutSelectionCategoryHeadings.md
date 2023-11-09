@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 811,
-    "Name": "Hettinger-Macejkovic",
-    "Tooltip": "quisquam",
+    "HeadingId": 741,
+    "Name": "Abbott-Wehner",
+    "Tooltip": "autem",
     "Deleted": true,
-    "Rank": 573,
-    "UdListDefinitionId": 659
+    "Rank": 684,
+    "UdListDefinitionId": 868
   },
   {
-    "HeadingId": 811,
-    "Name": "Hettinger-Macejkovic",
-    "Tooltip": "quisquam",
+    "HeadingId": 741,
+    "Name": "Abbott-Wehner",
+    "Tooltip": "autem",
     "Deleted": true,
-    "Rank": 573,
-    "UdListDefinitionId": 659
+    "Rank": 684,
+    "UdListDefinitionId": 868
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 888,
-    "Name": "Stoltenberg Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 731,
-    "UdListDefinitionId": 613,
+    "HeadingId": 832,
+    "Name": "Pfeffer LLC",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "Rank": 677,
+    "UdListDefinitionId": 706,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 146
       }
     }
   }

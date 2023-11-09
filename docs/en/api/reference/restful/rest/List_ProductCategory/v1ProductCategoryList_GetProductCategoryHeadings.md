@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 694,
-    "Name": "Armstrong Group",
-    "Tooltip": "earum",
+    "HeadingId": 660,
+    "Name": "Breitenberg-Cummings",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 919,
-    "UdListDefinitionId": 506,
+    "Rank": 376,
+    "UdListDefinitionId": 866,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldType": "System.Int32",
+        "FieldLength": 438
       }
     }
   }

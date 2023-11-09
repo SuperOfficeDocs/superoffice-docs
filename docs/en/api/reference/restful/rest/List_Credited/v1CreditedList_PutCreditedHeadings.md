@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 292,
-    "Name": "Stokes-Runolfsson",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 246,
-    "UdListDefinitionId": 920
+    "HeadingId": 106,
+    "Name": "Sawayn-Parker",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "Rank": 216,
+    "UdListDefinitionId": 632
   },
   {
-    "HeadingId": 292,
-    "Name": "Stokes-Runolfsson",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 246,
-    "UdListDefinitionId": 920
+    "HeadingId": 106,
+    "Name": "Sawayn-Parker",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "Rank": 216,
+    "UdListDefinitionId": 632
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 114,
-    "Name": "Cormier, Miller and Mosciski",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 311,
-    "UdListDefinitionId": 344,
+    "HeadingId": 145,
+    "Name": "Volkman-Morissette",
+    "Tooltip": "voluptates",
+    "Deleted": true,
+    "Rank": 174,
+    "UdListDefinitionId": 126,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 461
       }
     }
   }

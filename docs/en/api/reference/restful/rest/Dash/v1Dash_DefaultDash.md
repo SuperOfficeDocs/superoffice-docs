@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 587,
-  "UniqueId": "assumenda",
-  "Name": "Walker-Lubowitz",
-  "Description": "Progressive local monitoring",
-  "AssociateId": 267,
-  "Columns": 853,
+  "DashboardId": 202,
+  "UniqueId": "rerum",
+  "Name": "Schuster-Jacobi",
+  "Description": "Reduced solution-oriented service-desk",
+  "AssociateId": 237,
+  "Columns": 282,
   "Theme": null,
-  "VisibleForAll": 511,
+  "VisibleForAll": 546,
   "VisibleForAssociates": [
-    356,
-    823
+    156,
+    523
   ],
   "VisibleForGroups": [
-    778,
-    702
+    189,
+    560
   ],
-  "PinForAll": 345,
+  "PinForAll": 782,
   "PinForAssociates": [
-    970,
-    326
+    397,
+    633
   ],
   "PinForGroups": [
-    892,
-    913
+    210,
+    314
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 689
     }
   }
 }

@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Lemke Inc and Sons",
-  "AllowPersonal": true,
-  "UiCulture": "et"
+  "TemplateName": "Emard, Anderson and Wolff",
+  "AllowPersonal": false,
+  "UiCulture": "totam"
 }
 ```
 

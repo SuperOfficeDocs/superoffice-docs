@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Mohr Group",
-    "ToolTip": "Expedita quia sint rerum molestiae.",
-    "Deleted": true,
-    "Rank": 963,
-    "Type": "harum",
-    "ColorBlock": 545,
-    "IconHint": "similique",
-    "Selected": true,
-    "LastChanged": "2005-11-01T03:24:52.3806958+01:00",
+    "Id": 249,
+    "Name": "Cormier-Osinski",
+    "ToolTip": "Non et minus perferendis sed nulla culpa beatae.",
+    "Deleted": false,
+    "Rank": 536,
+    "Type": "consequatur",
+    "ColorBlock": 95,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2017-01-24T11:06:43.0222001+01:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Kuvalis LLC",
-        "ToolTip": "Saepe voluptas beatae eligendi reiciendis.",
+        "Id": 517,
+        "Name": "Herman-Jewess",
+        "ToolTip": "Aliquam ipsam maiores et ex inventore.",
         "Deleted": false,
         "Rank": 275,
-        "Type": "rem",
-        "ColorBlock": 969,
-        "IconHint": "assumenda",
+        "Type": "nemo",
+        "ColorBlock": 667,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2020-03-23T03:24:52.3806958+01:00",
+        "LastChanged": "2011-10-03T11:06:43.0222001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Lavada Jerry Ryan DDS",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Octavia Erik Koelpin PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 952
+            "FieldType": "System.Int32",
+            "FieldLength": 660
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "nemo",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Mrs. Magnus Gerlach III",
+    "FullName": "Blaze Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 616
+        "FieldLength": 494
       }
     }
   }

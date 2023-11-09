@@ -107,7 +107,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 500
+  "DocumentId": 955
 }
 ```
 
@@ -120,156 +120,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 86,
-      "ContactName": "Hilpert-Auer",
-      "PersonId": 605,
-      "PersonName": "Morissette Inc and Sons",
-      "AssociateId": 647,
-      "Address": "vel",
-      "EmailId": 14,
+      "ContactId": 127,
+      "ContactName": "Schultz-Hilll",
+      "PersonId": 384,
+      "PersonName": "Hodkiewicz-Larson",
+      "AssociateId": 727,
+      "Address": "qui",
+      "EmailId": 426,
       "DuplicatePersonIds": [
-        662,
-        49
+        334,
+        338
       ],
-      "Name": "Johnston, Stiedemann and Hoppe",
+      "Name": "Wisoky, McKenzie and Pagac",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 701
+          "FieldType": "System.Int32",
+          "FieldLength": 699
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 647,
-      "ContactName": "Von LLC",
-      "PersonId": 493,
-      "PersonName": "Gerlach Inc and Sons",
-      "AssociateId": 938,
-      "Address": "nam",
-      "EmailId": 160,
+      "ContactId": 710,
+      "ContactName": "Monahan, Rutherford and Mann",
+      "PersonId": 931,
+      "PersonName": "Yundt Inc and Sons",
+      "AssociateId": 76,
+      "Address": "a",
+      "EmailId": 197,
       "DuplicatePersonIds": [
-        679,
-        500
+        892,
+        705
       ],
-      "Name": "Howell-Stoltenberg",
+      "Name": "Considine Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldType": "System.String",
+          "FieldLength": 928
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 190,
-      "ContactName": "West-Lueilwitz",
-      "PersonId": 878,
-      "PersonName": "Hahn LLC",
-      "AssociateId": 181,
-      "Address": "recusandae",
-      "EmailId": 224,
+      "ContactId": 689,
+      "ContactName": "Gorczany, Renner and McClure",
+      "PersonId": 76,
+      "PersonName": "Becker LLC",
+      "AssociateId": 662,
+      "Address": "laborum",
+      "EmailId": 575,
       "DuplicatePersonIds": [
-        901,
-        600
+        288,
+        867
       ],
-      "Name": "Schaden, Block and Romaguera",
+      "Name": "Mante-Leuschke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 343
+          "FieldLength": 513
         }
       }
     }
   ],
-  "Subject": "ea",
-  "HTMLBody": "aut",
+  "Subject": "qui",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2013-12-12T03:24:47.7207759+01:00",
-  "Size": 170,
+  "Sent": "2005-03-31T11:06:34.473931+02:00",
+  "Size": 915,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "amet",
-  "PlainBody": "aspernatur",
-  "IsSent": false,
+  "MessageID": "voluptas",
+  "PlainBody": "animi",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 574,
+  "ServerId": 421,
   "Attachments": [
     {
-      "Description": "Progressive user-facing open system",
-      "Filename": "est",
-      "Size": 235,
-      "Type": "alias",
-      "Encoding": "possimus",
-      "Id": "molestiae",
-      "Disposition": "velit",
+      "Description": "Universal neutral portal",
+      "Filename": "dolorem",
+      "Size": 710,
+      "Type": "dolorem",
+      "Encoding": "culpa",
+      "Id": "iure",
+      "Disposition": "sit",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 610
+          "FieldType": "System.String",
+          "FieldLength": 312
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kiehn Inc and Sons",
+      "Name": "Beier Group",
       "Values": [
-        "in",
-        "nemo"
+        "provident",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldType": "System.String",
+          "FieldLength": 815
         }
       }
     },
     {
-      "Name": "Kiehn Inc and Sons",
+      "Name": "Beier Group",
       "Values": [
-        "in",
-        "nemo"
+        "provident",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldType": "System.String",
+          "FieldLength": 815
         }
       }
     }
   ],
-  "FolderName": "Lynch-Kling",
-  "EmailItemId": 713,
-  "AccountId": 292,
-  "ReceivedAt": "2017-09-16T03:24:47.7207759+02:00",
+  "FolderName": "Kshlerin Inc and Sons",
+  "EmailItemId": 344,
+  "AccountId": 138,
+  "ReceivedAt": "2004-10-15T11:06:34.473931+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-10-08T03:24:47.7207759+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2023-08-30T11:06:34.473931+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 323
+      "FieldType": "System.Int32",
+      "FieldLength": 907
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 903,
-  "TopicId": 548,
+  "ChatSessionId": 219,
+  "TopicId": 428,
   "User": null,
   "Person": null,
-  "CustomerAlias": "placeat",
-  "CustomerHost": "odio",
-  "CustomerName": "Keebler LLC",
-  "CustomerEmail": "bridget@purdywatsica.info",
-  "CustomerPhone": "875-621-7746",
+  "CustomerAlias": "laudantium",
+  "CustomerHost": "aliquam",
+  "CustomerName": "Hilpert-Smitham",
+  "CustomerEmail": "rowland@upton.info",
+  "CustomerPhone": "1-668-127-8668 x322",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Konopelski, Johnston and Bode",
+  "CustomerCompanyName": "Kautzer, Runolfsson and Ferry",
   "Status": "Closed",
-  "FirstMessage": "maiores",
-  "LastMessage": "quia",
-  "WhenRequested": "1996-12-04T03:24:47.2677007+01:00",
-  "WhenStarted": "2015-01-02T03:24:47.2677007+01:00",
-  "WhenEnded": "2010-03-25T03:24:47.2677007+01:00",
-  "WhenIdle": "2004-06-17T03:24:47.2677007+02:00",
-  "WhenFetched": "2020-02-28T03:24:47.2677007+01:00",
-  "SessionKey": "corrupti",
-  "InitialQueuePos": 751,
-  "AlertLevel": 84,
-  "Rank": 658,
+  "FirstMessage": "earum",
+  "LastMessage": "iste",
+  "WhenRequested": "2007-12-10T11:06:33.9390153+01:00",
+  "WhenStarted": "2015-03-01T11:06:33.9390153+01:00",
+  "WhenEnded": "2010-11-19T11:06:33.9390153+01:00",
+  "WhenIdle": "2008-05-21T11:06:33.9390153+02:00",
+  "WhenFetched": "2008-08-24T11:06:33.9390153+02:00",
+  "SessionKey": "quis",
+  "InitialQueuePos": 278,
+  "AlertLevel": 622,
+  "Rank": 346,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 29,
+  "Rating": 25,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldLength": 177
     }
   }
 }

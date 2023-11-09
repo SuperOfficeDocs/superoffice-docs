@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 168,
-  "Name": "Boehm Group",
-  "Tooltip": "ea",
+  "RoleId": 730,
+  "Name": "Hahn Group",
+  "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 256,
-  "Rank": 867,
-  "Created": "2022-08-14T03:24:51.7401403+02:00",
-  "UseCategories": 835,
+  "Deleted": 782,
+  "Rank": 985,
+  "Created": "1998-10-18T11:06:42.0822263+02:00",
+  "UseCategories": 900,
   "CreatedBy": null,
-  "Updated": "2000-07-17T03:24:51.7401403+02:00",
+  "Updated": "2018-12-05T11:06:42.0822263+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 929,
-  "Name": "Mante LLC",
-  "Tooltip": "in",
+  "RoleId": 588,
+  "Name": "Roberts Group",
+  "Tooltip": "qui",
   "RoleType": "Anonymous",
-  "Deleted": 698,
-  "Rank": 836,
-  "Created": "2019-01-18T03:24:51.7401403+01:00",
-  "UseCategories": 353,
+  "Deleted": 667,
+  "Rank": 671,
+  "Created": "2006-09-17T11:06:42.0822263+02:00",
+  "UseCategories": 18,
   "CreatedBy": null,
-  "Updated": "2010-10-21T03:24:51.7401403+02:00",
+  "Updated": "2012-06-25T11:06:42.0822263+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 910
     }
   },
   "_Links": {

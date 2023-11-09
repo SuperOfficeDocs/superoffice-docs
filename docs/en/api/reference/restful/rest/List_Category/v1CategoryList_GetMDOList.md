@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=est
+GET /api/v1/List/Category/MDOItems?query=eos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Reichert, Vandervort and Toy",
-    "ToolTip": "Voluptates vel quos quod natus voluptates repellat voluptas.",
+    "Id": 510,
+    "Name": "Schaefer LLC",
+    "ToolTip": "Libero itaque reiciendis enim et architecto laudantium.",
     "Deleted": false,
-    "Rank": 482,
-    "Type": "in",
+    "Rank": 335,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 359,
-        "Name": "Hoeger, Moore and Murray",
-        "ToolTip": "Animi maxime voluptatum et ipsam.",
+        "Id": 272,
+        "Name": "Hirthe LLC",
+        "ToolTip": "Ut molestiae et sit qui architecto exercitationem vero.",
         "Deleted": true,
-        "Rank": 256,
-        "Type": "aut",
+        "Rank": 59,
+        "Type": "explicabo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloremque",
-        "ColorBlock": 594,
-        "ExtraInfo": "vel",
-        "StyleHint": "ut",
-        "FullName": "Prof. Lionel Camille Quigley I",
+        "IconHint": "voluptas",
+        "ColorBlock": 549,
+        "ExtraInfo": "labore",
+        "StyleHint": "quaerat",
+        "FullName": "Hildegard Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 147
+            "FieldLength": 819
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 918,
-    "ExtraInfo": "aut",
-    "StyleHint": "vitae",
-    "FullName": "Christine Davis",
+    "IconHint": "esse",
+    "ColorBlock": 819,
+    "ExtraInfo": "sit",
+    "StyleHint": "molestiae",
+    "FullName": "Austyn Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldLength": 615
       }
     }
   }

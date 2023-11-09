@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 207,
-  "Name": "Kuhic-Bogan",
-  "Tooltip": "aperiam",
+  "Id": 722,
+  "Name": "Gerlach LLC",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 800,
-  "Rank": 729,
+  "UdListDefinitionId": 649,
+  "Rank": 420,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldType": "System.String",
+      "FieldLength": 91
     }
   }
 }

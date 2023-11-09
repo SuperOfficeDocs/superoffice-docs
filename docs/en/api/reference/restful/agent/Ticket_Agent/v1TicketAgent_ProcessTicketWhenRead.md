@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Ticket/ProcessTicketWhenRead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 639
+  "TicketEntityId": 485
 }
 ```
 
@@ -146,21 +146,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 208,
+  "TicketId": 194,
   "Title": "dignissimos",
-  "CreatedAt": "2002-07-22T03:24:48.4560256+02:00",
-  "LastChanged": "1998-12-19T03:24:48.4560256+01:00",
-  "ReadByOwner": "2015-06-16T03:24:48.4560256+02:00",
-  "ReadByCustomer": "2012-08-06T03:24:48.4560256+02:00",
-  "FirstReadByOwner": "2002-03-30T03:24:48.4560256+01:00",
-  "FirstReadByUser": "2009-12-07T03:24:48.4560256+01:00",
-  "Activate": "1998-08-26T03:24:48.4560256+02:00",
-  "ClosedAt": "1998-03-12T03:24:48.4560256+01:00",
-  "RepliedAt": "1998-01-04T03:24:48.4560256+01:00",
-  "AlertTimeout": "2010-01-19T03:24:48.4560256+01:00",
-  "Deadline": "2016-11-08T03:24:48.4560256+01:00",
+  "CreatedAt": "2012-10-08T11:06:35.5533722+02:00",
+  "LastChanged": "2022-11-11T11:06:35.5533722+01:00",
+  "ReadByOwner": "2002-09-02T11:06:35.5533722+02:00",
+  "ReadByCustomer": "2002-04-11T11:06:35.5533722+02:00",
+  "FirstReadByOwner": "1996-07-19T11:06:35.5533722+02:00",
+  "FirstReadByUser": "2021-09-03T11:06:35.5533722+02:00",
+  "Activate": "2000-02-20T11:06:35.5533722+01:00",
+  "ClosedAt": "2013-10-07T11:06:35.5533722+02:00",
+  "RepliedAt": "2011-03-08T11:06:35.5533722+01:00",
+  "AlertTimeout": "2013-07-23T11:06:35.5533722+02:00",
+  "Deadline": "2016-07-12T11:06:35.5533722+02:00",
   "CreatedBy": null,
-  "Author": "quia",
+  "Author": "molestiae",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -171,161 +171,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "placeat",
-      "PersonId": 737,
-      "Mrmrs": "aspernatur",
-      "Firstname": "Rory",
-      "Lastname": "Ferry",
-      "MiddleName": "Feest-Deckow",
-      "Title": "quam",
-      "Description": "Face to face solution-oriented frame",
-      "Email": "abdullah.jones@grady.biz",
-      "FullName": "Dr. Walker Schuppe II",
-      "DirectPhone": "620-517-0921 x85614",
-      "FormalName": "Adams-Rowe",
-      "CountryId": 68,
-      "ContactId": 994,
-      "ContactName": "Dach-Simonis",
-      "Retired": 324,
-      "Rank": 381,
-      "ActiveInterests": 196,
-      "ContactDepartment": "",
-      "ContactCountryId": 925,
-      "ContactOrgNr": "940990",
-      "FaxPhone": "874-529-6570 x490",
-      "MobilePhone": "(587)911-4309 x3855",
-      "ContactPhone": "(137)396-4957",
-      "AssociateName": "Collins-Maggio",
-      "AssociateId": 174,
+      "Position": "voluptatem",
+      "PersonId": 94,
+      "Mrmrs": "consequuntur",
+      "Firstname": "Davonte",
+      "Lastname": "Denesik",
+      "MiddleName": "Kiehn, Hudson and Swift",
+      "Title": "voluptatem",
+      "Description": "Ergonomic modular help-desk",
+      "Email": "lea@bogisich.info",
+      "FullName": "Tracy Bogisich Jr.",
+      "DirectPhone": "883-175-6838",
+      "FormalName": "Watsica, Kris and Baumbach",
+      "CountryId": 401,
+      "ContactId": 348,
+      "ContactName": "Lynch-Jast",
+      "Retired": 556,
+      "Rank": 927,
+      "ActiveInterests": 44,
+      "ContactDepartment": "integrate out-of-the-box mindshare",
+      "ContactCountryId": 29,
+      "ContactOrgNr": "728161",
+      "FaxPhone": "413.260.0745",
+      "MobilePhone": "584.774.1387 x8391",
+      "ContactPhone": "556.879.9975",
+      "AssociateName": "Johnson-O'Kon",
+      "AssociateId": 795,
       "UsePersonAddress": true,
-      "ContactFax": "et",
-      "Kanafname": "dolor",
-      "Kanalname": "iste",
-      "Post1": "aut",
-      "Post2": "voluptatum",
-      "Post3": "et",
-      "EmailName": "sally.vandervort@jones.name",
-      "ContactFullName": "Dannie Greenholt",
-      "ActiveErpLinks": 431,
-      "TicketPriorityId": 995,
-      "SupportLanguageId": 57,
-      "SupportAssociateId": 8,
+      "ContactFax": "sed",
+      "Kanafname": "eligendi",
+      "Kanalname": "est",
+      "Post1": "vel",
+      "Post2": "earum",
+      "Post3": "rerum",
+      "EmailName": "garrett@dach.ca",
+      "ContactFullName": "Dr. Lavinia Armstrong",
+      "ActiveErpLinks": 944,
+      "TicketPriorityId": 275,
+      "SupportLanguageId": 832,
+      "SupportAssociateId": 808,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 638
+          "FieldLength": 471
         }
       }
     }
   ],
-  "AlertLevel": 107,
-  "ConnectId": 185,
+  "AlertLevel": 52,
+  "ConnectId": 446,
   "ReadStatus": "Green",
-  "TimeToReply": 746,
-  "RealTimeToReply": 128,
-  "TimeToClose": 591,
-  "RealTimeToClose": 563,
-  "TimeSpentInternally": 184,
-  "TimeSpentExternally": 978,
-  "TimeSpentQueue": 670,
-  "RealTimeSpentInternally": 762,
-  "RealTimeSpentExternally": 299,
-  "RealTimeSpentQueue": 873,
-  "TimeSpent": 410,
+  "TimeToReply": 544,
+  "RealTimeToReply": 520,
+  "TimeToClose": 973,
+  "RealTimeToClose": 988,
+  "TimeSpentInternally": 920,
+  "TimeSpentExternally": 23,
+  "TimeSpentQueue": 832,
+  "RealTimeSpentInternally": 771,
+  "RealTimeSpentExternally": 455,
+  "RealTimeSpentQueue": 960,
+  "TimeSpent": 355,
   "HasAttachment": false,
-  "NumReplies": 777,
-  "NumMessages": 339,
-  "FromAddress": "reprehenderit",
+  "NumReplies": 814,
+  "NumMessages": 606,
+  "FromAddress": "illum",
   "Messages": [
     {
-      "TicketMessageId": 721,
-      "CreatedAt": "2017-08-06T03:24:48.4560256+02:00",
+      "TicketMessageId": 1002,
+      "CreatedAt": "2023-10-18T11:06:35.5533722+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "dolorum",
-      "PersonId": 538,
-      "PersonFullName": "Prof. Joanny Fritsch",
-      "ContactId": 788,
-      "ContactName": "Dietrich-Torp",
+      "Important": true,
+      "Author": "qui",
+      "PersonId": 598,
+      "PersonFullName": "Sammy Ephraim Kemmer IV",
+      "ContactId": 909,
+      "ContactName": "Schaden Group",
       "ContactDepartment": "",
-      "NumAttachments": 547,
-      "EmailHeader": "velda_pfeffer@mosciski.com",
+      "NumAttachments": 236,
+      "EmailHeader": "juana@hansen.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "nobis",
-      "Sentiment": 704,
-      "SentimentConfidence": 230,
-      "CreatedBy": 461,
-      "ChangedAt": "2021-09-08T03:24:48.4560256+02:00",
+      "Language": "id",
+      "Sentiment": 880,
+      "SentimentConfidence": 541,
+      "CreatedBy": 875,
+      "ChangedAt": "2005-05-01T11:06:35.5689978+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 998
+          "FieldType": "System.String",
+          "FieldLength": 137
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 599,
-      "Name": "Maggio-Towne",
-      "ToolTip": "Voluptatibus perspiciatis perspiciatis sint ratione.",
+      "Id": 857,
+      "Name": "Gerhold-Kohler",
+      "ToolTip": "Sint exercitationem earum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 712
         }
       }
     },
     {
-      "Id": 599,
-      "Name": "Maggio-Towne",
-      "ToolTip": "Voluptatibus perspiciatis perspiciatis sint ratione.",
+      "Id": 857,
+      "Name": "Gerhold-Kohler",
+      "ToolTip": "Sint exercitationem earum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 712
         }
       }
     }
   ],
-  "Language": "molestiae",
-  "Sentiment": 60,
-  "SentimentConfidence": 730,
-  "SuggestedCategoryId": 425,
+  "Language": "aliquam",
+  "Sentiment": 771,
+  "SentimentConfidence": 961,
+  "SuggestedCategoryId": 632,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 97,
-  "IconHint": "et",
+  "OrigHumanCategoryId": 121,
+  "IconHint": "eos",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "reprehenderit",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "veritatis",
-    "CustomFields2": "neque"
+    "CustomFields1": "facilis",
+    "CustomFields2": "laudantium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldType": "System.String",
+      "FieldLength": 695
     }
   }
 }

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Dickinson Group",
-  "Tooltip": "deserunt",
+  "Id": 882,
+  "Name": "Schaden-Vandervort",
+  "Tooltip": "unde",
   "Deleted": true,
-  "Rank": 60,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "maxime",
+  "Rank": 137,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "reprehenderit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 450,
-  "Name": "Nader-Robel",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 850,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "amet",
-  "InUseByUserDefinedFields": false,
+  "Id": 244,
+  "Name": "Block, Dickinson and Simonis",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 483,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "porro",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 397
     }
   }
 }

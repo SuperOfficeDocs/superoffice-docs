@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 131,
-  "Section": "enim",
-  "Key": "aut",
-  "Name": "Kreiger-Reichel",
+  "PrefDescId": 682,
+  "Section": "odit",
+  "Key": "est",
+  "Name": "Marquardt, Okuneva and Nolan",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse content-based policy",
-  "IsBuiltin": true,
-  "TableName": "Towne, Lind and Raynor",
-  "UserDefinedListId": 631,
-  "Rank": 977,
-  "SubGroup": "qui",
-  "MinLevel": 329,
-  "MaxValue": 112,
-  "MinValue": 763,
-  "RequiredLicense": "ut",
+  "Description": "Reverse-engineered systemic firmware",
+  "IsBuiltin": false,
+  "TableName": "Grady Inc and Sons",
+  "UserDefinedListId": 815,
+  "Rank": 980,
+  "SubGroup": "maxime",
+  "MinLevel": 829,
+  "MaxValue": 512,
+  "MinValue": 510,
+  "RequiredLicense": "ex",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 101
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

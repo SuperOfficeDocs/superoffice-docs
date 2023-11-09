@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 666,
-  "SourcePersonId": 548,
-  "DestinationContactId": 944,
-  "DestinationPersonId": 845,
-  "RelationId": 10,
-  "Comment": "nisi",
-  "RelationDefinitionId": 798,
-  "Reversed": 651,
-  "UpdatedDate": "2015-09-01T03:24:48.1582254+02:00",
-  "CreatedDate": "2003-02-02T03:24:48.1582254+01:00",
+  "SourceContactId": 997,
+  "SourcePersonId": 970,
+  "DestinationContactId": 544,
+  "DestinationPersonId": 747,
+  "RelationId": 43,
+  "Comment": "ab",
+  "RelationDefinitionId": 959,
+  "Reversed": 618,
+  "UpdatedDate": "2021-08-30T11:06:35.2395651+02:00",
+  "CreatedDate": "1998-05-14T11:06:35.2395651+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Durgan, Leuschke and Marks",
-  "SourcePersonName": "Kautzer, Grant and Ondricka",
-  "DestinationContactName": "Frami, Bartoletti and Borer",
-  "DestinationPersonName": "Christiansen Inc and Sons",
-  "ActiveText": "sit",
-  "PassiveText": "excepturi",
+  "SourceContactName": "Dibbert-Rohan",
+  "SourcePersonName": "Jacobi LLC",
+  "DestinationContactName": "Kuhn-Reichert",
+  "DestinationPersonName": "Hirthe Inc and Sons",
+  "ActiveText": "qui",
+  "PassiveText": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldType": "System.String",
+      "FieldLength": 583
     }
   }
 }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 664,
-  "Name": "Thompson, Toy and Abbott",
-  "Tooltip": "recusandae",
-  "Deleted": false,
-  "Rank": 468,
+  "Id": 14,
+  "Name": "Lind, Bartell and Haley",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "Rank": 873,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "reiciendis",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "alias",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 659,
-  "Name": "Spinka, Buckridge and Rempel",
-  "Tooltip": "pariatur",
+  "Id": 882,
+  "Name": "Kautzer Inc and Sons",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 445,
-  "IsCustomList": false,
+  "Rank": 807,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "earum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ipsum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldType": "System.Int32",
+      "FieldLength": 765
     }
   }
 }

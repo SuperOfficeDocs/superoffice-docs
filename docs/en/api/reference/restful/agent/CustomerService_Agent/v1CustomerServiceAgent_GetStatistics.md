@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "quo",
-    "at"
+    "incidunt",
+    "tempora"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "temporibus",
+    "Label": "ut",
     "Values": [
       {
-        "Label": "et",
-        "Value": 3751.3979999999997,
-        "Description": "Implemented bandwidth-monitored interface",
+        "Label": "eius",
+        "Value": 20718.874,
+        "Description": "Upgradable responsive synergy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldLength": 273
           }
         }
       },
       {
-        "Label": "et",
-        "Value": 3751.3979999999997,
-        "Description": "Implemented bandwidth-monitored interface",
+        "Label": "eius",
+        "Value": 20718.874,
+        "Description": "Upgradable responsive synergy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldLength": 273
           }
         }
       }
     ],
-    "Description": "Managed demand-driven methodology",
+    "Description": "Re-contextualized holistic paradigm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldLength": 671
       }
     }
   },
   {
-    "Label": "temporibus",
+    "Label": "ut",
     "Values": [
       {
-        "Label": "et",
-        "Value": 3751.3979999999997,
-        "Description": "Implemented bandwidth-monitored interface",
+        "Label": "eius",
+        "Value": 20718.874,
+        "Description": "Upgradable responsive synergy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldLength": 273
           }
         }
       },
       {
-        "Label": "et",
-        "Value": 3751.3979999999997,
-        "Description": "Implemented bandwidth-monitored interface",
+        "Label": "eius",
+        "Value": 20718.874,
+        "Description": "Upgradable responsive synergy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldLength": 273
           }
         }
       }
     ],
-    "Description": "Managed demand-driven methodology",
+    "Description": "Re-contextualized holistic paradigm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldLength": 671
       }
     }
   }

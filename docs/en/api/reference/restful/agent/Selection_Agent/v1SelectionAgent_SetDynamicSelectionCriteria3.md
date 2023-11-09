@@ -88,18 +88,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 533,
+  "SelectionId": 290,
   "Criteria": [
     {
-      "Name": "Reichel-Weimann",
-      "Operator": "et",
+      "Name": "Torp-Quigley",
+      "Operator": "in",
       "Values": [
-        "aut",
-        "placeat"
+        "enim",
+        "ipsa"
       ],
       "DisplayValues": [
-        "culpa",
-        "at"
+        "perspiciatis",
+        "voluptate"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 522,
+      "InterParenthesis": 138,
       "InterOperator": "And",
-      "UniqueHash": 191
+      "UniqueHash": 125
     }
   ],
-  "Filter": "earum"
+  "Filter": "pariatur"
 }
 ```
 
@@ -124,44 +124,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gorczany-Boehm",
-    "Operator": "libero",
+    "Name": "Becker Group",
+    "Operator": "et",
     "Values": [
-      "aut",
-      "dolorem"
+      "corrupti",
+      "dignissimos"
     ],
     "DisplayValues": [
-      "nulla",
-      "eaque"
+      "autem",
+      "eveniet"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Daugherty, Feil and Nitzsche",
-        "Operator": "dolore",
+        "Name": "Goyette Group",
+        "Operator": "ducimus",
         "Values": [
-          "voluptas",
-          "et"
+          "consequatur",
+          "tempora"
         ],
         "DisplayValues": [
-          "officiis",
-          "hic"
+          "nobis",
+          "illum"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 144,
+        "InterParenthesis": 815,
         "InterOperator": "And",
-        "UniqueHash": 306
+        "UniqueHash": 782
       }
     ],
-    "InterParenthesis": 467,
+    "InterParenthesis": 219,
     "InterOperator": "And",
-    "UniqueHash": 973
+    "UniqueHash": 512
   }
 ]
 ```

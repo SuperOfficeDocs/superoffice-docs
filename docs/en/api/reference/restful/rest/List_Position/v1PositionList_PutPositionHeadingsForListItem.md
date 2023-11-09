@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 663,
-    "Name": "Hessel Group",
-    "ToolTip": "Dolor et non occaecati.",
-    "Deleted": true,
-    "Rank": 159,
-    "Type": "nemo",
-    "ColorBlock": 716,
-    "IconHint": "minus",
+    "Id": 808,
+    "Name": "Heathcote Group",
+    "ToolTip": "Illo vitae voluptatem voluptas.",
+    "Deleted": false,
+    "Rank": 381,
+    "Type": "porro",
+    "ColorBlock": 778,
+    "IconHint": "optio",
     "Selected": false,
-    "LastChanged": "2015-05-02T03:24:52.3025813+02:00",
+    "LastChanged": "2014-06-03T11:06:42.8815714+02:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Connelly, Littel and Rowe",
-        "ToolTip": "Tempora nam.",
+        "Id": 6,
+        "Name": "Braun Group",
+        "ToolTip": "Nostrum qui totam quisquam itaque praesentium.",
         "Deleted": false,
-        "Rank": 126,
-        "Type": "voluptatem",
-        "ColorBlock": 692,
-        "IconHint": "magni",
+        "Rank": 240,
+        "Type": "totam",
+        "ColorBlock": 633,
+        "IconHint": "unde",
         "Selected": true,
-        "LastChanged": "2009-12-16T03:24:52.3025813+01:00",
+        "LastChanged": "1997-12-23T11:06:42.8815714+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Ms. Jennie Adrain Strosin PhD"
+        "ExtraInfo": "corrupti",
+        "StyleHint": "labore",
+        "Hidden": true,
+        "FullName": "Miss Jackie Christiansen MD"
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Dr. Roxanne Macy Senger"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "mollitia",
+    "Hidden": false,
+    "FullName": "Prof. Constance Jarrell Gislason MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Jakubowski-Kshlerin",
-    "ToolTip": "Excepturi at soluta.",
+    "Id": 600,
+    "Name": "Klocko-Hayes",
+    "ToolTip": "Ratione ducimus qui necessitatibus.",
     "Deleted": false,
-    "Rank": 949,
-    "Type": "sint",
-    "ColorBlock": 798,
-    "IconHint": "hic",
+    "Rank": 901,
+    "Type": "asperiores",
+    "ColorBlock": 975,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "2018-02-22T03:24:52.3025813+01:00",
+    "LastChanged": "2012-04-17T11:06:42.8815714+02:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Bins-Luettgen",
-        "ToolTip": "Harum fuga qui explicabo velit.",
+        "Id": 765,
+        "Name": "Sipes Inc and Sons",
+        "ToolTip": "Doloribus voluptatum.",
         "Deleted": false,
-        "Rank": 887,
-        "Type": "ullam",
-        "ColorBlock": 270,
-        "IconHint": "illum",
+        "Rank": 323,
+        "Type": "est",
+        "ColorBlock": 64,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2020-01-25T03:24:52.3025813+01:00",
+        "LastChanged": "2023-04-17T11:06:42.8815714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Mariela Sporer",
+        "ExtraInfo": "autem",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Ulises Jessica Raynor DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 523
+            "FieldType": "System.String",
+            "FieldLength": 477
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Efren Waters",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Mack Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 920
+        "FieldType": "System.String",
+        "FieldLength": 13
       }
     }
   }

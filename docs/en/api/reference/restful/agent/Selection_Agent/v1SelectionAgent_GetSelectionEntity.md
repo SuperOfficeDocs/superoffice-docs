@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=597
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=134
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enterprise-wide tangible orchestration",
-  "Postit": "dolore",
+  "Description": "Optional holistic standardization",
+  "Postit": "cupiditate",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 95,
-  "IncludePerson": 1000,
-  "MemberCount": 350,
-  "Name": "Jacobs, Schamberger and Green",
-  "PostitTextId": 354,
-  "CreatedDate": "1998-02-04T03:24:48.2409231+01:00",
-  "SelectionId": 63,
-  "SoundEx": "eos",
-  "Source": 727,
-  "TextId": 930,
-  "UpdatedDate": "2018-06-09T03:24:48.2409231+02:00",
-  "UpdatedCount": 763,
-  "Visibility": 143,
+  "GroupIdx": 227,
+  "IncludePerson": 645,
+  "MemberCount": 526,
+  "Name": "Kunze-Gottlieb",
+  "PostitTextId": 331,
+  "CreatedDate": "2004-02-17T11:06:35.364568+01:00",
+  "SelectionId": 526,
+  "SoundEx": "vel",
+  "Source": 506,
+  "TextId": 829,
+  "UpdatedDate": "2014-04-19T11:06:35.364568+02:00",
+  "UpdatedCount": 800,
+  "Visibility": 984,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 299,
-  "TargetTableName": "Sauer, Hirthe and Heller",
-  "Completed": true,
-  "LeftSelectionId": 4,
-  "RightSelectionId": 405,
+  "TargetTableNumber": 234,
+  "TargetTableName": "Rowe Group",
+  "Completed": false,
+  "LeftSelectionId": 209,
+  "RightSelectionId": 123,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Vandervort Inc and Sons",
-  "ShadowProviderName": "Howe Inc and Sons",
-  "ChartKey": "quod",
-  "LastLoaded": "2018-08-11T03:24:48.2409231+02:00",
-  "LastLoadedBy": 325,
+  "MainProviderName": "Conn-Zemlak",
+  "ShadowProviderName": "Gislason, Reichel and King",
+  "ChartKey": "similique",
+  "LastLoaded": "2021-01-13T11:06:35.364568+01:00",
+  "LastLoadedBy": 81,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-06-21T03:24:48.2409231+02:00",
-  "LastMembershipChangeBy": 239,
+  "LastMembershipChange": "2002-02-09T11:06:35.364568+01:00",
+  "LastMembershipChangeBy": 943,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "adipisci",
-  "MemberTabHeading": "labore",
-  "MailingsProviderName": "Stracke Inc and Sons",
-  "DashboardTileDefinitionId": 642,
+  "MainHeading": "quo",
+  "MemberTabHeading": "unde",
+  "MailingsProviderName": "Turcotte Group",
+  "DashboardTileDefinitionId": 639,
   "VisibleFor": [
     {
-      "VisibleId": 694,
+      "VisibleId": 675,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldType": "System.String",
+          "FieldLength": 234
         }
       }
     },
     {
-      "VisibleId": 694,
+      "VisibleId": 675,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldType": "System.String",
+          "FieldLength": 234
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 134
+      "FieldType": "System.Int32",
+      "FieldLength": 695
     }
   }
 }

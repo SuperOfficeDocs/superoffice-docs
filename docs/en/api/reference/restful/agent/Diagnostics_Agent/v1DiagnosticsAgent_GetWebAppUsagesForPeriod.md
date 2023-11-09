@@ -85,9 +85,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2016-02-09T03:24:47.5020527+01:00",
-  "ToDate": "2015-03-28T03:24:47.5020527+01:00",
-  "SearchTerm": "maxime"
+  "FromDate": "2012-08-24T11:06:34.3008382+02:00",
+  "ToDate": "2008-09-22T11:06:34.3008382+02:00",
+  "SearchTerm": "corrupti"
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 184,
-    "AssocId": 577,
-    "Timestamp": "2009-03-19T03:24:47.5020527+01:00",
-    "ViewState": "ut",
-    "AggregateCount": 462,
-    "AggregateBin": 169,
-    "Version": 358,
+    "WebAppUsageId": 979,
+    "AssocId": 455,
+    "Timestamp": "2016-01-14T11:06:34.3008382+01:00",
+    "ViewState": "libero",
+    "AggregateCount": 949,
+    "AggregateBin": 692,
+    "Version": 524,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldLength": 406
       }
     }
   }

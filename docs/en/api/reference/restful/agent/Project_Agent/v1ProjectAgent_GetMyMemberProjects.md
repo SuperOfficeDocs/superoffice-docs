@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 361,
-    "Name": "Towne Group",
-    "Description": "Visionary stable architecture",
+    "ProjectId": 987,
+    "Name": "Brown LLC",
+    "Description": "Cross-group 24 hour analyzer",
     "URL": "http://www.example.com/",
-    "Type": "distinctio",
-    "AssociateId": 947,
-    "AssociateFullName": "Noemi Rath",
-    "TypeId": 931,
-    "Updated": "2004-12-23T03:24:48.0957311+01:00",
-    "StatusId": 366,
-    "Status": "ducimus",
-    "TextId": 689,
-    "PublishTo": "2023-01-13T03:24:48.0957311+01:00",
-    "PublishFrom": "1997-11-16T03:24:48.0957311+01:00",
-    "IsPublished": true,
+    "Type": "provident",
+    "AssociateId": 172,
+    "AssociateFullName": "Fern Maggio",
+    "TypeId": 586,
+    "Updated": "2010-12-01T11:06:35.1614465+01:00",
+    "StatusId": 652,
+    "Status": "et",
+    "TextId": 701,
+    "PublishTo": "1997-05-16T11:06:35.1614465+02:00",
+    "PublishFrom": "2016-12-29T11:06:35.1614465+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "901110",
-    "ActiveErpLinks": 663,
+    "ProjectNumber": "421300",
+    "ActiveErpLinks": 873,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 659
       }
     }
   }

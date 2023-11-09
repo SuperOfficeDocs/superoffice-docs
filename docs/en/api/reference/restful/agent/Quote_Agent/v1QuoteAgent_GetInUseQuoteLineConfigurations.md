@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 360,
-    "FieldName": "Reichert Inc and Sons",
-    "Label": "sit",
-    "Tooltip": "facere",
-    "Editable": true,
-    "InUse": true,
+    "QuoteLineConfigurationId": 580,
+    "FieldName": "Tremblay Inc and Sons",
+    "Label": "error",
+    "Tooltip": "quae",
+    "Editable": false,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 70,
-    "RestrictEdit": false,
+    "Rank": 775,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   }

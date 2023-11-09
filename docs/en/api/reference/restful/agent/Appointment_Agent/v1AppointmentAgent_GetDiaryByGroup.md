@@ -128,15 +128,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 660,
-  "GroupType": 39,
-  "StartTime": "2009-09-21T03:24:46.9550719+02:00",
-  "EndTime": "2006-01-17T03:24:46.9550719+01:00",
-  "Count": 841
+  "GroupId": 890,
+  "GroupType": 923,
+  "StartTime": "2009-04-02T11:06:33.475738+02:00",
+  "EndTime": "2002-11-16T11:06:33.475738+01:00",
+  "Count": 67
 }
 ```
 
@@ -148,64 +148,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 331,
-    "StartDate": "2017-03-11T03:24:46.9550719+01:00",
-    "EndDate": "2013-08-17T03:24:46.9550719+02:00",
+    "AppointmentId": 731,
+    "StartDate": "2014-04-26T11:06:33.475738+02:00",
+    "EndDate": "2010-03-23T11:06:33.475738+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quam",
-    "AssociateFullName": "Joelle McGlynn",
-    "ContactName": "Lebsack-Okuneva",
-    "Description": "Polarised modular support",
-    "PersonFullName": "Mr. May Buck Hammes IV",
-    "PersonId": 933,
-    "ContactId": 748,
-    "ProjectId": 973,
-    "ProjectName": "Heathcote-Muller",
+    "Task": "consectetur",
+    "AssociateFullName": "Buford Kuvalis IV",
+    "ContactName": "Doyle-Connelly",
+    "Description": "Open-architected regional alliance",
+    "PersonFullName": "Rosalee McLaughlin",
+    "PersonId": 114,
+    "ContactId": 29,
+    "ProjectId": 250,
+    "ProjectName": "Klocko, Kautzer and Kunze",
     "IsPublished": true,
-    "AssociateId": 899,
-    "ColorIndex": 182,
-    "IsFree": false,
+    "AssociateId": 135,
+    "ColorIndex": 606,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 359,
-    "PriorityName": "Jacobs-Jast",
+    "PriorityId": 535,
+    "PriorityName": "Steuber-Treutel",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2016-09-11T03:24:46.9550719+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2008-07-30T11:06:33.475738+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-03-20T03:24:46.9550719+01:00",
-    "RecurringEndDate": "2009-01-15T03:24:46.9550719+01:00",
-    "MotherId": 66,
-    "AssignedBy": 306,
-    "AssignedByFullName": "Alene Pagac",
+    "RecurringStartDate": "2002-11-07T11:06:33.475738+01:00",
+    "RecurringEndDate": "2012-03-12T11:06:33.475738+01:00",
+    "MotherId": 523,
+    "AssignedBy": 1002,
+    "AssignedByFullName": "Augustus Bednar",
     "RejectReason": "",
-    "Location": "odit",
-    "AlarmLeadTime": "et",
-    "SaleId": 469,
-    "SaleName": "Collier, Medhurst and Kuhic",
-    "AssociateName": "Reinger Inc and Sons",
-    "CreatedDate": "2003-09-02T03:24:46.9550719+02:00",
-    "CreatedBy": "blanditiis",
-    "CreatedByFullName": "Wade Moen",
-    "CreatedByAssociateId": 828,
+    "Location": "assumenda",
+    "AlarmLeadTime": "quod",
+    "SaleId": 992,
+    "SaleName": "King Group",
+    "AssociateName": "Turcotte Group",
+    "CreatedDate": "1996-09-07T11:06:33.475738+02:00",
+    "CreatedBy": "culpa",
+    "CreatedByFullName": "Ms. Modesto Jacobs",
+    "CreatedByAssociateId": 376,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "ab",
-    "Agenda": "dolorem",
-    "InternalNotes": "consectetur",
+    "Title": "quaerat",
+    "Agenda": "voluptatum",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldType": "System.String",
+        "FieldLength": 696
       }
     }
   }

@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "perferendis",
-  "ProviderName": "Hauck Inc and Sons",
-  "StorageKey": "accusamus"
+  "StorageType": "deserunt",
+  "ProviderName": "Bauch, Borer and Gutkowski",
+  "StorageKey": "necessitatibus"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Koepp Inc and Sons",
-    "DisplayTooltip": "repellendus",
-    "DisplayType": "earum",
-    "CanOrderBy": true,
-    "Name": "Littel, Ziemann and Upton",
-    "CanRestrictBy": false,
-    "RestrictionType": "ab",
-    "RestrictionListName": "Legros, Emmerich and Tillman",
-    "IsVisible": true,
-    "ExtraInfo": "iste",
-    "Width": "ea",
-    "IconHint": "non",
-    "HeadingIconHint": "nesciunt"
+    "DisplayName": "O'Kon, Gaylord and Abbott",
+    "DisplayTooltip": "harum",
+    "DisplayType": "quia",
+    "CanOrderBy": false,
+    "Name": "Gleason Group",
+    "CanRestrictBy": true,
+    "RestrictionType": "dolorem",
+    "RestrictionListName": "Kuhn Inc and Sons",
+    "IsVisible": false,
+    "ExtraInfo": "quidem",
+    "Width": "omnis",
+    "IconHint": "in",
+    "HeadingIconHint": "nulla"
   }
 ]
 ```

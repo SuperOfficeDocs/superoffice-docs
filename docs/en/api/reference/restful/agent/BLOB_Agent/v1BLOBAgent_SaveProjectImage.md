@@ -69,7 +69,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Compatible encompassing extranet",
+  "Description": "Cross-platform bandwidth-monitored structure",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

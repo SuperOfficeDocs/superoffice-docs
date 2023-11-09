@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "corrupti",
-  "LineNumber": 158,
+  "ErrorMessage": "eius",
+  "LineNumber": 588,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 532
+      "FieldLength": 258
     }
   }
 }

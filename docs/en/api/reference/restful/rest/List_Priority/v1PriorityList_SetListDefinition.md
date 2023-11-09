@@ -88,16 +88,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 116,
-  "Name": "Mitchell, Labadie and Dibbert",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 847,
-  "IsCustomList": true,
+  "Id": 875,
+  "Name": "Buckridge Inc and Sons",
+  "Tooltip": "nesciunt",
+  "Deleted": true,
+  "Rank": 141,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "id",
-  "InUseByUserDefinedFields": true
+  "ListType": "officia",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 543,
-  "Name": "Mueller, Walsh and Beahan",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 252,
+  "Id": 143,
+  "Name": "Price, Kuphal and Kuhic",
+  "Tooltip": "ipsa",
+  "Deleted": true,
+  "Rank": 491,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ratione",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldType": "System.String",
+      "FieldLength": 424
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 894,
-    "Name": "Borer, Kohler and Davis",
-    "Tooltip": "ea",
-    "Rank": 740,
-    "Key": "ea",
-    "MailTemplateId": 603,
+    "ConsentSourceId": 173,
+    "Name": "Klocko LLC",
+    "Tooltip": "quia",
+    "Rank": 417,
+    "Key": "porro",
+    "MailTemplateId": 501,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 992
+        "FieldLength": 299
       }
     }
   }

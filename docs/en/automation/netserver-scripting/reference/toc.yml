@@ -8,10 +8,32 @@ items:
     href: aiagent/detectlanguage.md
   - name: DetectSentiment
     href: aiagent/detectsentiment.md
+  - name: ExpandText
+    href: aiagent/expandtext.md
+  - name: GetChatbotPromptSuggestions
+    href: aiagent/getchatbotpromptsuggestions.md
+  - name: GetChatbotResponse
+    href: aiagent/getchatbotresponse.md
+  - name: GetSummarizeContactPrompt
+    href: aiagent/getsummarizecontactprompt.md
+  - name: GetSummarizeSalePrompt
+    href: aiagent/getsummarizesaleprompt.md
+  - name: GetSummarizeTicketPrompt
+    href: aiagent/getsummarizeticketprompt.md
   - name: GetTrainingStatus
     href: aiagent/gettrainingstatus.md
   - name: GuessCategory
     href: aiagent/guesscategory.md
+  - name: RephraseText
+    href: aiagent/rephrasetext.md
+  - name: SummarizeContact
+    href: aiagent/summarizecontact.md
+  - name: SummarizeSale
+    href: aiagent/summarizesale.md
+  - name: SummarizeText
+    href: aiagent/summarizetext.md
+  - name: SummarizeTicket
+    href: aiagent/summarizeticket.md
   - name: TrainCategoryGuesser
     href: aiagent/traincategoryguesser.md
   - name: Translate
@@ -3347,6 +3369,8 @@ items:
     href: ticketagent/getticketentity.md
   - name: GetTicketMessage
     href: ticketagent/getticketmessage.md
+  - name: GetTicketMessageEntities
+    href: ticketagent/getticketmessageentities.md
   - name: GetTicketMessageEntity
     href: ticketagent/getticketmessageentity.md
   - name: GetTicketMessageWithEmbeddedData

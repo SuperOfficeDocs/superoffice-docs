@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 800,
-  "Name": "Lesch-Rau",
+  "ScreenChooserId": 988,
+  "Name": "Kemmer, Sipes and Wolf",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "distinctio",
-  "Source": "voluptate",
-  "Registered": "2015-10-17T03:24:52.0213616+02:00",
-  "RegisteredAssociateId": 125,
-  "Updated": "2007-07-29T03:24:52.0213616+02:00",
-  "UpdatedAssociateId": 683,
+  "UniqueIdentifier": "nobis",
+  "Source": "repellendus",
+  "Registered": "2003-04-23T11:06:42.3647477+02:00",
+  "RegisteredAssociateId": 757,
+  "Updated": "2022-10-14T11:06:42.3647477+02:00",
+  "UpdatedAssociateId": 672,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldType": "System.String",
+      "FieldLength": 958
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

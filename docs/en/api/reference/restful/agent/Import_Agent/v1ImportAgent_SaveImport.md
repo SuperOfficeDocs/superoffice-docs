@@ -79,32 +79,32 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "nostrum",
-        "sint"
+        "natus",
+        "modi"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "similique"
+      "ExternalKey": "minima"
     },
     {
       "Values": [
-        "nostrum",
-        "sint"
+        "natus",
+        "modi"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "similique"
+      "ExternalKey": "minima"
     }
   ],
   "ColumnDefinition": [
-    "ipsa",
-    "ratione"
+    "accusamus",
+    "est"
   ],
   "CreateSelection": false,
-  "Culture": "sequi",
-  "Context": "aut"
+  "Culture": "vel",
+  "Context": "sed"
 }
 ```
 
@@ -115,7 +115,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  206,
-  94
+  646,
+  196
 ]
 ```

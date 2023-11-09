@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Zboncak LLC",
-    "ToolTip": "Quos sit quaerat odio qui totam aut.",
-    "Deleted": true,
-    "Rank": 277,
-    "Type": "qui",
-    "ColorBlock": 975,
-    "IconHint": "omnis",
+    "Id": 464,
+    "Name": "Conroy Inc and Sons",
+    "ToolTip": "Occaecati porro provident perspiciatis distinctio est.",
+    "Deleted": false,
+    "Rank": 465,
+    "Type": "ut",
+    "ColorBlock": 515,
+    "IconHint": "pariatur",
     "Selected": false,
-    "LastChanged": "2008-11-10T03:24:52.4431914+01:00",
+    "LastChanged": "2015-04-18T11:06:43.1003256+02:00",
     "ChildItems": [
       {
-        "Id": 198,
-        "Name": "Heller, Schinner and Graham",
-        "ToolTip": "Deleniti deleniti.",
+        "Id": 938,
+        "Name": "Russel, King and Gutkowski",
+        "ToolTip": "Quam vel consequatur sit totam iste eius.",
         "Deleted": false,
-        "Rank": 294,
-        "Type": "ea",
-        "ColorBlock": 18,
+        "Rank": 511,
+        "Type": "sit",
+        "ColorBlock": 400,
         "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2000-10-13T03:24:52.4431914+02:00",
+        "LastChanged": "2006-01-21T11:06:43.1003256+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Hillary Konopelski"
+        "ExtraInfo": "possimus",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Edythe Rosenbaum"
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "id",
+    "ExtraInfo": "in",
+    "StyleHint": "in",
     "Hidden": true,
-    "FullName": "Gardner Robel"
+    "FullName": "Theo Mertz III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Davis-Wuckert",
-    "ToolTip": "Veniam ullam quia.",
+    "Id": 974,
+    "Name": "Crooks Group",
+    "ToolTip": "Omnis cumque unde magnam dicta maiores reiciendis esse.",
     "Deleted": true,
-    "Rank": 1000,
-    "Type": "at",
-    "ColorBlock": 178,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2006-12-23T03:24:52.4431914+01:00",
+    "Rank": 78,
+    "Type": "quidem",
+    "ColorBlock": 441,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2018-10-19T11:06:43.1003256+02:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Leuschke-Sauer",
-        "ToolTip": "Voluptas est eos quibusdam voluptatum quia laborum.",
-        "Deleted": true,
-        "Rank": 935,
-        "Type": "quaerat",
-        "ColorBlock": 709,
-        "IconHint": "aut",
+        "Id": 677,
+        "Name": "Schuster-Grady",
+        "ToolTip": "Autem consequuntur dolorem et aut.",
+        "Deleted": false,
+        "Rank": 165,
+        "Type": "nemo",
+        "ColorBlock": 450,
+        "IconHint": "iste",
         "Selected": false,
-        "LastChanged": "2008-09-28T03:24:52.4431914+02:00",
+        "LastChanged": "2013-05-01T11:06:43.1003256+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Prof. Keenan Pagac",
+        "ExtraInfo": "autem",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Miss Devonte Anderson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 150
+            "FieldLength": 233
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "dolorum",
-    "Hidden": false,
-    "FullName": "Prof. Franz McClure",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Johnnie Nolan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 616
       }
     }
   }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 372,
-    "ERPName": "Sipes, Homenick and Hagenes",
-    "DisplayName": "Hartmann LLC",
-    "DisplayDescription": "Multi-lateral scalable definition",
-    "Rank": 519,
-    "ConnectorName": "Renner-D'Amore",
-    "ErpConnectionId": 166,
-    "ExtraData": "accusantium",
-    "IsAvailable": true,
+    "QuoteConnectionId": 293,
+    "ERPName": "Howell Group",
+    "DisplayName": "Harvey Inc and Sons",
+    "DisplayDescription": "Implemented methodical service-desk",
+    "Rank": 24,
+    "ConnectorName": "Crist, Quigley and Mayert",
+    "ErpConnectionId": 753,
+    "ExtraData": "omnis",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 760,
-        "ERPPriceListKey": "ea",
-        "QuoteConnectionId": 739,
-        "Name": "Kirlin Inc and Sons",
-        "Description": "Networked heuristic encryption",
-        "Currency": "aut",
-        "CurrencyName": "Bartoletti, O'Conner and Leuschke",
-        "ValidFrom": "2020-07-17T03:24:48.1426062+02:00",
-        "ValidTo": "2018-04-17T03:24:48.1426062+02:00",
+        "PriceListId": 821,
+        "ERPPriceListKey": "est",
+        "QuoteConnectionId": 827,
+        "Name": "Hauck-McGlynn",
+        "Description": "Phased zero defect initiative",
+        "Currency": "harum",
+        "CurrencyName": "Bogan-Rempel",
+        "ValidFrom": "2015-06-08T11:06:35.2239506+02:00",
+        "ValidTo": "2008-10-09T11:06:35.2239506+02:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 742
+            "FieldType": "System.Int32",
+            "FieldLength": 50
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      974,
-      461
+      79,
+      923
     ],
     "AssociateAccessIds": [
-      711,
-      961
+      427,
+      739
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldLength": 398
       }
     }
   }

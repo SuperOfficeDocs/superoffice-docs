@@ -85,27 +85,27 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 55,
-  "Name": "Romaguera-Gutkowski",
-  "Rank": 796,
-  "Tooltip": "consequatur",
-  "Icon": "aperiam",
-  "DefaultTicketStatus": 864,
+  "TicketTypeId": 117,
+  "Name": "Wintheiser Inc and Sons",
+  "Rank": 904,
+  "Tooltip": "necessitatibus",
+  "Icon": "itaque",
+  "DefaultTicketStatus": 50,
   "TicketStatuses": [
-    373,
-    126
+    623,
+    645
   ],
-  "DefaultTicketPriority": 393,
+  "DefaultTicketPriority": 221,
   "TicketPriorities": [
-    851,
-    554
+    106,
+    417
   ],
-  "ReplyTemplate": 568,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 648,
+  "IsExternalVisible": true,
   "IsDefault": false
 }
 ```
@@ -117,22 +117,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 246,
-  "Name": "Wuckert, Borer and Howell",
-  "Rank": 64,
-  "Tooltip": "iure",
-  "Icon": "voluptatem",
-  "DefaultTicketStatus": 234,
+  "TicketTypeId": 920,
+  "Name": "Flatley-Boyle",
+  "Rank": 610,
+  "Tooltip": "praesentium",
+  "Icon": "quia",
+  "DefaultTicketStatus": 145,
   "TicketStatuses": [
-    301,
-    563
+    470,
+    975
   ],
-  "DefaultTicketPriority": 812,
+  "DefaultTicketPriority": 916,
   "TicketPriorities": [
-    412,
-    11
+    335,
+    361
   ],
-  "ReplyTemplate": 758,
+  "ReplyTemplate": 106,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 784
     }
   }
 }

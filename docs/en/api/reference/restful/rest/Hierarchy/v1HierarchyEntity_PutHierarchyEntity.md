@@ -97,36 +97,36 @@ HierarchyEntity updated.
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 32,
+  "HierarchyId": 31,
   "Domain": "Dashboards",
-  "Name": "Wintheiser Inc and Sons",
-  "Fullname": "magni",
-  "ParentId": 41,
+  "Name": "Dooley Group",
+  "Fullname": "aut",
+  "ParentId": 977,
   "Children": [
     {
-      "HierarchyId": 728,
+      "HierarchyId": 850,
       "Domain": "Dashboards",
-      "Name": "Considine, Zboncak and Hickle",
-      "Fullname": "ullam",
-      "ParentId": 618,
+      "Name": "Kiehn-Durgan",
+      "Fullname": "vitae",
+      "ParentId": 418,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-04-25T03:24:51.630601+02:00",
-      "RegisteredAssociateId": 859,
-      "Updated": "2003-09-23T03:24:51.630601+02:00",
-      "UpdatedAssociateId": 374
+      "Registered": "2009-06-08T11:06:41.9103479+02:00",
+      "RegisteredAssociateId": 463,
+      "Updated": "2013-07-27T11:06:41.9103479+02:00",
+      "UpdatedAssociateId": 5
     }
   ],
-  "Registered": "2004-03-20T03:24:51.630601+01:00",
-  "RegisteredAssociateId": 969,
-  "Updated": "2011-05-18T03:24:51.630601+02:00",
-  "UpdatedAssociateId": 264
+  "Registered": "2023-01-28T11:06:41.9103479+01:00",
+  "RegisteredAssociateId": 670,
+  "Updated": "2021-04-16T11:06:41.9103479+02:00",
+  "UpdatedAssociateId": 10
 }
 ```
 
@@ -137,46 +137,46 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 406,
+  "HierarchyId": 475,
   "Domain": "Dashboards",
-  "Name": "Labadie-Cormier",
-  "Fullname": "debitis",
-  "ParentId": 815,
+  "Name": "Mosciski LLC",
+  "Fullname": "vitae",
+  "ParentId": 936,
   "Children": [
     {
-      "HierarchyId": 38,
+      "HierarchyId": 692,
       "Domain": "Dashboards",
-      "Name": "Kunde, Zemlak and Conroy",
-      "Fullname": "eveniet",
-      "ParentId": 802,
+      "Name": "Nikolaus-Hamill",
+      "Fullname": "et",
+      "ParentId": 694,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-02-29T03:24:51.630601+01:00",
-      "RegisteredAssociateId": 32,
-      "Updated": "2002-03-18T03:24:51.630601+01:00",
-      "UpdatedAssociateId": 867,
+      "Registered": "2012-01-05T11:06:41.9103479+01:00",
+      "RegisteredAssociateId": 40,
+      "Updated": "2005-10-17T11:06:41.9103479+02:00",
+      "UpdatedAssociateId": 560,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 954
+          "FieldLength": 108
         }
       }
     }
   ],
-  "Registered": "2004-11-28T03:24:51.630601+01:00",
-  "RegisteredAssociateId": 231,
-  "Updated": "2010-07-06T03:24:51.630601+02:00",
-  "UpdatedAssociateId": 840,
+  "Registered": "2017-07-31T11:06:41.9103479+02:00",
+  "RegisteredAssociateId": 304,
+  "Updated": "2000-09-04T11:06:41.9103479+02:00",
+  "UpdatedAssociateId": 899,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 102
     }
   },
   "_Links": {

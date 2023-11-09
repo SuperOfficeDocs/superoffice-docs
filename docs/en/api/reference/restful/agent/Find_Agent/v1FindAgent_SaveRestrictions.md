@@ -67,24 +67,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "est",
-  "ProviderName": "DuBuque LLC",
-  "StorageKey": "in",
+  "StorageType": "unde",
+  "ProviderName": "Murray, Lowe and Mann",
+  "StorageKey": "aperiam",
   "Restrictions": [
     {
-      "Name": "D'Amore, Kuvalis and Heidenreich",
-      "Operator": "quia",
+      "Name": "Dickinson LLC",
+      "Operator": "consequatur",
       "Values": [
-        "nemo",
-        "nemo"
+        "quia",
+        "delectus"
       ],
       "DisplayValues": [
-        "nam",
-        "et"
+        "excepturi",
+        "tenetur"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 712,
+      "InterParenthesis": 129,
       "InterOperator": "And",
-      "UniqueHash": 543
+      "UniqueHash": 880
     }
   ]
 }

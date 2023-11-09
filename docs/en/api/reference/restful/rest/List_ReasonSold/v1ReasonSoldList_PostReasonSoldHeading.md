@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 507,
-  "Name": "Mann Group",
-  "Tooltip": "id",
+  "HeadingId": 326,
+  "Name": "Emmerich-Kunze",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 409,
-  "UdListDefinitionId": 557
+  "Rank": 561,
+  "UdListDefinitionId": 897
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 685,
-  "Name": "Ernser-Stehr",
-  "Tooltip": "voluptas",
+  "HeadingId": 693,
+  "Name": "Hyatt-Tillman",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 634,
-  "UdListDefinitionId": 831,
+  "Rank": 240,
+  "UdListDefinitionId": 703,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 312
+      "FieldType": "System.Int32",
+      "FieldLength": 822
     }
   }
 }

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Block-Bechtelar",
-  "ModuleName": "King Inc and Sons"
+  "OwnerName": "Renner-Willms",
+  "ModuleName": "White LLC"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wisozk, Beatty and Beatty",
-  "ModuleName": "Thompson-Ullrich",
-  "ModuleDescription": "User-centric actuating installation",
-  "ModuleTooltip": "nihil",
-  "ModuleVersion": "magni",
+  "OwnerName": "Auer-Haag",
+  "ModuleName": "Dietrich-O'Reilly",
+  "ModuleDescription": "Enterprise-wide asynchronous application",
+  "ModuleTooltip": "ipsam",
+  "ModuleVersion": "mollitia",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 535,
-  "ExtraFlags": 570,
-  "ExtraInfo": "beatae",
-  "SortOrder": 193,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Hickle Group",
-  "Signature": "eos"
+  "NumberOfLicenses": 673,
+  "ExtraFlags": 986,
+  "ExtraInfo": "quia",
+  "SortOrder": 653,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Kub-Schowalter",
+  "Signature": "voluptatem"
 }
 ```

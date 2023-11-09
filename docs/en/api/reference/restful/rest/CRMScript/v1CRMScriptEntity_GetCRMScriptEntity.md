@@ -86,7 +86,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,28 +96,28 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 804,
-  "UniqueIdentifier": "ab",
-  "Name": "Collins Inc and Sons",
-  "Description": "Optimized even-keeled data-warehouse",
-  "IncludeId": "quis",
-  "HierarchyId": 114,
-  "Source": "distinctio",
-  "Registered": "2016-10-13T03:24:51.5368575+02:00",
-  "RegisteredAssociateId": 203,
-  "Updated": "2001-05-28T03:24:51.5368575+02:00",
-  "UpdatedAssociateId": 49,
+  "EjscriptId": 284,
+  "UniqueIdentifier": "et",
+  "Name": "Wintheiser Inc and Sons",
+  "Description": "Cross-group actuating task-force",
+  "IncludeId": "ut",
+  "HierarchyId": 92,
+  "Source": "officia",
+  "Registered": "2004-01-29T11:06:41.7853483+01:00",
+  "RegisteredAssociateId": 662,
+  "Updated": "2005-01-02T11:06:41.7853483+01:00",
+  "UpdatedAssociateId": 666,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldLength": 546
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

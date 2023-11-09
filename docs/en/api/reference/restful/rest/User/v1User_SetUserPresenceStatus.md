@@ -74,7 +74,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "eum"
+  "Message": "velit"
 }
 ```
 
@@ -86,6 +86,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "autem"
+  "Message": "dolor"
 }
 ```

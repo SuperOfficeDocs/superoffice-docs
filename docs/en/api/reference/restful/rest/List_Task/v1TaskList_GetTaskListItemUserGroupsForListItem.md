@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Cummings-Mertz",
-    "ToolTip": "Labore rem totam sapiente eos doloribus ad.",
-    "Deleted": false,
-    "Rank": 516,
-    "Type": "ullam",
-    "ColorBlock": 371,
-    "IconHint": "aperiam",
-    "Selected": false,
-    "LastChanged": "1997-06-06T03:24:52.4431914+02:00",
+    "Id": 643,
+    "Name": "Kilback Group",
+    "ToolTip": "Sequi facilis et illo magnam consequatur voluptas ipsam.",
+    "Deleted": true,
+    "Rank": 127,
+    "Type": "at",
+    "ColorBlock": 379,
+    "IconHint": "autem",
+    "Selected": true,
+    "LastChanged": "2010-04-16T11:06:43.1003256+02:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Lebsack Group",
-        "ToolTip": "Eaque qui est vel reprehenderit repellendus excepturi.",
-        "Deleted": false,
-        "Rank": 518,
-        "Type": "sed",
-        "ColorBlock": 244,
-        "IconHint": "possimus",
+        "Id": 450,
+        "Name": "Mitchell, Kessler and Nikolaus",
+        "ToolTip": "Ab fugit.",
+        "Deleted": true,
+        "Rank": 423,
+        "Type": "officiis",
+        "ColorBlock": 519,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2005-09-17T03:24:52.4431914+02:00",
+        "LastChanged": "1998-07-03T11:06:43.1003256+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "tempora",
-        "Hidden": false,
-        "FullName": "Dr. Antwon Quinn Heidenreich",
+        "ExtraInfo": "autem",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Katrine Hand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 815
+            "FieldType": "System.Int32",
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "hic",
+    "ExtraInfo": "sed",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Anjali Jacobs",
+    "FullName": "Filiberto Koss",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 130
       }
     }
   }

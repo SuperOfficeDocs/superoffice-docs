@@ -91,30 +91,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 888,
-  "UniqueId": "ad",
-  "Name": "Wyman, Mante and Wolff",
-  "Description": "Cross-platform clear-thinking utilisation",
-  "AssociateId": 307,
-  "Columns": 251,
+  "DashboardId": 167,
+  "UniqueId": "praesentium",
+  "Name": "Kautzer, Johnston and Kertzmann",
+  "Description": "Managed foreground policy",
+  "AssociateId": 212,
+  "Columns": 789,
   "Theme": null,
-  "VisibleForAll": 782,
+  "VisibleForAll": 735,
   "VisibleForAssociates": [
-    385,
-    642
+    652,
+    902
   ],
   "VisibleForGroups": [
-    532,
-    644
+    340,
+    1001
   ],
-  "PinForAll": 904,
+  "PinForAll": 942,
   "PinForAssociates": [
-    525,
-    831
+    527,
+    604
   ],
   "PinForGroups": [
-    61,
-    270
+    343,
+    683
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 767,
-  "UniqueId": "ea",
-  "Name": "Mann-Schiller",
-  "Description": "Enhanced 5th generation firmware",
-  "AssociateId": 391,
-  "Columns": 572,
+  "DashboardId": 608,
+  "UniqueId": "ratione",
+  "Name": "Deckow LLC",
+  "Description": "Centralized stable interface",
+  "AssociateId": 504,
+  "Columns": 418,
   "Theme": null,
-  "VisibleForAll": 633,
+  "VisibleForAll": 419,
   "VisibleForAssociates": [
-    753,
-    891
+    635,
+    789
   ],
   "VisibleForGroups": [
-    901,
-    61
+    132,
+    177
   ],
-  "PinForAll": 815,
+  "PinForAll": 626,
   "PinForAssociates": [
-    596,
-    194
+    302,
+    490
   ],
   "PinForGroups": [
-    72,
-    610
+    800,
+    843
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 523
     }
   }
 }

@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "fuga",
-  "ProviderName": "Schmeler-Fritsch",
-  "DesiredColumns": "reiciendis",
-  "OrderBy": "eum",
-  "PageSize": 471,
-  "PageNumber": 19
+  "Restrictions": "error",
+  "ProviderName": "Quitzon Group",
+  "DesiredColumns": "molestias",
+  "OrderBy": "excepturi",
+  "PageSize": 279,
+  "PageNumber": 14
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Powlowski LLC",
-      "DisplayTooltip": "quis",
-      "DisplayType": "asperiores",
+      "DisplayName": "Reichel Inc and Sons",
+      "DisplayTooltip": "exercitationem",
+      "DisplayType": "similique",
       "CanOrderBy": false,
-      "Name": "Huels, Rempel and Effertz",
+      "Name": "Bahringer LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "hic",
-      "RestrictionListName": "Zboncak Inc and Sons",
+      "RestrictionType": "quia",
+      "RestrictionListName": "Lockman LLC",
       "IsVisible": false,
-      "ExtraInfo": "odit",
-      "Width": "saepe",
-      "IconHint": "et",
-      "HeadingIconHint": "sint"
+      "ExtraInfo": "aliquam",
+      "Width": "quo",
+      "IconHint": "at",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bartell Inc and Sons",
-      "PrimaryKey": 14,
+      "EntityName": "Schowalter Group",
+      "PrimaryKey": 345,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "porro",
-          "TooltipHint": "dolorem",
-          "LinkHint": "beatae"
+          "DisplayValue": "harum",
+          "TooltipHint": "deleniti",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "sed",
-      "StyleHint": "ut",
+      "LinkHint": "ex",
+      "StyleHint": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldLength": 206
         }
       }
     }
   ],
-  "RowCount": 235,
+  "RowCount": 102,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldType": "System.String",
+      "FieldLength": 365
     }
   }
 }

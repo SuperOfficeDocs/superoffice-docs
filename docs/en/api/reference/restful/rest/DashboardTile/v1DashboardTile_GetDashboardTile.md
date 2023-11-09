@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 797,
-  "Caption": "nihil",
-  "Description": "User-friendly cohesive middleware",
-  "ChartName": "Davis, Corkery and Powlowski",
-  "ChartId": "occaecati",
-  "IsDefault": true,
-  "AssociateId": 452,
-  "GroupId": 992,
-  "SelectionId": 50,
-  "Config": "in",
+  "DashboardTileId": 480,
+  "Caption": "deleniti",
+  "Description": "Proactive hybrid neural-net",
+  "ChartName": "Shields Inc and Sons",
+  "ChartId": "veritatis",
+  "IsDefault": false,
+  "AssociateId": 417,
+  "GroupId": 607,
+  "SelectionId": 114,
+  "Config": "hic",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Jerde-Reichel",
-      "Description": "Programmable user-facing ability",
+      "Name": "Connelly, Wunsch and Kautzer",
+      "Description": "Enterprise-wide fault-tolerant open system",
       "Type": "Boolean",
-      "ListName": "Mante-Wyman",
+      "ListName": "Pfannerstill Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "est",
+      "Value": "cumque",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 75
+          "FieldLength": 795
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 921,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 755
+          "FieldType": "System.Int32",
+          "FieldLength": 331
         }
       }
     },
     {
-      "VisibleId": 921,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 755
+          "FieldType": "System.Int32",
+          "FieldLength": 331
         }
       }
     }
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldType": "System.String",
+      "FieldLength": 231
     }
   },
   "_Links": {

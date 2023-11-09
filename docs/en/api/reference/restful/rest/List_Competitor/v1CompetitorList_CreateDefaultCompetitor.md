@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Franecki Group",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "UdListDefinitionId": 662,
-  "Rank": 642,
+  "Id": 347,
+  "Name": "Quitzon, Lehner and Bartell",
+  "Tooltip": "delectus",
+  "Deleted": false,
+  "UdListDefinitionId": 670,
+  "Rank": 80,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldLength": 307
     }
   }
 }

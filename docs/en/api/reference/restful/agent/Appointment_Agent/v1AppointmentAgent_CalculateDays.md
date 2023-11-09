@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 667,
-  "StartDate": "2000-10-02T03:24:47.1270922+02:00",
-  "EndDate": "2005-09-19T03:24:47.1270922+02:00",
-  "RecurrenceCounter": 102,
+  "RecurrenceId": 423,
+  "StartDate": "2023-04-15T11:06:33.6007343+02:00",
+  "EndDate": "2008-02-21T11:06:33.6007343+01:00",
+  "RecurrenceCounter": 890,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2002-03-11T03:24:47.1270922+01:00",
-      "IsConflict": true,
-      "Description": "Fully-configurable even-keeled time-frame",
-      "DescriptionStyleHint": "Reactive exuding support",
-      "Tooltip": "sit"
+      "Date": "2010-02-21T11:06:33.6007343+01:00",
+      "IsConflict": false,
+      "Description": "Persevering encompassing emulation",
+      "DescriptionStyleHint": "Vision-oriented multi-tasking middleware",
+      "Tooltip": "a"
     },
     {
-      "Date": "2002-03-11T03:24:47.1270922+01:00",
-      "IsConflict": true,
-      "Description": "Fully-configurable even-keeled time-frame",
-      "DescriptionStyleHint": "Reactive exuding support",
-      "Tooltip": "sit"
+      "Date": "2010-02-21T11:06:33.6007343+01:00",
+      "IsConflict": false,
+      "Description": "Persevering encompassing emulation",
+      "DescriptionStyleHint": "Vision-oriented multi-tasking middleware",
+      "Tooltip": "a"
     }
   ],
   "IsRecurrence": false

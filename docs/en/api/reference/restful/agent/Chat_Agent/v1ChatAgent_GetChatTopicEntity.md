@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=430
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=250
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 781,
-  "Name": "Kessler, Will and Volkman",
-  "Description": "Adaptive dedicated process improvement",
-  "WelcomeMessage": "quam",
+  "ChatTopicId": 731,
+  "Name": "Schmidt, Skiles and Schuster",
+  "Description": "Programmable reciprocal leverage",
+  "WelcomeMessage": "est",
   "Language": null,
-  "LastAccept": "2005-04-21T03:24:47.3458115+02:00",
-  "SecondsPrAccept": 100,
-  "AlertRecipient": "voluptas",
+  "LastAccept": "2001-03-18T11:06:34.0496048+01:00",
+  "SecondsPrAccept": 848,
+  "AlertRecipient": "sit",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "id",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "nesciunt",
-  "WarnNewChatMinutes": 414,
-  "WarnManagerNewChatMinutes": 447,
-  "TicketEnabled": true,
+  "CollectConsent": true,
+  "BadgeHeader": "provident",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "corrupti",
+  "WarnNewChatMinutes": 451,
+  "WarnManagerNewChatMinutes": 836,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
@@ -131,19 +131,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 722,
-  "WarnManagerChatMessageMinutes": 658,
+  "WarnChatMessageMinutes": 487,
+  "WarnManagerChatMessageMinutes": 164,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 19,
-  "OfflineFormQueueLength": 69,
+  "OfflineFormTimeLimit": 102,
+  "OfflineFormQueueLength": 787,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quae",
+  "WidgetRatingText": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldType": "System.String",
+      "FieldLength": 278
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Runte LLC",
-    "ToolTip": "Et quia dolor unde aut aliquid dolor.",
+    "Id": 420,
+    "Name": "Quitzon, West and Schowalter",
+    "ToolTip": "Eius nesciunt.",
     "Deleted": false,
-    "Rank": 433,
-    "Type": "assumenda",
-    "ColorBlock": 768,
-    "IconHint": "corrupti",
-    "Selected": true,
-    "LastChanged": "2003-08-07T03:24:52.4431914+02:00",
+    "Rank": 514,
+    "Type": "optio",
+    "ColorBlock": 380,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2018-05-01T11:06:43.1003256+02:00",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Fadel, Littel and Brown",
-        "ToolTip": "Nostrum rerum qui quaerat impedit magni cum.",
+        "Id": 338,
+        "Name": "Marvin-Konopelski",
+        "ToolTip": "Et impedit dolore id neque omnis.",
         "Deleted": false,
-        "Rank": 423,
-        "Type": "fuga",
-        "ColorBlock": 60,
-        "IconHint": "deserunt",
+        "Rank": 61,
+        "Type": "nostrum",
+        "ColorBlock": 746,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2011-06-14T03:24:52.4431914+02:00",
+        "LastChanged": "2023-06-23T11:06:43.1003256+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "sed",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Riley Kuhic",
+        "FullName": "Gina Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldLength": 708
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "animi",
-    "Hidden": false,
-    "FullName": "Lillian Kuvalis",
+    "ExtraInfo": "sit",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Prof. Hertha Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldType": "System.String",
+        "FieldLength": 180
       }
     }
   }

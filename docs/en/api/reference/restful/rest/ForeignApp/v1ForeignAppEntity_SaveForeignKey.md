@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptates",
-  "Value": "dolorum",
-  "RecordId": 839,
-  "CreatedDate": "2019-01-27T03:24:51.630601+01:00",
-  "UpdatedDate": "2013-09-16T03:24:51.630601+02:00",
-  "UpdatedBy": "nemo",
-  "CreatedBy": "adipisci",
-  "TableName": "Sporer-Haag"
+  "Key": "quis",
+  "Value": "recusandae",
+  "RecordId": 44,
+  "CreatedDate": "2008-04-05T11:06:41.8947242+02:00",
+  "UpdatedDate": "2011-10-15T11:06:41.8947242+02:00",
+  "UpdatedBy": "culpa",
+  "CreatedBy": "et",
+  "TableName": "Macejkovic, Thiel and Weissnat"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "mollitia",
-  "Value": "alias",
-  "RecordId": 199,
-  "CreatedDate": "2021-08-13T03:24:51.630601+02:00",
-  "UpdatedDate": "2006-05-31T03:24:51.630601+02:00",
-  "UpdatedBy": "veritatis",
-  "CreatedBy": "modi",
-  "TableName": "Eichmann, Flatley and Nicolas",
+  "Key": "voluptas",
+  "Value": "ipsam",
+  "RecordId": 275,
+  "CreatedDate": "2006-03-03T11:06:41.8947242+01:00",
+  "UpdatedDate": "2022-10-13T11:06:41.8947242+02:00",
+  "UpdatedBy": "rem",
+  "CreatedBy": "adipisci",
+  "TableName": "Schuster Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 511
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
     {
       "CanSupportMultiUse": false,
       "DefaultShowInGui": true,
-      "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "et",
-      "ValueType": "porro",
+      "DefaultShowInSelector": true,
+      "IsActive": false,
+      "Key": "facilis",
+      "ValueType": "blanditiis",
       "Mandatory": false,
-      "EncodedDisplayName": "Berge, Cronin and Hilpert",
-      "EncodedDisplayDescription": "Networked logistical workforce",
-      "IconHint": "eum",
+      "EncodedDisplayName": "Medhurst-Doyle",
+      "EncodedDisplayDescription": "Mandatory exuding focus group",
+      "IconHint": "beatae",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "odio",
-      "EncodedDataCaptionDescription": "Pre-emptive 3rd generation neural-net",
-      "CurrentOperationType": "exercitationem",
+      "EncodedDataCaption": "molestiae",
+      "EncodedDataCaptionDescription": "Innovative value-added secured line",
+      "CurrentOperationType": "nam",
       "Values": [
-        "culpa",
-        "delectus"
+        "et",
+        "ut"
       ],
       "DisplayValues": [
-        "quibusdam",
-        "magni"
+        "eaque",
+        "eius"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Larkin Inc and Sons",
-  "Context": "et",
-  "SelectionId": 30,
+  "TableName": "Hand, Daugherty and Swift",
+  "Context": "sed",
+  "SelectionId": 38,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-324
+894
 ```

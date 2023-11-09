@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 376,
-  "CurrencyId": 813
+  "QuoteConnectionId": 259,
+  "CurrencyId": 788
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 179,
-    "ERPPriceListKey": "quasi",
-    "QuoteConnectionId": 744,
-    "Name": "Trantow, Veum and Swaniawski",
-    "Description": "Organized demand-driven parallelism",
-    "Currency": "delectus",
-    "CurrencyName": "Anderson LLC",
-    "ValidFrom": "2001-09-12T03:24:48.1426062+02:00",
-    "ValidTo": "1999-02-05T03:24:48.1426062+01:00",
-    "IsActive": false,
+    "PriceListId": 19,
+    "ERPPriceListKey": "maxime",
+    "QuoteConnectionId": 342,
+    "Name": "Murazik, Turner and Hamill",
+    "Description": "Down-sized contextually-based Graphical User Interface",
+    "Currency": "cum",
+    "CurrencyName": "Hyatt-Harvey",
+    "ValidFrom": "2018-05-26T11:06:35.2239506+02:00",
+    "ValidTo": "1998-06-22T11:06:35.2239506+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 280
       }
     }
   }

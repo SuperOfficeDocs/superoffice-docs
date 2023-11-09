@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 789,
-  "Name": "Greenfelder, Parisian and Schinner",
-  "AssociateId": 340,
-  "DetailsTable": 866,
-  "DetailsRecord": 332,
+  "Id": 845,
+  "Name": "Connelly, Bogan and McDermott",
+  "AssociateId": 754,
+  "DetailsTable": 709,
+  "DetailsRecord": 287,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "placeat",
-    "ParameterObject2": "beatae"
+    "ParameterObject1": "a",
+    "ParameterObject2": "inventore"
   },
-  "LastStarted": "2006-08-07T03:24:52.0213616+02:00",
-  "Created": "2015-04-06T03:24:52.0213616+02:00",
-  "StartCount": 780,
-  "DatabaseSerialNumber": "460688",
-  "Context": "nihil",
-  "Result": "vitae",
+  "LastStarted": "2001-07-26T11:06:42.3803732+02:00",
+  "Created": "2011-03-03T11:06:42.3803732+01:00",
+  "StartCount": 986,
+  "DatabaseSerialNumber": "497935",
+  "Context": "et",
+  "Result": "corporis",
   "State": "All",
-  "Description": "Horizontal incremental firmware",
-  "Response": "sunt",
-  "Request": "iusto",
-  "ProgressDescription": "Upgradable methodical framework",
-  "ProgressPercent": 758,
-  "FileName": "Kiehn, Ortiz and Little",
+  "Description": "Multi-lateral full-range architecture",
+  "Response": "blanditiis",
+  "Request": "repudiandae",
+  "ProgressDescription": "Vision-oriented national system engine",
+  "ProgressPercent": 63,
+  "FileName": "Tremblay, McDermott and Windler",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 504
+      "FieldLength": 100
     }
   }
 }

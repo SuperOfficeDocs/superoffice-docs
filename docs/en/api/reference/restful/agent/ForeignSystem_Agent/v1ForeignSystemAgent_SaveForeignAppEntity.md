@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 331,
-  "Name": "Nader, Conroy and Hagenes",
-  "CreatedDate": "2011-05-21T03:24:47.8145137+02:00",
-  "UpdatedDate": "2023-07-04T03:24:47.8145137+02:00",
+  "ForeignAppId": 116,
+  "Name": "Bauch-Runolfsson",
+  "CreatedDate": "2002-04-21T11:06:34.6145606+02:00",
+  "UpdatedDate": "2004-11-12T11:06:34.6145606+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 494,
-      "Name": "Yundt Group",
-      "CreatedDate": "1997-02-02T03:24:47.8145137+01:00",
-      "UpdatedDate": "2012-09-21T03:24:47.8145137+02:00",
-      "AssociateFullName": "Erich Parker",
-      "CreatedBy": "assumenda",
-      "UpdatedBy": "accusamus",
-      "DeviceIdentifier": "molestiae",
-      "ForeignAppId": 285
+      "ForeignDeviceId": 466,
+      "Name": "Leannon LLC",
+      "CreatedDate": "2008-07-28T11:06:34.6145606+02:00",
+      "UpdatedDate": "2021-10-10T11:06:34.6145606+02:00",
+      "AssociateFullName": "Dixie Jones",
+      "CreatedBy": "ducimus",
+      "UpdatedBy": "vel",
+      "DeviceIdentifier": "voluptas",
+      "ForeignAppId": 761
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 6,
-  "Name": "Rolfson Group",
-  "CreatedDate": "2012-04-03T03:24:47.8145137+02:00",
-  "UpdatedDate": "1996-06-12T03:24:47.8145137+02:00",
+  "ForeignAppId": 909,
+  "Name": "Renner-Willms",
+  "CreatedDate": "1998-10-07T11:06:34.6301875+02:00",
+  "UpdatedDate": "2015-01-18T11:06:34.6301875+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 928,
-      "Name": "Predovic, Cummerata and Pouros",
-      "CreatedDate": "2016-05-09T03:24:47.8145137+02:00",
-      "UpdatedDate": "2000-02-09T03:24:47.8145137+01:00",
-      "AssociateFullName": "Alice Schultz",
-      "CreatedBy": "autem",
-      "UpdatedBy": "quos",
-      "DeviceIdentifier": "fugit",
-      "ForeignAppId": 163,
+      "ForeignDeviceId": 436,
+      "Name": "Nolan, Dietrich and Balistreri",
+      "CreatedDate": "2011-06-01T11:06:34.6301875+02:00",
+      "UpdatedDate": "2002-03-11T11:06:34.6301875+01:00",
+      "AssociateFullName": "Eladio Pollich",
+      "CreatedBy": "similique",
+      "UpdatedBy": "libero",
+      "DeviceIdentifier": "necessitatibus",
+      "ForeignAppId": 128,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 640
+          "FieldLength": 949
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldType": "System.String",
+      "FieldLength": 459
     }
   }
 }

@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 351,
-  "Name": "Wunsch-Fisher",
+  "ScreenChooserId": 623,
+  "Name": "Gaylord, Roob and Yost",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "sit",
-  "Source": "cupiditate",
-  "Registered": "2001-08-02T03:24:52.0213616+02:00",
-  "RegisteredAssociateId": 629,
-  "Updated": "2001-03-08T03:24:52.0213616+01:00",
-  "UpdatedAssociateId": 766,
+  "Enabled": false,
+  "UniqueIdentifier": "qui",
+  "Source": "beatae",
+  "Registered": "2007-05-20T11:06:42.3647477+02:00",
+  "RegisteredAssociateId": 436,
+  "Updated": "1999-07-04T11:06:42.3647477+02:00",
+  "UpdatedAssociateId": 693,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldLength": 602
     }
   }
 }

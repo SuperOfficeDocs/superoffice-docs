@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 547,
-  "Name": "Johnson LLC",
-  "Tooltip": "expedita",
+  "Id": 263,
+  "Name": "Wuckert-Harber",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 622,
+  "Rank": 579,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "minus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 573,
-  "Name": "Cassin Inc and Sons",
-  "Tooltip": "consequatur",
+  "Id": 276,
+  "Name": "Blanda Group",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 25,
+  "Rank": 95,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eos",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldLength": 933
     }
   }
 }

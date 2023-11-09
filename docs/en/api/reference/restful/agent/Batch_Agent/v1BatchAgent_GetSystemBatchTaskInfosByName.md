@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "O'Keefe-Schmitt"
+  "TaskName": "Hickle LLC"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Wyman-Wuckert",
-    "AssociateId": 572,
-    "DetailsTable": 295,
-    "DetailsRecord": 817,
+    "Id": 805,
+    "Name": "Schneider-Cole",
+    "AssociateId": 164,
+    "DetailsTable": 412,
+    "DetailsRecord": 40,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "sunt",
-      "ParameterObject2": "suscipit"
+      "ParameterObject1": "illo",
+      "ParameterObject2": "occaecati"
     },
-    "LastStarted": "2000-04-09T03:24:47.2520803+02:00",
-    "Created": "2014-11-05T03:24:47.2520803+01:00",
-    "StartCount": 886,
-    "DatabaseSerialNumber": "495212",
-    "Context": "in",
-    "Result": "nesciunt",
+    "LastStarted": "2014-01-25T11:06:33.7972715+01:00",
+    "Created": "2019-06-22T11:06:33.7972715+02:00",
+    "StartCount": 531,
+    "DatabaseSerialNumber": "745252",
+    "Context": "ut",
+    "Result": "beatae",
     "State": "All",
-    "Description": "Vision-oriented multi-tasking focus group",
-    "Response": "qui",
-    "Request": "rerum",
-    "ProgressDescription": "Triple-buffered local service-desk",
-    "ProgressPercent": 955,
-    "FileName": "Kunze-Schinner",
+    "Description": "Versatile interactive moderator",
+    "Response": "id",
+    "Request": "nemo",
+    "ProgressDescription": "Visionary optimal capacity",
+    "ProgressPercent": 160,
+    "FileName": "Kub-Bogan",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldLength": 900
       }
     }
   }

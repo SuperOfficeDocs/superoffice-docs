@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Koss, Crist and Osinski",
+  "ProviderName": "Mohr, Krajcik and Gibson",
   "Restrictions": [
     {
-      "Name": "Watsica-Rowe",
-      "Operator": "quis",
+      "Name": "Murazik Inc and Sons",
+      "Operator": "sunt",
       "Values": [
-        "eum",
-        "aut"
+        "qui",
+        "occaecati"
       ],
       "DisplayValues": [
-        "facilis",
-        "eum"
+        "aut",
+        "veniam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 501,
+      "InterParenthesis": 767,
       "InterOperator": "And",
-      "UniqueHash": 129
+      "UniqueHash": 921
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jewess Group",
-    "Operator": "commodi",
+    "Name": "Hoeger, Nader and Turner",
+    "Operator": "est",
     "Values": [
-      "maxime",
-      "est"
+      "quaerat",
+      "odit"
     ],
     "DisplayValues": [
-      "voluptas",
-      "vel"
+      "maiores",
+      "numquam"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Haley, Larson and Cormier",
-        "Operator": "id",
+        "Name": "Schuppe-Simonis",
+        "Operator": "quos",
         "Values": [
-          "itaque",
-          "qui"
+          "numquam",
+          "praesentium"
         ],
         "DisplayValues": [
-          "et",
-          "enim"
+          "tenetur",
+          "non"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 406,
+        "InterParenthesis": 843,
         "InterOperator": "And",
-        "UniqueHash": 731
+        "UniqueHash": 560
       }
     ],
-    "InterParenthesis": 497,
+    "InterParenthesis": 422,
     "InterOperator": "And",
-    "UniqueHash": 865
+    "UniqueHash": 44
   }
 ]
 ```

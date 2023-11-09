@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 981,
-  "Name": "Johns, Bogan and Kuhlman",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 334,
-  "UdListDefinitionId": 366
+  "HeadingId": 730,
+  "Name": "O'Conner LLC",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 612,
+  "UdListDefinitionId": 470
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 575,
-  "Name": "Adams-Hackett",
-  "Tooltip": "facere",
-  "Deleted": true,
-  "Rank": 111,
-  "UdListDefinitionId": 298,
+  "HeadingId": 473,
+  "Name": "Mohr, Terry and Marquardt",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 420,
+  "UdListDefinitionId": 164,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 155
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

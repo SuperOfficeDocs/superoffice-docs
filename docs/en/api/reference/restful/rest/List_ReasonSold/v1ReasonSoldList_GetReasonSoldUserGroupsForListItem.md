@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Rempel-Luettgen",
-    "ToolTip": "Libero totam ab fugiat est.",
-    "Deleted": true,
-    "Rank": 555,
-    "Type": "dolorem",
-    "ColorBlock": 549,
-    "IconHint": "debitis",
+    "Id": 833,
+    "Name": "Kautzer-Considine",
+    "ToolTip": "Sit officiis quidem aspernatur nulla est natus.",
+    "Deleted": false,
+    "Rank": 743,
+    "Type": "minus",
+    "ColorBlock": 698,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2002-06-02T03:24:52.3963183+02:00",
+    "LastChanged": "2010-02-27T11:06:43.0222001+01:00",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "Armstrong Inc and Sons",
-        "ToolTip": "Ea voluptate eveniet repellendus.",
+        "Id": 902,
+        "Name": "Hayes, Mraz and Streich",
+        "ToolTip": "Et voluptatem provident quo sint.",
         "Deleted": true,
-        "Rank": 845,
-        "Type": "fugiat",
-        "ColorBlock": 788,
-        "IconHint": "velit",
+        "Rank": 522,
+        "Type": "ipsum",
+        "ColorBlock": 104,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2016-12-01T03:24:52.3963183+01:00",
+        "LastChanged": "2005-12-09T11:06:43.0222001+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "velit",
-        "Hidden": false,
-        "FullName": "Reva Considine",
+        "ExtraInfo": "a",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Fay Hegmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 256
+            "FieldLength": 725
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Alfred Donnelly",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "consequuntur",
+    "Hidden": true,
+    "FullName": "Ms. Felix Huel V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 812
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 888,
-    "Name": "Mosciski-Franecki",
-    "Tooltip": "magnam",
-    "Deleted": true,
-    "Rank": 678,
-    "UdListDefinitionId": 301,
+    "HeadingId": 585,
+    "Name": "Effertz-Durgan",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 13,
+    "UdListDefinitionId": 41,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 950
       }
     }
   }

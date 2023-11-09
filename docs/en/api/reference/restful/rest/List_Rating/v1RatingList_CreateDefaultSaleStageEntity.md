@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 241,
-  "Value": "modi",
-  "Tooltip": "enim",
-  "Probability": 681,
+  "SaleStageId": 727,
+  "Value": "molestiae",
+  "Tooltip": "commodi",
+  "Probability": 790,
   "Deleted": true,
-  "Rank": 609,
+  "Rank": 390,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 621
+      "FieldLength": 607
     }
   }
 }

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "McKenzie LLC",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "UdListDefinitionId": 538,
-  "Rank": 57
+  "Id": 35,
+  "Name": "O'Keefe Group",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 664,
+  "Rank": 386
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 659,
-  "Name": "Larson, Cummerata and Towne",
-  "Tooltip": "in",
-  "Deleted": false,
-  "UdListDefinitionId": 834,
-  "Rank": 238,
+  "Id": 177,
+  "Name": "Trantow, Satterfield and Cummings",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 841,
+  "Rank": 37,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 59
     }
   }
 }

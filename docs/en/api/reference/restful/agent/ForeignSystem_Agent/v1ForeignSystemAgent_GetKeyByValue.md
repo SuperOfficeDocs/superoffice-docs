@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Runolfsdottir, Corkery and Lubowitz",
-  "DeviceName": "Langosh Group",
-  "KeyName": "Muller Inc and Sons",
-  "KeyValue": "blanditiis",
-  "TableName": "Zemlak, Hessel and Romaguera"
+  "ApplicationName": "Dibbert, Murazik and Lakin",
+  "DeviceName": "Bosco-Blick",
+  "KeyName": "Gutkowski, Bartell and Bauch",
+  "KeyValue": "soluta",
+  "TableName": "Dooley LLC"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolorem",
-  "Value": "voluptatem",
-  "RecordId": 299,
-  "CreatedDate": "2022-05-03T03:24:47.8145137+02:00",
-  "UpdatedDate": "2011-06-16T03:24:47.8145137+02:00",
-  "UpdatedBy": "quasi",
-  "CreatedBy": "corporis",
-  "TableName": "Kessler LLC",
+  "Key": "eos",
+  "Value": "in",
+  "RecordId": 863,
+  "CreatedDate": "2010-02-21T11:06:34.6301875+01:00",
+  "UpdatedDate": "2000-10-31T11:06:34.6301875+01:00",
+  "UpdatedBy": "ad",
+  "CreatedBy": "qui",
+  "TableName": "Nienow Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 232
+      "FieldLength": 118
     }
   }
 }

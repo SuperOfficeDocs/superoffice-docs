@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 202,
-  "DimensionId": 157
+  "TargetYear": 701,
+  "DimensionId": 583
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 24,
-  "Year": 32,
+  "TargetGroupId": 451,
+  "Year": 785,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 707,
+      "TargetAssignmentInfoId": 127,
       "Values": [
-        631,
-        269
+        195,
+        609
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 499,
-      "DimensionListItemDisplayName": "Von Inc and Sons",
+      "DimensionListItem": 177,
+      "DimensionListItemDisplayName": "Leannon-Considine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldType": "System.String",
+          "FieldLength": 339
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 431
     }
   }
 }

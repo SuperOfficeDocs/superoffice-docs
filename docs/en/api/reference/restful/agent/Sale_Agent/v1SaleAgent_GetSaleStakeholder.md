@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=914
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=697
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "McCullough, Considine and Howe",
-  "Comment": "ut",
-  "StakeholderRoleId": 137,
-  "CountryId": 657,
-  "PersonId": 513,
-  "EmailDescription": "bria@hegmann.us",
-  "EmailId": 270,
-  "EmailAddress": "julius@willmsziemann.com",
-  "PhoneId": 470,
-  "ContactName": "Johnston, Smitham and Muller",
-  "ContactId": 206,
-  "SaleId": 403,
-  "Mrmrs": "quia",
-  "Firstname": "Savanna",
-  "MiddleName": "Yundt-Reichel",
-  "Lastname": "Kris",
-  "SaleStakeholderId": 83,
-  "Rank": 302,
-  "Phone": "(825)860-2387",
+  "StakeholderRoleName": "Howe-Dibbert",
+  "Comment": "natus",
+  "StakeholderRoleId": 909,
+  "CountryId": 672,
+  "PersonId": 282,
+  "EmailDescription": "audra@rosenbaum.com",
+  "EmailId": 259,
+  "EmailAddress": "parker@dietrich.us",
+  "PhoneId": 867,
+  "ContactName": "Padberg-Tillman",
+  "ContactId": 974,
+  "SaleId": 841,
+  "Mrmrs": "inventore",
+  "Firstname": "Junior",
+  "MiddleName": "Cormier-Stark",
+  "Lastname": "Hoeger",
+  "SaleStakeholderId": 823,
+  "Rank": 642,
+  "Phone": "867.363.9898 x7968",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldType": "System.String",
+      "FieldLength": 477
     }
   }
 }

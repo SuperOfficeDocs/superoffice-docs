@@ -74,7 +74,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 820
+  "ErpConnectionId": 773
 }
 ```
 
@@ -85,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quia",
-  "nulla"
+  "reiciendis",
+  "in"
 ]
 ```

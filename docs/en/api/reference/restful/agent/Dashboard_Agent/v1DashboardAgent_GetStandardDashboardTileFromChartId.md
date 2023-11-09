@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "dolorem"
+  "ChartId": "voluptate"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 645,
-  "Caption": "saepe",
-  "Description": "Right-sized client-server firmware",
-  "ChartName": "Leffler LLC",
-  "ChartId": "sunt",
+  "DashboardTileId": 515,
+  "Caption": "et",
+  "Description": "Ergonomic incremental customer loyalty",
+  "ChartName": "Kreiger-Hermiston",
+  "ChartId": "beatae",
   "IsDefault": false,
-  "AssociateId": 668,
-  "GroupId": 543,
-  "SelectionId": 552,
-  "Config": "optio",
+  "AssociateId": 163,
+  "GroupId": 565,
+  "SelectionId": 805,
+  "Config": "voluptate",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Stiedemann-Bartoletti",
-      "Description": "Persevering optimal attitude",
+      "Name": "Moen Inc and Sons",
+      "Description": "Digitized client-server focus group",
       "Type": "Boolean",
-      "ListName": "Von Inc and Sons",
+      "ListName": "Greenholt, Donnelly and Bartell",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "qui",
-      "DefaultDataOption": false,
+      "Value": "nesciunt",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldType": "System.String",
+          "FieldLength": 583
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 644,
+      "VisibleId": 953,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 368
         }
       }
     },
     {
-      "VisibleId": 644,
+      "VisibleId": 953,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 368
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 354
     }
   }
 }

@@ -118,10 +118,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 639,
+  "SelectionId": 612,
   "SelectionMemberIds": [
-    837,
-    17
+    502,
+    890
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Team-oriented zero tolerance leverage",
-  "Postit": "eaque",
+  "Description": "Fundamental clear-thinking extranet",
+  "Postit": "ipsum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 656,
-  "IncludePerson": 889,
-  "MemberCount": 991,
-  "Name": "Johnson Group",
-  "PostitTextId": 288,
-  "CreatedDate": "2007-04-13T03:24:48.2524255+02:00",
-  "SelectionId": 482,
-  "SoundEx": "eligendi",
-  "Source": 427,
-  "TextId": 110,
-  "UpdatedDate": "2007-12-12T03:24:48.2524255+01:00",
-  "UpdatedCount": 175,
-  "Visibility": 714,
+  "GroupIdx": 737,
+  "IncludePerson": 652,
+  "MemberCount": 202,
+  "Name": "Langworth, Harvey and Frami",
+  "PostitTextId": 126,
+  "CreatedDate": "2018-01-11T11:06:35.3801953+01:00",
+  "SelectionId": 686,
+  "SoundEx": "voluptatibus",
+  "Source": 888,
+  "TextId": 754,
+  "UpdatedDate": "2005-08-13T11:06:35.3801953+02:00",
+  "UpdatedCount": 778,
+  "Visibility": 981,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 409,
-  "TargetTableName": "Halvorson-Donnelly",
+  "TargetTableNumber": 813,
+  "TargetTableName": "Schultz-Shanahan",
   "Completed": true,
-  "LeftSelectionId": 441,
-  "RightSelectionId": 149,
+  "LeftSelectionId": 401,
+  "RightSelectionId": 697,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Deckow Inc and Sons",
-  "ShadowProviderName": "Schumm, Rath and O'Keefe",
-  "ChartKey": "in",
-  "LastLoaded": "2008-11-29T03:24:48.2524255+01:00",
-  "LastLoadedBy": 207,
+  "MainProviderName": "Mills-Kovacek",
+  "ShadowProviderName": "Satterfield, Gottlieb and Sawayn",
+  "ChartKey": "voluptas",
+  "LastLoaded": "2021-12-04T11:06:35.3801953+01:00",
+  "LastLoadedBy": 228,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-10-02T03:24:48.2524255+02:00",
-  "LastMembershipChangeBy": 943,
+  "LastMembershipChange": "2002-03-01T11:06:35.3801953+01:00",
+  "LastMembershipChangeBy": 918,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Langworth-Goldner",
-  "DashboardTileDefinitionId": 652,
+  "MainHeading": "temporibus",
+  "MemberTabHeading": "sint",
+  "MailingsProviderName": "Mann, Bailey and Steuber",
+  "DashboardTileDefinitionId": 500,
   "VisibleFor": [
     {
-      "VisibleId": 44,
+      "VisibleId": 873,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 911
         }
       }
     },
     {
-      "VisibleId": 44,
+      "VisibleId": 873,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 911
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 998
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

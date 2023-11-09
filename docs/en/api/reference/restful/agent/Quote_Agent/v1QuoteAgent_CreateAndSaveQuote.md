@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 665,
-  "ConnectionId": 203,
-  "FirstAlternativeName": "O'Keefe Group"
+  "SaleId": 384,
+  "ConnectionId": 358,
+  "FirstAlternativeName": "Jenkins, Ebert and Klocko"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 411,
-  "SaleId": 233,
-  "QuoteConnectionId": 310,
-  "ERPQuoteKey": "ullam",
-  "ERPOrderKey": "assumenda",
-  "ActiveQuoteVersionId": 574,
-  "AcceptedQuoteAlternativeId": 695,
-  "UseValuesFromQuote": 382,
-  "DocumentId": 794,
-  "PoNumber": "624001",
-  "OrderComment": "nam",
-  "PreferredEmailCulture": "walton_bahringer@nitzsche.ca",
+  "QuoteId": 184,
+  "SaleId": 227,
+  "QuoteConnectionId": 295,
+  "ERPQuoteKey": "itaque",
+  "ERPOrderKey": "ut",
+  "ActiveQuoteVersionId": 339,
+  "AcceptedQuoteAlternativeId": 489,
+  "UseValuesFromQuote": 423,
+  "DocumentId": 741,
+  "PoNumber": "604387",
+  "OrderComment": "eos",
+  "PreferredEmailCulture": "caesar.dooley@moore.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 974,
-      "ERPQuoteVersionKey": "in",
-      "QuoteId": 520,
-      "Description": "Enhanced full-range framework",
-      "Number": "1008115",
+      "QuoteVersionId": 469,
+      "ERPQuoteVersionKey": "ab",
+      "QuoteId": 636,
+      "Description": "Multi-layered local orchestration",
+      "Number": "985737",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 400,
-      "SentDate": "2004-11-16T03:24:48.1426062+01:00",
-      "FollowupId": 419,
-      "ExpirationDate": "2006-01-13T03:24:48.1426062+01:00",
-      "DeliveryCountryId": 579,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 479,
+      "LikelyQuoteAlternativeId": 558,
+      "SentDate": "2017-04-19T11:06:35.2239506+02:00",
+      "FollowupId": 269,
+      "ExpirationDate": "2010-07-07T11:06:35.2239506+02:00",
+      "DeliveryCountryId": 223,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 397,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "eum",
-      "ERPPaymentTypeKey": "eum",
-      "ERPDeliveryTermsKey": "sapiente",
-      "ERPDeliveryTypeKey": "quis",
-      "Rank": 605,
-      "ApprovedBy": 351,
-      "ApprovedText": "nihil",
-      "ApprovedRegisteredBy": 575,
-      "ApprovedRegisteredDate": "2000-08-03T03:24:48.1426062+02:00",
-      "ExtraField1": "sunt",
-      "ExtraField2": "laborum",
-      "ExtraField3": "eveniet",
-      "ExtraField4": "et",
-      "ExtraField5": "consequuntur",
-      "LastRecalculated": "2006-12-24T03:24:48.1426062+01:00",
-      "Updated": "2007-05-20T03:24:48.1426062+02:00",
-      "UpdatedAssociateId": 316,
-      "Registered": "2012-05-09T03:24:48.1426062+02:00",
-      "RegisteredAssociateId": 661,
-      "RequestAssociateId": 21,
-      "RequestComment": "ratione",
+      "ERPPaymentTermsKey": "et",
+      "ERPPaymentTypeKey": "facilis",
+      "ERPDeliveryTermsKey": "et",
+      "ERPDeliveryTypeKey": "totam",
+      "Rank": 774,
+      "ApprovedBy": 852,
+      "ApprovedText": "qui",
+      "ApprovedRegisteredBy": 911,
+      "ApprovedRegisteredDate": "2018-09-06T11:06:35.2239506+02:00",
+      "ExtraField1": "rem",
+      "ExtraField2": "quae",
+      "ExtraField3": "dolorem",
+      "ExtraField4": "magni",
+      "ExtraField5": "dolores",
+      "LastRecalculated": "2001-09-15T11:06:35.2239506+02:00",
+      "Updated": "2023-10-29T11:06:35.2239506+01:00",
+      "UpdatedAssociateId": 468,
+      "Registered": "2016-03-28T11:06:35.2239506+02:00",
+      "RegisteredAssociateId": 920,
+      "RequestAssociateId": 637,
+      "RequestComment": "nulla",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 734
+          "FieldType": "System.Int32",
+          "FieldLength": 623
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 990
     }
   }
 }

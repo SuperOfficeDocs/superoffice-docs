@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=228
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=724
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 953,
-  "UniqueIdentifier": "totam",
-  "Name": "Wisoky-Kub",
-  "Description": "Inverse full-range local area network",
-  "IncludeId": "enim",
-  "HierarchyId": 345,
-  "Source": "aut",
-  "Registered": "2005-05-08T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 445,
-  "Updated": "2013-10-17T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 417,
+  "EjscriptId": 343,
+  "UniqueIdentifier": "neque",
+  "Name": "Spinka, Predovic and Stehr",
+  "Description": "Integrated fresh-thinking hierarchy",
+  "IncludeId": "maiores",
+  "HierarchyId": 960,
+  "Source": "eligendi",
+  "Registered": "2009-05-01T11:06:34.2383276+02:00",
+  "RegisteredAssociateId": 775,
+  "Updated": "1999-04-29T11:06:34.2383276+02:00",
+  "UpdatedAssociateId": 832,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldLength": 434
     }
   }
 }

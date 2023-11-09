@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Bradtke Group",
-    "ToolTip": "In tempora veritatis ea quibusdam saepe voluptatem tempore.",
+    "Id": 175,
+    "Name": "Boyer, Hilpert and Schamberger",
+    "ToolTip": "Excepturi laborum consequatur culpa totam et accusantium est.",
     "Deleted": false,
-    "Rank": 654,
-    "Type": "sed",
-    "ColorBlock": 403,
-    "IconHint": "saepe",
+    "Rank": 687,
+    "Type": "aperiam",
+    "ColorBlock": 834,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2011-09-04T03:24:52.1932187+02:00",
+    "LastChanged": "2006-10-05T11:06:42.7253202+02:00",
     "ChildItems": [
       {
-        "Id": 847,
-        "Name": "Daniel LLC",
-        "ToolTip": "Animi et optio ab temporibus error.",
+        "Id": 744,
+        "Name": "Kiehn-Altenwerth",
+        "ToolTip": "Adipisci eum quisquam et voluptatem amet.",
         "Deleted": false,
-        "Rank": 730,
-        "Type": "fugiat",
-        "ColorBlock": 301,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2007-06-26T03:24:52.1932187+02:00",
+        "Rank": 60,
+        "Type": "quisquam",
+        "ColorBlock": 280,
+        "IconHint": "ipsa",
+        "Selected": true,
+        "LastChanged": "2021-02-02T11:06:42.7253202+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "totam",
+        "ExtraInfo": "iusto",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Zora Schroeder DVM"
+        "FullName": "Yasmine Weissnat"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "commodi",
+    "ExtraInfo": "a",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Veronica Larson"
+    "FullName": "Verdie Wyman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 544,
-    "Name": "Donnelly, Dare and Gutkowski",
-    "ToolTip": "Consequatur deserunt excepturi eveniet autem veritatis.",
+    "Id": 144,
+    "Name": "Heller-Lubowitz",
+    "ToolTip": "Cumque unde nihil.",
     "Deleted": false,
-    "Rank": 647,
-    "Type": "atque",
-    "ColorBlock": 500,
-    "IconHint": "provident",
+    "Rank": 482,
+    "Type": "et",
+    "ColorBlock": 773,
+    "IconHint": "perspiciatis",
     "Selected": true,
-    "LastChanged": "2022-08-31T03:24:52.1932187+02:00",
+    "LastChanged": "2016-08-08T11:06:42.7253202+02:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Bode Group",
-        "ToolTip": "Sapiente maiores mollitia maiores aspernatur iusto voluptas eveniet.",
-        "Deleted": true,
-        "Rank": 373,
-        "Type": "earum",
-        "ColorBlock": 657,
-        "IconHint": "suscipit",
-        "Selected": false,
-        "LastChanged": "2022-04-17T03:24:52.1932187+02:00",
+        "Id": 918,
+        "Name": "Hyatt-Runolfsdottir",
+        "ToolTip": "Omnis et cupiditate quaerat reprehenderit.",
+        "Deleted": false,
+        "Rank": 827,
+        "Type": "sequi",
+        "ColorBlock": 347,
+        "IconHint": "officia",
+        "Selected": true,
+        "LastChanged": "2016-06-03T11:06:42.7253202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "optio",
+        "ExtraInfo": "saepe",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Randall Berge",
+        "FullName": "Mr. Tom Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 388
+            "FieldType": "System.Int32",
+            "FieldLength": 574
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "officiis",
-    "Hidden": false,
-    "FullName": "Dejah Christiansen",
+    "ExtraInfo": "dolores",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Verner Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldLength": 852
       }
     }
   }

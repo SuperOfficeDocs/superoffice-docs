@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 341,
-    "Name": "Mosciski-Hintz",
-    "Tooltip": "vel",
-    "Deleted": true,
-    "Rank": 494,
-    "UdListDefinitionId": 650,
+    "HeadingId": 437,
+    "Name": "Boehm Inc and Sons",
+    "Tooltip": "quibusdam",
+    "Deleted": false,
+    "Rank": 439,
+    "UdListDefinitionId": 835,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 5
       }
     }
   }

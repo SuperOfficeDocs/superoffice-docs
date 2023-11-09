@@ -133,12 +133,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 144,
-  "AssociateId": 87
+  "AppointmentId": 745,
+  "AssociateId": 505
 }
 ```
 
@@ -153,125 +153,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-12-22T03:24:47.1114653+01:00",
-  "AppointmentId": 216,
-  "Description": "Multi-channelled dynamic conglomeration",
-  "StartDate": "2012-08-22T03:24:47.1114653+02:00",
-  "EndDate": "2003-04-25T03:24:47.1114653+02:00",
+  "CreatedDate": "2021-06-18T11:06:33.5851084+02:00",
+  "AppointmentId": 283,
+  "Description": "Multi-tiered needs-based collaboration",
+  "StartDate": "2009-04-03T11:06:33.5851084+02:00",
+  "EndDate": "2015-12-08T11:06:33.5851084+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 514,
+  "MotherId": 851,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-01-09T03:24:47.1114653+01:00",
+  "UpdatedDate": "2002-09-07T11:06:33.5851084+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 767,
+  "ActiveLinks": 923,
   "Links": [
     {
-      "EntityName": "Gibson LLC",
-      "Id": 472,
-      "Description": "Fundamental methodical workforce",
-      "ExtraInfo": "non",
-      "LinkId": 640,
+      "EntityName": "Huels Group",
+      "Id": 924,
+      "Description": "User-centric responsive algorithm",
+      "ExtraInfo": "et",
+      "LinkId": 934,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldType": "System.String",
+          "FieldLength": 938
         }
       }
     }
   ],
-  "AlarmLeadTime": "dolores",
-  "HasAlarm": false,
-  "ColorIndex": 488,
-  "IsFree": false,
+  "AlarmLeadTime": "debitis",
+  "HasAlarm": true,
+  "ColorIndex": 82,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "ex",
-  "LeadTime": "molestias",
-  "Location": "ea",
-  "RejectCounter": 694,
+  "LagTime": "voluptate",
+  "LeadTime": "voluptas",
+  "Location": "est",
+  "RejectCounter": 433,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 979,
-      "PersonId": 790,
-      "ContactId": 407,
-      "EmailId": 877,
-      "SendEmail": false,
+      "AssociateId": 584,
+      "PersonId": 664,
+      "ContactId": 615,
+      "EmailId": 147,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 979,
-      "PersonId": 790,
-      "ContactId": 407,
-      "EmailId": 877,
-      "SendEmail": false,
+      "AssociateId": 584,
+      "PersonId": 664,
+      "ContactId": 615,
+      "EmailId": 147,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-01-12T03:24:47.1114653+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2013-03-28T11:06:33.5851084+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 459,
+  "PreferredTZLocation": 255,
   "Sale": null,
-  "SuggestedAppointmentId": 850,
+  "SuggestedAppointmentId": 142,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptas",
-  "Title": "veniam",
-  "Agenda": "hic",
-  "InternalNotes": "deleniti",
+  "CentralserviceVideomeetId": "earum",
+  "Title": "consectetur",
+  "Agenda": "libero",
+  "InternalNotes": "est",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Aileen Cassin",
-    "SuperOffice:2": "Madison Boyle"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "non"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "eos"
+    "CustomFields1": "optio",
+    "CustomFields2": "ratione"
   },
-  "PublishEventDate": "2020-10-25T03:24:47.1114653+01:00",
-  "PublishTo": "2007-06-18T03:24:47.1114653+02:00",
-  "PublishFrom": "2003-12-31T03:24:47.1114653+01:00",
+  "PublishEventDate": "2016-12-08T11:06:33.5851084+01:00",
+  "PublishTo": "2008-05-10T11:06:33.5851084+02:00",
+  "PublishFrom": "2000-05-24T11:06:33.5851084+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 463,
+      "VisibleId": 494,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldType": "System.Int32",
+          "FieldLength": 119
         }
       }
     },
     {
-      "VisibleId": 463,
+      "VisibleId": 494,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldType": "System.Int32",
+          "FieldLength": 119
         }
       }
     }
@@ -280,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 359
+      "FieldType": "System.Int32",
+      "FieldLength": 409
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 50,
-  "Name": "Howe-Zulauf",
-  "Tooltip": "possimus",
-  "Deleted": false,
-  "UdListDefinitionId": 762,
-  "Rank": 555,
+  "Id": 977,
+  "Name": "Hegmann, Kub and Lueilwitz",
+  "Tooltip": "maiores",
+  "Deleted": true,
+  "UdListDefinitionId": 493,
+  "Rank": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldLength": 101
     }
   }
 }

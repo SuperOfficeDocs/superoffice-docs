@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Value": "quos",
-    "Tooltip": "ullam",
+    "Id": 161,
+    "Value": "non",
+    "Tooltip": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldLength": 396
       }
     }
   },
   {
-    "Id": 256,
-    "Value": "quos",
-    "Tooltip": "ullam",
+    "Id": 161,
+    "Value": "non",
+    "Tooltip": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldLength": 396
       }
     }
   }

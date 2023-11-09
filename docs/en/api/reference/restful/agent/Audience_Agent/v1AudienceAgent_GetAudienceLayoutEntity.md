@@ -26,7 +26,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=536
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=892
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 451,
-  "InstanceLayout": "reiciendis",
-  "InstanceName": "Weissnat, Harber and Yundt",
-  "CreatedDate": "2021-10-15T03:24:47.2520803+02:00",
-  "UpdatedDate": "2008-08-12T03:24:47.2520803+02:00",
+  "AudienceLayoutId": 678,
+  "InstanceLayout": "ut",
+  "InstanceName": "Moore-Ryan",
+  "CreatedDate": "2003-10-28T11:06:33.7816525+01:00",
+  "UpdatedDate": "2011-05-17T11:06:33.7816525+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldType": "System.Int32",
+      "FieldLength": 215
     }
   }
 }

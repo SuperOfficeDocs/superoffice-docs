@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsa",
-  "ProviderName": "Schiller-Stamm"
+  "StorageType": "perferendis",
+  "ProviderName": "Reynolds, Wilderman and Waelchi"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "est",
-  "omnis"
+  "doloremque",
+  "animi"
 ]
 ```

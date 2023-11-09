@@ -86,18 +86,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sit",
-  "ProviderName": "Dickinson, Kunde and Mayert",
-  "StorageKey": "id",
-  "PageSize": 767,
-  "PageNumber": 264,
+  "StorageType": "assumenda",
+  "ProviderName": "Watsica-Nicolas",
+  "StorageKey": "molestiae",
+  "PageSize": 163,
+  "PageNumber": 206,
   "OrderBy": [
     {
-      "Name": "Murphy-Walter",
+      "Name": "Spencer, Kiehn and Blick",
       "Direction": "ASC"
     },
     {
-      "Name": "Murphy-Walter",
+      "Name": "Spencer, Kiehn and Blick",
       "Direction": "ASC"
     }
   ]
@@ -113,51 +113,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Prosacco, Feest and Farrell",
-      "DisplayTooltip": "a",
-      "DisplayType": "itaque",
+      "DisplayName": "Halvorson-Schroeder",
+      "DisplayTooltip": "optio",
+      "DisplayType": "modi",
       "CanOrderBy": false,
-      "Name": "Metz, Kilback and Rutherford",
-      "CanRestrictBy": true,
-      "RestrictionType": "exercitationem",
-      "RestrictionListName": "Hansen Inc and Sons",
+      "Name": "O'Kon-Ankunding",
+      "CanRestrictBy": false,
+      "RestrictionType": "maiores",
+      "RestrictionListName": "Lebsack-Torphy",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "aspernatur",
-      "IconHint": "est",
-      "HeadingIconHint": "exercitationem"
+      "ExtraInfo": "deserunt",
+      "Width": "doloremque",
+      "IconHint": "sunt",
+      "HeadingIconHint": "debitis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hickle LLC",
-      "PrimaryKey": 247,
+      "EntityName": "McLaughlin Group",
+      "PrimaryKey": 725,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "exercitationem",
-          "TooltipHint": "aliquam",
-          "LinkHint": "non"
+          "DisplayValue": "incidunt",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "cum",
-      "StyleHint": "autem",
+      "LinkHint": "amet",
+      "StyleHint": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 572
+          "FieldLength": 519
         }
       }
     }
   ],
-  "RowCount": 661,
+  "RowCount": 113,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldType": "System.Int32",
+      "FieldLength": 918
     }
   }
 }

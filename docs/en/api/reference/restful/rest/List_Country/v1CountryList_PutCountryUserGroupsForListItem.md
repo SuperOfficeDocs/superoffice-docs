@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Cummerata LLC",
-    "ToolTip": "Modi laudantium a neque est laudantium necessitatibus quia.",
-    "Deleted": true,
-    "Rank": 636,
-    "Type": "voluptatem",
-    "ColorBlock": 195,
-    "IconHint": "eveniet",
-    "Selected": false,
-    "LastChanged": "1999-11-12T03:24:52.2088405+01:00",
+    "Id": 207,
+    "Name": "Okuneva LLC",
+    "ToolTip": "Error non mollitia.",
+    "Deleted": false,
+    "Rank": 501,
+    "Type": "ratione",
+    "ColorBlock": 776,
+    "IconHint": "molestias",
+    "Selected": true,
+    "LastChanged": "2006-09-11T11:06:42.7409447+02:00",
     "ChildItems": [
       {
-        "Id": 384,
-        "Name": "Douglas, Mohr and Kovacek",
-        "ToolTip": "Dolorem veniam et.",
-        "Deleted": false,
-        "Rank": 195,
-        "Type": "in",
-        "ColorBlock": 180,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2013-03-17T03:24:52.2088405+01:00",
+        "Id": 684,
+        "Name": "Nitzsche-Balistreri",
+        "ToolTip": "Magnam voluptatem cumque assumenda eos eius doloribus.",
+        "Deleted": true,
+        "Rank": 546,
+        "Type": "soluta",
+        "ColorBlock": 727,
+        "IconHint": "magnam",
+        "Selected": true,
+        "LastChanged": "2005-06-21T11:06:42.7409447+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "id",
-        "Hidden": false,
-        "FullName": "Maddison Collier II"
+        "ExtraInfo": "sint",
+        "StyleHint": "aliquid",
+        "Hidden": true,
+        "FullName": "Dax Lela Turcotte V"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Dr. Marina Mollie Luettgen"
+    "ExtraInfo": "maxime",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Cicero Fay IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Smith Group",
-    "ToolTip": "Laborum molestiae consectetur vel voluptatem est quis voluptas.",
+    "Id": 61,
+    "Name": "Wiegand Group",
+    "ToolTip": "Ut ut facere deserunt distinctio.",
     "Deleted": false,
-    "Rank": 565,
-    "Type": "minus",
-    "ColorBlock": 622,
-    "IconHint": "laboriosam",
-    "Selected": true,
-    "LastChanged": "2022-08-16T03:24:52.2088405+02:00",
+    "Rank": 513,
+    "Type": "id",
+    "ColorBlock": 114,
+    "IconHint": "impedit",
+    "Selected": false,
+    "LastChanged": "2008-06-01T11:06:42.7409447+02:00",
     "ChildItems": [
       {
-        "Id": 945,
-        "Name": "Olson-Welch",
-        "ToolTip": "Officia ex consequuntur.",
-        "Deleted": false,
-        "Rank": 36,
-        "Type": "soluta",
-        "ColorBlock": 619,
-        "IconHint": "et",
+        "Id": 923,
+        "Name": "Hills LLC",
+        "ToolTip": "Dolores magni iure magni qui saepe sapiente et.",
+        "Deleted": true,
+        "Rank": 535,
+        "Type": "tempora",
+        "ColorBlock": 497,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2001-10-18T03:24:52.2088405+02:00",
+        "LastChanged": "2014-01-10T11:06:42.7409447+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "vel",
+        "ExtraInfo": "odio",
+        "StyleHint": "iure",
         "Hidden": true,
-        "FullName": "Prof. Miles Brekke PhD",
+        "FullName": "Drew Bashirian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldType": "System.String",
+            "FieldLength": 469
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "sit",
+    "ExtraInfo": "quo",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Frida Boehm",
+    "FullName": "Estevan Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 440
+        "FieldLength": 689
       }
     }
   }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Name": "Tromp, Lockman and Schumm",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 254,
-    "Rank": 340
+    "Id": 555,
+    "Name": "Mayert Group",
+    "Tooltip": "facere",
+    "Deleted": false,
+    "UdListDefinitionId": 260,
+    "Rank": 518
   },
   {
-    "Id": 21,
-    "Name": "Tromp, Lockman and Schumm",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 254,
-    "Rank": 340
+    "Id": 555,
+    "Name": "Mayert Group",
+    "Tooltip": "facere",
+    "Deleted": false,
+    "UdListDefinitionId": 260,
+    "Rank": 518
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Koch, Bailey and Price",
-    "Tooltip": "at",
+    "Id": 28,
+    "Name": "Schneider-Hegmann",
+    "Tooltip": "est",
     "Deleted": true,
-    "UdListDefinitionId": 790,
-    "Rank": 324,
+    "UdListDefinitionId": 204,
+    "Rank": 114,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 728
+        "FieldType": "System.String",
+        "FieldLength": 765
       }
     }
   }

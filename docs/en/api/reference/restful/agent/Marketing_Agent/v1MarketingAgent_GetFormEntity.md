@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=535
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=274
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 302,
-  "FormKey": "quo",
-  "Name": "Erdman, O'Connell and Rutherford",
-  "Description": "Exclusive grid-enabled analyzer",
-  "Config": "eveniet",
-  "FolderId": 425,
-  "ScriptId": 888,
-  "ResponseShipmentId": 559,
+  "FormId": 383,
+  "FormKey": "aut",
+  "Name": "Bartoletti-Gutkowski",
+  "Description": "Down-sized demand-driven architecture",
+  "Config": "illum",
+  "FolderId": 120,
+  "ScriptId": 975,
+  "ResponseShipmentId": 575,
   "Active": false,
-  "Expires": "2007-07-22T03:24:47.9238778+02:00",
-  "MaxSubmits": 272,
+  "Expires": "2006-07-08T11:06:34.7864409+02:00",
+  "MaxSubmits": 404,
   "Type": "Normal",
-  "Recipe": "magni",
-  "GroupId": 786,
-  "NewTicket": false,
+  "Recipe": "cumque",
+  "GroupId": 657,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2017-04-22T03:24:47.9238778+02:00",
-  "RegisteredAssociateId": 7,
-  "Updated": "1999-04-16T03:24:47.9238778+02:00",
-  "UpdatedAssociateId": 581,
-  "UpdatedCount": 831,
-  "FolderName": "Stracke-Balistreri",
+  "Registered": "2004-04-24T11:06:34.7864409+02:00",
+  "RegisteredAssociateId": 511,
+  "Updated": "2006-10-27T11:06:34.7864409+02:00",
+  "UpdatedAssociateId": 731,
+  "UpdatedCount": 42,
+  "FolderName": "Schroeder, Sporer and Emard",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 519
     }
   }
 }

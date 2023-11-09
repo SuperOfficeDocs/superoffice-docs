@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 788,
-  "ColumnId": 995,
-  "FieldDefault": "hic",
-  "FieldHeight": 113,
-  "FieldLabel": "quas",
-  "FieldLeft": 618,
-  "FieldTop": 695,
+  "UDefFieldId": 241,
+  "ColumnId": 264,
+  "FieldDefault": "eos",
+  "FieldHeight": 191,
+  "FieldLabel": "libero",
+  "FieldLeft": 379,
+  "FieldTop": 342,
   "FieldType": "Checkbox",
-  "FieldWidth": 222,
-  "FormatMask": "quas",
+  "FieldWidth": 785,
+  "FormatMask": "dolor",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 397,
-  "LabelLeft": 116,
-  "LabelTop": 620,
-  "LabelWidth": 931,
-  "LastVersionId": 552,
-  "ListTableId": 696,
+  "LabelHeight": 678,
+  "LabelLeft": 795,
+  "LabelTop": 316,
+  "LabelWidth": 518,
+  "LastVersionId": 233,
+  "ListTableId": 414,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 348,
-  "ProgId": "voluptates",
+  "Page1LineNo": 148,
+  "ProgId": "et",
   "IsReadOnly": true,
-  "ShortLabel": "ea",
-  "TabOrder": 680,
-  "TextLength": 814,
-  "Tooltip": "commodi",
-  "UdefIdentity": 309,
-  "UDListDefinitionId": 791,
+  "ShortLabel": "soluta",
+  "TabOrder": 609,
+  "TextLength": 784,
+  "Tooltip": "dolores",
+  "UdefIdentity": 717,
+  "UDListDefinitionId": 404,
   "Justification": "Center",
-  "Version": 899,
-  "TemplateVariableName": "Prosacco LLC",
+  "Version": 419,
+  "TemplateVariableName": "Little, Connelly and Mraz",
   "HasBeenPublished": true,
-  "MdoListName": "Klocko LLC",
+  "MdoListName": "Powlowski, Schmeler and Halvorson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldType": "System.Int32",
+      "FieldLength": 336
     }
   }
 }

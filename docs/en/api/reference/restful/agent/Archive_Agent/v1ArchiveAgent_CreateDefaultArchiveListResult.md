@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 967,
+  "RowCount": 445,
   "Rows": [
     {
-      "EntityName": "Kris-Toy",
-      "PrimaryKey": 728,
+      "EntityName": "Corwin Inc and Sons",
+      "PrimaryKey": 650,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "corporis",
-          "TooltipHint": "dolorem",
-          "LinkHint": "provident"
+          "DisplayValue": "tenetur",
+          "TooltipHint": "temporibus",
+          "LinkHint": "illo"
         }
       },
-      "LinkHint": "quidem",
-      "StyleHint": "voluptas",
+      "LinkHint": "sint",
+      "StyleHint": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 517
+          "FieldLength": 318
         }
       }
     }
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldType": "System.String",
+      "FieldLength": 551
     }
   }
 }

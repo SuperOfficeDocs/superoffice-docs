@@ -107,27 +107,27 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 848,
-  "Name": "Harris, Mraz and Collins",
-  "Tooltip": "mollitia",
+  "WebPanelId": 419,
+  "Name": "Purdy Group",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 471,
+  "Rank": 830,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Bahringer Inc and Sons",
+  "ShowInStatusBar": false,
+  "WindowName": "Rippin-Gulgowski",
   "Url": "http://www.example.com/",
-  "ProgId": "laboriosam",
-  "Icon": 139,
-  "AlwaysReloadOnShow": true
+  "ProgId": "quidem",
+  "Icon": 662,
+  "AlwaysReloadOnShow": false
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 198,
-  "Name": "Towne LLC",
-  "Tooltip": "quia",
+  "WebPanelId": 185,
+  "Name": "Bashirian-Bergstrom",
+  "Tooltip": "iure",
   "Deleted": false,
-  "Rank": 331,
+  "Rank": 569,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Harris-Jacobson",
+  "WindowName": "Leannon, Mitchell and Renner",
   "Url": "http://www.example.com/",
-  "ProgId": "consequatur",
-  "Icon": 616,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "ea",
+  "Icon": 360,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 95
+      "FieldLength": 547
     }
   }
 }

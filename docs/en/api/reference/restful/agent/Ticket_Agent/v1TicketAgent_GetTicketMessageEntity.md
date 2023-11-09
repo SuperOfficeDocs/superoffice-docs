@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=182
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=902
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -102,28 +102,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 588,
+  "EjMessageId": 847,
   "Ticket": null,
-  "CreatedAt": "2018-07-16T03:24:48.4872676+02:00",
+  "CreatedAt": "2015-05-15T11:06:35.6158782+02:00",
   "CreatedBy": null,
-  "Author": "placeat",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ex",
-  "TimeSpent": 989,
-  "Body": "nesciunt",
-  "HtmlBody": "consectetur",
-  "EmailHeader": "andres@hauck.us",
-  "DebugInfo": "nobis",
-  "MailSorter": "minima",
+  "MessageId": "rerum",
+  "TimeSpent": 235,
+  "Body": "ut",
+  "HtmlBody": "vel",
+  "EmailHeader": "meaghan.gaylord@powlowski.name",
+  "DebugInfo": "et",
+  "MailSorter": "exercitationem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "non",
+  "SearchTitle": "quam",
   "MessageHeaders": [
     {
-      "Id": 635,
-      "Name": "Marks, Dietrich and Murazik",
-      "Value": "unde",
+      "Id": 632,
+      "Name": "Swaniawski-Schinner",
+      "Value": "recusandae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -131,49 +131,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 76
+          "FieldLength": 152
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "et",
-  "Sentiment": 207,
-  "SentimentConfidence": 765,
+  "Important": false,
+  "Language": "culpa",
+  "Sentiment": 838,
+  "SentimentConfidence": 1001,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 292,
-      "Name": "Runolfsdottir Inc and Sons",
-      "ContentType": "magnam",
-      "AttSize": 519,
-      "InlineImage": false,
-      "ContentId": "ratione",
-      "AuthKey": "quisquam",
+      "AttachmentId": 908,
+      "Name": "Schimmel Group",
+      "ContentType": "nobis",
+      "AttSize": 805,
+      "InlineImage": true,
+      "ContentId": "molestias",
+      "AuthKey": "porro",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldLength": 643
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "eligendi"
+    "ExtraFields1": "reprehenderit",
+    "ExtraFields2": "illum"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "alias",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

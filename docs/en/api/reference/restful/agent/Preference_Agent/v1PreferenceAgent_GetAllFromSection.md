@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "voluptate"
+  "Section": "numquam"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 589,
-    "Section": "similique",
-    "Key": "impedit",
-    "Name": "Breitenberg Inc and Sons",
+    "PrefDescId": 464,
+    "Section": "et",
+    "Key": "ipsum",
+    "Name": "Moen-Kovacek",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Enterprise-wide transitional strategy",
-    "IsBuiltin": true,
-    "TableName": "Streich, Jewess and Kshlerin",
-    "UserDefinedListId": 449,
-    "Rank": 282,
-    "SubGroup": "illum",
-    "MinLevel": 768,
-    "MaxValue": 215,
-    "MinValue": 373,
-    "RequiredLicense": "sequi",
+    "Description": "Implemented regional focus group",
+    "IsBuiltin": false,
+    "TableName": "Davis Inc and Sons",
+    "UserDefinedListId": 939,
+    "Rank": 366,
+    "SubGroup": "debitis",
+    "MinLevel": 209,
+    "MaxValue": 252,
+    "MinValue": 995,
+    "RequiredLicense": "beatae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 801
       }
     }
   }

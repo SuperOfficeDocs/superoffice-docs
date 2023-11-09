@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 381,
-  "Name": "Franecki-Murray",
-  "Tooltip": "dolor",
+  "Id": 403,
+  "Name": "Senger LLC",
+  "Tooltip": "libero",
   "Deleted": false,
-  "Rank": 662,
+  "Rank": 761,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "deserunt",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 726
     }
   },
   "_Links": {

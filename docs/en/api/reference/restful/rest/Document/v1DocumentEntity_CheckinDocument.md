@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Centralized contextually-based secured line
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=et,totam
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=De-engineered logistical software
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=ut,facilis
 ```
 
 
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "illum",
-  "VersionId": "ab",
+  "ExternalReference": "fugit",
+  "VersionId": "possimus",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "nesciunt",
-  "AdditionalInfo": "et"
+  "Value": "nam",
+  "AdditionalInfo": "molestiae"
 }
 ```

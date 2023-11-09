@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 749,
-    "Name": "Hoppe, Christiansen and Williamson",
-    "Tooltip": "quibusdam",
+    "Id": 711,
+    "Name": "Ryan-Ritchie",
+    "Tooltip": "neque",
     "Deleted": false,
-    "UdListDefinitionId": 534,
-    "Rank": 611
+    "UdListDefinitionId": 474,
+    "Rank": 639
   },
   {
-    "Id": 749,
-    "Name": "Hoppe, Christiansen and Williamson",
-    "Tooltip": "quibusdam",
+    "Id": 711,
+    "Name": "Ryan-Ritchie",
+    "Tooltip": "neque",
     "Deleted": false,
-    "UdListDefinitionId": 534,
-    "Rank": 611
+    "UdListDefinitionId": 474,
+    "Rank": 639
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Name": "Blanda-Rempel",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "UdListDefinitionId": 56,
-    "Rank": 198,
+    "Id": 43,
+    "Name": "Borer LLC",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "UdListDefinitionId": 673,
+    "Rank": 913,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 218
+        "FieldLength": 39
       }
     }
   }

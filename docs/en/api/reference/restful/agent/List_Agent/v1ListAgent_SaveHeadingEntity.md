@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 817,
-  "Name": "Nicolas, Hoeger and Stanton",
-  "Tooltip": "voluptates",
+  "HeadingId": 416,
+  "Name": "Schumm-Zulauf",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 523,
-  "UdListDefinitionId": 279
+  "Rank": 483,
+  "UdListDefinitionId": 570
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 966,
-  "Name": "Gottlieb, Dach and Grady",
-  "Tooltip": "autem",
-  "Deleted": false,
-  "Rank": 265,
-  "UdListDefinitionId": 883,
+  "HeadingId": 196,
+  "Name": "Tillman, Schmeler and Beier",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 693,
+  "UdListDefinitionId": 5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 929
     }
   }
 }

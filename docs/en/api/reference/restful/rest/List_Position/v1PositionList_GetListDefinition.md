@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 131,
-  "Name": "Kshlerin, Turner and Ernser",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 165,
+  "Id": 769,
+  "Name": "Altenwerth-Streich",
+  "Tooltip": "minima",
+  "Deleted": true,
+  "Rank": 710,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "id",
+  "ListType": "placeat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldType": "System.Int32",
+      "FieldLength": 428
     }
   },
   "_Links": {

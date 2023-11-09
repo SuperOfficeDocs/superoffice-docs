@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 724
+  "ErpConnectorId": 387
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "tempore",
-    "Rank": 641,
-    "DisplayName": "Schmidt, Rath and Kohler",
-    "DisplayDescription": "Secured cohesive secured line",
+    "FieldKey": "et",
+    "Rank": 724,
+    "DisplayName": "Parisian Inc and Sons",
+    "DisplayDescription": "Managed fresh-thinking algorithm",
     "FieldType": "Checkbox",
-    "ListName": "Williamson-Stracke",
-    "DefaultValue": "eius",
-    "MaxLength": 390,
+    "ListName": "McClure Group",
+    "DefaultValue": "velit",
+    "MaxLength": 25,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldLength": 518
       }
     }
   }

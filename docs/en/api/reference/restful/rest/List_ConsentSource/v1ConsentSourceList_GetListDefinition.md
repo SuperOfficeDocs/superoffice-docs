@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 706,
-  "Name": "Crona, Towne and Schroeder",
-  "Tooltip": "itaque",
+  "Id": 886,
+  "Name": "Wunsch-Olson",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 500,
+  "Rank": 733,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "assumenda",
-  "InUseByUserDefinedFields": true,
+  "ListType": "similique",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 353
     }
   },
   "_Links": {

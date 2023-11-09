@@ -119,18 +119,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "ea",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "ea",
     "value": {}
   }
 ]
@@ -143,35 +143,35 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 752,
-  "Name": "Stracke Group",
-  "Rank": 55,
-  "Tooltip": "sint",
-  "Icon": "nobis",
-  "DefaultTicketStatus": 829,
+  "TicketTypeId": 428,
+  "Name": "Kiehn-Frami",
+  "Rank": 406,
+  "Tooltip": "amet",
+  "Icon": "ea",
+  "DefaultTicketStatus": 415,
   "TicketStatuses": [
-    692,
-    166
+    442,
+    984
   ],
-  "DefaultTicketPriority": 555,
+  "DefaultTicketPriority": 203,
   "TicketPriorities": [
-    543,
-    492
+    620,
+    553
   ],
-  "ReplyTemplate": 895,
+  "ReplyTemplate": 822,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldType": "System.String",
+      "FieldLength": 907
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

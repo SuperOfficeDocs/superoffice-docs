@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 598,
-    "Name": "Pouros Inc and Sons",
-    "Description": "Organic scalable capability",
-    "DeltaJson": "nobis",
+    "ConfigurableScreenDeltaId": 117,
+    "Name": "Smitham, Bashirian and Medhurst",
+    "Description": "Advanced systematic budgetary management",
+    "DeltaJson": "ducimus",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "ex",
-    "UpdatedDate": "2004-01-13T03:24:47.3614382+01:00",
-    "CreatedDate": "2018-11-11T03:24:47.3614382+01:00",
+    "RecipeId": "laudantium",
+    "UpdatedDate": "2015-06-03T11:06:34.080854+02:00",
+    "CreatedDate": "2015-07-04T11:06:34.080854+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      237,
-      614
+      339,
+      528
     ],
-    "AppliesToKey": "cum",
+    "AppliesToKey": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldLength": 511
       }
     }
   }
