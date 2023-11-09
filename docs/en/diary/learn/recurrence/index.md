@@ -13,10 +13,6 @@ language: en
 
 It may happen that you want to create a series of follow-ups to occur at regular intervals, for example, a weekly status meeting. Instead of recording these meetings one at a time, you can use the repeating follow-ups function.
 
-![Recurring follow-up dialog -screenshot][img1]
-
-At the upper left of the **Repeating follow-ups** dialog, the start date and time for the follow-up as well as the end time are displayed.
-
 ## <a id="frequency" />Frequency
 
 **Frequency** is how the follow-up is repeated. The pattern can be daily, weekly, monthly, yearly, or repeat at a user-defined interval. The options available for each frequency vary.
@@ -58,10 +54,6 @@ If you select **Yearly**, you can specify on which day and month the follow-up s
 | Day &lt;number&gt; of &lt;month&gt; | The follow-up takes place on the same date each time. | Day 13 of April. |
 | &lt;ordinal number&gt; &lt;weekday&gt; of &lt;month&gt; | The follow-up takes place on the same weekday each time. | The fourth Thursday of August. |
 
-### Custom
-
-If none of the patterns work for you, you can manually enter the dates you require.
-
 ## Related content
 
 * [Create a recurring follow-up][4]
@@ -74,4 +66,3 @@ If none of the patterns work for you, you can manually enter the dates you requi
 [4]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png

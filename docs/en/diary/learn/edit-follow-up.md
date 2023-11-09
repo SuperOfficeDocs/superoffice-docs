@@ -50,18 +50,19 @@ In the Diary screen, you can change the end time for a follow-up without having 
 
 Changes work in the same way as when you edit follow-ups, but when you make a change, the **Repeating follow-ups** dialog appears.
 
+![Repeating follow-up dialog -screenshot][img1]
+
 * If you select **Change only this instance**, the change will not affect other times.
 
 * If you select **Change all future instances including this one**, the change will apply to this follow-up in the future as well.
 
- You can change only the start date for the follow-up while viewing the recurrence pattern. To change the time, click **OK** or **Cancel** to return to the follow-up details.
+You can change only the start date for the follow-up while viewing the recurrence details. To change the time, click **OK** or **Cancel** to return to the follow-up details.
 
-If you decide to change the rule pattern in the middle of a series of meetings, then a new rule is created, and the old rule is stopped at the point where the break occurs.
+If you decide to change the rule in the middle of a series of meetings, then a new rule is created, and the old rule is stopped at the point where the break occurs.
 
 If you change the start time for a single meeting, the rule is not affected. The meeting is treated as an exception to the rule. The exception can be made un-exceptional by moving it back into line with the other meetings.
 
-> [!CAUTION]
-> Modifying the start or end date on a recurring meeting after it has been saved is a bad idea. Changing the time on a recurring meeting will work fine, but changing the date will only lead to confusion. **Changing the start time on a meeting will trigger an update on all subsequence recurrences** if you have set the update mode to this-and-forward.
+[!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
 ## <a id="delete" />Delete follow-up using the Diary
 
@@ -85,3 +86,4 @@ If you change the start time for a single meeting, the rule is not affected. The
 [5]: recurrence/stop.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/diary/change-repeating-fo.png
