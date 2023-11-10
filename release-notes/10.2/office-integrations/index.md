@@ -12,6 +12,8 @@ so.topic: reference
 # New and improved Office Integrations
 
 * [SuperOffice for Outlook - (3.1)][1]
+* [Wizard for Sharepoint integration (10.2.10)][10]
 
 <!-- Referenced links-->
 [1]: 3.1-update.md
+[10]: 10.2.10-update.md

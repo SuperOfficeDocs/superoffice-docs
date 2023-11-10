@@ -14,8 +14,10 @@ so.topic: reference
 * [Task menu list items (10.2.1)][1]
 * [Email domain validation (10.2.2)][2]
 * [CRMScript with time/date fields (10.2.3)][3]
+* [Time zones and Daylight saving time (10.2.10)][10]
 
 <!-- Referenced links-->
 [1]: 10.2.1-update.md
 [2]: 10.2.2-update.md
 [3]: 10.2.3-update.md
+[10]: 10.2.10-update.md

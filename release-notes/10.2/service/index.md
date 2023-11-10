@@ -21,9 +21,15 @@ so.topic: reference
 * [Change rank on contacts by drag and drop (10.2.8)][8]
 * [Refresh request tab (10.2.8)][8]
 * [Add new contact from the request (10.2.9)][9]
+* [Add Domain for a company (10.2.10)][10]
+* [Send SMS from a request (10.2.10)][10]
+* [Change the default style for outbound e-mails on requests (10.2.10)][10]
+* [More compact text format area for requests (10.2.10)][10]
+* [Old Service client - Script trigger on outgoing e-mail (10.2.10)][10]
 
 <!-- Referenced links-->
 [5]: 10.2.5-update.md
 [6]: 10.2.6-update.md
 [8]: 10.2.8-update.md
 [9]: 10.2.9-update.md
+[10]: 10.2.10-update.md

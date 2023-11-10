@@ -51,6 +51,15 @@ so.version: 10.2
 * 10.2.9 (20.10.2023):
   * [Add new contact from the request][26] in Service
 
+* 10.2.10 (14.11.2023):
+  * [Time zones and Daylight saving time (10.2.10)][27] in Settings and maintenance
+  * [Wizard for Sharepoint integration (10.2.10)][28] in Office integration
+  * [Add Domain for a company (10.2.10)][29] in Service
+  * [Send SMS from a request (10.2.10)][29] in Service
+  * [Change the default style for outbound e-mails on requests (10.2.10)][29] in Service
+  * [More compact text format area for requests (10.2.10)][29] in Service
+  * [Old Service client - Script trigger on outgoing e-mail (10.2.10)][29] in Service
+
 ### Mobile CRM
 
 * 10.2.7 (25.01.2023):
@@ -113,5 +122,8 @@ so.version: 10.2
 [24]: service/10.2.8-update.md
 [25]: core-crm/10.2.8-update.md
 [26]: service/10.2.9-update.md
+[27]: admin/10.2.10-update.md
+[28]: office-integrations/10.2.10-update.md
+[29]: service/10.2.10-update.md
 
 <!-- Referenced images -->
