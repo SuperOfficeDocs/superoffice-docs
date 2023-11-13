@@ -21,7 +21,7 @@ After refactoring the Sale card, Project card, and Archives, we have kept a poss
 
 This message is a heads up for those who have used this possibility to keep Pagebuilder customizations live a bit longer: **Onsite version 10.2.9 is the last onsite version where you can switch back to Pagebuilder versions of the Sale card, Project card, and Archives.**
 
-## What does this mean for you as a customer?
+## What does this mean for you as a customer/developer?
 
 You are recommended to switch to the [Screen Designer][1].
 
