@@ -3,7 +3,7 @@ title: What's new in SuperOffice 10.2
 uid: release-notes-10.2
 description: Release notes. What's new in SuperOffice 10.2
 author: Kirsti Aakerholt
-so.date: 10.20.2023
+so.date: 11.14.2023
 keywords: Core CRM, Service, Requests, Sales, Marketing, Settings and maintenance, Mobile CRM, Zapier, App store, API, SuperOffice for Outlook, Office integrations, SharePoint
 so.topic: reference
 so.version: 10.2
@@ -52,13 +52,13 @@ so.version: 10.2
   * [Add new contact from the request][26] in Service
 
 * 10.2.10 (14.11.2023):
-  * [Time zones and Daylight saving time (10.2.10)][27] in Settings and maintenance
+  * [Time zones and Daylight Saving Time (10.2.10)][27] in Settings and maintenance
   * [Wizard for Sharepoint integration (10.2.10)][28] in Office integration
   * [Add Domain for a company (10.2.10)][29] in Service
   * [Send SMS from a request (10.2.10)][29] in Service
-  * [Change the default style for outbound e-mails on requests (10.2.10)][29] in Service
+  * [Change the default style for outbound emails on requests (10.2.10)][29] in Service
   * [More compact text format area for requests (10.2.10)][29] in Service
-  * [Old Service client - Script trigger on outgoing e-mail (10.2.10)][29] in Service
+  * [Script trigger on outgoing e-mail (10.2.10)][29] in Service
 
 ### Mobile CRM
 
@@ -83,7 +83,7 @@ so.version: 10.2
   * [Contact interest in action step][15] in our [Zapier app][16]
 * SuperOffice for Outlook 3.1 (21.08.2023):
   * [Supports Onsite and Online installations][17]
-* SharePoint Documents - 3.3 (06.09.2023)
+* SharePoint Documents - 3.2 (06.09.2023)
   * [Document migration validation][19]
 
 ### Other highlights
@@ -123,7 +123,7 @@ so.version: 10.2
 [25]: core-crm/10.2.8-update.md
 [26]: service/10.2.9-update.md
 [27]: admin/10.2.10-update.md
-[28]: office-integrations/10.2.10-update.md
+[28]: office-integrations/3.2-update.md
 [29]: service/10.2.10-update.md
 
 <!-- Referenced images -->

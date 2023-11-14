@@ -3,7 +3,7 @@ title: New and improved Service
 uid: news-service-10.2
 description: Release notes. What's new in SuperOffice Service 10.2
 author: SuperOffice AS – Research and Development
-so.date: 10.20.2023
+so.date: 11.14.2023
 keywords: Service, request
 so.version: 10.2
 so.topic: reference
@@ -21,11 +21,11 @@ so.topic: reference
 * [Change rank on contacts by drag and drop (10.2.8)][8]
 * [Refresh request tab (10.2.8)][8]
 * [Add new contact from the request (10.2.9)][9]
-* [Add Domain for a company (10.2.10)][10]
+* [Add domain for a company (10.2.10)][10]
 * [Send SMS from a request (10.2.10)][10]
-* [Change the default style for outbound e-mails on requests (10.2.10)][10]
+* [Change the default style for outbound emails on requests (10.2.10)][10]
 * [More compact text format area for requests (10.2.10)][10]
-* [Old Service client - Script trigger on outgoing e-mail (10.2.10)][10]
+* [Script trigger on outgoing email (10.2.10)][10]
 
 <!-- Referenced links-->
 [5]: 10.2.5-update.md
