@@ -3,10 +3,11 @@ title: Register a server-to-server app
 uid: dp-register-server-to-server-app
 description: Registering a new server-to-server app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 06.08.2022
+so.date: 11.15.2023
 keywords: Developer Portal, app, server-to-server, system user
 so.topic: howto
 so.version:
+so.dp-version: 1.16
 so.envir: cloud
 so.client:
 ---
@@ -35,7 +36,7 @@ This template creates an app configuration that uses the [system user flow][7].
 
     [!include[Requirements for app name](includes/note-app-name.md)]
 
-5. Optionally enter more redirect URLs - one per line. Click **Next**.
+5. Optionally, click **Add More** to enter additional URLs. Then click **Next**.
 
     ![Enter redirect URL -screenshot][img4]
 
