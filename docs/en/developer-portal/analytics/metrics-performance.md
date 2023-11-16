@@ -3,12 +3,12 @@ title: Check application performance
 uid: dp-metric-performance
 description: How to check the API performance for your application.
 author: Anthony Yates
-so.date: 08.10.2023
+so.date: 11.15.2023
 keywords: API metrics, API performance, metered services
 so.topic: howto
 so.envir: cloud
 so.client: online
-so.version: 1.13
+so.version: 1.16
 ---
 
 # Check application API performance

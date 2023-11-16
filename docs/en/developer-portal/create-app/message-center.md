@@ -47,7 +47,7 @@ The messages are organized into three categories:
 
 The purpose of the messaging center is only to see and read existing issues that involve you, and support tickets related to your applications.
 
-When you click a ticket Id, a new browser tab navigates to the SuperOffice Customer Center with that ticket id.
+When you click a ticket ID, a new browser tab navigates to the SuperOffice Customer Center with that ticket ID.
 
 > [!WARNING]
 > You must be authenticated to immediately see the ticket in the SuperOffice Customer Center site, otherwise you will have to sign-in.
@@ -56,8 +56,8 @@ When you click a ticket Id, a new browser tab navigates to the SuperOffice Custo
 
 To reply to a message, you must either:
 
-* click the Ticket Id and use the SuperOffice Customer Center
-* reply to the message sent to your email inbox using your preferred email client.
+* Click the ticket ID and use the SuperOffice Customer Center.
+* Reply to the message sent to your email inbox using your preferred email client.
 
 > [!NOTE]
 > The messaging center will in the near future support replying to a messages.
