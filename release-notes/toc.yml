@@ -1,6 +1,9 @@
 items:
 - name: Introduction
   href: index.md
+- name: End of life
+  href: eol/toc.yml
+  topicHref: eol/index.md
 - name: Mobile CRM (app)
   href: mobile/toc.yml
   topicHref: mobile/index.md
