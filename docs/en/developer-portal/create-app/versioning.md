@@ -111,7 +111,7 @@ You can for example compare to variants of the same version or compare the curre
 
 [!include[When to publish](includes/ready-to-publish.md)]
 
-* If your version was **approved** for Stage, you can test it there before requesting to publish to Production.
+* If your version was **approved** for Stage, you can test it there before requesting to publish to production.
 * If your version was **rejected** for Stage, you need to fix the problems in SOD and then request to publish again.
 
 <!-- Referenced links -->

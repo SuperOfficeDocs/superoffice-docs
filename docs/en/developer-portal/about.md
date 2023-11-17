@@ -3,10 +3,10 @@ title: Developer Portal
 uid: developer-portal-overview
 description: Introduction to the SuperOffice Online Developer Portal.
 author: AnthonyYates, Bergfrid Dias
-so.date: 04.27.2023
+so.date: 11.15.2023
 keywords: developer, Developer Portal, apps, app-store, navigation
 so.topic: overview
-so.dp-version: 1.11
+so.dp-version: 1.16
 ---
 
 # Developer Portal
@@ -54,6 +54,11 @@ The Navigator lets you move between the main sections of your partner and app pa
 ![SuperOffice Developer Portal Navigator application -screenshot][img4]
 
 Clicking a section opens it in the content area.
+
+> [!TIP]
+> Click the chevrons to collapse and expand the navigator.
+
+![SuperOffice Developer Portal Navigator expand/collapse -screenshot][img7]
 
 ### The content area
 
@@ -155,3 +160,4 @@ Watch the walk-through on YouTube:
 [img4]: media/nav-app.png
 [img5]: media/app-settings.png
 [img6]: media/versioning-page.png
+[img7]: media/nav-expand-collapse.png

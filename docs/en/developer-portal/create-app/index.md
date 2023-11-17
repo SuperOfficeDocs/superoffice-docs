@@ -3,10 +3,11 @@ title: Register an app
 uid: dp-register-app
 description: Registering a new app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 06.08.2022
+so.date: 11.15.2023
 keywords: Developer Portal, app
 so.topic: howto
 so.version:
+so.dp-version: 1.16
 so.envir: cloud
 so.client:
 ---
@@ -25,7 +26,9 @@ so.client:
 
     ![Create application wizard -screenshot][img2]
 
-    The template sets some [default values](#default-config) and determines what you have to specify in the next steps.
+    The template sets some [default values](#default-config) and determines what you have to specify in the next steps. This is only a starting point for the app configuration. You can add more features after completing the wizard. For example, if you chose "Standard ERP sync and quote app", it can also be a native app with server-to-server communication.
+
+    A message appears if your choice requires a specific license in production.
 
 4. Enter the name of your application. Click **Next**.
 
@@ -33,7 +36,7 @@ so.client:
 
     [!include[Requirements for app name](includes/note-app-name.md)]
 
-5. Enter one or more [redirect URLs][6] - one per line. Click **Next**.
+5. Enter a [redirect URL][6]. Optionally, click **Add More** to enter additional URLs. Then click **Next**.
 
     ![Enter redirect URL -screenshot][img4]
 

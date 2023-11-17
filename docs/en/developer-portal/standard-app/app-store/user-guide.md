@@ -3,10 +3,10 @@ title: User guide
 uid: dp-app-user-guide
 description: How to manage links and instructions for installation standard apps in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.27.2023
+so.date: 11.15.2023
 keywords: Developer Portal, app store, install, links
 so.topic: howto
-so.dp-version: 1.11
+so.dp-version: 1.16
 so.envir: cloud
 ---
 
@@ -33,7 +33,7 @@ This information is shown on the **How to install** tab in the App Store.
 
 ## Links
 
-Related to the App itself, you have specified specific URLs, in the left section on the left-hand side, other useful links can be added, like support, commercial product page, and so on.
+Add at least one link related to the app. Other useful links can be added too, such as support and commercial product page.
 
 ![App Store information, Links tab -screenshot][img1]
 
@@ -58,7 +58,7 @@ Related to the App itself, you have specified specific URLs, in the left section
     ![Add at least one link -screenshot][img3]
 
 3. [Choose a type][2].
-4. Enter a URL and a an accompanying text
+4. Enter a URL and an accompanying text.
 5. Click **Save Settings**.
 
 **Examples:**
