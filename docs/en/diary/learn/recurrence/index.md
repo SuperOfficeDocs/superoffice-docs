@@ -3,7 +3,8 @@ uid: help-en-recurrence
 title: Recurring follow-ups
 description: Recurring follow-ups
 author: Bergfrid Dias
-so.date: 10.09.2023
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up, repeat, recur, frequency, pattern
 so.topic: concept
 language: en
@@ -34,7 +35,7 @@ If you select **Weekly**, you can specify that the follow-up should repeat at a 
 | Option | Description | Example |
 |---|---|---|
 | Every &lt;number&gt; week(s)| The number of weeks between each meeting. | Every 3 weeks. |
-| &lt;weekday&gt;| On which weekday(s) the meeting takes place. | |
+| &lt;weekday&gt;| On which weekday(s) the meeting takes place. | Every Tuesday. |
 
 ### Monthly
 

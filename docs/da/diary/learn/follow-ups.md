@@ -11,7 +11,7 @@ language: da
 
 # Opfølgninger
 
-*Opfølgning* er en samlet betegnelse for [møder](#apt) og [opgaver](#task). [Telefonopkald](#call) er en blanding av de to. Disse er tæt knyttet til dagbogsskærmen og fungerer alle på stort set samme måde.
+*Opfølgning* er en samlet betegnelse for [møder](#meeting) og [opgaver](#todo). [Telefonopkald](#call) er en blanding av de to. Disse er tæt knyttet til dagbogsskærmen og fungerer alle på stort set samme måde.
 
 Åbn en opfølgning ved at dobbeltklikke på den i dagbogen eller i detaljekortet **Aktiviteter**.
 
@@ -51,7 +51,7 @@ Detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dag
 | Skal udføres (opgave) | | | | &#10003; | Aktiviteter-sektionen | Opfølgning uden starttidspunkt | Påmindelse om opgaver, der forfalder på et bestemt tidspunkt |
 | Opkald (opfølgning) | &#10003; | | &#10003; | | Aktiviteter-sektionen | Telefonopkald | Indgående opkald fra kunden |
 
-## <a id="apt" />Møde (aftale)
+## <a id="meeting" />Møde (aftale)
 
 Møder er opfølgninger med defineret start- og sluttid, for eksempel møder. De vises i ejerens kalender.
 
@@ -67,7 +67,7 @@ Forfaldne og fuldførte møder vil blive vist i **Aktiviteter**-fanen ud over i 
 | Egen tid og ressurs reservert | &#10003; | | Som ovenfor, pluss behov for rom eller utstyr |
 | Møde med flere deltakere | &#10003; | &#10003; | Et møde, vanligvis også med en ressurs eller sted |
 
-## <a id="task" />Skal udføres (opgave)
+## <a id="todo" />Skal udføres (opgave)
 
 En *opgave* er en opfølgning uden starttid. Den har normalt heller ingen varighed, men den har altid en **frist**. Skal udføres bruges normalt til ting, du skal huske at gøre inden en bestemt tid.
 

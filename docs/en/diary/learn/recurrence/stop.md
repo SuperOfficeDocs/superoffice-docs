@@ -3,7 +3,8 @@ uid: help-en-recurrence-stop
 title: Stop repeating follow-up
 description: Stop repeating follow-up
 author: Bergfrid Dias
-so.date: 11.09.2023
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up, repeat, recur, frequency, schedule, pattern
 so.topic: howto
 language: en
@@ -16,7 +17,7 @@ language: en
 When you stop the repeating follow-up, all instances of the follow-up *after* the one you edited are deleted. If the follow-up is the first in a series of repeating follow-ups, the repeating pattern is deleted and it becomes an "ordinary" follow-up.
 
 <!-- markdownlint-disable MD051 -->
-### [Appointment/Task/Phone Call dialog](#tab/fields-old)
+### [Classic](#tab/fields-old)
 
 1. Select the required follow-up in the Diary or on the **Activities** section tab in the Company, Contact, Diary, Sale, or Project screens.
 
@@ -28,7 +29,7 @@ When you stop the repeating follow-up, all instances of the follow-up *after* th
 
 5. Click **Save** to save the changes, or click **Cancel** to close the dialog without saving the changes.
 
-### [New Follow-up dialog](#tab/fields-new)
+### [New (from version 10.2.11 pilot)](#tab/fields-new)
 
 1. Open the follow-up from the Diary or on the **Activities** section tab.
 1. Click the repeat icon ![icon][img1].

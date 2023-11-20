@@ -3,8 +3,8 @@ uid: help-en-diary-screen-activities
 title: The Activities section tab (Diary)
 description: The Activities section tab (Diary)
 author: SuperOffice RnD
-so.date: 11.03.2023
-so.version: 10.2.10
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up
 so.topic: reference
 language: en
@@ -27,7 +27,7 @@ The activities list columns contain the following information:
     > [!TIP]
     > To change the **Completed** status of an activity simply click the box.
 
-* The second column contains icons that indicate the type of activity, for example, a telephone for a call. These icons reflect the text in the **Type** column.
+* The second column contains icons that indicate the type of activity.
 
     [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
@@ -61,21 +61,21 @@ After an activity is completed, it is removed from the activities list by the ne
 
 1. Go to ![icon][img1] **Personal settings** > **Preferences**.
 2. Select **Functions** and find the **Show days ahead** option.
-
-    Here, you define how many days ahead you want completed activities to be visible for.
-    For example, entering 7 here would display to-dos for the next week.
+3. Define how many days ahead you want completed activities to be visible for. For example, entering 7 here would display to-dos for the next week.
 
 ### Remove activity from list when completed
 
-1. Go to ![icon][img1] **Personal settings > Preferences**.
-2. Select **Visual effects**, and then edit the **Remove completed activities** [preference][8].
+1. Go to ![icon][img1] **Personal settings** > **Preferences**.
+2. Select **Visual effects**.
+3. Update the **Remove completed activities** [preference][8].
 
 ### Highlight overdue activities
 
 If an activity is highlighted in red type, this means that its provisional date was passed. To change this setting:
 
 1. Go to ![icon][img1] **Personal settings** > **Preferences**.
-2. Select **Functions**, and edit the **Mark overdue activities** option.
+2. Select **Functions**.
+3. Update the **Mark overdue activities** option.
 
 ## What would you like to do now?
 

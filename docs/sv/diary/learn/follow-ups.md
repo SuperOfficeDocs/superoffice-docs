@@ -11,7 +11,7 @@ language: sv
 
 # Händelser
 
-*Händelse* är ett samlingsbegrepp för[möte](#apt) och [att göra](#task). Ett [telefonsamtal](call) är en hybrid av de båda. Händelser är nära kopplade till Kalender-fönstret och fungerar på i stort sett samma sätt.
+*Händelse* är ett samlingsbegrepp för[möte](#meeting) och [att göra](#todo). Ett [telefonsamtal](call) är en hybrid av de båda. Händelser är nära kopplade till Kalender-fönstret och fungerar på i stort sett samma sätt.
 
 Öppna en befintlig händelse genom att dubbelklicka på den i kalendern eller i detaljkortet **Aktiviteter**.
 
@@ -53,7 +53,7 @@ Detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Försäljning, Proje
 | Att göra (uppgift) | | | | &#10003; | Avsnitt Aktiviteter | Uppföljning utan starttid | Påminnelse för saker som ska vara klara vid en specifik tidpunkt |
 | Händelse (samtal) | &#10003; | | &#10003; | | Avsnitt Aktiviteter | Telefonsamtal | Inkommande samtal från kund |
 
-## <a id="apt" />Möte (bokning)
+## <a id="meeting" />Möte (bokning)
 
 Ett möte är en händelse med en fastställd start- och sluttid. De visas i ägarens kalender.
 
@@ -69,7 +69,7 @@ Försenade och avslutade möten kommer att finnas i **Aktiviteter**-fliken samt 
 | Egen tid och resurs bokad | &#10003; | | Som ovan, plus behov av rum eller utrustning |
 | Möte med flera deltagare | &#10003; | &#10003; | Ett möte, oftast även med en resurs eller plats |
 
-## <a id="task" />Att göra (uppgift)
+## <a id="todo" />Att göra (uppgift)
 
 En *uppgift* är en händelse utan starttid. Den har vanligtvis inte heller någon varaktighet, men den har alltid en **deadline**. Uppgifter används vanligtvis för saker du måste komma ihåg att göra inom en viss tid.
 

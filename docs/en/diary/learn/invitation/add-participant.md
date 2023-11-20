@@ -3,7 +3,8 @@ uid: help-en-invitation-add-participant
 title: Add participants to follow-ups
 description: This how-to guide will show how you to add participants to a follow-up.
 author: Bergfrid Dias
-so.date: 11.10.2023
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up, meeting, invitation, participant, attendee
 so.topic: howto
 language: en
@@ -13,7 +14,7 @@ language: en
 
 When you create a follow-up that concerns other people, you can add them as participants to the follow-up. You can also book your organization's conference rooms and equipment. People who are available as participants are defined in Settings and maintenance.
 
-Invite a contact to a meeting from the participants tab by clicking the **Add** button. Watch the video for [Add participants to a meeting][15].
+Watch the video for [Add participants to a meeting][15].
 
 ## Steps
 
@@ -21,12 +22,12 @@ Invite a contact to a meeting from the participants tab by clicking the **Add** 
 > Only the owner of the follow-up can add (and remove) attendees.
 
 <!-- markdownlint-disable MD051 -->
-### [Appointment/Task/Phone Call dialog](#tab/participants)
+### [Classic](#tab/participants)
 
 1. [Open or create a follow-up][3].
 
     > [!NOTE]
-    > If you have the overviews of other users or resources open, they are automatically entered as participants in the **Participants** tab. Otherwise select them manually as described below.
+    > If you have the overview of other users or resources open, they are automatically entered as participants in the **Participants** tab. Otherwise select them manually as described below.
 
 2. Open the **Participants** tab and click **Add** in the footer.
 
@@ -51,7 +52,7 @@ Invite a contact to a meeting from the participants tab by clicking the **Add** 
 
 8. After choosing participants and resources, click **Save** to save your selections or **Cancel** to exit the dialog without saving.
 
-### [New Follow-up dialog](#tab/attendees)
+### [New (from version 10.2.11 pilot)](#tab/attendees)
 
 1. [Open or create a follow-up][3].
 
@@ -84,7 +85,7 @@ Invite a contact to a meeting from the participants tab by clicking the **Add** 
 ***
 <!-- markdownlint-restore -->
 
-### Scheduling assistant (available only in pilot)
+### <a id="availability" />Scheduling assistant (available only in pilot)
 
 The scheduling assistant is part of the new **Follow-up** dialog. The detailed calendar shows the availability of each internal attendant (associate). The top-most row shows the accumulated availability. The availability of external attendees and email attendees is unknown.
 
@@ -101,11 +102,24 @@ The scheduling assistant is part of the new **Follow-up** dialog. The detailed c
 1. Click **OK** when you are done.
 1. Click **Save** to save all changes.
 
+### <a id="preview" />Preview and update invitation email (available only in pilot)
+
+When you click **Save and send**, a preview of the email is shown based on the title and agenda. Any internal notes added to the follow-up are excluded.
+
+![Follow-up dialog, preview email invitation -screenshot][img13]
+
+1. Update the subject and body of the email as needed. Use the rich-text toolbar in the footer to style your invitation.
+
+    > [!NOTE]
+    > Any changes made in the preview are **not** saved back to the follow-up.
+
+1. When you are ready, click **Send**.
+
 ## What happens next
 
-1. When you save the follow-up, the other person [receives a notification][5].
+1. When you save the follow-up, the invitees [receives a notification][5].
 
-2. If the other person declines the invitation, you get an **Invitation declined** notification. Click **Got it** to acknowledge.
+2. If a person declines the invitation, you get an **Invitation declined** notification. Click **Got it** to acknowledge.
 
 3. Optionally, find a new suitable time and reschedule the follow-up.
 
@@ -127,7 +141,7 @@ Using the SuperOffice Inbox: If you have not entered the requisite information i
 
 ## Related content
 
-* [Create follow-up][3]
+* [Create a follow-up][3]
 * [Join a video meeting][4]
 
 <!-- Referenced links -->
@@ -147,6 +161,7 @@ Using the SuperOffice Inbox: If you have not entered the requisite information i
 [img7]: ../../../../../common/icons/singlecolour/contact.png
 [img8]: ../../../../../common/icons/sale.png
 [img9]: ../../../../../common/icons/singlecolour/project.png
+[img13]: ../../../../media/loc/en/diary/preview-invitation.png
 [img14]: ../../../../media/loc/en/diary/invite.png
 [img15]: ../../../../media/loc/en/diary/large-follow-up-dialog.png
 [img16]: ../../../../media/loc/en/diary/attendees-added.png

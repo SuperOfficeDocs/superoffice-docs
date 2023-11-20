@@ -3,7 +3,8 @@ uid: help-en-diary
 title: Diary
 description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to navigate in and work with the diary.
 author: Bergfrid Dias
-so.date: 11.03.2023
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary
 so.topic: concept
 language: en
@@ -17,35 +18,29 @@ The SuperOffice diary consists of a calendar and a todo list and is used similar
 * **Todo list**: shows stuff that you have not yet completed, mostly calls and to-dos without time or date.
 
 ![Keep track of all your meetings and to-dos by registering them in your diary -screenshot][img3]
+<!-- TODO: Retake with new-look side panel for GA -->
 
 The diary is a useful tool when you want to plan and perform different types of activities. From the diary, you can view, edit and delete [activities][16]. You also get a [list of sales][13] to work on, using the **Sales** section tab in the Diary screen.
 
-Regular use of the diary helps you to automatically connect and share meetings and activities linked to a contact or a company, allowing you and your team to effortlessly stay on track and work productively.
+Regular use of the diary, connecting activities to a contact or a company, ensures that you and your team can stay organized effortlessly, promoting smooth collaboration and heightened productivity.
 
 ## <a id="open" />View diary
 
-To open your diary, click the word **Diary** in the Navigator and select a time period from the list, or click **Today** or **This week** to move to the current day or week. Your name is displayed at the upper right of the Diary screen.
+To open your diary, click the word **Diary** in the Navigator and select a time period from the list, or click **Today** or **This week** to move to the current day or week. Your name is displayed at the upper right of the Diary screen. If two or more follow-ups overlap, you can see part of each follow-up.
 
-If two or more follow-ups overlap, you can see part of each follow-up.
-
-You can open another user's diary, or the diary of an available resource, to see when they are free, for example, or to create follow-ups for them directly.
-
-You can also view the diaries of other users and resources in your organization by displaying [group views][2] in your diary.
-
-> [!TIP]
-> In Settings and maintenance, you can define that all follow-ups of a specific type should be displayed in the Diary screen with the same background color.
+You can access the diary of another user or an available resource to check their availability or create follow-ups directly. To view multiple diaries at once, create a [group view][2].
 
 ## <a id="nav" />Navigate in the Diary screen
 
-The diary consists of [four different tabs][24]: **Day** tab, **Week** tab, **Month** tab and **View** tab. Switching between these views is easy: simply click the tabs at the top of the Diary screen. The relevant day, week or month is displayed at the top of the page, depending on which tab you select.
+The diary consists of [four tabs][24]: **Day** tab, **Week** tab, **Month** tab and **View** tab. Switching between these views is easy: simply click the tabs at the top of the Diary screen. The relevant day, week, or month is displayed at the top of the page, depending on which tab you selected.
 
-* In the **Day** tab, **Week** tab and **Month** tab you can click **Today** or **This week** to move to the current day or week.
+* In the **Day** tab, **Week** tab, and **Month** tab, click **Today** or **This week** to move to the current day or week.
 
-* Click a month, week number, or a day in the calendar to move directly to one of the tabs.
+* Click a month, week number, or day in the calendar to move directly to one of the tabs.
 
 * Click the previous/next buttons ![icon][img2] ![icon][img1] at the lower right of the Diary.
 
-* (If open) click a day or week in the day, week or month view in the side panel.
+* (If open) click a day or week in the day, week, or month view in the side panel.
 
 ## What would you like to do now?
 

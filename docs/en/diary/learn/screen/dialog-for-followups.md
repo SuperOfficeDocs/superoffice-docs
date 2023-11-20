@@ -153,7 +153,7 @@ This tab contains information about URLs, activities (documents and follow-ups),
 
 ## The More tab
 
-This tab displays any [custom fields][14] configured in Settings and maintenance.
+This tab displays any [custom fields][14] configured in Settings and maintenance. If not configured, this tab is not shown.
 
 <!-- Referenced links -->
 [1]: ../follow-ups.md

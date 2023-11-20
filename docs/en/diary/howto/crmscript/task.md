@@ -77,4 +77,4 @@ This sample will list all follow-ups of type 6 that have not been started and a 
 [2]: <xref:CRMScript.NetServer.NSAppointmentEntity>
 [3]: ../../../automation/crmscript/searchengine/index.md
 [4]: create-appointment.md
-[5]: ../../learn/follow-ups.md#task
+[5]: ../../learn/follow-ups.md#todo

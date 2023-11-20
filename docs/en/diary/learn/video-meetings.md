@@ -4,7 +4,7 @@ title: Work with video meetings
 description: Learn how to create and join a video meeting in SuperOffice here.
 author: SuperOffice RnD
 so.date: 11.03.2023
-so.version: 10.2.10
+so.version: 10.2.11
 keywords: diary, follow-up, video meeting
 so.topic: howto
 language: en
@@ -39,6 +39,7 @@ You can easily set up a video meeting when creating a follow up. Watch this vide
 2. To create the video meeting URL, click the video meeting icon ![icon][img1]. The icon changes to ![icon][img2] and a video meeting link is added. SuperOffice CRM will create and add the video meeting URL for the video provider you use.
 
     ![Click the video meeting icon to create the video meeting URL -screenshot][img5]
+    <!-- TODO: Retake for GA -->
 
     > [!NOTE]
     > The first time you select the video icon ![icon][img1], you must log in to authenticate your user in the video meeting service defined by your administrator.

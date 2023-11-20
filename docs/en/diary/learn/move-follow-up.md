@@ -3,7 +3,8 @@ uid: help-en-follow-up-move
 title: Moving follow-ups
 description: Moving follow-ups
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up
 so.topic: howto
 language: en
@@ -20,7 +21,7 @@ At some time, you will undoubtedly need to move follow-ups from one time slot to
 
 ## Move to a different time or day
 
-1. Select the required tab in the Diary screen (**Day**, **Week**, **Month** or **View**).
+1. Select the required tab in the Diary screen (**Day**, **Week**, **Month**, or **View**).
 
 2. Drag and drop the required follow-up to a different time.
 
@@ -37,7 +38,7 @@ At some time, you will undoubtedly need to move follow-ups from one time slot to
 
 You can move a follow-up from the activities list to the Diary. This can be useful if you moved a follow-up from the Diary to the activities list and want it back in the Diary, for example, on a different date.
 
-1. Select the required tab in the Diary screen (**Day**, **Week**, **Month** or **View**).
+1. Select the required tab in the Diary screen (**Day**, **Week**, **Month**, or **View**).
 
 2. Grab the follow-up in the activities list by clicking down on it with the mouse button.
 

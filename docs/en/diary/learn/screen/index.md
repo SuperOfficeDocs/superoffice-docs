@@ -3,7 +3,8 @@ uid: help-en-diary-screen
 title: The Diary screen
 description: The Diary screen
 author: SuperOffice RnD
-so.date: 10.02.2023
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up
 so.topic: reference
 language: en
@@ -85,7 +86,7 @@ The **View** tab in the Diary screen shows your own diary with your user ID at t
 
 The **View** tab is used mainly to open and look at overviews of other users or resources, to find out when they will be available, before inviting them to a meeting by [linking them to follow-ups][5], or creating follow-ups for them.
 
-If you select the **View** tab in the Diary screen, the ![icon][img8] **Task** button is displayed.
+The ![icon][img8] **Task** button is available on the **View** tab.
 
 **Options:**
 

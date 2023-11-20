@@ -3,7 +3,8 @@ uid: help-en-invitation-accept
 title: Follow-ups you are invited to
 description: Show follow-ups you are invited to; accept or decline an invitation
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up, invitation
 so.topic: howto
 language: en
@@ -25,7 +26,7 @@ Participants who are invited to a follow-up will receive a notification.
 
 ### Note
 
-* When you view a follow-up you are not the owner of, the usual **Follow-up** dialog is displayed. Until you accept or decline the invitation, the dialog has two extra buttons: **Accept** and **Decline**.
+* When you view a follow-up you are not the owner of, the **Follow-up** dialog has two extra buttons - **Accept** and **Decline** - until you respond to the invitation.
 
 * If you first accept an invitation and then delete the follow-up from your diary, it is counted as though you declined it. The follow-up disappears from the diary and your name is marked with a red cross ![icon][img4] in the list of participants.
 

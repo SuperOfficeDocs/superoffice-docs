@@ -11,7 +11,7 @@ language: nl
 
 # Vervolgactiviteit
 
-Een *vervolgactiviteit* is een verzamelnaam voor [vergaderingen](#apt) en [taken](#task). Een [telefoongesprek](#call) is een combinatie van beide. Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. De werking van deze activiteiten is in hoofdlijnen hetzelfde.
+Een *vervolgactiviteit* is een verzamelnaam voor [vergaderingen](#meeting) en [taken](#todo). Een [telefoongesprek](#call) is een combinatie van beide. Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. De werking van deze activiteiten is in hoofdlijnen hetzelfde.
 
 Open en vervolgactiviteit door erop te dubbelklikken in het agenda of op het sectietabblad **Activiteiten**.
 
@@ -51,7 +51,7 @@ Het sectietabblad **Activiteiten** in het scherm Bedrijf, Persoon, Verkoop, Proj
 | Taak | | | | &#10003; | Tabblad Activiteiten | Vervolgactiviteit zonder starttijd | Herinnering voor zaken die op een bepaalde tijd moeten zijn afgerond |
 | Vervolgactiviteit (Gesprek) | &#10003; | | &#10003; | | Tabblad Activiteiten | Telefoongesprek | Inkomend gesprek van klant |
 
-## <a id="apt" />Vergadering (afspraak)
+## <a id="meeting" />Vergadering (afspraak)
 
 Vergadering zijn activiteiten met een ingestelde begin- en eindtijd, zoals vergaderingen. Sie werden im Kalender des Besitzers angezeigt.
 
@@ -68,7 +68,7 @@ Een vergadering kan een enkele gebeurtenis zijn of deel uitmaken van een terugke
 | Eigen tijd en hulpmiddel gereserveerd | &#10003; | | Zoals hierboven, plus de behoefte aan ruimte of apparatuur |
 | Vergadering met meerdere deelnemers | &#10003; | &#10003; | Een vergadering, meestal ook met een hulpmiddel of locatie |
 
-## <a id="task" />Taak
+## <a id="todo" />Taak
 
 Een *taak* is een vervolgactiviteit zonder starttijd. Meestal heeft het ook geen duur, maar het heeft altijd een **deadline**. Taken worden doorgaans gebruikt voor dingen die je moet onthouden om op een bepaald tijdstip te doen.
 

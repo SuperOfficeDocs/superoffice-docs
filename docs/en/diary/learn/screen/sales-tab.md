@@ -3,8 +3,8 @@ uid: help-en-diary-screen-sales
 title: The Sales section tab (Diary)
 description: The Sales section tab (Diary)
 author: SuperOffice RnD
-so.date: 11.03.2023
-so.version: 10.2.10
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up
 so.topic: reference
 language: en

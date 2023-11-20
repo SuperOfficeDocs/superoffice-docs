@@ -3,7 +3,8 @@ uid: help-en-diary-group-view
 title: Group view
 description: The Group view; How to creating diary views; The New group view dialog
 author: Bergfrid Dias
-so.date: 10.03.2023
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up, group view
 so.topic: howto
 language: en
@@ -32,15 +33,7 @@ You can choose users and resources whose diaries you want to see and save the vi
 
 1. In the **New group view** dialog, enter the appropriate information in the **Name** and **Description** fields.
 
-1. Choose to view the diary for **Associates**, **Project**, or **Resource** in the **Select from** field.
-
-1. The contents of the list box immediately below the **Select from** field vary depending on what you selected under **Select from**.
-
-    * If you selected **Associates**, a list of user groups in your organization is displayed. You can also select **All** to display all the users in the organization.
-
-    * If you selected **Project**, the history list of projects is displayed.
-
-    * If you selected **Resource**, a list of resource groups in your organization is displayed. This list is defined in Settings and maintenance. Select **All** to see all the resources in your organization.
+1. Choose to view the diary for **Associates**, **Project**, or **Resource** in the **Select from** field. The contents of the list box immediately below the **Select from** field vary depending on what you chose.
 
 1. Select the users/resources you require and click the right arrow ![icon][img2] to add them to the pane on the right. You can also select users and resources individually by double-clicking them.
 
@@ -48,9 +41,7 @@ You can choose users and resources whose diaries you want to see and save the vi
 
 1. The selected users and resources will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ![icon][img3] or arrow down ![icon][img4] to move it up or down.
 
-1. Click **Save** after selecting users and resources, or click **Cancel** to close the dialog without saving.
-
-You will then be returned to the **View** tab, where you can create appointments for associates, and so forth.
+1. Click **Save** after selecting users and resources, or click **Cancel** to close the dialog without saving. You are returned to the **View** tab, where you can create appointments for associates, and so forth.
 
 > [!TIP]
 > To delete the active group view, click the **Task** button at the lower right and select **Delete group view**.

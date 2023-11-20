@@ -3,8 +3,8 @@ uid: help-en-follow-up-create
 title: Add follow-up
 description: How to add or copy meeting, to-do, or call in SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 11.06.2023
-so.version: 10.2.10
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone
 so.topic: howto
 language: en
@@ -44,7 +44,7 @@ If your SuperOffice has [time zones][9] turned on, you can select which time zon
 If you check **All day**, the time of the follow-up is set to the period specified as the [default working day][8] (**All-day start time** and **All-day end time** preference).
 
 <!-- markdownlint-disable MD051 -->
-#### [Appointment/Task/Phone Call dialog](#tab/fields-old)
+#### [Classic](#tab/fields-old)
 
 ![Appointment dialog -screenshot][img6]
 
@@ -69,7 +69,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 > [!TIP]
 > Click ![icon][img5] to set up a [video meeting][2].
 
-#### [New Follow-up dialog](#tab/fields-new)
+#### [New (from version 10.2.11 pilot)](#tab/fields-new)
 
 ![Follow-up dialog -screenshot][img7]
 
@@ -92,7 +92,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 * Select the **Agenda** tab to add additional information, such as an agenda, a description of the follow-up, files, images, and links. Use the buttons in the footer to add rich text formatting and content.
 
     > [!TIP]
-    > If you want to restrict access to employees-only, place that content in the **Internal notes** tab.
+    > If you want to restrict access to employees-only, place that content in the **Internal notes** tab. Whatever is added here is not sent to external participants. Click the clock icon to add a timestamp. A dot on the tab indicates that someone has added a note.
 
 ***
 <!-- markdownlint-restore -->

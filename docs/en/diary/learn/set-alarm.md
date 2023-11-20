@@ -4,6 +4,7 @@ title: Set alarm for follow-up
 description: How to sett an alarm for a follow-up in SuperOffice.
 author: Bergfrid Dias
 so.date: 11.08.2023
+so.version: 10.2.11
 keywords: diary, follow-up, meeting, alarm, notification, reminder, alert
 so.topic: howto
 language: en
@@ -22,7 +23,7 @@ For video meetings, a notification from the meeting system provider (such as Mic
 [!include[Recurrence](includes/note-repetition.md)]
 
 <!-- markdownlint-disable MD051 -->
-### [Appointment/Task/Phone Call dialog](#tab/old)
+### [Classic](#tab/old)
 
 1. [Open or create a follow-up][1].
 1. Select the **Details** tab.
@@ -35,7 +36,7 @@ For video meetings, a notification from the meeting system provider (such as Mic
 
 ![You can set an alarm to be notified before your meeting begins -screenshot][img2]
 
-### [New Follow-up dialog](#tab/new)
+### [New (from version 10.2.11 pilot)](#tab/new)
 
 1. [Open or create a follow-up][1].
 1. Click the bell icon in the header and select a time.

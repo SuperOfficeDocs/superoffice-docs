@@ -11,7 +11,7 @@ language: no
 
 # Oppfølging
 
-*Oppfølging* er et samlebegrep for [møter](#apt) og [oppgaver](#task). En [telefonsamtale](#call) er en blanding av de to. Disse er nært knyttet til Dagbok-bildet fungerer stort sett på samme måte.
+*Oppfølging* er et samlebegrep for [møter](#meeting) og [oppgaver](#todo). En [telefonsamtale](#call) er en blanding av de to. Disse er nært knyttet til Dagbok-bildet fungerer stort sett på samme måte.
 
 Åpne en tidligere registrert oppfølging ved å dobbeltklikke på den i dagboken eller i detaljkortet **Aktiviteter**.
 
@@ -51,7 +51,7 @@ Detaljkortet **Aktiviteter** på skjermbildet Firma, Personer, Salg, Prosjekt, o
 | Oppgave | | | | &#10003; | Seksjon Aktiviteter | Oppfølging uten starttid | Påminnelse for oppgaver som forfaller til en bestemt tid |
 | Oppfølging (samtale) | &#10003; | | &#10003; | | Seksjon Aktiviteter | Telefonsamtale | Innkommende samtale fra kunde |
 
-## <a id="apt" />Møte (avtale)
+## <a id="meeting" />Møte (avtale)
 
 Møter er oppfølginger med definert start- og sluttid. De vises i eierens kalender.
 
@@ -67,7 +67,7 @@ Forfalte og fullførte møter vil vises i seksjonen **Aktiviteter**-fanen i till
 | Egen tid og ressurs reservert | &#10003; | | Som ovenfor, pluss behov for rom eller utstyr |
 | Møte med flere deltakere | &#10003; | &#10003; | Et møte, vanligvis også med en ressurs eller sted |
 
-## <a id="task" />Oppgave
+## <a id="todo" />Oppgave
 
 En *oppgave* er en oppfølging uten starttid. Den har vanligvis heller ingen varighet, men den har alltid en **frist**. Oppgaver brukes vanligvis for ting du må huske å gjøre innen en bestemt tid.
 

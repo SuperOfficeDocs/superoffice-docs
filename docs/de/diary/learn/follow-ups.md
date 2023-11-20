@@ -11,7 +11,7 @@ language: de
 
 # Folgeaufgaben
 
-Eine *Folgeaufgabe* ist die allgemeine Bezeichnung für [Besprechungen](#apt), und [Aufgaben](#task). Ein [Telefonanruf](#call) ist eine Mischung aus beidem. Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft. Die Funktionsweise ist bei allen Folgeaufgaben in etwa identisch.
+Eine *Folgeaufgabe* ist die allgemeine Bezeichnung für [Besprechungen](#meeting), und [Aufgaben](#todo). Ein [Telefonanruf](#call) ist eine Mischung aus beidem. Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft. Die Funktionsweise ist bei allen Folgeaufgaben in etwa identisch.
 
 Öffnen Sie eine Folgeaufgabe, indem Sie darauf doppelklicken im Kalender oder auf die Bereichsregisterkarte **Aktivitäten**.
 
@@ -51,7 +51,7 @@ Die Bereichsregisterkarte **Aktivitäten** in der Ansicht Firma, Person, Verkauf
 | Zu erledigen (Aufgabe) | | | | &#10003; | Aktivitäten Bereich | Nachverfolgung ohne Startzeit | Erinnerung für Aufgaben, die bis zu einer bestimmten Zeit fällig sind |
 | Folgeaufgabe (Anruf) | &#10003; | | &#10003; | | Aktivitäten Bereich | Telefonanruf | Eingehender Anruf vom Kunden |
 
-## <a id="apt" />Besprechung (Termin)
+## <a id="meeting" />Besprechung (Termin)
 
 Besprechungen sind Aktivitäten mit einem definierten Anfangs- und Endzeitpunkt. Sie werden im Kalender des Besitzers angezeigt.
 
@@ -67,7 +67,7 @@ Eine Besprechung kann eine einzelne Veranstaltung oder Teil einer wiederkehrende
 | Eigene Zeit und Ressource reserviert | &#10003; | | Wie oben, plus Bedarf an Raum oder Ausrüstung |
 | Besprechung mit mehreren Teilnehmern | &#10003; | &#10003; | Eine Besprechung, normalerweise auch mit einer Ressource oder einem Ort |
 
-## <a id="task" />Zu erledigen (Aufgabe)
+## <a id="todo" />Zu erledigen (Aufgabe)
 
 Eine *Aufgabe* ist eine Folgeaufgabe ohne Startzeit. Sie hat normalerweise auch keine Dauer, aber immer eine **Frist**. Aufgaben werden typischerweise für Dinge verwendet, die Sie sich merken müssen, bis zu einem bestimmten Zeitpunkt.
 

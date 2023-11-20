@@ -3,7 +3,8 @@ uid: help-en-follow-ups
 title: Follow-ups
 description: Follow-ups - meeting, to-do, call
 author: Bergfrid Dias
-so.date: 11.03.2023
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up, appointment, meeting, task, to-do, phone, call, participant
 so.topic: concept
 language: en
@@ -11,7 +12,7 @@ language: en
 
 # Follow-ups
 
-*Follow-up* is a collective term for [meetings](#apt) and [to-dos](#task). A [phone call](#call) is a hybrid of the two. These activities are closely linked to the Diary screen and function in largely the same way.
+*Follow-up* is a collective term for [meetings](#meeting) and [to-dos](#todo). A [phone call](#call) is a hybrid of the two. These activities are closely linked to the Diary screen and function in largely the same way.
 
 Open an existing follow-up by double-clicking it in the Diary or the **Activities** section tab.
 
@@ -51,7 +52,7 @@ The **Activities** section tab (in the Company, Contact, Sale, Project, and Diar
 | To-do (task) | | | | &#10003; | Activities section tab | Follow-up w/ no start time | reminder for stuff due by a specific time |
 | Follow-up (call) | &#10003; | | &#10003; | | Activities section tab | Phone call | Incoming call from customer |
 
-## <a id="apt" />Meeting (appointment)
+## <a id="meeting" />Meeting (appointment)
 
 Meetings are activities with a defined start and end time. They are shown in the owner's calendar.
 
@@ -67,7 +68,7 @@ Overdue and completed meetings will be in the **Activities** section tab in addi
 | Own time and resource reserved | &#10003; | | As above plus need room or equipment |
 | Meeting with multiple participants | &#10003; | &#10003; | A meeting, commonly also with a resource or location |
 
-## <a id="task" />To-do (task)
+## <a id="todo" />To-do (task)
 
 A *to-do* is a follow-up without a start time. It usually does not have a duration either, but it always has a **deadline**. To-dos are typically used for things you have to remember to do by a certain time.
 
@@ -75,9 +76,7 @@ By default, you will find to-dos in the diary todo list, where they can be check
 
 ## <a id="call" />Follow-up (phone call)
 
-A *call* is a follow-up representing a very specific action - the phone call. For example, you want to enter an outgoing phone call.
-
-It is also kinda a hybrid between an meeting and a to-do:
+A *call* represents a very specific action - the phone call - and is a hybrid between an meeting and a to-do:
 
 * When you initially plan a call, it lives in the todo list with a deadline much like a to-do.
 * When you make the call, it gets fixed in time and now resembles an meeting.
