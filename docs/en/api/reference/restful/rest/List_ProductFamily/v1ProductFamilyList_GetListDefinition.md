@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 434,
-  "Name": "Conn LLC",
-  "Tooltip": "quos",
+  "Id": 815,
+  "Name": "Mann Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 437,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 571,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "facere",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 538
+      "FieldLength": 23
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

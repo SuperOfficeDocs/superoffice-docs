@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 833,
-  "Name": "Kerluke LLC",
-  "Description": "Organic responsive approach",
-  "DefaultHeight": 292,
-  "DefaultWidth": 561,
+  "DashboardTileDefinitionId": 192,
+  "Name": "Marquardt Group",
+  "Description": "Open-architected zero defect system engine",
+  "DefaultHeight": 854,
+  "DefaultWidth": 785,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Dickens, Steuber and Crist",
-  "SelectionId": 649,
+  "EntityName": "Lueilwitz-Swaniawski",
+  "SelectionId": 2,
   "CurrencyMode": "Base",
-  "CurrencyCode": "voluptas",
+  "CurrencyCode": "assumenda",
   "Measure": "Average",
-  "MeasureField": "delectus",
-  "SortBy": "soluta",
-  "LayoutConfig": "non",
-  "SecondarySelectionId": 404,
-  "MeasureByField": "explicabo",
+  "MeasureField": "et",
+  "SortBy": "eveniet",
+  "LayoutConfig": "dolores",
+  "SecondarySelectionId": 541,
+  "MeasureByField": "perferendis",
   "Usage": "Dashboard",
-  "ProviderName": "Mann, Fay and Dietrich"
+  "ProviderName": "Shanahan-Volkman"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 379,
-  "Name": "Beer-Leffler",
-  "Description": "Total zero defect approach",
-  "DefaultHeight": 433,
-  "DefaultWidth": 719,
+  "DashboardTileDefinitionId": 991,
+  "Name": "Nolan, Hegmann and Quigley",
+  "Description": "Extended bifurcated artificial intelligence",
+  "DefaultHeight": 299,
+  "DefaultWidth": 316,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Boyer, Metz and Champlin",
-  "SelectionId": 109,
+  "EntityName": "Berge, Zemlak and Bernhard",
+  "SelectionId": 561,
   "CurrencyMode": "Base",
-  "CurrencyCode": "occaecati",
+  "CurrencyCode": "voluptatem",
   "Measure": "Average",
-  "MeasureField": "facilis",
-  "SortBy": "ut",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 751,
-  "MeasureByField": "est",
+  "MeasureField": "ut",
+  "SortBy": "atque",
+  "LayoutConfig": "vero",
+  "SecondarySelectionId": 572,
+  "MeasureByField": "porro",
   "Usage": "Dashboard",
-  "ProviderName": "Baumbach, Jaskolski and Hartmann",
+  "ProviderName": "Funk-Hilll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 333
     }
   }
 }

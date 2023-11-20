@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 638
+  "PersonId": 743
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "excepturi",
-    "StrippedValue": "quasi",
-    "Description": "Horizontal uniform hardware",
+    "Value": "sapiente",
+    "StrippedValue": "illum",
+    "Description": "Innovative uniform database",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldLength": 513
       }
     }
   },
   {
-    "Value": "excepturi",
-    "StrippedValue": "quasi",
-    "Description": "Horizontal uniform hardware",
+    "Value": "sapiente",
+    "StrippedValue": "illum",
+    "Description": "Innovative uniform database",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldLength": 513
       }
     }
   }

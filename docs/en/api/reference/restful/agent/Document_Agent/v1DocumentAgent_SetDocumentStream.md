@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 58,
+  "DocumentId": 809,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sit",
-  "Header": "libero",
-  "Name": "Torphy Inc and Sons",
-  "OurRef": "excepturi",
-  "YourRef": "perferendis",
-  "CreatedDate": "2013-01-19T11:06:34.3801825+01:00",
-  "UpdatedDate": "2004-01-23T11:06:34.3801825+01:00",
-  "Description": "Re-contextualized tertiary standardization",
+  "Attention": "error",
+  "Header": "aut",
+  "Name": "Hackett Group",
+  "OurRef": "repellat",
+  "YourRef": "et",
+  "CreatedDate": "2023-08-17T13:38:13.4677523+02:00",
+  "UpdatedDate": "1997-02-18T13:38:13.4677523+01:00",
+  "Description": "Balanced assymetric hub",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-02-15T11:06:34.3801825+01:00",
-  "ExternalRef": "asperiores",
+  "Date": "2017-08-24T13:38:13.4677523+02:00",
+  "ExternalRef": "laudantium",
   "Completed": "Completed",
-  "ActiveLinks": 44,
+  "ActiveLinks": 241,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kling LLC",
-      "Id": 833,
-      "Description": "Fundamental dedicated utilisation",
-      "ExtraInfo": "accusantium",
-      "LinkId": 610,
+      "EntityName": "Greenfelder-Mayert",
+      "Id": 747,
+      "Description": "Object-based human-resource archive",
+      "ExtraInfo": "amet",
+      "LinkId": 210,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 91
+          "FieldLength": 79
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 597,
-  "Snum": 598,
+  "SuggestedDocumentId": 925,
+  "Snum": 116,
   "UserDefinedFields": {
-    "SuperOffice:1": "Kody Paucek",
-    "SuperOffice:2": "Denis Cummings"
+    "SuperOffice:1": "Mrs. Regan Hintz",
+    "SuperOffice:2": "Kacey Satterfield"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "perferendis"
+    "ExtraFields1": "cum",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "minima",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "similique",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2014-10-02T11:06:34.3801825+02:00",
-  "PublishTo": "2018-11-10T11:06:34.3801825+01:00",
-  "PublishFrom": "2012-05-24T11:06:34.3801825+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-03-19T13:38:13.4677523+01:00",
+  "PublishTo": "2016-11-04T13:38:13.4677523+01:00",
+  "PublishFrom": "2000-01-24T13:38:13.4677523+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 873,
+      "VisibleId": 888,
       "Visibility": "All",
       "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 127
+          "FieldType": "System.String",
+          "FieldLength": 323
         }
       }
     },
     {
-      "VisibleId": 873,
+      "VisibleId": 888,
       "Visibility": "All",
       "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 127
+          "FieldType": "System.String",
+          "FieldLength": 323
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldType": "System.String",
+      "FieldLength": 901
     }
   }
 }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "omnis",
+  "SearchString": "consequatur",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "810.017.5904 x6847",
-    "PersonCellPhone": "(196)440-6337 x0338",
-    "PersonPrivatePhone": "599.331.6199 x70843",
-    "PersonFaxNumber": "821758",
-    "PersonPagerNumber": "1170795",
-    "PersonEmail": "solon@crooks.biz",
-    "Id": 328,
-    "Name": "Gerhold, Wisozk and Nader",
-    "Tooltip": "exercitationem",
-    "UniqueId": "hic",
+    "PersonDirectPhone": "(114)320-1491 x20441",
+    "PersonCellPhone": "669-224-1008 x6258",
+    "PersonPrivatePhone": "858.857.4680 x89293",
+    "PersonFaxNumber": "865010",
+    "PersonPagerNumber": "1252717",
+    "PersonEmail": "hudson@klocko.uk",
+    "Id": 138,
+    "Name": "Beer, Hagenes and Schaefer",
+    "Tooltip": "iure",
+    "UniqueId": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldLength": 158
       }
     }
   }

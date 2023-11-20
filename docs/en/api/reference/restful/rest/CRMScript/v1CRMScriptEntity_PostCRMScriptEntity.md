@@ -99,21 +99,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 515,
-  "UniqueIdentifier": "nesciunt",
-  "Name": "Gusikowski-Rowe",
-  "Description": "Ameliorated incremental Graphic Interface",
-  "IncludeId": "fugiat",
-  "HierarchyId": 387,
-  "Source": "quo",
-  "Registered": "2013-07-17T11:06:41.7853483+02:00",
-  "RegisteredAssociateId": 619,
-  "Updated": "2007-02-03T11:06:41.7853483+01:00",
-  "UpdatedAssociateId": 774
+  "EjscriptId": 136,
+  "UniqueIdentifier": "et",
+  "Name": "Herzog, Johnston and Hills",
+  "Description": "Ameliorated modular moderator",
+  "IncludeId": "voluptatem",
+  "HierarchyId": 232,
+  "Source": "dolorem",
+  "Registered": "1997-04-20T13:38:17.280593+02:00",
+  "RegisteredAssociateId": 53,
+  "Updated": "2005-10-13T13:38:17.280593+02:00",
+  "UpdatedAssociateId": 171
 }
 ```
 
@@ -124,23 +124,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 603,
-  "UniqueIdentifier": "molestiae",
-  "Name": "Dooley-Cassin",
-  "Description": "Customer-focused background capacity",
-  "IncludeId": "voluptatibus",
-  "HierarchyId": 588,
-  "Source": "id",
-  "Registered": "2008-06-20T11:06:41.7853483+02:00",
-  "RegisteredAssociateId": 709,
-  "Updated": "2006-08-07T11:06:41.7853483+02:00",
-  "UpdatedAssociateId": 775,
+  "EjscriptId": 305,
+  "UniqueIdentifier": "id",
+  "Name": "Mraz-Pollich",
+  "Description": "User-friendly real-time synergy",
+  "IncludeId": "ea",
+  "HierarchyId": 703,
+  "Source": "natus",
+  "Registered": "2020-09-04T13:38:17.280593+02:00",
+  "RegisteredAssociateId": 432,
+  "Updated": "2017-07-24T13:38:17.280593+02:00",
+  "UpdatedAssociateId": 624,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 655
     }
   },
   "_Links": {

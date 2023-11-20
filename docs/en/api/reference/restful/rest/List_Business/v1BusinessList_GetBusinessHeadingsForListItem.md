@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Hayes Group",
-    "ToolTip": "Fugiat et quo.",
+    "Id": 557,
+    "Name": "Rosenbaum, Boyer and Lakin",
+    "ToolTip": "Voluptatibus est aut cupiditate praesentium minus est autem.",
     "Deleted": false,
-    "Rank": 778,
-    "Type": "molestiae",
-    "ColorBlock": 196,
-    "IconHint": "quasi",
-    "Selected": false,
-    "LastChanged": "2019-11-06T11:06:42.6784463+01:00",
+    "Rank": 521,
+    "Type": "voluptas",
+    "ColorBlock": 260,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2008-03-07T13:38:17.9056813+01:00",
     "ChildItems": [
       {
-        "Id": 478,
-        "Name": "Grady-Rogahn",
-        "ToolTip": "Et et.",
-        "Deleted": false,
-        "Rank": 92,
-        "Type": "molestiae",
-        "ColorBlock": 676,
-        "IconHint": "inventore",
-        "Selected": false,
-        "LastChanged": "2016-01-09T11:06:42.6784463+01:00",
+        "Id": 562,
+        "Name": "Price Inc and Sons",
+        "ToolTip": "Eum est maiores quisquam mollitia vel est.",
+        "Deleted": true,
+        "Rank": 146,
+        "Type": "consequatur",
+        "ColorBlock": 799,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2017-10-28T13:38:17.9056813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Dr. Dejah Ahmad Hettinger",
+        "ExtraInfo": "est",
+        "StyleHint": "occaecati",
+        "Hidden": true,
+        "FullName": "Linnie Fay PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 981
+            "FieldLength": 200
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "qui",
+    "ExtraInfo": "et",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Jude Mann",
+    "FullName": "Marvin Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldLength": 477
       }
     }
   }

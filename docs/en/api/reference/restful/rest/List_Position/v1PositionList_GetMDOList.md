@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=dolores
+GET /api/v1/List/Position/MDOItems?query=quis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 52,
-    "Name": "Halvorson LLC",
-    "ToolTip": "Hic veritatis incidunt et dolores veniam et est.",
-    "Deleted": true,
-    "Rank": 463,
-    "Type": "sed",
+    "Id": 637,
+    "Name": "Medhurst Inc and Sons",
+    "ToolTip": "Rerum praesentium omnis.",
+    "Deleted": false,
+    "Rank": 424,
+    "Type": "quos",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Zieme Group",
-        "ToolTip": "Repudiandae sit ipsa eaque saepe alias.",
-        "Deleted": true,
-        "Rank": 291,
-        "Type": "repellendus",
+        "Id": 249,
+        "Name": "Skiles LLC",
+        "ToolTip": "Sed rem facilis.",
+        "Deleted": false,
+        "Rank": 193,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quod",
-        "ColorBlock": 40,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "omnis",
-        "FullName": "Ava Larkin",
+        "IconHint": "quaerat",
+        "ColorBlock": 305,
+        "ExtraInfo": "ullam",
+        "StyleHint": "sequi",
+        "FullName": "Mrs. Fannie Fredrick Buckridge I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 828
+            "FieldType": "System.Int32",
+            "FieldLength": 904
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 628,
-    "ExtraInfo": "eligendi",
-    "StyleHint": "sunt",
-    "FullName": "Marlee Hyatt",
+    "IconHint": "et",
+    "ColorBlock": 855,
+    "ExtraInfo": "nam",
+    "StyleHint": "delectus",
+    "FullName": "Edison Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldType": "System.String",
+        "FieldLength": 95
       }
     }
   }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 140,
+    "TargetDimensionId": 356,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "nam",
-    "DimensionListName": "Douglas Group",
-    "DimensionListId": 916,
-    "DimensionListLabel": "rerum",
+    "DimensionListField": "voluptates",
+    "DimensionListName": "Zieme, Nitzsche and O'Keefe",
+    "DimensionListId": 551,
+    "DimensionListLabel": "deserunt",
     "SelectedDimensions": [
-      761,
-      713
+      660,
+      88
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldType": "System.String",
+        "FieldLength": 56
       }
     }
   }

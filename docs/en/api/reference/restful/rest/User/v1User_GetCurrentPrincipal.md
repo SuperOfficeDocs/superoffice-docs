@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "quia",
-  "AssociateId": 251,
-  "IsPerson": false,
-  "PersonId": 881,
-  "CountryId": 378,
-  "HomeCountryId": 561,
-  "ContactId": 18,
-  "GroupId": 506,
-  "BusinessId": 716,
-  "CategoryId": 680,
-  "ContactOwner": 711,
-  "RoleId": 200,
-  "RoleName": "Huel LLC",
-  "RoleDescription": "Synergized leading edge conglomeration",
+  "Associate": "voluptas",
+  "AssociateId": 846,
+  "IsPerson": true,
+  "PersonId": 761,
+  "CountryId": 345,
+  "HomeCountryId": 960,
+  "ContactId": 471,
+  "GroupId": 515,
+  "BusinessId": 349,
+  "CategoryId": 906,
+  "ContactOwner": 544,
+  "RoleId": 656,
+  "RoleName": "Bins-Gerhold",
+  "RoleDescription": "Re-engineered next generation definition",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 462,
-      "OwnerName": "Tromp LLC",
-      "OwnerDescription": "Stand-alone fault-tolerant product",
-      "ModuleId": 318,
-      "Name": "Nikolaus Group",
-      "Description": "Operative client-driven Graphical User Interface",
-      "Version": "tempora",
+      "OwnerId": 404,
+      "OwnerName": "Hodkiewicz Inc and Sons",
+      "OwnerDescription": "Self-enabling assymetric process improvement",
+      "ModuleId": 550,
+      "Name": "Nicolas, Purdy and Torp",
+      "Description": "Multi-tiered executive website",
+      "Version": "nisi",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 911,
-      "ExtraInfo": "sed",
-      "SortOrder": 834,
-      "LicenseNumber": 645,
+      "ExtraFlags": 142,
+      "ExtraInfo": "voluptatem",
+      "SortOrder": 266,
+      "LicenseNumber": 376,
       "IsHidden": false,
       "IsUnrestricted": false,
-      "ExpiryDate": "2010-11-11T11:06:42.6315642+01:00",
+      "ExpiryDate": "2004-08-07T13:38:17.8744364+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldLength": 791
         }
       }
     }
   ],
-  "FullName": "Frances Nicolas Jr.",
-  "EMailAddress": "et",
+  "FullName": "Mrs. Rosemarie Letitia Runolfsdottir IV",
+  "EMailAddress": "esse",
   "FunctionRights": [
-    "aliquam",
-    "et"
+    "velit",
+    "ab"
   ],
-  "EjUserId": 306,
-  "EjAccessLevel": 196,
+  "EjUserId": 885,
+  "EjAccessLevel": 120,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "aliquid",
-      "SearchName": "Jacobi LLC",
-      "DisplayName": "Hintz Group",
-      "CredentialId": 817
+      "Type": "rerum",
+      "SearchName": "Labadie Group",
+      "DisplayName": "Hartmann-Stracke",
+      "CredentialId": 948
     },
     {
-      "Type": "aliquid",
-      "SearchName": "Jacobi LLC",
-      "DisplayName": "Hintz Group",
-      "CredentialId": 817
+      "Type": "rerum",
+      "SearchName": "Labadie Group",
+      "DisplayName": "Hartmann-Stracke",
+      "CredentialId": 948
     }
   ],
   "SecondaryGroups": [
-    648,
-    104
+    941,
+    105
   ],
-  "DatabaseContextIdentifier": "modi",
-  "UserName": "Fay, Abernathy and Stanton"
+  "DatabaseContextIdentifier": "saepe",
+  "UserName": "Prohaska Group"
 }
 ```

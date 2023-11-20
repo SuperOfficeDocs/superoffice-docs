@@ -1,22 +1,32 @@
 ---
-title: POST Agents/Workflow/SaveWorkflowStepOption
-uid: v1WorkflowAgent_SaveWorkflowStepOption
+title: POST Agents/Workflow/CreateDefaultWorkflowStepOptionFromType
+uid: v1WorkflowAgent_CreateDefaultWorkflowStepOptionFromType
 generated: true
 ---
 
-# POST Agents/Workflow/SaveWorkflowStepOption
+# POST Agents/Workflow/CreateDefaultWorkflowStepOptionFromType
 
 ```http
-POST /api/v1/Agents/Workflow/SaveWorkflowStepOption
+POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOptionFromType
 ```
 
-Updates the existing WorkflowStepOption or creates a new WorkflowStepOption if the id parameter is empty
+Creates a new carrier from the option type given, with the right kind of properties, defaults set.
 
 
 
 
 
 
+
+## Query String Parameters
+
+| Parameter Name | Type |  Description |
+|----------------|------|--------------|
+| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
+
+```http
+POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOptionFromType?$select=name,department,category/id
+```
 
 
 ## Request Headers
@@ -33,19 +43,13 @@ Updates the existing WorkflowStepOption or creates a new WorkflowStepOption if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: request 
 
-The WorkflowStepOption to be saved. 
+OptionType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WorkflowStepOptionId | Integer | Primary key |
-| WorkflowStepId | Integer | The workflow step this instance belongs to |
-| WorkflowId | Integer | The flow this instance belongs to |
-| Key | String | A key used to refer to this option |
-| Name | String | The name of this option |
-| Rank | Integer | The rank of this option |
-| Steps | Array | The steps to execute if this option/path is selected |
+| OptionType | String |  |
 
 ## Response:
 
@@ -55,50 +59,29 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: WorkflowStepOption
+### Response body: WorkflowStepOptionBase
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
+| OptionType | string | Type of option |
 | WorkflowStepOptionId | int32 | Primary key |
 | WorkflowStepId | int32 | The workflow step this instance belongs to |
 | WorkflowId | int32 | The flow this instance belongs to |
-| Key | string | A key used to refer to this option |
 | Name | string | The name of this option |
 | Rank | int32 | The rank of this option |
 | Steps | array | The steps to execute if this option/path is selected |
-| TableRight | TableRight | The carrier's table right |
-| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
 ```http!
-POST /api/v1/Agents/Workflow/SaveWorkflowStepOption
+POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOptionFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 890,
-  "WorkflowStepId": 524,
-  "WorkflowId": 368,
-  "Key": "rerum",
-  "Name": "Paucek Group",
-  "Rank": 315,
-  "Steps": [
-    {
-      "WorkflowStepId": 957,
-      "WorkflowId": 561,
-      "StepType": "AddToList",
-      "Rank": 25
-    },
-    {
-      "WorkflowStepId": 957,
-      "WorkflowId": 561,
-      "StepType": "AddToList",
-      "Rank": 25
-    }
-  ]
+  "OptionType": "FormSubmission"
 }
 ```
 
@@ -109,33 +92,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 648,
-  "WorkflowStepId": 35,
-  "WorkflowId": 482,
-  "Key": "unde",
-  "Name": "Gleichner, Beier and Hackett",
-  "Rank": 442,
+  "OptionType": "FormSubmission",
+  "WorkflowStepOptionId": 193,
+  "WorkflowStepId": 898,
+  "WorkflowId": 845,
+  "Name": "Simonis-Hilpert",
+  "Rank": 241,
   "Steps": [
     {
-      "WorkflowStepId": 717,
-      "WorkflowId": 105,
+      "WorkflowStepId": 402,
+      "WorkflowId": 627,
       "StepType": "AddToList",
-      "Rank": 120
+      "Rank": 599
     },
     {
-      "WorkflowStepId": 717,
-      "WorkflowId": 105,
+      "WorkflowStepId": 402,
+      "WorkflowId": 627,
       "StepType": "AddToList",
-      "Rank": 120
+      "Rank": 599
     }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 332
-    }
-  }
+  ]
 }
 ```

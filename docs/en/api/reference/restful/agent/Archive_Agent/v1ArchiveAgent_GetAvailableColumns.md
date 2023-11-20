@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Klein, Jacobs and Schumm",
-  "Context": "tenetur"
+  "ProviderName": "Pfeffer Inc and Sons",
+  "Context": "dignissimos"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Emmerich LLC",
-    "DisplayTooltip": "occaecati",
-    "DisplayType": "consequatur",
+    "DisplayName": "Durgan, Hamill and Reinger",
+    "DisplayTooltip": "blanditiis",
+    "DisplayType": "molestias",
     "CanOrderBy": false,
-    "Name": "Terry, Wisoky and Erdman",
-    "CanRestrictBy": false,
-    "RestrictionType": "aliquam",
-    "RestrictionListName": "Johnston-Fisher",
+    "Name": "Wolf Inc and Sons",
+    "CanRestrictBy": true,
+    "RestrictionType": "delectus",
+    "RestrictionListName": "Abshire-Halvorson",
     "IsVisible": true,
-    "ExtraInfo": "qui",
-    "Width": "illum",
-    "IconHint": "qui",
-    "HeadingIconHint": "nesciunt"
+    "ExtraInfo": "nemo",
+    "Width": "voluptas",
+    "IconHint": "molestiae",
+    "HeadingIconHint": "debitis"
   }
 ]
 ```

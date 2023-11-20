@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 166,
-  "Name": "Erdman, Satterfield and Crist",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "UdListDefinitionId": 826,
-  "Rank": 273,
+  "Id": 518,
+  "Name": "Senger Group",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "UdListDefinitionId": 56,
+  "Rank": 215,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldType": "System.Int32",
+      "FieldLength": 882
     }
   }
 }

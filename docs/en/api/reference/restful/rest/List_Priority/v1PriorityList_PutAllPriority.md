@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 228,
-    "Name": "Wisoky-Wuckert",
-    "Tooltip": "asperiores",
-    "Deleted": false,
-    "UdListDefinitionId": 590,
-    "Rank": 43
+    "Id": 775,
+    "Name": "Stracke, Thiel and Abernathy",
+    "Tooltip": "id",
+    "Deleted": true,
+    "UdListDefinitionId": 329,
+    "Rank": 895
   },
   {
-    "Id": 228,
-    "Name": "Wisoky-Wuckert",
-    "Tooltip": "asperiores",
-    "Deleted": false,
-    "UdListDefinitionId": 590,
-    "Rank": 43
+    "Id": 775,
+    "Name": "Stracke, Thiel and Abernathy",
+    "Tooltip": "id",
+    "Deleted": true,
+    "UdListDefinitionId": 329,
+    "Rank": 895
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Feeney Inc and Sons",
-    "Tooltip": "et",
+    "Id": 942,
+    "Name": "Buckridge-Stanton",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "UdListDefinitionId": 970,
-    "Rank": 637,
+    "UdListDefinitionId": 932,
+    "Rank": 695,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldLength": 263
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 282,
-  "Name": "Johnston, Macejkovic and Glover",
+  "TicketPriorityId": 917,
+  "Name": "Stanton-Hyatt",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 105,
+  "SortOrder": 558,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 470,
-  "MonStart": "2017-06-21T11:06:43.1159494+02:00",
-  "MonStop": "2021-08-20T11:06:43.1159494+02:00",
-  "TueStart": "2011-05-24T11:06:43.1159494+02:00",
-  "TueStop": "2001-01-12T11:06:43.1159494+01:00",
-  "WedStart": "2010-05-08T11:06:43.1159494+02:00",
-  "WedStop": "2022-07-11T11:06:43.1159494+02:00",
-  "ThuStart": "2023-03-08T11:06:43.1159494+01:00",
-  "ThuStop": "2009-05-22T11:06:43.1159494+02:00",
-  "FriStart": "2015-11-04T11:06:43.1159494+01:00",
-  "FriStop": "2009-07-03T11:06:43.1159494+02:00",
-  "SatStart": "2001-08-08T11:06:43.1159494+02:00",
-  "SatStop": "1996-12-02T11:06:43.1159494+01:00",
-  "SunStart": "2000-10-19T11:06:43.1159494+02:00",
-  "SunStop": "2009-11-20T11:06:43.1159494+01:00",
+  "Deadline": 696,
+  "MonStart": "2001-07-20T13:38:18.2650127+02:00",
+  "MonStop": "2002-01-27T13:38:18.2650127+01:00",
+  "TueStart": "2022-04-27T13:38:18.2650127+02:00",
+  "TueStop": "2023-10-07T13:38:18.2650127+02:00",
+  "WedStart": "1999-10-02T13:38:18.2650127+02:00",
+  "WedStop": "2007-07-26T13:38:18.2650127+02:00",
+  "ThuStart": "2010-05-04T13:38:18.2650127+02:00",
+  "ThuStop": "2014-06-03T13:38:18.2650127+02:00",
+  "FriStart": "2017-11-04T13:38:18.2650127+01:00",
+  "FriStop": "2013-05-16T13:38:18.2650127+02:00",
+  "SatStart": "2016-04-10T13:38:18.2650127+02:00",
+  "SatStop": "2012-09-26T13:38:18.2650127+02:00",
+  "SunStart": "2015-04-06T13:38:18.2650127+02:00",
+  "SunStop": "2011-01-13T13:38:18.2650127+01:00",
   "NonDates": [
-    "sint",
-    "ad"
+    "laboriosam",
+    "voluptas"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 278,
-      "AlertLevel": 516,
-      "AlertTimeout": 594,
-      "Action": 387,
-      "DelegateTo": 187,
-      "ScriptId": 181,
-      "EmailTo": "tyshawn_bernhard@kuhn.name",
-      "SmsTo": "fuga",
-      "ReplyTemplateIdCustomer": 917,
-      "ReplyTemplateIdUser": 389,
-      "ReplyTemplateIdCatmast": 880,
-      "ReplyTemplateIdEmail": 419,
-      "RtiCustomerSms": 734,
-      "ReplyTemplateIdUserSms": 205,
-      "ReplyTemplateIdCatmastSms": 215,
-      "ReplyTemplateIdSms": 794,
+      "TicketAlertId": 55,
+      "AlertLevel": 809,
+      "AlertTimeout": 840,
+      "Action": 452,
+      "DelegateTo": 675,
+      "ScriptId": 325,
+      "EmailTo": "yadira@friesen.us",
+      "SmsTo": "molestiae",
+      "ReplyTemplateIdCustomer": 467,
+      "ReplyTemplateIdUser": 209,
+      "ReplyTemplateIdCatmast": 60,
+      "ReplyTemplateIdEmail": 105,
+      "RtiCustomerSms": 653,
+      "ReplyTemplateIdUserSms": 498,
+      "ReplyTemplateIdCatmastSms": 542,
+      "ReplyTemplateIdSms": 572,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldLength": 509
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldType": "System.Int32",
+      "FieldLength": 444
     }
   }
 }

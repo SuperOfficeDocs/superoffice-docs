@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 395,
-  "Name": "Doyle, White and Murphy",
-  "Tooltip": "recusandae",
-  "Deleted": false,
-  "Rank": 425,
-  "UdListDefinitionId": 29
+  "HeadingId": 468,
+  "Name": "Huels-Kessler",
+  "Tooltip": "assumenda",
+  "Deleted": true,
+  "Rank": 470,
+  "UdListDefinitionId": 548
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 435,
-  "Name": "Casper-Wehner",
-  "Tooltip": "quia",
+  "HeadingId": 568,
+  "Name": "Boehm, Mayer and Sporer",
+  "Tooltip": "aspernatur",
   "Deleted": false,
-  "Rank": 698,
-  "UdListDefinitionId": 990,
+  "Rank": 247,
+  "UdListDefinitionId": 278,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 349
     }
   }
 }

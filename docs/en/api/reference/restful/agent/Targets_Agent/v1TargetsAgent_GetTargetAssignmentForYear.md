@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 742,
+  "TargetYear": 597,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 858
+  "Id": 267
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 536,
+  "TargetAssignmentInfoId": 394,
   "Values": [
-    881,
-    650
+    107,
+    57
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 328,
-  "DimensionListItemDisplayName": "Rice-Moore",
+  "DimensionListItem": 668,
+  "DimensionListItemDisplayName": "Heaney-Bode",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldType": "System.String",
+      "FieldLength": 654
     }
   }
 }

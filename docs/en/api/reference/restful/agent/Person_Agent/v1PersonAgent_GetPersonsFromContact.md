@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 818
+  "ContactId": 415
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "officiis",
-    "PersonId": 852,
-    "Mrmrs": "omnis",
-    "Firstname": "Buster",
-    "Lastname": "Cruickshank",
-    "MiddleName": "Gulgowski, Weber and Reilly",
-    "Title": "est",
-    "Description": "Open-architected client-server local area network",
-    "Email": "marquis.hintz@gislason.us",
-    "FullName": "Shayne Adams",
-    "DirectPhone": "795-969-0577",
-    "FormalName": "Krajcik-Hintz",
-    "CountryId": 568,
-    "ContactId": 980,
-    "ContactName": "Dicki-Fritsch",
-    "Retired": 104,
-    "Rank": 577,
-    "ActiveInterests": 375,
+    "Position": "beatae",
+    "PersonId": 706,
+    "Mrmrs": "est",
+    "Firstname": "Jalyn",
+    "Lastname": "Kessler",
+    "MiddleName": "Feil-Kuvalis",
+    "Title": "odit",
+    "Description": "Progressive disintermediate secured line",
+    "Email": "naomie@abbott.ca",
+    "FullName": "Ms. Ezequiel Jena Willms III",
+    "DirectPhone": "1-849-763-4598",
+    "FormalName": "Schoen LLC",
+    "CountryId": 881,
+    "ContactId": 493,
+    "ContactName": "Kautzer Group",
+    "Retired": 746,
+    "Rank": 424,
+    "ActiveInterests": 665,
     "ContactDepartment": "",
-    "ContactCountryId": 815,
-    "ContactOrgNr": "1330667",
-    "FaxPhone": "067.295.4429",
-    "MobilePhone": "197.918.4735",
-    "ContactPhone": "047-901-7238",
-    "AssociateName": "Tillman, Moore and Gaylord",
-    "AssociateId": 535,
-    "UsePersonAddress": true,
-    "ContactFax": "fuga",
-    "Kanafname": "ut",
-    "Kanalname": "praesentium",
-    "Post1": "nihil",
-    "Post2": "illo",
+    "ContactCountryId": 818,
+    "ContactOrgNr": "681963",
+    "FaxPhone": "267-181-2507",
+    "MobilePhone": "1-619-116-9857",
+    "ContactPhone": "571-332-8665",
+    "AssociateName": "Cremin-Lemke",
+    "AssociateId": 188,
+    "UsePersonAddress": false,
+    "ContactFax": "itaque",
+    "Kanafname": "et",
+    "Kanalname": "repudiandae",
+    "Post1": "facilis",
+    "Post2": "omnis",
     "Post3": "et",
-    "EmailName": "gonzalo_wuckert@lemke.co.uk",
-    "ContactFullName": "Hattie Nitzsche DVM",
-    "ActiveErpLinks": 7,
-    "TicketPriorityId": 541,
-    "SupportLanguageId": 270,
-    "SupportAssociateId": 480,
+    "EmailName": "keshaun_roob@abbott.us",
+    "ContactFullName": "Melany Cremin",
+    "ActiveErpLinks": 689,
+    "TicketPriorityId": 708,
+    "SupportLanguageId": 318,
+    "SupportAssociateId": 874,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldType": "System.String",
+        "FieldLength": 525
       }
     }
   }

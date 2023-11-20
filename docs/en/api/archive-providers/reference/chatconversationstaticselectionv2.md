@@ -473,7 +473,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=associate/usergroup,person/retired,person/personUdef/SuperOffice:8,person/personExtra/x_person_shorttext_list,person/correspondingAssociate/assocTooltip
+GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=firstMessage,person/title,person/hasEmarketingConsent,contact/postAddress/formattedAddress,contact/contactAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

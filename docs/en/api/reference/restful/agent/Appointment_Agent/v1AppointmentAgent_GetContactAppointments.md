@@ -117,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -129,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 677,
-  "StartTime": "1999-02-18T11:06:33.4288564+01:00",
-  "EndTime": "1997-10-25T11:06:33.4288564+02:00",
-  "Count": 327
+  "ContactId": 634,
+  "StartTime": "2014-03-16T13:38:12.8428246+01:00",
+  "EndTime": "2014-08-15T13:38:12.8428246+02:00",
+  "Count": 444
 }
 ```
 
@@ -148,64 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 137,
-    "StartDate": "2002-06-17T11:06:33.4288564+02:00",
-    "EndDate": "2004-03-02T11:06:33.4288564+01:00",
+    "AppointmentId": 25,
+    "StartDate": "2009-08-12T13:38:12.8428246+02:00",
+    "EndDate": "2023-03-24T13:38:12.8428246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "magnam",
-    "AssociateFullName": "Tess Auer II",
-    "ContactName": "Erdman Inc and Sons",
-    "Description": "Extended assymetric parallelism",
-    "PersonFullName": "Neva Johns",
-    "PersonId": 407,
-    "ContactId": 403,
-    "ProjectId": 571,
-    "ProjectName": "Anderson LLC",
-    "IsPublished": true,
-    "AssociateId": 53,
-    "ColorIndex": 185,
+    "Task": "aut",
+    "AssociateFullName": "Anissa O'Keefe",
+    "ContactName": "Hammes Inc and Sons",
+    "Description": "Business-focused tangible intranet",
+    "PersonFullName": "Johann Jerde",
+    "PersonId": 406,
+    "ContactId": 446,
+    "ProjectId": 72,
+    "ProjectName": "Gleichner Group",
+    "IsPublished": false,
+    "AssociateId": 241,
+    "ColorIndex": 787,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 560,
-    "PriorityName": "Keebler, Cassin and Mitchell",
+    "PriorityId": 707,
+    "PriorityName": "Lueilwitz, Hilll and Olson",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2023-09-17T11:06:33.4288564+02:00",
+    "ActiveDate": "2014-04-06T13:38:12.8428246+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-03-04T11:06:33.4288564+01:00",
-    "RecurringEndDate": "2011-01-06T11:06:33.4288564+01:00",
-    "MotherId": 630,
-    "AssignedBy": 90,
-    "AssignedByFullName": "Jodie Crona",
+    "RecurringStartDate": "2022-03-25T13:38:12.8428246+01:00",
+    "RecurringEndDate": "2002-03-04T13:38:12.8428246+01:00",
+    "MotherId": 446,
+    "AssignedBy": 279,
+    "AssignedByFullName": "Adell Grimes DVM",
     "RejectReason": "",
-    "Location": "saepe",
-    "AlarmLeadTime": "aspernatur",
-    "SaleId": 228,
-    "SaleName": "Ryan-Cronin",
-    "AssociateName": "Waters, Larkin and Moen",
-    "CreatedDate": "2020-08-04T11:06:33.4288564+02:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Mozelle Boris Harris Jr.",
-    "CreatedByAssociateId": 429,
+    "Location": "nihil",
+    "AlarmLeadTime": "aliquid",
+    "SaleId": 725,
+    "SaleName": "Kilback LLC",
+    "AssociateName": "Botsford Group",
+    "CreatedDate": "2016-05-09T13:38:12.8428246+02:00",
+    "CreatedBy": "veniam",
+    "CreatedByFullName": "Ward Koepp",
+    "CreatedByAssociateId": 389,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "suscipit",
-    "Agenda": "qui",
-    "InternalNotes": "exercitationem",
+    "PreferredTZLocation": 32,
+    "Title": "error",
+    "Agenda": "molestiae",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 298
+        "FieldType": "System.Int32",
+        "FieldLength": 828
       }
     }
   }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 409
+  "QuickReplyId": 752
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cruickshank LLC",
-  "UpdatedByFullName": "Prof. Amaya Cydney Tremblay V",
-  "Updated": "2013-11-30T11:06:34.2539546+01:00",
-  "HtmlBody": "laborum",
+  "Name": "Corwin-Emard",
+  "UpdatedByFullName": "Mrs. Chance Odessa Brekke PhD",
+  "Updated": "2020-02-27T13:38:13.3896326+01:00",
+  "HtmlBody": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 506
     }
   }
 }

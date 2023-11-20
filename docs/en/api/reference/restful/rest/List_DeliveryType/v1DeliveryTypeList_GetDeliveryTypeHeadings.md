@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 955,
-    "Name": "Medhurst, Corkery and Murray",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 676,
-    "UdListDefinitionId": 317,
+    "HeadingId": 20,
+    "Name": "Bosco-Bailey",
+    "Tooltip": "voluptatibus",
+    "Deleted": false,
+    "Rank": 624,
+    "UdListDefinitionId": 875,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldType": "System.String",
+        "FieldLength": 858
       }
     }
   }

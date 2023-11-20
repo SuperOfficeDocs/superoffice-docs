@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Harvey, Walsh and Stiedemann",
-    "ToolTip": "Neque sunt debitis minima enim rem pariatur.",
+    "Id": 553,
+    "Name": "Ankunding Group",
+    "ToolTip": "Quos facilis.",
     "Deleted": false,
-    "Rank": 883,
-    "Type": "velit",
-    "ColorBlock": 396,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2001-03-23T11:06:43.069069+01:00",
+    "Rank": 53,
+    "Type": "nihil",
+    "ColorBlock": 447,
+    "IconHint": "explicabo",
+    "Selected": false,
+    "LastChanged": "2003-04-30T13:38:18.2337719+02:00",
     "ChildItems": [
       {
-        "Id": 195,
-        "Name": "Dicki-Bednar",
-        "ToolTip": "Aliquid porro modi ut.",
+        "Id": 738,
+        "Name": "Bernier LLC",
+        "ToolTip": "Ipsa autem.",
         "Deleted": false,
-        "Rank": 910,
-        "Type": "assumenda",
-        "ColorBlock": 976,
-        "IconHint": "atque",
-        "Selected": true,
-        "LastChanged": "2021-08-11T11:06:43.069069+02:00",
+        "Rank": 714,
+        "Type": "nemo",
+        "ColorBlock": 133,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2005-10-17T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Cierra Wiza"
+        "ExtraInfo": "repellat",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Dr. Tomasa Boyer"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "aperiam",
-    "Hidden": false,
-    "FullName": "Carson Renner"
+    "ExtraInfo": "molestiae",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Kieran Jacobi"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Name": "Conn-Abernathy",
-    "ToolTip": "Blanditiis dolores amet labore quasi dolorem quia.",
-    "Deleted": false,
-    "Rank": 455,
-    "Type": "numquam",
-    "ColorBlock": 8,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2019-10-29T11:06:43.069069+01:00",
+    "Id": 549,
+    "Name": "Kunze LLC",
+    "ToolTip": "Eos voluptas in sequi nihil debitis facilis aliquid.",
+    "Deleted": true,
+    "Rank": 811,
+    "Type": "id",
+    "ColorBlock": 726,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "1997-04-27T13:38:18.2337719+02:00",
     "ChildItems": [
       {
-        "Id": 622,
-        "Name": "Conroy Group",
-        "ToolTip": "Aut pariatur rerum commodi qui at cumque.",
-        "Deleted": false,
-        "Rank": 778,
-        "Type": "quos",
-        "ColorBlock": 364,
-        "IconHint": "ut",
+        "Id": 379,
+        "Name": "Goyette Inc and Sons",
+        "ToolTip": "Totam accusantium maiores deserunt sequi cum.",
+        "Deleted": true,
+        "Rank": 302,
+        "Type": "atque",
+        "ColorBlock": 636,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2001-10-02T11:06:43.069069+02:00",
+        "LastChanged": "2005-10-03T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Prof. Kole Judson Herzog",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "itaque",
+        "Hidden": true,
+        "FullName": "Granville Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 945
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "quae",
+    "ExtraInfo": "dolor",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Devonte Vandervort",
+    "FullName": "Issac Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 486
+        "FieldType": "System.Int32",
+        "FieldLength": 812
       }
     }
   }

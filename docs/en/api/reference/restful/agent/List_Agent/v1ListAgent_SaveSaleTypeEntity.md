@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 340,
-  "Name": "Okuneva Group",
-  "Tooltip": "accusantium",
-  "Rank": 743,
+  "SaleTypeId": 379,
+  "Name": "Hirthe-Ruecker",
+  "Tooltip": "iusto",
+  "Rank": 172,
   "DurationUnit": "Century",
-  "SaleDuration": 496,
-  "SaleTypeCatId": 190,
+  "SaleDuration": 746,
+  "SaleTypeCatId": 353,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 768,
-  "QuoteLinesTemplate": 788,
-  "ConfirmationLinesTemplate": 737,
+  "DefaultQuoteValidity": 868,
+  "QuoteLinesTemplate": 896,
+  "ConfirmationLinesTemplate": 330,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 964,
-  "MinEarningPercent": 275,
-  "GroupQuoteLinesBy": 134,
-  "SortGroupLinesBy": 246,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 89,
+  "MinEarningPercent": 412,
+  "GroupQuoteLinesBy": 633,
+  "SortGroupLinesBy": 133,
   "Stages": [
     {
-      "Id": 827,
-      "Name": "Huels, Balistreri and Bailey",
-      "ToolTip": "Iusto soluta quidem vel reiciendis maiores.",
+      "Id": 765,
+      "Name": "Crist-Robel",
+      "ToolTip": "Aut perferendis dignissimos doloremque aspernatur aut nulla occaecati.",
       "Deleted": false,
-      "Rank": 523,
-      "Type": "nemo",
-      "ColorBlock": 145,
-      "IconHint": "optio",
+      "Rank": 378,
+      "Type": "id",
+      "ColorBlock": 754,
+      "IconHint": "dolorem",
       "Selected": false,
-      "LastChanged": "2006-09-02T11:06:34.7708179+02:00",
+      "LastChanged": "2003-07-23T13:38:13.7177215+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sequi",
-      "StyleHint": "et",
+      "ExtraInfo": "vel",
+      "StyleHint": "cupiditate",
       "Hidden": false,
-      "FullName": "Prof. Aditya Kilback II"
+      "FullName": "Godfrey Willms"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 593,
-  "Name": "Schinner-Rath",
-  "Tooltip": "fugit",
-  "Rank": 942,
+  "SaleTypeId": 277,
+  "Name": "Hagenes-Bruen",
+  "Tooltip": "atque",
+  "Rank": 311,
   "DurationUnit": "Century",
-  "SaleDuration": 693,
-  "SaleTypeCatId": 580,
+  "SaleDuration": 501,
+  "SaleTypeCatId": 128,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 208,
-  "QuoteLinesTemplate": 511,
-  "ConfirmationLinesTemplate": 811,
+  "DefaultQuoteValidity": 628,
+  "QuoteLinesTemplate": 653,
+  "ConfirmationLinesTemplate": 21,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 913,
-  "MinEarningPercent": 352,
-  "GroupQuoteLinesBy": 349,
-  "SortGroupLinesBy": 916,
+  "MaxDiscountPercent": 139,
+  "MinEarningPercent": 488,
+  "GroupQuoteLinesBy": 25,
+  "SortGroupLinesBy": 166,
   "Stages": [
     {
-      "Id": 400,
-      "Name": "Brown, Kub and Schulist",
-      "ToolTip": "Voluptate ducimus rerum consectetur.",
-      "Deleted": false,
-      "Rank": 897,
-      "Type": "eos",
-      "ColorBlock": 391,
-      "IconHint": "qui",
+      "Id": 470,
+      "Name": "Pfannerstill-Greenholt",
+      "ToolTip": "Dignissimos sed dolorem quae ducimus veritatis.",
+      "Deleted": true,
+      "Rank": 613,
+      "Type": "similique",
+      "ColorBlock": 364,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2023-09-29T11:06:34.7708179+02:00",
+      "LastChanged": "2014-07-20T13:38:13.7177215+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quos",
-      "StyleHint": "nobis",
+      "ExtraInfo": "ullam",
+      "StyleHint": "et",
       "Hidden": true,
-      "FullName": "Mr. Tianna Nienow",
+      "FullName": "Zora Bogisich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 532
+          "FieldType": "System.Int32",
+          "FieldLength": 987
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldLength": 970
     }
   }
 }

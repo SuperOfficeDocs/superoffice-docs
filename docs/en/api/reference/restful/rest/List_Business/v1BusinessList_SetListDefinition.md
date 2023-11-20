@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 882,
-  "Name": "Schaden-Vandervort",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "Rank": 137,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 629,
+  "Name": "Gutkowski, Smitham and Beahan",
+  "Tooltip": "provident",
+  "Deleted": false,
+  "Rank": 723,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 244,
-  "Name": "Block, Dickinson and Simonis",
-  "Tooltip": "ea",
+  "Id": 174,
+  "Name": "Bernhard, Kris and Reilly",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 483,
+  "Rank": 395,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "porro",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolorem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldType": "System.String",
+      "FieldLength": 114
     }
   }
 }

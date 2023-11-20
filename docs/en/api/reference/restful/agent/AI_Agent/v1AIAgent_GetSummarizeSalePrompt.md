@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeSalePrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 360,
-  "NumSentences": 135,
-  "Summary": "quidem",
-  "IsoLangCode": "amet"
+  "SaleId": 984,
+  "NumSentences": 345,
+  "Summary": "ea",
+  "IsoLangCode": "nihil"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "1998-11-14T11:06:33.4132283+01:00",
-  "UserPrompt": "et",
-  "UserDisplayText": "autem",
-  "BotResponse": "modi",
+  "Timestamp": "2010-11-05T13:38:12.8271613+01:00",
+  "UserPrompt": "aperiam",
+  "UserDisplayText": "quo",
+  "BotResponse": "aut",
   "BotActions": {
-    "BotActions1": "aspernatur",
-    "BotActions2": "impedit"
+    "BotActions1": "sequi",
+    "BotActions2": "aspernatur"
   },
   "Attachments": [
     "sit",
-    "voluptas"
+    "ad"
   ]
 }
 ```

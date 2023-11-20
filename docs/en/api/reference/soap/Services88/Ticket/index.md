@@ -32,6 +32,7 @@ Download [WSDL file for Services88/Ticket](../Services88-Ticket.md) if you need 
 * [GetAttachmentInfoNonInline](GetAttachmentInfoNonInline.md)
 * [GetAttachmentStream](GetAttachmentStream.md)
 * [GetDefaultMessageContent](GetDefaultMessageContent.md)
+* [GetDefaultMessageContentFull](GetDefaultMessageContentFull.md)
 * [GetForRmUi](GetForRmUi.md)
 * [GetNextInQueue](GetNextInQueue.md)
 * [GetPreviewAttachmentStream](GetPreviewAttachmentStream.md)

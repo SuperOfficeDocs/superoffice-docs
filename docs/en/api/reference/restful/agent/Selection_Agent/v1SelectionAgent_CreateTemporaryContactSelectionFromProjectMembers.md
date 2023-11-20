@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 281
+  "ProjectId": 685
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-architected secondary software",
-  "Postit": "in",
+  "Description": "Implemented heuristic collaboration",
+  "Postit": "harum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 234,
-  "IncludePerson": 220,
-  "MemberCount": 504,
-  "Name": "Anderson, Grant and Haag",
-  "PostitTextId": 488,
-  "CreatedDate": "2015-08-25T11:06:35.3801953+02:00",
-  "SelectionId": 424,
-  "SoundEx": "et",
-  "Source": 789,
-  "TextId": 649,
-  "UpdatedDate": "1999-12-06T11:06:35.3801953+01:00",
-  "UpdatedCount": 176,
-  "Visibility": 137,
+  "GroupIdx": 240,
+  "IncludePerson": 709,
+  "MemberCount": 206,
+  "Name": "Cummerata Group",
+  "PostitTextId": 927,
+  "CreatedDate": "2017-11-28T13:38:14.1396943+01:00",
+  "SelectionId": 243,
+  "SoundEx": "nostrum",
+  "Source": 279,
+  "TextId": 928,
+  "UpdatedDate": "2012-10-19T13:38:14.1396943+02:00",
+  "UpdatedCount": 214,
+  "Visibility": 281,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 396,
-  "TargetTableName": "Leuschke, Skiles and Kutch",
+  "CompanyUnique": true,
+  "TargetTableNumber": 764,
+  "TargetTableName": "Murray-Rippin",
   "Completed": true,
-  "LeftSelectionId": 949,
-  "RightSelectionId": 113,
+  "LeftSelectionId": 782,
+  "RightSelectionId": 126,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kozey Group",
-  "ShadowProviderName": "Mitchell-Kreiger",
-  "ChartKey": "facilis",
-  "LastLoaded": "2002-12-07T11:06:35.3801953+01:00",
-  "LastLoadedBy": 714,
+  "MainProviderName": "Pagac Inc and Sons",
+  "ShadowProviderName": "Hyatt, Beahan and Romaguera",
+  "ChartKey": "rem",
+  "LastLoaded": "1999-12-30T13:38:14.1396943+01:00",
+  "LastLoadedBy": 838,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-04-18T11:06:35.3801953+02:00",
-  "LastMembershipChangeBy": 949,
+  "LastMembershipChange": "2008-08-21T13:38:14.1396943+02:00",
+  "LastMembershipChangeBy": 281,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sint",
-  "MemberTabHeading": "eum",
-  "MailingsProviderName": "Johns LLC",
-  "DashboardTileDefinitionId": 765,
+  "MainHeading": "et",
+  "MemberTabHeading": "molestiae",
+  "MailingsProviderName": "Kreiger LLC",
+  "DashboardTileDefinitionId": 371,
   "VisibleFor": [
     {
-      "VisibleId": 8,
+      "VisibleId": 585,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 447
+          "FieldLength": 984
         }
       }
     },
     {
-      "VisibleId": 8,
+      "VisibleId": 585,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 447
+          "FieldLength": 984
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 420
     }
   }
 }

@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    593,
-    834
+    628,
+    891
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 832,
-    "MessageId": "non",
-    "Subject": "asperiores",
+    "ServerId": 529,
+    "MessageId": "explicabo",
+    "Subject": "molestiae",
     "From": null,
     "To": [
       {
-        "ContactId": 886,
-        "ContactName": "Raynor-Hilpert",
-        "PersonId": 216,
-        "PersonName": "Stanton Group",
-        "AssociateId": 382,
-        "Address": "laborum",
-        "EmailId": 772,
+        "ContactId": 257,
+        "ContactName": "Carroll, Bogan and Funk",
+        "PersonId": 48,
+        "PersonName": "Dare Group",
+        "AssociateId": 915,
+        "Address": "est",
+        "EmailId": 546,
         "DuplicatePersonIds": [
-          791,
-          894
+          620,
+          9
         ],
-        "Name": "Crooks Inc and Sons",
+        "Name": "Pfannerstill-Denesik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 220
+            "FieldType": "System.String",
+            "FieldLength": 413
           }
         }
       }
     ],
-    "Sent": "2019-02-10T11:06:34.458307+01:00",
+    "Sent": "2020-05-10T13:38:13.5302438+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 114,
+    "Size": 755,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 528
+        "FieldType": "System.Int32",
+        "FieldLength": 120
       }
     }
   }

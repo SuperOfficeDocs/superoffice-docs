@@ -1154,13 +1154,11 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/appointment/description| *None* |Text: Displays the text entered in the description field| x |
 |includePersonRestriction| *None* |Include main contact: Specifies which contacts should be included in the result ('none', 'main', 'all')|  |
 |includePersonWithNoDMRestriction| *None* |Include contacts with No Mailings: Should contacts with the 'No Mailings' flag set be included|  |
-|linkClicked/linkId| *None* |Link ID: Link ID|  |
-|linkClicked/shipmentId| *None* |ID: Displays the ID of the mailing|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=restrictionAddress/formattedMultiLineAddress,appointment/priority,appointment/associate/contactDepartment,appointment/associate/isActiveText,document/associate/credentialDisplayValue
+GET /api/v1/archive/ContactPersonSelectionV2?$select=orgnr,email/emailLastSent,contactExtra/x_contact_longtext,LastDoByTicket,targetRelation/number
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

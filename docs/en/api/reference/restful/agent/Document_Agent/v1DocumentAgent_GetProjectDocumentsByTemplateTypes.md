@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 907,
-  "StartTime": "2017-06-19T11:06:34.316457+02:00",
-  "EndTime": "2015-10-11T11:06:34.316457+02:00",
-  "Count": 838,
+  "ProjectId": 855,
+  "StartTime": "1998-10-31T13:38:13.4208858+01:00",
+  "EndTime": "2012-06-22T13:38:13.4208858+02:00",
+  "Count": 113,
   "DocumentTemplateIds": [
-    491,
-    840
+    937,
+    387
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 206,
-    "Attention": "non",
-    "Header": "dolores",
-    "Name": "Hudson-Hudson",
-    "OurRef": "corrupti",
-    "YourRef": "eum",
-    "Description": "Up-sized contextually-based open architecture",
-    "DocumentTemplate": "enim",
+    "DocumentId": 582,
+    "Attention": "at",
+    "Header": "inventore",
+    "Name": "Hegmann, Fay and Rath",
+    "OurRef": "qui",
+    "YourRef": "molestiae",
+    "Description": "Front-line bottom-line ability",
+    "DocumentTemplate": "blanditiis",
     "IsPublished": false,
-    "PersonId": 986,
-    "PersonFullName": "Verner Wilderman",
-    "AssociateFullName": "Brock Kuvalis",
-    "ContactId": 907,
-    "ContactName": "Rempel-Osinski",
-    "ProjectId": 111,
-    "ProjectName": "Keeling-Barton",
-    "AssociateId": 105,
-    "Snum": 853,
-    "SaleId": 677,
-    "SaleName": "Dickinson, Terry and Romaguera",
+    "PersonId": 207,
+    "PersonFullName": "Joana Boyle",
+    "AssociateFullName": "Dr. Alessia Emely Bradtke III",
+    "ContactId": 674,
+    "ContactName": "Hegmann-Franecki",
+    "ProjectId": 232,
+    "ProjectName": "Dickens-Heaney",
+    "AssociateId": 97,
+    "Snum": 119,
+    "SaleId": 134,
+    "SaleName": "Nitzsche Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldLength": 145
       }
     }
   }

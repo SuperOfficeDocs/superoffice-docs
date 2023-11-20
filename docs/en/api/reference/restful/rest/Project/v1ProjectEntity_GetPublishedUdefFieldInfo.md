@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 509,
-  "ColumnId": 708,
-  "FieldDefault": "non",
-  "FieldHeight": 748,
-  "FieldLabel": "minus",
-  "FieldLeft": 84,
-  "FieldTop": 247,
+  "UDefFieldId": 590,
+  "ColumnId": 381,
+  "FieldDefault": "sunt",
+  "FieldHeight": 196,
+  "FieldLabel": "corporis",
+  "FieldLeft": 655,
+  "FieldTop": 90,
   "FieldType": "Checkbox",
-  "FieldWidth": 802,
-  "FormatMask": "impedit",
-  "HideLabel": false,
+  "FieldWidth": 191,
+  "FormatMask": "alias",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 411,
-  "LabelLeft": 641,
-  "LabelTop": 931,
-  "LabelWidth": 537,
-  "LastVersionId": 248,
-  "ListTableId": 235,
+  "LabelHeight": 118,
+  "LabelLeft": 491,
+  "LabelTop": 917,
+  "LabelWidth": 319,
+  "LastVersionId": 691,
+  "ListTableId": 574,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 864,
-  "ProgId": "unde",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptatum",
-  "TabOrder": 658,
-  "TextLength": 891,
-  "Tooltip": "reprehenderit",
-  "UdefIdentity": 22,
-  "UDListDefinitionId": 429,
+  "Page1LineNo": 520,
+  "ProgId": "aliquam",
+  "IsReadOnly": true,
+  "ShortLabel": "repellat",
+  "TabOrder": 237,
+  "TextLength": 171,
+  "Tooltip": "laboriosam",
+  "UdefIdentity": 18,
+  "UDListDefinitionId": 932,
   "Justification": "Center",
-  "Version": 807,
-  "TemplateVariableName": "Dicki-Jakubowski",
-  "HasBeenPublished": true,
-  "MdoListName": "Stracke-Stiedemann",
+  "Version": 380,
+  "TemplateVariableName": "Kihn LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Hackett, Nitzsche and Wuckert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 832
+      "FieldLength": 137
     }
   }
 }

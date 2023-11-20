@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Olson-Schinner",
-    "ToolTip": "Ut consectetur.",
-    "Deleted": false,
-    "Rank": 161,
-    "Type": "hic",
-    "ColorBlock": 309,
-    "IconHint": "sint",
-    "Selected": true,
-    "LastChanged": "1998-03-17T11:06:43.0534497+01:00",
+    "Id": 391,
+    "Name": "Hackett, Kessler and Gleichner",
+    "ToolTip": "Ab vitae sapiente dolores earum non ea aut.",
+    "Deleted": true,
+    "Rank": 812,
+    "Type": "quis",
+    "ColorBlock": 86,
+    "IconHint": "soluta",
+    "Selected": false,
+    "LastChanged": "2003-08-31T13:38:18.2181419+02:00",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Hudson, Cartwright and Zboncak",
-        "ToolTip": "Repudiandae mollitia et.",
+        "Id": 868,
+        "Name": "Kovacek, Pagac and Erdman",
+        "ToolTip": "Quibusdam sed sit amet omnis.",
         "Deleted": true,
-        "Rank": 695,
-        "Type": "modi",
-        "ColorBlock": 614,
-        "IconHint": "non",
+        "Rank": 207,
+        "Type": "saepe",
+        "ColorBlock": 186,
+        "IconHint": "maxime",
         "Selected": true,
-        "LastChanged": "1997-03-20T11:06:43.069069+01:00",
+        "LastChanged": "2020-01-31T13:38:18.2181419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "fugit",
+        "ExtraInfo": "enim",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Dr. Ceasar Herzog III",
+        "FullName": "Sheila Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 58
+            "FieldType": "System.Int32",
+            "FieldLength": 847
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Dr. Dahlia Mauricio Jerde V",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "ullam",
+    "Hidden": true,
+    "FullName": "Noah Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldLength": 727
       }
     }
   }

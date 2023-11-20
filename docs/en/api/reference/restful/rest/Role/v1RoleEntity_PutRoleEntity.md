@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 684,
-  "Name": "Hilpert-Kuvalis",
-  "Tooltip": "natus",
+  "RoleId": 885,
+  "Name": "Johnson, Swaniawski and Haley",
+  "Tooltip": "non",
   "RoleType": "Anonymous",
-  "Deleted": 562,
-  "Rank": 605,
-  "Created": "2022-05-21T11:06:42.0822263+02:00",
-  "UseCategories": 571,
+  "Deleted": 697,
+  "Rank": 503,
+  "Created": "2011-12-09T13:38:17.5774332+01:00",
+  "UseCategories": 371,
   "CreatedBy": null,
-  "Updated": "2008-11-23T11:06:42.0822263+01:00",
+  "Updated": "2018-06-16T13:38:17.5774332+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,29 +129,29 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 535,
-  "Name": "Hansen-Langosh",
-  "Tooltip": "id",
+  "RoleId": 934,
+  "Name": "Stark-Volkman",
+  "Tooltip": "tempora",
   "RoleType": "Anonymous",
-  "Deleted": 398,
-  "Rank": 444,
-  "Created": "2013-01-18T11:06:42.0822263+01:00",
-  "UseCategories": 151,
+  "Deleted": 6,
+  "Rank": 464,
+  "Created": "2002-02-16T13:38:17.5774332+01:00",
+  "UseCategories": 246,
   "CreatedBy": null,
-  "Updated": "2002-03-15T11:06:42.0822263+01:00",
+  "Updated": "2019-06-20T13:38:17.5774332+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 23
+      "FieldType": "System.Int32",
+      "FieldLength": 853
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

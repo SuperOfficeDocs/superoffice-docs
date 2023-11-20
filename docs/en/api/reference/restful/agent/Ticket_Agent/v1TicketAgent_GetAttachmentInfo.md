@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 473
+  "TicketMessageEntityId": 330
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 680,
-    "Name": "Champlin-Braun",
-    "ContentType": "et",
-    "AttSize": 345,
-    "InlineImage": true,
-    "ContentId": "omnis",
-    "AuthKey": "magnam",
+    "AttachmentId": 906,
+    "Name": "Osinski-Shields",
+    "ContentType": "ad",
+    "AttSize": 917,
+    "InlineImage": false,
+    "ContentId": "nihil",
+    "AuthKey": "odio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 268
       }
     }
   }

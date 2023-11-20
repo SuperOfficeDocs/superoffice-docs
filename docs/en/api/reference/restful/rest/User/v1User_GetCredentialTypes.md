@@ -62,7 +62,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,9 +73,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "et",
-    "Type": "consequatur",
-    "Description": "Assimilated demand-driven methodology",
+    "DisplayType": "quod",
+    "Type": "inventore",
+    "Description": "Innovative attitude-oriented portal",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
     "IsUserNameSupported": false,
@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldType": "System.String",
+        "FieldLength": 482
       }
     }
   }

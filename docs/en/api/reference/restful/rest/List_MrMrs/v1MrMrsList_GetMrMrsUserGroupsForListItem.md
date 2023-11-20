@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Runolfsson LLC",
-    "ToolTip": "Consectetur ut ut et ullam.",
+    "Id": 55,
+    "Name": "Abbott Group",
+    "ToolTip": "Hic occaecati eius asperiores sed blanditiis.",
     "Deleted": false,
-    "Rank": 749,
-    "Type": "vitae",
-    "ColorBlock": 767,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "1998-02-02T11:06:42.8346931+01:00",
+    "Rank": 13,
+    "Type": "quia",
+    "ColorBlock": 211,
+    "IconHint": "ipsam",
+    "Selected": true,
+    "LastChanged": "2019-01-05T13:38:18.0775324+01:00",
     "ChildItems": [
       {
-        "Id": 820,
-        "Name": "Cassin, Bartell and Schmidt",
-        "ToolTip": "Iste sunt fugiat voluptatibus hic dolorem sit.",
-        "Deleted": true,
-        "Rank": 307,
-        "Type": "libero",
-        "ColorBlock": 496,
-        "IconHint": "sit",
+        "Id": 647,
+        "Name": "Simonis, Goodwin and Bechtelar",
+        "ToolTip": "Sit nemo quaerat.",
+        "Deleted": false,
+        "Rank": 557,
+        "Type": "natus",
+        "ColorBlock": 923,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2017-01-08T11:06:42.8346931+01:00",
+        "LastChanged": "2013-05-28T13:38:18.0775324+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "temporibus",
-        "Hidden": false,
-        "FullName": "Mrs. Mona Harris",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Arlo Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 301
+            "FieldLength": 748
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "iste",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Prof. Jordane Orland Cole",
+    "FullName": "Else Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 565
+        "FieldLength": 154
       }
     }
   }

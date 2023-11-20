@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 694,
-  "Name": "Rippin-Boehm",
-  "Tooltip": "est",
+  "Id": 786,
+  "Name": "Luettgen, Purdy and Klein",
+  "Tooltip": "eum",
   "Deleted": true,
-  "UdListDefinitionId": 49,
-  "Rank": 447
+  "UdListDefinitionId": 16,
+  "Rank": 99
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 649,
-  "Name": "Hermann-Metz",
-  "Tooltip": "laborum",
+  "Id": 819,
+  "Name": "Volkman Inc and Sons",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "UdListDefinitionId": 233,
-  "Rank": 556,
+  "UdListDefinitionId": 214,
+  "Rank": 246,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldLength": 577
     }
   }
 }

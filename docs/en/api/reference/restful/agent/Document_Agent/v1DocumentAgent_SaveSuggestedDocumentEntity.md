@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 898,
-  "Name": "Goyette, Rath and Fay",
-  "Tooltip": "eum",
-  "Rank": 926,
-  "DoctmplId": 503,
-  "Header": "explicabo",
-  "OurRef": "quasi",
-  "Deleted": true,
+  "SuggestedDocumentId": 81,
+  "Name": "Nolan-Williamson",
+  "Tooltip": "est",
+  "Rank": 602,
+  "DoctmplId": 232,
+  "Header": "qui",
+  "OurRef": "voluptatem",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 45,
-  "Name": "Hessel-VonRueden",
-  "Tooltip": "ut",
-  "Rank": 886,
-  "DoctmplId": 388,
-  "Header": "incidunt",
-  "OurRef": "aliquam",
-  "Deleted": true,
+  "SuggestedDocumentId": 152,
+  "Name": "Witting, Aufderhar and Emard",
+  "Tooltip": "et",
+  "Rank": 395,
+  "DoctmplId": 766,
+  "Header": "culpa",
+  "OurRef": "itaque",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 182,
-  "Name": "Hoeger, Schaden and Kassulke",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 756,
+  "Id": 647,
+  "Name": "Larkin Group",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "Rank": 556,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laborum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 159
+      "FieldLength": 515
     }
   },
   "_Links": {

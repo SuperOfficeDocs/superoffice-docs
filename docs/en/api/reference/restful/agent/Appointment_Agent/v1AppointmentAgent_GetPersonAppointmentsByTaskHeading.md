@@ -119,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -135,12 +136,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 674,
+  "PersonId": 229,
   "IncludeProjectAppointments": false,
-  "StartTime": "2020-05-14T11:06:33.4444886+02:00",
-  "EndTime": "2018-02-26T11:06:33.4444886+01:00",
-  "Count": 843,
-  "TaskHeadingId": 151
+  "StartTime": "1997-10-02T13:38:12.8428246+02:00",
+  "EndTime": "2013-05-02T13:38:12.8428246+02:00",
+  "Count": 185,
+  "TaskHeadingId": 244
 }
 ```
 
@@ -152,64 +153,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 947,
-    "StartDate": "2015-05-21T11:06:33.4444886+02:00",
-    "EndDate": "2020-05-27T11:06:33.4444886+02:00",
+    "AppointmentId": 362,
+    "StartDate": "2012-09-21T13:38:12.8428246+02:00",
+    "EndDate": "2011-12-26T13:38:12.8428246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "at",
-    "AssociateFullName": "Prof. Juvenal Reinger DDS",
-    "ContactName": "Haag-Stehr",
-    "Description": "Realigned dedicated Graphical User Interface",
-    "PersonFullName": "Evelyn Dooley",
-    "PersonId": 298,
-    "ContactId": 940,
-    "ProjectId": 838,
-    "ProjectName": "McKenzie Group",
+    "Task": "qui",
+    "AssociateFullName": "Luther Buck Marquardt IV",
+    "ContactName": "Mertz-Fisher",
+    "Description": "Seamless system-worthy software",
+    "PersonFullName": "Evans Bode II",
+    "PersonId": 219,
+    "ContactId": 267,
+    "ProjectId": 139,
+    "ProjectName": "Rice Group",
     "IsPublished": false,
-    "AssociateId": 512,
-    "ColorIndex": 901,
+    "AssociateId": 348,
+    "ColorIndex": 570,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 637,
-    "PriorityName": "Nicolas Inc and Sons",
+    "PriorityId": 1002,
+    "PriorityName": "Thompson, Wilderman and Mueller",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "1996-12-25T11:06:33.4444886+01:00",
+    "ActiveDate": "2019-12-11T13:38:12.8428246+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-05-15T11:06:33.4444886+02:00",
-    "RecurringEndDate": "2014-10-02T11:06:33.4444886+02:00",
-    "MotherId": 675,
-    "AssignedBy": 131,
-    "AssignedByFullName": "Yazmin Lockman",
+    "RecurringStartDate": "2017-04-23T13:38:12.8428246+02:00",
+    "RecurringEndDate": "2023-10-28T13:38:12.8428246+02:00",
+    "MotherId": 717,
+    "AssignedBy": 679,
+    "AssignedByFullName": "Emmitt Nienow",
     "RejectReason": "",
-    "Location": "veritatis",
-    "AlarmLeadTime": "quas",
-    "SaleId": 105,
-    "SaleName": "Murazik LLC",
-    "AssociateName": "Christiansen LLC",
-    "CreatedDate": "2021-06-29T11:06:33.4444886+02:00",
-    "CreatedBy": "est",
-    "CreatedByFullName": "Jayce Klein",
-    "CreatedByAssociateId": 259,
+    "Location": "dignissimos",
+    "AlarmLeadTime": "omnis",
+    "SaleId": 834,
+    "SaleName": "Medhurst LLC",
+    "AssociateName": "Armstrong LLC",
+    "CreatedDate": "2021-08-18T13:38:12.8428246+02:00",
+    "CreatedBy": "temporibus",
+    "CreatedByFullName": "Jonatan Sadie Ratke DDS",
+    "CreatedByAssociateId": 326,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "optio",
-    "Agenda": "qui",
-    "InternalNotes": "ad",
+    "PreferredTZLocation": 850,
+    "Title": "qui",
+    "Agenda": "aut",
+    "InternalNotes": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 77
       }
     }
   }

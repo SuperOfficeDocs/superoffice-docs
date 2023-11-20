@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 553,
-    "Name": "Prosacco LLC",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 695,
-    "Rank": 335
+    "Id": 328,
+    "Name": "Mante Inc and Sons",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "UdListDefinitionId": 17,
+    "Rank": 66
   },
   {
-    "Id": 553,
-    "Name": "Prosacco LLC",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 695,
-    "Rank": 335
+    "Id": 328,
+    "Name": "Mante Inc and Sons",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "UdListDefinitionId": 17,
+    "Rank": 66
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Rowe, Wunsch and Champlin",
-    "Tooltip": "magni",
+    "Id": 510,
+    "Name": "Shields, Conroy and Veum",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 23,
-    "Rank": 334,
+    "UdListDefinitionId": 306,
+    "Rank": 759,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldType": "System.String",
+        "FieldLength": 27
       }
     }
   }

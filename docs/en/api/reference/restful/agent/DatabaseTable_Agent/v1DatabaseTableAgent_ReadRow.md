@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Labadie, Abernathy and Ebert",
-  "Id": 274
+  "TableName": "Roob-Wehner",
+  "Id": 438
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "officia",
-    "Values2": "quis"
+    "Values1": "earum",
+    "Values2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldType": "System.String",
+      "FieldLength": 581
     }
   }
 }

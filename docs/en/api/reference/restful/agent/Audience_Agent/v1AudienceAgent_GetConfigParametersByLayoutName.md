@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Jones, Bode and Kulas"
+  "LayoutName": "West-Hintz"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 347,
-    "Name": "Keeling Inc and Sons",
-    "Value": "exercitationem",
-    "CreatedDate": "2014-02-22T11:06:33.7816525+01:00",
-    "UpdatedDate": "2008-01-12T11:06:33.7816525+01:00",
-    "CreatedBy": "sunt",
-    "UpdatedBy": "non",
+    "AudienceLayoutId": 6,
+    "Name": "Hodkiewicz Inc and Sons",
+    "Value": "omnis",
+    "CreatedDate": "1996-11-14T13:38:13.0771703+01:00",
+    "UpdatedDate": "2023-01-13T13:38:13.0771703+01:00",
+    "CreatedBy": "quis",
+    "UpdatedBy": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldType": "System.String",
+        "FieldLength": 369
       }
     }
   }

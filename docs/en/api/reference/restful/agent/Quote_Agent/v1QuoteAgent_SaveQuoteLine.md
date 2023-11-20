@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 830,
-  "ERPQuoteLineKey": "voluptas",
-  "QuoteAlternativeId": 796,
-  "ERPProductKey": "voluptatibus",
+  "QuoteLineId": 500,
+  "ERPQuoteLineKey": "ipsam",
+  "QuoteAlternativeId": 869,
+  "ERPProductKey": "illum",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1460.444,
-  "DeliveredQuantity": 23063.106,
-  "Rank": 635,
-  "Name": "Barton Group",
-  "Description": "Customer-focused zero tolerance orchestration",
-  "Code": "error",
-  "QuantityUnit": "quasi",
-  "PriceUnit": "tenetur",
-  "ItemNumber": "655920",
+  "Quantity": 1936.812,
+  "DeliveredQuantity": 564.12,
+  "Rank": 228,
+  "Name": "Davis Inc and Sons",
+  "Description": "Programmable empowering secured line",
+  "Code": "vel",
+  "QuantityUnit": "sint",
+  "PriceUnit": "alias",
+  "ItemNumber": "562708",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
   "ProductFamilyKey": "est",
-  "ProductTypeKey": "velit",
-  "Supplier": "in",
-  "SupplierCode": "aut",
-  "Thumbnail": "ipsa",
-  "VATInfo": "odit",
-  "VAT": 5349.7379999999994,
-  "UnitCost": 4155.684,
-  "UnitMinimumPrice": 30352.789999999997,
-  "UnitListPrice": 849.314,
+  "ProductTypeKey": "quos",
+  "Supplier": "voluptate",
+  "SupplierCode": "ullam",
+  "Thumbnail": "rerum",
+  "VATInfo": "illo",
+  "VAT": 633.068,
+  "UnitCost": 12802.39,
+  "UnitMinimumPrice": 28300.02,
+  "UnitListPrice": 19048.452,
   "ExtraInfo": [
     {
-      "Name": "Orn, Stiedemann and Bergnaum",
-      "Value": "molestiae",
+      "Name": "Kris-Doyle",
+      "Value": "ullam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 121
         }
       }
     },
     {
-      "Name": "Orn, Stiedemann and Bergnaum",
-      "Value": "molestiae",
+      "Name": "Kris-Doyle",
+      "Value": "ullam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 121
         }
       }
     }
   ],
-  "RawExtraInfo": "repellendus",
+  "RawExtraInfo": "libero",
   "IsSubscription": false,
-  "SubscriptionUnit": "magnam",
-  "SubscriptionQuantity": 10981.536,
-  "SubscriptionStart": "2011-03-30T11:06:35.2395651+02:00",
-  "ERPDiscountPercent": 5597.324,
-  "ERPDiscountAmount": 30963.92,
-  "DiscountPercent": 12385.568,
-  "DiscountAmount": 28848.469999999998,
+  "SubscriptionUnit": "occaecati",
+  "SubscriptionQuantity": 2594.9519999999998,
+  "SubscriptionStart": "2009-08-13T13:38:14.0303322+02:00",
+  "ERPDiscountPercent": 9530.4939999999988,
+  "ERPDiscountAmount": 25031.257999999998,
+  "DiscountPercent": 10075.81,
+  "DiscountAmount": 13275.624,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 5356.0059999999994,
-  "EarningAmount": 22984.755999999998,
-  "SubTotal": 1024.818,
-  "TotalPrice": 2748.518,
-  "Rights": "illo",
-  "Rule": "eligendi",
-  "ExtraField1": "assumenda",
-  "ExtraField2": "voluptates",
-  "ExtraField3": "libero",
-  "ExtraField4": "hic",
-  "ExtraField5": "nobis",
+  "EarningPercent": 21558.786,
+  "EarningAmount": 15080.807999999999,
+  "SubTotal": 8214.214,
+  "TotalPrice": 29014.572,
+  "Rights": "consectetur",
+  "Rule": "sint",
+  "ExtraField1": "ipsa",
+  "ExtraField2": "est",
+  "ExtraField3": "totam",
+  "ExtraField4": "veritatis",
+  "ExtraField5": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 228
+      "FieldType": "System.Int32",
+      "FieldLength": 197
     }
   }
 }

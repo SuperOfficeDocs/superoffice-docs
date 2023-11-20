@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolor",
-  "ProviderName": "Goodwin-Lakin",
-  "StorageKey": "at",
-  "Context": "minus"
+  "StorageType": "nemo",
+  "ProviderName": "Wunsch-Stark",
+  "StorageKey": "non",
+  "Context": "omnis"
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Tremblay-Welch",
-  "Description": "Re-contextualized neutral moderator",
-  "Rank": 567,
+  "Name": "Block, Dietrich and Koch",
+  "Description": "Quality-focused explicit monitoring",
+  "Rank": 322,
   "Restrictions": [
     {
-      "Name": "Schuster-Hartmann",
-      "Operator": "tempore",
+      "Name": "Treutel Group",
+      "Operator": "unde",
       "Values": [
-        "aut",
-        "quibusdam"
+        "veniam",
+        "doloremque"
       ],
       "DisplayValues": [
-        "mollitia",
-        "asperiores"
+        "eum",
+        "eum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 523,
+      "InterParenthesis": 740,
       "InterOperator": "And",
-      "UniqueHash": 652
+      "UniqueHash": 673
     }
   ]
 }

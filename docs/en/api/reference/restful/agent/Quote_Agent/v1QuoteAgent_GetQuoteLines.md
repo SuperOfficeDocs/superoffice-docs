@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 210
+  "QuoteAlternativeId": 659
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 724,
-    "ERPQuoteLineKey": "officia",
-    "QuoteAlternativeId": 675,
-    "ERPProductKey": "est",
+    "QuoteLineId": 260,
+    "ERPQuoteLineKey": "enim",
+    "QuoteAlternativeId": 824,
+    "ERPProductKey": "illo",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 26015.334,
-    "DeliveredQuantity": 2757.92,
-    "Rank": 689,
-    "Name": "Bayer-Gleason",
-    "Description": "Integrated bandwidth-monitored array",
-    "Code": "quo",
-    "QuantityUnit": "et",
-    "PriceUnit": "praesentium",
-    "ItemNumber": "1284266",
+    "Quantity": 6659.75,
+    "DeliveredQuantity": 1896.07,
+    "Rank": 377,
+    "Name": "Larson-Pagac",
+    "Description": "Synchronised upward-trending analyzer",
+    "Code": "est",
+    "QuantityUnit": "deleniti",
+    "PriceUnit": "rerum",
+    "ItemNumber": "909864",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ipsum",
-    "ProductTypeKey": "voluptatum",
-    "Supplier": "accusamus",
-    "SupplierCode": "perferendis",
-    "Thumbnail": "repellendus",
-    "VATInfo": "vero",
-    "VAT": 30039.39,
-    "UnitCost": 7286.55,
-    "UnitMinimumPrice": 15488.228,
-    "UnitListPrice": 4509.826,
+    "ProductFamilyKey": "non",
+    "ProductTypeKey": "enim",
+    "Supplier": "voluptates",
+    "SupplierCode": "amet",
+    "Thumbnail": "architecto",
+    "VATInfo": "dolorem",
+    "VAT": 855.582,
+    "UnitCost": 7744.114,
+    "UnitMinimumPrice": 24742.93,
+    "UnitListPrice": 6443.504,
     "ExtraInfo": [
       {
-        "Name": "Friesen-Johns",
-        "Value": "quia",
+        "Name": "Marks Inc and Sons",
+        "Value": "fugit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 335
+            "FieldLength": 491
           }
         }
       },
       {
-        "Name": "Friesen-Johns",
-        "Value": "quia",
+        "Name": "Marks Inc and Sons",
+        "Value": "fugit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 335
+            "FieldLength": 491
           }
         }
       }
     ],
-    "RawExtraInfo": "voluptatem",
-    "IsSubscription": true,
-    "SubscriptionUnit": "asperiores",
-    "SubscriptionQuantity": 3579.028,
-    "SubscriptionStart": "2004-10-09T11:06:35.2395651+02:00",
-    "ERPDiscountPercent": 12351.094,
-    "ERPDiscountAmount": 25833.561999999998,
-    "DiscountPercent": 18001.696,
-    "DiscountAmount": 10552.178,
+    "RawExtraInfo": "sed",
+    "IsSubscription": false,
+    "SubscriptionUnit": "error",
+    "SubscriptionQuantity": 2231.408,
+    "SubscriptionStart": "2020-07-21T13:38:14.045953+02:00",
+    "ERPDiscountPercent": 13125.192,
+    "ERPDiscountAmount": 27610.54,
+    "DiscountPercent": 1682.9579999999999,
+    "DiscountAmount": 10389.21,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 9038.456,
-    "EarningAmount": 24573.694,
-    "SubTotal": 2538.54,
-    "TotalPrice": 16757.498,
-    "Rights": "perferendis",
-    "Rule": "quo",
-    "ExtraField1": "ut",
-    "ExtraField2": "sunt",
-    "ExtraField3": "sunt",
-    "ExtraField4": "tempora",
-    "ExtraField5": "sit",
+    "EarningPercent": 20659.327999999998,
+    "EarningAmount": 9837.626,
+    "SubTotal": 5888.786,
+    "TotalPrice": 16187.109999999999,
+    "Rights": "veritatis",
+    "Rule": "in",
+    "ExtraField1": "error",
+    "ExtraField2": "sapiente",
+    "ExtraField3": "et",
+    "ExtraField4": "harum",
+    "ExtraField5": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldType": "System.Int32",
+        "FieldLength": 458
       }
     }
   }

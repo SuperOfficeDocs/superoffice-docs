@@ -116,6 +116,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -128,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 890,
-  "GroupType": 923,
-  "StartTime": "2009-04-02T11:06:33.475738+02:00",
-  "EndTime": "2002-11-16T11:06:33.475738+01:00",
-  "Count": 67
+  "GroupId": 912,
+  "GroupType": 134,
+  "StartTime": "2004-06-25T13:38:12.8740699+02:00",
+  "EndTime": "2018-07-23T13:38:12.8740699+02:00",
+  "Count": 390
 }
 ```
 
@@ -148,64 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 731,
-    "StartDate": "2014-04-26T11:06:33.475738+02:00",
-    "EndDate": "2010-03-23T11:06:33.475738+01:00",
+    "AppointmentId": 514,
+    "StartDate": "2020-01-27T13:38:12.8740699+01:00",
+    "EndDate": "2001-03-26T13:38:12.8740699+02:00",
     "Type": "BookingForChecklist",
-    "Task": "consectetur",
-    "AssociateFullName": "Buford Kuvalis IV",
-    "ContactName": "Doyle-Connelly",
-    "Description": "Open-architected regional alliance",
-    "PersonFullName": "Rosalee McLaughlin",
-    "PersonId": 114,
-    "ContactId": 29,
-    "ProjectId": 250,
-    "ProjectName": "Klocko, Kautzer and Kunze",
-    "IsPublished": true,
-    "AssociateId": 135,
-    "ColorIndex": 606,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "quas",
+    "AssociateFullName": "Odessa Lakin",
+    "ContactName": "Hahn LLC",
+    "Description": "Synergized 24 hour implementation",
+    "PersonFullName": "Miss Bennie Jacinto Cremin",
+    "PersonId": 706,
+    "ContactId": 528,
+    "ProjectId": 297,
+    "ProjectName": "Purdy Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 458,
+    "ColorIndex": 867,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 535,
-    "PriorityName": "Steuber-Treutel",
+    "PriorityId": 417,
+    "PriorityName": "Beahan LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2008-07-30T11:06:33.475738+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2002-02-13T13:38:12.8740699+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-11-07T11:06:33.475738+01:00",
-    "RecurringEndDate": "2012-03-12T11:06:33.475738+01:00",
-    "MotherId": 523,
-    "AssignedBy": 1002,
-    "AssignedByFullName": "Augustus Bednar",
+    "RecurringStartDate": "2015-07-22T13:38:12.8740699+02:00",
+    "RecurringEndDate": "2012-02-25T13:38:12.8740699+01:00",
+    "MotherId": 295,
+    "AssignedBy": 424,
+    "AssignedByFullName": "Bailey Ondricka",
     "RejectReason": "",
-    "Location": "assumenda",
-    "AlarmLeadTime": "quod",
-    "SaleId": 992,
-    "SaleName": "King Group",
-    "AssociateName": "Turcotte Group",
-    "CreatedDate": "1996-09-07T11:06:33.475738+02:00",
-    "CreatedBy": "culpa",
-    "CreatedByFullName": "Ms. Modesto Jacobs",
-    "CreatedByAssociateId": 376,
+    "Location": "voluptas",
+    "AlarmLeadTime": "eligendi",
+    "SaleId": 600,
+    "SaleName": "Hane, Graham and Schuppe",
+    "AssociateName": "Schaefer-Block",
+    "CreatedDate": "2017-08-26T13:38:12.8740699+02:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Wilfredo Larkin",
+    "CreatedByAssociateId": 513,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "quaerat",
-    "Agenda": "voluptatum",
-    "InternalNotes": "quia",
+    "PreferredTZLocation": 553,
+    "Title": "voluptatem",
+    "Agenda": "sint",
+    "InternalNotes": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 696
+        "FieldLength": 9
       }
     }
   }

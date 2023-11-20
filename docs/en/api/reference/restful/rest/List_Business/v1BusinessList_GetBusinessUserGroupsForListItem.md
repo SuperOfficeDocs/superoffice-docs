@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Wilderman-Sawayn",
-    "ToolTip": "Cupiditate praesentium consequatur quae.",
-    "Deleted": false,
-    "Rank": 124,
-    "Type": "accusamus",
-    "ColorBlock": 91,
-    "IconHint": "exercitationem",
+    "Id": 202,
+    "Name": "Casper Group",
+    "ToolTip": "Praesentium voluptas nostrum et et earum debitis.",
+    "Deleted": true,
+    "Rank": 126,
+    "Type": "impedit",
+    "ColorBlock": 765,
+    "IconHint": "laborum",
     "Selected": false,
-    "LastChanged": "1997-11-07T11:06:42.6784463+01:00",
+    "LastChanged": "2012-12-19T13:38:17.9056813+01:00",
     "ChildItems": [
       {
-        "Id": 691,
-        "Name": "Kohler, Dickinson and Maggio",
-        "ToolTip": "Qui dolorum ullam quibusdam.",
+        "Id": 188,
+        "Name": "Emard-Kohler",
+        "ToolTip": "Atque fuga laudantium reiciendis necessitatibus occaecati ipsa porro.",
         "Deleted": true,
-        "Rank": 917,
-        "Type": "ad",
-        "ColorBlock": 895,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2004-10-28T11:06:42.6784463+02:00",
+        "Rank": 837,
+        "Type": "et",
+        "ColorBlock": 492,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2010-03-25T13:38:17.9056813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Mrs. Brigitte Asia Boehm",
+        "ExtraInfo": "omnis",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Mr. Layla Stefanie Roberts III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 245
+            "FieldLength": 923
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "nostrum",
-    "Hidden": false,
-    "FullName": "Mrs. Makenna Stiedemann",
+    "ExtraInfo": "vel",
+    "StyleHint": "hic",
+    "Hidden": true,
+    "FullName": "Jany Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldType": "System.String",
+        "FieldLength": 935
       }
     }
   }

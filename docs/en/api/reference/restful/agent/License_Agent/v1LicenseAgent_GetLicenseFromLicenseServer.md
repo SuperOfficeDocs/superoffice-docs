@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Parisian, Franecki and Wyman"
+  "OwnerName": "Toy Group"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "engage collaborative e-commerce",
-  "CanBeActivated": false,
+  "Reason": "",
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 718,
-      "NumberOfLicensesFree": 425,
-      "NumberOfLicensesAdded": 83,
-      "NumberOfLicensesNewTotal": 383,
-      "NumberOfLicensesNewFree": 823,
-      "NumberOfLicensesTotal": 880
+      "NumberOfLicensesInUse": 315,
+      "NumberOfLicensesFree": 841,
+      "NumberOfLicensesAdded": 320,
+      "NumberOfLicensesNewTotal": 700,
+      "NumberOfLicensesNewFree": 940,
+      "NumberOfLicensesTotal": 213
     }
   ],
-  "AccumulatedNextCheckDate": "1997-03-16T11:06:34.6458113+01:00"
+  "AccumulatedNextCheckDate": "2016-01-12T13:38:13.6396102+01:00"
 }
 ```

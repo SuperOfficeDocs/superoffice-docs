@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 410,
-    "Name": "Abshire-Ziemann",
-    "ToolTip": "Rerum sapiente est.",
-    "Deleted": false,
-    "Rank": 753,
-    "Type": "consequuntur",
-    "ColorBlock": 159,
-    "IconHint": "repellat",
-    "Selected": true,
-    "LastChanged": "2008-01-17T11:06:42.6784463+01:00",
+    "Id": 533,
+    "Name": "Miller-Simonis",
+    "ToolTip": "Soluta saepe.",
+    "Deleted": true,
+    "Rank": 469,
+    "Type": "repellendus",
+    "ColorBlock": 154,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "1998-07-24T13:38:17.9056813+02:00",
     "ChildItems": [
       {
-        "Id": 252,
-        "Name": "Ryan, VonRueden and Keeling",
-        "ToolTip": "Qui facere corrupti consectetur et.",
+        "Id": 608,
+        "Name": "Huel, Wolf and Toy",
+        "ToolTip": "Sit accusamus eum aspernatur illum sed vitae.",
         "Deleted": false,
-        "Rank": 837,
-        "Type": "consequuntur",
-        "ColorBlock": 916,
-        "IconHint": "reiciendis",
+        "Rank": 795,
+        "Type": "veniam",
+        "ColorBlock": 343,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2012-04-27T11:06:42.6784463+02:00",
+        "LastChanged": "2013-02-21T13:38:17.9056813+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "dolor",
-        "StyleHint": "velit",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Michele Boyer"
+        "FullName": "Teagan Hermann"
       }
     ],
     "ExtraInfo": "beatae",
-    "StyleHint": "voluptates",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Loren Cruickshank"
+    "FullName": "Kali Deckow"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 56,
-    "Name": "Conroy LLC",
-    "ToolTip": "Qui placeat consequatur deleniti eveniet.",
+    "Id": 623,
+    "Name": "Ortiz LLC",
+    "ToolTip": "Et beatae voluptas maxime est.",
     "Deleted": false,
-    "Rank": 157,
-    "Type": "temporibus",
-    "ColorBlock": 988,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2013-11-01T11:06:42.6784463+01:00",
+    "Rank": 388,
+    "Type": "quod",
+    "ColorBlock": 905,
+    "IconHint": "error",
+    "Selected": true,
+    "LastChanged": "1999-06-25T13:38:17.9056813+02:00",
     "ChildItems": [
       {
-        "Id": 534,
-        "Name": "Steuber-Gerlach",
-        "ToolTip": "Aperiam consequatur magnam corporis.",
-        "Deleted": false,
-        "Rank": 906,
-        "Type": "aut",
-        "ColorBlock": 362,
-        "IconHint": "quam",
-        "Selected": false,
-        "LastChanged": "2004-03-03T11:06:42.6784463+01:00",
+        "Id": 54,
+        "Name": "Gleichner-Altenwerth",
+        "ToolTip": "Consectetur quia et eaque eligendi aut.",
+        "Deleted": true,
+        "Rank": 952,
+        "Type": "vel",
+        "ColorBlock": 381,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2008-06-19T13:38:17.9056813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "Lorenz Steuber",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "nobis",
+        "Hidden": false,
+        "FullName": "Miss Adelia Conroy PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 523
+            "FieldType": "System.String",
+            "FieldLength": 184
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "sint",
+    "ExtraInfo": "qui",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Mrs. Annamarie Heidenreich II",
+    "FullName": "Madie Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 373
+        "FieldType": "System.Int32",
+        "FieldLength": 694
       }
     }
   }

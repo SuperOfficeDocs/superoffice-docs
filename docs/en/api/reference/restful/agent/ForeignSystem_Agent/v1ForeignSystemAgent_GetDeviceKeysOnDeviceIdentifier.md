@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Harris, Graham and Weissnat",
-  "DeviceName": "Lehner, Zulauf and DuBuque",
-  "DeviceIdentifier": "tenetur"
+  "ApplicationName": "Casper, Gusikowski and White",
+  "DeviceName": "Medhurst LLC",
+  "DeviceIdentifier": "qui"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "corporis",
-    "Value": "expedita",
-    "RecordId": 821,
-    "CreatedDate": "2003-02-14T11:06:34.6458113+01:00",
-    "UpdatedDate": "2014-05-18T11:06:34.6458113+02:00",
-    "UpdatedBy": "dolor",
-    "CreatedBy": "quia",
-    "TableName": "Kuhic-Kreiger",
+    "Key": "ut",
+    "Value": "libero",
+    "RecordId": 143,
+    "CreatedDate": "2003-03-27T13:38:13.6396102+01:00",
+    "UpdatedDate": "2017-12-15T13:38:13.6396102+01:00",
+    "UpdatedBy": "autem",
+    "CreatedBy": "sequi",
+    "TableName": "Lubowitz Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 745
+        "FieldLength": 596
       }
     }
   }

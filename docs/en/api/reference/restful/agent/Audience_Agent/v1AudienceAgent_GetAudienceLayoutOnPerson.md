@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 947
+  "PersonId": 564
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 79,
-  "InstanceLayout": "aspernatur",
-  "InstanceName": "Osinski-Reilly",
-  "CreatedDate": "2005-05-26T11:06:33.7816525+02:00",
-  "UpdatedDate": "1999-06-16T11:06:33.7816525+02:00",
+  "AudienceLayoutId": 50,
+  "InstanceLayout": "repellat",
+  "InstanceName": "Streich, Littel and Buckridge",
+  "CreatedDate": "2014-11-14T13:38:13.0771703+01:00",
+  "UpdatedDate": "2022-06-15T13:38:13.0771703+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   }
 }

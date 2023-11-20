@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -134,11 +135,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 444,
-  "StartTime": "2007-11-13T11:06:33.4444886+01:00",
-  "EndTime": "2009-06-05T11:06:33.4444886+02:00",
-  "Count": 197,
-  "TaskId": 505
+  "ProjectId": 279,
+  "StartTime": "2019-10-19T13:38:12.8428246+02:00",
+  "EndTime": "1996-10-03T13:38:12.8428246+02:00",
+  "Count": 218,
+  "TaskId": 614
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 384,
-    "StartDate": "2013-12-10T11:06:33.4444886+01:00",
-    "EndDate": "2010-10-11T11:06:33.4444886+02:00",
+    "AppointmentId": 1001,
+    "StartDate": "2002-10-10T13:38:12.8428246+02:00",
+    "EndDate": "2016-02-12T13:38:12.8428246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Andreanne Erdman",
-    "ContactName": "Predovic-Braun",
-    "Description": "Sharable intermediate support",
-    "PersonFullName": "Miss Demario Leannon",
-    "PersonId": 646,
-    "ContactId": 387,
-    "ProjectId": 354,
-    "ProjectName": "Hills-Carter",
-    "IsPublished": true,
-    "AssociateId": 524,
-    "ColorIndex": 865,
-    "IsFree": false,
+    "Task": "debitis",
+    "AssociateFullName": "Angie Batz",
+    "ContactName": "Gorczany Group",
+    "Description": "Enhanced human-resource toolset",
+    "PersonFullName": "Robyn Homenick",
+    "PersonId": 887,
+    "ContactId": 118,
+    "ProjectId": 33,
+    "ProjectName": "Koelpin, Dare and Tillman",
+    "IsPublished": false,
+    "AssociateId": 355,
+    "ColorIndex": 276,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 588,
-    "PriorityName": "Schmeler, Purdy and Walsh",
+    "PriorityId": 222,
+    "PriorityName": "Conroy Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2015-01-18T11:06:33.4444886+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "1997-04-17T13:38:12.8428246+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-05-26T11:06:33.4444886+02:00",
-    "RecurringEndDate": "2022-09-28T11:06:33.4444886+02:00",
-    "MotherId": 767,
-    "AssignedBy": 247,
-    "AssignedByFullName": "Prof. Josue Forrest Morar III",
+    "RecurringStartDate": "2006-05-08T13:38:12.8428246+02:00",
+    "RecurringEndDate": "2010-01-16T13:38:12.8428246+01:00",
+    "MotherId": 136,
+    "AssignedBy": 737,
+    "AssignedByFullName": "Graham Ritchie",
     "RejectReason": "",
-    "Location": "corrupti",
-    "AlarmLeadTime": "porro",
-    "SaleId": 560,
-    "SaleName": "Bogisich, Mayert and Murray",
-    "AssociateName": "Koch-Simonis",
-    "CreatedDate": "1997-09-05T11:06:33.4444886+02:00",
-    "CreatedBy": "repudiandae",
-    "CreatedByFullName": "Aliza Rempel PhD",
-    "CreatedByAssociateId": 174,
+    "Location": "veniam",
+    "AlarmLeadTime": "eaque",
+    "SaleId": 543,
+    "SaleName": "Blick, Kassulke and Wintheiser",
+    "AssociateName": "Medhurst Inc and Sons",
+    "CreatedDate": "2020-11-15T13:38:12.8428246+01:00",
+    "CreatedBy": "nostrum",
+    "CreatedByFullName": "Jeffrey Douglas",
+    "CreatedByAssociateId": 275,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "dolor",
-    "Agenda": "veritatis",
-    "InternalNotes": "aut",
+    "PreferredTZLocation": 928,
+    "Title": "veritatis",
+    "Agenda": "facilis",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 251
       }
     }
   }

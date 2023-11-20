@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 113
+  "ErpSyncConnectionId": 948
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Block Group",
-  "DisplayDescription": "Expanded modular concept",
+  "DisplayName": "Kirlin LLC",
+  "DisplayDescription": "Profound transitional hardware",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2014-10-22T11:06:34.5833115+02:00",
+  "LastSync": "2003-03-11T13:38:13.592742+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "quia",
-      "Mappings": "impedit",
+      "HasMappings": true,
+      "Defaults": "et",
+      "Mappings": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 927
+          "FieldLength": 655
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "quia",
-      "Mappings": "impedit",
+      "HasMappings": true,
+      "Defaults": "et",
+      "Mappings": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 927
+          "FieldLength": 655
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 487
     }
   }
 }

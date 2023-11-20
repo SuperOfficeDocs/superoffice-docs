@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 4
+  "ChatSessionId": 983
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 204,
-  "TopicId": 97,
+  "ChatSessionId": 472,
+  "TopicId": 878,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nihil",
-  "CustomerHost": "ad",
-  "CustomerName": "Breitenberg, Powlowski and O'Hara",
-  "CustomerEmail": "helen@sipes.com",
-  "CustomerPhone": "1-637-721-2979 x245",
+  "CustomerAlias": "quibusdam",
+  "CustomerHost": "quos",
+  "CustomerName": "Hickle-Conroy",
+  "CustomerEmail": "albina@medhurstlangworth.ca",
+  "CustomerPhone": "390-027-3050",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Harris, Langosh and Stark",
+  "CustomerCompanyName": "Walter, Kohler and Tillman",
   "Status": "Closed",
-  "FirstMessage": "eligendi",
-  "LastMessage": "aut",
-  "WhenRequested": "2016-06-16T11:06:34.0496048+02:00",
-  "WhenStarted": "2008-08-14T11:06:34.0496048+02:00",
-  "WhenEnded": "2016-04-09T11:06:34.0496048+02:00",
-  "WhenIdle": "2004-12-11T11:06:34.0496048+01:00",
-  "WhenFetched": "2018-05-29T11:06:34.0496048+02:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 132,
-  "AlertLevel": 117,
-  "Rank": 624,
+  "FirstMessage": "et",
+  "LastMessage": "velit",
+  "WhenRequested": "2017-01-15T13:38:13.2490288+01:00",
+  "WhenStarted": "2012-04-09T13:38:13.2490288+02:00",
+  "WhenEnded": "2010-06-12T13:38:13.2490288+02:00",
+  "WhenIdle": "2001-04-11T13:38:13.2490288+02:00",
+  "WhenFetched": "2003-08-12T13:38:13.2490288+02:00",
+  "SessionKey": "repudiandae",
+  "InitialQueuePos": 652,
+  "AlertLevel": 276,
+  "Rank": 84,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 681,
+  "Rating": 62,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

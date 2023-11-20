@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 122,
+  "UserGroupId": 768,
   "CategoryIds": [
-    138,
-    699
+    572,
+    428
   ]
 }
 ```

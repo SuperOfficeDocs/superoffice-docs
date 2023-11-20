@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 18,
-    "Name": "Walter-Davis",
-    "ToolTip": "Nemo occaecati ad praesentium dolor molestiae et voluptas.",
+    "Id": 541,
+    "Name": "Marks Group",
+    "ToolTip": "Quasi id aliquam assumenda.",
     "Deleted": false,
-    "Rank": 69,
-    "Type": "at",
-    "ColorBlock": 888,
-    "IconHint": "rem",
+    "Rank": 441,
+    "Type": "minus",
+    "ColorBlock": 504,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2003-06-10T11:06:42.9753225+02:00",
+    "LastChanged": "2014-12-07T13:38:18.1712741+01:00",
     "ChildItems": [
       {
-        "Id": 388,
-        "Name": "Hartmann-Mills",
-        "ToolTip": "Velit ratione fugit facere autem quisquam.",
+        "Id": 32,
+        "Name": "Baumbach, Koch and Gibson",
+        "ToolTip": "Suscipit voluptas.",
         "Deleted": false,
-        "Rank": 708,
-        "Type": "nisi",
-        "ColorBlock": 411,
-        "IconHint": "dolor",
-        "Selected": true,
-        "LastChanged": "2005-06-27T11:06:42.9753225+02:00",
+        "Rank": 528,
+        "Type": "id",
+        "ColorBlock": 757,
+        "IconHint": "quos",
+        "Selected": false,
+        "LastChanged": "2016-06-14T13:38:18.1712741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "illo",
-        "Hidden": false,
-        "FullName": "Hassan Luettgen",
+        "ExtraInfo": "sed",
+        "StyleHint": "repellendus",
+        "Hidden": true,
+        "FullName": "Manuela Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 360
+            "FieldType": "System.String",
+            "FieldLength": 511
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Mrs. Leslie Lowe",
+    "ExtraInfo": "rerum",
+    "StyleHint": "minima",
+    "Hidden": false,
+    "FullName": "Mrs. Emely Loyal Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

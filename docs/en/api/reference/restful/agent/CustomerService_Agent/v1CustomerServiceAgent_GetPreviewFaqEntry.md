@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 119
+  "KbEntryId": 448
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "aut",
-  "RegisteredByFullName": "Eldridge Lockman",
-  "Updated": "2020-03-07T11:06:34.2539546+01:00",
-  "Question": "perspiciatis",
-  "Answer": "nihil",
+  "Title": "nesciunt",
+  "RegisteredByFullName": "Alexander Reinger",
+  "Updated": "2006-11-12T13:38:13.3896326+01:00",
+  "Question": "dolorem",
+  "Answer": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

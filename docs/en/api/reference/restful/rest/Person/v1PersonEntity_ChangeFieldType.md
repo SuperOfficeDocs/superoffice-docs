@@ -104,7 +104,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 739,
-  "ColumnId": 10,
-  "FieldDefault": "expedita",
-  "FieldHeight": 391,
-  "FieldLabel": "officiis",
-  "FieldLeft": 396,
-  "FieldTop": 8,
+  "UDefFieldId": 344,
+  "ColumnId": 386,
+  "FieldDefault": "ipsum",
+  "FieldHeight": 34,
+  "FieldLabel": "dolores",
+  "FieldLeft": 502,
+  "FieldTop": 808,
   "FieldType": "Checkbox",
-  "FieldWidth": 729,
-  "FormatMask": "cum",
+  "FieldWidth": 214,
+  "FormatMask": "eum",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 981,
-  "LabelLeft": 308,
-  "LabelTop": 343,
-  "LabelWidth": 627,
-  "LastVersionId": 269,
-  "ListTableId": 6,
-  "IsMandatory": true,
+  "LabelHeight": 502,
+  "LabelLeft": 640,
+  "LabelTop": 68,
+  "LabelWidth": 799,
+  "LastVersionId": 917,
+  "ListTableId": 75,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 919,
-  "ProgId": "ipsum",
+  "Page1LineNo": 170,
+  "ProgId": "fugit",
   "IsReadOnly": false,
-  "ShortLabel": "eius",
-  "TabOrder": 81,
-  "TextLength": 267,
-  "Tooltip": "aliquam",
-  "UdefIdentity": 524,
-  "UDListDefinitionId": 966,
+  "ShortLabel": "ea",
+  "TabOrder": 73,
+  "TextLength": 428,
+  "Tooltip": "nulla",
+  "UdefIdentity": 322,
+  "UDListDefinitionId": 74,
   "Justification": "Center",
-  "Version": 330,
-  "TemplateVariableName": "Hansen, Pacocha and Kreiger",
+  "Version": 659,
+  "TemplateVariableName": "Leffler, Rosenbaum and Little",
   "HasBeenPublished": false,
-  "MdoListName": "Kling LLC",
+  "MdoListName": "Thiel-Trantow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldType": "System.Int32",
+      "FieldLength": 847
     }
   }
 }

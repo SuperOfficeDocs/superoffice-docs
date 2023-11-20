@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 931,
-    "Name": "Russel LLC",
-    "ToolTip": "Voluptatem sed ut consequatur asperiores deserunt pariatur.",
-    "Deleted": true,
-    "Rank": 407,
-    "Type": "consequatur",
-    "ColorBlock": 484,
-    "IconHint": "repellendus",
+    "Id": 135,
+    "Name": "Aufderhar, Bayer and Heidenreich",
+    "ToolTip": "Rerum accusamus ea.",
+    "Deleted": false,
+    "Rank": 413,
+    "Type": "debitis",
+    "ColorBlock": 814,
+    "IconHint": "illo",
     "Selected": true,
-    "LastChanged": "2016-01-22T11:06:42.6471966+01:00",
+    "LastChanged": "2016-10-15T13:38:17.8900531+02:00",
     "ChildItems": [
       {
-        "Id": 547,
-        "Name": "Quitzon-Ullrich",
-        "ToolTip": "Non consequatur laudantium.",
-        "Deleted": false,
-        "Rank": 771,
-        "Type": "et",
-        "ColorBlock": 525,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2008-07-28T11:06:42.6471966+02:00",
+        "Id": 944,
+        "Name": "Reichel-Harvey",
+        "ToolTip": "Qui facere ipsam maiores.",
+        "Deleted": true,
+        "Rank": 460,
+        "Type": "labore",
+        "ColorBlock": 631,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2018-11-24T13:38:17.8900531+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "architecto",
-        "Hidden": true,
-        "FullName": "Trycia Hilll",
+        "ExtraInfo": "quam",
+        "StyleHint": "ipsam",
+        "Hidden": false,
+        "FullName": "Flavie Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 636
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "dolores",
     "Hidden": true,
-    "FullName": "Milton Dickinson PhD",
+    "FullName": "Ms. Cristian Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 271
       }
     }
   }

@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nitzsche LLC"
+  "Name": "Torp Group"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 631,
-  "Name": "Bode, Daniel and Graham",
-  "Tooltip": "laborum",
-  "Deleted": true,
-  "Rank": 552,
+  "Id": 508,
+  "Name": "Dietrich, Hessel and Stark",
+  "Tooltip": "maiores",
+  "Deleted": false,
+  "Rank": 138,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ipsa",
+  "ListType": "at",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldType": "System.String",
+      "FieldLength": 718
     }
   }
 }

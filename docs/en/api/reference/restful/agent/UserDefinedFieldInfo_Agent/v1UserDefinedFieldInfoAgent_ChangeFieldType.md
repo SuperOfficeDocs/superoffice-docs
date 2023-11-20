@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 614,
-  "ColumnId": 930,
-  "FieldDefault": "optio",
-  "FieldHeight": 55,
-  "FieldLabel": "aliquam",
-  "FieldLeft": 69,
-  "FieldTop": 381,
+  "UDefFieldId": 37,
+  "ColumnId": 83,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 550,
+  "FieldLabel": "error",
+  "FieldLeft": 836,
+  "FieldTop": 96,
   "FieldType": "Checkbox",
-  "FieldWidth": 932,
-  "FormatMask": "assumenda",
+  "FieldWidth": 16,
+  "FormatMask": "occaecati",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 961,
-  "LabelLeft": 463,
-  "LabelTop": 464,
-  "LabelWidth": 306,
-  "LastVersionId": 223,
-  "ListTableId": 241,
+  "LabelHeight": 62,
+  "LabelLeft": 578,
+  "LabelTop": 407,
+  "LabelWidth": 121,
+  "LastVersionId": 116,
+  "ListTableId": 912,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 808,
-  "ProgId": "accusantium",
+  "Page1LineNo": 190,
+  "ProgId": "neque",
   "IsReadOnly": false,
-  "ShortLabel": "dolores",
-  "TabOrder": 988,
-  "TextLength": 481,
-  "Tooltip": "sunt",
-  "UdefIdentity": 842,
-  "UDListDefinitionId": 472,
+  "ShortLabel": "maxime",
+  "TabOrder": 141,
+  "TextLength": 721,
+  "Tooltip": "vitae",
+  "UdefIdentity": 441,
+  "UDListDefinitionId": 290,
   "Justification": "Center",
-  "Version": 873,
-  "TemplateVariableName": "Will, Hoeger and Lueilwitz",
+  "Version": 971,
+  "TemplateVariableName": "Hahn LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Kreiger, Zieme and Hand",
+  "MdoListName": "Wintheiser, Bartoletti and Fahey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldLength": 457
     }
   }
 }

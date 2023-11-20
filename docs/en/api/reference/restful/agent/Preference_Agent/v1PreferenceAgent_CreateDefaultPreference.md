@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "eius",
+  "RawValue": "consequatur",
   "Specification": null,
-  "DisplayValue": "corrupti",
-  "DisplayTooltip": "quisquam",
+  "DisplayValue": "nihil",
+  "DisplayTooltip": "quae",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 826,
-  "PrefDescId": 115,
-  "TableName": "Kunde-Hintz",
-  "UserPreferenceId": 823,
+  "TargetId": 606,
+  "PrefDescId": 204,
+  "TableName": "Lebsack-Hilpert",
+  "UserPreferenceId": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 298
     }
   }
 }

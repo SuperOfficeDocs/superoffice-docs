@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=sint
+GET /api/v1/List/DocumentTemplate/MDOItems?query=consequatur
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "Jerde-Breitenberg",
-    "ToolTip": "Unde cumque voluptatem exercitationem et voluptates.",
+    "Id": 300,
+    "Name": "Waelchi-Konopelski",
+    "ToolTip": "Reprehenderit aut nesciunt et iure et optio id.",
     "Deleted": true,
-    "Rank": 615,
-    "Type": "ut",
+    "Rank": 955,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Nitzsche Inc and Sons",
-        "ToolTip": "Laudantium id exercitationem deserunt.",
+        "Id": 738,
+        "Name": "Zboncak-Yundt",
+        "ToolTip": "Facilis laboriosam voluptatibus ducimus et soluta quia.",
         "Deleted": false,
-        "Rank": 164,
-        "Type": "ipsum",
+        "Rank": 222,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 384,
-        "ExtraInfo": "in",
-        "StyleHint": "consequatur",
-        "FullName": "Marcos O'Conner",
+        "IconHint": "eos",
+        "ColorBlock": 863,
+        "ExtraInfo": "quo",
+        "StyleHint": "ipsam",
+        "FullName": "Mrs. Isabel Ernestina Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 895
+            "FieldLength": 469
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 905,
-    "ExtraInfo": "ipsum",
-    "StyleHint": "reprehenderit",
-    "FullName": "Damon Grady IV",
+    "IconHint": "labore",
+    "ColorBlock": 679,
+    "ExtraInfo": "impedit",
+    "StyleHint": "hic",
+    "FullName": "Joey Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 465
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 543,
-    "Name": "Cole LLC",
-    "Tooltip": "illo",
+    "HeadingId": 132,
+    "Name": "Klein LLC",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 448,
-    "UdListDefinitionId": 433
+    "Rank": 676,
+    "UdListDefinitionId": 653
   },
   {
-    "HeadingId": 543,
-    "Name": "Cole LLC",
-    "Tooltip": "illo",
+    "HeadingId": 132,
+    "Name": "Klein LLC",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 448,
-    "UdListDefinitionId": 433
+    "Rank": 676,
+    "UdListDefinitionId": 653
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 755,
-    "Name": "Bartoletti Group",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "Rank": 622,
-    "UdListDefinitionId": 767,
+    "HeadingId": 265,
+    "Name": "Stiedemann-Stoltenberg",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 424,
+    "UdListDefinitionId": 201,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldLength": 101
       }
     }
   }

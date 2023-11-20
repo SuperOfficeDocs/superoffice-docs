@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hickle-Ritchie",
-  "GroupId": 770
+  "UdListDefinitionName": "Feest, Sipes and Eichmann",
+  "GroupId": 907
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "Lowe, Turner and Larson",
-    "ToolTip": "In ea.",
-    "Deleted": true,
-    "Rank": 316,
-    "Type": "optio",
-    "ColorBlock": 872,
-    "IconHint": "perspiciatis",
-    "Selected": true,
-    "LastChanged": "2017-01-09T11:06:34.7083083+01:00",
+    "Id": 934,
+    "Name": "Kub-Wolf",
+    "ToolTip": "Eos recusandae reiciendis.",
+    "Deleted": false,
+    "Rank": 720,
+    "Type": "aut",
+    "ColorBlock": 700,
+    "IconHint": "at",
+    "Selected": false,
+    "LastChanged": "2016-02-06T13:38:13.6708541+01:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Jones-Johns",
-        "ToolTip": "Molestiae facilis rerum architecto.",
+        "Id": 134,
+        "Name": "Parisian-Goyette",
+        "ToolTip": "Aut error dolores quas fugiat iure et.",
         "Deleted": false,
-        "Rank": 86,
-        "Type": "et",
-        "ColorBlock": 808,
-        "IconHint": "provident",
-        "Selected": true,
-        "LastChanged": "2004-11-20T11:06:34.7083083+01:00",
+        "Rank": 92,
+        "Type": "sed",
+        "ColorBlock": 777,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2015-10-19T13:38:13.6708541+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "necessitatibus",
+        "StyleHint": "deserunt",
         "Hidden": false,
-        "FullName": "Jesus Cormier",
+        "FullName": "Kara Miller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 168
+            "FieldType": "System.Int32",
+            "FieldLength": 385
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "quos",
-    "Hidden": true,
-    "FullName": "Rosalee Louie Okuneva Jr.",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "eaque",
+    "Hidden": false,
+    "FullName": "Rossie Gerhold Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldType": "System.String",
+        "FieldLength": 291
       }
     }
   }

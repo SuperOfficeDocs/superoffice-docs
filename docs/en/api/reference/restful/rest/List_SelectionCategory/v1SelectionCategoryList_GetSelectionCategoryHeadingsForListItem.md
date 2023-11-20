@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Koepp-Pacocha",
-    "ToolTip": "Atque aut voluptatem repellat laudantium qui ea.",
-    "Deleted": true,
-    "Rank": 1000,
+    "Id": 410,
+    "Name": "Prohaska-Willms",
+    "ToolTip": "Culpa perspiciatis.",
+    "Deleted": false,
+    "Rank": 918,
     "Type": "et",
-    "ColorBlock": 676,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2012-09-01T11:06:43.069069+02:00",
+    "ColorBlock": 613,
+    "IconHint": "sunt",
+    "Selected": false,
+    "LastChanged": "2023-02-21T13:38:18.2337719+01:00",
     "ChildItems": [
       {
-        "Id": 494,
-        "Name": "Hilpert, Haley and Halvorson",
-        "ToolTip": "Non modi consequuntur repellendus illo.",
+        "Id": 142,
+        "Name": "Bins Group",
+        "ToolTip": "Sed veniam qui.",
         "Deleted": true,
-        "Rank": 148,
-        "Type": "aperiam",
-        "ColorBlock": 236,
-        "IconHint": "fuga",
+        "Rank": 91,
+        "Type": "commodi",
+        "ColorBlock": 84,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2010-07-18T11:06:43.069069+02:00",
+        "LastChanged": "2023-02-08T13:38:18.2337719+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "numquam",
-        "Hidden": false,
-        "FullName": "America Konopelski",
+        "ExtraInfo": "eos",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Dr. Doyle Schmeler MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 893
+            "FieldLength": 225
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "enim",
+    "ExtraInfo": "esse",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Antwan Lueilwitz",
+    "FullName": "Ms. Nathen Schroeder Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 714
+        "FieldLength": 598
       }
     }
   }

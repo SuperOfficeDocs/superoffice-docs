@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 783,
-  "Name": "Ratke LLC",
-  "Tooltip": "rerum",
+  "Id": 48,
+  "Name": "Adams-Orn",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 723,
-  "Rank": 435,
+  "UdListDefinitionId": 760,
+  "Rank": 563,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 55
+      "FieldType": "System.Int32",
+      "FieldLength": 171
     }
   }
 }

@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 580,
-  "IncludeProjectAppointments": false,
-  "StartTime": "1997-10-05T11:06:33.7336985+02:00",
-  "EndTime": "1997-11-02T11:06:33.7336985+01:00",
-  "Count": 981
+  "PersonId": 802,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2013-11-18T13:38:13.0459237+01:00",
+  "EndTime": "2023-05-16T13:38:13.0459237+02:00",
+  "Count": 83
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 784,
-    "StartDate": "2023-03-08T11:06:33.7347319+01:00",
-    "EndDate": "2011-11-08T11:06:33.7347319+01:00",
+    "AppointmentId": 461,
+    "StartDate": "2010-11-14T13:38:13.0459237+01:00",
+    "EndDate": "2015-07-29T13:38:13.0459237+02:00",
     "Type": "BookingForChecklist",
-    "Task": "repellendus",
-    "AssociateFullName": "Porter King",
-    "ContactName": "Herman-Daugherty",
-    "Description": "Self-enabling intangible local area network",
-    "PersonFullName": "Prof. Juliana Darius Bogisich DVM",
-    "PersonId": 101,
-    "ContactId": 230,
-    "ProjectId": 759,
-    "ProjectName": "Bechtelar-Ortiz",
+    "Task": "nesciunt",
+    "AssociateFullName": "Oceane Telly Buckridge I",
+    "ContactName": "Schoen LLC",
+    "Description": "Cross-platform multimedia benchmark",
+    "PersonFullName": "Darryl Strosin",
+    "PersonId": 967,
+    "ContactId": 794,
+    "ProjectId": 61,
+    "ProjectName": "Gutkowski, Lebsack and Lockman",
     "IsPublished": true,
-    "AssociateId": 311,
-    "ColorIndex": 872,
+    "AssociateId": 505,
+    "ColorIndex": 954,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 214,
-    "PriorityName": "Funk, Spinka and Bartell",
+    "PriorityId": 148,
+    "PriorityName": "Orn Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2009-08-04T11:06:33.7347319+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2021-05-23T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-05-06T11:06:33.7347319+02:00",
-    "RecurringEndDate": "2002-05-28T11:06:33.7347319+02:00",
-    "MotherId": 970,
-    "AssignedBy": 6,
-    "AssignedByFullName": "Kenya Anderson",
+    "RecurringStartDate": "2021-02-25T13:38:13.0459237+01:00",
+    "RecurringEndDate": "2013-10-25T13:38:13.0459237+02:00",
+    "MotherId": 489,
+    "AssignedBy": 174,
+    "AssignedByFullName": "Nelson Lesch II",
     "RejectReason": "",
-    "Location": "veniam",
-    "AlarmLeadTime": "doloremque",
-    "SaleId": 903,
-    "SaleName": "Denesik-Schroeder",
-    "AssociateName": "Roob, Schamberger and Harvey",
-    "CreatedDate": "2004-06-19T11:06:33.7347319+02:00",
-    "CreatedBy": "molestias",
-    "CreatedByFullName": "Marques Johnston",
-    "CreatedByAssociateId": 549,
+    "Location": "et",
+    "AlarmLeadTime": "laboriosam",
+    "SaleId": 160,
+    "SaleName": "King Group",
+    "AssociateName": "Robel, Gutmann and Blick",
+    "CreatedDate": "2016-09-25T13:38:13.0459237+02:00",
+    "CreatedBy": "itaque",
+    "CreatedByFullName": "Janice Wilderman",
+    "CreatedByAssociateId": 116,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "praesentium",
-    "Agenda": "similique",
-    "InternalNotes": "veniam",
+    "PreferredTZLocation": 604,
+    "Title": "minima",
+    "Agenda": "necessitatibus",
+    "InternalNotes": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldLength": 989
       }
     }
   }

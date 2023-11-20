@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 27 Sep 2001 11:06:42 G9T
+Last-Modified: Sat, 01 Jul 2023 13:38:17 G7T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Thu, 27 Sep 2001 11:06:42 G9T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ex",
+  "SaleText": "velit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Thu, 27 Sep 2001 11:06:42 G9T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2014-12-08T11:06:42.144726+01:00",
-  "Amount": 15594.784,
-  "SaleId": 845,
-  "Earning": 28757.584,
-  "EarningPercent": 20612.318,
-  "Heading": "deleniti",
-  "Number": "1201933",
-  "Probability": 859,
-  "CreatedDate": "1999-05-19T11:06:42.144726+02:00",
-  "UpdatedDate": "2001-09-27T11:06:42.144726+02:00",
+  "Saledate": "2022-07-29T13:38:17.608684+02:00",
+  "Amount": 5989.074,
+  "SaleId": 153,
+  "Earning": 24310.438,
+  "EarningPercent": 26971.203999999998,
+  "Heading": "quisquam",
+  "Number": "830818",
+  "Probability": 366,
+  "CreatedDate": "2022-10-01T13:38:17.608684+02:00",
+  "UpdatedDate": "2023-07-01T13:38:17.608684+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 985,
+  "ActiveLinks": 516,
   "Links": [
     {
-      "EntityName": "Nienow Group",
-      "Id": 553,
-      "Description": "De-engineered fault-tolerant extranet",
-      "ExtraInfo": "nisi",
-      "LinkId": 970,
+      "EntityName": "Pollich, Goyette and Senger",
+      "Id": 344,
+      "Description": "Horizontal foreground open system",
+      "ExtraInfo": "sed",
+      "LinkId": 187,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 656
+          "FieldLength": 390
         }
       }
     }
   ],
-  "NextDueDate": "2009-12-30T11:06:42.144726+01:00",
-  "Postit": "error",
+  "NextDueDate": "2008-02-12T13:38:17.608684+01:00",
+  "Postit": "occaecati",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2023-01-26T11:06:42.144726+01:00",
+  "ReopenDate": "1997-09-06T13:38:17.608684+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Stamm Group",
-      "Comment": "autem",
-      "StakeholderRoleId": 594,
-      "CountryId": 711,
-      "PersonId": 645,
-      "EmailDescription": "jayne_davis@walsh.co.uk",
-      "EmailId": 995,
-      "EmailAddress": "madilyn@zulauf.info",
-      "PhoneId": 320,
-      "ContactName": "Jaskolski, Murphy and Carroll",
-      "ContactId": 243,
-      "SaleId": 379,
-      "Mrmrs": "tempore",
-      "Firstname": "Paige",
-      "MiddleName": "Breitenberg LLC",
-      "Lastname": "Altenwerth",
-      "SaleStakeholderId": 363,
-      "Rank": 917,
-      "Phone": "407-690-4621",
+      "StakeholderRoleName": "Stark-Goldner",
+      "Comment": "dolores",
+      "StakeholderRoleId": 678,
+      "CountryId": 300,
+      "PersonId": 39,
+      "EmailDescription": "milan_bechtelar@hammes.co.uk",
+      "EmailId": 39,
+      "EmailAddress": "arlo.larkin@white.name",
+      "PhoneId": 933,
+      "ContactName": "Blick Group",
+      "ContactId": 15,
+      "SaleId": 796,
+      "Mrmrs": "dicta",
+      "Firstname": "Santino",
+      "MiddleName": "Kohler-Schultz",
+      "Lastname": "Jewess",
+      "SaleStakeholderId": 943,
+      "Rank": 417,
+      "Phone": "(623)680-2188",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 701
+          "FieldLength": 843
         }
       }
     }
   ],
-  "ActiveErpLinks": 798,
+  "ActiveErpLinks": 536,
   "UserDefinedFields": {
-    "SuperOffice:1": "Margarita Cronin",
-    "SuperOffice:2": "Arlo Trantow"
+    "SuperOffice:1": "Marcelina Hamill",
+    "SuperOffice:2": "Pearlie Zulauf"
   },
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "id",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "rem"
+    "CustomFields1": "alias",
+    "CustomFields2": "eveniet"
   },
-  "PublishEventDate": "2021-01-27T11:06:42.144726+01:00",
-  "PublishTo": "2001-06-29T11:06:42.144726+02:00",
-  "PublishFrom": "2002-10-25T11:06:42.144726+02:00",
+  "PublishEventDate": "2015-04-20T13:38:17.608684+02:00",
+  "PublishTo": "2013-10-01T13:38:17.608684+02:00",
+  "PublishFrom": "2005-12-09T13:38:17.608684+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 23,
+      "VisibleId": 783,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldType": "System.String",
+          "FieldLength": 99
         }
       }
     },
     {
-      "VisibleId": 23,
+      "VisibleId": 783,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldType": "System.String",
+          "FieldLength": 99
         }
       }
     }
@@ -261,7 +261,7 @@ Last-Modified: Thu, 27 Sep 2001 11:06:42 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldLength": 230
     }
   },
   "_Links": {

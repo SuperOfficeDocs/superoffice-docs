@@ -77,15 +77,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 423,
-  "AssociateId": 162,
+  "DocumentId": 649,
+  "AssociateId": 152,
   "CustomTags": [
-    "dolorem",
-    "molestiae"
+    "ipsam",
+    "quas"
   ],
   "CustomValues": [
-    "voluptatem",
-    "aut"
+    "consequuntur",
+    "excepturi"
   ]
 }
 ```

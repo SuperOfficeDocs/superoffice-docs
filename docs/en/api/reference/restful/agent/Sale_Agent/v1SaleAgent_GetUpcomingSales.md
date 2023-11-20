@@ -104,8 +104,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 835,
-  "Count": 728
+  "WeightedAmountLimit": 436,
+  "Count": 22
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Friesen Inc and Sons",
-    "SaleDate": "2000-10-13T11:06:35.3333182+02:00",
-    "SaleId": 227,
-    "Probability": 841,
-    "Title": "in",
-    "Amount": 14748.604,
-    "Currency": "necessitatibus",
-    "ProjectName": "Zulauf Inc and Sons",
-    "AssociateFullName": "Prof. Jason Friesen DVM",
-    "Description": "Fundamental tertiary solution",
+    "ContactName": "Schultz-Hessel",
+    "SaleDate": "2001-05-31T13:38:14.0928295+02:00",
+    "SaleId": 909,
+    "Probability": 158,
+    "Title": "vero",
+    "Amount": 30365.325999999997,
+    "Currency": "sunt",
+    "ProjectName": "O'Hara Group",
+    "AssociateFullName": "Giuseppe Jacobson",
+    "Description": "Stand-alone maximized encryption",
     "Status": "Lost",
-    "WeightedAmount": 2319.16,
-    "ProjectId": 368,
-    "EarningPercent": 30753.942,
-    "Earning": 21577.59,
-    "ContactId": 371,
-    "AssociateId": 199,
-    "PersonId": 73,
-    "SaleTypeId": 579,
-    "SaleTypeName": "Kassulke, Davis and Jacobs",
-    "PersonFullName": "Mr. Wendy Runolfsson",
+    "WeightedAmount": 9420.804,
+    "ProjectId": 50,
+    "EarningPercent": 15250.044,
+    "Earning": 24871.424,
+    "ContactId": 382,
+    "AssociateId": 214,
+    "PersonId": 806,
+    "SaleTypeId": 246,
+    "SaleTypeName": "Kuphal Group",
+    "PersonFullName": "Mr. Patricia Elza Hickle",
     "Completed": "Completed",
-    "ActiveErpLinks": 386,
-    "NextDueDate": "2017-12-27T11:06:35.3333182+01:00",
-    "Number": "787106",
+    "ActiveErpLinks": 276,
+    "NextDueDate": "2004-05-15T13:38:14.0928295+02:00",
+    "Number": "875677",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 893
       }
     }
   }

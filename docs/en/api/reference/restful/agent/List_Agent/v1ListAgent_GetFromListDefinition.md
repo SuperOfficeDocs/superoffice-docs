@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 679,
-  "UdListDefinitionId": 839
+  "Id": 164,
+  "UdListDefinitionId": 732
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 386,
-  "Name": "Goyette LLC",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "UdListDefinitionId": 357,
-  "Rank": 406,
+  "Id": 480,
+  "Name": "Haag Inc and Sons",
+  "Tooltip": "doloribus",
+  "Deleted": false,
+  "UdListDefinitionId": 594,
+  "Rank": 217,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldLength": 985
     }
   }
 }

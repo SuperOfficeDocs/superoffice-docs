@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Adams-Mann"
+  "FunctionalRightName": "Dickens, Emmerich and Durgan"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Marquardt, Ullrich and Grady",
-    "ToolTip": "Porro blanditiis quo sed ex eum.",
-    "Deleted": true,
-    "Rank": 377,
-    "Type": "nam",
+    "Id": 108,
+    "Name": "Volkman, Kling and Bernhard",
+    "ToolTip": "Illo ab saepe sunt laudantium qui rerum sit.",
+    "Deleted": false,
+    "Rank": 928,
+    "Type": "officia",
     "ChildItems": [
       {
-        "Id": 4,
-        "Name": "Wiegand LLC",
-        "ToolTip": "Sequi repudiandae ad tempora ut rerum enim.",
-        "Deleted": false,
-        "Rank": 382,
-        "Type": "asperiores",
+        "Id": 105,
+        "Name": "Schroeder Group",
+        "ToolTip": "Aut porro.",
+        "Deleted": true,
+        "Rank": 485,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempora",
-        "ColorBlock": 937,
-        "ExtraInfo": "natus",
-        "StyleHint": "non",
-        "FullName": "Miss Delores Rodger Stark Jr.",
+        "IconHint": "accusantium",
+        "ColorBlock": 278,
+        "ExtraInfo": "repellat",
+        "StyleHint": "illo",
+        "FullName": "Dr. Francesca Ben Steuber I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 724
+            "FieldType": "System.Int32",
+            "FieldLength": 975
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 671,
-    "ExtraInfo": "repellat",
-    "StyleHint": "vitae",
-    "FullName": "Candice Rau",
+    "IconHint": "esse",
+    "ColorBlock": 936,
+    "ExtraInfo": "delectus",
+    "StyleHint": "et",
+    "FullName": "Luigi Kessler Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 218
+        "FieldType": "System.Int32",
+        "FieldLength": 328
       }
     }
   }

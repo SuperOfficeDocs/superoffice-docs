@@ -83,17 +83,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 477,
-  "Created": "2020-06-07T11:06:35.2551901+02:00",
+  "SatelliteId": 114,
+  "Created": "2013-02-07T13:38:14.045953+01:00",
   "CreatedBy": null,
-  "Updated": "1999-01-28T11:06:35.2551901+01:00",
+  "Updated": "1996-11-10T13:38:14.045953+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Metz, Langworth and Ruecker",
-      "Description": "Centralized grid-enabled complexity",
+      "Name": "Ortiz, O'Hara and Jast",
+      "Description": "Compatible tangible function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Metz, Langworth and Ruecker",
-      "Description": "Centralized grid-enabled complexity",
+      "Name": "Ortiz, O'Hara and Jast",
+      "Description": "Compatible tangible function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 424,
-  "Created": "2001-12-16T11:06:35.2551901+01:00",
+  "SatelliteId": 736,
+  "Created": "1997-01-31T13:38:14.045953+01:00",
   "CreatedBy": null,
-  "Updated": "2007-04-17T11:06:35.2551901+02:00",
+  "Updated": "2012-04-26T13:38:14.045953+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Wuckert Group",
-      "Description": "Compatible heuristic array",
+      "Name": "Dach LLC",
+      "Description": "Quality-focused object-oriented approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 85
         }
       }
     },
     {
-      "Name": "Wuckert Group",
-      "Description": "Compatible heuristic array",
+      "Name": "Dach LLC",
+      "Description": "Quality-focused object-oriented approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 85
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 912
     }
   }
 }

@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 499
+  "TargetDimensionId": 761
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 969,
+    "TargetAssignmentInfoId": 649,
     "Values": [
-      105,
-      356
+      86,
+      340
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 776,
-    "DimensionListItemDisplayName": "Price-Koelpin",
+    "DimensionListItem": 961,
+    "DimensionListItemDisplayName": "Walker, Lueilwitz and Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 815
+        "FieldType": "System.Int32",
+        "FieldLength": 893
       }
     }
   }

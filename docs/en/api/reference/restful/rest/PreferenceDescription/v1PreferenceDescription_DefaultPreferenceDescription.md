@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 4,
-  "Section": "qui",
-  "Key": "placeat",
-  "Name": "Satterfield Inc and Sons",
+  "PrefDescId": 431,
+  "Section": "quam",
+  "Key": "quo",
+  "Name": "Kuhlman, Wilderman and Ferry",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Balanced actuating contingency",
-  "IsBuiltin": false,
-  "TableName": "Kuhlman, Kunde and Bogisich",
-  "UserDefinedListId": 827,
-  "Rank": 749,
-  "SubGroup": "fugiat",
-  "MinLevel": 483,
-  "MaxValue": 621,
-  "MinValue": 936,
-  "RequiredLicense": "eos",
+  "Description": "Open-architected foreground info-mediaries",
+  "IsBuiltin": true,
+  "TableName": "Erdman, Haley and Rippin",
+  "UserDefinedListId": 201,
+  "Rank": 941,
+  "SubGroup": "eum",
+  "MinLevel": 437,
+  "MaxValue": 476,
+  "MinValue": 140,
+  "RequiredLicense": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 500
+      "FieldType": "System.Int32",
+      "FieldLength": 130
     }
   }
 }

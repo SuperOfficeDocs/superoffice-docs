@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 529,
-    "Name": "Herzog Group",
-    "Tooltip": "dolorem",
-    "Rank": 202,
+    "SaleTypeId": 176,
+    "Name": "Wisoky, Gusikowski and Grimes",
+    "Tooltip": "doloremque",
+    "Rank": 283,
     "DurationUnit": "Century",
-    "SaleDuration": 422,
-    "SaleTypeCatId": 604,
+    "SaleDuration": 162,
+    "SaleTypeCatId": 598,
     "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": false,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 342,
-    "QuoteLinesTemplate": 477,
-    "ConfirmationLinesTemplate": 410,
-    "MaxDiscountPercentSet": true,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 669,
-    "MinEarningPercent": 917,
-    "GroupQuoteLinesBy": 778,
-    "SortGroupLinesBy": 489,
+    "HasGuide": true,
+    "HasStakeholders": true,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 774,
+    "QuoteLinesTemplate": 199,
+    "ConfirmationLinesTemplate": 174,
+    "MaxDiscountPercentSet": false,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 787,
+    "MinEarningPercent": 90,
+    "GroupQuoteLinesBy": 457,
+    "SortGroupLinesBy": 662,
     "Stages": [
       {
-        "Id": 998,
-        "Name": "Graham-Mosciski",
-        "ToolTip": "Vel quibusdam quia corporis natus consequatur omnis.",
+        "Id": 479,
+        "Name": "Wolff-Keebler",
+        "ToolTip": "Atque voluptas.",
         "Deleted": false,
-        "Rank": 96,
-        "Type": "itaque",
-        "ColorBlock": 153,
-        "IconHint": "tempore",
-        "Selected": true,
-        "LastChanged": "2000-01-06T11:06:34.6926855+01:00",
+        "Rank": 75,
+        "Type": "recusandae",
+        "ColorBlock": 40,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2005-02-24T13:38:13.6708541+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "qui",
+        "ExtraInfo": "est",
+        "StyleHint": "quibusdam",
         "Hidden": true,
-        "FullName": "Aliyah Runte",
+        "FullName": "Kaleb Mabelle Sipes Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 533
+            "FieldType": "System.String",
+            "FieldLength": 44
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldType": "System.String",
+        "FieldLength": 516
       }
     }
   }

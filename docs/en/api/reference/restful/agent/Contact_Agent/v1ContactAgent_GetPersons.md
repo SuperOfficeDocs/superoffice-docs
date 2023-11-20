@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 189
+  "ContactId": 67
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "doloribus",
-    "PersonId": 414,
-    "Mrmrs": "ipsum",
-    "Firstname": "Petra",
-    "Lastname": "Walsh",
-    "MiddleName": "Maggio Group",
-    "Title": "tempora",
-    "Description": "Synchronised national superstructure",
-    "Email": "ova.trantow@hansen.co.uk",
-    "FullName": "Eladio Cassidy Goldner I",
-    "DirectPhone": "290.522.6374",
-    "FormalName": "Veum-Upton",
-    "CountryId": 566,
-    "ContactId": 400,
-    "ContactName": "Mertz-Koch",
-    "Retired": 981,
-    "Rank": 679,
-    "ActiveInterests": 378,
+    "Position": "nemo",
+    "PersonId": 770,
+    "Mrmrs": "sint",
+    "Firstname": "Tanya",
+    "Lastname": "Gerhold",
+    "MiddleName": "Cassin, Abbott and Kerluke",
+    "Title": "rerum",
+    "Description": "Assimilated exuding focus group",
+    "Email": "citlalli_schmeler@champlin.info",
+    "FullName": "Ms. Grady Crooks",
+    "DirectPhone": "299-106-0242",
+    "FormalName": "Schmidt, Cassin and Schowalter",
+    "CountryId": 157,
+    "ContactId": 82,
+    "ContactName": "Koepp, Murphy and Mertz",
+    "Retired": 906,
+    "Rank": 902,
+    "ActiveInterests": 187,
     "ContactDepartment": "",
-    "ContactCountryId": 438,
-    "ContactOrgNr": "254473",
-    "FaxPhone": "1-253-778-3167 x01473",
-    "MobilePhone": "(184)448-7558 x32632",
-    "ContactPhone": "1-268-198-3872 x008",
-    "AssociateName": "Harvey, Skiles and Kiehn",
-    "AssociateId": 527,
-    "UsePersonAddress": false,
-    "ContactFax": "debitis",
-    "Kanafname": "culpa",
-    "Kanalname": "laboriosam",
-    "Post1": "mollitia",
-    "Post2": "blanditiis",
-    "Post3": "sunt",
-    "EmailName": "estrella@friesen.info",
-    "ContactFullName": "Lawson Feeney",
-    "ActiveErpLinks": 95,
-    "TicketPriorityId": 170,
-    "SupportLanguageId": 137,
-    "SupportAssociateId": 652,
+    "ContactCountryId": 872,
+    "ContactOrgNr": "1361515",
+    "FaxPhone": "631-197-7041",
+    "MobilePhone": "(305)771-8868 x45632",
+    "ContactPhone": "(916)701-6179",
+    "AssociateName": "Quitzon, Runolfsson and Hahn",
+    "AssociateId": 846,
+    "UsePersonAddress": true,
+    "ContactFax": "quos",
+    "Kanafname": "saepe",
+    "Kanalname": "eveniet",
+    "Post1": "labore",
+    "Post2": "sint",
+    "Post3": "praesentium",
+    "EmailName": "sydnie_ledner@okeefeparisian.uk",
+    "ContactFullName": "Terry Kreiger",
+    "ActiveErpLinks": 132,
+    "TicketPriorityId": 174,
+    "SupportLanguageId": 155,
+    "SupportAssociateId": 558,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 12
+        "FieldLength": 487
       }
     }
   }

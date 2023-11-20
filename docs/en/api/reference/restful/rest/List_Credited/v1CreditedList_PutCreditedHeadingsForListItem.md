@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Wisoky LLC",
-    "ToolTip": "Ut magnam porro vel molestias corporis exercitationem ipsa.",
-    "Deleted": true,
-    "Rank": 855,
-    "Type": "qui",
-    "ColorBlock": 639,
-    "IconHint": "quo",
+    "Id": 724,
+    "Name": "Kuphal, Cormier and Quitzon",
+    "ToolTip": "Molestiae soluta laborum repudiandae.",
+    "Deleted": false,
+    "Rank": 740,
+    "Type": "fuga",
+    "ColorBlock": 708,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2015-06-03T11:06:42.7565694+02:00",
+    "LastChanged": "2015-11-09T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Bogisich, Sauer and Kreiger",
-        "ToolTip": "Distinctio est velit eligendi sed autem laboriosam.",
-        "Deleted": false,
-        "Rank": 659,
-        "Type": "est",
-        "ColorBlock": 978,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "2018-12-15T11:06:42.7565694+01:00",
+        "Id": 293,
+        "Name": "King, Luettgen and Kovacek",
+        "ToolTip": "Consequatur hic.",
+        "Deleted": true,
+        "Rank": 613,
+        "Type": "sit",
+        "ColorBlock": 151,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2008-12-30T13:38:18.0306692+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "illo",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Eunice Brakus"
+        "FullName": "Miss Ervin Sipes IV"
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "excepturi",
-    "Hidden": true,
-    "FullName": "Dr. Haylie Grant III"
+    "ExtraInfo": "impedit",
+    "StyleHint": "consequuntur",
+    "Hidden": false,
+    "FullName": "Melvin Wilkinson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 282,
-    "Name": "McCullough Inc and Sons",
-    "ToolTip": "Qui non animi odit quae harum dolore consectetur.",
+    "Id": 269,
+    "Name": "Huel, Schuster and Mohr",
+    "ToolTip": "Tempore nobis temporibus tempora velit iure est.",
     "Deleted": false,
-    "Rank": 667,
-    "Type": "assumenda",
-    "ColorBlock": 865,
-    "IconHint": "laborum",
-    "Selected": true,
-    "LastChanged": "2011-02-26T11:06:42.7565694+01:00",
+    "Rank": 16,
+    "Type": "sit",
+    "ColorBlock": 997,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2021-05-31T13:38:18.0306692+02:00",
     "ChildItems": [
       {
-        "Id": 18,
-        "Name": "Stanton LLC",
-        "ToolTip": "Non in.",
-        "Deleted": true,
-        "Rank": 363,
-        "Type": "nulla",
-        "ColorBlock": 162,
-        "IconHint": "reprehenderit",
+        "Id": 670,
+        "Name": "Witting, Bode and Larkin",
+        "ToolTip": "Commodi eum.",
+        "Deleted": false,
+        "Rank": 682,
+        "Type": "libero",
+        "ColorBlock": 276,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2011-09-06T11:06:42.7565694+02:00",
+        "LastChanged": "2002-02-15T13:38:18.0306692+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Johnny Ullrich",
+        "ExtraInfo": "odio",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Adolph Jakubowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 453
+            "FieldType": "System.Int32",
+            "FieldLength": 662
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Lorena Bruen",
+    "ExtraInfo": "quia",
+    "StyleHint": "ipsa",
+    "Hidden": true,
+    "FullName": "Alessandra Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 605
       }
     }
   }

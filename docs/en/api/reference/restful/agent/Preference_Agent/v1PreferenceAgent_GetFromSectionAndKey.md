@@ -95,8 +95,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "aut",
-  "Key": "odio"
+  "Section": "architecto",
+  "Key": "velit"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 617,
-  "Section": "explicabo",
-  "Key": "quae",
-  "Name": "Hagenes, Ziemann and Gibson",
+  "PrefDescId": 694,
+  "Section": "temporibus",
+  "Key": "et",
+  "Name": "McCullough, Steuber and Bailey",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Total bottom-line pricing structure",
-  "IsBuiltin": false,
-  "TableName": "Strosin, Schaefer and Lindgren",
-  "UserDefinedListId": 169,
-  "Rank": 934,
-  "SubGroup": "asperiores",
-  "MinLevel": 946,
-  "MaxValue": 994,
-  "MinValue": 629,
-  "RequiredLicense": "magnam",
+  "Description": "Integrated didactic Graphical User Interface",
+  "IsBuiltin": true,
+  "TableName": "Leannon Group",
+  "UserDefinedListId": 815,
+  "Rank": 746,
+  "SubGroup": "sit",
+  "MinLevel": 764,
+  "MaxValue": 926,
+  "MinValue": 661,
+  "RequiredLicense": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 605
     }
   }
 }

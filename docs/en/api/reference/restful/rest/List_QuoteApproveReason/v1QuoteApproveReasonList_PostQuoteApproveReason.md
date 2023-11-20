@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 809,
-  "Name": "Purdy, Emmerich and Powlowski",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 994,
-  "Rank": 449
+  "Id": 908,
+  "Name": "Tremblay-Weissnat",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "UdListDefinitionId": 791,
+  "Rank": 735
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 304,
-  "Name": "Renner Inc and Sons",
-  "Tooltip": "dicta",
+  "Id": 428,
+  "Name": "Lubowitz, Reynolds and Larson",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 585,
-  "Rank": 18,
+  "UdListDefinitionId": 493,
+  "Rank": 578,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldType": "System.String",
+      "FieldLength": 80
     }
   }
 }

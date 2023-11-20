@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hermann, Wyman and Hirthe"
+  "Name": "Rohan-Hahn"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 403,
-    "Name": "VonRueden, Emard and Bechtelar",
-    "ToolTip": "Consequatur molestias.",
+    "Id": 349,
+    "Name": "Hegmann-Kilback",
+    "ToolTip": "Nihil earum.",
     "Deleted": true,
-    "Rank": 704,
-    "Type": "aut",
-    "ColorBlock": 945,
-    "IconHint": "quia",
+    "Rank": 845,
+    "Type": "architecto",
+    "ColorBlock": 903,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2023-08-11T11:06:34.8020663+02:00",
+    "LastChanged": "2018-12-15T13:38:13.7333439+01:00",
     "ChildItems": [
       {
-        "Id": 539,
-        "Name": "Upton-Ruecker",
-        "ToolTip": "Et dolores vero nemo voluptate mollitia exercitationem.",
-        "Deleted": false,
-        "Rank": 214,
-        "Type": "iure",
-        "ColorBlock": 288,
-        "IconHint": "repellat",
-        "Selected": false,
-        "LastChanged": "2007-08-19T11:06:34.8020663+02:00",
+        "Id": 557,
+        "Name": "Nitzsche-Nolan",
+        "ToolTip": "Qui ea et aut delectus occaecati quas.",
+        "Deleted": true,
+        "Rank": 80,
+        "Type": "numquam",
+        "ColorBlock": 167,
+        "IconHint": "suscipit",
+        "Selected": true,
+        "LastChanged": "2006-01-26T13:38:13.7333439+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Jessyca Corwin",
+        "ExtraInfo": "debitis",
+        "StyleHint": "maiores",
+        "Hidden": true,
+        "FullName": "Audrey McDermott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 891
+            "FieldType": "System.String",
+            "FieldLength": 272
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Miss Karli Haag I",
+    "ExtraInfo": "enim",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Damian Walsh III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldLength": 846
       }
     }
   }

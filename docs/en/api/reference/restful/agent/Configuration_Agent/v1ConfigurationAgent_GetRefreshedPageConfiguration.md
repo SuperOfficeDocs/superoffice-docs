@@ -76,9 +76,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "delectus",
-  "Instance": "nesciunt",
-  "Page": "numquam"
+  "Application": "optio",
+  "Instance": "veritatis",
+  "Page": "voluptates"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"temporibus"
+"alias"
 ```

@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 384,
-  "ERPProductKey": "temporibus",
-  "ERPPriceListKey": "minima",
-  "Name": "Kozey Group",
-  "Description": "Sharable eco-centric protocol",
-  "Code": "sequi",
-  "PriceUnit": "pariatur",
-  "QuantityUnit": "sint",
-  "IsSubscription": true,
-  "SubscriptionUnit": "non",
-  "DefaultSubscriptionQuantity": 22925.21,
-  "ItemNumber": "227331",
+  "ProductId": 353,
+  "ERPProductKey": "porro",
+  "ERPPriceListKey": "provident",
+  "Name": "Bergstrom-Feeney",
+  "Description": "Devolved systematic parallelism",
+  "Code": "nihil",
+  "PriceUnit": "laudantium",
+  "QuantityUnit": "qui",
+  "IsSubscription": false,
+  "SubscriptionUnit": "fuga",
+  "DefaultSubscriptionQuantity": 24498.478,
+  "ItemNumber": "360922",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "repellat",
-  "ProductTypeKey": "enim",
-  "VAT": 23360.836,
-  "VATInfo": "error",
-  "UnitCost": 11790.108,
-  "UnitMinimumPrice": 7675.166,
-  "UnitListPrice": 2356.768,
+  "ProductFamilyKey": "quae",
+  "ProductTypeKey": "esse",
+  "VAT": 1219.126,
+  "VATInfo": "tempore",
+  "UnitCost": 18017.365999999998,
+  "UnitMinimumPrice": 24028.378,
+  "UnitListPrice": 9605.71,
   "InAssortment": false,
-  "Supplier": "beatae",
-  "SupplierCode": "voluptates",
-  "Rights": "dolorem",
-  "Rule": "et",
+  "Supplier": "cupiditate",
+  "SupplierCode": "possimus",
+  "Rights": "deleniti",
+  "Rule": "voluptatum",
   "ExtraInfo": [
     {
-      "Name": "Hettinger, Lehner and Cremin",
-      "Value": "adipisci",
+      "Name": "Cummerata LLC",
+      "Value": "aliquid",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 378
+          "FieldType": "System.Int32",
+          "FieldLength": 684
         }
       }
     },
     {
-      "Name": "Hettinger, Lehner and Cremin",
-      "Value": "adipisci",
+      "Name": "Cummerata LLC",
+      "Value": "aliquid",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 378
+          "FieldType": "System.Int32",
+          "FieldLength": 684
         }
       }
     }
   ],
-  "RawExtraInfo": "saepe",
-  "ExtraField1": "alias",
-  "ExtraField2": "ab",
-  "ExtraField3": "non",
-  "ExtraField4": "ut",
-  "ExtraField5": "ut",
-  "InStock": 14256.565999999999,
+  "RawExtraInfo": "deserunt",
+  "ExtraField1": "quidem",
+  "ExtraField2": "illo",
+  "ExtraField3": "reprehenderit",
+  "ExtraField4": "quia",
+  "ExtraField5": "voluptates",
+  "InStock": 8941.302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 650
     }
   }
 }

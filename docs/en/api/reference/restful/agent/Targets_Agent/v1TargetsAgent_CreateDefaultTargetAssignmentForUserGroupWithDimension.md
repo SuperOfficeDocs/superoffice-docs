@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 615,
-  "TargetDimensionId": 758
+  "UserGroupId": 346,
+  "TargetDimensionId": 285
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 738,
+    "TargetAssignmentInfoId": 450,
     "Values": [
-      65,
-      826
+      873,
+      699
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 782,
-    "DimensionListItemDisplayName": "Fay, Greenfelder and Blanda",
+    "DimensionListItem": 261,
+    "DimensionListItemDisplayName": "Larson-Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldLength": 69
       }
     }
   }

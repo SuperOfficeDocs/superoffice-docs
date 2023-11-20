@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 459,
-  "InstanceLayout": "impedit",
-  "InstanceName": "Schowalter-Sanford",
-  "CreatedDate": "2014-11-20T11:06:33.7816525+01:00",
-  "UpdatedDate": "2000-05-21T11:06:33.7816525+02:00",
+  "AudienceLayoutId": 395,
+  "InstanceLayout": "et",
+  "InstanceName": "Renner, Reilly and Smith",
+  "CreatedDate": "1999-11-15T13:38:13.0771703+01:00",
+  "UpdatedDate": "2012-06-25T13:38:13.0771703+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 230,
-  "InstanceLayout": "non",
-  "InstanceName": "Wolff-Prosacco",
-  "CreatedDate": "2022-07-18T11:06:33.7816525+02:00",
-  "UpdatedDate": "2003-05-12T11:06:33.7816525+02:00",
+  "AudienceLayoutId": 757,
+  "InstanceLayout": "impedit",
+  "InstanceName": "Corkery Inc and Sons",
+  "CreatedDate": "1999-03-02T13:38:13.0771703+01:00",
+  "UpdatedDate": "2021-05-31T13:38:13.0771703+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   }
 }

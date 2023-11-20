@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
-  "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 806
+  "IncludeAllAppointments": true,
+  "DefaultAlarmLeadTimeInMinutes": 49
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 595,
-      "StartTime": "2013-07-27T11:06:33.4913656+02:00",
-      "EndDate": "2002-10-25T11:06:33.4913656+02:00",
-      "AlarmTime": "2023-04-24T11:06:33.4913656+02:00",
-      "PersonId": 82,
-      "PersonFullName": "Olaf McClure",
-      "ContactName": "Effertz LLC",
-      "ProjectId": 579,
-      "ProjectName": "Stracke-Heidenreich",
-      "AppointmentText": "illo",
-      "SaleId": 99,
-      "SaleName": "Bashirian-McGlynn",
-      "Location": "reiciendis",
+      "AppointmentId": 627,
+      "StartTime": "1998-08-15T13:38:12.8740699+02:00",
+      "EndDate": "2023-06-23T13:38:12.8740699+02:00",
+      "AlarmTime": "2015-01-24T13:38:12.8740699+01:00",
+      "PersonId": 291,
+      "PersonFullName": "Miss Brenna Emanuel DuBuque",
+      "ContactName": "O'Connell, Torphy and Shanahan",
+      "ProjectId": 429,
+      "ProjectName": "Rau-Fahey",
+      "AppointmentText": "delectus",
+      "SaleId": 341,
+      "SaleName": "Dickens-Mueller",
+      "Location": "recusandae",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 51,
+      "ContactId": 471,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Botsford-Harber",
-      "TaskName": "Cole-Jenkins",
-      "ContactDepartment": "implement frictionless solutions",
-      "ContactFullName": "Tia Parker",
+      "FormalName": "Strosin Inc and Sons",
+      "TaskName": "Quitzon, Daugherty and Lesch",
+      "ContactDepartment": "",
+      "ContactFullName": "Lizzie Baumbach",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldType": "System.Int32",
+          "FieldLength": 440
         }
       }
     }
   ],
-  "PollingInterval": 125,
-  "SilentAfter": 297,
+  "PollingInterval": 487,
+  "SilentAfter": 499,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 266
     }
   }
 }

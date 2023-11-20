@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 149,
-    "Name": "Schimmel-Schinner",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 686,
-    "UdListDefinitionId": 877
+    "HeadingId": 711,
+    "Name": "Roberts, Lemke and Mante",
+    "Tooltip": "at",
+    "Deleted": false,
+    "Rank": 168,
+    "UdListDefinitionId": 314
   },
   {
-    "HeadingId": 149,
-    "Name": "Schimmel-Schinner",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 686,
-    "UdListDefinitionId": 877
+    "HeadingId": 711,
+    "Name": "Roberts, Lemke and Mante",
+    "Tooltip": "at",
+    "Deleted": false,
+    "Rank": 168,
+    "UdListDefinitionId": 314
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 308,
-    "Name": "Bauch, Grady and Johnson",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 293,
-    "UdListDefinitionId": 432,
+    "HeadingId": 739,
+    "Name": "Koepp LLC",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "Rank": 487,
+    "UdListDefinitionId": 170,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 189
+        "FieldLength": 664
       }
     }
   }

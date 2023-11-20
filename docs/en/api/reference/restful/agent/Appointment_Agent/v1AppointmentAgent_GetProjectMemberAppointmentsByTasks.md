@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 33,
-  "StartTime": "2018-10-21T11:06:33.4601191+02:00",
-  "EndTime": "2022-06-28T11:06:33.4601191+02:00",
-  "Count": 850,
+  "PersonId": 511,
+  "StartTime": "2018-09-26T13:38:12.8584402+02:00",
+  "EndTime": "1998-03-16T13:38:12.8584402+01:00",
+  "Count": 2,
   "TaskIds": [
-    471,
-    15
+    256,
+    299
   ]
 }
 ```
@@ -153,64 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 324,
-    "StartDate": "2003-02-10T11:06:33.4601191+01:00",
-    "EndDate": "2010-01-16T11:06:33.4601191+01:00",
+    "AppointmentId": 572,
+    "StartDate": "2014-11-22T13:38:12.8584402+01:00",
+    "EndDate": "2016-03-26T13:38:12.8584402+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolorem",
-    "AssociateFullName": "Rickie Stokes",
-    "ContactName": "Tillman-Auer",
-    "Description": "Reverse-engineered disintermediate frame",
-    "PersonFullName": "Dr. Irwin McDermott IV",
-    "PersonId": 685,
-    "ContactId": 246,
-    "ProjectId": 727,
-    "ProjectName": "Schumm Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 665,
-    "ColorIndex": 668,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "numquam",
+    "AssociateFullName": "Mr. Litzy Sabryna Stark",
+    "ContactName": "Reilly-Larson",
+    "Description": "Integrated 5th generation architecture",
+    "PersonFullName": "Elian Turner",
+    "PersonId": 39,
+    "ContactId": 215,
+    "ProjectId": 554,
+    "ProjectName": "Maggio, Langosh and Moen",
+    "IsPublished": true,
+    "AssociateId": 58,
+    "ColorIndex": 477,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 486,
-    "PriorityName": "Nolan LLC",
+    "PriorityId": 731,
+    "PriorityName": "Rodriguez Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2013-04-10T11:06:33.4601191+02:00",
+    "IsBooking": false,
+    "ActiveDate": "1996-12-07T13:38:12.8584402+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-09-24T11:06:33.4601191+02:00",
-    "RecurringEndDate": "2001-08-25T11:06:33.4601191+02:00",
-    "MotherId": 91,
-    "AssignedBy": 775,
-    "AssignedByFullName": "Dr. Blake Steve Harvey",
-    "RejectReason": "evolve customized e-markets",
-    "Location": "ea",
-    "AlarmLeadTime": "asperiores",
-    "SaleId": 630,
-    "SaleName": "Hilll-Wisozk",
-    "AssociateName": "Bruen-Koepp",
-    "CreatedDate": "2003-01-18T11:06:33.4601191+01:00",
-    "CreatedBy": "molestiae",
-    "CreatedByFullName": "Jarrod Ward MD",
-    "CreatedByAssociateId": 22,
+    "RecurringStartDate": "2016-02-16T13:38:12.8584402+01:00",
+    "RecurringEndDate": "2016-03-31T13:38:12.8584402+02:00",
+    "MotherId": 516,
+    "AssignedBy": 482,
+    "AssignedByFullName": "Domenico Parker",
+    "RejectReason": "",
+    "Location": "omnis",
+    "AlarmLeadTime": "saepe",
+    "SaleId": 130,
+    "SaleName": "Bartoletti Group",
+    "AssociateName": "Rau-Adams",
+    "CreatedDate": "2013-05-23T13:38:12.8584402+02:00",
+    "CreatedBy": "cum",
+    "CreatedByFullName": "Lyric Prosacco",
+    "CreatedByAssociateId": 950,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "non",
-    "Agenda": "dolorem",
-    "InternalNotes": "rem",
+    "PreferredTZLocation": 234,
+    "Title": "earum",
+    "Agenda": "saepe",
+    "InternalNotes": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 949
       }
     }
   }

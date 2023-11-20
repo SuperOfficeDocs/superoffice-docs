@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schamberger LLC",
-    "DisplayName": "Lind, Kris and Crooks",
-    "DisplayTooltip": "dolores",
-    "IsActive": false,
+    "Name": "Runte-Batz",
+    "DisplayName": "Gutkowski Inc and Sons",
+    "DisplayTooltip": "id",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 767
+        "FieldType": "System.Int32",
+        "FieldLength": 888
       }
     }
   },
   {
-    "Name": "Schamberger LLC",
-    "DisplayName": "Lind, Kris and Crooks",
-    "DisplayTooltip": "dolores",
-    "IsActive": false,
+    "Name": "Runte-Batz",
+    "DisplayName": "Gutkowski Inc and Sons",
+    "DisplayTooltip": "id",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 767
+        "FieldType": "System.Int32",
+        "FieldLength": 888
       }
     }
   }

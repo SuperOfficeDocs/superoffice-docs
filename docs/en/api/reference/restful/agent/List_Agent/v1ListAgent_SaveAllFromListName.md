@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Fay LLC",
+  "UdListDefinitionName": "Stiedemann, Macejkovic and Pfeffer",
   "Items": [
     {
-      "Id": 263,
-      "Name": "Bartell-Steuber",
-      "Tooltip": "explicabo",
-      "Deleted": false,
-      "UdListDefinitionId": 298,
-      "Rank": 933
+      "Id": 314,
+      "Name": "Wunsch LLC",
+      "Tooltip": "libero",
+      "Deleted": true,
+      "UdListDefinitionId": 218,
+      "Rank": 326
     },
     {
-      "Id": 263,
-      "Name": "Bartell-Steuber",
-      "Tooltip": "explicabo",
-      "Deleted": false,
-      "UdListDefinitionId": 298,
-      "Rank": 933
+      "Id": 314,
+      "Name": "Wunsch LLC",
+      "Tooltip": "libero",
+      "Deleted": true,
+      "UdListDefinitionId": 218,
+      "Rank": 326
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 574,
-    "Name": "Will, Gislason and Sawayn",
-    "Tooltip": "qui",
+    "Id": 583,
+    "Name": "Harris, Howe and Olson",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 538,
-    "Rank": 347,
+    "UdListDefinitionId": 416,
+    "Rank": 504,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldLength": 482
       }
     }
   }

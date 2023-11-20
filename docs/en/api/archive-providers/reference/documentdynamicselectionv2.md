@@ -693,7 +693,7 @@ Document selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelectionV2?$select=person/personRegisteredDate,person/ticketPriority,person/supportAssociate,person/personAddress/county,person/correspondingAssociate/usergroup
+GET /api/v1/archive/DocumentDynamicSelectionV2?$select=person/hasInfoText,person/personSource,contact/email/emailProtocol,contact/saintAmountClass,project/hasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

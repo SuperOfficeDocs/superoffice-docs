@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 982,
-  "CurrencyId": 426
+  "QuoteConnectionId": 214,
+  "CurrencyId": 95
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 511,
-    "ERPPriceListKey": "est",
-    "QuoteConnectionId": 193,
-    "Name": "Fritsch Inc and Sons",
-    "Description": "Centralized context-sensitive intranet",
-    "Currency": "delectus",
-    "CurrencyName": "Smith Inc and Sons",
-    "ValidFrom": "2005-08-27T11:06:35.2239506+02:00",
-    "ValidTo": "2012-08-01T11:06:35.2239506+02:00",
-    "IsActive": false,
+    "PriceListId": 970,
+    "ERPPriceListKey": "odit",
+    "QuoteConnectionId": 559,
+    "Name": "Pacocha, Buckridge and Davis",
+    "Description": "Expanded 24 hour array",
+    "Currency": "inventore",
+    "CurrencyName": "Welch Group",
+    "ValidFrom": "2019-08-13T13:38:14.0303322+02:00",
+    "ValidTo": "2015-02-03T13:38:14.0303322+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldLength": 758
       }
     }
   }

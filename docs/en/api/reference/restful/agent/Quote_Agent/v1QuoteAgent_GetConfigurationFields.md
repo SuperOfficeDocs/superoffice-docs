@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 496,
-  "ConnectorName": "Heaney, Beier and McDermott"
+  "ConnectionId": 557,
+  "ConnectorName": "Schmeler-Lakin"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "corrupti",
-    "Rank": 769,
-    "DisplayName": "Conroy, Kutch and Halvorson",
-    "DisplayDescription": "Automated systemic productivity",
+    "FieldKey": "adipisci",
+    "Rank": 195,
+    "DisplayName": "Hayes-Russel",
+    "DisplayDescription": "Pre-emptive user-facing protocol",
     "FieldType": "Checkbox",
-    "ListName": "Kertzmann-Beahan",
-    "DefaultValue": "atque",
-    "MaxLength": 626,
+    "ListName": "Reynolds LLC",
+    "DefaultValue": "amet",
+    "MaxLength": 4,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 667
+        "FieldType": "System.Int32",
+        "FieldLength": 828
       }
     }
   }

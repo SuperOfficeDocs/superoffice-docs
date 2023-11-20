@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "accusamus",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "accusamus",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 194,
-  "PlainMessage": "dolor",
-  "HtmlMessage": "in",
-  "SmsMessage": "voluptatum",
-  "Description": "Reactive tangible groupware",
-  "Subject": "veritatis",
-  "FolderId": 896,
-  "HeaderField": "sunt",
-  "Design": "soluta",
+  "ShipmentMessageId": 693,
+  "PlainMessage": "laboriosam",
+  "HtmlMessage": "delectus",
+  "SmsMessage": "sunt",
+  "Description": "Optimized systemic moderator",
+  "Subject": "consequatur",
+  "FolderId": 510,
+  "HeaderField": "rerum",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Synergized homogeneous alliance",
-  "AccessKey": "aliquid",
-  "DocumentMessage": 129,
-  "Registered": "2008-08-09T11:06:42.2228527+02:00",
-  "RegisteredAssociateId": 391,
-  "Updated": "2023-03-08T11:06:42.2228527+01:00",
-  "UpdatedAssociateId": 593,
-  "UpdatedCount": 535,
+  "InlineImages": true,
+  "LongDescription": "Seamless web-enabled pricing structure",
+  "AccessKey": "sit",
+  "DocumentMessage": 756,
+  "Registered": "2001-06-07T13:38:17.6711737+02:00",
+  "RegisteredAssociateId": 154,
+  "Updated": "2015-11-03T13:38:17.6711737+01:00",
+  "UpdatedAssociateId": 59,
+  "UpdatedCount": 692,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 595
     }
   },
   "_Links": {

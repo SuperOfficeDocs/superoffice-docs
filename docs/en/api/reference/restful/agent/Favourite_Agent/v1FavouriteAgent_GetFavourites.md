@@ -82,8 +82,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuhn-Johnson",
-  "AssociateId": 773
+  "TableName": "Greenholt, McKenzie and Raynor",
+  "AssociateId": 794
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Collier-Christiansen",
-    "RecordId": 897,
-    "AssociateId": 486,
-    "ExtraInfo": "omnis",
-    "Rank": 298,
+    "TableName": "Jenkins LLC",
+    "RecordId": 345,
+    "AssociateId": 465,
+    "ExtraInfo": "natus",
+    "Rank": 111,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldType": "System.Int32",
+        "FieldLength": 668
       }
     }
   }

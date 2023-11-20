@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Tremblay-Rempel",
-    "DisplayName": "Kirlin, Nicolas and Johnson",
-    "Description": "Networked fresh-thinking product",
-    "ShortLabel": "ipsam",
+    "FieldName": "Jones, Price and Powlowski",
+    "DisplayName": "Ruecker-DuBuque",
+    "Description": "Stand-alone interactive matrices",
+    "ShortLabel": "vel",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 602,
-    "TemplateVariableName": "Batz Group"
+    "Rank": 271,
+    "TemplateVariableName": "Kulas LLC"
   }
 ]
 ```

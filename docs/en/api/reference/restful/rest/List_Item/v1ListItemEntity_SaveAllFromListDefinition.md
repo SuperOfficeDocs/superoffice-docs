@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "Ryan-Ritchie",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "UdListDefinitionId": 474,
-    "Rank": 639
+    "Id": 730,
+    "Name": "Beahan, Bernier and Borer",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "UdListDefinitionId": 125,
+    "Rank": 67
   },
   {
-    "Id": 711,
-    "Name": "Ryan-Ritchie",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "UdListDefinitionId": 474,
-    "Rank": 639
+    "Id": 730,
+    "Name": "Beahan, Bernier and Borer",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "UdListDefinitionId": 125,
+    "Rank": 67
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Borer LLC",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "UdListDefinitionId": 673,
-    "Rank": 913,
+    "Id": 965,
+    "Name": "Rosenbaum Inc and Sons",
+    "Tooltip": "neque",
+    "Deleted": false,
+    "UdListDefinitionId": 363,
+    "Rank": 971,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 39
+        "FieldType": "System.Int32",
+        "FieldLength": 17
       }
     }
   }

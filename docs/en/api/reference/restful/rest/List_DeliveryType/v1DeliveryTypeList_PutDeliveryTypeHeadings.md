@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 120,
-    "Name": "Aufderhar Group",
-    "Tooltip": "cupiditate",
+    "HeadingId": 976,
+    "Name": "Koss LLC",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 724,
-    "UdListDefinitionId": 951
+    "Rank": 935,
+    "UdListDefinitionId": 513
   },
   {
-    "HeadingId": 120,
-    "Name": "Aufderhar Group",
-    "Tooltip": "cupiditate",
+    "HeadingId": 976,
+    "Name": "Koss LLC",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 724,
-    "UdListDefinitionId": 951
+    "Rank": 935,
+    "UdListDefinitionId": 513
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 103,
-    "Name": "Harber Group",
-    "Tooltip": "iusto",
+    "HeadingId": 890,
+    "Name": "Rath, Haag and Schimmel",
+    "Tooltip": "voluptatum",
     "Deleted": false,
-    "Rank": 158,
-    "UdListDefinitionId": 146,
+    "Rank": 273,
+    "UdListDefinitionId": 609,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldType": "System.String",
+        "FieldLength": 68
       }
     }
   }

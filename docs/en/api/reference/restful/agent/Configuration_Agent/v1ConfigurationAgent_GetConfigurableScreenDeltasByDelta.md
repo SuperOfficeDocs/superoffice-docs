@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 117,
-    "Name": "Smitham, Bashirian and Medhurst",
-    "Description": "Advanced systematic budgetary management",
-    "DeltaJson": "ducimus",
+    "ConfigurableScreenDeltaId": 465,
+    "Name": "Hills Group",
+    "Description": "Automated dynamic protocol",
+    "DeltaJson": "et",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "laudantium",
-    "UpdatedDate": "2015-06-03T11:06:34.080854+02:00",
-    "CreatedDate": "2015-07-04T11:06:34.080854+02:00",
+    "RecipeId": "deleniti",
+    "UpdatedDate": "2004-10-08T13:38:13.2646505+02:00",
+    "CreatedDate": "2019-12-17T13:38:13.2646505+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      339,
-      528
+      963,
+      912
     ],
-    "AppliesToKey": "et",
+    "AppliesToKey": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 511
+        "FieldLength": 104
       }
     }
   }

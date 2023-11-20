@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -134,11 +135,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 848,
-  "StartTime": "2014-10-13T11:06:33.4601191+02:00",
-  "EndTime": "2019-05-21T11:06:33.4601191+02:00",
-  "Count": 314,
-  "TaskHeadingId": 166
+  "ContactId": 572,
+  "StartTime": "2008-11-29T13:38:12.8584402+01:00",
+  "EndTime": "2013-12-31T13:38:12.8584402+01:00",
+  "Count": 526,
+  "TaskHeadingId": 352
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 377,
-    "StartDate": "2011-06-04T11:06:33.4601191+02:00",
-    "EndDate": "2001-05-30T11:06:33.4601191+02:00",
+    "AppointmentId": 164,
+    "StartDate": "2008-11-23T13:38:12.8584402+01:00",
+    "EndDate": "2018-03-05T13:38:12.8584402+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsum",
-    "AssociateFullName": "Joel Klein",
-    "ContactName": "Bradtke, Breitenberg and Wiza",
-    "Description": "Function-based asynchronous alliance",
-    "PersonFullName": "Payton Kuphal",
-    "PersonId": 903,
-    "ContactId": 120,
-    "ProjectId": 331,
-    "ProjectName": "Spinka LLC",
-    "IsPublished": false,
-    "AssociateId": 680,
-    "ColorIndex": 239,
+    "Task": "eaque",
+    "AssociateFullName": "Kellie Stella Smith DVM",
+    "ContactName": "Mraz Group",
+    "Description": "Function-based next generation encoding",
+    "PersonFullName": "Augustus Miller",
+    "PersonId": 555,
+    "ContactId": 64,
+    "ProjectId": 988,
+    "ProjectName": "D'Amore LLC",
+    "IsPublished": true,
+    "AssociateId": 85,
+    "ColorIndex": 279,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 267,
-    "PriorityName": "Toy Inc and Sons",
+    "PriorityId": 980,
+    "PriorityName": "Schimmel-Feest",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2010-11-11T11:06:33.4601191+01:00",
+    "ActiveDate": "2006-04-30T13:38:12.8584402+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-04-10T11:06:33.4601191+02:00",
-    "RecurringEndDate": "2006-09-27T11:06:33.4601191+02:00",
-    "MotherId": 486,
-    "AssignedBy": 569,
-    "AssignedByFullName": "Dr. Vernon Lynch Sr.",
+    "RecurringStartDate": "2002-10-16T13:38:12.8584402+02:00",
+    "RecurringEndDate": "2018-08-09T13:38:12.8584402+02:00",
+    "MotherId": 303,
+    "AssignedBy": 235,
+    "AssignedByFullName": "Isaias Reinger DVM",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "quos",
-    "SaleId": 98,
-    "SaleName": "Green-Hoppe",
-    "AssociateName": "Casper-Pouros",
-    "CreatedDate": "2022-09-21T11:06:33.4601191+02:00",
-    "CreatedBy": "quis",
-    "CreatedByFullName": "Maya Koepp",
-    "CreatedByAssociateId": 645,
+    "Location": "est",
+    "AlarmLeadTime": "voluptas",
+    "SaleId": 473,
+    "SaleName": "Lynch Inc and Sons",
+    "AssociateName": "Bashirian Inc and Sons",
+    "CreatedDate": "1996-08-10T13:38:12.8584402+02:00",
+    "CreatedBy": "ea",
+    "CreatedByFullName": "Tom Dach",
+    "CreatedByAssociateId": 476,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "a",
-    "Agenda": "officia",
-    "InternalNotes": "repellendus",
+    "PreferredTZLocation": 324,
+    "Title": "corrupti",
+    "Agenda": "molestiae",
+    "InternalNotes": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 269
+        "FieldType": "System.String",
+        "FieldLength": 707
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 916,
-    "Name": "Greenholt LLC",
-    "Tooltip": "recusandae",
+    "HeadingId": 874,
+    "Name": "Halvorson-Rosenbaum",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "Rank": 765,
-    "UdListDefinitionId": 807,
+    "Rank": 982,
+    "UdListDefinitionId": 308,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 926
       }
     }
   }

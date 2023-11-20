@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "257.976.7057",
-    "PersonCellPhone": "276-469-4463 x8581",
-    "PersonPrivatePhone": "(746)169-3561 x020",
-    "PersonFaxNumber": "486569",
-    "PersonPagerNumber": "1030910",
-    "PersonEmail": "loraine@schaden.ca",
-    "Id": 843,
-    "Name": "Jenkins, Heathcote and Little",
-    "Tooltip": "inventore",
-    "UniqueId": "ipsam",
+    "PersonDirectPhone": "332-634-8051",
+    "PersonCellPhone": "605.150.9576 x33616",
+    "PersonPrivatePhone": "562-094-5954 x08558",
+    "PersonFaxNumber": "981225",
+    "PersonPagerNumber": "358456",
+    "PersonEmail": "eddie.cartwright@wehnerrogahn.co.uk",
+    "Id": 331,
+    "Name": "Kirlin Group",
+    "Tooltip": "ipsum",
+    "UniqueId": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 951
+        "FieldLength": 970
       }
     }
   }

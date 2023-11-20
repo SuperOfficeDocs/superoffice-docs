@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Bosco, Bins and Gutkowski",
-  "External": false
+  "ProgramName": "Ratke Group",
+  "External": true
 }
 ```
 

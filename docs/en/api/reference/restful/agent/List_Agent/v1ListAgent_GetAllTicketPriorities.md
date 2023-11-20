@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 554,
-    "Name": "Cummerata-Roob",
+    "TicketPriorityId": 140,
+    "Name": "Ryan-Kreiger",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 235,
+    "SortOrder": 385,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 846,
-    "MonStart": "1999-03-04T11:06:34.6614378+01:00",
-    "MonStop": "2022-01-09T11:06:34.6614378+01:00",
-    "TueStart": "2002-03-27T11:06:34.6614378+01:00",
-    "TueStop": "1999-12-15T11:06:34.6614378+01:00",
-    "WedStart": "2010-02-09T11:06:34.6614378+01:00",
-    "WedStop": "2006-08-19T11:06:34.6614378+02:00",
-    "ThuStart": "2013-10-17T11:06:34.6614378+02:00",
-    "ThuStop": "2002-01-11T11:06:34.6614378+01:00",
-    "FriStart": "2019-06-06T11:06:34.6614378+02:00",
-    "FriStop": "2016-12-14T11:06:34.6614378+01:00",
-    "SatStart": "2009-10-21T11:06:34.6614378+02:00",
-    "SatStop": "2014-05-31T11:06:34.6614378+02:00",
-    "SunStart": "2018-01-19T11:06:34.6614378+01:00",
-    "SunStop": "2000-09-15T11:06:34.6614378+02:00",
+    "Deadline": 398,
+    "MonStart": "2002-07-18T13:38:13.6552317+02:00",
+    "MonStop": "2018-04-02T13:38:13.6552317+02:00",
+    "TueStart": "2006-11-05T13:38:13.6552317+01:00",
+    "TueStop": "1998-08-26T13:38:13.6552317+02:00",
+    "WedStart": "2006-01-16T13:38:13.6552317+01:00",
+    "WedStop": "2005-09-13T13:38:13.6552317+02:00",
+    "ThuStart": "2004-09-27T13:38:13.6552317+02:00",
+    "ThuStop": "2017-10-04T13:38:13.6552317+02:00",
+    "FriStart": "1997-06-02T13:38:13.6552317+02:00",
+    "FriStop": "2021-04-20T13:38:13.6552317+02:00",
+    "SatStart": "2006-11-07T13:38:13.6552317+01:00",
+    "SatStop": "2007-03-25T13:38:13.6552317+02:00",
+    "SunStart": "2004-08-13T13:38:13.6552317+02:00",
+    "SunStop": "2002-02-16T13:38:13.6552317+01:00",
     "NonDates": [
-      "deleniti",
-      "modi"
+      "consectetur",
+      "ut"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 62,
-        "AlertLevel": 509,
-        "AlertTimeout": 500,
-        "Action": 987,
-        "DelegateTo": 386,
-        "ScriptId": 53,
-        "EmailTo": "johanna@sawayn.ca",
-        "SmsTo": "eum",
-        "ReplyTemplateIdCustomer": 934,
-        "ReplyTemplateIdUser": 494,
-        "ReplyTemplateIdCatmast": 639,
-        "ReplyTemplateIdEmail": 42,
-        "RtiCustomerSms": 899,
-        "ReplyTemplateIdUserSms": 711,
-        "ReplyTemplateIdCatmastSms": 586,
-        "ReplyTemplateIdSms": 670,
+        "TicketAlertId": 170,
+        "AlertLevel": 872,
+        "AlertTimeout": 326,
+        "Action": 351,
+        "DelegateTo": 416,
+        "ScriptId": 894,
+        "EmailTo": "emerson@kassulkehowe.ca",
+        "SmsTo": "voluptatem",
+        "ReplyTemplateIdCustomer": 581,
+        "ReplyTemplateIdUser": 924,
+        "ReplyTemplateIdCatmast": 535,
+        "ReplyTemplateIdEmail": 877,
+        "RtiCustomerSms": 410,
+        "ReplyTemplateIdUserSms": 331,
+        "ReplyTemplateIdCatmastSms": 575,
+        "ReplyTemplateIdSms": 224,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 654
+            "FieldLength": 828
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 902
+        "FieldType": "System.Int32",
+        "FieldLength": 592
       }
     }
   }

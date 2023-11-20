@@ -67,7 +67,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Durgan, Waelchi and Witting",
-    "DisplayName": "Hettinger-Jast",
-    "Description": "Optional 6th generation strategy",
-    "ShortLabel": "explicabo",
-    "HideLabel": false,
-    "HideField": true,
+    "FieldName": "Feest Inc and Sons",
+    "DisplayName": "Schmidt, Wisoky and Altenwerth",
+    "Description": "Triple-buffered context-sensitive monitoring",
+    "ShortLabel": "non",
+    "HideLabel": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 815,
-    "TemplateVariableName": "Cummings-Klein"
+    "Rank": 935,
+    "TemplateVariableName": "Blanda Inc and Sons"
   }
 ]
 ```

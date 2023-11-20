@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=reprehenderit
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=expedita
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Gusikowski, Mohr and Hudson",
-    "ToolTip": "Delectus corporis voluptatibus reprehenderit sed omnis aliquam blanditiis.",
+    "Id": 478,
+    "Name": "Pacocha Inc and Sons",
+    "ToolTip": "Illo molestiae quia ut rem placeat pariatur.",
     "Deleted": true,
-    "Rank": 482,
-    "Type": "qui",
+    "Rank": 326,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 487,
-        "Name": "Corkery Group",
-        "ToolTip": "Et quam temporibus dolorum sed.",
-        "Deleted": false,
-        "Rank": 55,
-        "Type": "nam",
+        "Id": 283,
+        "Name": "Rosenbaum-Kihn",
+        "ToolTip": "Praesentium non velit occaecati voluptas dicta harum.",
+        "Deleted": true,
+        "Rank": 668,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 178,
-        "ExtraInfo": "velit",
-        "StyleHint": "voluptatem",
-        "FullName": "Lucas Stamm",
+        "IconHint": "facere",
+        "ColorBlock": 857,
+        "ExtraInfo": "accusamus",
+        "StyleHint": "quidem",
+        "FullName": "Mia Hudson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 684
+            "FieldType": "System.String",
+            "FieldLength": 19
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 542,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "architecto",
-    "FullName": "Keira Greenfelder",
+    "IconHint": "molestiae",
+    "ColorBlock": 797,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "sed",
+    "FullName": "Ms. Filiberto Nico Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 931
+        "FieldType": "System.Int32",
+        "FieldLength": 676
       }
     }
   }

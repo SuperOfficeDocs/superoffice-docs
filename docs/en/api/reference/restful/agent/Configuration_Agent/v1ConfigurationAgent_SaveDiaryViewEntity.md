@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 960,
-  "Name": "Dickens Group",
-  "Tooltip": "vel",
-  "VisibleColumns": 34,
-  "Rank": 986,
-  "AssocId": 829,
+  "DiaryViewId": 107,
+  "Name": "Mohr, Ortiz and Weber",
+  "Tooltip": "blanditiis",
+  "VisibleColumns": 111,
+  "Rank": 954,
+  "AssocId": 943,
   "AssociateList": [
     {
-      "Id": 188,
-      "Name": "Little, Stamm and Walsh",
-      "ToolTip": "Asperiores in libero provident magni facilis consectetur quia.",
+      "Id": 949,
+      "Name": "Parisian, Luettgen and Hermann",
+      "ToolTip": "Omnis quia blanditiis qui.",
       "Deleted": false,
-      "Rank": 225,
-      "Type": "odit",
-      "ColorBlock": 266,
-      "IconHint": "voluptatem",
+      "Rank": 232,
+      "Type": "quibusdam",
+      "ColorBlock": 633,
+      "IconHint": "et",
       "Selected": true,
-      "LastChanged": "2009-05-21T11:06:34.0652258+02:00",
+      "LastChanged": "2011-03-17T13:38:13.2646505+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "incidunt",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Mitchell Schiller"
+      "ExtraInfo": "harum",
+      "StyleHint": "nihil",
+      "Hidden": true,
+      "FullName": "Zack Parisian"
     }
   ],
-  "TzLocationId": 655
+  "TzLocationId": 28
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 814,
-  "Name": "Harber Inc and Sons",
+  "DiaryViewId": 750,
+  "Name": "Feest, Goldner and Lindgren",
   "Tooltip": "sed",
-  "VisibleColumns": 143,
-  "Rank": 879,
-  "AssocId": 334,
+  "VisibleColumns": 904,
+  "Rank": 626,
+  "AssocId": 266,
   "AssociateList": [
     {
-      "Id": 558,
-      "Name": "Lueilwitz, Becker and Cronin",
-      "ToolTip": "Ut voluptatibus deserunt saepe quos sed.",
+      "Id": 568,
+      "Name": "McKenzie, Miller and Koelpin",
+      "ToolTip": "Ducimus consequatur minima illo.",
       "Deleted": false,
-      "Rank": 767,
-      "Type": "non",
-      "ColorBlock": 292,
-      "IconHint": "tenetur",
+      "Rank": 384,
+      "Type": "molestiae",
+      "ColorBlock": 423,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "2006-07-22T11:06:34.080854+02:00",
+      "LastChanged": "2006-08-18T13:38:13.2646505+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "animi",
-      "StyleHint": "excepturi",
+      "ExtraInfo": "sed",
+      "StyleHint": "dolor",
       "Hidden": false,
-      "FullName": "Raleigh Dickens",
+      "FullName": "Annabel Gulgowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 562
+          "FieldType": "System.Int32",
+          "FieldLength": 903
         }
       }
     }
   ],
-  "TzLocationId": 522,
+  "TzLocationId": 384,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 347
     }
   }
 }

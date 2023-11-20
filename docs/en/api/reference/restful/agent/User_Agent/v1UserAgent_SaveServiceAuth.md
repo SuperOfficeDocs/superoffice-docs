@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 600,
-  "Server": "dicta",
-  "Port": 360,
-  "AuthType": "qui",
-  "Username": "quis",
-  "Password": "aliquid"
+  "ServiceAuthId": 436,
+  "Server": "qui",
+  "Port": 678,
+  "AuthType": "necessitatibus",
+  "Username": "dolorem",
+  "Password": "harum"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 36,
-  "Server": "quo",
-  "Port": 901,
-  "AuthType": "sequi",
-  "Username": "rerum",
-  "Password": "aspernatur",
+  "ServiceAuthId": 711,
+  "Server": "voluptas",
+  "Port": 439,
+  "AuthType": "sint",
+  "Username": "nihil",
+  "Password": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 852
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   }
 }

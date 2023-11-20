@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "O'Reilly LLC",
+  "TableName": "Hyatt Group",
   "IDs": [
-    201,
-    312
+    838,
+    342
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "dolor",
-  "Inserts": 254,
-  "Updates": 593,
-  "Deletes": 327,
+  "Success": true,
+  "Message": "est",
+  "Inserts": 324,
+  "Updates": 820,
+  "Deletes": 426,
   "RowStatus": [
     {
-      "PrimaryKey": 12,
+      "PrimaryKey": 802,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nemo",
-        "dolor"
+        "qui",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 747
+          "FieldLength": 487
         }
       }
     },
     {
-      "PrimaryKey": 12,
+      "PrimaryKey": 802,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nemo",
-        "dolor"
+        "qui",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 747
+          "FieldLength": 487
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldLength": 679
     }
   }
 }

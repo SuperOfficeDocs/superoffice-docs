@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=822
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=939
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 615,
-  "Name": "DuBuque, Reinger and Mante",
+  "SaleTypeId": 664,
+  "Name": "Lynch Group",
   "Tooltip": "et",
-  "Rank": 817,
+  "Rank": 319,
   "DurationUnit": "Century",
-  "SaleDuration": 142,
-  "SaleTypeCatId": 154,
+  "SaleDuration": 948,
+  "SaleTypeCatId": 471,
   "Deleted": true,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 936,
-  "QuoteLinesTemplate": 475,
-  "ConfirmationLinesTemplate": 702,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 633,
+  "QuoteLinesTemplate": 687,
+  "ConfirmationLinesTemplate": 297,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 84,
-  "MinEarningPercent": 7,
-  "GroupQuoteLinesBy": 299,
-  "SortGroupLinesBy": 285,
+  "MaxDiscountPercent": 351,
+  "MinEarningPercent": 386,
+  "GroupQuoteLinesBy": 332,
+  "SortGroupLinesBy": 192,
   "Stages": [
     {
-      "Id": 11,
-      "Name": "Schinner, Windler and Berge",
-      "ToolTip": "Accusamus aspernatur quis at.",
-      "Deleted": true,
-      "Rank": 357,
-      "Type": "eos",
-      "ColorBlock": 611,
-      "IconHint": "fugit",
-      "Selected": true,
-      "LastChanged": "2023-03-08T11:06:34.6926855+01:00",
+      "Id": 52,
+      "Name": "Rempel-Bartell",
+      "ToolTip": "Ullam laudantium repellendus.",
+      "Deleted": false,
+      "Rank": 78,
+      "Type": "minus",
+      "ColorBlock": 426,
+      "IconHint": "hic",
+      "Selected": false,
+      "LastChanged": "2019-08-30T13:38:13.6708541+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sunt",
-      "StyleHint": "ut",
+      "ExtraInfo": "non",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Moshe Fadel",
+      "FullName": "Xavier Littel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 394
+          "FieldType": "System.String",
+          "FieldLength": 175
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 346
+      "FieldType": "System.Int32",
+      "FieldLength": 399
     }
   }
 }

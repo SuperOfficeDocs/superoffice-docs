@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 466
+  "ContactId": 760
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-295-922-2623 x332",
-    "PersonCellPhone": "363.819.2639",
-    "PersonPrivatePhone": "326.641.8918 x96832",
-    "PersonFaxNumber": "1030656",
-    "PersonPagerNumber": "925146",
-    "PersonEmail": "brent@douglas.info",
-    "Id": 248,
-    "Name": "Wintheiser Inc and Sons",
-    "Tooltip": "voluptas",
-    "UniqueId": "ea",
+    "PersonDirectPhone": "201.468.4175 x15829",
+    "PersonCellPhone": "534-395-7674 x5977",
+    "PersonPrivatePhone": "335.134.7572 x473",
+    "PersonFaxNumber": "627942",
+    "PersonPagerNumber": "1059239",
+    "PersonEmail": "alejandra.klein@jerde.us",
+    "Id": 422,
+    "Name": "Hansen-Conroy",
+    "Tooltip": "in",
+    "UniqueId": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 619
       }
     }
   }

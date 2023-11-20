@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 912,
-  "AttachmentId": "aut"
+  "MailItemId": 486,
+  "AttachmentId": "recusandae"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enhanced transitional time-frame",
-  "Filename": "esse",
-  "Size": 364,
-  "Type": "fugit",
-  "Encoding": "doloribus",
-  "Id": "nobis",
-  "Disposition": "voluptatem",
+  "Description": "Diverse intangible matrix",
+  "Filename": "necessitatibus",
+  "Size": 434,
+  "Type": "vitae",
+  "Encoding": "praesentium",
+  "Id": "harum",
+  "Disposition": "ut",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldType": "System.String",
+      "FieldLength": 750
     }
   }
 }

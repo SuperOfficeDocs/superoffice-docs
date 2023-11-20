@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Moore-Mraz"
+  "LayoutName": "Cassin-Bradtke"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 808,
-  "InstanceLayout": "ipsum",
-  "InstanceName": "Dickinson, Romaguera and Larson",
-  "CreatedDate": "2006-02-02T11:06:33.7816525+01:00",
-  "UpdatedDate": "2001-06-26T11:06:33.7816525+02:00",
+  "AudienceLayoutId": 486,
+  "InstanceLayout": "aut",
+  "InstanceName": "Dibbert, Jacobs and Fritsch",
+  "CreatedDate": "2001-01-05T13:38:13.0771703+01:00",
+  "UpdatedDate": "2022-04-28T13:38:13.0771703+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldLength": 791
     }
   }
 }

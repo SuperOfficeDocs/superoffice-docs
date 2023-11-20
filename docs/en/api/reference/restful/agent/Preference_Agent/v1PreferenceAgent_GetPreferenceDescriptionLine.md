@@ -26,7 +26,7 @@ Gets a PreferenceDescriptionLine object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?preferenceDescriptionLineId=301
+POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?preferenceDescriptionLineId=217
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 75,
-  "PrefDescId": 371,
-  "PrefValue": "ut",
-  "PrefShowValue": "amet",
-  "Description": "Monitored grid-enabled ability",
+  "PrefDescLineId": 373,
+  "PrefDescId": 434,
+  "PrefValue": "sint",
+  "PrefShowValue": "molestias",
+  "Description": "Fully-configurable well-modulated approach",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldLength": 978
     }
   }
 }

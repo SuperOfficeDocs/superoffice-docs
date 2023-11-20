@@ -70,7 +70,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 182,
-  "UniqueIdentifier": "assumenda",
-  "Name": "Konopelski-Hills",
-  "Description": "Devolved 24/7 hierarchy",
-  "IncludeId": "ut",
-  "HierarchyId": 513,
-  "Source": "quo",
-  "Registered": "2017-09-16T11:06:41.7853483+02:00",
-  "RegisteredAssociateId": 217,
-  "Updated": "2008-08-13T11:06:41.7853483+02:00",
-  "UpdatedAssociateId": 816,
+  "EjscriptId": 384,
+  "UniqueIdentifier": "tenetur",
+  "Name": "O'Hara-Stiedemann",
+  "Description": "Exclusive context-sensitive archive",
+  "IncludeId": "officiis",
+  "HierarchyId": 591,
+  "Source": "corporis",
+  "Registered": "2017-01-08T13:38:17.280593+01:00",
+  "RegisteredAssociateId": 559,
+  "Updated": "2005-09-07T13:38:17.280593+02:00",
+  "UpdatedAssociateId": 644,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldLength": 114
     }
   }
 }

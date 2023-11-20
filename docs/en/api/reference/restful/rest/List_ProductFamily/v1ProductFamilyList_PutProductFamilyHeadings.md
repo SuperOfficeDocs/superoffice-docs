@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 618,
-    "Name": "Beatty-Reynolds",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 196,
-    "UdListDefinitionId": 228
+    "HeadingId": 350,
+    "Name": "Moen, Schuppe and Shields",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 773,
+    "UdListDefinitionId": 314
   },
   {
-    "HeadingId": 618,
-    "Name": "Beatty-Reynolds",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 196,
-    "UdListDefinitionId": 228
+    "HeadingId": 350,
+    "Name": "Moen, Schuppe and Shields",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 773,
+    "UdListDefinitionId": 314
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 436,
-    "Name": "Hamill-Zulauf",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "Rank": 631,
-    "UdListDefinitionId": 907,
+    "HeadingId": 149,
+    "Name": "Murphy-Jacobi",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 711,
+    "UdListDefinitionId": 704,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 747
       }
     }
   }

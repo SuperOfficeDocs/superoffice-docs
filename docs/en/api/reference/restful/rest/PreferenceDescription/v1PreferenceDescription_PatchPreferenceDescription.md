@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "officiis",
+    "path": "harum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officiis",
+    "path": "harum",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 913,
-  "Section": "incidunt",
-  "Key": "dolor",
-  "Name": "Runte Group",
+  "PrefDescId": 114,
+  "Section": "sed",
+  "Key": "commodi",
+  "Name": "Medhurst Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Extended disintermediate migration",
-  "IsBuiltin": true,
-  "TableName": "West-Glover",
-  "UserDefinedListId": 942,
-  "Rank": 96,
-  "SubGroup": "voluptatem",
-  "MinLevel": 925,
-  "MaxValue": 277,
-  "MinValue": 465,
-  "RequiredLicense": "sint",
+  "Description": "Adaptive needs-based synergy",
+  "IsBuiltin": false,
+  "TableName": "Emard, Bogisich and Deckow",
+  "UserDefinedListId": 907,
+  "Rank": 629,
+  "SubGroup": "aliquam",
+  "MinLevel": 251,
+  "MaxValue": 898,
+  "MinValue": 660,
+  "RequiredLicense": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 579
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

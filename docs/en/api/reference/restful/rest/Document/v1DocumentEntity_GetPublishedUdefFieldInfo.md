@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 800,
-  "ColumnId": 963,
-  "FieldDefault": "odio",
-  "FieldHeight": 512,
-  "FieldLabel": "quia",
-  "FieldLeft": 707,
-  "FieldTop": 564,
+  "UDefFieldId": 264,
+  "ColumnId": 781,
+  "FieldDefault": "exercitationem",
+  "FieldHeight": 783,
+  "FieldLabel": "quisquam",
+  "FieldLeft": 66,
+  "FieldTop": 252,
   "FieldType": "Checkbox",
-  "FieldWidth": 82,
-  "FormatMask": "aut",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 219,
-  "LabelLeft": 417,
-  "LabelTop": 431,
-  "LabelWidth": 51,
-  "LastVersionId": 652,
-  "ListTableId": 373,
-  "IsMandatory": true,
+  "FieldWidth": 116,
+  "FormatMask": "eligendi",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 290,
+  "LabelLeft": 5,
+  "LabelTop": 578,
+  "LabelWidth": 26,
+  "LastVersionId": 400,
+  "ListTableId": 361,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 201,
-  "ProgId": "blanditiis",
+  "Page1LineNo": 868,
+  "ProgId": "natus",
   "IsReadOnly": false,
-  "ShortLabel": "cumque",
-  "TabOrder": 345,
-  "TextLength": 399,
-  "Tooltip": "et",
-  "UdefIdentity": 402,
-  "UDListDefinitionId": 693,
+  "ShortLabel": "consequatur",
+  "TabOrder": 717,
+  "TextLength": 976,
+  "Tooltip": "qui",
+  "UdefIdentity": 643,
+  "UDListDefinitionId": 836,
   "Justification": "Center",
-  "Version": 810,
-  "TemplateVariableName": "Miller-Bauch",
+  "Version": 361,
+  "TemplateVariableName": "Schuppe Group",
   "HasBeenPublished": false,
-  "MdoListName": "Cruickshank, Metz and Gottlieb",
+  "MdoListName": "Stark, Klein and Hammes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 725
+      "FieldType": "System.Int32",
+      "FieldLength": 756
     }
   }
 }

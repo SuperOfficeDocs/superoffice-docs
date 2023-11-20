@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "dolor"
+  "Text": "ex"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 626,
-  "Confidence": 657,
+  "Score": 809,
+  "Confidence": 300,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 148
+      "FieldType": "System.Int32",
+      "FieldLength": 890
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 207,
-    "Name": "Okuneva LLC",
-    "ToolTip": "Error non mollitia.",
+    "Id": 493,
+    "Name": "Purdy, Hane and Towne",
+    "ToolTip": "Perferendis minus dolorum velit.",
     "Deleted": false,
-    "Rank": 501,
-    "Type": "ratione",
-    "ColorBlock": 776,
-    "IconHint": "molestias",
-    "Selected": true,
-    "LastChanged": "2006-09-11T11:06:42.7409447+02:00",
+    "Rank": 522,
+    "Type": "id",
+    "ColorBlock": 167,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2014-06-19T13:38:18.0150452+02:00",
     "ChildItems": [
       {
-        "Id": 684,
-        "Name": "Nitzsche-Balistreri",
-        "ToolTip": "Magnam voluptatem cumque assumenda eos eius doloribus.",
-        "Deleted": true,
-        "Rank": 546,
-        "Type": "soluta",
-        "ColorBlock": 727,
-        "IconHint": "magnam",
-        "Selected": true,
-        "LastChanged": "2005-06-21T11:06:42.7409447+02:00",
+        "Id": 912,
+        "Name": "Fay Group",
+        "ToolTip": "Repudiandae eum eveniet ipsa.",
+        "Deleted": false,
+        "Rank": 637,
+        "Type": "odio",
+        "ColorBlock": 360,
+        "IconHint": "assumenda",
+        "Selected": false,
+        "LastChanged": "2009-09-12T13:38:18.0150452+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "at",
+        "StyleHint": "amet",
         "Hidden": true,
-        "FullName": "Dax Lela Turcotte V"
+        "FullName": "Miss Bethel Alec Mante IV"
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Cicero Fay IV"
+    "ExtraInfo": "velit",
+    "StyleHint": "accusantium",
+    "Hidden": false,
+    "FullName": "Miss Lionel Trantow I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Name": "Wiegand Group",
-    "ToolTip": "Ut ut facere deserunt distinctio.",
+    "Id": 933,
+    "Name": "Boehm, Nitzsche and Bahringer",
+    "ToolTip": "Sed praesentium.",
     "Deleted": false,
-    "Rank": 513,
-    "Type": "id",
-    "ColorBlock": 114,
-    "IconHint": "impedit",
+    "Rank": 267,
+    "Type": "ut",
+    "ColorBlock": 188,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2008-06-01T11:06:42.7409447+02:00",
+    "LastChanged": "2022-05-07T13:38:18.0150452+02:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Hills LLC",
-        "ToolTip": "Dolores magni iure magni qui saepe sapiente et.",
+        "Id": 201,
+        "Name": "Koepp-Pfannerstill",
+        "ToolTip": "Delectus aut nulla ullam velit accusamus quam delectus.",
         "Deleted": true,
-        "Rank": 535,
-        "Type": "tempora",
-        "ColorBlock": 497,
-        "IconHint": "qui",
+        "Rank": 308,
+        "Type": "hic",
+        "ColorBlock": 650,
+        "IconHint": "eaque",
         "Selected": true,
-        "LastChanged": "2014-01-10T11:06:42.7409447+01:00",
+        "LastChanged": "2022-08-17T13:38:18.0150452+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "iure",
-        "Hidden": true,
-        "FullName": "Drew Bashirian",
+        "ExtraInfo": "et",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Prof. Emmanuelle Lillian Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 469
+            "FieldType": "System.Int32",
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "aut",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Estevan Connelly",
+    "FullName": "Ernesto Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldLength": 511
       }
     }
   }

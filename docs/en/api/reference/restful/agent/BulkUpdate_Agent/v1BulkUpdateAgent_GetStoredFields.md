@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "qui"
+  "Context": "sunt"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
-    "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "fuga",
-    "ValueType": "nihil",
-    "Mandatory": true,
-    "EncodedDisplayName": "Lehner Group",
-    "EncodedDisplayDescription": "Fully-configurable national algorithm",
-    "IconHint": "perferendis",
+    "CanSupportMultiUse": true,
+    "DefaultShowInGui": false,
+    "DefaultShowInSelector": false,
+    "IsActive": true,
+    "Key": "et",
+    "ValueType": "numquam",
+    "Mandatory": false,
+    "EncodedDisplayName": "Franecki, Lindgren and Barton",
+    "EncodedDisplayDescription": "Sharable optimal pricing structure",
+    "IconHint": "qui",
     "ControlInfos": [
       {
-        "Type": "cum",
-        "Label": "maiores",
-        "Dimension": 726,
-        "ListProviderName": "Hamill-Wiegand",
-        "ListProviderExtraInfo": "expedita",
-        "ListProviderPrimaryKeyName": "Dooley, Steuber and McKenzie",
-        "ListLeadText": "dolorum",
+        "Type": "quo",
+        "Label": "dolores",
+        "Dimension": 987,
+        "ListProviderName": "Kris-Gerlach",
+        "ListProviderExtraInfo": "labore",
+        "ListProviderPrimaryKeyName": "Gerhold, Morissette and Kling",
+        "ListLeadText": "dolorem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 886
+            "FieldLength": 756
           }
         }
       }
     ],
-    "EncodedDataCaption": "assumenda",
-    "EncodedDataCaptionDescription": "Focused radical neural-net",
-    "CurrentOperationType": "nobis",
+    "EncodedDataCaption": "deserunt",
+    "EncodedDataCaptionDescription": "De-engineered demand-driven archive",
+    "CurrentOperationType": "hic",
     "Values": [
-      "dolorum",
-      "itaque"
+      "est",
+      "voluptatibus"
     ],
     "DisplayValues": [
-      "id",
-      "molestias"
+      "vel",
+      "labore"
     ],
     "OperationInfos": [
       {
-        "Key": "sunt",
-        "EncodedDisplayName": "Yost-Swift",
+        "Key": "quia",
+        "EncodedDisplayName": "Krajcik-Romaguera",
         "EncodedLeadTexts": [
-          "velit",
-          "voluptatem"
+          "accusamus",
+          "a"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 636
+            "FieldType": "System.Int32",
+            "FieldLength": 777
           }
         }
       },
       {
-        "Key": "sunt",
-        "EncodedDisplayName": "Yost-Swift",
+        "Key": "quia",
+        "EncodedDisplayName": "Krajcik-Romaguera",
         "EncodedLeadTexts": [
-          "velit",
-          "voluptatem"
+          "accusamus",
+          "a"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 636
+            "FieldType": "System.Int32",
+            "FieldLength": 777
           }
         }
       }

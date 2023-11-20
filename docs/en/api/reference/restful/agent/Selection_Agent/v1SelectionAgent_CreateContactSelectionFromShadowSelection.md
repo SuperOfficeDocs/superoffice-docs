@@ -120,8 +120,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 680,
-  "Name": "Will-Trantow"
+  "SelectionId": 743,
+  "Name": "Ryan, McCullough and Jerde"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Networked dedicated instruction set",
-  "Postit": "sed",
+  "Description": "Enterprise-wide intermediate forecast",
+  "Postit": "atque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 905,
-  "IncludePerson": 603,
-  "MemberCount": 702,
-  "Name": "Raynor-Gutmann",
-  "PostitTextId": 87,
-  "CreatedDate": "2016-08-12T11:06:35.3958193+02:00",
-  "SelectionId": 966,
-  "SoundEx": "dolorem",
-  "Source": 359,
-  "TextId": 952,
-  "UpdatedDate": "2010-06-27T11:06:35.3958193+02:00",
-  "UpdatedCount": 328,
-  "Visibility": 277,
+  "GroupIdx": 10,
+  "IncludePerson": 339,
+  "MemberCount": 706,
+  "Name": "Larkin Inc and Sons",
+  "PostitTextId": 855,
+  "CreatedDate": "2023-04-26T13:38:14.1553188+02:00",
+  "SelectionId": 138,
+  "SoundEx": "eos",
+  "Source": 247,
+  "TextId": 151,
+  "UpdatedDate": "2011-03-27T13:38:14.1553188+02:00",
+  "UpdatedCount": 703,
+  "Visibility": 921,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 902,
-  "TargetTableName": "Walker, Jones and Lynch",
+  "CompanyUnique": false,
+  "TargetTableNumber": 887,
+  "TargetTableName": "Smith-Johnson",
   "Completed": false,
-  "LeftSelectionId": 234,
-  "RightSelectionId": 595,
+  "LeftSelectionId": 740,
+  "RightSelectionId": 988,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Krajcik, Flatley and Mohr",
-  "ShadowProviderName": "Quitzon, Bergstrom and Heidenreich",
-  "ChartKey": "recusandae",
-  "LastLoaded": "2013-01-03T11:06:35.3958193+01:00",
-  "LastLoadedBy": 829,
+  "MainProviderName": "Cartwright-Blick",
+  "ShadowProviderName": "Wolff, Borer and Davis",
+  "ChartKey": "cumque",
+  "LastLoaded": "2001-03-22T13:38:14.1553188+01:00",
+  "LastLoadedBy": 565,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-05-23T11:06:35.3958193+02:00",
-  "LastMembershipChangeBy": 738,
+  "LastMembershipChange": "2005-03-11T13:38:14.1553188+01:00",
+  "LastMembershipChangeBy": 288,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "sunt",
-  "MailingsProviderName": "Kutch, Wyman and Rolfson",
-  "DashboardTileDefinitionId": 70,
+  "MainHeading": "nesciunt",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Bruen, Kerluke and Beier",
+  "DashboardTileDefinitionId": 857,
   "VisibleFor": [
     {
-      "VisibleId": 550,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 489
+          "FieldType": "System.Int32",
+          "FieldLength": 647
         }
       }
     },
     {
-      "VisibleId": 550,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 489
+          "FieldType": "System.Int32",
+          "FieldLength": 647
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 230
     }
   }
 }

@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wuckert Inc and Sons",
-  "RecordId": 68,
-  "AssociateId": 395
+  "TableName": "Stracke, Donnelly and Williamson",
+  "RecordId": 516,
+  "AssociateId": 217
 }
 ```
 

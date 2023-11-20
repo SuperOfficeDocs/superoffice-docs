@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 829,
-  "Name": "Lang Inc and Sons",
-  "Tooltip": "inventore",
+  "HeadingId": 896,
+  "Name": "Schneider, Kuphal and Volkman",
+  "Tooltip": "fuga",
   "Deleted": true,
-  "Rank": 88,
-  "UdListDefinitionId": 79
+  "Rank": 575,
+  "UdListDefinitionId": 442
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 891,
-  "Name": "Senger-Volkman",
-  "Tooltip": "nostrum",
-  "Deleted": true,
-  "Rank": 501,
-  "UdListDefinitionId": 766,
+  "HeadingId": 397,
+  "Name": "Nienow Group",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "Rank": 442,
+  "UdListDefinitionId": 219,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 821
     }
   }
 }

@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Blick, McGlynn and Jakubowski",
-  "AdditionalInfo": "nostrum",
-  "SearchValue": "dolorum"
+  "Name": "Romaguera, Gutkowski and Lehner",
+  "AdditionalInfo": "doloremque",
+  "SearchValue": "magni"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Beahan-Upton",
-    "ToolTip": "Rerum possimus qui praesentium.",
+    "Id": 665,
+    "Name": "Krajcik Group",
+    "ToolTip": "Dolor rerum dolores aut quae recusandae ex.",
     "Deleted": false,
-    "Rank": 555,
-    "Type": "voluptatem",
+    "Rank": 634,
+    "Type": "cumque",
     "ChildItems": [
       {
-        "Id": 802,
-        "Name": "Hyatt Group",
-        "ToolTip": "Tenetur vitae quas assumenda sunt aut nihil ratione.",
-        "Deleted": true,
-        "Rank": 925,
-        "Type": "sequi",
+        "Id": 707,
+        "Name": "Lockman LLC",
+        "ToolTip": "Quis totam.",
+        "Deleted": false,
+        "Rank": 38,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 174,
-        "ExtraInfo": "nisi",
-        "StyleHint": "ut",
-        "FullName": "Kane Harmon Abernathy II",
+        "IconHint": "voluptatem",
+        "ColorBlock": 661,
+        "ExtraInfo": "ipsum",
+        "StyleHint": "aut",
+        "FullName": "Carlo Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 363
+            "FieldType": "System.Int32",
+            "FieldLength": 24
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 151,
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "quia",
-    "FullName": "Lois Walsh",
+    "IconHint": "odit",
+    "ColorBlock": 91,
+    "ExtraInfo": "quod",
+    "StyleHint": "rerum",
+    "FullName": "Ernie Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldType": "System.String",
+        "FieldLength": 218
       }
     }
   }

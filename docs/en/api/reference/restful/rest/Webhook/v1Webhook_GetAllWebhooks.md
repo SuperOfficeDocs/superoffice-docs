@@ -29,8 +29,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=et
-GET /api/v1/Webhook?eventFilter=accusantium
+GET /api/v1/Webhook?nameFilter=esse
+GET /api/v1/Webhook?eventFilter=recusandae
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 40,
-    "Name": "Leffler, Runolfsson and Heathcote",
+    "WebhookId": 610,
+    "Name": "Pfannerstill, Boehm and Mohr",
     "Events": [
-      "velit",
-      "odit"
+      "adipisci",
+      "eveniet"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "amet",
+    "Secret": "fugit",
     "State": "Active",
-    "Type": "accusantium",
+    "Type": "sit",
     "Headers": {
-      "Headers1": "qui",
-      "Headers2": "aliquam"
+      "Headers1": "voluptates",
+      "Headers2": "harum"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2021-12-20T11:06:42.6315642+01:00",
+    "Registered": "2007-03-21T13:38:17.8744364+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2012-12-01T11:06:42.6315642+01:00",
+    "Updated": "2008-04-22T13:38:17.8744364+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "bertha.mckenzie@pfeffer.co.uk"
+    "ErrorsEmail": "cassidy@armstrong.biz"
   }
 ]
 ```

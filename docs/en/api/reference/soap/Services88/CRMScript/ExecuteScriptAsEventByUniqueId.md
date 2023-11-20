@@ -70,6 +70,13 @@ Application tokens must be specified if calling an Online installation. Applicat
        <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
       </CRMScript:StringKeyValuePair>
      </CRMScript:ParserValues>
+     <CRMScript:CgiVariables xsi:type="CRMScript:StringDictionary">
+      <CRMScript:StringKeyValuePair>
+       <CRMScript:Key xsi:type="xsd:string"></CRMScript:Key>
+       <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
+      </CRMScript:StringKeyValuePair>
+     </CRMScript:CgiVariables>
+     <CRMScript:CgiContent xsi:type="xsd:string"></CRMScript:CgiContent>
     </CRMScript:EventData>
    </CRMScript:ExecuteScriptAsEventByUniqueId>
 
@@ -123,6 +130,13 @@ Application tokens must be specified if calling an Online installation. Applicat
       <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
      </CRMScript:StringKeyValuePair>
     </CRMScript:ParserValues>
+    <CRMScript:CgiVariables xsi:type="CRMScript:StringDictionary">
+     <CRMScript:StringKeyValuePair>
+      <CRMScript:Key xsi:type="xsd:string"></CRMScript:Key>
+      <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
+     </CRMScript:StringKeyValuePair>
+    </CRMScript:CgiVariables>
+    <CRMScript:CgiContent xsi:type="xsd:string"></CRMScript:CgiContent>
    </CRMScript:Response>
   </CRMScript:ExecuteScriptAsEventByUniqueIdResponse>
  </SOAP-ENV:Body>

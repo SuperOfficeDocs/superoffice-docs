@@ -740,7 +740,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/version/quote/sale/probPercent,alternative/version/quote/sale/person/rank,alternative/version/quote/sale/person/personUdef/SuperOffice:9,alternative/version/quote/sale/person/personExtra/y_rental/x_amount,alternative/version/quote/sale/person/correspondingAssociate/contactFullName
+GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/version/deliveryType,alternative/version/quote/sale/currency,alternative/version/quote/sale/person/email/emailBounceCount,alternative/version/quote/sale/person/personUrl/URLAddress,alternative/version/quote/sale/person/personAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

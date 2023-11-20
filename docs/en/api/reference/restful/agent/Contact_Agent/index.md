@@ -56,6 +56,8 @@ generated: true
 
 * [POST Agents/Contact/GetNameDepartmentDuplicates](v1ContactAgent_GetNameDepartmentDuplicates.md)
 
+* [POST Agents/Contact/GetDomainDuplicates](v1ContactAgent_GetDomainDuplicates.md)
+
 * [POST Agents/Contact/IsNumberValid](v1ContactAgent_IsNumberValid.md)
 
 * [POST Agents/Contact/GetQuoteVersionAddresses](v1ContactAgent_GetQuoteVersionAddresses.md)

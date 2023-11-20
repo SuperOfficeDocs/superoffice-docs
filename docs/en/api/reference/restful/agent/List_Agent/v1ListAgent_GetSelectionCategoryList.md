@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetSelectionCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Value": "veritatis",
-    "Tooltip": "ducimus",
+    "Id": 883,
+    "Value": "rerum",
+    "Tooltip": "veritatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldType": "System.String",
+        "FieldLength": 617
       }
     }
   },
   {
-    "Id": 449,
-    "Value": "veritatis",
-    "Tooltip": "ducimus",
+    "Id": 883,
+    "Value": "rerum",
+    "Tooltip": "veritatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldType": "System.String",
+        "FieldLength": 617
       }
     }
   }

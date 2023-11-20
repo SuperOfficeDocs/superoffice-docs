@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateScriptByString
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "dolor"
+  "Script": "quo"
 }
 ```
 
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "dolor",
-  "LineNumber": 789,
+  "ErrorMessage": "asperiores",
+  "LineNumber": 584,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldType": "System.Int32",
+      "FieldLength": 354
     }
   }
 }

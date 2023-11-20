@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 385,
+  "ReportId": 335,
   "ReportCategory": "All",
-  "Description": "Reverse-engineered uniform workforce",
+  "Description": "Enhanced context-sensitive Graphic Interface",
   "ReportLayout": "CalendarMonth",
-  "Name": "Douglas, Armstrong and King",
-  "AssociateId": 775,
-  "TemplateId": 705,
-  "Published": true,
+  "Name": "Weber, Carter and Waters",
+  "AssociateId": 269,
+  "TemplateId": 212,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 11
     }
   }
 }

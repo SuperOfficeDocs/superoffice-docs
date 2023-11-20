@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 672,
-  "Name": "Johnson-Nienow",
-  "Tooltip": "ipsam",
-  "Deleted": false,
-  "Rank": 919,
+  "Id": 711,
+  "Name": "Klein LLC",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "Rank": 942,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "possimus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 870
     }
   },
   "_Links": {

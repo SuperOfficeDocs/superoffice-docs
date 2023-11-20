@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Torphy, Beer and Gibson",
-    "Tooltip": "repellat",
+    "Id": 973,
+    "Name": "Aufderhar Inc and Sons",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 575,
+    "Rank": 797,
     "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "laboriosam",
+    "ListType": "deleniti",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldType": "System.String",
+        "FieldLength": 73
       }
     }
   }

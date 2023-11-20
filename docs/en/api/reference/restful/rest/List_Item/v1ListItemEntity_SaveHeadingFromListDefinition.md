@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 625,
-  "Name": "Hansen Group",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 380,
-  "UdListDefinitionId": 911
+  "HeadingId": 877,
+  "Name": "Runolfsson-Jerde",
+  "Tooltip": "aliquam",
+  "Deleted": true,
+  "Rank": 784,
+  "UdListDefinitionId": 677
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 928,
-  "Name": "Muller, Trantow and McClure",
-  "Tooltip": "excepturi",
-  "Deleted": true,
-  "Rank": 629,
-  "UdListDefinitionId": 888,
+  "HeadingId": 804,
+  "Name": "Buckridge, Murray and Rutherford",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 840,
+  "UdListDefinitionId": 668,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldType": "System.String",
+      "FieldLength": 976
     }
   }
 }

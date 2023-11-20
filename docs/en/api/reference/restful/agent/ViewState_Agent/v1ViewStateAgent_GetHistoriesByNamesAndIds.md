@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Oberbrunner Group",
-      "EntityOrParentId": 446,
+      "EntityName": "Carter Inc and Sons",
+      "EntityOrParentId": 467,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Oberbrunner Group",
-      "EntityOrParentId": 446,
+      "EntityName": "Carter Inc and Sons",
+      "EntityOrParentId": 467,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 854,
-    "Id": 513,
-    "HistoryName": "Weissnat Group",
-    "HistoryId": 492,
-    "AssociateId": 419,
-    "Name": "Gibson Inc and Sons",
-    "ItemInfo": "quia",
+    "Rank": 216,
+    "Id": 585,
+    "HistoryName": "Schowalter-O'Conner",
+    "HistoryId": 198,
+    "AssociateId": 674,
+    "Name": "Murazik Inc and Sons",
+    "ItemInfo": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 559
       }
     }
   }

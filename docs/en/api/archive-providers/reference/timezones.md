@@ -29,10 +29,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |country|string|Country| x |
 |region|string|Region| x |
 |cities|string|Cities| x |
-|offset| *None* |Offset| x |
-|daylight| *None* |Daylight| x |
-|offsetRaw| *None* |Offset| x |
-|daylightRaw| *None* |Daylight| x |
+|offset| *None* |Offset|  |
+|daylight| *None* |Daylight|  |
+|offsetRaw| *None* |Offset|  |
+|daylightRaw| *None* |Daylight|  |
 
 ## Sample
 

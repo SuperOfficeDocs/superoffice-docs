@@ -67,7 +67,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,16 +77,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "eius",
-  "LineNumber": 588,
+  "Valid": false,
+  "ErrorMessage": "vel",
+  "LineNumber": 177,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 258
+      "FieldLength": 440
     }
   }
 }

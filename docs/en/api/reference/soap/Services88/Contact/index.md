@@ -29,6 +29,7 @@ Download [WSDL file for Services88/Contact](../Services88-Contact.md) if you nee
 * [GetContactList](GetContactList.md)
 * [GetContactSummary](GetContactSummary.md)
 * [GetContactWithPersons](GetContactWithPersons.md)
+* [GetDomainDuplicates](GetDomainDuplicates.md)
 * [GetDuplicateRules](GetDuplicateRules.md)
 * [GetDuplicates](GetDuplicates.md)
 * [GetMyActiveContacts](GetMyActiveContacts.md)

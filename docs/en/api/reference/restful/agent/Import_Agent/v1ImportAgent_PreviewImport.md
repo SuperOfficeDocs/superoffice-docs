@@ -87,31 +87,31 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "eveniet",
-        "dolorem"
+        "pariatur",
+        "quia"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "qui"
+      "ExternalKey": "id"
     },
     {
       "Values": [
-        "eveniet",
-        "dolorem"
+        "pariatur",
+        "quia"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "qui"
+      "ExternalKey": "id"
     }
   ],
   "ColumnDefinition": [
-    "laudantium",
-    "sunt"
+    "consequatur",
+    "omnis"
   ],
-  "Culture": "aut",
-  "Context": "voluptates"
+  "Culture": "nisi",
+  "Context": "unde"
 }
 ```
 
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "nostrum",
-      "qui"
+      "qui",
+      "cupiditate"
     ],
     "Selected": false,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "est",
+    "ExternalKey": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldLength": 351
       }
     }
   }

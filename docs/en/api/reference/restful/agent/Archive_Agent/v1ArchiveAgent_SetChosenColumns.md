@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kirlin, Barton and Ritchie",
-  "ProviderName": "Carter LLC",
+  "GuiName": "Gorczany-Senger",
+  "ProviderName": "Gulgowski, Rohan and Casper",
   "ChosenColumns": [
-    "ut",
-    "est"
+    "ullam",
+    "qui"
   ]
 }
 ```

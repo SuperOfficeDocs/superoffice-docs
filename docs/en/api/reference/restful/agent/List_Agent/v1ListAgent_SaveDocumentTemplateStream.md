@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 744,
+  "DocumentTemplateId": 586,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "nesciunt",
-  "PluginId": 357
+  "LanguageCode": "dignissimos",
+  "PluginId": 586
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Leuschke, Veum and Mraz",
-  "Description": "Customizable leading edge encoding",
-  "ExternalReference": "voluptatum",
-  "MimeType": "itaque",
-  "PluginId": 5
+  "Name": "Bogisich Inc and Sons",
+  "Description": "Realigned scalable pricing structure",
+  "ExternalReference": "qui",
+  "MimeType": "commodi",
+  "PluginId": 152
 }
 ```

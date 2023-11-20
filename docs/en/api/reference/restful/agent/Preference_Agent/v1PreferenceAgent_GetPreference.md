@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550
+  "Id": 884
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "consequatur",
+  "RawValue": "omnis",
   "Specification": null,
-  "DisplayValue": "quaerat",
-  "DisplayTooltip": "dolorum",
+  "DisplayValue": "sunt",
+  "DisplayTooltip": "quae",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 723,
-  "PrefDescId": 260,
-  "TableName": "Conn Group",
-  "UserPreferenceId": 397,
+  "TargetId": 396,
+  "PrefDescId": 100,
+  "TableName": "Watsica-Zulauf",
+  "UserPreferenceId": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldType": "System.Int32",
+      "FieldLength": 497
     }
   }
 }

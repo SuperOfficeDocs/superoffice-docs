@@ -26,7 +26,7 @@ Gets a CurrencyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=893
+POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=187
 POST /api/v1/Agents/List/GetCurrencyEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 201,
-  "Name": "Goodwin, Parisian and Ortiz",
-  "Tooltip": "modi",
-  "Rank": 554,
-  "Rate": 3582.162,
-  "Units": 25679.996,
+  "CurrencyId": 534,
+  "Name": "McLaughlin-Roob",
+  "Tooltip": "tempore",
+  "Rank": 523,
+  "Rate": 7117.3139999999994,
+  "Units": 21508.642,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldType": "System.Int32",
+      "FieldLength": 20
     }
   }
 }

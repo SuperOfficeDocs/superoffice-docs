@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 668,
-    "Name": "Lesch, Walsh and Kihn",
-    "ToolTip": "Deleniti cupiditate laudantium quidem.",
+    "Id": 435,
+    "Name": "Bailey, Wilderman and Olson",
+    "ToolTip": "Aut dolorem.",
     "Deleted": false,
-    "Rank": 311,
-    "Type": "laudantium",
-    "ColorBlock": 662,
-    "IconHint": "est",
+    "Rank": 270,
+    "Type": "eveniet",
+    "ColorBlock": 13,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2022-04-03T11:06:42.7721939+02:00",
+    "LastChanged": "2016-12-14T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Gleason Inc and Sons",
-        "ToolTip": "Qui est quo ipsam et voluptatum earum quibusdam.",
+        "Id": 329,
+        "Name": "Raynor-Deckow",
+        "ToolTip": "Mollitia quae.",
         "Deleted": false,
-        "Rank": 419,
-        "Type": "quia",
-        "ColorBlock": 967,
-        "IconHint": "aspernatur",
-        "Selected": false,
-        "LastChanged": "2001-11-21T11:06:42.7721939+01:00",
+        "Rank": 182,
+        "Type": "nostrum",
+        "ColorBlock": 496,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2006-04-15T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Mustafa McCullough MD"
+        "ExtraInfo": "et",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Tate Gusikowski"
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "quos",
-    "Hidden": false,
-    "FullName": "Cornelius Dach"
+    "ExtraInfo": "dolores",
+    "StyleHint": "architecto",
+    "Hidden": true,
+    "FullName": "Michele Sipes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 578,
-    "Name": "Cole, Durgan and Kuvalis",
-    "ToolTip": "Et inventore.",
+    "Id": 590,
+    "Name": "Weimann, Nader and Simonis",
+    "ToolTip": "Recusandae animi.",
     "Deleted": false,
-    "Rank": 790,
-    "Type": "ut",
-    "ColorBlock": 816,
-    "IconHint": "qui",
+    "Rank": 492,
+    "Type": "voluptas",
+    "ColorBlock": 373,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2016-02-27T11:06:42.7721939+01:00",
+    "LastChanged": "2001-03-11T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Borer, Douglas and Bogan",
-        "ToolTip": "Iure mollitia harum et cupiditate tempore quam.",
-        "Deleted": false,
-        "Rank": 422,
-        "Type": "vero",
-        "ColorBlock": 61,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2013-12-19T11:06:42.7721939+01:00",
+        "Id": 223,
+        "Name": "Willms, Bergstrom and Kozey",
+        "ToolTip": "Voluptas nihil expedita.",
+        "Deleted": true,
+        "Rank": 272,
+        "Type": "praesentium",
+        "ColorBlock": 520,
+        "IconHint": "soluta",
+        "Selected": true,
+        "LastChanged": "2014-11-15T13:38:18.0462875+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "illum",
+        "ExtraInfo": "quo",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Micaela Blanda",
+        "FullName": "Ignacio Tremblay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldType": "System.String",
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Minnie Lenore Schroeder PhD",
+    "ExtraInfo": "hic",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Miss Elza Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 199
       }
     }
   }

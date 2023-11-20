@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Quote/ValidateQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 609,
+  "QuoteVersionId": 322,
   "Action": "Approve"
 }
 ```
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "quia",
-  "TechExplanation": "iure",
-  "ErrorCode": "qui",
+  "UserExplanation": "inventore",
+  "TechExplanation": "repellendus",
+  "ErrorCode": "sint",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldLength": 952
         }
       }
     },
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldLength": 952
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 807
     }
   }
 }

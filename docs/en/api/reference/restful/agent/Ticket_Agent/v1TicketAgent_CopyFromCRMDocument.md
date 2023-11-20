@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 474
+  "DocumentId": 152
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 827,
-  "Name": "Runolfsdottir-Erdman",
-  "ContentType": "dolorem",
-  "AttSize": 532,
+  "AttachmentId": 640,
+  "Name": "Fisher, Moen and Bruen",
+  "ContentType": "earum",
+  "AttSize": 140,
   "InlineImage": false,
-  "ContentId": "enim",
+  "ContentId": "occaecati",
   "AuthKey": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldType": "System.String",
+      "FieldLength": 905
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 855,
-  "Name": "Jaskolski Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 652,
+  "Name": "Zulauf, Bernhard and Mohr",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "Rank": 232,
+  "Rank": 423,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "neque",
+  "ListType": "ut",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 13,
-  "Name": "Wisozk, Koepp and Reinger",
-  "Tooltip": "officiis",
+  "Id": 76,
+  "Name": "Towne, Conn and Ledner",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 551,
+  "Rank": 645,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "UseGroupsAndHeadings": true,
+  "ListType": "consectetur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 403
+      "FieldType": "System.Int32",
+      "FieldLength": 188
     }
   }
 }

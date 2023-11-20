@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 693,
-    "Name": "Ledner, Doyle and Rodriguez",
-    "ContentType": "nisi",
-    "AttSize": 918,
-    "InlineImage": true,
-    "ContentId": "fuga",
-    "AuthKey": "fuga",
+    "AttachmentId": 93,
+    "Name": "Wuckert Inc and Sons",
+    "ContentType": "ea",
+    "AttSize": 70,
+    "InlineImage": false,
+    "ContentId": "itaque",
+    "AuthKey": "ullam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 428
+        "FieldLength": 825
       }
     }
   }

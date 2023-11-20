@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 184,
-  "ColumnId": 326,
-  "FieldDefault": "nemo",
-  "FieldHeight": 466,
-  "FieldLabel": "perferendis",
-  "FieldLeft": 463,
-  "FieldTop": 788,
+  "UDefFieldId": 99,
+  "ColumnId": 391,
+  "FieldDefault": "distinctio",
+  "FieldHeight": 183,
+  "FieldLabel": "nostrum",
+  "FieldLeft": 44,
+  "FieldTop": 219,
   "FieldType": "Checkbox",
-  "FieldWidth": 358,
-  "FormatMask": "illo",
+  "FieldWidth": 171,
+  "FormatMask": "unde",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 475,
-  "LabelLeft": 890,
-  "LabelTop": 252,
-  "LabelWidth": 152,
-  "LastVersionId": 529,
-  "ListTableId": 797,
-  "IsMandatory": true,
+  "LabelHeight": 336,
+  "LabelLeft": 334,
+  "LabelTop": 834,
+  "LabelWidth": 759,
+  "LastVersionId": 111,
+  "ListTableId": 555,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 20,
-  "ProgId": "omnis",
-  "IsReadOnly": false,
-  "ShortLabel": "rerum",
-  "TabOrder": 493,
-  "TextLength": 987,
-  "Tooltip": "excepturi",
-  "UdefIdentity": 778,
-  "UDListDefinitionId": 212,
+  "Page1LineNo": 599,
+  "ProgId": "accusamus",
+  "IsReadOnly": true,
+  "ShortLabel": "est",
+  "TabOrder": 155,
+  "TextLength": 609,
+  "Tooltip": "est",
+  "UdefIdentity": 788,
+  "UDListDefinitionId": 514,
   "Justification": "Center",
-  "Version": 346,
-  "TemplateVariableName": "Pollich, Kuvalis and Greenholt",
+  "Version": 70,
+  "TemplateVariableName": "Cummings Group",
   "HasBeenPublished": false,
-  "MdoListName": "Metz Inc and Sons",
+  "MdoListName": "Murphy, Stanton and Zulauf",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldLength": 200
     }
   }
 }

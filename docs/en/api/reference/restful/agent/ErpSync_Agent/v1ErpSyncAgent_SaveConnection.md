@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 213,
-  "ErpConnectorId": 910,
-  "DisplayName": "Williamson LLC",
-  "DisplayDescription": "Ameliorated homogeneous complexity",
+  "ErpConnectionId": 107,
+  "ErpConnectorId": 829,
+  "DisplayName": "Schmidt Group",
+  "DisplayDescription": "Horizontal demand-driven contingency",
   "Active": true,
-  "ConnectionId": "ullam",
-  "MostRecentTimestamp": "et",
+  "ConnectionId": "minus",
+  "MostRecentTimestamp": "cupiditate",
   "ConfigFields": {
-    "ConfigFields1": "est",
+    "ConfigFields1": "qui",
     "ConfigFields2": "non"
   },
-  "Deleted": false,
+  "Deleted": true,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    86,
-    298
+    702,
+    918
   ],
   "AssociateAccessIds": [
-    346,
-    120
+    729,
+    700
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

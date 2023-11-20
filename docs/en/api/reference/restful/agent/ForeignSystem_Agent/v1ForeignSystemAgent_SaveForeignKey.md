@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Schneider, Kulas and Hartmann",
-  "DeviceName": "Gusikowski-Watsica",
-  "DeviceIdentifier": "qui"
+  "ApplicationName": "O'Connell-Berge",
+  "DeviceName": "Gerhold-Treutel",
+  "DeviceIdentifier": "magnam"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "qui",
-  "RecordId": 856,
-  "CreatedDate": "2006-02-21T11:06:34.6301875+01:00",
-  "UpdatedDate": "2002-01-31T11:06:34.6301875+01:00",
-  "UpdatedBy": "ipsum",
-  "CreatedBy": "voluptas",
-  "TableName": "Rippin, Lang and Prosacco",
+  "Key": "quo",
+  "Value": "fugiat",
+  "RecordId": 324,
+  "CreatedDate": "2021-09-25T13:38:13.6396102+02:00",
+  "UpdatedDate": "1997-05-29T13:38:13.6396102+02:00",
+  "UpdatedBy": "corporis",
+  "CreatedBy": "deserunt",
+  "TableName": "Larson-Kunze",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 54
     }
   }
 }

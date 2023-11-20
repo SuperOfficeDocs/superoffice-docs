@@ -103,23 +103,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 354,
-  "Name": "Hane Inc and Sons",
-  "CurrencyId": 505,
-  "EnglishName": "Lueilwitz-O'Reilly",
+  "CountryId": 568,
+  "Name": "Heathcote Group",
+  "CurrencyId": 178,
+  "EnglishName": "Prohaska, Wehner and O'Reilly",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Triple-buffered encompassing intranet",
-  "OrgNrText": "1624955",
-  "InterAreaPrefix": "totam",
-  "DialInPrefix": "modi",
-  "ZipPrefix": "et",
-  "DomainName": "O'Hara-Grady",
-  "AddressLayoutId": 615,
-  "DomesticAddressLayoutId": 45,
-  "ForeignAddressLayoutId": 210,
-  "Rank": 470,
-  "Tooltip": "distinctio",
+  "ImageDescription": "Horizontal solution-oriented contingency",
+  "OrgNrText": "863131",
+  "InterAreaPrefix": "quisquam",
+  "DialInPrefix": "quis",
+  "ZipPrefix": "est",
+  "DomainName": "Douglas-Collins",
+  "AddressLayoutId": 102,
+  "DomesticAddressLayoutId": 247,
+  "ForeignAddressLayoutId": 469,
+  "Rank": 206,
+  "Tooltip": "ut",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 197,
-  "Name": "Lemke LLC",
-  "CurrencyId": 423,
-  "EnglishName": "Walsh Inc and Sons",
+  "CountryId": 48,
+  "Name": "Feest Inc and Sons",
+  "CurrencyId": 641,
+  "EnglishName": "Bauch-Grimes",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Switchable grid-enabled extranet",
-  "OrgNrText": "314527",
-  "InterAreaPrefix": "dolore",
-  "DialInPrefix": "iusto",
-  "ZipPrefix": "veniam",
-  "DomainName": "Kuhic-Pacocha",
-  "AddressLayoutId": 413,
-  "DomesticAddressLayoutId": 891,
-  "ForeignAddressLayoutId": 372,
-  "Rank": 184,
-  "Tooltip": "placeat",
+  "ImageDescription": "User-friendly 3rd generation productivity",
+  "OrgNrText": "462847",
+  "InterAreaPrefix": "molestiae",
+  "DialInPrefix": "qui",
+  "ZipPrefix": "ut",
+  "DomainName": "Trantow Inc and Sons",
+  "AddressLayoutId": 500,
+  "DomesticAddressLayoutId": 919,
+  "ForeignAddressLayoutId": 845,
+  "Rank": 47,
+  "Tooltip": "dolor",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldType": "System.String",
+      "FieldLength": 464
     }
   }
 }

@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,16 +73,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 49,
-  "DisplayName": "D'Amore-Huel",
+  "ErpConnectorId": 311,
+  "DisplayName": "Beahan-Pfeffer",
   "URL": "http://www.example.com/",
-  "Deleted": true,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldType": "System.String",
+      "FieldLength": 886
     }
   }
 }

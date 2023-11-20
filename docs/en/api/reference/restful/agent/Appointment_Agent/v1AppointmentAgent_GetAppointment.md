@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=994
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=65
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -106,6 +106,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -128,64 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 42,
-  "StartDate": "2003-05-04T11:06:33.5382346+02:00",
-  "EndDate": "2003-02-27T11:06:33.5382346+01:00",
+  "AppointmentId": 212,
+  "StartDate": "2022-12-18T13:38:12.9209358+01:00",
+  "EndDate": "2004-08-02T13:38:12.9209358+02:00",
   "Type": "BookingForChecklist",
-  "Task": "ut",
-  "AssociateFullName": "Fae Reichel PhD",
-  "ContactName": "Hilll-Sawayn",
-  "Description": "Fundamental solution-oriented application",
-  "PersonFullName": "Mrs. Nelle Bauch",
-  "PersonId": 80,
-  "ContactId": 540,
-  "ProjectId": 301,
-  "ProjectName": "Fahey Inc and Sons",
+  "Task": "et",
+  "AssociateFullName": "Mrs. Felix Estefania Lindgren",
+  "ContactName": "Mitchell, McDermott and Schuster",
+  "Description": "Proactive incremental projection",
+  "PersonFullName": "Marshall Funk",
+  "PersonId": 291,
+  "ContactId": 201,
+  "ProjectId": 586,
+  "ProjectName": "Leffler LLC",
   "IsPublished": false,
-  "AssociateId": 550,
-  "ColorIndex": 660,
+  "AssociateId": 616,
+  "ColorIndex": 299,
   "IsFree": false,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 729,
-  "PriorityName": "Emard LLC",
+  "PriorityId": 776,
+  "PriorityName": "Lemke-Jenkins",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2011-05-03T11:06:33.5382346+02:00",
+  "ActiveDate": "1997-09-28T13:38:12.9209358+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2004-10-01T11:06:33.5382346+02:00",
-  "RecurringEndDate": "2020-08-06T11:06:33.5382346+02:00",
-  "MotherId": 573,
-  "AssignedBy": 984,
-  "AssignedByFullName": "Jonatan Mosciski MD",
+  "RecurringStartDate": "2018-08-27T13:38:12.9209358+02:00",
+  "RecurringEndDate": "2006-07-16T13:38:12.9209358+02:00",
+  "MotherId": 877,
+  "AssignedBy": 130,
+  "AssignedByFullName": "Jaquelin Dora Berge DVM",
   "RejectReason": "",
-  "Location": "nemo",
-  "AlarmLeadTime": "velit",
-  "SaleId": 940,
-  "SaleName": "Braun, Reichert and Collier",
-  "AssociateName": "Stoltenberg Group",
-  "CreatedDate": "2016-03-16T11:06:33.5382346+01:00",
-  "CreatedBy": "doloribus",
-  "CreatedByFullName": "Cristal Johns",
-  "CreatedByAssociateId": 182,
+  "Location": "iste",
+  "AlarmLeadTime": "molestiae",
+  "SaleId": 108,
+  "SaleName": "Schoen Inc and Sons",
+  "AssociateName": "Carter-Shanahan",
+  "CreatedDate": "2023-07-18T13:38:12.9209358+02:00",
+  "CreatedBy": "soluta",
+  "CreatedByFullName": "Noel Hermiston",
+  "CreatedByAssociateId": 575,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "totam",
-  "Agenda": "perspiciatis",
-  "InternalNotes": "sit",
+  "PreferredTZLocation": 574,
+  "Title": "qui",
+  "Agenda": "facere",
+  "InternalNotes": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldLength": 155
     }
   }
 }

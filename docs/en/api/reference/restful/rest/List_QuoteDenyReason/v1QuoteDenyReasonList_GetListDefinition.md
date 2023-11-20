@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 178,
-  "Name": "Hirthe, Bernier and Harris",
-  "Tooltip": "tempora",
-  "Deleted": true,
-  "Rank": 599,
+  "Id": 752,
+  "Name": "Ernser LLC",
+  "Tooltip": "inventore",
+  "Deleted": false,
+  "Rank": 723,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "unde",
-  "InUseByUserDefinedFields": false,
+  "ListType": "optio",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldLength": 348
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

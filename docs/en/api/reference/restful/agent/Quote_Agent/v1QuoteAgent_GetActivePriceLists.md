@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 94,
-  "Currency": "ullam"
+  "QuoteConnectionId": 706,
+  "Currency": "distinctio"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 850,
-    "ERPPriceListKey": "aut",
-    "QuoteConnectionId": 834,
-    "Name": "Gottlieb, Collins and Skiles",
-    "Description": "Focused non-volatile installation",
-    "Currency": "laudantium",
-    "CurrencyName": "DuBuque Group",
-    "ValidFrom": "1996-08-01T11:06:35.2239506+02:00",
-    "ValidTo": "2014-07-07T11:06:35.2239506+02:00",
+    "PriceListId": 199,
+    "ERPPriceListKey": "labore",
+    "QuoteConnectionId": 560,
+    "Name": "Gutmann Group",
+    "Description": "Persistent methodical core",
+    "Currency": "consequuntur",
+    "CurrencyName": "Erdman, Padberg and Powlowski",
+    "ValidFrom": "2005-11-01T13:38:14.0303322+01:00",
+    "ValidTo": "2007-04-07T13:38:14.0303322+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 960
+        "FieldLength": 428
       }
     }
   }

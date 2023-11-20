@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "quam"
+  "MimeMessage": "id"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 483,
-      "ContactName": "Glover Group",
-      "PersonId": 672,
-      "PersonName": "Bins, Hickle and Lockman",
-      "AssociateId": 723,
-      "Address": "hic",
-      "EmailId": 546,
+      "ContactId": 963,
+      "ContactName": "Shanahan Inc and Sons",
+      "PersonId": 938,
+      "PersonName": "Dicki Group",
+      "AssociateId": 536,
+      "Address": "eius",
+      "EmailId": 300,
       "DuplicatePersonIds": [
-        583,
-        685
+        550,
+        142
       ],
-      "Name": "Bahringer LLC",
+      "Name": "Barrows, Christiansen and Torphy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 920
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 777,
-      "ContactName": "Ruecker-Wunsch",
-      "PersonId": 517,
-      "PersonName": "Terry Group",
-      "AssociateId": 645,
-      "Address": "qui",
-      "EmailId": 614,
+      "ContactId": 211,
+      "ContactName": "Gerhold, Dicki and Swift",
+      "PersonId": 245,
+      "PersonName": "Beahan, Bailey and Shanahan",
+      "AssociateId": 456,
+      "Address": "omnis",
+      "EmailId": 770,
       "DuplicatePersonIds": [
-        336,
-        52
+        362,
+        672
       ],
-      "Name": "Jenkins, Reichel and Stanton",
+      "Name": "Kertzmann LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldLength": 763
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 519,
-      "ContactName": "Wisoky LLC",
-      "PersonId": 730,
-      "PersonName": "Heller, Shanahan and Feeney",
-      "AssociateId": 143,
-      "Address": "voluptatum",
-      "EmailId": 614,
+      "ContactId": 927,
+      "ContactName": "Heller Inc and Sons",
+      "PersonId": 305,
+      "PersonName": "Mohr, Brown and Jacobs",
+      "AssociateId": 569,
+      "Address": "sed",
+      "EmailId": 75,
       "DuplicatePersonIds": [
-        120,
-        434
+        400,
+        949
       ],
-      "Name": "Stoltenberg-Toy",
+      "Name": "Johnson LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 157
+          "FieldLength": 943
         }
       }
     }
   ],
-  "Subject": "at",
-  "HTMLBody": "vitae",
+  "Subject": "facere",
+  "HTMLBody": "accusamus",
   "From": null,
-  "Sent": "2014-01-04T11:06:34.5520595+01:00",
-  "Size": 312,
+  "Sent": "2013-03-22T13:38:13.5771153+01:00",
+  "Size": 327,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sed",
-  "PlainBody": "provident",
-  "IsSent": false,
+  "MessageID": "magni",
+  "PlainBody": "tempore",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 550,
+  "ServerId": 910,
   "Attachments": [
     {
-      "Description": "Total fresh-thinking neural-net",
-      "Filename": "dolores",
-      "Size": 184,
-      "Type": "facere",
-      "Encoding": "dolor",
-      "Id": "ullam",
-      "Disposition": "consequatur",
-      "IsSafeFileExtension": false,
+      "Description": "Total fault-tolerant database",
+      "Filename": "dolor",
+      "Size": 726,
+      "Type": "nisi",
+      "Encoding": "minus",
+      "Id": "vel",
+      "Disposition": "cumque",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldLength": 81
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schumm Group",
+      "Name": "Senger Group",
       "Values": [
-        "debitis",
-        "ullam"
+        "architecto",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 574
+          "FieldType": "System.Int32",
+          "FieldLength": 136
         }
       }
     },
     {
-      "Name": "Schumm Group",
+      "Name": "Senger Group",
       "Values": [
-        "debitis",
-        "ullam"
+        "architecto",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 574
+          "FieldType": "System.Int32",
+          "FieldLength": 136
         }
       }
     }
   ],
-  "FolderName": "Legros Inc and Sons",
-  "EmailItemId": 193,
-  "AccountId": 453,
-  "ReceivedAt": "2009-10-01T11:06:34.5520595+02:00",
+  "FolderName": "Mraz Group",
+  "EmailItemId": 459,
+  "AccountId": 19,
+  "ReceivedAt": "2015-06-28T13:38:13.5771153+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-09-17T11:06:34.5520595+02:00",
+  "RepliedAt": "1999-02-03T13:38:13.5771153+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 234
+      "FieldType": "System.Int32",
+      "FieldLength": 62
     }
   }
 }

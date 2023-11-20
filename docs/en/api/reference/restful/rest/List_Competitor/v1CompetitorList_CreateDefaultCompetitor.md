@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 347,
-  "Name": "Quitzon, Lehner and Bartell",
-  "Tooltip": "delectus",
-  "Deleted": false,
-  "UdListDefinitionId": 670,
-  "Rank": 80,
+  "Id": 74,
+  "Name": "Feest-Heathcote",
+  "Tooltip": "in",
+  "Deleted": true,
+  "UdListDefinitionId": 994,
+  "Rank": 797,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 803
     }
   }
 }

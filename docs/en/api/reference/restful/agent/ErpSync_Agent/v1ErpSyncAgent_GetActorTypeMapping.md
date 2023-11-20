@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 294,
+  "ErpConnectionId": 729,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 928,
+  "ErpConnectionId": 429,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 389,
-      "CrmFieldKey": "consectetur",
-      "CrmDisplayName": "Corkery-Jast",
-      "CrmDisplayTooltip": "eius",
-      "ErpFieldKey": "sed",
+      "ErpFieldId": 885,
+      "CrmFieldKey": "pariatur",
+      "CrmDisplayName": "Purdy, Bechtelar and Lynch",
+      "CrmDisplayTooltip": "alias",
+      "ErpFieldKey": "molestiae",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Konopelski Inc and Sons",
-      "ErpDisplayTooltip": "excepturi",
-      "SyncToCrm": false,
-      "SyncToErp": false,
+      "ErpDisplayName": "Hessel-Hand",
+      "ErpDisplayTooltip": "omnis",
+      "SyncToCrm": true,
+      "SyncToErp": true,
       "ShowInGui": true,
       "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "cupiditate",
+      "ListReference": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 527
+          "FieldType": "System.Int32",
+          "FieldLength": 493
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldType": "System.String",
+      "FieldLength": 183
     }
   }
 }

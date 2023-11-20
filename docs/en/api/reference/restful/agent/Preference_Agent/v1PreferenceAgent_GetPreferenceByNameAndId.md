@@ -90,10 +90,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "non",
-  "PrefKey": "quia",
+  "PrefSection": "eius",
+  "PrefKey": "et",
   "PrefLevel": "Database",
-  "OwnerId": 910
+  "OwnerId": 59
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ut",
+  "RawValue": "autem",
   "Specification": null,
-  "DisplayValue": "molestias",
-  "DisplayTooltip": "placeat",
+  "DisplayValue": "cumque",
+  "DisplayTooltip": "quo",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 267,
-  "PrefDescId": 730,
-  "TableName": "Kling, Nitzsche and Emard",
-  "UserPreferenceId": 314,
+  "TargetId": 728,
+  "PrefDescId": 35,
+  "TableName": "Walker LLC",
+  "UserPreferenceId": 39,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldLength": 305
     }
   }
 }

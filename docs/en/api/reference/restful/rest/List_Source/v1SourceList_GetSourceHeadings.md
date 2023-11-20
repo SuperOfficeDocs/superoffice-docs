@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 43,
-    "Name": "Casper, Hamill and Brekke",
-    "Tooltip": "aut",
+    "HeadingId": 464,
+    "Name": "Durgan Inc and Sons",
+    "Tooltip": "veniam",
     "Deleted": true,
-    "Rank": 358,
-    "UdListDefinitionId": 692,
+    "Rank": 680,
+    "UdListDefinitionId": 626,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 939
+        "FieldLength": 273
       }
     }
   }

@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 145,
-  "QuoteAlternativeId": 750,
-  "QuoteAlternativeName": "Paucek Inc and Sons"
+  "QuoteVersionId": 580,
+  "QuoteAlternativeId": 918,
+  "QuoteAlternativeName": "Doyle, Bruen and Schulist"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 840,
-  "ERPQuoteAlternativeKey": "magnam",
-  "QuoteVersionId": 991,
-  "Name": "Romaguera Group",
-  "Description": "Focused solution-oriented installation",
+  "QuoteAlternativeId": 941,
+  "ERPQuoteAlternativeKey": "dignissimos",
+  "QuoteVersionId": 773,
+  "Name": "Stehr-Nienow",
+  "Description": "Digitized intermediate structure",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 16685.416,
-  "ERPDiscountAmount": 21198.376,
-  "DiscountPercent": 11526.851999999999,
-  "DiscountAmount": 8138.998,
+  "ERPDiscountPercent": 24150.604,
+  "ERPDiscountAmount": 25780.284,
+  "DiscountPercent": 6650.348,
+  "DiscountAmount": 15967.73,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quibusdam",
-  "VAT": 12542.268,
-  "EarningPercent": 6318.144,
-  "EarningAmount": 9555.5659999999989,
-  "SubTotal": 13081.315999999999,
-  "TotalPrice": 10724.547999999999,
-  "ExtraField1": "adipisci",
-  "ExtraField2": "nemo",
-  "ExtraField3": "quasi",
-  "ExtraField4": "aut",
-  "ExtraField5": "voluptatibus",
+  "VATInfo": "porro",
+  "VAT": 14463.41,
+  "EarningPercent": 18299.426,
+  "EarningAmount": 29102.324,
+  "SubTotal": 8944.436,
+  "TotalPrice": 6214.722,
+  "ExtraField1": "eos",
+  "ExtraField2": "ipsum",
+  "ExtraField3": "sed",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 381
     }
   }
 }

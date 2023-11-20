@@ -72,10 +72,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    80,
-    347
+    119,
+    245
   ],
-  "MoveToFolder": "vero"
+  "MoveToFolder": "in"
 }
 ```
 

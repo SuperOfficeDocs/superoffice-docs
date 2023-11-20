@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 596
+  "AssociateId": 932
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 447,
-    "AssociateId": 396,
-    "Caption": "eius",
+    "DashboardId": 645,
+    "AssociateId": 959,
+    "Caption": "minima",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 64,
-        "Caption": "libero",
-        "Description": "Ergonomic human-resource encoding",
-        "ChartName": "Fahey-Adams",
-        "ChartId": "est",
-        "IsDefault": true,
-        "AssociateId": 276,
-        "GroupId": 581,
-        "SelectionId": 941,
-        "Config": "fugit",
+        "DashboardTileId": 459,
+        "Caption": "et",
+        "Description": "Open-source maximized firmware",
+        "ChartName": "Kris Group",
+        "ChartId": "perferendis",
+        "IsDefault": false,
+        "AssociateId": 796,
+        "GroupId": 895,
+        "SelectionId": 7,
+        "Config": "provident",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 522
+            "FieldType": "System.Int32",
+            "FieldLength": 638
           }
         }
       }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 45
+        "FieldLength": 92
       }
     }
   }

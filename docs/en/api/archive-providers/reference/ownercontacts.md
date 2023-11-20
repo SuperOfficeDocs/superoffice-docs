@@ -350,7 +350,7 @@ Archive provider for the list of own contacts in SoAdmin
 ## Sample
 
 ```http!
-GET /api/v1/archive/OwnerContacts?$select=registeredBy,contactSupportPerson/personExtra/x_person_shorttext,contactUdef/SuperOffice:6
+GET /api/v1/archive/OwnerContacts?$select=contactSupportPerson/useAsMailingAddress,contactSupportPerson/birthMonth,contactSupportPerson/kanaLastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

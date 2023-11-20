@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Rosenbaum-Baumbach",
-    "ToolTip": "Quisquam dolore sunt nostrum id.",
+    "Id": 284,
+    "Name": "Breitenberg-Mayer",
+    "ToolTip": "Et maxime.",
     "Deleted": true,
-    "Rank": 198,
-    "Type": "voluptatem",
-    "ColorBlock": 555,
-    "IconHint": "soluta",
+    "Rank": 467,
+    "Type": "alias",
+    "ColorBlock": 53,
+    "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2018-07-15T11:06:42.8503167+02:00",
+    "LastChanged": "2006-07-08T13:38:18.0931573+02:00",
     "ChildItems": [
       {
-        "Id": 382,
-        "Name": "Lynch Group",
-        "ToolTip": "Facere nobis qui laboriosam natus non labore necessitatibus.",
+        "Id": 730,
+        "Name": "Batz-Ward",
+        "ToolTip": "Sunt et quia qui consequatur et.",
         "Deleted": false,
-        "Rank": 1001,
-        "Type": "voluptas",
-        "ColorBlock": 628,
-        "IconHint": "delectus",
+        "Rank": 95,
+        "Type": "perferendis",
+        "ColorBlock": 749,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "1997-06-21T11:06:42.8503167+02:00",
+        "LastChanged": "2021-08-31T13:38:18.0931573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "doloribus",
-        "Hidden": false,
-        "FullName": "Prof. Ebba Zora Wilkinson"
+        "ExtraInfo": "voluptate",
+        "StyleHint": "facilis",
+        "Hidden": true,
+        "FullName": "Mavis Mraz Sr."
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "D'angelo Gaylord"
+    "FullName": "Mabelle Stamm DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Nikolaus, Haley and Stiedemann",
-    "ToolTip": "Dicta tenetur id nam voluptatum error quia explicabo.",
-    "Deleted": false,
-    "Rank": 803,
-    "Type": "rerum",
-    "ColorBlock": 901,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2021-07-16T11:06:42.8503167+02:00",
+    "Id": 204,
+    "Name": "Rolfson, Baumbach and Pfannerstill",
+    "ToolTip": "Cupiditate corporis.",
+    "Deleted": true,
+    "Rank": 453,
+    "Type": "dolores",
+    "ColorBlock": 508,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2021-01-04T13:38:18.0931573+01:00",
     "ChildItems": [
       {
-        "Id": 713,
-        "Name": "Fadel Inc and Sons",
-        "ToolTip": "Atque sed quo et quis dolores hic eaque.",
-        "Deleted": true,
-        "Rank": 362,
-        "Type": "ut",
-        "ColorBlock": 888,
-        "IconHint": "aut",
+        "Id": 735,
+        "Name": "Pfannerstill-Gutmann",
+        "ToolTip": "Voluptatem cum exercitationem repellat atque.",
+        "Deleted": false,
+        "Rank": 974,
+        "Type": "odit",
+        "ColorBlock": 539,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2019-11-30T11:06:42.8503167+01:00",
+        "LastChanged": "2019-10-29T13:38:18.0931573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "harum",
+        "StyleHint": "velit",
         "Hidden": true,
-        "FullName": "Dalton Heaney",
+        "FullName": "Ms. Bryana Keeling III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 555
+            "FieldLength": 343
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "beatae",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Monserrate Stokes DVM",
+    "FullName": "Mr. Calista Larkin V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 933
+        "FieldType": "System.Int32",
+        "FieldLength": 520
       }
     }
   }

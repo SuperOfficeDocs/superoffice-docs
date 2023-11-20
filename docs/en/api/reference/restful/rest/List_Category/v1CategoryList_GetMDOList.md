@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=eos
+GET /api/v1/List/Category/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Schaefer LLC",
-    "ToolTip": "Libero itaque reiciendis enim et architecto laudantium.",
+    "Id": 376,
+    "Name": "Will Inc and Sons",
+    "ToolTip": "Sint ratione accusamus ab sed fuga.",
     "Deleted": false,
-    "Rank": 335,
-    "Type": "distinctio",
+    "Rank": 142,
+    "Type": "facilis",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Hirthe LLC",
-        "ToolTip": "Ut molestiae et sit qui architecto exercitationem vero.",
+        "Id": 449,
+        "Name": "Donnelly, Schmitt and O'Kon",
+        "ToolTip": "Officiis tempore earum odio molestiae iure et expedita.",
         "Deleted": true,
-        "Rank": 59,
-        "Type": "explicabo",
+        "Rank": 330,
+        "Type": "quas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 549,
-        "ExtraInfo": "labore",
-        "StyleHint": "quaerat",
-        "FullName": "Hildegard Kuhic",
+        "IconHint": "facilis",
+        "ColorBlock": 921,
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "dicta",
+        "FullName": "Ms. Abdullah Gutmann I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldLength": 273
           }
         }
       }
     ],
-    "IconHint": "esse",
-    "ColorBlock": 819,
-    "ExtraInfo": "sit",
-    "StyleHint": "molestiae",
-    "FullName": "Austyn Grady",
+    "IconHint": "deleniti",
+    "ColorBlock": 374,
+    "ExtraInfo": "atque",
+    "StyleHint": "praesentium",
+    "FullName": "Braeden Dooley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldLength": 662
       }
     }
   }

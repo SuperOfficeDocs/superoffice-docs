@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 474,
-  "Name": "Gulgowski-Witting",
-  "Tooltip": "accusantium",
-  "Deleted": true,
-  "Rank": 810,
+  "Id": 990,
+  "Name": "Lehner-Weber",
+  "Tooltip": "beatae",
+  "Deleted": false,
+  "Rank": 900,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": true
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 878,
-  "Name": "Leannon Inc and Sons",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "Rank": 555,
+  "Id": 218,
+  "Name": "Bergnaum Group",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 814,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldType": "System.String",
+      "FieldLength": 710
     }
   }
 }

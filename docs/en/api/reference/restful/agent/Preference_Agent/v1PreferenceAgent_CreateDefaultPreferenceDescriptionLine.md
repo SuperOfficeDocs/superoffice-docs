@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 887,
-  "PrefDescId": 763,
-  "PrefValue": "ut",
-  "PrefShowValue": "tenetur",
-  "Description": "Optional tangible portal",
+  "PrefDescLineId": 378,
+  "PrefDescId": 199,
+  "PrefValue": "aut",
+  "PrefShowValue": "eaque",
+  "Description": "Fundamental zero tolerance flexibility",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 200
     }
   }
 }

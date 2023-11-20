@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 477,
-  "Name": "Bogisich Inc and Sons",
-  "Tooltip": "sapiente",
+  "Id": 644,
+  "Name": "Lindgren-Olson",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 4,
-  "Rank": 325,
+  "UdListDefinitionId": 222,
+  "Rank": 718,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldType": "System.String",
+      "FieldLength": 459
     }
   }
 }

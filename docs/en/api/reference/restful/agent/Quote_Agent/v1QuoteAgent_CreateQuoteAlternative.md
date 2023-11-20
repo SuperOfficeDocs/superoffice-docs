@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 588,
-  "QuoteAlternativeName": "Bogisich, Roob and Reichert",
-  "QuoteAlternativeDescription": "Profound solution-oriented algorithm"
+  "QuoteVersionId": 221,
+  "QuoteAlternativeName": "Langworth-Satterfield",
+  "QuoteAlternativeDescription": "Re-contextualized impactful throughput"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 977,
-  "ERPQuoteAlternativeKey": "deserunt",
-  "QuoteVersionId": 170,
-  "Name": "Morar, Casper and Gleichner",
-  "Description": "Function-based 24 hour hierarchy",
+  "QuoteAlternativeId": 935,
+  "ERPQuoteAlternativeKey": "sunt",
+  "QuoteVersionId": 936,
+  "Name": "Roberts-Bernhard",
+  "Description": "Fully-configurable empowering help-desk",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 21286.128,
-  "ERPDiscountAmount": 3014.908,
-  "DiscountPercent": 7424.446,
-  "DiscountAmount": 13504.405999999999,
+  "ERPDiscountPercent": 16663.478,
+  "ERPDiscountAmount": 11404.626,
+  "DiscountPercent": 30600.376,
+  "DiscountAmount": 26990.007999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "explicabo",
-  "VAT": 24855.754,
-  "EarningPercent": 20486.958,
-  "EarningAmount": 13745.724,
-  "SubTotal": 1698.628,
-  "TotalPrice": 8587.16,
-  "ExtraField1": "sapiente",
-  "ExtraField2": "rerum",
-  "ExtraField3": "sed",
-  "ExtraField4": "voluptas",
-  "ExtraField5": "voluptatem",
+  "VATInfo": "consequatur",
+  "VAT": 13002.966,
+  "EarningPercent": 8345.842,
+  "EarningAmount": 9919.11,
+  "SubTotal": 8258.09,
+  "TotalPrice": 18797.732,
+  "ExtraField1": "reprehenderit",
+  "ExtraField2": "aliquid",
+  "ExtraField3": "est",
+  "ExtraField4": "autem",
+  "ExtraField5": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 875
     }
   }
 }

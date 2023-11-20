@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 947,
-  "Name": "Abernathy Inc and Sons",
-  "CurrencyId": 586,
-  "EnglishName": "Nikolaus Group",
+  "CountryId": 258,
+  "Name": "Cremin, Goodwin and Johnson",
+  "CurrencyId": 32,
+  "EnglishName": "Strosin-Will",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Networked interactive migration",
-  "OrgNrText": "1104058",
-  "InterAreaPrefix": "ut",
-  "DialInPrefix": "iure",
-  "ZipPrefix": "aut",
-  "DomainName": "Walter, Hoppe and Bailey",
-  "AddressLayoutId": 458,
-  "DomesticAddressLayoutId": 200,
-  "ForeignAddressLayoutId": 282,
-  "Rank": 395,
-  "Tooltip": "sed",
+  "ImageDescription": "Reduced holistic concept",
+  "OrgNrText": "869472",
+  "InterAreaPrefix": "dolore",
+  "DialInPrefix": "nihil",
+  "ZipPrefix": "dolores",
+  "DomainName": "Thompson LLC",
+  "AddressLayoutId": 809,
+  "DomesticAddressLayoutId": 153,
+  "ForeignAddressLayoutId": 196,
+  "Rank": 303,
+  "Tooltip": "quis",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldType": "System.String",
+      "FieldLength": 295
     }
   }
 }

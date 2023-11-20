@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 807,
-  "Name": "Jenkins LLC",
-  "Tooltip": "libero",
-  "Deleted": true,
-  "Rank": 782,
+  "Id": 266,
+  "Name": "Langosh, Adams and Bosco",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 518,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Smith-Schaefer",
-  "Tooltip": "cumque",
+  "Id": 672,
+  "Name": "Spinka Inc and Sons",
+  "Tooltip": "debitis",
   "Deleted": true,
-  "Rank": 516,
+  "Rank": 391,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "architecto",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 493
+      "FieldLength": 916
     }
   }
 }

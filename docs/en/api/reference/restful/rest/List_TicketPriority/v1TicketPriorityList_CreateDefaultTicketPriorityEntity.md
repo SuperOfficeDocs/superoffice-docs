@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 376,
-  "Name": "Luettgen Group",
+  "TicketPriorityId": 520,
+  "Name": "Larson, Little and Anderson",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 707,
+  "SortOrder": 311,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 577,
-  "MonStart": "2009-03-15T11:06:43.1159494+01:00",
-  "MonStop": "2013-12-23T11:06:43.1159494+01:00",
-  "TueStart": "2001-02-25T11:06:43.1159494+01:00",
-  "TueStop": "2023-09-09T11:06:43.1159494+02:00",
-  "WedStart": "2015-11-22T11:06:43.1159494+01:00",
-  "WedStop": "1998-07-18T11:06:43.1159494+02:00",
-  "ThuStart": "2016-04-01T11:06:43.1159494+02:00",
-  "ThuStop": "2015-11-09T11:06:43.1159494+01:00",
-  "FriStart": "2007-11-10T11:06:43.1159494+01:00",
-  "FriStop": "2013-05-13T11:06:43.1159494+02:00",
-  "SatStart": "2000-12-13T11:06:43.1159494+01:00",
-  "SatStop": "2021-02-02T11:06:43.1159494+01:00",
-  "SunStart": "2002-08-31T11:06:43.1159494+02:00",
-  "SunStop": "2012-01-22T11:06:43.1159494+01:00",
+  "Deadline": 21,
+  "MonStart": "2009-12-16T13:38:18.2650127+01:00",
+  "MonStop": "2004-09-08T13:38:18.2650127+02:00",
+  "TueStart": "2004-11-27T13:38:18.2650127+01:00",
+  "TueStop": "2012-10-26T13:38:18.2650127+02:00",
+  "WedStart": "2019-10-12T13:38:18.2650127+02:00",
+  "WedStop": "2011-08-08T13:38:18.2650127+02:00",
+  "ThuStart": "1998-12-18T13:38:18.2650127+01:00",
+  "ThuStop": "2007-02-23T13:38:18.2650127+01:00",
+  "FriStart": "2023-03-24T13:38:18.2650127+01:00",
+  "FriStop": "2019-05-08T13:38:18.2650127+02:00",
+  "SatStart": "2007-02-18T13:38:18.2650127+01:00",
+  "SatStop": "2022-02-04T13:38:18.2650127+01:00",
+  "SunStart": "2022-12-07T13:38:18.2650127+01:00",
+  "SunStop": "2013-01-18T13:38:18.2650127+01:00",
   "NonDates": [
-    "error",
-    "incidunt"
+    "possimus",
+    "et"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 13,
-      "AlertLevel": 1000,
-      "AlertTimeout": 708,
-      "Action": 942,
-      "DelegateTo": 329,
-      "ScriptId": 396,
-      "EmailTo": "roxanne_dare@wintheiserkeeling.co.uk",
-      "SmsTo": "nesciunt",
-      "ReplyTemplateIdCustomer": 195,
-      "ReplyTemplateIdUser": 671,
-      "ReplyTemplateIdCatmast": 800,
-      "ReplyTemplateIdEmail": 742,
-      "RtiCustomerSms": 536,
-      "ReplyTemplateIdUserSms": 470,
-      "ReplyTemplateIdCatmastSms": 888,
-      "ReplyTemplateIdSms": 1000,
+      "TicketAlertId": 450,
+      "AlertLevel": 656,
+      "AlertTimeout": 909,
+      "Action": 261,
+      "DelegateTo": 856,
+      "ScriptId": 574,
+      "EmailTo": "sean.boyle@emard.com",
+      "SmsTo": "sint",
+      "ReplyTemplateIdCustomer": 16,
+      "ReplyTemplateIdUser": 307,
+      "ReplyTemplateIdCatmast": 77,
+      "ReplyTemplateIdEmail": 559,
+      "RtiCustomerSms": 35,
+      "ReplyTemplateIdUserSms": 329,
+      "ReplyTemplateIdCatmastSms": 391,
+      "ReplyTemplateIdSms": 691,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 178
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldLength": 270
     }
   }
 }

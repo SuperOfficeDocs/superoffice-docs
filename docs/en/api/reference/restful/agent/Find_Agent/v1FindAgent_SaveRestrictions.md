@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "unde",
-  "ProviderName": "Murray, Lowe and Mann",
-  "StorageKey": "aperiam",
+  "StorageType": "molestiae",
+  "ProviderName": "Berge Group",
+  "StorageKey": "ut",
   "Restrictions": [
     {
-      "Name": "Dickinson LLC",
-      "Operator": "consequatur",
+      "Name": "Kreiger Inc and Sons",
+      "Operator": "velit",
       "Values": [
-        "quia",
-        "delectus"
+        "quas",
+        "doloremque"
       ],
       "DisplayValues": [
-        "excepturi",
-        "tenetur"
+        "porro",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 129,
+      "InterParenthesis": 548,
       "InterOperator": "And",
-      "UniqueHash": 880
+      "UniqueHash": 43
     }
   ]
 }

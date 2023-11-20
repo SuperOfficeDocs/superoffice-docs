@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Koss Inc and Sons",
-    "Tooltip": "natus",
+    "Id": 767,
+    "Name": "Sawayn-Streich",
+    "Tooltip": "maxime",
     "Deleted": false,
-    "UdListDefinitionId": 406,
-    "Rank": 91,
+    "UdListDefinitionId": 626,
+    "Rank": 334,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 647
       }
     }
   }

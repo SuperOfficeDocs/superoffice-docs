@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Auer-Lemke",
-    "ToolTip": "Amet distinctio deserunt autem qui.",
+    "Id": 54,
+    "Name": "Hartmann, Kovacek and Schuppe",
+    "ToolTip": "Tempora doloremque et est expedita nihil.",
     "Deleted": false,
-    "Rank": 231,
-    "Type": "ut",
-    "ColorBlock": 748,
-    "IconHint": "saepe",
-    "Selected": true,
-    "LastChanged": "2005-11-10T11:06:42.8971908+01:00",
+    "Rank": 822,
+    "Type": "enim",
+    "ColorBlock": 155,
+    "IconHint": "laborum",
+    "Selected": false,
+    "LastChanged": "2015-08-29T13:38:18.1244081+02:00",
     "ChildItems": [
       {
-        "Id": 162,
-        "Name": "Kerluke Group",
-        "ToolTip": "Hic officia numquam enim.",
-        "Deleted": false,
-        "Rank": 567,
-        "Type": "deserunt",
-        "ColorBlock": 267,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2000-08-13T11:06:42.8971908+02:00",
+        "Id": 877,
+        "Name": "Kautzer-Wolff",
+        "ToolTip": "Velit voluptatum sit maiores cum.",
+        "Deleted": true,
+        "Rank": 782,
+        "Type": "non",
+        "ColorBlock": 486,
+        "IconHint": "neque",
+        "Selected": true,
+        "LastChanged": "2023-04-17T13:38:18.1244081+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Bruce Sporer",
+        "ExtraInfo": "porro",
+        "StyleHint": "tempora",
+        "Hidden": false,
+        "FullName": "Georgiana Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 64
+            "FieldLength": 312
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Kitty Hettinger",
+    "ExtraInfo": "fuga",
+    "StyleHint": "ab",
+    "Hidden": true,
+    "FullName": "Porter Dietrich DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 906
       }
     }
   }

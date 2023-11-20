@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "error"
+  "QuoteLineExtraData": "aut"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Orn-Hauck",
-    "Value": "quis",
+    "Name": "Robel, Bauch and Dach",
+    "Value": "veniam",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldLength": 206
       }
     }
   },
   {
-    "Name": "Orn-Hauck",
-    "Value": "quis",
+    "Name": "Robel, Bauch and Dach",
+    "Value": "veniam",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldLength": 206
       }
     }
   }

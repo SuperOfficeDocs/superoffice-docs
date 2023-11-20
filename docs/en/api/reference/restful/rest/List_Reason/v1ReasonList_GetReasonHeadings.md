@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 471,
-    "Name": "Metz, Will and Bode",
-    "Tooltip": "dolor",
+    "HeadingId": 860,
+    "Name": "Hills-Steuber",
+    "Tooltip": "magnam",
     "Deleted": false,
-    "Rank": 857,
-    "UdListDefinitionId": 448,
+    "Rank": 888,
+    "UdListDefinitionId": 23,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 410
+        "FieldType": "System.Int32",
+        "FieldLength": 278
       }
     }
   }

@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 924,
-  "ERPQuoteVersionKey": "qui",
-  "QuoteId": 729,
-  "Description": "Self-enabling homogeneous implementation",
-  "Number": "1207051",
+  "QuoteVersionId": 516,
+  "ERPQuoteVersionKey": "nihil",
+  "QuoteId": 146,
+  "Description": "Managed object-oriented process improvement",
+  "Number": "968300",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "",
-  "LikelyQuoteAlternativeId": 259,
-  "SentDate": "2019-04-24T11:06:35.1926981+02:00",
-  "FollowupId": 618,
-  "ExpirationDate": "2012-06-30T11:06:35.1926981+02:00",
-  "DeliveryCountryId": 81,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 299,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "qui",
-  "ERPPaymentTypeKey": "sint",
-  "ERPDeliveryTermsKey": "sed",
-  "ERPDeliveryTypeKey": "dolorem",
-  "Rank": 784,
-  "ApprovedBy": 55,
-  "ApprovedText": "laboriosam",
-  "ApprovedRegisteredBy": 36,
-  "ApprovedRegisteredDate": "2000-01-13T11:06:35.1926981+01:00",
-  "ExtraField1": "et",
-  "ExtraField2": "omnis",
-  "ExtraField3": "repudiandae",
-  "ExtraField4": "sit",
-  "ExtraField5": "sit",
-  "LastRecalculated": "2008-12-04T11:06:35.1926981+01:00",
-  "Updated": "1996-09-05T11:06:35.1926981+02:00",
-  "UpdatedAssociateId": 190,
-  "Registered": "2021-12-30T11:06:35.1926981+01:00",
-  "RegisteredAssociateId": 472,
-  "RequestAssociateId": 783,
-  "RequestComment": "corporis",
+  "Reason": "transform bricks-and-clicks schemas",
+  "LikelyQuoteAlternativeId": 765,
+  "SentDate": "2022-05-31T13:38:13.9990881+02:00",
+  "FollowupId": 957,
+  "ExpirationDate": "2018-09-13T13:38:13.9990881+02:00",
+  "DeliveryCountryId": 788,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 291,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "unde",
+  "ERPPaymentTypeKey": "officiis",
+  "ERPDeliveryTermsKey": "recusandae",
+  "ERPDeliveryTypeKey": "et",
+  "Rank": 460,
+  "ApprovedBy": 686,
+  "ApprovedText": "voluptas",
+  "ApprovedRegisteredBy": 638,
+  "ApprovedRegisteredDate": "1998-03-11T13:38:13.9990881+01:00",
+  "ExtraField1": "non",
+  "ExtraField2": "sapiente",
+  "ExtraField3": "doloremque",
+  "ExtraField4": "rem",
+  "ExtraField5": "voluptates",
+  "LastRecalculated": "2005-11-25T13:38:13.9990881+01:00",
+  "Updated": "1999-02-09T13:38:13.9990881+01:00",
+  "UpdatedAssociateId": 425,
+  "Registered": "2021-11-25T13:38:13.9990881+01:00",
+  "RegisteredAssociateId": 838,
+  "RequestAssociateId": 795,
+  "RequestComment": "non",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 261,
-      "ERPQuoteAlternativeKey": "esse",
-      "QuoteVersionId": 338,
-      "Name": "Kulas Group",
-      "Description": "Monitored zero defect project",
+      "QuoteAlternativeId": 921,
+      "ERPQuoteAlternativeKey": "non",
+      "QuoteVersionId": 689,
+      "Name": "Funk Inc and Sons",
+      "Description": "Sharable multi-state collaboration",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 20355.329999999998,
-      "ERPDiscountAmount": 5932.6619999999994,
-      "DiscountPercent": 7427.58,
-      "DiscountAmount": 21630.868,
+      "ERPDiscountPercent": 22762.242,
+      "ERPDiscountAmount": 20696.935999999998,
+      "DiscountPercent": 11498.645999999999,
+      "DiscountAmount": 19951.043999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "est",
-      "VAT": 25592.244,
-      "EarningPercent": 30393.532,
-      "EarningAmount": 5412.418,
-      "SubTotal": 16644.674,
-      "TotalPrice": 29121.128,
-      "ExtraField1": "et",
-      "ExtraField2": "nihil",
-      "ExtraField3": "qui",
-      "ExtraField4": "molestias",
-      "ExtraField5": "velit",
+      "VATInfo": "ab",
+      "VAT": 23038.034,
+      "EarningPercent": 2792.394,
+      "EarningAmount": 30769.611999999997,
+      "SubTotal": 19687.788,
+      "TotalPrice": 19195.75,
+      "ExtraField1": "nostrum",
+      "ExtraField2": "corrupti",
+      "ExtraField3": "itaque",
+      "ExtraField4": "saepe",
+      "ExtraField5": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 348
+          "FieldLength": 501
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 308
+      "FieldType": "System.Int32",
+      "FieldLength": 908
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 917,
-  "Name": "Schumm Group",
-  "Tooltip": "qui",
-  "PassiveText": "quia",
+  "ReldefId": 373,
+  "Name": "Fay Group",
+  "Tooltip": "non",
+  "PassiveText": "eaque",
   "Deleted": false,
-  "Rank": 1002,
+  "Rank": 927,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

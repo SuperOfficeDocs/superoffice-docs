@@ -153,6 +153,7 @@ so.envir: onsite, online
 | [emailflow](emailflow.md) |List provider for EmailFlow|
 | [emailfolder](emailfolder.md) |EmailFolderProvider gives you the folder hierarchy of a given mail account|
 | [emailfromtype](emailfromtype.md) |MDO provider for the EmailFromType enum|
+| [emailphone](emailphone.md) |List of e-mail addresses and phone numbers matching the search valu|
 | [emailrecipient](emailrecipient.md) |List of most recent e-mail recipients cached for the current user.|
 | [emailreplytotype](emailreplytotype.md) |MDO provider for the EmailReplyToType enum|
 | [erpactortype](erpactortype.md) ||
@@ -449,6 +450,7 @@ so.envir: onsite, online
 | [workflowdefinitionstatus](workflowdefinitionstatus.md) |MDO provider for the WorkflowDefinitionStatus enum|
 | [workflowgoaltype](workflowgoaltype.md) |MDO provider for the WorkflowGoalType enum|
 | [workflowinstancestatus](workflowinstancestatus.md) |MDO provider for the WorkflowInstanceStatus enum|
+| [workflowsplitoptiontype](workflowsplitoptiontype.md) |MDO provider for the WorkflowTriggerType enum|
 | [workflowsteptype](workflowsteptype.md) |MDO provider for the WorkflowStepType enum|
 | [workflowtimewaitalgorithm](workflowtimewaitalgorithm.md) |MDO provider for the WorkflowTimeWaitAlgorithm enum|
 | [workflowtimewaitintervaltype](workflowtimewaitintervaltype.md) |MDO provider for the WorkflowTimeWaitIntervalType enum|

@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,19 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "minus",
+  "odata.nextLink": "alias",
   "value": [
     {
-      "PrimaryKey": 883,
+      "PrimaryKey": 3964,
       "EntityName": "person",
-      "personId": 883,
-      "fullName": "Samir Rickey Kunze V"
+      "personId": 3964,
+      "fullName": "Kianna Williamson"
     },
     {
-      "PrimaryKey": 6711,
+      "PrimaryKey": 6951,
       "EntityName": "person",
-      "personId": 6711,
-      "fullName": "Mekhi Amira Kilback MD"
+      "personId": 6951,
+      "fullName": "Zita Kuhic"
     }
   ]
 }

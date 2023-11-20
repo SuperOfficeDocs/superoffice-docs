@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 800,
-  "ERPProductKey": "sed",
-  "ERPPriceListKey": "qui",
-  "Name": "White, Bayer and Kuhic",
-  "Description": "Exclusive multimedia capability",
-  "Code": "natus",
-  "PriceUnit": "labore",
-  "QuantityUnit": "ullam",
+  "ProductId": 946,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "exercitationem",
+  "Name": "Lebsack-Stiedemann",
+  "Description": "Profit-focused intermediate system engine",
+  "Code": "voluptatem",
+  "PriceUnit": "id",
+  "QuantityUnit": "est",
   "IsSubscription": false,
-  "SubscriptionUnit": "veniam",
-  "DefaultSubscriptionQuantity": 22762.242,
-  "ItemNumber": "183957",
+  "SubscriptionUnit": "nemo",
+  "DefaultSubscriptionQuantity": 30894.971999999998,
+  "ItemNumber": "195528",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eum",
-  "ProductTypeKey": "ad",
-  "VAT": 29801.206,
-  "VATInfo": "optio",
-  "UnitCost": 21424.023999999998,
-  "UnitMinimumPrice": 10204.304,
-  "UnitListPrice": 445.02799999999996,
+  "ProductFamilyKey": "repellat",
+  "ProductTypeKey": "vitae",
+  "VAT": 31167.629999999997,
+  "VATInfo": "et",
+  "UnitCost": 21138.829999999998,
+  "UnitMinimumPrice": 28447.318,
+  "UnitListPrice": 23495.597999999998,
   "InAssortment": false,
-  "Supplier": "officiis",
-  "SupplierCode": "culpa",
-  "Rights": "perferendis",
-  "Rule": "optio",
+  "Supplier": "consequatur",
+  "SupplierCode": "id",
+  "Rights": "asperiores",
+  "Rule": "consequatur",
   "ExtraInfo": [
     {
-      "Name": "Watsica LLC",
-      "Value": "sit",
+      "Name": "Champlin-Smitham",
+      "Value": "molestias",
       "Type": "Image"
     },
     {
-      "Name": "Watsica LLC",
-      "Value": "sit",
+      "Name": "Champlin-Smitham",
+      "Value": "molestias",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "eligendi",
-  "ExtraField1": "aut",
-  "ExtraField2": "rerum",
-  "ExtraField3": "quia",
-  "ExtraField4": "sit",
-  "ExtraField5": "voluptatibus",
-  "InStock": 29218.282
+  "RawExtraInfo": "repellendus",
+  "ExtraField1": "explicabo",
+  "ExtraField2": "quia",
+  "ExtraField3": "delectus",
+  "ExtraField4": "beatae",
+  "ExtraField5": "quia",
+  "InStock": 9245.3
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 419,
-  "ERPProductKey": "mollitia",
-  "ERPPriceListKey": "ex",
-  "Name": "Rutherford-Borer",
-  "Description": "Universal interactive productivity",
-  "Code": "sed",
-  "PriceUnit": "sunt",
-  "QuantityUnit": "omnis",
+  "ProductId": 82,
+  "ERPProductKey": "sunt",
+  "ERPPriceListKey": "nihil",
+  "Name": "Crist LLC",
+  "Description": "Fundamental multi-state parallelism",
+  "Code": "hic",
+  "PriceUnit": "consequuntur",
+  "QuantityUnit": "eum",
   "IsSubscription": false,
-  "SubscriptionUnit": "at",
-  "DefaultSubscriptionQuantity": 24210.149999999998,
-  "ItemNumber": "1077309",
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 8950.704,
+  "ItemNumber": "922964",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "consequatur",
-  "VAT": 7446.384,
-  "VATInfo": "asperiores",
-  "UnitCost": 1541.9279999999999,
-  "UnitMinimumPrice": 3585.296,
-  "UnitListPrice": 26695.412,
+  "ProductFamilyKey": "vitae",
+  "ProductTypeKey": "et",
+  "VAT": 13501.271999999999,
+  "VATInfo": "officia",
+  "UnitCost": 7781.722,
+  "UnitMinimumPrice": 7085.974,
+  "UnitListPrice": 3497.544,
   "InAssortment": false,
-  "Supplier": "ipsum",
-  "SupplierCode": "eos",
-  "Rights": "quaerat",
-  "Rule": "ipsum",
+  "Supplier": "omnis",
+  "SupplierCode": "laborum",
+  "Rights": "aut",
+  "Rule": "consequuntur",
   "ExtraInfo": [
     {
-      "Name": "Powlowski, Walker and Johns",
-      "Value": "repudiandae",
+      "Name": "Graham Group",
+      "Value": "doloribus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldType": "System.String",
+          "FieldLength": 94
         }
       }
     },
     {
-      "Name": "Powlowski, Walker and Johns",
-      "Value": "repudiandae",
+      "Name": "Graham Group",
+      "Value": "doloribus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldType": "System.String",
+          "FieldLength": 94
         }
       }
     }
   ],
-  "RawExtraInfo": "quisquam",
-  "ExtraField1": "mollitia",
-  "ExtraField2": "laboriosam",
-  "ExtraField3": "quo",
-  "ExtraField4": "in",
-  "ExtraField5": "praesentium",
-  "InStock": 31173.897999999997,
+  "RawExtraInfo": "quia",
+  "ExtraField1": "laudantium",
+  "ExtraField2": "eius",
+  "ExtraField3": "eos",
+  "ExtraField4": "aut",
+  "ExtraField5": "nihil",
+  "InStock": 16168.305999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 857
     }
   }
 }

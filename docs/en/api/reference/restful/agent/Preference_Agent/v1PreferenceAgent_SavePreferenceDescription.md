@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 904,
-  "Section": "est",
-  "Key": "sed",
-  "Name": "Marquardt Group",
+  "PrefDescId": 374,
+  "Section": "numquam",
+  "Key": "quae",
+  "Name": "Walter Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Polarised directional intranet",
+  "Description": "Persevering zero administration Graphical User Interface",
   "IsBuiltin": true,
-  "TableName": "Kassulke-Gleichner",
-  "UserDefinedListId": 939,
-  "Rank": 242,
-  "SubGroup": "voluptatem",
-  "MinLevel": 461,
-  "MaxValue": 162,
-  "MinValue": 128,
-  "RequiredLicense": "esse"
+  "TableName": "Block, Dare and Berge",
+  "UserDefinedListId": 319,
+  "Rank": 23,
+  "SubGroup": "odio",
+  "MinLevel": 287,
+  "MaxValue": 215,
+  "MinValue": 882,
+  "RequiredLicense": "voluptate"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 359,
-  "Section": "quae",
-  "Key": "quas",
-  "Name": "McClure-Ziemann",
+  "PrefDescId": 271,
+  "Section": "quam",
+  "Key": "accusantium",
+  "Name": "Hudson, Hammes and Brown",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual 5th generation initiative",
+  "Description": "Virtual incremental implementation",
   "IsBuiltin": true,
-  "TableName": "Kreiger, Legros and Murazik",
-  "UserDefinedListId": 629,
-  "Rank": 169,
-  "SubGroup": "debitis",
-  "MinLevel": 557,
-  "MaxValue": 180,
-  "MinValue": 912,
-  "RequiredLicense": "ut",
+  "TableName": "Rolfson, Fahey and Ankunding",
+  "UserDefinedListId": 948,
+  "Rank": 324,
+  "SubGroup": "id",
+  "MinLevel": 95,
+  "MaxValue": 323,
+  "MinValue": 661,
+  "RequiredLicense": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldType": "System.Int32",
+      "FieldLength": 988
     }
   }
 }

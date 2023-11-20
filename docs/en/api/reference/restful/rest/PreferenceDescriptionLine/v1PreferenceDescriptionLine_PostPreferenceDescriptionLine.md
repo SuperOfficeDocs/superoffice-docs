@@ -86,16 +86,16 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 852,
-  "PrefDescId": 310,
-  "PrefValue": "quaerat",
-  "PrefShowValue": "sit",
-  "Description": "Fundamental interactive pricing structure",
-  "IsBuiltin": true
+  "PrefDescLineId": 695,
+  "PrefDescId": 922,
+  "PrefValue": "et",
+  "PrefShowValue": "molestiae",
+  "Description": "Devolved leading edge functionalities",
+  "IsBuiltin": false
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 333,
-  "PrefDescId": 156,
+  "PrefDescLineId": 753,
+  "PrefDescId": 482,
   "PrefValue": "maxime",
-  "PrefShowValue": "explicabo",
-  "Description": "Future-proofed disintermediate framework",
-  "IsBuiltin": false,
+  "PrefShowValue": "ratione",
+  "Description": "Team-oriented foreground open architecture",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Murphy-Toy",
-    "Tooltip": "voluptate",
-    "Deleted": false,
-    "UdListDefinitionId": 779,
-    "Rank": 386,
+    "Id": 316,
+    "Name": "Satterfield LLC",
+    "Tooltip": "similique",
+    "Deleted": true,
+    "UdListDefinitionId": 622,
+    "Rank": 652,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldLength": 644
       }
     }
   }

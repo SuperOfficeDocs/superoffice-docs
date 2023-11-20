@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 882
+  "PersonId": 1002
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 260,
-    "Name": "Oberbrunner, Witting and Hansen",
-    "Description": "Synergized multi-tasking definition",
+    "ProjectId": 868,
+    "Name": "Auer-Russel",
+    "Description": "Networked content-based concept",
     "URL": "http://www.example.com/",
-    "Type": "vero",
-    "AssociateId": 60,
-    "AssociateFullName": "Mrs. Oswald Kutch",
-    "TypeId": 607,
-    "Updated": "2021-07-10T11:06:35.1614465+02:00",
-    "StatusId": 731,
-    "Status": "inventore",
-    "TextId": 339,
-    "PublishTo": "2011-04-02T11:06:35.1614465+02:00",
-    "PublishFrom": "1998-12-25T11:06:35.1614465+01:00",
+    "Type": "ratione",
+    "AssociateId": 129,
+    "AssociateFullName": "Valentine Hodkiewicz",
+    "TypeId": 697,
+    "Updated": "2005-10-05T13:38:13.9834617+02:00",
+    "StatusId": 329,
+    "Status": "asperiores",
+    "TextId": 444,
+    "PublishTo": "2006-08-10T13:38:13.9834617+02:00",
+    "PublishFrom": "2002-06-07T13:38:13.9834617+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "733408",
-    "ActiveErpLinks": 404,
+    "ProjectNumber": "531027",
+    "ActiveErpLinks": 170,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 725
+        "FieldLength": 428
       }
     }
   }

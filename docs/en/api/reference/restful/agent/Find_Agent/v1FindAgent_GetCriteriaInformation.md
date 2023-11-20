@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "odit",
-  "ProviderName": "Mayert Group",
-  "StorageKey": "est",
+  "StorageType": "non",
+  "ProviderName": "Hauck-Kassulke",
+  "StorageKey": "ea",
   "StaticColumns": [
-    "sunt",
-    "porro"
+    "eius",
+    "totam"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Robel Group",
-      "Operator": "optio",
+      "Name": "Bernier-Ortiz",
+      "Operator": "repellat",
       "Values": [
-        "et",
-        "qui"
+        "eum",
+        "ullam"
       ],
       "DisplayValues": [
-        "aperiam",
-        "ipsam"
+        "dicta",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 181,
+      "InterParenthesis": 503,
       "InterOperator": "And",
-      "UniqueHash": 206
+      "UniqueHash": 337
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Nader LLC",
-      "DisplayTooltip": "repudiandae",
-      "DisplayType": "quidem",
-      "CanOrderBy": false,
-      "Name": "Kuvalis-Schinner",
+      "DisplayName": "Bednar-Lowe",
+      "DisplayTooltip": "provident",
+      "DisplayType": "animi",
+      "CanOrderBy": true,
+      "Name": "Wilderman LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "quo",
-      "RestrictionListName": "Powlowski, Mann and Hermann",
+      "RestrictionType": "molestiae",
+      "RestrictionListName": "Senger LLC",
       "IsVisible": false,
-      "ExtraInfo": "earum",
-      "Width": "perspiciatis",
-      "IconHint": "dolore",
-      "HeadingIconHint": "odio"
+      "ExtraInfo": "dolores",
+      "Width": "non",
+      "IconHint": "quis",
+      "HeadingIconHint": "rem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Altenwerth, Gottlieb and Baumbach",
-      "PrimaryKey": 288,
+      "EntityName": "Turner, Fay and Eichmann",
+      "PrimaryKey": 320,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "corrupti",
-          "LinkHint": "distinctio"
+          "DisplayValue": "quod",
+          "TooltipHint": "id",
+          "LinkHint": "exercitationem"
         }
       },
-      "LinkHint": "placeat",
-      "StyleHint": "dicta",
+      "LinkHint": "perspiciatis",
+      "StyleHint": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 257
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Haley, Fritsch and Goyette",
-      "Description": "Stand-alone analyzing protocol",
-      "Rank": 369,
+      "Name": "Boyer-Gaylord",
+      "Description": "Customer-focused analyzing intranet",
+      "Rank": 644,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Haley, Fritsch and Goyette",
-      "Description": "Stand-alone analyzing protocol",
-      "Rank": 369,
+      "Name": "Boyer-Gaylord",
+      "Description": "Customer-focused analyzing intranet",
+      "Rank": 644,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 504
     }
   }
 }

@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 75,
-  "PlainMessage": "consequuntur",
-  "HtmlMessage": "mollitia",
-  "SmsMessage": "harum",
-  "Description": "Digitized incremental emulation",
-  "Subject": "eius",
-  "FolderId": 413,
-  "HeaderField": "quas",
-  "Design": "eos",
+  "ShipmentMessageId": 405,
+  "PlainMessage": "rerum",
+  "HtmlMessage": "odit",
+  "SmsMessage": "numquam",
+  "Description": "Up-sized disintermediate matrices",
+  "Subject": "libero",
+  "FolderId": 152,
+  "HeaderField": "totam",
+  "Design": "dolorum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Self-enabling multi-tasking groupware",
-  "AccessKey": "autem",
-  "DocumentMessage": 229,
-  "Registered": "2004-11-13T11:06:34.7864409+01:00",
-  "RegisteredAssociateId": 1000,
-  "Updated": "2007-06-11T11:06:34.7864409+02:00",
-  "UpdatedAssociateId": 52,
-  "UpdatedCount": 245,
+  "LongDescription": "Open-architected national task-force",
+  "AccessKey": "modi",
+  "DocumentMessage": 49,
+  "Registered": "2001-12-25T13:38:13.7333439+01:00",
+  "RegisteredAssociateId": 805,
+  "Updated": "2017-02-16T13:38:13.7333439+01:00",
+  "UpdatedAssociateId": 69,
+  "UpdatedCount": 906,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldType": "System.String",
+      "FieldLength": 603
     }
   }
 }

@@ -69,13 +69,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventType": "AddedMessage",
-  "Attributes": "placeat",
+  "Attributes": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldType": "System.String",
+      "FieldLength": 572
     }
   }
 }

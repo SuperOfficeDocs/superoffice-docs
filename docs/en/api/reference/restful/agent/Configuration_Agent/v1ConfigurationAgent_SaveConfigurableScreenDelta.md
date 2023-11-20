@@ -91,22 +91,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 472,
-  "Name": "Runolfsdottir LLC",
-  "Description": "Programmable scalable encryption",
-  "DeltaJson": "iste",
+  "ConfigurableScreenDeltaId": 767,
+  "Name": "Bernhard Group",
+  "Description": "Visionary needs-based database",
+  "DeltaJson": "et",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "repellendus",
-  "UpdatedDate": "2023-10-27T11:06:34.0652258+02:00",
-  "CreatedDate": "2021-01-13T11:06:34.0652258+01:00",
+  "RecipeId": "porro",
+  "UpdatedDate": "2021-03-21T13:38:13.2646505+01:00",
+  "CreatedDate": "2004-03-20T13:38:13.2646505+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    906,
-    419
+    876,
+    816
   ],
-  "AppliesToKey": "officia"
+  "AppliesToKey": "temporibus"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 701,
-  "Name": "Hirthe Inc and Sons",
-  "Description": "Managed client-server benchmark",
-  "DeltaJson": "blanditiis",
+  "ConfigurableScreenDeltaId": 803,
+  "Name": "Trantow-Adams",
+  "Description": "Progressive bi-directional secured line",
+  "DeltaJson": "quasi",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
   "RecipeId": "eum",
-  "UpdatedDate": "2018-03-17T11:06:34.0652258+01:00",
-  "CreatedDate": "2002-05-01T11:06:34.0652258+02:00",
+  "UpdatedDate": "1997-11-13T13:38:13.2646505+01:00",
+  "CreatedDate": "2001-07-26T13:38:13.2646505+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    442,
-    720
+    16,
+    12
   ],
-  "AppliesToKey": "quis",
+  "AppliesToKey": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   }
 }

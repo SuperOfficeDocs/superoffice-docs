@@ -23,6 +23,7 @@ The name of the MDO list is 'appointmentresource'.
 |Removes resources with conflicts. Requires start and end times for conflict, either explicitly set or from appointment_id.| remove_conflicts|False|
 |Conflict datetime start.| |conflict_start|
 |Conflict datetime end.| |conflict_end|
+|Conflict datetimes are in UTC time.| |conflict_utc|
 |Appointment id used for conflict resolution. Preferentially used to determine conflict start/end.| |appointment_id|
 
 

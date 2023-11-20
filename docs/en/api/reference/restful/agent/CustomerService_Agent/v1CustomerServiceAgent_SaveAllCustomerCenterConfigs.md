@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigs": [
     {
-      "CustConfigId": 98,
+      "CustConfigId": 182,
       "Type": "Options",
-      "Config": "rerum",
-      "CustLangId": 838,
-      "Registered": "1996-06-29T11:06:34.2539546+02:00",
-      "RegisteredAssociateId": 65,
-      "Updated": "2016-09-18T11:06:34.2539546+02:00",
-      "UpdatedAssociateId": 650
+      "Config": "nihil",
+      "CustLangId": 320,
+      "Registered": "2017-06-30T13:38:13.3896326+02:00",
+      "RegisteredAssociateId": 647,
+      "Updated": "2023-08-22T13:38:13.3896326+02:00",
+      "UpdatedAssociateId": 353
     }
   ]
 }

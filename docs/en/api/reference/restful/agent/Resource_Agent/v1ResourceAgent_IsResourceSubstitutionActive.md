@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Ratke-Beier",
-    "Wiza, Mann and Rice"
+    "Renner, Windler and DuBuque",
+    "Stracke-Bernier"
   ],
-  "Culture": "dolorum"
+  "Culture": "expedita"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Pfeffer, Veum and McLaughlin",
-    "ResourceValue": "animi",
-    "Culture": "expedita",
+    "ResourceName": "Crist LLC",
+    "ResourceValue": "magnam",
+    "Culture": "facere",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldType": "System.Int32",
+        "FieldLength": 535
       }
     }
   },
   {
-    "ResourceName": "Pfeffer, Veum and McLaughlin",
-    "ResourceValue": "animi",
-    "Culture": "expedita",
+    "ResourceName": "Crist LLC",
+    "ResourceValue": "magnam",
+    "Culture": "facere",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldType": "System.Int32",
+        "FieldLength": 535
       }
     }
   }

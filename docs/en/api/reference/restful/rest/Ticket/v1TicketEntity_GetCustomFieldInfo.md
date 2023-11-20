@@ -71,7 +71,7 @@ OK
 GET /api/v1/Ticket/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Little Inc and Sons",
-  "DisplayName": "Harvey Group",
-  "Description": "Self-enabling intermediate attitude",
-  "ShortLabel": "blanditiis",
+  "FieldName": "Anderson-Grimes",
+  "DisplayName": "Lindgren-Blanda",
+  "Description": "Streamlined neutral parallelism",
+  "ShortLabel": "rerum",
   "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": true,
-  "IsMandatory": true,
+  "HideField": false,
+  "IsIndexed": false,
+  "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 535,
-  "TemplateVariableName": "Rosenbaum Inc and Sons"
+  "Rank": 482,
+  "TemplateVariableName": "Ankunding LLC"
 }
 ```

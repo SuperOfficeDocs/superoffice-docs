@@ -116,6 +116,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -128,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2005-06-16T11:06:33.7347319+02:00",
-  "EndTime": "2004-07-14T11:06:33.7347319+02:00",
-  "Count": 327
+  "StartTime": "1999-08-09T13:38:13.0459237+02:00",
+  "EndTime": "2005-12-12T13:38:13.0459237+01:00",
+  "Count": 656
 }
 ```
 
@@ -146,64 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 291,
-    "StartDate": "2017-08-23T11:06:33.7347319+02:00",
-    "EndDate": "2005-10-10T11:06:33.7347319+02:00",
+    "AppointmentId": 543,
+    "StartDate": "2020-08-22T13:38:13.0459237+02:00",
+    "EndDate": "2022-01-23T13:38:13.0459237+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ducimus",
-    "AssociateFullName": "Gracie Leannon",
-    "ContactName": "Dooley-Maggio",
-    "Description": "Programmable logistical implementation",
-    "PersonFullName": "Richmond Marks I",
-    "PersonId": 492,
-    "ContactId": 984,
-    "ProjectId": 988,
-    "ProjectName": "Beer LLC",
-    "IsPublished": false,
-    "AssociateId": 213,
-    "ColorIndex": 218,
-    "IsFree": false,
-    "HasAlarm": false,
+    "Task": "corporis",
+    "AssociateFullName": "Dr. Jackson Magnus Ferry",
+    "ContactName": "Trantow Inc and Sons",
+    "Description": "Triple-buffered encompassing instruction set",
+    "PersonFullName": "Mr. Ewell Jocelyn Baumbach Sr.",
+    "PersonId": 128,
+    "ContactId": 6,
+    "ProjectId": 138,
+    "ProjectName": "Keebler-Douglas",
+    "IsPublished": true,
+    "AssociateId": 831,
+    "ColorIndex": 5,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 334,
-    "PriorityName": "Hilll, Zulauf and Eichmann",
+    "PriorityId": 324,
+    "PriorityName": "Labadie-Gleichner",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2001-07-27T11:06:33.7347319+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2007-10-13T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-09-20T11:06:33.7347319+02:00",
-    "RecurringEndDate": "2008-06-22T11:06:33.7347319+02:00",
-    "MotherId": 222,
-    "AssignedBy": 38,
-    "AssignedByFullName": "Shyanne Miller",
+    "RecurringStartDate": "2004-05-07T13:38:13.0459237+02:00",
+    "RecurringEndDate": "2006-08-30T13:38:13.0459237+02:00",
+    "MotherId": 19,
+    "AssignedBy": 618,
+    "AssignedByFullName": "Mr. Cathy Garnett Morissette",
     "RejectReason": "",
-    "Location": "earum",
-    "AlarmLeadTime": "ut",
-    "SaleId": 281,
-    "SaleName": "VonRueden Group",
-    "AssociateName": "Swaniawski, Willms and Purdy",
-    "CreatedDate": "2022-05-14T11:06:33.7347319+02:00",
-    "CreatedBy": "quisquam",
-    "CreatedByFullName": "Mr. Domingo Diamond Upton",
-    "CreatedByAssociateId": 336,
+    "Location": "itaque",
+    "AlarmLeadTime": "illo",
+    "SaleId": 890,
+    "SaleName": "Goyette, Prohaska and Schuppe",
+    "AssociateName": "Bode, Hagenes and Friesen",
+    "CreatedDate": "2018-09-23T13:38:13.0459237+02:00",
+    "CreatedBy": "placeat",
+    "CreatedByFullName": "Raegan Hirthe",
+    "CreatedByAssociateId": 620,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "accusantium",
-    "Agenda": "enim",
-    "InternalNotes": "incidunt",
+    "PreferredTZLocation": 183,
+    "Title": "animi",
+    "Agenda": "eos",
+    "InternalNotes": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 293
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

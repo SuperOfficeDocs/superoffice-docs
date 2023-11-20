@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 183,
-    "Name": "Buckridge-Dicki",
-    "ToolTip": "Omnis impedit voluptas velit doloribus ut corporis.",
+    "Id": 889,
+    "Name": "Leffler Inc and Sons",
+    "ToolTip": "Molestiae hic reiciendis.",
     "Deleted": true,
-    "Rank": 746,
-    "Type": "architecto",
-    "ColorBlock": 383,
-    "IconHint": "animi",
-    "Selected": true,
-    "LastChanged": "2003-01-18T11:06:43.0534497+01:00",
+    "Rank": 141,
+    "Type": "ut",
+    "ColorBlock": 191,
+    "IconHint": "sapiente",
+    "Selected": false,
+    "LastChanged": "2007-04-15T13:38:18.2181419+02:00",
     "ChildItems": [
       {
-        "Id": 896,
-        "Name": "McLaughlin, Donnelly and Kilback",
-        "ToolTip": "Minima in quisquam blanditiis.",
-        "Deleted": true,
-        "Rank": 781,
-        "Type": "veritatis",
-        "ColorBlock": 675,
-        "IconHint": "incidunt",
-        "Selected": false,
-        "LastChanged": "2011-10-14T11:06:43.0534497+02:00",
+        "Id": 801,
+        "Name": "Larkin-Corkery",
+        "ToolTip": "Nulla fugit enim assumenda dolor sequi.",
+        "Deleted": false,
+        "Rank": 377,
+        "Type": "et",
+        "ColorBlock": 939,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2020-11-29T13:38:18.2181419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "eos",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Irwin Hintz",
+        "FullName": "Shanelle Fausto Ebert V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 192
+            "FieldType": "System.Int32",
+            "FieldLength": 522
           }
         }
       }
     ],
     "ExtraInfo": "possimus",
-    "StyleHint": "nostrum",
-    "Hidden": false,
-    "FullName": "Blaise Wintheiser",
+    "StyleHint": "tenetur",
+    "Hidden": true,
+    "FullName": "Jedediah Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 624
+        "FieldLength": 391
       }
     }
   }

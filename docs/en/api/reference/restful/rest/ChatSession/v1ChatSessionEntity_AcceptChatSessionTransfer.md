@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 390,
-  "TopicId": 819,
+  "ChatSessionId": 214,
+  "TopicId": 10,
   "User": null,
   "Person": null,
-  "CustomerAlias": "consectetur",
-  "CustomerHost": "excepturi",
-  "CustomerName": "Nolan Inc and Sons",
-  "CustomerEmail": "orie_kozey@jakubowski.uk",
-  "CustomerPhone": "074-694-4223 x6998",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Stehr Group",
+  "CustomerAlias": "ut",
+  "CustomerHost": "ut",
+  "CustomerName": "Hoeger Group",
+  "CustomerEmail": "holden@connelly.name",
+  "CustomerPhone": "(057)384-0238 x08850",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Fritsch Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "perferendis",
-  "LastMessage": "vel",
-  "WhenRequested": "1999-05-03T11:06:41.4884932+02:00",
-  "WhenStarted": "1999-10-24T11:06:41.4884932+02:00",
-  "WhenEnded": "2023-10-19T11:06:41.4884932+02:00",
-  "WhenIdle": "1996-12-25T11:06:41.4884932+01:00",
-  "WhenFetched": "1998-01-18T11:06:41.4884932+01:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 96,
-  "AlertLevel": 240,
-  "Rank": 107,
+  "FirstMessage": "aliquam",
+  "LastMessage": "asperiores",
+  "WhenRequested": "1996-10-21T13:38:17.15557+02:00",
+  "WhenStarted": "1997-06-29T13:38:17.15557+02:00",
+  "WhenEnded": "2003-09-20T13:38:17.15557+02:00",
+  "WhenIdle": "2005-08-10T13:38:17.15557+02:00",
+  "WhenFetched": "2005-10-06T13:38:17.15557+02:00",
+  "SessionKey": "nesciunt",
+  "InitialQueuePos": 738,
+  "AlertLevel": 191,
+  "Rank": 502,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 801,
+  "Rating": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldLength": 146
     }
   }
 }

@@ -111,8 +111,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 486,
-  "ERPProductKey": "aut"
+  "QuoteConnectionId": 89,
+  "ERPProductKey": "ut"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 835,
-  "ERPProductKey": "occaecati",
-  "ERPPriceListKey": "libero",
-  "Name": "Homenick Group",
-  "Description": "Object-based interactive internet solution",
-  "Code": "voluptatem",
-  "PriceUnit": "consequatur",
-  "QuantityUnit": "aliquid",
+  "ProductId": 10,
+  "ERPProductKey": "consequuntur",
+  "ERPPriceListKey": "optio",
+  "Name": "Schmeler Group",
+  "Description": "Persistent optimizing pricing structure",
+  "Code": "natus",
+  "PriceUnit": "fugit",
+  "QuantityUnit": "voluptates",
   "IsSubscription": true,
-  "SubscriptionUnit": "non",
-  "DefaultSubscriptionQuantity": 24109.862,
-  "ItemNumber": "1036836",
+  "SubscriptionUnit": "ut",
+  "DefaultSubscriptionQuantity": 14103.0,
+  "ItemNumber": "522552",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolore",
-  "ProductTypeKey": "sed",
-  "VAT": 12285.279999999999,
-  "VATInfo": "non",
-  "UnitCost": 6377.69,
-  "UnitMinimumPrice": 1576.402,
-  "UnitListPrice": 4575.6399999999994,
+  "ProductFamilyKey": "beatae",
+  "ProductTypeKey": "necessitatibus",
+  "VAT": 24329.242,
+  "VATInfo": "nam",
+  "UnitCost": 31308.66,
+  "UnitMinimumPrice": 9251.568,
+  "UnitListPrice": 25225.566,
   "InAssortment": false,
-  "Supplier": "dolores",
-  "SupplierCode": "beatae",
-  "Rights": "aut",
-  "Rule": "eos",
+  "Supplier": "facilis",
+  "SupplierCode": "debitis",
+  "Rights": "non",
+  "Rule": "reprehenderit",
   "ExtraInfo": [
     {
-      "Name": "Durgan, Douglas and Hauck",
-      "Value": "odit",
+      "Name": "Crist-Bogisich",
+      "Value": "veniam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldType": "System.String",
+          "FieldLength": 670
         }
       }
     },
     {
-      "Name": "Durgan, Douglas and Hauck",
-      "Value": "odit",
+      "Name": "Crist-Bogisich",
+      "Value": "veniam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldType": "System.String",
+          "FieldLength": 670
         }
       }
     }
   ],
-  "RawExtraInfo": "aliquid",
-  "ExtraField1": "est",
-  "ExtraField2": "ut",
-  "ExtraField3": "labore",
-  "ExtraField4": "sapiente",
-  "ExtraField5": "reprehenderit",
-  "InStock": 29976.71,
+  "RawExtraInfo": "at",
+  "ExtraField1": "dolorem",
+  "ExtraField2": "molestias",
+  "ExtraField3": "a",
+  "ExtraField4": "error",
+  "ExtraField5": "dolore",
+  "InStock": 14040.32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 515
+      "FieldType": "System.Int32",
+      "FieldLength": 796
     }
   }
 }

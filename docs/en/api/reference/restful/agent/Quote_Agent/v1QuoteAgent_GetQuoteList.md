@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "sint"
+  "QuoteListType": "aut"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "possimus",
-    "DisplayValue": "sunt",
-    "DisplayDescription": "Re-contextualized 24/7 core",
+    "ERPQuoteListItemKey": "dolor",
+    "DisplayValue": "autem",
+    "DisplayDescription": "Future-proofed bifurcated frame",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 418
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "possimus",
-    "DisplayValue": "sunt",
-    "DisplayDescription": "Re-contextualized 24/7 core",
+    "ERPQuoteListItemKey": "dolor",
+    "DisplayValue": "autem",
+    "DisplayDescription": "Future-proofed bifurcated frame",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 418
       }
     }
   }

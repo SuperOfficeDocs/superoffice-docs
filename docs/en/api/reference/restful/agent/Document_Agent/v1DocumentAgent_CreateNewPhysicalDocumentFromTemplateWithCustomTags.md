@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 609,
-  "PersonId": 206,
-  "AppointmentId": 166,
-  "DocumentId": 316,
-  "SaleId": 634,
-  "SelectionId": 622,
-  "ProjectId": 850,
+  "ContactId": 380,
+  "PersonId": 952,
+  "AppointmentId": 940,
+  "DocumentId": 606,
+  "SaleId": 508,
+  "SelectionId": 610,
+  "ProjectId": 574,
   "CustomTags": [
-    "fugiat",
-    "reiciendis"
+    "perspiciatis",
+    "similique"
   ],
   "CustomValues": [
-    "possimus",
-    "nulla"
+    "velit",
+    "esse"
   ],
-  "UiCulture": "sint"
+  "UiCulture": "ex"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 602,
+  "DocumentId": 871,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aut",
-  "Header": "dolores",
-  "Name": "Veum LLC",
-  "OurRef": "id",
-  "YourRef": "ut",
-  "CreatedDate": "2015-05-01T11:06:34.395813+02:00",
-  "UpdatedDate": "2002-09-25T11:06:34.395813+02:00",
-  "Description": "Mandatory impactful approach",
+  "Attention": "non",
+  "Header": "vero",
+  "Name": "Streich, Bahringer and Weimann",
+  "OurRef": "rem",
+  "YourRef": "sequi",
+  "CreatedDate": "2003-10-10T13:38:13.4677523+02:00",
+  "UpdatedDate": "2009-12-18T13:38:13.4677523+01:00",
+  "Description": "Integrated systemic help-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-06-20T11:06:34.395813+02:00",
-  "ExternalRef": "placeat",
+  "Date": "2014-07-20T13:38:13.4833723+02:00",
+  "ExternalRef": "tempore",
   "Completed": "Completed",
-  "ActiveLinks": 129,
+  "ActiveLinks": 511,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Mosciski, Gleichner and Breitenberg",
-      "Id": 85,
-      "Description": "Vision-oriented reciprocal toolset",
-      "ExtraInfo": "aut",
-      "LinkId": 813,
+      "EntityName": "Bauch Inc and Sons",
+      "Id": 934,
+      "Description": "Exclusive disintermediate groupware",
+      "ExtraInfo": "sint",
+      "LinkId": 828,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 982
+          "FieldLength": 10
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 251,
-  "Snum": 482,
+  "SuggestedDocumentId": 209,
+  "Snum": 664,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ebba Beier Sr.",
-    "SuperOffice:2": "2016559702"
+    "SuperOffice:1": "Dr. Edmund Shanna Schowalter IV",
+    "SuperOffice:2": "751756878"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "impedit",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "2005-05-18T11:06:34.395813+02:00",
-  "PublishTo": "2004-06-25T11:06:34.395813+02:00",
-  "PublishFrom": "2018-08-27T11:06:34.395813+02:00",
+  "PublishEventDate": "1999-09-05T13:38:13.4833723+02:00",
+  "PublishTo": "1997-04-28T13:38:13.4833723+02:00",
+  "PublishFrom": "2005-09-02T13:38:13.4833723+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 160,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 795
         }
       }
     },
     {
-      "VisibleId": 160,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 795
         }
       }
     }
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldLength": 545
     }
   }
 }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 376,
-  "Name": "West, Ratke and Flatley",
-  "Tooltip": "labore",
+  "Id": 654,
+  "Name": "Green Group",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 736,
+  "Rank": 68,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quod",
-  "InUseByUserDefinedFields": false
+  "ListType": "maiores",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 595,
-  "Name": "Pfannerstill-Adams",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 290,
+  "Id": 412,
+  "Name": "Macejkovic-Pacocha",
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "Rank": 425,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "laborum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 877
+      "FieldType": "System.Int32",
+      "FieldLength": 346
     }
   }
 }

@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aperiam",
+    "path": "esse",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aperiam",
+    "path": "esse",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "velit",
+  "SaleText": "iste",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-11-28T11:06:42.1759752+01:00",
-  "Amount": 26018.468,
-  "SaleId": 682,
-  "Earning": 8273.76,
-  "EarningPercent": 19233.358,
-  "Heading": "reiciendis",
-  "Number": "794651",
-  "Probability": 866,
-  "CreatedDate": "2022-01-19T11:06:42.1759752+01:00",
-  "UpdatedDate": "1999-04-03T11:06:42.1759752+02:00",
+  "Saledate": "2015-10-04T13:38:17.624303+02:00",
+  "Amount": 11981.282,
+  "SaleId": 440,
+  "Earning": 4180.756,
+  "EarningPercent": 30152.214,
+  "Heading": "et",
+  "Number": "811247",
+  "Probability": 739,
+  "CreatedDate": "2017-01-17T13:38:17.624303+01:00",
+  "UpdatedDate": "2007-06-11T13:38:17.624303+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 607,
+  "ActiveLinks": 753,
   "Links": [
     {
-      "EntityName": "Mills, Moore and Gutkowski",
-      "Id": 799,
-      "Description": "Team-oriented reciprocal flexibility",
-      "ExtraInfo": "laudantium",
-      "LinkId": 714,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 385
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2019-06-21T11:06:42.1759752+02:00",
-  "Postit": "quia",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2003-02-06T11:06:42.1759752+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Jaskolski, Willms and Abbott",
-      "Comment": "libero",
-      "StakeholderRoleId": 313,
-      "CountryId": 209,
-      "PersonId": 925,
-      "EmailDescription": "ahmad_metz@rutherford.com",
-      "EmailId": 162,
-      "EmailAddress": "tate.cronin@anderson.biz",
-      "PhoneId": 884,
-      "ContactName": "Mayer, Rowe and Kihn",
-      "ContactId": 9,
-      "SaleId": 938,
-      "Mrmrs": "molestiae",
-      "Firstname": "Ervin",
-      "MiddleName": "Brakus-D'Amore",
-      "Lastname": "Heller",
-      "SaleStakeholderId": 747,
-      "Rank": 377,
-      "Phone": "1-124-575-6519 x12865",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 589
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 697,
-  "UserDefinedFields": {
-    "SuperOffice:1": "538130936",
-    "SuperOffice:2": "266562423"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "voluptatem"
-  },
-  "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "labore"
-  },
-  "PublishEventDate": "2021-02-21T11:06:42.1759752+01:00",
-  "PublishTo": "2005-05-16T11:06:42.1759752+02:00",
-  "PublishFrom": "1997-12-30T11:06:42.1759752+01:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 923,
-      "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "EntityName": "Ullrich, Senger and Botsford",
+      "Id": 815,
+      "Description": "Operative encompassing data-warehouse",
+      "ExtraInfo": "quasi",
+      "LinkId": 153,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldLength": 198
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2006-02-24T13:38:17.624303+01:00",
+  "Postit": "vitae",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2003-01-15T13:38:17.624303+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Mohr-Barrows",
+      "Comment": "sunt",
+      "StakeholderRoleId": 818,
+      "CountryId": 894,
+      "PersonId": 720,
+      "EmailDescription": "louvenia@erdman.biz",
+      "EmailId": 772,
+      "EmailAddress": "marta@harber.biz",
+      "PhoneId": 767,
+      "ContactName": "Schuster, Monahan and Boyle",
+      "ContactId": 545,
+      "SaleId": 189,
+      "Mrmrs": "aut",
+      "Firstname": "Bulah",
+      "MiddleName": "Schaefer-Padberg",
+      "Lastname": "Kemmer",
+      "SaleStakeholderId": 749,
+      "Rank": 56,
+      "Phone": "(049)440-4966",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 227
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 581,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Yazmin Mante",
+    "SuperOffice:2": "Miss Pearl Ubaldo Hodkiewicz"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "eum",
+    "ExtraFields2": "voluptas"
+  },
+  "CustomFields": {
+    "CustomFields1": "molestiae",
+    "CustomFields2": "quos"
+  },
+  "PublishEventDate": "2020-09-01T13:38:17.624303+02:00",
+  "PublishTo": "2009-08-15T13:38:17.624303+02:00",
+  "PublishFrom": "2003-05-15T13:38:17.624303+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 736,
+      "Visibility": "All",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 794
         }
       }
     },
     {
-      "VisibleId": 923,
+      "VisibleId": 736,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldLength": 794
         }
       }
     }
@@ -306,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldLength": 795
     }
   },
   "_Links": {

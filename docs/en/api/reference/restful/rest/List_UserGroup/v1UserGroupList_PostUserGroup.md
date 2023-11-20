@@ -73,15 +73,15 @@ OK
 POST /api/v1/List/UserGroup/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "quo",
-  "Tooltip": "minima",
-  "Id": 351,
-  "Rank": 13,
-  "Deleted": false
+  "Value": "reiciendis",
+  "Tooltip": "quo",
+  "Id": 379,
+  "Rank": 978,
+  "Deleted": true
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "ut",
-  "Tooltip": "aspernatur",
-  "Id": 878,
-  "Rank": 247,
+  "Value": "sint",
+  "Tooltip": "et",
+  "Id": 914,
+  "Rank": 596,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 193
     }
   }
 }

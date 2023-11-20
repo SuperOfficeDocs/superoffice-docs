@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et"
+  "Key": "tenetur"
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "consequatur",
-  "AccessToken": "illum",
-  "RefreshToken": "totam",
+  "Provider": "suscipit",
+  "AccessToken": "dolores",
+  "RefreshToken": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldType": "System.String",
+      "FieldLength": 50
     }
   }
 }

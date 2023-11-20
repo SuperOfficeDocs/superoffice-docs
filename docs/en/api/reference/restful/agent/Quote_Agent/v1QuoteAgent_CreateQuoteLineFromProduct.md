@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 211,
+  "QuoteAlternativeId": 641,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 317,
-  "ERPQuoteLineKey": "ad",
-  "QuoteAlternativeId": 558,
-  "ERPProductKey": "quod",
+  "QuoteLineId": 675,
+  "ERPQuoteLineKey": "amet",
+  "QuoteAlternativeId": 9,
+  "ERPProductKey": "laborum",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 15789.091999999999,
-  "DeliveredQuantity": 18080.046,
-  "Rank": 334,
-  "Name": "Stanton-Runte",
-  "Description": "Team-oriented tangible architecture",
-  "Code": "voluptatum",
-  "QuantityUnit": "adipisci",
-  "PriceUnit": "ea",
-  "ItemNumber": "942095",
+  "Quantity": 28723.11,
+  "DeliveredQuantity": 28362.7,
+  "Rank": 720,
+  "Name": "DuBuque-Streich",
+  "Description": "Extended bandwidth-monitored framework",
+  "Code": "omnis",
+  "QuantityUnit": "numquam",
+  "PriceUnit": "cum",
+  "ItemNumber": "774221",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "est",
-  "ProductTypeKey": "culpa",
-  "Supplier": "dolores",
-  "SupplierCode": "quisquam",
-  "Thumbnail": "enim",
-  "VATInfo": "voluptatem",
-  "VAT": 11495.511999999999,
-  "UnitCost": 10367.271999999999,
-  "UnitMinimumPrice": 22643.149999999998,
-  "UnitListPrice": 14306.71,
+  "ProductFamilyKey": "quis",
+  "ProductTypeKey": "architecto",
+  "Supplier": "reprehenderit",
+  "SupplierCode": "quia",
+  "Thumbnail": "impedit",
+  "VATInfo": "enim",
+  "VAT": 9909.708,
+  "UnitCost": 30045.658,
+  "UnitMinimumPrice": 10251.314,
+  "UnitListPrice": 3911.232,
   "ExtraInfo": [
     {
-      "Name": "Pouros-Stamm",
-      "Value": "nemo",
+      "Name": "Corkery-Nicolas",
+      "Value": "doloremque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 529
         }
       }
     },
     {
-      "Name": "Pouros-Stamm",
-      "Value": "nemo",
+      "Name": "Corkery-Nicolas",
+      "Value": "doloremque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 529
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "IsSubscription": true,
-  "SubscriptionUnit": "possimus",
-  "SubscriptionQuantity": 17011.352,
-  "SubscriptionStart": "2001-12-05T11:06:35.2395651+01:00",
-  "ERPDiscountPercent": 26773.762,
-  "ERPDiscountAmount": 11523.717999999999,
-  "DiscountPercent": 14798.748,
-  "DiscountAmount": 1087.498,
+  "RawExtraInfo": "blanditiis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "doloremque",
+  "SubscriptionQuantity": 25827.293999999998,
+  "SubscriptionStart": "2008-11-22T13:38:14.0303322+01:00",
+  "ERPDiscountPercent": 959.004,
+  "ERPDiscountAmount": 11464.172,
+  "DiscountPercent": 12141.116,
+  "DiscountAmount": 25313.318,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 25595.378,
-  "EarningAmount": 10874.98,
-  "SubTotal": 16544.386,
-  "TotalPrice": 29581.825999999997,
-  "Rights": "dolor",
-  "Rule": "expedita",
-  "ExtraField1": "ut",
-  "ExtraField2": "accusamus",
-  "ExtraField3": "velit",
-  "ExtraField4": "aut",
-  "ExtraField5": "consectetur",
+  "EarningPercent": 17594.275999999998,
+  "EarningAmount": 16506.778,
+  "SubTotal": 17945.284,
+  "TotalPrice": 14717.264,
+  "Rights": "exercitationem",
+  "Rule": "consequatur",
+  "ExtraField1": "dicta",
+  "ExtraField2": "est",
+  "ExtraField3": "et",
+  "ExtraField4": "omnis",
+  "ExtraField5": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 524
     }
   }
 }

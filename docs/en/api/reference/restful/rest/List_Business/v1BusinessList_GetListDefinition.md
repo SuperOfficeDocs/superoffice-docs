@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 843,
-  "Name": "Kuhn, Larson and Barton",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "Rank": 737,
+  "Id": 273,
+  "Name": "O'Connell LLC",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 232,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "incidunt",
-  "InUseByUserDefinedFields": true,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldLength": 114
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

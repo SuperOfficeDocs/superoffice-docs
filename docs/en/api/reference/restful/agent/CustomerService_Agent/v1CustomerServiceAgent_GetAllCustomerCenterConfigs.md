@@ -83,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 921,
+    "CustConfigId": 398,
     "Type": "Options",
-    "Config": "doloribus",
-    "CustLangId": 358,
-    "Registered": "2022-08-30T11:06:34.2539546+02:00",
-    "RegisteredAssociateId": 183,
-    "Updated": "2010-11-08T11:06:34.2539546+01:00",
-    "UpdatedAssociateId": 279,
+    "Config": "quidem",
+    "CustLangId": 120,
+    "Registered": "2002-07-09T13:38:13.3896326+02:00",
+    "RegisteredAssociateId": 140,
+    "Updated": "2023-06-23T13:38:13.3896326+02:00",
+    "UpdatedAssociateId": 200,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 341
+        "FieldType": "System.Int32",
+        "FieldLength": 203
       }
     }
   }

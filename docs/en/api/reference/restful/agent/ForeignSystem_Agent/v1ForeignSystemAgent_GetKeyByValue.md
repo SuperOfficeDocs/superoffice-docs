@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Dibbert, Murazik and Lakin",
-  "DeviceName": "Bosco-Blick",
-  "KeyName": "Gutkowski, Bartell and Bauch",
-  "KeyValue": "soluta",
-  "TableName": "Dooley LLC"
+  "ApplicationName": "Eichmann, Lindgren and Moore",
+  "DeviceName": "Cronin LLC",
+  "KeyName": "Hansen-Lesch",
+  "KeyValue": "in",
+  "TableName": "Kautzer LLC"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eos",
-  "Value": "in",
-  "RecordId": 863,
-  "CreatedDate": "2010-02-21T11:06:34.6301875+01:00",
-  "UpdatedDate": "2000-10-31T11:06:34.6301875+01:00",
-  "UpdatedBy": "ad",
-  "CreatedBy": "qui",
-  "TableName": "Nienow Group",
+  "Key": "nisi",
+  "Value": "id",
+  "RecordId": 124,
+  "CreatedDate": "2006-12-31T13:38:13.6396102+01:00",
+  "UpdatedDate": "2011-10-31T13:38:13.6396102+01:00",
+  "UpdatedBy": "rerum",
+  "CreatedBy": "aut",
+  "TableName": "Kiehn-Hoppe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldLength": 896
     }
   }
 }

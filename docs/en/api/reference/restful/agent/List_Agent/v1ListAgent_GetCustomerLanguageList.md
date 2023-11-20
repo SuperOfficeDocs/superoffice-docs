@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 188,
-    "Value": "id",
-    "Tooltip": "ea",
+    "Id": 44,
+    "Value": "mollitia",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 568
       }
     }
   },
   {
-    "Id": 188,
-    "Value": "id",
-    "Tooltip": "ea",
+    "Id": 44,
+    "Value": "mollitia",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 568
       }
     }
   }

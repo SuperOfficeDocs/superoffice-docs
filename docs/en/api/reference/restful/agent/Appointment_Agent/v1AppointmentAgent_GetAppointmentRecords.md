@@ -115,6 +115,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -127,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 374,
-  "RecurrenceRuleId": 811
+  "MotherId": 998,
+  "RecurrenceRuleId": 863
 }
 ```
 
@@ -144,64 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 532,
-    "StartDate": "2011-12-19T11:06:33.4913656+01:00",
-    "EndDate": "2004-06-16T11:06:33.4913656+02:00",
+    "AppointmentId": 934,
+    "StartDate": "2004-11-18T13:38:12.8740699+01:00",
+    "EndDate": "2022-09-01T13:38:12.8740699+02:00",
     "Type": "BookingForChecklist",
-    "Task": "totam",
-    "AssociateFullName": "Gerard Ankunding",
-    "ContactName": "Strosin Inc and Sons",
-    "Description": "Multi-lateral leading edge internet solution",
-    "PersonFullName": "Dr. Helen Stokes DVM",
-    "PersonId": 44,
-    "ContactId": 454,
-    "ProjectId": 323,
-    "ProjectName": "Carter, O'Connell and Huels",
+    "Task": "numquam",
+    "AssociateFullName": "Adriana Keeling",
+    "ContactName": "Larkin Inc and Sons",
+    "Description": "Implemented intermediate emulation",
+    "PersonFullName": "Rupert Schuster",
+    "PersonId": 642,
+    "ContactId": 858,
+    "ProjectId": 190,
+    "ProjectName": "Dibbert-Goldner",
     "IsPublished": false,
-    "AssociateId": 71,
-    "ColorIndex": 712,
+    "AssociateId": 18,
+    "ColorIndex": 353,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 171,
-    "PriorityName": "Armstrong-Kemmer",
+    "PriorityId": 606,
+    "PriorityName": "Jenkins LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2015-09-12T11:06:33.4913656+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "1998-03-27T13:38:12.8740699+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-04-15T11:06:33.4913656+02:00",
-    "RecurringEndDate": "2012-08-18T11:06:33.4913656+02:00",
-    "MotherId": 926,
-    "AssignedBy": 655,
-    "AssignedByFullName": "Nasir Mraz",
+    "RecurringStartDate": "2022-06-30T13:38:12.8740699+02:00",
+    "RecurringEndDate": "2016-04-29T13:38:12.8740699+02:00",
+    "MotherId": 941,
+    "AssignedBy": 174,
+    "AssignedByFullName": "Felipe Boehm",
     "RejectReason": "",
-    "Location": "in",
-    "AlarmLeadTime": "sapiente",
-    "SaleId": 162,
-    "SaleName": "Shields-Bernier",
-    "AssociateName": "Rutherford, McClure and Miller",
-    "CreatedDate": "2004-10-24T11:06:33.4913656+02:00",
-    "CreatedBy": "assumenda",
-    "CreatedByFullName": "Alessandra Konopelski",
+    "Location": "consequatur",
+    "AlarmLeadTime": "fuga",
+    "SaleId": 80,
+    "SaleName": "Ward, Osinski and Wintheiser",
+    "AssociateName": "Rath-Labadie",
+    "CreatedDate": "2002-03-18T13:38:12.8740699+01:00",
+    "CreatedBy": "minus",
+    "CreatedByFullName": "Mrs. Austen Dustin Murazik I",
     "CreatedByAssociateId": 100,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "tenetur",
-    "Agenda": "repellat",
-    "InternalNotes": "sit",
+    "PreferredTZLocation": 182,
+    "Title": "nostrum",
+    "Agenda": "nam",
+    "InternalNotes": "laudantium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldLength": 4
       }
     }
   }

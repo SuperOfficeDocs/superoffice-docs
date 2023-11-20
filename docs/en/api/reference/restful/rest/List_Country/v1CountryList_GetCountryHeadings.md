@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 497,
-    "Name": "D'Amore Inc and Sons",
-    "Tooltip": "deserunt",
+    "HeadingId": 577,
+    "Name": "Farrell-Brown",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 520,
-    "UdListDefinitionId": 708,
+    "Rank": 696,
+    "UdListDefinitionId": 912,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 230
       }
     }
   }

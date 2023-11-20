@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 850,
-    "Name": "Nienow-Strosin",
-    "Tooltip": "voluptates",
+    "HeadingId": 625,
+    "Name": "Trantow, Beahan and Kovacek",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 999,
-    "UdListDefinitionId": 716
+    "Rank": 549,
+    "UdListDefinitionId": 511
   },
   {
-    "HeadingId": 850,
-    "Name": "Nienow-Strosin",
-    "Tooltip": "voluptates",
+    "HeadingId": 625,
+    "Name": "Trantow, Beahan and Kovacek",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 999,
-    "UdListDefinitionId": 716
+    "Rank": 549,
+    "UdListDefinitionId": 511
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 887,
-    "Name": "Schulist Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 658,
-    "UdListDefinitionId": 355,
+    "HeadingId": 162,
+    "Name": "Lemke-Schultz",
+    "Tooltip": "impedit",
+    "Deleted": true,
+    "Rank": 832,
+    "UdListDefinitionId": 124,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 350
       }
     }
   }

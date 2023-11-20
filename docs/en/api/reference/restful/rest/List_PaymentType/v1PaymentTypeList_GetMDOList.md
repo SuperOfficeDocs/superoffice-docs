@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=numquam
+GET /api/v1/List/PaymentType/MDOItems?query=quam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 514,
-    "Name": "Bogisich, Hessel and Hartmann",
-    "ToolTip": "Tempore quo provident labore laboriosam veritatis quibusdam aperiam.",
-    "Deleted": true,
-    "Rank": 123,
-    "Type": "rerum",
+    "Id": 55,
+    "Name": "Ullrich-Berge",
+    "ToolTip": "Alias quo quasi non quo.",
+    "Deleted": false,
+    "Rank": 210,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Bernhard Group",
-        "ToolTip": "Ad eius a non qui eaque.",
-        "Deleted": true,
-        "Rank": 782,
-        "Type": "voluptas",
+        "Id": 346,
+        "Name": "Schaefer Group",
+        "ToolTip": "Enim sed id.",
+        "Deleted": false,
+        "Rank": 907,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eveniet",
-        "ColorBlock": 400,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "commodi",
-        "FullName": "Mr. Jeanne Aliyah Kuhn",
+        "IconHint": "mollitia",
+        "ColorBlock": 541,
+        "ExtraInfo": "quis",
+        "StyleHint": "et",
+        "FullName": "Stephan Mante",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 674
+            "FieldLength": 398
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 953,
-    "ExtraInfo": "minus",
-    "StyleHint": "nisi",
-    "FullName": "Werner Kohler",
+    "IconHint": "corporis",
+    "ColorBlock": 112,
+    "ExtraInfo": "quis",
+    "StyleHint": "facere",
+    "FullName": "Frederique Funk IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldLength": 342
       }
     }
   }

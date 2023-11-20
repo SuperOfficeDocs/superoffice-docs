@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=902
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=417
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,78 +102,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 847,
+  "EjMessageId": 462,
   "Ticket": null,
-  "CreatedAt": "2015-05-15T11:06:35.6158782+02:00",
+  "CreatedAt": "2002-04-20T13:38:14.295928+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rerum",
-  "TimeSpent": 235,
-  "Body": "ut",
-  "HtmlBody": "vel",
-  "EmailHeader": "meaghan.gaylord@powlowski.name",
-  "DebugInfo": "et",
-  "MailSorter": "exercitationem",
+  "MessageId": "sed",
+  "TimeSpent": 941,
+  "Body": "aut",
+  "HtmlBody": "architecto",
+  "EmailHeader": "hettie_volkman@toy.info",
+  "DebugInfo": "quas",
+  "MailSorter": "cumque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quam",
+  "SearchTitle": "occaecati",
   "MessageHeaders": [
     {
-      "Id": 632,
-      "Name": "Swaniawski-Schinner",
-      "Value": "recusandae",
+      "Id": 203,
+      "Name": "Gutmann-Heaney",
+      "Value": "at",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldType": "System.String",
+          "FieldLength": 263
         }
       }
     }
   ],
   "Important": false,
-  "Language": "culpa",
-  "Sentiment": 838,
-  "SentimentConfidence": 1001,
+  "Language": "suscipit",
+  "Sentiment": 721,
+  "SentimentConfidence": 393,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 908,
-      "Name": "Schimmel Group",
-      "ContentType": "nobis",
-      "AttSize": 805,
+      "AttachmentId": 750,
+      "Name": "Hudson Group",
+      "ContentType": "veniam",
+      "AttSize": 193,
       "InlineImage": true,
-      "ContentId": "molestias",
-      "AuthKey": "porro",
+      "ContentId": "quo",
+      "AuthKey": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldLength": 724
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "reprehenderit",
-    "ExtraFields2": "illum"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "fuga"
   },
   "CustomFields": {
-    "CustomFields1": "alias",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 7
     }
   }
 }

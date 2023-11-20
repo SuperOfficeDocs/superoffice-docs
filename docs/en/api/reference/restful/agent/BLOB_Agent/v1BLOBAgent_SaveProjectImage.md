@@ -69,7 +69,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform bandwidth-monitored structure",
+  "Description": "Seamless client-server access",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

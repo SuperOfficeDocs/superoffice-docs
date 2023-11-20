@@ -88,33 +88,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 966,
-    "Name": "Purdy LLC",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 420,
+    "WebPanelId": 937,
+    "Name": "Bins, Runolfsson and Lakin",
+    "Tooltip": "aliquam",
+    "Deleted": false,
+    "Rank": 969,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
+    "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": false,
-    "WindowName": "Altenwerth-Carroll",
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": true,
+    "WindowName": "Abernathy, Schimmel and Jast",
     "Url": "http://www.example.com/",
-    "ProgId": "sint",
-    "Icon": 81,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "est",
+    "Icon": 572,
+    "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 841
+        "FieldType": "System.String",
+        "FieldLength": 40
       }
     }
   }

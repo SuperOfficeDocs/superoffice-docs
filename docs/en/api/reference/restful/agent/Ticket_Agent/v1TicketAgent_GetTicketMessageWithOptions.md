@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 588,
-  "IncludeNonInlineAttachmentsInfo": true
+  "TicketMessageEntityId": 752,
+  "IncludeNonInlineAttachmentsInfo": false
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 495,
+  "EjMessageId": 424,
   "Ticket": null,
-  "CreatedAt": "2023-07-01T11:06:35.6471242+02:00",
+  "CreatedAt": "2007-12-30T13:38:14.3115522+01:00",
   "CreatedBy": null,
-  "Author": "rem",
+  "Author": "sed",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sapiente",
-  "TimeSpent": 23,
-  "Body": "non",
-  "HtmlBody": "et",
-  "EmailHeader": "kian@waelchihartmann.uk",
-  "DebugInfo": "illum",
-  "MailSorter": "laboriosam",
+  "MessageId": "molestiae",
+  "TimeSpent": 215,
+  "Body": "dolorem",
+  "HtmlBody": "perspiciatis",
+  "EmailHeader": "pattie.kuvalis@erdmannader.com",
+  "DebugInfo": "ipsa",
+  "MailSorter": "recusandae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ipsam",
+  "SearchTitle": "animi",
   "MessageHeaders": [
     {
-      "Id": 937,
-      "Name": "Considine Group",
-      "Value": "neque",
+      "Id": 623,
+      "Name": "Moore-Yost",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 523
         }
       }
     }
   ],
   "Important": false,
-  "Language": "dolor",
-  "Sentiment": 548,
-  "SentimentConfidence": 652,
+  "Language": "distinctio",
+  "Sentiment": 625,
+  "SentimentConfidence": 817,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 655,
-      "Name": "Nienow, Kuhn and Goodwin",
-      "ContentType": "at",
-      "AttSize": 551,
-      "InlineImage": false,
-      "ContentId": "facere",
-      "AuthKey": "qui",
+      "AttachmentId": 331,
+      "Name": "Carroll-Spencer",
+      "ContentType": "recusandae",
+      "AttSize": 498,
+      "InlineImage": true,
+      "ContentId": "corporis",
+      "AuthKey": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 284
+          "FieldType": "System.Int32",
+          "FieldLength": 110
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "explicabo"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "atque",
+    "CustomFields2": "explicabo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 263
     }
   }
 }

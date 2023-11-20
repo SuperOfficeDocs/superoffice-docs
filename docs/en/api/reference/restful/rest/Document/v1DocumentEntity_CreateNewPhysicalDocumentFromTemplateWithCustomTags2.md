@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=91
-POST /api/v1/Document/{documentId}/Content?personId=661
-POST /api/v1/Document/{documentId}/Content?appointmentId=21
-POST /api/v1/Document/{documentId}/Content?saleId=122
-POST /api/v1/Document/{documentId}/Content?selectionId=116
-POST /api/v1/Document/{documentId}/Content?projectId=230
-POST /api/v1/Document/{documentId}/Content?uiCulture=et
+POST /api/v1/Document/{documentId}/Content?contactId=25
+POST /api/v1/Document/{documentId}/Content?personId=292
+POST /api/v1/Document/{documentId}/Content?appointmentId=450
+POST /api/v1/Document/{documentId}/Content?saleId=479
+POST /api/v1/Document/{documentId}/Content?selectionId=261
+POST /api/v1/Document/{documentId}/Content?projectId=123
+POST /api/v1/Document/{documentId}/Content?uiCulture=est
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 109,
+  "DocumentId": 880,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aut",
-  "Header": "magni",
-  "Name": "Walter-Considine",
-  "OurRef": "modi",
-  "YourRef": "aut",
-  "CreatedDate": "2010-05-15T11:06:41.8634729+02:00",
-  "UpdatedDate": "2012-11-26T11:06:41.8634729+01:00",
-  "Description": "Diverse eco-centric portal",
+  "Attention": "numquam",
+  "Header": "ea",
+  "Name": "Ferry-Lebsack",
+  "OurRef": "molestiae",
+  "YourRef": "accusantium",
+  "CreatedDate": "2005-07-25T13:38:17.4212037+02:00",
+  "UpdatedDate": "2001-11-24T13:38:17.4212037+01:00",
+  "Description": "Visionary client-driven firmware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-09-04T11:06:41.8634729+02:00",
-  "ExternalRef": "nam",
+  "Date": "2006-02-04T13:38:17.4212037+01:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 289,
+  "ActiveLinks": 799,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koss, Kunze and Vandervort",
-      "Id": 798,
-      "Description": "Team-oriented non-volatile emulation",
-      "ExtraInfo": "tenetur",
-      "LinkId": 218,
+      "EntityName": "Friesen-Douglas",
+      "Id": 903,
+      "Description": "Progressive static knowledge user",
+      "ExtraInfo": "nam",
+      "LinkId": 781,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 163
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 896,
-  "Snum": 613,
+  "SuggestedDocumentId": 801,
+  "Snum": 2,
   "UserDefinedFields": {
-    "SuperOffice:1": "277342029",
-    "SuperOffice:2": "Hazle Ullrich"
+    "SuperOffice:1": "Ruby Mante",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsum",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "officia"
+    "CustomFields1": "suscipit",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2018-09-15T11:06:41.8634729+02:00",
-  "PublishTo": "2023-08-04T11:06:41.8634729+02:00",
-  "PublishFrom": "2006-10-01T11:06:41.8634729+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2016-02-28T13:38:17.4212037+01:00",
+  "PublishTo": "2004-08-23T13:38:17.4212037+02:00",
+  "PublishFrom": "2000-10-13T13:38:17.4212037+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 364,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 879
+          "FieldType": "System.Int32",
+          "FieldLength": 317
         }
       }
     },
     {
-      "VisibleId": 364,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 879
+          "FieldType": "System.Int32",
+          "FieldLength": 317
         }
       }
     }
@@ -222,7 +222,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 555
     }
   }
 }

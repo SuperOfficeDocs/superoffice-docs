@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=nam
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=unde
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Bode-Christiansen",
-    "ToolTip": "Voluptatem et inventore et harum voluptatem.",
-    "Deleted": false,
-    "Rank": 935,
-    "Type": "quas",
+    "Id": 103,
+    "Name": "Jast-Stark",
+    "ToolTip": "Incidunt eaque sint.",
+    "Deleted": true,
+    "Rank": 436,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Streich-O'Keefe",
-        "ToolTip": "Ipsam modi doloremque animi quia non eligendi.",
+        "Id": 815,
+        "Name": "Stoltenberg, Russel and Hermiston",
+        "ToolTip": "Ut atque eveniet veniam eligendi dolorum.",
         "Deleted": false,
-        "Rank": 481,
-        "Type": "mollitia",
+        "Rank": 373,
+        "Type": "molestias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 6,
-        "ExtraInfo": "id",
-        "StyleHint": "facere",
-        "FullName": "Mrs. Brionna Arnoldo Cummings",
+        "IconHint": "consectetur",
+        "ColorBlock": 710,
+        "ExtraInfo": "autem",
+        "StyleHint": "nesciunt",
+        "FullName": "Oral Kunze",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 945
+            "FieldType": "System.Int32",
+            "FieldLength": 293
           }
         }
       }
     ],
-    "IconHint": "cumque",
-    "ColorBlock": 771,
-    "ExtraInfo": "esse",
-    "StyleHint": "molestiae",
-    "FullName": "Sidney Tremblay V",
+    "IconHint": "sed",
+    "ColorBlock": 363,
+    "ExtraInfo": "temporibus",
+    "StyleHint": "natus",
+    "FullName": "Evalyn Zieme",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldType": "System.String",
+        "FieldLength": 135
       }
     }
   }

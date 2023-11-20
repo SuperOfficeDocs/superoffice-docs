@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 11,
-      "ContactName": "Sawayn Inc and Sons",
-      "PersonId": 313,
-      "PersonName": "Kozey Inc and Sons",
-      "AssociateId": 99,
-      "Address": "ipsa",
-      "EmailId": 269,
+      "ContactId": 162,
+      "ContactName": "Kuphal, Stroman and Lemke",
+      "PersonId": 385,
+      "PersonName": "Walker-Dibbert",
+      "AssociateId": 675,
+      "Address": "voluptatem",
+      "EmailId": 242,
       "DuplicatePersonIds": [
-        50,
-        169
+        391,
+        438
       ],
-      "Name": "Reynolds LLC",
+      "Name": "Huels-Lynch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 87
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 943,
-      "ContactName": "Kiehn-Kessler",
-      "PersonId": 288,
-      "PersonName": "Wunsch-Reichert",
-      "AssociateId": 288,
-      "Address": "molestiae",
-      "EmailId": 979,
+      "ContactId": 376,
+      "ContactName": "Stokes Group",
+      "PersonId": 589,
+      "PersonName": "Dicki Inc and Sons",
+      "AssociateId": 475,
+      "Address": "facilis",
+      "EmailId": 264,
       "DuplicatePersonIds": [
-        728,
-        72
+        444,
+        67
       ],
-      "Name": "Hettinger Inc and Sons",
+      "Name": "Connelly LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 716
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 658,
-      "ContactName": "Romaguera Group",
-      "PersonId": 88,
-      "PersonName": "Nienow-Armstrong",
-      "AssociateId": 621,
-      "Address": "aliquam",
-      "EmailId": 786,
+      "ContactId": 667,
+      "ContactName": "Marquardt, King and Flatley",
+      "PersonId": 567,
+      "PersonName": "Reinger-Dicki",
+      "AssociateId": 126,
+      "Address": "quasi",
+      "EmailId": 837,
       "DuplicatePersonIds": [
-        77,
-        787
+        555,
+        336
       ],
-      "Name": "Schneider, Auer and Reichel",
+      "Name": "Nikolaus Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 855
+          "FieldLength": 594
         }
       }
     }
   ],
-  "Subject": "laborum",
-  "HTMLBody": "et",
+  "Subject": "nemo",
+  "HTMLBody": "provident",
   "From": null,
-  "Sent": "2018-10-28T11:06:34.5520595+01:00",
-  "Size": 794,
+  "Sent": "2021-04-14T13:38:13.5771153+02:00",
+  "Size": 700,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rerum",
-  "PlainBody": "ea",
-  "IsSent": true,
+  "MessageID": "et",
+  "PlainBody": "aut",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 522,
+  "ServerId": 616,
   "Attachments": [
     {
-      "Description": "Distributed background encryption",
-      "Filename": "voluptas",
-      "Size": 190,
-      "Type": "accusantium",
-      "Encoding": "dignissimos",
+      "Description": "Switchable incremental moderator",
+      "Filename": "fugit",
+      "Size": 73,
+      "Type": "temporibus",
+      "Encoding": "suscipit",
       "Id": "aut",
-      "Disposition": "consequatur",
+      "Disposition": "rem",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 854
+          "FieldType": "System.Int32",
+          "FieldLength": 403
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Will-Hauck",
+      "Name": "Medhurst Group",
       "Values": [
-        "corporis",
-        "quia"
+        "pariatur",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldLength": 501
         }
       }
     },
     {
-      "Name": "Will-Hauck",
+      "Name": "Medhurst Group",
       "Values": [
-        "corporis",
-        "quia"
+        "pariatur",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldLength": 501
         }
       }
     }
   ],
-  "FolderName": "Block, Rutherford and Wilkinson",
-  "EmailItemId": 1001,
-  "AccountId": 869,
-  "ReceivedAt": "2014-02-05T11:06:34.5520595+01:00",
+  "FolderName": "Mann Group",
+  "EmailItemId": 53,
+  "AccountId": 891,
+  "ReceivedAt": "2007-06-28T13:38:13.5771153+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-07-25T11:06:34.5520595+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2002-03-01T13:38:13.5771153+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldType": "System.String",
+      "FieldLength": 476
     }
   }
 }

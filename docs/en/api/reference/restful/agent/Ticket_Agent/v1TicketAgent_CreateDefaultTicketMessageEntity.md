@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 139,
+  "EjMessageId": 813,
   "Ticket": null,
-  "CreatedAt": "1999-08-14T11:06:35.4739443+02:00",
+  "CreatedAt": "2019-09-04T13:38:14.2178238+02:00",
   "CreatedBy": null,
-  "Author": "quisquam",
+  "Author": "aliquam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eos",
-  "TimeSpent": 434,
-  "Body": "autem",
-  "HtmlBody": "expedita",
-  "EmailHeader": "teresa_collier@spencer.name",
-  "DebugInfo": "iusto",
-  "MailSorter": "qui",
+  "MessageId": "hic",
+  "TimeSpent": 811,
+  "Body": "non",
+  "HtmlBody": "eaque",
+  "EmailHeader": "lexie.herman@stromanpfannerstill.uk",
+  "DebugInfo": "eius",
+  "MailSorter": "ex",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quae",
+  "SearchTitle": "reiciendis",
   "MessageHeaders": [
     {
-      "Id": 940,
-      "Name": "Volkman, Sawayn and Okuneva",
-      "Value": "est",
+      "Id": 42,
+      "Name": "Pouros LLC",
+      "Value": "rerum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,49 +121,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 124
+          "FieldLength": 127
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "harum",
-  "Sentiment": 91,
-  "SentimentConfidence": 873,
+  "Important": false,
+  "Language": "quia",
+  "Sentiment": 725,
+  "SentimentConfidence": 40,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 881,
-      "Name": "Bergstrom-Corwin",
-      "ContentType": "non",
-      "AttSize": 440,
-      "InlineImage": true,
-      "ContentId": "ut",
-      "AuthKey": "voluptatibus",
+      "AttachmentId": 478,
+      "Name": "Hegmann LLC",
+      "ContentType": "recusandae",
+      "AttSize": 548,
+      "InlineImage": false,
+      "ContentId": "eos",
+      "AuthKey": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldLength": 694
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "rem"
+    "CustomFields1": "qui",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldType": "System.String",
+      "FieldLength": 241
     }
   }
 }

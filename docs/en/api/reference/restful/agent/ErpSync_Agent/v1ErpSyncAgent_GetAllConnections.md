@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 707,
-    "ErpConnectorId": 304,
-    "DisplayName": "Waters LLC",
-    "DisplayDescription": "User-centric cohesive focus group",
+    "ErpConnectionId": 245,
+    "ErpConnectorId": 605,
+    "DisplayName": "Rohan-Larkin",
+    "DisplayDescription": "Managed secondary structure",
     "Active": false,
-    "ConnectionId": "quaerat",
-    "MostRecentTimestamp": "similique",
+    "ConnectionId": "quod",
+    "MostRecentTimestamp": "et",
     "ConfigFields": {
-      "ConfigFields1": "dolor",
-      "ConfigFields2": "nostrum"
+      "ConfigFields1": "perspiciatis",
+      "ConfigFields2": "aut"
     },
     "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      873,
-      952
+      885,
+      792
     ],
     "AssociateAccessIds": [
-      79,
-      654
+      474,
+      389
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldLength": 58
       }
     }
   }

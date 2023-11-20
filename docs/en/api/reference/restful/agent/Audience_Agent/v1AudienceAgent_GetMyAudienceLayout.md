@@ -81,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 945,
-  "InstanceLayout": "dolor",
-  "InstanceName": "Blick-Runte",
-  "CreatedDate": "2017-12-08T11:06:33.7816525+01:00",
-  "UpdatedDate": "2000-01-14T11:06:33.7816525+01:00",
+  "AudienceLayoutId": 421,
+  "InstanceLayout": "qui",
+  "InstanceName": "Moore, Schulist and Williamson",
+  "CreatedDate": "2009-12-25T13:38:13.0771703+01:00",
+  "UpdatedDate": "2013-10-03T13:38:13.0771703+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 986
     }
   }
 }

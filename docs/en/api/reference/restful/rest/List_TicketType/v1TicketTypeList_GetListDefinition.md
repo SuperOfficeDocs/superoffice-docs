@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 390,
-  "Name": "Schmitt Group",
-  "Tooltip": "consequatur",
+  "Id": 680,
+  "Name": "Baumbach LLC",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "Rank": 502,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "id",
+  "Rank": 216,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "fuga",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 124
+      "FieldType": "System.Int32",
+      "FieldLength": 644
     }
   },
   "_Links": {

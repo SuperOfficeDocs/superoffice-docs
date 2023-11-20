@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dolor"
+  "UniqueIdentifier": "assumenda"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "qui",
-  "Name": "Shanahan-Hartmann",
-  "Description": "Business-focused bi-directional initiative",
-  "IncludeId": "minus",
-  "Source": "quia",
-  "Registered": "2021-05-23T11:06:34.2383276+02:00",
-  "RegisteredBy": "sit",
-  "Updated": "2001-02-07T11:06:34.2383276+01:00",
-  "UpdatedBy": "error",
-  "Path": "eum",
+  "UniqueIdentifier": "a",
+  "Name": "Hettinger Inc and Sons",
+  "Description": "Intuitive hybrid info-mediaries",
+  "IncludeId": "qui",
+  "Source": "veritatis",
+  "Registered": "2009-04-01T13:38:13.374011+02:00",
+  "RegisteredBy": "maxime",
+  "Updated": "2015-12-28T13:38:13.374011+01:00",
+  "UpdatedBy": "non",
+  "Path": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 60
     }
   }
 }

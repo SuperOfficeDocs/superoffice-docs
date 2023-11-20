@@ -70,11 +70,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kessler Group",
-  "Id": 553,
+  "TableName": "Runte, Windler and Stamm",
+  "Id": 646,
   "Values": {
-    "Values1": "earum",
-    "Values2": "modi"
+    "Values1": "dolores",
+    "Values2": "eius"
   }
 }
 ```

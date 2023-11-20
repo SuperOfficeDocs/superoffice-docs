@@ -66,6 +66,7 @@ Download [WSDL file for Services88/Appointment](../Services88-Appointment.md) if
 * [GetMyPublishedAppointments](GetMyPublishedAppointments.md)
 * [GetMySyncAppointments](GetMySyncAppointments.md)
 * [GetMyTasks](GetMyTasks.md)
+* [GetNextAvailableTime](GetNextAvailableTime.md)
 * [GetNextSuggestedAppointmentBySale](GetNextSuggestedAppointmentBySale.md)
 * [GetOrganizerName](GetOrganizerName.md)
 * [GetPersonAppointments](GetPersonAppointments.md)

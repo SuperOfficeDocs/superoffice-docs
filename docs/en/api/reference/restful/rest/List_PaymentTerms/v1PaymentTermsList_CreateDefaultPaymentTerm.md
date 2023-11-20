@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 398,
-  "Name": "Rutherford LLC",
-  "Tooltip": "rerum",
+  "Id": 883,
+  "Name": "Murray, Maggio and Dooley",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 975,
-  "Rank": 435,
+  "UdListDefinitionId": 736,
+  "Rank": 715,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 389
     }
   }
 }

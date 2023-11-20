@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "qui",
-    "DocumentId": 478,
-    "VersionId": "non",
-    "CheckedInDate": "2005-10-12T11:06:41.8634729+02:00",
-    "CheckedInByName": "Upton, Dickens and Witting",
-    "CheckedInByAssociateId": 774,
-    "Description": "Monitored intangible Graphical User Interface",
-    "DisplayText": "maxime",
+    "ExternalReference": "quis",
+    "DocumentId": 485,
+    "VersionId": "illo",
+    "CheckedInDate": "2013-12-01T13:38:17.4212037+01:00",
+    "CheckedInByName": "Goodwin Inc and Sons",
+    "CheckedInByAssociateId": 901,
+    "Description": "Advanced 5th generation secured line",
+    "DisplayText": "inventore",
     "ExtraFields": [
-      "qui",
-      "similique"
+      "debitis",
+      "omnis"
     ]
   }
 ]

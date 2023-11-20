@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 183,
-  "Name": "Rutherford LLC",
-  "Tooltip": "ipsa",
-  "Rank": 713,
-  "Rate": 15271.982,
-  "Units": 4005.252,
+  "CurrencyId": 364,
+  "Name": "Torphy-Rau",
+  "Tooltip": "ea",
+  "Rank": 176,
+  "Rate": 24818.146,
+  "Units": 15886.246,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 757
+      "FieldLength": 152
     }
   }
 }

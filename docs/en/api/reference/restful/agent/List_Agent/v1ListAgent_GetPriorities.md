@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 102,
-    "Value": "exercitationem",
-    "Tooltip": "eum",
+    "Id": 45,
+    "Value": "ipsum",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 576
       }
     }
   },
   {
-    "Id": 102,
-    "Value": "exercitationem",
-    "Tooltip": "eum",
+    "Id": 45,
+    "Value": "ipsum",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 576
       }
     }
   }

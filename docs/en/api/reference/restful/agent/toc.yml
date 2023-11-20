@@ -147,6 +147,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_GetMySyncAppointments.md
   - name: GetMyTasks
     href: Appointment_Agent/v1AppointmentAgent_GetMyTasks.md
+  - name: GetNextAvailableTime
+    href: Appointment_Agent/v1AppointmentAgent_GetNextAvailableTime.md
   - name: GetNextSuggestedAppointmentBySale
     href: Appointment_Agent/v1AppointmentAgent_GetNextSuggestedAppointmentBySale.md
   - name: GetOrganizerName
@@ -712,6 +714,8 @@ items:
     href: Contact_Agent/v1ContactAgent_GetContactSummary.md
   - name: GetContactWithPersons
     href: Contact_Agent/v1ContactAgent_GetContactWithPersons.md
+  - name: GetDomainDuplicates
+    href: Contact_Agent/v1ContactAgent_GetDomainDuplicates.md
   - name: GetDuplicateRules
     href: Contact_Agent/v1ContactAgent_GetDuplicateRules.md
   - name: GetDuplicates
@@ -2256,6 +2260,8 @@ items:
     href: List_Agent/v1ListAgent_GetWebPanelList.md
   - name: GlobalChangeTicketStatus
     href: List_Agent/v1ListAgent_GlobalChangeTicketStatus.md
+  - name: GlobalChangeTicketType
+    href: List_Agent/v1ListAgent_GlobalChangeTicketType.md
   - name: MoveAllTickets
     href: List_Agent/v1ListAgent_MoveAllTickets.md
   - name: MoveListItem
@@ -2587,6 +2593,8 @@ items:
     href: Person_Agent/v1PersonAgent_SendConsentConfirmationEmail.md
   - name: SendEmail
     href: Person_Agent/v1PersonAgent_SendEmail.md
+  - name: SendEmailWithEventName
+    href: Person_Agent/v1PersonAgent_SendEmailWithEventName.md
   - name: SetConsent
     href: Person_Agent/v1PersonAgent_SetConsent.md
   - name: SetPersonImage
@@ -3443,6 +3451,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_GetAttachmentStream.md
   - name: GetDefaultMessageContent
     href: Ticket_Agent/v1TicketAgent_GetDefaultMessageContent.md
+  - name: GetDefaultMessageContentFull
+    href: Ticket_Agent/v1TicketAgent_GetDefaultMessageContentFull.md
   - name: GetForRmUi
     href: Ticket_Agent/v1TicketAgent_GetForRmUi.md
   - name: GetNextInQueue
@@ -3894,8 +3904,8 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowGoal.md
   - name: CreateDefaultWorkflowStepFromType
     href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepFromType.md
-  - name: CreateDefaultWorkflowStepOption
-    href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepOption.md
+  - name: CreateDefaultWorkflowStepOptionFromType
+    href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepOptionFromType.md
   - name: CreateDefaultWorkflowTrigger
     href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowTrigger.md
   - name: CreateEmailFlowContent
@@ -3904,8 +3914,6 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_DeleteEmailFlow.md
   - name: DeleteWorkflowGoal
     href: Workflow_Agent/v1WorkflowAgent_DeleteWorkflowGoal.md
-  - name: DeleteWorkflowStepOption
-    href: Workflow_Agent/v1WorkflowAgent_DeleteWorkflowStepOption.md
   - name: DeleteWorkflowTrigger
     href: Workflow_Agent/v1WorkflowAgent_DeleteWorkflowTrigger.md
   - name: GetEmailFlow
@@ -3926,8 +3934,6 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_SaveEmailFlow.md
   - name: SaveWorkflowGoal
     href: Workflow_Agent/v1WorkflowAgent_SaveWorkflowGoal.md
-  - name: SaveWorkflowStepOption
-    href: Workflow_Agent/v1WorkflowAgent_SaveWorkflowStepOption.md
   - name: SaveWorkflowTrigger
     href: Workflow_Agent/v1WorkflowAgent_SaveWorkflowTrigger.md
   - name: SendEvent

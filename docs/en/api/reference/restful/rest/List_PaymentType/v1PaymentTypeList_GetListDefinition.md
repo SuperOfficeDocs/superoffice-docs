@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 676,
-  "Name": "Prosacco-Sporer",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 401,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 556,
+  "Name": "Bruen, Donnelly and Kemmer",
+  "Tooltip": "labore",
+  "Deleted": true,
+  "Rank": 197,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "earum",
+  "ListType": "quasi",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldType": "System.Int32",
+      "FieldLength": 840
     }
   },
   "_Links": {

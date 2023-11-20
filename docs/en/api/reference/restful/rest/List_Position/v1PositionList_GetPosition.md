@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545,
-  "Name": "Herman Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 752,
+  "Name": "Beatty, Zulauf and Collier",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 677,
-  "Rank": 16,
+  "UdListDefinitionId": 777,
+  "Rank": 633,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 709
+      "FieldType": "System.Int32",
+      "FieldLength": 918
     }
   }
 }

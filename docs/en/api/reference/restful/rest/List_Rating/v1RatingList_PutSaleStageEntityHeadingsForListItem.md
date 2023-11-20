@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Marvin, Boyle and Doyle",
-    "ToolTip": "Consequatur quibusdam omnis aut iusto et et rerum.",
+    "Id": 886,
+    "Name": "Barrows, Thiel and Crist",
+    "ToolTip": "Culpa provident sequi nihil aut similique sint.",
     "Deleted": false,
-    "Rank": 988,
-    "Type": "et",
-    "ColorBlock": 167,
-    "IconHint": "magni",
+    "Rank": 897,
+    "Type": "omnis",
+    "ColorBlock": 99,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "1998-08-05T11:06:43.006573+02:00",
+    "LastChanged": "2003-12-08T13:38:18.186902+01:00",
     "ChildItems": [
       {
-        "Id": 348,
-        "Name": "Lakin-Quigley",
-        "ToolTip": "Adipisci magni at ea totam eos.",
+        "Id": 130,
+        "Name": "Wisozk-Reinger",
+        "ToolTip": "Voluptas temporibus debitis ut repudiandae.",
         "Deleted": false,
-        "Rank": 121,
-        "Type": "ducimus",
-        "ColorBlock": 174,
-        "IconHint": "aspernatur",
-        "Selected": false,
-        "LastChanged": "2010-07-11T11:06:43.006573+02:00",
+        "Rank": 701,
+        "Type": "aperiam",
+        "ColorBlock": 27,
+        "IconHint": "laboriosam",
+        "Selected": true,
+        "LastChanged": "1998-10-11T13:38:18.186902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "asperiores",
-        "Hidden": true,
-        "FullName": "Ceasar DuBuque"
+        "ExtraInfo": "repellendus",
+        "StyleHint": "quidem",
+        "Hidden": false,
+        "FullName": "Mr. Kay Diana Boyer"
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Ms. Alanna Veum IV"
+    "ExtraInfo": "quia",
+    "StyleHint": "excepturi",
+    "Hidden": true,
+    "FullName": "Bulah Rowe III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "McCullough-Russel",
-    "ToolTip": "Similique sit vero.",
+    "Id": 642,
+    "Name": "Stroman LLC",
+    "ToolTip": "Molestiae ut et vel.",
     "Deleted": false,
-    "Rank": 350,
-    "Type": "voluptas",
-    "ColorBlock": 193,
-    "IconHint": "architecto",
+    "Rank": 124,
+    "Type": "consequuntur",
+    "ColorBlock": 734,
+    "IconHint": "debitis",
     "Selected": false,
-    "LastChanged": "2004-06-03T11:06:43.006573+02:00",
+    "LastChanged": "2015-08-03T13:38:18.186902+02:00",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Marks, Hayes and Lubowitz",
-        "ToolTip": "Vel assumenda ut ea.",
-        "Deleted": false,
-        "Rank": 193,
-        "Type": "quia",
-        "ColorBlock": 963,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2021-12-28T11:06:43.006573+01:00",
+        "Id": 482,
+        "Name": "Jacobs-Reichert",
+        "ToolTip": "Dignissimos et inventore aut.",
+        "Deleted": true,
+        "Rank": 173,
+        "Type": "dignissimos",
+        "ColorBlock": 718,
+        "IconHint": "eaque",
+        "Selected": true,
+        "LastChanged": "2000-11-01T13:38:18.186902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "et",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Prof. Delia Casimir Jacobson II",
+        "FullName": "Cathryn Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 152
+            "FieldLength": 836
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Duane Mariam Hammes Sr.",
+    "ExtraInfo": "harum",
+    "StyleHint": "ad",
+    "Hidden": false,
+    "FullName": "Prof. Luna Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 748
       }
     }
   }

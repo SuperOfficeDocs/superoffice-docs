@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 152,
-  "Name": "White Group",
-  "Tooltip": "iste",
+  "Id": 215,
+  "Name": "Gaylord-Bahringer",
+  "Tooltip": "delectus",
   "Deleted": false,
-  "Rank": 945,
+  "Rank": 306,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "numquam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 773
     }
   },
   "_Links": {

@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 96
+  "UserGroupId": 747
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 793,
-    "ColumnId": 712,
-    "FieldDefault": "aliquam",
-    "FieldHeight": 122,
-    "FieldLabel": "omnis",
-    "FieldLeft": 398,
-    "FieldTop": 840,
+    "UDefFieldId": 583,
+    "ColumnId": 146,
+    "FieldDefault": "consequatur",
+    "FieldHeight": 278,
+    "FieldLabel": "mollitia",
+    "FieldLeft": 817,
+    "FieldTop": 322,
     "FieldType": "Checkbox",
-    "FieldWidth": 133,
-    "FormatMask": "perferendis",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 105,
-    "LabelLeft": 24,
-    "LabelTop": 548,
-    "LabelWidth": 391,
-    "LastVersionId": 223,
-    "ListTableId": 184,
+    "FieldWidth": 596,
+    "FormatMask": "dolores",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 221,
+    "LabelLeft": 374,
+    "LabelTop": 454,
+    "LabelWidth": 763,
+    "LastVersionId": 343,
+    "ListTableId": 494,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 85,
-    "ProgId": "molestiae",
-    "IsReadOnly": true,
-    "ShortLabel": "laborum",
-    "TabOrder": 311,
-    "TextLength": 92,
-    "Tooltip": "quasi",
-    "UdefIdentity": 652,
-    "UDListDefinitionId": 759,
+    "Page1LineNo": 438,
+    "ProgId": "et",
+    "IsReadOnly": false,
+    "ShortLabel": "eaque",
+    "TabOrder": 365,
+    "TextLength": 495,
+    "Tooltip": "labore",
+    "UdefIdentity": 710,
+    "UDListDefinitionId": 332,
     "Justification": "Center",
-    "Version": 258,
-    "TemplateVariableName": "Schinner Inc and Sons",
+    "Version": 159,
+    "TemplateVariableName": "Runte-Skiles",
     "HasBeenPublished": false,
-    "MdoListName": "Hodkiewicz-Strosin",
+    "MdoListName": "Thiel-Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldLength": 885
       }
     }
   }

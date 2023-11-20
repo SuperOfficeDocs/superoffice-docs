@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 131
+  "PersonId": 175
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 27,
-  "Name": "Halvorson, Hartmann and Kassulke",
-  "PersonId": 89,
-  "Rank": 977,
-  "Tooltip": "at",
+  "AssociateId": 71,
+  "Name": "Wintheiser Group",
+  "PersonId": 223,
+  "Rank": 722,
+  "Tooltip": "quas",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 558,
-  "FullName": "Melba Feeney",
-  "FormalName": "Tromp-Block",
+  "GroupIdx": 813,
+  "FullName": "Keshawn Schumm",
+  "FormalName": "Romaguera-Donnelly",
   "Deleted": false,
-  "EjUserId": 270,
-  "UserName": "Kiehn Group",
+  "EjUserId": 765,
+  "UserName": "Toy LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 973
     }
   }
 }

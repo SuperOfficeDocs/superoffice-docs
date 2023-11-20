@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 912,
-  "Name": "Flatley Inc and Sons",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 459,
-  "Rank": 685,
+  "Id": 459,
+  "Name": "White LLC",
+  "Tooltip": "inventore",
+  "Deleted": false,
+  "UdListDefinitionId": 382,
+  "Rank": 393,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 439
+      "FieldType": "System.Int32",
+      "FieldLength": 271
     }
   }
 }

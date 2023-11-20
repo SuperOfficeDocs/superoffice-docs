@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Okuneva-Hirthe",
-    "ToolTip": "Esse autem.",
-    "Deleted": false,
-    "Rank": 6,
-    "Type": "ut",
-    "ColorBlock": 831,
-    "IconHint": "rem",
+    "Id": 332,
+    "Name": "Hayes Group",
+    "ToolTip": "Quia nemo nisi qui.",
+    "Deleted": true,
+    "Rank": 965,
+    "Type": "animi",
+    "ColorBlock": 482,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2021-09-02T11:06:42.7409447+02:00",
+    "LastChanged": "2010-03-24T13:38:18.0150452+01:00",
     "ChildItems": [
       {
-        "Id": 358,
-        "Name": "Walter, Steuber and Schumm",
-        "ToolTip": "Non tenetur quod dolorum.",
+        "Id": 327,
+        "Name": "Cronin Inc and Sons",
+        "ToolTip": "Quidem a enim similique reprehenderit.",
         "Deleted": false,
-        "Rank": 609,
+        "Rank": 487,
         "Type": "et",
-        "ColorBlock": 360,
-        "IconHint": "possimus",
+        "ColorBlock": 636,
+        "IconHint": "odit",
         "Selected": true,
-        "LastChanged": "2004-03-17T11:06:42.7409447+01:00",
+        "LastChanged": "2019-12-07T13:38:18.0150452+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "veritatis",
-        "Hidden": true,
-        "FullName": "Marcelina Schowalter"
+        "ExtraInfo": "sed",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Name Brook Casper Sr."
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "est",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Ms. Marion Dewitt Heidenreich DVM"
+    "FullName": "Prof. Guillermo Elta Hoeger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Heidenreich, Kessler and Harber",
-    "ToolTip": "Beatae et magnam.",
+    "Id": 500,
+    "Name": "West-Casper",
+    "ToolTip": "Aut id molestias.",
     "Deleted": false,
-    "Rank": 764,
-    "Type": "similique",
-    "ColorBlock": 45,
-    "IconHint": "ratione",
-    "Selected": false,
-    "LastChanged": "2005-12-01T11:06:42.7409447+01:00",
+    "Rank": 807,
+    "Type": "omnis",
+    "ColorBlock": 311,
+    "IconHint": "ipsum",
+    "Selected": true,
+    "LastChanged": "2013-09-29T13:38:18.0150452+02:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Schulist Group",
-        "ToolTip": "Molestiae dolores.",
+        "Id": 2,
+        "Name": "Kshlerin-Cruickshank",
+        "ToolTip": "Cumque dolore ipsam.",
         "Deleted": true,
-        "Rank": 619,
-        "Type": "rerum",
-        "ColorBlock": 640,
-        "IconHint": "sed",
+        "Rank": 184,
+        "Type": "aut",
+        "ColorBlock": 903,
+        "IconHint": "a",
         "Selected": true,
-        "LastChanged": "2005-05-24T11:06:42.7409447+02:00",
+        "LastChanged": "2004-08-13T13:38:18.0150452+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "officiis",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Liza Bartell",
+        "FullName": "Mrs. Guadalupe Gabriel Hessel MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 643
+            "FieldType": "System.Int32",
+            "FieldLength": 711
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "officiis",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Mr. Verner Lesch",
+    "FullName": "Cristal Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 624
+        "FieldLength": 652
       }
     }
   }

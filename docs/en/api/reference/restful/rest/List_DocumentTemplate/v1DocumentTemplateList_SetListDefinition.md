@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 786,
-  "Name": "Daugherty, Kuhn and Wyman",
-  "Tooltip": "dolorem",
+  "Id": 775,
+  "Name": "Crooks Inc and Sons",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 773,
-  "IsCustomList": false,
+  "Rank": 230,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "minus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "incidunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 448,
-  "Name": "Ebert-Kozey",
-  "Tooltip": "magni",
+  "Id": 647,
+  "Name": "Greenholt, Swaniawski and Waelchi",
+  "Tooltip": "ad",
   "Deleted": false,
-  "Rank": 395,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 405,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true,
+  "ListType": "consequuntur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldType": "System.String",
+      "FieldLength": 727
     }
   }
 }

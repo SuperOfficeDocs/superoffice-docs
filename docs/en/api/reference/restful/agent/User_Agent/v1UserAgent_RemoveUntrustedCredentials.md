@@ -71,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "similique",
-  "PublicValue": "reprehenderit"
+  "Type": "quia",
+  "PublicValue": "quaerat"
 }
 ```
 

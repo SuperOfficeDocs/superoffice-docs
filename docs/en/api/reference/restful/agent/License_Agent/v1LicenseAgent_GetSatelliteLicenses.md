@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 878
+  "SatelliteId": 810
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Miller-Runte",
-    "Description": "Inverse solution-oriented productivity",
+    "Name": "Dare, Parker and Goldner",
+    "Description": "Synergistic 3rd generation solution",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 891,
-        "Tooltip": "dolor",
+        "Total": 880,
+        "Tooltip": "excepturi",
         "CanAssign": false,
-        "Free": 476,
-        "InUse": 498,
-        "IsHidden": true,
+        "Free": 97,
+        "InUse": 86,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 98,
-        "Name": "Koepp Group",
-        "Description": "Sharable non-volatile process improvement",
-        "PrerequisiteModuleName": "Runte, Rogahn and Sporer",
-        "SortOrder": 916,
-        "ExtraFlags": 915,
+        "ModuleLicenseId": 464,
+        "Name": "Kunze-Kub",
+        "Description": "Centralized 3rd generation flexibility",
+        "PrerequisiteModuleName": "Klein-Deckow",
+        "SortOrder": 81,
+        "ExtraFlags": 925,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldType": "System.Int32",
+            "FieldLength": 405
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 355,
-        "Tooltip": "illum",
+        "Unrestricted": true,
+        "Total": 744,
+        "Tooltip": "nemo",
         "CanAssign": false,
-        "Free": 943,
-        "InUse": 760,
+        "Free": 790,
+        "InUse": 527,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 458,
-        "Name": "Weimann, Cruickshank and Hane",
-        "Description": "Public-key discrete installation",
-        "PrerequisiteModuleName": "Lowe, Marks and Spinka",
-        "SortOrder": 254,
-        "ExtraFlags": 33,
+        "Assigned": false,
+        "ModuleLicenseId": 387,
+        "Name": "Yundt-Wiza",
+        "Description": "Cross-group context-sensitive groupware",
+        "PrerequisiteModuleName": "Reynolds, Harber and Cummerata",
+        "SortOrder": 67,
+        "ExtraFlags": 515,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 87
+            "FieldType": "System.Int32",
+            "FieldLength": 169
           }
         }
       }
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldLength": 657
       }
     }
   },
   {
-    "Name": "Miller-Runte",
-    "Description": "Inverse solution-oriented productivity",
+    "Name": "Dare, Parker and Goldner",
+    "Description": "Synergistic 3rd generation solution",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 891,
-        "Tooltip": "dolor",
+        "Total": 880,
+        "Tooltip": "excepturi",
         "CanAssign": false,
-        "Free": 476,
-        "InUse": 498,
-        "IsHidden": true,
+        "Free": 97,
+        "InUse": 86,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 98,
-        "Name": "Koepp Group",
-        "Description": "Sharable non-volatile process improvement",
-        "PrerequisiteModuleName": "Runte, Rogahn and Sporer",
-        "SortOrder": 916,
-        "ExtraFlags": 915,
+        "ModuleLicenseId": 464,
+        "Name": "Kunze-Kub",
+        "Description": "Centralized 3rd generation flexibility",
+        "PrerequisiteModuleName": "Klein-Deckow",
+        "SortOrder": 81,
+        "ExtraFlags": 925,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldType": "System.Int32",
+            "FieldLength": 405
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 355,
-        "Tooltip": "illum",
+        "Unrestricted": true,
+        "Total": 744,
+        "Tooltip": "nemo",
         "CanAssign": false,
-        "Free": 943,
-        "InUse": 760,
+        "Free": 790,
+        "InUse": 527,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 458,
-        "Name": "Weimann, Cruickshank and Hane",
-        "Description": "Public-key discrete installation",
-        "PrerequisiteModuleName": "Lowe, Marks and Spinka",
-        "SortOrder": 254,
-        "ExtraFlags": 33,
+        "Assigned": false,
+        "ModuleLicenseId": 387,
+        "Name": "Yundt-Wiza",
+        "Description": "Cross-group context-sensitive groupware",
+        "PrerequisiteModuleName": "Reynolds, Harber and Cummerata",
+        "SortOrder": 67,
+        "ExtraFlags": 515,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 87
+            "FieldType": "System.Int32",
+            "FieldLength": 169
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldLength": 657
       }
     }
   }

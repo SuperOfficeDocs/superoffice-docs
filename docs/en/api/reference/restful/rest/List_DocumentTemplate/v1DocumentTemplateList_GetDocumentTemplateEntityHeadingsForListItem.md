@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 233,
-    "Name": "Prohaska, Jacobi and Skiles",
-    "ToolTip": "Non dolore veniam quod voluptates.",
+    "Id": 890,
+    "Name": "Swift Group",
+    "ToolTip": "Laboriosam et.",
     "Deleted": false,
-    "Rank": 714,
-    "Type": "modi",
-    "ColorBlock": 822,
-    "IconHint": "quaerat",
-    "Selected": true,
-    "LastChanged": "2015-07-02T11:06:42.8190654+02:00",
+    "Rank": 133,
+    "Type": "dolor",
+    "ColorBlock": 624,
+    "IconHint": "unde",
+    "Selected": false,
+    "LastChanged": "1999-05-31T13:38:18.0619133+02:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Powlowski Group",
-        "ToolTip": "Culpa libero ullam molestias ut molestiae et aut.",
+        "Id": 294,
+        "Name": "Dietrich-Murphy",
+        "ToolTip": "Est sunt deleniti natus.",
         "Deleted": false,
-        "Rank": 454,
-        "Type": "ut",
-        "ColorBlock": 190,
-        "IconHint": "at",
-        "Selected": true,
-        "LastChanged": "2005-05-07T11:06:42.8190654+02:00",
+        "Rank": 639,
+        "Type": "numquam",
+        "ColorBlock": 269,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "2019-09-24T13:38:18.0619133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "veniam",
+        "ExtraInfo": "ut",
+        "StyleHint": "porro",
         "Hidden": false,
-        "FullName": "Lucie Bernier",
+        "FullName": "Prof. Barry Lowe Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldLength": 71
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "tenetur",
+    "ExtraInfo": "maiores",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Ardith Orn",
+    "FullName": "Kylie Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 934
+        "FieldLength": 502
       }
     }
   }

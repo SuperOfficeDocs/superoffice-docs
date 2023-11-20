@@ -83,15 +83,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Borer Inc and Sons",
-      "Operator": "molestiae",
+      "Name": "Trantow-Yundt",
+      "Operator": "molestias",
       "Values": [
-        "fugiat",
-        "fuga"
+        "quos",
+        "ut"
       ],
       "DisplayValues": [
-        "vel",
-        "in"
+        "laboriosam",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 714,
+      "InterParenthesis": 633,
       "InterOperator": "And",
-      "UniqueHash": 29
+      "UniqueHash": 203
     }
   ],
   "Columns": [
-    "debitis",
-    "odio"
+    "omnis",
+    "omnis"
   ],
-  "ConnectionId": 530,
+  "ConnectionId": 973,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "autem",
-        "fugiat"
+        "eligendi",
+        "labore"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "aspernatur",
+      "ExternalKey": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 569
+          "FieldLength": 103
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Walker, Boyer and Terry",
-      "DisplayName": "Kessler Group",
+      "Name": "Bartoletti-Zboncak",
+      "DisplayName": "Rath-Wunsch",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 855
         }
       }
     },
     {
-      "Name": "Walker, Boyer and Terry",
-      "DisplayName": "Kessler Group",
+      "Name": "Bartoletti-Zboncak",
+      "DisplayName": "Rath-Wunsch",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 855
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldLength": 742
     }
   }
 }

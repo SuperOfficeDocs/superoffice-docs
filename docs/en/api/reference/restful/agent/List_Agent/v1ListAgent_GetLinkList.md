@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Rutherford Inc and Sons",
-    "Id": 830,
-    "Description": "Cross-group upward-trending encoding",
-    "ExtraInfo": "enim",
-    "LinkId": 680,
+    "EntityName": "Thiel, Nader and West",
+    "Id": 353,
+    "Description": "Customer-focused clear-thinking concept",
+    "ExtraInfo": "dolorum",
+    "LinkId": 454,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 202
+        "FieldType": "System.Int32",
+        "FieldLength": 175
       }
     }
   }

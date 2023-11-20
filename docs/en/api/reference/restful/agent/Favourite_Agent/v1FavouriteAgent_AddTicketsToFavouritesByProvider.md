@@ -71,18 +71,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ledner, Turner and Weissnat",
+  "ProviderName": "Boyle, Wolff and Swaniawski",
   "Restrictions": [
     {
-      "Name": "Konopelski-Weissnat",
-      "Operator": "aut",
+      "Name": "Hilpert, Mayer and Conroy",
+      "Operator": "fuga",
       "Values": [
-        "beatae",
-        "qui"
+        "accusantium",
+        "velit"
       ],
       "DisplayValues": [
-        "eum",
-        "officiis"
+        "cumque",
+        "doloremque"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 812,
+      "InterParenthesis": 90,
       "InterOperator": "And",
-      "UniqueHash": 277
+      "UniqueHash": 133
     }
   ],
-  "AssociateId": 560,
-  "ExtraInfo": "consequatur"
+  "AssociateId": 441,
+  "ExtraInfo": "sit"
 }
 ```
 

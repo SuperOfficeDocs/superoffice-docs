@@ -70,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Brakus, Wisozk and Kulas",
-      "DisplayName": "Hansen-Conroy",
-      "DisplayTooltip": "dolorum",
-      "IsActive": false
+      "Name": "Senger LLC",
+      "DisplayName": "Harvey-Jacobson",
+      "DisplayTooltip": "animi",
+      "IsActive": true
     },
     {
-      "Name": "Brakus, Wisozk and Kulas",
-      "DisplayName": "Hansen-Conroy",
-      "DisplayTooltip": "dolorum",
-      "IsActive": false
+      "Name": "Senger LLC",
+      "DisplayName": "Harvey-Jacobson",
+      "DisplayTooltip": "animi",
+      "IsActive": true
     }
   ]
 }

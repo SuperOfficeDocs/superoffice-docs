@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 324,
-  "Name": "Adams Inc and Sons",
-  "Tooltip": "doloremque",
+  "Id": 555,
+  "Name": "Smith Inc and Sons",
+  "Tooltip": "odio",
   "Deleted": false,
-  "UdListDefinitionId": 285,
-  "Rank": 722,
+  "UdListDefinitionId": 725,
+  "Rank": 142,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 551
+      "FieldLength": 945
     }
   }
 }

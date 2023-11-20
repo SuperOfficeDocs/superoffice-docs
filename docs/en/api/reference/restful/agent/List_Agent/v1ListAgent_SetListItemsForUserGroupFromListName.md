@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stoltenberg, Krajcik and Koch",
-  "UsergroupId": 223,
+  "UdListDefinitionName": "Schroeder LLC",
+  "UsergroupId": 996,
   "ListItemsID": [
-    886,
-    983
+    231,
+    935
   ],
   "Enable": false
 }

@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 574,
-  "SourcePersonId": 639,
-  "DestinationContactId": 715,
-  "DestinationPersonId": 383,
-  "RelationId": 793,
-  "Comment": "voluptatibus",
-  "RelationDefinitionId": 520,
-  "Reversed": 151,
-  "UpdatedDate": "2003-10-29T11:06:41.7697222+01:00",
-  "CreatedDate": "2006-07-08T11:06:41.7697222+02:00",
+  "SourceContactId": 180,
+  "SourcePersonId": 569,
+  "DestinationContactId": 377,
+  "DestinationPersonId": 456,
+  "RelationId": 419,
+  "Comment": "eius",
+  "RelationDefinitionId": 494,
+  "Reversed": 876,
+  "UpdatedDate": "1998-09-10T13:38:17.280593+02:00",
+  "CreatedDate": "2013-12-26T13:38:17.280593+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hermiston Inc and Sons",
-  "SourcePersonName": "Herzog Inc and Sons",
-  "DestinationContactName": "Parker-Weissnat",
-  "DestinationPersonName": "Johnson-Corwin",
-  "ActiveText": "labore",
-  "PassiveText": "maxime"
+  "SourceContactName": "Block, Kerluke and Howe",
+  "SourcePersonName": "Romaguera, Weissnat and Rohan",
+  "DestinationContactName": "Smith LLC",
+  "DestinationPersonName": "Goodwin LLC",
+  "ActiveText": "laudantium",
+  "PassiveText": "architecto"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 30,
-  "SourcePersonId": 331,
-  "DestinationContactId": 64,
-  "DestinationPersonId": 552,
-  "RelationId": 399,
-  "Comment": "error",
-  "RelationDefinitionId": 697,
-  "Reversed": 160,
-  "UpdatedDate": "2009-05-13T11:06:41.7697222+02:00",
-  "CreatedDate": "2005-01-24T11:06:41.7697222+01:00",
+  "SourceContactId": 461,
+  "SourcePersonId": 795,
+  "DestinationContactId": 410,
+  "DestinationPersonId": 443,
+  "RelationId": 965,
+  "Comment": "et",
+  "RelationDefinitionId": 984,
+  "Reversed": 611,
+  "UpdatedDate": "2019-12-19T13:38:17.280593+01:00",
+  "CreatedDate": "2008-11-10T13:38:17.280593+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Crooks LLC",
-  "SourcePersonName": "Streich-Doyle",
-  "DestinationContactName": "Pfannerstill-Denesik",
-  "DestinationPersonName": "Larson-Runolfsson",
-  "ActiveText": "in",
-  "PassiveText": "incidunt",
+  "SourceContactName": "Veum-Bashirian",
+  "SourcePersonName": "Rodriguez Group",
+  "DestinationContactName": "Jacobson Group",
+  "DestinationPersonName": "Robel-Flatley",
+  "ActiveText": "et",
+  "PassiveText": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

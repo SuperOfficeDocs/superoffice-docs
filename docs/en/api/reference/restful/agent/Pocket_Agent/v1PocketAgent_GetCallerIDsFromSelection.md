@@ -75,12 +75,12 @@ OK
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 221,
-  "LastHash": "ut"
+  "SelectionId": 480,
+  "LastHash": "voluptatem"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "molestiae",
+  "CallerIDHash": "repellat",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 337,
-      "PersonId": 779,
-      "PersonName": "Miller-Feeney",
-      "Mrmrs": "aut",
-      "ContactId": 451,
-      "ContactName": "Ryan Inc and Sons"
+      "DialInPrefix": 309,
+      "PersonId": 438,
+      "PersonName": "Bruen, Huel and Schmeler",
+      "Mrmrs": "earum",
+      "ContactId": 411,
+      "ContactName": "Daniel Group"
     }
   ]
 }

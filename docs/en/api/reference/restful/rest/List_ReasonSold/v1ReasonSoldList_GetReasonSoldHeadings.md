@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 731,
-    "Name": "McGlynn, Hodkiewicz and Schneider",
-    "Tooltip": "ut",
+    "HeadingId": 262,
+    "Name": "Senger, Armstrong and Keebler",
+    "Tooltip": "eos",
     "Deleted": true,
-    "Rank": 166,
-    "UdListDefinitionId": 199,
+    "Rank": 976,
+    "UdListDefinitionId": 586,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 14
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   }

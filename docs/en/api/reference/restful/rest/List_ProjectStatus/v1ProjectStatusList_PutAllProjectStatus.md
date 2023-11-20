@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 555,
-    "Name": "Mayert Group",
-    "Tooltip": "facere",
-    "Deleted": false,
+    "Id": 263,
+    "Name": "Ullrich, Schuppe and Harvey",
+    "Tooltip": "repudiandae",
+    "Deleted": true,
     "UdListDefinitionId": 260,
-    "Rank": 518
+    "Rank": 909
   },
   {
-    "Id": 555,
-    "Name": "Mayert Group",
-    "Tooltip": "facere",
-    "Deleted": false,
+    "Id": 263,
+    "Name": "Ullrich, Schuppe and Harvey",
+    "Tooltip": "repudiandae",
+    "Deleted": true,
     "UdListDefinitionId": 260,
-    "Rank": 518
+    "Rank": 909
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 28,
-    "Name": "Schneider-Hegmann",
-    "Tooltip": "est",
+    "Id": 257,
+    "Name": "Swift, Rippin and Lang",
+    "Tooltip": "quod",
     "Deleted": true,
-    "UdListDefinitionId": 204,
-    "Rank": 114,
+    "UdListDefinitionId": 560,
+    "Rank": 922,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 765
+        "FieldType": "System.Int32",
+        "FieldLength": 704
       }
     }
   }

@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 14,
-  "Name": "Mraz, Wilkinson and Barrows",
+  "ScreenChooserId": 142,
+  "Name": "Rowe LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "eos",
-  "Source": "qui",
-  "Registered": "2002-10-06T11:06:42.3647477+02:00",
-  "RegisteredAssociateId": 895,
-  "Updated": "2018-04-01T11:06:42.3647477+02:00",
-  "UpdatedAssociateId": 112,
+  "UniqueIdentifier": "sint",
+  "Source": "voluptatem",
+  "Registered": "1997-11-03T13:38:17.7650302+01:00",
+  "RegisteredAssociateId": 307,
+  "Updated": "2003-12-18T13:38:17.7650302+01:00",
+  "UpdatedAssociateId": 139,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 1001
     }
   }
 }

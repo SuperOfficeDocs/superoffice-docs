@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 531,
-  "Name": "Ortiz Group",
-  "Description": "Grass-roots 4th generation access"
+  "SourceId": 386,
+  "Name": "Abernathy-Bartoletti",
+  "Description": "Multi-channelled value-added migration"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 884,
+  "ReportId": 948,
   "ReportCategory": "All",
-  "Description": "Stand-alone impactful neural-net",
+  "Description": "Devolved mission-critical approach",
   "ReportLayout": "CalendarMonth",
-  "Name": "Zboncak Group",
-  "AssociateId": 976,
-  "TemplateId": 971,
-  "Published": false,
+  "Name": "Maggio Inc and Sons",
+  "AssociateId": 544,
+  "TemplateId": 393,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldLength": 402
     }
   }
 }

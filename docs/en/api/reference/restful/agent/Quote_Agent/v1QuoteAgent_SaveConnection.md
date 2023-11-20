@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 46,
-  "ERPName": "Sanford-Kerluke",
-  "DisplayName": "Anderson, Schneider and Kuhic",
-  "DisplayDescription": "Grass-roots multi-state database",
-  "Rank": 351,
-  "ConnectorName": "Friesen-White",
-  "ErpConnectionId": 686,
-  "ExtraData": "iste",
-  "IsAvailable": true,
+  "QuoteConnectionId": 554,
+  "ERPName": "Barton-O'Reilly",
+  "DisplayName": "Collier, Sipes and Quitzon",
+  "DisplayDescription": "Streamlined scalable moratorium",
+  "Rank": 196,
+  "ConnectorName": "Carroll-Rowe",
+  "ErpConnectionId": 338,
+  "ExtraData": "aspernatur",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 370,
-      "ERPPriceListKey": "aliquid",
-      "QuoteConnectionId": 834,
-      "Name": "Deckow-Greenholt",
-      "Description": "Managed fresh-thinking hardware",
-      "Currency": "fugit",
-      "CurrencyName": "Brakus-Harber",
-      "ValidFrom": "2005-12-04T11:06:35.2239506+01:00",
-      "ValidTo": "2003-04-03T11:06:35.2239506+02:00",
+      "PriceListId": 22,
+      "ERPPriceListKey": "id",
+      "QuoteConnectionId": 301,
+      "Name": "Bins LLC",
+      "Description": "Extended next generation matrix",
+      "Currency": "voluptatum",
+      "CurrencyName": "Larkin Group",
+      "ValidFrom": "2016-03-12T13:38:14.0303322+01:00",
+      "ValidTo": "2017-02-06T13:38:14.0303322+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 594
+          "FieldLength": 855
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": false,
+  "AllAccess": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    428,
-    9
+    621,
+    722
   ],
   "AssociateAccessIds": [
-    630,
-    420
+    82,
+    814
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 817
     }
   }
 }

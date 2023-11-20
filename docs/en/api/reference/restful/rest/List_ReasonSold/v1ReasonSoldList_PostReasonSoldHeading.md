@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 326,
-  "Name": "Emmerich-Kunze",
-  "Tooltip": "blanditiis",
+  "HeadingId": 710,
+  "Name": "Hauck LLC",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 561,
-  "UdListDefinitionId": 897
+  "Rank": 411,
+  "UdListDefinitionId": 1002
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 693,
-  "Name": "Hyatt-Tillman",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 240,
-  "UdListDefinitionId": 703,
+  "HeadingId": 737,
+  "Name": "Lubowitz, Von and Kuphal",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 296,
+  "UdListDefinitionId": 796,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldType": "System.String",
+      "FieldLength": 466
     }
   }
 }

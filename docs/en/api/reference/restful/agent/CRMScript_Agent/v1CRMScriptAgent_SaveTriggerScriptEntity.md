@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 38,
-  "Name": "O'Kon Group",
+  "ScreenChooserId": 968,
+  "Name": "Wehner, Bode and Bednar",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "dicta",
-  "Source": "rerum",
-  "Registered": "2023-04-04T11:06:34.2383276+02:00",
-  "RegisteredAssociateId": 520,
-  "Updated": "2003-07-27T11:06:34.2383276+02:00",
-  "UpdatedAssociateId": 106
+  "UniqueIdentifier": "harum",
+  "Source": "odit",
+  "Registered": "2023-01-18T13:38:13.374011+01:00",
+  "RegisteredAssociateId": 854,
+  "Updated": "2007-12-31T13:38:13.374011+01:00",
+  "UpdatedAssociateId": 412
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 339,
-  "Name": "Turner, Pagac and D'Amore",
+  "ScreenChooserId": 687,
+  "Name": "Koepp, Nitzsche and Toy",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "nesciunt",
-  "Source": "quo",
-  "Registered": "1998-11-12T11:06:34.2383276+01:00",
-  "RegisteredAssociateId": 645,
-  "Updated": "2010-09-18T11:06:34.2383276+02:00",
-  "UpdatedAssociateId": 794,
+  "UniqueIdentifier": "adipisci",
+  "Source": "odio",
+  "Registered": "2014-03-09T13:38:13.374011+01:00",
+  "RegisteredAssociateId": 497,
+  "Updated": "2008-04-17T13:38:13.374011+02:00",
+  "UpdatedAssociateId": 723,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 30
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 25,
-    "Name": "Hyatt-Franecki",
-    "Tooltip": "repellendus",
+    "Id": 519,
+    "Name": "Walsh-Reynolds",
+    "Tooltip": "quia",
     "Deleted": true,
-    "UdListDefinitionId": 940,
-    "Rank": 606,
+    "UdListDefinitionId": 637,
+    "Rank": 65,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 831
       }
     }
   }

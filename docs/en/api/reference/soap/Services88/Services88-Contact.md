@@ -1143,6 +1143,20 @@ title: Services88.ContactAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetDomainDuplicates">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Domain" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetDomainDuplicatesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfDuplicateEntry" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="IsNumberValid">
         <xs:complexType>
           <xs:sequence>
@@ -1869,6 +1883,23 @@ title: Services88.ContactAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetDomainDuplicatesRequest">
+    <wsdl:part name="parameters" element="tns:GetDomainDuplicates" />
+  </wsdl:message>
+  <wsdl:message name="GetDomainDuplicatesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetDomainDuplicatesResponse">
+    <wsdl:part name="parameters" element="tns:GetDomainDuplicatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDomainDuplicatesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="IsNumberValidRequest">
     <wsdl:part name="parameters" element="tns:IsNumberValid" />
   </wsdl:message>
@@ -2131,6 +2162,10 @@ title: Services88.ContactAgent WSDL
     <wsdl:operation name="GetNameDepartmentDuplicates">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetNameDepartmentDuplicates" name="GetNameDepartmentDuplicatesRequest" message="tns:GetNameDepartmentDuplicatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetNameDepartmentDuplicatesResponse" name="GetNameDepartmentDuplicatesResponse" message="tns:GetNameDepartmentDuplicatesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDomainDuplicates">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetDomainDuplicates" name="GetDomainDuplicatesRequest" message="tns:GetDomainDuplicatesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetDomainDuplicatesResponse" name="GetDomainDuplicatesResponse" message="tns:GetDomainDuplicatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsNumberValid">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/IsNumberValid" name="IsNumberValidRequest" message="tns:IsNumberValidRequest" />
@@ -2540,6 +2575,22 @@ title: Services88.ContactAgent WSDL
         <soap:header message="tns:GetNameDepartmentDuplicatesResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetNameDepartmentDuplicatesResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetNameDepartmentDuplicatesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDomainDuplicates">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetDomainDuplicates" style="document" />
+      <wsdl:input name="GetDomainDuplicatesRequest">
+        <soap:header message="tns:GetDomainDuplicatesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetDomainDuplicatesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetDomainDuplicatesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetDomainDuplicatesResponse">
+        <soap:header message="tns:GetDomainDuplicatesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetDomainDuplicatesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetDomainDuplicatesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetDomainDuplicatesResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

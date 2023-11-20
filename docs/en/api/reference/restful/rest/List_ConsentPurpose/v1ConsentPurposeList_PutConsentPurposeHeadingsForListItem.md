@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Grimes-Berge",
-    "ToolTip": "Quas vel sint ratione eum sunt animi.",
+    "Id": 62,
+    "Name": "Metz-Rempel",
+    "ToolTip": "Quod maxime praesentium cumque laudantium repellendus.",
     "Deleted": false,
-    "Rank": 327,
-    "Type": "eum",
-    "ColorBlock": 20,
-    "IconHint": "quia",
+    "Rank": 548,
+    "Type": "quod",
+    "ColorBlock": 600,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2023-09-23T11:06:42.7253202+02:00",
+    "LastChanged": "2016-09-23T13:38:17.9994152+02:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Aufderhar, Terry and Haley",
-        "ToolTip": "Enim et non architecto expedita a sit reiciendis.",
-        "Deleted": true,
-        "Rank": 618,
-        "Type": "voluptas",
-        "ColorBlock": 150,
-        "IconHint": "praesentium",
+        "Id": 166,
+        "Name": "Stracke-Auer",
+        "ToolTip": "Reprehenderit facilis perferendis molestias.",
+        "Deleted": false,
+        "Rank": 425,
+        "Type": "molestiae",
+        "ColorBlock": 499,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2014-10-25T11:06:42.7253202+02:00",
+        "LastChanged": "2019-08-18T13:38:17.9994152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "rerum",
+        "ExtraInfo": "sunt",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Albert Rodriguez"
+        "FullName": "Lora Herman"
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Jordy Nikolaus"
+    "ExtraInfo": "dolor",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Forrest Kunde"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Doyle-Bartoletti",
-    "ToolTip": "Porro sed ipsa cumque quis et molestiae.",
-    "Deleted": true,
-    "Rank": 529,
-    "Type": "ducimus",
-    "ColorBlock": 244,
-    "IconHint": "sit",
+    "Id": 223,
+    "Name": "Wunsch-Howell",
+    "ToolTip": "Debitis quis magnam ut.",
+    "Deleted": false,
+    "Rank": 246,
+    "Type": "qui",
+    "ColorBlock": 5,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "1998-09-25T11:06:42.7253202+02:00",
+    "LastChanged": "2023-03-16T13:38:17.9994152+01:00",
     "ChildItems": [
       {
-        "Id": 519,
-        "Name": "Renner-Nienow",
-        "ToolTip": "Vel esse consequuntur.",
+        "Id": 443,
+        "Name": "Conn, Aufderhar and Bernhard",
+        "ToolTip": "Itaque corporis praesentium harum voluptas distinctio.",
         "Deleted": true,
-        "Rank": 513,
-        "Type": "unde",
-        "ColorBlock": 978,
-        "IconHint": "minus",
+        "Rank": 838,
+        "Type": "odio",
+        "ColorBlock": 974,
+        "IconHint": "magnam",
         "Selected": true,
-        "LastChanged": "1996-09-21T11:06:42.7253202+02:00",
+        "LastChanged": "2006-10-09T13:38:17.9994152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "perferendis",
-        "Hidden": false,
-        "FullName": "Ms. Vance Walker",
+        "ExtraInfo": "et",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Alana Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 516
+            "FieldLength": 421
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Constantin Douglas",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "porro",
+    "Hidden": false,
+    "FullName": "Nannie Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 827
+        "FieldType": "System.String",
+        "FieldLength": 519
       }
     }
   }

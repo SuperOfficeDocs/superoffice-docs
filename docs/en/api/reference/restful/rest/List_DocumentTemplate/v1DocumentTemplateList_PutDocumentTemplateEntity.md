@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 760,
-  "Name": "Cruickshank-Quitzon",
-  "Tooltip": "cupiditate",
-  "SaveInDb": 335,
-  "Filename": "molestias",
-  "DefaultOref": "sunt",
+  "DocumentTemplateId": 422,
+  "Name": "Lang Group",
+  "Tooltip": "consectetur",
+  "SaveInDb": 104,
+  "Filename": "voluptates",
+  "DefaultOref": "itaque",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 722,
-  "IntentId": 355,
+  "AutoeventId": 180,
+  "IntentId": 187,
   "IsDefaultPublished": false,
-  "Rank": 863,
-  "LoadTemplateFromPlugin": 398,
-  "MimeType": "eveniet",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 986,
+  "Rank": 469,
+  "LoadTemplateFromPlugin": 72,
+  "MimeType": "est",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 978,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "neil@schmidt.com",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "al@cormiercassin.ca",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "gisselle_cronin@corkery.us",
+  "SenderEmailAddress": "jordy.kautzer@marksschinner.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 398,
-  "Name": "Reichel Group",
-  "Tooltip": "voluptatem",
-  "SaveInDb": 743,
-  "Filename": "deleniti",
-  "DefaultOref": "dolor",
+  "DocumentTemplateId": 183,
+  "Name": "Konopelski-Rohan",
+  "Tooltip": "dolor",
+  "SaveInDb": 209,
+  "Filename": "quod",
+  "DefaultOref": "distinctio",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 958,
-  "IntentId": 997,
-  "IsDefaultPublished": true,
-  "Rank": 376,
-  "LoadTemplateFromPlugin": 353,
-  "MimeType": "dolor",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 5,
+  "AutoeventId": 665,
+  "IntentId": 988,
+  "IsDefaultPublished": false,
+  "Rank": 28,
+  "LoadTemplateFromPlugin": 217,
+  "MimeType": "ut",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 750,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ebba_doyle@mann.co.uk",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
+  "EmailSubject": "malcolm@flatley.com",
+  "IncludeSignature": true,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "brennan_effertz@schinnerwuckert.uk",
+  "SenderEmailAddress": "ronny@gulgowskiokeefe.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldType": "System.String",
+      "FieldLength": 707
     }
   }
 }

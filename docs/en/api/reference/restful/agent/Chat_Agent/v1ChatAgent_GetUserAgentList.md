@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": false,
-  "OnlyPresent": false
+  "Flat": true,
+  "OnlyPresent": true
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 995,
-    "Name": "Kemmer Group",
-    "ToolTip": "In ducimus vero velit eos et et.",
-    "Deleted": true,
-    "Rank": 688,
-    "Type": "non",
+    "Id": 237,
+    "Name": "Medhurst Inc and Sons",
+    "ToolTip": "Ut est officiis architecto doloremque et.",
+    "Deleted": false,
+    "Rank": 940,
+    "Type": "sunt",
     "ChildItems": [
       {
-        "Id": 948,
-        "Name": "Walker-Oberbrunner",
-        "ToolTip": "Itaque ullam natus id tempora consequatur.",
-        "Deleted": false,
-        "Rank": 216,
-        "Type": "voluptas",
+        "Id": 727,
+        "Name": "Brakus-Streich",
+        "ToolTip": "Ullam tenetur id ad.",
+        "Deleted": true,
+        "Rank": 393,
+        "Type": "perspiciatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 379,
-        "ExtraInfo": "ducimus",
-        "StyleHint": "dolorem",
-        "FullName": "Mrs. Rita Destini Flatley DVM",
+        "IconHint": "rerum",
+        "ColorBlock": 351,
+        "ExtraInfo": "et",
+        "StyleHint": "vitae",
+        "FullName": "Layla Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 126
+            "FieldType": "System.Int32",
+            "FieldLength": 940
           }
         }
       }
     ],
-    "IconHint": "ullam",
-    "ColorBlock": 766,
-    "ExtraInfo": "praesentium",
-    "StyleHint": "est",
-    "FullName": "Jayne O'Reilly",
+    "IconHint": "qui",
+    "ColorBlock": 904,
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "modi",
+    "FullName": "Heloise Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldLength": 371
       }
     }
   }

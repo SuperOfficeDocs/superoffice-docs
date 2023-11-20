@@ -115,6 +115,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -131,8 +132,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 169,
-  "Count": 536
+  "PersonId": 502,
+  "Count": 917
 }
 ```
 
@@ -144,64 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 918,
-    "StartDate": "1998-09-05T11:06:33.7347319+02:00",
-    "EndDate": "2001-11-08T11:06:33.7347319+01:00",
+    "AppointmentId": 877,
+    "StartDate": "2014-10-03T13:38:13.0459237+02:00",
+    "EndDate": "2007-08-09T13:38:13.0459237+02:00",
     "Type": "BookingForChecklist",
     "Task": "ut",
-    "AssociateFullName": "Miss Emilia Turner",
-    "ContactName": "Kuhic, Corkery and Hilpert",
-    "Description": "Quality-focused cohesive array",
-    "PersonFullName": "Burdette Elisabeth Koelpin DDS",
-    "PersonId": 505,
-    "ContactId": 693,
-    "ProjectId": 794,
-    "ProjectName": "Kshlerin Inc and Sons",
+    "AssociateFullName": "Alycia Paula Corwin II",
+    "ContactName": "VonRueden-Runte",
+    "Description": "Upgradable 6th generation neural-net",
+    "PersonFullName": "Albina Koepp",
+    "PersonId": 587,
+    "ContactId": 912,
+    "ProjectId": 971,
+    "ProjectName": "Hessel, D'Amore and Leffler",
     "IsPublished": true,
-    "AssociateId": 29,
-    "ColorIndex": 904,
+    "AssociateId": 353,
+    "ColorIndex": 564,
     "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 118,
-    "PriorityName": "Deckow-Nader",
+    "PriorityId": 138,
+    "PriorityName": "Howe-Keeling",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2005-05-26T11:06:33.7347319+02:00",
+    "IsBooking": true,
+    "ActiveDate": "1998-09-01T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-01-18T11:06:33.7347319+01:00",
-    "RecurringEndDate": "2010-11-20T11:06:33.7347319+01:00",
-    "MotherId": 447,
-    "AssignedBy": 959,
-    "AssignedByFullName": "Elisha Hermiston",
-    "RejectReason": "",
-    "Location": "quisquam",
-    "AlarmLeadTime": "dolorum",
-    "SaleId": 251,
-    "SaleName": "Trantow, Strosin and Spencer",
-    "AssociateName": "Brakus, Prosacco and Quitzon",
-    "CreatedDate": "2020-06-27T11:06:33.7347319+02:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Mr. Germaine Lisandro Brakus",
-    "CreatedByAssociateId": 460,
+    "RecurringStartDate": "2007-01-31T13:38:13.0459237+01:00",
+    "RecurringEndDate": "2013-06-02T13:38:13.0459237+02:00",
+    "MotherId": 94,
+    "AssignedBy": 72,
+    "AssignedByFullName": "Mrs. Makenzie King I",
+    "RejectReason": "target intuitive initiatives",
+    "Location": "ea",
+    "AlarmLeadTime": "nihil",
+    "SaleId": 256,
+    "SaleName": "Kertzmann LLC",
+    "AssociateName": "Bednar-Wunsch",
+    "CreatedDate": "2023-02-03T13:38:13.0459237+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Prof. Jude Mauricio Ledner DVM",
+    "CreatedByAssociateId": 917,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "non",
-    "Agenda": "blanditiis",
-    "InternalNotes": "in",
+    "PreferredTZLocation": 197,
+    "Title": "illo",
+    "Agenda": "sunt",
+    "InternalNotes": "doloribus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 934
       }
     }
   }

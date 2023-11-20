@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "est",
+  "SaleText": "accusamus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2014-01-15T11:06:42.1916015+01:00",
-  "Amount": 30876.167999999998,
-  "SaleId": 48,
-  "Earning": 20831.698,
-  "EarningPercent": 26993.142,
-  "Heading": "voluptas",
-  "Number": "1055741",
-  "Probability": 272,
-  "CreatedDate": "2003-09-10T11:06:42.1916015+02:00",
-  "UpdatedDate": "2006-04-27T11:06:42.1916015+02:00",
+  "Saledate": "2004-07-16T13:38:17.6399305+02:00",
+  "Amount": 7825.598,
+  "SaleId": 914,
+  "Earning": 1172.116,
+  "EarningPercent": 11442.234,
+  "Heading": "optio",
+  "Number": "1437034",
+  "Probability": 820,
+  "CreatedDate": "2019-01-26T13:38:17.6399305+01:00",
+  "UpdatedDate": "2006-02-07T13:38:17.6399305+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 364,
+  "ActiveLinks": 235,
   "Links": [
     {
-      "EntityName": "Spencer Inc and Sons",
-      "Id": 637,
-      "Description": "Profit-focused homogeneous knowledge user",
-      "ExtraInfo": "quasi",
-      "LinkId": 621
+      "EntityName": "Wisoky, Von and Wiza",
+      "Id": 677,
+      "Description": "Optional uniform toolset",
+      "ExtraInfo": "et",
+      "LinkId": 660
     },
     {
-      "EntityName": "Spencer Inc and Sons",
-      "Id": 637,
-      "Description": "Profit-focused homogeneous knowledge user",
-      "ExtraInfo": "quasi",
-      "LinkId": 621
+      "EntityName": "Wisoky, Von and Wiza",
+      "Id": 677,
+      "Description": "Optional uniform toolset",
+      "ExtraInfo": "et",
+      "LinkId": 660
     }
   ],
-  "NextDueDate": "1999-12-18T11:06:42.1916015+01:00",
-  "Postit": "aut",
+  "NextDueDate": "2013-06-30T13:38:17.6399305+02:00",
+  "Postit": "perferendis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-05-22T11:06:42.1916015+02:00",
+  "ReopenDate": "1996-08-21T13:38:17.6399305+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Tremblay LLC",
-      "Comment": "itaque",
-      "StakeholderRoleId": 734,
-      "CountryId": 927,
-      "PersonId": 953,
-      "EmailDescription": "elliot@kohlerhammes.us",
-      "EmailId": 495,
-      "EmailAddress": "sydnie.bailey@hahnswaniawski.name",
-      "PhoneId": 720,
-      "ContactName": "Stark, Renner and Murazik",
-      "ContactId": 777,
-      "SaleId": 796,
-      "Mrmrs": "aperiam",
-      "Firstname": "Catharine",
-      "MiddleName": "Deckow, Berge and Wyman",
-      "Lastname": "Sanford",
-      "SaleStakeholderId": 604,
-      "Rank": 420,
-      "Phone": "550.040.9697 x9291"
+      "StakeholderRoleName": "Kirlin LLC",
+      "Comment": "et",
+      "StakeholderRoleId": 784,
+      "CountryId": 836,
+      "PersonId": 875,
+      "EmailDescription": "christopher@raustehr.info",
+      "EmailId": 382,
+      "EmailAddress": "keon@raynorhowell.biz",
+      "PhoneId": 306,
+      "ContactName": "Tremblay, Schumm and Cassin",
+      "ContactId": 449,
+      "SaleId": 372,
+      "Mrmrs": "molestiae",
+      "Firstname": "Trudie",
+      "MiddleName": "Purdy, Douglas and Mertz",
+      "Lastname": "Trantow",
+      "SaleStakeholderId": 867,
+      "Rank": 839,
+      "Phone": "699-176-0617"
     }
   ],
-  "ActiveErpLinks": 228,
+  "ActiveErpLinks": 412,
   "UserDefinedFields": {
-    "SuperOffice:1": "1513154139",
-    "SuperOffice:2": "Bud Anderson O'Keefe Sr."
+    "SuperOffice:1": "370951413",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "rerum"
+    "CustomFields1": "non",
+    "CustomFields2": "dicta"
   },
-  "PublishEventDate": "2016-04-13T11:06:42.1916015+02:00",
-  "PublishTo": "1996-11-23T11:06:42.1916015+01:00",
-  "PublishFrom": "1997-03-13T11:06:42.1916015+01:00",
+  "PublishEventDate": "2016-03-17T13:38:17.6399305+01:00",
+  "PublishTo": "2016-02-22T13:38:17.6399305+01:00",
+  "PublishFrom": "2000-07-03T13:38:17.6399305+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 170,
+      "VisibleId": 634,
       "Visibility": "All",
-      "DisplayValue": "autem"
+      "DisplayValue": "occaecati"
     },
     {
-      "VisibleId": 170,
+      "VisibleId": 634,
       "Visibility": "All",
-      "DisplayValue": "autem"
+      "DisplayValue": "occaecati"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "eum",
-  "2": "modi"
+  "1": "illum",
+  "2": "sed"
 }
 ```

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 201
+  "DocumentId": 175
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "ut",
-    "DocumentId": 10,
-    "VersionId": "ut",
-    "CheckedInDate": "2022-07-31T11:06:34.4270635+02:00",
-    "CheckedInByName": "Howell, Medhurst and Cummings",
-    "CheckedInByAssociateId": 647,
-    "Description": "Profit-focused analyzing Graphical User Interface",
-    "DisplayText": "accusantium",
+    "ExternalReference": "hic",
+    "DocumentId": 945,
+    "VersionId": "praesentium",
+    "CheckedInDate": "2008-05-07T13:38:13.4990023+02:00",
+    "CheckedInByName": "Macejkovic, Boehm and Ankunding",
+    "CheckedInByAssociateId": 249,
+    "Description": "Customizable contextually-based protocol",
+    "DisplayText": "minima",
     "ExtraFields": [
-      "omnis",
-      "vero"
+      "ducimus",
+      "odit"
     ]
   }
 ]

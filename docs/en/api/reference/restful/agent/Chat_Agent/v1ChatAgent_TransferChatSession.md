@@ -110,8 +110,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 413,
-  "ToAssociate": "amet"
+  "ChatSessionId": 954,
+  "ToAssociate": "fuga"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 443,
-  "TopicId": 898,
+  "ChatSessionId": 711,
+  "TopicId": 775,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vel",
-  "CustomerHost": "numquam",
-  "CustomerName": "Considine-Franecki",
-  "CustomerEmail": "enola.connelly@reynolds.co.uk",
-  "CustomerPhone": "(444)282-7044 x3778",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Williamson LLC",
+  "CustomerAlias": "voluptatum",
+  "CustomerHost": "illo",
+  "CustomerName": "Krajcik-Kirlin",
+  "CustomerEmail": "cleo_jacobi@mitchell.uk",
+  "CustomerPhone": "(219)886-5962",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Rohan LLC",
   "Status": "Closed",
-  "FirstMessage": "eveniet",
-  "LastMessage": "quia",
-  "WhenRequested": "2003-01-08T11:06:34.002723+01:00",
-  "WhenStarted": "2002-08-20T11:06:34.002723+02:00",
-  "WhenEnded": "2003-04-23T11:06:34.002723+02:00",
-  "WhenIdle": "2012-06-12T11:06:34.002723+02:00",
-  "WhenFetched": "2007-07-06T11:06:34.002723+02:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 88,
-  "AlertLevel": 886,
-  "Rank": 83,
+  "FirstMessage": "sint",
+  "LastMessage": "molestiae",
+  "WhenRequested": "2006-10-10T13:38:13.1396659+02:00",
+  "WhenStarted": "2011-06-01T13:38:13.1396659+02:00",
+  "WhenEnded": "2018-02-25T13:38:13.1396659+01:00",
+  "WhenIdle": "2021-04-27T13:38:13.1396659+02:00",
+  "WhenFetched": "2014-05-05T13:38:13.1396659+02:00",
+  "SessionKey": "repellat",
+  "InitialQueuePos": 254,
+  "AlertLevel": 506,
+  "Rank": 850,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 17,
+  "Rating": 901,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldType": "System.String",
+      "FieldLength": 537
     }
   }
 }

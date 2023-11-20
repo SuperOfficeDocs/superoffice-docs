@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Name": "Dickens-McGlynn",
-    "ToolTip": "Veniam est vero quas.",
-    "Deleted": false,
-    "Rank": 856,
-    "Type": "enim",
-    "ColorBlock": 335,
-    "IconHint": "cum",
-    "Selected": false,
-    "LastChanged": "1997-07-23T11:06:42.9440712+02:00",
+    "Id": 428,
+    "Name": "Simonis Group",
+    "ToolTip": "Asperiores expedita.",
+    "Deleted": true,
+    "Rank": 120,
+    "Type": "eligendi",
+    "ColorBlock": 774,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2020-02-18T13:38:18.1556538+01:00",
     "ChildItems": [
       {
-        "Id": 213,
-        "Name": "Carroll LLC",
-        "ToolTip": "Magni nemo excepturi neque odio ducimus.",
+        "Id": 109,
+        "Name": "Walker Group",
+        "ToolTip": "Voluptatem rerum vitae enim ea ea rerum.",
         "Deleted": false,
-        "Rank": 998,
-        "Type": "itaque",
-        "ColorBlock": 159,
-        "IconHint": "velit",
+        "Rank": 930,
+        "Type": "sed",
+        "ColorBlock": 581,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2004-05-24T11:06:42.9440712+02:00",
+        "LastChanged": "2005-11-30T13:38:18.1556538+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "qui",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Rebeca Ankunding"
+        "FullName": "Verda Harris"
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "soluta",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Dr. Rhiannon Steuber"
+    "FullName": "Ms. Ahmed Robel V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "Quitzon, Wintheiser and McLaughlin",
-    "ToolTip": "Sed et veniam.",
-    "Deleted": true,
-    "Rank": 289,
-    "Type": "id",
-    "ColorBlock": 853,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2003-01-02T11:06:42.9440712+01:00",
+    "Id": 886,
+    "Name": "Schuster Group",
+    "ToolTip": "Rerum non mollitia dicta necessitatibus nihil commodi.",
+    "Deleted": false,
+    "Rank": 164,
+    "Type": "incidunt",
+    "ColorBlock": 744,
+    "IconHint": "animi",
+    "Selected": true,
+    "LastChanged": "2011-01-31T13:38:18.1556538+01:00",
     "ChildItems": [
       {
-        "Id": 475,
-        "Name": "Wolf-Kozey",
-        "ToolTip": "Fuga molestiae dignissimos et.",
+        "Id": 535,
+        "Name": "Metz, Herman and Legros",
+        "ToolTip": "Ut autem occaecati magnam aut.",
         "Deleted": true,
-        "Rank": 623,
-        "Type": "minus",
-        "ColorBlock": 644,
-        "IconHint": "dolor",
+        "Rank": 696,
+        "Type": "reiciendis",
+        "ColorBlock": 610,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2001-06-23T11:06:42.9440712+02:00",
+        "LastChanged": "2020-06-01T13:38:18.1556538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "eaque",
+        "ExtraInfo": "beatae",
+        "StyleHint": "at",
         "Hidden": true,
-        "FullName": "Ms. Ruthe Madie Kunze",
+        "FullName": "Judge Fay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 400
+            "FieldType": "System.String",
+            "FieldLength": 294
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "optio",
+    "ExtraInfo": "delectus",
+    "StyleHint": "similique",
     "Hidden": false,
-    "FullName": "Mr. Jaclyn Ulises Wolf",
+    "FullName": "Orrin Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 628
+        "FieldType": "System.Int32",
+        "FieldLength": 212
       }
     }
   }

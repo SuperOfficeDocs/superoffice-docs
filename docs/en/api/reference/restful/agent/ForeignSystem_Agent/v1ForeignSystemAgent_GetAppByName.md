@@ -83,7 +83,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Aufderhar-Aufderhar"
+  "ApplicationName": "Gaylord-Koepp"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 825,
-  "Name": "Jast LLC",
-  "CreatedDate": "1998-10-26T11:06:34.6301875+01:00",
-  "UpdatedDate": "2011-11-23T11:06:34.6301875+01:00",
+  "ForeignAppId": 52,
+  "Name": "West, Auer and Donnelly",
+  "CreatedDate": "2000-01-15T13:38:13.623981+01:00",
+  "UpdatedDate": "2003-01-25T13:38:13.623981+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 689,
-      "Name": "Reichert, VonRueden and Grady",
-      "CreatedDate": "2002-07-01T11:06:34.6301875+02:00",
-      "UpdatedDate": "2017-10-10T11:06:34.6301875+02:00",
-      "AssociateFullName": "Darron Skiles",
-      "CreatedBy": "aspernatur",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "dolores",
-      "ForeignAppId": 639,
+      "ForeignDeviceId": 738,
+      "Name": "McDermott-Ryan",
+      "CreatedDate": "2009-10-10T13:38:13.623981+02:00",
+      "UpdatedDate": "2013-04-17T13:38:13.623981+02:00",
+      "AssociateFullName": "Kaden Renner",
+      "CreatedBy": "sit",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "beatae",
+      "ForeignAppId": 395,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 71
+          "FieldType": "System.String",
+          "FieldLength": 410
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 976
     }
   }
 }

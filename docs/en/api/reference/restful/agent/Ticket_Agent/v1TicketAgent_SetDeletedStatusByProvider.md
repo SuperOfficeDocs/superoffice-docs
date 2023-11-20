@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Pfeffer Group",
+  "ProviderName": "Weber-Conroy",
   "Restrictions": [
     {
-      "Name": "Stehr Inc and Sons",
-      "Operator": "tempora",
+      "Name": "Abernathy-Franecki",
+      "Operator": "officia",
       "Values": [
-        "deserunt",
-        "molestiae"
+        "sed",
+        "aut"
       ],
       "DisplayValues": [
-        "facere",
-        "molestias"
+        "aut",
+        "quis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 958,
+      "InterParenthesis": 613,
       "InterOperator": "And",
-      "UniqueHash": 571
+      "UniqueHash": 240
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  768,
-  860
+  794,
+  727
 ]
 ```

@@ -12234,6 +12234,8 @@
       href: Services88/Appointment/GetMySyncAppointments.md
     - name: GetMyTasks
       href: Services88/Appointment/GetMyTasks.md
+    - name: GetNextAvailableTime
+      href: Services88/Appointment/GetNextAvailableTime.md
     - name: GetNextSuggestedAppointmentBySale
       href: Services88/Appointment/GetNextSuggestedAppointmentBySale.md
     - name: GetOrganizerName
@@ -12812,6 +12814,8 @@
       href: Services88/Contact/GetContactSummary.md
     - name: GetContactWithPersons
       href: Services88/Contact/GetContactWithPersons.md
+    - name: GetDomainDuplicates
+      href: Services88/Contact/GetDomainDuplicates.md
     - name: GetDuplicateRules
       href: Services88/Contact/GetDuplicateRules.md
     - name: GetDuplicates
@@ -14391,6 +14395,8 @@
       href: Services88/List/GetWebPanelList.md
     - name: GlobalChangeTicketStatus
       href: Services88/List/GlobalChangeTicketStatus.md
+    - name: GlobalChangeTicketType
+      href: Services88/List/GlobalChangeTicketType.md
     - name: MoveAllTickets
       href: Services88/List/MoveAllTickets.md
     - name: MoveListItem
@@ -14739,6 +14745,8 @@
       href: Services88/Person/SendConsentConfirmationEmail.md
     - name: SendEmail
       href: Services88/Person/SendEmail.md
+    - name: SendEmailWithEventName
+      href: Services88/Person/SendEmailWithEventName.md
     - name: SetConsent
       href: Services88/Person/SetConsent.md
     - name: SetPersonImage
@@ -15608,6 +15616,8 @@
       href: Services88/Ticket/GetAttachmentStream.md
     - name: GetDefaultMessageContent
       href: Services88/Ticket/GetDefaultMessageContent.md
+    - name: GetDefaultMessageContentFull
+      href: Services88/Ticket/GetDefaultMessageContentFull.md
     - name: GetForRmUi
       href: Services88/Ticket/GetForRmUi.md
     - name: GetNextInQueue
@@ -16059,8 +16069,8 @@
       href: Services88/Workflow/CreateDefaultWorkflowGoal.md
     - name: CreateDefaultWorkflowStepFromType
       href: Services88/Workflow/CreateDefaultWorkflowStepFromType.md
-    - name: CreateDefaultWorkflowStepOption
-      href: Services88/Workflow/CreateDefaultWorkflowStepOption.md
+    - name: CreateDefaultWorkflowStepOptionFromType
+      href: Services88/Workflow/CreateDefaultWorkflowStepOptionFromType.md
     - name: CreateDefaultWorkflowTrigger
       href: Services88/Workflow/CreateDefaultWorkflowTrigger.md
     - name: CreateEmailFlowContent
@@ -16069,8 +16079,6 @@
       href: Services88/Workflow/DeleteEmailFlow.md
     - name: DeleteWorkflowGoal
       href: Services88/Workflow/DeleteWorkflowGoal.md
-    - name: DeleteWorkflowStepOption
-      href: Services88/Workflow/DeleteWorkflowStepOption.md
     - name: DeleteWorkflowTrigger
       href: Services88/Workflow/DeleteWorkflowTrigger.md
     - name: GetEmailFlow
@@ -16091,8 +16099,6 @@
       href: Services88/Workflow/SaveEmailFlow.md
     - name: SaveWorkflowGoal
       href: Services88/Workflow/SaveWorkflowGoal.md
-    - name: SaveWorkflowStepOption
-      href: Services88/Workflow/SaveWorkflowStepOption.md
     - name: SaveWorkflowTrigger
       href: Services88/Workflow/SaveWorkflowTrigger.md
     - name: SendEvent

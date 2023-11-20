@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 869,
-  "FieldName": "Jenkins LLC",
-  "Label": "mollitia",
-  "Tooltip": "occaecati",
-  "Editable": false,
-  "InUse": true,
-  "Mandatory": true,
-  "Rank": 911,
+  "QuoteLineConfigurationId": 737,
+  "FieldName": "Wisoky LLC",
+  "Label": "praesentium",
+  "Tooltip": "blanditiis",
+  "Editable": true,
+  "InUse": false,
+  "Mandatory": false,
+  "Rank": 818,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldLength": 268
     }
   }
 }

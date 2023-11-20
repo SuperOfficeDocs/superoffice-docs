@@ -88,22 +88,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 680,
-  "LeadDescription": "Multi-lateral human-resource knowledge user",
-  "Relation": "aut",
-  "RelationId": 314,
-  "LeadContact": "possimus",
-  "LeadPersonFirstname": "Alana",
-  "LeadPersonLastname": "Bergnaum",
-  "LeadPersonEmail": "dejon.wuckert@stark.info",
-  "LeadPhoneNumber": "1030766",
-  "CreatorsContact": "blanditiis",
-  "CreatorsFirstname": "Teagan",
-  "CreatorsLastname": "Johnston"
+  "AssociateIdForNewContact": 366,
+  "LeadDescription": "Team-oriented value-added support",
+  "Relation": "ut",
+  "RelationId": 532,
+  "LeadContact": "adipisci",
+  "LeadPersonFirstname": "Meda",
+  "LeadPersonLastname": "Schulist",
+  "LeadPersonEmail": "caleigh.cummerata@deckow.com",
+  "LeadPhoneNumber": "234530",
+  "CreatorsContact": "et",
+  "CreatorsFirstname": "Elvis",
+  "CreatorsLastname": "Graham"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 608,
-      "Name": "Larson, Fay and Runolfsson",
-      "OrgNr": "1728623",
+      "ContactId": 946,
+      "Name": "Hickle Inc and Sons",
+      "OrgNr": "710695",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "repudiandae",
-      "DirectPhone": "(326)193-6677",
-      "AssociateId": 704,
-      "CountryId": 921,
-      "EmailAddress": "zelda_lowe@lockman.biz",
-      "Kananame": "dolor",
-      "EmailAddressName": "clementine@sawayn.co.uk",
+      "City": "nemo",
+      "DirectPhone": "500-409-1092 x32198",
+      "AssociateId": 975,
+      "CountryId": 965,
+      "EmailAddress": "ardith@ziemannwitting.uk",
+      "Kananame": "ipsam",
+      "EmailAddressName": "eldon.hettinger@rice.name",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Archibald West",
+      "AssociateFullName": "Prof. Oswald Arvel Becker Sr.",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "iure",
-      "FullName": "Jerrold Balistreri",
+      "FormattedAddress": "doloremque",
+      "FullName": "Ms. Sven Salma Crist",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 52,
-      "Number1": "880756",
-      "Number2": "937787",
+      "ActiveErpLinks": 155,
+      "Number1": "711575",
+      "Number2": "1189210",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 98
+          "FieldLength": 174
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 220
     }
   }
 }

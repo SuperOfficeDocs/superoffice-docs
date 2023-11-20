@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Reichel Inc and Sons",
+  "TemplateName": "Smitham, Waters and Gaylord",
   "AllowPersonal": false,
-  "UiCulture": "laborum"
+  "UiCulture": "quisquam"
 }
 ```
 

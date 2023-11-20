@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 14 Jan 1998 11:06:41 G1T
+Last-Modified: Wed, 28 Dec 2022 13:38:17 G12T
 
 {
-  "SourceContactId": 601,
-  "SourcePersonId": 790,
-  "DestinationContactId": 474,
-  "DestinationPersonId": 444,
-  "RelationId": 79,
-  "Comment": "sint",
-  "RelationDefinitionId": 95,
-  "Reversed": 526,
-  "UpdatedDate": "1998-01-14T11:06:41.7697222+01:00",
-  "CreatedDate": "2010-09-15T11:06:41.7697222+02:00",
+  "SourceContactId": 1002,
+  "SourcePersonId": 249,
+  "DestinationContactId": 216,
+  "DestinationPersonId": 642,
+  "RelationId": 125,
+  "Comment": "odit",
+  "RelationDefinitionId": 30,
+  "Reversed": 449,
+  "UpdatedDate": "2022-12-28T13:38:17.280593+01:00",
+  "CreatedDate": "2008-10-31T13:38:17.280593+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Emard, Vandervort and Nienow",
-  "SourcePersonName": "Romaguera, Bartoletti and Ratke",
-  "DestinationContactName": "Klein LLC",
-  "DestinationPersonName": "Weissnat LLC",
-  "ActiveText": "laboriosam",
-  "PassiveText": "exercitationem",
+  "SourceContactName": "Mueller LLC",
+  "SourcePersonName": "Pfannerstill, Nienow and Hettinger",
+  "DestinationContactName": "Kutch-Hamill",
+  "DestinationPersonName": "Rolfson Group",
+  "ActiveText": "eum",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 958
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

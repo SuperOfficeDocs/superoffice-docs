@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 154,
-    "Name": "Macejkovic Group",
-    "ToolTip": "Et facere impedit architecto iure nesciunt ut est.",
-    "Deleted": false,
-    "Rank": 560,
-    "Type": "rerum",
-    "ColorBlock": 208,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2008-09-25T11:06:42.8503167+02:00",
+    "Id": 285,
+    "Name": "Larkin, Kreiger and Dare",
+    "ToolTip": "Repellendus et nostrum quas.",
+    "Deleted": true,
+    "Rank": 981,
+    "Type": "est",
+    "ColorBlock": 530,
+    "IconHint": "molestias",
+    "Selected": false,
+    "LastChanged": "2008-01-09T13:38:18.0931573+01:00",
     "ChildItems": [
       {
-        "Id": 697,
-        "Name": "Dooley-Stoltenberg",
-        "ToolTip": "Hic minus unde cupiditate.",
-        "Deleted": false,
-        "Rank": 20,
-        "Type": "et",
-        "ColorBlock": 906,
-        "IconHint": "adipisci",
+        "Id": 507,
+        "Name": "Wilderman-Waters",
+        "ToolTip": "Earum commodi.",
+        "Deleted": true,
+        "Rank": 208,
+        "Type": "harum",
+        "ColorBlock": 680,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "1997-04-19T11:06:42.8503167+02:00",
+        "LastChanged": "2013-03-18T13:38:18.0931573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "eaque",
-        "Hidden": true,
-        "FullName": "Geraldine Borer",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "temporibus",
+        "Hidden": false,
+        "FullName": "Ray Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 25
+            "FieldLength": 318
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "rerum",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "esse",
     "Hidden": true,
-    "FullName": "Malcolm Leuschke",
+    "FullName": "Avery Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 332
       }
     }
   }

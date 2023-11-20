@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 440,
-    "Name": "Koch-Bednar",
-    "ToolTip": "Ipsam consequatur ab sunt rem.",
+    "Id": 374,
+    "Name": "Brekke-Weissnat",
+    "ToolTip": "Nihil velit iste quam.",
     "Deleted": true,
-    "Rank": 862,
-    "Type": "non",
-    "ColorBlock": 331,
-    "IconHint": "repellat",
-    "Selected": false,
-    "LastChanged": "2008-07-27T11:06:42.8659405+02:00",
+    "Rank": 63,
+    "Type": "et",
+    "ColorBlock": 872,
+    "IconHint": "quasi",
+    "Selected": true,
+    "LastChanged": "2001-03-28T13:38:18.1087815+02:00",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Wilkinson, Dooley and Cassin",
-        "ToolTip": "Vel possimus voluptatem.",
-        "Deleted": true,
-        "Rank": 162,
-        "Type": "et",
-        "ColorBlock": 786,
-        "IconHint": "quod",
-        "Selected": false,
-        "LastChanged": "2016-08-20T11:06:42.8659405+02:00",
+        "Id": 235,
+        "Name": "Kshlerin, Leffler and Abshire",
+        "ToolTip": "Iusto quisquam nihil quia aut velit est libero.",
+        "Deleted": false,
+        "Rank": 379,
+        "Type": "non",
+        "ColorBlock": 97,
+        "IconHint": "molestiae",
+        "Selected": true,
+        "LastChanged": "1996-10-02T13:38:18.1087815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ut",
+        "ExtraInfo": "sunt",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Dennis Cronin",
+        "FullName": "Breanne Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 328
+            "FieldLength": 243
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "placeat",
+    "ExtraInfo": "iusto",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Cruz Kozey",
+    "FullName": "Aimee Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 287
       }
     }
   }

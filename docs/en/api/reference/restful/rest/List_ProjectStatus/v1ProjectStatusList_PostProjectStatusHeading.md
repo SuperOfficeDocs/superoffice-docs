@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 599,
-  "Name": "Bayer Group",
-  "Tooltip": "consequuntur",
+  "HeadingId": 959,
+  "Name": "Mohr-Bergnaum",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 587,
-  "UdListDefinitionId": 349
+  "Rank": 928,
+  "UdListDefinitionId": 1002
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 817,
-  "Name": "Dare LLC",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 551,
-  "UdListDefinitionId": 133,
+  "HeadingId": 897,
+  "Name": "Pacocha, Schamberger and Heller",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 834,
+  "UdListDefinitionId": 484,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldType": "System.Int32",
+      "FieldLength": 695
     }
   }
 }

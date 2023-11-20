@@ -117,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -133,10 +134,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 591,
-  "StartTime": "2001-12-12T11:06:33.4288564+01:00",
-  "EndTime": "2018-02-24T11:06:33.4288564+01:00",
-  "Count": 182
+  "PersonId": 366,
+  "StartTime": "2021-06-16T13:38:12.8428246+02:00",
+  "EndTime": "2009-02-01T13:38:12.8428246+01:00",
+  "Count": 102
 }
 ```
 
@@ -148,64 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 245,
-    "StartDate": "2014-02-17T11:06:33.4444886+01:00",
-    "EndDate": "1996-08-03T11:06:33.4444886+02:00",
+    "AppointmentId": 746,
+    "StartDate": "2017-10-15T13:38:12.8428246+02:00",
+    "EndDate": "2015-03-26T13:38:12.8428246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quam",
-    "AssociateFullName": "Carlee Rutherford MD",
-    "ContactName": "Ondricka-Walsh",
-    "Description": "Sharable secondary access",
-    "PersonFullName": "Karolann Bret McDermott I",
-    "PersonId": 222,
-    "ContactId": 1001,
-    "ProjectId": 202,
-    "ProjectName": "Barton, Waelchi and Dickinson",
+    "Task": "libero",
+    "AssociateFullName": "Orion Hansen",
+    "ContactName": "Hickle Group",
+    "Description": "Optional human-resource algorithm",
+    "PersonFullName": "Mrs. Callie Kellen Schaden IV",
+    "PersonId": 787,
+    "ContactId": 820,
+    "ProjectId": 871,
+    "ProjectName": "O'Keefe-Trantow",
     "IsPublished": true,
-    "AssociateId": 408,
-    "ColorIndex": 810,
+    "AssociateId": 715,
+    "ColorIndex": 363,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 432,
-    "PriorityName": "Herman, Douglas and Miller",
+    "PriorityId": 402,
+    "PriorityName": "Daugherty, Huel and Ankunding",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2016-10-21T11:06:33.4444886+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2016-02-18T13:38:12.8428246+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-12-28T11:06:33.4444886+01:00",
-    "RecurringEndDate": "2006-05-24T11:06:33.4444886+02:00",
-    "MotherId": 85,
-    "AssignedBy": 714,
-    "AssignedByFullName": "Dr. Carter Adams Sr.",
-    "RejectReason": "e-enable bricks-and-clicks experiences",
-    "Location": "qui",
-    "AlarmLeadTime": "illum",
-    "SaleId": 660,
-    "SaleName": "Funk Group",
-    "AssociateName": "Mueller, Kling and Lind",
-    "CreatedDate": "2015-07-17T11:06:33.4444886+02:00",
-    "CreatedBy": "veritatis",
-    "CreatedByFullName": "Maria Weber",
-    "CreatedByAssociateId": 253,
+    "RecurringStartDate": "2004-07-06T13:38:12.8428246+02:00",
+    "RecurringEndDate": "2018-01-28T13:38:12.8428246+01:00",
+    "MotherId": 524,
+    "AssignedBy": 832,
+    "AssignedByFullName": "Pat Adrien Bruen DDS",
+    "RejectReason": "",
+    "Location": "facere",
+    "AlarmLeadTime": "laudantium",
+    "SaleId": 244,
+    "SaleName": "Jones LLC",
+    "AssociateName": "Schroeder LLC",
+    "CreatedDate": "2013-05-21T13:38:12.8428246+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Samir Heller",
+    "CreatedByAssociateId": 360,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "ea",
-    "Agenda": "tenetur",
-    "InternalNotes": "explicabo",
+    "PreferredTZLocation": 193,
+    "Title": "soluta",
+    "Agenda": "consequatur",
+    "InternalNotes": "corrupti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldType": "System.Int32",
+        "FieldLength": 768
       }
     }
   }

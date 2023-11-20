@@ -96,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 856
+  "RoleId": 331
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "Jenkins, Kemmer and Prohaska",
-    "ToolTip": "Nostrum ut.",
+    "Id": 286,
+    "Name": "Schiller, Connelly and Wiegand",
+    "ToolTip": "Provident similique quas cupiditate.",
     "Deleted": false,
-    "Rank": 521,
-    "Type": "qui",
-    "ColorBlock": 636,
-    "IconHint": "a",
-    "Selected": false,
-    "LastChanged": "2001-08-05T11:06:35.6939994+02:00",
+    "Rank": 404,
+    "Type": "eaque",
+    "ColorBlock": 859,
+    "IconHint": "esse",
+    "Selected": true,
+    "LastChanged": "2019-02-17T13:38:14.3584195+01:00",
     "ChildItems": [
       {
-        "Id": 35,
-        "Name": "Hessel-Stark",
-        "ToolTip": "Doloribus repellat molestiae nulla.",
+        "Id": 865,
+        "Name": "Boyle Inc and Sons",
+        "ToolTip": "Quasi incidunt aut cupiditate nostrum adipisci cumque.",
         "Deleted": false,
-        "Rank": 607,
-        "Type": "in",
-        "ColorBlock": 287,
-        "IconHint": "architecto",
+        "Rank": 590,
+        "Type": "tempora",
+        "ColorBlock": 777,
+        "IconHint": "odio",
         "Selected": true,
-        "LastChanged": "2017-03-27T11:06:35.6939994+02:00",
+        "LastChanged": "2014-08-17T13:38:14.3584195+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Carey Schultz",
+        "FullName": "Darren Brakus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldLength": 316
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Irma Lang",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Yvonne Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldType": "System.String",
+        "FieldLength": 615
       }
     }
   }

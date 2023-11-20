@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 17 Jul 2012 11:06:41 G7T
+Last-Modified: Mon, 29 Apr 2002 13:38:17 G4T
 
 [
   {
-    "ForeignDeviceId": 211,
-    "Name": "Aufderhar-Hand",
-    "CreatedDate": "2012-02-21T11:06:41.8947242+01:00",
-    "UpdatedDate": "2012-07-17T11:06:41.8947242+02:00",
-    "AssociateFullName": "Miss Audie Davon Bednar V",
-    "CreatedBy": "repellendus",
-    "UpdatedBy": "ut",
-    "DeviceIdentifier": "cupiditate",
-    "ForeignAppId": 877,
+    "ForeignDeviceId": 493,
+    "Name": "Dickinson Inc and Sons",
+    "CreatedDate": "2012-11-02T13:38:17.4368262+01:00",
+    "UpdatedDate": "2002-04-29T13:38:17.4368262+02:00",
+    "AssociateFullName": "Mrs. Vickie Farrell V",
+    "CreatedBy": "voluptatum",
+    "UpdatedBy": "labore",
+    "DeviceIdentifier": "omnis",
+    "ForeignAppId": 655,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldLength": 725
       }
     }
   }

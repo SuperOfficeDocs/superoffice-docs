@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 213,
+  "SourceDocumentTemplateId": 75,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 435,
-  "Name": "Rogahn LLC",
-  "Tooltip": "dolorem",
-  "SaveInDb": 362,
-  "Filename": "quidem",
-  "DefaultOref": "praesentium",
+  "DocumentTemplateId": 283,
+  "Name": "O'Kon Group",
+  "Tooltip": "corporis",
+  "SaveInDb": 990,
+  "Filename": "minima",
+  "DefaultOref": "esse",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 621,
-  "IntentId": 564,
+  "AutoeventId": 518,
+  "IntentId": 785,
   "IsDefaultPublished": true,
-  "Rank": 602,
-  "LoadTemplateFromPlugin": 184,
-  "MimeType": "labore",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 750,
+  "Rank": 194,
+  "LoadTemplateFromPlugin": 77,
+  "MimeType": "qui",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 824,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rigoberto@spinkahills.name",
+  "EmailSubject": "yazmin@nader.co.uk",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "keegan.boyle@fritsch.us",
+  "SenderEmailAddress": "audreanne@schroeder.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 208
+      "FieldType": "System.Int32",
+      "FieldLength": 56
     }
   }
 }

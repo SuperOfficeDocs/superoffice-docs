@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 838,
-  "Name": "Oberbrunner, Ledner and Bauch",
-  "Tooltip": "animi",
+  "HeadingId": 517,
+  "Name": "Hegmann-Boyle",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 430,
-  "UdListDefinitionId": 140
+  "Rank": 161,
+  "UdListDefinitionId": 610
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 80,
-  "Name": "Schinner-Hirthe",
-  "Tooltip": "maxime",
-  "Deleted": true,
-  "Rank": 56,
-  "UdListDefinitionId": 633,
+  "HeadingId": 488,
+  "Name": "Mitchell-Bartell",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 346,
+  "UdListDefinitionId": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldType": "System.Int32",
+      "FieldLength": 612
     }
   }
 }

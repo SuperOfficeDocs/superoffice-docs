@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 85
+  "PersonId": 420
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 290,
-  "Name": "Leannon, Kunde and Hirthe",
-  "Rank": 69,
-  "Tooltip": "corporis",
+  "AssociateId": 407,
+  "Name": "Gottlieb LLC",
+  "Rank": 61,
+  "Tooltip": "sit",
   "LicenseOwners": [
     {
-      "Name": "Mayer, Will and Lockman",
-      "Description": "Expanded logistical toolset",
+      "Name": "Rolfson, Schmitt and Paucek",
+      "Description": "Ergonomic systemic frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,14 +139,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 960
+          "FieldType": "System.String",
+          "FieldLength": 935
         }
       }
     },
     {
-      "Name": "Mayer, Will and Lockman",
-      "Description": "Expanded logistical toolset",
+      "Name": "Rolfson, Schmitt and Paucek",
+      "Description": "Ergonomic systemic frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 960
+          "FieldType": "System.String",
+          "FieldLength": 935
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "omnis",
-      "Tooltip": "commodi",
-      "Id": 263,
-      "Rank": 376,
+      "Value": "aut",
+      "Tooltip": "natus",
+      "Id": 297,
+      "Rank": 210,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 485
+          "FieldLength": 384
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2003-01-29T11:06:35.7420559+01:00",
-  "Lastlogout": "2022-12-08T11:06:35.7420559+01:00",
-  "EjUserId": 255,
-  "RequestSignature": "ullam",
+  "Lastlogin": "2022-08-20T13:38:14.374047+02:00",
+  "Lastlogout": "2008-02-11T13:38:14.374047+01:00",
+  "EjUserId": 726,
+  "RequestSignature": "dolorem",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "autem",
-      "DisplayValue": "quis",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 530
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "autem",
-      "DisplayValue": "quis",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 530
-        }
-      }
-    }
-  ],
-  "UserName": "Walker-Gottlieb",
-  "TicketCategories": [
-    {
-      "Id": 739,
-      "Name": "Von Inc and Sons",
-      "ToolTip": "Quia repudiandae nihil dolorem est consectetur quia nihil.",
-      "Deleted": true,
-      "Rank": 833,
-      "Type": "in",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "explicabo",
-      "ColorBlock": 596,
-      "ExtraInfo": "earum",
-      "StyleHint": "voluptas",
-      "FullName": "Ms. Jasen Hamill II",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 793
-        }
-      }
-    }
-  ],
-  "NickName": "Koelpin Inc and Sons",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "sed"
-  },
-  "CustomFields": {
-    "CustomFields1": "suscipit",
-    "CustomFields2": "fugiat"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Harber-Romaguera",
-      "DisplayName": "Wolf, Abernathy and Schroeder",
-      "Description": "Cloned next generation array",
-      "ToolTip": "Recusandae est dolores eos.",
-      "Actions": "Implicit",
-      "ActionData": "deserunt",
+      "Value": "unde",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldLength": 384
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "unde",
+      "DisplayValue": "aperiam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 384
+        }
+      }
+    }
+  ],
+  "UserName": "Mertz-Collins",
+  "TicketCategories": [
+    {
+      "Id": 431,
+      "Name": "Waelchi Inc and Sons",
+      "ToolTip": "Quasi debitis ut accusamus nobis omnis.",
+      "Deleted": false,
+      "Rank": 321,
+      "Type": "odit",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "quaerat",
+      "ColorBlock": 96,
+      "ExtraInfo": "voluptatum",
+      "StyleHint": "consequuntur",
+      "FullName": "Stan Murazik",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 559
+        }
+      }
+    }
+  ],
+  "NickName": "Turcotte LLC",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "cum",
+    "ExtraFields2": "libero"
+  },
+  "CustomFields": {
+    "CustomFields1": "culpa",
+    "CustomFields2": "sapiente"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Daniel-Wisozk",
+      "DisplayName": "Fisher-Thiel",
+      "Description": "Organized client-driven installation",
+      "ToolTip": "Dolores et.",
+      "Actions": "Implicit",
+      "ActionData": "qui",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 603
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 637
     }
   }
 }

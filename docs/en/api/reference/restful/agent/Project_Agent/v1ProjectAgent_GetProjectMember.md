@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=14
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=596
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 234,
-  "ContactId": 669,
-  "ProjectId": 61,
-  "ContactName": "Brekke Inc and Sons",
-  "ContactDepartment": "",
-  "ProjectName": "Berge, Balistreri and Thiel",
-  "EmailId": 480,
-  "EmailAddress": "anya_muller@crooks.co.uk",
-  "CountryId": 880,
-  "Firstname": "Hazel",
-  "MiddleName": "Dooley-Leuschke",
-  "Lastname": "Dicki",
-  "PersonId": 549,
-  "Mrmrs": "consequatur",
-  "ProjectMemberTypeName": "Sporer LLC",
-  "Phone": "1-215-238-9295 x4537",
-  "PhoneId": 98,
-  "ProjectMemberTypeId": 265,
-  "EmailAddressName": "alex.roob@beer.biz",
-  "Comment": "non",
-  "FullName": "Ms. Jaclyn Alvis Willms II",
+  "ProjectmemberId": 292,
+  "ContactId": 942,
+  "ProjectId": 381,
+  "ContactName": "Robel-Schinner",
+  "ContactDepartment": "transition cross-media interfaces",
+  "ProjectName": "Cruickshank, Maggio and Koch",
+  "EmailId": 488,
+  "EmailAddress": "deon@medhurst.ca",
+  "CountryId": 881,
+  "Firstname": "Dee",
+  "MiddleName": "Greenfelder, Raynor and Cassin",
+  "Lastname": "Beatty",
+  "PersonId": 368,
+  "Mrmrs": "rerum",
+  "ProjectMemberTypeName": "Rohan, Purdy and Greenholt",
+  "Phone": "889.396.3847 x4440",
+  "PhoneId": 476,
+  "ProjectMemberTypeId": 813,
+  "EmailAddressName": "else_simonis@ratke.biz",
+  "Comment": "dolores",
+  "FullName": "Kamryn Marquardt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 441
     }
   }
 }

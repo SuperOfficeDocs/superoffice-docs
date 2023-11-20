@@ -112,6 +112,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -124,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 823
+  "AppointmentId": 326
 }
 ```
 
@@ -139,64 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 313,
-  "StartDate": "2001-06-29T11:06:33.4601191+02:00",
-  "EndDate": "2009-10-15T11:06:33.4601191+02:00",
+  "AppointmentId": 943,
+  "StartDate": "2005-12-14T13:38:12.8584402+01:00",
+  "EndDate": "1998-06-10T13:38:12.8584402+02:00",
   "Type": "BookingForChecklist",
-  "Task": "necessitatibus",
-  "AssociateFullName": "Randall Mosciski",
-  "ContactName": "Homenick LLC",
-  "Description": "Automated attitude-oriented model",
-  "PersonFullName": "Roxane Simonis",
-  "PersonId": 28,
-  "ContactId": 664,
-  "ProjectId": 2,
-  "ProjectName": "Hagenes, Upton and Gerhold",
-  "IsPublished": false,
-  "AssociateId": 887,
-  "ColorIndex": 586,
-  "IsFree": false,
-  "HasAlarm": true,
+  "Task": "voluptatem",
+  "AssociateFullName": "Morgan Adolfo Kunde DDS",
+  "ContactName": "Gusikowski-Rau",
+  "Description": "Extended reciprocal analyzer",
+  "PersonFullName": "Sigrid Hirthe",
+  "PersonId": 254,
+  "ContactId": 48,
+  "ProjectId": 672,
+  "ProjectName": "Lueilwitz, Cummerata and Murphy",
+  "IsPublished": true,
+  "AssociateId": 495,
+  "ColorIndex": 370,
+  "IsFree": true,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 507,
-  "PriorityName": "Prosacco-Batz",
+  "PriorityId": 929,
+  "PriorityName": "Koepp LLC",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2010-03-04T11:06:33.4601191+01:00",
+  "ActiveDate": "1999-08-11T13:38:12.8584402+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2005-09-09T11:06:33.4601191+02:00",
-  "RecurringEndDate": "2010-02-16T11:06:33.4601191+01:00",
-  "MotherId": 615,
-  "AssignedBy": 590,
-  "AssignedByFullName": "Mrs. Emmalee Hegmann",
+  "RecurringStartDate": "2007-04-12T13:38:12.8584402+02:00",
+  "RecurringEndDate": "2020-02-29T13:38:12.8584402+01:00",
+  "MotherId": 807,
+  "AssignedBy": 747,
+  "AssignedByFullName": "Theresa Moen",
   "RejectReason": "",
-  "Location": "fugit",
-  "AlarmLeadTime": "quos",
-  "SaleId": 69,
-  "SaleName": "Quigley LLC",
-  "AssociateName": "Quitzon LLC",
-  "CreatedDate": "2007-12-05T11:06:33.4601191+01:00",
-  "CreatedBy": "libero",
-  "CreatedByFullName": "Prof. Mark Ernser Sr.",
-  "CreatedByAssociateId": 715,
+  "Location": "unde",
+  "AlarmLeadTime": "ipsam",
+  "SaleId": 645,
+  "SaleName": "Blick LLC",
+  "AssociateName": "Hartmann-Considine",
+  "CreatedDate": "2022-08-20T13:38:12.8584402+02:00",
+  "CreatedBy": "qui",
+  "CreatedByFullName": "Malika Schmidt",
+  "CreatedByAssociateId": 779,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "autem",
-  "Agenda": "fuga",
-  "InternalNotes": "id",
+  "PreferredTZLocation": 752,
+  "Title": "non",
+  "Agenda": "totam",
+  "InternalNotes": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 881
     }
   }
 }

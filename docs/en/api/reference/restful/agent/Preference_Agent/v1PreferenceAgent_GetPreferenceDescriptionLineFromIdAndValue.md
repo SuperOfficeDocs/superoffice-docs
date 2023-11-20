@@ -83,8 +83,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 462,
-  "PrefValue": "ullam"
+  "PrefDescId": 883,
+  "PrefValue": "accusantium"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 199,
-  "PrefDescId": 312,
-  "PrefValue": "impedit",
-  "PrefShowValue": "et",
-  "Description": "Down-sized didactic circuit",
-  "IsBuiltin": true,
+  "PrefDescLineId": 185,
+  "PrefDescId": 528,
+  "PrefValue": "et",
+  "PrefShowValue": "ad",
+  "Description": "Down-sized attitude-oriented interface",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldLength": 398
     }
   }
 }

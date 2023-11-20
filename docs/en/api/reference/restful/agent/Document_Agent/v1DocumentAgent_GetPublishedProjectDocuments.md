@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 365
+  "ProjectId": 873
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 829,
-    "Attention": "tempore",
-    "Header": "harum",
-    "Name": "McKenzie-Schaden",
-    "OurRef": "perferendis",
-    "YourRef": "fugit",
-    "Description": "Multi-layered context-sensitive capacity",
-    "DocumentTemplate": "autem",
-    "IsPublished": true,
-    "PersonId": 300,
-    "PersonFullName": "Dameon Hodkiewicz",
-    "AssociateFullName": "Mrs. Tiana Mayert Jr.",
-    "ContactId": 94,
-    "ContactName": "Ryan, Muller and Cole",
-    "ProjectId": 163,
-    "ProjectName": "Koelpin-Koepp",
-    "AssociateId": 697,
-    "Snum": 638,
-    "SaleId": 613,
-    "SaleName": "Kessler-Wilkinson",
+    "DocumentId": 917,
+    "Attention": "sit",
+    "Header": "ea",
+    "Name": "Langworth, Borer and Wehner",
+    "OurRef": "cum",
+    "YourRef": "dignissimos",
+    "Description": "Front-line context-sensitive monitoring",
+    "DocumentTemplate": "laborum",
+    "IsPublished": false,
+    "PersonId": 277,
+    "PersonFullName": "Jeremy Tremblay",
+    "AssociateFullName": "Hilma Hilpert",
+    "ContactId": 401,
+    "ContactName": "Johns Group",
+    "ProjectId": 51,
+    "ProjectName": "Orn-Grimes",
+    "AssociateId": 395,
+    "Snum": 279,
+    "SaleId": 188,
+    "SaleName": "Daniel, Bogan and Daugherty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldLength": 36
       }
     }
   }

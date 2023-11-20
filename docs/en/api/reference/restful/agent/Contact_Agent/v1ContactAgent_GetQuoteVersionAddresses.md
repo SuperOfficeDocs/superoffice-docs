@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 434
+  "QuoteVersionId": 342
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 7766.052,
-    "Wgs84Longitude": 25087.67,
+    "Wgs84Latitude": 18192.87,
+    "Wgs84Longitude": 1614.01,
     "LocalizedAddress": [
       [
         {
-          "Name": "Kertzmann-Waelchi",
-          "Value": "voluptatem",
-          "Tooltip": "libero",
-          "Label": "et",
-          "ValueLength": 62,
-          "AddressType": "nam",
+          "Name": "Schinner-Graham",
+          "Value": "illum",
+          "Tooltip": "aut",
+          "Label": "recusandae",
+          "ValueLength": 635,
+          "AddressType": "consectetur",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 874
+              "FieldType": "System.Int32",
+              "FieldLength": 206
             }
           }
         }
       ],
       [
         {
-          "Name": "Stanton-Nitzsche",
-          "Value": "iusto",
-          "Tooltip": "nulla",
-          "Label": "aperiam",
-          "ValueLength": 686,
-          "AddressType": "et",
+          "Name": "Douglas, Balistreri and Hintz",
+          "Value": "vero",
+          "Tooltip": "quo",
+          "Label": "praesentium",
+          "ValueLength": 548,
+          "AddressType": "est",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 170
+              "FieldLength": 338
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "est",
+    "Formatted": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 544
+        "FieldType": "System.Int32",
+        "FieldLength": 929
       }
     }
   }

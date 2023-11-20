@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 956
+  "ErpFieldId": 951
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 644,
-  "DefaultValue": "fuga",
-  "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "impedit",
+  "ErpFieldId": 383,
+  "DefaultValue": "nesciunt",
+  "HasFirstSyncDefaultValue": true,
+  "FirstSyncDefaultValue": "incidunt",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "ut",
+  "ErpFieldKey": "ea",
   "FieldType": "Checkbox",
-  "ListName": "Morissette-Ortiz",
+  "ListName": "Rempel Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldType": "System.String",
+      "FieldLength": 940
     }
   }
 }

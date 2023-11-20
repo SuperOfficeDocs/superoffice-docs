@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 68,
-    "Name": "Will-Hilpert",
-    "ToolTip": "Quisquam amet dolor.",
+    "Id": 41,
+    "Name": "Russel-Casper",
+    "ToolTip": "Sit reprehenderit magni quasi voluptatem.",
     "Deleted": true,
-    "Rank": 861,
-    "Type": "omnis",
-    "ColorBlock": 267,
-    "IconHint": "sit",
+    "Rank": 88,
+    "Type": "blanditiis",
+    "ColorBlock": 729,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2004-08-21T11:06:43.006573+02:00",
+    "LastChanged": "2000-03-11T13:38:18.186902+01:00",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Haley, Zboncak and Schaefer",
-        "ToolTip": "Quia ut.",
-        "Deleted": false,
-        "Rank": 256,
-        "Type": "corporis",
-        "ColorBlock": 272,
-        "IconHint": "voluptas",
+        "Id": 648,
+        "Name": "Mitchell Group",
+        "ToolTip": "Nostrum laboriosam est.",
+        "Deleted": true,
+        "Rank": 261,
+        "Type": "magnam",
+        "ColorBlock": 492,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2000-11-20T11:06:43.006573+01:00",
+        "LastChanged": "1997-02-13T13:38:18.186902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Chaz Milford Greenfelder II",
+        "ExtraInfo": "quod",
+        "StyleHint": "explicabo",
+        "Hidden": false,
+        "FullName": "Christophe Greenfelder IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldLength": 552
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Petra Haag",
+    "FullName": "Nona Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 513
       }
     }
   }

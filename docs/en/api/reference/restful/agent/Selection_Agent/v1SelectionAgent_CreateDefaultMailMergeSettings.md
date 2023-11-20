@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 561,
-  "DocumentId": 328,
+  "SelectionId": 918,
+  "DocumentId": 799,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "eius",
-  "AlwaysUseCustomAttention": true,
+  "CustomAttention": "culpa",
+  "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "amet",
+  "CustomMailBody": "et",
   "TaskEntity": null,
-  "AddCompanyInterest": 764,
-  "AddPersonInterest": 287,
-  "RemoveCompanyInterest": 576,
-  "RemovePersonInterest": 423,
+  "AddCompanyInterest": 193,
+  "AddPersonInterest": 688,
+  "RemoveCompanyInterest": 692,
+  "RemovePersonInterest": 824,
   "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 46,
+  "ProjectId": 804,
   "IncludeRetiredRecipients": true,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "consectetur",
-  "ExtraInfo": "in",
-  "Synchronous": true,
+  "CustomMailSubject": "sed",
+  "ExtraInfo": "dolorem",
+  "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 850
+      "FieldType": "System.Int32",
+      "FieldLength": 389
     }
   }
 }

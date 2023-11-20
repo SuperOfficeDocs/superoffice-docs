@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=250
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=108
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 731,
-  "Name": "Schmidt, Skiles and Schuster",
-  "Description": "Programmable reciprocal leverage",
-  "WelcomeMessage": "est",
+  "ChatTopicId": 117,
+  "Name": "Brown-Lehner",
+  "Description": "Fundamental maximized moderator",
+  "WelcomeMessage": "quasi",
   "Language": null,
-  "LastAccept": "2001-03-18T11:06:34.0496048+01:00",
-  "SecondsPrAccept": 848,
-  "AlertRecipient": "sit",
+  "LastAccept": "2006-11-08T13:38:13.2490288+01:00",
+  "SecondsPrAccept": 647,
+  "AlertRecipient": "pariatur",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "provident",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "corrupti",
-  "WarnNewChatMinutes": 451,
-  "WarnManagerNewChatMinutes": 836,
+  "BadgeHeader": "voluptatem",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "quisquam",
+  "WarnNewChatMinutes": 635,
+  "WarnManagerNewChatMinutes": 503,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 487,
-  "WarnManagerChatMessageMinutes": 164,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 102,
-  "OfflineFormQueueLength": 787,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 989,
+  "WarnManagerChatMessageMinutes": 565,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 981,
+  "OfflineFormQueueLength": 583,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "mollitia",
+  "WidgetRatingText": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 278
+      "FieldType": "System.Int32",
+      "FieldLength": 490
     }
   }
 }

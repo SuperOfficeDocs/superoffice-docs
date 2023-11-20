@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wiegand-Cole",
-  "DeviceName": "Rohan, Crooks and Corkery",
-  "DeviceIdentifier": "autem"
+  "ApplicationName": "Pagac-Vandervort",
+  "DeviceName": "Wilkinson-Funk",
+  "DeviceIdentifier": "vel"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 761,
-  "Name": "Dooley-Boyer",
-  "CreatedDate": "2013-10-10T11:06:34.6301875+02:00",
-  "UpdatedDate": "2013-02-13T11:06:34.6301875+01:00",
-  "AssociateFullName": "Dwight Wuckert",
-  "CreatedBy": "voluptatem",
-  "UpdatedBy": "sapiente",
-  "DeviceIdentifier": "nam",
-  "ForeignAppId": 198,
+  "ForeignDeviceId": 186,
+  "Name": "Witting-Weimann",
+  "CreatedDate": "2012-07-23T13:38:13.623981+02:00",
+  "UpdatedDate": "1999-05-15T13:38:13.623981+02:00",
+  "AssociateFullName": "Ms. Vada Hunter Jerde PhD",
+  "CreatedBy": "accusantium",
+  "UpdatedBy": "neque",
+  "DeviceIdentifier": "eveniet",
+  "ForeignAppId": 737,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldLength": 312
     }
   }
 }

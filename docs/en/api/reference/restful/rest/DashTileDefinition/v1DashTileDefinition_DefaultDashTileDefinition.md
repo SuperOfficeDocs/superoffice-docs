@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 377,
-  "Name": "Jewess-Mosciski",
-  "Description": "Fully-configurable zero tolerance paradigm",
-  "DefaultHeight": 288,
-  "DefaultWidth": 802,
+  "DashboardTileDefinitionId": 461,
+  "Name": "Torp, Hamill and Gleason",
+  "Description": "Re-engineered zero defect utilisation",
+  "DefaultHeight": 440,
+  "DefaultWidth": 175,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Skiles, Ernser and Zboncak",
-  "SelectionId": 178,
+  "EntityName": "Hudson-Lesch",
+  "SelectionId": 651,
   "CurrencyMode": "Base",
-  "CurrencyCode": "enim",
+  "CurrencyCode": "aperiam",
   "Measure": "Average",
-  "MeasureField": "enim",
-  "SortBy": "consequatur",
-  "LayoutConfig": "quibusdam",
-  "SecondarySelectionId": 202,
+  "MeasureField": "eum",
+  "SortBy": "velit",
+  "LayoutConfig": "voluptatibus",
+  "SecondarySelectionId": 103,
   "MeasureByField": "aliquid",
   "Usage": "Dashboard",
-  "ProviderName": "Sanford-Willms",
+  "ProviderName": "Hessel, Halvorson and Stracke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldType": "System.Int32",
+      "FieldLength": 516
     }
   }
 }

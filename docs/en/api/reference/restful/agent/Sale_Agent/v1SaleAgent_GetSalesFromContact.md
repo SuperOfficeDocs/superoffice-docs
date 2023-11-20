@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 429,
-  "OnlyOpenSales": false
+  "ContactId": 515,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Maggio-Lang",
-    "SaleDate": "2018-04-20T11:06:35.3333182+02:00",
-    "SaleId": 297,
-    "Probability": 643,
-    "Title": "voluptatem",
-    "Amount": 28406.575999999997,
-    "Currency": "ut",
-    "ProjectName": "Hyatt Inc and Sons",
-    "AssociateFullName": "Michaela Johns",
-    "Description": "Synergistic optimal middleware",
+    "ContactName": "Kunde LLC",
+    "SaleDate": "2003-03-27T13:38:14.1084486+01:00",
+    "SaleId": 230,
+    "Probability": 939,
+    "Title": "nihil",
+    "Amount": 18058.108,
+    "Currency": "numquam",
+    "ProjectName": "Hermann, McGlynn and Carter",
+    "AssociateFullName": "Landen White PhD",
+    "Description": "Grass-roots dedicated success",
     "Status": "Lost",
-    "WeightedAmount": 13388.448,
-    "ProjectId": 334,
-    "EarningPercent": 29503.476,
-    "Earning": 31318.061999999998,
-    "ContactId": 39,
-    "AssociateId": 563,
-    "PersonId": 442,
-    "SaleTypeId": 833,
-    "SaleTypeName": "O'Kon-Weissnat",
-    "PersonFullName": "Mr. Theodora Ardith Towne V",
+    "WeightedAmount": 29509.744,
+    "ProjectId": 648,
+    "EarningPercent": 30826.023999999998,
+    "Earning": 17870.068,
+    "ContactId": 179,
+    "AssociateId": 690,
+    "PersonId": 349,
+    "SaleTypeId": 30,
+    "SaleTypeName": "Schoen Group",
+    "PersonFullName": "Joany Leffler",
     "Completed": "Completed",
-    "ActiveErpLinks": 484,
-    "NextDueDate": "2009-11-01T11:06:35.3333182+01:00",
-    "Number": "1226923",
+    "ActiveErpLinks": 349,
+    "NextDueDate": "1999-03-12T13:38:14.1084486+01:00",
+    "Number": "913036",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldLength": 970
       }
     }
   }

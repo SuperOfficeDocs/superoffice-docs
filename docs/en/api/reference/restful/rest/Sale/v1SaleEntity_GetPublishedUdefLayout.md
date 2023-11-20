@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 895,
-    "ColumnId": 334,
-    "FieldDefault": "qui",
-    "FieldHeight": 303,
-    "FieldLabel": "sapiente",
-    "FieldLeft": 358,
-    "FieldTop": 749,
+    "UDefFieldId": 250,
+    "ColumnId": 272,
+    "FieldDefault": "quis",
+    "FieldHeight": 223,
+    "FieldLabel": "sint",
+    "FieldLeft": 726,
+    "FieldTop": 619,
     "FieldType": "Checkbox",
-    "FieldWidth": 830,
-    "FormatMask": "nesciunt",
-    "HideLabel": true,
+    "FieldWidth": 887,
+    "FormatMask": "sint",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 74,
-    "LabelLeft": 187,
-    "LabelTop": 322,
-    "LabelWidth": 287,
-    "LastVersionId": 54,
-    "ListTableId": 906,
+    "LabelHeight": 680,
+    "LabelLeft": 690,
+    "LabelTop": 909,
+    "LabelWidth": 673,
+    "LastVersionId": 580,
+    "ListTableId": 487,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 647,
-    "ProgId": "mollitia",
+    "Page1LineNo": 205,
+    "ProgId": "qui",
     "IsReadOnly": false,
-    "ShortLabel": "sit",
-    "TabOrder": 773,
-    "TextLength": 838,
-    "Tooltip": "maiores",
-    "UdefIdentity": 142,
-    "UDListDefinitionId": 570,
+    "ShortLabel": "quis",
+    "TabOrder": 564,
+    "TextLength": 587,
+    "Tooltip": "ea",
+    "UdefIdentity": 600,
+    "UDListDefinitionId": 885,
     "Justification": "Center",
-    "Version": 743,
-    "TemplateVariableName": "Bednar-Schumm",
-    "HasBeenPublished": false,
-    "MdoListName": "Jast-Heathcote",
+    "Version": 192,
+    "TemplateVariableName": "Koelpin LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Kiehn-Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldType": "System.Int32",
+        "FieldLength": 11
       }
     }
   }

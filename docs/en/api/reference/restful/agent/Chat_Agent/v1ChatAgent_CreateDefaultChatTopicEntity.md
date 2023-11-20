@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 706,
-  "Name": "Kihn-Huel",
-  "Description": "Cross-platform web-enabled hub",
-  "WelcomeMessage": "pariatur",
+  "ChatTopicId": 69,
+  "Name": "Jakubowski Group",
+  "Description": "Optional static time-frame",
+  "WelcomeMessage": "cumque",
   "Language": null,
-  "LastAccept": "2007-10-26T11:06:33.9714362+02:00",
-  "SecondsPrAccept": 446,
-  "AlertRecipient": "architecto",
+  "LastAccept": "2000-06-14T13:38:13.1240408+02:00",
+  "SecondsPrAccept": 56,
+  "AlertRecipient": "ducimus",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "itaque",
+  "BadgeHeader": "a",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "incidunt",
-  "WarnNewChatMinutes": 459,
-  "WarnManagerNewChatMinutes": 337,
-  "TicketEnabled": true,
+  "CustomQueueText": "magni",
+  "WarnNewChatMinutes": 65,
+  "WarnManagerNewChatMinutes": 387,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 88,
-  "WarnManagerChatMessageMinutes": 730,
+  "WarnChatMessageMinutes": 514,
+  "WarnManagerChatMessageMinutes": 493,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 747,
-  "OfflineFormQueueLength": 671,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "omnis",
+  "OfflineFormTimeLimit": 154,
+  "OfflineFormQueueLength": 773,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldLength": 240
     }
   }
 }

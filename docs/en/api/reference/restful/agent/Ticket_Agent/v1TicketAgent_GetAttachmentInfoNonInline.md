@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 500
+  "TicketMessageEntityId": 227
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 200,
-    "Name": "Yundt Inc and Sons",
-    "ContentType": "quibusdam",
-    "AttSize": 31,
+    "AttachmentId": 846,
+    "Name": "Gusikowski-Connelly",
+    "ContentType": "est",
+    "AttSize": 240,
     "InlineImage": false,
-    "ContentId": "quaerat",
-    "AuthKey": "quo",
+    "ContentId": "architecto",
+    "AuthKey": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldLength": 945
       }
     }
   }

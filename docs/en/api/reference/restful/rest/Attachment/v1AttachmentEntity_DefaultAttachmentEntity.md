@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 856,
-  "Name": "Collins-Medhurst",
-  "ContentType": "quasi",
-  "AttSize": 764,
-  "InlineImage": false,
-  "ContentId": "incidunt",
-  "AuthKey": "voluptatem",
+  "AttachmentId": 587,
+  "Name": "Little Inc and Sons",
+  "ContentType": "et",
+  "AttSize": 570,
+  "InlineImage": true,
+  "ContentId": "et",
+  "AuthKey": "accusantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 669
+      "FieldType": "System.Int32",
+      "FieldLength": 874
     }
   }
 }

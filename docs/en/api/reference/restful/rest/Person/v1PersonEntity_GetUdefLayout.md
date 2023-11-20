@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 247,
-    "ColumnId": 558,
-    "FieldDefault": "enim",
-    "FieldHeight": 781,
-    "FieldLabel": "rerum",
-    "FieldLeft": 76,
-    "FieldTop": 464,
+    "UDefFieldId": 913,
+    "ColumnId": 995,
+    "FieldDefault": "quia",
+    "FieldHeight": 836,
+    "FieldLabel": "aut",
+    "FieldLeft": 949,
+    "FieldTop": 725,
     "FieldType": "Checkbox",
-    "FieldWidth": 248,
-    "FormatMask": "quia",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 181,
-    "LabelLeft": 631,
-    "LabelTop": 814,
-    "LabelWidth": 884,
-    "LastVersionId": 792,
-    "ListTableId": 886,
+    "FieldWidth": 330,
+    "FormatMask": "ex",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 620,
+    "LabelLeft": 114,
+    "LabelTop": 310,
+    "LabelWidth": 911,
+    "LastVersionId": 599,
+    "ListTableId": 675,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 246,
-    "ProgId": "et",
-    "IsReadOnly": true,
-    "ShortLabel": "sit",
-    "TabOrder": 826,
-    "TextLength": 130,
-    "Tooltip": "sit",
-    "UdefIdentity": 975,
-    "UDListDefinitionId": 65,
+    "Page1LineNo": 910,
+    "ProgId": "mollitia",
+    "IsReadOnly": false,
+    "ShortLabel": "ad",
+    "TabOrder": 676,
+    "TextLength": 889,
+    "Tooltip": "non",
+    "UdefIdentity": 904,
+    "UDListDefinitionId": 229,
     "Justification": "Center",
-    "Version": 998,
-    "TemplateVariableName": "Turcotte Group",
+    "Version": 871,
+    "TemplateVariableName": "Fisher Group",
     "HasBeenPublished": false,
-    "MdoListName": "Cole Group",
+    "MdoListName": "Powlowski, Abbott and Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldLength": 602
       }
     }
   }

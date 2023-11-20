@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Corwin, Hickle and Brakus",
-  "ProviderName": "Bashirian, Grimes and Howe",
-  "Context": "repellendus",
-  "OwnerKeys": "odio"
+  "GuiName": "Hintz, Bauch and Klocko",
+  "ProviderName": "Dibbert-Halvorson",
+  "Context": "consequuntur",
+  "OwnerKeys": "dolore"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Schimmel Group",
-      "DisplayTooltip": "dolore",
-      "DisplayType": "recusandae",
-      "CanOrderBy": true,
-      "Name": "Schaden-Schneider",
+      "DisplayName": "Kirlin-Wunsch",
+      "DisplayTooltip": "eos",
+      "DisplayType": "et",
+      "CanOrderBy": false,
+      "Name": "Hirthe, Wehner and Hettinger",
       "CanRestrictBy": false,
-      "RestrictionType": "assumenda",
-      "RestrictionListName": "Gutmann-Lakin",
-      "IsVisible": false,
-      "ExtraInfo": "quaerat",
-      "Width": "voluptatem",
-      "IconHint": "quo",
-      "HeadingIconHint": "repudiandae"
+      "RestrictionType": "sit",
+      "RestrictionListName": "Klein Group",
+      "IsVisible": true,
+      "ExtraInfo": "nisi",
+      "Width": "sunt",
+      "IconHint": "sequi",
+      "HeadingIconHint": "accusamus"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 507,
-      "Name": "Wehner Group",
-      "ToolTip": "Officiis et debitis et sed.",
-      "Deleted": true,
-      "Rank": 733,
-      "Type": "eos",
-      "ColorBlock": 195,
-      "IconHint": "aliquid",
-      "Selected": true,
-      "LastChanged": "2016-10-04T11:06:33.7503955+02:00",
+      "Id": 561,
+      "Name": "Legros Inc and Sons",
+      "ToolTip": "Quae voluptates expedita et omnis esse molestiae sint.",
+      "Deleted": false,
+      "Rank": 339,
+      "Type": "veritatis",
+      "ColorBlock": 701,
+      "IconHint": "qui",
+      "Selected": false,
+      "LastChanged": "2002-10-13T13:38:13.0615453+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "nobis",
+      "ExtraInfo": "inventore",
+      "StyleHint": "dolorem",
       "Hidden": false,
-      "FullName": "Shad Rhiannon Gorczany II",
+      "FullName": "Tatum Adolphus Hintz I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 254
+          "FieldType": "System.Int32",
+          "FieldLength": 162
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Sauer, Cummings and Hyatt",
+      "Name": "Hermann LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Sauer, Cummings and Hyatt",
+      "Name": "Hermann LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "et",
+  "OwnerKeys": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 348
     }
   }
 }

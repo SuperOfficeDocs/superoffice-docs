@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schumm Group",
-  "ListItemId": 697,
+  "UdListDefinitionName": "Koelpin Inc and Sons",
+  "ListItemId": 222,
   "UserGroups": [
     {
-      "Id": 95,
-      "Name": "Medhurst LLC",
-      "ToolTip": "Quo ut aliquam odit iure.",
-      "Deleted": true,
-      "Rank": 24,
-      "Type": "occaecati",
-      "ColorBlock": 586,
-      "IconHint": "voluptatibus",
+      "Id": 620,
+      "Name": "Mayert Inc and Sons",
+      "ToolTip": "Unde veritatis recusandae amet.",
+      "Deleted": false,
+      "Rank": 171,
+      "Type": "ipsam",
+      "ColorBlock": 63,
+      "IconHint": "tempora",
       "Selected": false,
-      "LastChanged": "2006-11-19T11:06:34.7083083+01:00",
+      "LastChanged": "2012-12-10T13:38:13.6708541+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ratione",
-      "StyleHint": "similique",
+      "ExtraInfo": "voluptates",
+      "StyleHint": "hic",
       "Hidden": true,
-      "FullName": "Alexander Labadie"
+      "FullName": "Miss Lenore Towne"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Luettgen Inc and Sons",
-    "ToolTip": "Quo expedita fugiat.",
+    "Id": 143,
+    "Name": "Brakus, Mraz and Kilback",
+    "ToolTip": "Eos nam aut.",
     "Deleted": true,
-    "Rank": 999,
-    "Type": "commodi",
-    "ColorBlock": 516,
-    "IconHint": "tempore",
-    "Selected": true,
-    "LastChanged": "2005-12-14T11:06:34.7083083+01:00",
+    "Rank": 830,
+    "Type": "voluptate",
+    "ColorBlock": 102,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2002-07-01T13:38:13.6708541+02:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Rowe-Torp",
-        "ToolTip": "Optio tenetur temporibus magnam.",
+        "Id": 394,
+        "Name": "Purdy-O'Conner",
+        "ToolTip": "Quas dolor nostrum voluptatem laudantium quis repellendus commodi.",
         "Deleted": false,
-        "Rank": 639,
-        "Type": "ea",
-        "ColorBlock": 665,
-        "IconHint": "quia",
+        "Rank": 976,
+        "Type": "blanditiis",
+        "ColorBlock": 344,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2018-08-31T11:06:34.7083083+02:00",
+        "LastChanged": "2011-10-22T13:38:13.6708541+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "quia",
+        "ExtraInfo": "sed",
+        "StyleHint": "cumque",
         "Hidden": false,
-        "FullName": "Mr. Marcus Tyshawn O'Connell",
+        "FullName": "Kareem Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldType": "System.String",
+            "FieldLength": 289
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "magni",
-    "Hidden": false,
-    "FullName": "Austen DuBuque MD",
+    "ExtraInfo": "sed",
+    "StyleHint": "architecto",
+    "Hidden": true,
+    "FullName": "Ms. Glen Carson Koelpin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldType": "System.Int32",
+        "FieldLength": 472
       }
     }
   }

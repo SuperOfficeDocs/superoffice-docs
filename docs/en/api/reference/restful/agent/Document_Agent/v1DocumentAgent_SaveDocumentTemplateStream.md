@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 701,
+  "DocumentTemplateId": 70,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "odio",
-  "PluginId": 384
+  "LanguageCode": "excepturi",
+  "PluginId": 313
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Oberbrunner Inc and Sons",
-  "Description": "Reactive actuating algorithm",
-  "ExternalReference": "laborum",
-  "MimeType": "omnis",
-  "PluginId": 700
+  "Name": "Hoeger-Anderson",
+  "Description": "Extended zero tolerance parallelism",
+  "ExternalReference": "veniam",
+  "MimeType": "recusandae",
+  "PluginId": 738
 }
 ```

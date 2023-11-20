@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 106,
-    "Name": "Sawayn-Parker",
-    "Tooltip": "quod",
+    "HeadingId": 933,
+    "Name": "Adams LLC",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 216,
-    "UdListDefinitionId": 632
+    "Rank": 497,
+    "UdListDefinitionId": 413
   },
   {
-    "HeadingId": 106,
-    "Name": "Sawayn-Parker",
-    "Tooltip": "quod",
+    "HeadingId": 933,
+    "Name": "Adams LLC",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 216,
-    "UdListDefinitionId": 632
+    "Rank": 497,
+    "UdListDefinitionId": 413
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 145,
-    "Name": "Volkman-Morissette",
-    "Tooltip": "voluptates",
-    "Deleted": true,
-    "Rank": 174,
-    "UdListDefinitionId": 126,
+    "HeadingId": 413,
+    "Name": "Gerlach, Ritchie and Spencer",
+    "Tooltip": "minus",
+    "Deleted": false,
+    "Rank": 130,
+    "UdListDefinitionId": 829,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldLength": 27
       }
     }
   }

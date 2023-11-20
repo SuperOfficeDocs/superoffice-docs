@@ -122,73 +122,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 28 Aug 2004 11:06:42 G8T
+Last-Modified: Wed, 16 Jun 2010 13:38:17 G6T
 
 {
-  "Description": "Persevering bi-directional focus group",
-  "Postit": "dicta",
+  "Description": "Pre-emptive bottom-line product",
+  "Postit": "sunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 504,
-  "IncludePerson": 413,
-  "MemberCount": 125,
-  "Name": "Wyman, Runte and Walter",
-  "PostitTextId": 334,
-  "CreatedDate": "2007-10-19T11:06:42.2072253+02:00",
-  "SelectionId": 61,
-  "SoundEx": "vel",
-  "Source": 750,
-  "TextId": 781,
-  "UpdatedDate": "2004-08-28T11:06:42.2072253+02:00",
-  "UpdatedCount": 850,
-  "Visibility": 999,
+  "GroupIdx": 719,
+  "IncludePerson": 440,
+  "MemberCount": 948,
+  "Name": "West-Gutkowski",
+  "PostitTextId": 272,
+  "CreatedDate": "2017-11-24T13:38:17.6555554+01:00",
+  "SelectionId": 76,
+  "SoundEx": "quia",
+  "Source": 899,
+  "TextId": 281,
+  "UpdatedDate": "2010-06-16T13:38:17.6555554+02:00",
+  "UpdatedCount": 473,
+  "Visibility": 896,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 347,
-  "TargetTableName": "Jast, Corwin and Hahn",
+  "CompanyUnique": true,
+  "TargetTableNumber": 68,
+  "TargetTableName": "Herman-Morissette",
   "Completed": false,
-  "LeftSelectionId": 970,
-  "RightSelectionId": 371,
+  "LeftSelectionId": 41,
+  "RightSelectionId": 148,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Daniel-Waelchi",
-  "ShadowProviderName": "Krajcik-Upton",
-  "ChartKey": "qui",
-  "LastLoaded": "2011-11-03T11:06:42.2072253+01:00",
-  "LastLoadedBy": 529,
+  "MainProviderName": "Herzog, Fritsch and Rutherford",
+  "ShadowProviderName": "Bauch-Leuschke",
+  "ChartKey": "rerum",
+  "LastLoaded": "1997-07-09T13:38:17.6555554+02:00",
+  "LastLoadedBy": 652,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-02-19T11:06:42.2072253+01:00",
-  "LastMembershipChangeBy": 744,
+  "LastMembershipChange": "2017-08-21T13:38:17.6555554+02:00",
+  "LastMembershipChangeBy": 621,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dignissimos",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Wuckert, Weissnat and Price",
-  "DashboardTileDefinitionId": 674,
+  "MainHeading": "facere",
+  "MemberTabHeading": "voluptatum",
+  "MailingsProviderName": "Denesik-Marks",
+  "DashboardTileDefinitionId": 980,
   "VisibleFor": [
     {
-      "VisibleId": 948,
+      "VisibleId": 930,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 918
         }
       }
     },
     {
-      "VisibleId": 948,
+      "VisibleId": 930,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 918
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Sat, 28 Aug 2004 11:06:42 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldLength": 807
     }
   },
   "_Links": {

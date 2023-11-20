@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 126,
-  "Year": 256,
+  "TargetGroupId": 266,
+  "Year": 232,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 416,
+      "TargetAssignmentInfoId": 204,
       "Values": [
-        319,
-        246
+        899,
+        758
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 120,
-      "DimensionListItemDisplayName": "Lowe-Johnston"
+      "DimensionListItem": 483,
+      "DimensionListItemDisplayName": "Ullrich-Gleason"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 276,
-  "Year": 513,
+  "TargetGroupId": 823,
+  "Year": 922,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 581,
+      "TargetAssignmentInfoId": 634,
       "Values": [
-        809,
-        299
+        129,
+        31
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 971,
-      "DimensionListItemDisplayName": "Jones-Windler",
+      "DimensionListItem": 774,
+      "DimensionListItemDisplayName": "Smith-Luettgen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldType": "System.String",
+          "FieldLength": 858
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 294
+      "FieldType": "System.Int32",
+      "FieldLength": 301
     }
   }
 }

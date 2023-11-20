@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=599
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=648
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 804,
-  "ERPQuoteAlternativeKey": "officia",
-  "QuoteVersionId": 534,
-  "Name": "Reynolds Group",
-  "Description": "Fundamental zero defect middleware",
+  "QuoteAlternativeId": 873,
+  "ERPQuoteAlternativeKey": "blanditiis",
+  "QuoteVersionId": 846,
+  "Name": "Larson, Zieme and Wolff",
+  "Description": "Organic foreground capability",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 17688.296,
-  "ERPDiscountAmount": 18290.023999999998,
-  "DiscountPercent": 7618.754,
-  "DiscountAmount": 9834.492,
+  "ERPDiscountPercent": 3096.392,
+  "ERPDiscountAmount": 14284.771999999999,
+  "DiscountPercent": 31029.734,
+  "DiscountAmount": 7449.518,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "natus",
-  "VAT": 9289.176,
-  "EarningPercent": 17760.378,
-  "EarningAmount": 2745.384,
-  "SubTotal": 27159.244,
-  "TotalPrice": 4512.96,
-  "ExtraField1": "laboriosam",
-  "ExtraField2": "accusamus",
-  "ExtraField3": "laboriosam",
-  "ExtraField4": "eveniet",
-  "ExtraField5": "ut",
+  "VATInfo": "et",
+  "VAT": 16892.26,
+  "EarningPercent": 25106.474,
+  "EarningAmount": 25824.16,
+  "SubTotal": 8126.4619999999995,
+  "TotalPrice": 1711.164,
+  "ExtraField1": "rerum",
+  "ExtraField2": "explicabo",
+  "ExtraField3": "tempore",
+  "ExtraField4": "iste",
+  "ExtraField5": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldType": "System.String",
+      "FieldLength": 303
     }
   }
 }

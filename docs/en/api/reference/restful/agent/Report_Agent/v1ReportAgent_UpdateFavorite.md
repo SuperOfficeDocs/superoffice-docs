@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 594,
+  "ReportId": 76,
   "ReportCategory": "All",
-  "Description": "Balanced background instruction set",
+  "Description": "Operative intermediate capability",
   "ReportLayout": "CalendarMonth",
-  "Name": "Brakus, Lindgren and Kreiger",
-  "AssociateId": 879,
-  "TemplateId": 697,
-  "Published": true,
+  "Name": "Auer-Smitham",
+  "AssociateId": 808,
+  "TemplateId": 632,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldType": "System.String",
+      "FieldLength": 126
     }
   }
 }

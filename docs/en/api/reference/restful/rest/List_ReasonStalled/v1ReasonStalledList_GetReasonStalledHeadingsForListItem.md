@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Vandervort-Strosin",
-    "ToolTip": "Sint eum et earum sunt.",
-    "Deleted": false,
-    "Rank": 202,
-    "Type": "aut",
-    "ColorBlock": 763,
-    "IconHint": "a",
+    "Id": 964,
+    "Name": "Hettinger Group",
+    "ToolTip": "Error ut similique aperiam eos velit.",
+    "Deleted": true,
+    "Rank": 730,
+    "Type": "ut",
+    "ColorBlock": 299,
+    "IconHint": "ab",
     "Selected": false,
-    "LastChanged": "2002-11-18T11:06:43.037826+01:00",
+    "LastChanged": "2005-07-01T13:38:18.2181419+02:00",
     "ChildItems": [
       {
-        "Id": 189,
-        "Name": "Mayer-Bailey",
-        "ToolTip": "Animi eos porro nemo voluptatum.",
-        "Deleted": false,
-        "Rank": 508,
-        "Type": "ea",
-        "ColorBlock": 729,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2016-03-18T11:06:43.037826+01:00",
+        "Id": 324,
+        "Name": "Moore-Morar",
+        "ToolTip": "Rerum harum ratione quia omnis debitis mollitia.",
+        "Deleted": true,
+        "Rank": 182,
+        "Type": "beatae",
+        "ColorBlock": 207,
+        "IconHint": "veniam",
+        "Selected": true,
+        "LastChanged": "2009-04-12T13:38:18.2181419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "similique",
+        "ExtraInfo": "tempora",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Aimee Zemlak",
+        "FullName": "Prof. Camden Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 837
+            "FieldType": "System.String",
+            "FieldLength": 364
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "iure",
+    "ExtraInfo": "architecto",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Ms. Shad Romaguera",
+    "FullName": "Prof. Rex Tracy Collins IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 168
+        "FieldLength": 608
       }
     }
   }

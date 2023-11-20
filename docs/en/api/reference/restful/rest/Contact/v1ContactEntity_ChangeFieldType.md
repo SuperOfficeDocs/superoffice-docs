@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 330,
-  "ColumnId": 703,
-  "FieldDefault": "recusandae",
-  "FieldHeight": 647,
-  "FieldLabel": "neque",
-  "FieldLeft": 741,
-  "FieldTop": 861,
+  "UDefFieldId": 882,
+  "ColumnId": 996,
+  "FieldDefault": "perferendis",
+  "FieldHeight": 27,
+  "FieldLabel": "enim",
+  "FieldLeft": 524,
+  "FieldTop": 337,
   "FieldType": "Checkbox",
-  "FieldWidth": 451,
-  "FormatMask": "sequi",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 504,
-  "LabelLeft": 615,
-  "LabelTop": 686,
-  "LabelWidth": 579,
-  "LastVersionId": 358,
-  "ListTableId": 978,
-  "IsMandatory": true,
+  "FieldWidth": 936,
+  "FormatMask": "voluptatem",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 37,
+  "LabelLeft": 3,
+  "LabelTop": 536,
+  "LabelWidth": 154,
+  "LastVersionId": 532,
+  "ListTableId": 761,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 423,
-  "ProgId": "consequatur",
+  "Page1LineNo": 924,
+  "ProgId": "ea",
   "IsReadOnly": false,
-  "ShortLabel": "suscipit",
-  "TabOrder": 396,
-  "TextLength": 768,
-  "Tooltip": "ut",
-  "UdefIdentity": 200,
-  "UDListDefinitionId": 489,
+  "ShortLabel": "non",
+  "TabOrder": 408,
+  "TextLength": 743,
+  "Tooltip": "rerum",
+  "UdefIdentity": 53,
+  "UDListDefinitionId": 767,
   "Justification": "Center",
-  "Version": 308,
-  "TemplateVariableName": "Nicolas-Hettinger",
+  "Version": 257,
+  "TemplateVariableName": "Fay-Gaylord",
   "HasBeenPublished": false,
-  "MdoListName": "Gutmann, Huel and Dare",
+  "MdoListName": "Walsh, Legros and Lemke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 674
+      "FieldType": "System.Int32",
+      "FieldLength": 494
     }
   }
 }

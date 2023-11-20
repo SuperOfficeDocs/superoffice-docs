@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 388,
-    "ResourceId": 51,
-    "Text": "dolores",
+    "LanguageId": 704,
+    "ResourceId": 186,
+    "Text": "officiis",
     "Type": "Column",
-    "LocalizedTextId": 629,
+    "LocalizedTextId": 635,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 527
       }
     }
   }

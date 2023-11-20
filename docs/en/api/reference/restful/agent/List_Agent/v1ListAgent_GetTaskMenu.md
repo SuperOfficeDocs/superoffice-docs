@@ -26,7 +26,7 @@ Gets a TaskMenu object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=930
+POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=362
 POST /api/v1/Agents/List/GetTaskMenu?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,26 +90,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 27,
-  "Name": "Hyatt, Zieme and Hudson",
-  "Tooltip": "sunt",
-  "TableName": "Conn-Prohaska",
-  "Area": "est",
+  "TaskMenuId": 922,
+  "Name": "Sporer, Olson and Volkman",
+  "Tooltip": "dolor",
+  "TableName": "Rippin Inc and Sons",
+  "Area": "cum",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 520,
+  "CrmScriptId": 985,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 85,
+  "Rank": 833,
   "Encoding": "ANSI",
-  "ProgId": "aspernatur",
+  "ProgId": "esse",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 940
     }
   }
 }

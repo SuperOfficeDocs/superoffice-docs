@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "King Inc and Sons",
+    "Id": 278,
+    "Name": "Ward-Watsica",
     "Tooltip": "voluptas",
     "Deleted": false,
-    "UdListDefinitionId": 773,
-    "Rank": 836,
+    "UdListDefinitionId": 461,
+    "Rank": 133,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldType": "System.String",
+        "FieldLength": 43
       }
     }
   }

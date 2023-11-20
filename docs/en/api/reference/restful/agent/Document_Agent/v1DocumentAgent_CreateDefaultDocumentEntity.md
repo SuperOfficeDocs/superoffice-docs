@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 468,
+  "DocumentId": 556,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "occaecati",
-  "Header": "ullam",
-  "Name": "Bauch, Aufderhar and Bergstrom",
-  "OurRef": "dolorum",
-  "YourRef": "qui",
-  "CreatedDate": "2004-12-02T11:06:34.3320811+01:00",
-  "UpdatedDate": "2009-10-17T11:06:34.3320811+02:00",
-  "Description": "Advanced solution-oriented encryption",
+  "Attention": "aliquid",
+  "Header": "quis",
+  "Name": "Hahn LLC",
+  "OurRef": "molestiae",
+  "YourRef": "excepturi",
+  "CreatedDate": "2021-06-11T13:38:13.4365041+02:00",
+  "UpdatedDate": "1999-01-15T13:38:13.4365041+01:00",
+  "Description": "Focused background artificial intelligence",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-10-09T11:06:34.3320811+02:00",
-  "ExternalRef": "iusto",
+  "Date": "2017-04-29T13:38:13.4365041+02:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 678,
+  "ActiveLinks": 53,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "McKenzie-O'Keefe",
-      "Id": 731,
-      "Description": "User-centric executive capacity",
-      "ExtraInfo": "dolores",
-      "LinkId": 346,
+      "EntityName": "Marquardt, Senger and Konopelski",
+      "Id": 836,
+      "Description": "Persevering attitude-oriented productivity",
+      "ExtraInfo": "qui",
+      "LinkId": 976,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldType": "System.Int32",
+          "FieldLength": 670
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 242,
-  "Snum": 166,
+  "SuggestedDocumentId": 895,
+  "Snum": 478,
   "UserDefinedFields": {
-    "SuperOffice:1": "812599990",
-    "SuperOffice:2": "904601691"
+    "SuperOffice:1": "469207122",
+    "SuperOffice:2": "729812207"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "quod"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "quis"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "reiciendis"
   },
-  "PublishEventDate": "1997-05-20T11:06:34.3320811+02:00",
-  "PublishTo": "2003-07-15T11:06:34.3320811+02:00",
-  "PublishFrom": "2000-07-02T11:06:34.3320811+02:00",
+  "PublishEventDate": "2018-10-29T13:38:13.4365041+01:00",
+  "PublishTo": "2012-10-28T13:38:13.4365041+01:00",
+  "PublishFrom": "2005-06-09T13:38:13.4365041+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 798,
+      "VisibleId": 361,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldLength": 284
         }
       }
     },
     {
-      "VisibleId": 798,
+      "VisibleId": 361,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldLength": 284
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 547
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 218,
-  "Name": "Runte-Metz",
-  "Tooltip": "voluptatem",
+  "HeadingId": 503,
+  "Name": "Shields, Hoeger and Daugherty",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 421,
-  "UdListDefinitionId": 293
+  "Rank": 284,
+  "UdListDefinitionId": 739
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 540,
-  "Name": "Torphy, Dibbert and Ferry",
-  "Tooltip": "quaerat",
+  "HeadingId": 363,
+  "Name": "Hermann Group",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 755,
-  "UdListDefinitionId": 466,
+  "Rank": 595,
+  "UdListDefinitionId": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldLength": 670
     }
   }
 }

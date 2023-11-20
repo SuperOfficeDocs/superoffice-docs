@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 830,
-  "TopicId": 787,
+  "ChatSessionId": 744,
+  "TopicId": 850,
   "User": null,
   "Person": null,
-  "CustomerAlias": "natus",
-  "CustomerHost": "magnam",
-  "CustomerName": "White Inc and Sons",
-  "CustomerEmail": "zelda.weber@rueckerrice.biz",
-  "CustomerPhone": "956.429.5888",
+  "CustomerAlias": "et",
+  "CustomerHost": "pariatur",
+  "CustomerName": "Satterfield, McClure and White",
+  "CustomerEmail": "jacynthe.reynolds@kerlukedamore.us",
+  "CustomerPhone": "1-964-207-5825",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Stamm, Thiel and Spencer",
+  "CustomerCompanyName": "Harvey-Langworth",
   "Status": "Closed",
-  "FirstMessage": "consequuntur",
-  "LastMessage": "reprehenderit",
-  "WhenRequested": "2017-06-26T11:06:41.5197412+02:00",
-  "WhenStarted": "2020-02-13T11:06:41.5197412+01:00",
-  "WhenEnded": "1999-01-26T11:06:41.5197412+01:00",
-  "WhenIdle": "1996-09-25T11:06:41.5197412+02:00",
-  "WhenFetched": "2014-10-22T11:06:41.5197412+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 472,
-  "AlertLevel": 317,
-  "Rank": 697,
+  "FirstMessage": "quos",
+  "LastMessage": "expedita",
+  "WhenRequested": "2020-06-30T13:38:17.171193+02:00",
+  "WhenStarted": "2006-07-29T13:38:17.171193+02:00",
+  "WhenEnded": "2023-05-28T13:38:17.171193+02:00",
+  "WhenIdle": "2006-01-23T13:38:17.171193+01:00",
+  "WhenFetched": "2017-05-27T13:38:17.171193+02:00",
+  "SessionKey": "similique",
+  "InitialQueuePos": 152,
+  "AlertLevel": 440,
+  "Rank": 871,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 35,
+  "ChatbotIsActive": true,
+  "Rating": 291,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 519
     }
   }
 }

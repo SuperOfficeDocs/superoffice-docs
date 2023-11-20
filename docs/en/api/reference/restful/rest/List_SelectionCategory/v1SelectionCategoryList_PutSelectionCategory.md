@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 480,
-  "Name": "Leuschke, Friesen and Hirthe",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "UdListDefinitionId": 253,
-  "Rank": 58
+  "Id": 413,
+  "Name": "Ondricka LLC",
+  "Tooltip": "officiis",
+  "Deleted": true,
+  "UdListDefinitionId": 505,
+  "Rank": 934
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 317,
-  "Name": "Kovacek-D'Amore",
-  "Tooltip": "modi",
-  "Deleted": false,
-  "UdListDefinitionId": 146,
-  "Rank": 98,
+  "Id": 940,
+  "Name": "Aufderhar, Mueller and Towne",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 362,
+  "Rank": 817,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 502
     }
   }
 }

@@ -79,7 +79,8 @@ Entity to be checked.
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | Integer | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | Integer | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | Integer | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | Boolean | Is this appointment a milestone? |
@@ -123,110 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-01-28T11:06:41.3947447+01:00",
-  "AppointmentId": 374,
-  "Description": "Exclusive explicit Graphic Interface",
-  "StartDate": "2011-06-04T11:06:41.3947447+02:00",
-  "EndDate": "2015-02-22T11:06:41.3947447+01:00",
+  "CreatedDate": "2005-02-12T13:38:17.0931089+01:00",
+  "AppointmentId": 773,
+  "Description": "Synergized zero defect info-mediaries",
+  "StartDate": "2016-09-21T13:38:17.0931089+02:00",
+  "EndDate": "2005-01-15T13:38:17.0931089+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 270,
+  "MotherId": 648,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-05-30T11:06:41.4103714+02:00",
+  "UpdatedDate": "2003-05-22T13:38:17.0931089+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 670,
+  "ActiveLinks": 121,
   "Links": [
     {
-      "EntityName": "Connelly LLC",
-      "Id": 262,
-      "Description": "Universal clear-thinking architecture",
-      "ExtraInfo": "alias",
-      "LinkId": 932
+      "EntityName": "Boyle Inc and Sons",
+      "Id": 670,
+      "Description": "Advanced 24 hour core",
+      "ExtraInfo": "est",
+      "LinkId": 447
     },
     {
-      "EntityName": "Connelly LLC",
-      "Id": 262,
-      "Description": "Universal clear-thinking architecture",
-      "ExtraInfo": "alias",
-      "LinkId": 932
+      "EntityName": "Boyle Inc and Sons",
+      "Id": 670,
+      "Description": "Advanced 24 hour core",
+      "ExtraInfo": "est",
+      "LinkId": 447
     }
   ],
-  "AlarmLeadTime": "voluptas",
-  "HasAlarm": false,
-  "ColorIndex": 28,
+  "AlarmLeadTime": "est",
+  "HasAlarm": true,
+  "ColorIndex": 417,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "voluptas",
-  "LeadTime": "a",
-  "Location": "et",
-  "RejectCounter": 902,
+  "IsAlldayEvent": false,
+  "LagTime": "laudantium",
+  "LeadTime": "enim",
+  "Location": "dignissimos",
+  "RejectCounter": 954,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 384,
-      "PersonId": 56,
-      "ContactId": 720,
-      "EmailId": 299,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 384,
-      "PersonId": 56,
-      "ContactId": 720,
-      "EmailId": 299,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 934,
+      "PersonId": 354,
+      "ContactId": 213,
+      "EmailId": 204,
+      "SendEmail": true,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "jedediah@kuvalis.uk",
+      "Description": "Expanded high-level customer loyalty"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-02-19T11:06:41.4103714+01:00",
+  "ActiveDate": "2002-12-17T13:38:17.0931089+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 541,
+  "PreferredTZLocation": 885,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 666,
+  "SuggestedAppointmentId": 219,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "aut",
-  "Title": "optio",
-  "Agenda": "aut",
+  "CentralserviceVideomeetId": "non",
+  "Title": "impedit",
+  "Agenda": "quia",
   "InternalNotes": "aut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Johnny Dave Senger III",
-    "SuperOffice:2": "Kiel Jamel Heathcote II"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "et",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "natus",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2015-10-17T11:06:41.4103714+02:00",
-  "PublishTo": "2016-03-25T11:06:41.4103714+01:00",
-  "PublishFrom": "2023-06-05T11:06:41.4103714+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-07-12T13:38:17.0931089+02:00",
+  "PublishTo": "2010-10-17T13:38:17.0931089+02:00",
+  "PublishFrom": "2023-02-09T13:38:17.0931089+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 904,
+      "VisibleId": 15,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "facilis"
     },
     {
-      "VisibleId": 904,
+      "VisibleId": 15,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "facilis"
     }
   ]
 }
@@ -239,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "alias",
-  "2": "est"
+  "1": "est",
+  "2": "repudiandae"
 }
 ```

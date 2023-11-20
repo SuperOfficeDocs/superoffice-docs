@@ -85,16 +85,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 350,
-  "Name": "Jenkins, Keeling and Franecki",
-  "Tooltip": "temporibus",
+  "RoleId": 843,
+  "Name": "Howe-Hahn",
+  "Tooltip": "cupiditate",
   "RoleType": "Anonymous",
-  "Deleted": 934,
-  "Rank": 78,
-  "Created": "2019-07-09T11:06:42.0978516+02:00",
-  "UseCategories": 305,
+  "Deleted": 600,
+  "Rank": 759,
+  "Created": "2012-11-10T13:38:17.5774332+01:00",
+  "UseCategories": 399,
   "CreatedBy": null,
-  "Updated": "1996-09-16T11:06:42.0978516+02:00",
+  "Updated": "2022-09-19T13:38:17.5774332+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 910
     }
   }
 }

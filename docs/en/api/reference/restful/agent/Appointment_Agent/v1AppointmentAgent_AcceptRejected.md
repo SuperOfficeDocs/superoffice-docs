@@ -104,7 +104,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -135,7 +136,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 596,
+  "AppointmentId": 517,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -151,125 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1996-09-12T11:06:33.6319848+02:00",
-  "AppointmentId": 128,
-  "Description": "Stand-alone regional task-force",
-  "StartDate": "2020-07-09T11:06:33.6319848+02:00",
-  "EndDate": "1999-02-05T11:06:33.6319848+01:00",
+  "CreatedDate": "2018-11-05T13:38:12.983428+01:00",
+  "AppointmentId": 264,
+  "Description": "Fully-configurable human-resource concept",
+  "StartDate": "2019-06-13T13:38:12.983428+02:00",
+  "EndDate": "2016-07-20T13:38:12.983428+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 443,
+  "MotherId": 423,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-02-05T11:06:33.6319848+01:00",
+  "UpdatedDate": "2016-05-06T13:38:12.983428+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 474,
+  "ActiveLinks": 821,
   "Links": [
     {
-      "EntityName": "Schulist Group",
-      "Id": 183,
-      "Description": "Switchable leading edge installation",
-      "ExtraInfo": "at",
-      "LinkId": 612,
+      "EntityName": "Rempel Group",
+      "Id": 808,
+      "Description": "De-engineered local workforce",
+      "ExtraInfo": "sunt",
+      "LinkId": 591,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 445
+          "FieldType": "System.Int32",
+          "FieldLength": 220
         }
       }
     }
   ],
-  "AlarmLeadTime": "aut",
+  "AlarmLeadTime": "impedit",
   "HasAlarm": false,
-  "ColorIndex": 107,
+  "ColorIndex": 145,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "provident",
-  "LeadTime": "debitis",
-  "Location": "a",
-  "RejectCounter": 428,
+  "LagTime": "voluptas",
+  "LeadTime": "ullam",
+  "Location": "incidunt",
+  "RejectCounter": 977,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 310,
-      "PersonId": 508,
-      "ContactId": 949,
-      "EmailId": 464,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 310,
-      "PersonId": 508,
-      "ContactId": 949,
-      "EmailId": 464,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 877,
+      "PersonId": 575,
+      "ContactId": 884,
+      "EmailId": 75,
+      "SendEmail": false,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "flavie_gleichner@legrosweissnat.ca",
+      "Description": "Progressive clear-thinking system engine"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-08-24T11:06:33.6319848+02:00",
+  "ActiveDate": "2000-07-31T13:38:12.983428+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 753,
+  "PreferredTZLocation": 757,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 636,
+  "SuggestedAppointmentId": 496,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "tempore",
-  "Title": "cupiditate",
-  "Agenda": "rem",
-  "InternalNotes": "exercitationem",
+  "CentralserviceVideomeetId": "error",
+  "Title": "et",
+  "Agenda": "tempora",
+  "InternalNotes": "voluptatem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ezequiel Connelly",
-    "SuperOffice:2": "Mr. Gunnar Wilhelmine Durgan"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Gus Rutherford"
   },
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "vel",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2020-04-18T11:06:33.6476155+02:00",
-  "PublishTo": "1999-04-11T11:06:33.6476155+02:00",
-  "PublishFrom": "2012-12-07T11:06:33.6476155+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-10-06T13:38:12.983428+02:00",
+  "PublishTo": "2001-03-10T13:38:12.983428+01:00",
+  "PublishFrom": "2001-10-17T13:38:12.983428+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 4,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "quae",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldLength": 551
         }
       }
     },
     {
-      "VisibleId": 4,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "quae",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldLength": 551
         }
       }
     }
@@ -279,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldLength": 674
     }
   }
 }

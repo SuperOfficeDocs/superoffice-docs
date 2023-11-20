@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Lind, Bartell and Haley",
-  "Tooltip": "praesentium",
+  "Id": 374,
+  "Name": "Lubowitz-Balistreri",
+  "Tooltip": "modi",
   "Deleted": true,
-  "Rank": 873,
+  "Rank": 271,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "alias",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "id",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 882,
-  "Name": "Kautzer Inc and Sons",
-  "Tooltip": "aliquid",
+  "Id": 511,
+  "Name": "Farrell LLC",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 807,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 895,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ipsum",
+  "ListType": "magni",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 765
+      "FieldLength": 237
     }
   }
 }

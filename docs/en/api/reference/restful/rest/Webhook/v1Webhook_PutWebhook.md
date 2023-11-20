@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 893,
-  "Name": "Treutel, Cronin and Cassin",
+  "WebhookId": 394,
+  "Name": "Wolf LLC",
   "Events": [
-    "omnis",
-    "veniam"
+    "ab",
+    "doloribus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "laborum",
+  "Secret": "deleniti",
   "State": "Active",
-  "Type": "quos",
+  "Type": "aut",
   "Headers": {
-    "Headers1": "est",
-    "Headers2": "ut"
+    "Headers1": "molestiae",
+    "Headers2": "cum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-10-03T11:06:42.6315642+02:00",
+  "Registered": "2002-11-18T13:38:17.8744364+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2004-01-21T11:06:42.6315642+01:00",
+  "Updated": "2012-06-27T13:38:17.8744364+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "telly@ankundingjast.us"
+  "ErrorsEmail": "myriam_lebsack@schinner.name"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 553,
-  "Name": "Lebsack LLC",
+  "WebhookId": 880,
+  "Name": "Murphy-Carroll",
   "Events": [
-    "autem",
-    "adipisci"
+    "eaque",
+    "voluptatem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quia",
+  "Secret": "maiores",
   "State": "Active",
-  "Type": "eveniet",
+  "Type": "ad",
   "Headers": {
-    "Headers1": "ad",
-    "Headers2": "est"
+    "Headers1": "qui",
+    "Headers2": "molestias"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2007-07-13T11:06:42.6315642+02:00",
+  "Registered": "2019-07-11T13:38:17.8744364+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-03-03T11:06:42.6315642+01:00",
+  "Updated": "2023-06-18T13:38:17.8744364+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "sonny@kozey.com",
+  "ErrorsEmail": "sebastian.klein@leannonkuhn.us",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

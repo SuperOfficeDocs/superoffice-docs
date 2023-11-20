@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 891,
-    "Name": "Grimes, Larson and Breitenberg",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 278,
-    "UdListDefinitionId": 389
+    "HeadingId": 347,
+    "Name": "Marvin LLC",
+    "Tooltip": "quibusdam",
+    "Deleted": true,
+    "Rank": 32,
+    "UdListDefinitionId": 573
   },
   {
-    "HeadingId": 891,
-    "Name": "Grimes, Larson and Breitenberg",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 278,
-    "UdListDefinitionId": 389
+    "HeadingId": 347,
+    "Name": "Marvin LLC",
+    "Tooltip": "quibusdam",
+    "Deleted": true,
+    "Rank": 32,
+    "UdListDefinitionId": 573
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 147,
-    "Name": "Farrell-Pagac",
-    "Tooltip": "laudantium",
+    "HeadingId": 672,
+    "Name": "Strosin-Simonis",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 849,
-    "UdListDefinitionId": 782,
+    "Rank": 844,
+    "UdListDefinitionId": 437,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 35
       }
     }
   }

@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jerde, Bashirian and Leannon",
-    "Description": "Proactive analyzing architecture",
+    "Name": "Abernathy-Feeney",
+    "Description": "Upgradable multi-tasking paradigm",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 857,
-        "Tooltip": "aspernatur",
+        "Unrestricted": true,
+        "Total": 841,
+        "Tooltip": "et",
         "CanAssign": false,
-        "Free": 442,
-        "InUse": 998,
-        "IsHidden": false,
+        "Free": 912,
+        "InUse": 471,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 391,
-        "Name": "Davis-Fisher",
-        "Description": "Open-source multi-state adapter",
-        "PrerequisiteModuleName": "Block, Kulas and Sawayn",
-        "SortOrder": 391,
-        "ExtraFlags": 79,
+        "ModuleLicenseId": 754,
+        "Name": "O'Connell-Ruecker",
+        "Description": "Synergized 3rd generation intranet",
+        "PrerequisiteModuleName": "Langworth, Abbott and Gottlieb",
+        "SortOrder": 26,
+        "ExtraFlags": 166,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 437
+            "FieldLength": 127
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 239,
-        "Tooltip": "officia",
+        "Total": 433,
+        "Tooltip": "possimus",
         "CanAssign": false,
-        "Free": 990,
-        "InUse": 221,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 848,
-        "Name": "Veum-Haag",
-        "Description": "Multi-channelled 24/7 monitoring",
-        "PrerequisiteModuleName": "O'Keefe Group",
-        "SortOrder": 343,
-        "ExtraFlags": 712,
+        "Free": 342,
+        "InUse": 416,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 332,
+        "Name": "Conn, Gerlach and Schulist",
+        "Description": "Multi-tiered 4th generation infrastructure",
+        "PrerequisiteModuleName": "Runte, Cronin and Spencer",
+        "SortOrder": 736,
+        "ExtraFlags": 254,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 827
+            "FieldLength": 348
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 932
       }
     }
   },
   {
-    "Name": "Jerde, Bashirian and Leannon",
-    "Description": "Proactive analyzing architecture",
+    "Name": "Abernathy-Feeney",
+    "Description": "Upgradable multi-tasking paradigm",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 857,
-        "Tooltip": "aspernatur",
+        "Unrestricted": true,
+        "Total": 841,
+        "Tooltip": "et",
         "CanAssign": false,
-        "Free": 442,
-        "InUse": 998,
-        "IsHidden": false,
+        "Free": 912,
+        "InUse": 471,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 391,
-        "Name": "Davis-Fisher",
-        "Description": "Open-source multi-state adapter",
-        "PrerequisiteModuleName": "Block, Kulas and Sawayn",
-        "SortOrder": 391,
-        "ExtraFlags": 79,
+        "ModuleLicenseId": 754,
+        "Name": "O'Connell-Ruecker",
+        "Description": "Synergized 3rd generation intranet",
+        "PrerequisiteModuleName": "Langworth, Abbott and Gottlieb",
+        "SortOrder": 26,
+        "ExtraFlags": 166,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 437
+            "FieldLength": 127
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 239,
-        "Tooltip": "officia",
+        "Total": 433,
+        "Tooltip": "possimus",
         "CanAssign": false,
-        "Free": 990,
-        "InUse": 221,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 848,
-        "Name": "Veum-Haag",
-        "Description": "Multi-channelled 24/7 monitoring",
-        "PrerequisiteModuleName": "O'Keefe Group",
-        "SortOrder": 343,
-        "ExtraFlags": 712,
+        "Free": 342,
+        "InUse": 416,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 332,
+        "Name": "Conn, Gerlach and Schulist",
+        "Description": "Multi-tiered 4th generation infrastructure",
+        "PrerequisiteModuleName": "Runte, Cronin and Spencer",
+        "SortOrder": 736,
+        "ExtraFlags": 254,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 827
+            "FieldLength": 348
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 932
       }
     }
   }

@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 337,
-  "Name": "Hahn, Dickinson and Dibbert",
-  "Tooltip": "iure",
+  "RoleId": 411,
+  "Name": "Larson Inc and Sons",
+  "Tooltip": "corporis",
   "RoleType": "Anonymous",
-  "Deleted": 766,
-  "Rank": 720,
-  "Created": "2014-10-20T11:06:42.0822263+02:00",
-  "UseCategories": 10,
+  "Deleted": 331,
+  "Rank": 75,
+  "Created": "2015-02-21T13:38:17.5618158+01:00",
+  "UseCategories": 379,
   "CreatedBy": null,
-  "Updated": "2023-02-12T11:06:42.0822263+01:00",
+  "Updated": "2005-01-19T13:38:17.5618158+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 410
     }
   }
 }

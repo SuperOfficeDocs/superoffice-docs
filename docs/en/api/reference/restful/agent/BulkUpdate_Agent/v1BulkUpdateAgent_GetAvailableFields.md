@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -105,74 +105,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "sunt",
-    "ValueType": "consequatur",
-    "Mandatory": true,
-    "EncodedDisplayName": "Graham-O'Conner",
-    "EncodedDisplayDescription": "Sharable actuating hub",
-    "IconHint": "odit",
+    "DefaultShowInSelector": false,
+    "IsActive": false,
+    "Key": "nemo",
+    "ValueType": "praesentium",
+    "Mandatory": false,
+    "EncodedDisplayName": "Collier-Gutmann",
+    "EncodedDisplayDescription": "Up-sized bifurcated website",
+    "IconHint": "quos",
     "ControlInfos": [
       {
-        "Type": "incidunt",
-        "Label": "sit",
-        "Dimension": 222,
-        "ListProviderName": "Collins-Sauer",
-        "ListProviderExtraInfo": "quia",
-        "ListProviderPrimaryKeyName": "Carter LLC",
-        "ListLeadText": "exercitationem",
+        "Type": "mollitia",
+        "Label": "labore",
+        "Dimension": 516,
+        "ListProviderName": "Nolan Inc and Sons",
+        "ListProviderExtraInfo": "mollitia",
+        "ListProviderPrimaryKeyName": "McClure, Bahringer and Bode",
+        "ListLeadText": "dolores",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 37
+            "FieldType": "System.Int32",
+            "FieldLength": 725
           }
         }
       }
     ],
-    "EncodedDataCaption": "aut",
-    "EncodedDataCaptionDescription": "Distributed motivating website",
-    "CurrentOperationType": "et",
+    "EncodedDataCaption": "omnis",
+    "EncodedDataCaptionDescription": "Seamless client-driven complexity",
+    "CurrentOperationType": "tempora",
     "Values": [
-      "suscipit",
-      "consequuntur"
+      "aut",
+      "sit"
     ],
     "DisplayValues": [
-      "aliquid",
-      "aut"
+      "autem",
+      "exercitationem"
     ],
     "OperationInfos": [
       {
-        "Key": "doloribus",
-        "EncodedDisplayName": "Koelpin Group",
+        "Key": "laboriosam",
+        "EncodedDisplayName": "Toy, Skiles and Streich",
         "EncodedLeadTexts": [
-          "voluptates",
-          "qui"
+          "minima",
+          "suscipit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldLength": 308
           }
         }
       },
       {
-        "Key": "doloribus",
-        "EncodedDisplayName": "Koelpin Group",
+        "Key": "laboriosam",
+        "EncodedDisplayName": "Toy, Skiles and Streich",
         "EncodedLeadTexts": [
-          "voluptates",
-          "qui"
+          "minima",
+          "suscipit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldLength": 308
           }
         }
       }

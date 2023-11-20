@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "sed"
+  "TriggerScriptUniqueId": "qui"
 }
 ```
 
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "et",
-  "LineNumber": 77,
+  "ErrorMessage": "incidunt",
+  "LineNumber": 226,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 820
+      "FieldType": "System.Int32",
+      "FieldLength": 88
     }
   }
 }

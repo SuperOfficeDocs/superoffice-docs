@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Fadel, Ziemann and Kautzer",
-    "ToolTip": "Quidem animi cum non dolor sunt.",
+    "Id": 51,
+    "Name": "Herman-Jacobs",
+    "ToolTip": "Iusto necessitatibus ut enim voluptatum.",
     "Deleted": false,
-    "Rank": 584,
-    "Type": "ea",
-    "ColorBlock": 784,
-    "IconHint": "hic",
+    "Rank": 715,
+    "Type": "soluta",
+    "ColorBlock": 948,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2007-01-17T11:06:42.8190654+01:00",
+    "LastChanged": "2008-11-29T13:38:18.0775324+01:00",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Graham, Fay and Bayer",
-        "ToolTip": "Doloribus et sed voluptatem laboriosam adipisci.",
+        "Id": 773,
+        "Name": "Reinger, Klein and Hauck",
+        "ToolTip": "Consequatur modi doloribus ipsam.",
         "Deleted": false,
-        "Rank": 533,
-        "Type": "autem",
-        "ColorBlock": 470,
-        "IconHint": "est",
+        "Rank": 117,
+        "Type": "placeat",
+        "ColorBlock": 326,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2013-12-13T11:06:42.8190654+01:00",
+        "LastChanged": "1999-05-07T13:38:18.0775324+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Mr. Frieda Ava Hagenes",
+        "ExtraInfo": "rerum",
+        "StyleHint": "doloremque",
+        "Hidden": true,
+        "FullName": "Lucy Dooley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldLength": 555
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Miss Jarrell Coralie Stroman Sr.",
+    "ExtraInfo": "commodi",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Mr. Jerel Duncan Witting PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 420
       }
     }
   }

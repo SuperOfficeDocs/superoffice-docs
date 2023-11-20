@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 183,
-  "UserInput": "voluptatem",
-  "PriceListKey": "dolorem"
+  "QuoteAlternativeId": 197,
+  "UserInput": "id",
+  "PriceListKey": "voluptatem"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 420,
-    "ERPProductKey": "labore",
-    "ERPPriceListKey": "laudantium",
-    "Name": "Rodriguez, Reynolds and Schaden",
-    "Description": "Versatile hybrid open architecture",
-    "Code": "molestias",
-    "PriceUnit": "facilis",
-    "QuantityUnit": "libero",
-    "IsSubscription": false,
-    "SubscriptionUnit": "sed",
-    "DefaultSubscriptionQuantity": 27478.912,
-    "ItemNumber": "818281",
+    "ProductId": 640,
+    "ERPProductKey": "et",
+    "ERPPriceListKey": "sed",
+    "Name": "McClure-Konopelski",
+    "Description": "Distributed modular instruction set",
+    "Code": "odit",
+    "PriceUnit": "placeat",
+    "QuantityUnit": "iste",
+    "IsSubscription": true,
+    "SubscriptionUnit": "rerum",
+    "DefaultSubscriptionQuantity": 14955.448,
+    "ItemNumber": "1204176",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "cum",
-    "ProductTypeKey": "et",
-    "VAT": 16967.476,
-    "VATInfo": "iure",
-    "UnitCost": 8236.152,
-    "UnitMinimumPrice": 14488.482,
-    "UnitListPrice": 20208.032,
+    "ProductFamilyKey": "nihil",
+    "ProductTypeKey": "est",
+    "VAT": 28187.196,
+    "VATInfo": "est",
+    "UnitCost": 29823.144,
+    "UnitMinimumPrice": 8618.5,
+    "UnitListPrice": 2936.558,
     "InAssortment": false,
-    "Supplier": "molestiae",
-    "SupplierCode": "sapiente",
-    "Rights": "harum",
-    "Rule": "iure",
+    "Supplier": "et",
+    "SupplierCode": "alias",
+    "Rights": "non",
+    "Rule": "dolorem",
     "ExtraInfo": [
       {
-        "Name": "Heller LLC",
-        "Value": "dolorum",
+        "Name": "Ruecker, Okuneva and Schneider",
+        "Value": "omnis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 536
+            "FieldType": "System.String",
+            "FieldLength": 747
           }
         }
       },
       {
-        "Name": "Heller LLC",
-        "Value": "dolorum",
+        "Name": "Ruecker, Okuneva and Schneider",
+        "Value": "omnis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 536
+            "FieldType": "System.String",
+            "FieldLength": 747
           }
         }
       }
     ],
-    "RawExtraInfo": "ut",
-    "ExtraField1": "sint",
-    "ExtraField2": "qui",
-    "ExtraField3": "facere",
-    "ExtraField4": "omnis",
-    "ExtraField5": "vero",
-    "InStock": 22085.298,
+    "RawExtraInfo": "nihil",
+    "ExtraField1": "suscipit",
+    "ExtraField2": "fuga",
+    "ExtraField3": "nemo",
+    "ExtraField4": "officiis",
+    "ExtraField5": "nihil",
+    "InStock": 5775.9619999999995,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 681
+        "FieldType": "System.Int32",
+        "FieldLength": 593
       }
     }
   }

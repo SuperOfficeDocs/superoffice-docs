@@ -114,6 +114,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -126,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    601,
-    850
+    399,
+    726
   ],
-  "StartTime": "2010-10-23T11:06:33.475738+02:00",
-  "EndTime": "1997-08-29T11:06:33.475738+02:00"
+  "StartTime": "2001-08-06T13:38:12.8740699+02:00",
+  "EndTime": "2006-10-05T13:38:12.8740699+02:00"
 }
 ```
 
@@ -147,64 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 43,
-    "StartDate": "2010-09-26T11:06:33.475738+02:00",
-    "EndDate": "2022-12-24T11:06:33.475738+01:00",
+    "AppointmentId": 884,
+    "StartDate": "2020-09-05T13:38:12.8740699+02:00",
+    "EndDate": "2013-01-18T13:38:12.8740699+01:00",
     "Type": "BookingForChecklist",
-    "Task": "eos",
-    "AssociateFullName": "Miss Lafayette Murray",
-    "ContactName": "Schmeler-Gleichner",
-    "Description": "Phased responsive success",
-    "PersonFullName": "Mr. Mallory Raynor DVM",
-    "PersonId": 431,
-    "ContactId": 359,
-    "ProjectId": 75,
-    "ProjectName": "Schumm LLC",
-    "IsPublished": true,
-    "AssociateId": 73,
-    "ColorIndex": 611,
+    "Task": "magni",
+    "AssociateFullName": "Ayana Von",
+    "ContactName": "Barton, Kuvalis and Heaney",
+    "Description": "Team-oriented optimizing software",
+    "PersonFullName": "Pansy Leuschke",
+    "PersonId": 568,
+    "ContactId": 659,
+    "ProjectId": 496,
+    "ProjectName": "Botsford Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 277,
+    "ColorIndex": 429,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 564,
-    "PriorityName": "Bashirian Inc and Sons",
+    "PriorityId": 956,
+    "PriorityName": "Halvorson Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2019-01-10T11:06:33.475738+01:00",
+    "ActiveDate": "2009-08-22T13:38:12.8740699+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-05-24T11:06:33.475738+02:00",
-    "RecurringEndDate": "2020-09-21T11:06:33.475738+02:00",
-    "MotherId": 723,
-    "AssignedBy": 106,
-    "AssignedByFullName": "Cecile Wilkinson PhD",
+    "RecurringStartDate": "2011-11-17T13:38:12.8740699+01:00",
+    "RecurringEndDate": "1999-01-03T13:38:12.8740699+01:00",
+    "MotherId": 987,
+    "AssignedBy": 128,
+    "AssignedByFullName": "Russell Kuhn",
     "RejectReason": "",
-    "Location": "aut",
-    "AlarmLeadTime": "qui",
-    "SaleId": 692,
-    "SaleName": "Marks-Durgan",
-    "AssociateName": "Lowe-McKenzie",
-    "CreatedDate": "2004-02-07T11:06:33.475738+01:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Nicholas Kilback",
-    "CreatedByAssociateId": 887,
+    "Location": "debitis",
+    "AlarmLeadTime": "commodi",
+    "SaleId": 347,
+    "SaleName": "Osinski-Walsh",
+    "AssociateName": "Borer, Stamm and Armstrong",
+    "CreatedDate": "2013-01-20T13:38:12.8740699+01:00",
+    "CreatedBy": "alias",
+    "CreatedByFullName": "Dr. Guillermo Hagenes",
+    "CreatedByAssociateId": 72,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "omnis",
-    "Agenda": "recusandae",
-    "InternalNotes": "eius",
+    "PreferredTZLocation": 239,
+    "Title": "voluptatem",
+    "Agenda": "optio",
+    "InternalNotes": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldLength": 250
       }
     }
   }

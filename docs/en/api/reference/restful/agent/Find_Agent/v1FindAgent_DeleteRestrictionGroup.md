@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "corrupti",
-  "ProviderName": "Rosenbaum Inc and Sons",
-  "StorageKey": "corporis",
-  "Rank": 259,
-  "Context": "qui"
+  "StorageType": "ipsum",
+  "ProviderName": "Kozey-D'Amore",
+  "StorageKey": "pariatur",
+  "Rank": 810,
+  "Context": "atque"
 }
 ```
 

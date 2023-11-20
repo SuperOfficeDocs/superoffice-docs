@@ -30,6 +30,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [GetAttachmentInfoNonInline](getattachmentinfononinline.md)
 * [GetAttachmentStream](getattachmentstream.md)
 * [GetDefaultMessageContent](getdefaultmessagecontent.md)
+* [GetDefaultMessageContentFull](getdefaultmessagecontentfull.md)
 * [GetForRmUi](getforrmui.md)
 * [GetNextInQueue](getnextinqueue.md)
 * [GetPreviewAttachmentStream](getpreviewattachmentstream.md)

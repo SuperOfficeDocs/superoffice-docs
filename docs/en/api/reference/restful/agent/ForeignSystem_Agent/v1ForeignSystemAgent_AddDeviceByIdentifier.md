@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bailey-Graham",
-  "DeviceName": "Hermiston Group",
-  "DeviceIdentifier": "at"
+  "ApplicationName": "Wilkinson-Ullrich",
+  "DeviceName": "West Group",
+  "DeviceIdentifier": "repellendus"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 525,
-  "Name": "Parker, Hodkiewicz and Parker",
-  "CreatedDate": "1997-02-25T11:06:34.6301875+01:00",
-  "UpdatedDate": "1999-03-16T11:06:34.6301875+01:00",
-  "AssociateFullName": "Jay Murray",
-  "CreatedBy": "natus",
-  "UpdatedBy": "voluptatum",
-  "DeviceIdentifier": "molestiae",
-  "ForeignAppId": 334,
+  "ForeignDeviceId": 475,
+  "Name": "Kuhn, Johnson and Moen",
+  "CreatedDate": "2010-11-19T13:38:13.623981+01:00",
+  "UpdatedDate": "2003-02-19T13:38:13.623981+01:00",
+  "AssociateFullName": "Dorian Von",
+  "CreatedBy": "ad",
+  "UpdatedBy": "deleniti",
+  "DeviceIdentifier": "laboriosam",
+  "ForeignAppId": 399,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 952
     }
   }
 }

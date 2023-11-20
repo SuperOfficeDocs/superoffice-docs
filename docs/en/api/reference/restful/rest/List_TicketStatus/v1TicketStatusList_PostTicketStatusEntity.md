@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 259,
-  "Name": "Kuhic-Treutel",
+  "TicketStatusId": 280,
+  "Name": "Emmerich, Langworth and Feeney",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "UsedInQueue": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 700,
-  "Name": "Beer Inc and Sons",
+  "TicketStatusId": 677,
+  "Name": "Jast-Waters",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
-  "UsedInQueue": false,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldType": "System.String",
+      "FieldLength": 985
     }
   }
 }

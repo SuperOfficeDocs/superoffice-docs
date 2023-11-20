@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 141,
-  "Caption": "at",
-  "Description": "Ameliorated uniform standardization",
-  "ChartName": "Hills, Rohan and Rath",
-  "ChartId": "et",
+  "DashboardTileId": 708,
+  "Caption": "reiciendis",
+  "Description": "Phased motivating process improvement",
+  "ChartName": "Runte-Fritsch",
+  "ChartId": "nobis",
   "IsDefault": true,
-  "AssociateId": 741,
-  "GroupId": 405,
-  "SelectionId": 44,
-  "Config": "culpa",
+  "AssociateId": 922,
+  "GroupId": 386,
+  "SelectionId": 166,
+  "Config": "possimus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Reichert LLC",
-      "Description": "Distributed directional customer loyalty",
+      "Name": "Pfeffer-Becker",
+      "Description": "Triple-buffered human-resource application",
       "Type": "Boolean",
-      "ListName": "Schroeder, Deckow and Kuhlman",
+      "ListName": "Smitham, Streich and Halvorson",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "temporibus",
-      "DefaultDataOption": true
+      "Value": "nemo",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 55,
+      "VisibleId": 558,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "cumque"
     },
     {
-      "VisibleId": 55,
+      "VisibleId": 558,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "cumque"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 739,
-  "Caption": "ut",
-  "Description": "Proactive needs-based extranet",
-  "ChartName": "Herzog-Dare",
-  "ChartId": "ea",
-  "IsDefault": false,
-  "AssociateId": 909,
-  "GroupId": 188,
-  "SelectionId": 901,
-  "Config": "neque",
+  "DashboardTileId": 574,
+  "Caption": "provident",
+  "Description": "Right-sized multimedia data-warehouse",
+  "ChartName": "Rosenbaum-Schneider",
+  "ChartId": "adipisci",
+  "IsDefault": true,
+  "AssociateId": 82,
+  "GroupId": 972,
+  "SelectionId": 460,
+  "Config": "excepturi",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Simonis, Macejkovic and Jones",
-      "Description": "Decentralized reciprocal database",
+      "Name": "Abernathy, Bogan and Feil",
+      "Description": "Grass-roots client-driven system engine",
       "Type": "Boolean",
-      "ListName": "Little Inc and Sons",
+      "ListName": "Langosh-Hahn",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sunt",
+      "Value": "sit",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldType": "System.Int32",
+          "FieldLength": 268
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 745,
+      "VisibleId": 817,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldLength": 333
         }
       }
     },
     {
-      "VisibleId": 745,
+      "VisibleId": 817,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldLength": 333
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldLength": 78
     }
   }
 }

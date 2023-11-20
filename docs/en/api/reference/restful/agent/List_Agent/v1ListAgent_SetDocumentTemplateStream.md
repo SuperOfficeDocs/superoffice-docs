@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "beatae",
-  "PluginId": 723
+  "LanguageCode": "omnis",
+  "PluginId": 785
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 997,
-  "Name": "Schultz LLC",
-  "Tooltip": "excepturi",
-  "SaveInDb": 699,
-  "Filename": "illo",
-  "DefaultOref": "deleniti",
+  "DocumentTemplateId": 933,
+  "Name": "Walker, Weimann and Kuvalis",
+  "Tooltip": "vitae",
+  "SaveInDb": 824,
+  "Filename": "quasi",
+  "DefaultOref": "voluptatem",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 185,
-  "IntentId": 400,
+  "AutoeventId": 887,
+  "IntentId": 700,
   "IsDefaultPublished": false,
-  "Rank": 312,
-  "LoadTemplateFromPlugin": 18,
-  "MimeType": "sit",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 495,
+  "Rank": 663,
+  "LoadTemplateFromPlugin": 337,
+  "MimeType": "vitae",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 811,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "maximo.williamson@towne.name",
+  "EmailSubject": "davin@champlin.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "vance@jakubowski.ca",
+  "SenderEmailAddress": "maria@parisian.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldType": "System.String",
+      "FieldLength": 265
     }
   }
 }

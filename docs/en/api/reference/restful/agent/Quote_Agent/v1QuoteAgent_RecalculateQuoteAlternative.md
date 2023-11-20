@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternative": 325
+  "QuoteAlternative": 410
 }
 ```
 
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 895
     }
   }
 }

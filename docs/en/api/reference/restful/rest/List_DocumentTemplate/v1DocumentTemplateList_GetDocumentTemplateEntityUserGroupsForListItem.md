@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 649,
-    "Name": "Doyle, Mayer and Emard",
-    "ToolTip": "Et quis quae at voluptatem quia corporis pariatur.",
-    "Deleted": true,
-    "Rank": 969,
-    "Type": "hic",
-    "ColorBlock": 517,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2004-07-11T11:06:42.8034416+02:00",
+    "Id": 465,
+    "Name": "Wehner LLC",
+    "ToolTip": "Accusamus voluptatem aut laborum sint voluptatum eum.",
+    "Deleted": false,
+    "Rank": 230,
+    "Type": "perspiciatis",
+    "ColorBlock": 477,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "1997-10-26T13:38:18.0619133+01:00",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Goodwin-Crona",
-        "ToolTip": "Et sunt delectus eveniet tenetur autem earum.",
+        "Id": 53,
+        "Name": "Simonis LLC",
+        "ToolTip": "Autem illo fugiat nobis.",
         "Deleted": false,
-        "Rank": 648,
-        "Type": "commodi",
-        "ColorBlock": 172,
-        "IconHint": "aut",
+        "Rank": 527,
+        "Type": "fugiat",
+        "ColorBlock": 440,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "1996-11-03T11:06:42.8034416+01:00",
+        "LastChanged": "2006-01-27T13:38:18.0619133+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "nihil",
+        "StyleHint": "eligendi",
         "Hidden": true,
-        "FullName": "Alisha Rau",
+        "FullName": "Prof. Brandon Chasity Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 792
+            "FieldType": "System.Int32",
+            "FieldLength": 264
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "eius",
-    "Hidden": true,
-    "FullName": "Dr. Jon Collier V",
+    "ExtraInfo": "aut",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Miss Dallas Stokes III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldType": "System.Int32",
+        "FieldLength": 817
       }
     }
   }

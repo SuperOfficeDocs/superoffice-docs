@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=ex
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=nisi
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Mraz-Leuschke",
-    "ToolTip": "Optio nobis eius.",
+    "Id": 411,
+    "Name": "Waelchi, Huel and Kreiger",
+    "ToolTip": "Veritatis consequuntur aspernatur mollitia earum quaerat.",
     "Deleted": false,
-    "Rank": 488,
-    "Type": "sequi",
+    "Rank": 642,
+    "Type": "veniam",
     "ChildItems": [
       {
-        "Id": 210,
-        "Name": "Cassin, Nienow and Casper",
-        "ToolTip": "Est eligendi quisquam dolorem aut rerum.",
+        "Id": 858,
+        "Name": "Kessler LLC",
+        "ToolTip": "Ullam atque.",
         "Deleted": false,
-        "Rank": 492,
-        "Type": "non",
+        "Rank": 425,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 820,
-        "ExtraInfo": "aperiam",
-        "StyleHint": "ullam",
-        "FullName": "Dillon O'Kon",
+        "IconHint": "perferendis",
+        "ColorBlock": 624,
+        "ExtraInfo": "dolor",
+        "StyleHint": "et",
+        "FullName": "Marcelle Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 399
+            "FieldLength": 247
           }
         }
       }
     ],
-    "IconHint": "fuga",
-    "ColorBlock": 399,
-    "ExtraInfo": "aut",
-    "StyleHint": "sequi",
-    "FullName": "Rhett Wunsch",
+    "IconHint": "omnis",
+    "ColorBlock": 686,
+    "ExtraInfo": "nulla",
+    "StyleHint": "qui",
+    "FullName": "Cory Eloy Steuber II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 762
+        "FieldType": "System.Int32",
+        "FieldLength": 846
       }
     }
   }

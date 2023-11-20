@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 736,
-  "Name": "Gleichner Group",
-  "Description": "Open-source optimal standardization",
-  "DeltaJson": "aspernatur",
+  "ConfigurableScreenDeltaId": 364,
+  "Name": "Jones-Shields",
+  "Description": "Ergonomic interactive implementation",
+  "DeltaJson": "qui",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "nostrum",
-  "UpdatedDate": "2000-09-01T11:06:34.080854+02:00",
-  "CreatedDate": "1996-11-07T11:06:34.080854+01:00",
+  "RecipeId": "temporibus",
+  "UpdatedDate": "2004-04-15T13:38:13.2646505+02:00",
+  "CreatedDate": "2013-06-02T13:38:13.2646505+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    867,
-    458
+    225,
+    346
   ],
-  "AppliesToKey": "minus",
+  "AppliesToKey": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldLength": 481
     }
   }
 }

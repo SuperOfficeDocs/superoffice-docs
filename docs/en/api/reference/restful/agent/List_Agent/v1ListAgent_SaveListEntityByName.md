@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuphal Group",
+  "Name": "Pfannerstill LLC",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
-  "Name": "Rempel-Abbott",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 507,
+  "Id": 122,
+  "Name": "Carroll-Hilll",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "Rank": 469,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "similique",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 258
+      "FieldType": "System.Int32",
+      "FieldLength": 905
     }
   }
 }

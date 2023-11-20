@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    360,
-    212
+    2,
+    546
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 161,
-    "Name": "Kulas Group",
-    "Description": "Triple-buffered regional projection",
+    "ProjectId": 895,
+    "Name": "Sauer, Stokes and Rodriguez",
+    "Description": "Cloned uniform parallelism",
     "URL": "http://www.example.com/",
-    "Type": "soluta",
-    "AssociateId": 742,
-    "AssociateFullName": "Mrs. Cierra Strosin Jr.",
-    "TypeId": 941,
-    "Updated": "2010-10-12T11:06:35.1614465+02:00",
-    "StatusId": 954,
-    "Status": "error",
-    "TextId": 188,
-    "PublishTo": "1998-07-25T11:06:35.1614465+02:00",
-    "PublishFrom": "1998-02-13T11:06:35.1614465+01:00",
+    "Type": "et",
+    "AssociateId": 875,
+    "AssociateFullName": "Reina Schumm",
+    "TypeId": 254,
+    "Updated": "2005-03-21T13:38:13.9834617+01:00",
+    "StatusId": 989,
+    "Status": "et",
+    "TextId": 34,
+    "PublishTo": "2018-01-01T13:38:13.9834617+01:00",
+    "PublishFrom": "2003-11-16T13:38:13.9834617+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1012208",
-    "ActiveErpLinks": 515,
+    "ProjectNumber": "926402",
+    "ActiveErpLinks": 911,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldLength": 84
       }
     }
   }

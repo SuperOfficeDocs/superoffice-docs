@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 2,
-  "Name": "Feeney Inc and Sons",
-  "Tooltip": "at",
+  "Id": 801,
+  "Name": "Lesch-Hamill",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 111,
+  "Rank": 195,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": false
+  "ListType": "eos",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Denesik Inc and Sons",
-  "Tooltip": "architecto",
+  "Id": 166,
+  "Name": "Jenkins LLC",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 734,
-  "IsCustomList": false,
+  "Rank": 657,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "assumenda",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldType": "System.Int32",
+      "FieldLength": 867
     }
   }
 }

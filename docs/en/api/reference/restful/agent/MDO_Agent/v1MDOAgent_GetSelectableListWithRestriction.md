@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Emard Group",
-  "AdditionalInfo": "a",
-  "SearchValue": "fuga"
+  "Name": "Eichmann-Reilly",
+  "AdditionalInfo": "perferendis",
+  "SearchValue": "et"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Blanda, Monahan and Lakin",
-    "ToolTip": "Rem neque quaerat quae dolores blanditiis perspiciatis.",
+    "Id": 77,
+    "Name": "Stoltenberg-Runolfsson",
+    "ToolTip": "Et impedit.",
     "Deleted": false,
-    "Rank": 156,
-    "Type": "in",
-    "ColorBlock": 320,
-    "IconHint": "ex",
+    "Rank": 603,
+    "Type": "nostrum",
+    "ColorBlock": 361,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "2003-02-11T11:06:34.8020663+01:00",
+    "LastChanged": "2017-01-27T13:38:13.7333439+01:00",
     "ChildItems": [
       {
-        "Id": 358,
-        "Name": "Murphy LLC",
-        "ToolTip": "Quia in.",
+        "Id": 858,
+        "Name": "Jerde Group",
+        "ToolTip": "Dolore eum ab.",
         "Deleted": true,
-        "Rank": 889,
-        "Type": "quia",
-        "ColorBlock": 281,
-        "IconHint": "illo",
+        "Rank": 154,
+        "Type": "dolore",
+        "ColorBlock": 409,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2004-10-05T11:06:34.8020663+02:00",
+        "LastChanged": "2016-08-04T13:38:13.7333439+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Darian Schultz",
+        "ExtraInfo": "eum",
+        "StyleHint": "ipsa",
+        "Hidden": false,
+        "FullName": "Lincoln Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 468
+            "FieldLength": 474
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "harum",
-    "Hidden": true,
-    "FullName": "Valentin Hayley Funk DDS",
+    "ExtraInfo": "enim",
+    "StyleHint": "modi",
+    "Hidden": false,
+    "FullName": "Rosie Halvorson MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldType": "System.Int32",
+        "FieldLength": 941
       }
     }
   }

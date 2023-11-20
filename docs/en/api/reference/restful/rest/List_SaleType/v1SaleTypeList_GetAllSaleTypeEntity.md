@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=False
+GET /api/v1/List/SaleType/Items?includeDeleted=True
 ```
 
 
@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 517,
-    "Name": "Davis LLC",
-    "Tooltip": "voluptas",
-    "Rank": 748,
+    "SaleTypeId": 60,
+    "Name": "Bashirian-Russel",
+    "Tooltip": "ullam",
+    "Rank": 776,
     "DurationUnit": "Century",
-    "SaleDuration": 938,
-    "SaleTypeCatId": 603,
+    "SaleDuration": 235,
+    "SaleTypeCatId": 288,
     "Deleted": false,
     "HasGuide": true,
-    "HasStakeholders": false,
-    "IsAutoAdvance": true,
+    "HasStakeholders": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 636,
-    "QuoteLinesTemplate": 525,
-    "ConfirmationLinesTemplate": 460,
+    "DefaultQuoteValidity": 353,
+    "QuoteLinesTemplate": 335,
+    "ConfirmationLinesTemplate": 179,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 891,
-    "MinEarningPercent": 996,
-    "GroupQuoteLinesBy": 720,
-    "SortGroupLinesBy": 583,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 222,
+    "MinEarningPercent": 920,
+    "GroupQuoteLinesBy": 709,
+    "SortGroupLinesBy": 55,
     "Stages": [
       {
-        "Id": 550,
-        "Name": "Bednar Group",
-        "ToolTip": "Tempora excepturi laudantium.",
+        "Id": 19,
+        "Name": "Gorczany, Reinger and Jenkins",
+        "ToolTip": "Eligendi reprehenderit deleniti quis.",
         "Deleted": true,
-        "Rank": 602,
-        "Type": "voluptas",
-        "ColorBlock": 683,
-        "IconHint": "eum",
-        "Selected": false,
-        "LastChanged": "2016-04-08T11:06:43.0534497+02:00",
+        "Rank": 873,
+        "Type": "nobis",
+        "ColorBlock": 691,
+        "IconHint": "error",
+        "Selected": true,
+        "LastChanged": "1999-06-19T13:38:18.2181419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Major Koepp",
+        "ExtraInfo": "magnam",
+        "StyleHint": "doloremque",
+        "Hidden": true,
+        "FullName": "Ms. Wiley Calista VonRueden Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 381
+            "FieldType": "System.Int32",
+            "FieldLength": 334
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 201
       }
     }
   }

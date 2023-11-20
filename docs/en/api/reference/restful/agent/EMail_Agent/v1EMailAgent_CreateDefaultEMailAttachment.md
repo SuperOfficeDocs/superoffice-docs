@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,13 +78,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive demand-driven adapter",
-  "Filename": "itaque",
-  "Size": 681,
-  "Type": "omnis",
-  "Encoding": "vero",
-  "Id": "ad",
-  "Disposition": "voluptas",
+  "Description": "Customer-focused client-server moderator",
+  "Filename": "sed",
+  "Size": 549,
+  "Type": "accusamus",
+  "Encoding": "in",
+  "Id": "enim",
+  "Disposition": "quis",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 580
     }
   }
 }

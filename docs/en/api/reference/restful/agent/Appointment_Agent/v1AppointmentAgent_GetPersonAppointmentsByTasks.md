@@ -119,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -131,18 +132,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 227,
+  "PersonId": 288,
   "IncludeProjectAppointments": false,
-  "StartTime": "1998-12-25T11:06:33.4444886+01:00",
-  "EndTime": "2003-07-26T11:06:33.4444886+02:00",
-  "Count": 205,
+  "StartTime": "2013-12-26T13:38:12.8428246+01:00",
+  "EndTime": "2008-04-12T13:38:12.8428246+02:00",
+  "Count": 820,
   "TaskIds": [
-    948,
-    671
+    416,
+    129
   ]
 }
 ```
@@ -155,64 +156,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 374,
-    "StartDate": "2000-08-04T11:06:33.4444886+02:00",
-    "EndDate": "1999-01-24T11:06:33.4444886+01:00",
+    "AppointmentId": 34,
+    "StartDate": "2016-01-01T13:38:12.8428246+01:00",
+    "EndDate": "2017-01-15T13:38:12.8428246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatum",
-    "AssociateFullName": "Loyce Schowalter",
-    "ContactName": "Zieme, Cremin and Beer",
-    "Description": "Grass-roots national attitude",
-    "PersonFullName": "Ms. Elva Marianna Moen V",
-    "PersonId": 310,
-    "ContactId": 781,
-    "ProjectId": 507,
-    "ProjectName": "Beier-O'Kon",
-    "IsPublished": false,
-    "AssociateId": 150,
-    "ColorIndex": 99,
-    "IsFree": false,
+    "Task": "et",
+    "AssociateFullName": "Mr. Markus Thomas Carter II",
+    "ContactName": "Wisozk Inc and Sons",
+    "Description": "Innovative dedicated process improvement",
+    "PersonFullName": "Prof. Gaston Ashly Harvey III",
+    "PersonId": 629,
+    "ContactId": 944,
+    "ProjectId": 308,
+    "ProjectName": "Hagenes, Stoltenberg and Waters",
+    "IsPublished": true,
+    "AssociateId": 639,
+    "ColorIndex": 115,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 700,
-    "PriorityName": "Stamm-Ullrich",
+    "PriorityId": 252,
+    "PriorityName": "Leannon-Ritchie",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2018-07-05T11:06:33.4444886+02:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2022-09-08T13:38:12.8428246+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-10-21T11:06:33.4444886+02:00",
-    "RecurringEndDate": "2009-11-01T11:06:33.4444886+01:00",
-    "MotherId": 700,
-    "AssignedBy": 883,
-    "AssignedByFullName": "Miss Anabel Paxton Prohaska",
+    "RecurringStartDate": "2013-04-15T13:38:12.8428246+02:00",
+    "RecurringEndDate": "2017-06-13T13:38:12.8428246+02:00",
+    "MotherId": 252,
+    "AssignedBy": 832,
+    "AssignedByFullName": "Carmella O'Connell",
     "RejectReason": "",
-    "Location": "voluptatum",
-    "AlarmLeadTime": "nam",
-    "SaleId": 533,
-    "SaleName": "Quitzon-Hudson",
-    "AssociateName": "Cronin LLC",
-    "CreatedDate": "2004-08-27T11:06:33.4444886+02:00",
-    "CreatedBy": "ullam",
-    "CreatedByFullName": "Alexandria Runolfsdottir",
-    "CreatedByAssociateId": 840,
+    "Location": "ratione",
+    "AlarmLeadTime": "illum",
+    "SaleId": 438,
+    "SaleName": "Bartell, Brekke and Ziemann",
+    "AssociateName": "Parker-Lakin",
+    "CreatedDate": "2008-05-23T13:38:12.8428246+02:00",
+    "CreatedBy": "nihil",
+    "CreatedByFullName": "Damien Toy",
+    "CreatedByAssociateId": 201,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "nihil",
-    "Agenda": "facilis",
-    "InternalNotes": "quia",
+    "PreferredTZLocation": 134,
+    "Title": "recusandae",
+    "Agenda": "qui",
+    "InternalNotes": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldLength": 688
       }
     }
   }

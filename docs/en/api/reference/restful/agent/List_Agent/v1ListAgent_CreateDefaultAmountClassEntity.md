@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 922,
-  "Name": "Koepp-Cummerata",
-  "Tooltip": "perferendis",
-  "Rank": 739,
-  "AmountFrom": 23570.814,
-  "AmountTo": 2958.496,
+  "AmountClassId": 300,
+  "Name": "Kemmer Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 763,
+  "AmountFrom": 7114.1799999999994,
+  "AmountTo": 15764.019999999999,
   "Deleted": false,
-  "CurrencyId": 262,
+  "CurrencyId": 764,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 481
     }
   }
 }

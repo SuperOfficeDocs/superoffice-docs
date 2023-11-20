@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": false
+  "Children": true
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 779,
+    "HierarchyId": 831,
     "Domain": "Dashboards",
-    "Name": "McClure, Pacocha and Keeling",
-    "Fullname": "ut",
-    "ParentId": 448,
+    "Name": "Goyette-Abernathy",
+    "Fullname": "qui",
+    "ParentId": 389,
     "Children": [
       {
-        "HierarchyId": 344,
+        "HierarchyId": 526,
         "Domain": "Dashboards",
-        "Name": "Emard-Hills",
-        "Fullname": "aut",
-        "ParentId": 438,
+        "Name": "Adams LLC",
+        "Fullname": "quis",
+        "ParentId": 639,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2013-07-17T11:06:34.7551834+02:00",
-        "RegisteredAssociateId": 815,
-        "Updated": "2023-10-17T11:06:34.7551834+02:00",
-        "UpdatedAssociateId": 679,
+        "Registered": "2019-08-05T13:38:13.7021023+02:00",
+        "RegisteredAssociateId": 434,
+        "Updated": "2020-01-11T13:38:13.7021023+01:00",
+        "UpdatedAssociateId": 46,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 705
+            "FieldLength": 577
           }
         }
       }
     ],
-    "Registered": "2016-03-03T11:06:34.7551834+01:00",
-    "RegisteredAssociateId": 607,
-    "Updated": "2018-04-13T11:06:34.7551834+02:00",
-    "UpdatedAssociateId": 304,
+    "Registered": "2016-07-18T13:38:13.7021023+02:00",
+    "RegisteredAssociateId": 665,
+    "Updated": "2002-03-01T13:38:13.7021023+01:00",
+    "UpdatedAssociateId": 883,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 740
+        "FieldType": "System.Int32",
+        "FieldLength": 155
       }
     }
   }

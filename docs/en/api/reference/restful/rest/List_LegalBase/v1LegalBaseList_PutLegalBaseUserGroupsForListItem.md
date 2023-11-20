@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Lemke Group",
-    "ToolTip": "Eligendi omnis ut.",
-    "Deleted": false,
-    "Rank": 359,
-    "Type": "praesentium",
-    "ColorBlock": 372,
-    "IconHint": "accusantium",
+    "Id": 115,
+    "Name": "Kovacek, Casper and Stark",
+    "ToolTip": "Tempora quia.",
+    "Deleted": true,
+    "Rank": 806,
+    "Type": "occaecati",
+    "ColorBlock": 621,
+    "IconHint": "inventore",
     "Selected": true,
-    "LastChanged": "2013-07-12T11:06:42.8190654+02:00",
+    "LastChanged": "2020-09-15T13:38:18.0775324+02:00",
     "ChildItems": [
       {
-        "Id": 151,
-        "Name": "Lowe-Ziemann",
-        "ToolTip": "Nobis repellendus modi in sit.",
+        "Id": 157,
+        "Name": "Cummerata-Grimes",
+        "ToolTip": "Enim sit quia ad temporibus modi et.",
         "Deleted": false,
-        "Rank": 871,
-        "Type": "voluptatem",
-        "ColorBlock": 910,
-        "IconHint": "numquam",
-        "Selected": true,
-        "LastChanged": "2012-07-02T11:06:42.8190654+02:00",
+        "Rank": 798,
+        "Type": "corrupti",
+        "ColorBlock": 351,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2006-11-27T13:38:18.0775324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Thurman Terrance Satterfield DVM"
+        "FullName": "Victoria Purdy"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "sed",
+    "ExtraInfo": "quae",
+    "StyleHint": "nesciunt",
     "Hidden": false,
-    "FullName": "Paris Quitzon DVM"
+    "FullName": "Talon Jenkins"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "O'Keefe, Volkman and Hagenes",
-    "ToolTip": "Accusantium beatae reprehenderit dicta sed.",
+    "Id": 669,
+    "Name": "Renner-Stoltenberg",
+    "ToolTip": "Illo corporis eveniet enim sed odit quia atque.",
     "Deleted": false,
-    "Rank": 198,
-    "Type": "pariatur",
-    "ColorBlock": 538,
-    "IconHint": "quae",
+    "Rank": 506,
+    "Type": "similique",
+    "ColorBlock": 57,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2012-01-02T11:06:42.8346931+01:00",
+    "LastChanged": "1998-10-22T13:38:18.0775324+02:00",
     "ChildItems": [
       {
-        "Id": 31,
-        "Name": "Strosin, Heller and Johns",
-        "ToolTip": "Fuga ut quidem molestiae odio id et et.",
-        "Deleted": true,
-        "Rank": 371,
-        "Type": "enim",
-        "ColorBlock": 20,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2001-12-06T11:06:42.8346931+01:00",
+        "Id": 12,
+        "Name": "Mayer, Maggio and Kuvalis",
+        "ToolTip": "Quisquam eveniet.",
+        "Deleted": false,
+        "Rank": 343,
+        "Type": "ea",
+        "ColorBlock": 123,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "2009-12-09T13:38:18.0775324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Miss Barney Juana Heaney PhD",
+        "ExtraInfo": "illo",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Lorna Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 909
+            "FieldLength": 831
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "earum",
+    "ExtraInfo": "aut",
+    "StyleHint": "nobis",
     "Hidden": false,
-    "FullName": "Toni Morar",
+    "FullName": "Lisette Henri Reynolds IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 500
+        "FieldType": "System.Int32",
+        "FieldLength": 343
       }
     }
   }

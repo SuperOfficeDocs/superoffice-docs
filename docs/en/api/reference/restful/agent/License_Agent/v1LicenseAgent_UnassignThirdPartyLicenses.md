@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 15,
-  "ModuleOwner": "perferendis",
+  "AssociateId": 270,
+  "ModuleOwner": "debitis",
   "ModuleLicenseNames": [
-    "Murazik LLC",
-    "Hagenes, Price and Farrell"
+    "Brakus-Ward",
+    "Runolfsdottir, Towne and Miller"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 986,
-    "Tooltip": "et",
-    "CanAssign": true,
-    "Free": 452,
-    "InUse": 528,
-    "IsHidden": true,
+    "Total": 440,
+    "Tooltip": "sunt",
+    "CanAssign": false,
+    "Free": 745,
+    "InUse": 512,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 838,
-    "Name": "O'Reilly-Johns",
-    "Description": "Re-contextualized user-facing customer loyalty",
-    "PrerequisiteModuleName": "Hamill, Brekke and Hyatt",
-    "SortOrder": 117,
-    "ExtraFlags": 470,
+    "ModuleLicenseId": 132,
+    "Name": "Crooks LLC",
+    "Description": "Automated reciprocal collaboration",
+    "PrerequisiteModuleName": "Huels, Gislason and Rath",
+    "SortOrder": 611,
+    "ExtraFlags": 559,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 735
+        "FieldLength": 692
       }
     }
   }

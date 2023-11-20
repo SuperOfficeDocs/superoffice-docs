@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2003-05-20T11:06:33.7503955+02:00",
-  "ToDate": "2018-01-20T11:06:33.7503955+01:00",
+  "FromDate": "2015-08-03T13:38:13.0615453+02:00",
+  "ToDate": "2007-06-19T13:38:13.0615453+02:00",
   "AssociateList": [
     {
-      "Id": 175,
-      "Name": "Klocko Group",
-      "ToolTip": "Corrupti minima non quidem delectus ea ullam.",
+      "Id": 200,
+      "Name": "Bogisich Group",
+      "ToolTip": "Autem suscipit sequi ipsum exercitationem odio corrupti dolorem.",
       "Deleted": true,
-      "Rank": 643,
-      "Type": "dolore",
-      "ColorBlock": 826,
-      "IconHint": "veritatis",
+      "Rank": 301,
+      "Type": "quaerat",
+      "ColorBlock": 997,
+      "IconHint": "ea",
       "Selected": false,
-      "LastChanged": "2002-02-11T11:06:33.7503955+01:00",
+      "LastChanged": "2003-05-15T13:38:13.0615453+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dignissimos",
-      "StyleHint": "cum",
+      "ExtraInfo": "qui",
+      "StyleHint": "facere",
       "Hidden": false,
-      "FullName": "Chelsea Lemke",
+      "FullName": "Mr. Daphne Shields III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldType": "System.String",
+          "FieldLength": 687
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 518,
-      "Name": "Fritsch Inc and Sons",
-      "ToolTip": "Qui eos reprehenderit inventore magni ut facere.",
+      "Id": 757,
+      "Name": "Ernser, Thiel and Gibson",
+      "ToolTip": "Earum sed nobis praesentium ratione laudantium quas repellat.",
       "Deleted": false,
-      "Rank": 89,
-      "Type": "molestiae",
-      "ColorBlock": 622,
-      "IconHint": "fuga",
-      "Selected": true,
-      "LastChanged": "2022-09-30T11:06:33.7503955+02:00",
+      "Rank": 262,
+      "Type": "veniam",
+      "ColorBlock": 713,
+      "IconHint": "magnam",
+      "Selected": false,
+      "LastChanged": "2010-01-23T13:38:13.0615453+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "animi",
-      "StyleHint": "et",
+      "ExtraInfo": "soluta",
+      "StyleHint": "possimus",
       "Hidden": false,
-      "FullName": "Dr. Enrico Kreiger Jr.",
+      "FullName": "Miss Reuben White",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 592
+          "FieldType": "System.Int32",
+          "FieldLength": 242
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 269,
-      "Name": "Harris-Ortiz",
-      "ToolTip": "Modi nobis qui et doloremque autem.",
-      "Deleted": true,
-      "Rank": 673,
-      "Type": "distinctio",
+      "Id": 537,
+      "Name": "Marquardt-Hansen",
+      "ToolTip": "Optio aut.",
+      "Deleted": false,
+      "Rank": 482,
+      "Type": "facilis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cupiditate",
-      "ColorBlock": 322,
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "aut",
-      "FullName": "Fabiola Haley IV",
+      "IconHint": "culpa",
+      "ColorBlock": 396,
+      "ExtraInfo": "odio",
+      "StyleHint": "accusantium",
+      "FullName": "Ms. Constantin Torp V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 451
+          "FieldType": "System.Int32",
+          "FieldLength": 165
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldType": "System.Int32",
+      "FieldLength": 99
     }
   }
 }

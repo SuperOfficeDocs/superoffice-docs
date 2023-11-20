@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/List/ChangeCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 30421.737999999998,
-  "FromCurrency": "hic",
-  "ToCurrency": "quia"
+  "Amount": 26814.504,
+  "FromCurrency": "voluptas",
+  "ToCurrency": "inventore"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-12883.874
+12887.008
 ```

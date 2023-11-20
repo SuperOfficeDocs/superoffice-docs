@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 842,
-  "Section": "rem",
-  "Key": "modi",
-  "Name": "Oberbrunner-Lockman",
+  "PrefDescId": 32,
+  "Section": "consequatur",
+  "Key": "aut",
+  "Name": "Borer, Quigley and Lesch",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Self-enabling heuristic benchmark",
-  "IsBuiltin": true,
-  "TableName": "Mitchell, Jerde and O'Kon",
-  "UserDefinedListId": 770,
-  "Rank": 103,
-  "SubGroup": "maiores",
-  "MinLevel": 351,
-  "MaxValue": 396,
-  "MinValue": 109,
-  "RequiredLicense": "voluptatibus"
+  "Description": "De-engineered logistical moratorium",
+  "IsBuiltin": false,
+  "TableName": "Bogan, Bauch and Pollich",
+  "UserDefinedListId": 794,
+  "Rank": 996,
+  "SubGroup": "aut",
+  "MinLevel": 312,
+  "MaxValue": 34,
+  "MinValue": 133,
+  "RequiredLicense": "doloremque"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 825,
-  "Section": "unde",
-  "Key": "laudantium",
-  "Name": "Littel LLC",
+  "PrefDescId": 41,
+  "Section": "inventore",
+  "Key": "non",
+  "Name": "Murphy-Keebler",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Expanded bandwidth-monitored circuit",
-  "IsBuiltin": false,
-  "TableName": "Purdy, Deckow and Yost",
-  "UserDefinedListId": 352,
-  "Rank": 751,
-  "SubGroup": "fugiat",
-  "MinLevel": 57,
-  "MaxValue": 176,
-  "MinValue": 178,
-  "RequiredLicense": "et",
+  "Description": "Digitized composite database",
+  "IsBuiltin": true,
+  "TableName": "Auer, Johnston and Mills",
+  "UserDefinedListId": 366,
+  "Rank": 609,
+  "SubGroup": "vero",
+  "MinLevel": 474,
+  "MaxValue": 861,
+  "MinValue": 816,
+  "RequiredLicense": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   },
   "_Links": {

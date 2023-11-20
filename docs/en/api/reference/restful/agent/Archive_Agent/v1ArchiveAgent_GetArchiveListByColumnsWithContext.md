@@ -108,51 +108,51 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bergstrom-Schaefer",
+  "ProviderName": "Cruickshank LLC",
   "Columns": [
-    "deleniti",
-    "qui"
+    "nihil",
+    "vel"
   ],
   "SortOrder": [
     {
-      "Name": "Langworth, O'Hara and Bruen",
+      "Name": "Collins Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Langworth, O'Hara and Bruen",
+      "Name": "Collins Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kertzmann, Jast and Mayer",
-      "Operator": "est",
+      "Name": "Bogisich, Pfannerstill and Kerluke",
+      "Operator": "maxime",
       "Values": [
-        "est",
-        "deleniti"
+        "error",
+        "et"
       ],
       "DisplayValues": [
-        "quo",
-        "ea"
+        "dolore",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 725,
+      "InterParenthesis": 888,
       "InterOperator": "And",
-      "UniqueHash": 688
+      "UniqueHash": 437
     }
   ],
   "Entities": [
-    "et",
-    "quidem"
+    "autem",
+    "et"
   ],
-  "Page": 7,
-  "PageSize": 863,
-  "Context": "vel"
+  "Page": 698,
+  "PageSize": 299,
+  "Context": "et"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "McLaughlin, Rice and Mertz",
-    "PrimaryKey": 773,
+    "EntityName": "Padberg-Von",
+    "PrimaryKey": 15,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sint",
-        "TooltipHint": "ratione",
-        "LinkHint": "possimus"
+        "DisplayValue": "voluptate",
+        "TooltipHint": "nobis",
+        "LinkHint": "sit"
       }
     },
-    "LinkHint": "facilis",
-    "StyleHint": "mollitia",
+    "LinkHint": "animi",
+    "StyleHint": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldLength": 98
       }
     }
   }

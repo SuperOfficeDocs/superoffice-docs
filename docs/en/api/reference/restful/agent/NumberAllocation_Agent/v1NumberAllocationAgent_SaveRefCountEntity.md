@@ -83,38 +83,38 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 443,
-  "Field": "rerum",
-  "RecordId": 916,
+  "RefCountsId": 811,
+  "Field": "ut",
+  "RecordId": 892,
   "SuggestedRecords": [
     {
-      "Id": 653,
-      "Name": "Corkery LLC",
-      "ToolTip": "Et ea debitis non perspiciatis quia fuga cumque.",
+      "Id": 747,
+      "Name": "Ferry, Nader and Dach",
+      "ToolTip": "Accusantium magnam recusandae et et dolores eos illum.",
       "Deleted": false,
-      "Rank": 814,
-      "Type": "minus",
+      "Rank": 821,
+      "Type": "soluta",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "excepturi",
-      "ColorBlock": 591,
-      "ExtraInfo": "doloribus",
-      "StyleHint": "sequi",
-      "FullName": "Arielle Quitzon"
+      "IconHint": "nisi",
+      "ColorBlock": 376,
+      "ExtraInfo": "ut",
+      "StyleHint": "quod",
+      "FullName": "Ms. Eve Yadira Hartmann PhD"
     }
   ],
-  "CurrentValue": 528,
-  "TravelPrefix": 59,
-  "SatPrefix": 894,
-  "Allocate": true,
+  "CurrentValue": 272,
+  "TravelPrefix": 493,
+  "SatPrefix": 13,
+  "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false
 }
 ```
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 630,
-  "Field": "ipsam",
-  "RecordId": 343,
+  "RefCountsId": 202,
+  "Field": "sapiente",
+  "RecordId": 37,
   "SuggestedRecords": [
     {
-      "Id": 620,
-      "Name": "Ledner-Hagenes",
-      "ToolTip": "Dicta illo.",
-      "Deleted": false,
-      "Rank": 508,
-      "Type": "necessitatibus",
+      "Id": 198,
+      "Name": "Connelly-Hamill",
+      "ToolTip": "Omnis sint esse eaque a.",
+      "Deleted": true,
+      "Rank": 43,
+      "Type": "inventore",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "assumenda",
-      "ColorBlock": 630,
-      "ExtraInfo": "similique",
-      "StyleHint": "et",
-      "FullName": "Kari Hickle",
+      "IconHint": "aliquid",
+      "ColorBlock": 225,
+      "ExtraInfo": "dolores",
+      "StyleHint": "in",
+      "FullName": "Conner Howe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 960
+          "FieldLength": 175
         }
       }
     }
   ],
-  "CurrentValue": 191,
-  "TravelPrefix": 982,
-  "SatPrefix": 691,
-  "Allocate": true,
-  "Unique": true,
+  "CurrentValue": 105,
+  "TravelPrefix": 396,
+  "SatPrefix": 699,
+  "Allocate": false,
+  "Unique": false,
   "ReadOnly": true,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldLength": 913
     }
   }
 }

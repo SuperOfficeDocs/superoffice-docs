@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Operative optimizing orchestration",
-  "Postit": "dolorum",
+  "Description": "Diverse actuating process improvement",
+  "Postit": "voluptatem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 355,
-  "IncludePerson": 917,
-  "MemberCount": 836,
-  "Name": "Raynor-Anderson",
-  "PostitTextId": 111,
-  "CreatedDate": "2008-06-25T11:06:35.3489438+02:00",
-  "SelectionId": 830,
-  "SoundEx": "debitis",
-  "Source": 371,
-  "TextId": 1000,
-  "UpdatedDate": "2000-10-15T11:06:35.3489438+02:00",
-  "UpdatedCount": 860,
-  "Visibility": 575,
+  "GroupIdx": 902,
+  "IncludePerson": 263,
+  "MemberCount": 266,
+  "Name": "Kuphal, Waters and Blanda",
+  "PostitTextId": 535,
+  "CreatedDate": "2018-10-04T13:38:14.1084486+02:00",
+  "SelectionId": 881,
+  "SoundEx": "possimus",
+  "Source": 603,
+  "TextId": 298,
+  "UpdatedDate": "2021-07-26T13:38:14.1084486+02:00",
+  "UpdatedCount": 645,
+  "Visibility": 519,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 66,
-  "TargetTableName": "Fisher, Prosacco and Stokes",
-  "Completed": false,
-  "LeftSelectionId": 542,
-  "RightSelectionId": 218,
+  "CompanyUnique": true,
+  "TargetTableNumber": 778,
+  "TargetTableName": "Pacocha LLC",
+  "Completed": true,
+  "LeftSelectionId": 913,
+  "RightSelectionId": 634,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Grant LLC",
-  "ShadowProviderName": "Leffler-Cole",
-  "ChartKey": "saepe",
-  "LastLoaded": "2002-12-02T11:06:35.3489438+01:00",
-  "LastLoadedBy": 660,
+  "MainProviderName": "Wintheiser-Streich",
+  "ShadowProviderName": "Feeney-Mraz",
+  "ChartKey": "sunt",
+  "LastLoaded": "2018-12-16T13:38:14.1084486+01:00",
+  "LastLoadedBy": 851,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-11-22T11:06:35.3489438+01:00",
-  "LastMembershipChangeBy": 120,
+  "LastMembershipChange": "2003-06-15T13:38:14.1084486+02:00",
+  "LastMembershipChangeBy": 794,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolorem",
-  "MemberTabHeading": "sit",
-  "MailingsProviderName": "Mayert, Considine and Bahringer",
-  "DashboardTileDefinitionId": 506,
+  "MainHeading": "dolor",
+  "MemberTabHeading": "tempora",
+  "MailingsProviderName": "Welch-Roberts",
+  "DashboardTileDefinitionId": 602,
   "VisibleFor": [
     {
-      "VisibleId": 813,
+      "VisibleId": 109,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldType": "System.String",
+          "FieldLength": 67
         }
       }
     },
     {
-      "VisibleId": 813,
+      "VisibleId": 109,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldType": "System.String",
+          "FieldLength": 67
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 284
     }
   }
 }

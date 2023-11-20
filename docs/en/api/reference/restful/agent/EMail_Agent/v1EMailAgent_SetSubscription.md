@@ -74,13 +74,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Kuhlman Inc and Sons",
-      "Delimiter": "nulla",
-      "Flags": "eos",
-      "TotalItems": 978,
-      "UnreadItems": 672,
-      "Subscribed": false,
-      "EmailFolderId": 246
+      "Name": "Swift-Prosacco",
+      "Delimiter": "enim",
+      "Flags": "quas",
+      "TotalItems": 992,
+      "UnreadItems": 409,
+      "Subscribed": true,
+      "EmailFolderId": 305
     }
   ]
 }

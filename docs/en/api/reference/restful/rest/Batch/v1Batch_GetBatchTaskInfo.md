@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 845,
-  "Name": "Connelly, Bogan and McDermott",
-  "AssociateId": 754,
-  "DetailsTable": 709,
-  "DetailsRecord": 287,
+  "Id": 770,
+  "Name": "Wolff, Waters and Swift",
+  "AssociateId": 261,
+  "DetailsTable": 1002,
+  "DetailsRecord": 638,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "a",
-    "ParameterObject2": "inventore"
+    "ParameterObject1": "officia",
+    "ParameterObject2": "iste"
   },
-  "LastStarted": "2001-07-26T11:06:42.3803732+02:00",
-  "Created": "2011-03-03T11:06:42.3803732+01:00",
-  "StartCount": 986,
-  "DatabaseSerialNumber": "497935",
-  "Context": "et",
-  "Result": "corporis",
+  "LastStarted": "2000-08-11T13:38:17.7650302+02:00",
+  "Created": "2002-01-17T13:38:17.7650302+01:00",
+  "StartCount": 720,
+  "DatabaseSerialNumber": "771474",
+  "Context": "aut",
+  "Result": "architecto",
   "State": "All",
-  "Description": "Multi-lateral full-range architecture",
-  "Response": "blanditiis",
-  "Request": "repudiandae",
-  "ProgressDescription": "Vision-oriented national system engine",
-  "ProgressPercent": 63,
-  "FileName": "Tremblay, McDermott and Windler",
+  "Description": "Assimilated fresh-thinking workforce",
+  "Response": "quisquam",
+  "Request": "magni",
+  "ProgressDescription": "Operative disintermediate focus group",
+  "ProgressPercent": 536,
+  "FileName": "Hessel, Batz and Hodkiewicz",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 733
     }
   }
 }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 664,
-  "Name": "Schimmel LLC",
-  "Tooltip": "tenetur",
+  "Id": 462,
+  "Name": "Williamson Inc and Sons",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 986,
-  "IsCustomList": true,
+  "Rank": 548,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "magnam",
-  "InUseByUserDefinedFields": true
+  "ListType": "possimus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550,
-  "Name": "Osinski LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 194,
+  "Id": 355,
+  "Name": "Lowe Inc and Sons",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "Rank": 483,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "saepe",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 823
     }
   }
 }

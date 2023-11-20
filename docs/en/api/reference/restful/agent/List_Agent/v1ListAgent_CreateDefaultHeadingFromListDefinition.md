@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 37
+  "UdListDefinitionId": 298
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 212,
-  "Name": "Bernier, White and Franecki",
-  "Tooltip": "vero",
+  "HeadingId": 394,
+  "Name": "Zulauf Inc and Sons",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 852,
-  "UdListDefinitionId": 272,
+  "Rank": 879,
+  "UdListDefinitionId": 37,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 700
     }
   }
 }

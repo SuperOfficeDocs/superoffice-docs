@@ -81,14 +81,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 410,
+  "ReportId": 787,
   "ReportCategory": "All",
-  "Description": "Cloned heuristic productivity",
+  "Description": "Object-based 3rd generation success",
   "ReportLayout": "CalendarMonth",
-  "Name": "Rolfson, Ebert and Hirthe",
-  "AssociateId": 889,
-  "TemplateId": 25,
-  "Published": false
+  "Name": "Koss-Bayer",
+  "AssociateId": 914,
+  "TemplateId": 817,
+  "Published": true
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 757,
+  "ReportId": 780,
   "ReportCategory": "All",
-  "Description": "Optional impactful matrix",
+  "Description": "Visionary leading edge encryption",
   "ReportLayout": "CalendarMonth",
-  "Name": "Flatley-Bayer",
-  "AssociateId": 503,
-  "TemplateId": 420,
-  "Published": true,
+  "Name": "Rowe-Boehm",
+  "AssociateId": 63,
+  "TemplateId": 678,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldType": "System.String",
+      "FieldLength": 282
     }
   }
 }

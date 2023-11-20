@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=850
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=300
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 409,
-  "ParentId": 315,
-  "Name": "Kassulke-Rice",
-  "Fullname": "omnis",
-  "CategoryMaster": 527,
+  "TicketCategoryId": 932,
+  "ParentId": 764,
+  "Name": "Reinger Group",
+  "Fullname": "et",
+  "CategoryMaster": 984,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Heller LLC",
+  "ExternalName": "Altenwerth, D'Amore and Keeling",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 157,
-  "ReplyTemplate": 466,
-  "NotificationEmail": "ashlee_jones@hessel.com",
+  "AssignmentLag": 559,
+  "ReplyTemplate": 901,
+  "NotificationEmail": "elsie.gleichner@ankundingkutch.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 144,
+  "EffectiveReplyTemplateId": 494,
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "eligendi"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "dolore",
+    "CustomFields2": "perspiciatis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 715
     }
   }
 }

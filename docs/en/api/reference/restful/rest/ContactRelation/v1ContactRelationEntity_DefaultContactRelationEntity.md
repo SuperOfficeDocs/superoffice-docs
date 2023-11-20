@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 11 Feb 2018 11:06:41 G2T
+Last-Modified: Thu, 08 Aug 2019 13:38:17 G8T
 
 {
-  "SourceContactId": 963,
-  "SourcePersonId": 32,
-  "DestinationContactId": 665,
-  "DestinationPersonId": 599,
-  "RelationId": 620,
-  "Comment": "incidunt",
-  "RelationDefinitionId": 101,
-  "Reversed": 283,
-  "UpdatedDate": "2018-02-11T11:06:41.7697222+01:00",
-  "CreatedDate": "1998-12-29T11:06:41.7697222+01:00",
+  "SourceContactId": 730,
+  "SourcePersonId": 662,
+  "DestinationContactId": 344,
+  "DestinationPersonId": 165,
+  "RelationId": 110,
+  "Comment": "in",
+  "RelationDefinitionId": 63,
+  "Reversed": 483,
+  "UpdatedDate": "2019-08-08T13:38:17.280593+02:00",
+  "CreatedDate": "2004-08-02T13:38:17.280593+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Gutkowski-Quigley",
-  "SourcePersonName": "Pollich, Flatley and Gislason",
-  "DestinationContactName": "Raynor LLC",
-  "DestinationPersonName": "Harris Inc and Sons",
-  "ActiveText": "eius",
-  "PassiveText": "dolor",
+  "SourceContactName": "Corwin Group",
+  "SourcePersonName": "Bradtke-Stroman",
+  "DestinationContactName": "Kassulke-Graham",
+  "DestinationPersonName": "Howell, Romaguera and O'Keefe",
+  "ActiveText": "sit",
+  "PassiveText": "asperiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 476
+      "FieldLength": 755
     }
   }
 }

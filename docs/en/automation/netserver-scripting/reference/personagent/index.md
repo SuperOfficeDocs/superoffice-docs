@@ -64,6 +64,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPersonAgent'>P
 * [SavePersonEntity](savepersonentity.md)
 * [SendConsentConfirmationEmail](sendconsentconfirmationemail.md)
 * [SendEmail](sendemail.md)
+* [SendEmailWithEventName](sendemailwitheventname.md)
 * [SetConsent](setconsent.md)
 * [SetPersonImage](setpersonimage.md)
 * [SetPersonRank](setpersonrank.md)

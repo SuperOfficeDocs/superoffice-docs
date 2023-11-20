@@ -110,31 +110,31 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 41,
-  "Name": "Mraz-Hagenes",
-  "Tooltip": "vero",
-  "Deleted": true,
-  "Rank": 387,
+  "WebPanelId": 372,
+  "Name": "Collier Group",
+  "Tooltip": "quos",
+  "Deleted": false,
+  "Rank": 219,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Thiel, Klein and Schaefer",
+  "ShowInStatusBar": false,
+  "WindowName": "Bartell, Rodriguez and Green",
   "Url": "http://www.example.com/",
-  "ProgId": "odit",
-  "Icon": 868,
-  "AlwaysReloadOnShow": false
+  "ProgId": "beatae",
+  "Icon": 127,
+  "AlwaysReloadOnShow": true
 }
 ```
 
@@ -145,33 +145,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 889,
-  "Name": "Borer LLC",
-  "Tooltip": "facilis",
+  "WebPanelId": 228,
+  "Name": "Wuckert-Wiza",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 378,
+  "Rank": 72,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "McDermott LLC",
+  "WindowName": "Feeney Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "occaecati",
-  "Icon": 797,
+  "ProgId": "temporibus",
+  "Icon": 223,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 423
     }
   }
 }

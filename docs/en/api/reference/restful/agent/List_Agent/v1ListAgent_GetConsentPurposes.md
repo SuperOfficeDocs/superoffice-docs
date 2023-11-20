@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 26,
-    "Name": "Stoltenberg, Bailey and Kessler",
-    "ConsentText": "odit",
-    "FormText": "soluta",
-    "Key": "sit",
-    "Tooltip": "est",
-    "Active": 95,
-    "UpdatedDate": "1998-10-21T11:06:34.723933+02:00",
+    "ConsentPurposeId": 33,
+    "Name": "McKenzie Inc and Sons",
+    "ConsentText": "placeat",
+    "FormText": "magnam",
+    "Key": "veritatis",
+    "Tooltip": "repellat",
+    "Active": 625,
+    "UpdatedDate": "2007-05-05T13:38:13.6864749+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 360,
-    "PrivacyStatementDesc": "dolor",
+    "Rank": 239,
+    "PrivacyStatementDesc": "animi",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 271
+        "FieldType": "System.Int32",
+        "FieldLength": 517
       }
     }
   }

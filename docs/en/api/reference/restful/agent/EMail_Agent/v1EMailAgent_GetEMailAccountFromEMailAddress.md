@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "asperiores"
+  "FromAddress": "accusantium"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 184,
-  "EMailAddress": "nihil",
-  "AssociateId": 540,
+  "EMailAccountId": 996,
+  "EMailAddress": "perferendis",
+  "AssociateId": 866,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 880,
-  "ErrorCount": 334,
-  "ErrorReason": "engage mission-critical e-tailers",
-  "InboxFolder": "ratione",
-  "SentFolder": "laborum",
+  "AccountStatus": 67,
+  "ErrorCount": 440,
+  "ErrorReason": "",
+  "InboxFolder": "doloremque",
+  "SentFolder": "tempora",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 346
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   }
 }

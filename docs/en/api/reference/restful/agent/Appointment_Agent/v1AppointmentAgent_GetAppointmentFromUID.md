@@ -103,7 +103,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -130,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "aut"
+  "UID": "consequuntur"
 }
 ```
 
@@ -149,125 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-10-28T11:06:33.7101142+02:00",
-  "AppointmentId": 135,
-  "Description": "Fundamental reciprocal complexity",
-  "StartDate": "2008-06-07T11:06:33.7101142+02:00",
-  "EndDate": "2014-07-14T11:06:33.7101142+02:00",
+  "CreatedDate": "2016-03-13T13:38:13.0302987+01:00",
+  "AppointmentId": 254,
+  "Description": "Synergistic cohesive ability",
+  "StartDate": "2018-01-14T13:38:13.0302987+01:00",
+  "EndDate": "2023-03-23T13:38:13.0302987+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 493,
+  "MotherId": 420,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-07-22T11:06:33.7101142+02:00",
+  "UpdatedDate": "2011-05-09T13:38:13.0302987+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 39,
+  "ActiveLinks": 608,
   "Links": [
     {
-      "EntityName": "Koepp, Cormier and Satterfield",
-      "Id": 627,
-      "Description": "Pre-emptive systematic utilisation",
-      "ExtraInfo": "pariatur",
-      "LinkId": 377,
+      "EntityName": "Kutch, Huel and Waters",
+      "Id": 552,
+      "Description": "Cross-group 4th generation hub",
+      "ExtraInfo": "deserunt",
+      "LinkId": 932,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 227
+          "FieldLength": 535
         }
       }
     }
   ],
   "AlarmLeadTime": "dolor",
-  "HasAlarm": true,
-  "ColorIndex": 317,
+  "HasAlarm": false,
+  "ColorIndex": 76,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "delectus",
-  "LeadTime": "in",
-  "Location": "quaerat",
-  "RejectCounter": 604,
+  "IsAlldayEvent": true,
+  "LagTime": "accusamus",
+  "LeadTime": "quo",
+  "Location": "tempora",
+  "RejectCounter": 100,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 93,
-      "PersonId": 290,
-      "ContactId": 738,
-      "EmailId": 385,
+      "AssociateId": 772,
+      "PersonId": 232,
+      "ContactId": 685,
+      "EmailId": 245,
       "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 93,
-      "PersonId": 290,
-      "ContactId": 738,
-      "EmailId": 385,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "lew@weissnat.info",
+      "Description": "Configurable zero tolerance database"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-05-16T11:06:33.7101142+02:00",
+  "ActiveDate": "2017-03-14T13:38:13.0302987+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 152,
+  "PreferredTZLocation": 492,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 824,
+  "SuggestedAppointmentId": 784,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptatem",
-  "Title": "soluta",
-  "Agenda": "iste",
-  "InternalNotes": "sapiente",
+  "CentralserviceVideomeetId": "nesciunt",
+  "Title": "ut",
+  "Agenda": "eum",
+  "InternalNotes": "iure",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Marion Heathcote V",
-    "SuperOffice:2": "Mrs. Damian Else Muller"
+    "SuperOffice:1": "Michale Nienow",
+    "SuperOffice:2": "Colleen Larson"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2003-11-20T11:06:33.7101142+01:00",
-  "PublishTo": "2013-03-25T11:06:33.7101142+01:00",
-  "PublishFrom": "2009-03-30T11:06:33.7101142+02:00",
+  "PublishEventDate": "2021-12-26T13:38:13.0302987+01:00",
+  "PublishTo": "2010-06-04T13:38:13.0302987+02:00",
+  "PublishFrom": "2006-06-03T13:38:13.0302987+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 57,
+      "VisibleId": 669,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldType": "System.String",
+          "FieldLength": 482
         }
       }
     },
     {
-      "VisibleId": 57,
+      "VisibleId": 669,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldType": "System.String",
+          "FieldLength": 482
         }
       }
     }
@@ -276,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldType": "System.Int32",
+      "FieldLength": 991
     }
   }
 }

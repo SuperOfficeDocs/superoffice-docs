@@ -96,24 +96,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 547,
-  "Name": "Schmitt LLC",
-  "Rank": 981,
-  "Tooltip": "nemo",
-  "Icon": "similique",
-  "DefaultTicketStatus": 204,
+  "TicketTypeId": 691,
+  "Name": "Runolfsson Inc and Sons",
+  "Rank": 14,
+  "Tooltip": "quidem",
+  "Icon": "laudantium",
+  "DefaultTicketStatus": 958,
   "TicketStatuses": [
-    732,
-    692
+    74,
+    587
   ],
-  "DefaultTicketPriority": 145,
+  "DefaultTicketPriority": 792,
   "TicketPriorities": [
-    400,
-    593
+    869,
+    55
   ],
-  "ReplyTemplate": 763,
-  "IsExternalVisible": true,
-  "IsDefault": true
+  "ReplyTemplate": 412,
+  "IsExternalVisible": false,
+  "IsDefault": false
 }
 ```
 
@@ -124,22 +124,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 731,
-  "Name": "Schmitt Inc and Sons",
-  "Rank": 694,
-  "Tooltip": "quos",
-  "Icon": "eos",
-  "DefaultTicketStatus": 977,
+  "TicketTypeId": 604,
+  "Name": "Bergnaum Inc and Sons",
+  "Rank": 860,
+  "Tooltip": "distinctio",
+  "Icon": "rerum",
+  "DefaultTicketStatus": 312,
   "TicketStatuses": [
-    282,
-    486
+    156,
+    520
   ],
-  "DefaultTicketPriority": 713,
+  "DefaultTicketPriority": 420,
   "TicketPriorities": [
-    298,
-    39
+    879,
+    120
   ],
-  "ReplyTemplate": 519,
+  "ReplyTemplate": 232,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 304
+      "FieldLength": 561
     }
   }
 }

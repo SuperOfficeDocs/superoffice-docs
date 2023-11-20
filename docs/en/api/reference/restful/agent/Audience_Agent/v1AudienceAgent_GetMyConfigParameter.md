@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Beier LLC"
+  "ParameterName": "Koss LLC"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 316,
-  "Name": "Zboncak-Wuckert",
-  "Value": "vitae",
-  "CreatedDate": "2001-10-14T11:06:33.7816525+02:00",
-  "UpdatedDate": "2014-04-06T11:06:33.7816525+02:00",
-  "CreatedBy": "sunt",
-  "UpdatedBy": "dolor",
+  "AudienceLayoutId": 497,
+  "Name": "Lehner Group",
+  "Value": "hic",
+  "CreatedDate": "2009-06-03T13:38:13.0771703+02:00",
+  "UpdatedDate": "2013-04-18T13:38:13.0771703+02:00",
+  "CreatedBy": "eos",
+  "UpdatedBy": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 811
     }
   }
 }

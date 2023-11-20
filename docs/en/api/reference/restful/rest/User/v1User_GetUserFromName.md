@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 154,
-  "Name": "Price Inc and Sons",
-  "Rank": 88,
-  "Tooltip": "voluptatem",
+  "AssociateId": 685,
+  "Name": "Powlowski Group",
+  "Rank": 379,
+  "Tooltip": "rerum",
   "LicenseOwners": [
     {
-      "Name": "Powlowski-Mertz",
-      "Description": "Enhanced background migration",
+      "Name": "Nader, Mraz and Morissette",
+      "Description": "Horizontal maximized open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldType": "System.Int32",
+          "FieldLength": 64
         }
       }
     },
     {
-      "Name": "Powlowski-Mertz",
-      "Description": "Enhanced background migration",
+      "Name": "Nader, Mraz and Morissette",
+      "Description": "Horizontal maximized open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldType": "System.Int32",
+          "FieldLength": 64
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "culpa",
-      "Tooltip": "ut",
-      "Id": 545,
-      "Rank": 288,
+      "Value": "non",
+      "Tooltip": "dignissimos",
+      "Id": 312,
+      "Rank": 902,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldType": "System.String",
+          "FieldLength": 578
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2022-08-04T11:06:42.6003129+02:00",
-  "Lastlogout": "1998-01-09T11:06:42.6003129+01:00",
-  "EjUserId": 290,
-  "RequestSignature": "a",
+  "Lastlogin": "1998-11-03T13:38:17.8588097+01:00",
+  "Lastlogout": "2014-12-09T13:38:17.8588097+01:00",
+  "EjUserId": 792,
+  "RequestSignature": "in",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "eos",
-      "DisplayValue": "dolore",
+      "Value": "qui",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 537
+          "FieldLength": 374
         }
       }
     },
     {
       "Type": null,
-      "Value": "eos",
-      "DisplayValue": "dolore",
+      "Value": "qui",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 537
+          "FieldLength": 374
         }
       }
     }
   ],
-  "UserName": "Nitzsche, Block and Hand",
+  "UserName": "Mayer Group",
   "TicketCategories": [
     {
-      "Id": 592,
-      "Name": "Thompson Group",
-      "ToolTip": "Consequatur temporibus architecto fugiat.",
-      "Deleted": true,
-      "Rank": 138,
-      "Type": "facilis",
+      "Id": 73,
+      "Name": "O'Keefe, Schulist and Haag",
+      "ToolTip": "Quia sed odit repellat reiciendis consequatur dolor.",
+      "Deleted": false,
+      "Rank": 451,
+      "Type": "molestiae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "a",
-      "ColorBlock": 78,
-      "ExtraInfo": "dolorem",
-      "StyleHint": "eum",
-      "FullName": "Janet Dare",
+      "IconHint": "nulla",
+      "ColorBlock": 363,
+      "ExtraInfo": "vel",
+      "StyleHint": "quis",
+      "FullName": "Hayley Nikolaus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 584
+          "FieldLength": 206
         }
       }
     }
   ],
-  "NickName": "Collier LLC",
+  "NickName": "Renner-Boyle",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "quidem"
   },
   "CustomFields": {
-    "CustomFields1": "eaque",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "perspiciatis",
+    "CustomFields2": "quaerat"
   },
   "PostSaveCommands": [
     {
-      "Name": "Mann LLC",
-      "DisplayName": "Kuhic-Steuber",
-      "Description": "Managed exuding protocol",
-      "ToolTip": "Quaerat numquam qui.",
+      "Name": "Schiller-Hamill",
+      "DisplayName": "Quitzon-Kilback",
+      "Description": "Fundamental solution-oriented archive",
+      "ToolTip": "Harum est quia esse non magnam.",
       "Actions": "Implicit",
-      "ActionData": "quia",
+      "ActionData": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 112
         }
       }
     }
@@ -258,7 +258,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 522
     }
   }
 }

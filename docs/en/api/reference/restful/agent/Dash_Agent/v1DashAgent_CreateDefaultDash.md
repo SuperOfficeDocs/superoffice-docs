@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 492,
-  "UniqueId": "minima",
-  "Name": "Mueller Group",
-  "Description": "Secured encompassing application",
-  "AssociateId": 511,
-  "Columns": 712,
+  "DashboardId": 838,
+  "UniqueId": "qui",
+  "Name": "Pfannerstill, Kuvalis and Krajcik",
+  "Description": "Organic tangible model",
+  "AssociateId": 697,
+  "Columns": 389,
   "Theme": null,
-  "VisibleForAll": 31,
+  "VisibleForAll": 781,
   "VisibleForAssociates": [
-    348,
-    994
+    755,
+    94
   ],
   "VisibleForGroups": [
-    691,
-    457
+    932,
+    833
   ],
-  "PinForAll": 318,
+  "PinForAll": 302,
   "PinForAssociates": [
     711,
-    607
+    874
   ],
   "PinForGroups": [
-    142,
-    11
+    407,
+    201
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 598
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   }
 }

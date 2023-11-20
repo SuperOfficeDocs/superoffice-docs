@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hahn, McCullough and Legros",
-  "DeviceName": "Veum, Connelly and Hoppe"
+  "ApplicationName": "Tromp-Abernathy",
+  "DeviceName": "Tromp-Nicolas"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 697,
-  "Name": "Heller-Hamill",
-  "CreatedDate": "2022-12-15T11:06:34.6301875+01:00",
-  "UpdatedDate": "2007-06-20T11:06:34.6301875+02:00",
-  "AssociateFullName": "Dr. Dannie Evie Bode DDS",
-  "CreatedBy": "fugit",
-  "UpdatedBy": "eligendi",
-  "DeviceIdentifier": "quaerat",
-  "ForeignAppId": 835,
+  "ForeignDeviceId": 392,
+  "Name": "Kulas-Lemke",
+  "CreatedDate": "2001-02-05T13:38:13.623981+01:00",
+  "UpdatedDate": "2016-02-23T13:38:13.623981+01:00",
+  "AssociateFullName": "Jensen Bogisich",
+  "CreatedBy": "incidunt",
+  "UpdatedBy": "earum",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 520,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 386
     }
   }
 }

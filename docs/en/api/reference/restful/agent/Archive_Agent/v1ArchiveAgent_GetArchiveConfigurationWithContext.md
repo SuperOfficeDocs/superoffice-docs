@@ -84,9 +84,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Rice, O'Kon and Mills",
-  "ProviderName": "Balistreri Group",
-  "Context": "ad"
+  "GuiName": "Renner-Roob",
+  "ProviderName": "Upton-Price",
+  "Context": "tempore"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Fay, Cummerata and Dach",
-      "DisplayTooltip": "quisquam",
-      "DisplayType": "vero",
-      "CanOrderBy": true,
-      "Name": "Rath-Aufderhar",
+      "DisplayName": "Carter-Lockman",
+      "DisplayTooltip": "quia",
+      "DisplayType": "ut",
+      "CanOrderBy": false,
+      "Name": "Dickens-McCullough",
       "CanRestrictBy": false,
-      "RestrictionType": "perspiciatis",
-      "RestrictionListName": "Gleason Group",
+      "RestrictionType": "qui",
+      "RestrictionListName": "Willms, Heidenreich and Treutel",
       "IsVisible": true,
-      "ExtraInfo": "consequatur",
-      "Width": "rerum",
-      "IconHint": "velit",
-      "HeadingIconHint": "vel"
+      "ExtraInfo": "molestiae",
+      "Width": "assumenda",
+      "IconHint": "repudiandae",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 391,
-      "Name": "Franecki-Prohaska",
-      "ToolTip": "Perferendis nihil quis perferendis nesciunt ut.",
+      "Id": 274,
+      "Name": "Metz, DuBuque and Tremblay",
+      "ToolTip": "Optio reiciendis suscipit est quidem odio est.",
       "Deleted": false,
-      "Rank": 886,
-      "Type": "officia",
-      "ColorBlock": 24,
-      "IconHint": "et",
+      "Rank": 554,
+      "Type": "rerum",
+      "ColorBlock": 913,
+      "IconHint": "nostrum",
       "Selected": false,
-      "LastChanged": "2021-03-31T11:06:33.7503955+02:00",
+      "LastChanged": "2011-03-27T13:38:13.0615453+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "maiores",
-      "Hidden": false,
-      "FullName": "Jaquelin Quigley",
+      "ExtraInfo": "excepturi",
+      "StyleHint": "minima",
+      "Hidden": true,
+      "FullName": "Mr. Bradly Erica Durgan I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 604
+          "FieldType": "System.Int32",
+          "FieldLength": 162
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Kuhlman, Boehm and Jewess",
+      "Name": "Medhurst, Stark and Orn",
       "Direction": "ASC"
     },
     {
-      "Name": "Kuhlman, Boehm and Jewess",
+      "Name": "Medhurst, Stark and Orn",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "dolorem",
+  "OwnerKeys": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldLength": 436
     }
   }
 }

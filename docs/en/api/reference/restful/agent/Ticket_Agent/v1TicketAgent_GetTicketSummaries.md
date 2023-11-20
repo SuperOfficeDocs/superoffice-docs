@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    419,
-    255
+    938,
+    197
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 926,
-    "TicketStatus": 625,
-    "Title": "labore",
-    "Registered": "1997-07-28T11:06:35.6471242+02:00",
-    "IconHint": "et"
+    "TicketId": 816,
+    "TicketStatus": 163,
+    "Title": "quia",
+    "Registered": "1997-08-07T13:38:14.3115522+02:00",
+    "IconHint": "soluta"
   },
   {
-    "TicketId": 926,
-    "TicketStatus": 625,
-    "Title": "labore",
-    "Registered": "1997-07-28T11:06:35.6471242+02:00",
-    "IconHint": "et"
+    "TicketId": 816,
+    "TicketStatus": 163,
+    "Title": "quia",
+    "Registered": "1997-08-07T13:38:14.3115522+02:00",
+    "IconHint": "soluta"
   }
 ]
 ```

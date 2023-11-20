@@ -67,7 +67,7 @@ OK
 GET /api/v1/CRMScript/{cRMScriptId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,16 +77,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "aut",
-  "LineNumber": 841,
+  "Valid": false,
+  "ErrorMessage": "explicabo",
+  "LineNumber": 52,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldType": "System.String",
+      "FieldLength": 245
     }
   }
 }

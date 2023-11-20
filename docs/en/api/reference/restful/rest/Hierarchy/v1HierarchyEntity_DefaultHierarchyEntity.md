@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 635,
+  "HierarchyId": 541,
   "Domain": "Dashboards",
-  "Name": "Emard-Okuneva",
-  "Fullname": "soluta",
-  "ParentId": 906,
+  "Name": "Stamm Inc and Sons",
+  "Fullname": "vel",
+  "ParentId": 138,
   "Children": [
     {
-      "HierarchyId": 5,
+      "HierarchyId": 461,
       "Domain": "Dashboards",
-      "Name": "Johnston-Kilback",
-      "Fullname": "quae",
-      "ParentId": 239,
+      "Name": "Senger-Parker",
+      "Fullname": "est",
+      "ParentId": 504,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-12-18T11:06:41.8947242+01:00",
-      "RegisteredAssociateId": 483,
-      "Updated": "2000-06-18T11:06:41.8947242+02:00",
-      "UpdatedAssociateId": 304,
+      "Registered": "2010-08-15T13:38:17.4524494+02:00",
+      "RegisteredAssociateId": 701,
+      "Updated": "2008-12-10T13:38:17.4524494+01:00",
+      "UpdatedAssociateId": 123,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 590
+          "FieldLength": 639
         }
       }
     }
   ],
-  "Registered": "1997-06-17T11:06:41.8947242+02:00",
-  "RegisteredAssociateId": 874,
-  "Updated": "2012-12-05T11:06:41.8947242+01:00",
-  "UpdatedAssociateId": 791,
+  "Registered": "2007-10-26T13:38:17.4524494+02:00",
+  "RegisteredAssociateId": 57,
+  "Updated": "2003-02-10T13:38:17.4524494+01:00",
+  "UpdatedAssociateId": 441,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 725
     }
   }
 }

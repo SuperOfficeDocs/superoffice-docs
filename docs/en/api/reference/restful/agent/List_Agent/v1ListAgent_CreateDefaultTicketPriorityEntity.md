@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 630,
-  "Name": "Goyette, Rohan and Robel",
+  "TicketPriorityId": 607,
+  "Name": "Heathcote, Langworth and Emmerich",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 142,
+  "SortOrder": 314,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 425,
-  "MonStart": "2014-07-04T11:06:34.7708179+02:00",
-  "MonStop": "2012-05-26T11:06:34.7708179+02:00",
-  "TueStart": "2022-08-20T11:06:34.7708179+02:00",
-  "TueStop": "2001-04-03T11:06:34.7708179+02:00",
-  "WedStart": "2019-03-07T11:06:34.7708179+01:00",
-  "WedStop": "2020-01-09T11:06:34.7708179+01:00",
-  "ThuStart": "2012-10-24T11:06:34.7708179+02:00",
-  "ThuStop": "2020-01-27T11:06:34.7708179+01:00",
-  "FriStart": "2006-06-13T11:06:34.7708179+02:00",
-  "FriStop": "2001-09-11T11:06:34.7708179+02:00",
-  "SatStart": "2021-12-06T11:06:34.7708179+01:00",
-  "SatStop": "2022-10-03T11:06:34.7708179+02:00",
-  "SunStart": "2015-01-06T11:06:34.7708179+01:00",
-  "SunStop": "2016-08-13T11:06:34.7708179+02:00",
+  "Deadline": 56,
+  "MonStart": "2022-01-19T13:38:13.7177215+01:00",
+  "MonStop": "2001-10-09T13:38:13.7177215+02:00",
+  "TueStart": "2016-11-29T13:38:13.7177215+01:00",
+  "TueStop": "2002-10-03T13:38:13.7177215+02:00",
+  "WedStart": "2011-10-26T13:38:13.7177215+02:00",
+  "WedStop": "2014-01-07T13:38:13.7177215+01:00",
+  "ThuStart": "2012-11-13T13:38:13.7177215+01:00",
+  "ThuStop": "2021-02-05T13:38:13.7177215+01:00",
+  "FriStart": "2007-07-30T13:38:13.7177215+02:00",
+  "FriStop": "2003-03-04T13:38:13.7177215+01:00",
+  "SatStart": "2002-07-06T13:38:13.7177215+02:00",
+  "SatStop": "2023-08-24T13:38:13.7177215+02:00",
+  "SunStart": "1997-04-13T13:38:13.7177215+02:00",
+  "SunStop": "2011-07-04T13:38:13.7177215+02:00",
   "NonDates": [
-    "id",
-    "in"
+    "ullam",
+    "cumque"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 536,
-      "AlertLevel": 886,
-      "AlertTimeout": 192,
-      "Action": 678,
-      "DelegateTo": 158,
-      "ScriptId": 545,
-      "EmailTo": "johan.kshlerin@considine.co.uk",
-      "SmsTo": "illum",
-      "ReplyTemplateIdCustomer": 38,
-      "ReplyTemplateIdUser": 594,
-      "ReplyTemplateIdCatmast": 783,
-      "ReplyTemplateIdEmail": 96,
-      "RtiCustomerSms": 306,
-      "ReplyTemplateIdUserSms": 565,
-      "ReplyTemplateIdCatmastSms": 135,
-      "ReplyTemplateIdSms": 671,
+      "TicketAlertId": 428,
+      "AlertLevel": 607,
+      "AlertTimeout": 152,
+      "Action": 715,
+      "DelegateTo": 661,
+      "ScriptId": 809,
+      "EmailTo": "carlos@gutkowski.biz",
+      "SmsTo": "ut",
+      "ReplyTemplateIdCustomer": 175,
+      "ReplyTemplateIdUser": 42,
+      "ReplyTemplateIdCatmast": 877,
+      "ReplyTemplateIdEmail": 272,
+      "RtiCustomerSms": 596,
+      "ReplyTemplateIdUserSms": 320,
+      "ReplyTemplateIdCatmastSms": 591,
+      "ReplyTemplateIdSms": 669,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 234
+          "FieldLength": 190
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 515
     }
   }
 }

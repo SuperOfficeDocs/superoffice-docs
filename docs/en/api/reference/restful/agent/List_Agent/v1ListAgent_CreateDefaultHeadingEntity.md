@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 968,
-  "Name": "Mohr-Rolfson",
-  "Tooltip": "nostrum",
+  "HeadingId": 694,
+  "Name": "Rice LLC",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 858,
-  "UdListDefinitionId": 22,
+  "Rank": 822,
+  "UdListDefinitionId": 371,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldType": "System.String",
+      "FieldLength": 933
     }
   }
 }

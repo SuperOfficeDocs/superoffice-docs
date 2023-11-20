@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Value": "pariatur",
-    "Tooltip": "voluptatem",
+    "Id": 218,
+    "Value": "sit",
+    "Tooltip": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldType": "System.Int32",
+        "FieldLength": 929
       }
     }
   },
   {
-    "Id": 378,
-    "Value": "pariatur",
-    "Tooltip": "voluptatem",
+    "Id": 218,
+    "Value": "sit",
+    "Tooltip": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldType": "System.Int32",
+        "FieldLength": 929
       }
     }
   }

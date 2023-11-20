@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=724
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=159
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 343,
-  "UniqueIdentifier": "neque",
-  "Name": "Spinka, Predovic and Stehr",
-  "Description": "Integrated fresh-thinking hierarchy",
-  "IncludeId": "maiores",
-  "HierarchyId": 960,
-  "Source": "eligendi",
-  "Registered": "2009-05-01T11:06:34.2383276+02:00",
-  "RegisteredAssociateId": 775,
-  "Updated": "1999-04-29T11:06:34.2383276+02:00",
-  "UpdatedAssociateId": 832,
+  "EjscriptId": 270,
+  "UniqueIdentifier": "suscipit",
+  "Name": "Upton Inc and Sons",
+  "Description": "Stand-alone fresh-thinking structure",
+  "IncludeId": "voluptatem",
+  "HierarchyId": 722,
+  "Source": "esse",
+  "Registered": "2022-10-18T13:38:13.374011+02:00",
+  "RegisteredAssociateId": 15,
+  "Updated": "2016-12-18T13:38:13.374011+01:00",
+  "UpdatedAssociateId": 967,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 434
+      "FieldType": "System.Int32",
+      "FieldLength": 878
     }
   }
 }

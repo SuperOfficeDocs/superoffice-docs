@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 930,
-  "NumSentences": 460,
-  "Summary": "voluptatem",
-  "IsoLangCode": "ea"
+  "TicketId": 313,
+  "NumSentences": 842,
+  "Summary": "cumque",
+  "IsoLangCode": "est"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2007-10-07T11:06:33.4132283+02:00",
-  "UserPrompt": "dolores",
-  "UserDisplayText": "tempora",
-  "BotResponse": "voluptatem",
+  "Timestamp": "2015-12-22T13:38:12.8271613+01:00",
+  "UserPrompt": "dolor",
+  "UserDisplayText": "magni",
+  "BotResponse": "expedita",
   "BotActions": {
-    "BotActions1": "ut",
-    "BotActions2": "provident"
+    "BotActions1": "laborum",
+    "BotActions2": "et"
   },
   "Attachments": [
-    "fugiat",
-    "repudiandae"
+    "unde",
+    "maxime"
   ]
 }
 ```

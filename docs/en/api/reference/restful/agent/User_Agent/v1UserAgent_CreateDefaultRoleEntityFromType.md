@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 423,
-  "Name": "Walsh-Turcotte",
-  "Tooltip": "enim",
+  "RoleId": 396,
+  "Name": "Schneider Inc and Sons",
+  "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 538,
-  "Rank": 776,
-  "Created": "2010-07-22T11:06:35.6939994+02:00",
-  "UseCategories": 403,
+  "Deleted": 69,
+  "Rank": 167,
+  "Created": "2015-09-13T13:38:14.3584195+02:00",
+  "UseCategories": 72,
   "CreatedBy": null,
-  "Updated": "2019-10-14T11:06:35.6939994+02:00",
+  "Updated": "2006-07-01T13:38:14.3584195+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 347
     }
   }
 }

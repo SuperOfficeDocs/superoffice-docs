@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 31,
+  "TargetAssignmentInfoId": 794,
   "Values": [
-    614,
-    788
+    188,
+    657
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 863,
-  "DimensionListItemDisplayName": "Cartwright, Tillman and Boyle",
+  "DimensionListItem": 188,
+  "DimensionListItemDisplayName": "Connelly-Lubowitz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldLength": 174
     }
   }
 }

@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 943,
-  "StartTime": "2001-06-17T11:06:33.4444886+02:00",
-  "EndTime": "1996-07-09T11:06:33.4444886+02:00",
-  "Count": 123,
-  "TaskId": 847
+  "PersonId": 125,
+  "StartTime": "1999-01-23T13:38:12.8584402+01:00",
+  "EndTime": "2001-05-23T13:38:12.8584402+02:00",
+  "Count": 549,
+  "TaskId": 259
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 428,
-    "StartDate": "2014-04-15T11:06:33.4601191+02:00",
-    "EndDate": "2008-11-11T11:06:33.4601191+01:00",
+    "AppointmentId": 868,
+    "StartDate": "2004-08-30T13:38:12.8584402+02:00",
+    "EndDate": "2016-10-12T13:38:12.8584402+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptas",
-    "AssociateFullName": "Mr. Sage Alfredo Zulauf DVM",
-    "ContactName": "Lebsack-Ratke",
-    "Description": "Sharable even-keeled website",
-    "PersonFullName": "Lamar Bernier",
-    "PersonId": 665,
-    "ContactId": 607,
-    "ProjectId": 566,
-    "ProjectName": "Prosacco-Bosco",
+    "Task": "nisi",
+    "AssociateFullName": "Prof. Greta VonRueden DVM",
+    "ContactName": "Hickle-Gulgowski",
+    "Description": "Distributed optimal success",
+    "PersonFullName": "Perry Douglas",
+    "PersonId": 601,
+    "ContactId": 38,
+    "ProjectId": 845,
+    "ProjectName": "McDermott, Becker and Lueilwitz",
     "IsPublished": false,
-    "AssociateId": 236,
-    "ColorIndex": 976,
+    "AssociateId": 879,
+    "ColorIndex": 577,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 500,
-    "PriorityName": "Kris-Douglas",
+    "PriorityId": 220,
+    "PriorityName": "Haley Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2000-03-06T11:06:33.4601191+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2014-05-17T13:38:12.8584402+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-07-04T11:06:33.4601191+02:00",
-    "RecurringEndDate": "2016-09-25T11:06:33.4601191+02:00",
-    "MotherId": 856,
-    "AssignedBy": 251,
-    "AssignedByFullName": "Godfrey Tromp",
+    "RecurringStartDate": "2013-11-24T13:38:12.8584402+01:00",
+    "RecurringEndDate": "1998-09-29T13:38:12.8584402+02:00",
+    "MotherId": 894,
+    "AssignedBy": 291,
+    "AssignedByFullName": "Dino Cassin",
     "RejectReason": "",
-    "Location": "numquam",
-    "AlarmLeadTime": "qui",
-    "SaleId": 682,
-    "SaleName": "Doyle, Stanton and DuBuque",
-    "AssociateName": "Stark, Rowe and Bernier",
-    "CreatedDate": "2002-11-29T11:06:33.4601191+01:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Rex Shane Larson DVM",
-    "CreatedByAssociateId": 560,
+    "Location": "hic",
+    "AlarmLeadTime": "laudantium",
+    "SaleId": 297,
+    "SaleName": "Heller LLC",
+    "AssociateName": "Hintz, Hoppe and Kuhn",
+    "CreatedDate": "2008-01-15T13:38:12.8584402+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Cali Raynor",
+    "CreatedByAssociateId": 937,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "amet",
-    "Agenda": "est",
-    "InternalNotes": "modi",
+    "PreferredTZLocation": 75,
+    "Title": "minus",
+    "Agenda": "beatae",
+    "InternalNotes": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 512
+        "FieldType": "System.Int32",
+        "FieldLength": 369
       }
     }
   }

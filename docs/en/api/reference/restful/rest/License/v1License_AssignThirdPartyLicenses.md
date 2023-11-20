@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 585,
-    "Tooltip": "architecto",
+    "Unrestricted": true,
+    "Total": 827,
+    "Tooltip": "sunt",
     "CanAssign": true,
-    "Free": 264,
-    "InUse": 855,
+    "Free": 557,
+    "InUse": 134,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 291,
-    "Name": "Wintheiser, Lowe and Huels",
-    "Description": "Monitored systemic algorithm",
-    "PrerequisiteModuleName": "Hills-Daniel",
-    "SortOrder": 948,
-    "ExtraFlags": 760,
+    "Assigned": false,
+    "ModuleLicenseId": 277,
+    "Name": "Mayert Group",
+    "Description": "Horizontal systemic project",
+    "PrerequisiteModuleName": "Mueller Inc and Sons",
+    "SortOrder": 384,
+    "ExtraFlags": 414,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldType": "System.String",
+        "FieldLength": 508
       }
     }
   }

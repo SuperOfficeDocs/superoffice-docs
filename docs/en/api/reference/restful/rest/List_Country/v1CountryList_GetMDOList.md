@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=qui
+GET /api/v1/List/Country/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 89,
-    "Name": "O'Reilly Inc and Sons",
-    "ToolTip": "Eveniet nostrum eum reprehenderit dolorem et temporibus.",
+    "Id": 517,
+    "Name": "Rice Group",
+    "ToolTip": "Temporibus fugit voluptates.",
     "Deleted": true,
-    "Rank": 789,
-    "Type": "commodi",
+    "Rank": 353,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 73,
-        "Name": "Dach Group",
-        "ToolTip": "Ut libero tempore.",
+        "Id": 902,
+        "Name": "Fadel-Robel",
+        "ToolTip": "Vel consectetur ipsam et architecto excepturi.",
         "Deleted": false,
-        "Rank": 603,
-        "Type": "maxime",
+        "Rank": 526,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "unde",
-        "ColorBlock": 812,
-        "ExtraInfo": "nulla",
-        "StyleHint": "eaque",
-        "FullName": "Mrs. Kris Alexandria Witting",
+        "IconHint": "numquam",
+        "ColorBlock": 37,
+        "ExtraInfo": "eius",
+        "StyleHint": "nihil",
+        "FullName": "Modesta Davis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 832
+            "FieldType": "System.Int32",
+            "FieldLength": 489
           }
         }
       }
     ],
-    "IconHint": "soluta",
-    "ColorBlock": 550,
-    "ExtraInfo": "deleniti",
-    "StyleHint": "asperiores",
-    "FullName": "Mr. Christine Jennings Durgan DVM",
+    "IconHint": "iusto",
+    "ColorBlock": 634,
+    "ExtraInfo": "qui",
+    "StyleHint": "animi",
+    "FullName": "Retta Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldLength": 784
       }
     }
   }

@@ -93,7 +93,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 925
+  "PersonId": 789
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 616,
-    "Comment": "quia",
-    "Registered": "2011-01-12T11:06:35.0364395+01:00",
-    "RegisteredAssociateId": 333,
-    "Updated": "2014-12-24T11:06:35.0364395+01:00",
-    "UpdatedAssociateId": 105,
-    "LegalBaseId": 378,
-    "LegalBaseKey": "omnis",
-    "LegalBaseName": "Veum Inc and Sons",
-    "ConsentPurposeId": 38,
-    "ConsentPurposeKey": "reprehenderit",
-    "ConsentPurposeName": "Hamill-Batz",
-    "ConsentSourceId": 697,
-    "ConsentSourceKey": "non",
-    "ConsentSourceName": "Runolfsson-Johnson",
+    "ConsentPersonId": 497,
+    "Comment": "sint",
+    "Registered": "2016-09-19T13:38:13.8272279+02:00",
+    "RegisteredAssociateId": 300,
+    "Updated": "2009-06-25T13:38:13.8272279+02:00",
+    "UpdatedAssociateId": 194,
+    "LegalBaseId": 763,
+    "LegalBaseKey": "sit",
+    "LegalBaseName": "Cruickshank, Farrell and Torp",
+    "ConsentPurposeId": 830,
+    "ConsentPurposeKey": "minus",
+    "ConsentPurposeName": "Larkin LLC",
+    "ConsentSourceId": 32,
+    "ConsentSourceKey": "rerum",
+    "ConsentSourceName": "Will-West",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 705
+        "FieldType": "System.Int32",
+        "FieldLength": 503
       }
     }
   }

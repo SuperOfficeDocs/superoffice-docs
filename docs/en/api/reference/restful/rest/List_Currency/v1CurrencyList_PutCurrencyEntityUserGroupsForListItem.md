@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Trantow-Hills",
-    "ToolTip": "Quas quia et odio aliquid odit.",
-    "Deleted": false,
-    "Rank": 535,
-    "Type": "ipsam",
-    "ColorBlock": 787,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2015-02-28T11:06:42.7721939+01:00",
+    "Id": 918,
+    "Name": "Abbott LLC",
+    "ToolTip": "Quas deleniti consequuntur culpa et sed sit consequuntur.",
+    "Deleted": true,
+    "Rank": 292,
+    "Type": "voluptatem",
+    "ColorBlock": 191,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "2007-07-31T13:38:18.0306692+02:00",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Eichmann, Gerlach and Jakubowski",
-        "ToolTip": "Eius voluptas aperiam ab voluptatibus nobis ab.",
+        "Id": 642,
+        "Name": "Nolan LLC",
+        "ToolTip": "Consequatur maxime eum quidem.",
         "Deleted": false,
-        "Rank": 484,
-        "Type": "in",
-        "ColorBlock": 973,
-        "IconHint": "autem",
+        "Rank": 565,
+        "Type": "nulla",
+        "ColorBlock": 161,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2008-03-10T11:06:42.7721939+01:00",
+        "LastChanged": "2021-09-18T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "odit",
+        "ExtraInfo": "magnam",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Naomie Mosciski"
+        "FullName": "Abraham Braun"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "sed",
+    "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Prof. Austen Prosacco IV"
+    "FullName": "Alfonzo Gibson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 119,
-    "Name": "Homenick, Smitham and Mills",
-    "ToolTip": "Occaecati molestiae exercitationem.",
-    "Deleted": false,
-    "Rank": 766,
-    "Type": "delectus",
-    "ColorBlock": 10,
-    "IconHint": "asperiores",
-    "Selected": true,
-    "LastChanged": "2018-07-20T11:06:42.7721939+02:00",
+    "Id": 717,
+    "Name": "Gorczany, Beahan and Kuvalis",
+    "ToolTip": "Molestiae consequuntur adipisci vitae magnam magni totam reprehenderit.",
+    "Deleted": true,
+    "Rank": 924,
+    "Type": "aut",
+    "ColorBlock": 479,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2002-12-07T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 584,
-        "Name": "Casper, McCullough and Yundt",
-        "ToolTip": "Debitis voluptas quisquam delectus enim incidunt a veniam.",
+        "Id": 332,
+        "Name": "Grady-Mueller",
+        "ToolTip": "Quia repellendus deleniti nulla labore qui voluptate in.",
         "Deleted": false,
-        "Rank": 322,
-        "Type": "distinctio",
-        "ColorBlock": 183,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2004-09-21T11:06:42.7721939+02:00",
+        "Rank": 399,
+        "Type": "ad",
+        "ColorBlock": 605,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "1998-12-30T13:38:18.0306692+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "omnis",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Ms. Christina Lemke",
+        "FullName": "Miss Lexi Schuster DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 164
+            "FieldLength": 809
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "iste",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Ms. Lourdes Zboncak",
+    "FullName": "Walter Braun",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldLength": 485
       }
     }
   }

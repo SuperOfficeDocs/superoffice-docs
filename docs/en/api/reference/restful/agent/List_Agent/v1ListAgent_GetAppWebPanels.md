@@ -96,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 695,
-    "Name": "Emmerich-Kautzer",
-    "Tooltip": "laboriosam",
-    "Deleted": true,
-    "Rank": 679,
+    "WebPanelId": 268,
+    "Name": "Moore Group",
+    "Tooltip": "adipisci",
+    "Deleted": false,
+    "Rank": 904,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
-    "OnSatellite": true,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnCentral": false,
+    "OnSatellite": false,
+    "OnTravel": true,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
-    "ShowInToolBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Baumbach, Collier and Block",
+    "ShowInStatusBar": false,
+    "WindowName": "Waters, Schmidt and Bayer",
     "Url": "http://www.example.com/",
-    "ProgId": "dignissimos",
-    "Icon": 974,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "et",
+    "Icon": 676,
+    "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldType": "System.String",
+        "FieldLength": 845
       }
     }
   }

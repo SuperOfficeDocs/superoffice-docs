@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Nienow-Funk",
-  "ProviderName": "Bradtke, Cruickshank and Wyman",
-  "Context": "dolores",
-  "OwnerKeys": "dolores",
+  "GuiName": "Pacocha LLC",
+  "ProviderName": "Rau-Moen",
+  "Context": "doloribus",
+  "OwnerKeys": "autem",
   "Entities": [
-    "mollitia",
-    "velit"
+    "maxime",
+    "nihil"
   ]
 }
 ```

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Ritchie Group",
-    "ToolTip": "Dolor quae consectetur quia minus dolore rem explicabo.",
+    "Id": 373,
+    "Name": "Jewess-Connelly",
+    "ToolTip": "Accusantium ut et enim tenetur id maxime cum.",
     "Deleted": true,
-    "Rank": 194,
-    "Type": "in",
-    "ColorBlock": 37,
-    "IconHint": "repudiandae",
+    "Rank": 382,
+    "Type": "voluptatem",
+    "ColorBlock": 662,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2013-07-29T11:06:42.9753225+02:00",
+    "LastChanged": "2007-05-06T13:38:18.1712741+02:00",
     "ChildItems": [
       {
-        "Id": 174,
-        "Name": "VonRueden, Wilderman and Stracke",
-        "ToolTip": "Voluptatum molestias omnis distinctio voluptatibus.",
-        "Deleted": false,
-        "Rank": 51,
-        "Type": "accusamus",
-        "ColorBlock": 589,
-        "IconHint": "ut",
+        "Id": 924,
+        "Name": "Olson LLC",
+        "ToolTip": "Omnis omnis dolores.",
+        "Deleted": true,
+        "Rank": 608,
+        "Type": "non",
+        "ColorBlock": 992,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2004-11-01T11:06:42.9753225+01:00",
+        "LastChanged": "2011-03-01T13:38:18.1712741+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quae",
-        "Hidden": true,
-        "FullName": "Dr. Cathrine Laverna O'Keefe III"
+        "ExtraInfo": "molestias",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Lauryn Gerlach"
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "sunt",
+    "ExtraInfo": "aut",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Fausto Collier"
+    "FullName": "Ms. Patricia VonRueden DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Ziemann-Gusikowski",
-    "ToolTip": "Voluptas alias eos doloribus facere distinctio.",
+    "Id": 723,
+    "Name": "Veum, Morar and O'Reilly",
+    "ToolTip": "Explicabo sed reiciendis.",
     "Deleted": true,
-    "Rank": 180,
-    "Type": "officia",
-    "ColorBlock": 449,
-    "IconHint": "sed",
+    "Rank": 78,
+    "Type": "autem",
+    "ColorBlock": 63,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2006-07-17T11:06:42.9753225+02:00",
+    "LastChanged": "2015-04-13T13:38:18.1712741+02:00",
     "ChildItems": [
       {
-        "Id": 533,
-        "Name": "Block-Ortiz",
-        "ToolTip": "Nam corrupti delectus ut.",
-        "Deleted": true,
-        "Rank": 637,
-        "Type": "aut",
-        "ColorBlock": 372,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2007-07-16T11:06:42.9753225+02:00",
+        "Id": 613,
+        "Name": "Mann-Gaylord",
+        "ToolTip": "Tenetur sit.",
+        "Deleted": false,
+        "Rank": 731,
+        "Type": "beatae",
+        "ColorBlock": 417,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2011-06-04T13:38:18.1712741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "fuga",
+        "ExtraInfo": "harum",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Dr. Jedidiah Marina Bartell DDS",
+        "FullName": "Amalia Green",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 435
+            "FieldType": "System.Int32",
+            "FieldLength": 142
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "est",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Miss Heber Kuhlman",
+    "FullName": "Lilyan Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 221
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 43,
+  "DocumentPluginId": 912,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 874,
-  "NumDocumentsAlreadyMigrated": 728,
+  "NumDocumentsOmitted": 2,
+  "NumDocumentsAlreadyMigrated": 65,
   "Documents": [
     {
-      "DocumentId": 868,
-      "ContactId": 955,
-      "PersonId": 760,
-      "SaleId": 533,
-      "ProjectId": 446,
-      "DocTmplId": 88,
-      "AssociateId": 27,
-      "UserGroupId": 767,
-      "VisibleForId": 867
+      "DocumentId": 518,
+      "ContactId": 70,
+      "PersonId": 929,
+      "SaleId": 897,
+      "ProjectId": 914,
+      "DocTmplId": 780,
+      "AssociateId": 236,
+      "UserGroupId": 340,
+      "VisibleForId": 854
     }
   ],
   "Associates": [
     {
-      "AssociateId": 22,
-      "EmailAddress": "petra@brown.ca"
+      "AssociateId": 491,
+      "EmailAddress": "josefa_kovacek@hirtheklocko.uk"
     },
     {
-      "AssociateId": 22,
-      "EmailAddress": "petra@brown.ca"
+      "AssociateId": 491,
+      "EmailAddress": "josefa_kovacek@hirtheklocko.uk"
     }
   ]
 }

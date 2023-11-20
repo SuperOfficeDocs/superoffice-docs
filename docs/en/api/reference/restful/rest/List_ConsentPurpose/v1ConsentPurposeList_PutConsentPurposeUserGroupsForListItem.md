@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Boyer, Hilpert and Schamberger",
-    "ToolTip": "Excepturi laborum consequatur culpa totam et accusantium est.",
+    "Id": 97,
+    "Name": "Koepp Inc and Sons",
+    "ToolTip": "Asperiores doloremque ut.",
     "Deleted": false,
-    "Rank": 687,
-    "Type": "aperiam",
-    "ColorBlock": 834,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2006-10-05T11:06:42.7253202+02:00",
+    "Rank": 784,
+    "Type": "veniam",
+    "ColorBlock": 477,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2017-08-08T13:38:17.9994152+02:00",
     "ChildItems": [
       {
-        "Id": 744,
-        "Name": "Kiehn-Altenwerth",
-        "ToolTip": "Adipisci eum quisquam et voluptatem amet.",
-        "Deleted": false,
-        "Rank": 60,
-        "Type": "quisquam",
-        "ColorBlock": 280,
-        "IconHint": "ipsa",
+        "Id": 724,
+        "Name": "Torphy-Schmitt",
+        "ToolTip": "Dolorem enim consequatur autem et iste.",
+        "Deleted": true,
+        "Rank": 570,
+        "Type": "non",
+        "ColorBlock": 431,
+        "IconHint": "laborum",
         "Selected": true,
-        "LastChanged": "2021-02-02T11:06:42.7253202+01:00",
+        "LastChanged": "2016-01-03T13:38:17.9994152+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "ut",
+        "ExtraInfo": "debitis",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Yasmine Weissnat"
+        "FullName": "Lorine Reichel DDS"
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "eum",
+    "ExtraInfo": "impedit",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Verdie Wyman"
+    "FullName": "Jailyn Borer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 144,
-    "Name": "Heller-Lubowitz",
-    "ToolTip": "Cumque unde nihil.",
+    "Id": 257,
+    "Name": "Baumbach Inc and Sons",
+    "ToolTip": "A aut aut est.",
     "Deleted": false,
-    "Rank": 482,
-    "Type": "et",
-    "ColorBlock": 773,
-    "IconHint": "perspiciatis",
-    "Selected": true,
-    "LastChanged": "2016-08-08T11:06:42.7253202+02:00",
+    "Rank": 17,
+    "Type": "fugit",
+    "ColorBlock": 393,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2004-07-31T13:38:17.9994152+02:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Hyatt-Runolfsdottir",
-        "ToolTip": "Omnis et cupiditate quaerat reprehenderit.",
+        "Id": 308,
+        "Name": "Connelly-Jakubowski",
+        "ToolTip": "Laborum sint.",
         "Deleted": false,
-        "Rank": 827,
-        "Type": "sequi",
-        "ColorBlock": 347,
-        "IconHint": "officia",
-        "Selected": true,
-        "LastChanged": "2016-06-03T11:06:42.7253202+02:00",
+        "Rank": 216,
+        "Type": "exercitationem",
+        "ColorBlock": 804,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2023-04-10T13:38:17.9994152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "officiis",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Mr. Tom Nienow",
+        "FullName": "Kristian Labadie MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 574
+            "FieldType": "System.String",
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Verner Connelly",
+    "ExtraInfo": "dolor",
+    "StyleHint": "blanditiis",
+    "Hidden": false,
+    "FullName": "Rex Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 852
+        "FieldLength": 278
       }
     }
   }

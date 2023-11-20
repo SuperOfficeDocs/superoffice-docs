@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Brakus LLC",
-  "DeviceName": "Huels-Swaniawski"
+  "ApplicationName": "Bahringer LLC",
+  "DeviceName": "Kirlin, Bayer and Gusikowski"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "id",
-    "Value": "ullam",
-    "RecordId": 88,
-    "CreatedDate": "2016-09-26T11:06:34.6458113+02:00",
-    "UpdatedDate": "2014-06-30T11:06:34.6458113+02:00",
-    "UpdatedBy": "provident",
-    "CreatedBy": "quia",
-    "TableName": "Bauch-Mueller",
+    "Key": "ut",
+    "Value": "tempora",
+    "RecordId": 468,
+    "CreatedDate": "2018-08-08T13:38:13.6396102+02:00",
+    "UpdatedDate": "2010-07-06T13:38:13.6396102+02:00",
+    "UpdatedBy": "non",
+    "CreatedBy": "necessitatibus",
+    "TableName": "Gutkowski Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 627
       }
     }
   }

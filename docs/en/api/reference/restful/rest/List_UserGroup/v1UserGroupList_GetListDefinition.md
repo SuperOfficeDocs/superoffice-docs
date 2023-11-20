@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Deckow LLC",
-  "Tooltip": "quae",
+  "Id": 870,
+  "Name": "Hills LLC",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 882,
+  "Rank": 279,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "labore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 215
+      "FieldLength": 150
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

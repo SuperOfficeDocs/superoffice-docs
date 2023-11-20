@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 965,
-    "ColumnId": 24,
-    "FieldDefault": "labore",
-    "FieldHeight": 41,
-    "FieldLabel": "non",
-    "FieldLeft": 381,
-    "FieldTop": 16,
+    "UDefFieldId": 87,
+    "ColumnId": 393,
+    "FieldDefault": "amet",
+    "FieldHeight": 342,
+    "FieldLabel": "sit",
+    "FieldLeft": 857,
+    "FieldTop": 503,
     "FieldType": "Checkbox",
-    "FieldWidth": 367,
-    "FormatMask": "est",
+    "FieldWidth": 730,
+    "FormatMask": "voluptatem",
     "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 700,
-    "LabelLeft": 52,
-    "LabelTop": 701,
-    "LabelWidth": 45,
-    "LastVersionId": 357,
-    "ListTableId": 696,
+    "LabelHeight": 102,
+    "LabelLeft": 253,
+    "LabelTop": 778,
+    "LabelWidth": 670,
+    "LastVersionId": 238,
+    "ListTableId": 977,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 623,
-    "ProgId": "eos",
-    "IsReadOnly": true,
-    "ShortLabel": "doloribus",
-    "TabOrder": 681,
-    "TextLength": 666,
-    "Tooltip": "saepe",
-    "UdefIdentity": 529,
-    "UDListDefinitionId": 565,
+    "Page1LineNo": 284,
+    "ProgId": "culpa",
+    "IsReadOnly": false,
+    "ShortLabel": "aliquam",
+    "TabOrder": 495,
+    "TextLength": 457,
+    "Tooltip": "culpa",
+    "UdefIdentity": 380,
+    "UDListDefinitionId": 7,
     "Justification": "Center",
-    "Version": 439,
-    "TemplateVariableName": "Kautzer Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Flatley-Wolff",
+    "Version": 366,
+    "TemplateVariableName": "Jacobi Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Harber LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 526
+        "FieldLength": 706
       }
     }
   }

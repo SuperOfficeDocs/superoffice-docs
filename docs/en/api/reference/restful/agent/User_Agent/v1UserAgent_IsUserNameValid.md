@@ -77,10 +77,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 117,
+  "AssociateId": 752,
   "Type": "AnonymousAssociate",
-  "PersonId": 79,
-  "UserName": "Borer Inc and Sons"
+  "PersonId": 670,
+  "UserName": "Abshire-Abshire"
 }
 ```
 

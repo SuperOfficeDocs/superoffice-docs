@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 432,
-    "TopicId": 554,
+    "ChatSessionId": 357,
+    "TopicId": 975,
     "User": null,
     "Person": null,
-    "CustomerAlias": "voluptas",
-    "CustomerHost": "cupiditate",
-    "CustomerName": "Olson Inc and Sons",
-    "CustomerEmail": "dino.durgan@lang.co.uk",
-    "CustomerPhone": "(106)895-7585 x719",
-    "CustomerConsented": false,
-    "CustomerCompanyName": "Weissnat Group",
+    "CustomerAlias": "sunt",
+    "CustomerHost": "repellendus",
+    "CustomerName": "Fadel Inc and Sons",
+    "CustomerEmail": "jamie.carroll@millscronin.us",
+    "CustomerPhone": "(352)640-8862",
+    "CustomerConsented": true,
+    "CustomerCompanyName": "Feil Group",
     "Status": "Closed",
     "FirstMessage": "et",
-    "LastMessage": "facere",
-    "WhenRequested": "2003-08-03T11:06:41.4728673+02:00",
-    "WhenStarted": "2019-09-25T11:06:41.4728673+02:00",
-    "WhenEnded": "2006-03-31T11:06:41.4728673+02:00",
-    "WhenIdle": "2020-06-03T11:06:41.4728673+02:00",
-    "WhenFetched": "2019-12-08T11:06:41.4728673+01:00",
-    "SessionKey": "voluptate",
-    "InitialQueuePos": 945,
-    "AlertLevel": 29,
-    "Rank": 558,
+    "LastMessage": "vel",
+    "WhenRequested": "2001-03-16T13:38:17.1399788+01:00",
+    "WhenStarted": "2019-07-04T13:38:17.1399788+02:00",
+    "WhenEnded": "1998-01-01T13:38:17.1399788+01:00",
+    "WhenIdle": "2020-04-29T13:38:17.1399788+02:00",
+    "WhenFetched": "2005-04-04T13:38:17.1399788+02:00",
+    "SessionKey": "exercitationem",
+    "InitialQueuePos": 378,
+    "AlertLevel": 783,
+    "Rank": 774,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -128,13 +128,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 709,
+    "Rating": 582,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 204
+        "FieldLength": 78
       }
     }
   }

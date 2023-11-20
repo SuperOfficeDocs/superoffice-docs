@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "rerum"
+  "Address": "tenetur"
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 3,
-    "ContactName": "Powlowski-Turner",
-    "PersonId": 661,
-    "PersonName": "Larson Inc and Sons",
-    "AssociateId": 852,
-    "Address": "natus",
-    "EmailId": 155,
+    "ContactId": 544,
+    "ContactName": "Bernhard, Mayert and Macejkovic",
+    "PersonId": 457,
+    "PersonName": "Wolff Inc and Sons",
+    "AssociateId": 678,
+    "Address": "blanditiis",
+    "EmailId": 293,
     "DuplicatePersonIds": [
-      236,
-      817
+      215,
+      906
     ],
-    "Name": "Champlin, Klein and Champlin",
+    "Name": "O'Conner Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldType": "System.String",
+        "FieldLength": 410
       }
     }
   }

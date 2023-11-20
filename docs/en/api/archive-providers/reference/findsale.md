@@ -1264,7 +1264,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindSale?$select=soldReason,person/personRegisteredByFullName,contact/contactAssociate/associateDbId,saleStakeholder/person/phone/formattedNumber,saleStakeholder/person/personPrivate/formattedNumber
+GET /api/v1/archive/FindSale?$select=recordType,person/personUdef/SuperOffice:3,person/personExtra/x_person_priority_relation,contact/number,contact/postAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

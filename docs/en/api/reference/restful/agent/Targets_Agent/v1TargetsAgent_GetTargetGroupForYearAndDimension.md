@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 701,
-  "DimensionId": 583
+  "TargetYear": 725,
+  "DimensionId": 452
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 451,
-  "Year": 785,
+  "TargetGroupId": 665,
+  "Year": 856,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 127,
+      "TargetAssignmentInfoId": 275,
       "Values": [
-        195,
-        609
+        653,
+        357
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 177,
-      "DimensionListItemDisplayName": "Leannon-Considine",
+      "DimensionListItem": 359,
+      "DimensionListItemDisplayName": "Harris LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 339
+          "FieldType": "System.Int32",
+          "FieldLength": 928
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldType": "System.String",
+      "FieldLength": 303
     }
   }
 }

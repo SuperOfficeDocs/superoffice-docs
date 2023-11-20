@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 469,
-  "NewName": "Ratke, Watsica and Jerde",
-  "ValidFrom": "2001-11-21T11:06:35.2083213+01:00",
-  "ValidTo": "2015-01-17T11:06:35.2083213+01:00",
-  "NewCurrencyId": 31,
+  "OriginalPriceListId": 43,
+  "NewName": "Waelchi-Stehr",
+  "ValidFrom": "1999-01-02T13:38:14.0147081+01:00",
+  "ValidTo": "2016-02-09T13:38:14.0147081+01:00",
+  "NewCurrencyId": 930,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 772,
-  "ERPPriceListKey": "cupiditate",
-  "QuoteConnectionId": 394,
-  "Name": "Beahan LLC",
-  "Description": "Implemented human-resource secured line",
-  "Currency": "sit",
-  "CurrencyName": "Ratke Group",
-  "ValidFrom": "2021-07-31T11:06:35.2083213+02:00",
-  "ValidTo": "2008-03-21T11:06:35.2083213+01:00",
-  "IsActive": true,
+  "PriceListId": 289,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 66,
+  "Name": "Stark-Goodwin",
+  "Description": "Multi-channelled systemic knowledge user",
+  "Currency": "laborum",
+  "CurrencyName": "Kautzer, Crona and Koepp",
+  "ValidFrom": "2015-03-28T13:38:14.0147081+01:00",
+  "ValidTo": "2022-11-16T13:38:14.0147081+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldType": "System.String",
+      "FieldLength": 932
     }
   }
 }

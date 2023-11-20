@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=in
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=dolores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Emard-Cassin",
-    "ToolTip": "Qui sint cupiditate sint aut hic necessitatibus.",
+    "Id": 671,
+    "Name": "Lesch, Collier and Swift",
+    "ToolTip": "Quas qui qui aut ut id fuga.",
     "Deleted": false,
-    "Rank": 610,
-    "Type": "quod",
+    "Rank": 941,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 512,
-        "Name": "Nikolaus Inc and Sons",
-        "ToolTip": "Reiciendis dicta dignissimos quibusdam dignissimos ea et at.",
-        "Deleted": false,
-        "Rank": 86,
-        "Type": "aut",
+        "Id": 415,
+        "Name": "Haag, O'Reilly and Klocko",
+        "ToolTip": "Omnis aut voluptatem.",
+        "Deleted": true,
+        "Rank": 725,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 818,
-        "ExtraInfo": "eos",
-        "StyleHint": "et",
-        "FullName": "Ms. Aurelia Schumm",
+        "IconHint": "vitae",
+        "ColorBlock": 428,
+        "ExtraInfo": "sed",
+        "StyleHint": "aut",
+        "FullName": "Miss Rubie Veum I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 675
+            "FieldType": "System.Int32",
+            "FieldLength": 635
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 88,
-    "ExtraInfo": "quam",
-    "StyleHint": "illo",
-    "FullName": "Manuel Gutmann",
+    "IconHint": "rerum",
+    "ColorBlock": 667,
+    "ExtraInfo": "omnis",
+    "StyleHint": "quibusdam",
+    "FullName": "Easton Josiane Lynch V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 449
       }
     }
   }

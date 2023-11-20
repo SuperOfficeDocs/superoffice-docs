@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 708,
-  "CustomerCustomerReplyTemplateId": 71,
-  "CustomerPasswordTemplateId": 680,
-  "CustomerConfirmEmailTemplateId": 10,
-  "CustomerChatLogTemplateId": 763,
-  "NewLinkTemplateId": 743,
-  "HotlistNewMessageTemplateId": 220,
-  "HotlistTicketActivatedTemplateId": 913,
-  "UserTicketAlarmTemplateId": 150,
-  "HotlistTicketTakenOverTemplateId": 331,
-  "UserActiveTicketsTemplateId": 255,
-  "UserNewMessageTemplateId": 616,
-  "UserTicketActivatedTemplateId": 395,
-  "UserNewTicketTemplateId": 490,
-  "PublishKbQuestionTemplateId": 476,
-  "PublishKbAnswerTemplateId": 412,
-  "UserTicketTakenOverTemplateId": 639,
-  "PrintTicketTemplateId": 418,
-  "WeekStatTemplateId": 718,
-  "TicketAlarmHotlistTemplateId": 564,
-  "EmailAddresses": "eldred_kirlin@kerlukepurdy.name",
+  "CustomerNewCustomerTemplateId": 773,
+  "CustomerCustomerReplyTemplateId": 886,
+  "CustomerPasswordTemplateId": 954,
+  "CustomerConfirmEmailTemplateId": 314,
+  "CustomerChatLogTemplateId": 523,
+  "NewLinkTemplateId": 855,
+  "HotlistNewMessageTemplateId": 298,
+  "HotlistTicketActivatedTemplateId": 306,
+  "UserTicketAlarmTemplateId": 691,
+  "HotlistTicketTakenOverTemplateId": 1001,
+  "UserActiveTicketsTemplateId": 330,
+  "UserNewMessageTemplateId": 998,
+  "UserTicketActivatedTemplateId": 26,
+  "UserNewTicketTemplateId": 232,
+  "PublishKbQuestionTemplateId": 42,
+  "PublishKbAnswerTemplateId": 557,
+  "UserTicketTakenOverTemplateId": 381,
+  "PrintTicketTemplateId": 466,
+  "WeekStatTemplateId": 928,
+  "TicketAlarmHotlistTemplateId": 357,
+  "EmailAddresses": "cali.kunze@miller.biz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 604
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Lehner-Gutkowski",
-    "ToolTip": "Animi dolorem corrupti et voluptatem dolorem necessitatibus voluptas.",
-    "Deleted": true,
-    "Rank": 839,
-    "Type": "unde",
-    "ColorBlock": 945,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2009-01-02T11:06:42.8815714+01:00",
+    "Id": 937,
+    "Name": "Schuster-Dibbert",
+    "ToolTip": "Reprehenderit dolor ut.",
+    "Deleted": false,
+    "Rank": 343,
+    "Type": "assumenda",
+    "ColorBlock": 587,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "2006-02-07T13:38:18.1087815+01:00",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Hamill, Schroeder and Parker",
-        "ToolTip": "Sapiente voluptate eius voluptatem sunt dolores deserunt rem.",
+        "Id": 402,
+        "Name": "Beer Inc and Sons",
+        "ToolTip": "Vitae ab omnis est illo nulla alias.",
         "Deleted": false,
-        "Rank": 105,
-        "Type": "eligendi",
-        "ColorBlock": 664,
-        "IconHint": "iste",
+        "Rank": 49,
+        "Type": "ut",
+        "ColorBlock": 496,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2005-11-13T11:06:42.8815714+01:00",
+        "LastChanged": "2016-10-06T13:38:18.1087815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "commodi",
-        "Hidden": true,
-        "FullName": "Miss Isabelle Ophelia West",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Miss Vada Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 31
+            "FieldLength": 926
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Dillan Fay",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "doloremque",
+    "Hidden": false,
+    "FullName": "Mr. Claudia Waters",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldLength": 234
       }
     }
   }

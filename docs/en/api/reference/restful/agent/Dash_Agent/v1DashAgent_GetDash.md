@@ -26,7 +26,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=47
+POST /api/v1/Agents/Dash/GetDash?dashId=298
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 579,
-  "UniqueId": "quo",
-  "Name": "Reichert, Doyle and Lueilwitz",
-  "Description": "Business-focused asynchronous customer loyalty",
-  "AssociateId": 190,
-  "Columns": 597,
+  "DashboardId": 381,
+  "UniqueId": "et",
+  "Name": "O'Reilly, Monahan and Treutel",
+  "Description": "Horizontal disintermediate utilisation",
+  "AssociateId": 279,
+  "Columns": 440,
   "Theme": null,
-  "VisibleForAll": 918,
+  "VisibleForAll": 76,
   "VisibleForAssociates": [
-    669,
-    98
+    553,
+    364
   ],
   "VisibleForGroups": [
-    784,
-    101
+    411,
+    120
   ],
-  "PinForAll": 534,
+  "PinForAll": 33,
   "PinForAssociates": [
-    746,
-    116
+    916,
+    317
   ],
   "PinForGroups": [
-    842,
-    376
+    937,
+    998
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldType": "System.Int32",
+      "FieldLength": 481
     }
   }
 }

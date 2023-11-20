@@ -83,9 +83,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2018-03-07T11:06:33.4913656+01:00",
-  "EndDate": "2021-02-25T11:06:33.4913656+01:00",
-  "AssociateId": 903
+  "StartDate": "2003-03-30T13:38:12.8740699+02:00",
+  "EndDate": "2005-01-13T13:38:12.8740699+01:00",
+  "AssociateId": 751
 }
 ```
 
@@ -97,28 +97,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2014-06-26T11:06:33.4913656+02:00",
+    "Date": "2023-10-06T13:38:12.8740699+02:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 887
+        "FieldType": "System.Int32",
+        "FieldLength": 925
       }
     }
   },
   {
-    "Date": "2014-06-26T11:06:33.4913656+02:00",
+    "Date": "2023-10-06T13:38:12.8740699+02:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 887
+        "FieldType": "System.Int32",
+        "FieldLength": 925
       }
     }
   }

@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,33 +92,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 361,
-  "Name": "Torphy Group",
-  "Tooltip": "nesciunt",
-  "Deleted": true,
-  "Rank": 578,
+  "WebPanelId": 299,
+  "Name": "Schmitt Inc and Sons",
+  "Tooltip": "possimus",
+  "Deleted": false,
+  "Rank": 994,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Pouros, Christiansen and Schuster",
+  "ShowInStatusBar": false,
+  "WindowName": "Blick Group",
   "Url": "http://www.example.com/",
-  "ProgId": "ea",
-  "Icon": 755,
+  "ProgId": "officiis",
+  "Icon": 711,
   "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 512
     }
   }
 }

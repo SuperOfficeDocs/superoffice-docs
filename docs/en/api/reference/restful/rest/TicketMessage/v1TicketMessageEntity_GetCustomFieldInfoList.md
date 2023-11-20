@@ -67,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Lebsack Group",
-    "DisplayName": "Thompson-Hansen",
-    "Description": "Fundamental optimizing orchestration",
-    "ShortLabel": "impedit",
+    "FieldName": "Balistreri, Johns and Cummings",
+    "DisplayName": "Keeling-Stokes",
+    "Description": "Visionary 24/7 attitude",
+    "ShortLabel": "neque",
     "HideLabel": false,
     "HideField": true,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 149,
-    "TemplateVariableName": "Robel-Corwin"
+    "Rank": 614,
+    "TemplateVariableName": "Zulauf-Jacobi"
   }
 ]
 ```

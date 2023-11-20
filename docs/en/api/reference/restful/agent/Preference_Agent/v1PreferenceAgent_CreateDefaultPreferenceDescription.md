@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 478,
-  "Section": "cupiditate",
-  "Key": "saepe",
-  "Name": "Powlowski LLC",
+  "PrefDescId": 683,
+  "Section": "deserunt",
+  "Key": "quod",
+  "Name": "Erdman, Predovic and McGlynn",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Universal radical collaboration",
+  "Description": "Persistent discrete Graphic Interface",
   "IsBuiltin": true,
-  "TableName": "Koss Group",
-  "UserDefinedListId": 714,
-  "Rank": 568,
-  "SubGroup": "velit",
-  "MinLevel": 559,
-  "MaxValue": 950,
-  "MinValue": 443,
-  "RequiredLicense": "expedita",
+  "TableName": "Nitzsche Inc and Sons",
+  "UserDefinedListId": 259,
+  "Rank": 861,
+  "SubGroup": "modi",
+  "MinLevel": 868,
+  "MaxValue": 58,
+  "MinValue": 619,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 839
     }
   }
 }

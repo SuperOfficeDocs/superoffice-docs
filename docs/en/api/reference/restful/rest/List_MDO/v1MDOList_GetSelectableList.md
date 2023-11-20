@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=eveniet
+GET /api/v1/MDOList/{listname}/selectable?additional=sit
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Kovacek, Raynor and Watsica",
-    "ToolTip": "Nihil aperiam est.",
+    "Id": 622,
+    "Name": "Sporer Group",
+    "ToolTip": "Necessitatibus et architecto.",
     "Deleted": false,
-    "Rank": 771,
-    "Type": "doloribus",
-    "ColorBlock": 590,
-    "IconHint": "qui",
+    "Rank": 962,
+    "Type": "optio",
+    "ColorBlock": 504,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "1999-03-08T11:06:42.8346931+01:00",
+    "LastChanged": "2013-11-16T13:38:18.0775324+01:00",
     "ChildItems": [
       {
-        "Id": 384,
-        "Name": "Block Group",
-        "ToolTip": "Alias eos officia.",
-        "Deleted": false,
-        "Rank": 616,
-        "Type": "assumenda",
-        "ColorBlock": 766,
-        "IconHint": "dolorum",
+        "Id": 586,
+        "Name": "Lowe LLC",
+        "ToolTip": "Consectetur dicta quas aut molestiae nobis.",
+        "Deleted": true,
+        "Rank": 575,
+        "Type": "cumque",
+        "ColorBlock": 139,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2009-02-08T11:06:42.8346931+01:00",
+        "LastChanged": "2021-12-14T13:38:18.0775324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "eos",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Anahi Gutmann",
+        "FullName": "Robb Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 152
+            "FieldType": "System.Int32",
+            "FieldLength": 473
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "voluptates",
-    "Hidden": false,
-    "FullName": "Emanuel Runolfsson",
+    "ExtraInfo": "sint",
+    "StyleHint": "magnam",
+    "Hidden": true,
+    "FullName": "Sim Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 837
+        "FieldLength": 968
       }
     }
   }

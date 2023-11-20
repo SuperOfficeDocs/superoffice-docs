@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 557,
-    "Name": "White-McLaughlin",
-    "Tooltip": "praesentium",
-    "Rank": 113,
-    "Rate": 16958.074,
-    "Units": 6026.682,
+    "CurrencyId": 389,
+    "Name": "Koss, Ortiz and Kutch",
+    "Tooltip": "quasi",
+    "Rank": 951,
+    "Rate": 8909.962,
+    "Units": 28274.948,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 673
+        "FieldLength": 216
       }
     }
   }

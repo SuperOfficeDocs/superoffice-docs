@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 595,
-  "Name": "Hahn-Wintheiser",
-  "Tooltip": "autem",
+  "Id": 744,
+  "Name": "Stehr, King and Parker",
+  "Tooltip": "cum",
   "Deleted": false,
-  "UdListDefinitionId": 502,
-  "Rank": 438,
+  "UdListDefinitionId": 447,
+  "Rank": 847,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 187
+      "FieldType": "System.Int32",
+      "FieldLength": 29
     }
   }
 }

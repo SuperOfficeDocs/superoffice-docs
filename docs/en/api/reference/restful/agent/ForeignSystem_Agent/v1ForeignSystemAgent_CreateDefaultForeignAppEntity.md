@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 580,
-  "Name": "Crooks, Welch and Wolf",
-  "CreatedDate": "2002-11-10T11:06:34.6145606+01:00",
-  "UpdatedDate": "2001-12-26T11:06:34.6145606+01:00",
+  "ForeignAppId": 968,
+  "Name": "Walsh LLC",
+  "CreatedDate": "2019-08-08T13:38:13.623981+02:00",
+  "UpdatedDate": "2008-10-28T13:38:13.623981+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 991,
-      "Name": "Little, Smith and Hermiston",
-      "CreatedDate": "2013-05-21T11:06:34.6145606+02:00",
-      "UpdatedDate": "2009-12-30T11:06:34.6145606+01:00",
-      "AssociateFullName": "Garett Bartell",
-      "CreatedBy": "dolorum",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 766,
+      "ForeignDeviceId": 764,
+      "Name": "Funk-Cummings",
+      "CreatedDate": "1997-12-24T13:38:13.623981+01:00",
+      "UpdatedDate": "1999-05-29T13:38:13.623981+02:00",
+      "AssociateFullName": "Heath Schuppe",
+      "CreatedBy": "mollitia",
+      "UpdatedBy": "id",
+      "DeviceIdentifier": "excepturi",
+      "ForeignAppId": 539,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 328
+          "FieldLength": 816
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 581
     }
   }
 }

@@ -80,15 +80,15 @@ OK
 POST /api/v1/Agents/AI/GetChatbotPromptSuggestions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "nulla",
-  "SoProtocol": "inventore",
-  "CurrentContactId": 886,
-  "CurrentPersonId": 530,
-  "CurrentProjectId": 767
+  "IsoLangCode": "quis",
+  "SoProtocol": "voluptatem",
+  "CurrentContactId": 157,
+  "CurrentPersonId": 92,
+  "CurrentProjectId": 882
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2015-07-10T11:06:33.4132283+02:00",
-  "UserPrompt": "rerum",
-  "UserDisplayText": "aut",
-  "BotResponse": "aliquid",
+  "Timestamp": "2007-05-13T13:38:12.8271613+02:00",
+  "UserPrompt": "aliquam",
+  "UserDisplayText": "laboriosam",
+  "BotResponse": "quos",
   "BotActions": {
-    "BotActions1": "quos",
-    "BotActions2": "culpa"
+    "BotActions1": "inventore",
+    "BotActions2": "et"
   },
   "Attachments": [
-    "aut",
-    "consequatur"
+    "unde",
+    "quidem"
   ]
 }
 ```

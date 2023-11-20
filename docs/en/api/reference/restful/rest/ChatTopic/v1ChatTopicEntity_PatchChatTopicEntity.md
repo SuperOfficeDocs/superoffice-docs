@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "saepe",
+    "path": "harum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "saepe",
+    "path": "harum",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 561,
-  "Name": "Lang LLC",
-  "Description": "Programmable zero defect solution",
-  "WelcomeMessage": "doloribus",
+  "ChatTopicId": 244,
+  "Name": "Hodkiewicz Group",
+  "Description": "Robust holistic instruction set",
+  "WelcomeMessage": "ex",
   "Language": null,
-  "LastAccept": "2013-05-14T11:06:41.550993+02:00",
-  "SecondsPrAccept": 236,
-  "AlertRecipient": "consequatur",
+  "LastAccept": "2000-10-04T13:38:17.1868579+02:00",
+  "SecondsPrAccept": 365,
+  "AlertRecipient": "alias",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "ratione",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "exercitationem",
-  "WarnNewChatMinutes": 733,
-  "WarnManagerNewChatMinutes": 572,
-  "TicketEnabled": true,
+  "CollectConsent": true,
+  "BadgeHeader": "nam",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "qui",
+  "WarnNewChatMinutes": 784,
+  "WarnManagerNewChatMinutes": 1001,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 148,
-  "WarnManagerChatMessageMinutes": 267,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 8,
-  "OfflineFormQueueLength": 138,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 85,
+  "WarnManagerChatMessageMinutes": 436,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 565,
+  "OfflineFormQueueLength": 114,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "nobis",
+  "WidgetRatingText": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 620
     }
   },
   "_Links": {

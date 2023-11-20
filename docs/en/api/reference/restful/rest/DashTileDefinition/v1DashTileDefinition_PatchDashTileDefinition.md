@@ -126,18 +126,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "officiis",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officiis",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 171,
-  "Name": "Gaylord Inc and Sons",
-  "Description": "Stand-alone user-facing utilisation",
-  "DefaultHeight": 319,
-  "DefaultWidth": 547,
+  "DashboardTileDefinitionId": 197,
+  "Name": "Gleason, Ferry and Lindgren",
+  "Description": "Team-oriented value-added encryption",
+  "DefaultHeight": 755,
+  "DefaultWidth": 826,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Blanda Inc and Sons",
-  "SelectionId": 660,
+  "EntityName": "Mante Group",
+  "SelectionId": 693,
   "CurrencyMode": "Base",
-  "CurrencyCode": "consequatur",
+  "CurrencyCode": "repellendus",
   "Measure": "Average",
-  "MeasureField": "maxime",
-  "SortBy": "laboriosam",
-  "LayoutConfig": "quia",
-  "SecondarySelectionId": 21,
-  "MeasureByField": "sequi",
+  "MeasureField": "ad",
+  "SortBy": "magni",
+  "LayoutConfig": "iusto",
+  "SecondarySelectionId": 655,
+  "MeasureByField": "eos",
   "Usage": "Dashboard",
-  "ProviderName": "Hudson, Ledner and Kihn",
+  "ProviderName": "Kuvalis-Smitham",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldType": "System.String",
+      "FieldLength": 149
     }
   },
   "_Links": {

@@ -26,7 +26,7 @@ Gets a TargetGroup object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=464
+POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=363
 POST /api/v1/Agents/Targets/GetTargetGroup?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,30 +82,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 890,
-  "Year": 366,
+  "TargetGroupId": 353,
+  "Year": 708,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 110,
+      "TargetAssignmentInfoId": 44,
       "Values": [
-        2,
-        484
+        224,
+        234
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 475,
-      "DimensionListItemDisplayName": "Marquardt Inc and Sons",
+      "DimensionListItem": 978,
+      "DimensionListItemDisplayName": "Mann-Goyette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 173
+          "FieldType": "System.Int32",
+          "FieldLength": 616
         }
       }
     }
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 760
     }
   }
 }

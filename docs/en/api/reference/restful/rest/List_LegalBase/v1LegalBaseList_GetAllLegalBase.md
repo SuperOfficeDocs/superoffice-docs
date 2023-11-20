@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 212,
-    "Name": "Stokes-Hahn",
-    "Tooltip": "et",
-    "Rank": 877,
-    "Key": "est",
-    "Deleted": false,
+    "LegalBaseId": 513,
+    "Name": "Hackett, Erdman and Hills",
+    "Tooltip": "voluptatem",
+    "Rank": 294,
+    "Key": "quis",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldLength": 255
       }
     }
   }

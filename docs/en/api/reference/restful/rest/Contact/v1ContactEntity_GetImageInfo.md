@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 15 Feb 2016 11:06:41 G2T
+Last-Modified: Sat, 01 Jul 2023 13:38:17 G7T
 
 {
-  "BlobId": 287,
-  "BlobSize": 742,
-  "Description": "Automated logistical capacity",
-  "ExtraInfo": "eum",
+  "BlobId": 563,
+  "BlobSize": 181,
+  "Description": "Innovative clear-thinking alliance",
+  "ExtraInfo": "saepe",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "voluptas",
-  "OriginalSize": 112,
-  "CreatedDate": "2000-02-18T11:06:41.5666165+01:00",
-  "UpdatedDate": "2016-02-15T11:06:41.5666165+01:00",
+  "MimeType": "qui",
+  "OriginalSize": 550,
+  "CreatedDate": "2013-10-07T13:38:17.2024711+02:00",
+  "UpdatedDate": "2023-07-01T13:38:17.2024711+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "id",
+  "ConceptualType": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldLength": 995
     }
   }
 }

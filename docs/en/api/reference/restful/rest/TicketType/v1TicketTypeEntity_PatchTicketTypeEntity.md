@@ -119,18 +119,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ea",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ea",
+    "path": "est",
     "value": {}
   }
 ]
@@ -143,35 +143,35 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 428,
-  "Name": "Kiehn-Frami",
-  "Rank": 406,
-  "Tooltip": "amet",
-  "Icon": "ea",
-  "DefaultTicketStatus": 415,
+  "TicketTypeId": 498,
+  "Name": "Bernhard, Cormier and Volkman",
+  "Rank": 668,
+  "Tooltip": "aliquam",
+  "Icon": "dicta",
+  "DefaultTicketStatus": 730,
   "TicketStatuses": [
-    442,
-    984
+    476,
+    598
   ],
-  "DefaultTicketPriority": 203,
+  "DefaultTicketPriority": 496,
   "TicketPriorities": [
-    620,
-    553
+    770,
+    81
   ],
-  "ReplyTemplate": 822,
-  "IsExternalVisible": false,
-  "IsDefault": true,
+  "ReplyTemplate": 529,
+  "IsExternalVisible": true,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 907
+      "FieldLength": 641
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

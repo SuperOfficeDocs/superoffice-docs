@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "blanditiis",
-  "ProviderName": "Monahan Inc and Sons",
-  "StorageKey": "molestiae",
-  "Context": "corrupti"
+  "StorageType": "minima",
+  "ProviderName": "Koch Inc and Sons",
+  "StorageKey": "velit",
+  "Context": "aperiam"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fahey-Friesen",
-    "Description": "Re-contextualized cohesive open system",
-    "Rank": 295,
+    "Name": "Rempel LLC",
+    "Description": "Triple-buffered non-volatile installation",
+    "Rank": 802,
     "Restrictions": [
       {
-        "Name": "Luettgen Group",
-        "Operator": "praesentium",
+        "Name": "Friesen-Breitenberg",
+        "Operator": "eum",
         "Values": [
-          "porro",
-          "temporibus"
+          "sed",
+          "nostrum"
         ],
         "DisplayValues": [
-          "quia",
-          "eum"
+          "et",
+          "cupiditate"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 692,
+        "InterParenthesis": 211,
         "InterOperator": "And",
-        "UniqueHash": 592
+        "UniqueHash": 714
       }
     ]
   },
   {
-    "Name": "Fahey-Friesen",
-    "Description": "Re-contextualized cohesive open system",
-    "Rank": 295,
+    "Name": "Rempel LLC",
+    "Description": "Triple-buffered non-volatile installation",
+    "Rank": 802,
     "Restrictions": [
       {
-        "Name": "Luettgen Group",
-        "Operator": "praesentium",
+        "Name": "Friesen-Breitenberg",
+        "Operator": "eum",
         "Values": [
-          "porro",
-          "temporibus"
+          "sed",
+          "nostrum"
         ],
         "DisplayValues": [
-          "quia",
-          "eum"
+          "et",
+          "cupiditate"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -145,9 +145,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 692,
+        "InterParenthesis": 211,
         "InterOperator": "And",
-        "UniqueHash": 592
+        "UniqueHash": 714
       }
     ]
   }

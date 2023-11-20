@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 830,
-    "Name": "Conroy Group",
-    "ToolTip": "Dolor ut rerum architecto praesentium magnam fuga.",
+    "Id": 136,
+    "Name": "Weissnat-Mitchell",
+    "ToolTip": "Consequuntur ut ab ullam.",
     "Deleted": true,
-    "Rank": 745,
-    "Type": "nemo",
-    "ColorBlock": 499,
-    "IconHint": "saepe",
+    "Rank": 335,
+    "Type": "maxime",
+    "ColorBlock": 741,
+    "IconHint": "nihil",
     "Selected": true,
-    "LastChanged": "2006-04-23T11:06:42.9597004+02:00",
+    "LastChanged": "2017-01-27T13:38:18.1712741+01:00",
     "ChildItems": [
       {
-        "Id": 880,
-        "Name": "Bergstrom Group",
-        "ToolTip": "Consequatur est mollitia architecto ut placeat debitis.",
-        "Deleted": false,
-        "Rank": 665,
-        "Type": "est",
-        "ColorBlock": 209,
-        "IconHint": "ab",
-        "Selected": false,
-        "LastChanged": "2012-02-22T11:06:42.9597004+01:00",
+        "Id": 585,
+        "Name": "Nikolaus, Ryan and Carroll",
+        "ToolTip": "Suscipit accusamus ratione iusto exercitationem dolorem natus.",
+        "Deleted": true,
+        "Rank": 108,
+        "Type": "debitis",
+        "ColorBlock": 124,
+        "IconHint": "labore",
+        "Selected": true,
+        "LastChanged": "1996-10-03T13:38:18.1712741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "rerum",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Ms. Katelynn Deondre Mueller",
+        "FullName": "Miss Schuyler Maggie Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 710
+            "FieldLength": 210
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Nikki Howell DVM",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "consequuntur",
+    "Hidden": false,
+    "FullName": "Estevan Waters",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldLength": 641
       }
     }
   }

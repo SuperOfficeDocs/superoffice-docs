@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Kuhic, Stamm and Robel",
-    "ToolTip": "Et eos hic accusamus repudiandae architecto accusamus.",
+    "Id": 277,
+    "Name": "Baumbach LLC",
+    "ToolTip": "Et quisquam blanditiis aut explicabo mollitia.",
     "Deleted": false,
-    "Rank": 323,
-    "Type": "nulla",
-    "ColorBlock": 875,
-    "IconHint": "quisquam",
+    "Rank": 338,
+    "Type": "et",
+    "ColorBlock": 707,
+    "IconHint": "libero",
     "Selected": true,
-    "LastChanged": "2011-05-10T11:06:42.8346931+02:00",
+    "LastChanged": "1997-05-18T13:38:18.0775324+02:00",
     "ChildItems": [
       {
-        "Id": 381,
-        "Name": "Lubowitz-Mitchell",
-        "ToolTip": "Nesciunt cumque cumque consectetur et.",
+        "Id": 14,
+        "Name": "Lubowitz-Schinner",
+        "ToolTip": "Architecto et hic maxime repudiandae quae quod.",
         "Deleted": true,
-        "Rank": 80,
-        "Type": "culpa",
-        "ColorBlock": 8,
-        "IconHint": "suscipit",
-        "Selected": true,
-        "LastChanged": "2023-02-05T11:06:42.8346931+01:00",
+        "Rank": 882,
+        "Type": "vitae",
+        "ColorBlock": 856,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2012-11-04T13:38:18.0775324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Ibrahim Haag"
+        "ExtraInfo": "commodi",
+        "StyleHint": "consequuntur",
+        "Hidden": false,
+        "FullName": "Kasandra Bahringer"
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "recusandae",
-    "Hidden": false,
-    "FullName": "Amie Boyer DVM"
+    "ExtraInfo": "ea",
+    "StyleHint": "officia",
+    "Hidden": true,
+    "FullName": "Mrs. Delphine White Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 898,
-    "Name": "Hyatt, Ruecker and Rempel",
-    "ToolTip": "Aut repudiandae ab distinctio excepturi quod.",
-    "Deleted": false,
-    "Rank": 750,
-    "Type": "dolor",
-    "ColorBlock": 908,
-    "IconHint": "velit",
+    "Id": 151,
+    "Name": "Heaney, Berge and Bosco",
+    "ToolTip": "Corporis consequuntur sequi.",
+    "Deleted": true,
+    "Rank": 939,
+    "Type": "voluptas",
+    "ColorBlock": 888,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2005-01-22T11:06:42.8346931+01:00",
+    "LastChanged": "2023-01-12T13:38:18.0775324+01:00",
     "ChildItems": [
       {
-        "Id": 566,
-        "Name": "Murray, Blanda and Sauer",
-        "ToolTip": "Quas magni.",
-        "Deleted": false,
-        "Rank": 464,
-        "Type": "quia",
-        "ColorBlock": 338,
-        "IconHint": "enim",
+        "Id": 199,
+        "Name": "Wolff-Stoltenberg",
+        "ToolTip": "Reprehenderit commodi quisquam quibusdam consequatur dolores necessitatibus.",
+        "Deleted": true,
+        "Rank": 658,
+        "Type": "ullam",
+        "ColorBlock": 672,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2015-04-02T11:06:42.8346931+02:00",
+        "LastChanged": "2008-12-23T13:38:18.0775324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "optio",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Prof. Maximillian Heidenreich",
+        "FullName": "Nakia Abbott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 862
+            "FieldType": "System.Int32",
+            "FieldLength": 678
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "qui",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Santina Wolff",
+    "FullName": "Rosella Rossie Goldner PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 23
+        "FieldType": "System.Int32",
+        "FieldLength": 780
       }
     }
   }

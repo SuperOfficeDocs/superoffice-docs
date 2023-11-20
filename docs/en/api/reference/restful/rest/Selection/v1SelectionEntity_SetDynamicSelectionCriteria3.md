@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Balistreri, Kuhlman and Armstrong",
-    "Operator": "quibusdam",
+    "Name": "Pouros Inc and Sons",
+    "Operator": "ut",
     "Values": [
-      "ut",
-      "voluptatibus"
+      "dolorum",
+      "nulla"
     ],
     "DisplayValues": [
-      "consequatur",
-      "aut"
+      "id",
+      "consequatur"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Gutkowski LLC",
-        "Operator": "ut",
+        "Name": "Nicolas-Johns",
+        "Operator": "perspiciatis",
         "Values": [
-          "consequatur",
-          "natus"
+          "magni",
+          "rerum"
         ],
         "DisplayValues": [
-          "consequuntur",
-          "sit"
+          "ipsum",
+          "non"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 194,
+        "InterParenthesis": 742,
         "InterOperator": "And",
-        "UniqueHash": 653
+        "UniqueHash": 634
       }
     ],
-    "InterParenthesis": 962,
+    "InterParenthesis": 419,
     "InterOperator": "And",
-    "UniqueHash": 854
+    "UniqueHash": 978
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Keebler Inc and Sons",
-    "Operator": "vitae",
+    "Name": "Dicki, Kuhn and Bashirian",
+    "Operator": "quibusdam",
     "Values": [
-      "omnis",
-      "quaerat"
+      "voluptates",
+      "facilis"
     ],
     "DisplayValues": [
-      "deserunt",
-      "dolor"
+      "sit",
+      "rem"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Ebert Inc and Sons",
-        "Operator": "ipsam",
+        "Name": "Connelly Inc and Sons",
+        "Operator": "reiciendis",
         "Values": [
-          "dignissimos",
-          "ipsa"
+          "rem",
+          "ducimus"
         ],
         "DisplayValues": [
-          "et",
-          "itaque"
+          "molestias",
+          "eveniet"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 931,
+        "InterParenthesis": 280,
         "InterOperator": "And",
-        "UniqueHash": 275
+        "UniqueHash": 253
       }
     ],
-    "InterParenthesis": 38,
+    "InterParenthesis": 605,
     "InterOperator": "And",
-    "UniqueHash": 104
+    "UniqueHash": 329
   }
 ]
 ```

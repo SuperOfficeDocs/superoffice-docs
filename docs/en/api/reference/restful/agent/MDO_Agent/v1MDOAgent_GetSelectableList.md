@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Raynor Group",
-  "ForceFlatList": false,
-  "AdditionalInfo": "nobis",
+  "Name": "Boyer-Upton",
+  "ForceFlatList": true,
+  "AdditionalInfo": "at",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Gutkowski-Kerluke",
-    "ToolTip": "Aliquam qui harum expedita necessitatibus architecto dolor expedita.",
+    "Id": 807,
+    "Name": "Donnelly-Erdman",
+    "ToolTip": "Quia tempore voluptas ut explicabo.",
     "Deleted": false,
-    "Rank": 250,
-    "Type": "aliquid",
-    "ColorBlock": 496,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2003-08-29T11:06:34.8020663+02:00",
+    "Rank": 282,
+    "Type": "minus",
+    "ColorBlock": 315,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2018-04-16T13:38:13.7491627+02:00",
     "ChildItems": [
       {
-        "Id": 2,
-        "Name": "Pouros, Sauer and Gutmann",
-        "ToolTip": "Sit et aspernatur odio omnis magnam rerum hic.",
+        "Id": 571,
+        "Name": "Zboncak, Legros and Raynor",
+        "ToolTip": "Debitis officia tempore qui qui quos quos.",
         "Deleted": false,
-        "Rank": 329,
-        "Type": "qui",
-        "ColorBlock": 991,
-        "IconHint": "delectus",
-        "Selected": false,
-        "LastChanged": "2008-07-30T11:06:34.8020663+02:00",
+        "Rank": 902,
+        "Type": "iste",
+        "ColorBlock": 655,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "2004-04-11T13:38:13.7491627+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "in",
+        "StyleHint": "laboriosam",
         "Hidden": true,
-        "FullName": "Sylvia Huel",
+        "FullName": "Syble Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 312
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "saepe",
+    "ExtraInfo": "porro",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Odell Moen",
+    "FullName": "Belle Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldLength": 610
       }
     }
   }

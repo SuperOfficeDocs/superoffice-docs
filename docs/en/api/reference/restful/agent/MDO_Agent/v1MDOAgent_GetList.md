@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schuster-Christiansen",
-  "ForceFlatList": false,
-  "AdditionalInfo": "dolorem",
+  "Name": "Jewess, Boyer and Bogan",
+  "ForceFlatList": true,
+  "AdditionalInfo": "quam",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 570,
-    "Name": "Rice LLC",
-    "ToolTip": "Quia sed.",
-    "Deleted": true,
-    "Rank": 193,
-    "Type": "et",
+    "Id": 117,
+    "Name": "Blanda, Gerhold and Kihn",
+    "ToolTip": "Quaerat omnis.",
+    "Deleted": false,
+    "Rank": 172,
+    "Type": "consectetur",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "Runte-Wiza",
-        "ToolTip": "Ea eius qui veritatis sed ipsa ad.",
+        "Id": 668,
+        "Name": "Bednar-Renner",
+        "ToolTip": "Aut qui quidem voluptates est nobis.",
         "Deleted": false,
-        "Rank": 749,
-        "Type": "aspernatur",
+        "Rank": 166,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ex",
-        "ColorBlock": 535,
-        "ExtraInfo": "voluptate",
-        "StyleHint": "odit",
-        "FullName": "Ellis Fadel",
+        "IconHint": "incidunt",
+        "ColorBlock": 177,
+        "ExtraInfo": "quam",
+        "StyleHint": "qui",
+        "FullName": "Estrella Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 733
+            "FieldLength": 174
           }
         }
       }
     ],
-    "IconHint": "dolorum",
-    "ColorBlock": 611,
-    "ExtraInfo": "labore",
-    "StyleHint": "vel",
-    "FullName": "Carroll Raynor",
+    "IconHint": "molestias",
+    "ColorBlock": 128,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "a",
+    "FullName": "Leopold Lynch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldType": "System.Int32",
+        "FieldLength": 58
       }
     }
   }

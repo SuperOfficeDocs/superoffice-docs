@@ -26,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=948
+POST /api/v1/Agents/Project/GetProject?projectId=512
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 128,
-  "Name": "Balistreri Inc and Sons",
-  "Description": "Horizontal 24/7 access",
+  "ProjectId": 170,
+  "Name": "Huel-West",
+  "Description": "Organized mobile architecture",
   "URL": "http://www.example.com/",
-  "Type": "magnam",
-  "AssociateId": 354,
-  "AssociateFullName": "Emil Paucek",
-  "TypeId": 536,
-  "Updated": "2023-03-20T11:06:35.1301898+01:00",
-  "StatusId": 413,
-  "Status": "ut",
-  "TextId": 547,
-  "PublishTo": "2008-02-15T11:06:35.1301898+01:00",
-  "PublishFrom": "1998-01-27T11:06:35.1301898+01:00",
-  "IsPublished": true,
+  "Type": "molestiae",
+  "AssociateId": 549,
+  "AssociateFullName": "Rosanna Wiegand",
+  "TypeId": 578,
+  "Updated": "2015-12-25T13:38:13.9678454+01:00",
+  "StatusId": 299,
+  "Status": "sunt",
+  "TextId": 447,
+  "PublishTo": "2013-04-11T13:38:13.9678454+02:00",
+  "PublishFrom": "2003-01-23T13:38:13.9678454+01:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "750223",
-  "ActiveErpLinks": 862,
+  "ProjectNumber": "613559",
+  "ActiveErpLinks": 407,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 300
     }
   }
 }

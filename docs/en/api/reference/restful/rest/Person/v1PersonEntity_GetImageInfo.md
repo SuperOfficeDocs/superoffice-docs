@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 10 Jul 2020 11:06:42 G7T
+Last-Modified: Thu, 08 Jun 2000 13:38:17 G6T
 
 {
-  "BlobId": 152,
-  "BlobSize": 839,
-  "Description": "Ameliorated discrete neural-net",
-  "ExtraInfo": "sunt",
+  "BlobId": 35,
+  "BlobSize": 160,
+  "Description": "Function-based transitional success",
+  "ExtraInfo": "voluptate",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sequi",
-  "OriginalSize": 77,
-  "CreatedDate": "2016-09-03T11:06:42.0041001+02:00",
-  "UpdatedDate": "2020-07-10T11:06:42.0041001+02:00",
+  "MimeType": "facere",
+  "OriginalSize": 195,
+  "CreatedDate": "1997-09-01T13:38:17.5305626+02:00",
+  "UpdatedDate": "2000-06-08T13:38:17.5305626+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ratione",
+  "ConceptualType": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   }
 }

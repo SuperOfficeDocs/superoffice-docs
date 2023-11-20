@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Bogan Inc and Sons",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "UdListDefinitionId": 680,
-  "Rank": 578
+  "Id": 876,
+  "Name": "Buckridge Inc and Sons",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "UdListDefinitionId": 720,
+  "Rank": 424
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 944,
-  "Name": "Zulauf-Altenwerth",
-  "Tooltip": "consectetur",
+  "Id": 319,
+  "Name": "Nicolas Group",
+  "Tooltip": "alias",
   "Deleted": false,
-  "UdListDefinitionId": 158,
-  "Rank": 80,
+  "UdListDefinitionId": 909,
+  "Rank": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldLength": 29
     }
   }
 }

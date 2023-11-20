@@ -126,8 +126,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 866,
-  "ERPProductKey": "ea"
+  "QuoteAlternativeId": 997,
+  "ERPProductKey": "deserunt"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 556,
-  "ERPQuoteLineKey": "qui",
-  "QuoteAlternativeId": 30,
-  "ERPProductKey": "explicabo",
+  "QuoteLineId": 81,
+  "ERPQuoteLineKey": "consectetur",
+  "QuoteAlternativeId": 67,
+  "ERPProductKey": "optio",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 6092.496,
-  "DeliveredQuantity": 22348.554,
-  "Rank": 733,
-  "Name": "Johnston-Berge",
-  "Description": "Customer-focused contextually-based function",
-  "Code": "non",
-  "QuantityUnit": "magnam",
-  "PriceUnit": "eligendi",
-  "ItemNumber": "519633",
+  "Quantity": 18227.344,
+  "DeliveredQuantity": 25654.924,
+  "Rank": 768,
+  "Name": "Ferry, Herzog and Huels",
+  "Description": "Re-engineered client-server projection",
+  "Code": "quidem",
+  "QuantityUnit": "ab",
+  "PriceUnit": "porro",
+  "ItemNumber": "1124567",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatum",
-  "ProductTypeKey": "quia",
-  "Supplier": "accusamus",
-  "SupplierCode": "iusto",
-  "Thumbnail": "rerum",
-  "VATInfo": "et",
-  "VAT": 24614.435999999998,
-  "UnitCost": 30061.327999999998,
-  "UnitMinimumPrice": 3256.226,
-  "UnitListPrice": 5026.936,
+  "ProductFamilyKey": "reiciendis",
+  "ProductTypeKey": "est",
+  "Supplier": "quia",
+  "SupplierCode": "earum",
+  "Thumbnail": "natus",
+  "VATInfo": "nisi",
+  "VAT": 24178.809999999998,
+  "UnitCost": 573.52199999999993,
+  "UnitMinimumPrice": 9944.1819999999989,
+  "UnitListPrice": 1087.498,
   "ExtraInfo": [
     {
-      "Name": "Gutmann-White",
-      "Value": "ex",
+      "Name": "Bartell LLC",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 224
+          "FieldType": "System.Int32",
+          "FieldLength": 396
         }
       }
     },
     {
-      "Name": "Gutmann-White",
-      "Value": "ex",
+      "Name": "Bartell LLC",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 224
+          "FieldType": "System.Int32",
+          "FieldLength": 396
         }
       }
     }
   ],
-  "RawExtraInfo": "quaerat",
+  "RawExtraInfo": "nihil",
   "IsSubscription": false,
-  "SubscriptionUnit": "non",
-  "SubscriptionQuantity": 18274.354,
-  "SubscriptionStart": "2012-05-17T11:06:35.2395651+02:00",
-  "ERPDiscountPercent": 15024.395999999999,
-  "ERPDiscountAmount": 25648.656,
-  "DiscountPercent": 13084.449999999999,
-  "DiscountAmount": 12253.939999999999,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 17497.122,
+  "SubscriptionStart": "2009-08-26T13:38:14.0303322+02:00",
+  "ERPDiscountPercent": 28798.325999999997,
+  "ERPDiscountAmount": 6465.442,
+  "DiscountPercent": 11266.73,
+  "DiscountAmount": 19399.46,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 81.484,
-  "EarningAmount": 12836.864,
-  "SubTotal": 23345.165999999997,
-  "TotalPrice": 5368.5419999999995,
-  "Rights": "dolore",
-  "Rule": "quo",
-  "ExtraField1": "illo",
-  "ExtraField2": "itaque",
-  "ExtraField3": "molestiae",
-  "ExtraField4": "ratione",
-  "ExtraField5": "magnam",
+  "EarningPercent": 18456.126,
+  "EarningAmount": 19828.818,
+  "SubTotal": 1184.652,
+  "TotalPrice": 20333.392,
+  "Rights": "officia",
+  "Rule": "ipsa",
+  "ExtraField1": "ea",
+  "ExtraField2": "ducimus",
+  "ExtraField3": "adipisci",
+  "ExtraField4": "ut",
+  "ExtraField5": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   }
 }

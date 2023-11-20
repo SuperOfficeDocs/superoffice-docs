@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Toy, Stoltenberg and Fay",
+  "ProviderName": "Oberbrunner-Gulgowski",
   "Restrictions": [
     {
-      "Name": "Hudson Group",
-      "Operator": "quia",
+      "Name": "Bernhard-Runte",
+      "Operator": "assumenda",
       "Values": [
-        "eligendi",
+        "veritatis",
         "et"
       ],
       "DisplayValues": [
-        "est",
-        "temporibus"
+        "labore",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 893,
+      "InterParenthesis": 295,
       "InterOperator": "And",
-      "UniqueHash": 272
+      "UniqueHash": 120
     }
   ],
-  "AssociateId": 21
+  "AssociateId": 890
 }
 ```
 

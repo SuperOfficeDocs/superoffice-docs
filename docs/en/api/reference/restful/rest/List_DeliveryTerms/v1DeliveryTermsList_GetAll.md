@@ -25,7 +25,7 @@ Gets all the DeliveryTerm items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items?includeDeleted=False
+GET /api/v1/List/DeliveryTerm/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "Hintz LLC",
-    "Tooltip": "eligendi",
+    "Id": 161,
+    "Name": "Grady, Kreiger and Nader",
+    "Tooltip": "numquam",
     "Deleted": false,
-    "UdListDefinitionId": 492,
-    "Rank": 821,
+    "UdListDefinitionId": 795,
+    "Rank": 938,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 850
       }
     }
   }

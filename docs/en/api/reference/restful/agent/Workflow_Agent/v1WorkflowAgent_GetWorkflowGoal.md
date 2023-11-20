@@ -26,7 +26,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=91
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=566
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 94,
-  "WorkflowId": 496,
+  "WorkflowGoalId": 407,
+  "WorkflowId": 863,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Barrows, Jacobson and Lemke",
-      "Description": "Grass-roots 5th generation open architecture",
-      "Rank": 322,
+      "Name": "Kessler-Watsica",
+      "Description": "Focused content-based parallelism",
+      "Rank": 81,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Barrows, Jacobson and Lemke",
-      "Description": "Grass-roots 5th generation open architecture",
-      "Rank": 322,
+      "Name": "Kessler-Watsica",
+      "Description": "Focused content-based parallelism",
+      "Rank": 81,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 315
     }
   }
 }

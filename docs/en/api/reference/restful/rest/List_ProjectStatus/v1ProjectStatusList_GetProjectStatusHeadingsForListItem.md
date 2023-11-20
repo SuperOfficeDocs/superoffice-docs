@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Barrows-Sauer",
-    "ToolTip": "Ut molestias cupiditate sed voluptatem.",
+    "Id": 191,
+    "Name": "Maggio-Hoeger",
+    "ToolTip": "Nulla maxime qui fugiat adipisci et.",
     "Deleted": false,
-    "Rank": 759,
-    "Type": "et",
-    "ColorBlock": 8,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2023-10-22T11:06:42.9597004+02:00",
+    "Rank": 608,
+    "Type": "ut",
+    "ColorBlock": 557,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2014-03-28T13:38:18.1556538+01:00",
     "ChildItems": [
       {
-        "Id": 31,
-        "Name": "Bode Inc and Sons",
-        "ToolTip": "Error repudiandae ea sed totam perferendis maxime.",
+        "Id": 882,
+        "Name": "Brakus, Fritsch and Anderson",
+        "ToolTip": "Ut et autem dolorem quaerat.",
         "Deleted": false,
-        "Rank": 265,
-        "Type": "et",
-        "ColorBlock": 343,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2017-12-02T11:06:42.9597004+01:00",
+        "Rank": 736,
+        "Type": "culpa",
+        "ColorBlock": 157,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "2017-12-07T13:38:18.1556538+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "repellat",
-        "Hidden": false,
-        "FullName": "Prof. Scarlett Considine",
+        "ExtraInfo": "optio",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Madaline Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 583
+            "FieldLength": 686
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "itaque",
+    "StyleHint": "voluptate",
     "Hidden": false,
-    "FullName": "Celestino Schinner",
+    "FullName": "Dr. Jevon Cristina Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldType": "System.String",
+        "FieldLength": 462
       }
     }
   }

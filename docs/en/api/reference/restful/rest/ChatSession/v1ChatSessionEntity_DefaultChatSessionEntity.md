@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 251,
-  "TopicId": 831,
+  "ChatSessionId": 307,
+  "TopicId": 554,
   "User": null,
   "Person": null,
-  "CustomerAlias": "commodi",
-  "CustomerHost": "omnis",
-  "CustomerName": "Kovacek LLC",
-  "CustomerEmail": "noel@kunze.name",
-  "CustomerPhone": "966.724.4507 x12586",
+  "CustomerAlias": "quia",
+  "CustomerHost": "et",
+  "CustomerName": "Boehm-Moen",
+  "CustomerEmail": "catharine.romaguera@reichel.name",
+  "CustomerPhone": "152.838.6138 x130",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Rath, Turner and Heller",
+  "CustomerCompanyName": "Roob LLC",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "vero",
-  "WhenRequested": "2003-04-21T11:06:41.4259883+02:00",
-  "WhenStarted": "2005-06-02T11:06:41.4259883+02:00",
-  "WhenEnded": "2007-12-17T11:06:41.4259883+01:00",
-  "WhenIdle": "1997-09-29T11:06:41.4259883+02:00",
-  "WhenFetched": "2006-01-21T11:06:41.4259883+01:00",
-  "SessionKey": "nisi",
-  "InitialQueuePos": 790,
-  "AlertLevel": 683,
-  "Rank": 762,
+  "FirstMessage": "aut",
+  "LastMessage": "repellendus",
+  "WhenRequested": "2021-01-24T13:38:17.1087373+01:00",
+  "WhenStarted": "2016-08-30T13:38:17.1087373+02:00",
+  "WhenEnded": "2022-02-09T13:38:17.1087373+01:00",
+  "WhenIdle": "2006-03-07T13:38:17.1087373+01:00",
+  "WhenFetched": "2007-09-09T13:38:17.1087373+02:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 168,
+  "AlertLevel": 533,
+  "Rank": 67,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 453,
+  "Rating": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldType": "System.String",
+      "FieldLength": 1000
     }
   }
 }

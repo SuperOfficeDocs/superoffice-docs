@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 480,
-  "Name": "Stracke, Thompson and Osinski",
-  "Tooltip": "eum",
+  "Id": 936,
+  "Name": "Kihn-O'Kon",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "UdListDefinitionId": 736,
-  "Rank": 395,
+  "UdListDefinitionId": 884,
+  "Rank": 907,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

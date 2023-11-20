@@ -27,7 +27,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=quasi
+GET /api/v1/List/SaleType/MDOItems?query=velit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Wolff Inc and Sons",
-    "ToolTip": "Alias repellendus impedit.",
+    "Id": 443,
+    "Name": "Murray Group",
+    "ToolTip": "Nisi neque autem amet.",
     "Deleted": false,
-    "Rank": 70,
-    "Type": "et",
+    "Rank": 432,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 106,
-        "Name": "Armstrong, Schultz and Stamm",
-        "ToolTip": "Autem a quae quas optio quod ab quae.",
+        "Id": 775,
+        "Name": "Jerde Group",
+        "ToolTip": "Veniam atque dolor.",
         "Deleted": false,
-        "Rank": 648,
-        "Type": "doloremque",
+        "Rank": 208,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facere",
-        "ColorBlock": 622,
-        "ExtraInfo": "dolor",
-        "StyleHint": "neque",
-        "FullName": "Miss Zena Dixie Jones",
+        "IconHint": "non",
+        "ColorBlock": 145,
+        "ExtraInfo": "possimus",
+        "StyleHint": "ut",
+        "FullName": "Alexandria Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 9
+            "FieldLength": 807
           }
         }
       }
     ],
-    "IconHint": "ratione",
-    "ColorBlock": 505,
-    "ExtraInfo": "facilis",
-    "StyleHint": "rerum",
-    "FullName": "Laurence Haag",
+    "IconHint": "aut",
+    "ColorBlock": 640,
+    "ExtraInfo": "atque",
+    "StyleHint": "non",
+    "FullName": "Woodrow Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldLength": 532
       }
     }
   }

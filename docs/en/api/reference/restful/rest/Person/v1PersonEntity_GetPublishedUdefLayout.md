@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 799,
-    "ColumnId": 516,
-    "FieldDefault": "et",
-    "FieldHeight": 636,
-    "FieldLabel": "iure",
-    "FieldLeft": 599,
-    "FieldTop": 612,
+    "UDefFieldId": 355,
+    "ColumnId": 592,
+    "FieldDefault": "voluptas",
+    "FieldHeight": 227,
+    "FieldLabel": "officiis",
+    "FieldLeft": 374,
+    "FieldTop": 541,
     "FieldType": "Checkbox",
-    "FieldWidth": 12,
-    "FormatMask": "magnam",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 850,
-    "LabelLeft": 973,
-    "LabelTop": 418,
-    "LabelWidth": 42,
-    "LastVersionId": 647,
-    "ListTableId": 990,
+    "FieldWidth": 904,
+    "FormatMask": "nemo",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 86,
+    "LabelLeft": 110,
+    "LabelTop": 919,
+    "LabelWidth": 646,
+    "LastVersionId": 808,
+    "ListTableId": 840,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 477,
-    "ProgId": "quam",
+    "Page1LineNo": 382,
+    "ProgId": "rerum",
     "IsReadOnly": false,
-    "ShortLabel": "corrupti",
-    "TabOrder": 834,
-    "TextLength": 271,
-    "Tooltip": "blanditiis",
-    "UdefIdentity": 976,
-    "UDListDefinitionId": 522,
+    "ShortLabel": "hic",
+    "TabOrder": 627,
+    "TextLength": 404,
+    "Tooltip": "deserunt",
+    "UdefIdentity": 979,
+    "UDListDefinitionId": 278,
     "Justification": "Center",
-    "Version": 240,
-    "TemplateVariableName": "Kling-Trantow",
+    "Version": 325,
+    "TemplateVariableName": "Brekke, Fritsch and Balistreri",
     "HasBeenPublished": false,
-    "MdoListName": "Hahn LLC",
+    "MdoListName": "Simonis Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldLength": 959
       }
     }
   }

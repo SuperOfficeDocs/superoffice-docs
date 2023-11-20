@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 947,
-    "Name": "Weber, Buckridge and Treutel",
-    "Rank": 796,
-    "Tooltip": "occaecati",
-    "Icon": "voluptatem",
-    "DefaultTicketStatus": 916,
+    "TicketTypeId": 476,
+    "Name": "Ferry-Harber",
+    "Rank": 522,
+    "Tooltip": "aspernatur",
+    "Icon": "tempore",
+    "DefaultTicketStatus": 563,
     "TicketStatuses": [
-      336,
-      137
+      25,
+      15
     ],
-    "DefaultTicketPriority": 878,
+    "DefaultTicketPriority": 836,
     "TicketPriorities": [
-      882,
-      430
+      538,
+      12
     ],
-    "ReplyTemplate": 224,
+    "ReplyTemplate": 118,
     "IsExternalVisible": true,
     "IsDefault": false,
     "TableRight": null,
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 947
+        "FieldLength": 351
       }
     }
   }

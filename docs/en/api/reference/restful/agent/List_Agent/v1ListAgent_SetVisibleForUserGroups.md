@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 823,
-  "ListItemId": 868,
+  "UdListDefinitionId": 226,
+  "ListItemId": 105,
   "UserGroups": [
     {
-      "Id": 653,
-      "Name": "Feest Group",
-      "ToolTip": "Ea ipsum et.",
-      "Deleted": false,
-      "Rank": 277,
-      "Type": "atque",
-      "ColorBlock": 539,
-      "IconHint": "debitis",
-      "Selected": true,
-      "LastChanged": "1997-05-16T11:06:34.7083083+02:00",
+      "Id": 237,
+      "Name": "Gerhold, Veum and Marks",
+      "ToolTip": "Veritatis ut rerum accusantium tempora.",
+      "Deleted": true,
+      "Rank": 749,
+      "Type": "omnis",
+      "ColorBlock": 437,
+      "IconHint": "tempora",
+      "Selected": false,
+      "LastChanged": "2016-11-10T13:38:13.6708541+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quaerat",
-      "StyleHint": "voluptate",
-      "Hidden": false,
-      "FullName": "Kelsi Kuhn"
+      "ExtraInfo": "quia",
+      "StyleHint": "est",
+      "Hidden": true,
+      "FullName": "Cierra Carroll"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Name": "Reynolds LLC",
-    "ToolTip": "Quia in natus officia dignissimos.",
-    "Deleted": true,
-    "Rank": 884,
-    "Type": "beatae",
-    "ColorBlock": 257,
-    "IconHint": "a",
-    "Selected": false,
-    "LastChanged": "2021-02-07T11:06:34.7083083+01:00",
+    "Id": 928,
+    "Name": "Prosacco Inc and Sons",
+    "ToolTip": "Perferendis consectetur molestias reiciendis vitae quod incidunt repudiandae.",
+    "Deleted": false,
+    "Rank": 606,
+    "Type": "voluptate",
+    "ColorBlock": 931,
+    "IconHint": "quos",
+    "Selected": true,
+    "LastChanged": "2006-12-25T13:38:13.6708541+01:00",
     "ChildItems": [
       {
-        "Id": 650,
-        "Name": "Weissnat, Johnson and Bartell",
-        "ToolTip": "Quia nulla quia velit minima natus enim asperiores.",
+        "Id": 912,
+        "Name": "Marks-Funk",
+        "ToolTip": "Magni earum cum.",
         "Deleted": true,
-        "Rank": 488,
-        "Type": "voluptatem",
-        "ColorBlock": 236,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2004-05-16T11:06:34.7083083+02:00",
+        "Rank": 436,
+        "Type": "aliquid",
+        "ColorBlock": 679,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2017-05-19T13:38:13.6708541+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "pariatur",
-        "Hidden": false,
-        "FullName": "Prof. Karlee Mariela Bednar",
+        "ExtraInfo": "harum",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Bessie Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldLength": 436
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "hic",
+    "StyleHint": "culpa",
     "Hidden": true,
-    "FullName": "Marquis Abshire",
+    "FullName": "Prof. Dulce Sierra Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 470
+        "FieldLength": 755
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=doloremque
+GET /api/v1/List/Competitor/MDOItems?query=sunt
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Legros-Okuneva",
-    "ToolTip": "Et consequuntur dignissimos hic fugiat aspernatur dolor.",
-    "Deleted": true,
-    "Rank": 212,
-    "Type": "et",
+    "Id": 580,
+    "Name": "Breitenberg-Fadel",
+    "ToolTip": "Quis occaecati consequatur vel porro doloremque magnam.",
+    "Deleted": false,
+    "Rank": 793,
+    "Type": "vero",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Huel LLC",
-        "ToolTip": "Sint eos eos iste.",
-        "Deleted": false,
-        "Rank": 211,
-        "Type": "beatae",
+        "Id": 84,
+        "Name": "Rau, Murray and Vandervort",
+        "ToolTip": "Quasi molestiae natus.",
+        "Deleted": true,
+        "Rank": 676,
+        "Type": "laudantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ex",
-        "ColorBlock": 516,
-        "ExtraInfo": "optio",
-        "StyleHint": "occaecati",
-        "FullName": "Christina Larkin",
+        "IconHint": "nisi",
+        "ColorBlock": 371,
+        "ExtraInfo": "nostrum",
+        "StyleHint": "eos",
+        "FullName": "Ciara Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 172
+            "FieldType": "System.String",
+            "FieldLength": 738
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 572,
-    "ExtraInfo": "doloribus",
-    "StyleHint": "expedita",
-    "FullName": "Madge Rodriguez",
+    "IconHint": "vel",
+    "ColorBlock": 117,
+    "ExtraInfo": "atque",
+    "StyleHint": "qui",
+    "FullName": "Catherine Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 703
+        "FieldLength": 502
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 904,
-  "Name": "Leannon Group",
-  "Tooltip": "dignissimos",
+  "Id": 450,
+  "Name": "Dickens-Paucek",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 493,
+  "Rank": 468,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "accusantium",
+  "UseGroupsAndHeadings": false,
+  "ListType": "enim",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldLength": 813
     }
   },
   "_Links": {

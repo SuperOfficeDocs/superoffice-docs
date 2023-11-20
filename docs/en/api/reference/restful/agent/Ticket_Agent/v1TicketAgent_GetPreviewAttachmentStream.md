@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Ticket/GetPreviewAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 908
+  "AttachmentId": 689
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Senger LLC",
-  "Type": "architecto",
-  "Size": 782,
+  "Name": "Abshire LLC",
+  "Type": "consectetur",
+  "Size": 728,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldType": "System.String",
+      "FieldLength": 801
     }
   }
 }

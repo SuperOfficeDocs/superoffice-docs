@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "voluptates",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "voluptates",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 37,
-  "Name": "Vandervort, Armstrong and Beer",
+  "WebhookId": 893,
+  "Name": "Wilkinson Group",
   "Events": [
-    "sit",
-    "aut"
+    "modi",
+    "magni"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptatem",
+  "Secret": "est",
   "State": "Active",
-  "Type": "omnis",
+  "Type": "sed",
   "Headers": {
-    "Headers1": "dolores",
-    "Headers2": "dolores"
+    "Headers1": "accusamus",
+    "Headers2": "commodi"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-06-12T11:06:42.6471966+02:00",
+  "Registered": "2008-02-02T13:38:17.8744364+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-11-03T11:06:42.6471966+01:00",
+  "Updated": "2007-11-05T13:38:17.8744364+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "blake@kuphalparisian.uk",
+  "ErrorsEmail": "eliza@ledner.us",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

@@ -86,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vel",
-  "ProviderName": "Hirthe-Kling",
-  "StorageKey": "eaque",
-  "Restrictions": "error",
-  "StaticColumns": "ut"
+  "StorageType": "exercitationem",
+  "ProviderName": "Rogahn-Reynolds",
+  "StorageKey": "veniam",
+  "Restrictions": "alias",
+  "StaticColumns": "praesentium"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Romaguera, Lesch and Stanton",
-      "Operator": "qui",
+      "Name": "O'Reilly, Block and White",
+      "Operator": "molestiae",
       "Values": [
-        "perspiciatis",
-        "est"
+        "repellendus",
+        "dolorem"
       ],
       "DisplayValues": [
-        "vero",
-        "natus"
+        "modi",
+        "dolores"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 267,
+      "InterParenthesis": 158,
       "InterOperator": "And",
-      "UniqueHash": 397
+      "UniqueHash": 69
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bartoletti, Lubowitz and Blick",
-      "DisplayTooltip": "rerum",
-      "DisplayType": "cupiditate",
+      "DisplayName": "Klocko, Heller and Carroll",
+      "DisplayTooltip": "voluptates",
+      "DisplayType": "alias",
       "CanOrderBy": false,
-      "Name": "Pfeffer-McKenzie",
-      "CanRestrictBy": true,
-      "RestrictionType": "est",
-      "RestrictionListName": "Wehner, McClure and Schmitt",
-      "IsVisible": false,
-      "ExtraInfo": "repellendus",
-      "Width": "et",
-      "IconHint": "eos",
-      "HeadingIconHint": "qui"
+      "Name": "Ledner Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "consequatur",
+      "RestrictionListName": "Hauck, Wisozk and Nitzsche",
+      "IsVisible": true,
+      "ExtraInfo": "qui",
+      "Width": "quis",
+      "IconHint": "nam",
+      "HeadingIconHint": "eum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Olson-King",
-      "PrimaryKey": 841,
+      "EntityName": "Thompson Inc and Sons",
+      "PrimaryKey": 976,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ea",
-          "TooltipHint": "repellendus",
-          "LinkHint": "numquam"
+          "DisplayValue": "eligendi",
+          "TooltipHint": "enim",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "corporis",
+      "LinkHint": "sapiente",
+      "StyleHint": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 43
+          "FieldLength": 847
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Gutkowski LLC",
-      "Description": "Proactive tertiary open architecture",
-      "Rank": 29,
+      "Name": "Torphy-Kiehn",
+      "Description": "Implemented user-facing ability",
+      "Rank": 633,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutkowski LLC",
-      "Description": "Proactive tertiary open architecture",
-      "Rank": 29,
+      "Name": "Torphy-Kiehn",
+      "Description": "Implemented user-facing ability",
+      "Rank": 633,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldLength": 155
     }
   }
 }

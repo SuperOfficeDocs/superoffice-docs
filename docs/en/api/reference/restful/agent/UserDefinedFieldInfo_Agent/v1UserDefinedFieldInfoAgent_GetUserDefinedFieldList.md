@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 597,
-    "ColumnId": 701,
-    "FieldDefault": "quia",
-    "FieldHeight": 325,
-    "FieldLabel": "cum",
-    "FieldLeft": 524,
-    "FieldTop": 57,
+    "UDefFieldId": 506,
+    "ColumnId": 913,
+    "FieldDefault": "commodi",
+    "FieldHeight": 522,
+    "FieldLabel": "dolorem",
+    "FieldLeft": 341,
+    "FieldTop": 520,
     "FieldType": "Checkbox",
-    "FieldWidth": 438,
-    "FormatMask": "dolore",
+    "FieldWidth": 198,
+    "FormatMask": "pariatur",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 733,
-    "LabelLeft": 856,
-    "LabelTop": 896,
-    "LabelWidth": 229,
-    "LastVersionId": 352,
-    "ListTableId": 29,
+    "LabelHeight": 403,
+    "LabelLeft": 960,
+    "LabelTop": 366,
+    "LabelWidth": 788,
+    "LastVersionId": 93,
+    "ListTableId": 667,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 40,
-    "ProgId": "velit",
-    "IsReadOnly": true,
-    "ShortLabel": "illo",
-    "TabOrder": 619,
-    "TextLength": 844,
-    "Tooltip": "inventore",
-    "UdefIdentity": 351,
-    "UDListDefinitionId": 846,
+    "Page1LineNo": 350,
+    "ProgId": "ea",
+    "IsReadOnly": false,
+    "ShortLabel": "accusamus",
+    "TabOrder": 160,
+    "TextLength": 42,
+    "Tooltip": "commodi",
+    "UdefIdentity": 279,
+    "UDListDefinitionId": 127,
     "Justification": "Center",
-    "Version": 34,
-    "TemplateVariableName": "Okuneva, Dare and Abshire",
+    "Version": 50,
+    "TemplateVariableName": "Kilback, Ward and Runolfsdottir",
     "HasBeenPublished": false,
-    "MdoListName": "Berge-Durgan",
+    "MdoListName": "Fritsch Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 110
+        "FieldType": "System.Int32",
+        "FieldLength": 414
       }
     }
   }

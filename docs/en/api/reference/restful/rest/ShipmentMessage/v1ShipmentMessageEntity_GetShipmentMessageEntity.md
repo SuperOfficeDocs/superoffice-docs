@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 845,
-  "PlainMessage": "voluptatem",
-  "HtmlMessage": "fugiat",
-  "SmsMessage": "qui",
-  "Description": "Proactive bifurcated moderator",
-  "Subject": "ut",
-  "FolderId": 538,
-  "HeaderField": "eos",
-  "Design": "aut",
+  "ShipmentMessageId": 910,
+  "PlainMessage": "veritatis",
+  "HtmlMessage": "nihil",
+  "SmsMessage": "itaque",
+  "Description": "Secured well-modulated flexibility",
+  "Subject": "explicabo",
+  "FolderId": 917,
+  "HeaderField": "tenetur",
+  "Design": "ab",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Enterprise-wide scalable projection",
-  "AccessKey": "aut",
-  "DocumentMessage": 57,
-  "Registered": "2006-04-13T11:06:42.2228527+02:00",
-  "RegisteredAssociateId": 41,
-  "Updated": "2008-03-21T11:06:42.2228527+01:00",
-  "UpdatedAssociateId": 965,
-  "UpdatedCount": 985,
+  "LongDescription": "Enterprise-wide background challenge",
+  "AccessKey": "recusandae",
+  "DocumentMessage": 680,
+  "Registered": "2001-04-17T13:38:17.6711737+02:00",
+  "RegisteredAssociateId": 821,
+  "Updated": "2023-09-05T13:38:17.6711737+02:00",
+  "UpdatedAssociateId": 137,
+  "UpdatedCount": 745,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldLength": 275
     }
   },
   "_Links": {

@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 906
+  "SuggestedDocumentId": 280
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 300,
+  "DocumentId": 816,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "possimus",
-  "Header": "sit",
-  "Name": "Strosin LLC",
-  "OurRef": "eum",
-  "YourRef": "provident",
-  "CreatedDate": "2017-09-03T11:06:34.4270635+02:00",
-  "UpdatedDate": "2023-02-22T11:06:34.4270635+01:00",
-  "Description": "Horizontal multimedia framework",
+  "Attention": "soluta",
+  "Header": "autem",
+  "Name": "Wilkinson, Kuvalis and Nikolaus",
+  "OurRef": "similique",
+  "YourRef": "ad",
+  "CreatedDate": "2014-12-17T13:38:13.4990023+01:00",
+  "UpdatedDate": "2016-09-23T13:38:13.4990023+02:00",
+  "Description": "Persistent scalable pricing structure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-12-11T11:06:34.4270635+01:00",
-  "ExternalRef": "eaque",
+  "Date": "2003-05-23T13:38:13.4990023+02:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 525,
+  "ActiveLinks": 956,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Dickens-Bruen",
-      "Id": 606,
-      "Description": "Profound dynamic attitude",
-      "ExtraInfo": "provident",
-      "LinkId": 575,
+      "EntityName": "Aufderhar LLC",
+      "Id": 282,
+      "Description": "Future-proofed exuding knowledge base",
+      "ExtraInfo": "et",
+      "LinkId": 565,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 849
+          "FieldType": "System.String",
+          "FieldLength": 245
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 530,
-  "Snum": 256,
+  "SuggestedDocumentId": 601,
+  "Snum": 282,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "1504301433"
+    "SuperOffice:1": "2085918936",
+    "SuperOffice:2": "Emerson Casper"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "et",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "et",
+    "CustomFields2": "sunt"
   },
-  "PublishEventDate": "2009-06-13T11:06:34.4270635+02:00",
-  "PublishTo": "1997-12-27T11:06:34.4270635+01:00",
-  "PublishFrom": "2011-10-19T11:06:34.4270635+02:00",
+  "PublishEventDate": "2003-12-07T13:38:13.4990023+01:00",
+  "PublishTo": "2010-02-14T13:38:13.4990023+01:00",
+  "PublishFrom": "2018-08-11T13:38:13.4990023+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 972,
+      "VisibleId": 871,
       "Visibility": "All",
-      "DisplayValue": "illo",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldType": "System.String",
+          "FieldLength": 495
         }
       }
     },
     {
-      "VisibleId": 972,
+      "VisibleId": 871,
       "Visibility": "All",
-      "DisplayValue": "illo",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldType": "System.String",
+          "FieldLength": 495
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldType": "System.String",
+      "FieldLength": 527
     }
   }
 }

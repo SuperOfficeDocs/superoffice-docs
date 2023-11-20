@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 579,
-    "Name": "Heaney-Collins",
-    "ToolTip": "Veritatis a.",
-    "Deleted": true,
-    "Rank": 274,
-    "Type": "velit",
-    "ColorBlock": 1000,
-    "IconHint": "quae",
+    "Id": 925,
+    "Name": "Fay-Pollich",
+    "ToolTip": "Repellendus velit atque explicabo.",
+    "Deleted": false,
+    "Rank": 777,
+    "Type": "molestiae",
+    "ColorBlock": 101,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2020-05-30T11:06:42.8659405+02:00",
+    "LastChanged": "2012-05-21T13:38:18.1087815+02:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Weissnat LLC",
-        "ToolTip": "Ad quod laudantium deleniti sed.",
+        "Id": 46,
+        "Name": "Ernser, Gorczany and Hamill",
+        "ToolTip": "Ab rerum ut sit.",
         "Deleted": false,
-        "Rank": 520,
-        "Type": "saepe",
-        "ColorBlock": 484,
-        "IconHint": "nesciunt",
-        "Selected": false,
-        "LastChanged": "2015-12-23T11:06:42.8659405+01:00",
+        "Rank": 386,
+        "Type": "aut",
+        "ColorBlock": 305,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "1999-01-05T13:38:18.1087815+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "laborum",
+        "ExtraInfo": "itaque",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Adam Mosciski"
+        "FullName": "Haven Griffin Dickinson IV"
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "voluptatibus",
-    "Hidden": false,
-    "FullName": "Mariam Donnelly"
+    "ExtraInfo": "veritatis",
+    "StyleHint": "nihil",
+    "Hidden": true,
+    "FullName": "Gladyce Lueilwitz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Langosh-Emard",
-    "ToolTip": "Debitis odit.",
+    "Id": 615,
+    "Name": "Konopelski LLC",
+    "ToolTip": "Labore quia rerum sequi.",
     "Deleted": false,
-    "Rank": 142,
-    "Type": "natus",
-    "ColorBlock": 171,
-    "IconHint": "aut",
+    "Rank": 610,
+    "Type": "cum",
+    "ColorBlock": 158,
+    "IconHint": "rem",
     "Selected": true,
-    "LastChanged": "2015-12-12T11:06:42.8659405+01:00",
+    "LastChanged": "2006-05-20T13:38:18.1087815+02:00",
     "ChildItems": [
       {
-        "Id": 574,
-        "Name": "Spinka, Feeney and Kshlerin",
-        "ToolTip": "Hic voluptas.",
-        "Deleted": false,
-        "Rank": 935,
-        "Type": "sed",
-        "ColorBlock": 505,
-        "IconHint": "iusto",
+        "Id": 887,
+        "Name": "Goldner LLC",
+        "ToolTip": "Temporibus blanditiis ut.",
+        "Deleted": true,
+        "Rank": 542,
+        "Type": "perspiciatis",
+        "ColorBlock": 272,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "1997-05-22T11:06:42.8659405+02:00",
+        "LastChanged": "2001-09-12T13:38:18.1087815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "recusandae",
-        "Hidden": false,
-        "FullName": "Camden Bashirian",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Carmel Homenick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 609
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
+    "ExtraInfo": "quo",
     "StyleHint": "fugiat",
-    "Hidden": false,
-    "FullName": "Mr. Jason Jose Harris II",
+    "Hidden": true,
+    "FullName": "Mr. Autumn Lowe DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldType": "System.String",
+        "FieldLength": 381
       }
     }
   }

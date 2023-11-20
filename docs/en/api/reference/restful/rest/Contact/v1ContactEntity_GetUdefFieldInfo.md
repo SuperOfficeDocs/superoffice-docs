@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 405,
-  "ColumnId": 562,
-  "FieldDefault": "velit",
-  "FieldHeight": 321,
-  "FieldLabel": "beatae",
-  "FieldLeft": 377,
-  "FieldTop": 226,
+  "UDefFieldId": 908,
+  "ColumnId": 893,
+  "FieldDefault": "nemo",
+  "FieldHeight": 381,
+  "FieldLabel": "qui",
+  "FieldLeft": 344,
+  "FieldTop": 568,
   "FieldType": "Checkbox",
-  "FieldWidth": 284,
-  "FormatMask": "vitae",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 200,
-  "LabelLeft": 1001,
-  "LabelTop": 934,
-  "LabelWidth": 318,
-  "LastVersionId": 938,
-  "ListTableId": 181,
+  "FieldWidth": 155,
+  "FormatMask": "qui",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 318,
+  "LabelLeft": 97,
+  "LabelTop": 365,
+  "LabelWidth": 895,
+  "LastVersionId": 163,
+  "ListTableId": 100,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 972,
-  "ProgId": "fugit",
-  "IsReadOnly": true,
-  "ShortLabel": "ut",
-  "TabOrder": 145,
-  "TextLength": 674,
-  "Tooltip": "dolor",
-  "UdefIdentity": 157,
-  "UDListDefinitionId": 228,
+  "Page1LineNo": 547,
+  "ProgId": "quaerat",
+  "IsReadOnly": false,
+  "ShortLabel": "perferendis",
+  "TabOrder": 722,
+  "TextLength": 737,
+  "Tooltip": "quis",
+  "UdefIdentity": 721,
+  "UDListDefinitionId": 91,
   "Justification": "Center",
-  "Version": 566,
-  "TemplateVariableName": "Botsford-Jast",
-  "HasBeenPublished": true,
-  "MdoListName": "Nolan-Nolan",
+  "Version": 62,
+  "TemplateVariableName": "Glover-Runte",
+  "HasBeenPublished": false,
+  "MdoListName": "Spinka Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 377
     }
   }
 }

@@ -60,6 +60,8 @@ generated: true
 
 * [GET Contact/Duplicates/{name}](v1ContactEntity_GetNameDepartmentDuplicates.md)
 
+* [GET Contact/DuplicateDomains/{domain}](v1ContactEntity_GetDomainDuplicates.md)
+
 * [GET Contact/{id}/Summary](v1ContactEntity_GetContactSummary.md)
 
 * [POST Contact/Validate](v1ContactEntity_ValidateContactEntity.md)

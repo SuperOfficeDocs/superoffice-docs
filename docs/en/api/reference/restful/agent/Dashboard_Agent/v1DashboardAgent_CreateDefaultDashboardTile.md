@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 131,
-  "Caption": "quod",
-  "Description": "Enterprise-wide optimizing customer loyalty",
-  "ChartName": "Bogan Group",
-  "ChartId": "repudiandae",
+  "DashboardTileId": 620,
+  "Caption": "autem",
+  "Description": "Face to face exuding benchmark",
+  "ChartName": "Runolfsson, Walsh and Harvey",
+  "ChartId": "illo",
   "IsDefault": false,
-  "AssociateId": 420,
-  "GroupId": 143,
-  "SelectionId": 495,
-  "Config": "eos",
+  "AssociateId": 16,
+  "GroupId": 352,
+  "SelectionId": 373,
+  "Config": "iusto",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Balistreri-Baumbach",
-      "Description": "Down-sized methodical analyzer",
+      "Name": "Walter, Thompson and Bauch",
+      "Description": "Digitized dedicated open system",
       "Type": "Boolean",
-      "ListName": "Stoltenberg, Glover and Leffler",
+      "ListName": "Dare Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "atque",
+      "Value": "deserunt",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 630
+          "FieldLength": 442
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 712,
+      "VisibleId": 824,
       "Visibility": "All",
-      "DisplayValue": "quos",
+      "DisplayValue": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 648
         }
       }
     },
     {
-      "VisibleId": 712,
+      "VisibleId": 824,
       "Visibility": "All",
-      "DisplayValue": "quos",
+      "DisplayValue": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 648
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 790
     }
   }
 }

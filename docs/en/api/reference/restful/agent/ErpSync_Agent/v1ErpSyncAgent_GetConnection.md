@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 351
+  "ErpConnectionId": 32
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 257,
-  "ErpConnectorId": 970,
-  "DisplayName": "Hartmann Inc and Sons",
-  "DisplayDescription": "Vision-oriented leading edge synergy",
+  "ErpConnectionId": 356,
+  "ErpConnectorId": 905,
+  "DisplayName": "Mohr, Stracke and Monahan",
+  "DisplayDescription": "Intuitive impactful core",
   "Active": false,
-  "ConnectionId": "fugiat",
-  "MostRecentTimestamp": "id",
+  "ConnectionId": "necessitatibus",
+  "MostRecentTimestamp": "et",
   "ConfigFields": {
-    "ConfigFields1": "perspiciatis",
-    "ConfigFields2": "ad"
+    "ConfigFields1": "vero",
+    "ConfigFields2": "maxime"
   },
-  "Deleted": false,
-  "AllAccess": false,
+  "Deleted": true,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    231,
-    864
+    382,
+    982
   ],
   "AssociateAccessIds": [
-    660,
-    815
+    902,
+    921
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 485
     }
   }
 }

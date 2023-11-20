@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 126,
-  "MinDate": "2009-11-18T11:06:34.4426806+01:00",
-  "MaxDate": "2017-06-24T11:06:34.4426806+02:00",
+  "DocumentPluginId": 116,
+  "MinDate": "2017-05-01T13:38:13.5146196+02:00",
+  "MaxDate": "1997-03-31T13:38:13.5146196+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 106,
-  "NumDocumentsAlreadyMigrated": 680,
+  "NumDocumentsOmitted": 126,
+  "NumDocumentsAlreadyMigrated": 997,
   "Documents": [
     {
-      "DocumentId": 96,
-      "ContactId": 582,
-      "PersonId": 633,
-      "SaleId": 980,
-      "ProjectId": 602,
-      "DocTmplId": 726,
-      "AssociateId": 116,
-      "UserGroupId": 601,
-      "VisibleForId": 309
+      "DocumentId": 344,
+      "ContactId": 857,
+      "PersonId": 768,
+      "SaleId": 989,
+      "ProjectId": 784,
+      "DocTmplId": 302,
+      "AssociateId": 143,
+      "UserGroupId": 702,
+      "VisibleForId": 661
     }
   ],
   "Associates": [
     {
-      "AssociateId": 609,
-      "EmailAddress": "josefina@glover.biz"
+      "AssociateId": 76,
+      "EmailAddress": "mellie_fay@quigley.biz"
     },
     {
-      "AssociateId": 609,
-      "EmailAddress": "josefina@glover.biz"
+      "AssociateId": 76,
+      "EmailAddress": "mellie_fay@quigley.biz"
     }
   ]
 }

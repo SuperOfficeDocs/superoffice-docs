@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 157,
-  "Name": "Williamson Inc and Sons",
-  "Rank": 532,
-  "Tooltip": "officia",
+  "ResourceId": 830,
+  "Name": "Langosh-Price",
+  "Rank": 782,
+  "Tooltip": "illum",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "quisquam"
+  "LocationAddress": "quaerat"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 878,
-  "Name": "Goyette-Dickinson",
-  "Rank": 362,
-  "Tooltip": "nihil",
+  "ResourceId": 42,
+  "Name": "Sipes, Pagac and West",
+  "Rank": 802,
+  "Tooltip": "consectetur",
   "Deleted": false,
   "IsLocation": true,
-  "LocationAddress": "consequatur",
+  "LocationAddress": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 914
+      "FieldLength": 781
     }
   }
 }

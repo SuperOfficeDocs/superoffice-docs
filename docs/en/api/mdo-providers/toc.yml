@@ -181,6 +181,8 @@ items:
   href: reference/emailfolder.md
 - name: EmailFromType
   href: reference/emailfromtype.md
+- name: EmailPhone
+  href: reference/emailphone.md
 - name: Emailrecipient
   href: reference/emailrecipient.md
 - name: EmailReplyToType
@@ -713,6 +715,10 @@ items:
   href: reference/ticketticketstatus.md
 - name: Ticket_freetextsearch
   href: reference/ticket_freetextsearch.md
+- name: Ticket_selection_freetextsearch
+  href: reference/ticket_selection_freetextsearch.md
+- name: Tickettype
+  href: reference/tickettype.md
 - name: Time
   href: reference/time.md
 - name: Timezone
@@ -771,6 +777,8 @@ items:
   href: reference/workflowgoaltype.md
 - name: WorkflowInstanceStatus
   href: reference/workflowinstancestatus.md
+- name: Workflowsplitoptiontype
+  href: reference/workflowsplitoptiontype.md
 - name: Workflowtimewaitalgorithm
   href: reference/workflowtimewaitalgorithm.md
 - name: Workflowtimewaitintervaltype

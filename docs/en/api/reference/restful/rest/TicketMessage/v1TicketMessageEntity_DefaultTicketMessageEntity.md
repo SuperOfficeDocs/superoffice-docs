@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 450,
+  "EjMessageId": 876,
   "Ticket": null,
-  "CreatedAt": "2000-06-26T11:06:42.316602+02:00",
+  "CreatedAt": "2017-11-01T13:38:17.7336652+01:00",
   "CreatedBy": null,
-  "Author": "voluptate",
+  "Author": "dolor",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "illum",
-  "TimeSpent": 360,
-  "Body": "sunt",
-  "HtmlBody": "sed",
-  "EmailHeader": "aubree_mcdermott@green.info",
-  "DebugInfo": "repellendus",
-  "MailSorter": "est",
+  "MessageId": "et",
+  "TimeSpent": 216,
+  "Body": "perspiciatis",
+  "HtmlBody": "numquam",
+  "EmailHeader": "georgette.kautzer@wizastamm.name",
+  "DebugInfo": "quaerat",
+  "MailSorter": "autem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "totam",
+  "SearchTitle": "repudiandae",
   "MessageHeaders": [
     {
-      "Id": 663,
-      "Name": "Cronin Inc and Sons",
-      "Value": "temporibus",
+      "Id": 509,
+      "Name": "Schiller-Pagac",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,49 +121,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 85
         }
       }
     }
   ],
   "Important": false,
-  "Language": "fuga",
-  "Sentiment": 748,
-  "SentimentConfidence": 76,
+  "Language": "doloribus",
+  "Sentiment": 659,
+  "SentimentConfidence": 379,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 963,
-      "Name": "Bogan-Larkin",
-      "ContentType": "et",
-      "AttSize": 677,
-      "InlineImage": false,
-      "ContentId": "praesentium",
-      "AuthKey": "nulla",
+      "AttachmentId": 1001,
+      "Name": "Torp Group",
+      "ContentType": "totam",
+      "AttSize": 573,
+      "InlineImage": true,
+      "ContentId": "omnis",
+      "AuthKey": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 569
+          "FieldType": "System.Int32",
+          "FieldLength": 279
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "neque"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "aut"
+    "CustomFields1": "dolores",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 717
     }
   }
 }

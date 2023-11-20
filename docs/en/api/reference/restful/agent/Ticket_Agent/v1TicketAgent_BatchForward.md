@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/Ticket/BatchForward
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    805,
-    836
+    862,
+    211
   ],
   "To": [
-    "necessitatibus",
-    "sed"
+    "ducimus",
+    "quaerat"
   ],
   "Cc": [
-    "autem",
-    "est"
+    "culpa",
+    "quia"
   ],
   "Bcc": [
-    "et",
-    "dolores"
+    "aut",
+    "culpa"
   ],
-  "Comment": "voluptates",
+  "Comment": "illo",
   "CloseTicket": false
 }
 ```
@@ -106,5 +106,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-859
+975
 ```

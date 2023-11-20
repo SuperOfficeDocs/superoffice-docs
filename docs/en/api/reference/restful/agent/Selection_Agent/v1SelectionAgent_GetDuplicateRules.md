@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sporer, Metz and White",
-    "DisplayName": "Medhurst, Smith and Schulist",
-    "DisplayTooltip": "est",
+    "Name": "Schroeder Inc and Sons",
+    "DisplayName": "Wilkinson Group",
+    "DisplayTooltip": "sunt",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldLength": 183
       }
     }
   },
   {
-    "Name": "Sporer, Metz and White",
-    "DisplayName": "Medhurst, Smith and Schulist",
-    "DisplayTooltip": "est",
+    "Name": "Schroeder Inc and Sons",
+    "DisplayName": "Wilkinson Group",
+    "DisplayTooltip": "sunt",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldLength": 183
       }
     }
   }

@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 919,
-  "Name": "Lynch-Torp",
-  "Tooltip": "architecto",
+  "Id": 810,
+  "Name": "Bode, Gorczany and Brown",
+  "Tooltip": "est",
   "Deleted": true,
-  "UdListDefinitionId": 506,
-  "Rank": 52
+  "UdListDefinitionId": 338,
+  "Rank": 408
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 282,
-  "Name": "Mayert-Labadie",
-  "Tooltip": "error",
+  "Id": 251,
+  "Name": "Kemmer-Jakubowski",
+  "Tooltip": "ut",
   "Deleted": true,
-  "UdListDefinitionId": 777,
-  "Rank": 127,
+  "UdListDefinitionId": 178,
+  "Rank": 720,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldType": "System.String",
+      "FieldLength": 165
     }
   }
 }

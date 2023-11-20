@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 710,
-  "Name": "Lang, Jerde and Batz",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 62,
-  "IsCustomList": false,
+  "Id": 615,
+  "Name": "Schuster-Adams",
+  "Tooltip": "totam",
+  "Deleted": true,
+  "Rank": 718,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quibusdam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 510,
-  "Name": "Tillman Inc and Sons",
-  "Tooltip": "est",
+  "Id": 306,
+  "Name": "Buckridge Group",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 561,
+  "Rank": 994,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nam",
+  "ListType": "optio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldType": "System.Int32",
+      "FieldLength": 722
     }
   }
 }

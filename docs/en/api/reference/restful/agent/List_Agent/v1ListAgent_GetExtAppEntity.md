@@ -26,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=972
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=903
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 180,
-  "Name": "Bernhard Inc and Sons",
-  "Tooltip": "vero",
-  "Deleted": true,
-  "Rank": 301,
-  "Filename": "nihil",
-  "Parameters": "nisi",
-  "Workdir": "hic",
+  "ExtAppId": 697,
+  "Name": "Metz-Spinka",
+  "Tooltip": "reprehenderit",
+  "Deleted": false,
+  "Rank": 188,
+  "Filename": "quod",
+  "Parameters": "illum",
+  "Workdir": "non",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 170,
-  "WaitToFinish": false,
+  "Icon": 597,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "sequi",
+  "Path": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 124
     }
   }
 }

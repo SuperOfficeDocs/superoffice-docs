@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Casper-Jerde",
+  "Name": "Hickle, Doyle and Gorczany",
   "ForceFlatList": true,
-  "AdditionalInfo": "ut",
+  "AdditionalInfo": "sint",
   "HistoryItems": [
-    118,
-    416
+    698,
+    537
   ],
   "OnlyHistory": true
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 345,
-    "Name": "Reichel-Ritchie",
-    "ToolTip": "Distinctio animi.",
-    "Deleted": false,
-    "Rank": 847,
-    "Type": "et",
+    "Id": 538,
+    "Name": "Krajcik Inc and Sons",
+    "ToolTip": "Facere et maiores.",
+    "Deleted": true,
+    "Rank": 643,
+    "Type": "error",
     "ChildItems": [
       {
-        "Id": 595,
-        "Name": "Kuhic-Barton",
-        "ToolTip": "Dolorum quia eum.",
+        "Id": 677,
+        "Name": "Streich, Skiles and Stanton",
+        "ToolTip": "Temporibus molestias et pariatur.",
         "Deleted": true,
-        "Rank": 104,
-        "Type": "veritatis",
+        "Rank": 913,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 455,
-        "ExtraInfo": "perferendis",
-        "StyleHint": "magni",
-        "FullName": "Maiya Nolan",
+        "IconHint": "optio",
+        "ColorBlock": 980,
+        "ExtraInfo": "rem",
+        "StyleHint": "enim",
+        "FullName": "Ciara Treutel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 723
+            "FieldType": "System.Int32",
+            "FieldLength": 842
           }
         }
       }
     ],
-    "IconHint": "autem",
-    "ColorBlock": 935,
-    "ExtraInfo": "nihil",
-    "StyleHint": "eos",
-    "FullName": "Miss Estel Mraz",
+    "IconHint": "iusto",
+    "ColorBlock": 248,
+    "ExtraInfo": "dolor",
+    "StyleHint": "beatae",
+    "FullName": "Ms. Elliott Adams I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldLength": 327
       }
     }
   }

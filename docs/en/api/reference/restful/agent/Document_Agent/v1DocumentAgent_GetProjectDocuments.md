@@ -101,10 +101,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 462,
-  "StartTime": "2022-10-09T11:06:34.316457+02:00",
-  "EndTime": "2020-01-18T11:06:34.316457+01:00",
-  "Count": 801
+  "ProjectId": 296,
+  "StartTime": "1996-08-31T13:38:13.4208858+02:00",
+  "EndTime": "2012-03-11T13:38:13.4208858+01:00",
+  "Count": 565
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 121,
-    "Attention": "temporibus",
-    "Header": "qui",
-    "Name": "Tromp Group",
-    "OurRef": "facilis",
-    "YourRef": "impedit",
-    "Description": "Future-proofed responsive parallelism",
-    "DocumentTemplate": "aliquam",
-    "IsPublished": false,
-    "PersonId": 240,
-    "PersonFullName": "Willie Reilly",
-    "AssociateFullName": "Jasper Beatty",
-    "ContactId": 9,
-    "ContactName": "Kautzer, Blanda and Morissette",
-    "ProjectId": 631,
-    "ProjectName": "Sipes-Hilpert",
-    "AssociateId": 190,
-    "Snum": 169,
-    "SaleId": 720,
-    "SaleName": "Halvorson Inc and Sons",
+    "DocumentId": 239,
+    "Attention": "rerum",
+    "Header": "perspiciatis",
+    "Name": "Erdman LLC",
+    "OurRef": "magnam",
+    "YourRef": "ipsam",
+    "Description": "Enhanced impactful focus group",
+    "DocumentTemplate": "est",
+    "IsPublished": true,
+    "PersonId": 152,
+    "PersonFullName": "Tamia Bernhard",
+    "AssociateFullName": "Prof. Edgar Schmeler II",
+    "ContactId": 810,
+    "ContactName": "Turcotte-Prosacco",
+    "ProjectId": 595,
+    "ProjectName": "Feeney LLC",
+    "AssociateId": 983,
+    "Snum": 848,
+    "SaleId": 546,
+    "SaleName": "Conn Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 968
+        "FieldType": "System.Int32",
+        "FieldLength": 327
       }
     }
   }

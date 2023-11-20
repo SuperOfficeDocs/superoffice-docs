@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Dicki, Hessel and Ziemann",
-    "ToolTip": "Tempore et voluptatem unde.",
-    "Deleted": false,
-    "Rank": 781,
-    "Type": "libero",
-    "ColorBlock": 323,
-    "IconHint": "sed",
+    "Id": 58,
+    "Name": "Becker-Herzog",
+    "ToolTip": "Voluptas quaerat laborum.",
+    "Deleted": true,
+    "Rank": 141,
+    "Type": "vitae",
+    "ColorBlock": 603,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2016-06-14T11:06:43.0847005+02:00",
+    "LastChanged": "2004-12-09T13:38:18.2337719+01:00",
     "ChildItems": [
       {
-        "Id": 944,
-        "Name": "Kertzmann Group",
-        "ToolTip": "Ullam eaque tempore.",
+        "Id": 810,
+        "Name": "Swaniawski, Hills and Johnston",
+        "ToolTip": "Aut ipsam et dolores ut voluptatem quia fugit.",
         "Deleted": false,
-        "Rank": 871,
-        "Type": "odio",
-        "ColorBlock": 975,
-        "IconHint": "dolore",
-        "Selected": false,
-        "LastChanged": "2018-12-28T11:06:43.0847005+01:00",
+        "Rank": 863,
+        "Type": "amet",
+        "ColorBlock": 658,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2011-08-14T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "aut",
+        "ExtraInfo": "quis",
+        "StyleHint": "repellat",
         "Hidden": true,
-        "FullName": "Elda Mills",
+        "FullName": "Viva Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 491
+            "FieldType": "System.String",
+            "FieldLength": 48
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "recusandae",
-    "Hidden": false,
-    "FullName": "Ward Darius Conroy PhD",
+    "ExtraInfo": "et",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Ms. Verdie Melyna Casper",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 744
       }
     }
   }

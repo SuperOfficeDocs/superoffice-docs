@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 260,
-  "Name": "Paucek-Davis",
-  "Tooltip": "quidem",
+  "Id": 38,
+  "Name": "Gulgowski-Mann",
+  "Tooltip": "quas",
   "Deleted": false,
-  "Rank": 496,
-  "IsCustomList": false,
+  "Rank": 915,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nam",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldType": "System.String",
+      "FieldLength": 49
     }
   },
   "_Links": {

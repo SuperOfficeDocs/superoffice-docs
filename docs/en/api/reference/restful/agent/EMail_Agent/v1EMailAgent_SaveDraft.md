@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 538,
-      "ContactName": "Murphy LLC",
-      "PersonId": 718,
-      "PersonName": "Koepp LLC",
-      "AssociateId": 59,
-      "Address": "voluptates",
-      "EmailId": 399,
+      "ContactId": 236,
+      "ContactName": "Rowe Inc and Sons",
+      "PersonId": 803,
+      "PersonName": "Simonis Inc and Sons",
+      "AssociateId": 520,
+      "Address": "quas",
+      "EmailId": 737,
       "DuplicatePersonIds": [
-        725,
-        945
+        881,
+        936
       ],
-      "Name": "Balistreri-Feest",
+      "Name": "Christiansen, Batz and Gorczany",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 645
+          "FieldType": "System.String",
+          "FieldLength": 410
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 396,
-      "ContactName": "Streich LLC",
-      "PersonId": 123,
-      "PersonName": "Weber, Leuschke and Fahey",
-      "AssociateId": 772,
-      "Address": "ullam",
-      "EmailId": 324,
+      "ContactId": 38,
+      "ContactName": "Flatley Group",
+      "PersonId": 30,
+      "PersonName": "Lindgren-Cormier",
+      "AssociateId": 279,
+      "Address": "et",
+      "EmailId": 136,
       "DuplicatePersonIds": [
-        453,
-        935
+        215,
+        636
       ],
-      "Name": "Schowalter-Dickens",
+      "Name": "Homenick Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 44
+          "FieldLength": 589
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 530,
-      "ContactName": "Dach Group",
-      "PersonId": 810,
-      "PersonName": "Rath LLC",
-      "AssociateId": 453,
-      "Address": "nisi",
-      "EmailId": 655,
+      "ContactId": 691,
+      "ContactName": "Kozey-Bahringer",
+      "PersonId": 54,
+      "PersonName": "Rosenbaum, Murphy and Hand",
+      "AssociateId": 100,
+      "Address": "pariatur",
+      "EmailId": 429,
       "DuplicatePersonIds": [
-        906,
-        413
+        353,
+        305
       ],
-      "Name": "Mante, Willms and Reichel",
+      "Name": "Mayert, Christiansen and Simonis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 363
         }
       }
     }
   ],
-  "Subject": "quo",
-  "HTMLBody": "perspiciatis",
+  "Subject": "temporibus",
+  "HTMLBody": "voluptate",
   "From": null,
-  "Sent": "1999-06-05T11:06:34.473931+02:00",
-  "Size": 173,
+  "Sent": "1998-11-21T13:38:13.5302438+01:00",
+  "Size": 775,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ex",
-  "PlainBody": "quisquam",
-  "IsSent": true,
+  "MessageID": "omnis",
+  "PlainBody": "non",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 825,
+  "ServerId": 619,
   "Attachments": [
     {
-      "Description": "Reactive reciprocal capacity",
-      "Filename": "iste",
-      "Size": 576,
-      "Type": "quae",
-      "Encoding": "assumenda",
-      "Id": "iure",
-      "Disposition": "est",
-      "IsSafeFileExtension": true,
+      "Description": "Phased dedicated instruction set",
+      "Filename": "rerum",
+      "Size": 747,
+      "Type": "ut",
+      "Encoding": "quisquam",
+      "Id": "velit",
+      "Disposition": "vitae",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1000
+          "FieldLength": 474
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bode-Kessler",
+      "Name": "Stiedemann LLC",
       "Values": [
-        "laudantium",
-        "eum"
+        "vitae",
+        "voluptatum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 364
+          "FieldType": "System.Int32",
+          "FieldLength": 207
         }
       }
     },
     {
-      "Name": "Bode-Kessler",
+      "Name": "Stiedemann LLC",
       "Values": [
-        "laudantium",
-        "eum"
+        "vitae",
+        "voluptatum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 364
+          "FieldType": "System.Int32",
+          "FieldLength": 207
         }
       }
     }
   ],
-  "FolderName": "Bogisich-Pacocha",
-  "EmailItemId": 578,
-  "AccountId": 105,
-  "ReceivedAt": "2009-08-10T11:06:34.473931+02:00",
+  "FolderName": "Brekke LLC",
+  "EmailItemId": 265,
+  "AccountId": 128,
+  "ReceivedAt": "2015-04-19T13:38:13.5302438+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-06-19T11:06:34.473931+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2019-04-18T13:38:13.5302438+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 494
     }
   }
 }

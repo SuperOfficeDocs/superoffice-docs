@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 288,
-    "FieldName": "Corkery Group",
-    "Label": "ex",
-    "Tooltip": "ut",
+    "QuoteLineConfigurationId": 251,
+    "FieldName": "Cummerata Inc and Sons",
+    "Label": "aut",
+    "Tooltip": "accusantium",
     "Editable": false,
     "InUse": true,
     "Mandatory": false,
-    "Rank": 25,
+    "Rank": 782,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldLength": 838
       }
     }
   }

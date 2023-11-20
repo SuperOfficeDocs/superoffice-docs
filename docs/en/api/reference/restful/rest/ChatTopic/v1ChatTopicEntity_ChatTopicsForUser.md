@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 710,
-    "Name": "Osinski-Ferry",
-    "Description": "Automated multimedia core",
-    "WelcomeMessage": "in",
+    "ChatTopicId": 228,
+    "Name": "Howe Inc and Sons",
+    "Description": "Seamless executive groupware",
+    "WelcomeMessage": "similique",
     "Language": null,
-    "LastAccept": "2003-06-03T11:06:41.550993+02:00",
-    "SecondsPrAccept": 731,
-    "AlertRecipient": "molestiae",
+    "LastAccept": "2010-02-07T13:38:17.1868579+01:00",
+    "SecondsPrAccept": 375,
+    "AlertRecipient": "modi",
     "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "aut",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "ad",
-    "WarnNewChatMinutes": 572,
-    "WarnManagerNewChatMinutes": 392,
+    "CollectConsent": true,
+    "BadgeHeader": "ut",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "aut",
+    "WarnNewChatMinutes": 914,
+    "WarnManagerNewChatMinutes": 751,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": true,
+    "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 287,
-    "WarnManagerChatMessageMinutes": 996,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 459,
+    "WarnManagerChatMessageMinutes": 915,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 732,
-    "OfflineFormQueueLength": 304,
-    "WidgetEnableRating": true,
-    "WidgetRatingText": "deserunt",
+    "OfflineFormTimeLimit": 923,
+    "OfflineFormQueueLength": 77,
+    "WidgetEnableRating": false,
+    "WidgetRatingText": "repellat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldLength": 457
       }
     }
   }

@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 824,
-  "WorkflowId": 898,
+  "WorkflowTriggerId": 401,
+  "WorkflowId": 700,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Breitenberg Group",
-      "Description": "Re-contextualized user-facing approach",
-      "Rank": 841,
+      "Name": "Franecki, Okuneva and Hintz",
+      "Description": "Vision-oriented encompassing customer loyalty",
+      "Rank": 811,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Breitenberg Group",
-      "Description": "Re-contextualized user-facing approach",
-      "Rank": 841,
+      "Name": "Franecki, Okuneva and Hintz",
+      "Description": "Vision-oriented encompassing customer loyalty",
+      "Rank": 811,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 449,
-  "WorkflowId": 968,
+  "WorkflowTriggerId": 21,
+  "WorkflowId": 743,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Gottlieb, Russel and Schroeder",
-      "Description": "Automated asynchronous orchestration",
-      "Rank": 127,
+      "Name": "Doyle-Kozey",
+      "Description": "Focused empowering open architecture",
+      "Rank": 909,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gottlieb, Russel and Schroeder",
-      "Description": "Automated asynchronous orchestration",
-      "Rank": 127,
+      "Name": "Doyle-Kozey",
+      "Description": "Focused empowering open architecture",
+      "Rank": 909,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldType": "System.String",
+      "FieldLength": 715
     }
   }
 }

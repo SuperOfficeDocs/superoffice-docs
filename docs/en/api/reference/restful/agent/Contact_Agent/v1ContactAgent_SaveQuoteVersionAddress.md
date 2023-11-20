@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 364,
+  "QuoteVersionId": 998,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 176
+  "CountryId": 352
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 2701.508,
-  "Wgs84Longitude": 24018.976,
+  "Wgs84Latitude": 6659.75,
+  "Wgs84Longitude": 24811.878,
   "LocalizedAddress": [
     [
       {
-        "Name": "Lind-Jones",
-        "Value": "maxime",
-        "Tooltip": "non",
-        "Label": "in",
-        "ValueLength": 818,
-        "AddressType": "et",
+        "Name": "Barrows, Schuster and Jacobson",
+        "Value": "rem",
+        "Tooltip": "impedit",
+        "Label": "consequatur",
+        "ValueLength": 436,
+        "AddressType": "quisquam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 517
+            "FieldLength": 163
           }
         }
       }
     ],
     [
       {
-        "Name": "Jacobs Inc and Sons",
-        "Value": "facere",
-        "Tooltip": "non",
-        "Label": "nisi",
-        "ValueLength": 592,
-        "AddressType": "magnam",
+        "Name": "Kuhlman Group",
+        "Value": "sunt",
+        "Tooltip": "et",
+        "Label": "et",
+        "ValueLength": 857,
+        "AddressType": "error",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 781
+            "FieldType": "System.Int32",
+            "FieldLength": 595
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "perferendis",
+  "Formatted": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldType": "System.Int32",
+      "FieldLength": 386
     }
   }
 }

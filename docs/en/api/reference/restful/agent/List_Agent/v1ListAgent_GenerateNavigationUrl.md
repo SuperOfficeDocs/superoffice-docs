@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/List/GenerateNavigationUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Rath LLC"
+  "WindowName": "Fahey-Fay"
 }
 ```
 

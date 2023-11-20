@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 848,
-    "Name": "McGlynn-Padberg",
-    "Tooltip": "facilis",
+    "HeadingId": 738,
+    "Name": "Hyatt, Rice and Sipes",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 165,
-    "UdListDefinitionId": 458,
+    "Rank": 887,
+    "UdListDefinitionId": 15,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 137
       }
     }
   }

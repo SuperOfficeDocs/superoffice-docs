@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "zane@nolan.us",
-  "Counts": 50,
-  "Code": 406,
+  "EmailAddress": "josue@parisianchamplin.info",
+  "Counts": 668,
+  "Code": 218,
   "Reason": ""
 }
 ```

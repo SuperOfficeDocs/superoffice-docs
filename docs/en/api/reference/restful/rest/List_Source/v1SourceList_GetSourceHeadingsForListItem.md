@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Miller Inc and Sons",
-    "ToolTip": "Repellat magni nihil earum labore sed unde.",
-    "Deleted": true,
-    "Rank": 990,
-    "Type": "quo",
-    "ColorBlock": 358,
-    "IconHint": "sed",
+    "Id": 473,
+    "Name": "Kautzer Inc and Sons",
+    "ToolTip": "Autem error.",
+    "Deleted": false,
+    "Rank": 350,
+    "Type": "illum",
+    "ColorBlock": 681,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "1999-08-30T11:06:43.0847005+02:00",
+    "LastChanged": "2013-01-01T13:38:18.2493876+01:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Schumm LLC",
-        "ToolTip": "Et ea laboriosam occaecati laudantium ut aut eum.",
+        "Id": 113,
+        "Name": "Kuhlman-Rau",
+        "ToolTip": "Deleniti sunt.",
         "Deleted": false,
-        "Rank": 936,
-        "Type": "beatae",
-        "ColorBlock": 639,
-        "IconHint": "voluptate",
+        "Rank": 486,
+        "Type": "error",
+        "ColorBlock": 133,
+        "IconHint": "corporis",
         "Selected": true,
-        "LastChanged": "1999-01-29T11:06:43.0847005+01:00",
+        "LastChanged": "1996-08-06T13:38:18.2493876+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "possimus",
-        "Hidden": false,
-        "FullName": "Craig Horacio Satterfield V",
+        "ExtraInfo": "impedit",
+        "StyleHint": "cupiditate",
+        "Hidden": true,
+        "FullName": "Ms. Rosa Elton Fadel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 612
+            "FieldLength": 311
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "possimus",
+    "ExtraInfo": "dolor",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Pietro Baumbach",
+    "FullName": "Earnest Darien Jast III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldType": "System.String",
+        "FieldLength": 69
       }
     }
   }

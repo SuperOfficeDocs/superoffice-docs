@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 216,
-  "Name": "Walter, Hansen and Kuvalis",
-  "Tooltip": "quo",
-  "SaveInDb": 631,
-  "Filename": "ab",
-  "DefaultOref": "nihil",
+  "DocumentTemplateId": 715,
+  "Name": "Leannon LLC",
+  "Tooltip": "ratione",
+  "SaveInDb": 522,
+  "Filename": "sed",
+  "DefaultOref": "enim",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 42,
-  "IntentId": 732,
+  "AutoeventId": 23,
+  "IntentId": 879,
   "IsDefaultPublished": false,
-  "Rank": 133,
-  "LoadTemplateFromPlugin": 643,
-  "MimeType": "voluptates",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 183,
+  "Rank": 539,
+  "LoadTemplateFromPlugin": 720,
+  "MimeType": "fugiat",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 426,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "sandrine@mullerheaney.uk",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "merlin@kozey.com",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "madalyn@konopelski.name",
+  "SenderEmailAddress": "colten@monahan.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 481
     }
   }
 }

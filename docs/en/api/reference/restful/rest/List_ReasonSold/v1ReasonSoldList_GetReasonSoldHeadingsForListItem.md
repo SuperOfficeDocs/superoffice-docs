@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Ruecker, Harris and Adams",
-    "ToolTip": "Vero perspiciatis ut aut minima fugiat quam est.",
-    "Deleted": false,
-    "Rank": 700,
-    "Type": "omnis",
-    "ColorBlock": 411,
-    "IconHint": "possimus",
-    "Selected": true,
-    "LastChanged": "2016-04-14T11:06:43.037826+02:00",
+    "Id": 932,
+    "Name": "Schiller, Runolfsson and Frami",
+    "ToolTip": "Magni et illo accusamus nemo veniam qui.",
+    "Deleted": true,
+    "Rank": 850,
+    "Type": "velit",
+    "ColorBlock": 715,
+    "IconHint": "molestiae",
+    "Selected": false,
+    "LastChanged": "1997-07-09T13:38:18.2025212+02:00",
     "ChildItems": [
       {
-        "Id": 562,
-        "Name": "Hamill LLC",
-        "ToolTip": "Nobis aut quos ex.",
+        "Id": 731,
+        "Name": "Lehner-Ebert",
+        "ToolTip": "Dicta ratione.",
         "Deleted": false,
-        "Rank": 709,
-        "Type": "quos",
-        "ColorBlock": 533,
-        "IconHint": "rerum",
+        "Rank": 727,
+        "Type": "minima",
+        "ColorBlock": 857,
+        "IconHint": "labore",
         "Selected": true,
-        "LastChanged": "2000-02-07T11:06:43.037826+01:00",
+        "LastChanged": "2000-01-25T13:38:18.2025212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "D'angelo Schultz",
+        "ExtraInfo": "velit",
+        "StyleHint": "nisi",
+        "Hidden": true,
+        "FullName": "Leonie Powlowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 987
+            "FieldLength": 525
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Kaelyn Larson PhD",
+    "ExtraInfo": "ut",
+    "StyleHint": "voluptatibus",
+    "Hidden": true,
+    "FullName": "Izaiah Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldLength": 648
       }
     }
   }

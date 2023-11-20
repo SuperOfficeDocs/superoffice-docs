@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 748,
-  "Field": "aut",
-  "RecordId": 504,
+  "RefCountsId": 567,
+  "Field": "porro",
+  "RecordId": 29,
   "SuggestedRecords": [
     {
-      "Id": 170,
-      "Name": "Stamm, Schroeder and Lesch",
-      "ToolTip": "Repudiandae rerum saepe.",
+      "Id": 321,
+      "Name": "Doyle Inc and Sons",
+      "ToolTip": "Ducimus et quidem autem eligendi velit quia laboriosam.",
       "Deleted": false,
-      "Rank": 814,
-      "Type": "facere",
+      "Rank": 790,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ad",
-      "ColorBlock": 461,
-      "ExtraInfo": "nisi",
-      "StyleHint": "nihil",
-      "FullName": "Hazel Schumm",
+      "IconHint": "eum",
+      "ColorBlock": 827,
+      "ExtraInfo": "enim",
+      "StyleHint": "vitae",
+      "FullName": "Emilie Jacobi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 543
+          "FieldType": "System.String",
+          "FieldLength": 681
         }
       }
     }
   ],
-  "CurrentValue": 1000,
-  "TravelPrefix": 893,
-  "SatPrefix": 890,
+  "CurrentValue": 558,
+  "TravelPrefix": 135,
+  "SatPrefix": 616,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 861
     }
   }
 }

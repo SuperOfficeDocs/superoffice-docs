@@ -26,7 +26,7 @@ Gets a TicketTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=442
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=756
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 172,
-  "Name": "Runolfsson LLC",
-  "Rank": 48,
-  "Tooltip": "et",
-  "Icon": "pariatur",
-  "DefaultTicketStatus": 528,
+  "TicketTypeId": 99,
+  "Name": "Thompson Group",
+  "Rank": 565,
+  "Tooltip": "esse",
+  "Icon": "ut",
+  "DefaultTicketStatus": 455,
   "TicketStatuses": [
-    402,
-    140
+    670,
+    135
   ],
-  "DefaultTicketPriority": 596,
+  "DefaultTicketPriority": 701,
   "TicketPriorities": [
-    586,
-    585
+    922,
+    968
   ],
-  "ReplyTemplate": 359,
+  "ReplyTemplate": 87,
   "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldLength": 217
     }
   }
 }

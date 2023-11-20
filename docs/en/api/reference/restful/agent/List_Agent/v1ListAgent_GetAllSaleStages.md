@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 479,
-    "Value": "provident",
-    "Tooltip": "doloremque",
-    "Probability": 697,
+    "SaleStageId": 561,
+    "Value": "nihil",
+    "Tooltip": "alias",
+    "Probability": 74,
     "Deleted": true,
-    "Rank": 435,
+    "Rank": 493,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldType": "System.String",
+        "FieldLength": 407
       }
     }
   }

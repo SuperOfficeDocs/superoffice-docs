@@ -83,7 +83,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 268,
+  "TargetYear": 572,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 92,
-  "Year": 71,
+  "TargetGroupId": 744,
+  "Year": 787,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 777,
+      "TargetAssignmentInfoId": 833,
       "Values": [
-        153,
-        770
+        352,
+        731
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 804,
-      "DimensionListItemDisplayName": "Langworth-Sipes",
+      "DimensionListItem": 336,
+      "DimensionListItemDisplayName": "Denesik-Stokes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 604
+          "FieldType": "System.String",
+          "FieldLength": 681
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldLength": 245
     }
   }
 }

@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 206,
-    "Name": "Von, Bins and Padberg",
-    "Description": "Quality-focused coherent info-mediaries",
+    "ProjectId": 191,
+    "Name": "Mertz-Carroll",
+    "Description": "Digitized next generation core",
     "URL": "http://www.example.com/",
-    "Type": "officiis",
-    "AssociateId": 87,
-    "AssociateFullName": "Lambert West DVM",
-    "TypeId": 724,
-    "Updated": "2009-06-24T11:06:35.1614465+02:00",
-    "StatusId": 249,
-    "Status": "cupiditate",
-    "TextId": 64,
-    "PublishTo": "2014-04-06T11:06:35.1614465+02:00",
-    "PublishFrom": "2015-02-03T11:06:35.1614465+01:00",
-    "IsPublished": false,
+    "Type": "odit",
+    "AssociateId": 549,
+    "AssociateFullName": "Miss Gerardo Skyla Mayer",
+    "TypeId": 572,
+    "Updated": "2017-09-13T13:38:13.9834617+02:00",
+    "StatusId": 141,
+    "Status": "vitae",
+    "TextId": 496,
+    "PublishTo": "2016-04-02T13:38:13.9834617+02:00",
+    "PublishFrom": "2004-04-05T13:38:13.9834617+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1242545",
-    "ActiveErpLinks": 258,
+    "ProjectNumber": "353199",
+    "ActiveErpLinks": 419,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldLength": 25
       }
     }
   }

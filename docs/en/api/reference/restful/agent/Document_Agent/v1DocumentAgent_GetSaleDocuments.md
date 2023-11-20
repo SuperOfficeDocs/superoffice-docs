@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 290
+  "SaleId": 108
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 290,
-    "Attention": "repellendus",
-    "Header": "quibusdam",
-    "Name": "Schumm LLC",
-    "OurRef": "iure",
-    "YourRef": "minus",
-    "Description": "Secured stable structure",
-    "DocumentTemplate": "repudiandae",
+    "DocumentId": 230,
+    "Attention": "earum",
+    "Header": "dolores",
+    "Name": "Fay, Stanton and Bins",
+    "OurRef": "labore",
+    "YourRef": "aut",
+    "Description": "Up-sized 5th generation interface",
+    "DocumentTemplate": "quae",
     "IsPublished": true,
-    "PersonId": 263,
-    "PersonFullName": "Mrs. Ryley Jeffry Greenfelder",
-    "AssociateFullName": "Rafael Kozey",
-    "ContactId": 810,
-    "ContactName": "Jacobs LLC",
-    "ProjectId": 793,
-    "ProjectName": "Jones Inc and Sons",
-    "AssociateId": 381,
-    "Snum": 849,
-    "SaleId": 319,
-    "SaleName": "Reichert-Lakin",
+    "PersonId": 635,
+    "PersonFullName": "Tillman Jacobs",
+    "AssociateFullName": "Jacinthe Beahan",
+    "ContactId": 468,
+    "ContactName": "Johnson-Mosciski",
+    "ProjectId": 500,
+    "ProjectName": "Blanda, Orn and Bruen",
+    "AssociateId": 725,
+    "Snum": 362,
+    "SaleId": 770,
+    "SaleName": "Walter, Kozey and Rau",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 5
+        "FieldType": "System.Int32",
+        "FieldLength": 94
       }
     }
   }

@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 803,
+  "DocumentId": 508,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "est",
-  "Header": "totam",
-  "Name": "Boyle LLC",
-  "OurRef": "omnis",
-  "YourRef": "placeat",
-  "CreatedDate": "2013-01-18T11:06:41.8478481+01:00",
-  "UpdatedDate": "2005-04-03T11:06:41.8478481+02:00",
-  "Description": "Synergized bottom-line service-desk",
+  "Attention": "quia",
+  "Header": "magni",
+  "Name": "Parisian-Baumbach",
+  "OurRef": "repudiandae",
+  "YourRef": "vitae",
+  "CreatedDate": "2012-12-16T13:38:17.4212037+01:00",
+  "UpdatedDate": "2010-09-30T13:38:17.4212037+02:00",
+  "Description": "Upgradable methodical firmware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-12-19T11:06:41.8478481+01:00",
-  "ExternalRef": "sint",
+  "Date": "2010-08-21T13:38:17.4212037+02:00",
+  "ExternalRef": "id",
   "Completed": "Completed",
-  "ActiveLinks": 679,
+  "ActiveLinks": 601,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Waters Group",
-      "Id": 388,
-      "Description": "Innovative modular application",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 66,
+      "EntityName": "Raynor-Romaguera",
+      "Id": 887,
+      "Description": "Enterprise-wide 4th generation structure",
+      "ExtraInfo": "veniam",
+      "LinkId": 287,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldLength": 98
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 880,
-  "Snum": 48,
+  "SuggestedDocumentId": 777,
+  "Snum": 78,
   "UserDefinedFields": {
-    "SuperOffice:1": "Hillard Brekke",
-    "SuperOffice:2": "Van Lesch"
+    "SuperOffice:1": "844061269",
+    "SuperOffice:2": "Gregg Torp Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "nulla",
-    "ExtraFields2": "est"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "dicta"
+    "CustomFields1": "non",
+    "CustomFields2": "nobis"
   },
-  "PublishEventDate": "2017-06-06T11:06:41.8478481+02:00",
-  "PublishTo": "2014-04-10T11:06:41.8478481+02:00",
-  "PublishFrom": "2013-06-03T11:06:41.8478481+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-11-27T13:38:17.4212037+01:00",
+  "PublishTo": "2005-12-15T13:38:17.4212037+01:00",
+  "PublishFrom": "2010-05-26T13:38:17.4212037+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 210,
+      "VisibleId": 251,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 714
+          "FieldType": "System.String",
+          "FieldLength": 238
         }
       }
     },
     {
-      "VisibleId": 210,
+      "VisibleId": 251,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 714
+          "FieldType": "System.String",
+          "FieldLength": 238
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldLength": 93
     }
   }
 }

@@ -94,16 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 12,
-  "Name": "Hermiston LLC",
+  "ScreenChooserId": 858,
+  "Name": "Torphy, Marvin and Roob",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "adipisci",
-  "Source": "magnam",
-  "Registered": "2019-10-19T11:06:42.3647477+02:00",
-  "RegisteredAssociateId": 613,
-  "Updated": "2019-01-31T11:06:42.3647477+01:00",
-  "UpdatedAssociateId": 668
+  "Enabled": false,
+  "UniqueIdentifier": "placeat",
+  "Source": "consequatur",
+  "Registered": "1999-10-28T13:38:17.7650302+02:00",
+  "RegisteredAssociateId": 637,
+  "Updated": "2013-03-23T13:38:17.7650302+01:00",
+  "UpdatedAssociateId": 78
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 555,
-  "Name": "Romaguera Inc and Sons",
+  "ScreenChooserId": 519,
+  "Name": "Koch, Considine and Abshire",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quasi",
-  "Source": "ut",
-  "Registered": "2014-06-27T11:06:42.3647477+02:00",
-  "RegisteredAssociateId": 922,
-  "Updated": "2004-09-24T11:06:42.3647477+02:00",
-  "UpdatedAssociateId": 459,
+  "Enabled": false,
+  "UniqueIdentifier": "molestiae",
+  "Source": "optio",
+  "Registered": "2016-11-26T13:38:17.7650302+01:00",
+  "RegisteredAssociateId": 205,
+  "Updated": "2016-08-23T13:38:17.7650302+02:00",
+  "UpdatedAssociateId": 915,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 254
     }
   }
 }

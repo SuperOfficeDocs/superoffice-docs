@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 580,
-  "Currency": "et"
+  "QuoteConnectionId": 814,
+  "Currency": "odit"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 691,
-    "ERPPriceListKey": "rerum",
-    "QuoteConnectionId": 224,
-    "Name": "O'Keefe-Haag",
-    "Description": "Secured web-enabled firmware",
-    "Currency": "eius",
-    "CurrencyName": "Thompson, DuBuque and O'Hara",
-    "ValidFrom": "2008-07-05T11:06:35.2239506+02:00",
-    "ValidTo": "2004-01-24T11:06:35.2239506+01:00",
+    "PriceListId": 947,
+    "ERPPriceListKey": "vel",
+    "QuoteConnectionId": 168,
+    "Name": "Considine Inc and Sons",
+    "Description": "Ameliorated hybrid website",
+    "Currency": "dolorem",
+    "CurrencyName": "Morissette Inc and Sons",
+    "ValidFrom": "1999-06-10T13:38:14.0303322+02:00",
+    "ValidTo": "2018-12-06T13:38:14.0303322+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldLength": 742
       }
     }
   }

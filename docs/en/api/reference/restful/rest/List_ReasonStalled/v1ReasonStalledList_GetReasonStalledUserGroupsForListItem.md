@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Koch-Quitzon",
-    "ToolTip": "Et ut iusto dolor odio repudiandae consequatur.",
-    "Deleted": false,
-    "Rank": 373,
-    "Type": "hic",
-    "ColorBlock": 790,
-    "IconHint": "nemo",
+    "Id": 361,
+    "Name": "Crooks-Buckridge",
+    "ToolTip": "Sed cumque tempore labore.",
+    "Deleted": true,
+    "Rank": 877,
+    "Type": "esse",
+    "ColorBlock": 519,
+    "IconHint": "autem",
     "Selected": true,
-    "LastChanged": "1997-10-05T11:06:43.037826+02:00",
+    "LastChanged": "2000-04-25T13:38:18.2181419+02:00",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Stoltenberg-Considine",
-        "ToolTip": "Dolores rerum quis.",
-        "Deleted": true,
-        "Rank": 193,
-        "Type": "accusamus",
-        "ColorBlock": 83,
-        "IconHint": "tempore",
-        "Selected": false,
-        "LastChanged": "2005-10-09T11:06:43.037826+02:00",
+        "Id": 145,
+        "Name": "Fritsch LLC",
+        "ToolTip": "Maxime qui optio mollitia quo totam.",
+        "Deleted": false,
+        "Rank": 63,
+        "Type": "ut",
+        "ColorBlock": 674,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2022-11-18T13:38:18.2181419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "neque",
-        "Hidden": false,
-        "FullName": "Randi Schneider",
+        "ExtraInfo": "et",
+        "StyleHint": "dolore",
+        "Hidden": true,
+        "FullName": "Hadley McLaughlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 334
+            "FieldType": "System.String",
+            "FieldLength": 991
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "est",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Janis Jovan Schumm DDS",
+    "FullName": "Christopher Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldType": "System.String",
+        "FieldLength": 887
       }
     }
   }

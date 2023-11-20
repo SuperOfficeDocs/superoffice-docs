@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 754,
-    "Name": "Tremblay LLC",
-    "ToolTip": "Impedit dolores amet enim.",
-    "Deleted": true,
-    "Rank": 585,
-    "Type": "magni",
-    "ColorBlock": 558,
-    "IconHint": "aut",
+    "Id": 482,
+    "Name": "Heller-Klein",
+    "ToolTip": "Est dolor quia laudantium officiis earum.",
+    "Deleted": false,
+    "Rank": 877,
+    "Type": "enim",
+    "ColorBlock": 443,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2005-07-17T11:06:42.9128214+02:00",
+    "LastChanged": "2003-09-05T13:38:18.1244081+02:00",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "McDermott-Muller",
-        "ToolTip": "Aut eius.",
-        "Deleted": true,
-        "Rank": 89,
-        "Type": "molestiae",
-        "ColorBlock": 492,
-        "IconHint": "non",
+        "Id": 657,
+        "Name": "Collier LLC",
+        "ToolTip": "Quibusdam architecto voluptas non ex ea.",
+        "Deleted": false,
+        "Rank": 418,
+        "Type": "in",
+        "ColorBlock": 766,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2019-02-17T11:06:42.9128214+01:00",
+        "LastChanged": "2000-05-05T13:38:18.1244081+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Crystal Labadie"
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "voluptatum",
+        "Hidden": false,
+        "FullName": "Mr. Triston Satterfield PhD"
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "et",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Ms. Orval Vaughn Krajcik PhD"
+    "FullName": "Elsa Stoltenberg"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Luettgen Group",
-    "ToolTip": "Pariatur ullam ullam laudantium reprehenderit.",
-    "Deleted": true,
-    "Rank": 566,
-    "Type": "qui",
-    "ColorBlock": 27,
-    "IconHint": "laborum",
+    "Id": 799,
+    "Name": "Skiles, Bashirian and Wilkinson",
+    "ToolTip": "Nemo labore nemo aut dolor.",
+    "Deleted": false,
+    "Rank": 333,
+    "Type": "inventore",
+    "ColorBlock": 375,
+    "IconHint": "doloribus",
     "Selected": true,
-    "LastChanged": "2002-12-10T11:06:42.9128214+01:00",
+    "LastChanged": "2017-07-17T13:38:18.1244081+02:00",
     "ChildItems": [
       {
-        "Id": 211,
-        "Name": "Zieme-Anderson",
-        "ToolTip": "Est in ipsa.",
+        "Id": 850,
+        "Name": "Crooks Group",
+        "ToolTip": "Omnis ea.",
         "Deleted": true,
-        "Rank": 570,
-        "Type": "nihil",
-        "ColorBlock": 920,
-        "IconHint": "consectetur",
+        "Rank": 58,
+        "Type": "nobis",
+        "ColorBlock": 357,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2002-02-21T11:06:42.9128214+01:00",
+        "LastChanged": "2017-05-30T13:38:18.1244081+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "neque",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Dr. Coby Hilll II",
+        "FullName": "Verna Powlowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 467
+            "FieldLength": 77
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "commodi",
+    "ExtraInfo": "officia",
+    "StyleHint": "blanditiis",
     "Hidden": true,
-    "FullName": "Elnora Hermiston",
+    "FullName": "Gloria Kirlin II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldType": "System.String",
+        "FieldLength": 341
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Langosh Inc and Sons",
-    "ToolTip": "Beatae officia dolorum culpa quidem.",
-    "Deleted": false,
-    "Rank": 641,
-    "Type": "id",
-    "ColorBlock": 323,
-    "IconHint": "corrupti",
+    "Id": 606,
+    "Name": "Friesen, Altenwerth and Flatley",
+    "ToolTip": "Veniam placeat.",
+    "Deleted": true,
+    "Rank": 500,
+    "Type": "eaque",
+    "ColorBlock": 956,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "1999-01-17T11:06:42.8190654+01:00",
+    "LastChanged": "2023-05-22T13:38:18.0619133+02:00",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Heaney, Parker and Cole",
-        "ToolTip": "Vel et.",
+        "Id": 1000,
+        "Name": "Nitzsche-Keeling",
+        "ToolTip": "Et voluptatum minima itaque sint.",
         "Deleted": false,
-        "Rank": 910,
-        "Type": "ab",
-        "ColorBlock": 139,
-        "IconHint": "eius",
-        "Selected": false,
-        "LastChanged": "2000-01-08T11:06:42.8190654+01:00",
+        "Rank": 561,
+        "Type": "placeat",
+        "ColorBlock": 624,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "1999-09-19T13:38:18.0619133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Mallie Rodriguez"
+        "ExtraInfo": "distinctio",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Ms. Karley Melany Berge II"
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "harum",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Prof. Marc Baylee Kozey II"
+    "FullName": "Jackeline Padberg"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "McLaughlin, Little and Weimann",
-    "ToolTip": "Et recusandae et quia laudantium aperiam nemo.",
-    "Deleted": true,
-    "Rank": 908,
-    "Type": "et",
-    "ColorBlock": 728,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2007-06-21T11:06:42.8190654+02:00",
+    "Id": 468,
+    "Name": "Gusikowski, Sauer and Hagenes",
+    "ToolTip": "Laborum unde.",
+    "Deleted": false,
+    "Rank": 774,
+    "Type": "qui",
+    "ColorBlock": 21,
+    "IconHint": "odit",
+    "Selected": true,
+    "LastChanged": "2013-07-23T13:38:18.0619133+02:00",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Koss, Kozey and Bins",
-        "ToolTip": "Qui magnam velit odit corrupti qui adipisci.",
-        "Deleted": false,
-        "Rank": 111,
-        "Type": "sit",
-        "ColorBlock": 422,
-        "IconHint": "error",
+        "Id": 351,
+        "Name": "Konopelski, Emard and Durgan",
+        "ToolTip": "Voluptatibus eligendi error.",
+        "Deleted": true,
+        "Rank": 984,
+        "Type": "placeat",
+        "ColorBlock": 215,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2003-02-16T11:06:42.8190654+01:00",
+        "LastChanged": "1999-11-15T13:38:18.0619133+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "et",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Ms. Maurine Kyleigh Wisoky",
+        "FullName": "Delphia Legros DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 440
+            "FieldType": "System.String",
+            "FieldLength": 157
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "quo",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Carol White",
+    "FullName": "Ms. Dane Macejkovic III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldType": "System.String",
+        "FieldLength": 480
       }
     }
   }

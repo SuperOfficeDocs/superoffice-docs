@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 496
+  "ShipmentAddrId": 983
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2015-06-05T11:06:34.7864409+02:00",
+  "SendingTime": "2001-08-11T13:38:13.7333439+02:00",
   "Status": "Blocked",
-  "ShipmentId": 435,
-  "ShipmentDescription": "Reactive global approach",
-  "FromAddress": "aut",
-  "ContactId": 877,
-  "ContactName": "O'Conner LLC",
-  "PersonId": 197,
-  "PersonFullName": "Dr. Dorris Jeffery Russel IV",
-  "ShipmentType": "ducimus",
-  "MessageId": 883,
-  "MessageSubject": "inventore",
-  "DocumentMessageId": 965,
-  "Opened": "2000-12-29T11:06:34.7864409+01:00",
-  "LinkClicks": 446,
+  "ShipmentId": 900,
+  "ShipmentDescription": "Persevering explicit data-warehouse",
+  "FromAddress": "eaque",
+  "ContactId": 110,
+  "ContactName": "Swaniawski, Lubowitz and Dibbert",
+  "PersonId": 835,
+  "PersonFullName": "Donna Pedro Kshlerin II",
+  "ShipmentType": "rerum",
+  "MessageId": 756,
+  "MessageSubject": "officia",
+  "DocumentMessageId": 388,
+  "Opened": "1998-06-29T13:38:13.7333439+02:00",
+  "LinkClicks": 993,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   }
 }

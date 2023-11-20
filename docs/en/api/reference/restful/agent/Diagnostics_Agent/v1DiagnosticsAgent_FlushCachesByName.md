@@ -64,13 +64,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCachesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Mertz Inc and Sons",
-    "Christiansen Group"
+    "Borer, Batz and Walsh",
+    "Berge Group"
   ]
 }
 ```

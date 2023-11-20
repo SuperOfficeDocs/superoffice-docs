@@ -87,10 +87,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lemke LLC",
-  "DeviceName": "Abbott, Harris and Schneider",
-  "DeviceIdentifier": "atque",
-  "TableName": "Wilkinson-Tromp"
+  "ApplicationName": "Ullrich LLC",
+  "DeviceName": "Wilderman, Langosh and Littel",
+  "DeviceIdentifier": "dolore",
+  "TableName": "Rowe-Gaylord"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "explicabo",
-    "Value": "nobis",
-    "RecordId": 841,
-    "CreatedDate": "2012-08-13T11:06:34.6458113+02:00",
-    "UpdatedDate": "2007-04-12T11:06:34.6458113+02:00",
-    "UpdatedBy": "rerum",
-    "CreatedBy": "nostrum",
-    "TableName": "Runte Inc and Sons",
+    "Key": "sequi",
+    "Value": "in",
+    "RecordId": 363,
+    "CreatedDate": "2015-09-25T13:38:13.6396102+02:00",
+    "UpdatedDate": "2013-04-12T13:38:13.6396102+02:00",
+    "UpdatedBy": "sit",
+    "CreatedBy": "laborum",
+    "TableName": "Moore-Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldLength": 825
       }
     }
   }

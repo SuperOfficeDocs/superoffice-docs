@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 707,
-    "Name": "Halvorson Inc and Sons",
-    "Tooltip": "deleniti",
+    "HeadingId": 701,
+    "Name": "Yost-Kuvalis",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 859,
-    "UdListDefinitionId": 580,
+    "Rank": 487,
+    "UdListDefinitionId": 372,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldLength": 451
       }
     }
   }

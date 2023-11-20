@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Erdman Inc and Sons",
-  "NewSerialNumber": "1040910"
+  "NewCompanyName": "Ward, Auer and Kunde",
+  "NewSerialNumber": "419714"
 }
 ```
 
@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": false,
+  "Succeeded": true,
   "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 694
     }
   }
 }

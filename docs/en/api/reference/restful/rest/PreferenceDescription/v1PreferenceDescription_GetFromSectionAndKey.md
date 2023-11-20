@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 196,
-  "Section": "dolores",
-  "Key": "autem",
-  "Name": "Rowe, Purdy and Emmerich",
+  "PrefDescId": 998,
+  "Section": "libero",
+  "Key": "sit",
+  "Name": "Pacocha-Waelchi",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profit-focused discrete success",
+  "Description": "Reduced non-volatile forecast",
   "IsBuiltin": false,
-  "TableName": "Altenwerth Group",
-  "UserDefinedListId": 624,
-  "Rank": 901,
-  "SubGroup": "sit",
-  "MinLevel": 583,
-  "MaxValue": 704,
-  "MinValue": 451,
-  "RequiredLicense": "omnis",
+  "TableName": "O'Keefe, Haag and Mitchell",
+  "UserDefinedListId": 850,
+  "Rank": 707,
+  "SubGroup": "modi",
+  "MinLevel": 710,
+  "MaxValue": 685,
+  "MinValue": 719,
+  "RequiredLicense": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldType": "System.Int32",
+      "FieldLength": 868
     }
   }
 }

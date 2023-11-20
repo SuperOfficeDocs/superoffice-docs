@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Hudson, Beatty and McDermott",
-    "ToolTip": "Sit aspernatur est omnis est.",
+    "Id": 467,
+    "Name": "Reinger, Prosacco and Sanford",
+    "ToolTip": "Qui aut unde autem omnis incidunt mollitia voluptas.",
     "Deleted": false,
-    "Rank": 248,
-    "Type": "minima",
-    "ColorBlock": 332,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2017-02-21T11:06:42.8971908+01:00",
+    "Rank": 256,
+    "Type": "nulla",
+    "ColorBlock": 235,
+    "IconHint": "ipsa",
+    "Selected": false,
+    "LastChanged": "1999-03-02T13:38:18.1244081+01:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Kuhlman, Hoppe and Schoen",
-        "ToolTip": "Soluta deserunt.",
-        "Deleted": false,
-        "Rank": 257,
-        "Type": "facilis",
-        "ColorBlock": 519,
-        "IconHint": "sed",
+        "Id": 650,
+        "Name": "Hoppe-Veum",
+        "ToolTip": "Perferendis doloremque.",
+        "Deleted": true,
+        "Rank": 186,
+        "Type": "in",
+        "ColorBlock": 396,
+        "IconHint": "aliquam",
         "Selected": true,
-        "LastChanged": "2007-10-26T11:06:42.8971908+02:00",
+        "LastChanged": "1999-11-10T13:38:18.1244081+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "ratione",
         "Hidden": false,
-        "FullName": "Prof. Anthony Myrtie Bartoletti V"
+        "FullName": "Milo Marks"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "a",
+    "ExtraInfo": "et",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Nathanial Kuhic"
+    "FullName": "Leta Conner Hand Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 754,
-    "Name": "Bernhard Group",
-    "ToolTip": "Soluta ut quos veniam adipisci consequuntur laboriosam eveniet.",
+    "Id": 611,
+    "Name": "Sanford LLC",
+    "ToolTip": "Est atque quia in excepturi voluptas.",
     "Deleted": true,
-    "Rank": 920,
-    "Type": "quo",
-    "ColorBlock": 526,
-    "IconHint": "ab",
+    "Rank": 285,
+    "Type": "voluptates",
+    "ColorBlock": 961,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2017-08-26T11:06:42.8971908+02:00",
+    "LastChanged": "2014-07-05T13:38:18.1244081+02:00",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Friesen-Bernier",
-        "ToolTip": "Est voluptatem possimus velit.",
-        "Deleted": false,
-        "Rank": 165,
-        "Type": "quam",
-        "ColorBlock": 533,
-        "IconHint": "neque",
-        "Selected": false,
-        "LastChanged": "2001-08-24T11:06:42.8971908+02:00",
+        "Id": 313,
+        "Name": "O'Connell Group",
+        "ToolTip": "Veritatis rem suscipit repudiandae sint porro.",
+        "Deleted": true,
+        "Rank": 625,
+        "Type": "nemo",
+        "ColorBlock": 175,
+        "IconHint": "consequuntur",
+        "Selected": true,
+        "LastChanged": "2023-04-14T13:38:18.1244081+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Prof. Kaley Daniel PhD",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "minima",
+        "Hidden": false,
+        "FullName": "King Thomas Jenkins IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 124
+            "FieldLength": 3
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "nostrum",
-    "Hidden": false,
-    "FullName": "Mr. Celine Bette Konopelski",
+    "ExtraInfo": "sed",
+    "StyleHint": "quas",
+    "Hidden": true,
+    "FullName": "Dr. Oda Syble Stokes I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldLength": 763
       }
     }
   }

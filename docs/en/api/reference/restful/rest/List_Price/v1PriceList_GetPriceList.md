@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 256,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 857,
-  "Name": "Davis, Kemmer and Lehner",
-  "Description": "Business-focused real-time system engine",
-  "Currency": "dolor",
-  "CurrencyName": "Marvin, Erdman and Leuschke",
-  "ValidFrom": "2018-02-28T11:06:42.8971908+01:00",
-  "ValidTo": "2022-03-26T11:06:42.8971908+01:00",
-  "IsActive": false,
+  "PriceListId": 110,
+  "ERPPriceListKey": "suscipit",
+  "QuoteConnectionId": 453,
+  "Name": "Kling-Kulas",
+  "Description": "Optimized impactful emulation",
+  "Currency": "quia",
+  "CurrencyName": "Bernhard LLC",
+  "ValidFrom": "2015-03-01T13:38:18.1087815+01:00",
+  "ValidTo": "2002-02-27T13:38:18.1087815+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldType": "System.Int32",
+      "FieldLength": 464
     }
   },
   "_Links": {

@@ -77,20 +77,20 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "qui",
+  "Source": "sit",
   "GeneratorEncoding": "Html",
-  "ContactId": 296,
-  "PersonId": 281,
-  "AppointmentId": 922,
-  "DocumentId": 976,
-  "SaleId": 60,
-  "SelectionId": 430,
-  "ProjectId": 495,
-  "CultureName": "sv"
+  "ContactId": 378,
+  "PersonId": 882,
+  "AppointmentId": 386,
+  "DocumentId": 36,
+  "SaleId": 369,
+  "SelectionId": 810,
+  "ProjectId": 310,
+  "CultureName": "en"
 }
 ```
 
@@ -100,5 +100,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"blanditiis"
+"sed"
 ```

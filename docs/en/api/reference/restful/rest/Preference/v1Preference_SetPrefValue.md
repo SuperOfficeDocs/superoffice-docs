@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quos",
+  "RawValue": "ut",
   "Specification": null,
-  "DisplayValue": "cupiditate",
-  "DisplayTooltip": "provident",
+  "DisplayValue": "sed",
+  "DisplayTooltip": "est",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 24,
-  "PrefDescId": 214,
-  "TableName": "Douglas-Prohaska",
-  "UserPreferenceId": 399
+  "TargetId": 959,
+  "PrefDescId": 354,
+  "TableName": "Leffler Group",
+  "UserPreferenceId": 939
 }
 ```
 

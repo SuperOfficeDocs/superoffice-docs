@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 231,
-  "Name": "Zemlak-Jakubowski",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 860,
+  "Id": 874,
+  "Name": "Trantow LLC",
+  "Tooltip": "distinctio",
+  "Deleted": false,
+  "Rank": 36,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "itaque",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldType": "System.String",
+      "FieldLength": 911
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

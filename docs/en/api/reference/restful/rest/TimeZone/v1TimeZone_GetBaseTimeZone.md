@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 899,
-  "Name": "Flatley-Marks",
-  "TZLocationCode": "aspernatur",
-  "TZLocationCities": "ut",
-  "IsoNumber": 827,
+  "TZLocationID": 538,
+  "Name": "Stehr, Schmeler and Paucek",
+  "TZLocationCode": "repellendus",
+  "TZLocationCities": "dolor",
+  "IsoNumber": 712,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 635,
-      "StartMonth": 765,
-      "EndDay": 769,
-      "EndMonth": 826,
-      "TZOffset": 853,
-      "StartRulePattern": "nobis",
-      "EndRulePattern": "pariatur"
+      "StartDay": 175,
+      "StartMonth": 924,
+      "EndDay": 524,
+      "EndMonth": 609,
+      "TZOffset": 494,
+      "StartRulePattern": "et",
+      "EndRulePattern": "deleniti"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 430,
-      "StartMonth": 491,
-      "EndDay": 356,
-      "EndMonth": 485,
-      "TZOffset": 563,
-      "StartRulePattern": "rerum",
-      "EndRulePattern": "ipsa"
+      "StartDay": 477,
+      "StartMonth": 748,
+      "EndDay": 505,
+      "EndMonth": 679,
+      "TZOffset": 823,
+      "StartRulePattern": "minus",
+      "EndRulePattern": "laboriosam"
     }
   }
 }

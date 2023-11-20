@@ -115,7 +115,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 223
+  "QuoteVersionId": 938
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 204,
-  "ERPQuoteVersionKey": "vero",
-  "QuoteId": 136,
-  "Description": "Customizable mission-critical open system",
-  "Number": "1008152",
+  "QuoteVersionId": 954,
+  "ERPQuoteVersionKey": "expedita",
+  "QuoteId": 885,
+  "Description": "Mandatory empowering productivity",
+  "Number": "1331188",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 986,
-  "SentDate": "2023-06-11T11:06:35.1770754+02:00",
-  "FollowupId": 799,
-  "ExpirationDate": "2014-03-28T11:06:35.1770754+01:00",
-  "DeliveryCountryId": 416,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 987,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "est",
-  "ERPPaymentTypeKey": "tempore",
-  "ERPDeliveryTermsKey": "sunt",
-  "ERPDeliveryTypeKey": "dolorem",
-  "Rank": 969,
-  "ApprovedBy": 869,
-  "ApprovedText": "sed",
-  "ApprovedRegisteredBy": 870,
-  "ApprovedRegisteredDate": "2009-06-27T11:06:35.1770754+02:00",
-  "ExtraField1": "odit",
-  "ExtraField2": "sit",
-  "ExtraField3": "placeat",
-  "ExtraField4": "quos",
-  "ExtraField5": "sint",
-  "LastRecalculated": "2008-04-23T11:06:35.1770754+02:00",
-  "Updated": "2015-09-29T11:06:35.1770754+02:00",
-  "UpdatedAssociateId": 430,
-  "Registered": "2019-01-20T11:06:35.1770754+01:00",
-  "RegisteredAssociateId": 644,
-  "RequestAssociateId": 804,
-  "RequestComment": "deleniti",
+  "LikelyQuoteAlternativeId": 197,
+  "SentDate": "2023-04-17T13:38:13.9990881+02:00",
+  "FollowupId": 345,
+  "ExpirationDate": "2006-07-25T13:38:13.9990881+02:00",
+  "DeliveryCountryId": 249,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 707,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "atque",
+  "ERPPaymentTypeKey": "omnis",
+  "ERPDeliveryTermsKey": "blanditiis",
+  "ERPDeliveryTypeKey": "vero",
+  "Rank": 68,
+  "ApprovedBy": 709,
+  "ApprovedText": "sapiente",
+  "ApprovedRegisteredBy": 390,
+  "ApprovedRegisteredDate": "2015-05-31T13:38:13.9990881+02:00",
+  "ExtraField1": "dolor",
+  "ExtraField2": "laborum",
+  "ExtraField3": "qui",
+  "ExtraField4": "ut",
+  "ExtraField5": "neque",
+  "LastRecalculated": "2017-02-14T13:38:13.9990881+01:00",
+  "Updated": "2001-04-17T13:38:13.9990881+02:00",
+  "UpdatedAssociateId": 188,
+  "Registered": "2021-08-06T13:38:13.9990881+02:00",
+  "RegisteredAssociateId": 368,
+  "RequestAssociateId": 513,
+  "RequestComment": "qui",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 731,
-      "ERPQuoteAlternativeKey": "molestiae",
-      "QuoteVersionId": 766,
-      "Name": "Barton Group",
-      "Description": "Profound client-server knowledge user",
+      "QuoteAlternativeId": 973,
+      "ERPQuoteAlternativeKey": "rerum",
+      "QuoteVersionId": 276,
+      "Name": "Gutkowski, Farrell and Prosacco",
+      "Description": "Assimilated incremental benchmark",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 3331.442,
-      "ERPDiscountAmount": 20828.564,
-      "DiscountPercent": 97.154,
-      "DiscountAmount": 18145.86,
+      "ERPDiscountPercent": 23646.03,
+      "ERPDiscountAmount": 1488.6499999999999,
+      "DiscountPercent": 16779.435999999998,
+      "DiscountAmount": 9668.39,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "consequatur",
-      "VAT": 11658.48,
-      "EarningPercent": 13084.449999999999,
-      "EarningAmount": 9226.496,
-      "SubTotal": 6230.392,
-      "TotalPrice": 8323.904,
-      "ExtraField1": "labore",
-      "ExtraField2": "aut",
-      "ExtraField3": "nisi",
-      "ExtraField4": "eos",
-      "ExtraField5": "accusamus",
+      "VATInfo": "dolores",
+      "VAT": 13306.964,
+      "EarningPercent": 17500.256,
+      "EarningAmount": 6268.0,
+      "SubTotal": 29841.948,
+      "TotalPrice": 14720.398,
+      "ExtraField1": "rerum",
+      "ExtraField2": "consequatur",
+      "ExtraField3": "molestiae",
+      "ExtraField4": "voluptates",
+      "ExtraField5": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldLength": 797
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 437
+      "FieldType": "System.Int32",
+      "FieldLength": 723
     }
   }
 }

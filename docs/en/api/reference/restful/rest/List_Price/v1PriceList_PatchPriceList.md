@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quisquam",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quisquam",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 39,
-  "ERPPriceListKey": "tenetur",
-  "QuoteConnectionId": 131,
-  "Name": "Boyle, Mann and Predovic",
-  "Description": "Front-line multimedia open system",
-  "Currency": "est",
-  "CurrencyName": "Satterfield Inc and Sons",
-  "ValidFrom": "2008-02-25T11:06:42.8971908+01:00",
-  "ValidTo": "2002-12-01T11:06:42.8971908+01:00",
-  "IsActive": false,
+  "PriceListId": 768,
+  "ERPPriceListKey": "aut",
+  "QuoteConnectionId": 395,
+  "Name": "Thompson, Schoen and Friesen",
+  "Description": "Distributed real-time utilisation",
+  "Currency": "inventore",
+  "CurrencyName": "Paucek Inc and Sons",
+  "ValidFrom": "2015-07-25T13:38:18.1087815+02:00",
+  "ValidTo": "1997-08-25T13:38:18.1087815+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldLength": 147
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

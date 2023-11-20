@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schuster-Halvorson",
-  "AdditionalInfo": "fuga",
+  "Name": "Wilderman, Schaefer and Schimmel",
+  "AdditionalInfo": "mollitia",
   "SelectableMDOList": [
     {
-      "Id": 464,
-      "Name": "Armstrong LLC",
-      "ToolTip": "Et est voluptas ducimus.",
+      "Id": 781,
+      "Name": "Heaney, Quitzon and Rosenbaum",
+      "ToolTip": "Dolores a quos dolor amet voluptatem.",
       "Deleted": true,
-      "Rank": 734,
-      "Type": "at",
-      "ColorBlock": 312,
-      "IconHint": "ab",
-      "Selected": true,
-      "LastChanged": "2022-04-01T11:06:34.8020663+02:00",
+      "Rank": 158,
+      "Type": "qui",
+      "ColorBlock": 708,
+      "IconHint": "non",
+      "Selected": false,
+      "LastChanged": "2001-10-16T13:38:13.7491627+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nesciunt",
-      "StyleHint": "voluptatem",
+      "ExtraInfo": "quisquam",
+      "StyleHint": "consequatur",
       "Hidden": false,
-      "FullName": "Alvah Kylie Feeney PhD"
+      "FullName": "Tiffany Mayert Sr."
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Hand, Okuneva and Mueller",
-    "ToolTip": "Exercitationem occaecati.",
+    "Id": 873,
+    "Name": "Hartmann Inc and Sons",
+    "ToolTip": "Consequatur et libero doloremque quo fugit ipsum.",
     "Deleted": false,
-    "Rank": 409,
-    "Type": "dolore",
-    "ColorBlock": 558,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2001-10-19T11:06:34.8020663+02:00",
+    "Rank": 151,
+    "Type": "quaerat",
+    "ColorBlock": 262,
+    "IconHint": "amet",
+    "Selected": false,
+    "LastChanged": "2009-01-24T13:38:13.7491627+01:00",
     "ChildItems": [
       {
-        "Id": 315,
-        "Name": "Kshlerin-Anderson",
-        "ToolTip": "Exercitationem quia cumque quod.",
+        "Id": 211,
+        "Name": "Friesen-Franecki",
+        "ToolTip": "Labore natus sed.",
         "Deleted": false,
-        "Rank": 749,
-        "Type": "totam",
-        "ColorBlock": 778,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2018-05-31T11:06:34.8020663+02:00",
+        "Rank": 824,
+        "Type": "vitae",
+        "ColorBlock": 467,
+        "IconHint": "molestias",
+        "Selected": true,
+        "LastChanged": "2021-01-28T13:38:13.7491627+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "veniam",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "earum",
         "Hidden": true,
-        "FullName": "Nicholaus Brekke",
+        "FullName": "Miss Alan Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 110
+            "FieldLength": 670
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Mr. Talon Adrian Stark MD",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Lucie Franecki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldType": "System.String",
+        "FieldLength": 965
       }
     }
   }

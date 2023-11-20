@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 132,
-  "Year": 532,
+  "TargetGroupId": 636,
+  "Year": 97,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 284,
+      "TargetAssignmentInfoId": 138,
       "Values": [
-        701,
-        529
+        464,
+        59
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 84,
-      "DimensionListItemDisplayName": "McLaughlin LLC",
+      "DimensionListItem": 896,
+      "DimensionListItemDisplayName": "Abernathy, Schiller and Bashirian",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 383
+          "FieldLength": 243
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 269
+      "FieldType": "System.Int32",
+      "FieldLength": 794
     }
   }
 }

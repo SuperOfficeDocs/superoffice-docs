@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 319,
-  "AttachmentId": "vel"
+  "DocId": 344,
+  "AttachmentId": "et"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Team-oriented bifurcated circuit",
-  "Filename": "ullam",
-  "Size": 458,
-  "Type": "aut",
-  "Encoding": "in",
-  "Id": "minima",
-  "Disposition": "quasi",
+  "Description": "Multi-tiered 24 hour data-warehouse",
+  "Filename": "quibusdam",
+  "Size": 963,
+  "Type": "officia",
+  "Encoding": "voluptas",
+  "Id": "sit",
+  "Disposition": "corporis",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldType": "System.String",
+      "FieldLength": 902
     }
   }
 }

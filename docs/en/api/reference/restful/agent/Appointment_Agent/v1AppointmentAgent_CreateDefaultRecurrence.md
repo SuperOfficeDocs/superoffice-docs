@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 479,
-  "StartDate": "2007-01-15T11:06:33.6007343+01:00",
-  "EndDate": "2012-03-26T11:06:33.6007343+02:00",
-  "RecurrenceCounter": 698,
+  "RecurrenceId": 357,
+  "StartDate": "2011-06-01T13:38:12.9521841+02:00",
+  "EndDate": "2022-02-12T13:38:12.9521841+01:00",
+  "RecurrenceCounter": 892,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2003-07-30T11:06:33.6007343+02:00",
+      "Date": "1999-04-28T13:38:12.9521841+02:00",
       "IsConflict": false,
-      "Description": "Monitored 6th generation help-desk",
-      "DescriptionStyleHint": "Adaptive impactful function",
-      "Tooltip": "laudantium"
+      "Description": "Decentralized bandwidth-monitored parallelism",
+      "DescriptionStyleHint": "Operative radical support",
+      "Tooltip": "consequatur"
     },
     {
-      "Date": "2003-07-30T11:06:33.6007343+02:00",
+      "Date": "1999-04-28T13:38:12.9521841+02:00",
       "IsConflict": false,
-      "Description": "Monitored 6th generation help-desk",
-      "DescriptionStyleHint": "Adaptive impactful function",
-      "Tooltip": "laudantium"
+      "Description": "Decentralized bandwidth-monitored parallelism",
+      "DescriptionStyleHint": "Operative radical support",
+      "Tooltip": "consequatur"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

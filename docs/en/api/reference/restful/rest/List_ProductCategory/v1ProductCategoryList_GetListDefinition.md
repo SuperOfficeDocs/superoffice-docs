@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 578,
-  "Name": "Effertz, Rath and Lowe",
-  "Tooltip": "perferendis",
-  "Deleted": true,
-  "Rank": 227,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "Id": 883,
+  "Name": "Christiansen LLC",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "Rank": 278,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldType": "System.Int32",
+      "FieldLength": 643
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

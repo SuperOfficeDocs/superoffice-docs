@@ -90,11 +90,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gottlieb LLC",
-  "DeviceName": "Raynor, Crona and Reichel",
-  "KeyName": "Mitchell-Prosacco",
-  "TableName": "Reynolds, Gislason and Carter",
-  "RecordId": 244
+  "ApplicationName": "Hane Inc and Sons",
+  "DeviceName": "Bogisich-Anderson",
+  "KeyName": "Skiles LLC",
+  "TableName": "Lemke-Greenfelder",
+  "RecordId": 252
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellendus",
-  "Value": "blanditiis",
-  "RecordId": 256,
-  "CreatedDate": "2019-10-06T11:06:34.6301875+02:00",
-  "UpdatedDate": "2007-01-26T11:06:34.6301875+01:00",
-  "UpdatedBy": "sit",
-  "CreatedBy": "quos",
-  "TableName": "Koepp Inc and Sons",
+  "Key": "dignissimos",
+  "Value": "et",
+  "RecordId": 907,
+  "CreatedDate": "1997-05-01T13:38:13.623981+02:00",
+  "UpdatedDate": "2001-05-11T13:38:13.623981+02:00",
+  "UpdatedBy": "consequatur",
+  "CreatedBy": "cum",
+  "TableName": "Kuhic, Kassulke and Crooks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 108
     }
   }
 }

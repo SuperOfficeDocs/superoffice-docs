@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 202,
-  "Name": "Schamberger, Feeney and Sporer",
-  "Tooltip": "hic",
-  "Rank": 791,
-  "Rate": 13792.734,
-  "Units": 25401.07,
+  "CurrencyId": 46,
+  "Name": "Powlowski-Hilll",
+  "Tooltip": "magnam",
+  "Rank": 3,
+  "Rate": 1767.576,
+  "Units": 2820.6,
   "Deleted": false
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 402,
-  "Name": "Bahringer LLC",
-  "Tooltip": "placeat",
-  "Rank": 667,
-  "Rate": 22643.149999999998,
-  "Units": 9101.136,
+  "CurrencyId": 481,
+  "Name": "Steuber, Roberts and Bailey",
+  "Tooltip": "debitis",
+  "Rank": 59,
+  "Rate": 21596.394,
+  "Units": 18985.772,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 454
     }
   }
 }

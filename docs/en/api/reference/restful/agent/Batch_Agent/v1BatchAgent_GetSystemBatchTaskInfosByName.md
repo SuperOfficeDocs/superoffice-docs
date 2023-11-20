@@ -98,7 +98,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Hickle LLC"
+  "TaskName": "Hodkiewicz, Russel and Thiel"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "Schneider-Cole",
-    "AssociateId": 164,
-    "DetailsTable": 412,
-    "DetailsRecord": 40,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 657,
+    "Name": "Hayes, Skiles and Gibson",
+    "AssociateId": 767,
+    "DetailsTable": 933,
+    "DetailsRecord": 278,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "illo",
-      "ParameterObject2": "occaecati"
+      "ParameterObject1": "cum",
+      "ParameterObject2": "voluptas"
     },
-    "LastStarted": "2014-01-25T11:06:33.7972715+01:00",
-    "Created": "2019-06-22T11:06:33.7972715+02:00",
-    "StartCount": 531,
-    "DatabaseSerialNumber": "745252",
-    "Context": "ut",
-    "Result": "beatae",
+    "LastStarted": "2007-06-18T13:38:13.0927968+02:00",
+    "Created": "2006-02-07T13:38:13.0927968+01:00",
+    "StartCount": 328,
+    "DatabaseSerialNumber": "551072",
+    "Context": "est",
+    "Result": "consequatur",
     "State": "All",
-    "Description": "Versatile interactive moderator",
-    "Response": "id",
-    "Request": "nemo",
-    "ProgressDescription": "Visionary optimal capacity",
-    "ProgressPercent": 160,
-    "FileName": "Kub-Bogan",
+    "Description": "Pre-emptive 5th generation concept",
+    "Response": "voluptas",
+    "Request": "nihil",
+    "ProgressDescription": "User-centric motivating methodology",
+    "ProgressPercent": 816,
+    "FileName": "Toy-Block",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 900
+        "FieldType": "System.Int32",
+        "FieldLength": 552
       }
     }
   }

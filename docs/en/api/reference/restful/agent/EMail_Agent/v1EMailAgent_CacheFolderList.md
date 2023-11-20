@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuhn Inc and Sons",
-    "Delimiter": "consequuntur",
-    "Flags": "enim",
-    "TotalItems": 561,
-    "UnreadItems": 438,
-    "Subscribed": true,
-    "EmailFolderId": 493,
+    "Name": "Zieme, Johns and Hegmann",
+    "Delimiter": "officiis",
+    "Flags": "nam",
+    "TotalItems": 361,
+    "UnreadItems": 841,
+    "Subscribed": false,
+    "EmailFolderId": 548,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 464
+        "FieldLength": 452
       }
     }
   }

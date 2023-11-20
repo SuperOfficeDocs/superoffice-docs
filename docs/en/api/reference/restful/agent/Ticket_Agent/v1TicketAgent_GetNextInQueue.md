@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Ticket/GetNextInQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -131,21 +131,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 839,
-  "Title": "rerum",
-  "CreatedAt": "2000-07-08T11:06:35.5533722+02:00",
-  "LastChanged": "2013-09-08T11:06:35.5533722+02:00",
-  "ReadByOwner": "2013-09-28T11:06:35.5533722+02:00",
-  "ReadByCustomer": "2016-05-21T11:06:35.5533722+02:00",
-  "FirstReadByOwner": "2015-06-10T11:06:35.5533722+02:00",
-  "FirstReadByUser": "2018-05-27T11:06:35.5533722+02:00",
-  "Activate": "2020-11-29T11:06:35.5533722+01:00",
-  "ClosedAt": "1996-07-07T11:06:35.5533722+02:00",
-  "RepliedAt": "1999-07-10T11:06:35.5533722+02:00",
-  "AlertTimeout": "2022-10-08T11:06:35.5533722+02:00",
-  "Deadline": "1998-02-28T11:06:35.5533722+01:00",
+  "TicketId": 279,
+  "Title": "et",
+  "CreatedAt": "1998-12-23T13:38:14.2646807+01:00",
+  "LastChanged": "2008-03-13T13:38:14.2646807+01:00",
+  "ReadByOwner": "2006-10-01T13:38:14.2646807+02:00",
+  "ReadByCustomer": "2018-09-28T13:38:14.2646807+02:00",
+  "FirstReadByOwner": "1999-02-27T13:38:14.2646807+01:00",
+  "FirstReadByUser": "2014-07-04T13:38:14.2646807+02:00",
+  "Activate": "2016-04-24T13:38:14.2646807+02:00",
+  "ClosedAt": "2008-12-17T13:38:14.2646807+01:00",
+  "RepliedAt": "1999-07-21T13:38:14.2646807+02:00",
+  "AlertTimeout": "2012-08-11T13:38:14.2646807+02:00",
+  "Deadline": "1997-11-26T13:38:14.2646807+01:00",
   "CreatedBy": null,
-  "Author": "est",
+  "Author": "veniam",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -156,161 +156,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "voluptatum",
-      "PersonId": 918,
-      "Mrmrs": "non",
-      "Firstname": "Alba",
-      "Lastname": "Morar",
-      "MiddleName": "Price-Doyle",
-      "Title": "eius",
-      "Description": "Self-enabling actuating collaboration",
-      "Email": "shaniya@eichmann.biz",
-      "FullName": "Miss Corbin Spencer Jr.",
-      "DirectPhone": "1-344-093-3535",
-      "FormalName": "Quitzon, Durgan and Blanda",
-      "CountryId": 556,
-      "ContactId": 264,
-      "ContactName": "Gaylord-Fahey",
-      "Retired": 477,
-      "Rank": 504,
-      "ActiveInterests": 196,
+      "Position": "at",
+      "PersonId": 406,
+      "Mrmrs": "et",
+      "Firstname": "Elisabeth",
+      "Lastname": "Schuppe",
+      "MiddleName": "Considine-Heidenreich",
+      "Title": "earum",
+      "Description": "Innovative bi-directional contingency",
+      "Email": "gregoria@bins.us",
+      "FullName": "Mrs. Selina Elenora Rau",
+      "DirectPhone": "1-291-345-3687",
+      "FormalName": "Herzog-Dach",
+      "CountryId": 314,
+      "ContactId": 112,
+      "ContactName": "Block-Jacobi",
+      "Retired": 143,
+      "Rank": 233,
+      "ActiveInterests": 774,
       "ContactDepartment": "",
-      "ContactCountryId": 177,
-      "ContactOrgNr": "1515030",
-      "FaxPhone": "(534)886-7368 x675",
-      "MobilePhone": "728.702.4116 x025",
-      "ContactPhone": "1-631-145-8246",
-      "AssociateName": "Borer-Gaylord",
-      "AssociateId": 99,
-      "UsePersonAddress": true,
-      "ContactFax": "architecto",
-      "Kanafname": "quo",
-      "Kanalname": "non",
-      "Post1": "repudiandae",
-      "Post2": "nesciunt",
-      "Post3": "impedit",
-      "EmailName": "ruby.vandervort@schmitt.com",
-      "ContactFullName": "Columbus Kohler",
-      "ActiveErpLinks": 771,
-      "TicketPriorityId": 861,
-      "SupportLanguageId": 860,
-      "SupportAssociateId": 408,
+      "ContactCountryId": 556,
+      "ContactOrgNr": "1825949",
+      "FaxPhone": "1-172-034-9980 x602",
+      "MobilePhone": "(801)568-8686 x9372",
+      "ContactPhone": "604.173.3466 x498",
+      "AssociateName": "O'Connell-Moore",
+      "AssociateId": 866,
+      "UsePersonAddress": false,
+      "ContactFax": "ut",
+      "Kanafname": "adipisci",
+      "Kanalname": "sunt",
+      "Post1": "alias",
+      "Post2": "suscipit",
+      "Post3": "aut",
+      "EmailName": "pasquale@lang.biz",
+      "ContactFullName": "Ethan Doyle",
+      "ActiveErpLinks": 596,
+      "TicketPriorityId": 349,
+      "SupportLanguageId": 904,
+      "SupportAssociateId": 629,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 202
         }
       }
     }
   ],
-  "AlertLevel": 989,
-  "ConnectId": 264,
+  "AlertLevel": 553,
+  "ConnectId": 179,
   "ReadStatus": "Green",
-  "TimeToReply": 680,
-  "RealTimeToReply": 235,
-  "TimeToClose": 523,
-  "RealTimeToClose": 306,
-  "TimeSpentInternally": 679,
-  "TimeSpentExternally": 300,
-  "TimeSpentQueue": 39,
-  "RealTimeSpentInternally": 162,
-  "RealTimeSpentExternally": 186,
-  "RealTimeSpentQueue": 457,
-  "TimeSpent": 36,
-  "HasAttachment": true,
-  "NumReplies": 12,
-  "NumMessages": 801,
-  "FromAddress": "voluptatum",
+  "TimeToReply": 118,
+  "RealTimeToReply": 273,
+  "TimeToClose": 976,
+  "RealTimeToClose": 45,
+  "TimeSpentInternally": 465,
+  "TimeSpentExternally": 183,
+  "TimeSpentQueue": 207,
+  "RealTimeSpentInternally": 683,
+  "RealTimeSpentExternally": 337,
+  "RealTimeSpentQueue": 289,
+  "TimeSpent": 909,
+  "HasAttachment": false,
+  "NumReplies": 19,
+  "NumMessages": 109,
+  "FromAddress": "velit",
   "Messages": [
     {
-      "TicketMessageId": 714,
-      "CreatedAt": "2014-07-22T11:06:35.5533722+02:00",
+      "TicketMessageId": 331,
+      "CreatedAt": "1997-08-26T13:38:14.2646807+02:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "dignissimos",
-      "PersonId": 802,
-      "PersonFullName": "Dr. Kaela Ted Lang IV",
-      "ContactId": 251,
-      "ContactName": "Kutch, Ward and Krajcik",
+      "Author": "voluptas",
+      "PersonId": 7,
+      "PersonFullName": "Enola Kutch",
+      "ContactId": 711,
+      "ContactName": "Olson-Rutherford",
       "ContactDepartment": "",
-      "NumAttachments": 511,
-      "EmailHeader": "alexandria@quitzon.us",
+      "NumAttachments": 996,
+      "EmailHeader": "camron.klein@luettgen.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "qui",
-      "Sentiment": 695,
-      "SentimentConfidence": 815,
-      "CreatedBy": 657,
-      "ChangedAt": "1999-10-10T11:06:35.5533722+02:00",
+      "Language": "magni",
+      "Sentiment": 265,
+      "SentimentConfidence": 175,
+      "CreatedBy": 724,
+      "ChangedAt": "2020-12-12T13:38:14.2646807+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldType": "System.String",
+          "FieldLength": 714
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 203,
-      "Name": "Lockman, Larson and Pollich",
-      "ToolTip": "Nulla amet omnis accusantium voluptas minus maiores molestiae.",
+      "Id": 861,
+      "Name": "Kertzmann LLC",
+      "ToolTip": "Autem qui et vero quas qui.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 279
+          "FieldType": "System.Int32",
+          "FieldLength": 537
         }
       }
     },
     {
-      "Id": 203,
-      "Name": "Lockman, Larson and Pollich",
-      "ToolTip": "Nulla amet omnis accusantium voluptas minus maiores molestiae.",
+      "Id": 861,
+      "Name": "Kertzmann LLC",
+      "ToolTip": "Autem qui et vero quas qui.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 279
+          "FieldType": "System.Int32",
+          "FieldLength": 537
         }
       }
     }
   ],
-  "Language": "tenetur",
-  "Sentiment": 189,
-  "SentimentConfidence": 797,
-  "SuggestedCategoryId": 758,
+  "Language": "ducimus",
+  "Sentiment": 728,
+  "SentimentConfidence": 825,
+  "SuggestedCategoryId": 663,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 59,
-  "IconHint": "saepe",
+  "OrigHumanCategoryId": 972,
+  "IconHint": "quas",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "nemo"
   },
   "CustomFields": {
-    "CustomFields1": "minima",
-    "CustomFields2": "nihil"
+    "CustomFields1": "nemo",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 197
     }
   }
 }

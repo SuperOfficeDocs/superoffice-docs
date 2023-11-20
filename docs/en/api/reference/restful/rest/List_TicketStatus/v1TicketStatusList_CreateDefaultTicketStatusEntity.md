@@ -71,8 +71,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 333,
-  "Name": "Hettinger Group",
+  "TicketStatusId": 325,
+  "Name": "Stiedemann, O'Kon and Braun",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -83,7 +83,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 813
     }
   }
 }

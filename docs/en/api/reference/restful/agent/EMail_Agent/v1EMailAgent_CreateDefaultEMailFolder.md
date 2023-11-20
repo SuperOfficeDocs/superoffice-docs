@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Greenfelder-Jakubowski",
-  "Delimiter": "dolorem",
-  "Flags": "dolor",
-  "TotalItems": 951,
-  "UnreadItems": 172,
-  "Subscribed": false,
-  "EmailFolderId": 42,
+  "Name": "Bosco, Hagenes and Monahan",
+  "Delimiter": "delectus",
+  "Flags": "consequatur",
+  "TotalItems": 735,
+  "UnreadItems": 592,
+  "Subscribed": true,
+  "EmailFolderId": 344,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldLength": 592
     }
   }
 }

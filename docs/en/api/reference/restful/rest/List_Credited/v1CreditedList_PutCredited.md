@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 555,
-  "Name": "Grady, Orn and Pfeffer",
-  "Tooltip": "delectus",
+  "Id": 209,
+  "Name": "Renner, Bergstrom and Skiles",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "UdListDefinitionId": 396,
-  "Rank": 49
+  "UdListDefinitionId": 265,
+  "Rank": 291
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 902,
-  "Name": "Zboncak-Barton",
-  "Tooltip": "reiciendis",
-  "Deleted": true,
-  "UdListDefinitionId": 19,
-  "Rank": 918,
+  "Id": 41,
+  "Name": "Block Inc and Sons",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 82,
+  "Rank": 554,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 596
     }
   }
 }

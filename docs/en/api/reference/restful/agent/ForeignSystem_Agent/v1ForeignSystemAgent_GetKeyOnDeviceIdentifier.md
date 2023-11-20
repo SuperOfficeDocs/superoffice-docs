@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Goodwin LLC",
-  "DeviceName": "Wehner, Marks and Bernhard",
-  "DeviceIdentifier": "reprehenderit",
-  "KeyName": "McDermott-Corkery",
-  "TableName": "Schaefer LLC",
-  "RecordId": 24
+  "ApplicationName": "Bruen-Hackett",
+  "DeviceName": "Gottlieb, Daniel and Rath",
+  "DeviceIdentifier": "facilis",
+  "KeyName": "Cummings-McLaughlin",
+  "TableName": "Gutkowski, Mante and Schmitt",
+  "RecordId": 151
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "explicabo",
-  "Value": "ut",
-  "RecordId": 670,
-  "CreatedDate": "2005-08-04T11:06:34.6301875+02:00",
-  "UpdatedDate": "2008-05-04T11:06:34.6301875+02:00",
-  "UpdatedBy": "dolorum",
-  "CreatedBy": "occaecati",
-  "TableName": "Schuster LLC",
+  "Key": "et",
+  "Value": "dolores",
+  "RecordId": 441,
+  "CreatedDate": "2008-03-19T13:38:13.6396102+01:00",
+  "UpdatedDate": "2002-10-14T13:38:13.6396102+02:00",
+  "UpdatedBy": "adipisci",
+  "CreatedBy": "autem",
+  "TableName": "Fahey Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 738
     }
   }
 }

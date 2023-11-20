@@ -87,7 +87,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -122,132 +123,127 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 29 Apr 2001 11:06:41 G4T
+Last-Modified: Mon, 19 Jul 2021 13:38:17 G7T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-05-31T11:06:41.3166156+02:00",
-  "AppointmentId": 356,
-  "Description": "Open-source multimedia utilisation",
-  "StartDate": "2022-02-12T11:06:41.3166156+01:00",
-  "EndDate": "2005-03-23T11:06:41.3166156+01:00",
+  "CreatedDate": "2015-09-19T13:38:17.0306178+02:00",
+  "AppointmentId": 304,
+  "Description": "Balanced heuristic productivity",
+  "StartDate": "2009-03-28T13:38:17.0306178+01:00",
+  "EndDate": "2008-08-07T13:38:17.0306178+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 957,
+  "MotherId": 978,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-04-29T11:06:41.3166156+02:00",
+  "UpdatedDate": "2021-07-19T13:38:17.0306178+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 836,
+  "ActiveLinks": 291,
   "Links": [
     {
-      "EntityName": "Simonis Group",
-      "Id": 774,
-      "Description": "Focused modular access",
-      "ExtraInfo": "qui",
-      "LinkId": 875,
+      "EntityName": "Renner-Hoppe",
+      "Id": 988,
+      "Description": "Stand-alone scalable parallelism",
+      "ExtraInfo": "laboriosam",
+      "LinkId": 436,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldType": "System.String",
+          "FieldLength": 481
         }
       }
     }
   ],
   "AlarmLeadTime": "expedita",
-  "HasAlarm": true,
-  "ColorIndex": 151,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "eum",
-  "LeadTime": "et",
-  "Location": "suscipit",
-  "RejectCounter": 689,
-  "RejectReason": "",
+  "HasAlarm": false,
+  "ColorIndex": 178,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "ex",
+  "LeadTime": "impedit",
+  "Location": "sequi",
+  "RejectCounter": 356,
+  "RejectReason": "drive distributed e-commerce",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 364,
-      "PersonId": 638,
-      "ContactId": 125,
-      "EmailId": 575,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 364,
-      "PersonId": 638,
-      "ContactId": 125,
-      "EmailId": 575,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 14,
+      "PersonId": 105,
+      "ContactId": 211,
+      "EmailId": 11,
+      "SendEmail": true,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "nestor@kub.co.uk",
+      "Description": "Up-sized bottom-line success"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-07-17T11:06:41.3166156+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2016-08-06T13:38:17.0306178+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 29,
+  "PreferredTZLocation": 309,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 787,
+  "SuggestedAppointmentId": 680,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dolores",
-  "Title": "eos",
-  "Agenda": "molestiae",
+  "CentralserviceVideomeetId": "distinctio",
+  "Title": "ullam",
+  "Agenda": "natus",
   "InternalNotes": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "731689173",
-    "SuperOffice:2": "755901370"
+    "SuperOffice:1": "Orville Rosalee Kozey III",
+    "SuperOffice:2": "Sandrine Frami"
   },
   "ExtraFields": {
-    "ExtraFields1": "nisi",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "sint",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "2006-10-09T11:06:41.3166156+02:00",
-  "PublishTo": "2016-09-02T11:06:41.3166156+02:00",
-  "PublishFrom": "1999-06-14T11:06:41.3166156+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-09-22T13:38:17.0306178+02:00",
+  "PublishTo": "2002-03-20T13:38:17.0306178+01:00",
+  "PublishFrom": "1998-05-14T13:38:17.0306178+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 357,
+      "VisibleId": 168,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 736
         }
       }
     },
     {
-      "VisibleId": 357,
+      "VisibleId": 168,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 736
         }
       }
     }
@@ -256,8 +252,8 @@ Last-Modified: Sun, 29 Apr 2001 11:06:41 G4T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 735
+      "FieldType": "System.Int32",
+      "FieldLength": 500
     }
   }
 }

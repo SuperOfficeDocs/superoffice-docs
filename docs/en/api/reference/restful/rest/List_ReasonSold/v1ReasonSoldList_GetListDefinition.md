@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 793,
-  "Name": "Gaylord, Schmitt and Macejkovic",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 127,
+  "Id": 822,
+  "Name": "Bartell-Cremin",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 697,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "ListType": "maxime",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 102
     }
   },
   "_Links": {

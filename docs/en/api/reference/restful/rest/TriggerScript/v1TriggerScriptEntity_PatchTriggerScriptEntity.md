@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "rem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "rem",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 601,
-  "Name": "Hoppe-Feil",
+  "ScreenChooserId": 578,
+  "Name": "Rau, Jacobs and Muller",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "illo",
-  "Source": "non",
-  "Registered": "2020-03-03T11:06:42.3647477+01:00",
-  "RegisteredAssociateId": 148,
-  "Updated": "2021-08-06T11:06:42.3647477+02:00",
-  "UpdatedAssociateId": 818,
+  "UniqueIdentifier": "veritatis",
+  "Source": "aspernatur",
+  "Registered": "2020-04-21T13:38:17.7650302+02:00",
+  "RegisteredAssociateId": 277,
+  "Updated": "2012-07-19T13:38:17.7650302+02:00",
+  "UpdatedAssociateId": 491,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldType": "System.Int32",
+      "FieldLength": 360
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

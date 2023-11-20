@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 217,
-  "Name": "Glover-Tillman",
+  "WebhookId": 600,
+  "Name": "Welch-Wilderman",
   "Events": [
-    "unde",
-    "qui"
+    "exercitationem",
+    "exercitationem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sit",
+  "Secret": "consequatur",
   "State": "Active",
-  "Type": "eaque",
+  "Type": "totam",
   "Headers": {
-    "Headers1": "doloremque",
-    "Headers2": "accusamus"
+    "Headers1": "voluptas",
+    "Headers2": "sapiente"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2021-07-12T11:06:35.7733119+02:00",
+  "Registered": "2018-02-15T13:38:14.4052895+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2000-12-29T11:06:35.7733119+01:00",
+  "Updated": "2011-09-17T13:38:14.4052895+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "tomasa_zieme@bode.uk"
+  "ErrorsEmail": "lexie.conroy@littlereilly.com"
 }
 ```

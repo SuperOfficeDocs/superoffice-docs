@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ziemann Inc and Sons",
-  "RecordId": 412,
-  "AssociateId": 524
+  "TableName": "Schimmel, Jerde and Walker",
+  "RecordId": 820,
+  "AssociateId": 642
 }
 ```
 

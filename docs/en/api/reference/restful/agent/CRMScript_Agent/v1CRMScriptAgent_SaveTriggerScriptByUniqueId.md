@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "quidem",
+  "TriggerScriptUniqueId": "maiores",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 967,
-  "Name": "Krajcik-Zieme",
+  "ScreenChooserId": 748,
+  "Name": "Ankunding, Koss and Kutch",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "maxime",
-  "Source": "occaecati",
-  "Registered": "2011-06-12T11:06:34.2539546+02:00",
-  "RegisteredAssociateId": 632,
-  "Updated": "2016-10-30T11:06:34.2539546+01:00",
-  "UpdatedAssociateId": 585,
+  "Enabled": false,
+  "UniqueIdentifier": "ea",
+  "Source": "aspernatur",
+  "Registered": "2012-06-17T13:38:13.3896326+02:00",
+  "RegisteredAssociateId": 137,
+  "Updated": "2022-07-19T13:38:13.3896326+02:00",
+  "UpdatedAssociateId": 356,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 741
     }
   }
 }

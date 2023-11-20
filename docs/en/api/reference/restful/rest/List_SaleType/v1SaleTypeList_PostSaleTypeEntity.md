@@ -111,47 +111,47 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 421,
-  "Name": "Sporer-Jaskolski",
-  "Tooltip": "autem",
-  "Rank": 743,
+  "SaleTypeId": 77,
+  "Name": "Tromp-Steuber",
+  "Tooltip": "et",
+  "Rank": 762,
   "DurationUnit": "Century",
-  "SaleDuration": 947,
-  "SaleTypeCatId": 388,
+  "SaleDuration": 358,
+  "SaleTypeCatId": 693,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 662,
-  "QuoteLinesTemplate": 982,
-  "ConfirmationLinesTemplate": 240,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 918,
-  "MinEarningPercent": 818,
-  "GroupQuoteLinesBy": 410,
-  "SortGroupLinesBy": 544,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 967,
+  "QuoteLinesTemplate": 494,
+  "ConfirmationLinesTemplate": 96,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 955,
+  "MinEarningPercent": 496,
+  "GroupQuoteLinesBy": 283,
+  "SortGroupLinesBy": 127,
   "Stages": [
     {
-      "Id": 503,
-      "Name": "Friesen-Cassin",
-      "ToolTip": "Fugit quis quasi voluptas fugit et.",
-      "Deleted": false,
-      "Rank": 702,
-      "Type": "nisi",
-      "ColorBlock": 448,
-      "IconHint": "architecto",
+      "Id": 491,
+      "Name": "Schamberger-Marquardt",
+      "ToolTip": "Rerum alias aliquid dolorem.",
+      "Deleted": true,
+      "Rank": 85,
+      "Type": "culpa",
+      "ColorBlock": 420,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "2016-10-12T11:06:43.0534497+02:00",
+      "LastChanged": "2021-05-21T13:38:18.2181419+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dicta",
-      "StyleHint": "omnis",
+      "ExtraInfo": "ratione",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Prof. Janessa Elbert Little"
+      "FullName": "Amira Nienow"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 816,
-  "Name": "O'Keefe-Hand",
-  "Tooltip": "enim",
-  "Rank": 186,
+  "SaleTypeId": 362,
+  "Name": "Collins LLC",
+  "Tooltip": "voluptatibus",
+  "Rank": 743,
   "DurationUnit": "Century",
-  "SaleDuration": 838,
-  "SaleTypeCatId": 905,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 280,
+  "SaleTypeCatId": 334,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 837,
-  "QuoteLinesTemplate": 190,
-  "ConfirmationLinesTemplate": 260,
+  "DefaultQuoteValidity": 8,
+  "QuoteLinesTemplate": 216,
+  "ConfirmationLinesTemplate": 350,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 393,
-  "MinEarningPercent": 295,
-  "GroupQuoteLinesBy": 229,
-  "SortGroupLinesBy": 472,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 352,
+  "MinEarningPercent": 620,
+  "GroupQuoteLinesBy": 579,
+  "SortGroupLinesBy": 560,
   "Stages": [
     {
-      "Id": 944,
-      "Name": "Pfeffer Group",
-      "ToolTip": "Ea quo sint cum cum voluptas.",
+      "Id": 983,
+      "Name": "Murray, Bayer and Kozey",
+      "ToolTip": "Impedit earum est doloremque in officiis id.",
       "Deleted": true,
-      "Rank": 630,
-      "Type": "occaecati",
-      "ColorBlock": 520,
-      "IconHint": "reiciendis",
+      "Rank": 10,
+      "Type": "natus",
+      "ColorBlock": 815,
+      "IconHint": "natus",
       "Selected": false,
-      "LastChanged": "2006-12-18T11:06:43.0534497+01:00",
+      "LastChanged": "2012-02-10T13:38:18.2181419+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sunt",
-      "StyleHint": "earum",
-      "Hidden": false,
-      "FullName": "Myrtice McClure",
+      "ExtraInfo": "repellendus",
+      "StyleHint": "ipsam",
+      "Hidden": true,
+      "FullName": "Clyde Gottlieb",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldLength": 535
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 349
+      "FieldLength": 132
     }
   }
 }

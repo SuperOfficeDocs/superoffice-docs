@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 957,
-    "UserName": "Kunze, Howe and Schulist",
-    "PersonId": 840,
-    "Rank": 373,
-    "Tooltip": "ex",
-    "UserGroupId": 29,
-    "EjUserId": 198,
+    "UserInfoId": 356,
+    "UserName": "Stokes Group",
+    "PersonId": 255,
+    "Rank": 253,
+    "Tooltip": "sit",
+    "UserGroupId": 62,
+    "EjUserId": 31,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "ipsam",
-      "molestiae"
+      "placeat",
+      "excepturi"
     ],
     "CanLogon": true,
-    "RoleName": "Bednar, Bradtke and O'Hara",
-    "RoleTooltip": "reiciendis",
-    "UserGroupName": "Bergstrom-Boyle",
-    "UserGroupTooltip": "veritatis",
+    "RoleName": "Erdman-Zboncak",
+    "RoleTooltip": "ullam",
+    "UserGroupName": "Watsica, Rice and McClure",
+    "UserGroupTooltip": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 720
+        "FieldType": "System.Int32",
+        "FieldLength": 437
       }
     }
   }

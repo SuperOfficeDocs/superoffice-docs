@@ -73,6 +73,8 @@ OK
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
 | ParserValues | object | Parser values sent to the event handler |
+| CgiVariables | object | Cgi variables sent by some events |
+| CgiContent | string | The Cgi content/body, sent by some events |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -99,32 +101,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "numquam",
-    "InputValues2": "ut"
+    "InputValues1": "voluptas",
+    "InputValues2": "aliquam"
   },
-  "BlockExecution": false,
-  "NavigateTo": "aliquid",
-  "Message": "quia",
-  "ShowDialog": "blanditiis",
+  "BlockExecution": true,
+  "NavigateTo": "eos",
+  "Message": "rerum",
+  "ShowDialog": "corrupti",
   "OutputValues": {
-    "OutputValues1": "esse",
-    "OutputValues2": "sed"
+    "OutputValues1": "non",
+    "OutputValues2": "dolores"
   },
   "StateValues": {
-    "StateValues1": "harum",
-    "StateValues2": "quidem"
+    "StateValues1": "ut",
+    "StateValues2": "quaerat"
   },
-  "Exception": "quibusdam",
+  "Exception": "doloribus",
   "ParserValues": {
-    "ParserValues1": "quae",
-    "ParserValues2": "corrupti"
+    "ParserValues1": "omnis",
+    "ParserValues2": "magnam"
   },
+  "CgiVariables": {
+    "CgiVariables1": "veniam",
+    "CgiVariables2": "laborum"
+  },
+  "CgiContent": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 451
+      "FieldLength": 475
     }
   }
 }

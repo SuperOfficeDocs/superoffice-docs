@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=et
+GET /api/v1/List/SelectionCategory/MDOItems?query=fuga
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Corwin Group",
-    "ToolTip": "Dolore eius nobis culpa non aperiam.",
-    "Deleted": false,
-    "Rank": 534,
-    "Type": "fugit",
+    "Id": 923,
+    "Name": "Zboncak-Labadie",
+    "ToolTip": "At laboriosam et itaque et aliquid deleniti.",
+    "Deleted": true,
+    "Rank": 70,
+    "Type": "magni",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "Huel-Beier",
-        "ToolTip": "Omnis quod quas et ipsa assumenda atque.",
-        "Deleted": true,
-        "Rank": 212,
-        "Type": "rem",
+        "Id": 117,
+        "Name": "Johnston, Hyatt and Larkin",
+        "ToolTip": "Repudiandae ut est esse quo enim.",
+        "Deleted": false,
+        "Rank": 798,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 12,
-        "ExtraInfo": "a",
-        "StyleHint": "repellendus",
-        "FullName": "Mrs. Alison Stokes",
+        "IconHint": "nulla",
+        "ColorBlock": 922,
+        "ExtraInfo": "autem",
+        "StyleHint": "deleniti",
+        "FullName": "Winifred Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldLength": 968
           }
         }
       }
     ],
-    "IconHint": "explicabo",
-    "ColorBlock": 886,
-    "ExtraInfo": "quo",
-    "StyleHint": "eligendi",
-    "FullName": "Darby Heathcote",
+    "IconHint": "aut",
+    "ColorBlock": 934,
+    "ExtraInfo": "qui",
+    "StyleHint": "consequatur",
+    "FullName": "Rafaela Joanie Ziemann DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldType": "System.String",
+        "FieldLength": 996
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Will, Tillman and Paucek",
-    "ToolTip": "Voluptatibus quam voluptas quis voluptatem ut maiores debitis.",
-    "Deleted": true,
-    "Rank": 911,
-    "Type": "nihil",
-    "ColorBlock": 448,
-    "IconHint": "occaecati",
+    "Id": 221,
+    "Name": "Nicolas-Morissette",
+    "ToolTip": "Consequatur delectus rerum rerum laboriosam nihil.",
+    "Deleted": false,
+    "Rank": 900,
+    "Type": "dolorem",
+    "ColorBlock": 522,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2021-03-10T11:06:43.069069+01:00",
+    "LastChanged": "2001-06-18T13:38:18.2337719+02:00",
     "ChildItems": [
       {
-        "Id": 497,
-        "Name": "Tromp Inc and Sons",
-        "ToolTip": "Qui cum suscipit.",
-        "Deleted": true,
-        "Rank": 471,
-        "Type": "molestiae",
-        "ColorBlock": 734,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2007-07-24T11:06:43.069069+02:00",
+        "Id": 865,
+        "Name": "Romaguera Inc and Sons",
+        "ToolTip": "Hic qui hic quam.",
+        "Deleted": false,
+        "Rank": 387,
+        "Type": "provident",
+        "ColorBlock": 30,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2021-07-08T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "similique",
+        "ExtraInfo": "qui",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Catherine Walter"
+        "FullName": "Jacinthe Stracke"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "corporis",
+    "ExtraInfo": "quam",
+    "StyleHint": "autem",
     "Hidden": true,
-    "FullName": "Lambert Jacobi"
+    "FullName": "Mrs. Asa Walter Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Schaefer, Hessel and Skiles",
-    "ToolTip": "Voluptas sit.",
+    "Id": 39,
+    "Name": "Schowalter, Reynolds and Hyatt",
+    "ToolTip": "Quaerat odio in corrupti illum.",
     "Deleted": false,
-    "Rank": 556,
-    "Type": "vel",
-    "ColorBlock": 220,
-    "IconHint": "dolore",
-    "Selected": false,
-    "LastChanged": "2013-05-09T11:06:43.069069+02:00",
+    "Rank": 820,
+    "Type": "non",
+    "ColorBlock": 419,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "2005-01-11T13:38:18.2337719+01:00",
     "ChildItems": [
       {
-        "Id": 335,
-        "Name": "Daniel Inc and Sons",
-        "ToolTip": "Nihil numquam tempore ut.",
+        "Id": 754,
+        "Name": "Toy, Wuckert and Johns",
+        "ToolTip": "Magni id.",
         "Deleted": false,
-        "Rank": 490,
-        "Type": "dolores",
-        "ColorBlock": 901,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2018-09-22T11:06:43.069069+02:00",
+        "Rank": 206,
+        "Type": "iusto",
+        "ColorBlock": 879,
+        "IconHint": "tempora",
+        "Selected": false,
+        "LastChanged": "2013-10-09T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "repellat",
+        "StyleHint": "nihil",
         "Hidden": true,
-        "FullName": "Mr. Kassandra Alexane Schmitt",
+        "FullName": "Jensen Bartell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 738
+            "FieldLength": 457
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "earum",
+    "ExtraInfo": "animi",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Prof. Lenny Maxine Towne",
+    "FullName": "Mrs. Orland Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldType": "System.String",
+        "FieldLength": 172
       }
     }
   }

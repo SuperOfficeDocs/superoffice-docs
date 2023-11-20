@@ -112,6 +112,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -129,8 +130,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    816,
-    747
+    11,
+    304
   ]
 }
 ```
@@ -143,64 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 255,
-    "StartDate": "2000-06-29T11:06:33.4601191+02:00",
-    "EndDate": "2021-07-13T11:06:33.4601191+02:00",
+    "AppointmentId": 664,
+    "StartDate": "2020-01-20T13:38:12.8584402+01:00",
+    "EndDate": "2006-11-09T13:38:12.8584402+01:00",
     "Type": "BookingForChecklist",
-    "Task": "in",
-    "AssociateFullName": "Ms. Jeanne Reinger",
-    "ContactName": "Stamm Group",
-    "Description": "Cross-platform real-time process improvement",
-    "PersonFullName": "Ms. Ayden Louisa Swaniawski",
-    "PersonId": 596,
-    "ContactId": 537,
-    "ProjectId": 100,
-    "ProjectName": "Leffler, Wyman and Nikolaus",
+    "Task": "laboriosam",
+    "AssociateFullName": "Emma Purdy",
+    "ContactName": "Murray Group",
+    "Description": "Open-architected human-resource alliance",
+    "PersonFullName": "Dr. Alvera Jenifer Kessler",
+    "PersonId": 645,
+    "ContactId": 346,
+    "ProjectId": 112,
+    "ProjectName": "Abernathy LLC",
     "IsPublished": false,
-    "AssociateId": 159,
-    "ColorIndex": 249,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "AssociateId": 701,
+    "ColorIndex": 591,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 419,
-    "PriorityName": "O'Connell, Hamill and Johnston",
+    "PriorityId": 466,
+    "PriorityName": "Parker LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2019-08-13T11:06:33.475738+02:00",
+    "ActiveDate": "2004-06-18T13:38:12.8584402+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-06-28T11:06:33.475738+02:00",
-    "RecurringEndDate": "2002-04-18T11:06:33.475738+02:00",
-    "MotherId": 408,
-    "AssignedBy": 201,
-    "AssignedByFullName": "Aurore Wolff",
+    "RecurringStartDate": "2011-10-15T13:38:12.8584402+02:00",
+    "RecurringEndDate": "1999-10-10T13:38:12.8584402+02:00",
+    "MotherId": 537,
+    "AssignedBy": 785,
+    "AssignedByFullName": "Zelda Quigley",
     "RejectReason": "",
-    "Location": "non",
-    "AlarmLeadTime": "deleniti",
-    "SaleId": 219,
-    "SaleName": "Hermann Inc and Sons",
-    "AssociateName": "Beier Inc and Sons",
-    "CreatedDate": "2003-12-19T11:06:33.475738+01:00",
-    "CreatedBy": "odio",
-    "CreatedByFullName": "Miss Bernice Kerluke",
-    "CreatedByAssociateId": 791,
+    "Location": "eos",
+    "AlarmLeadTime": "minus",
+    "SaleId": 406,
+    "SaleName": "Mills, Streich and Brown",
+    "AssociateName": "Bogan, Leffler and Marvin",
+    "CreatedDate": "2013-04-13T13:38:12.8584402+02:00",
+    "CreatedBy": "unde",
+    "CreatedByFullName": "Mr. Nona Una Paucek DVM",
+    "CreatedByAssociateId": 60,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "natus",
-    "Agenda": "provident",
-    "InternalNotes": "suscipit",
+    "PreferredTZLocation": 931,
+    "Title": "qui",
+    "Agenda": "assumenda",
+    "InternalNotes": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldLength": 287
       }
     }
   }

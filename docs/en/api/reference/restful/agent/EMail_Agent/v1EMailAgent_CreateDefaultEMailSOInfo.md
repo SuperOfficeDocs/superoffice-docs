@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 50,
-  "AppointmentId": 469,
-  "ProjectId": 688,
-  "SaleId": 724,
+  "DocumentId": 949,
+  "AppointmentId": 689,
+  "ProjectId": 37,
+  "SaleId": 896,
   "Archived": true,
-  "ArchivedAt": "1997-09-16T11:06:34.505187+02:00",
-  "ArchivedBy": 234,
-  "ArchivedDisplayName": "Block-Torphy",
+  "ArchivedAt": "2018-12-25T13:38:13.5458695+01:00",
+  "ArchivedBy": 917,
+  "ArchivedDisplayName": "Spinka-Grant",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

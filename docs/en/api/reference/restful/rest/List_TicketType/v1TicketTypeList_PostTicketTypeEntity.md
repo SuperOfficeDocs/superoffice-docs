@@ -87,26 +87,26 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 246,
-  "Name": "Effertz-Feeney",
-  "Rank": 498,
-  "Tooltip": "nihil",
-  "Icon": "nemo",
-  "DefaultTicketStatus": 191,
+  "TicketTypeId": 239,
+  "Name": "Klein Group",
+  "Rank": 314,
+  "Tooltip": "rem",
+  "Icon": "placeat",
+  "DefaultTicketStatus": 68,
   "TicketStatuses": [
-    145,
-    27
+    387,
+    187
   ],
-  "DefaultTicketPriority": 17,
+  "DefaultTicketPriority": 991,
   "TicketPriorities": [
-    94,
-    576
+    221,
+    180
   ],
-  "ReplyTemplate": 170,
+  "ReplyTemplate": 6,
   "IsExternalVisible": false,
   "IsDefault": true
 }
@@ -119,22 +119,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 616,
-  "Name": "Marquardt-Schmeler",
-  "Rank": 317,
-  "Tooltip": "illum",
-  "Icon": "aut",
-  "DefaultTicketStatus": 605,
+  "TicketTypeId": 320,
+  "Name": "DuBuque Group",
+  "Rank": 518,
+  "Tooltip": "doloremque",
+  "Icon": "temporibus",
+  "DefaultTicketStatus": 506,
   "TicketStatuses": [
-    314,
-    180
+    926,
+    829
   ],
-  "DefaultTicketPriority": 68,
+  "DefaultTicketPriority": 826,
   "TicketPriorities": [
-    95,
-    962
+    238,
+    825
   ],
-  "ReplyTemplate": 895,
+  "ReplyTemplate": 184,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 550
     }
   }
 }

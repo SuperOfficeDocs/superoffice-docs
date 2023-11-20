@@ -83,23 +83,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 598,
+  "UdListDefinitionId": 603,
   "Items": [
     {
-      "Id": 915,
-      "Name": "Considine, Schulist and Connelly",
-      "Tooltip": "velit",
-      "Deleted": true,
-      "UdListDefinitionId": 95,
-      "Rank": 349
+      "Id": 794,
+      "Name": "Veum-Bernier",
+      "Tooltip": "autem",
+      "Deleted": false,
+      "UdListDefinitionId": 579,
+      "Rank": 282
     },
     {
-      "Id": 915,
-      "Name": "Considine, Schulist and Connelly",
-      "Tooltip": "velit",
-      "Deleted": true,
-      "UdListDefinitionId": 95,
-      "Rank": 349
+      "Id": 794,
+      "Name": "Veum-Bernier",
+      "Tooltip": "autem",
+      "Deleted": false,
+      "UdListDefinitionId": 579,
+      "Rank": 282
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Schmidt-Mills",
-    "Tooltip": "porro",
+    "Id": 303,
+    "Name": "Stanton, Boehm and Langworth",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 488,
-    "Rank": 213,
+    "UdListDefinitionId": 279,
+    "Rank": 621,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 135
+        "FieldType": "System.Int32",
+        "FieldLength": 672
       }
     }
   }

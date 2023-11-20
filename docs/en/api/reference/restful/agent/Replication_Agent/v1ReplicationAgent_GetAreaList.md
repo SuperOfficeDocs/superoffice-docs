@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 52,
-    "Name": "Fritsch, Denesik and McCullough",
-    "MaxDataAge": 658,
-    "NumberOfUsers": 622,
-    "NumberOfLogins": 116,
+    "AreaId": 742,
+    "Name": "Schuster LLC",
+    "MaxDataAge": 709,
+    "NumberOfUsers": 921,
+    "NumberOfLogins": 864,
     "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldType": "System.String",
+        "FieldLength": 396
       }
     }
   }

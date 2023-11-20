@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 528,
-  "MessageId": "repellendus",
-  "Subject": "recusandae",
+  "ServerId": 402,
+  "MessageId": "eius",
+  "Subject": "sapiente",
   "From": null,
   "To": [
     {
-      "ContactId": 678,
-      "ContactName": "Ferry-Runte",
-      "PersonId": 127,
-      "PersonName": "Mayert Group",
-      "AssociateId": 930,
-      "Address": "asperiores",
-      "EmailId": 145,
+      "ContactId": 328,
+      "ContactName": "Crooks-Thompson",
+      "PersonId": 76,
+      "PersonName": "Reichert Group",
+      "AssociateId": 153,
+      "Address": "illo",
+      "EmailId": 15,
       "DuplicatePersonIds": [
-        795,
-        925
+        996,
+        329
       ],
-      "Name": "Stokes, Gottlieb and Ferry",
+      "Name": "Mertz-Hirthe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 2
+          "FieldLength": 889
         }
       }
     }
   ],
-  "Sent": "2010-09-30T11:06:34.505187+02:00",
+  "Sent": "2004-02-09T13:38:13.5458695+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 451,
+  "Size": 525,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldType": "System.Int32",
+      "FieldLength": 641
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 309,
-  "ERPProductKey": "nobis",
-  "ERPPriceListKey": "dolorem",
-  "Name": "Moen, Mohr and Lang",
-  "Description": "Digitized exuding core",
-  "Code": "ut",
-  "PriceUnit": "necessitatibus",
-  "QuantityUnit": "sed",
-  "IsSubscription": false,
-  "SubscriptionUnit": "consequuntur",
-  "DefaultSubscriptionQuantity": 23009.827999999998,
-  "ItemNumber": "947573",
+  "ProductId": 581,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "ratione",
+  "Name": "Reynolds, Leannon and O'Hara",
+  "Description": "Sharable zero administration project",
+  "Code": "officiis",
+  "PriceUnit": "alias",
+  "QuantityUnit": "doloremque",
+  "IsSubscription": true,
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 3901.83,
+  "ItemNumber": "394949",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "optio",
-  "ProductTypeKey": "ratione",
-  "VAT": 9771.812,
-  "VATInfo": "autem",
-  "UnitCost": 9737.338,
-  "UnitMinimumPrice": 27873.796,
-  "UnitListPrice": 20599.782,
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "aut",
+  "VAT": 21063.613999999998,
+  "VATInfo": "praesentium",
+  "UnitCost": 28469.255999999998,
+  "UnitMinimumPrice": 899.458,
+  "UnitListPrice": 3027.444,
   "InAssortment": false,
-  "Supplier": "temporibus",
-  "SupplierCode": "eum",
-  "Rights": "autem",
-  "Rule": "quia",
+  "Supplier": "repellendus",
+  "SupplierCode": "ex",
+  "Rights": "facere",
+  "Rule": "voluptatem",
   "ExtraInfo": [
     {
-      "Name": "O'Reilly-Schowalter",
-      "Value": "nihil",
+      "Name": "Pfeffer LLC",
+      "Value": "amet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 610
+          "FieldLength": 446
         }
       }
     },
     {
-      "Name": "O'Reilly-Schowalter",
-      "Value": "nihil",
+      "Name": "Pfeffer LLC",
+      "Value": "amet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 610
+          "FieldLength": 446
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "ExtraField1": "qui",
-  "ExtraField2": "labore",
-  "ExtraField3": "laborum",
-  "ExtraField4": "voluptatum",
-  "ExtraField5": "voluptatum",
-  "InStock": 560.986,
+  "RawExtraInfo": "quo",
+  "ExtraField1": "nostrum",
+  "ExtraField2": "iusto",
+  "ExtraField3": "rerum",
+  "ExtraField4": "molestiae",
+  "ExtraField5": "ut",
+  "InStock": 28908.016,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 806
     }
   }
 }

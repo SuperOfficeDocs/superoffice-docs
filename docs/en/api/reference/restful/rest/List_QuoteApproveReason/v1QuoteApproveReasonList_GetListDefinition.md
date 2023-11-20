@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 823,
-  "Name": "Kub-Greenholt",
-  "Tooltip": "blanditiis",
+  "Id": 519,
+  "Name": "Abshire-Kuhlman",
+  "Tooltip": "rem",
   "Deleted": false,
-  "Rank": 768,
+  "Rank": 700,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldLength": 884
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

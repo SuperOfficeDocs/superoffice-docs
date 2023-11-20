@@ -89,12 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wisoky-Koss",
-  "DeviceName": "Bartoletti-Bins",
-  "DeviceIdentifier": "veritatis",
-  "KeyName": "Zemlak-Will",
-  "KeyValue": "et",
-  "TableName": "Turner, Schinner and Macejkovic"
+  "ApplicationName": "Pfannerstill-Koepp",
+  "DeviceName": "Barrows-Stracke",
+  "DeviceIdentifier": "velit",
+  "KeyName": "Morar-Gulgowski",
+  "KeyValue": "natus",
+  "TableName": "Howe-Hickle"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptas",
-  "Value": "possimus",
-  "RecordId": 23,
-  "CreatedDate": "2012-10-18T11:06:34.6301875+02:00",
-  "UpdatedDate": "2020-12-30T11:06:34.6301875+01:00",
-  "UpdatedBy": "sed",
-  "CreatedBy": "deserunt",
-  "TableName": "Schaefer, Hauck and Dibbert",
+  "Key": "qui",
+  "Value": "et",
+  "RecordId": 243,
+  "CreatedDate": "2001-04-10T13:38:13.6396102+02:00",
+  "UpdatedDate": "2023-02-26T13:38:13.6396102+01:00",
+  "UpdatedBy": "vel",
+  "CreatedBy": "ratione",
+  "TableName": "Bosco-Okuneva",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldType": "System.String",
+      "FieldLength": 343
     }
   }
 }

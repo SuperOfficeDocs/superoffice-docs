@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Reinger LLC",
-    "Buckridge Inc and Sons"
+    "Monahan-Feeney",
+    "Satterfield Group"
   ],
-  "Culture": "vitae",
+  "Culture": "temporibus",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Rogahn, Thiel and Borer",
-    "ResourceValue": "nemo",
-    "Culture": "est",
-    "IsActive": false,
+    "ResourceName": "Halvorson, Stehr and Nolan",
+    "ResourceValue": "veniam",
+    "Culture": "rem",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldLength": 247
       }
     }
   },
   {
-    "ResourceName": "Rogahn, Thiel and Borer",
-    "ResourceValue": "nemo",
-    "Culture": "est",
-    "IsActive": false,
+    "ResourceName": "Halvorson, Stehr and Nolan",
+    "ResourceValue": "veniam",
+    "Culture": "rem",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldLength": 247
       }
     }
   }

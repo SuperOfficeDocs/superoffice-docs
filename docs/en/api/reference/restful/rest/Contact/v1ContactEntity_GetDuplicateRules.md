@@ -58,7 +58,7 @@ OK
 GET /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wehner, Gaylord and Flatley",
-    "DisplayName": "Emmerich Inc and Sons",
-    "DisplayTooltip": "corporis",
-    "IsActive": true,
+    "Name": "Funk-Jakubowski",
+    "DisplayName": "Morar-Borer",
+    "DisplayTooltip": "aut",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 874
+        "FieldType": "System.Int32",
+        "FieldLength": 294
       }
     }
   },
   {
-    "Name": "Wehner, Gaylord and Flatley",
-    "DisplayName": "Emmerich Inc and Sons",
-    "DisplayTooltip": "corporis",
-    "IsActive": true,
+    "Name": "Funk-Jakubowski",
+    "DisplayName": "Morar-Borer",
+    "DisplayTooltip": "aut",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 874
+        "FieldType": "System.Int32",
+        "FieldLength": 294
       }
     }
   }

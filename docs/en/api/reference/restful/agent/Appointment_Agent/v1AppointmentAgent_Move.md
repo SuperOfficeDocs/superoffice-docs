@@ -105,7 +105,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -132,12 +133,12 @@ OK
 POST /api/v1/Agents/Appointment/Move
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 536,
-  "NewStartTime": "2007-12-22T11:06:33.616357+01:00",
+  "AppointmentId": 618,
+  "NewStartTime": "2020-12-19T13:38:12.9678107+01:00",
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -153,125 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-04-07T11:06:33.616357+02:00",
-  "AppointmentId": 146,
-  "Description": "De-engineered eco-centric application",
-  "StartDate": "2004-01-16T11:06:33.616357+01:00",
-  "EndDate": "2018-07-11T11:06:33.616357+02:00",
+  "CreatedDate": "2017-08-15T13:38:12.9678107+02:00",
+  "AppointmentId": 520,
+  "Description": "Operative scalable encoding",
+  "StartDate": "2018-02-11T13:38:12.9678107+01:00",
+  "EndDate": "2015-02-12T13:38:12.9678107+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 466,
+  "MotherId": 392,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2000-04-11T11:06:33.6319848+02:00",
+  "UpdatedDate": "2021-07-03T13:38:12.9678107+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 882,
+  "ActiveLinks": 84,
   "Links": [
     {
-      "EntityName": "Blick-Hand",
-      "Id": 157,
-      "Description": "Synergized demand-driven intranet",
-      "ExtraInfo": "enim",
-      "LinkId": 606,
+      "EntityName": "Ferry, Schoen and Casper",
+      "Id": 751,
+      "Description": "Front-line didactic frame",
+      "ExtraInfo": "ad",
+      "LinkId": 524,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 557
         }
       }
     }
   ],
-  "AlarmLeadTime": "praesentium",
+  "AlarmLeadTime": "dolor",
   "HasAlarm": false,
-  "ColorIndex": 133,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "voluptatum",
-  "LeadTime": "excepturi",
-  "Location": "excepturi",
-  "RejectCounter": 604,
+  "ColorIndex": 895,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "ad",
+  "LeadTime": "dolores",
+  "Location": "sed",
+  "RejectCounter": 426,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 714,
-      "PersonId": 417,
-      "ContactId": 18,
-      "EmailId": 322,
+      "AssociateId": 325,
+      "PersonId": 742,
+      "ContactId": 713,
+      "EmailId": 606,
       "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 714,
-      "PersonId": 417,
-      "ContactId": 18,
-      "EmailId": 322,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "daisy@gaylordwintheiser.uk",
+      "Description": "Cross-group clear-thinking hardware"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-02-26T11:06:33.6319848+01:00",
+  "ActiveDate": "2005-04-27T13:38:12.9678107+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 77,
+  "PreferredTZLocation": 500,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 488,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 892,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "accusamus",
-  "Title": "consequatur",
-  "Agenda": "et",
-  "InternalNotes": "dicta",
+  "CentralserviceVideomeetId": "ut",
+  "Title": "non",
+  "Agenda": "error",
+  "InternalNotes": "unde",
   "UserDefinedFields": {
-    "SuperOffice:1": "Devyn Turcotte",
-    "SuperOffice:2": "Mrs. Joanie Joey Padberg"
+    "SuperOffice:1": "Desmond Graham",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "veniam"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "est",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2002-09-21T11:06:33.6319848+02:00",
-  "PublishTo": "2009-05-29T11:06:33.6319848+02:00",
-  "PublishFrom": "2012-10-31T11:06:33.6319848+01:00",
+  "PublishEventDate": "2005-06-06T13:38:12.9678107+02:00",
+  "PublishTo": "2012-01-10T13:38:12.9678107+01:00",
+  "PublishFrom": "1997-05-26T13:38:12.9678107+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 74,
+      "VisibleId": 159,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1000
+          "FieldLength": 88
         }
       }
     },
     {
-      "VisibleId": 74,
+      "VisibleId": 159,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1000
+          "FieldLength": 88
         }
       }
     }
@@ -281,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 933
     }
   }
 }

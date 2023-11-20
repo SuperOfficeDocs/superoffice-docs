@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 81,
-    "Name": "Weber, Lind and Wisozk",
-    "Tooltip": "asperiores",
+    "HeadingId": 364,
+    "Name": "Doyle Inc and Sons",
+    "Tooltip": "voluptatem",
     "Deleted": true,
-    "Rank": 181,
-    "UdListDefinitionId": 354,
+    "Rank": 694,
+    "UdListDefinitionId": 79,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldType": "System.String",
+        "FieldLength": 666
       }
     }
   }

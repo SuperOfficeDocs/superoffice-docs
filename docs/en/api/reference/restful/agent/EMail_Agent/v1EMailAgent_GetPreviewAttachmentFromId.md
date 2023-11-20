@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 526,
-  "AttachmentId": "vero",
-  "AttachmentType": "mollitia",
-  "AttachmentFilename": "saepe"
+  "MailItemId": 227,
+  "AttachmentId": "voluptatum",
+  "AttachmentType": "impedit",
+  "AttachmentFilename": "eius"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based local database",
-  "Filename": "fugit",
-  "Size": 190,
-  "Type": "modi",
-  "Encoding": "distinctio",
-  "Id": "accusamus",
-  "Disposition": "mollitia",
-  "IsSafeFileExtension": true,
+  "Description": "Distributed coherent info-mediaries",
+  "Filename": "impedit",
+  "Size": 453,
+  "Type": "facere",
+  "Encoding": "ducimus",
+  "Id": "eos",
+  "Disposition": "sunt",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldType": "System.Int32",
+      "FieldLength": 431
     }
   }
 }

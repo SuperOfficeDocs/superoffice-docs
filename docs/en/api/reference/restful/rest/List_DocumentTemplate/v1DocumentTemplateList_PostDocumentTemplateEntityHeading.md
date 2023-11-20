@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 792,
-  "Name": "Reilly Group",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 500,
-  "UdListDefinitionId": 227
+  "HeadingId": 617,
+  "Name": "Braun-Rempel",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 685,
+  "UdListDefinitionId": 180
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 945,
-  "Name": "Schmitt, D'Amore and Kiehn",
-  "Tooltip": "quod",
+  "HeadingId": 495,
+  "Name": "Hirthe-Wisozk",
+  "Tooltip": "similique",
   "Deleted": true,
-  "Rank": 839,
-  "UdListDefinitionId": 274,
+  "Rank": 775,
+  "UdListDefinitionId": 914,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldType": "System.String",
+      "FieldLength": 290
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 143,
-    "Name": "Aufderhar, Runolfsson and Shanahan",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "Rank": 274,
-    "UdListDefinitionId": 390
+    "HeadingId": 265,
+    "Name": "White LLC",
+    "Tooltip": "necessitatibus",
+    "Deleted": true,
+    "Rank": 180,
+    "UdListDefinitionId": 138
   },
   {
-    "HeadingId": 143,
-    "Name": "Aufderhar, Runolfsson and Shanahan",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "Rank": 274,
-    "UdListDefinitionId": 390
+    "HeadingId": 265,
+    "Name": "White LLC",
+    "Tooltip": "necessitatibus",
+    "Deleted": true,
+    "Rank": 180,
+    "UdListDefinitionId": 138
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 863,
-    "Name": "Balistreri Inc and Sons",
-    "Tooltip": "mollitia",
-    "Deleted": false,
-    "Rank": 749,
-    "UdListDefinitionId": 840,
+    "HeadingId": 512,
+    "Name": "Yost-Powlowski",
+    "Tooltip": "neque",
+    "Deleted": true,
+    "Rank": 130,
+    "UdListDefinitionId": 69,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 673
+        "FieldLength": 707
       }
     }
   }

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 394
+  "QuoteConnectionId": 482
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 113,
-  "ERPName": "Upton-Ullrich",
-  "DisplayName": "Walker-Tillman",
-  "DisplayDescription": "Phased user-facing secured line",
-  "Rank": 795,
-  "ConnectorName": "Haley LLC",
-  "ErpConnectionId": 730,
-  "ExtraData": "delectus",
-  "IsAvailable": false,
+  "QuoteConnectionId": 993,
+  "ERPName": "Schamberger Inc and Sons",
+  "DisplayName": "Graham, Rempel and Von",
+  "DisplayDescription": "Extended analyzing approach",
+  "Rank": 533,
+  "ConnectorName": "Jenkins-McClure",
+  "ErpConnectionId": 737,
+  "ExtraData": "autem",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 862,
-      "ERPPriceListKey": "ipsum",
-      "QuoteConnectionId": 872,
-      "Name": "O'Hara, Goyette and Ankunding",
-      "Description": "Progressive methodical focus group",
-      "Currency": "fugiat",
-      "CurrencyName": "Gutkowski Group",
-      "ValidFrom": "2010-11-16T11:06:35.2239506+01:00",
-      "ValidTo": "2017-06-24T11:06:35.2239506+02:00",
-      "IsActive": true,
+      "PriceListId": 234,
+      "ERPPriceListKey": "facilis",
+      "QuoteConnectionId": 639,
+      "Name": "Maggio Group",
+      "Description": "Grass-roots systemic forecast",
+      "Currency": "modi",
+      "CurrencyName": "Olson-Mueller",
+      "ValidFrom": "2015-05-17T13:38:14.0303322+02:00",
+      "ValidTo": "2004-11-18T13:38:14.0303322+01:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 650
+          "FieldType": "System.Int32",
+          "FieldLength": 67
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    199,
-    380
+    547,
+    158
   ],
   "AssociateAccessIds": [
-    578,
-    597
+    982,
+    636
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldLength": 741
     }
   }
 }

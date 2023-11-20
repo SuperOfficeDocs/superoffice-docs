@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 392,
-  "Name": "Altenwerth LLC",
-  "Tooltip": "laboriosam",
+  "Id": 281,
+  "Name": "Schamberger LLC",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "UdListDefinitionId": 445,
-  "Rank": 705,
+  "UdListDefinitionId": 970,
+  "Rank": 182,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldType": "System.Int32",
+      "FieldLength": 458
     }
   }
 }

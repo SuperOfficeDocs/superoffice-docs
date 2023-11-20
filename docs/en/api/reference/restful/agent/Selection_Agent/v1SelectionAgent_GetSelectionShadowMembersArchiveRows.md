@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 165,
-  "Select": "nostrum"
+  "SelectionId": 591,
+  "Select": "sint"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "VonRueden-Bins",
-    "PrimaryKey": 710,
+    "EntityName": "Schumm Group",
+    "PrimaryKey": 594,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ut",
-        "TooltipHint": "deserunt",
-        "LinkHint": "possimus"
+        "DisplayValue": "qui",
+        "TooltipHint": "natus",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "ad",
-    "StyleHint": "nesciunt",
+    "LinkHint": "eveniet",
+    "StyleHint": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldLength": 966
       }
     }
   }

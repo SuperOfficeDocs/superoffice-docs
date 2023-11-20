@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 157,
-  "ParentId": 779,
-  "Name": "Goldner, Frami and Mueller",
-  "Fullname": "eligendi",
-  "CategoryMaster": 739,
+  "TicketCategoryId": 511,
+  "ParentId": 839,
+  "Name": "Bernhard, Kerluke and Pacocha",
+  "Fullname": "maiores",
+  "CategoryMaster": 962,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cronin Inc and Sons",
+  "ExternalName": "Emard LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 632,
-  "ReplyTemplate": 479,
-  "NotificationEmail": "amalia@ernser.name",
+  "AssignmentLag": 355,
+  "ReplyTemplate": 145,
+  "NotificationEmail": "marina@runolfsson.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 588,
+  "EffectiveReplyTemplateId": 40,
   "ExtraFields": {
-    "ExtraFields1": "neque",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "voluptatibus",
+    "ExtraFields2": "iure"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "expedita"
+    "CustomFields1": "rem",
+    "CustomFields2": "dolorem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldType": "System.Int32",
+      "FieldLength": 601
     }
   }
 }

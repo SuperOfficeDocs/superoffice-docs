@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "corrupti",
+    "path": "excepturi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "corrupti",
+    "path": "excepturi",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 66,
-  "PrefDescId": 719,
-  "PrefValue": "odit",
-  "PrefShowValue": "consequuntur",
-  "Description": "Configurable tangible workforce",
+  "PrefDescLineId": 106,
+  "PrefDescId": 702,
+  "PrefValue": "dolorum",
+  "PrefShowValue": "doloribus",
+  "Description": "Exclusive heuristic capacity",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldLength": 635
     }
   },
   "_Links": {

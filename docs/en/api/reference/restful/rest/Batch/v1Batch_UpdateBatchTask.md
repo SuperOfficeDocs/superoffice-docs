@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 28,
-  "Name": "Jakubowski LLC",
-  "AssociateId": 688,
-  "DetailsTable": 259,
-  "DetailsRecord": 89,
-  "IsSystemTask": true,
+  "Id": 975,
+  "Name": "Rolfson Group",
+  "AssociateId": 24,
+  "DetailsTable": 773,
+  "DetailsRecord": 546,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "vel",
-    "ParameterObject2": "fugit"
+    "ParameterObject1": "perferendis",
+    "ParameterObject2": "aliquam"
   },
-  "LastStarted": "2016-05-14T11:06:42.3803732+02:00",
-  "Created": "2018-06-01T11:06:42.3803732+02:00",
-  "StartCount": 660,
-  "DatabaseSerialNumber": "1351313",
-  "Context": "inventore",
-  "Result": "dolores",
+  "LastStarted": "2003-09-16T13:38:17.7650302+02:00",
+  "Created": "1996-08-21T13:38:17.7650302+02:00",
+  "StartCount": 963,
+  "DatabaseSerialNumber": "729881",
+  "Context": "beatae",
+  "Result": "est",
   "State": "All",
-  "Description": "Grass-roots impactful architecture",
-  "Response": "excepturi",
-  "Request": "non",
-  "ProgressDescription": "Digitized system-worthy portal",
-  "ProgressPercent": 590,
-  "FileName": "Stroman-Nitzsche",
+  "Description": "Total clear-thinking protocol",
+  "Response": "est",
+  "Request": "sint",
+  "ProgressDescription": "Automated even-keeled project",
+  "ProgressPercent": 506,
+  "FileName": "Corkery-Stiedemann",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 913,
-  "Name": "Kohler LLC",
-  "AssociateId": 191,
-  "DetailsTable": 464,
-  "DetailsRecord": 657,
-  "IsSystemTask": true,
+  "Id": 471,
+  "Name": "McDermott, Collier and Hammes",
+  "AssociateId": 56,
+  "DetailsTable": 284,
+  "DetailsRecord": 606,
+  "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "veniam",
-    "ParameterObject2": "autem"
+    "ParameterObject1": "et",
+    "ParameterObject2": "qui"
   },
-  "LastStarted": "2009-10-01T11:06:42.3803732+02:00",
-  "Created": "2003-12-27T11:06:42.3803732+01:00",
-  "StartCount": 60,
-  "DatabaseSerialNumber": "430920",
-  "Context": "tempore",
-  "Result": "et",
+  "LastStarted": "2012-03-16T13:38:17.7650302+01:00",
+  "Created": "2003-05-05T13:38:17.7650302+02:00",
+  "StartCount": 527,
+  "DatabaseSerialNumber": "595988",
+  "Context": "totam",
+  "Result": "saepe",
   "State": "All",
-  "Description": "Fully-configurable motivating encoding",
-  "Response": "reiciendis",
-  "Request": "et",
-  "ProgressDescription": "Adaptive systematic parallelism",
-  "ProgressPercent": 810,
-  "FileName": "Wyman-Marks",
+  "Description": "Optional 24 hour algorithm",
+  "Response": "omnis",
+  "Request": "eos",
+  "ProgressDescription": "Extended context-sensitive definition",
+  "ProgressPercent": 128,
+  "FileName": "Borer Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldType": "System.String",
+      "FieldLength": 539
     }
   }
 }

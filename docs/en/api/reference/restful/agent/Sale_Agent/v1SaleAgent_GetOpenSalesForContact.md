@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 533
+  "ContactId": 465
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Reinger, Erdman and Stark",
-    "SaleDate": "2012-04-02T11:06:35.3333182+02:00",
-    "SaleId": 489,
-    "Probability": 478,
-    "Title": "maxime",
-    "Amount": 6327.5459999999994,
-    "Currency": "est",
-    "ProjectName": "Hayes-Jaskolski",
-    "AssociateFullName": "Dr. Celestino Abernathy",
-    "Description": "Total analyzing migration",
+    "ContactName": "Hodkiewicz-Willms",
+    "SaleDate": "2002-07-22T13:38:14.1084486+02:00",
+    "SaleId": 587,
+    "Probability": 896,
+    "Title": "eaque",
+    "Amount": 11708.624,
+    "Currency": "ipsa",
+    "ProjectName": "Ward LLC",
+    "AssociateFullName": "Jeremie America Rippin III",
+    "Description": "Multi-channelled human-resource matrices",
     "Status": "Lost",
-    "WeightedAmount": 15011.859999999999,
-    "ProjectId": 696,
-    "EarningPercent": 12128.58,
-    "Earning": 10251.314,
-    "ContactId": 6,
-    "AssociateId": 193,
-    "PersonId": 647,
-    "SaleTypeId": 213,
-    "SaleTypeName": "Huel-Morar",
-    "PersonFullName": "Prof. Mavis Myrtie Herzog III",
+    "WeightedAmount": 13802.136,
+    "ProjectId": 591,
+    "EarningPercent": 16534.984,
+    "Earning": 18500.002,
+    "ContactId": 912,
+    "AssociateId": 766,
+    "PersonId": 833,
+    "SaleTypeId": 756,
+    "SaleTypeName": "Lind LLC",
+    "PersonFullName": "Kaleigh Rempel",
     "Completed": "Completed",
-    "ActiveErpLinks": 211,
-    "NextDueDate": "2011-06-14T11:06:35.3333182+02:00",
-    "Number": "1198716",
+    "ActiveErpLinks": 362,
+    "NextDueDate": "2008-11-25T13:38:14.1084486+01:00",
+    "Number": "627729",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 776
+        "FieldType": "System.Int32",
+        "FieldLength": 589
       }
     }
   }

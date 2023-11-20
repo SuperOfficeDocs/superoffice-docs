@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 54,
-  "ColumnId": 526,
-  "FieldDefault": "nisi",
-  "FieldHeight": 431,
-  "FieldLabel": "dolorum",
-  "FieldLeft": 707,
-  "FieldTop": 824,
+  "UDefFieldId": 251,
+  "ColumnId": 385,
+  "FieldDefault": "sit",
+  "FieldHeight": 839,
+  "FieldLabel": "et",
+  "FieldLeft": 842,
+  "FieldTop": 34,
   "FieldType": "Checkbox",
-  "FieldWidth": 93,
-  "FormatMask": "consequuntur",
+  "FieldWidth": 111,
+  "FormatMask": "neque",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 923,
-  "LabelLeft": 470,
-  "LabelTop": 794,
-  "LabelWidth": 249,
-  "LastVersionId": 212,
-  "ListTableId": 750,
-  "IsMandatory": false,
+  "LabelHeight": 821,
+  "LabelLeft": 27,
+  "LabelTop": 592,
+  "LabelWidth": 575,
+  "LastVersionId": 457,
+  "ListTableId": 882,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 655,
-  "ProgId": "et",
-  "IsReadOnly": false,
-  "ShortLabel": "debitis",
-  "TabOrder": 234,
-  "TextLength": 277,
-  "Tooltip": "iusto",
-  "UdefIdentity": 273,
-  "UDListDefinitionId": 373,
+  "Page1LineNo": 237,
+  "ProgId": "repellat",
+  "IsReadOnly": true,
+  "ShortLabel": "est",
+  "TabOrder": 177,
+  "TextLength": 564,
+  "Tooltip": "dolores",
+  "UdefIdentity": 130,
+  "UDListDefinitionId": 441,
   "Justification": "Center",
-  "Version": 267,
-  "TemplateVariableName": "Shields-Schmeler",
-  "HasBeenPublished": false,
-  "MdoListName": "Moore Group",
+  "Version": 598,
+  "TemplateVariableName": "Harris-Grady",
+  "HasBeenPublished": true,
+  "MdoListName": "Haag LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 998
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

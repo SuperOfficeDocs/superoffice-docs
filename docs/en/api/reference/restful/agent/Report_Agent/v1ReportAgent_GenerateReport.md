@@ -73,26 +73,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 802,
-  "LabelLayoutId": 328,
-  "Filename": "culpa",
-  "Language": "delectus",
-  "FileType": "veniam",
+  "ReportId": 177,
+  "LabelLayoutId": 150,
+  "Filename": "laborum",
+  "Language": "quia",
+  "FileType": "sunt",
   "Restrictions": [
     {
-      "Name": "Cole-Bogan",
-      "Operator": "sit",
+      "Name": "Rodriguez-Bode",
+      "Operator": "excepturi",
       "Values": [
-        "deleniti",
-        "magnam"
+        "numquam",
+        "eligendi"
       ],
       "DisplayValues": [
-        "minima",
-        "alias"
+        "iusto",
+        "reprehenderit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 152,
+      "InterParenthesis": 8,
       "InterOperator": "And",
-      "UniqueHash": 167
+      "UniqueHash": 809
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nihil"
+"non"
 ```

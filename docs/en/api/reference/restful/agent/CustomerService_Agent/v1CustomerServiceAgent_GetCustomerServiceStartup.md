@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,14 +78,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 233,
-  "RecaptchaSiteKey": "quo",
+  "TZOffset": 264,
+  "RecaptchaSiteKey": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 475
     }
   }
 }

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Lindgren LLC"
+  "ApplicationName": "Cormier-Anderson"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 863,
-  "Name": "Dietrich, Bartell and Schroeder",
-  "CreatedDate": "2003-07-14T11:06:34.6458113+02:00",
-  "UpdatedDate": "2016-02-14T11:06:34.6458113+01:00",
-  "AssociateFullName": "Mr. Rosetta Cassin",
-  "CreatedBy": "excepturi",
-  "UpdatedBy": "quaerat",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 229,
+  "ForeignDeviceId": 659,
+  "Name": "Hagenes, Block and Armstrong",
+  "CreatedDate": "2022-09-18T13:38:13.6396102+02:00",
+  "UpdatedDate": "2017-10-16T13:38:13.6396102+02:00",
+  "AssociateFullName": "Lenna Kerluke",
+  "CreatedBy": "illo",
+  "UpdatedBy": "aut",
+  "DeviceIdentifier": "occaecati",
+  "ForeignAppId": 598,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldType": "System.String",
+      "FieldLength": 662
     }
   }
 }

@@ -94,20 +94,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 851,
-  "Caption": "tenetur",
-  "Description": "Optional value-added encryption",
-  "SelectionId": 621,
+  "DashboardTileId": 406,
+  "Caption": "et",
+  "Description": "Balanced well-modulated challenge",
+  "SelectionId": 358,
   "VisibleFor": [
     {
-      "VisibleId": 889,
+      "VisibleId": 206,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "repudiandae"
     },
     {
-      "VisibleId": 889,
+      "VisibleId": 206,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "repudiandae"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 251,
-  "Caption": "quam",
-  "Description": "Inverse multimedia solution",
-  "ChartName": "Collins Inc and Sons",
-  "ChartId": "aut",
-  "IsDefault": false,
-  "AssociateId": 956,
-  "GroupId": 652,
-  "SelectionId": 659,
-  "Config": "exercitationem",
+  "DashboardTileId": 983,
+  "Caption": "est",
+  "Description": "Multi-lateral web-enabled product",
+  "ChartName": "Bogisich, Bins and Kuhn",
+  "ChartId": "laborum",
+  "IsDefault": true,
+  "AssociateId": 456,
+  "GroupId": 223,
+  "SelectionId": 506,
+  "Config": "quas",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Harvey Group",
-      "Description": "Decentralized logistical standardization",
+      "Name": "Kuhn, Runolfsson and Jacobi",
+      "Description": "Ameliorated didactic matrices",
       "Type": "Boolean",
-      "ListName": "Armstrong-Fay",
+      "ListName": "Abshire, Reinger and Cole",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nobis",
+      "Value": "aliquid",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 317
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 418,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 681
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     },
     {
-      "VisibleId": 418,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 681
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 336
+      "FieldType": "System.Int32",
+      "FieldLength": 326
     }
   }
 }

@@ -105,7 +105,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -136,7 +137,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 80,
+  "AppointmentId": 267,
   "Participant": null,
   "UpdateMode": "OnlyThis"
 }
@@ -153,125 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-12-27T11:06:33.616357+01:00",
-  "AppointmentId": 156,
-  "Description": "Customer-focused mobile benchmark",
-  "StartDate": "2002-07-29T11:06:33.616357+02:00",
-  "EndDate": "1997-12-02T11:06:33.616357+01:00",
+  "CreatedDate": "2011-11-02T13:38:12.9678107+01:00",
+  "AppointmentId": 339,
+  "Description": "Vision-oriented static structure",
+  "StartDate": "2015-09-26T13:38:12.9678107+02:00",
+  "EndDate": "2002-08-21T13:38:12.9678107+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 741,
+  "MotherId": 297,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-06-19T11:06:33.616357+02:00",
+  "UpdatedDate": "2004-06-25T13:38:12.9678107+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 164,
+  "ActiveLinks": 135,
   "Links": [
     {
-      "EntityName": "Ziemann-Ortiz",
-      "Id": 204,
-      "Description": "Open-source scalable array",
-      "ExtraInfo": "quidem",
-      "LinkId": 52,
+      "EntityName": "Bednar, Rutherford and Farrell",
+      "Id": 530,
+      "Description": "Re-engineered radical internet solution",
+      "ExtraInfo": "sit",
+      "LinkId": 524,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 402
+          "FieldLength": 69
         }
       }
     }
   ],
-  "AlarmLeadTime": "molestiae",
-  "HasAlarm": false,
-  "ColorIndex": 901,
+  "AlarmLeadTime": "tempora",
+  "HasAlarm": true,
+  "ColorIndex": 669,
   "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "omnis",
-  "LeadTime": "hic",
-  "Location": "maxime",
-  "RejectCounter": 46,
+  "IsAlldayEvent": false,
+  "LagTime": "voluptatem",
+  "LeadTime": "animi",
+  "Location": "deserunt",
+  "RejectCounter": 354,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 670,
-      "PersonId": 811,
-      "ContactId": 561,
-      "EmailId": 946,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 670,
-      "PersonId": 811,
-      "ContactId": 561,
-      "EmailId": 946,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 146,
+      "PersonId": 48,
+      "ContactId": 808,
+      "EmailId": 579,
+      "SendEmail": false,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "coy.kunde@kundejewess.biz",
+      "Description": "Profit-focused non-volatile software"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-09-15T11:06:33.616357+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2007-03-13T13:38:12.9678107+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 884,
+  "PreferredTZLocation": 529,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 536,
+  "SuggestedAppointmentId": 626,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nulla",
-  "Title": "ducimus",
-  "Agenda": "commodi",
-  "InternalNotes": "nihil",
+  "CentralserviceVideomeetId": "doloribus",
+  "Title": "ex",
+  "Agenda": "doloremque",
+  "InternalNotes": "error",
   "UserDefinedFields": {
-    "SuperOffice:1": "Cruz Emard",
-    "SuperOffice:2": "Ricky Bosco"
+    "SuperOffice:1": "Zella Hammes",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
     "CustomFields1": "deserunt",
-    "CustomFields2": "est"
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2010-09-02T11:06:33.616357+02:00",
-  "PublishTo": "2012-08-30T11:06:33.616357+02:00",
-  "PublishFrom": "1999-02-20T11:06:33.616357+01:00",
+  "PublishEventDate": "2021-12-12T13:38:12.9678107+01:00",
+  "PublishTo": "2018-03-10T13:38:12.9678107+01:00",
+  "PublishFrom": "2022-04-18T13:38:12.9678107+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 176,
+      "VisibleId": 241,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 239
+          "FieldType": "System.String",
+          "FieldLength": 791
         }
       }
     },
     {
-      "VisibleId": 176,
+      "VisibleId": 241,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 239
+          "FieldType": "System.String",
+          "FieldLength": 791
         }
       }
     }
@@ -281,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 434
     }
   }
 }

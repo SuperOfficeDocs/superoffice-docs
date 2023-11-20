@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 415,
-  "UniqueId": "quis",
-  "Name": "Beier, Kessler and Koelpin",
-  "Description": "Multi-layered object-oriented Graphic Interface",
-  "AssociateId": 523,
-  "Columns": 519,
+  "DashboardId": 103,
+  "UniqueId": "dolor",
+  "Name": "Schulist Inc and Sons",
+  "Description": "Business-focused optimal hardware",
+  "AssociateId": 888,
+  "Columns": 750,
   "Theme": null,
-  "VisibleForAll": 891,
+  "VisibleForAll": 108,
   "VisibleForAssociates": [
-    481,
-    539
+    736,
+    718
   ],
   "VisibleForGroups": [
-    127,
-    504
+    643,
+    552
   ],
-  "PinForAll": 403,
+  "PinForAll": 29,
   "PinForAssociates": [
-    577,
-    29
+    348,
+    938
   ],
   "PinForGroups": [
-    65,
-    221
+    689,
+    985
   ]
 }
 ```
@@ -139,42 +139,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 503,
-  "UniqueId": "excepturi",
-  "Name": "Wisoky, Renner and Klocko",
-  "Description": "Team-oriented methodical product",
-  "AssociateId": 412,
-  "Columns": 621,
+  "DashboardId": 417,
+  "UniqueId": "laudantium",
+  "Name": "Langosh, Marks and Wisozk",
+  "Description": "Monitored stable project",
+  "AssociateId": 277,
+  "Columns": 290,
   "Theme": null,
-  "VisibleForAll": 903,
+  "VisibleForAll": 380,
   "VisibleForAssociates": [
-    173,
-    975
+    583,
+    115
   ],
   "VisibleForGroups": [
-    871,
-    583
+    392,
+    762
   ],
-  "PinForAll": 264,
+  "PinForAll": 722,
   "PinForAssociates": [
-    96,
-    296
+    862,
+    109
   ],
   "PinForGroups": [
-    390,
-    623
+    554,
+    883
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 148
+      "FieldType": "System.Int32",
+      "FieldLength": 695
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

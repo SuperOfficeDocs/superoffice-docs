@@ -30,7 +30,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 174,
-  "ColumnId": 479,
-  "FieldDefault": "temporibus",
-  "FieldHeight": 423,
-  "FieldLabel": "mollitia",
-  "FieldLeft": 219,
-  "FieldTop": 254,
+  "UDefFieldId": 53,
+  "ColumnId": 183,
+  "FieldDefault": "ipsum",
+  "FieldHeight": 557,
+  "FieldLabel": "quo",
+  "FieldLeft": 51,
+  "FieldTop": 38,
   "FieldType": "Checkbox",
-  "FieldWidth": 40,
-  "FormatMask": "accusantium",
+  "FieldWidth": 323,
+  "FormatMask": "libero",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 709,
-  "LabelLeft": 744,
-  "LabelTop": 750,
-  "LabelWidth": 242,
-  "LastVersionId": 481,
-  "ListTableId": 8,
-  "IsMandatory": true,
+  "LabelHeight": 221,
+  "LabelLeft": 597,
+  "LabelTop": 449,
+  "LabelWidth": 408,
+  "LastVersionId": 371,
+  "ListTableId": 605,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 773,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "ut",
-  "TabOrder": 311,
-  "TextLength": 548,
-  "Tooltip": "dolores",
-  "UdefIdentity": 137,
-  "UDListDefinitionId": 293,
+  "Page1LineNo": 677,
+  "ProgId": "quibusdam",
+  "IsReadOnly": false,
+  "ShortLabel": "provident",
+  "TabOrder": 352,
+  "TextLength": 39,
+  "Tooltip": "est",
+  "UdefIdentity": 408,
+  "UDListDefinitionId": 128,
   "Justification": "Center",
-  "Version": 947,
-  "TemplateVariableName": "Kuhlman-Lemke",
+  "Version": 419,
+  "TemplateVariableName": "Bernhard-Kohler",
   "HasBeenPublished": false,
-  "MdoListName": "Schmidt-O'Reilly",
+  "MdoListName": "Murray Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldLength": 339
     }
   }
 }

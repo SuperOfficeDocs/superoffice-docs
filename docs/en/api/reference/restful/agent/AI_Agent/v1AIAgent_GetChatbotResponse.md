@@ -83,36 +83,36 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "rem",
-  "UserPrompt": "sed",
-  "DisplayValue": "et",
+  "IsoLangCode": "fugiat",
+  "UserPrompt": "voluptatem",
+  "DisplayValue": "placeat",
   "PreviousTurns": [
     {
-      "Timestamp": "2013-07-15T11:06:33.4132283+02:00",
-      "UserPrompt": "consectetur",
-      "UserDisplayText": "ut",
-      "BotResponse": "consequatur",
+      "Timestamp": "2014-01-31T13:38:12.8271613+01:00",
+      "UserPrompt": "voluptas",
+      "UserDisplayText": "rerum",
+      "BotResponse": "non",
       "BotActions": {
-        "BotActions1": "ab",
-        "BotActions2": "et"
+        "BotActions1": "non",
+        "BotActions2": "delectus"
       },
       "Attachments": [
-        "praesentium",
-        "quibusdam"
+        "officia",
+        "sit"
       ]
     },
     {
-      "Timestamp": "2013-07-15T11:06:33.4132283+02:00",
-      "UserPrompt": "consectetur",
-      "UserDisplayText": "ut",
-      "BotResponse": "consequatur",
+      "Timestamp": "2014-01-31T13:38:12.8271613+01:00",
+      "UserPrompt": "voluptas",
+      "UserDisplayText": "rerum",
+      "BotResponse": "non",
       "BotActions": {
-        "BotActions1": "ab",
-        "BotActions2": "et"
+        "BotActions1": "non",
+        "BotActions2": "delectus"
       },
       "Attachments": [
-        "praesentium",
-        "quibusdam"
+        "officia",
+        "sit"
       ]
     }
   ]
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2001-10-23T11:06:33.4132283+02:00",
-  "UserPrompt": "assumenda",
-  "UserDisplayText": "et",
-  "BotResponse": "consequatur",
+  "Timestamp": "2019-10-08T13:38:12.8271613+02:00",
+  "UserPrompt": "vel",
+  "UserDisplayText": "quo",
+  "BotResponse": "error",
   "BotActions": {
-    "BotActions1": "nihil",
-    "BotActions2": "culpa"
+    "BotActions1": "aliquid",
+    "BotActions2": "natus"
   },
   "Attachments": [
-    "consectetur",
-    "id"
+    "sequi",
+    "voluptatem"
   ]
 }
 ```

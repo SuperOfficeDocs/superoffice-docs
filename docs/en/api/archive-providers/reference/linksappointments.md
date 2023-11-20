@@ -709,7 +709,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=linkId,endTime,contact/email/emailProtocol,contact/LastActivity,person/personAssociate/contactDepartment
+GET /api/v1/archive/LinksAppointments?$select=recordTypeText,contact/contactAssociate/associateDbId,contact/contactAssociate/usergroup,project/status
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

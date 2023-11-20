@@ -72,16 +72,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "hic",
+      "RawValue": "tempora",
       "Specification": null,
-      "DisplayValue": "omnis",
-      "DisplayTooltip": "eveniet",
+      "DisplayValue": "modi",
+      "DisplayTooltip": "iure",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 452,
-      "PrefDescId": 766,
-      "TableName": "Waters, Kunze and Lubowitz",
-      "UserPreferenceId": 406
+      "TargetId": 254,
+      "PrefDescId": 150,
+      "TableName": "Collier, Rohan and Bosco",
+      "UserPreferenceId": 738
     }
   ],
   "RemoveLowerLevels": false

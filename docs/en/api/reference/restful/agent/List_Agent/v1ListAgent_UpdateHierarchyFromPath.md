@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "numquam",
+  "Path": "culpa",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 124,
+  "HierarchyId": 141,
   "Domain": "Dashboards",
-  "Name": "Hayes Inc and Sons",
-  "Fullname": "quo",
-  "ParentId": 1001,
+  "Name": "Renner Inc and Sons",
+  "Fullname": "odio",
+  "ParentId": 343,
   "Children": [
     {
-      "HierarchyId": 389,
+      "HierarchyId": 394,
       "Domain": "Dashboards",
-      "Name": "Pagac-Anderson",
-      "Fullname": "temporibus",
-      "ParentId": 165,
+      "Name": "Kozey-Farrell",
+      "Fullname": "numquam",
+      "ParentId": 173,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-07-14T11:06:34.7551834+02:00",
-      "RegisteredAssociateId": 105,
-      "Updated": "2013-02-14T11:06:34.7551834+01:00",
-      "UpdatedAssociateId": 374,
+      "Registered": "2023-06-02T13:38:13.7021023+02:00",
+      "RegisteredAssociateId": 711,
+      "Updated": "2013-07-06T13:38:13.7021023+02:00",
+      "UpdatedAssociateId": 867,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 726
+          "FieldType": "System.String",
+          "FieldLength": 386
         }
       }
     }
   ],
-  "Registered": "2014-08-06T11:06:34.7551834+02:00",
-  "RegisteredAssociateId": 16,
-  "Updated": "2011-01-23T11:06:34.7551834+01:00",
-  "UpdatedAssociateId": 225,
+  "Registered": "2011-09-20T13:38:13.7021023+02:00",
+  "RegisteredAssociateId": 444,
+  "Updated": "2001-03-17T13:38:13.7021023+01:00",
+  "UpdatedAssociateId": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   }
 }

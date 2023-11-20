@@ -103,54 +103,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Flatley, Zulauf and Considine",
+  "ProviderName": "Satterfield Inc and Sons",
   "Columns": [
-    "aut",
-    "excepturi"
+    "et",
+    "voluptate"
   ],
   "SortOrder": [
     {
-      "Name": "Boyle-Runte",
+      "Name": "Kautzer, Lindgren and Ortiz",
       "Direction": "ASC"
     },
     {
-      "Name": "Boyle-Runte",
+      "Name": "Kautzer, Lindgren and Ortiz",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Aufderhar, Krajcik and Gutkowski",
-      "Operator": "autem",
+      "Name": "Graham Group",
+      "Operator": "ut",
       "Values": [
-        "culpa",
-        "et"
+        "eligendi",
+        "ut"
       ],
       "DisplayValues": [
-        "provident",
-        "voluptate"
+        "omnis",
+        "est"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 467,
+      "InterParenthesis": 549,
       "InterOperator": "And",
-      "UniqueHash": 657
+      "UniqueHash": 810
     }
   ],
   "Entities": [
-    "et",
-    "exercitationem"
+    "corrupti",
+    "ut"
   ],
-  "Page": 141,
-  "PageSize": 420
+  "Page": 69,
+  "PageSize": 874
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Mueller, Hermann and Bartoletti",
-    "PrimaryKey": 786,
+    "EntityName": "Lebsack-Jacobs",
+    "PrimaryKey": 447,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "velit",
-        "TooltipHint": "ab",
-        "LinkHint": "qui"
+        "DisplayValue": "voluptate",
+        "TooltipHint": "autem",
+        "LinkHint": "commodi"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "dolor",
+    "LinkHint": "expedita",
+    "StyleHint": "consequuntur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   }

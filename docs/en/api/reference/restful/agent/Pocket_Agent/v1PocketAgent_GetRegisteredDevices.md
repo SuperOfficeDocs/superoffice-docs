@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 79
+  "AssociateId": 858
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Turner Inc and Sons",
-    "DeviceIdentifier": "ipsam",
-    "PocketVersion": "reprehenderit",
-    "Language": "minima",
-    "PNSHandle": "doloribus",
+    "DeviceName": "Schulist Inc and Sons",
+    "DeviceIdentifier": "voluptates",
+    "PocketVersion": "laudantium",
+    "Language": "a",
+    "PNSHandle": "odit",
     "Platform": "Apple",
-    "OSVersion": "eum",
-    "TimeZoneId": 720
+    "OSVersion": "consequatur",
+    "TimeZoneId": 16
   }
 ]
 ```

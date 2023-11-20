@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Upton-Boyer",
-    "ToolTip": "Ex rerum.",
+    "Id": 886,
+    "Name": "Kshlerin-West",
+    "ToolTip": "Eius labore officiis non omnis ipsum et soluta.",
     "Deleted": true,
-    "Rank": 59,
-    "Type": "qui",
-    "ColorBlock": 892,
-    "IconHint": "corrupti",
+    "Rank": 520,
+    "Type": "aut",
+    "ColorBlock": 773,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2007-03-01T11:06:35.6939994+01:00",
+    "LastChanged": "2014-02-02T13:38:14.342802+01:00",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Nicolas, Spencer and Jacobs",
-        "ToolTip": "Numquam voluptas velit cumque veniam alias.",
-        "Deleted": true,
-        "Rank": 23,
-        "Type": "quo",
-        "ColorBlock": 830,
-        "IconHint": "debitis",
-        "Selected": false,
-        "LastChanged": "2003-01-13T11:06:35.6939994+01:00",
+        "Id": 980,
+        "Name": "Kris Inc and Sons",
+        "ToolTip": "At minima ipsum rerum.",
+        "Deleted": false,
+        "Rank": 705,
+        "Type": "nihil",
+        "ColorBlock": 376,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2009-12-13T13:38:14.342802+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Wanda Maggio DDS",
+        "ExtraInfo": "numquam",
+        "StyleHint": "assumenda",
+        "Hidden": false,
+        "FullName": "Maribel Stiedemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 776
+            "FieldLength": 714
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Hiram Metz",
+    "ExtraInfo": "ea",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Gerhard Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldType": "System.String",
+        "FieldLength": 74
       }
     }
   }

@@ -87,7 +87,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 781,
-  "Name": "Hammes-Graham",
-  "Tooltip": "eum",
+  "RoleId": 863,
+  "Name": "Rosenbaum-Doyle",
+  "Tooltip": "velit",
   "RoleType": "Anonymous",
-  "Deleted": 359,
-  "Rank": 701,
-  "Created": "2004-09-30T11:06:42.0822263+02:00",
-  "UseCategories": 371,
+  "Deleted": 773,
+  "Rank": 663,
+  "Created": "2003-05-20T13:38:17.5774332+02:00",
+  "UseCategories": 26,
   "CreatedBy": null,
-  "Updated": "2016-02-08T11:06:42.0822263+01:00",
+  "Updated": "2008-11-13T13:38:17.5774332+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 32
+      "FieldType": "System.Int32",
+      "FieldLength": 562
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

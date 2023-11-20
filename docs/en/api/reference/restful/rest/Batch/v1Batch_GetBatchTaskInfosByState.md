@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 763,
-    "Name": "Harris-Morissette",
-    "AssociateId": 875,
-    "DetailsTable": 102,
-    "DetailsRecord": 39,
+    "Id": 713,
+    "Name": "Dietrich, Robel and Hettinger",
+    "AssociateId": 148,
+    "DetailsTable": 562,
+    "DetailsRecord": 646,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "minima",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "eius",
+      "ParameterObject2": "repudiandae"
     },
-    "LastStarted": "2011-09-11T11:06:42.3803732+02:00",
-    "Created": "2000-04-10T11:06:42.3803732+02:00",
-    "StartCount": 141,
-    "DatabaseSerialNumber": "1580544",
-    "Context": "est",
-    "Result": "ducimus",
+    "LastStarted": "2019-09-17T13:38:17.7650302+02:00",
+    "Created": "2010-06-03T13:38:17.7650302+02:00",
+    "StartCount": 79,
+    "DatabaseSerialNumber": "658192",
+    "Context": "maiores",
+    "Result": "molestiae",
     "State": "All",
-    "Description": "Visionary disintermediate middleware",
-    "Response": "dolor",
-    "Request": "doloremque",
-    "ProgressDescription": "Compatible upward-trending website",
-    "ProgressPercent": 499,
-    "FileName": "Medhurst-Pouros",
+    "Description": "Virtual human-resource monitoring",
+    "Response": "molestiae",
+    "Request": "fuga",
+    "ProgressDescription": "Programmable motivating installation",
+    "ProgressPercent": 759,
+    "FileName": "Davis, Dibbert and Emmerich",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 60
       }
     }
   }

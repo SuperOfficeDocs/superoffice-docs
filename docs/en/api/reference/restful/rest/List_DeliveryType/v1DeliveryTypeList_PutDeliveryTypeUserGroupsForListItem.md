@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Waelchi, Frami and Mayer",
-    "ToolTip": "Et ea rem inventore.",
+    "Id": 860,
+    "Name": "Ruecker, Ondricka and Grimes",
+    "ToolTip": "Iste ad deserunt sapiente magni provident.",
     "Deleted": false,
-    "Rank": 960,
-    "Type": "magni",
-    "ColorBlock": 816,
-    "IconHint": "aliquam",
-    "Selected": false,
-    "LastChanged": "2022-07-13T11:06:42.7878188+02:00",
+    "Rank": 555,
+    "Type": "doloribus",
+    "ColorBlock": 495,
+    "IconHint": "corporis",
+    "Selected": true,
+    "LastChanged": "2003-12-06T13:38:18.0462875+01:00",
     "ChildItems": [
       {
-        "Id": 172,
-        "Name": "Schulist LLC",
-        "ToolTip": "Et sit fugiat non est ut aperiam ut.",
-        "Deleted": false,
-        "Rank": 714,
-        "Type": "modi",
-        "ColorBlock": 394,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2016-08-18T11:06:42.7878188+02:00",
+        "Id": 728,
+        "Name": "Douglas-Rempel",
+        "ToolTip": "Sit quia dolore.",
+        "Deleted": true,
+        "Rank": 181,
+        "Type": "enim",
+        "ColorBlock": 912,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2001-10-17T13:38:18.0462875+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "ut",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Julie Gaylord"
+        "FullName": "Brielle Braun"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "iste",
+    "ExtraInfo": "molestias",
+    "StyleHint": "dignissimos",
     "Hidden": true,
-    "FullName": "Mr. Delta Dock Stracke"
+    "FullName": "Stan Mayert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Name": "Parisian LLC",
-    "ToolTip": "Et enim sed soluta molestiae non minus.",
-    "Deleted": true,
-    "Rank": 460,
-    "Type": "possimus",
-    "ColorBlock": 341,
-    "IconHint": "blanditiis",
+    "Id": 365,
+    "Name": "Gottlieb-King",
+    "ToolTip": "Labore aut unde ab.",
+    "Deleted": false,
+    "Rank": 767,
+    "Type": "excepturi",
+    "ColorBlock": 962,
+    "IconHint": "molestias",
     "Selected": true,
-    "LastChanged": "2006-07-30T11:06:42.8034416+02:00",
+    "LastChanged": "1999-11-27T13:38:18.0462875+01:00",
     "ChildItems": [
       {
-        "Id": 762,
-        "Name": "Mraz LLC",
-        "ToolTip": "Est impedit vel.",
+        "Id": 259,
+        "Name": "Russel Inc and Sons",
+        "ToolTip": "Animi illo modi minus sequi in ex.",
         "Deleted": false,
-        "Rank": 728,
-        "Type": "id",
-        "ColorBlock": 212,
-        "IconHint": "ducimus",
-        "Selected": true,
-        "LastChanged": "2016-07-18T11:06:42.8034416+02:00",
+        "Rank": 632,
+        "Type": "qui",
+        "ColorBlock": 89,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2009-12-11T13:38:18.0462875+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Audrey Runolfsson Jr.",
+        "ExtraInfo": "et",
+        "StyleHint": "doloribus",
+        "Hidden": true,
+        "FullName": "Mrs. Retha Clint Hammes DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 92
+            "FieldLength": 765
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "earum",
+    "ExtraInfo": "eaque",
+    "StyleHint": "iste",
     "Hidden": true,
-    "FullName": "Kiana Hilpert",
+    "FullName": "Demarcus Alia Smith V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 287
+        "FieldLength": 203
       }
     }
   }

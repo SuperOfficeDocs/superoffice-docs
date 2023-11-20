@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,30 +78,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 726,
-  "Name": "Aufderhar-Moore",
-  "Rank": 860,
-  "Tooltip": "quaerat",
-  "Icon": "doloribus",
-  "DefaultTicketStatus": 842,
+  "TicketTypeId": 192,
+  "Name": "Roberts LLC",
+  "Rank": 684,
+  "Tooltip": "accusamus",
+  "Icon": "dolore",
+  "DefaultTicketStatus": 957,
   "TicketStatuses": [
-    509,
-    267
+    919,
+    673
   ],
-  "DefaultTicketPriority": 35,
+  "DefaultTicketPriority": 617,
   "TicketPriorities": [
-    171,
-    63
+    95,
+    725
   ],
-  "ReplyTemplate": 511,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 246,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldType": "System.String",
+      "FieldLength": 487
     }
   }
 }

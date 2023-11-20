@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "vel",
-  "PrefKey": "est",
+  "PrefSection": "sit",
+  "PrefKey": "delectus",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ipsum",
+  "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "amet",
-  "DisplayTooltip": "ex",
+  "DisplayValue": "et",
+  "DisplayTooltip": "consectetur",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 746,
-  "PrefDescId": 85,
-  "TableName": "Hills, Jewess and Paucek",
-  "UserPreferenceId": 233,
+  "TargetId": 465,
+  "PrefDescId": 859,
+  "TableName": "Koelpin-Jenkins",
+  "UserPreferenceId": 85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 375
+      "FieldType": "System.Int32",
+      "FieldLength": 947
     }
   }
 }

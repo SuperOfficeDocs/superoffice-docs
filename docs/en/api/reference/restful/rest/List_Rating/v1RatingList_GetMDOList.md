@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=expedita
+GET /api/v1/List/Rating/MDOItems?query=deserunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Klocko Inc and Sons",
-    "ToolTip": "Explicabo dignissimos magnam laborum sint modi.",
+    "Id": 367,
+    "Name": "Goyette-Monahan",
+    "ToolTip": "Quibusdam sit repellat quasi fugit numquam.",
     "Deleted": false,
-    "Rank": 595,
-    "Type": "laborum",
+    "Rank": 20,
+    "Type": "dignissimos",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Effertz LLC",
-        "ToolTip": "Consectetur similique et rerum eos.",
+        "Id": 70,
+        "Name": "Hirthe Group",
+        "ToolTip": "Rerum eos molestiae hic quis.",
         "Deleted": true,
-        "Rank": 965,
-        "Type": "ea",
+        "Rank": 35,
+        "Type": "in",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 595,
-        "ExtraInfo": "quo",
-        "StyleHint": "vero",
-        "FullName": "Paris Beier",
+        "IconHint": "optio",
+        "ColorBlock": 98,
+        "ExtraInfo": "pariatur",
+        "StyleHint": "ex",
+        "FullName": "Miss Kavon Daniel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 879
+            "FieldLength": 946
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 769,
-    "ExtraInfo": "sapiente",
-    "StyleHint": "libero",
-    "FullName": "Adrien Green",
+    "IconHint": "omnis",
+    "ColorBlock": 29,
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "ad",
+    "FullName": "Mr. Martin Hilpert Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 391
       }
     }
   }

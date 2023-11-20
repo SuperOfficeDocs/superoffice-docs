@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 233,
-  "Name": "Ebert-Cassin",
-  "Tooltip": "magnam",
+  "Id": 98,
+  "Name": "Herzog-Dickens",
+  "Tooltip": "omnis",
   "Deleted": true,
-  "Rank": 440,
-  "IsCustomList": false,
+  "Rank": 858,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "sed",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldLength": 627
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Gerlach Group",
-  "Tooltip": "consectetur",
+  "Id": 263,
+  "Name": "Shanahan, Harber and Osinski",
+  "Tooltip": "similique",
   "Deleted": true,
-  "Rank": 963,
-  "IsCustomList": true,
+  "Rank": 812,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aspernatur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "deleniti",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 471
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 777,
+  "SelectionId": 875,
   "Criteria": [
     {
-      "Name": "Gusikowski, Powlowski and Weber",
-      "Description": "Grass-roots transitional frame",
-      "Rank": 601,
+      "Name": "Gutkowski-Heaney",
+      "Description": "Multi-tiered composite local area network",
+      "Rank": 107,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gusikowski, Powlowski and Weber",
-      "Description": "Grass-roots transitional frame",
-      "Rank": 601,
+      "Name": "Gutkowski-Heaney",
+      "Description": "Multi-tiered composite local area network",
+      "Rank": 107,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sporer Group",
-    "Description": "Profit-focused mission-critical alliance",
-    "Rank": 929,
+    "Name": "Beahan, Glover and Reilly",
+    "Description": "Exclusive multi-tasking approach",
+    "Rank": 455,
     "Restrictions": [
       {
-        "Name": "Wisoky, Hartmann and Krajcik",
-        "Operator": "maiores",
+        "Name": "Lubowitz, Wiza and White",
+        "Operator": "quisquam",
         "Values": [
-          "reprehenderit",
-          "labore"
+          "sed",
+          "atque"
         ],
         "DisplayValues": [
-          "illo",
-          "officia"
+          "exercitationem",
+          "voluptate"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 826,
+        "InterParenthesis": 845,
         "InterOperator": "And",
-        "UniqueHash": 393
+        "UniqueHash": 995
       }
     ]
   },
   {
-    "Name": "Sporer Group",
-    "Description": "Profit-focused mission-critical alliance",
-    "Rank": 929,
+    "Name": "Beahan, Glover and Reilly",
+    "Description": "Exclusive multi-tasking approach",
+    "Rank": 455,
     "Restrictions": [
       {
-        "Name": "Wisoky, Hartmann and Krajcik",
-        "Operator": "maiores",
+        "Name": "Lubowitz, Wiza and White",
+        "Operator": "quisquam",
         "Values": [
-          "reprehenderit",
-          "labore"
+          "sed",
+          "atque"
         ],
         "DisplayValues": [
-          "illo",
-          "officia"
+          "exercitationem",
+          "voluptate"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 826,
+        "InterParenthesis": 845,
         "InterOperator": "And",
-        "UniqueHash": 393
+        "UniqueHash": 995
       }
     ]
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 403,
-  "Name": "Senger LLC",
-  "Tooltip": "libero",
-  "Deleted": false,
-  "Rank": 761,
+  "Id": 698,
+  "Name": "Rau, Feeney and Pollich",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 694,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldType": "System.String",
+      "FieldLength": 822
     }
   },
   "_Links": {

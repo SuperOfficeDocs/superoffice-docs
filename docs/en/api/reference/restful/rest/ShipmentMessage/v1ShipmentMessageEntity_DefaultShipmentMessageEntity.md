@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 492,
-  "PlainMessage": "ea",
-  "HtmlMessage": "explicabo",
-  "SmsMessage": "sit",
-  "Description": "Face to face intangible hardware",
-  "Subject": "omnis",
-  "FolderId": 786,
-  "HeaderField": "et",
-  "Design": "et",
+  "ShipmentMessageId": 591,
+  "PlainMessage": "laboriosam",
+  "HtmlMessage": "consequatur",
+  "SmsMessage": "sunt",
+  "Description": "Compatible interactive hardware",
+  "Subject": "fugiat",
+  "FolderId": 619,
+  "HeaderField": "commodi",
+  "Design": "molestiae",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Re-engineered didactic benchmark",
-  "AccessKey": "assumenda",
-  "DocumentMessage": 672,
-  "Registered": "2019-03-17T11:06:42.2228527+01:00",
-  "RegisteredAssociateId": 165,
-  "Updated": "2019-08-15T11:06:42.2228527+02:00",
-  "UpdatedAssociateId": 26,
-  "UpdatedCount": 96,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Multi-tiered leading edge ability",
+  "AccessKey": "quod",
+  "DocumentMessage": 142,
+  "Registered": "2009-04-06T13:38:17.6711737+02:00",
+  "RegisteredAssociateId": 705,
+  "Updated": "2001-11-20T13:38:17.6711737+01:00",
+  "UpdatedAssociateId": 184,
+  "UpdatedCount": 408,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 116
+      "FieldLength": 88
     }
   }
 }

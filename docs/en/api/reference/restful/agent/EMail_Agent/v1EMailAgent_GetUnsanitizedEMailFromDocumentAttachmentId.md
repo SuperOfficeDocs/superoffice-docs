@@ -109,10 +109,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 153,
+  "DocId": 236,
   "AttachmentIds": [
-    "laudantium",
-    "porro"
+    "consequatur",
+    "autem"
   ],
   "IncludeAttachments": false
 }
@@ -127,148 +127,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 687,
-      "ContactName": "Casper LLC",
-      "PersonId": 164,
-      "PersonName": "Williamson Group",
-      "AssociateId": 308,
-      "Address": "doloribus",
-      "EmailId": 776,
+      "ContactId": 403,
+      "ContactName": "Cole Inc and Sons",
+      "PersonId": 288,
+      "PersonName": "Treutel Group",
+      "AssociateId": 719,
+      "Address": "perferendis",
+      "EmailId": 872,
       "DuplicatePersonIds": [
-        242,
-        496
+        579,
+        837
       ],
-      "Name": "Lubowitz-Hessel",
+      "Name": "Hilll, Lindgren and Kris",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 26
+          "FieldType": "System.Int32",
+          "FieldLength": 421
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 268,
-      "ContactName": "Fritsch LLC",
-      "PersonId": 979,
-      "PersonName": "Stokes LLC",
-      "AssociateId": 104,
-      "Address": "numquam",
-      "EmailId": 273,
+      "ContactId": 651,
+      "ContactName": "Hauck Group",
+      "PersonId": 712,
+      "PersonName": "Turner, Block and Gislason",
+      "AssociateId": 693,
+      "Address": "voluptatem",
+      "EmailId": 780,
       "DuplicatePersonIds": [
-        321,
-        281
+        540,
+        241
       ],
-      "Name": "Bogan-Quitzon",
+      "Name": "Cummerata Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 172
+          "FieldType": "System.Int32",
+          "FieldLength": 777
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 384,
-      "ContactName": "Kunde, Luettgen and Shanahan",
-      "PersonId": 625,
-      "PersonName": "Hilll, Lynch and McKenzie",
-      "AssociateId": 325,
-      "Address": "aut",
-      "EmailId": 959,
+      "ContactId": 329,
+      "ContactName": "Corkery-Bahringer",
+      "PersonId": 154,
+      "PersonName": "Grady, Crist and Schultz",
+      "AssociateId": 1002,
+      "Address": "voluptas",
+      "EmailId": 65,
       "DuplicatePersonIds": [
-        665,
-        964
+        28,
+        946
       ],
-      "Name": "Kihn Inc and Sons",
+      "Name": "Murphy, Harber and West",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 17
+          "FieldLength": 933
         }
       }
     }
   ],
-  "Subject": "nobis",
-  "HTMLBody": "libero",
+  "Subject": "porro",
+  "HTMLBody": "expedita",
   "From": null,
-  "Sent": "2004-01-06T11:06:34.5520595+01:00",
-  "Size": 342,
+  "Sent": "2018-12-31T13:38:13.5771153+01:00",
+  "Size": 180,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "suscipit",
-  "PlainBody": "vel",
+  "MessageID": "laudantium",
+  "PlainBody": "molestiae",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 322,
+  "ServerId": 899,
   "Attachments": [
     {
-      "Description": "Assimilated tertiary projection",
-      "Filename": "repellat",
-      "Size": 384,
-      "Type": "nemo",
-      "Encoding": "ipsum",
-      "Id": "hic",
-      "Disposition": "dolores",
-      "IsSafeFileExtension": true,
+      "Description": "Front-line intermediate task-force",
+      "Filename": "officiis",
+      "Size": 788,
+      "Type": "enim",
+      "Encoding": "nihil",
+      "Id": "aut",
+      "Disposition": "molestiae",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldType": "System.String",
+          "FieldLength": 306
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Blick Inc and Sons",
+      "Name": "Stroman-Wiegand",
       "Values": [
-        "veniam",
-        "nihil"
+        "iure",
+        "sapiente"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 718
         }
       }
     },
     {
-      "Name": "Blick Inc and Sons",
+      "Name": "Stroman-Wiegand",
       "Values": [
-        "veniam",
-        "nihil"
+        "iure",
+        "sapiente"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 718
         }
       }
     }
   ],
-  "FolderName": "Hane, Rodriguez and Morar",
-  "EmailItemId": 474,
-  "AccountId": 545,
-  "ReceivedAt": "2001-12-25T11:06:34.5520595+01:00",
+  "FolderName": "Cronin Group",
+  "EmailItemId": 561,
+  "AccountId": 273,
+  "ReceivedAt": "2020-09-18T13:38:13.5771153+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-06-10T11:06:34.5520595+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2000-07-09T13:38:13.5771153+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 969
     }
   }
 }

@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 428,
-  "SelectionId": 481,
-  "IncludeEmails": false
+  "DocumentPluginId": 873,
+  "SelectionId": 145,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 934,
-  "NumDocumentsAlreadyMigrated": 127,
+  "NumDocumentsOmitted": 27,
+  "NumDocumentsAlreadyMigrated": 397,
   "Documents": [
     {
-      "DocumentId": 359,
-      "ContactId": 194,
-      "PersonId": 246,
-      "SaleId": 695,
-      "ProjectId": 556,
-      "DocTmplId": 586,
-      "AssociateId": 464,
-      "UserGroupId": 870,
-      "VisibleForId": 529
+      "DocumentId": 717,
+      "ContactId": 765,
+      "PersonId": 605,
+      "SaleId": 20,
+      "ProjectId": 638,
+      "DocTmplId": 236,
+      "AssociateId": 643,
+      "UserGroupId": 158,
+      "VisibleForId": 7
     }
   ],
   "Associates": [
     {
-      "AssociateId": 472,
-      "EmailAddress": "sierra_miller@jakubowski.co.uk"
+      "AssociateId": 621,
+      "EmailAddress": "gavin_auer@krajcik.us"
     },
     {
-      "AssociateId": 472,
-      "EmailAddress": "sierra_miller@jakubowski.co.uk"
+      "AssociateId": 621,
+      "EmailAddress": "gavin_auer@krajcik.us"
     }
   ]
 }

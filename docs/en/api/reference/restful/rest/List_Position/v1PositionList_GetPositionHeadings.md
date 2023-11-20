@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 802,
-    "Name": "Bartoletti Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 944,
-    "UdListDefinitionId": 54,
+    "HeadingId": 671,
+    "Name": "Schmidt-Bailey",
+    "Tooltip": "minima",
+    "Deleted": true,
+    "Rank": 395,
+    "UdListDefinitionId": 63,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldType": "System.Int32",
+        "FieldLength": 494
       }
     }
   }

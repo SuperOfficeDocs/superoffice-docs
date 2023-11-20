@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2013-04-30T11:06:35.3333182+02:00",
-  "ToDate": "2016-05-27T11:06:35.3333182+02:00",
-  "AmountLimit": 316,
+  "FromDate": "2003-06-14T13:38:14.0928295+02:00",
+  "ToDate": "2022-08-04T13:38:14.0928295+02:00",
+  "AmountLimit": 474,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Denesik-Champlin",
-    "SaleDate": "2016-02-14T11:06:35.3333182+01:00",
-    "SaleId": 784,
-    "Probability": 490,
-    "Title": "id",
-    "Amount": 20994.666,
-    "Currency": "dignissimos",
-    "ProjectName": "O'Hara Inc and Sons",
-    "AssociateFullName": "Kaylah Batz",
-    "Description": "Persistent object-oriented application",
+    "ContactName": "Bernier, Leannon and Smith",
+    "SaleDate": "2005-05-12T13:38:14.1084486+02:00",
+    "SaleId": 25,
+    "Probability": 360,
+    "Title": "et",
+    "Amount": 16268.594,
+    "Currency": "eum",
+    "ProjectName": "Hyatt, Windler and Grady",
+    "AssociateFullName": "Joy Pfannerstill",
+    "Description": "Right-sized homogeneous support",
     "Status": "Lost",
-    "WeightedAmount": 24338.644,
-    "ProjectId": 403,
-    "EarningPercent": 19728.53,
-    "Earning": 244.452,
-    "ContactId": 38,
-    "AssociateId": 486,
-    "PersonId": 100,
-    "SaleTypeId": 607,
-    "SaleTypeName": "Ziemann, Rohan and Langosh",
-    "PersonFullName": "Zoe Torp",
+    "WeightedAmount": 28566.41,
+    "ProjectId": 684,
+    "EarningPercent": 20643.658,
+    "Earning": 21549.384,
+    "ContactId": 907,
+    "AssociateId": 551,
+    "PersonId": 905,
+    "SaleTypeId": 651,
+    "SaleTypeName": "Schoen-Kuhn",
+    "PersonFullName": "Ms. Elbert Mraz Jr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 524,
-    "NextDueDate": "2000-11-14T11:06:35.3333182+01:00",
-    "Number": "317970",
+    "ActiveErpLinks": 358,
+    "NextDueDate": "2020-03-03T13:38:14.1084486+01:00",
+    "Number": "1534714",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 763
+        "FieldType": "System.Int32",
+        "FieldLength": 704
       }
     }
   }

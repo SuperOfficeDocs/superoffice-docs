@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 993
+  "DocumentId": 375
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 122,
-  "Attention": "sunt",
-  "Header": "velit",
-  "Name": "Bailey-Price",
-  "OurRef": "voluptas",
+  "DocumentId": 571,
+  "Attention": "omnis",
+  "Header": "sequi",
+  "Name": "Balistreri-Runte",
+  "OurRef": "quo",
   "YourRef": "dolor",
-  "Description": "Distributed motivating collaboration",
-  "DocumentTemplate": "est",
-  "IsPublished": true,
-  "PersonId": 261,
-  "PersonFullName": "Dawn Jacobi",
-  "AssociateFullName": "Chelsey Lebsack",
-  "ContactId": 124,
-  "ContactName": "Auer, Kessler and Jaskolski",
-  "ProjectId": 534,
-  "ProjectName": "Waelchi Group",
-  "AssociateId": 317,
-  "Snum": 855,
-  "SaleId": 279,
-  "SaleName": "Runolfsson-Rogahn",
+  "Description": "Cross-platform composite algorithm",
+  "DocumentTemplate": "rerum",
+  "IsPublished": false,
+  "PersonId": 478,
+  "PersonFullName": "Dr. Hannah Amos Lindgren",
+  "AssociateFullName": "Eldon Fay",
+  "ContactId": 81,
+  "ContactName": "Swaniawski-Cronin",
+  "ProjectId": 336,
+  "ProjectName": "Mraz-Dietrich",
+  "AssociateId": 549,
+  "Snum": 825,
+  "SaleId": 463,
+  "SaleName": "Roberts, Pagac and Borer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 832
+      "FieldType": "System.Int32",
+      "FieldLength": 695
     }
   }
 }

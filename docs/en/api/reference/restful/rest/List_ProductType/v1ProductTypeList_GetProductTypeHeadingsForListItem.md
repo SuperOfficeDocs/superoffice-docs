@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Rutherford-Conn",
-    "ToolTip": "Accusantium voluptatibus eveniet dicta qui quod accusantium.",
-    "Deleted": true,
-    "Rank": 860,
-    "Type": "consectetur",
-    "ColorBlock": 531,
-    "IconHint": "cumque",
+    "Id": 332,
+    "Name": "Heaney-Runolfsdottir",
+    "ToolTip": "Quam et fugit.",
+    "Deleted": false,
+    "Rank": 433,
+    "Type": "magnam",
+    "ColorBlock": 414,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2004-09-04T11:06:42.9440712+02:00",
+    "LastChanged": "2002-01-04T13:38:18.1400255+01:00",
     "ChildItems": [
       {
-        "Id": 345,
-        "Name": "Walsh Group",
-        "ToolTip": "Ipsa quia.",
+        "Id": 559,
+        "Name": "Terry-Hodkiewicz",
+        "ToolTip": "Enim laborum sed blanditiis et distinctio nihil rem.",
         "Deleted": false,
-        "Rank": 357,
-        "Type": "qui",
-        "ColorBlock": 195,
-        "IconHint": "quos",
+        "Rank": 872,
+        "Type": "et",
+        "ColorBlock": 465,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2012-07-24T11:06:42.9440712+02:00",
+        "LastChanged": "1998-12-12T13:38:18.1400255+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "veniam",
-        "Hidden": true,
-        "FullName": "Anibal Kris",
+        "ExtraInfo": "id",
+        "StyleHint": "amet",
+        "Hidden": false,
+        "FullName": "Kristofer Kenyatta Towne V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 484
+            "FieldType": "System.String",
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "dicta",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Mrs. Madelynn Raynor",
+    "FullName": "Prof. Harrison Wolff PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldLength": 804
       }
     }
   }

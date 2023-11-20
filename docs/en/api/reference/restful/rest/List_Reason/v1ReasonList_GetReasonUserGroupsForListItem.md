@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Name": "Mueller Inc and Sons",
-    "ToolTip": "In rerum eos quia exercitationem animi.",
+    "Id": 836,
+    "Name": "Okuneva LLC",
+    "ToolTip": "Hic enim ullam vitae quaerat non.",
     "Deleted": false,
-    "Rank": 30,
-    "Type": "exercitationem",
-    "ColorBlock": 560,
-    "IconHint": "ad",
+    "Rank": 229,
+    "Type": "necessitatibus",
+    "ColorBlock": 554,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "1997-03-26T11:06:43.006573+01:00",
+    "LastChanged": "2021-01-24T13:38:18.2025212+01:00",
     "ChildItems": [
       {
-        "Id": 839,
-        "Name": "Kirlin-Breitenberg",
-        "ToolTip": "Facilis modi ea perspiciatis ullam error id aut.",
-        "Deleted": false,
-        "Rank": 391,
-        "Type": "odio",
-        "ColorBlock": 392,
-        "IconHint": "tempore",
-        "Selected": true,
-        "LastChanged": "2023-07-25T11:06:43.0222001+02:00",
+        "Id": 456,
+        "Name": "Bayer, Hickle and Wyman",
+        "ToolTip": "Voluptas minus quia.",
+        "Deleted": true,
+        "Rank": 572,
+        "Type": "facilis",
+        "ColorBlock": 772,
+        "IconHint": "corrupti",
+        "Selected": false,
+        "LastChanged": "1999-05-15T13:38:18.2025212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "accusantium",
-        "Hidden": false,
-        "FullName": "Martin Harvey",
+        "ExtraInfo": "expedita",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Joe Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 122
+            "FieldType": "System.Int32",
+            "FieldLength": 918
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Stephan Farrell PhD",
+    "ExtraInfo": "amet",
+    "StyleHint": "ratione",
+    "Hidden": false,
+    "FullName": "Miss Lincoln O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 370
+        "FieldType": "System.Int32",
+        "FieldLength": 510
       }
     }
   }

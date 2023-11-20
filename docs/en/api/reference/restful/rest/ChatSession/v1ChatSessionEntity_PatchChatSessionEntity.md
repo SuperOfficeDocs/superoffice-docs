@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "eveniet",
     "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "eveniet",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 15,
-  "TopicId": 309,
+  "ChatSessionId": 347,
+  "TopicId": 378,
   "User": null,
   "Person": null,
-  "CustomerAlias": "fuga",
-  "CustomerHost": "sequi",
-  "CustomerName": "Bailey-Cartwright",
-  "CustomerEmail": "elias@halvorsoncarter.biz",
-  "CustomerPhone": "1-221-385-9361 x860",
+  "CustomerAlias": "odio",
+  "CustomerHost": "beatae",
+  "CustomerName": "Windler, Marks and Fritsch",
+  "CustomerEmail": "annabell_herzog@sporer.us",
+  "CustomerPhone": "(471)455-8699",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Mitchell Inc and Sons",
+  "CustomerCompanyName": "Lesch, Schmitt and Schuppe",
   "Status": "Closed",
-  "FirstMessage": "magnam",
-  "LastMessage": "quia",
-  "WhenRequested": "1996-07-20T11:06:41.4728673+02:00",
-  "WhenStarted": "2002-06-05T11:06:41.4728673+02:00",
-  "WhenEnded": "2013-03-17T11:06:41.4728673+01:00",
-  "WhenIdle": "2006-03-03T11:06:41.4728673+01:00",
-  "WhenFetched": "2006-05-02T11:06:41.4728673+02:00",
-  "SessionKey": "quod",
-  "InitialQueuePos": 932,
-  "AlertLevel": 192,
-  "Rank": 325,
+  "FirstMessage": "similique",
+  "LastMessage": "autem",
+  "WhenRequested": "2007-09-30T13:38:17.1399788+02:00",
+  "WhenStarted": "2022-04-23T13:38:17.1399788+02:00",
+  "WhenEnded": "2023-02-09T13:38:17.1399788+01:00",
+  "WhenIdle": "2013-06-11T13:38:17.1399788+02:00",
+  "WhenFetched": "1998-04-12T13:38:17.1399788+02:00",
+  "SessionKey": "consequatur",
+  "InitialQueuePos": 122,
+  "AlertLevel": 59,
+  "Rank": 310,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 199,
+  "ChatbotIsActive": true,
+  "Rating": 220,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 351
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

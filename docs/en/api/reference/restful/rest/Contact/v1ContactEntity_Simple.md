@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 687,
-  "Name": "Christiansen-Volkman",
-  "OrgNr": "1432666",
+  "ContactId": 556,
+  "Name": "Nicolas-Strosin",
+  "OrgNr": "749180",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "hic",
-  "DirectPhone": "150.236.9911 x8650",
-  "AssociateId": 728,
-  "CountryId": 128,
-  "EmailAddress": "uriah@bailey.name",
-  "Kananame": "vel",
-  "EmailAddressName": "ubaldo@schinner.biz",
+  "City": "qui",
+  "DirectPhone": "(129)611-8325 x102",
+  "AssociateId": 793,
+  "CountryId": 908,
+  "EmailAddress": "jessie@collins.name",
+  "Kananame": "quidem",
+  "EmailAddressName": "adrianna.glover@fritschmarquardt.name",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Rae Lemke",
+  "AssociateFullName": "Zella Bayer Sr.",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "totam",
-  "FullName": "Eulah Leuschke",
+  "FormattedAddress": "explicabo",
+  "FullName": "Wava Bayer",
   "IsOwnerContact": true,
-  "ActiveErpLinks": 988,
-  "Number1": "867271",
-  "Number2": "775440",
+  "ActiveErpLinks": 986,
+  "Number1": "1430277",
+  "Number2": "970434",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 970
     }
   }
 }

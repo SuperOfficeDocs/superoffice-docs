@@ -67,7 +67,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Heller Inc and Sons",
-    "DisplayName": "Gutmann LLC",
-    "Description": "Public-key user-facing system engine",
-    "ShortLabel": "sed",
+    "FieldName": "Hand, Veum and O'Keefe",
+    "DisplayName": "McCullough, Schuster and Konopelski",
+    "Description": "Reverse-engineered zero tolerance core",
+    "ShortLabel": "numquam",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsMandatory": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 870,
-    "TemplateVariableName": "Gleason-Oberbrunner"
+    "Rank": 237,
+    "TemplateVariableName": "Crona, Sanford and Welch"
   }
 ]
 ```

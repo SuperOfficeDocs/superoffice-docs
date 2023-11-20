@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 939,
-  "AssociateId": 68,
-  "Block": "expedita",
-  "Registered": "1998-10-23T11:06:34.7864409+02:00",
-  "RegisteredAssociateId": 162,
-  "Updated": "2004-04-05T11:06:34.7864409+02:00",
-  "UpdatedAssociateId": 61,
-  "UpdatedCount": 644,
+  "ShipmentMessageBlockId": 973,
+  "AssociateId": 120,
+  "Block": "ratione",
+  "Registered": "2015-01-07T13:38:13.7333439+01:00",
+  "RegisteredAssociateId": 359,
+  "Updated": "2007-10-28T13:38:13.7333439+01:00",
+  "UpdatedAssociateId": 411,
+  "UpdatedCount": 344,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 7
+      "FieldType": "System.Int32",
+      "FieldLength": 112
     }
   }
 }

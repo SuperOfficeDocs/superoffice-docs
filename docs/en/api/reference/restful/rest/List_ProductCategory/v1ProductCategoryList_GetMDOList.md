@@ -26,8 +26,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=facere
+GET /api/v1/List/ProductCategory/MDOItems?flat=True
+GET /api/v1/List/ProductCategory/MDOItems?query=reprehenderit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Effertz, Schoen and Smith",
-    "ToolTip": "Aspernatur voluptatem eius magnam eum sed.",
-    "Deleted": false,
-    "Rank": 857,
-    "Type": "harum",
+    "Id": 276,
+    "Name": "Feil Group",
+    "ToolTip": "Corporis non delectus ut.",
+    "Deleted": true,
+    "Rank": 93,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 973,
-        "Name": "Russel-Flatley",
-        "ToolTip": "Velit quo.",
+        "Id": 310,
+        "Name": "Kohler, Lesch and Conn",
+        "ToolTip": "Eum earum suscipit.",
         "Deleted": false,
-        "Rank": 90,
-        "Type": "necessitatibus",
+        "Rank": 489,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 387,
-        "ExtraInfo": "excepturi",
-        "StyleHint": "aspernatur",
-        "FullName": "Heloise Schinner",
+        "IconHint": "nam",
+        "ColorBlock": 707,
+        "ExtraInfo": "temporibus",
+        "StyleHint": "delectus",
+        "FullName": "Mrs. Alexandria Michele Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 472
+            "FieldLength": 870
           }
         }
       }
     ],
-    "IconHint": "vitae",
-    "ColorBlock": 831,
-    "ExtraInfo": "mollitia",
-    "StyleHint": "qui",
-    "FullName": "Devonte Simonis",
+    "IconHint": "voluptatum",
+    "ColorBlock": 792,
+    "ExtraInfo": "nihil",
+    "StyleHint": "dicta",
+    "FullName": "Herbert Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldLength": 613
       }
     }
   }

@@ -106,12 +106,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 590,
+  "DocId": 677,
   "AttachmentIds": [
-    "vel",
-    "eligendi"
+    "praesentium",
+    "fugiat"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -124,147 +124,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 986,
-      "ContactName": "Auer, Ruecker and Morar",
-      "PersonId": 128,
-      "PersonName": "Hettinger, Harber and Kutch",
-      "AssociateId": 750,
-      "Address": "natus",
-      "EmailId": 849,
+      "ContactId": 296,
+      "ContactName": "Nicolas-Jacobs",
+      "PersonId": 49,
+      "PersonName": "Reichert-Bode",
+      "AssociateId": 1001,
+      "Address": "officiis",
+      "EmailId": 612,
       "DuplicatePersonIds": [
-        617,
-        628
+        742,
+        669
       ],
-      "Name": "VonRueden Group",
+      "Name": "Schimmel-Wehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldLength": 854
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 278,
-      "ContactName": "Durgan-Dietrich",
-      "PersonId": 310,
-      "PersonName": "Jones, Kutch and Dickens",
-      "AssociateId": 888,
-      "Address": "est",
-      "EmailId": 47,
+      "ContactId": 992,
+      "ContactName": "Abbott, Bartell and Weber",
+      "PersonId": 366,
+      "PersonName": "Hoeger, Dach and Spinka",
+      "AssociateId": 491,
+      "Address": "fuga",
+      "EmailId": 450,
       "DuplicatePersonIds": [
-        284,
-        525
+        110,
+        397
       ],
-      "Name": "Mertz Inc and Sons",
+      "Name": "Braun Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldType": "System.String",
+          "FieldLength": 525
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 585,
-      "ContactName": "Stiedemann, Daugherty and Ortiz",
-      "PersonId": 150,
-      "PersonName": "Gottlieb Group",
-      "AssociateId": 612,
-      "Address": "rem",
-      "EmailId": 435,
+      "ContactId": 705,
+      "ContactName": "Glover, Barrows and Yost",
+      "PersonId": 851,
+      "PersonName": "Beahan, Haag and Haag",
+      "AssociateId": 906,
+      "Address": "dolor",
+      "EmailId": 88,
       "DuplicatePersonIds": [
-        552,
-        18
+        101,
+        166
       ],
-      "Name": "Kunde Inc and Sons",
+      "Name": "Veum Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 395
         }
       }
     }
   ],
-  "Subject": "ipsam",
-  "HTMLBody": "quod",
+  "Subject": "molestiae",
+  "HTMLBody": "unde",
   "From": null,
-  "Sent": "2002-05-07T11:06:34.5520595+02:00",
-  "Size": 381,
+  "Sent": "2003-04-24T13:38:13.5771153+02:00",
+  "Size": 285,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "natus",
-  "PlainBody": "fuga",
-  "IsSent": false,
+  "MessageID": "iure",
+  "PlainBody": "eos",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 994,
+  "ServerId": 1002,
   "Attachments": [
     {
-      "Description": "Decentralized homogeneous framework",
-      "Filename": "inventore",
-      "Size": 274,
-      "Type": "nam",
-      "Encoding": "cumque",
-      "Id": "ex",
-      "Disposition": "quia",
+      "Description": "Pre-emptive logistical interface",
+      "Filename": "pariatur",
+      "Size": 191,
+      "Type": "est",
+      "Encoding": "consectetur",
+      "Id": "sequi",
+      "Disposition": "porro",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 39
+          "FieldType": "System.String",
+          "FieldLength": 924
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jacobson Inc and Sons",
+      "Name": "Littel-Torphy",
       "Values": [
-        "recusandae",
-        "dolores"
+        "et",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 117
         }
       }
     },
     {
-      "Name": "Jacobson Inc and Sons",
+      "Name": "Littel-Torphy",
       "Values": [
-        "recusandae",
-        "dolores"
+        "et",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 117
         }
       }
     }
   ],
-  "FolderName": "Cassin-Herman",
-  "EmailItemId": 855,
-  "AccountId": 79,
-  "ReceivedAt": "2006-09-12T11:06:34.5520595+02:00",
+  "FolderName": "Oberbrunner-Kozey",
+  "EmailItemId": 690,
+  "AccountId": 483,
+  "ReceivedAt": "2004-04-19T13:38:13.5771153+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1997-04-24T11:06:34.5520595+02:00",
+  "RepliedAt": "2012-02-03T13:38:13.5771153+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldType": "System.String",
+      "FieldLength": 764
     }
   }
 }

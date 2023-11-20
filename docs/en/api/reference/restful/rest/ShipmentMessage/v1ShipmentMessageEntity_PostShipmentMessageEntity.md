@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 643,
-  "PlainMessage": "tenetur",
-  "HtmlMessage": "non",
-  "SmsMessage": "numquam",
-  "Description": "Function-based impactful knowledge base",
-  "Subject": "atque",
-  "FolderId": 252,
-  "HeaderField": "ut",
-  "Design": "velit",
+  "ShipmentMessageId": 764,
+  "PlainMessage": "perferendis",
+  "HtmlMessage": "nihil",
+  "SmsMessage": "aut",
+  "Description": "Synchronised 5th generation installation",
+  "Subject": "nemo",
+  "FolderId": 1001,
+  "HeaderField": "occaecati",
+  "Design": "quia",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Switchable client-server budgetary management",
-  "AccessKey": "doloribus",
-  "DocumentMessage": 635,
-  "Registered": "2009-12-03T11:06:42.2228527+01:00",
-  "RegisteredAssociateId": 984,
-  "Updated": "2001-02-05T11:06:42.2228527+01:00",
-  "UpdatedAssociateId": 180,
-  "UpdatedCount": 352
+  "LongDescription": "Public-key zero administration workforce",
+  "AccessKey": "assumenda",
+  "DocumentMessage": 947,
+  "Registered": "2022-07-31T13:38:17.6711737+02:00",
+  "RegisteredAssociateId": 465,
+  "Updated": "2000-07-19T13:38:17.6711737+02:00",
+  "UpdatedAssociateId": 218,
+  "UpdatedCount": 224
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 250,
-  "PlainMessage": "quas",
-  "HtmlMessage": "odit",
-  "SmsMessage": "id",
-  "Description": "Ergonomic exuding moratorium",
-  "Subject": "non",
-  "FolderId": 413,
-  "HeaderField": "qui",
-  "Design": "voluptatem",
+  "ShipmentMessageId": 984,
+  "PlainMessage": "et",
+  "HtmlMessage": "culpa",
+  "SmsMessage": "recusandae",
+  "Description": "Focused leading edge middleware",
+  "Subject": "sint",
+  "FolderId": 477,
+  "HeaderField": "sit",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Optimized motivating installation",
-  "AccessKey": "nesciunt",
-  "DocumentMessage": 104,
-  "Registered": "2021-04-18T11:06:42.2228527+02:00",
-  "RegisteredAssociateId": 879,
-  "Updated": "2002-02-10T11:06:42.2228527+01:00",
-  "UpdatedAssociateId": 699,
-  "UpdatedCount": 99,
+  "LongDescription": "Digitized incremental Graphic Interface",
+  "AccessKey": "eum",
+  "DocumentMessage": 667,
+  "Registered": "2002-12-19T13:38:17.6711737+01:00",
+  "RegisteredAssociateId": 820,
+  "Updated": "2018-04-24T13:38:17.6711737+02:00",
+  "UpdatedAssociateId": 1002,
+  "UpdatedCount": 778,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldLength": 281
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

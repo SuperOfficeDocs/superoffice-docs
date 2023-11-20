@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 806,
-      "UniqueId": "quo",
-      "Name": "Greenholt, Sauer and Mosciski",
-      "Description": "Open-source optimal hierarchy",
-      "AssociateId": 103,
-      "Columns": 753,
+      "DashboardId": 86,
+      "UniqueId": "ut",
+      "Name": "Beier Group",
+      "Description": "Focused human-resource adapter",
+      "AssociateId": 570,
+      "Columns": 515,
       "Theme": null,
-      "VisibleForAll": 909,
+      "VisibleForAll": 658,
       "VisibleForAssociates": [
-        140,
-        83
+        804,
+        744
       ],
       "VisibleForGroups": [
-        534,
-        810
+        998,
+        764
       ],
-      "PinForAll": 232,
+      "PinForAll": 263,
       "PinForAssociates": [
-        473,
-        610
+        82,
+        421
       ],
       "PinForGroups": [
-        217,
-        750
+        284,
+        214
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldLength": 497
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 685,
-      "UniqueId": "sunt",
-      "Name": "Grant Inc and Sons",
-      "Description": "Function-based cohesive utilisation",
-      "AssociateId": 354,
-      "Columns": 228,
+      "DashboardId": 883,
+      "UniqueId": "vel",
+      "Name": "Schaden, Bosco and Marks",
+      "Description": "Decentralized context-sensitive conglomeration",
+      "AssociateId": 172,
+      "Columns": 598,
       "Theme": null,
-      "VisibleForAll": 551,
+      "VisibleForAll": 523,
       "VisibleForAssociates": [
-        42,
-        715
+        947,
+        888
       ],
       "VisibleForGroups": [
-        980,
-        536
+        99,
+        321
       ],
-      "PinForAll": 915,
+      "PinForAll": 216,
       "PinForAssociates": [
-        630,
-        335
+        139,
+        3
       ],
       "PinForGroups": [
-        578,
-        417
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 163
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 357,
-      "UniqueId": "aut",
-      "Name": "Kirlin LLC",
-      "Description": "User-friendly non-volatile alliance",
-      "AssociateId": 956,
-      "Columns": 898,
-      "Theme": null,
-      "VisibleForAll": 377,
-      "VisibleForAssociates": [
-        727,
-        797
-      ],
-      "VisibleForGroups": [
-        484,
-        857
-      ],
-      "PinForAll": 541,
-      "PinForAssociates": [
-        198,
-        412
-      ],
-      "PinForGroups": [
-        260,
-        489
+        941,
+        835
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 991
+          "FieldLength": 957
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 259,
+      "UniqueId": "ad",
+      "Name": "Kuhlman Inc and Sons",
+      "Description": "Synchronised neutral archive",
+      "AssociateId": 101,
+      "Columns": 162,
+      "Theme": null,
+      "VisibleForAll": 876,
+      "VisibleForAssociates": [
+        948,
+        677
+      ],
+      "VisibleForGroups": [
+        639,
+        657
+      ],
+      "PinForAll": 127,
+      "PinForAssociates": [
+        521,
+        687
+      ],
+      "PinForGroups": [
+        953,
+        263
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 386
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 974
     }
   }
 }

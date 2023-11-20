@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 128,
-  "AssociateId": 745,
-  "Block": "perspiciatis",
-  "Registered": "2002-11-02T11:06:34.7864409+01:00",
-  "RegisteredAssociateId": 962,
-  "Updated": "2021-04-13T11:06:34.7864409+02:00",
-  "UpdatedAssociateId": 473,
-  "UpdatedCount": 558
+  "ShipmentMessageBlockId": 9,
+  "AssociateId": 367,
+  "Block": "repellendus",
+  "Registered": "2001-01-04T13:38:13.7333439+01:00",
+  "RegisteredAssociateId": 815,
+  "Updated": "2001-05-07T13:38:13.7333439+02:00",
+  "UpdatedAssociateId": 368,
+  "UpdatedCount": 303
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 956,
-  "AssociateId": 250,
-  "Block": "aut",
-  "Registered": "2014-11-20T11:06:34.7864409+01:00",
-  "RegisteredAssociateId": 245,
-  "Updated": "2011-02-01T11:06:34.7864409+01:00",
-  "UpdatedAssociateId": 583,
-  "UpdatedCount": 275,
+  "ShipmentMessageBlockId": 670,
+  "AssociateId": 99,
+  "Block": "illum",
+  "Registered": "2017-04-22T13:38:13.7333439+02:00",
+  "RegisteredAssociateId": 390,
+  "Updated": "2020-11-07T13:38:13.7333439+01:00",
+  "UpdatedAssociateId": 344,
+  "UpdatedCount": 603,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 440
     }
   }
 }

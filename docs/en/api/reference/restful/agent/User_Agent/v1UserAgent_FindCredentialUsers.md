@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "consequatur",
-  "SearchString": "voluptates"
+  "Type": "similique",
+  "SearchString": "enim"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "aliquid",
-    "adipisci"
+    "necessitatibus",
+    "dolor"
   ],
   "Users": [
     {
-      "Value": "tenetur",
-      "DisplayValue": "sit",
+      "Value": "voluptas",
+      "DisplayValue": "quidem",
       "Columns": [
-        "molestias",
-        "illum"
+        "asperiores",
+        "odio"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldType": "System.String",
+          "FieldLength": 771
         }
       }
     },
     {
-      "Value": "tenetur",
-      "DisplayValue": "sit",
+      "Value": "voluptas",
+      "DisplayValue": "quidem",
       "Columns": [
-        "molestias",
-        "illum"
+        "asperiores",
+        "odio"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldType": "System.String",
+          "FieldLength": 771
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 438
     }
   }
 }

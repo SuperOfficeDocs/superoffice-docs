@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 567,
-  "Name": "Abshire-Lind",
-  "Tooltip": "vitae",
-  "Rank": 246,
+  "SaleTypeId": 706,
+  "Name": "Beahan-Jewess",
+  "Tooltip": "ea",
+  "Rank": 832,
   "DurationUnit": "Century",
-  "SaleDuration": 674,
-  "SaleTypeCatId": 78,
-  "Deleted": false,
+  "SaleDuration": 755,
+  "SaleTypeCatId": 29,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 281,
-  "QuoteLinesTemplate": 259,
-  "ConfirmationLinesTemplate": 119,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 830,
+  "QuoteLinesTemplate": 928,
+  "ConfirmationLinesTemplate": 265,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 437,
-  "MinEarningPercent": 166,
-  "GroupQuoteLinesBy": 53,
-  "SortGroupLinesBy": 439,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 216,
+  "MinEarningPercent": 872,
+  "GroupQuoteLinesBy": 678,
+  "SortGroupLinesBy": 784,
   "Stages": [
     {
-      "Id": 944,
-      "Name": "Senger Inc and Sons",
-      "ToolTip": "Odit saepe dolorem.",
+      "Id": 362,
+      "Name": "Deckow LLC",
+      "ToolTip": "Ut quod sunt aliquam.",
       "Deleted": false,
-      "Rank": 111,
-      "Type": "voluptas",
-      "ColorBlock": 960,
-      "IconHint": "et",
+      "Rank": 265,
+      "Type": "aspernatur",
+      "ColorBlock": 177,
+      "IconHint": "porro",
       "Selected": false,
-      "LastChanged": "2013-11-05T11:06:34.7708179+01:00",
+      "LastChanged": "2019-09-06T13:38:13.7177215+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "optio",
-      "Hidden": false,
-      "FullName": "Isaac Gleichner",
+      "ExtraInfo": "deserunt",
+      "StyleHint": "quasi",
+      "Hidden": true,
+      "FullName": "Jermaine Armando Weissnat Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldType": "System.String",
+          "FieldLength": 326
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 312
     }
   }
 }

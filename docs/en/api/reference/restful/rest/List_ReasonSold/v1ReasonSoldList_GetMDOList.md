@@ -26,8 +26,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=beatae
+GET /api/v1/List/ReasonSold/MDOItems?flat=True
+GET /api/v1/List/ReasonSold/MDOItems?query=possimus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 310,
-    "Name": "Schmeler, Hackett and Ryan",
-    "ToolTip": "Pariatur quidem magnam laborum autem officia laboriosam.",
-    "Deleted": false,
-    "Rank": 991,
-    "Type": "sint",
+    "Id": 84,
+    "Name": "Barton LLC",
+    "ToolTip": "Consequatur et suscipit eos rerum itaque architecto.",
+    "Deleted": true,
+    "Rank": 199,
+    "Type": "sunt",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Johns, Blick and Cormier",
-        "ToolTip": "Corrupti veniam velit voluptas aliquid praesentium voluptas.",
-        "Deleted": true,
-        "Rank": 871,
-        "Type": "facere",
+        "Id": 946,
+        "Name": "Wunsch LLC",
+        "ToolTip": "Sapiente deleniti voluptas.",
+        "Deleted": false,
+        "Rank": 704,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "unde",
-        "ColorBlock": 701,
-        "ExtraInfo": "eum",
-        "StyleHint": "inventore",
-        "FullName": "Marianna Abernathy",
+        "IconHint": "at",
+        "ColorBlock": 891,
+        "ExtraInfo": "dolore",
+        "StyleHint": "libero",
+        "FullName": "Ms. Vicente Verda Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 209
+            "FieldType": "System.Int32",
+            "FieldLength": 373
           }
         }
       }
     ],
-    "IconHint": "delectus",
-    "ColorBlock": 24,
-    "ExtraInfo": "saepe",
-    "StyleHint": "accusamus",
-    "FullName": "Zoie Considine I",
+    "IconHint": "ex",
+    "ColorBlock": 205,
+    "ExtraInfo": "dolorum",
+    "StyleHint": "corrupti",
+    "FullName": "Prof. Amy Hintz I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldType": "System.String",
+        "FieldLength": 983
       }
     }
   }

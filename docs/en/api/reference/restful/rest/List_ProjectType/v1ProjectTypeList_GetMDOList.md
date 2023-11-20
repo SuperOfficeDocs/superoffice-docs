@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=voluptates
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=molestias
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Kessler, Bernier and Schneider",
-    "ToolTip": "Molestiae natus sit aut tenetur ad distinctio consequatur.",
-    "Deleted": false,
-    "Rank": 898,
-    "Type": "voluptatibus",
+    "Id": 554,
+    "Name": "Runte-Thompson",
+    "ToolTip": "Sequi dolores.",
+    "Deleted": true,
+    "Rank": 253,
+    "Type": "ab",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Lueilwitz, Thiel and Bailey",
-        "ToolTip": "Dolores et incidunt cumque odio est quibusdam quis.",
+        "Id": 272,
+        "Name": "Fadel LLC",
+        "ToolTip": "Distinctio veniam quod voluptate deleniti cum ullam.",
         "Deleted": false,
-        "Rank": 775,
-        "Type": "ut",
+        "Rank": 528,
+        "Type": "quas",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "aut",
-        "ColorBlock": 352,
-        "ExtraInfo": "tempora",
-        "StyleHint": "aut",
-        "FullName": "Grant Murazik",
+        "ColorBlock": 136,
+        "ExtraInfo": "enim",
+        "StyleHint": "deserunt",
+        "FullName": "Roman Pacocha DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 36
+            "FieldLength": 240
           }
         }
       }
     ],
-    "IconHint": "commodi",
-    "ColorBlock": 622,
-    "ExtraInfo": "sint",
-    "StyleHint": "placeat",
-    "FullName": "Fern Block",
+    "IconHint": "iste",
+    "ColorBlock": 532,
+    "ExtraInfo": "aut",
+    "StyleHint": "qui",
+    "FullName": "Genesis Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldType": "System.Int32",
+        "FieldLength": 720
       }
     }
   }

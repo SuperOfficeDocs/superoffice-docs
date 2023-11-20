@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Welch, Lang and Sporer",
-  "StorageKey": "ut",
+  "StorageType": "accusantium",
+  "ProviderName": "Marquardt, Nitzsche and Baumbach",
+  "StorageKey": "architecto",
   "RestrictionGroup": null,
-  "Context": "soluta"
+  "Context": "inventore"
 }
 ```
 

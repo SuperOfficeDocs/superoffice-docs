@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Name": "Kilback Group",
-    "ToolTip": "Sequi facilis et illo magnam consequatur voluptas ipsam.",
-    "Deleted": true,
-    "Rank": 127,
-    "Type": "at",
-    "ColorBlock": 379,
-    "IconHint": "autem",
-    "Selected": true,
-    "LastChanged": "2010-04-16T11:06:43.1003256+02:00",
+    "Id": 705,
+    "Name": "Pagac-Schiller",
+    "ToolTip": "Est magnam dolorem molestiae nemo similique numquam.",
+    "Deleted": false,
+    "Rank": 63,
+    "Type": "quasi",
+    "ColorBlock": 762,
+    "IconHint": "magni",
+    "Selected": false,
+    "LastChanged": "2020-08-20T13:38:18.2493876+02:00",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Mitchell, Kessler and Nikolaus",
-        "ToolTip": "Ab fugit.",
+        "Id": 983,
+        "Name": "Davis Inc and Sons",
+        "ToolTip": "Asperiores quis.",
         "Deleted": true,
-        "Rank": 423,
-        "Type": "officiis",
-        "ColorBlock": 519,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "1998-07-03T11:06:43.1003256+02:00",
+        "Rank": 249,
+        "Type": "sit",
+        "ColorBlock": 202,
+        "IconHint": "cupiditate",
+        "Selected": true,
+        "LastChanged": "2002-04-10T13:38:18.2493876+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Katrine Hand",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Keshaun Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldLength": 88
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "sint",
+    "ExtraInfo": "quidem",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Filiberto Koss",
+    "FullName": "Jessika Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldType": "System.String",
+        "FieldLength": 917
       }
     }
   }

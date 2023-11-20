@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=274
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=745
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 383,
-  "FormKey": "aut",
-  "Name": "Bartoletti-Gutkowski",
-  "Description": "Down-sized demand-driven architecture",
-  "Config": "illum",
-  "FolderId": 120,
-  "ScriptId": 975,
-  "ResponseShipmentId": 575,
-  "Active": false,
-  "Expires": "2006-07-08T11:06:34.7864409+02:00",
-  "MaxSubmits": 404,
+  "FormId": 150,
+  "FormKey": "corrupti",
+  "Name": "Terry-Dietrich",
+  "Description": "Multi-layered context-sensitive artificial intelligence",
+  "Config": "assumenda",
+  "FolderId": 110,
+  "ScriptId": 674,
+  "ResponseShipmentId": 196,
+  "Active": true,
+  "Expires": "2019-09-12T13:38:13.7333439+02:00",
+  "MaxSubmits": 273,
   "Type": "Normal",
-  "Recipe": "cumque",
-  "GroupId": 657,
-  "NewTicket": true,
+  "Recipe": "in",
+  "GroupId": 414,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2004-04-24T11:06:34.7864409+02:00",
-  "RegisteredAssociateId": 511,
-  "Updated": "2006-10-27T11:06:34.7864409+02:00",
-  "UpdatedAssociateId": 731,
-  "UpdatedCount": 42,
-  "FolderName": "Schroeder, Sporer and Emard",
+  "Registered": "2004-04-09T13:38:13.7333439+02:00",
+  "RegisteredAssociateId": 646,
+  "Updated": "2020-02-15T13:38:13.7333439+01:00",
+  "UpdatedAssociateId": 418,
+  "UpdatedCount": 992,
+  "FolderName": "Hackett Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 409
     }
   }
 }

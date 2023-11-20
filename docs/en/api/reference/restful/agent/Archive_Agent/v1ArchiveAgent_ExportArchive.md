@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Feil-Beier",
-  "Context": "voluptatem",
+  "ProviderName": "Jacobson, Harber and Considine",
+  "Context": "tempore",
   "DesiredEntities": [
-    "ut",
-    "aperiam"
+    "quis",
+    "eos"
   ],
   "Columns": [
-    "impedit",
-    "et"
+    "et",
+    "ut"
   ],
   "SortOrder": [
     {
-      "Name": "Gislason LLC",
+      "Name": "Ullrich Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Gislason LLC",
+      "Name": "Ullrich Group",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Schamberger-Schamberger",
-      "Operator": "et",
+      "Name": "Wunsch Inc and Sons",
+      "Operator": "corrupti",
       "Values": [
-        "quis",
-        "eum"
+        "nisi",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "atque",
-        "corrupti"
+        "consequatur",
+        "ipsam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 387,
+      "InterParenthesis": 794,
       "InterOperator": "And",
-      "UniqueHash": 811
+      "UniqueHash": 758
     }
   ],
-  "ExportType": "voluptates",
+  "ExportType": "odit",
   "SelectedRowIds": [
-    "sunt",
-    "vitae"
+    "quae",
+    "sed"
   ],
-  "EstimatedRowCount": 783
+  "EstimatedRowCount": 749
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 59,
-  "FileName": "Wiza LLC",
-  "Message": "id",
+  "BatchTaskId": 487,
+  "FileName": "Lockman Group",
+  "Message": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldLength": 458
     }
   }
 }

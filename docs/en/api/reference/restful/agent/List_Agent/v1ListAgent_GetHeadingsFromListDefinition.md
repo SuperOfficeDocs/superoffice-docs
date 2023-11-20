@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 929
+  "Id": 460
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 53,
-    "Name": "Bayer, Bechtelar and Robel",
-    "Tooltip": "et",
+    "HeadingId": 643,
+    "Name": "West-Zulauf",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 562,
-    "UdListDefinitionId": 657,
+    "Rank": 940,
+    "UdListDefinitionId": 32,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldLength": 548
       }
     }
   }

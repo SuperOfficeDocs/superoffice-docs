@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 146,
+  "LatestKnownEventId": 423,
   "PublishEvents": [
     {
-      "EventId": 107,
-      "EventName": "Heller LLC",
-      "EntityType": "voluptatem",
-      "EntityKey": 547,
-      "AssociateId": 309,
-      "AssociateName": "Hamill Group",
-      "EventDateTime": "1997-12-16T11:06:35.7733119+01:00"
+      "EventId": 911,
+      "EventName": "Wilderman-Block",
+      "EntityType": "in",
+      "EntityKey": 50,
+      "AssociateId": 150,
+      "AssociateName": "Kuhlman Inc and Sons",
+      "EventDateTime": "2005-10-21T13:38:14.4052895+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Gottlieb-Crona",
-      "Value": 379
+      "Name": "Langworth, Stark and Blick",
+      "Value": 716
     },
     {
-      "Name": "Gottlieb-Crona",
-      "Value": 379
+      "Name": "Langworth, Stark and Blick",
+      "Value": 716
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 527,
-    "EventName": "Dickinson, Gusikowski and Eichmann",
-    "EntityType": "et",
-    "EntityKey": 532,
-    "AssociateId": 485,
-    "AssociateName": "Will, Carter and Smith",
-    "EventDateTime": "2010-01-05T11:06:35.7733119+01:00",
+    "EventId": 715,
+    "EventName": "Wisozk LLC",
+    "EntityType": "eveniet",
+    "EntityKey": 466,
+    "AssociateId": 395,
+    "AssociateName": "Willms-Wunsch",
+    "EventDateTime": "2014-05-22T13:38:14.4052895+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldType": "System.String",
+        "FieldLength": 655
       }
     }
   }

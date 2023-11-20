@@ -68,13 +68,13 @@ No Content
 POST /api/v1/Agents/Configuration/ClearConfigurationCache
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "ex",
-  "Instance": "molestiae",
-  "ForAllAssociates": true
+  "Application": "delectus",
+  "Instance": "aut",
+  "ForAllAssociates": false
 }
 ```
 

@@ -73,11 +73,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Ankunding Group"
+  "OwnerName": "Wilkinson-Padberg"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "placeat",
+  "Message": "quam",
   "Url": "http://www.example.com/"
 }
 ```

@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,14 +131,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 743,
-  "StartTime": "2020-08-01T11:06:33.4132283+02:00",
-  "EndTime": "2000-04-13T11:06:33.4132283+02:00",
-  "Count": 84,
+  "ProjectId": 88,
+  "StartTime": "2004-11-13T13:38:12.8271613+01:00",
+  "EndTime": "2002-07-02T13:38:12.8271613+02:00",
+  "Count": 221,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 372,
-    "StartDate": "2015-08-26T11:06:33.4288564+02:00",
-    "EndDate": "2014-06-03T11:06:33.4288564+02:00",
+    "AppointmentId": 1001,
+    "StartDate": "2014-07-06T13:38:12.8271613+02:00",
+    "EndDate": "2011-04-05T13:38:12.8271613+02:00",
     "Type": "BookingForChecklist",
-    "Task": "modi",
-    "AssociateFullName": "Kathryne Lowe",
-    "ContactName": "Anderson-Considine",
-    "Description": "Customizable incremental framework",
-    "PersonFullName": "Prof. Florencio Shyanne Wiegand Jr.",
-    "PersonId": 569,
-    "ContactId": 184,
-    "ProjectId": 227,
-    "ProjectName": "Erdman LLC",
-    "IsPublished": false,
-    "AssociateId": 862,
-    "ColorIndex": 898,
-    "IsFree": false,
-    "HasAlarm": false,
+    "Task": "laudantium",
+    "AssociateFullName": "Mrs. Nicolette McDermott I",
+    "ContactName": "Metz, Kuphal and King",
+    "Description": "Inverse demand-driven website",
+    "PersonFullName": "Mrs. Clemmie Carroll",
+    "PersonId": 742,
+    "ContactId": 137,
+    "ProjectId": 363,
+    "ProjectName": "Cummerata, Graham and Lockman",
+    "IsPublished": true,
+    "AssociateId": 768,
+    "ColorIndex": 189,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 688,
-    "PriorityName": "Heaney Group",
+    "PriorityId": 966,
+    "PriorityName": "Renner Group",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2005-10-01T11:06:33.4288564+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2016-01-24T13:38:12.8271613+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-02-03T11:06:33.4288564+01:00",
-    "RecurringEndDate": "2011-11-08T11:06:33.4288564+01:00",
-    "MotherId": 223,
-    "AssignedBy": 836,
-    "AssignedByFullName": "Ms. Jovanny Schinner",
+    "RecurringStartDate": "2005-11-08T13:38:12.8271613+01:00",
+    "RecurringEndDate": "2008-08-24T13:38:12.8271613+02:00",
+    "MotherId": 916,
+    "AssignedBy": 512,
+    "AssignedByFullName": "Torrey Ullrich",
     "RejectReason": "",
-    "Location": "voluptatibus",
-    "AlarmLeadTime": "vel",
-    "SaleId": 122,
-    "SaleName": "Hane LLC",
-    "AssociateName": "Yost, Rowe and Jacobi",
-    "CreatedDate": "2017-11-26T11:06:33.4288564+01:00",
-    "CreatedBy": "repellat",
-    "CreatedByFullName": "Carleton Beatty",
-    "CreatedByAssociateId": 976,
+    "Location": "et",
+    "AlarmLeadTime": "quasi",
+    "SaleId": 490,
+    "SaleName": "Stamm-Gislason",
+    "AssociateName": "Wisoky-Torp",
+    "CreatedDate": "2019-04-19T13:38:12.8271613+02:00",
+    "CreatedBy": "unde",
+    "CreatedByFullName": "Prof. Camila Paucek",
+    "CreatedByAssociateId": 499,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "molestiae",
-    "Agenda": "aut",
-    "InternalNotes": "incidunt",
+    "PreferredTZLocation": 959,
+    "Title": "est",
+    "Agenda": "dolorem",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldType": "System.String",
+        "FieldLength": 333
       }
     }
   }

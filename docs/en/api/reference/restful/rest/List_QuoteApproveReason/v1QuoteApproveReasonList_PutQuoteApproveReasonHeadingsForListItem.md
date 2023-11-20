@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 112,
-    "Name": "Schaden, Hagenes and Hegmann",
-    "ToolTip": "Non non officia.",
+    "Id": 142,
+    "Name": "Predovic, Rath and Johnson",
+    "ToolTip": "Amet reprehenderit fuga perspiciatis.",
     "Deleted": false,
-    "Rank": 593,
-    "Type": "blanditiis",
-    "ColorBlock": 727,
-    "IconHint": "eos",
+    "Rank": 58,
+    "Type": "saepe",
+    "ColorBlock": 933,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2004-03-08T11:06:42.9753225+01:00",
+    "LastChanged": "2005-08-27T13:38:18.1712741+02:00",
     "ChildItems": [
       {
-        "Id": 638,
-        "Name": "Dibbert Group",
-        "ToolTip": "Optio repudiandae magnam facilis sit.",
+        "Id": 669,
+        "Name": "Metz-Jacobs",
+        "ToolTip": "Aut assumenda modi.",
         "Deleted": false,
-        "Rank": 314,
-        "Type": "tenetur",
-        "ColorBlock": 643,
-        "IconHint": "modi",
+        "Rank": 532,
+        "Type": "quibusdam",
+        "ColorBlock": 684,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2020-03-09T11:06:42.9753225+01:00",
+        "LastChanged": "1997-12-09T13:38:18.1712741+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "repudiandae",
-        "Hidden": true,
-        "FullName": "Una Annabel Kiehn I"
+        "ExtraInfo": "quia",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Ola Langworth"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "exercitationem",
-    "Hidden": false,
-    "FullName": "Mrs. Mollie Moses Runolfsdottir IV"
+    "ExtraInfo": "distinctio",
+    "StyleHint": "maxime",
+    "Hidden": true,
+    "FullName": "Eliane Gleason"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Mitchell LLC",
-    "ToolTip": "Suscipit molestias commodi atque nihil.",
+    "Id": 515,
+    "Name": "Hickle-Lang",
+    "ToolTip": "Voluptatem est magni.",
     "Deleted": false,
-    "Rank": 904,
-    "Type": "eveniet",
-    "ColorBlock": 20,
-    "IconHint": "omnis",
+    "Rank": 393,
+    "Type": "voluptas",
+    "ColorBlock": 257,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "1998-07-24T11:06:42.9753225+02:00",
+    "LastChanged": "2016-06-29T13:38:18.1712741+02:00",
     "ChildItems": [
       {
-        "Id": 429,
-        "Name": "Lehner-Bode",
-        "ToolTip": "Consectetur quos.",
-        "Deleted": true,
-        "Rank": 223,
-        "Type": "molestiae",
-        "ColorBlock": 476,
-        "IconHint": "vero",
-        "Selected": true,
-        "LastChanged": "2017-02-07T11:06:42.9753225+01:00",
+        "Id": 486,
+        "Name": "Kiehn, Beahan and Stiedemann",
+        "ToolTip": "Distinctio aut consequatur et id accusamus qui velit.",
+        "Deleted": false,
+        "Rank": 163,
+        "Type": "natus",
+        "ColorBlock": 497,
+        "IconHint": "impedit",
+        "Selected": false,
+        "LastChanged": "2003-06-19T13:38:18.1712741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "beatae",
-        "Hidden": false,
-        "FullName": "Dahlia Kemmer",
+        "ExtraInfo": "nihil",
+        "StyleHint": "modi",
+        "Hidden": true,
+        "FullName": "Nigel Jones DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 999
+            "FieldType": "System.Int32",
+            "FieldLength": 11
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "cum",
+    "ExtraInfo": "sit",
+    "StyleHint": "eligendi",
     "Hidden": true,
-    "FullName": "Ms. Nick Baumbach",
+    "FullName": "Mr. Jerry Durward Schaefer DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 209
+        "FieldLength": 563
       }
     }
   }

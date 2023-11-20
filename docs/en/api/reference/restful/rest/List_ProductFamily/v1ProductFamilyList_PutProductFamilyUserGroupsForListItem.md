@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Bayer, Collins and Dicki",
-    "ToolTip": "Et qui veniam aliquid impedit.",
+    "Id": 569,
+    "Name": "Gottlieb-Steuber",
+    "ToolTip": "Cupiditate ea quis dolor consequatur cupiditate qui vitae.",
     "Deleted": false,
-    "Rank": 257,
-    "Type": "reiciendis",
-    "ColorBlock": 976,
-    "IconHint": "ex",
+    "Rank": 237,
+    "Type": "occaecati",
+    "ColorBlock": 827,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "2019-07-05T11:06:42.9284383+02:00",
+    "LastChanged": "2006-10-17T13:38:18.1400255+02:00",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Vandervort Inc and Sons",
-        "ToolTip": "Ad sit qui labore assumenda.",
+        "Id": 684,
+        "Name": "Vandervort LLC",
+        "ToolTip": "Architecto eaque est dolor aut ipsum ipsum.",
         "Deleted": true,
-        "Rank": 475,
-        "Type": "sed",
-        "ColorBlock": 632,
-        "IconHint": "saepe",
+        "Rank": 655,
+        "Type": "quas",
+        "ColorBlock": 153,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2011-04-03T11:06:42.9284383+02:00",
+        "LastChanged": "2001-08-25T13:38:18.1400255+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "tempore",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Ewell Kilback"
+        "FullName": "Rahsaan Maggio DVM"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "animi",
+    "ExtraInfo": "magni",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Ms. Foster Quigley"
+    "FullName": "Kane Dickinson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Brown-Mitchell",
-    "ToolTip": "Aut odio odio sed laboriosam vel qui.",
+    "Id": 850,
+    "Name": "Conn LLC",
+    "ToolTip": "Dolorem voluptas aliquid architecto odio enim et.",
     "Deleted": false,
-    "Rank": 16,
-    "Type": "rem",
-    "ColorBlock": 77,
-    "IconHint": "minus",
+    "Rank": 669,
+    "Type": "sit",
+    "ColorBlock": 264,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "1999-10-30T11:06:42.9284383+02:00",
+    "LastChanged": "2013-09-03T13:38:18.1400255+02:00",
     "ChildItems": [
       {
-        "Id": 448,
-        "Name": "Ledner, Gutkowski and Littel",
-        "ToolTip": "Aliquam sunt dolore iste vero perspiciatis tempora.",
+        "Id": 326,
+        "Name": "Krajcik, Brakus and Larkin",
+        "ToolTip": "Sed unde.",
         "Deleted": false,
-        "Rank": 462,
-        "Type": "rerum",
-        "ColorBlock": 898,
-        "IconHint": "praesentium",
+        "Rank": 580,
+        "Type": "dolores",
+        "ColorBlock": 941,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "1999-07-17T11:06:42.9284383+02:00",
+        "LastChanged": "1997-07-03T13:38:18.1400255+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "quam",
-        "Hidden": true,
-        "FullName": "Kyra Schuster",
+        "ExtraInfo": "corporis",
+        "StyleHint": "saepe",
+        "Hidden": false,
+        "FullName": "Miss Kayla Wiegand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 148
+            "FieldLength": 391
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Mr. Roy Laurine Stroman",
+    "ExtraInfo": "quia",
+    "StyleHint": "facilis",
+    "Hidden": false,
+    "FullName": "Dr. Vance Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldLength": 575
       }
     }
   }

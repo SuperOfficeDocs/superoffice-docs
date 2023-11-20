@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 56,
-    "Name": "Pacocha, Stokes and Daniel",
-    "ToolTip": "Error delectus quasi aliquid vitae asperiores.",
-    "Deleted": true,
-    "Rank": 814,
-    "Type": "perferendis",
-    "ColorBlock": 949,
-    "IconHint": "odio",
+    "Id": 596,
+    "Name": "Hansen-Schuppe",
+    "ToolTip": "Quasi dolore a quisquam non.",
+    "Deleted": false,
+    "Rank": 893,
+    "Type": "dolorem",
+    "ColorBlock": 95,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2006-06-15T11:06:42.7721939+02:00",
+    "LastChanged": "2004-04-21T13:38:18.0306692+02:00",
     "ChildItems": [
       {
-        "Id": 735,
-        "Name": "Streich, Ziemann and Shields",
-        "ToolTip": "Maiores non.",
+        "Id": 112,
+        "Name": "Hayes, Lindgren and Jacobi",
+        "ToolTip": "Nobis accusantium laudantium dolor vero.",
         "Deleted": false,
-        "Rank": 320,
-        "Type": "laudantium",
-        "ColorBlock": 434,
-        "IconHint": "voluptate",
+        "Rank": 307,
+        "Type": "porro",
+        "ColorBlock": 242,
+        "IconHint": "harum",
         "Selected": false,
-        "LastChanged": "2015-11-29T11:06:42.7721939+01:00",
+        "LastChanged": "2007-05-04T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "aut",
+        "StyleHint": "dicta",
         "Hidden": false,
-        "FullName": "Lionel Gorczany DVM",
+        "FullName": "Reymundo Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldLength": 557
           }
         }
       }
     ],
-    "ExtraInfo": "est",
+    "ExtraInfo": "repudiandae",
     "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Francisco Schaden",
+    "FullName": "Prof. Stephany Jamir Lakin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldType": "System.String",
+        "FieldLength": 50
       }
     }
   }

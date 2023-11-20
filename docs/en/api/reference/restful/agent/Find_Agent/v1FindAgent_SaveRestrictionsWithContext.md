@@ -68,37 +68,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "omnis",
-  "ProviderName": "Botsford Inc and Sons",
-  "StorageKey": "autem",
+  "StorageType": "itaque",
+  "ProviderName": "Langosh, O'Hara and Swaniawski",
+  "StorageKey": "possimus",
   "Restrictions": [
     {
-      "Name": "Mills, Treutel and Reichel",
-      "Operator": "et",
+      "Name": "Kuvalis Inc and Sons",
+      "Operator": "aut",
       "Values": [
-        "voluptates",
-        "fuga"
+        "incidunt",
+        "magnam"
       ],
       "DisplayValues": [
-        "sequi",
-        "ullam"
+        "culpa",
+        "tempora"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 579,
+      "InterParenthesis": 438,
       "InterOperator": "And",
-      "UniqueHash": 677
+      "UniqueHash": 419
     }
   ],
-  "Context": "esse"
+  "Context": "eum"
 }
 ```
 

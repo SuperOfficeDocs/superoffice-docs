@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Donnelly-Gibson"
+  "ApplicationName": "Schulist, O'Hara and Rogahn"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "rerum",
-    "Value": "atque",
-    "RecordId": 29,
-    "CreatedDate": "2000-09-19T11:06:34.6458113+02:00",
-    "UpdatedDate": "2022-06-19T11:06:34.6458113+02:00",
-    "UpdatedBy": "odio",
-    "CreatedBy": "natus",
-    "TableName": "Schumm LLC",
+    "Key": "sed",
+    "Value": "id",
+    "RecordId": 553,
+    "CreatedDate": "2008-05-02T13:38:13.6396102+02:00",
+    "UpdatedDate": "1999-06-05T13:38:13.6396102+02:00",
+    "UpdatedBy": "asperiores",
+    "CreatedBy": "sequi",
+    "TableName": "Quigley-Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 850
       }
     }
   }

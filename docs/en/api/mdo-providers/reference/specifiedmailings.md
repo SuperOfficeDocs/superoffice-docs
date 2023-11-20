@@ -20,7 +20,7 @@ The name of the MDO list is 'specifiedmailings'.
 
 | Description | Name | Example Value |
 |-----|-----|------|
-|Only mailings with tracked links| tracked|false|
+|Only mailings with tracked links| tracked|true|
 |Specified shipment configurations, default is the most relevant configurations| configurations||
 
 Separator: &

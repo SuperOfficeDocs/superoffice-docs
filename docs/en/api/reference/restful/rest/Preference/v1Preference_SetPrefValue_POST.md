@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "accusantium",
+  "RawValue": "qui",
   "Specification": null,
-  "DisplayValue": "ipsum",
-  "DisplayTooltip": "quia",
+  "DisplayValue": "explicabo",
+  "DisplayTooltip": "quisquam",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 75,
-  "PrefDescId": 134,
-  "TableName": "Keeling Inc and Sons",
-  "UserPreferenceId": 155
+  "TargetId": 207,
+  "PrefDescId": 497,
+  "TableName": "Hane-Rosenbaum",
+  "UserPreferenceId": 186
 }
 ```
 

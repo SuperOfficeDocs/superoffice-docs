@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 573
+  "ProjectId": 121
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 238,
-  "BlobSize": 131,
-  "Description": "Business-focused tangible productivity",
-  "ExtraInfo": "fugiat",
+  "BlobId": 889,
+  "BlobSize": 145,
+  "Description": "Total assymetric help-desk",
+  "ExtraInfo": "autem",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "nulla",
-  "OriginalSize": 299,
-  "CreatedDate": "2019-08-17T11:06:33.7972715+02:00",
-  "UpdatedDate": "2014-10-12T11:06:33.7972715+02:00",
+  "IsZipped": true,
+  "MimeType": "rem",
+  "OriginalSize": 872,
+  "CreatedDate": "2000-07-11T13:38:13.0927968+02:00",
+  "UpdatedDate": "2013-06-19T13:38:13.0927968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 813
     }
   }
 }

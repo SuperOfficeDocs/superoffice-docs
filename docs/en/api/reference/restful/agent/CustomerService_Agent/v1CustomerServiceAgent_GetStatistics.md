@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "incidunt",
-    "tempora"
+    "dicta",
+    "ipsa"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "ut",
+    "Label": "nihil",
     "Values": [
       {
-        "Label": "eius",
-        "Value": 20718.874,
-        "Description": "Upgradable responsive synergy",
+        "Label": "minima",
+        "Value": 21232.85,
+        "Description": "Managed solution-oriented projection",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldLength": 117
           }
         }
       },
       {
-        "Label": "eius",
-        "Value": 20718.874,
-        "Description": "Upgradable responsive synergy",
+        "Label": "minima",
+        "Value": 21232.85,
+        "Description": "Managed solution-oriented projection",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldLength": 117
           }
         }
       }
     ],
-    "Description": "Re-contextualized holistic paradigm",
+    "Description": "Down-sized intangible project",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldLength": 608
       }
     }
   },
   {
-    "Label": "ut",
+    "Label": "nihil",
     "Values": [
       {
-        "Label": "eius",
-        "Value": 20718.874,
-        "Description": "Upgradable responsive synergy",
+        "Label": "minima",
+        "Value": 21232.85,
+        "Description": "Managed solution-oriented projection",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldLength": 117
           }
         }
       },
       {
-        "Label": "eius",
-        "Value": 20718.874,
-        "Description": "Upgradable responsive synergy",
+        "Label": "minima",
+        "Value": 21232.85,
+        "Description": "Managed solution-oriented projection",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldLength": 117
           }
         }
       }
     ],
-    "Description": "Re-contextualized holistic paradigm",
+    "Description": "Down-sized intangible project",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldLength": 608
       }
     }
   }

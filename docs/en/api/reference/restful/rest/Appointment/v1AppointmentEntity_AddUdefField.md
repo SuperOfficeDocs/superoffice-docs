@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 828,
-  "ColumnId": 849,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 821,
-  "FieldLabel": "ut",
-  "FieldLeft": 536,
-  "FieldTop": 502,
+  "UDefFieldId": 269,
+  "ColumnId": 236,
+  "FieldDefault": "adipisci",
+  "FieldHeight": 403,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 620,
+  "FieldTop": 737,
   "FieldType": "Checkbox",
-  "FieldWidth": 252,
-  "FormatMask": "eveniet",
-  "HideLabel": true,
+  "FieldWidth": 284,
+  "FormatMask": "ratione",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 965,
-  "LabelLeft": 180,
-  "LabelTop": 670,
-  "LabelWidth": 846,
-  "LastVersionId": 972,
-  "ListTableId": 994,
-  "IsMandatory": true,
+  "LabelHeight": 233,
+  "LabelLeft": 801,
+  "LabelTop": 34,
+  "LabelWidth": 137,
+  "LastVersionId": 789,
+  "ListTableId": 541,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 830,
-  "ProgId": "accusantium",
+  "Page1LineNo": 153,
+  "ProgId": "recusandae",
   "IsReadOnly": false,
-  "ShortLabel": "eum",
-  "TabOrder": 36,
-  "TextLength": 862,
-  "Tooltip": "eveniet",
-  "UdefIdentity": 968,
-  "UDListDefinitionId": 746,
+  "ShortLabel": "aut",
+  "TabOrder": 901,
+  "TextLength": 946,
+  "Tooltip": "enim",
+  "UdefIdentity": 720,
+  "UDListDefinitionId": 733,
   "Justification": "Center",
-  "Version": 302,
-  "TemplateVariableName": "Frami-Kuhlman",
+  "Version": 198,
+  "TemplateVariableName": "Skiles, Halvorson and Cartwright",
   "HasBeenPublished": false,
-  "MdoListName": "Bins-Dach",
+  "MdoListName": "Muller, Kunze and Becker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 699
     }
   }
 }

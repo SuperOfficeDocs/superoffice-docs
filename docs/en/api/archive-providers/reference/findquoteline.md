@@ -733,7 +733,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=earningPercent,alternative/version/quote/sale/person/personAssociate/title,alternative/version/quote/sale/contact/contactAssociate/firstName,alternative/version/quote/sale/associate/usergroup,alternative/version/quote/sale/project/projectAssociate/firstName
+GET /api/v1/archive/FindQuoteLine?$select=alternative/earningAmount,alternative/extraField3,alternative/version/approvedBy,alternative/version/quote/sale/time,alternative/version/quote/sale/person/personExtra/x_person_longtext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

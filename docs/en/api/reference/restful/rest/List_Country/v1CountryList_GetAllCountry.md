@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 978,
-    "Name": "Mohr, Rolfson and Rolfson",
-    "CurrencyId": 385,
-    "EnglishName": "Lang LLC",
+    "CountryId": 495,
+    "Name": "Heathcote-Stark",
+    "CurrencyId": 756,
+    "EnglishName": "Cremin Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Object-based object-oriented matrix",
-    "OrgNrText": "960616",
-    "InterAreaPrefix": "eos",
-    "DialInPrefix": "non",
-    "ZipPrefix": "quis",
-    "DomainName": "Lubowitz-Schamberger",
-    "AddressLayoutId": 188,
-    "DomesticAddressLayoutId": 7,
-    "ForeignAddressLayoutId": 636,
-    "Rank": 592,
-    "Tooltip": "aliquid",
+    "ImageDescription": "Sharable methodical groupware",
+    "OrgNrText": "459853",
+    "InterAreaPrefix": "et",
+    "DialInPrefix": "sit",
+    "ZipPrefix": "accusamus",
+    "DomainName": "Trantow-Hoppe",
+    "AddressLayoutId": 773,
+    "DomesticAddressLayoutId": 250,
+    "ForeignAddressLayoutId": 237,
+    "Rank": 356,
+    "Tooltip": "maiores",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldLength": 827
       }
     }
   }

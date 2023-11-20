@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Farrell-Rath"
+  "EntityName": "Kulas-Champlin"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 78,
-  "DashboardId": 37,
-  "Height": 150,
-  "Width": 429,
-  "Rank": 443,
+  "DashboardTileId": 687,
+  "DashboardId": 693,
+  "Height": 62,
+  "Width": 279,
+  "Rank": 537,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldType": "System.Int32",
+      "FieldLength": 497
     }
   }
 }

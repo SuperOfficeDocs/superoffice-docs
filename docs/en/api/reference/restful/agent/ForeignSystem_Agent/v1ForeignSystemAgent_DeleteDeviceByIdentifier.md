@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Franecki, Bruen and Hammes",
-  "DeviceName": "Kunze Group",
-  "DeviceIdentifier": "earum"
+  "ApplicationName": "Terry LLC",
+  "DeviceName": "Wehner-Schumm",
+  "DeviceIdentifier": "et"
 }
 ```
 

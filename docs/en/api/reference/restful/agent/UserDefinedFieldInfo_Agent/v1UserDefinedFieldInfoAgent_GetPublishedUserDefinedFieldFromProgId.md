@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "eveniet",
+  "ProgId": "aut",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 423,
-  "ColumnId": 731,
-  "FieldDefault": "consequatur",
-  "FieldHeight": 841,
-  "FieldLabel": "numquam",
-  "FieldLeft": 761,
-  "FieldTop": 537,
+  "UDefFieldId": 338,
+  "ColumnId": 298,
+  "FieldDefault": "molestiae",
+  "FieldHeight": 2,
+  "FieldLabel": "et",
+  "FieldLeft": 336,
+  "FieldTop": 990,
   "FieldType": "Checkbox",
-  "FieldWidth": 598,
-  "FormatMask": "aut",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 36,
-  "LabelLeft": 477,
-  "LabelTop": 300,
-  "LabelWidth": 983,
-  "LastVersionId": 88,
-  "ListTableId": 665,
+  "FieldWidth": 814,
+  "FormatMask": "numquam",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 382,
+  "LabelLeft": 73,
+  "LabelTop": 889,
+  "LabelWidth": 683,
+  "LastVersionId": 352,
+  "ListTableId": 380,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 614,
-  "ProgId": "eveniet",
+  "Page1LineNo": 783,
+  "ProgId": "qui",
   "IsReadOnly": true,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 795,
-  "TextLength": 214,
-  "Tooltip": "culpa",
-  "UdefIdentity": 804,
-  "UDListDefinitionId": 763,
+  "ShortLabel": "ratione",
+  "TabOrder": 209,
+  "TextLength": 964,
+  "Tooltip": "sit",
+  "UdefIdentity": 488,
+  "UDListDefinitionId": 274,
   "Justification": "Center",
-  "Version": 317,
-  "TemplateVariableName": "Dicki, Spencer and Wintheiser",
+  "Version": 228,
+  "TemplateVariableName": "Larkin-Toy",
   "HasBeenPublished": false,
-  "MdoListName": "Koch-Hermiston",
+  "MdoListName": "Kirlin, Schiller and Champlin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 926
     }
   }
 }

@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 152,
-  "WorkflowId": 36,
+  "WorkflowGoalId": 943,
+  "WorkflowId": 832,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Cormier, Weber and Beer",
-      "Description": "Monitored fault-tolerant architecture",
-      "Rank": 388,
+      "Name": "Olson LLC",
+      "Description": "Fundamental multi-state website",
+      "Rank": 669,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cormier, Weber and Beer",
-      "Description": "Monitored fault-tolerant architecture",
-      "Rank": 388,
+      "Name": "Olson LLC",
+      "Description": "Fundamental multi-state website",
+      "Rank": 669,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 857,
-  "WorkflowId": 4,
+  "WorkflowGoalId": 907,
+  "WorkflowId": 135,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Bauch LLC",
-      "Description": "Programmable incremental service-desk",
-      "Rank": 395,
+      "Name": "Okuneva-Keebler",
+      "Description": "Reactive optimal application",
+      "Rank": 815,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bauch LLC",
-      "Description": "Programmable incremental service-desk",
-      "Rank": 395,
+      "Name": "Okuneva-Keebler",
+      "Description": "Reactive optimal application",
+      "Rank": 815,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

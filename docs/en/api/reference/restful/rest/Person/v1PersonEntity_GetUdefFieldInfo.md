@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 696,
-  "ColumnId": 375,
-  "FieldDefault": "omnis",
-  "FieldHeight": 249,
-  "FieldLabel": "numquam",
-  "FieldLeft": 534,
-  "FieldTop": 446,
+  "UDefFieldId": 424,
+  "ColumnId": 559,
+  "FieldDefault": "minima",
+  "FieldHeight": 694,
+  "FieldLabel": "mollitia",
+  "FieldLeft": 174,
+  "FieldTop": 532,
   "FieldType": "Checkbox",
-  "FieldWidth": 387,
-  "FormatMask": "et",
-  "HideLabel": true,
+  "FieldWidth": 987,
+  "FormatMask": "odit",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 733,
-  "LabelLeft": 660,
-  "LabelTop": 17,
-  "LabelWidth": 637,
-  "LastVersionId": 90,
-  "ListTableId": 898,
+  "LabelHeight": 230,
+  "LabelLeft": 468,
+  "LabelTop": 748,
+  "LabelWidth": 733,
+  "LastVersionId": 367,
+  "ListTableId": 412,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 231,
-  "ProgId": "soluta",
-  "IsReadOnly": false,
-  "ShortLabel": "doloribus",
-  "TabOrder": 895,
-  "TextLength": 125,
-  "Tooltip": "et",
-  "UdefIdentity": 778,
-  "UDListDefinitionId": 120,
+  "Page1LineNo": 736,
+  "ProgId": "omnis",
+  "IsReadOnly": true,
+  "ShortLabel": "occaecati",
+  "TabOrder": 581,
+  "TextLength": 609,
+  "Tooltip": "eos",
+  "UdefIdentity": 422,
+  "UDListDefinitionId": 31,
   "Justification": "Center",
-  "Version": 367,
-  "TemplateVariableName": "Smitham, Goyette and Jacobi",
-  "HasBeenPublished": true,
-  "MdoListName": "Kuvalis LLC",
+  "Version": 287,
+  "TemplateVariableName": "Graham, McGlynn and Rippin",
+  "HasBeenPublished": false,
+  "MdoListName": "Schinner Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 49
+      "FieldType": "System.Int32",
+      "FieldLength": 644
     }
   }
 }

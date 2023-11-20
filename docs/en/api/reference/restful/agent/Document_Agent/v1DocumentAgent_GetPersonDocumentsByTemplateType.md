@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 618,
+  "PersonId": 813,
   "IncludeProjectDocuments": false,
-  "StartTime": "2014-01-15T11:06:34.316457+01:00",
-  "EndTime": "2001-06-24T11:06:34.316457+02:00",
-  "Count": 906,
-  "DocumentTemplateId": 137
+  "StartTime": "2007-12-10T13:38:13.4365041+01:00",
+  "EndTime": "1997-07-11T13:38:13.4365041+02:00",
+  "Count": 323,
+  "DocumentTemplateId": 380
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 959,
-    "Attention": "voluptatem",
-    "Header": "est",
-    "Name": "Jerde, Kunze and Schmidt",
-    "OurRef": "autem",
-    "YourRef": "cupiditate",
-    "Description": "Cloned secondary synergy",
-    "DocumentTemplate": "mollitia",
+    "DocumentId": 962,
+    "Attention": "at",
+    "Header": "iste",
+    "Name": "Jerde LLC",
+    "OurRef": "temporibus",
+    "YourRef": "repellendus",
+    "Description": "Seamless static infrastructure",
+    "DocumentTemplate": "quas",
     "IsPublished": true,
-    "PersonId": 812,
-    "PersonFullName": "Doris Rodriguez III",
-    "AssociateFullName": "Dr. Geo Tania Flatley I",
-    "ContactId": 4,
-    "ContactName": "Dooley Group",
-    "ProjectId": 874,
-    "ProjectName": "Collins, Kohler and Jacobi",
-    "AssociateId": 651,
-    "Snum": 559,
-    "SaleId": 862,
-    "SaleName": "Graham, Hammes and Ryan",
+    "PersonId": 847,
+    "PersonFullName": "Deondre Hammes",
+    "AssociateFullName": "Ms. Gust Roob",
+    "ContactId": 133,
+    "ContactName": "Torphy-West",
+    "ProjectId": 692,
+    "ProjectName": "Stokes, Heller and Ratke",
+    "AssociateId": 232,
+    "Snum": 809,
+    "SaleId": 60,
+    "SaleName": "Schmitt, Tromp and Kulas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 216
       }
     }
   }

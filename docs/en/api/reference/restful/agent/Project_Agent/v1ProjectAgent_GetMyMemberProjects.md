@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 987,
-    "Name": "Brown LLC",
-    "Description": "Cross-group 24 hour analyzer",
+    "ProjectId": 785,
+    "Name": "Krajcik-Blanda",
+    "Description": "Front-line grid-enabled hierarchy",
     "URL": "http://www.example.com/",
-    "Type": "provident",
-    "AssociateId": 172,
-    "AssociateFullName": "Fern Maggio",
-    "TypeId": 586,
-    "Updated": "2010-12-01T11:06:35.1614465+01:00",
-    "StatusId": 652,
-    "Status": "et",
-    "TextId": 701,
-    "PublishTo": "1997-05-16T11:06:35.1614465+02:00",
-    "PublishFrom": "2016-12-29T11:06:35.1614465+01:00",
-    "IsPublished": false,
+    "Type": "vero",
+    "AssociateId": 198,
+    "AssociateFullName": "Dr. Monroe Fritsch DVM",
+    "TypeId": 339,
+    "Updated": "2011-01-01T13:38:13.9834617+01:00",
+    "StatusId": 717,
+    "Status": "sit",
+    "TextId": 923,
+    "PublishTo": "2004-01-29T13:38:13.9834617+01:00",
+    "PublishFrom": "2002-08-10T13:38:13.9834617+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "421300",
-    "ActiveErpLinks": 873,
+    "ProjectNumber": "901272",
+    "ActiveErpLinks": 765,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 352
       }
     }
   }

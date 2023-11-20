@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=11/03/2000 11:06:44
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=10/05/2021 11:06:44
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=882
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=08/26/1999 13:38:18
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=10/01/2006 13:38:18
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=226
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 269,
-  "ERPPriceListKey": "eius",
-  "QuoteConnectionId": 161,
-  "Name": "Gleason-Jaskolski",
-  "Description": "Function-based bottom-line Graphic Interface",
-  "Currency": "dolorum",
-  "CurrencyName": "Pfeffer, Dietrich and Feil",
-  "ValidFrom": "2023-08-13T11:06:42.8971908+02:00",
-  "ValidTo": "1999-10-08T11:06:42.8971908+02:00",
-  "IsActive": true,
+  "PriceListId": 691,
+  "ERPPriceListKey": "dolores",
+  "QuoteConnectionId": 4,
+  "Name": "Cassin-Koelpin",
+  "Description": "De-engineered neutral support",
+  "Currency": "aliquam",
+  "CurrencyName": "Lowe Inc and Sons",
+  "ValidFrom": "2008-02-04T13:38:18.1087815+01:00",
+  "ValidTo": "2017-01-31T13:38:18.1087815+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldType": "System.String",
+      "FieldLength": 718
     }
   }
 }

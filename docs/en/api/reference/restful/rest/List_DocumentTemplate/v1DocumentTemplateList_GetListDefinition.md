@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 337,
-  "Name": "Bechtelar, Jacobson and McKenzie",
-  "Tooltip": "molestiae",
+  "Id": 762,
+  "Name": "Schroeder LLC",
+  "Tooltip": "voluptatibus",
   "Deleted": true,
-  "Rank": 476,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 13,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
+  "ListType": "exercitationem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldLength": 371
     }
   },
   "_Links": {

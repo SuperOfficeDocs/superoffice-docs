@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Langworth-Lueilwitz"
+  "Name": "Kirlin Group"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 717,
-    "Value": "et",
-    "Tooltip": "consequatur",
+    "Id": 258,
+    "Value": "est",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 612
+        "FieldLength": 828
       }
     }
   },
   {
-    "Id": 717,
-    "Value": "et",
-    "Tooltip": "consequatur",
+    "Id": 258,
+    "Value": "est",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 612
+        "FieldLength": 828
       }
     }
   }

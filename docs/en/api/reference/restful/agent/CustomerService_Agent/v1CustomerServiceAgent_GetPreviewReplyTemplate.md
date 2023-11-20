@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 326
+  "ReplyTemplateId": 466
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weissnat-Lockman",
-  "Description": "Switchable bottom-line concept",
-  "OwnedByFullName": "Charlotte Daugherty Sr.",
-  "Updated": "2017-05-03T11:06:34.2539546+02:00",
-  "Body": "quos",
+  "Name": "Graham, Wiegand and Abernathy",
+  "Description": "Synchronised attitude-oriented orchestration",
+  "OwnedByFullName": "Dr. Scot Rempel",
+  "Updated": "2008-07-28T13:38:13.3896326+02:00",
+  "Body": "dolorem",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldLength": 780
     }
   }
 }

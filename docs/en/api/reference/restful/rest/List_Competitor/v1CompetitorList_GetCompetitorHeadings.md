@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 682,
-    "Name": "Shields, Goodwin and Erdman",
-    "Tooltip": "natus",
-    "Deleted": false,
-    "Rank": 49,
-    "UdListDefinitionId": 291,
+    "HeadingId": 645,
+    "Name": "Davis Group",
+    "Tooltip": "reprehenderit",
+    "Deleted": true,
+    "Rank": 280,
+    "UdListDefinitionId": 569,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 146
+        "FieldType": "System.Int32",
+        "FieldLength": 546
       }
     }
   }
