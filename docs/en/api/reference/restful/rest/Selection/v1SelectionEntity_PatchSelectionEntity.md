@@ -154,12 +154,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "commodi",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "commodi",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reduced object-oriented software",
-  "Postit": "odit",
+  "Description": "Streamlined coherent contingency",
+  "Postit": "molestias",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 624,
-  "IncludePerson": 816,
-  "MemberCount": 660,
-  "Name": "Farrell, Johnston and Price",
-  "PostitTextId": 82,
-  "CreatedDate": "2015-03-12T11:06:42.2228527+01:00",
-  "SelectionId": 792,
-  "SoundEx": "et",
-  "Source": 81,
-  "TextId": 770,
-  "UpdatedDate": "2011-05-25T11:06:42.2228527+02:00",
-  "UpdatedCount": 313,
-  "Visibility": 997,
+  "GroupIdx": 175,
+  "IncludePerson": 715,
+  "MemberCount": 270,
+  "Name": "Schuppe-Lubowitz",
+  "PostitTextId": 794,
+  "CreatedDate": "2007-11-10T13:38:17.6555554+01:00",
+  "SelectionId": 398,
+  "SoundEx": "pariatur",
+  "Source": 95,
+  "TextId": 147,
+  "UpdatedDate": "2023-10-09T13:38:17.6555554+02:00",
+  "UpdatedCount": 687,
+  "Visibility": 46,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 852,
-  "TargetTableName": "Conroy, Littel and Volkman",
-  "Completed": true,
-  "LeftSelectionId": 61,
-  "RightSelectionId": 792,
+  "CompanyUnique": true,
+  "TargetTableNumber": 520,
+  "TargetTableName": "Jacobs, Nikolaus and Koelpin",
+  "Completed": false,
+  "LeftSelectionId": 512,
+  "RightSelectionId": 745,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Simonis LLC",
-  "ShadowProviderName": "Mante, Bartoletti and Hessel",
-  "ChartKey": "ipsam",
-  "LastLoaded": "2012-08-13T11:06:42.2228527+02:00",
-  "LastLoadedBy": 244,
+  "MainProviderName": "Abshire, Ferry and Kihn",
+  "ShadowProviderName": "Monahan, Fahey and Corwin",
+  "ChartKey": "et",
+  "LastLoaded": "2005-09-14T13:38:17.6555554+02:00",
+  "LastLoadedBy": 455,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-02-28T11:06:42.2228527+01:00",
-  "LastMembershipChangeBy": 853,
+  "LastMembershipChange": "2014-05-09T13:38:17.6555554+02:00",
+  "LastMembershipChangeBy": 635,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsa",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Romaguera, Beier and Nitzsche",
-  "DashboardTileDefinitionId": 254,
+  "MainHeading": "sit",
+  "MemberTabHeading": "dolores",
+  "MailingsProviderName": "Morar, Dibbert and Reynolds",
+  "DashboardTileDefinitionId": 691,
   "VisibleFor": [
     {
-      "VisibleId": 617,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 312
         }
       }
     },
     {
-      "VisibleId": 617,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 312
         }
       }
     }
@@ -244,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldType": "System.String",
+      "FieldLength": 302
     }
   },
   "_Links": {

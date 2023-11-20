@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Weimann, Nitzsche and Weber",
-  "ListItemId": 177,
+  "UdListDefinitionName": "Schamberger Group",
+  "ListItemId": 364,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Name": "Corkery Group",
-    "ToolTip": "Sunt qui.",
+    "Id": 103,
+    "Name": "Hills-Sawayn",
+    "ToolTip": "Omnis dolores ut alias similique.",
     "Deleted": false,
-    "Rank": 224,
-    "Type": "officia",
-    "ColorBlock": 388,
-    "IconHint": "repellendus",
+    "Rank": 799,
+    "Type": "eos",
+    "ColorBlock": 209,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2013-01-07T11:06:34.7083083+01:00",
+    "LastChanged": "2008-06-27T13:38:13.6864749+02:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Thiel-Conroy",
-        "ToolTip": "Explicabo rerum asperiores amet praesentium perspiciatis.",
+        "Id": 903,
+        "Name": "Kirlin-Kirlin",
+        "ToolTip": "Placeat maxime.",
         "Deleted": false,
-        "Rank": 624,
-        "Type": "vel",
-        "ColorBlock": 928,
-        "IconHint": "velit",
+        "Rank": 795,
+        "Type": "dolorum",
+        "ColorBlock": 503,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "2008-07-26T11:06:34.7083083+02:00",
+        "LastChanged": "2021-02-06T13:38:13.6864749+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "veniam",
+        "ExtraInfo": "sequi",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Buster Schamberger DVM",
+        "FullName": "Dr. Aryanna Georgiana Yost",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 761
+            "FieldLength": 334
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "magni",
-    "Hidden": true,
-    "FullName": "Dr. Estefania Morar DDS",
+    "ExtraInfo": "id",
+    "StyleHint": "optio",
+    "Hidden": false,
+    "FullName": "Mr. Jalon Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

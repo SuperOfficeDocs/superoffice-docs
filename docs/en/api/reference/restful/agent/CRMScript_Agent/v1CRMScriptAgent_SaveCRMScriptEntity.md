@@ -89,17 +89,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 676,
-  "UniqueIdentifier": "modi",
-  "Name": "Kuvalis, Leffler and Goodwin",
-  "Description": "Phased attitude-oriented access",
-  "IncludeId": "rerum",
-  "HierarchyId": 528,
-  "Source": "eum",
-  "Registered": "2003-10-23T11:06:34.2383276+02:00",
-  "RegisteredAssociateId": 870,
-  "Updated": "2005-07-06T11:06:34.2383276+02:00",
-  "UpdatedAssociateId": 870
+  "EjscriptId": 594,
+  "UniqueIdentifier": "odit",
+  "Name": "Hettinger-Hudson",
+  "Description": "Front-line radical application",
+  "IncludeId": "molestias",
+  "HierarchyId": 132,
+  "Source": "provident",
+  "Registered": "2008-09-03T13:38:13.374011+02:00",
+  "RegisteredAssociateId": 445,
+  "Updated": "2017-04-17T13:38:13.374011+02:00",
+  "UpdatedAssociateId": 946
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 172,
-  "UniqueIdentifier": "repudiandae",
-  "Name": "DuBuque LLC",
-  "Description": "Profit-focused 5th generation knowledge user",
-  "IncludeId": "rerum",
-  "HierarchyId": 764,
-  "Source": "et",
-  "Registered": "2008-08-06T11:06:34.2383276+02:00",
-  "RegisteredAssociateId": 167,
-  "Updated": "2009-10-08T11:06:34.2383276+02:00",
-  "UpdatedAssociateId": 822,
+  "EjscriptId": 860,
+  "UniqueIdentifier": "earum",
+  "Name": "Green-Howell",
+  "Description": "Inverse 24 hour synergy",
+  "IncludeId": "nulla",
+  "HierarchyId": 970,
+  "Source": "autem",
+  "Registered": "2015-05-11T13:38:13.374011+02:00",
+  "RegisteredAssociateId": 337,
+  "Updated": "2010-09-19T13:38:13.374011+02:00",
+  "UpdatedAssociateId": 911,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldType": "System.String",
+      "FieldLength": 81
     }
   }
 }

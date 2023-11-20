@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 934,
-  "Name": "Rempel Group",
-  "Tooltip": "recusandae",
-  "Deleted": false,
-  "UdListDefinitionId": 999,
-  "Rank": 905,
+  "Id": 233,
+  "Name": "Paucek Group",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 160,
+  "Rank": 585,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldLength": 317
     }
   }
 }

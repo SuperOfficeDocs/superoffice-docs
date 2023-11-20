@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=792
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=406
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 330,
-  "Name": "Gusikowski Inc and Sons",
-  "CreatedDate": "2019-03-29T11:06:34.6301875+01:00",
-  "UpdatedDate": "2004-05-25T11:06:34.6301875+02:00",
-  "AssociateFullName": "Dr. Jackeline Fisher I",
-  "CreatedBy": "earum",
-  "UpdatedBy": "id",
-  "DeviceIdentifier": "blanditiis",
-  "ForeignAppId": 777,
+  "ForeignDeviceId": 13,
+  "Name": "Langworth, Reinger and Trantow",
+  "CreatedDate": "1997-02-03T13:38:13.6396102+01:00",
+  "UpdatedDate": "2014-05-06T13:38:13.6396102+02:00",
+  "AssociateFullName": "Lance Gulgowski",
+  "CreatedBy": "sed",
+  "UpdatedBy": "magni",
+  "DeviceIdentifier": "sit",
+  "ForeignAppId": 998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldType": "System.Int32",
+      "FieldLength": 364
     }
   }
 }

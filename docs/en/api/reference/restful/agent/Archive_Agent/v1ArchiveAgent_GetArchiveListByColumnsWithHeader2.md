@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Carter-Langosh",
-  "Columns": "dolor",
-  "SortOrder": "dolorem",
-  "Restriction": "voluptas",
-  "Entities": "blanditiis",
-  "Page": 362,
-  "PageSize": 336,
-  "Options": "aut"
+  "ProviderName": "Rippin Inc and Sons",
+  "Columns": "illum",
+  "SortOrder": "impedit",
+  "Restriction": "delectus",
+  "Entities": "voluptatem",
+  "Page": 72,
+  "PageSize": 715,
+  "Options": "sed"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 601,
+  "RowCount": 7,
   "Rows": [
     {
-      "EntityName": "Oberbrunner-Mayert",
-      "PrimaryKey": 560,
+      "EntityName": "Reilly Group",
+      "PrimaryKey": 91,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "iusto",
-          "TooltipHint": "adipisci",
-          "LinkHint": "consequatur"
+          "DisplayValue": "excepturi",
+          "TooltipHint": "recusandae",
+          "LinkHint": "tenetur"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "est",
+      "LinkHint": "doloremque",
+      "StyleHint": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldType": "System.String",
+          "FieldLength": 152
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldType": "System.String",
+      "FieldLength": 112
     }
   }
 }

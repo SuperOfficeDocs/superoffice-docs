@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kemmer Group",
+  "Name": "Bayer, Collier and Fisher",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hane Inc and Sons",
-    "SoPrimaryKey": 613,
-    "EntryName": "Gerhold, Daniel and Botsford",
-    "EntryIdentifier": "incidunt",
-    "RuleDisplayName": "Purdy-Hilpert",
+    "RuleName": "Prosacco-Kozey",
+    "SoPrimaryKey": 969,
+    "EntryName": "D'Amore, Blick and Mosciski",
+    "EntryIdentifier": "quod",
+    "RuleDisplayName": "Medhurst, Cummings and Koepp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldType": "System.String",
+        "FieldLength": 238
       }
     }
   }

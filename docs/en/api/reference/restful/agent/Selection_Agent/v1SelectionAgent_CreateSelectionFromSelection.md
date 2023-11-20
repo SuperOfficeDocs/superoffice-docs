@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 566,
-  "Name": "Raynor-Zulauf",
+  "SelectionId": 984,
+  "Name": "White, Kovacek and Strosin",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Adaptive multi-tasking toolset",
-  "Postit": "deserunt",
+  "Description": "Quality-focused multi-state ability",
+  "Postit": "eligendi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 817,
-  "IncludePerson": 622,
-  "MemberCount": 453,
-  "Name": "Beahan Inc and Sons",
-  "PostitTextId": 202,
-  "CreatedDate": "2021-01-29T11:06:35.3958193+01:00",
-  "SelectionId": 412,
-  "SoundEx": "et",
-  "Source": 703,
-  "TextId": 392,
-  "UpdatedDate": "2000-01-25T11:06:35.3958193+01:00",
-  "UpdatedCount": 114,
-  "Visibility": 218,
+  "GroupIdx": 754,
+  "IncludePerson": 172,
+  "MemberCount": 373,
+  "Name": "Greenholt LLC",
+  "PostitTextId": 93,
+  "CreatedDate": "2021-12-25T13:38:14.1553188+01:00",
+  "SelectionId": 199,
+  "SoundEx": "est",
+  "Source": 599,
+  "TextId": 598,
+  "UpdatedDate": "2021-11-11T13:38:14.1553188+01:00",
+  "UpdatedCount": 145,
+  "Visibility": 512,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 859,
-  "TargetTableName": "Fahey, Wisoky and Heaney",
+  "TargetTableNumber": 197,
+  "TargetTableName": "Mraz, Abernathy and Gottlieb",
   "Completed": false,
-  "LeftSelectionId": 617,
-  "RightSelectionId": 583,
+  "LeftSelectionId": 318,
+  "RightSelectionId": 300,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Pollich, Rohan and Jenkins",
-  "ShadowProviderName": "Fritsch-Koelpin",
-  "ChartKey": "harum",
-  "LastLoaded": "2020-07-16T11:06:35.3958193+02:00",
-  "LastLoadedBy": 495,
+  "MainProviderName": "Schoen, Sipes and Little",
+  "ShadowProviderName": "Treutel Inc and Sons",
+  "ChartKey": "vero",
+  "LastLoaded": "2017-07-15T13:38:14.1553188+02:00",
+  "LastLoadedBy": 500,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-08-29T11:06:35.3958193+02:00",
-  "LastMembershipChangeBy": 181,
+  "LastMembershipChange": "2000-08-14T13:38:14.1553188+02:00",
+  "LastMembershipChangeBy": 48,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "totam",
-  "MailingsProviderName": "Runolfsson, Kovacek and Klein",
-  "DashboardTileDefinitionId": 110,
+  "MainHeading": "et",
+  "MemberTabHeading": "excepturi",
+  "MailingsProviderName": "Waters LLC",
+  "DashboardTileDefinitionId": 762,
   "VisibleFor": [
     {
-      "VisibleId": 137,
+      "VisibleId": 7,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 579
+          "FieldType": "System.String",
+          "FieldLength": 322
         }
       }
     },
     {
-      "VisibleId": 137,
+      "VisibleId": 7,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 579
+          "FieldType": "System.String",
+          "FieldLength": 322
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldType": "System.Int32",
+      "FieldLength": 873
     }
   }
 }

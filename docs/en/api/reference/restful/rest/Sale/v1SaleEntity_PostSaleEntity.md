@@ -162,7 +162,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "laborum",
+  "SaleText": "quo",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2002-12-20T11:06:42.113477+01:00",
-  "Amount": 25162.886,
-  "SaleId": 682,
-  "Earning": 29306.034,
-  "EarningPercent": 24956.041999999998,
-  "Heading": "voluptatum",
-  "Number": "853583",
-  "Probability": 227,
-  "CreatedDate": "2016-11-06T11:06:42.113477+01:00",
-  "UpdatedDate": "2020-10-21T11:06:42.113477+02:00",
+  "Saledate": "1999-04-01T13:38:17.5930592+02:00",
+  "Amount": 11645.944,
+  "SaleId": 52,
+  "Earning": 28676.1,
+  "EarningPercent": 7308.4879999999994,
+  "Heading": "inventore",
+  "Number": "909063",
+  "Probability": 588,
+  "CreatedDate": "2001-02-13T13:38:17.5930592+01:00",
+  "UpdatedDate": "2006-08-26T13:38:17.5930592+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 885,
+  "ActiveLinks": 991,
   "Links": [
     {
-      "EntityName": "Funk LLC",
-      "Id": 391,
-      "Description": "Sharable 5th generation instruction set",
-      "ExtraInfo": "ea",
-      "LinkId": 686
+      "EntityName": "Smitham-Ebert",
+      "Id": 827,
+      "Description": "Multi-lateral optimal approach",
+      "ExtraInfo": "laborum",
+      "LinkId": 288
     },
     {
-      "EntityName": "Funk LLC",
-      "Id": 391,
-      "Description": "Sharable 5th generation instruction set",
-      "ExtraInfo": "ea",
-      "LinkId": 686
+      "EntityName": "Smitham-Ebert",
+      "Id": 827,
+      "Description": "Multi-lateral optimal approach",
+      "ExtraInfo": "laborum",
+      "LinkId": 288
     }
   ],
-  "NextDueDate": "2000-09-12T11:06:42.113477+02:00",
-  "Postit": "expedita",
+  "NextDueDate": "2014-04-28T13:38:17.5930592+02:00",
+  "Postit": "eveniet",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-06-01T11:06:42.113477+02:00",
+  "ReopenDate": "2006-07-03T13:38:17.5930592+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hansen LLC",
-      "Comment": "suscipit",
-      "StakeholderRoleId": 353,
-      "CountryId": 200,
-      "PersonId": 351,
-      "EmailDescription": "john.moore@connelly.name",
-      "EmailId": 360,
-      "EmailAddress": "alisa.schmidt@kubruecker.uk",
-      "PhoneId": 105,
-      "ContactName": "Bauch, Leuschke and Hickle",
-      "ContactId": 945,
-      "SaleId": 140,
-      "Mrmrs": "id",
-      "Firstname": "Herminio",
-      "MiddleName": "Heaney, Prohaska and Lakin",
-      "Lastname": "White",
-      "SaleStakeholderId": 993,
-      "Rank": 143,
-      "Phone": "796-490-8868 x981"
+      "StakeholderRoleName": "Rodriguez, Blanda and Bogisich",
+      "Comment": "cupiditate",
+      "StakeholderRoleId": 480,
+      "CountryId": 862,
+      "PersonId": 855,
+      "EmailDescription": "jevon@heidenreich.co.uk",
+      "EmailId": 420,
+      "EmailAddress": "augusta_okuneva@friesen.info",
+      "PhoneId": 614,
+      "ContactName": "Nikolaus-Abbott",
+      "ContactId": 645,
+      "SaleId": 192,
+      "Mrmrs": "quibusdam",
+      "Firstname": "Victor",
+      "MiddleName": "Feest-Lindgren",
+      "Lastname": "Wiza",
+      "SaleStakeholderId": 546,
+      "Rank": 497,
+      "Phone": "(773)915-5346"
     }
   ],
-  "ActiveErpLinks": 318,
+  "ActiveErpLinks": 295,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Ahmad O'Hara"
+    "SuperOffice:1": "Jed Langosh",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "adipisci"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "animi"
   },
   "CustomFields": {
-    "CustomFields1": "quidem",
-    "CustomFields2": "earum"
+    "CustomFields1": "aliquid",
+    "CustomFields2": "sequi"
   },
-  "PublishEventDate": "1998-11-06T11:06:42.113477+01:00",
-  "PublishTo": "2016-09-12T11:06:42.113477+02:00",
-  "PublishFrom": "2015-02-11T11:06:42.113477+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1998-09-02T13:38:17.5930592+02:00",
+  "PublishTo": "2006-10-31T13:38:17.5930592+01:00",
+  "PublishFrom": "2001-05-14T13:38:17.5930592+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 983,
+      "VisibleId": 353,
       "Visibility": "All",
-      "DisplayValue": "maxime"
+      "DisplayValue": "rerum"
     },
     {
-      "VisibleId": 983,
+      "VisibleId": 353,
       "Visibility": "All",
-      "DisplayValue": "maxime"
+      "DisplayValue": "rerum"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "vel",
+  "SaleText": "officia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-05-25T11:06:42.1291007+02:00",
-  "Amount": 23689.906,
-  "SaleId": 900,
-  "Earning": 1723.7,
-  "EarningPercent": 18252.416,
-  "Heading": "qui",
-  "Number": "587712",
-  "Probability": 304,
-  "CreatedDate": "2009-05-05T11:06:42.1291007+02:00",
-  "UpdatedDate": "2010-10-01T11:06:42.1291007+02:00",
+  "Saledate": "2017-05-26T13:38:17.608684+02:00",
+  "Amount": 9270.372,
+  "SaleId": 910,
+  "Earning": 26570.052,
+  "EarningPercent": 25062.597999999998,
+  "Heading": "similique",
+  "Number": "249504",
+  "Probability": 192,
+  "CreatedDate": "2010-08-18T13:38:17.608684+02:00",
+  "UpdatedDate": "2018-05-11T13:38:17.608684+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 186,
+  "ActiveLinks": 471,
   "Links": [
     {
-      "EntityName": "Graham-DuBuque",
-      "Id": 137,
-      "Description": "Upgradable multimedia contingency",
-      "ExtraInfo": "ut",
-      "LinkId": 481,
+      "EntityName": "Mayert, Fahey and O'Keefe",
+      "Id": 60,
+      "Description": "Configurable high-level interface",
+      "ExtraInfo": "omnis",
+      "LinkId": 268,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 528
         }
       }
     }
   ],
-  "NextDueDate": "2000-03-28T11:06:42.1291007+02:00",
-  "Postit": "aut",
+  "NextDueDate": "2018-11-06T13:38:17.608684+01:00",
+  "Postit": "eligendi",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-04-01T11:06:42.1291007+02:00",
+  "ReopenDate": "2005-11-01T13:38:17.608684+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Stark LLC",
-      "Comment": "ab",
-      "StakeholderRoleId": 420,
-      "CountryId": 411,
-      "PersonId": 531,
-      "EmailDescription": "tiara.kulas@farrellwisoky.biz",
-      "EmailId": 576,
-      "EmailAddress": "isac@veum.us",
-      "PhoneId": 779,
-      "ContactName": "Huel, McKenzie and Feil",
-      "ContactId": 337,
-      "SaleId": 489,
-      "Mrmrs": "reprehenderit",
-      "Firstname": "Kathryn",
-      "MiddleName": "Stroman Group",
-      "Lastname": "Langosh",
-      "SaleStakeholderId": 966,
-      "Rank": 657,
-      "Phone": "657.067.5254 x485",
+      "StakeholderRoleName": "Pagac Inc and Sons",
+      "Comment": "odio",
+      "StakeholderRoleId": 53,
+      "CountryId": 839,
+      "PersonId": 697,
+      "EmailDescription": "tatyana@doyle.co.uk",
+      "EmailId": 375,
+      "EmailAddress": "patience_bogisich@jenkins.ca",
+      "PhoneId": 391,
+      "ContactName": "Jaskolski Group",
+      "ContactId": 839,
+      "SaleId": 564,
+      "Mrmrs": "perspiciatis",
+      "Firstname": "Asha",
+      "MiddleName": "Terry Inc and Sons",
+      "Lastname": "O'Kon",
+      "SaleStakeholderId": 46,
+      "Rank": 322,
+      "Phone": "128-524-4418",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 644
         }
       }
     }
   ],
-  "ActiveErpLinks": 617,
+  "ActiveErpLinks": 442,
   "UserDefinedFields": {
-    "SuperOffice:1": "Franco Lorna Stanton III",
-    "SuperOffice:2": "1922194428"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "106613811"
   },
   "ExtraFields": {
-    "ExtraFields1": "fuga",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
+    "CustomFields1": "neque",
     "CustomFields2": "qui"
   },
-  "PublishEventDate": "1997-02-15T11:06:42.1291007+01:00",
-  "PublishTo": "2001-11-06T11:06:42.1291007+01:00",
-  "PublishFrom": "2015-02-11T11:06:42.1291007+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2001-05-06T13:38:17.608684+02:00",
+  "PublishTo": "2003-07-28T13:38:17.608684+02:00",
+  "PublishFrom": "2001-12-26T13:38:17.608684+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 794,
+      "VisibleId": 707,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 929
+          "FieldType": "System.Int32",
+          "FieldLength": 602
         }
       }
     },
     {
-      "VisibleId": 794,
+      "VisibleId": 707,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 929
+          "FieldType": "System.Int32",
+          "FieldLength": 602
         }
       }
     }
@@ -408,7 +408,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 614
     }
   },
   "_Links": {

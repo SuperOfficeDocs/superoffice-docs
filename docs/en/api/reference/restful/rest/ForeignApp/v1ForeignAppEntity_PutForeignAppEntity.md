@@ -96,23 +96,23 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 624,
-  "Name": "Little, Fadel and Hackett",
-  "CreatedDate": "2006-07-15T11:06:41.8947242+02:00",
-  "UpdatedDate": "2017-08-08T11:06:41.8947242+02:00",
+  "ForeignAppId": 385,
+  "Name": "Gerhold LLC",
+  "CreatedDate": "2006-01-17T13:38:17.4368262+01:00",
+  "UpdatedDate": "2021-07-10T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 96,
-      "Name": "Schulist Inc and Sons",
-      "CreatedDate": "2017-09-02T11:06:41.8947242+02:00",
-      "UpdatedDate": "2008-10-07T11:06:41.8947242+02:00",
-      "AssociateFullName": "Patricia Cronin",
-      "CreatedBy": "iusto",
-      "UpdatedBy": "voluptatem",
-      "DeviceIdentifier": "dolore",
-      "ForeignAppId": 605
+      "ForeignDeviceId": 873,
+      "Name": "Hartmann-Heller",
+      "CreatedDate": "2005-07-17T13:38:17.4368262+02:00",
+      "UpdatedDate": "2013-12-24T13:38:17.4368262+01:00",
+      "AssociateFullName": "Bernardo Shanel Kuvalis V",
+      "CreatedBy": "rem",
+      "UpdatedBy": "vitae",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 187
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 800,
-  "Name": "Lynch LLC",
-  "CreatedDate": "2010-08-02T11:06:41.8947242+02:00",
-  "UpdatedDate": "2008-11-03T11:06:41.8947242+01:00",
+  "ForeignAppId": 747,
+  "Name": "Kris LLC",
+  "CreatedDate": "2014-09-23T13:38:17.4368262+02:00",
+  "UpdatedDate": "2020-09-29T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 955,
-      "Name": "Fay Group",
-      "CreatedDate": "2019-02-14T11:06:41.8947242+01:00",
-      "UpdatedDate": "2001-11-03T11:06:41.8947242+01:00",
-      "AssociateFullName": "Malachi Hoppe",
-      "CreatedBy": "molestiae",
-      "UpdatedBy": "sint",
-      "DeviceIdentifier": "quam",
-      "ForeignAppId": 221,
+      "ForeignDeviceId": 452,
+      "Name": "Lehner, Dooley and Dare",
+      "CreatedDate": "2013-04-24T13:38:17.4368262+02:00",
+      "UpdatedDate": "2005-08-29T13:38:17.4368262+02:00",
+      "AssociateFullName": "Lenora Willms V",
+      "CreatedBy": "enim",
+      "UpdatedBy": "voluptas",
+      "DeviceIdentifier": "expedita",
+      "ForeignAppId": 437,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 274
+          "FieldLength": 382
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldLength": 688
     }
   },
   "_Links": {

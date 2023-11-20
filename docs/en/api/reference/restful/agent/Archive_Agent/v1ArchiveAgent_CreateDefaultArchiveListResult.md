@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 445,
+  "RowCount": 178,
   "Rows": [
     {
-      "EntityName": "Corwin Inc and Sons",
-      "PrimaryKey": 650,
+      "EntityName": "Koss, Yundt and Sporer",
+      "PrimaryKey": 841,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "tenetur",
-          "TooltipHint": "temporibus",
-          "LinkHint": "illo"
+          "DisplayValue": "debitis",
+          "TooltipHint": "aperiam",
+          "LinkHint": "culpa"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "praesentium",
+      "LinkHint": "quis",
+      "StyleHint": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldType": "System.String",
+          "FieldLength": 199
         }
       }
     }
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 551
+      "FieldLength": 452
     }
   }
 }

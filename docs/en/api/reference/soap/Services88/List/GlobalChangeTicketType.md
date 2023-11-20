@@ -1,27 +1,27 @@
 ---
-title: Services88.WorkflowAgent.DeleteWorkflowStepOption SOAP
+title: Services88.ListAgent.GlobalChangeTicketType SOAP
 generated: true
-uid: Services88-Workflow-DeleteWorkflowStepOption
+uid: Services88-List-GlobalChangeTicketType
 ---
 
-# Services88 Workflow DeleteWorkflowStepOption
+# Services88 List GlobalChangeTicketType
 
-SOAP request and response examples **Remote/Services88/Workflow.svc**
-Implemented by the <see cref="M:SuperOffice.Services88.IWorkflowAgent.DeleteWorkflowStepOption">SuperOffice.Services88.IWorkflowAgent.DeleteWorkflowStepOption</see> method.
+SOAP request and response examples **Remote/Services88/List.svc**
+Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GlobalChangeTicketType">SuperOffice.Services88.IListAgent.GlobalChangeTicketType</see> method.
 
-## DeleteWorkflowStepOption
-
-
+## GlobalChangeTicketType
 
 
 
-[WSDL file for Services88/Workflow](../Services88-Workflow.md)
+
+
+[WSDL file for Services88/List](../Services88-List.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 
-## DeleteWorkflowStepOption Request
+## GlobalChangeTicketType Request
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -32,15 +32,16 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
  xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
- xmlns:Workflow="http://www.superoffice.net/ws/crm/NetServer/Services88">
-  <Workflow:ApplicationToken>1234567-1234-9876</Workflow:ApplicationToken>
-  <Workflow:Credentials>
-    <Workflow:Ticket>7T:1234abcxyzExample==</Workflow:Ticket>
-  </Workflow:Credentials>
+ xmlns:List="http://www.superoffice.net/ws/crm/NetServer/Services88">
+  <List:ApplicationToken>1234567-1234-9876</List:ApplicationToken>
+  <List:Credentials>
+    <List:Ticket>7T:1234abcxyzExample==</List:Ticket>
+  </List:Credentials>
  <SOAP-ENV:Body>
-   <Workflow:DeleteWorkflowStepOption>
-    <Workflow:WorkflowStepOptionId xsi:type="xsd:int">0</Workflow:WorkflowStepOptionId>
-   </Workflow:DeleteWorkflowStepOption>
+   <List:GlobalChangeTicketType>
+    <List:FromTicketTypeId xsi:type="xsd:int">0</List:FromTicketTypeId>
+    <List:ToTicketTypeId xsi:type="xsd:int">0</List:ToTicketTypeId>
+   </List:GlobalChangeTicketType>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
@@ -48,7 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 ```
 
 
-## DeleteWorkflowStepOption Response
+## GlobalChangeTicketType Response
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -59,10 +60,10 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
  xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
- xmlns:Workflow="http://www.superoffice.net/ws/crm/NetServer/Services88">
+ xmlns:List="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
-  <Workflow:DeleteWorkflowStepOptionResponse>
-  </Workflow:DeleteWorkflowStepOptionResponse>
+  <List:GlobalChangeTicketTypeResponse>
+  </List:GlobalChangeTicketTypeResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 

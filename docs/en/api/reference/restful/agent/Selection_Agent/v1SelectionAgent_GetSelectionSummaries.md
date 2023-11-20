@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    482,
-    627
+    997,
+    140
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 640,
-    "Name": "Kutch, Beier and Funk",
-    "TargetTable": "dolorem",
-    "Registered": "2007-04-09T11:06:35.4114455+02:00",
-    "ProviderName": "Nienow, Hilpert and Crooks"
+    "SelectionId": 443,
+    "Name": "Wunsch, Kunde and Ritchie",
+    "TargetTable": "nihil",
+    "Registered": "2008-03-13T13:38:14.1553188+01:00",
+    "ProviderName": "Lynch Inc and Sons"
   },
   {
-    "SelectionId": 640,
-    "Name": "Kutch, Beier and Funk",
-    "TargetTable": "dolorem",
-    "Registered": "2007-04-09T11:06:35.4114455+02:00",
-    "ProviderName": "Nienow, Hilpert and Crooks"
+    "SelectionId": 443,
+    "Name": "Wunsch, Kunde and Ritchie",
+    "TargetTable": "nihil",
+    "Registered": "2008-03-13T13:38:14.1553188+01:00",
+    "ProviderName": "Lynch Inc and Sons"
   }
 ]
 ```

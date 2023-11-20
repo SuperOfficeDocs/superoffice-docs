@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "Hintz LLC",
-    "ToolTip": "Asperiores dolorem non aut.",
+    "Id": 597,
+    "Name": "Mueller-Sipes",
+    "ToolTip": "Vel et fuga iusto asperiores aliquam.",
     "Deleted": false,
-    "Rank": 395,
-    "Type": "sint",
-    "ColorBlock": 190,
-    "IconHint": "at",
-    "Selected": true,
-    "LastChanged": "2018-10-22T11:06:42.0978516+02:00",
+    "Rank": 990,
+    "Type": "aut",
+    "ColorBlock": 40,
+    "IconHint": "mollitia",
+    "Selected": false,
+    "LastChanged": "1998-02-25T13:38:17.5774332+01:00",
     "ChildItems": [
       {
-        "Id": 151,
-        "Name": "Kautzer Group",
-        "ToolTip": "Corrupti magni architecto consequatur aut cumque ducimus quidem.",
+        "Id": 635,
+        "Name": "Davis-Cartwright",
+        "ToolTip": "Consequuntur eos id ut.",
         "Deleted": false,
-        "Rank": 200,
-        "Type": "rem",
-        "ColorBlock": 526,
-        "IconHint": "est",
+        "Rank": 267,
+        "Type": "voluptatem",
+        "ColorBlock": 374,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "2009-05-22T11:06:42.0978516+02:00",
+        "LastChanged": "2019-06-06T13:38:17.5774332+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "possimus",
+        "ExtraInfo": "aut",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Daniela Farrell",
+        "FullName": "Mrs. Laury Kelton Gaylord MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 376
+            "FieldLength": 997
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "rem",
-    "Hidden": true,
-    "FullName": "Helen Stokes",
+    "ExtraInfo": "velit",
+    "StyleHint": "nobis",
+    "Hidden": false,
+    "FullName": "Ms. Sibyl Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldType": "System.Int32",
+        "FieldLength": 346
       }
     }
   }

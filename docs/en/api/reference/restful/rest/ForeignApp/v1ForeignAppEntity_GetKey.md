@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 02 Oct 2005 11:06:41 G10T
+Last-Modified: Thu, 03 Oct 2019 13:38:17 G10T
 
 {
-  "Key": "eaque",
-  "Value": "ullam",
-  "RecordId": 247,
-  "CreatedDate": "2004-06-20T11:06:41.8947242+02:00",
-  "UpdatedDate": "2005-10-02T11:06:41.8947242+02:00",
-  "UpdatedBy": "itaque",
-  "CreatedBy": "et",
-  "TableName": "Hansen LLC",
+  "Key": "dignissimos",
+  "Value": "necessitatibus",
+  "RecordId": 502,
+  "CreatedDate": "1999-12-27T13:38:17.4524494+01:00",
+  "UpdatedDate": "2019-10-03T13:38:17.4524494+02:00",
+  "UpdatedBy": "aperiam",
+  "CreatedBy": "amet",
+  "TableName": "Ankunding Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldType": "System.String",
+      "FieldLength": 555
     }
   }
 }

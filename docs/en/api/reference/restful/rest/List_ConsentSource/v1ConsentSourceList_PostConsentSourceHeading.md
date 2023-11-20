@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 440,
-  "Name": "Mitchell, Ullrich and Keeling",
-  "Tooltip": "ducimus",
-  "Deleted": true,
-  "Rank": 706,
-  "UdListDefinitionId": 635
+  "HeadingId": 263,
+  "Name": "Bogan-Jones",
+  "Tooltip": "necessitatibus",
+  "Deleted": false,
+  "Rank": 561,
+  "UdListDefinitionId": 819
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 389,
-  "Name": "Bernier Group",
+  "HeadingId": 788,
+  "Name": "Murphy, Boyer and Schroeder",
   "Tooltip": "et",
   "Deleted": false,
-  "Rank": 413,
-  "UdListDefinitionId": 346,
+  "Rank": 84,
+  "UdListDefinitionId": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 792
     }
   }
 }

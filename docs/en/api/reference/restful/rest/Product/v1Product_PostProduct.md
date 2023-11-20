@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 810,
-  "ERPProductKey": "error",
-  "ERPPriceListKey": "earum",
-  "Name": "Upton-Jenkins",
-  "Description": "Innovative coherent budgetary management",
-  "Code": "et",
-  "PriceUnit": "incidunt",
-  "QuantityUnit": "ut",
+  "ProductId": 475,
+  "ERPProductKey": "id",
+  "ERPPriceListKey": "et",
+  "Name": "Bernier Inc and Sons",
+  "Description": "Diverse discrete conglomeration",
+  "Code": "mollitia",
+  "PriceUnit": "aut",
+  "QuantityUnit": "repellendus",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 4992.4619999999995,
-  "ItemNumber": "1420402",
+  "SubscriptionUnit": "delectus",
+  "DefaultSubscriptionQuantity": 11210.318,
+  "ItemNumber": "910564",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quo",
-  "ProductTypeKey": "vero",
-  "VAT": 9054.126,
-  "VATInfo": "saepe",
-  "UnitCost": 2817.466,
-  "UnitMinimumPrice": 15594.784,
-  "UnitListPrice": 7274.014,
-  "InAssortment": true,
-  "Supplier": "aut",
-  "SupplierCode": "temporibus",
-  "Rights": "labore",
+  "ProductFamilyKey": "necessitatibus",
+  "ProductTypeKey": "voluptatum",
+  "VAT": 1338.2179999999998,
+  "VATInfo": "quia",
+  "UnitCost": 1037.354,
+  "UnitMinimumPrice": 21539.982,
+  "UnitListPrice": 13143.996,
+  "InAssortment": false,
+  "Supplier": "nostrum",
+  "SupplierCode": "quia",
+  "Rights": "voluptatem",
   "Rule": "eos",
   "ExtraInfo": [
     {
-      "Name": "Schmitt-Shanahan",
-      "Value": "voluptatum",
+      "Name": "Gerlach, Block and Orn",
+      "Value": "commodi",
       "Type": "Image"
     },
     {
-      "Name": "Schmitt-Shanahan",
-      "Value": "voluptatum",
+      "Name": "Gerlach, Block and Orn",
+      "Value": "commodi",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "neque",
-  "ExtraField1": "deserunt",
-  "ExtraField2": "distinctio",
-  "ExtraField3": "recusandae",
-  "ExtraField4": "voluptatibus",
-  "ExtraField5": "consequatur",
-  "InStock": 2012.028
+  "RawExtraInfo": "libero",
+  "ExtraField1": "quo",
+  "ExtraField2": "iste",
+  "ExtraField3": "aliquid",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "sit",
+  "InStock": 22097.834
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 329,
-  "ERPProductKey": "necessitatibus",
-  "ERPPriceListKey": "nostrum",
-  "Name": "Ullrich, Wintheiser and Nikolaus",
-  "Description": "Inverse assymetric encryption",
-  "Code": "magnam",
-  "PriceUnit": "fugit",
-  "QuantityUnit": "autem",
+  "ProductId": 464,
+  "ERPProductKey": "voluptates",
+  "ERPPriceListKey": "occaecati",
+  "Name": "Hudson, Walker and Wolff",
+  "Description": "Synergistic 4th generation conglomeration",
+  "Code": "possimus",
+  "PriceUnit": "corporis",
+  "QuantityUnit": "officiis",
   "IsSubscription": false,
-  "SubscriptionUnit": "neque",
-  "DefaultSubscriptionQuantity": 150.432,
-  "ItemNumber": "1011965",
+  "SubscriptionUnit": "quos",
+  "DefaultSubscriptionQuantity": 3108.928,
+  "ItemNumber": "1626559",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quo",
-  "ProductTypeKey": "et",
-  "VAT": 5663.138,
-  "VATInfo": "id",
-  "UnitCost": 26049.808,
-  "UnitMinimumPrice": 21530.579999999998,
-  "UnitListPrice": 1717.432,
+  "ProductFamilyKey": "sint",
+  "ProductTypeKey": "quo",
+  "VAT": 14529.224,
+  "VATInfo": "sed",
+  "UnitCost": 8132.73,
+  "UnitMinimumPrice": 11363.884,
+  "UnitListPrice": 5813.57,
   "InAssortment": true,
-  "Supplier": "voluptatem",
-  "SupplierCode": "sed",
-  "Rights": "et",
-  "Rule": "molestiae",
+  "Supplier": "ex",
+  "SupplierCode": "adipisci",
+  "Rights": "laborum",
+  "Rule": "tenetur",
   "ExtraInfo": [
     {
-      "Name": "Daniel-Bashirian",
-      "Value": "id",
+      "Name": "Runolfsson-Legros",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 394
         }
       }
     },
     {
-      "Name": "Daniel-Bashirian",
-      "Value": "id",
+      "Name": "Runolfsson-Legros",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 394
         }
       }
     }
   ],
-  "RawExtraInfo": "repellat",
-  "ExtraField1": "laborum",
-  "ExtraField2": "error",
-  "ExtraField3": "officiis",
-  "ExtraField4": "autem",
-  "ExtraField5": "voluptatem",
-  "InStock": 22182.451999999997,
+  "RawExtraInfo": "sit",
+  "ExtraField1": "placeat",
+  "ExtraField2": "corrupti",
+  "ExtraField3": "eveniet",
+  "ExtraField4": "occaecati",
+  "ExtraField5": "laborum",
+  "InStock": 9452.144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 95
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

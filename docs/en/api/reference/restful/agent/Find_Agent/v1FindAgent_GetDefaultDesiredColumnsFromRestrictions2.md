@@ -173,8 +173,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wisozk, Bailey and Gulgowski",
-  "Restrictions": "magni"
+  "ProviderName": "Lebsack Inc and Sons",
+  "Restrictions": "dolor"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Dietrich, Maggio and Schaefer",
-    "DisplayTooltip": "debitis",
-    "DisplayType": "vitae",
-    "CanOrderBy": true,
-    "Name": "Beahan, Schamberger and Kirlin",
-    "CanRestrictBy": true,
-    "RestrictionType": "dolorem",
-    "RestrictionListName": "Lind, Reilly and Bruen",
-    "IsVisible": false,
-    "ExtraInfo": "laboriosam",
-    "Width": "qui",
-    "IconHint": "sunt",
-    "HeadingIconHint": "possimus"
+    "DisplayName": "Schinner-Dickens",
+    "DisplayTooltip": "et",
+    "DisplayType": "rerum",
+    "CanOrderBy": false,
+    "Name": "Pagac Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "non",
+    "RestrictionListName": "Batz-Bailey",
+    "IsVisible": true,
+    "ExtraInfo": "atque",
+    "Width": "quia",
+    "IconHint": "eum",
+    "HeadingIconHint": "minima"
   }
 ]
 ```

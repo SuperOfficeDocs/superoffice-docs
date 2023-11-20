@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Name": "Nienow-Toy",
-    "ToolTip": "Ad provident ipsa distinctio.",
+    "Id": 675,
+    "Name": "Lowe Group",
+    "ToolTip": "Repellat debitis et et et delectus sunt.",
     "Deleted": false,
-    "Rank": 102,
-    "Type": "quos",
-    "ColorBlock": 761,
-    "IconHint": "perspiciatis",
-    "Selected": false,
-    "LastChanged": "2007-09-13T11:06:42.7096943+02:00",
+    "Rank": 568,
+    "Type": "id",
+    "ColorBlock": 452,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "2006-09-10T13:38:17.9525505+02:00",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Grady-Fritsch",
-        "ToolTip": "Provident vitae dolorem molestiae dolores praesentium illo consequatur.",
-        "Deleted": false,
-        "Rank": 844,
-        "Type": "vel",
-        "ColorBlock": 2,
-        "IconHint": "ea",
+        "Id": 502,
+        "Name": "Ortiz Inc and Sons",
+        "ToolTip": "Non alias voluptas accusamus possimus et nam ea.",
+        "Deleted": true,
+        "Rank": 200,
+        "Type": "voluptatem",
+        "ColorBlock": 916,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2012-08-13T11:06:42.7096943+02:00",
+        "LastChanged": "2001-10-25T13:38:17.9525505+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Jadyn Botsford"
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Gilda Balistreri"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "praesentium",
-    "Hidden": false,
-    "FullName": "Elsa Beier"
+    "ExtraInfo": "rerum",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Deontae Kub IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Kreiger, Stehr and Jenkins",
-    "ToolTip": "Ut est laborum perspiciatis.",
-    "Deleted": false,
-    "Rank": 35,
-    "Type": "iste",
-    "ColorBlock": 216,
-    "IconHint": "eaque",
-    "Selected": true,
-    "LastChanged": "2003-12-21T11:06:42.7096943+01:00",
+    "Id": 689,
+    "Name": "Mante Inc and Sons",
+    "ToolTip": "Placeat voluptate.",
+    "Deleted": true,
+    "Rank": 657,
+    "Type": "necessitatibus",
+    "ColorBlock": 533,
+    "IconHint": "voluptatibus",
+    "Selected": false,
+    "LastChanged": "2011-12-31T13:38:17.9837979+01:00",
     "ChildItems": [
       {
-        "Id": 753,
-        "Name": "Huels-Bernier",
-        "ToolTip": "Aut dolorem dolores.",
-        "Deleted": true,
-        "Rank": 484,
-        "Type": "eveniet",
-        "ColorBlock": 401,
-        "IconHint": "nesciunt",
+        "Id": 276,
+        "Name": "Heaney LLC",
+        "ToolTip": "Sed laborum.",
+        "Deleted": false,
+        "Rank": 900,
+        "Type": "rerum",
+        "ColorBlock": 638,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2006-10-12T11:06:42.7096943+02:00",
+        "LastChanged": "2019-08-15T13:38:17.9837979+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "sunt",
+        "ExtraInfo": "earum",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Gisselle Schumm",
+        "FullName": "Nola Feeney I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 929
+            "FieldType": "System.String",
+            "FieldLength": 639
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "vitae",
-    "Hidden": false,
-    "FullName": "Bobbie Lynch",
+    "ExtraInfo": "ut",
+    "StyleHint": "laudantium",
+    "Hidden": true,
+    "FullName": "Arthur Ledner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldLength": 440
       }
     }
   }

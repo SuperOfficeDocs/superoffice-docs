@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Value": "non",
-    "Tooltip": "provident",
+    "Id": 308,
+    "Value": "nesciunt",
+    "Tooltip": "reiciendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldType": "System.Int32",
+        "FieldLength": 252
       }
     }
   },
   {
-    "Id": 361,
-    "Value": "non",
-    "Tooltip": "provident",
+    "Id": 308,
+    "Value": "nesciunt",
+    "Tooltip": "reiciendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldType": "System.Int32",
+        "FieldLength": 252
       }
     }
   }

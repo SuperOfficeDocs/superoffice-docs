@@ -102,13 +102,13 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 600,
-  "StartTime": "2021-11-20T11:06:34.3008382+01:00",
-  "EndTime": "2023-04-05T11:06:34.3008382+02:00",
-  "Count": 717,
+  "ContactId": 962,
+  "StartTime": "2021-07-13T13:38:13.4208858+02:00",
+  "EndTime": "1997-08-26T13:38:13.4208858+02:00",
+  "Count": 172,
   "DocumentTemplateIds": [
-    430,
-    848
+    696,
+    10
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 575,
-    "Attention": "fugiat",
-    "Header": "et",
-    "Name": "Kerluke Inc and Sons",
-    "OurRef": "sint",
-    "YourRef": "sunt",
-    "Description": "Proactive 3rd generation database",
-    "DocumentTemplate": "itaque",
-    "IsPublished": true,
-    "PersonId": 186,
-    "PersonFullName": "Dr. Kenyatta Mosciski II",
-    "AssociateFullName": "Ernest Lemke",
-    "ContactId": 370,
-    "ContactName": "Steuber, Stehr and Towne",
-    "ProjectId": 121,
-    "ProjectName": "Homenick, Streich and Harvey",
-    "AssociateId": 89,
-    "Snum": 783,
-    "SaleId": 127,
-    "SaleName": "Hauck, Howe and Dickinson",
+    "DocumentId": 936,
+    "Attention": "est",
+    "Header": "vitae",
+    "Name": "Boyer Group",
+    "OurRef": "similique",
+    "YourRef": "molestiae",
+    "Description": "Grass-roots 24/7 database",
+    "DocumentTemplate": "consequatur",
+    "IsPublished": false,
+    "PersonId": 406,
+    "PersonFullName": "Miss Ford Harvey",
+    "AssociateFullName": "Zackary Mitchell",
+    "ContactId": 490,
+    "ContactName": "Bernhard, Barrows and Toy",
+    "ProjectId": 480,
+    "ProjectName": "Funk, Heidenreich and Wisoky",
+    "AssociateId": 467,
+    "Snum": 881,
+    "SaleId": 197,
+    "SaleName": "Heidenreich-Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 673
+        "FieldLength": 512
       }
     }
   }

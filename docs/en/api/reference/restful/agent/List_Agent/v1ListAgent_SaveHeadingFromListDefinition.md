@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 700,
+  "Id": 659,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 598,
-  "Name": "Lebsack Group",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 981,
-  "UdListDefinitionId": 380,
+  "HeadingId": 120,
+  "Name": "Bode, Schinner and Torphy",
+  "Tooltip": "veniam",
+  "Deleted": true,
+  "Rank": 221,
+  "UdListDefinitionId": 641,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldType": "System.String",
+      "FieldLength": 133
     }
   }
 }

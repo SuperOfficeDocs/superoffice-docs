@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "impedit",
-  "ProviderName": "Crist-Hessel",
-  "StorageKey": "iure",
+  "StorageType": "asperiores",
+  "ProviderName": "Kertzmann Inc and Sons",
+  "StorageKey": "quo",
   "StaticColumns": [
-    "id",
-    "debitis"
+    "voluptates",
+    "cumque"
   ],
-  "Context": "vero"
+  "Context": "non"
 }
 ```
 
@@ -106,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Spencer Inc and Sons",
-      "Operator": "ducimus",
+      "Name": "Frami Group",
+      "Operator": "qui",
       "Values": [
-        "beatae",
-        "officia"
+        "omnis",
+        "est"
       ],
       "DisplayValues": [
-        "deserunt",
-        "iusto"
+        "fuga",
+        "beatae"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 190,
+      "InterParenthesis": 607,
       "InterOperator": "And",
-      "UniqueHash": 609
+      "UniqueHash": 360
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Ritchie-Murazik",
-      "DisplayTooltip": "distinctio",
-      "DisplayType": "molestias",
+      "DisplayName": "Wunsch LLC",
+      "DisplayTooltip": "corporis",
+      "DisplayType": "illo",
       "CanOrderBy": false,
-      "Name": "Waelchi-Conroy",
-      "CanRestrictBy": true,
-      "RestrictionType": "est",
-      "RestrictionListName": "Schuster-Price",
-      "IsVisible": false,
-      "ExtraInfo": "cumque",
-      "Width": "et",
-      "IconHint": "ex",
-      "HeadingIconHint": "quis"
+      "Name": "Ritchie Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "rerum",
+      "RestrictionListName": "Monahan-Powlowski",
+      "IsVisible": true,
+      "ExtraInfo": "sit",
+      "Width": "porro",
+      "IconHint": "eaque",
+      "HeadingIconHint": "doloribus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Gaylord Group",
-      "PrimaryKey": 694,
+      "EntityName": "Koelpin Inc and Sons",
+      "PrimaryKey": 282,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quas",
-          "TooltipHint": "at",
-          "LinkHint": "et"
+          "DisplayValue": "consequatur",
+          "TooltipHint": "qui",
+          "LinkHint": "nihil"
         }
       },
       "LinkHint": "ipsam",
-      "StyleHint": "a",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 944
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hilpert LLC",
-      "Description": "Self-enabling actuating process improvement",
-      "Rank": 956,
+      "Name": "Pagac Inc and Sons",
+      "Description": "Ergonomic user-facing challenge",
+      "Rank": 170,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hilpert LLC",
-      "Description": "Self-enabling actuating process improvement",
-      "Rank": 956,
+      "Name": "Pagac Inc and Sons",
+      "Description": "Ergonomic user-facing challenge",
+      "Rank": 170,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldLength": 282
     }
   }
 }

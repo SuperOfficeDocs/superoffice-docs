@@ -168,11 +168,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "deleniti",
-  "ProviderName": "Bode Inc and Sons",
-  "DesiredColumns": "eum",
-  "PageSize": 472,
-  "PageNumber": 947
+  "Restrictions": "laudantium",
+  "ProviderName": "Kiehn-Kuhlman",
+  "DesiredColumns": "et",
+  "PageSize": 512,
+  "PageNumber": 929
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Weber, Koelpin and Robel",
-      "DisplayTooltip": "esse",
-      "DisplayType": "est",
+      "DisplayName": "Gleason Inc and Sons",
+      "DisplayTooltip": "a",
+      "DisplayType": "eos",
       "CanOrderBy": true,
-      "Name": "Hyatt Group",
+      "Name": "Wisoky, Hane and Mayert",
       "CanRestrictBy": true,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Wehner Group",
-      "IsVisible": true,
-      "ExtraInfo": "voluptatem",
-      "Width": "id",
-      "IconHint": "eum",
-      "HeadingIconHint": "deserunt"
+      "RestrictionType": "nihil",
+      "RestrictionListName": "Runte, Mills and Kunde",
+      "IsVisible": false,
+      "ExtraInfo": "odit",
+      "Width": "aut",
+      "IconHint": "tempore",
+      "HeadingIconHint": "aliquid"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Pollich LLC",
-      "PrimaryKey": 670,
+      "EntityName": "Jacobson, Hirthe and Bednar",
+      "PrimaryKey": 528,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptates",
-          "TooltipHint": "beatae",
-          "LinkHint": "est"
+          "DisplayValue": "et",
+          "TooltipHint": "nostrum",
+          "LinkHint": "sunt"
         }
       },
-      "LinkHint": "dolorum",
-      "StyleHint": "incidunt",
+      "LinkHint": "et",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldLength": 385
         }
       }
     }
   ],
-  "RowCount": 342,
+  "RowCount": 675,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 659
+      "FieldType": "System.Int32",
+      "FieldLength": 919
     }
   }
 }

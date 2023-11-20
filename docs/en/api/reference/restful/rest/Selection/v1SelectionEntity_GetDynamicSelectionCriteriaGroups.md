@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Blanda Group",
-    "Description": "Right-sized client-server extranet",
-    "Rank": 583,
+    "Name": "Miller-Kihn",
+    "Description": "Function-based intangible support",
+    "Rank": 90,
     "Restrictions": [
       {
-        "Name": "DuBuque-Watsica",
-        "Operator": "blanditiis",
+        "Name": "Wilkinson Inc and Sons",
+        "Operator": "quo",
         "Values": [
-          "voluptates",
-          "quia"
+          "facere",
+          "ut"
         ],
         "DisplayValues": [
-          "laudantium",
-          "magnam"
+          "voluptate",
+          "dolor"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 418,
+        "InterParenthesis": 944,
         "InterOperator": "And",
-        "UniqueHash": 837
+        "UniqueHash": 983
       }
     ]
   },
   {
-    "Name": "Blanda Group",
-    "Description": "Right-sized client-server extranet",
-    "Rank": 583,
+    "Name": "Miller-Kihn",
+    "Description": "Function-based intangible support",
+    "Rank": 90,
     "Restrictions": [
       {
-        "Name": "DuBuque-Watsica",
-        "Operator": "blanditiis",
+        "Name": "Wilkinson Inc and Sons",
+        "Operator": "quo",
         "Values": [
-          "voluptates",
-          "quia"
+          "facere",
+          "ut"
         ],
         "DisplayValues": [
-          "laudantium",
-          "magnam"
+          "voluptate",
+          "dolor"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 418,
+        "InterParenthesis": 944,
         "InterOperator": "And",
-        "UniqueHash": 837
+        "UniqueHash": 983
       }
     ]
   }

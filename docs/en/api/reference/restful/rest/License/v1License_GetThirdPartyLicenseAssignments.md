@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 901,
-    "Tooltip": "perferendis",
+    "Total": 778,
+    "Tooltip": "praesentium",
     "CanAssign": false,
-    "Free": 189,
-    "InUse": 125,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 433,
-    "Name": "Ward Inc and Sons",
-    "Description": "Realigned assymetric matrix",
-    "PrerequisiteModuleName": "Bergnaum-Block",
-    "SortOrder": 562,
-    "ExtraFlags": 92,
+    "Free": 636,
+    "InUse": 410,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 169,
+    "Name": "Dibbert-Wilderman",
+    "Description": "Diverse 3rd generation capability",
+    "PrerequisiteModuleName": "Osinski, Gleichner and Heathcote",
+    "SortOrder": 297,
+    "ExtraFlags": 692,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldType": "System.String",
+        "FieldLength": 93
       }
     }
   }

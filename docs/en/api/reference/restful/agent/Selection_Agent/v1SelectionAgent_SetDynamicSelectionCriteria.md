@@ -87,28 +87,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 468,
+  "SelectionId": 222,
   "Criteria": [
     {
-      "Name": "Daniel, McLaughlin and Cummerata",
-      "Operator": "enim",
+      "Name": "McGlynn-Bogan",
+      "Operator": "reiciendis",
       "Values": [
-        "molestiae",
-        "qui"
+        "omnis",
+        "libero"
       ],
       "DisplayValues": [
-        "consequatur",
-        "magni"
+        "et",
+        "est"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 630,
+      "InterParenthesis": 851,
       "InterOperator": "And",
-      "UniqueHash": 712
+      "UniqueHash": 666
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobson LLC",
-    "Operator": "est",
+    "Name": "Ritchie-Macejkovic",
+    "Operator": "nesciunt",
     "Values": [
-      "magni",
-      "et"
+      "consequatur",
+      "magni"
     ],
     "DisplayValues": [
-      "voluptas",
-      "nihil"
+      "aut",
+      "quasi"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Pagac LLC",
-        "Operator": "velit",
+        "Name": "Reinger Group",
+        "Operator": "sint",
         "Values": [
-          "quae",
-          "non"
+          "vel",
+          "sed"
         ],
         "DisplayValues": [
           "aut",
-          "expedita"
+          "eveniet"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 355,
+        "InterParenthesis": 763,
         "InterOperator": "And",
-        "UniqueHash": 92
+        "UniqueHash": 617
       }
     ],
-    "InterParenthesis": 160,
+    "InterParenthesis": 357,
     "InterOperator": "And",
-    "UniqueHash": 379
+    "UniqueHash": 817
   }
 ]
 ```

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Simonis LLC",
+  "LayoutName": "Zboncak, McCullough and Gutmann",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 81,
-  "Name": "Huel, Bins and King",
-  "Value": "ut",
-  "CreatedDate": "2008-08-07T11:06:33.7816525+02:00",
-  "UpdatedDate": "2019-02-14T11:06:33.7816525+01:00",
-  "CreatedBy": "beatae",
-  "UpdatedBy": "consequatur",
+  "AudienceLayoutId": 479,
+  "Name": "Weissnat, Stanton and Huel",
+  "Value": "et",
+  "CreatedDate": "2002-12-13T13:38:13.0771703+01:00",
+  "UpdatedDate": "2009-01-19T13:38:13.0771703+01:00",
+  "CreatedBy": "odit",
+  "UpdatedBy": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldType": "System.String",
+      "FieldLength": 634
     }
   }
 }

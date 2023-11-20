@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 92,
-  "StartTime": "2002-10-24T11:06:34.3008382+02:00",
-  "EndTime": "1997-03-23T11:06:34.3008382+01:00",
-  "Count": 158,
+  "PersonId": 510,
+  "StartTime": "2009-03-18T13:38:13.4208858+01:00",
+  "EndTime": "2008-02-26T13:38:13.4208858+01:00",
+  "Count": 320,
   "DocumentTemplateIds": [
-    209,
-    179
+    469,
+    719
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 202,
-    "Attention": "suscipit",
-    "Header": "adipisci",
-    "Name": "Witting Inc and Sons",
-    "OurRef": "ea",
-    "YourRef": "nam",
-    "Description": "Synergized intermediate function",
-    "DocumentTemplate": "similique",
-    "IsPublished": true,
-    "PersonId": 282,
-    "PersonFullName": "Prof. Fern Lincoln Mills",
-    "AssociateFullName": "Ms. Maegan Lueilwitz",
-    "ContactId": 3,
-    "ContactName": "Waelchi Inc and Sons",
-    "ProjectId": 791,
-    "ProjectName": "Mraz-Prosacco",
-    "AssociateId": 303,
-    "Snum": 536,
-    "SaleId": 617,
-    "SaleName": "Jast-Yost",
+    "DocumentId": 104,
+    "Attention": "eos",
+    "Header": "quo",
+    "Name": "Haley LLC",
+    "OurRef": "similique",
+    "YourRef": "quam",
+    "Description": "Managed intermediate software",
+    "DocumentTemplate": "minus",
+    "IsPublished": false,
+    "PersonId": 995,
+    "PersonFullName": "Talon Quitzon",
+    "AssociateFullName": "Kay Bashirian",
+    "ContactId": 806,
+    "ContactName": "Krajcik-Dietrich",
+    "ProjectId": 174,
+    "ProjectName": "Cole Group",
+    "AssociateId": 67,
+    "Snum": 508,
+    "SaleId": 167,
+    "SaleName": "Smitham, Senger and Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 700
+        "FieldType": "System.String",
+        "FieldLength": 801
       }
     }
   }

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Id": 494,
-  "Name": "Fadel Group",
-  "Tooltip": "numquam",
+  "Name": "Altenwerth LLC",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 479,
+  "Rank": 881,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 157,
-  "Name": "Kreiger Inc and Sons",
-  "Tooltip": "dolore",
-  "Deleted": true,
-  "Rank": 863,
+  "Id": 289,
+  "Name": "Flatley, Shanahan and Bailey",
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "Rank": 160,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quas",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quaerat",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   }
 }

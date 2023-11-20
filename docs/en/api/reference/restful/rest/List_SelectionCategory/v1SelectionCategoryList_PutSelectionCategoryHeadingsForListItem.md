@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 293,
-    "Name": "Boyle-Mann",
-    "ToolTip": "Quos ut exercitationem cumque natus consequatur eum.",
+    "Id": 395,
+    "Name": "Gerlach, Larson and Green",
+    "ToolTip": "Accusamus blanditiis aspernatur quis harum est.",
     "Deleted": true,
-    "Rank": 667,
-    "Type": "itaque",
-    "ColorBlock": 614,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "1999-02-13T11:06:43.069069+01:00",
+    "Rank": 353,
+    "Type": "temporibus",
+    "ColorBlock": 543,
+    "IconHint": "illum",
+    "Selected": true,
+    "LastChanged": "2005-09-01T13:38:18.2337719+02:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Friesen LLC",
-        "ToolTip": "At aut.",
+        "Id": 484,
+        "Name": "Corkery-Larkin",
+        "ToolTip": "Eius minima ratione minima.",
         "Deleted": true,
-        "Rank": 827,
-        "Type": "possimus",
-        "ColorBlock": 630,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "1996-09-30T11:06:43.069069+02:00",
+        "Rank": 562,
+        "Type": "architecto",
+        "ColorBlock": 765,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2018-03-25T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "pariatur",
-        "Hidden": false,
-        "FullName": "Jayde Maud Weissnat Sr."
+        "ExtraInfo": "earum",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Ariane Tremblay"
       }
     ],
     "ExtraInfo": "fugit",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Joana Larson"
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Dora Lockman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Turcotte Inc and Sons",
-    "ToolTip": "Et veniam aut quasi officia ex.",
+    "Id": 575,
+    "Name": "Nienow-West",
+    "ToolTip": "Sint illum debitis maxime.",
     "Deleted": false,
-    "Rank": 388,
-    "Type": "cum",
-    "ColorBlock": 398,
-    "IconHint": "suscipit",
+    "Rank": 215,
+    "Type": "placeat",
+    "ColorBlock": 825,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2008-03-24T11:06:43.069069+01:00",
+    "LastChanged": "2019-06-25T13:38:18.2337719+02:00",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "Corkery, Stracke and Ryan",
-        "ToolTip": "Tenetur officia culpa nihil ex sed ut.",
+        "Id": 996,
+        "Name": "Little, Toy and Gislason",
+        "ToolTip": "Rerum dolor et cum aut est.",
         "Deleted": false,
-        "Rank": 772,
-        "Type": "laborum",
-        "ColorBlock": 965,
-        "IconHint": "facere",
+        "Rank": 341,
+        "Type": "vel",
+        "ColorBlock": 168,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2021-09-08T11:06:43.069069+02:00",
+        "LastChanged": "2017-07-09T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Lydia Hudson",
+        "ExtraInfo": "fuga",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Dr. Kaelyn Kale Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 741
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "et",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Devyn Rowe",
+    "FullName": "Lawson Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldLength": 951
       }
     }
   }

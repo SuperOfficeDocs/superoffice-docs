@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 954,
-  "Name": "Donnelly Group",
-  "Tooltip": "quas",
-  "Deleted": true,
-  "Rank": 764,
-  "IsCustomList": true,
+  "Id": 98,
+  "Name": "Deckow Group",
+  "Tooltip": "rem",
+  "Deleted": false,
+  "Rank": 221,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "unde",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 96,
-  "Name": "Fisher, Thiel and Cole",
-  "Tooltip": "hic",
+  "Id": 678,
+  "Name": "Blick, Hane and Farrell",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 503,
+  "Rank": 96,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "at",
-  "InUseByUserDefinedFields": false,
+  "ListType": "atque",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

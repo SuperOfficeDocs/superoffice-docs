@@ -1394,6 +1394,8 @@ title: Services88.CustomerServiceAgent WSDL
               <xs:element minOccurs="0" name="StateValues" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ParserValues" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="CgiVariables" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="CgiContent" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

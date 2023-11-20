@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 250,
-  "StartTime": "2015-11-10T11:06:33.4601191+01:00",
-  "EndTime": "2000-09-07T11:06:33.4601191+02:00",
-  "Count": 63,
-  "TaskId": 253
+  "ContactId": 746,
+  "StartTime": "2014-02-19T13:38:12.8584402+01:00",
+  "EndTime": "2016-10-18T13:38:12.8584402+02:00",
+  "Count": 899,
+  "TaskId": 45
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 936,
-    "StartDate": "2014-12-24T11:06:33.4601191+01:00",
-    "EndDate": "2017-04-11T11:06:33.4601191+02:00",
+    "AppointmentId": 830,
+    "StartDate": "2009-01-29T13:38:12.8584402+01:00",
+    "EndDate": "2007-12-15T13:38:12.8584402+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Liana Hessel",
-    "ContactName": "Langworth, McKenzie and Klocko",
-    "Description": "Visionary tertiary customer loyalty",
-    "PersonFullName": "Maeve West",
-    "PersonId": 982,
-    "ContactId": 787,
-    "ProjectId": 848,
-    "ProjectName": "Leannon Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 951,
-    "ColorIndex": 659,
+    "Task": "et",
+    "AssociateFullName": "Lukas Rolfson",
+    "ContactName": "Anderson-Durgan",
+    "Description": "Right-sized bifurcated product",
+    "PersonFullName": "Mr. Pinkie Torp",
+    "PersonId": 875,
+    "ContactId": 595,
+    "ProjectId": 904,
+    "ProjectName": "Hickle Group",
+    "IsPublished": false,
+    "AssociateId": 971,
+    "ColorIndex": 991,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 961,
-    "PriorityName": "Gorczany-Mante",
+    "PriorityId": 816,
+    "PriorityName": "Collier-Hane",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1997-10-15T11:06:33.4601191+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2020-02-08T13:38:12.8584402+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-05-22T11:06:33.4601191+02:00",
-    "RecurringEndDate": "2023-01-03T11:06:33.4601191+01:00",
-    "MotherId": 296,
-    "AssignedBy": 575,
-    "AssignedByFullName": "Dr. Tyrell Breanne Ebert Jr.",
+    "RecurringStartDate": "2009-12-17T13:38:12.8584402+01:00",
+    "RecurringEndDate": "2009-12-20T13:38:12.8584402+01:00",
+    "MotherId": 481,
+    "AssignedBy": 693,
+    "AssignedByFullName": "Velma Prosacco",
     "RejectReason": "",
-    "Location": "deleniti",
-    "AlarmLeadTime": "placeat",
-    "SaleId": 298,
-    "SaleName": "Hammes, Parisian and Hackett",
-    "AssociateName": "Gusikowski Group",
-    "CreatedDate": "2005-10-31T11:06:33.4601191+01:00",
-    "CreatedBy": "suscipit",
-    "CreatedByFullName": "Dylan Weber",
-    "CreatedByAssociateId": 390,
+    "Location": "vitae",
+    "AlarmLeadTime": "quia",
+    "SaleId": 71,
+    "SaleName": "Rodriguez-Gutkowski",
+    "AssociateName": "Jenkins Group",
+    "CreatedDate": "2015-10-19T13:38:12.8584402+02:00",
+    "CreatedBy": "laborum",
+    "CreatedByFullName": "Miss Jamarcus Renner MD",
+    "CreatedByAssociateId": 185,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "consequatur",
-    "Agenda": "odit",
-    "InternalNotes": "omnis",
+    "PreferredTZLocation": 886,
+    "Title": "error",
+    "Agenda": "adipisci",
+    "InternalNotes": "iste",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 505
+        "FieldType": "System.Int32",
+        "FieldLength": 279
       }
     }
   }

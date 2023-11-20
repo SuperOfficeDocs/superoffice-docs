@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 211,
-  "Name": "Beahan Group",
-  "Description": "Future-proofed directional local area network",
-  "DefaultHeight": 567,
-  "DefaultWidth": 968,
+  "DashboardTileDefinitionId": 703,
+  "Name": "Ebert, Brakus and Pouros",
+  "Description": "Streamlined client-server concept",
+  "DefaultHeight": 315,
+  "DefaultWidth": 487,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "O'Reilly, Schmidt and Weber",
-  "SelectionId": 538,
+  "EntityName": "Blick, Prosacco and Wilkinson",
+  "SelectionId": 329,
   "CurrencyMode": "Base",
-  "CurrencyCode": "culpa",
+  "CurrencyCode": "dolores",
   "Measure": "Average",
-  "MeasureField": "voluptatem",
-  "SortBy": "alias",
-  "LayoutConfig": "quas",
-  "SecondarySelectionId": 664,
-  "MeasureByField": "totam",
+  "MeasureField": "ut",
+  "SortBy": "libero",
+  "LayoutConfig": "dolorem",
+  "SecondarySelectionId": 570,
+  "MeasureByField": "reiciendis",
   "Usage": "Dashboard",
-  "ProviderName": "Maggio-Marquardt",
+  "ProviderName": "Connelly-Kulas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 702
     }
   }
 }

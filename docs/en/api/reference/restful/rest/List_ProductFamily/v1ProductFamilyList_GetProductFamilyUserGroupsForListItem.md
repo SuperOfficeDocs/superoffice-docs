@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 133,
-    "Name": "Ledner, Lindgren and Hudson",
-    "ToolTip": "Dolorum neque deleniti rem.",
-    "Deleted": true,
-    "Rank": 614,
-    "Type": "et",
-    "ColorBlock": 686,
-    "IconHint": "quis",
+    "Id": 786,
+    "Name": "Streich-Littel",
+    "ToolTip": "Rerum harum ullam eum autem.",
+    "Deleted": false,
+    "Rank": 219,
+    "Type": "accusantium",
+    "ColorBlock": 29,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2014-02-02T11:06:42.9284383+01:00",
+    "LastChanged": "2004-12-25T13:38:18.1400255+01:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Thiel LLC",
-        "ToolTip": "Id earum distinctio quidem quasi commodi corporis ut.",
-        "Deleted": true,
-        "Rank": 129,
-        "Type": "dolorem",
-        "ColorBlock": 170,
-        "IconHint": "aperiam",
+        "Id": 122,
+        "Name": "Crist, Zulauf and Beer",
+        "ToolTip": "Sed quo doloribus dolor eligendi.",
+        "Deleted": false,
+        "Rank": 705,
+        "Type": "nihil",
+        "ColorBlock": 35,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2007-01-05T11:06:42.9284383+01:00",
+        "LastChanged": "2003-02-16T13:38:18.1400255+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Augustus Tillman",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "laboriosam",
+        "Hidden": false,
+        "FullName": "Ms. Gianni Burnice Renner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 780
+            "FieldType": "System.Int32",
+            "FieldLength": 109
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "dolores",
+    "ExtraInfo": "animi",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Jacynthe Pollich PhD",
+    "FullName": "Jairo VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 972
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   }

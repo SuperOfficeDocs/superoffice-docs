@@ -67,7 +67,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Stracke, Fadel and Boehm",
-    "DisplayName": "Goodwin, Jacobson and Morissette",
-    "Description": "Balanced object-oriented framework",
-    "ShortLabel": "unde",
+    "FieldName": "Lockman-Williamson",
+    "DisplayName": "Abernathy Inc and Sons",
+    "Description": "Distributed secondary implementation",
+    "ShortLabel": "ducimus",
     "HideLabel": false,
     "HideField": true,
     "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 114,
-    "TemplateVariableName": "Keeling-Wunsch"
+    "IsMandatory": true,
+    "IsReadOnly": true,
+    "IsExternal": false,
+    "Rank": 248,
+    "TemplateVariableName": "Johns, Rippin and Larson"
   }
 ]
 ```

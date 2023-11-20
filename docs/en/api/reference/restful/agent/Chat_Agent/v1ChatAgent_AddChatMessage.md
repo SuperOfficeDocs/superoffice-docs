@@ -84,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 375,
+  "ChatSessionId": 403,
   "Message": null
 }
 ```
@@ -96,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 111,
-  "ChatSessionId": 568,
+  "ChatMessageId": 434,
+  "ChatSessionId": 717,
   "Type": "Invalid",
-  "Message": "aliquam",
-  "Author": "blanditiis",
-  "ReadByCustomer": 220,
+  "Message": "occaecati",
+  "Author": "sint",
+  "ReadByCustomer": 847,
   "SpecialType": "Block",
-  "SpecialParam": "alias",
-  "WhenPosted": "2010-08-21T11:06:34.0496048+02:00"
+  "SpecialParam": "est",
+  "WhenPosted": "2001-12-07T13:38:13.2490288+01:00"
 }
 ```

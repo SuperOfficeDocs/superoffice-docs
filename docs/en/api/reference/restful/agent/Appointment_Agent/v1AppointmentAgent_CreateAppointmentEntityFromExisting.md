@@ -106,7 +106,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -133,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 745,
-  "AssociateId": 505
+  "AppointmentId": 328,
+  "AssociateId": 799
 }
 ```
 
@@ -153,125 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-06-18T11:06:33.5851084+02:00",
-  "AppointmentId": 283,
-  "Description": "Multi-tiered needs-based collaboration",
-  "StartDate": "2009-04-03T11:06:33.5851084+02:00",
-  "EndDate": "2015-12-08T11:06:33.5851084+01:00",
+  "CreatedDate": "1998-12-15T13:38:12.9365582+01:00",
+  "AppointmentId": 952,
+  "Description": "Assimilated background encryption",
+  "StartDate": "2011-03-24T13:38:12.9365582+01:00",
+  "EndDate": "2001-04-21T13:38:12.9365582+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 851,
+  "MotherId": 183,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-09-07T11:06:33.5851084+02:00",
+  "UpdatedDate": "2015-12-18T13:38:12.9521841+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 923,
+  "ActiveLinks": 66,
   "Links": [
     {
-      "EntityName": "Huels Group",
-      "Id": 924,
-      "Description": "User-centric responsive algorithm",
-      "ExtraInfo": "et",
-      "LinkId": 934,
+      "EntityName": "Renner, Feeney and Tromp",
+      "Id": 445,
+      "Description": "Optional regional encryption",
+      "ExtraInfo": "aut",
+      "LinkId": 351,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 938
+          "FieldType": "System.Int32",
+          "FieldLength": 661
         }
       }
     }
   ],
-  "AlarmLeadTime": "debitis",
-  "HasAlarm": true,
-  "ColorIndex": 82,
+  "AlarmLeadTime": "soluta",
+  "HasAlarm": false,
+  "ColorIndex": 954,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "voluptate",
-  "LeadTime": "voluptas",
-  "Location": "est",
-  "RejectCounter": 433,
+  "LagTime": "voluptatum",
+  "LeadTime": "et",
+  "Location": "ut",
+  "RejectCounter": 367,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 584,
-      "PersonId": 664,
-      "ContactId": 615,
-      "EmailId": 147,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 584,
-      "PersonId": 664,
-      "ContactId": 615,
-      "EmailId": 147,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 560,
+      "PersonId": 350,
+      "ContactId": 120,
+      "EmailId": 888,
+      "SendEmail": false,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "sean@ryan.us",
+      "Description": "Programmable zero administration focus group"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-03-28T11:06:33.5851084+01:00",
+  "ActiveDate": "2019-05-22T13:38:12.9521841+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 255,
+  "PreferredTZLocation": 742,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 142,
+  "SuggestedAppointmentId": 717,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "earum",
-  "Title": "consectetur",
-  "Agenda": "libero",
-  "InternalNotes": "est",
+  "CentralserviceVideomeetId": "distinctio",
+  "Title": "aut",
+  "Agenda": "quod",
+  "InternalNotes": "porro",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Freeda Koch",
+    "SuperOffice:2": "Prof. Alaina Nicolas"
   },
   "ExtraFields": {
-    "ExtraFields1": "ad",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "neque",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "optio",
-    "CustomFields2": "ratione"
+    "CustomFields1": "ducimus",
+    "CustomFields2": "ea"
   },
-  "PublishEventDate": "2016-12-08T11:06:33.5851084+01:00",
-  "PublishTo": "2008-05-10T11:06:33.5851084+02:00",
-  "PublishFrom": "2000-05-24T11:06:33.5851084+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2021-09-09T13:38:12.9521841+02:00",
+  "PublishTo": "2010-05-19T13:38:12.9521841+02:00",
+  "PublishFrom": "2013-11-12T13:38:12.9521841+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 494,
+      "VisibleId": 69,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldType": "System.String",
+          "FieldLength": 879
         }
       }
     },
     {
-      "VisibleId": 494,
+      "VisibleId": 69,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldType": "System.String",
+          "FieldLength": 879
         }
       }
     }
@@ -281,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldLength": 500
     }
   }
 }

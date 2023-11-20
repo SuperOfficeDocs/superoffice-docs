@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 847
+  "ProductId": 828
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 371,
-  "BlobSize": 208,
-  "Description": "Multi-lateral modular installation",
-  "ExtraInfo": "maiores",
-  "IsEncrypted": false,
+  "BlobId": 334,
+  "BlobSize": 836,
+  "Description": "Robust multimedia neural-net",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "non",
-  "OriginalSize": 685,
-  "CreatedDate": "2003-02-18T11:06:33.812894+01:00",
-  "UpdatedDate": "2022-11-13T11:06:33.812894+01:00",
+  "MimeType": "minima",
+  "OriginalSize": 101,
+  "CreatedDate": "2006-12-25T13:38:13.0927968+01:00",
+  "UpdatedDate": "2019-06-10T13:38:13.0927968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "mollitia",
+  "ConceptualType": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 7
+      "FieldType": "System.Int32",
+      "FieldLength": 114
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 693,
-  "AssociateId": 868,
-  "Caption": "minus",
+  "DashboardId": 24,
+  "AssociateId": 488,
+  "Caption": "vel",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 767,
-      "Caption": "odio",
-      "Description": "Advanced full-range frame",
-      "ChartName": "Monahan, Legros and Schinner",
-      "ChartId": "fuga",
-      "IsDefault": true,
-      "AssociateId": 109,
-      "GroupId": 436,
-      "SelectionId": 549,
-      "Config": "provident",
+      "DashboardTileId": 540,
+      "Caption": "eum",
+      "Description": "Assimilated context-sensitive intranet",
+      "ChartName": "Wuckert Inc and Sons",
+      "ChartId": "aut",
+      "IsDefault": false,
+      "AssociateId": 194,
+      "GroupId": 988,
+      "SelectionId": 534,
+      "Config": "nulla",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 659
+          "FieldLength": 671
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldLength": 564
     }
   }
 }

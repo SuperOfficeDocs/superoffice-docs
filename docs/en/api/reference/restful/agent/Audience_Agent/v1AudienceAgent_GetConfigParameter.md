@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hammes-Langosh",
-  "ParameterName": "Hagenes Group"
+  "LayoutName": "Glover LLC",
+  "ParameterName": "Pacocha, Gaylord and Gibson"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 438,
-  "Name": "Sanford, Anderson and Ward",
-  "Value": "itaque",
-  "CreatedDate": "2019-11-28T11:06:33.7816525+01:00",
-  "UpdatedDate": "2019-08-27T11:06:33.7816525+02:00",
-  "CreatedBy": "animi",
-  "UpdatedBy": "eius",
+  "AudienceLayoutId": 922,
+  "Name": "Dicki-Ziemann",
+  "Value": "vel",
+  "CreatedDate": "2007-05-25T13:38:13.0771703+02:00",
+  "UpdatedDate": "2008-10-20T13:38:13.0771703+02:00",
+  "CreatedBy": "quasi",
+  "UpdatedBy": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldType": "System.Int32",
+      "FieldLength": 637
     }
   }
 }

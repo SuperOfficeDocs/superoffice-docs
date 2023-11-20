@@ -99,7 +99,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "West Group",
+  "TaskName": "Hoeger Inc and Sons",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Cormier Group",
-    "AssociateId": 342,
-    "DetailsTable": 206,
-    "DetailsRecord": 602,
+    "Id": 113,
+    "Name": "Bosco LLC",
+    "AssociateId": 672,
+    "DetailsTable": 995,
+    "DetailsRecord": 130,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "dolores",
-      "ParameterObject2": "explicabo"
+      "ParameterObject1": "eos",
+      "ParameterObject2": "exercitationem"
     },
-    "LastStarted": "2004-04-22T11:06:33.7972715+02:00",
-    "Created": "2023-03-25T11:06:33.7972715+01:00",
-    "StartCount": 151,
-    "DatabaseSerialNumber": "1037028",
-    "Context": "ullam",
-    "Result": "nam",
+    "LastStarted": "2010-09-18T13:38:13.0927968+02:00",
+    "Created": "2009-05-30T13:38:13.0927968+02:00",
+    "StartCount": 727,
+    "DatabaseSerialNumber": "888475",
+    "Context": "quaerat",
+    "Result": "et",
     "State": "All",
-    "Description": "Up-sized bifurcated artificial intelligence",
-    "Response": "dolores",
-    "Request": "amet",
-    "ProgressDescription": "Implemented incremental task-force",
-    "ProgressPercent": 686,
-    "FileName": "Bartoletti, Gulgowski and Thompson",
+    "Description": "Progressive incremental pricing structure",
+    "Response": "adipisci",
+    "Request": "porro",
+    "ProgressDescription": "Enterprise-wide methodical encryption",
+    "ProgressPercent": 566,
+    "FileName": "O'Conner LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldType": "System.Int32",
+        "FieldLength": 577
       }
     }
   }

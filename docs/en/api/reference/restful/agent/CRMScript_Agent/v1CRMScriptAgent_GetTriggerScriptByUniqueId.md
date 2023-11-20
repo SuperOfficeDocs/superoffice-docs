@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "cupiditate"
+  "TriggerScriptUniqueId": "delectus"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 785,
-  "Name": "Ziemann Inc and Sons",
+  "ScreenChooserId": 518,
+  "Name": "Kreiger-Goyette",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "mollitia",
-  "Source": "laborum",
-  "Registered": "2007-08-24T11:06:34.2383276+02:00",
-  "RegisteredAssociateId": 176,
-  "Updated": "2014-10-02T11:06:34.2383276+02:00",
-  "UpdatedAssociateId": 887,
+  "UniqueIdentifier": "reprehenderit",
+  "Source": "harum",
+  "Registered": "1999-07-30T13:38:13.3896326+02:00",
+  "RegisteredAssociateId": 140,
+  "Updated": "1996-08-27T13:38:13.3896326+02:00",
+  "UpdatedAssociateId": 950,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldType": "System.Int32",
+      "FieldLength": 314
     }
   }
 }

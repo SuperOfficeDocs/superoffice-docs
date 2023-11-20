@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 76,
-  "Name": "Pfannerstill, Murazik and Strosin",
-  "Tooltip": "repudiandae",
+  "Id": 171,
+  "Name": "Bartoletti, Herman and Sporer",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "Rank": 782,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 620,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
-  "InUseByUserDefinedFields": false
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 637,
-  "Name": "Bruen-Ebert",
-  "Tooltip": "cumque",
+  "Id": 834,
+  "Name": "Kilback Group",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 164,
+  "Rank": 368,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
+  "ListType": "ullam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Stokes Group",
-    "ToolTip": "Vel magni soluta cupiditate quod.",
-    "Deleted": true,
-    "Rank": 558,
-    "Type": "sed",
-    "ColorBlock": 365,
-    "IconHint": "quis",
+    "Id": 161,
+    "Name": "Zboncak Group",
+    "ToolTip": "Excepturi officiis amet similique blanditiis.",
+    "Deleted": false,
+    "Rank": 542,
+    "Type": "ipsum",
+    "ColorBlock": 361,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2020-11-10T11:06:42.8659405+01:00",
+    "LastChanged": "2015-01-13T13:38:18.0931573+01:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Reilly-Dare",
-        "ToolTip": "Atque dolores.",
-        "Deleted": true,
-        "Rank": 605,
-        "Type": "et",
-        "ColorBlock": 98,
-        "IconHint": "sit",
+        "Id": 255,
+        "Name": "Bogan, Hagenes and Jast",
+        "ToolTip": "Odit totam soluta unde asperiores ut dolores eius.",
+        "Deleted": false,
+        "Rank": 790,
+        "Type": "ut",
+        "ColorBlock": 37,
+        "IconHint": "beatae",
         "Selected": true,
-        "LastChanged": "2016-12-07T11:06:42.8659405+01:00",
+        "LastChanged": "2018-09-08T13:38:18.0931573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Carolyn Hauck"
+        "ExtraInfo": "non",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Mr. Bella Kiehn I"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "iure",
-    "Hidden": true,
-    "FullName": "Ms. Jayne Heathcote"
+    "ExtraInfo": "aliquid",
+    "StyleHint": "fuga",
+    "Hidden": false,
+    "FullName": "Mrs. Earl Koelpin DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Mann LLC",
-    "ToolTip": "Necessitatibus aliquid.",
+    "Id": 543,
+    "Name": "Gutmann, Zulauf and Hickle",
+    "ToolTip": "Laboriosam vel tempore consequuntur.",
     "Deleted": true,
-    "Rank": 768,
-    "Type": "non",
-    "ColorBlock": 361,
-    "IconHint": "iure",
-    "Selected": false,
-    "LastChanged": "2010-12-19T11:06:42.8659405+01:00",
+    "Rank": 755,
+    "Type": "est",
+    "ColorBlock": 972,
+    "IconHint": "exercitationem",
+    "Selected": true,
+    "LastChanged": "2019-03-26T13:38:18.0931573+01:00",
     "ChildItems": [
       {
-        "Id": 414,
-        "Name": "Skiles, Koelpin and VonRueden",
-        "ToolTip": "Aut distinctio dolorem.",
-        "Deleted": true,
-        "Rank": 20,
-        "Type": "voluptatem",
-        "ColorBlock": 340,
-        "IconHint": "totam",
+        "Id": 299,
+        "Name": "Renner-McClure",
+        "ToolTip": "Vitae enim sequi quae et voluptatem.",
+        "Deleted": false,
+        "Rank": 889,
+        "Type": "voluptas",
+        "ColorBlock": 743,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2017-11-15T11:06:42.8659405+01:00",
+        "LastChanged": "2001-04-30T13:38:18.0931573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Laron Dibbert",
+        "ExtraInfo": "non",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Janice Dickinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 170
+            "FieldType": "System.String",
+            "FieldLength": 938
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "blanditiis",
-    "Hidden": true,
-    "FullName": "Dr. Maverick Howell IV",
+    "ExtraInfo": "quam",
+    "StyleHint": "quos",
+    "Hidden": false,
+    "FullName": "Whitney Carolyne Aufderhar III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldType": "System.Int32",
+        "FieldLength": 205
       }
     }
   }

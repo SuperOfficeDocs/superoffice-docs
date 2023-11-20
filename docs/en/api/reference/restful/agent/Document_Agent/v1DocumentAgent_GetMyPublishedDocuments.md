@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 763,
-    "Attention": "et",
-    "Header": "dolorum",
-    "Name": "Barton, Langworth and Konopelski",
-    "OurRef": "hic",
-    "YourRef": "dolores",
-    "Description": "Versatile 6th generation matrix",
-    "DocumentTemplate": "vero",
+    "DocumentId": 211,
+    "Attention": "non",
+    "Header": "autem",
+    "Name": "Nader, Braun and Gleason",
+    "OurRef": "quaerat",
+    "YourRef": "nihil",
+    "Description": "Centralized demand-driven intranet",
+    "DocumentTemplate": "voluptas",
     "IsPublished": false,
-    "PersonId": 7,
-    "PersonFullName": "Dolores Kunze",
-    "AssociateFullName": "Asha Douglas",
-    "ContactId": 315,
-    "ContactName": "Smitham-Jerde",
-    "ProjectId": 772,
-    "ProjectName": "Kuphal-Hilpert",
-    "AssociateId": 824,
-    "Snum": 756,
-    "SaleId": 177,
-    "SaleName": "Flatley, Klein and Conn",
+    "PersonId": 920,
+    "PersonFullName": "Justyn Mae Prohaska Jr.",
+    "AssociateFullName": "Dr. Ila Howe II",
+    "ContactId": 479,
+    "ContactName": "Renner Group",
+    "ProjectId": 814,
+    "ProjectName": "Kemmer, Runte and Lowe",
+    "AssociateId": 379,
+    "Snum": 524,
+    "SaleId": 140,
+    "SaleName": "Dach-Hermann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldLength": 534
       }
     }
   }

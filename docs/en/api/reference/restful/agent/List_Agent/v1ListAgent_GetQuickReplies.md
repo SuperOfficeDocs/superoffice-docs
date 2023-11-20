@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetQuickReplies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 102,
-    "Name": "Jacobs-Hermiston",
-    "HtmlBody": "sed",
+    "QuickReplyId": 325,
+    "Name": "Greenfelder-Effertz",
+    "HtmlBody": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldType": "System.String",
+        "FieldLength": 88
       }
     }
   },
   {
-    "QuickReplyId": 102,
-    "Name": "Jacobs-Hermiston",
-    "HtmlBody": "sed",
+    "QuickReplyId": 325,
+    "Name": "Greenfelder-Effertz",
+    "HtmlBody": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldType": "System.String",
+        "FieldLength": 88
       }
     }
   }

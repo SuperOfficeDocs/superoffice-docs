@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 915,
-    "Section": "et",
-    "Key": "laudantium",
-    "Name": "Gutkowski, Schaefer and Kulas",
+    "PrefDescId": 235,
+    "Section": "qui",
+    "Key": "architecto",
+    "Name": "Huels-Okuneva",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Multi-lateral context-sensitive success",
+    "Description": "Organic client-server architecture",
     "IsBuiltin": false,
-    "TableName": "Lebsack-Bradtke",
-    "UserDefinedListId": 137,
-    "Rank": 364,
-    "SubGroup": "rerum",
-    "MinLevel": 98,
-    "MaxValue": 591,
-    "MinValue": 1002,
-    "RequiredLicense": "aut",
+    "TableName": "Maggio, Klocko and Purdy",
+    "UserDefinedListId": 299,
+    "Rank": 399,
+    "SubGroup": "consequatur",
+    "MinLevel": 693,
+    "MaxValue": 378,
+    "MinValue": 432,
+    "RequiredLicense": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 275
+        "FieldLength": 471
       }
     }
   }

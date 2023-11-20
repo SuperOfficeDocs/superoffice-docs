@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 26,
-  "ERPQuoteAlternativeKey": "deserunt",
-  "QuoteVersionId": 135,
-  "Name": "Kris-Abernathy",
-  "Description": "Universal background Graphical User Interface",
+  "QuoteAlternativeId": 361,
+  "ERPQuoteAlternativeKey": "mollitia",
+  "QuoteVersionId": 446,
+  "Name": "Ryan-Rempel",
+  "Description": "Down-sized needs-based attitude",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 7277.148,
-  "ERPDiscountAmount": 27657.55,
-  "DiscountPercent": 15322.126,
-  "DiscountAmount": 13949.434,
+  "ERPDiscountPercent": 13006.1,
+  "ERPDiscountAmount": 10216.84,
+  "DiscountPercent": 7233.272,
+  "DiscountAmount": 12774.184,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ea",
-  "VAT": 8900.56,
-  "EarningPercent": 8555.82,
-  "EarningAmount": 3723.192,
-  "SubTotal": 25548.368,
-  "TotalPrice": 19082.926,
-  "ExtraField1": "autem",
-  "ExtraField2": "earum",
-  "ExtraField3": "ut",
-  "ExtraField4": "dolores",
-  "ExtraField5": "maiores",
+  "VATInfo": "iusto",
+  "VAT": 9470.948,
+  "EarningPercent": 15754.617999999999,
+  "EarningAmount": 28243.608,
+  "SubTotal": 20327.124,
+  "TotalPrice": 20847.368,
+  "ExtraField1": "minus",
+  "ExtraField2": "quaerat",
+  "ExtraField3": "odit",
+  "ExtraField4": "nobis",
+  "ExtraField5": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldLength": 84
     }
   }
 }

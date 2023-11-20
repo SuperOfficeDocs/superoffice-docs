@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 924,
-  "StartTime": "1998-08-31T11:06:34.3008382+02:00",
-  "EndTime": "2000-10-07T11:06:34.3008382+02:00",
-  "Count": 210,
-  "TemplateHeadingId": 682
+  "ContactId": 364,
+  "StartTime": "2013-05-12T13:38:13.4208858+02:00",
+  "EndTime": "2023-03-21T13:38:13.4208858+01:00",
+  "Count": 979,
+  "TemplateHeadingId": 544
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 586,
-    "Attention": "iste",
-    "Header": "aut",
-    "Name": "Kshlerin-Gottlieb",
-    "OurRef": "id",
-    "YourRef": "quis",
-    "Description": "Distributed dynamic database",
-    "DocumentTemplate": "itaque",
+    "DocumentId": 775,
+    "Attention": "aspernatur",
+    "Header": "suscipit",
+    "Name": "Gusikowski Inc and Sons",
+    "OurRef": "non",
+    "YourRef": "quia",
+    "Description": "Sharable human-resource system engine",
+    "DocumentTemplate": "sapiente",
     "IsPublished": false,
-    "PersonId": 637,
-    "PersonFullName": "Alice Daugherty",
-    "AssociateFullName": "Pietro Auer",
-    "ContactId": 848,
-    "ContactName": "Weimann Group",
-    "ProjectId": 538,
-    "ProjectName": "Durgan, O'Keefe and Reichert",
-    "AssociateId": 855,
-    "Snum": 89,
-    "SaleId": 73,
-    "SaleName": "Morar-Lebsack",
+    "PersonId": 324,
+    "PersonFullName": "Ms. Ramiro Arielle Orn",
+    "AssociateFullName": "Hazle Dooley",
+    "ContactId": 690,
+    "ContactName": "Morissette-Wyman",
+    "ProjectId": 121,
+    "ProjectName": "Sipes, Mayer and Hessel",
+    "AssociateId": 501,
+    "Snum": 437,
+    "SaleId": 668,
+    "SaleName": "Stiedemann-Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldType": "System.String",
+        "FieldLength": 339
       }
     }
   }

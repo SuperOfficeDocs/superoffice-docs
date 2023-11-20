@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Kuvalis-Will",
-    "ToolTip": "Quae ex numquam qui ut ex sunt sequi.",
+    "Id": 194,
+    "Name": "Bradtke, Gutkowski and Hoeger",
+    "ToolTip": "Aperiam aut unde sed architecto et dolores minus.",
     "Deleted": false,
-    "Rank": 988,
-    "Type": "nihil",
-    "ColorBlock": 444,
-    "IconHint": "et",
+    "Rank": 973,
+    "Type": "eveniet",
+    "ColorBlock": 959,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2005-03-01T11:06:42.7409447+01:00",
+    "LastChanged": "2008-10-12T13:38:18.0150452+02:00",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Wiza LLC",
-        "ToolTip": "Est impedit consectetur fuga quos.",
+        "Id": 579,
+        "Name": "Thompson, Funk and Conroy",
+        "ToolTip": "Non rem voluptates officia numquam voluptates.",
         "Deleted": false,
-        "Rank": 286,
-        "Type": "occaecati",
-        "ColorBlock": 938,
-        "IconHint": "totam",
-        "Selected": false,
-        "LastChanged": "2002-04-04T11:06:42.7409447+02:00",
+        "Rank": 504,
+        "Type": "id",
+        "ColorBlock": 637,
+        "IconHint": "fugiat",
+        "Selected": true,
+        "LastChanged": "2023-03-06T13:38:18.0150452+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Roselyn Metz",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Hunter Patricia Mosciski Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 202
+            "FieldLength": 145
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Stanford Reichel",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "quaerat",
+    "Hidden": false,
+    "FullName": "Prof. Reginald Haylie Erdman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 604
+        "FieldType": "System.Int32",
+        "FieldLength": 722
       }
     }
   }

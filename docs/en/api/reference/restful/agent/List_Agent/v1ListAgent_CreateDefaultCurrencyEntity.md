@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 111,
-  "Name": "Grimes Inc and Sons",
-  "Tooltip": "et",
-  "Rank": 847,
-  "Rate": 21712.352,
-  "Units": 7903.9479999999994,
-  "Deleted": true,
+  "CurrencyId": 911,
+  "Name": "O'Keefe Group",
+  "Tooltip": "in",
+  "Rank": 209,
+  "Rate": 9919.11,
+  "Units": 9455.278,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldType": "System.Int32",
+      "FieldLength": 1002
     }
   }
 }

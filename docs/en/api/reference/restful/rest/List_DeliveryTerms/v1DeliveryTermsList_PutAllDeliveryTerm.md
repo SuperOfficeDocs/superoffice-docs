@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Keebler, Hoeger and Gerlach",
-    "Tooltip": "architecto",
-    "Deleted": true,
-    "UdListDefinitionId": 793,
-    "Rank": 48
+    "Id": 399,
+    "Name": "Rolfson LLC",
+    "Tooltip": "doloremque",
+    "Deleted": false,
+    "UdListDefinitionId": 111,
+    "Rank": 384
   },
   {
-    "Id": 538,
-    "Name": "Keebler, Hoeger and Gerlach",
-    "Tooltip": "architecto",
-    "Deleted": true,
-    "UdListDefinitionId": 793,
-    "Rank": 48
+    "Id": 399,
+    "Name": "Rolfson LLC",
+    "Tooltip": "doloremque",
+    "Deleted": false,
+    "UdListDefinitionId": 111,
+    "Rank": 384
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 899,
-    "Name": "Purdy, Hudson and Pfeffer",
-    "Tooltip": "omnis",
+    "Id": 341,
+    "Name": "Schumm-Batz",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "UdListDefinitionId": 332,
-    "Rank": 838,
+    "UdListDefinitionId": 851,
+    "Rank": 126,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 295
+        "FieldType": "System.String",
+        "FieldLength": 388
       }
     }
   }

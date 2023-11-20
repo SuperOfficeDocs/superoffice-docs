@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 508,
-  "Name": "Okuneva-Dickinson",
-  "Tooltip": "atque",
+  "Id": 914,
+  "Name": "Jakubowski Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 343,
-  "Rank": 1002,
+  "UdListDefinitionId": 451,
+  "Rank": 318,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldType": "System.String",
+      "FieldLength": 362
     }
   }
 }

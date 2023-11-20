@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 173,
-  "Type": "minima"
+  "Id": 390,
+  "Type": "ut"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 518,
-    "Rank": 527,
-    "DefaultTask": 547,
-    "DefaultTaskText": "odit",
-    "IsVisual": true,
-    "LastGenerated": "1999-09-18T11:06:35.2708148+02:00",
-    "Description": "Face to face zero administration emulation",
-    "Name": "Hoeger, Ritchie and Buckridge",
-    "StatusMonitorId": 643,
-    "PictureId": 719,
+    "OwnerTable": 111,
+    "Rank": 253,
+    "DefaultTask": 31,
+    "DefaultTaskText": "enim",
+    "IsVisual": false,
+    "LastGenerated": "2021-01-17T13:38:14.0615788+01:00",
+    "Description": "Automated 6th generation software",
+    "Name": "Hessel, Mayert and Gerlach",
+    "StatusMonitorId": 642,
+    "PictureId": 244,
     "NeedsUpdate": false,
-    "Deleted": true,
-    "NumMatches": 508,
-    "NumNeedUpdate": 884,
-    "GenerationStart": "1996-08-28T11:06:35.2708148+02:00",
+    "Deleted": false,
+    "NumMatches": 260,
+    "NumNeedUpdate": 230,
+    "GenerationStart": "2017-09-25T13:38:14.0615788+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldLength": 1001
       }
     }
   }

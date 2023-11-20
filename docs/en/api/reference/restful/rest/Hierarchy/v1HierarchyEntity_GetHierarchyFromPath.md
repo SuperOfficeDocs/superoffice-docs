@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=False
+GET /api/v1/Hierarchy/{domain}/{path}?children=True
 ```
 
 
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 186,
+  "HierarchyId": 165,
   "Domain": "Dashboards",
-  "Name": "Donnelly, Watsica and Hyatt",
-  "Fullname": "quis",
-  "ParentId": 668,
+  "Name": "Dooley Inc and Sons",
+  "Fullname": "illo",
+  "ParentId": 678,
   "Children": [
     {
-      "HierarchyId": 638,
+      "HierarchyId": 180,
       "Domain": "Dashboards",
-      "Name": "Nader, Pacocha and Osinski",
-      "Fullname": "illo",
-      "ParentId": 811,
+      "Name": "Hilll, Stanton and Jones",
+      "Fullname": "sapiente",
+      "ParentId": 935,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-09-27T11:06:41.9103479+02:00",
-      "RegisteredAssociateId": 764,
-      "Updated": "2007-08-16T11:06:41.9103479+02:00",
-      "UpdatedAssociateId": 37,
+      "Registered": "2000-05-02T13:38:17.4524494+02:00",
+      "RegisteredAssociateId": 526,
+      "Updated": "2015-08-26T13:38:17.4524494+02:00",
+      "UpdatedAssociateId": 258,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 778
         }
       }
     }
   ],
-  "Registered": "2016-11-30T11:06:41.9103479+01:00",
-  "RegisteredAssociateId": 192,
-  "Updated": "2012-08-14T11:06:41.9103479+02:00",
-  "UpdatedAssociateId": 31,
+  "Registered": "2001-05-05T13:38:17.4524494+02:00",
+  "RegisteredAssociateId": 700,
+  "Updated": "2023-04-11T13:38:17.4524494+02:00",
+  "UpdatedAssociateId": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 91
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   }
 }

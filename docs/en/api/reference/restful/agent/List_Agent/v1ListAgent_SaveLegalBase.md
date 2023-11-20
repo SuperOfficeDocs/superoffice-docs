@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 957,
-  "Name": "Johnson, Roob and Torp",
-  "Tooltip": "nam",
-  "Rank": 518,
-  "Key": "distinctio",
+  "LegalBaseId": 340,
+  "Name": "Hauck-Welch",
+  "Tooltip": "dolorum",
+  "Rank": 337,
+  "Key": "doloribus",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldType": "System.Int32",
+      "FieldLength": 6
     }
   }
 }

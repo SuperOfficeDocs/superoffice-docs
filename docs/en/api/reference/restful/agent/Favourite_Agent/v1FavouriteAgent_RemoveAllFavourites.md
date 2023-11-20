@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "DuBuque, Daniel and Kuphal",
-  "AssociateId": 315
+  "TableName": "Schowalter, Dickens and Lockman",
+  "AssociateId": 281
 }
 ```
 

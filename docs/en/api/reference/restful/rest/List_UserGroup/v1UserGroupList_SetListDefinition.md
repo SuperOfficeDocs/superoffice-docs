@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 83,
-  "Name": "Hermann LLC",
-  "Tooltip": "ipsam",
+  "Id": 20,
+  "Name": "Barrows, Lind and Leuschke",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 640,
+  "Rank": 18,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "unde",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "expedita",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Wuckert Group",
-  "Tooltip": "maiores",
+  "Id": 496,
+  "Name": "Kuhic-Pollich",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 995,
-  "IsCustomList": false,
+  "Rank": 618,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
+  "ListType": "modi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 369
     }
   }
 }

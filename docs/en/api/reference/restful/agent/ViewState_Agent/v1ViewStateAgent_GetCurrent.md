@@ -85,7 +85,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Raynor, Brekke and Hartmann"
+  "HistoryName": "Rau, Luettgen and Purdy"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 155,
-  "Id": 41,
-  "HistoryName": "Torphy LLC",
-  "HistoryId": 977,
-  "AssociateId": 983,
-  "Name": "Lind LLC",
-  "ItemInfo": "omnis",
+  "Rank": 685,
+  "Id": 73,
+  "HistoryName": "Thompson, Littel and Hilpert",
+  "HistoryId": 538,
+  "AssociateId": 776,
+  "Name": "Kassulke Group",
+  "ItemInfo": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldType": "System.Int32",
+      "FieldLength": 859
     }
   }
 }

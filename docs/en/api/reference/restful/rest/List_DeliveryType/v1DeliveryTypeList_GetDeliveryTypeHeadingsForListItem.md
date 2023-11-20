@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "Strosin, Luettgen and Goldner",
-    "ToolTip": "Soluta eligendi eveniet.",
-    "Deleted": true,
-    "Rank": 906,
-    "Type": "harum",
-    "ColorBlock": 678,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2014-10-14T11:06:42.8034416+02:00",
+    "Id": 280,
+    "Name": "McKenzie LLC",
+    "ToolTip": "Provident quis quis.",
+    "Deleted": false,
+    "Rank": 113,
+    "Type": "dolor",
+    "ColorBlock": 867,
+    "IconHint": "ipsum",
+    "Selected": true,
+    "LastChanged": "2020-04-18T13:38:18.0462875+02:00",
     "ChildItems": [
       {
-        "Id": 303,
-        "Name": "Boehm-Kerluke",
-        "ToolTip": "Omnis ea labore numquam dolore ut quos unde.",
+        "Id": 539,
+        "Name": "Hettinger, Marks and Cummerata",
+        "ToolTip": "Aut quia nihil consequuntur.",
         "Deleted": false,
-        "Rank": 998,
-        "Type": "corporis",
-        "ColorBlock": 949,
-        "IconHint": "nam",
+        "Rank": 485,
+        "Type": "et",
+        "ColorBlock": 839,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "2001-01-25T11:06:42.8034416+01:00",
+        "LastChanged": "2010-07-01T13:38:18.0462875+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "sunt",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "minus",
         "Hidden": false,
-        "FullName": "Hayden Schuster",
+        "FullName": "Lelah Hoppe Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 82
+            "FieldLength": 688
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Cleta Toy",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "voluptate",
+    "Hidden": false,
+    "FullName": "Grayson Conn Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldLength": 985
       }
     }
   }

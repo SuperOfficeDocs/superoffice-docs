@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 512,
-    "Name": "Veum-Willms",
-    "ToolTip": "Autem totam veniam consectetur ducimus qui.",
-    "Deleted": false,
-    "Rank": 790,
-    "Type": "alias",
-    "ColorBlock": 770,
-    "IconHint": "amet",
+    "Id": 480,
+    "Name": "Marks Group",
+    "ToolTip": "Eum numquam quod aut quidem dignissimos temporibus.",
+    "Deleted": true,
+    "Rank": 11,
+    "Type": "magni",
+    "ColorBlock": 717,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "2012-09-06T11:06:43.0847005+02:00",
+    "LastChanged": "2000-04-08T13:38:18.2337719+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Schoen-Kozey",
-        "ToolTip": "Ratione nihil.",
+        "Id": 469,
+        "Name": "Kuhlman Inc and Sons",
+        "ToolTip": "Exercitationem labore reiciendis numquam sit commodi laborum.",
         "Deleted": false,
-        "Rank": 781,
-        "Type": "reprehenderit",
-        "ColorBlock": 305,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2006-09-24T11:06:43.0847005+02:00",
+        "Rank": 161,
+        "Type": "aut",
+        "ColorBlock": 404,
+        "IconHint": "dignissimos",
+        "Selected": true,
+        "LastChanged": "2012-06-22T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Fern Beatty"
+        "ExtraInfo": "in",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Sylvester Marta O'Reilly MD"
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "nisi",
     "Hidden": true,
-    "FullName": "Kaylee Sanford"
+    "FullName": "Ulices Considine"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Crona-Zulauf",
-    "ToolTip": "Dolor quam blanditiis nihil autem pariatur alias debitis.",
-    "Deleted": false,
-    "Rank": 621,
-    "Type": "placeat",
-    "ColorBlock": 942,
-    "IconHint": "qui",
+    "Id": 370,
+    "Name": "McLaughlin, Hane and O'Connell",
+    "ToolTip": "Ea et et quis dolor inventore.",
+    "Deleted": true,
+    "Rank": 484,
+    "Type": "ut",
+    "ColorBlock": 109,
+    "IconHint": "quae",
     "Selected": false,
-    "LastChanged": "2009-08-19T11:06:43.0847005+02:00",
+    "LastChanged": "2018-10-22T13:38:18.2493876+02:00",
     "ChildItems": [
       {
-        "Id": 126,
-        "Name": "Pagac-Leannon",
-        "ToolTip": "Recusandae est eaque.",
+        "Id": 931,
+        "Name": "Osinski LLC",
+        "ToolTip": "Eos quasi aut ut est expedita quaerat inventore.",
         "Deleted": false,
-        "Rank": 44,
-        "Type": "error",
-        "ColorBlock": 356,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2003-01-18T11:06:43.0847005+01:00",
+        "Rank": 726,
+        "Type": "quo",
+        "ColorBlock": 183,
+        "IconHint": "excepturi",
+        "Selected": false,
+        "LastChanged": "2019-12-15T13:38:18.2493876+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Prof. Allen Douglas",
+        "ExtraInfo": "fugit",
+        "StyleHint": "nisi",
+        "Hidden": true,
+        "FullName": "Dr. Leonie Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldLength": 457
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "commodi",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Woodrow Legros IV",
+    "FullName": "Marion Farrell II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 786
       }
     }
   }

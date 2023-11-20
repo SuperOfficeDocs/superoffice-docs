@@ -57,7 +57,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Notification?$select=updateType,isRecurring
+GET /api/v1/archive/Notification?$select=isSeen,updateType,isRecurring
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

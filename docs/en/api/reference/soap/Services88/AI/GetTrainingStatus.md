@@ -65,12 +65,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <AI:ContextIdentifier xsi:type="xsd:string"></AI:ContextIdentifier>
     <AI:Status xsi:type="xsd:string"></AI:Status>
     <AI:CurrentModel xsi:type="AI:CategorizationModelDetails">
-     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-10-31T10:03:38Z</AI:ModelBuiltDateTime>
+     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-11-10T12:35:35Z</AI:ModelBuiltDateTime>
      <AI:Accuracy xsi:type="xsd:double">0.0</AI:Accuracy>
      <AI:TicketCountForTraining xsi:type="xsd:int">0</AI:TicketCountForTraining>
     </AI:CurrentModel>
     <AI:PreviousModel xsi:type="AI:CategorizationModelDetails">
-     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-10-31T10:03:38Z</AI:ModelBuiltDateTime>
+     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-11-10T12:35:35Z</AI:ModelBuiltDateTime>
      <AI:Accuracy xsi:type="xsd:double">0.0</AI:Accuracy>
      <AI:TicketCountForTraining xsi:type="xsd:int">0</AI:TicketCountForTraining>
     </AI:PreviousModel>

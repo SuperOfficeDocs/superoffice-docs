@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 669
+  "Id": 961
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 613,
-  "Rank": 204,
-  "DefaultTask": 628,
-  "DefaultTaskText": "quisquam",
-  "IsVisual": true,
-  "LastGenerated": "2007-02-24T11:06:35.2708148+01:00",
-  "Description": "Balanced mission-critical projection",
-  "Name": "Beatty LLC",
-  "StatusMonitorId": 420,
-  "PictureId": 162,
-  "NeedsUpdate": true,
-  "Deleted": false,
-  "NumMatches": 541,
-  "NumNeedUpdate": 875,
-  "GenerationStart": "2016-12-17T11:06:35.2708148+01:00",
+  "OwnerTable": 578,
+  "Rank": 231,
+  "DefaultTask": 15,
+  "DefaultTaskText": "ipsam",
+  "IsVisual": false,
+  "LastGenerated": "2023-08-21T13:38:14.0615788+02:00",
+  "Description": "Streamlined tertiary extranet",
+  "Name": "Donnelly, Kerluke and Hagenes",
+  "StatusMonitorId": 964,
+  "PictureId": 816,
+  "NeedsUpdate": false,
+  "Deleted": true,
+  "NumMatches": 636,
+  "NumNeedUpdate": 215,
+  "GenerationStart": "1999-04-24T13:38:14.0615788+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 703
     }
   }
 }

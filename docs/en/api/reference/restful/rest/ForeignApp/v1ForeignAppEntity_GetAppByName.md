@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 18 Apr 2007 11:06:41 G4T
+Last-Modified: Sun, 24 Nov 2002 13:38:17 G11T
 
 {
-  "ForeignAppId": 324,
-  "Name": "Fay LLC",
-  "CreatedDate": "1999-11-09T11:06:41.8947242+01:00",
-  "UpdatedDate": "2007-04-18T11:06:41.8947242+02:00",
+  "ForeignAppId": 12,
+  "Name": "Jast, Keeling and Littel",
+  "CreatedDate": "2002-03-08T13:38:17.4368262+01:00",
+  "UpdatedDate": "2002-11-24T13:38:17.4368262+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 335,
-      "Name": "Klocko LLC",
-      "CreatedDate": "2020-12-13T11:06:41.8947242+01:00",
-      "UpdatedDate": "2022-07-18T11:06:41.8947242+02:00",
-      "AssociateFullName": "Rupert Jerde Jr.",
-      "CreatedBy": "laboriosam",
-      "UpdatedBy": "maxime",
-      "DeviceIdentifier": "facilis",
-      "ForeignAppId": 534,
+      "ForeignDeviceId": 510,
+      "Name": "Schiller LLC",
+      "CreatedDate": "2021-02-21T13:38:17.4368262+01:00",
+      "UpdatedDate": "2017-02-11T13:38:17.4368262+01:00",
+      "AssociateFullName": "Cayla Stanton",
+      "CreatedBy": "eius",
+      "UpdatedBy": "repellat",
+      "DeviceIdentifier": "consequatur",
+      "ForeignAppId": 608,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 203
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Wed, 18 Apr 2007 11:06:41 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 947
     }
   }
 }

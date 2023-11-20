@@ -123,27 +123,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 658,
-  "PlainMessage": "vel",
-  "HtmlMessage": "earum",
-  "SmsMessage": "alias",
-  "Description": "Automated multimedia utilisation",
-  "Subject": "soluta",
-  "FolderId": 495,
-  "HeaderField": "sunt",
-  "Design": "inventore",
+  "ShipmentMessageId": 628,
+  "PlainMessage": "dolorem",
+  "HtmlMessage": "sint",
+  "SmsMessage": "et",
+  "Description": "Stand-alone didactic solution",
+  "Subject": "deserunt",
+  "FolderId": 727,
+  "HeaderField": "voluptatum",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Horizontal static methodology",
-  "AccessKey": "rerum",
-  "DocumentMessage": 871,
-  "Registered": "2016-01-21T11:06:42.2228527+01:00",
-  "RegisteredAssociateId": 235,
-  "Updated": "2022-11-25T11:06:42.2228527+01:00",
-  "UpdatedAssociateId": 781,
-  "UpdatedCount": 511
+  "LongDescription": "Distributed 24/7 archive",
+  "AccessKey": "ipsa",
+  "DocumentMessage": 955,
+  "Registered": "1999-06-02T13:38:17.6711737+02:00",
+  "RegisteredAssociateId": 211,
+  "Updated": "2013-05-17T13:38:17.6711737+02:00",
+  "UpdatedAssociateId": 695,
+  "UpdatedCount": 796
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 158,
-  "PlainMessage": "omnis",
-  "HtmlMessage": "amet",
-  "SmsMessage": "architecto",
-  "Description": "Optional didactic hardware",
-  "Subject": "praesentium",
-  "FolderId": 443,
-  "HeaderField": "modi",
-  "Design": "alias",
+  "ShipmentMessageId": 729,
+  "PlainMessage": "facere",
+  "HtmlMessage": "suscipit",
+  "SmsMessage": "hic",
+  "Description": "Sharable uniform capability",
+  "Subject": "ea",
+  "FolderId": 837,
+  "HeaderField": "qui",
+  "Design": "voluptas",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Assimilated local synergy",
-  "AccessKey": "omnis",
-  "DocumentMessage": 956,
-  "Registered": "2009-12-11T11:06:42.2228527+01:00",
-  "RegisteredAssociateId": 810,
-  "Updated": "2018-08-05T11:06:42.2228527+02:00",
-  "UpdatedAssociateId": 434,
-  "UpdatedCount": 245,
+  "InlineImages": true,
+  "LongDescription": "Down-sized bottom-line architecture",
+  "AccessKey": "sunt",
+  "DocumentMessage": 915,
+  "Registered": "2010-10-02T13:38:17.6711737+02:00",
+  "RegisteredAssociateId": 790,
+  "Updated": "2012-12-21T13:38:17.6711737+01:00",
+  "UpdatedAssociateId": 528,
+  "UpdatedCount": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 782
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

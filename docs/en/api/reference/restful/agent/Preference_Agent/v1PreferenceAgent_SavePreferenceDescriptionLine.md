@@ -77,11 +77,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 739,
-  "PrefDescId": 559,
-  "PrefValue": "enim",
-  "PrefShowValue": "cupiditate",
-  "Description": "Multi-lateral well-modulated approach",
+  "PrefDescLineId": 307,
+  "PrefDescId": 29,
+  "PrefValue": "nihil",
+  "PrefShowValue": "id",
+  "Description": "Digitized client-server monitoring",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 225,
-  "PrefDescId": 115,
-  "PrefValue": "similique",
-  "PrefShowValue": "aliquid",
-  "Description": "User-centric modular leverage",
+  "PrefDescLineId": 147,
+  "PrefDescId": 820,
+  "PrefValue": "illo",
+  "PrefShowValue": "ipsam",
+  "Description": "Triple-buffered discrete matrix",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldType": "System.String",
+      "FieldLength": 406
     }
   }
 }

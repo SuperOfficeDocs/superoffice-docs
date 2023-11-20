@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
-  "Name": "Cassin LLC",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "UdListDefinitionId": 936,
-  "Rank": 686
+  "Id": 975,
+  "Name": "Blick, Frami and Sporer",
+  "Tooltip": "dicta",
+  "Deleted": true,
+  "UdListDefinitionId": 965,
+  "Rank": 572
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 873,
-  "Name": "Jakubowski, Boehm and Denesik",
-  "Tooltip": "ea",
+  "Id": 763,
+  "Name": "Herzog Group",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "UdListDefinitionId": 94,
-  "Rank": 316,
+  "UdListDefinitionId": 473,
+  "Rank": 360,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldLength": 342
     }
   }
 }

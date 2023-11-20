@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 497,
-    "ColumnId": 751,
-    "FieldDefault": "ab",
-    "FieldHeight": 240,
-    "FieldLabel": "sequi",
-    "FieldLeft": 720,
-    "FieldTop": 45,
+    "UDefFieldId": 10,
+    "ColumnId": 939,
+    "FieldDefault": "et",
+    "FieldHeight": 373,
+    "FieldLabel": "eum",
+    "FieldLeft": 893,
+    "FieldTop": 949,
     "FieldType": "Checkbox",
-    "FieldWidth": 550,
-    "FormatMask": "omnis",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 243,
-    "LabelLeft": 795,
-    "LabelTop": 481,
-    "LabelWidth": 722,
-    "LastVersionId": 947,
-    "ListTableId": 563,
-    "IsMandatory": false,
+    "FieldWidth": 463,
+    "FormatMask": "quidem",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 688,
+    "LabelLeft": 290,
+    "LabelTop": 405,
+    "LabelWidth": 526,
+    "LastVersionId": 35,
+    "ListTableId": 633,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 607,
-    "ProgId": "aut",
+    "Page1LineNo": 654,
+    "ProgId": "id",
     "IsReadOnly": false,
-    "ShortLabel": "a",
-    "TabOrder": 185,
-    "TextLength": 491,
-    "Tooltip": "ullam",
-    "UdefIdentity": 372,
-    "UDListDefinitionId": 975,
+    "ShortLabel": "est",
+    "TabOrder": 120,
+    "TextLength": 735,
+    "Tooltip": "eius",
+    "UdefIdentity": 753,
+    "UDListDefinitionId": 111,
     "Justification": "Center",
-    "Version": 193,
-    "TemplateVariableName": "Beatty-Greenfelder",
+    "Version": 884,
+    "TemplateVariableName": "Weissnat, Deckow and Waters",
     "HasBeenPublished": false,
-    "MdoListName": "Cole Inc and Sons",
+    "MdoListName": "Beatty LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 238
+        "FieldType": "System.Int32",
+        "FieldLength": 200
       }
     }
   }

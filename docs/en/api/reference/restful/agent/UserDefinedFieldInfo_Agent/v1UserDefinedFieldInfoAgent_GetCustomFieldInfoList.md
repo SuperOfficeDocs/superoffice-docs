@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuhlman-Cormier",
+  "TableName": "Dooley, Renner and Smith",
   "IncludeStandard": true
 }
 ```
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kassulke LLC",
-    "DisplayName": "Buckridge Inc and Sons",
-    "Description": "Stand-alone intermediate local area network",
-    "ShortLabel": "sequi",
+    "FieldName": "Walker-Anderson",
+    "DisplayName": "Lang-Lebsack",
+    "Description": "Total logistical internet solution",
+    "ShortLabel": "impedit",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
+    "HideField": true,
+    "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 181,
-    "TemplateVariableName": "West LLC"
+    "IsExternal": true,
+    "Rank": 667,
+    "TemplateVariableName": "Ritchie Inc and Sons"
   }
 ]
 ```

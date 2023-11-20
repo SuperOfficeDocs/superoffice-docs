@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 612,
+  "SelectionId": 585,
   "SelectionMemberIds": [
-    502,
-    890
+    321,
+    567
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fundamental clear-thinking extranet",
-  "Postit": "ipsum",
+  "Description": "Streamlined human-resource project",
+  "Postit": "nisi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 737,
-  "IncludePerson": 652,
-  "MemberCount": 202,
-  "Name": "Langworth, Harvey and Frami",
-  "PostitTextId": 126,
-  "CreatedDate": "2018-01-11T11:06:35.3801953+01:00",
-  "SelectionId": 686,
-  "SoundEx": "voluptatibus",
-  "Source": 888,
-  "TextId": 754,
-  "UpdatedDate": "2005-08-13T11:06:35.3801953+02:00",
-  "UpdatedCount": 778,
-  "Visibility": 981,
+  "GroupIdx": 127,
+  "IncludePerson": 888,
+  "MemberCount": 914,
+  "Name": "Lueilwitz LLC",
+  "PostitTextId": 623,
+  "CreatedDate": "2014-04-17T13:38:14.1396943+02:00",
+  "SelectionId": 747,
+  "SoundEx": "eveniet",
+  "Source": 548,
+  "TextId": 836,
+  "UpdatedDate": "2018-06-27T13:38:14.1396943+02:00",
+  "UpdatedCount": 483,
+  "Visibility": 319,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 813,
-  "TargetTableName": "Schultz-Shanahan",
-  "Completed": true,
-  "LeftSelectionId": 401,
-  "RightSelectionId": 697,
+  "TargetTableNumber": 682,
+  "TargetTableName": "Graham LLC",
+  "Completed": false,
+  "LeftSelectionId": 510,
+  "RightSelectionId": 383,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mills-Kovacek",
-  "ShadowProviderName": "Satterfield, Gottlieb and Sawayn",
-  "ChartKey": "voluptas",
-  "LastLoaded": "2021-12-04T11:06:35.3801953+01:00",
-  "LastLoadedBy": 228,
+  "MainProviderName": "Willms, Kshlerin and Luettgen",
+  "ShadowProviderName": "Balistreri, Fritsch and Weber",
+  "ChartKey": "at",
+  "LastLoaded": "2021-10-31T13:38:14.1396943+01:00",
+  "LastLoadedBy": 127,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-03-01T11:06:35.3801953+01:00",
-  "LastMembershipChangeBy": 918,
+  "LastMembershipChange": "1998-08-20T13:38:14.1396943+02:00",
+  "LastMembershipChangeBy": 826,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "temporibus",
-  "MemberTabHeading": "sint",
-  "MailingsProviderName": "Mann, Bailey and Steuber",
-  "DashboardTileDefinitionId": 500,
+  "MainHeading": "ut",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Simonis, Ebert and Haag",
+  "DashboardTileDefinitionId": 243,
   "VisibleFor": [
     {
-      "VisibleId": 873,
+      "VisibleId": 928,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldType": "System.String",
+          "FieldLength": 858
         }
       }
     },
     {
-      "VisibleId": 873,
+      "VisibleId": 928,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldType": "System.String",
+          "FieldLength": 858
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 949
     }
   }
 }

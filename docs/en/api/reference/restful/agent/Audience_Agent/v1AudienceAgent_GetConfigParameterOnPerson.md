@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Schiller Group",
-  "PersonId": 5
+  "ParameterName": "Fisher-Boehm",
+  "PersonId": 439
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 374,
-  "Name": "Schamberger Inc and Sons",
-  "Value": "aliquid",
-  "CreatedDate": "2022-05-26T11:06:33.7816525+02:00",
-  "UpdatedDate": "2003-08-31T11:06:33.7816525+02:00",
-  "CreatedBy": "maxime",
-  "UpdatedBy": "similique",
+  "AudienceLayoutId": 459,
+  "Name": "O'Hara Group",
+  "Value": "illo",
+  "CreatedDate": "2010-04-20T13:38:13.0771703+02:00",
+  "UpdatedDate": "2015-03-09T13:38:13.0771703+01:00",
+  "CreatedBy": "vel",
+  "UpdatedBy": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldLength": 357
     }
   }
 }

@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Senger-King",
-  "ResourceValues": "amet",
-  "Culture": "officiis",
-  "IsActive": false
+  "ResourceName": "Larkin-Jakubowski",
+  "ResourceValues": "rem",
+  "Culture": "iure",
+  "IsActive": true
 }
 ```
 

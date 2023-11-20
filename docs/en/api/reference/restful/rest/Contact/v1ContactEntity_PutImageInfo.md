@@ -97,19 +97,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 284,
-  "BlobSize": 77,
-  "Description": "Stand-alone mobile initiative",
-  "ExtraInfo": "aut",
-  "IsEncrypted": true,
+  "BlobId": 810,
+  "BlobSize": 630,
+  "Description": "Adaptive foreground emulation",
+  "ExtraInfo": "vel",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "aperiam",
-  "OriginalSize": 793,
-  "CreatedDate": "2021-05-28T11:06:41.5666165+02:00",
-  "UpdatedDate": "2022-05-12T11:06:41.5666165+02:00",
+  "MimeType": "ratione",
+  "OriginalSize": 641,
+  "CreatedDate": "1999-08-29T13:38:17.2024711+02:00",
+  "UpdatedDate": "2004-06-16T13:38:17.2024711+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolores"
+  "ConceptualType": "rerum"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 754,
-  "BlobSize": 805,
-  "Description": "Reverse-engineered bifurcated attitude",
-  "ExtraInfo": "assumenda",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "incidunt",
-  "OriginalSize": 841,
-  "CreatedDate": "2023-09-08T11:06:41.5666165+02:00",
-  "UpdatedDate": "2016-07-28T11:06:41.5666165+02:00",
+  "BlobId": 275,
+  "BlobSize": 51,
+  "Description": "Automated optimizing core",
+  "ExtraInfo": "dolorem",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "dolorem",
+  "OriginalSize": 169,
+  "CreatedDate": "1998-02-15T13:38:17.2024711+01:00",
+  "UpdatedDate": "1997-11-26T13:38:17.2024711+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nulla",
+  "ConceptualType": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldLength": 972
     }
   }
 }

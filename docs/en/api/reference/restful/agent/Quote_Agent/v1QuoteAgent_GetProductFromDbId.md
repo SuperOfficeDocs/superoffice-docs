@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 634
+  "ProductId": 768
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 871,
-  "ERPProductKey": "nostrum",
-  "ERPPriceListKey": "aperiam",
-  "Name": "Reichert-Larkin",
-  "Description": "Reduced leading edge task-force",
-  "Code": "repudiandae",
-  "PriceUnit": "architecto",
-  "QuantityUnit": "ex",
-  "IsSubscription": true,
-  "SubscriptionUnit": "in",
-  "DefaultSubscriptionQuantity": 742.75799999999992,
-  "ItemNumber": "1335674",
+  "ProductId": 810,
+  "ERPProductKey": "maiores",
+  "ERPPriceListKey": "ad",
+  "Name": "Koepp-Spinka",
+  "Description": "Proactive full-range conglomeration",
+  "Code": "fugiat",
+  "PriceUnit": "impedit",
+  "QuantityUnit": "mollitia",
+  "IsSubscription": false,
+  "SubscriptionUnit": "enim",
+  "DefaultSubscriptionQuantity": 3108.928,
+  "ItemNumber": "1254989",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "iure",
-  "ProductTypeKey": "voluptatum",
-  "VAT": 22417.502,
-  "VATInfo": "harum",
-  "UnitCost": 30926.311999999998,
-  "UnitMinimumPrice": 20646.791999999998,
-  "UnitListPrice": 955.87,
-  "InAssortment": true,
-  "Supplier": "qui",
-  "SupplierCode": "perferendis",
-  "Rights": "sed",
-  "Rule": "mollitia",
+  "ProductFamilyKey": "provident",
+  "ProductTypeKey": "fugit",
+  "VAT": 6029.816,
+  "VATInfo": "excepturi",
+  "UnitCost": 1751.906,
+  "UnitMinimumPrice": 6318.144,
+  "UnitListPrice": 15068.271999999999,
+  "InAssortment": false,
+  "Supplier": "nisi",
+  "SupplierCode": "debitis",
+  "Rights": "suscipit",
+  "Rule": "voluptatibus",
   "ExtraInfo": [
     {
-      "Name": "Gutmann Group",
-      "Value": "voluptas",
+      "Name": "Von-Crooks",
+      "Value": "nam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldType": "System.String",
+          "FieldLength": 30
         }
       }
     },
     {
-      "Name": "Gutmann Group",
-      "Value": "voluptas",
+      "Name": "Von-Crooks",
+      "Value": "nam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldType": "System.String",
+          "FieldLength": 30
         }
       }
     }
   ],
-  "RawExtraInfo": "aliquam",
-  "ExtraField1": "dolore",
-  "ExtraField2": "amet",
-  "ExtraField3": "dolores",
-  "ExtraField4": "aliquam",
-  "ExtraField5": "molestiae",
-  "InStock": 332.204,
+  "RawExtraInfo": "accusantium",
+  "ExtraField1": "saepe",
+  "ExtraField2": "odit",
+  "ExtraField3": "eum",
+  "ExtraField4": "facere",
+  "ExtraField5": "minus",
+  "InStock": 5528.376,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldLength": 235
     }
   }
 }

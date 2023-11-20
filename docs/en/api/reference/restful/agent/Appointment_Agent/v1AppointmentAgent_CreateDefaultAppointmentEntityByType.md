@@ -103,7 +103,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -149,125 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-09-02T11:06:33.5694871+02:00",
-  "AppointmentId": 850,
-  "Description": "Extended multi-tasking pricing structure",
-  "StartDate": "2012-11-08T11:06:33.5694871+01:00",
-  "EndDate": "2019-10-14T11:06:33.5694871+02:00",
+  "CreatedDate": "2000-08-12T13:38:12.9365582+02:00",
+  "AppointmentId": 431,
+  "Description": "Compatible holistic infrastructure",
+  "StartDate": "2012-04-12T13:38:12.9365582+02:00",
+  "EndDate": "2011-05-20T13:38:12.9365582+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 34,
+  "MotherId": 867,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-04-17T11:06:33.5694871+02:00",
+  "UpdatedDate": "2010-05-01T13:38:12.9365582+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 563,
+  "ActiveLinks": 698,
   "Links": [
     {
-      "EntityName": "Padberg, Schmeler and Braun",
-      "Id": 292,
-      "Description": "Inverse web-enabled database",
-      "ExtraInfo": "ab",
-      "LinkId": 53,
+      "EntityName": "Armstrong, O'Hara and Zulauf",
+      "Id": 252,
+      "Description": "User-friendly responsive parallelism",
+      "ExtraInfo": "consequatur",
+      "LinkId": 899,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 355
+          "FieldLength": 688
         }
       }
     }
   ],
-  "AlarmLeadTime": "totam",
+  "AlarmLeadTime": "aut",
   "HasAlarm": false,
-  "ColorIndex": 578,
-  "IsFree": false,
+  "ColorIndex": 688,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "totam",
-  "LeadTime": "molestias",
-  "Location": "fugiat",
-  "RejectCounter": 879,
+  "LagTime": "accusantium",
+  "LeadTime": "cumque",
+  "Location": "hic",
+  "RejectCounter": 983,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 976,
-      "PersonId": 271,
-      "ContactId": 612,
-      "EmailId": 538,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 976,
-      "PersonId": 271,
-      "ContactId": 612,
-      "EmailId": 538,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 735,
+      "PersonId": 189,
+      "ContactId": 571,
+      "EmailId": 727,
+      "SendEmail": true,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "deontae.crona@kassulke.name",
+      "Description": "Persevering homogeneous orchestration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-06-01T11:06:33.5694871+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2019-07-31T13:38:12.9365582+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 944,
+  "PreferredTZLocation": 869,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 384,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 207,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "pariatur",
-  "Title": "quae",
-  "Agenda": "ad",
-  "InternalNotes": "cum",
+  "CentralserviceVideomeetId": "est",
+  "Title": "eum",
+  "Agenda": "enim",
+  "InternalNotes": "eum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Aric Zulauf",
-    "SuperOffice:2": "Mrs. Maximus Huels V"
+    "SuperOffice:1": "Kade Thompson",
+    "SuperOffice:2": "Kenyon Mohr"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "in"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "veniam"
+    "CustomFields1": "tempore",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2014-03-21T11:06:33.5694871+01:00",
-  "PublishTo": "1999-01-04T11:06:33.5694871+01:00",
-  "PublishFrom": "2016-04-05T11:06:33.5694871+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-12-25T13:38:12.9365582+01:00",
+  "PublishTo": "2018-04-29T13:38:12.9365582+02:00",
+  "PublishFrom": "2008-06-03T13:38:12.9365582+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 425,
+      "VisibleId": 767,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 583
+          "FieldLength": 356
         }
       }
     },
     {
-      "VisibleId": 425,
+      "VisibleId": 767,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 583
+          "FieldLength": 356
         }
       }
     }
@@ -277,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldLength": 125
     }
   }
 }

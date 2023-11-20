@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 715,
-    "Name": "Stroman-Harris",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 849,
-    "UdListDefinitionId": 862
+    "HeadingId": 102,
+    "Name": "Renner LLC",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "Rank": 567,
+    "UdListDefinitionId": 285
   },
   {
-    "HeadingId": 715,
-    "Name": "Stroman-Harris",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 849,
-    "UdListDefinitionId": 862
+    "HeadingId": 102,
+    "Name": "Renner LLC",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "Rank": 567,
+    "UdListDefinitionId": 285
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 36,
-    "Name": "Stracke-Larkin",
-    "Tooltip": "expedita",
+    "HeadingId": 983,
+    "Name": "Boyle-Jacobi",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 376,
-    "UdListDefinitionId": 239,
+    "Rank": 530,
+    "UdListDefinitionId": 634,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 365
       }
     }
   }

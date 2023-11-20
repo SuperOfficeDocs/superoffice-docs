@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 771,
-  "Name": "Dickinson, Harvey and Barton",
-  "Tooltip": "asperiores",
-  "Rank": 684,
+  "ProjTypeId": 739,
+  "Name": "Hessel, Haley and Rolfson",
+  "Tooltip": "iusto",
+  "Rank": 783,
   "DurationUnit": "Century",
-  "ProjectDuration": 396,
-  "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": true,
+  "ProjectDuration": 187,
+  "Deleted": true,
+  "HasGuide": false,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 113,
-      "Name": "Stehr Inc and Sons",
-      "ToolTip": "Enim consectetur unde non porro molestiae blanditiis.",
+      "Id": 249,
+      "Name": "Harvey Group",
+      "ToolTip": "Velit iure quam est repellat in eos.",
       "Deleted": false,
-      "Rank": 810,
-      "Type": "sint",
-      "ColorBlock": 15,
-      "IconHint": "maxime",
+      "Rank": 704,
+      "Type": "ut",
+      "ColorBlock": 305,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2022-03-03T11:06:34.7551834+01:00",
+      "LastChanged": "2000-02-25T13:38:13.7177215+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magni",
-      "StyleHint": "quia",
+      "ExtraInfo": "numquam",
+      "StyleHint": "laborum",
       "Hidden": false,
-      "FullName": "Queenie Murphy",
+      "FullName": "Mrs. Arnold Orin Mohr MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldType": "System.String",
+          "FieldLength": 862
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 543
     }
   }
 }

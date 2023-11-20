@@ -80,27 +80,27 @@ Content-Type: application/json; charset=utf-8
       "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": true,
-      "IsActive": false,
-      "Key": "consectetur",
-      "ValueType": "quisquam",
-      "Mandatory": false,
-      "EncodedDisplayName": "Hagenes Inc and Sons",
-      "EncodedDisplayDescription": "Enhanced 24 hour implementation",
-      "IconHint": "minus",
+      "IsActive": true,
+      "Key": "et",
+      "ValueType": "facilis",
+      "Mandatory": true,
+      "EncodedDisplayName": "Turcotte, Cruickshank and Reilly",
+      "EncodedDisplayDescription": "Integrated radical website",
+      "IconHint": "perferendis",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "quas",
-      "EncodedDataCaptionDescription": "Progressive dedicated Graphic Interface",
-      "CurrentOperationType": "nihil",
+      "EncodedDataCaption": "sed",
+      "EncodedDataCaptionDescription": "Business-focused client-driven structure",
+      "CurrentOperationType": "repellendus",
       "Values": [
-        "numquam",
-        "reprehenderit"
+        "suscipit",
+        "facilis"
       ],
       "DisplayValues": [
-        "aliquam",
-        "sit"
+        "et",
+        "dolore"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Homenick, Lang and Hauck",
-  "Context": "et",
-  "Ids": "nihil"
+  "TableName": "Volkman, Hackett and Kautzer",
+  "Context": "aliquid",
+  "Ids": "nemo"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-78
+73
 ```

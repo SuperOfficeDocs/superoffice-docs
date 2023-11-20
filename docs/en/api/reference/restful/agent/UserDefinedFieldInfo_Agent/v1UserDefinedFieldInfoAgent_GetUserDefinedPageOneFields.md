@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 935
+  "UserGroupId": 224
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 381,
-    "ColumnId": 279,
-    "FieldDefault": "distinctio",
-    "FieldHeight": 161,
-    "FieldLabel": "ab",
-    "FieldLeft": 153,
-    "FieldTop": 737,
+    "UDefFieldId": 560,
+    "ColumnId": 674,
+    "FieldDefault": "voluptas",
+    "FieldHeight": 894,
+    "FieldLabel": "natus",
+    "FieldLeft": 234,
+    "FieldTop": 331,
     "FieldType": "Checkbox",
-    "FieldWidth": 932,
-    "FormatMask": "aut",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 135,
-    "LabelLeft": 68,
-    "LabelTop": 995,
-    "LabelWidth": 564,
-    "LastVersionId": 135,
-    "ListTableId": 438,
-    "IsMandatory": true,
+    "FieldWidth": 317,
+    "FormatMask": "veniam",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 669,
+    "LabelLeft": 593,
+    "LabelTop": 537,
+    "LabelWidth": 206,
+    "LastVersionId": 162,
+    "ListTableId": 298,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 666,
-    "ProgId": "est",
-    "IsReadOnly": true,
-    "ShortLabel": "officia",
-    "TabOrder": 677,
-    "TextLength": 404,
-    "Tooltip": "at",
-    "UdefIdentity": 820,
-    "UDListDefinitionId": 533,
+    "Page1LineNo": 793,
+    "ProgId": "quidem",
+    "IsReadOnly": false,
+    "ShortLabel": "odio",
+    "TabOrder": 886,
+    "TextLength": 913,
+    "Tooltip": "harum",
+    "UdefIdentity": 380,
+    "UDListDefinitionId": 22,
     "Justification": "Center",
-    "Version": 794,
-    "TemplateVariableName": "Bradtke LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Auer, Leannon and Harvey",
+    "Version": 669,
+    "TemplateVariableName": "Gleason, Runolfsdottir and Mills",
+    "HasBeenPublished": false,
+    "MdoListName": "Champlin Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 934
       }
     }
   }

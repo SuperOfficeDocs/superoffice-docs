@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "voluptate"
+  "ChartId": "est"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 515,
-  "Caption": "et",
-  "Description": "Ergonomic incremental customer loyalty",
-  "ChartName": "Kreiger-Hermiston",
-  "ChartId": "beatae",
+  "DashboardTileId": 822,
+  "Caption": "occaecati",
+  "Description": "Monitored leading edge hub",
+  "ChartName": "Nicolas-Wiza",
+  "ChartId": "quis",
   "IsDefault": false,
-  "AssociateId": 163,
-  "GroupId": 565,
-  "SelectionId": 805,
-  "Config": "voluptate",
+  "AssociateId": 503,
+  "GroupId": 290,
+  "SelectionId": 63,
+  "Config": "amet",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Moen Inc and Sons",
-      "Description": "Digitized client-server focus group",
+      "Name": "Lebsack Inc and Sons",
+      "Description": "Configurable neutral interface",
       "Type": "Boolean",
-      "ListName": "Greenholt, Donnelly and Bartell",
+      "ListName": "Wisozk, Douglas and Johnston",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nesciunt",
+      "Value": "corporis",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 583
+          "FieldType": "System.Int32",
+          "FieldLength": 7
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 953,
+      "VisibleId": 100,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldType": "System.String",
+          "FieldLength": 950
         }
       }
     },
     {
-      "VisibleId": 953,
+      "VisibleId": 100,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldType": "System.String",
+          "FieldLength": 950
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 357
     }
   }
 }

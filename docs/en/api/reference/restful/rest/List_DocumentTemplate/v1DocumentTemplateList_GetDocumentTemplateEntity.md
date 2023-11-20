@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 264,
-  "Name": "Dooley, Gulgowski and Gislason",
-  "Tooltip": "aut",
-  "SaveInDb": 315,
-  "Filename": "aut",
-  "DefaultOref": "optio",
+  "DocumentTemplateId": 490,
+  "Name": "Koch LLC",
+  "Tooltip": "et",
+  "SaveInDb": 965,
+  "Filename": "repellat",
+  "DefaultOref": "quod",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 544,
-  "IntentId": 455,
+  "AutoeventId": 447,
+  "IntentId": 241,
   "IsDefaultPublished": false,
-  "Rank": 371,
-  "LoadTemplateFromPlugin": 939,
-  "MimeType": "ut",
+  "Rank": 762,
+  "LoadTemplateFromPlugin": 888,
+  "MimeType": "laudantium",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 552,
+  "DocumentTypeKey": 595,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "louvenia.walsh@fadelbrown.info",
-  "IncludeSignature": false,
+  "EmailSubject": "julian.runte@wolff.com",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "angelita_feest@hartmann.us",
+  "SenderEmailAddress": "jerad@pagac.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 364
+      "FieldType": "System.Int32",
+      "FieldLength": 961
     }
   }
 }

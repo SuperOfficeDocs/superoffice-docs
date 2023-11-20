@@ -82,16 +82,16 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 92,
-  "Name": "McDermott-Roob",
-  "Tooltip": "ea",
-  "Rank": 588,
-  "Rate": 19455.872,
-  "Units": 27760.971999999998,
+  "CurrencyId": 728,
+  "Name": "Fadel Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 163,
+  "Rate": 10608.59,
+  "Units": 9145.0119999999988,
   "Deleted": true
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 761,
-  "Name": "Sawayn LLC",
-  "Tooltip": "atque",
-  "Rank": 253,
-  "Rate": 9376.928,
-  "Units": 26607.66,
+  "CurrencyId": 352,
+  "Name": "King-Abbott",
+  "Tooltip": "animi",
+  "Rank": 611,
+  "Rate": 4055.3959999999997,
+  "Units": 17973.489999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 819
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Mills Inc and Sons",
-    "ToolTip": "Voluptatum eaque odio sint neque quia.",
-    "Deleted": true,
-    "Rank": 843,
-    "Type": "odio",
-    "ColorBlock": 329,
-    "IconHint": "quia",
+    "Id": 651,
+    "Name": "Jaskolski, Berge and Conn",
+    "ToolTip": "Eveniet saepe voluptatum est fuga officia adipisci et.",
+    "Deleted": false,
+    "Rank": 857,
+    "Type": "fugiat",
+    "ColorBlock": 773,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2011-09-16T11:06:42.6471966+02:00",
+    "LastChanged": "2007-10-07T13:38:17.8900531+02:00",
     "ChildItems": [
       {
-        "Id": 36,
-        "Name": "Haag-Schultz",
-        "ToolTip": "Ratione reprehenderit reprehenderit vitae dolores atque distinctio est.",
-        "Deleted": true,
-        "Rank": 506,
-        "Type": "et",
-        "ColorBlock": 273,
-        "IconHint": "atque",
-        "Selected": false,
-        "LastChanged": "2023-03-30T11:06:42.6471966+02:00",
+        "Id": 218,
+        "Name": "Runolfsdottir, Terry and Kuhn",
+        "ToolTip": "Rerum enim et nihil veritatis consequatur.",
+        "Deleted": false,
+        "Rank": 192,
+        "Type": "omnis",
+        "ColorBlock": 908,
+        "IconHint": "neque",
+        "Selected": true,
+        "LastChanged": "2020-12-10T13:38:17.8900531+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Kira Sanford Prosacco I"
+        "FullName": "Silas VonRueden"
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "corporis",
-    "Hidden": false,
-    "FullName": "Ms. Vena Alejandrin Raynor"
+    "ExtraInfo": "ipsa",
+    "StyleHint": "vero",
+    "Hidden": true,
+    "FullName": "Mr. Jaunita Jettie Pagac"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Veum-Haag",
-    "ToolTip": "Deleniti aliquid rem.",
-    "Deleted": false,
-    "Rank": 958,
-    "Type": "fugiat",
-    "ColorBlock": 797,
-    "IconHint": "incidunt",
+    "Id": 414,
+    "Name": "Schaefer Group",
+    "ToolTip": "Sit sed.",
+    "Deleted": true,
+    "Rank": 375,
+    "Type": "autem",
+    "ColorBlock": 36,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "2021-06-24T11:06:42.6471966+02:00",
+    "LastChanged": "2012-12-30T13:38:17.8900531+01:00",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "Kuhlman Group",
-        "ToolTip": "Velit doloribus animi rerum dignissimos architecto.",
-        "Deleted": true,
-        "Rank": 122,
-        "Type": "eaque",
-        "ColorBlock": 96,
-        "IconHint": "enim",
+        "Id": 407,
+        "Name": "Breitenberg Group",
+        "ToolTip": "Voluptas ab et eius consequatur.",
+        "Deleted": false,
+        "Rank": 454,
+        "Type": "consequatur",
+        "ColorBlock": 657,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2006-09-10T11:06:42.6471966+02:00",
+        "LastChanged": "2004-09-03T13:38:17.8900531+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "laborum",
+        "ExtraInfo": "et",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Jazmyne Ryan",
+        "FullName": "Ervin Alexander Berge Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 818
+            "FieldLength": 628
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "placeat",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Raoul Irving Kessler II",
+    "FullName": "Lois Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldLength": 316
       }
     }
   }

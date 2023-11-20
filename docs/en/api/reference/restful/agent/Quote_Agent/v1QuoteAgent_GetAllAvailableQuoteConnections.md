@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 841,
-    "ERPName": "Buckridge, Friesen and Dooley",
-    "DisplayName": "Hintz, Deckow and McKenzie",
-    "DisplayDescription": "Configurable assymetric architecture",
-    "Rank": 686,
-    "ConnectorName": "Wintheiser, Buckridge and Feeney",
-    "ErpConnectionId": 234,
-    "ExtraData": "qui",
+    "QuoteConnectionId": 51,
+    "ERPName": "Hyatt-Hessel",
+    "DisplayName": "Kshlerin LLC",
+    "DisplayDescription": "Cross-platform homogeneous frame",
+    "Rank": 16,
+    "ConnectorName": "Nader, Jaskolski and Grant",
+    "ErpConnectionId": 893,
+    "ExtraData": "eligendi",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 568,
-        "ERPPriceListKey": "quia",
-        "QuoteConnectionId": 115,
-        "Name": "Rippin Group",
-        "Description": "Re-engineered needs-based migration",
-        "Currency": "et",
-        "CurrencyName": "Cruickshank, Kuphal and Langworth",
-        "ValidFrom": "2005-04-07T11:06:35.2239506+02:00",
-        "ValidTo": "1996-12-16T11:06:35.2239506+01:00",
-        "IsActive": true,
+        "PriceListId": 468,
+        "ERPPriceListKey": "cum",
+        "QuoteConnectionId": 9,
+        "Name": "Flatley Group",
+        "Description": "Secured user-facing encoding",
+        "Currency": "quas",
+        "CurrencyName": "Botsford Inc and Sons",
+        "ValidFrom": "2008-03-10T13:38:14.0303322+01:00",
+        "ValidTo": "2015-02-27T13:38:14.0303322+01:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 595
+            "FieldType": "System.Int32",
+            "FieldLength": 87
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      235,
-      640
+      808,
+      101
     ],
     "AssociateAccessIds": [
-      126,
-      609
+      475,
+      496
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldLength": 955
       }
     }
   }

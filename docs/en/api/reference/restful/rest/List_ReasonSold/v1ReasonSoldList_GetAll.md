@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Wolff, Waters and D'Amore",
-    "Tooltip": "modi",
+    "Id": 660,
+    "Name": "Rutherford-Ledner",
+    "Tooltip": "nam",
     "Deleted": true,
-    "UdListDefinitionId": 649,
-    "Rank": 124,
+    "UdListDefinitionId": 902,
+    "Rank": 151,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 366
+        "FieldType": "System.Int32",
+        "FieldLength": 700
       }
     }
   }

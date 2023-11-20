@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 520,
-  "Name": "Hickle-Schmidt",
-  "Tooltip": "impedit",
+  "Id": 129,
+  "Name": "Hane, Schmeler and Oberbrunner",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 326,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 982,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempora",
+  "ListType": "doloremque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldLength": 259
     }
   },
   "_Links": {

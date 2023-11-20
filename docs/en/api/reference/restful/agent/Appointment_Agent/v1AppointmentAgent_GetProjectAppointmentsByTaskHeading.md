@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -134,11 +135,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 632,
-  "StartTime": "2014-07-07T11:06:33.4444886+02:00",
-  "EndTime": "1997-09-23T11:06:33.4444886+02:00",
-  "Count": 601,
-  "TaskHeadingId": 793
+  "ProjectId": 781,
+  "StartTime": "2007-07-03T13:38:12.8428246+02:00",
+  "EndTime": "2005-09-18T13:38:12.8428246+02:00",
+  "Count": 891,
+  "TaskHeadingId": 252
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 174,
-    "StartDate": "1996-10-29T11:06:33.4444886+01:00",
-    "EndDate": "2009-09-12T11:06:33.4444886+02:00",
+    "AppointmentId": 190,
+    "StartDate": "2008-07-17T13:38:12.8428246+02:00",
+    "EndDate": "2011-07-18T13:38:12.8428246+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Dr. Ashlee Nestor Wolf MD",
-    "ContactName": "Bode-Trantow",
-    "Description": "Optional context-sensitive initiative",
-    "PersonFullName": "Chester Streich",
-    "PersonId": 681,
-    "ContactId": 427,
-    "ProjectId": 583,
-    "ProjectName": "Bashirian Inc and Sons",
+    "Task": "sint",
+    "AssociateFullName": "Dr. Carey Elissa Ledner V",
+    "ContactName": "Boyle Group",
+    "Description": "Distributed grid-enabled analyzer",
+    "PersonFullName": "Cathryn Harvey",
+    "PersonId": 536,
+    "ContactId": 185,
+    "ProjectId": 961,
+    "ProjectName": "Veum-Schamberger",
     "IsPublished": true,
-    "AssociateId": 723,
-    "ColorIndex": 462,
-    "IsFree": false,
-    "HasAlarm": true,
+    "AssociateId": 728,
+    "ColorIndex": 948,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 476,
-    "PriorityName": "Senger-Kassulke",
+    "PriorityId": 19,
+    "PriorityName": "Marvin, Lindgren and Schumm",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2000-04-06T11:06:33.4444886+02:00",
+    "ActiveDate": "2015-08-17T13:38:12.8584402+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-07-19T11:06:33.4444886+02:00",
-    "RecurringEndDate": "2016-04-02T11:06:33.4444886+02:00",
-    "MotherId": 30,
-    "AssignedBy": 580,
-    "AssignedByFullName": "Bradly Schumm",
+    "RecurringStartDate": "2014-02-11T13:38:12.8584402+01:00",
+    "RecurringEndDate": "2008-05-15T13:38:12.8584402+02:00",
+    "MotherId": 10,
+    "AssignedBy": 150,
+    "AssignedByFullName": "Estelle Jed Sauer Sr.",
     "RejectReason": "",
-    "Location": "quia",
-    "AlarmLeadTime": "placeat",
-    "SaleId": 91,
-    "SaleName": "Schmidt, Quitzon and Dickens",
-    "AssociateName": "Rohan, Mueller and Batz",
-    "CreatedDate": "2023-04-22T11:06:33.4444886+02:00",
-    "CreatedBy": "corporis",
-    "CreatedByFullName": "Karelle Hills",
-    "CreatedByAssociateId": 729,
+    "Location": "sint",
+    "AlarmLeadTime": "dicta",
+    "SaleId": 261,
+    "SaleName": "Rempel, Nolan and Lind",
+    "AssociateName": "Jast LLC",
+    "CreatedDate": "2006-09-18T13:38:12.8584402+02:00",
+    "CreatedBy": "ipsam",
+    "CreatedByFullName": "Dr. Jessy Marjorie Feil DDS",
+    "CreatedByAssociateId": 833,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "aut",
-    "Agenda": "sint",
-    "InternalNotes": "ut",
+    "PreferredTZLocation": 236,
+    "Title": "dolor",
+    "Agenda": "est",
+    "InternalNotes": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldType": "System.String",
+        "FieldLength": 672
       }
     }
   }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 420,
-  "Name": "Reichert Group",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 245,
-  "Rank": 728
+  "Id": 547,
+  "Name": "Ebert Inc and Sons",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 725,
+  "Rank": 643
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 457,
-  "Name": "Carter Inc and Sons",
-  "Tooltip": "est",
+  "Id": 577,
+  "Name": "Lang, Ullrich and Cartwright",
+  "Tooltip": "qui",
   "Deleted": true,
-  "UdListDefinitionId": 271,
-  "Rank": 131,
+  "UdListDefinitionId": 522,
+  "Rank": 243,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldType": "System.Int32",
+      "FieldLength": 177
     }
   }
 }

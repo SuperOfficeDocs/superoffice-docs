@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 636,
-  "Name": "Hermann-Considine",
-  "Tooltip": "quia",
-  "Rank": 635,
+  "SaleTypeId": 213,
+  "Name": "Mueller-Donnelly",
+  "Tooltip": "aut",
+  "Rank": 482,
   "DurationUnit": "Century",
-  "SaleDuration": 945,
-  "SaleTypeCatId": 530,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 307,
-  "QuoteLinesTemplate": 764,
-  "ConfirmationLinesTemplate": 860,
+  "SaleDuration": 588,
+  "SaleTypeCatId": 561,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 315,
+  "QuoteLinesTemplate": 803,
+  "ConfirmationLinesTemplate": 615,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 971,
-  "MinEarningPercent": 369,
-  "GroupQuoteLinesBy": 158,
-  "SortGroupLinesBy": 843,
+  "MaxDiscountPercent": 373,
+  "MinEarningPercent": 190,
+  "GroupQuoteLinesBy": 754,
+  "SortGroupLinesBy": 896,
   "Stages": [
     {
-      "Id": 105,
-      "Name": "Funk, Parisian and Rau",
-      "ToolTip": "Laborum maiores ut voluptatem.",
-      "Deleted": false,
-      "Rank": 899,
-      "Type": "ut",
-      "ColorBlock": 67,
-      "IconHint": "quibusdam",
-      "Selected": true,
-      "LastChanged": "2011-03-01T11:06:43.0534497+01:00",
+      "Id": 316,
+      "Name": "Adams LLC",
+      "ToolTip": "Magni perspiciatis officia et nisi non.",
+      "Deleted": true,
+      "Rank": 466,
+      "Type": "soluta",
+      "ColorBlock": 508,
+      "IconHint": "sed",
+      "Selected": false,
+      "LastChanged": "2001-06-03T13:38:18.2181419+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "corporis",
-      "Hidden": true,
-      "FullName": "Albert Gottlieb"
+      "ExtraInfo": "quo",
+      "StyleHint": "numquam",
+      "Hidden": false,
+      "FullName": "Effie Steuber"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 23,
-  "Name": "Kerluke Group",
-  "Tooltip": "odit",
-  "Rank": 358,
+  "SaleTypeId": 491,
+  "Name": "Ziemann-Jacobi",
+  "Tooltip": "et",
+  "Rank": 673,
   "DurationUnit": "Century",
-  "SaleDuration": 632,
-  "SaleTypeCatId": 197,
+  "SaleDuration": 870,
+  "SaleTypeCatId": 861,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 694,
-  "QuoteLinesTemplate": 216,
-  "ConfirmationLinesTemplate": 436,
+  "DefaultQuoteValidity": 320,
+  "QuoteLinesTemplate": 350,
+  "ConfirmationLinesTemplate": 669,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 985,
-  "MinEarningPercent": 917,
-  "GroupQuoteLinesBy": 462,
-  "SortGroupLinesBy": 688,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 626,
+  "MinEarningPercent": 741,
+  "GroupQuoteLinesBy": 72,
+  "SortGroupLinesBy": 948,
   "Stages": [
     {
-      "Id": 893,
-      "Name": "Senger Group",
-      "ToolTip": "Omnis repellat.",
-      "Deleted": true,
-      "Rank": 405,
-      "Type": "voluptate",
-      "ColorBlock": 72,
-      "IconHint": "possimus",
-      "Selected": false,
-      "LastChanged": "2011-11-25T11:06:43.0534497+01:00",
+      "Id": 216,
+      "Name": "Mayer-Hagenes",
+      "ToolTip": "Nostrum mollitia.",
+      "Deleted": false,
+      "Rank": 783,
+      "Type": "molestiae",
+      "ColorBlock": 716,
+      "IconHint": "dolores",
+      "Selected": true,
+      "LastChanged": "2005-07-11T13:38:18.2181419+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "id",
-      "StyleHint": "quaerat",
+      "ExtraInfo": "modi",
+      "StyleHint": "perferendis",
       "Hidden": false,
-      "FullName": "Alek Bruen",
+      "FullName": "Mr. Tommie Sauer Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 720
+          "FieldLength": 824
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 15
+      "FieldLength": 179
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 998,
-    "Name": "Weissnat-Ferry",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 954,
-    "UdListDefinitionId": 929,
+    "HeadingId": 604,
+    "Name": "Ryan-Rohan",
+    "Tooltip": "alias",
+    "Deleted": false,
+    "Rank": 463,
+    "UdListDefinitionId": 78,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 117
+        "FieldType": "System.Int32",
+        "FieldLength": 933
       }
     }
   }

@@ -993,7 +993,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=correspondingAssociate/ejStatus,personContact/contactFax/formattedNumber,personContact/postAddress/addressId,personContact/contactSupportAssociate/title,request/ownedBy/personEmail
+GET /api/v1/archive/FreetextPerson?$select=personPager/description,personSourceRelation/ticketPriority,personAssociate/contactName,personContact/contactUdef/SuperOffice:9,request/extra/x_ticket_faq
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

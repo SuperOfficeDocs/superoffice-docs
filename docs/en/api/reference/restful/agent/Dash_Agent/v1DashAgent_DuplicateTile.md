@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 620,
-  "Name": "Robel Inc and Sons"
+  "DashTileId": 822,
+  "Name": "Brown-Buckridge"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 580,
-  "DashboardId": 31,
-  "Height": 570,
-  "Width": 308,
-  "Rank": 907,
+  "DashboardTileId": 287,
+  "DashboardId": 893,
+  "Height": 562,
+  "Width": 188,
+  "Rank": 988,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 20
     }
   }
 }

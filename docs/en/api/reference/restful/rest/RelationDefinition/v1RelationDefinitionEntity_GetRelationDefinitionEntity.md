@@ -90,20 +90,20 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 410,
-  "Name": "Nikolaus Inc and Sons",
-  "Tooltip": "error",
-  "PassiveText": "voluptatem",
-  "Deleted": true,
-  "Rank": 799,
+  "ReldefId": 838,
+  "Name": "Kirlin-Kuvalis",
+  "Tooltip": "placeat",
+  "PassiveText": "quidem",
+  "Deleted": false,
+  "Rank": 939,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldType": "System.Int32",
+      "FieldLength": 819
     }
   },
   "_Links": {

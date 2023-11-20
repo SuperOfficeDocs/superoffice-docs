@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=284
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=883
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 472,
-  "Name": "Schamberger, Quigley and Gleichner",
-  "Tooltip": "blanditiis",
-  "SaveInDb": 398,
-  "Filename": "sit",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 34,
+  "Name": "Corkery Group",
+  "Tooltip": "quia",
+  "SaveInDb": 25,
+  "Filename": "quo",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 25,
-  "IntentId": 303,
+  "AutoeventId": 535,
+  "IntentId": 427,
   "IsDefaultPublished": false,
-  "Rank": 667,
-  "LoadTemplateFromPlugin": 764,
-  "MimeType": "incidunt",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 336,
+  "Rank": 230,
+  "LoadTemplateFromPlugin": 235,
+  "MimeType": "voluptate",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 670,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ansley@kassulkekreiger.ca",
-  "IncludeSignature": true,
+  "EmailSubject": "modesto_rice@greenfelder.co.uk",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "eloise.jacobi@veumnikolaus.name",
+  "SenderEmailAddress": "ahmad.anderson@medhurst.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldType": "System.Int32",
+      "FieldLength": 939
     }
   }
 }

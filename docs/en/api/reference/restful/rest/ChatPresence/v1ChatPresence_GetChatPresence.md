@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 684,
-    "DisplayName": "Pagac-Welch",
-    "OngoingChats": 407,
+    "UserId": 888,
+    "DisplayName": "Larson, McClure and Beer",
+    "OngoingChats": 655,
     "Present": false,
     "ChatTopics": [
-      368,
-      911
+      355,
+      754
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldType": "System.String",
+        "FieldLength": 766
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Schmitt, Hirthe and Mraz",
-    "ToolTip": "Nihil magni laborum.",
+    "Id": 184,
+    "Name": "Powlowski-Reilly",
+    "ToolTip": "Ducimus veniam molestiae voluptates saepe qui id quo.",
     "Deleted": false,
-    "Rank": 778,
-    "Type": "quos",
-    "ColorBlock": 541,
-    "IconHint": "quibusdam",
+    "Rank": 214,
+    "Type": "quae",
+    "ColorBlock": 938,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2017-08-20T11:06:42.7253202+02:00",
+    "LastChanged": "2014-01-05T13:38:17.9994152+01:00",
     "ChildItems": [
       {
-        "Id": 782,
-        "Name": "Zboncak Inc and Sons",
-        "ToolTip": "Occaecati doloremque labore recusandae sed ratione.",
-        "Deleted": true,
-        "Rank": 241,
-        "Type": "porro",
-        "ColorBlock": 452,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2003-08-16T11:06:42.7253202+02:00",
+        "Id": 571,
+        "Name": "Halvorson, Olson and Cormier",
+        "ToolTip": "Officia quia et non molestiae eos.",
+        "Deleted": false,
+        "Rank": 451,
+        "Type": "aspernatur",
+        "ColorBlock": 694,
+        "IconHint": "officiis",
+        "Selected": true,
+        "LastChanged": "2011-09-28T13:38:17.9994152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
+        "ExtraInfo": "blanditiis",
         "StyleHint": "similique",
-        "Hidden": true,
-        "FullName": "Miss Caroline Cali Hahn DVM",
+        "Hidden": false,
+        "FullName": "Christophe Satterfield V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 141
+            "FieldType": "System.String",
+            "FieldLength": 954
           }
         }
       }
     ],
     "ExtraInfo": "error",
-    "StyleHint": "debitis",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Frederik Blanda",
+    "FullName": "Junior Bertrand Balistreri DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 341
       }
     }
   }

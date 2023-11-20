@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Name": "Stamm, Tremblay and Gutmann",
-    "ToolTip": "Optio qui voluptate.",
-    "Deleted": true,
-    "Rank": 201,
-    "Type": "minus",
-    "ColorBlock": 235,
-    "IconHint": "odit",
+    "Id": 201,
+    "Name": "Larkin LLC",
+    "ToolTip": "Est officiis eum deleniti architecto eligendi earum.",
+    "Deleted": false,
+    "Rank": 634,
+    "Type": "voluptas",
+    "ColorBlock": 378,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "1997-09-01T11:06:42.7878188+02:00",
+    "LastChanged": "2006-12-14T13:38:18.0462875+01:00",
     "ChildItems": [
       {
         "Id": 508,
-        "Name": "Hayes-Lehner",
-        "ToolTip": "Facilis eligendi placeat.",
+        "Name": "Gerhold Group",
+        "ToolTip": "Nostrum odio voluptas incidunt at et autem quis.",
         "Deleted": true,
-        "Rank": 958,
-        "Type": "alias",
-        "ColorBlock": 838,
-        "IconHint": "accusantium",
-        "Selected": true,
-        "LastChanged": "2021-08-05T11:06:42.7878188+02:00",
+        "Rank": 26,
+        "Type": "quis",
+        "ColorBlock": 669,
+        "IconHint": "repudiandae",
+        "Selected": false,
+        "LastChanged": "1998-05-08T13:38:18.0462875+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "modi",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Alvis Friesen"
+        "FullName": "Arthur Greenholt DDS"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "vitae",
+    "ExtraInfo": "et",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Roosevelt Schoen"
+    "FullName": "Gabrielle Bauch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 469,
-    "Name": "Torphy Inc and Sons",
-    "ToolTip": "Odit corporis itaque ut ut ratione.",
+    "Id": 266,
+    "Name": "Harber-Franecki",
+    "ToolTip": "Architecto iste id.",
     "Deleted": false,
-    "Rank": 790,
-    "Type": "eaque",
-    "ColorBlock": 138,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2009-06-15T11:06:42.7878188+02:00",
+    "Rank": 909,
+    "Type": "voluptatem",
+    "ColorBlock": 742,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2012-05-09T13:38:18.0462875+02:00",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "Schultz, Armstrong and Rice",
-        "ToolTip": "Reiciendis alias non perspiciatis eum eum.",
-        "Deleted": false,
-        "Rank": 429,
-        "Type": "consequatur",
-        "ColorBlock": 824,
-        "IconHint": "sed",
+        "Id": 891,
+        "Name": "Brakus-Hyatt",
+        "ToolTip": "Placeat magni molestias.",
+        "Deleted": true,
+        "Rank": 434,
+        "Type": "consectetur",
+        "ColorBlock": 794,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1998-06-18T11:06:42.7878188+02:00",
+        "LastChanged": "2015-07-06T13:38:18.0462875+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Miss Natalie Genevieve Klocko I",
+        "FullName": "Arch Huel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 669
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "id",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Dr. Darren Lizeth Wehner",
+    "FullName": "Dane Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldType": "System.String",
+        "FieldLength": 777
       }
     }
   }

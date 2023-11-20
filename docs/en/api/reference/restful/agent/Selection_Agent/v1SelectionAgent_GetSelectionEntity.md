@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=134
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=942
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional holistic standardization",
-  "Postit": "cupiditate",
+  "Description": "Switchable client-driven adapter",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 227,
-  "IncludePerson": 645,
-  "MemberCount": 526,
-  "Name": "Kunze-Gottlieb",
-  "PostitTextId": 331,
-  "CreatedDate": "2004-02-17T11:06:35.364568+01:00",
-  "SelectionId": 526,
-  "SoundEx": "vel",
-  "Source": 506,
-  "TextId": 829,
-  "UpdatedDate": "2014-04-19T11:06:35.364568+02:00",
-  "UpdatedCount": 800,
-  "Visibility": 984,
+  "GroupIdx": 525,
+  "IncludePerson": 63,
+  "MemberCount": 411,
+  "Name": "Schmidt, Barrows and Predovic",
+  "PostitTextId": 245,
+  "CreatedDate": "2004-04-18T13:38:14.124071+02:00",
+  "SelectionId": 404,
+  "SoundEx": "aut",
+  "Source": 590,
+  "TextId": 106,
+  "UpdatedDate": "2018-04-05T13:38:14.124071+02:00",
+  "UpdatedCount": 284,
+  "Visibility": 333,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 234,
-  "TargetTableName": "Rowe Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 159,
+  "TargetTableName": "Hermiston Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 209,
-  "RightSelectionId": 123,
+  "LeftSelectionId": 265,
+  "RightSelectionId": 13,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Conn-Zemlak",
-  "ShadowProviderName": "Gislason, Reichel and King",
-  "ChartKey": "similique",
-  "LastLoaded": "2021-01-13T11:06:35.364568+01:00",
-  "LastLoadedBy": 81,
+  "MainProviderName": "Swaniawski-Littel",
+  "ShadowProviderName": "Langworth, Hyatt and Braun",
+  "ChartKey": "rerum",
+  "LastLoaded": "2001-06-16T13:38:14.124071+02:00",
+  "LastLoadedBy": 375,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-02-09T11:06:35.364568+01:00",
-  "LastMembershipChangeBy": 943,
+  "LastMembershipChange": "2010-03-06T13:38:14.124071+01:00",
+  "LastMembershipChangeBy": 955,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quo",
-  "MemberTabHeading": "unde",
-  "MailingsProviderName": "Turcotte Group",
-  "DashboardTileDefinitionId": 639,
+  "MainHeading": "numquam",
+  "MemberTabHeading": "iure",
+  "MailingsProviderName": "Brown, Kuvalis and Schoen",
+  "DashboardTileDefinitionId": 430,
   "VisibleFor": [
     {
-      "VisibleId": 675,
+      "VisibleId": 511,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 234
+          "FieldLength": 780
         }
       }
     },
     {
-      "VisibleId": 675,
+      "VisibleId": 511,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 234
+          "FieldLength": 780
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 859
     }
   }
 }

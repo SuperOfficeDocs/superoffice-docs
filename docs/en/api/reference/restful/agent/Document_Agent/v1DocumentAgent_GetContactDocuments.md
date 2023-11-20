@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 495,
-  "StartTime": "2014-04-25T11:06:34.3008382+02:00",
-  "EndTime": "2006-09-09T11:06:34.3008382+02:00",
-  "Count": 376
+  "ContactId": 764,
+  "StartTime": "2015-02-08T13:38:13.4208858+01:00",
+  "EndTime": "2019-09-20T13:38:13.4208858+02:00",
+  "Count": 972
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 273,
-    "Attention": "rerum",
-    "Header": "eum",
-    "Name": "Barton-O'Hara",
-    "OurRef": "aut",
-    "YourRef": "rem",
-    "Description": "Intuitive content-based strategy",
-    "DocumentTemplate": "perferendis",
+    "DocumentId": 621,
+    "Attention": "et",
+    "Header": "provident",
+    "Name": "Adams-Smitham",
+    "OurRef": "ullam",
+    "YourRef": "voluptas",
+    "Description": "Triple-buffered human-resource flexibility",
+    "DocumentTemplate": "non",
     "IsPublished": false,
-    "PersonId": 237,
-    "PersonFullName": "Vincenza Koepp",
-    "AssociateFullName": "Ms. Jesse Viviane Orn",
-    "ContactId": 415,
-    "ContactName": "Strosin, Haag and Dicki",
-    "ProjectId": 902,
-    "ProjectName": "Mante LLC",
-    "AssociateId": 54,
-    "Snum": 154,
-    "SaleId": 917,
-    "SaleName": "Konopelski, Konopelski and Cole",
+    "PersonId": 430,
+    "PersonFullName": "Billy Kiarra Littel II",
+    "AssociateFullName": "Houston Parisian",
+    "ContactId": 84,
+    "ContactName": "Nitzsche-Marks",
+    "ProjectId": 488,
+    "ProjectName": "Schiller Inc and Sons",
+    "AssociateId": 885,
+    "Snum": 525,
+    "SaleId": 233,
+    "SaleName": "Kassulke-Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 351
+        "FieldLength": 917
       }
     }
   }

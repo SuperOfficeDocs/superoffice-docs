@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quia",
+  "RawValue": "officia",
   "Specification": null,
-  "DisplayValue": "quam",
-  "DisplayTooltip": "autem",
+  "DisplayValue": "sed",
+  "DisplayTooltip": "ad",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 106,
-  "PrefDescId": 674,
-  "TableName": "Purdy-Yundt",
-  "UserPreferenceId": 181,
+  "TargetId": 608,
+  "PrefDescId": 725,
+  "TableName": "Littel-Hudson",
+  "UserPreferenceId": 2,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 116
+      "FieldLength": 865
     }
   }
 }

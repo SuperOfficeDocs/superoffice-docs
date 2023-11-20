@@ -86,8 +86,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 77,
-  "TargetDimensionId": 233
+  "Year": 510,
+  "TargetDimensionId": 51
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 402,
+    "TargetAssignmentInfoId": 834,
     "Values": [
-      947,
-      605
+      420,
+      509
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 392,
-    "DimensionListItemDisplayName": "Jenkins Inc and Sons",
+    "DimensionListItem": 147,
+    "DimensionListItemDisplayName": "Lockman, Lindgren and Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldLength": 951
       }
     }
   }

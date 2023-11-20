@@ -132,62 +132,62 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 320,
+  "EjMessageId": 564,
   "Ticket": null,
-  "CreatedAt": "2016-05-16T11:06:42.3491134+02:00",
+  "CreatedAt": "2009-05-13T13:38:17.7492894+02:00",
   "CreatedBy": null,
-  "Author": "autem",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consequatur",
-  "TimeSpent": 699,
-  "Body": "mollitia",
-  "HtmlBody": "sunt",
-  "EmailHeader": "morris.murray@adams.name",
-  "DebugInfo": "voluptatum",
-  "MailSorter": "enim",
+  "MessageId": "deleniti",
+  "TimeSpent": 948,
+  "Body": "inventore",
+  "HtmlBody": "neque",
+  "EmailHeader": "fausto@conroy.co.uk",
+  "DebugInfo": "voluptas",
+  "MailSorter": "nihil",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "officiis",
+  "SearchTitle": "excepturi",
   "MessageHeaders": [
     {
-      "Id": 231,
-      "Name": "Tromp Inc and Sons",
-      "Value": "ut",
+      "Id": 561,
+      "Name": "Ullrich Group",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 231,
-      "Name": "Tromp Inc and Sons",
-      "Value": "ut",
+      "Id": 561,
+      "Name": "Ullrich Group",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "aut",
-  "Sentiment": 313,
-  "SentimentConfidence": 868,
+  "Language": "esse",
+  "Sentiment": 501,
+  "SentimentConfidence": 551,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 240,
-      "Name": "Leffler, Crist and Flatley",
-      "ContentType": "amet",
-      "AttSize": 187,
-      "InlineImage": true,
-      "ContentId": "quis",
-      "AuthKey": "autem"
+      "AttachmentId": 393,
+      "Name": "Grant, Swaniawski and Daugherty",
+      "ContentType": "natus",
+      "AttSize": 43,
+      "InlineImage": false,
+      "ContentId": "corporis",
+      "AuthKey": "beatae"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "et"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "officia"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "fuga"
+    "CustomFields1": "qui",
+    "CustomFields2": "ut"
   }
 }
 ```
@@ -199,78 +199,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 959,
+  "EjMessageId": 748,
   "Ticket": null,
-  "CreatedAt": "2003-09-14T11:06:42.3491134+02:00",
+  "CreatedAt": "2009-08-05T13:38:17.7492894+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "eligendi",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "magnam",
-  "TimeSpent": 221,
-  "Body": "qui",
-  "HtmlBody": "quis",
-  "EmailHeader": "jadon.okon@doylekreiger.ca",
-  "DebugInfo": "voluptatem",
-  "MailSorter": "minus",
+  "MessageId": "expedita",
+  "TimeSpent": 926,
+  "Body": "non",
+  "HtmlBody": "omnis",
+  "EmailHeader": "camron_torp@kunzemiller.com",
+  "DebugInfo": "tempore",
+  "MailSorter": "eos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quia",
+  "SearchTitle": "mollitia",
   "MessageHeaders": [
     {
-      "Id": 869,
-      "Name": "Berge, Robel and Waelchi",
-      "Value": "aut",
+      "Id": 629,
+      "Name": "Denesik LLC",
+      "Value": "dolorem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 12
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     }
   ],
   "Important": false,
-  "Language": "impedit",
-  "Sentiment": 849,
-  "SentimentConfidence": 689,
+  "Language": "dignissimos",
+  "Sentiment": 75,
+  "SentimentConfidence": 358,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 229,
-      "Name": "Beahan, Labadie and Pacocha",
-      "ContentType": "in",
-      "AttSize": 783,
+      "AttachmentId": 170,
+      "Name": "Conroy, Glover and Kilback",
+      "ContentType": "hic",
+      "AttSize": 152,
       "InlineImage": true,
-      "ContentId": "numquam",
-      "AuthKey": "aut",
+      "ContentId": "iure",
+      "AuthKey": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldType": "System.String",
+          "FieldLength": 997
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "possimus"
+    "CustomFields1": "culpa",
+    "CustomFields2": "explicabo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldType": "System.String",
+      "FieldLength": 943
     }
   }
 }

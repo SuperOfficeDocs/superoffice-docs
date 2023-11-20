@@ -27,6 +27,7 @@ inner participants provider, so that the conflict checking is performed.
 |"associate"|Associate|
 |"resource"|Resource:|
 |"externalPerson"|External users|
+|"emailParticipant"|[!!Email Participant]|
 |"hideConflict"|Hide conflict|
 
 ## Supported Columns
@@ -50,14 +51,14 @@ inner participants provider, so that the conflict checking is performed.
 |rejectReason| *None* |Reason for declining: Reason for declining|  |
 |associateEmailsInformation|int|E-mail ID: IDs of contacts that should receive invitation e-mails for a booking - column is only used as a restriction|  |
 |appointmentRestrictionId|int|Follow-up ID: ID of the follow-up to fetch participants for|  |
-|firstName|string|First name: Displays the contact's first name| x |
-|lastName|string|Last name: Displays the contact's last name| x |
-|middleName|string|Middle Name : Displays the contact's middle name.| x |
+|firstName|string|First name: Displays the contact's first name|  |
+|lastName|string|Last name: Displays the contact's last name|  |
+|middleName|string|Middle Name : Displays the contact's middle name.|  |
 |fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |personId|int|Contact ID: Database ID of the contact row|  |
-|mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|title|string|Title: Displays whether the contact is addressed as Mr or Ms|  |
 |associateDbId|associate|ID|  |
 |contactName|string|Owning company: Name of the company the user belongs to|  |
 |contactDepartment|string|Owning department: Name of the department at the company the user belongs to|  |
@@ -169,6 +170,14 @@ inner participants provider, so that the conflict checking is performed.
 |personContact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address|  |
 |personContact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address|  |
 |personContact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
+|emailProtocol|string|Protocol: E-mail protocol, such as SMTP|  |
+|emailAddress|string|E-mail|  |
+|emailDescription|string|Description|  |
+|emailId|int|ID|  |
+|emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address|  |
+|emailBounceCount|int|Bounce count: Bounce count for this e-mail address|  |
+|emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address|  |
+|emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
 |associateRestrictionId|int|Associate ID: IDs of associates to be displayed as participants|  |
 |groupRestrictionId|int|Group ID: ID of group with members to be displayed as participants|  |
 |resourceRestrictionId|int|Resource ID: ID of resources to be displayed as participants|  |
@@ -177,7 +186,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=birthdate,personContact/email/emailLastBounce,otherGroups
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=personEmailsInformation,personRegisteredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

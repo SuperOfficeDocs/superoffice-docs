@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=odio
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=facere
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Name": "Armstrong-Kuvalis",
-    "ToolTip": "Quo quibusdam ad perferendis voluptatem enim incidunt.",
+    "Id": 621,
+    "Name": "Boyle, Bogisich and Strosin",
+    "ToolTip": "Rerum minus voluptatem quam veniam repudiandae accusamus.",
     "Deleted": false,
-    "Rank": 655,
-    "Type": "sint",
+    "Rank": 71,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 69,
-        "Name": "Adams LLC",
-        "ToolTip": "Est vel temporibus non voluptatem.",
+        "Id": 994,
+        "Name": "Ferry-Dach",
+        "ToolTip": "Sint numquam et commodi at.",
         "Deleted": false,
-        "Rank": 158,
-        "Type": "quos",
+        "Rank": 455,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "libero",
-        "ColorBlock": 315,
-        "ExtraInfo": "non",
-        "StyleHint": "voluptatum",
-        "FullName": "Ms. Dorothy Keeling",
+        "IconHint": "atque",
+        "ColorBlock": 719,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eaque",
+        "FullName": "Creola Conroy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 472
+            "FieldLength": 22
           }
         }
       }
     ],
-    "IconHint": "unde",
-    "ColorBlock": 707,
-    "ExtraInfo": "quis",
-    "StyleHint": "voluptas",
-    "FullName": "Jada Jones",
+    "IconHint": "at",
+    "ColorBlock": 13,
+    "ExtraInfo": "velit",
+    "StyleHint": "culpa",
+    "FullName": "Ms. Trenton Hintz I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldType": "System.String",
+        "FieldLength": 582
       }
     }
   }

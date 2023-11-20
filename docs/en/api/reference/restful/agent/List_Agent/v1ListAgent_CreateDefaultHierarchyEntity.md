@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 594,
+  "HierarchyId": 920,
   "Domain": "Dashboards",
-  "Name": "Hermann, Ledner and Reichert",
-  "Fullname": "est",
-  "ParentId": 553,
+  "Name": "Kulas-Koepp",
+  "Fullname": "velit",
+  "ParentId": 329,
   "Children": [
     {
-      "HierarchyId": 87,
+      "HierarchyId": 85,
       "Domain": "Dashboards",
-      "Name": "Kunde-Treutel",
-      "Fullname": "culpa",
-      "ParentId": 760,
+      "Name": "Schaden LLC",
+      "Fullname": "quam",
+      "ParentId": 286,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-01-22T11:06:34.7551834+01:00",
-      "RegisteredAssociateId": 271,
-      "Updated": "2017-09-21T11:06:34.7551834+02:00",
-      "UpdatedAssociateId": 531,
+      "Registered": "2010-11-30T13:38:13.7177215+01:00",
+      "RegisteredAssociateId": 86,
+      "Updated": "2015-09-15T13:38:13.7177215+02:00",
+      "UpdatedAssociateId": 731,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 924
         }
       }
     }
   ],
-  "Registered": "2010-11-03T11:06:34.7551834+01:00",
-  "RegisteredAssociateId": 305,
-  "Updated": "2016-07-24T11:06:34.7551834+02:00",
-  "UpdatedAssociateId": 222,
+  "Registered": "2004-02-18T13:38:13.7177215+01:00",
+  "RegisteredAssociateId": 158,
+  "Updated": "2007-07-25T13:38:13.7177215+02:00",
+  "UpdatedAssociateId": 701,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldType": "System.String",
+      "FieldLength": 788
     }
   }
 }

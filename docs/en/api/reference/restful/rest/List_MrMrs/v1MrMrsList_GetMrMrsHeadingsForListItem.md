@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Name": "King-Cummings",
-    "ToolTip": "Nam rerum quis et vitae excepturi cumque.",
+    "Id": 195,
+    "Name": "Feest LLC",
+    "ToolTip": "Inventore praesentium beatae.",
     "Deleted": false,
-    "Rank": 418,
-    "Type": "odio",
-    "ColorBlock": 262,
-    "IconHint": "nostrum",
-    "Selected": true,
-    "LastChanged": "2007-01-28T11:06:42.8503167+01:00",
+    "Rank": 631,
+    "Type": "animi",
+    "ColorBlock": 888,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2020-11-10T13:38:18.0775324+01:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Wolff-Gislason",
-        "ToolTip": "Ut repellat.",
+        "Id": 789,
+        "Name": "Schroeder, McDermott and Connelly",
+        "ToolTip": "Nisi minus error totam quos dicta adipisci.",
         "Deleted": true,
-        "Rank": 83,
-        "Type": "alias",
-        "ColorBlock": 270,
-        "IconHint": "ipsa",
+        "Rank": 831,
+        "Type": "ullam",
+        "ColorBlock": 243,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2014-05-30T11:06:42.8503167+02:00",
+        "LastChanged": "2007-05-11T13:38:18.0931573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "aut",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Blair O'Connell",
+        "FullName": "Jessie Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 144
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Dandre Swaniawski DDS",
+    "ExtraInfo": "delectus",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Freda Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldType": "System.Int32",
+        "FieldLength": 861
       }
     }
   }

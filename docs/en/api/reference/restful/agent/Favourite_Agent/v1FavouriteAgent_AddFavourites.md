@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Heller Inc and Sons",
+  "TableName": "Lindgren Inc and Sons",
   "RecordIds": [
-    235,
-    938
+    789,
+    995
   ],
-  "AssociateId": 134,
-  "ExtraInfo": "dicta"
+  "AssociateId": 607,
+  "ExtraInfo": "deserunt"
 }
 ```
 

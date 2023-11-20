@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 481,
-  "BlobSize": 343,
-  "Description": "Fully-configurable clear-thinking benchmark",
-  "ExtraInfo": "beatae",
+  "BlobId": 926,
+  "BlobSize": 208,
+  "Description": "Self-enabling attitude-oriented website",
+  "ExtraInfo": "consequatur",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "nostrum",
-  "OriginalSize": 355,
-  "CreatedDate": "2010-01-06T11:06:33.7972715+01:00",
-  "UpdatedDate": "1999-11-26T11:06:33.7972715+01:00",
+  "MimeType": "similique",
+  "OriginalSize": 987,
+  "CreatedDate": "2016-04-13T13:38:13.0927968+02:00",
+  "UpdatedDate": "2011-12-10T13:38:13.0927968+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut"
+  "ConceptualType": "perspiciatis"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 660,
-  "BlobSize": 337,
-  "Description": "Horizontal mobile migration",
-  "ExtraInfo": "optio",
+  "BlobId": 740,
+  "BlobSize": 645,
+  "Description": "Enterprise-wide demand-driven Graphical User Interface",
+  "ExtraInfo": "veniam",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "occaecati",
-  "OriginalSize": 115,
-  "CreatedDate": "2014-02-12T11:06:33.7972715+01:00",
-  "UpdatedDate": "1997-07-17T11:06:33.7972715+02:00",
+  "MimeType": "consequuntur",
+  "OriginalSize": 528,
+  "CreatedDate": "2013-06-26T13:38:13.0927968+02:00",
+  "UpdatedDate": "2012-04-23T13:38:13.0927968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "mollitia",
+  "ConceptualType": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 971
     }
   }
 }

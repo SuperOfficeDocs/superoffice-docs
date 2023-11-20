@@ -98,6 +98,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -110,7 +111,7 @@ OK
 GET /api/v1/Project/{projectId}/NextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,64 +121,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 739,
-  "StartDate": "2004-05-31T11:06:42.050976+02:00",
-  "EndDate": "2001-07-01T11:06:42.050976+02:00",
+  "AppointmentId": 507,
+  "StartDate": "2002-04-10T13:38:17.5618158+02:00",
+  "EndDate": "2019-05-23T13:38:17.5618158+02:00",
   "Type": "BookingForChecklist",
-  "Task": "dolorem",
-  "AssociateFullName": "Prof. Fannie O'Hara I",
-  "ContactName": "King, Bailey and Rippin",
-  "Description": "Virtual empowering synergy",
-  "PersonFullName": "Mr. Finn Sydnie Conn DVM",
-  "PersonId": 43,
-  "ContactId": 984,
-  "ProjectId": 695,
-  "ProjectName": "Gutkowski, Grimes and Smitham",
+  "Task": "eveniet",
+  "AssociateFullName": "Alyson Harber",
+  "ContactName": "Bartoletti-Hermann",
+  "Description": "Quality-focused optimal database",
+  "PersonFullName": "Ruben Cummings",
+  "PersonId": 505,
+  "ContactId": 572,
+  "ProjectId": 508,
+  "ProjectName": "Bayer-Schinner",
   "IsPublished": true,
-  "AssociateId": 669,
-  "ColorIndex": 517,
-  "IsFree": false,
+  "AssociateId": 182,
+  "ColorIndex": 264,
+  "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 816,
-  "PriorityName": "Weissnat, Stroman and Kiehn",
+  "PriorityId": 311,
+  "PriorityName": "Kutch, Bradtke and Bartell",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2003-09-18T11:06:42.050976+02:00",
+  "ActiveDate": "2004-05-18T13:38:17.5618158+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2000-09-18T11:06:42.050976+02:00",
-  "RecurringEndDate": "2022-10-06T11:06:42.050976+02:00",
-  "MotherId": 616,
-  "AssignedBy": 181,
-  "AssignedByFullName": "Margarette Sauer",
+  "RecurringStartDate": "2016-09-11T13:38:17.5618158+02:00",
+  "RecurringEndDate": "2007-07-23T13:38:17.5618158+02:00",
+  "MotherId": 643,
+  "AssignedBy": 252,
+  "AssignedByFullName": "Vada Conn",
   "RejectReason": "",
-  "Location": "sit",
-  "AlarmLeadTime": "non",
-  "SaleId": 151,
-  "SaleName": "Wilkinson-Howe",
-  "AssociateName": "Jenkins, Stamm and Kohler",
-  "CreatedDate": "2001-01-24T11:06:42.050976+01:00",
-  "CreatedBy": "maiores",
-  "CreatedByFullName": "Richmond Mueller",
-  "CreatedByAssociateId": 177,
+  "Location": "sunt",
+  "AlarmLeadTime": "sunt",
+  "SaleId": 381,
+  "SaleName": "Kilback-Schmeler",
+  "AssociateName": "Dietrich, Bosco and Bergnaum",
+  "CreatedDate": "2003-01-21T13:38:17.5618158+01:00",
+  "CreatedBy": "saepe",
+  "CreatedByFullName": "Daniela Kerluke",
+  "CreatedByAssociateId": 522,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "omnis",
-  "Agenda": "voluptatem",
+  "PreferredTZLocation": 395,
+  "Title": "aliquid",
+  "Agenda": "in",
   "InternalNotes": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 215
+      "FieldLength": 640
     }
   }
 }

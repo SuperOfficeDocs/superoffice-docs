@@ -25,7 +25,7 @@ Gets all the Business items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Business/Items?includeDeleted=True
+GET /api/v1/List/Business/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "Stracke Group",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "UdListDefinitionId": 473,
-    "Rank": 279,
+    "Id": 443,
+    "Name": "Dickens, O'Hara and Dietrich",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 370,
+    "Rank": 50,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 988
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

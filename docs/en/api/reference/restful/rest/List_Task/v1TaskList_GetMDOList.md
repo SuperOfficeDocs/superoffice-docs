@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=ullam
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=perferendis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 676,
-    "Name": "Grimes, Bosco and Macejkovic",
-    "ToolTip": "Nam facilis voluptatem deleniti laudantium nam omnis.",
+    "Id": 218,
+    "Name": "Schneider Inc and Sons",
+    "ToolTip": "Illum nam.",
     "Deleted": false,
-    "Rank": 780,
-    "Type": "labore",
+    "Rank": 557,
+    "Type": "cum",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "Considine-Bode",
-        "ToolTip": "Autem accusamus nobis ipsam quo.",
+        "Id": 820,
+        "Name": "Boyle, Haley and Langworth",
+        "ToolTip": "Ex ipsam quae.",
         "Deleted": false,
-        "Rank": 820,
-        "Type": "aut",
+        "Rank": 656,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "a",
-        "ColorBlock": 280,
-        "ExtraInfo": "eius",
-        "StyleHint": "animi",
-        "FullName": "Filomena Hane",
+        "IconHint": "saepe",
+        "ColorBlock": 820,
+        "ExtraInfo": "voluptates",
+        "StyleHint": "minima",
+        "FullName": "Walker Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 111
+            "FieldLength": 887
           }
         }
       }
     ],
-    "IconHint": "ducimus",
-    "ColorBlock": 505,
-    "ExtraInfo": "ex",
-    "StyleHint": "animi",
-    "FullName": "Timmy Kuhn",
+    "IconHint": "rem",
+    "ColorBlock": 796,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "ratione",
+    "FullName": "Miss Alec Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldLength": 357
       }
     }
   }

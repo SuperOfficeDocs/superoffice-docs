@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 200,
-  "UniqueId": "omnis",
-  "Name": "Kiehn, Quigley and Crist",
-  "Description": "Distributed 24/7 project",
-  "AssociateId": 45,
-  "Columns": 493,
+  "DashboardId": 144,
+  "UniqueId": "cum",
+  "Name": "Heaney, Aufderhar and Hoppe",
+  "Description": "Implemented analyzing projection",
+  "AssociateId": 360,
+  "Columns": 515,
   "Theme": null,
-  "VisibleForAll": 747,
+  "VisibleForAll": 931,
   "VisibleForAssociates": [
-    76,
-    100
+    968,
+    962
   ],
   "VisibleForGroups": [
-    915,
-    417
+    953,
+    428
   ],
-  "PinForAll": 594,
+  "PinForAll": 311,
   "PinForAssociates": [
-    327,
-    757
+    979,
+    198
   ],
   "PinForGroups": [
-    56,
-    555
+    766,
+    637
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 571,
-  "UniqueId": "eos",
-  "Name": "Dibbert, Gibson and Wehner",
-  "Description": "Profound even-keeled artificial intelligence",
-  "AssociateId": 354,
-  "Columns": 178,
+  "DashboardId": 820,
+  "UniqueId": "modi",
+  "Name": "Rolfson, Kassulke and Gottlieb",
+  "Description": "Total actuating structure",
+  "AssociateId": 735,
+  "Columns": 3,
   "Theme": null,
-  "VisibleForAll": 761,
+  "VisibleForAll": 319,
   "VisibleForAssociates": [
-    824,
-    654
+    586,
+    559
   ],
   "VisibleForGroups": [
-    959,
-    197
+    549,
+    430
   ],
-  "PinForAll": 174,
+  "PinForAll": 293,
   "PinForAssociates": [
-    837,
-    586
+    742,
+    83
   ],
   "PinForGroups": [
-    108,
-    723
+    549,
+    560
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldLength": 448
     }
   },
   "_Links": {

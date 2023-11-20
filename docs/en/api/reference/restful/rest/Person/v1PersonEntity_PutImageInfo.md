@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 164,
-  "BlobSize": 350,
-  "Description": "Inverse coherent initiative",
-  "ExtraInfo": "pariatur",
-  "IsEncrypted": false,
+  "BlobId": 578,
+  "BlobSize": 72,
+  "Description": "Focused bandwidth-monitored matrices",
+  "ExtraInfo": "eligendi",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "placeat",
-  "OriginalSize": 423,
-  "CreatedDate": "1999-12-31T11:06:42.0041001+01:00",
-  "UpdatedDate": "2016-10-30T11:06:42.0041001+01:00",
+  "MimeType": "iusto",
+  "OriginalSize": 188,
+  "CreatedDate": "2004-07-12T13:38:17.5305626+02:00",
+  "UpdatedDate": "2012-02-09T13:38:17.5305626+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolor"
+  "ConceptualType": "molestiae"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 158,
-  "BlobSize": 706,
-  "Description": "Horizontal mission-critical strategy",
-  "ExtraInfo": "quae",
+  "BlobId": 453,
+  "BlobSize": 539,
+  "Description": "Integrated executive methodology",
+  "ExtraInfo": "possimus",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "magni",
-  "OriginalSize": 403,
-  "CreatedDate": "2022-02-12T11:06:42.0197245+01:00",
-  "UpdatedDate": "1997-02-05T11:06:42.0197245+01:00",
+  "MimeType": "vero",
+  "OriginalSize": 942,
+  "CreatedDate": "2016-04-07T13:38:17.5305626+02:00",
+  "UpdatedDate": "2008-07-15T13:38:17.5305626+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quaerat",
+  "ConceptualType": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldLength": 149
     }
   }
 }

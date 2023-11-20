@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Abernathy-Schaden",
-    "ToolTip": "Libero ipsam quidem distinctio.",
+    "Id": 366,
+    "Name": "Kessler Group",
+    "ToolTip": "Ut non recusandae asperiores enim dolor temporibus iure.",
     "Deleted": false,
-    "Rank": 940,
-    "Type": "ipsa",
-    "ColorBlock": 105,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "2007-10-31T11:06:42.9753225+01:00",
+    "Rank": 197,
+    "Type": "debitis",
+    "ColorBlock": 394,
+    "IconHint": "saepe",
+    "Selected": false,
+    "LastChanged": "2014-01-17T13:38:18.1712741+01:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Schneider, Kulas and Schroeder",
-        "ToolTip": "Sit ut et consequatur cum asperiores eaque.",
+        "Id": 99,
+        "Name": "Morar Inc and Sons",
+        "ToolTip": "Nesciunt facilis.",
         "Deleted": true,
-        "Rank": 925,
-        "Type": "deserunt",
-        "ColorBlock": 505,
-        "IconHint": "error",
+        "Rank": 852,
+        "Type": "ex",
+        "ColorBlock": 215,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2006-08-25T11:06:42.9753225+02:00",
+        "LastChanged": "2018-09-15T13:38:18.1712741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "natus",
+        "ExtraInfo": "quam",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Miss Issac Beer Sr.",
+        "FullName": "Ms. Randal Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldType": "System.String",
+            "FieldLength": 812
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "esse",
-    "Hidden": false,
-    "FullName": "Khalil Adrain Mitchell DVM",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Nyah Fahey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 585
+        "FieldLength": 693
       }
     }
   }

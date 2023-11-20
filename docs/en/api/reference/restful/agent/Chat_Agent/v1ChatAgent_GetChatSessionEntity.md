@@ -26,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=220
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=984
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 620,
-  "TopicId": 211,
+  "ChatSessionId": 634,
+  "TopicId": 868,
   "User": null,
   "Person": null,
-  "CustomerAlias": "est",
-  "CustomerHost": "assumenda",
-  "CustomerName": "Kohler Group",
-  "CustomerEmail": "noemie.von@oreillyarmstrong.name",
-  "CustomerPhone": "(861)721-9409",
+  "CustomerAlias": "nihil",
+  "CustomerHost": "quam",
+  "CustomerName": "DuBuque Group",
+  "CustomerEmail": "edmond_zemlak@goodwinbartell.uk",
+  "CustomerPhone": "310-013-0302 x83653",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Lueilwitz-Gottlieb",
+  "CustomerCompanyName": "Stark, Willms and Wilkinson",
   "Status": "Closed",
-  "FirstMessage": "eaque",
-  "LastMessage": "a",
-  "WhenRequested": "2015-05-11T11:06:33.987097+02:00",
-  "WhenStarted": "2013-01-13T11:06:33.987097+01:00",
-  "WhenEnded": "2004-10-23T11:06:33.987097+02:00",
-  "WhenIdle": "1998-04-16T11:06:33.987097+02:00",
-  "WhenFetched": "2020-09-08T11:06:33.987097+02:00",
-  "SessionKey": "minus",
-  "InitialQueuePos": 770,
-  "AlertLevel": 436,
-  "Rank": 560,
+  "FirstMessage": "sequi",
+  "LastMessage": "odit",
+  "WhenRequested": "2015-09-06T13:38:13.1240408+02:00",
+  "WhenStarted": "1999-03-28T13:38:13.1240408+02:00",
+  "WhenEnded": "1998-11-22T13:38:13.1240408+01:00",
+  "WhenIdle": "1996-11-24T13:38:13.1240408+01:00",
+  "WhenFetched": "2016-11-07T13:38:13.1240408+01:00",
+  "SessionKey": "aperiam",
+  "InitialQueuePos": 179,
+  "AlertLevel": 817,
+  "Rank": 298,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 978,
+  "ChatbotIsActive": false,
+  "Rating": 650,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 701
     }
   }
 }

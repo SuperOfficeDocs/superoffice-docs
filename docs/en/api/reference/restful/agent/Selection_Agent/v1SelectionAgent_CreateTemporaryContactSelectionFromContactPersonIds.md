@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 970,
-      "ContactId": 874
+      "PersonId": 335,
+      "ContactId": 281
     },
     {
-      "PersonId": 970,
-      "ContactId": 874
+      "PersonId": 335,
+      "ContactId": 281
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cloned interactive neural-net",
-  "Postit": "minima",
+  "Description": "Reactive zero defect encryption",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 807,
-  "IncludePerson": 542,
-  "MemberCount": 320,
-  "Name": "Koch-Swift",
-  "PostitTextId": 232,
-  "CreatedDate": "2018-04-30T11:06:35.364568+02:00",
-  "SelectionId": 693,
-  "SoundEx": "consequuntur",
-  "Source": 892,
-  "TextId": 236,
-  "UpdatedDate": "2022-02-07T11:06:35.364568+01:00",
-  "UpdatedCount": 929,
-  "Visibility": 565,
+  "GroupIdx": 339,
+  "IncludePerson": 496,
+  "MemberCount": 615,
+  "Name": "West-Considine",
+  "PostitTextId": 518,
+  "CreatedDate": "2004-10-16T13:38:14.124071+02:00",
+  "SelectionId": 478,
+  "SoundEx": "qui",
+  "Source": 969,
+  "TextId": 135,
+  "UpdatedDate": "2001-11-09T13:38:14.124071+01:00",
+  "UpdatedCount": 1000,
+  "Visibility": 305,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 354,
-  "TargetTableName": "Stoltenberg Group",
-  "Completed": false,
-  "LeftSelectionId": 796,
-  "RightSelectionId": 870,
+  "TargetTableNumber": 499,
+  "TargetTableName": "Pagac Group",
+  "Completed": true,
+  "LeftSelectionId": 309,
+  "RightSelectionId": 989,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Sawayn Group",
-  "ShadowProviderName": "Johnson Inc and Sons",
-  "ChartKey": "non",
-  "LastLoaded": "2013-10-24T11:06:35.364568+02:00",
-  "LastLoadedBy": 588,
+  "MainProviderName": "Halvorson-Beatty",
+  "ShadowProviderName": "Wisozk, Smith and Runolfsdottir",
+  "ChartKey": "reprehenderit",
+  "LastLoaded": "2014-07-31T13:38:14.124071+02:00",
+  "LastLoadedBy": 159,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-06-07T11:06:35.364568+02:00",
-  "LastMembershipChangeBy": 469,
+  "LastMembershipChange": "1998-07-03T13:38:14.124071+02:00",
+  "LastMembershipChangeBy": 894,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maiores",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Schmeler, Runolfsson and Kris",
-  "DashboardTileDefinitionId": 563,
+  "MainHeading": "quia",
+  "MemberTabHeading": "minima",
+  "MailingsProviderName": "Buckridge-Hyatt",
+  "DashboardTileDefinitionId": 224,
   "VisibleFor": [
     {
-      "VisibleId": 956,
+      "VisibleId": 839,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 29
         }
       }
     },
     {
-      "VisibleId": 956,
+      "VisibleId": 839,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 29
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 28
     }
   }
 }

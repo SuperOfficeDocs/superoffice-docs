@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Collier LLC",
-    "Description": "Robust disintermediate adapter",
-    "Rank": 282,
+    "Name": "Rice, Runolfsson and Kuvalis",
+    "Description": "Networked responsive productivity",
+    "Rank": 156,
     "Restrictions": [
       {
-        "Name": "Runolfsdottir Inc and Sons",
-        "Operator": "dicta",
+        "Name": "Kiehn-Waelchi",
+        "Operator": "odit",
         "Values": [
-          "assumenda",
-          "commodi"
+          "vero",
+          "eos"
         ],
         "DisplayValues": [
-          "cupiditate",
-          "doloribus"
+          "error",
+          "sed"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 784,
+        "InterParenthesis": 950,
         "InterOperator": "And",
-        "UniqueHash": 892
+        "UniqueHash": 345
       }
     ]
   },
   {
-    "Name": "Collier LLC",
-    "Description": "Robust disintermediate adapter",
-    "Rank": 282,
+    "Name": "Rice, Runolfsson and Kuvalis",
+    "Description": "Networked responsive productivity",
+    "Rank": 156,
     "Restrictions": [
       {
-        "Name": "Runolfsdottir Inc and Sons",
-        "Operator": "dicta",
+        "Name": "Kiehn-Waelchi",
+        "Operator": "odit",
         "Values": [
-          "assumenda",
-          "commodi"
+          "vero",
+          "eos"
         ],
         "DisplayValues": [
-          "cupiditate",
-          "doloribus"
+          "error",
+          "sed"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 784,
+        "InterParenthesis": 950,
         "InterOperator": "And",
-        "UniqueHash": 892
+        "UniqueHash": 345
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stoltenberg, Morar and Sawayn",
-    "Description": "Compatible system-worthy ability",
-    "Rank": 242,
+    "Name": "Hirthe LLC",
+    "Description": "Monitored next generation customer loyalty",
+    "Rank": 780,
     "Restrictions": [
       {
-        "Name": "Stracke, Konopelski and Bradtke",
-        "Operator": "sed",
+        "Name": "Kling-Jacobson",
+        "Operator": "consectetur",
         "Values": [
-          "eligendi",
-          "doloribus"
+          "voluptates",
+          "inventore"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "possimus"
+          "cumque",
+          "laboriosam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 402,
+        "InterParenthesis": 183,
         "InterOperator": "And",
-        "UniqueHash": 564
+        "UniqueHash": 966
       }
     ]
   },
   {
-    "Name": "Stoltenberg, Morar and Sawayn",
-    "Description": "Compatible system-worthy ability",
-    "Rank": 242,
+    "Name": "Hirthe LLC",
+    "Description": "Monitored next generation customer loyalty",
+    "Rank": 780,
     "Restrictions": [
       {
-        "Name": "Stracke, Konopelski and Bradtke",
-        "Operator": "sed",
+        "Name": "Kling-Jacobson",
+        "Operator": "consectetur",
         "Values": [
-          "eligendi",
-          "doloribus"
+          "voluptates",
+          "inventore"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "possimus"
+          "cumque",
+          "laboriosam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 402,
+        "InterParenthesis": 183,
         "InterOperator": "And",
-        "UniqueHash": 564
+        "UniqueHash": 966
       }
     ]
   }

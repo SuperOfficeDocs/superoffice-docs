@@ -105,31 +105,31 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 401,
-  "Name": "Mayert Group",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 968,
+  "WebPanelId": 948,
+  "Name": "Ryan, Langworth and Kuphal",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 474,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Parisian-Stamm",
+  "WindowName": "Quigley, Keebler and Windler",
   "Url": "http://www.example.com/",
-  "ProgId": "saepe",
-  "Icon": 378,
-  "AlwaysReloadOnShow": false
+  "ProgId": "eaque",
+  "Icon": 962,
+  "AlwaysReloadOnShow": true
 }
 ```
 
@@ -140,33 +140,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 862,
-  "Name": "Gerlach-Cassin",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 469,
+  "WebPanelId": 444,
+  "Name": "Schinner-Kohler",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "Rank": 780,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Simonis Inc and Sons",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Harber LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 682,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "dolorem",
+  "Icon": 775,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 318
     }
   }
 }

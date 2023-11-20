@@ -22,6 +22,7 @@ The name of the MDO list is 'shipmentlinks'.
 |-----|-----|------|
 |Local links| local|false|
 |Global links| global|true|
+|Shipment to search for links| shipmentId|0|
 
 Separator: &
 

@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=ut
+GET /api/v1/List/Source/MDOItems?flat=True
+GET /api/v1/List/Source/MDOItems?query=repellendus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 119,
-    "Name": "Emard-Reichert",
-    "ToolTip": "Sequi earum nisi nisi.",
+    "Id": 255,
+    "Name": "Ward, Kunze and Jast",
+    "ToolTip": "Iusto dolor sit.",
     "Deleted": false,
-    "Rank": 665,
-    "Type": "quo",
+    "Rank": 812,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Osinski, Rice and Yundt",
-        "ToolTip": "Rerum fugiat voluptatibus molestiae placeat molestiae nisi.",
+        "Id": 817,
+        "Name": "Anderson-Bins",
+        "ToolTip": "Est et.",
         "Deleted": false,
-        "Rank": 365,
-        "Type": "consectetur",
+        "Rank": 794,
+        "Type": "delectus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 92,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "odio",
-        "FullName": "Dr. Hillard Prohaska",
+        "IconHint": "accusantium",
+        "ColorBlock": 409,
+        "ExtraInfo": "tenetur",
+        "StyleHint": "ipsa",
+        "FullName": "Dr. Ernestina Parisian DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 341
+            "FieldLength": 254
           }
         }
       }
     ],
-    "IconHint": "eaque",
-    "ColorBlock": 755,
-    "ExtraInfo": "expedita",
-    "StyleHint": "reiciendis",
-    "FullName": "Miss Norberto West",
+    "IconHint": "omnis",
+    "ColorBlock": 260,
+    "ExtraInfo": "fuga",
+    "StyleHint": "atque",
+    "FullName": "Adrianna Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldLength": 677
       }
     }
   }

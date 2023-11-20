@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 561,
-    "Name": "Klocko, Walter and Russel",
-    "Tooltip": "laudantium",
-    "Rank": 461,
-    "Key": "accusamus",
-    "MailTemplateId": 380,
-    "Deleted": false,
+    "ConsentSourceId": 305,
+    "Name": "Lubowitz Inc and Sons",
+    "Tooltip": "quae",
+    "Rank": 777,
+    "Key": "deleniti",
+    "MailTemplateId": 233,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 98
+        "FieldType": "System.Int32",
+        "FieldLength": 616
       }
     }
   }

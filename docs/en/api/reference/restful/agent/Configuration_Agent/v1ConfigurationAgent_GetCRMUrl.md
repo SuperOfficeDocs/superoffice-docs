@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Configuration/GetCRMUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "quia",
-  "Currents": "in",
+  "SoProtocol": "possimus",
+  "Currents": "placeat",
   "Frameless": false
 }
 ```

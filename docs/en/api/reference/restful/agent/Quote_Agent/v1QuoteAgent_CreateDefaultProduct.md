@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 10,
-  "ERPProductKey": "veritatis",
-  "ERPPriceListKey": "sequi",
-  "Name": "Feest LLC",
-  "Description": "Function-based national pricing structure",
-  "Code": "voluptatibus",
-  "PriceUnit": "enim",
-  "QuantityUnit": "nulla",
+  "ProductId": 41,
+  "ERPProductKey": "ut",
+  "ERPPriceListKey": "aut",
+  "Name": "Willms LLC",
+  "Description": "Realigned actuating algorithm",
+  "Code": "non",
+  "PriceUnit": "dignissimos",
+  "QuantityUnit": "necessitatibus",
   "IsSubscription": false,
-  "SubscriptionUnit": "id",
-  "DefaultSubscriptionQuantity": 13053.109999999999,
-  "ItemNumber": "951198",
+  "SubscriptionUnit": "aut",
+  "DefaultSubscriptionQuantity": 11094.359999999999,
+  "ItemNumber": "670718",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "in",
-  "ProductTypeKey": "iste",
-  "VAT": 20737.678,
-  "VATInfo": "qui",
-  "UnitCost": 335.33799999999997,
-  "UnitMinimumPrice": 27848.724,
-  "UnitListPrice": 15820.431999999999,
-  "InAssortment": true,
-  "Supplier": "expedita",
-  "SupplierCode": "repudiandae",
-  "Rights": "perferendis",
-  "Rule": "aspernatur",
+  "ProductFamilyKey": "molestiae",
+  "ProductTypeKey": "sequi",
+  "VAT": 5569.1179999999995,
+  "VATInfo": "ipsum",
+  "UnitCost": 16312.47,
+  "UnitMinimumPrice": 5484.5,
+  "UnitListPrice": 31039.136,
+  "InAssortment": false,
+  "Supplier": "sapiente",
+  "SupplierCode": "numquam",
+  "Rights": "commodi",
+  "Rule": "eum",
   "ExtraInfo": [
     {
-      "Name": "Schmeler Group",
-      "Value": "voluptates",
+      "Name": "Johnston Group",
+      "Value": "reprehenderit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 602
+          "FieldLength": 624
         }
       }
     },
     {
-      "Name": "Schmeler Group",
-      "Value": "voluptates",
+      "Name": "Johnston Group",
+      "Value": "reprehenderit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 602
+          "FieldLength": 624
         }
       }
     }
   ],
-  "RawExtraInfo": "necessitatibus",
-  "ExtraField1": "quod",
-  "ExtraField2": "harum",
-  "ExtraField3": "distinctio",
-  "ExtraField4": "pariatur",
-  "ExtraField5": "itaque",
-  "InStock": 23702.442,
+  "RawExtraInfo": "eligendi",
+  "ExtraField1": "hic",
+  "ExtraField2": "possimus",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "molestiae",
+  "ExtraField5": "sit",
+  "InStock": 22044.556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 517
     }
   }
 }

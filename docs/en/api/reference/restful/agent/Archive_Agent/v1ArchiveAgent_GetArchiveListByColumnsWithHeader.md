@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kunze-Littel",
+  "ProviderName": "Berge, Huels and Frami",
   "Columns": [
-    "perferendis",
-    "iure"
+    "id",
+    "ut"
   ],
   "SortOrder": [
     {
-      "Name": "Bergnaum, Kling and Padberg",
+      "Name": "McKenzie LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Bergnaum, Kling and Padberg",
+      "Name": "McKenzie LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Labadie LLC",
-      "Operator": "dicta",
+      "Name": "Kiehn, Kohler and Murazik",
+      "Operator": "libero",
       "Values": [
-        "itaque",
-        "aperiam"
+        "labore",
+        "qui"
       ],
       "DisplayValues": [
-        "beatae",
-        "incidunt"
+        "consequatur",
+        "qui"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 36,
+      "InterParenthesis": 861,
       "InterOperator": "And",
-      "UniqueHash": 886
+      "UniqueHash": 765
     }
   ],
   "Entities": [
-    "officia",
-    "reprehenderit"
+    "a",
+    "quibusdam"
   ],
-  "Page": 259,
-  "PageSize": 416,
-  "Options": "rerum"
+  "Page": 215,
+  "PageSize": 34,
+  "Options": "reiciendis"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 406,
+  "RowCount": 350,
   "Rows": [
     {
-      "EntityName": "Pagac, Jaskolski and Marks",
-      "PrimaryKey": 182,
+      "EntityName": "Ortiz Group",
+      "PrimaryKey": 218,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ab",
-          "TooltipHint": "esse",
-          "LinkHint": "aut"
+          "DisplayValue": "aliquam",
+          "TooltipHint": "itaque",
+          "LinkHint": "commodi"
         }
       },
-      "LinkHint": "reprehenderit",
-      "StyleHint": "perspiciatis",
+      "LinkHint": "fugiat",
+      "StyleHint": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 728
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 879
+      "FieldType": "System.Int32",
+      "FieldLength": 624
     }
   }
 }

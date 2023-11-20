@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 533,
-    "Name": "Connelly, Wisoky and Oberbrunner",
-    "ToolTip": "Libero suscipit ea vitae debitis sapiente commodi.",
+    "Id": 346,
+    "Name": "Jones-Larkin",
+    "ToolTip": "Voluptas nesciunt voluptas similique rerum laudantium debitis optio.",
     "Deleted": false,
-    "Rank": 562,
-    "Type": "et",
-    "ColorBlock": 78,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2015-02-03T11:06:42.9909515+01:00",
+    "Rank": 716,
+    "Type": "soluta",
+    "ColorBlock": 111,
+    "IconHint": "quos",
+    "Selected": false,
+    "LastChanged": "1998-05-14T13:38:18.186902+02:00",
     "ChildItems": [
       {
-        "Id": 930,
-        "Name": "Osinski, McDermott and Runolfsdottir",
-        "ToolTip": "Sed autem recusandae consectetur possimus asperiores quo.",
+        "Id": 745,
+        "Name": "Cruickshank LLC",
+        "ToolTip": "Inventore commodi aliquid.",
         "Deleted": false,
-        "Rank": 514,
-        "Type": "ab",
-        "ColorBlock": 796,
-        "IconHint": "esse",
+        "Rank": 930,
+        "Type": "consectetur",
+        "ColorBlock": 617,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2011-10-19T11:06:42.9909515+02:00",
+        "LastChanged": "2016-06-28T13:38:18.186902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "pariatur",
-        "Hidden": true,
-        "FullName": "Prof. Jaron Schiller II"
+        "ExtraInfo": "rerum",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Javonte Hudson"
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "magnam",
+    "ExtraInfo": "modi",
+    "StyleHint": "veritatis",
     "Hidden": false,
-    "FullName": "Sincere Gorczany"
+    "FullName": "Steve Loren Price DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 698,
-    "Name": "Hirthe Inc and Sons",
-    "ToolTip": "Pariatur omnis magnam recusandae.",
+    "Id": 598,
+    "Name": "Cronin-Ruecker",
+    "ToolTip": "Vel inventore.",
     "Deleted": false,
-    "Rank": 985,
-    "Type": "eius",
-    "ColorBlock": 786,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "1997-03-31T11:06:42.9909515+02:00",
+    "Rank": 829,
+    "Type": "dolores",
+    "ColorBlock": 126,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2013-09-11T13:38:18.186902+02:00",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Stiedemann Group",
-        "ToolTip": "Velit quod quasi et at impedit.",
-        "Deleted": true,
-        "Rank": 971,
-        "Type": "aspernatur",
-        "ColorBlock": 550,
-        "IconHint": "omnis",
+        "Id": 397,
+        "Name": "Howe, Carter and Lakin",
+        "ToolTip": "Rerum neque.",
+        "Deleted": false,
+        "Rank": 706,
+        "Type": "ratione",
+        "ColorBlock": 43,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "1998-02-02T11:06:42.9909515+01:00",
+        "LastChanged": "2000-01-31T13:38:18.186902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Bradly Strosin MD",
+        "ExtraInfo": "ut",
+        "StyleHint": "ad",
+        "Hidden": false,
+        "FullName": "Ceasar Koelpin V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 674
+            "FieldLength": 394
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "tempore",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Dr. Nikko Godfrey Beahan DVM",
+    "FullName": "Brian Neva Quitzon DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 163
+        "FieldLength": 153
       }
     }
   }

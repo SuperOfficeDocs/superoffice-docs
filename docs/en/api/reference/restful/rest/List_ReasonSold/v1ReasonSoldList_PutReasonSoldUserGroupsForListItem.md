@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 793,
-    "Name": "Hirthe, Schuster and Goldner",
-    "ToolTip": "Adipisci sed dolorem magni.",
+    "Id": 485,
+    "Name": "Mosciski-Schroeder",
+    "ToolTip": "Harum in sunt blanditiis quis saepe voluptatem.",
     "Deleted": false,
-    "Rank": 548,
+    "Rank": 153,
     "Type": "consequatur",
-    "ColorBlock": 857,
-    "IconHint": "inventore",
+    "ColorBlock": 475,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2009-03-15T11:06:43.0222001+01:00",
+    "LastChanged": "2007-02-13T13:38:18.2025212+01:00",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Deckow, Casper and Jones",
-        "ToolTip": "Sunt ea ipsam dolorum voluptas nisi reiciendis nihil.",
+        "Id": 225,
+        "Name": "Zieme Inc and Sons",
+        "ToolTip": "Non eius quia omnis odit.",
         "Deleted": false,
-        "Rank": 213,
-        "Type": "aut",
-        "ColorBlock": 644,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "2023-04-18T11:06:43.0222001+02:00",
+        "Rank": 592,
+        "Type": "explicabo",
+        "ColorBlock": 796,
+        "IconHint": "a",
+        "Selected": false,
+        "LastChanged": "2014-07-25T13:38:18.2025212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "alias",
+        "StyleHint": "doloremque",
         "Hidden": false,
-        "FullName": "Prof. Lyric Reilly"
+        "FullName": "Mrs. Carole Huel II"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Ms. Orpha Lenore Wiegand"
+    "ExtraInfo": "praesentium",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Makenna Collin Stroman Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 235,
-    "Name": "Kiehn Group",
-    "ToolTip": "Quia molestias voluptas minus inventore.",
+    "Id": 103,
+    "Name": "Hand-Johnston",
+    "ToolTip": "Recusandae tempore explicabo.",
     "Deleted": false,
-    "Rank": 15,
-    "Type": "aut",
-    "ColorBlock": 830,
-    "IconHint": "minima",
+    "Rank": 431,
+    "Type": "voluptates",
+    "ColorBlock": 541,
+    "IconHint": "eos",
     "Selected": true,
-    "LastChanged": "2016-06-16T11:06:43.0222001+02:00",
+    "LastChanged": "2005-06-17T13:38:18.2025212+02:00",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Flatley Group",
-        "ToolTip": "Recusandae et vel ut.",
-        "Deleted": true,
-        "Rank": 406,
-        "Type": "autem",
-        "ColorBlock": 617,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2000-01-06T11:06:43.0222001+01:00",
+        "Id": 718,
+        "Name": "Smith Group",
+        "ToolTip": "Iure qui ullam.",
+        "Deleted": false,
+        "Rank": 358,
+        "Type": "sit",
+        "ColorBlock": 782,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2022-10-30T13:38:18.2025212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "nam",
+        "ExtraInfo": "non",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Lavina Little",
+        "FullName": "Lavada Sanford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 288
+            "FieldType": "System.Int32",
+            "FieldLength": 841
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "fuga",
-    "Hidden": false,
-    "FullName": "Randy Durgan PhD",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "rem",
+    "Hidden": true,
+    "FullName": "Miss Ethel Wilkinson DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldType": "System.String",
+        "FieldLength": 149
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 399,
-    "Name": "Ratke Inc and Sons",
-    "ToolTip": "Corporis animi numquam.",
-    "Deleted": true,
-    "Rank": 399,
-    "Type": "blanditiis",
-    "ColorBlock": 786,
-    "IconHint": "impedit",
+    "Id": 330,
+    "Name": "Hartmann-Ward",
+    "ToolTip": "Sint aut officia.",
+    "Deleted": false,
+    "Rank": 770,
+    "Type": "corporis",
+    "ColorBlock": 634,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2006-07-10T11:06:42.7409447+02:00",
+    "LastChanged": "2016-12-01T13:38:18.0150452+01:00",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "Hahn, DuBuque and Rosenbaum",
-        "ToolTip": "Debitis porro dolor nostrum et dicta.",
+        "Id": 177,
+        "Name": "McLaughlin-Erdman",
+        "ToolTip": "Et dolores iste.",
         "Deleted": true,
-        "Rank": 784,
-        "Type": "laborum",
-        "ColorBlock": 511,
-        "IconHint": "soluta",
-        "Selected": true,
-        "LastChanged": "2002-07-21T11:06:42.7409447+02:00",
+        "Rank": 879,
+        "Type": "distinctio",
+        "ColorBlock": 190,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "1998-03-01T13:38:18.0150452+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "enim",
+        "ExtraInfo": "rerum",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Brooke Towne",
+        "FullName": "Prof. Daisy Tyrell Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 513
+            "FieldType": "System.Int32",
+            "FieldLength": 627
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "nisi",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "numquam",
     "Hidden": true,
-    "FullName": "Sheridan Witting",
+    "FullName": "Sonia Spencer MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldType": "System.String",
+        "FieldLength": 327
       }
     }
   }

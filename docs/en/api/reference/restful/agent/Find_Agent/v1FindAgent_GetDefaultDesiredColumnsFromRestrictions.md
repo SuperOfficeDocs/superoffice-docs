@@ -86,32 +86,32 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Halvorson, Watsica and Hane",
+  "ProviderName": "Jones-Buckridge",
   "Restrictions": [
     {
-      "Name": "Kuphal-Stiedemann",
-      "Operator": "similique",
+      "Name": "Schmitt-Gleichner",
+      "Operator": "et",
       "Values": [
-        "pariatur",
-        "dolor"
+        "qui",
+        "quia"
       ],
       "DisplayValues": [
-        "voluptate",
+        "enim",
         "iure"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 574,
+      "InterParenthesis": 649,
       "InterOperator": "And",
-      "UniqueHash": 311
+      "UniqueHash": 290
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Connelly Group",
-    "DisplayTooltip": "qui",
-    "DisplayType": "nihil",
+    "DisplayName": "Emmerich, Jones and Weimann",
+    "DisplayTooltip": "perferendis",
+    "DisplayType": "vel",
     "CanOrderBy": true,
-    "Name": "Runte-Graham",
-    "CanRestrictBy": false,
-    "RestrictionType": "illo",
-    "RestrictionListName": "Weimann Group",
-    "IsVisible": true,
-    "ExtraInfo": "fugit",
-    "Width": "possimus",
-    "IconHint": "enim",
-    "HeadingIconHint": "quia"
+    "Name": "Marquardt, Kuvalis and O'Keefe",
+    "CanRestrictBy": true,
+    "RestrictionType": "cupiditate",
+    "RestrictionListName": "Heller LLC",
+    "IsVisible": false,
+    "ExtraInfo": "quo",
+    "Width": "sapiente",
+    "IconHint": "neque",
+    "HeadingIconHint": "laborum"
   }
 ]
 ```

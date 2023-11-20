@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 985
+  "TicketEntityId": 184
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 461,
-    "Name": "Haag, Deckow and Wilderman",
-    "ContentType": "non",
-    "AttSize": 437,
+    "AttachmentId": 431,
+    "Name": "Bruen, Mosciski and Corwin",
+    "ContentType": "eaque",
+    "AttSize": 699,
     "InlineImage": false,
-    "ContentId": "aliquid",
-    "AuthKey": "cupiditate",
+    "ContentId": "eos",
+    "AuthKey": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 271
+        "FieldType": "System.Int32",
+        "FieldLength": 598
       }
     }
   }

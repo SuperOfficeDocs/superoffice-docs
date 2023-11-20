@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 16 Jun 2005 11:06:41 G6T
+Last-Modified: Sat, 31 Mar 2018 13:38:17 G3T
 
 {
-  "ForeignAppId": 440,
-  "Name": "Goodwin, O'Keefe and Hoppe",
-  "CreatedDate": "2020-06-02T11:06:41.8790976+02:00",
-  "UpdatedDate": "2005-06-16T11:06:41.8790976+02:00",
+  "ForeignAppId": 726,
+  "Name": "Farrell-Kshlerin",
+  "CreatedDate": "1998-12-09T13:38:17.4368262+01:00",
+  "UpdatedDate": "2018-03-31T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 445,
-      "Name": "Abbott-Ullrich",
-      "CreatedDate": "1997-07-14T11:06:41.8790976+02:00",
-      "UpdatedDate": "2005-07-21T11:06:41.8790976+02:00",
-      "AssociateFullName": "Bessie Jane D'Amore I",
-      "CreatedBy": "et",
-      "UpdatedBy": "saepe",
-      "DeviceIdentifier": "delectus",
-      "ForeignAppId": 384,
+      "ForeignDeviceId": 341,
+      "Name": "Kertzmann-O'Conner",
+      "CreatedDate": "1999-07-06T13:38:17.4368262+02:00",
+      "UpdatedDate": "1998-05-11T13:38:17.4368262+02:00",
+      "AssociateFullName": "Fredy Tillman",
+      "CreatedBy": "ea",
+      "UpdatedBy": "eos",
+      "DeviceIdentifier": "rerum",
+      "ForeignAppId": 785,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldType": "System.String",
+          "FieldLength": 880
         }
       }
     }
@@ -123,12 +123,12 @@ Last-Modified: Thu, 16 Jun 2005 11:06:41 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 142
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

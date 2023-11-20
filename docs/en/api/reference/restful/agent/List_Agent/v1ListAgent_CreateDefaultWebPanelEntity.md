@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 48,
-  "Name": "Sporer, Huel and Ondricka",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 531,
+  "WebPanelId": 6,
+  "Name": "Bergnaum LLC",
+  "Tooltip": "iure",
+  "Deleted": true,
+  "Rank": 563,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Schneider-Considine",
+  "ShowInStatusBar": true,
+  "WindowName": "Hand Group",
   "Url": "http://www.example.com/",
-  "ProgId": "incidunt",
-  "Icon": 185,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "voluptatem",
+  "Icon": 585,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 453
     }
   }
 }

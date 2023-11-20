@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sunt
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ullam
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 02 Oct 2016 11:06:41 G10T
+Last-Modified: Sat, 15 Mar 1997 13:38:17 G3T
 
 {
-  "Key": "quae",
-  "Value": "libero",
-  "RecordId": 798,
-  "CreatedDate": "2001-03-19T11:06:41.8947242+01:00",
-  "UpdatedDate": "2016-10-02T11:06:41.8947242+02:00",
-  "UpdatedBy": "nam",
-  "CreatedBy": "officia",
-  "TableName": "Cassin, Schamberger and Emard",
+  "Key": "ducimus",
+  "Value": "asperiores",
+  "RecordId": 846,
+  "CreatedDate": "2003-12-04T13:38:17.4524494+01:00",
+  "UpdatedDate": "1997-03-15T13:38:17.4524494+01:00",
+  "UpdatedBy": "dolorum",
+  "CreatedBy": "error",
+  "TableName": "Smitham Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldLength": 268
     }
   }
 }

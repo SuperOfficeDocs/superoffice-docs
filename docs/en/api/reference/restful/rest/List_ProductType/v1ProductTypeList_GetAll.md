@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Botsford-Erdman",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "UdListDefinitionId": 854,
-    "Rank": 483,
+    "Id": 101,
+    "Name": "Kuvalis-Funk",
+    "Tooltip": "natus",
+    "Deleted": false,
+    "UdListDefinitionId": 30,
+    "Rank": 3,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldType": "System.String",
+        "FieldLength": 628
       }
     }
   }

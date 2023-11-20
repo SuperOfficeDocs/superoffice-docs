@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 932,
-  "Name": "Huel, Schmitt and Ankunding",
-  "ConsentText": "sed",
-  "FormText": "laudantium",
-  "Key": "eum",
-  "Tooltip": "maiores",
-  "Active": 343,
-  "UpdatedDate": "2007-08-22T11:06:42.7253202+02:00",
+  "ConsentPurposeId": 595,
+  "Name": "Abernathy Inc and Sons",
+  "ConsentText": "et",
+  "FormText": "numquam",
+  "Key": "consectetur",
+  "Tooltip": "exercitationem",
+  "Active": 825,
+  "UpdatedDate": "1998-07-09T13:38:17.9994152+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 796,
-  "PrivacyStatementDesc": "consectetur",
+  "Rank": 830,
+  "PrivacyStatementDesc": "qui",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 542,
-  "Name": "Emmerich-Stoltenberg",
-  "ConsentText": "non",
-  "FormText": "doloremque",
-  "Key": "eos",
-  "Tooltip": "voluptate",
-  "Active": 177,
-  "UpdatedDate": "2017-03-19T11:06:42.7253202+01:00",
+  "ConsentPurposeId": 98,
+  "Name": "Christiansen-Collins",
+  "ConsentText": "quo",
+  "FormText": "et",
+  "Key": "veritatis",
+  "Tooltip": "voluptatem",
+  "Active": 312,
+  "UpdatedDate": "1996-11-04T13:38:17.9994152+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 4,
-  "PrivacyStatementDesc": "velit",
+  "Deleted": false,
+  "Rank": 971,
+  "PrivacyStatementDesc": "sunt",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 931
+      "FieldLength": 425
     }
   }
 }

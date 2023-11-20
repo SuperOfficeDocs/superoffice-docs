@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Harvey Group",
-    "Tooltip": "occaecati",
+    "Id": 438,
+    "Name": "Hirthe-Rippin",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "UdListDefinitionId": 534,
-    "Rank": 657
+    "UdListDefinitionId": 563,
+    "Rank": 583
   },
   {
-    "Id": 212,
-    "Name": "Harvey Group",
-    "Tooltip": "occaecati",
+    "Id": 438,
+    "Name": "Hirthe-Rippin",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "UdListDefinitionId": 534,
-    "Rank": 657
+    "UdListDefinitionId": 563,
+    "Rank": 583
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 980,
-    "Name": "Turcotte LLC",
-    "Tooltip": "ut",
+    "Id": 495,
+    "Name": "Cartwright-Hayes",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "UdListDefinitionId": 925,
-    "Rank": 549,
+    "UdListDefinitionId": 608,
+    "Rank": 797,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 604
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Name": "Gaylord Group",
-    "ToolTip": "Repellendus itaque dignissimos.",
-    "Deleted": true,
-    "Rank": 405,
-    "Type": "sunt",
-    "ColorBlock": 804,
-    "IconHint": "est",
+    "Id": 524,
+    "Name": "Sipes Inc and Sons",
+    "ToolTip": "Molestiae ut voluptatibus.",
+    "Deleted": false,
+    "Rank": 463,
+    "Type": "omnis",
+    "ColorBlock": 592,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2020-01-19T11:06:42.9909515+01:00",
+    "LastChanged": "1999-06-28T13:38:18.186902+02:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Hermann LLC",
-        "ToolTip": "Saepe et.",
+        "Id": 139,
+        "Name": "Rohan, Ankunding and Marvin",
+        "ToolTip": "Alias odio quibusdam ducimus animi ea.",
         "Deleted": false,
-        "Rank": 894,
-        "Type": "et",
-        "ColorBlock": 12,
-        "IconHint": "porro",
+        "Rank": 943,
+        "Type": "delectus",
+        "ColorBlock": 270,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "1997-12-05T11:06:42.9909515+01:00",
+        "LastChanged": "1998-03-19T13:38:18.186902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sunt",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Toney O'Hara",
+        "FullName": "Darien Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 318
+            "FieldLength": 315
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Dorian McKenzie",
+    "ExtraInfo": "illum",
+    "StyleHint": "quis",
+    "Hidden": false,
+    "FullName": "Hunter Vandervort DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldLength": 712
       }
     }
   }

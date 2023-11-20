@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 721,
-  "UniqueId": "nobis",
-  "Name": "Quigley-Mosciski",
-  "Description": "Cross-group upward-trending groupware",
-  "AssociateId": 262,
-  "Columns": 34,
+  "DashboardId": 154,
+  "UniqueId": "quis",
+  "Name": "Runolfsson, Senger and Crooks",
+  "Description": "Profit-focused 3rd generation leverage",
+  "AssociateId": 603,
+  "Columns": 646,
   "Theme": null,
-  "VisibleForAll": 230,
+  "VisibleForAll": 320,
   "VisibleForAssociates": [
-    61,
-    359
+    233,
+    524
   ],
   "VisibleForGroups": [
-    339,
-    475
+    25,
+    512
   ],
-  "PinForAll": 566,
+  "PinForAll": 326,
   "PinForAssociates": [
-    301,
-    567
+    333,
+    26
   ],
   "PinForGroups": [
-    920,
-    483
+    939,
+    244
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 595
     }
   },
   "_Links": {

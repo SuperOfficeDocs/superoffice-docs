@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
     {
       "CanSupportMultiUse": false,
       "DefaultShowInGui": true,
-      "DefaultShowInSelector": true,
-      "IsActive": false,
-      "Key": "facilis",
-      "ValueType": "blanditiis",
+      "DefaultShowInSelector": false,
+      "IsActive": true,
+      "Key": "consectetur",
+      "ValueType": "voluptatem",
       "Mandatory": false,
-      "EncodedDisplayName": "Medhurst-Doyle",
-      "EncodedDisplayDescription": "Mandatory exuding focus group",
-      "IconHint": "beatae",
+      "EncodedDisplayName": "Lindgren-Weimann",
+      "EncodedDisplayDescription": "Multi-tiered clear-thinking knowledge user",
+      "IconHint": "ad",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "molestiae",
-      "EncodedDataCaptionDescription": "Innovative value-added secured line",
-      "CurrentOperationType": "nam",
+      "EncodedDataCaption": "corporis",
+      "EncodedDataCaptionDescription": "Total contextually-based workforce",
+      "CurrentOperationType": "cupiditate",
       "Values": [
-        "et",
-        "ut"
+        "voluptatem",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "eaque",
-        "eius"
+        "a",
+        "eum"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Hand, Daugherty and Swift",
-  "Context": "sed",
-  "SelectionId": 38,
+  "TableName": "Dickinson LLC",
+  "Context": "qui",
+  "SelectionId": 137,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-894
+101
 ```

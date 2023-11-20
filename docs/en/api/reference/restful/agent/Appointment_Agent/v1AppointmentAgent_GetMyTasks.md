@@ -114,6 +114,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,7 +131,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 502
+  "Count": 601
 }
 ```
 
@@ -142,64 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 356,
-    "StartDate": "2008-09-04T11:06:33.7347319+02:00",
-    "EndDate": "2007-05-04T11:06:33.7347319+02:00",
+    "AppointmentId": 256,
+    "StartDate": "2006-02-05T13:38:13.0459237+01:00",
+    "EndDate": "1999-02-20T13:38:13.0459237+01:00",
     "Type": "BookingForChecklist",
-    "Task": "consequatur",
-    "AssociateFullName": "Elda Konopelski",
-    "ContactName": "Dare, Lind and Lubowitz",
-    "Description": "Polarised methodical system engine",
-    "PersonFullName": "Mrs. Treva Zoila Smith",
-    "PersonId": 599,
-    "ContactId": 501,
-    "ProjectId": 961,
-    "ProjectName": "Kutch, Hamill and DuBuque",
+    "Task": "voluptates",
+    "AssociateFullName": "Veronica Tremblay",
+    "ContactName": "Kirlin-Kilback",
+    "Description": "Fundamental real-time process improvement",
+    "PersonFullName": "Sallie Zulauf",
+    "PersonId": 590,
+    "ContactId": 922,
+    "ProjectId": 147,
+    "ProjectName": "Greenfelder, Steuber and Nienow",
     "IsPublished": true,
-    "AssociateId": 169,
-    "ColorIndex": 78,
+    "AssociateId": 872,
+    "ColorIndex": 169,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 800,
-    "PriorityName": "Herzog, Hahn and Gusikowski",
+    "PriorityId": 739,
+    "PriorityName": "Auer Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1998-03-31T11:06:33.7347319+02:00",
+    "ActiveDate": "2015-04-08T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-10-01T11:06:33.7347319+02:00",
-    "RecurringEndDate": "2019-08-30T11:06:33.7347319+02:00",
-    "MotherId": 958,
-    "AssignedBy": 439,
-    "AssignedByFullName": "Marcella Lavonne Parisian III",
+    "RecurringStartDate": "1997-08-01T13:38:13.0459237+02:00",
+    "RecurringEndDate": "2014-04-13T13:38:13.0459237+02:00",
+    "MotherId": 922,
+    "AssignedBy": 989,
+    "AssignedByFullName": "Kaelyn Klein",
     "RejectReason": "",
-    "Location": "voluptatem",
-    "AlarmLeadTime": "natus",
-    "SaleId": 642,
-    "SaleName": "Romaguera, Lowe and Okuneva",
-    "AssociateName": "Pollich Inc and Sons",
-    "CreatedDate": "2012-01-09T11:06:33.7347319+01:00",
-    "CreatedBy": "voluptatum",
-    "CreatedByFullName": "Prof. Kirsten Julie Bauch",
-    "CreatedByAssociateId": 719,
+    "Location": "non",
+    "AlarmLeadTime": "voluptas",
+    "SaleId": 389,
+    "SaleName": "Huel, Kirlin and Kub",
+    "AssociateName": "Ankunding Inc and Sons",
+    "CreatedDate": "2006-04-15T13:38:13.0459237+02:00",
+    "CreatedBy": "repudiandae",
+    "CreatedByFullName": "Dr. Anastacio Kasandra Schuster II",
+    "CreatedByAssociateId": 248,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "fugiat",
-    "Agenda": "est",
-    "InternalNotes": "eum",
+    "PreferredTZLocation": 524,
+    "Title": "corrupti",
+    "Agenda": "accusantium",
+    "InternalNotes": "voluptate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

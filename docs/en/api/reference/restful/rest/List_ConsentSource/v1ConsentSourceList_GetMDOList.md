@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=perferendis
+GET /api/v1/List/ConsentSource/MDOItems?flat=False
+GET /api/v1/List/ConsentSource/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 663,
-    "Name": "Hamill, Gorczany and Runolfsdottir",
-    "ToolTip": "Illum ut ipsam.",
-    "Deleted": false,
-    "Rank": 379,
-    "Type": "nam",
+    "Id": 497,
+    "Name": "Graham Group",
+    "ToolTip": "Deleniti voluptatem molestias error accusantium nesciunt.",
+    "Deleted": true,
+    "Rank": 435,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 31,
-        "Name": "Emmerich, Rogahn and Orn",
-        "ToolTip": "Aperiam sed fuga odit non et.",
+        "Id": 826,
+        "Name": "Koepp Group",
+        "ToolTip": "Facere eius quidem ea totam vel ex sint.",
         "Deleted": false,
-        "Rank": 273,
-        "Type": "exercitationem",
+        "Rank": 365,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "provident",
-        "ColorBlock": 391,
-        "ExtraInfo": "odio",
-        "StyleHint": "aut",
-        "FullName": "Prof. Alene Heller",
+        "IconHint": "perferendis",
+        "ColorBlock": 736,
+        "ExtraInfo": "vitae",
+        "StyleHint": "qui",
+        "FullName": "Dr. Austen Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldType": "System.String",
+            "FieldLength": 249
           }
         }
       }
     ],
-    "IconHint": "saepe",
-    "ColorBlock": 746,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "voluptate",
-    "FullName": "Mrs. Eulalia Melany Rowe DVM",
+    "IconHint": "deleniti",
+    "ColorBlock": 779,
+    "ExtraInfo": "a",
+    "StyleHint": "consequatur",
+    "FullName": "Duane Cielo Kuhn I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 52
       }
     }
   }

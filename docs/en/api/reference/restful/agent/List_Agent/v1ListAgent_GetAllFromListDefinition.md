@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 966,
-  "IncludeDeleted": false
+  "UdListDefinitionId": 788,
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 723,
-    "Name": "Leuschke-Harber",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "UdListDefinitionId": 3,
-    "Rank": 30,
+    "Id": 663,
+    "Name": "Botsford-Little",
+    "Tooltip": "voluptates",
+    "Deleted": true,
+    "UdListDefinitionId": 969,
+    "Rank": 16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldType": "System.String",
+        "FieldLength": 227
       }
     }
   }

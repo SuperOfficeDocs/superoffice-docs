@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "in",
+  "Hostname": "voluptatem",
   "Paths": [
-    "libero",
-    "porro"
+    "voluptatem",
+    "reprehenderit"
   ]
 }
 ```

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 396,
-    "Name": "Blick, Ritchie and Aufderhar",
-    "CurrencyId": 154,
-    "EnglishName": "Reinger Group",
+    "CountryId": 847,
+    "Name": "Stark-McKenzie",
+    "CurrencyId": 450,
+    "EnglishName": "Reinger, Boyer and Abbott",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Reactive zero defect interface",
-    "OrgNrText": "943659",
-    "InterAreaPrefix": "excepturi",
-    "DialInPrefix": "minus",
-    "ZipPrefix": "dolor",
-    "DomainName": "Block, Ward and Schulist",
-    "AddressLayoutId": 21,
-    "DomesticAddressLayoutId": 352,
-    "ForeignAddressLayoutId": 638,
-    "Rank": 269,
-    "Tooltip": "distinctio",
+    "ImageDescription": "Function-based web-enabled encoding",
+    "OrgNrText": "935693",
+    "InterAreaPrefix": "fuga",
+    "DialInPrefix": "odit",
+    "ZipPrefix": "quia",
+    "DomainName": "Sauer, Kerluke and Rempel",
+    "AddressLayoutId": 241,
+    "DomesticAddressLayoutId": 517,
+    "ForeignAddressLayoutId": 372,
+    "Rank": 531,
+    "Tooltip": "perferendis",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldType": "System.String",
+        "FieldLength": 912
       }
     }
   }

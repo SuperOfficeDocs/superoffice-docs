@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 292,
-  "BlobSize": 541,
-  "Description": "Profound stable support",
-  "ExtraInfo": "totam",
-  "IsEncrypted": false,
+  "BlobId": 178,
+  "BlobSize": 348,
+  "Description": "Devolved cohesive access",
+  "ExtraInfo": "architecto",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "vero",
-  "OriginalSize": 829,
-  "CreatedDate": "2007-03-26T11:06:33.7972715+02:00",
-  "UpdatedDate": "2012-09-16T11:06:33.7972715+02:00",
+  "MimeType": "qui",
+  "OriginalSize": 727,
+  "CreatedDate": "2015-01-11T13:38:13.0927968+01:00",
+  "UpdatedDate": "2000-05-02T13:38:13.0927968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

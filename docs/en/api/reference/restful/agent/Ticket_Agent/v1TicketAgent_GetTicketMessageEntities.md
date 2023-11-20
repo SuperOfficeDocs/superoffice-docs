@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 546,
+  "TicketId": 226,
   "MessageIds": [
-    551,
-    1000
+    848,
+    198
   ]
 }
 ```
@@ -119,78 +119,78 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 650,
+    "EjMessageId": 837,
     "Ticket": null,
-    "CreatedAt": "2009-09-27T11:06:35.6002493+02:00",
+    "CreatedAt": "2004-11-02T13:38:14.295928+01:00",
     "CreatedBy": null,
-    "Author": "rerum",
+    "Author": "amet",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "iure",
-    "TimeSpent": 326,
-    "Body": "ea",
-    "HtmlBody": "ratione",
-    "EmailHeader": "newton_kessler@daugherty.co.uk",
-    "DebugInfo": "quod",
-    "MailSorter": "consequatur",
+    "MessageId": "consequatur",
+    "TimeSpent": 361,
+    "Body": "ratione",
+    "HtmlBody": "aut",
+    "EmailHeader": "candelario@stoltenberg.co.uk",
+    "DebugInfo": "provident",
+    "MailSorter": "qui",
     "MessageCategory": "Bounce",
     "Person": null,
     "SearchTitle": "et",
     "MessageHeaders": [
       {
-        "Id": 441,
-        "Name": "Grady Group",
-        "Value": "id",
+        "Id": 91,
+        "Name": "Macejkovic, Keeling and Champlin",
+        "Value": "praesentium",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 82
+            "FieldType": "System.String",
+            "FieldLength": 827
           }
         }
       }
     ],
     "Important": true,
-    "Language": "autem",
-    "Sentiment": 493,
-    "SentimentConfidence": 926,
+    "Language": "quo",
+    "Sentiment": 249,
+    "SentimentConfidence": 331,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 589,
-        "Name": "Hansen LLC",
-        "ContentType": "dolores",
-        "AttSize": 453,
+        "AttachmentId": 406,
+        "Name": "Steuber, Morissette and Rippin",
+        "ContentType": "id",
+        "AttSize": 490,
         "InlineImage": false,
-        "ContentId": "esse",
-        "AuthKey": "reiciendis",
+        "ContentId": "repellendus",
+        "AuthKey": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 310
+            "FieldLength": 684
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "quia",
-      "ExtraFields2": "debitis"
+      "ExtraFields1": "ullam",
+      "ExtraFields2": "perferendis"
     },
     "CustomFields": {
-      "CustomFields1": "ut",
-      "CustomFields2": "rerum"
+      "CustomFields1": "quia",
+      "CustomFields2": "ullam"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldType": "System.String",
+        "FieldLength": 341
       }
     }
   }

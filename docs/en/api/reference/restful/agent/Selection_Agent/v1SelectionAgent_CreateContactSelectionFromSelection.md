@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 823,
-  "Name": "McCullough, Heidenreich and Murray",
+  "SelectionId": 970,
+  "Name": "Kihn, Tremblay and Grant",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized object-oriented task-force",
-  "Postit": "velit",
+  "Description": "Fundamental modular initiative",
+  "Postit": "placeat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 180,
-  "IncludePerson": 368,
-  "MemberCount": 81,
-  "Name": "Baumbach, Haley and Bayer",
-  "PostitTextId": 719,
-  "CreatedDate": "2021-10-07T11:06:35.364568+02:00",
-  "SelectionId": 114,
-  "SoundEx": "ea",
-  "Source": 989,
-  "TextId": 677,
-  "UpdatedDate": "2007-12-19T11:06:35.364568+01:00",
-  "UpdatedCount": 342,
-  "Visibility": 893,
+  "GroupIdx": 867,
+  "IncludePerson": 361,
+  "MemberCount": 311,
+  "Name": "Kertzmann, Bartell and Runolfsson",
+  "PostitTextId": 485,
+  "CreatedDate": "2011-09-19T13:38:14.124071+02:00",
+  "SelectionId": 889,
+  "SoundEx": "ut",
+  "Source": 551,
+  "TextId": 993,
+  "UpdatedDate": "2000-04-20T13:38:14.124071+02:00",
+  "UpdatedCount": 771,
+  "Visibility": 746,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 373,
-  "TargetTableName": "Jones-Koss",
+  "TargetTableNumber": 884,
+  "TargetTableName": "Hermann, Vandervort and Durgan",
   "Completed": true,
-  "LeftSelectionId": 35,
-  "RightSelectionId": 729,
+  "LeftSelectionId": 460,
+  "RightSelectionId": 228,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jewess LLC",
-  "ShadowProviderName": "Kessler LLC",
-  "ChartKey": "qui",
-  "LastLoaded": "2015-05-16T11:06:35.364568+02:00",
-  "LastLoadedBy": 465,
+  "MainProviderName": "Turcotte-Pagac",
+  "ShadowProviderName": "Ward-Lang",
+  "ChartKey": "necessitatibus",
+  "LastLoaded": "2001-05-25T13:38:14.124071+02:00",
+  "LastLoadedBy": 302,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-08-29T11:06:35.364568+02:00",
-  "LastMembershipChangeBy": 851,
+  "LastMembershipChange": "2017-03-22T13:38:14.124071+01:00",
+  "LastMembershipChangeBy": 332,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "iure",
+  "MainHeading": "cum",
   "MemberTabHeading": "et",
-  "MailingsProviderName": "Glover-Lemke",
-  "DashboardTileDefinitionId": 447,
+  "MailingsProviderName": "Conn LLC",
+  "DashboardTileDefinitionId": 25,
   "VisibleFor": [
     {
-      "VisibleId": 374,
+      "VisibleId": 842,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldLength": 673
         }
       }
     },
     {
-      "VisibleId": 374,
+      "VisibleId": 842,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldLength": 673
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 186
+      "FieldLength": 296
     }
   }
 }

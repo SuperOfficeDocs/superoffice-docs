@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boyer-Bartoletti",
+  "Name": "Torphy Group",
   "AssociateIds": [
-    170,
-    198
+    512,
+    117
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 856,
-    "Name": "Lehner, Spencer and Weber",
-    "AssociateId": 190,
-    "DetailsTable": 208,
-    "DetailsRecord": 871,
+    "Id": 77,
+    "Name": "Treutel, Lang and Ziemann",
+    "AssociateId": 51,
+    "DetailsTable": 682,
+    "DetailsRecord": 946,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "vitae",
-      "ParameterObject2": "est"
+      "ParameterObject1": "ut",
+      "ParameterObject2": "ullam"
     },
-    "LastStarted": "2000-05-03T11:06:33.7972715+02:00",
-    "Created": "2000-07-16T11:06:33.7972715+02:00",
-    "StartCount": 706,
-    "DatabaseSerialNumber": "988828",
-    "Context": "hic",
-    "Result": "fugiat",
+    "LastStarted": "2007-04-28T13:38:13.0927968+02:00",
+    "Created": "1998-05-21T13:38:13.0927968+02:00",
+    "StartCount": 220,
+    "DatabaseSerialNumber": "1267788",
+    "Context": "ad",
+    "Result": "consequatur",
     "State": "All",
-    "Description": "Visionary zero defect monitoring",
-    "Response": "blanditiis",
-    "Request": "debitis",
-    "ProgressDescription": "Advanced 3rd generation utilisation",
-    "ProgressPercent": 992,
-    "FileName": "Monahan Group",
+    "Description": "Team-oriented fresh-thinking methodology",
+    "Response": "et",
+    "Request": "laborum",
+    "ProgressDescription": "De-engineered composite archive",
+    "ProgressPercent": 181,
+    "FileName": "Smith, Schimmel and Streich",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 238
+        "FieldType": "System.Int32",
+        "FieldLength": 674
       }
     }
   }

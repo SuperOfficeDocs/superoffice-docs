@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 423,
-  "StartDate": "2023-04-15T11:06:33.6007343+02:00",
-  "EndDate": "2008-02-21T11:06:33.6007343+01:00",
-  "RecurrenceCounter": 890,
+  "RecurrenceId": 703,
+  "StartDate": "2020-05-13T13:38:12.9521841+02:00",
+  "EndDate": "2005-02-10T13:38:12.9521841+01:00",
+  "RecurrenceCounter": 782,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-02-21T11:06:33.6007343+01:00",
+      "Date": "2001-09-07T13:38:12.9521841+02:00",
       "IsConflict": false,
-      "Description": "Persevering encompassing emulation",
-      "DescriptionStyleHint": "Vision-oriented multi-tasking middleware",
-      "Tooltip": "a"
+      "Description": "Triple-buffered exuding task-force",
+      "DescriptionStyleHint": "Future-proofed foreground groupware",
+      "Tooltip": "saepe"
     },
     {
-      "Date": "2010-02-21T11:06:33.6007343+01:00",
+      "Date": "2001-09-07T13:38:12.9521841+02:00",
       "IsConflict": false,
-      "Description": "Persevering encompassing emulation",
-      "DescriptionStyleHint": "Vision-oriented multi-tasking middleware",
-      "Tooltip": "a"
+      "Description": "Triple-buffered exuding task-force",
+      "DescriptionStyleHint": "Future-proofed foreground groupware",
+      "Tooltip": "saepe"
     }
   ],
   "IsRecurrence": false

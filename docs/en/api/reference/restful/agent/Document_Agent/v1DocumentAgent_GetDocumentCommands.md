@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 336,
+  "DocumentId": 596,
   "AllowedReturnTypes": [
-    "fuga",
-    "enim"
+    "nulla",
+    "ea"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lehner-Wolf",
-    "DisplayName": "Cummings, Grimes and Hagenes",
-    "DisplayTooltip": "totam",
-    "IconHint": "mollitia",
+    "Name": "Murray-Johnston",
+    "DisplayName": "Robel LLC",
+    "DisplayTooltip": "et",
+    "IconHint": "perferendis",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Lehner-Wolf",
-    "DisplayName": "Cummings, Grimes and Hagenes",
-    "DisplayTooltip": "totam",
-    "IconHint": "mollitia",
+    "Name": "Murray-Johnston",
+    "DisplayName": "Robel LLC",
+    "DisplayTooltip": "et",
+    "IconHint": "perferendis",
     "ReturnType": "CustomGui"
   }
 ]

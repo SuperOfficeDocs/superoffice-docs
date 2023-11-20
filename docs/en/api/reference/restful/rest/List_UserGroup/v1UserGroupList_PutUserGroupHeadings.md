@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 632,
-    "Name": "Hamill, Spinka and Senger",
-    "Tooltip": "aperiam",
+    "HeadingId": 370,
+    "Name": "Olson, DuBuque and Dickens",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 772,
-    "UdListDefinitionId": 498
+    "Rank": 344,
+    "UdListDefinitionId": 338
   },
   {
-    "HeadingId": 632,
-    "Name": "Hamill, Spinka and Senger",
-    "Tooltip": "aperiam",
+    "HeadingId": 370,
+    "Name": "Olson, DuBuque and Dickens",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 772,
-    "UdListDefinitionId": 498
+    "Rank": 344,
+    "UdListDefinitionId": 338
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 372,
-    "Name": "Bogan, Koelpin and Jaskolski",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 185,
-    "UdListDefinitionId": 879,
+    "HeadingId": 99,
+    "Name": "DuBuque-Boyer",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 146,
+    "UdListDefinitionId": 21,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldType": "System.String",
+        "FieldLength": 789
       }
     }
   }

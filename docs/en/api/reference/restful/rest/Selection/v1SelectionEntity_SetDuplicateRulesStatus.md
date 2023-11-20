@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Boyle, O'Kon and McDermott",
-    "DisplayName": "Goldner, Glover and O'Connell",
-    "DisplayTooltip": "adipisci",
-    "IsActive": false
+    "Name": "Boyle, Kub and Collier",
+    "DisplayName": "Gorczany LLC",
+    "DisplayTooltip": "maiores",
+    "IsActive": true
   },
   {
-    "Name": "Boyle, O'Kon and McDermott",
-    "DisplayName": "Goldner, Glover and O'Connell",
-    "DisplayTooltip": "adipisci",
-    "IsActive": false
+    "Name": "Boyle, Kub and Collier",
+    "DisplayName": "Gorczany LLC",
+    "DisplayTooltip": "maiores",
+    "IsActive": true
   }
 ]
 ```

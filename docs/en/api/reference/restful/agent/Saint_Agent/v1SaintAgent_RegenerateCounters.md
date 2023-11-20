@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Jaskolski, Feil and Mertz",
-  "AssociateId": 666,
-  "DetailsTable": 884,
-  "DetailsRecord": 617,
+  "Id": 109,
+  "Name": "Franecki, Bartoletti and Robel",
+  "AssociateId": 46,
+  "DetailsTable": 801,
+  "DetailsRecord": 248,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "magni",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "est",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2008-06-16T11:06:35.2708148+02:00",
-  "Created": "2016-04-06T11:06:35.2708148+02:00",
-  "StartCount": 668,
-  "DatabaseSerialNumber": "1380220",
-  "Context": "dolor",
-  "Result": "vitae",
+  "LastStarted": "2021-12-08T13:38:14.0615788+01:00",
+  "Created": "2014-09-29T13:38:14.0615788+02:00",
+  "StartCount": 631,
+  "DatabaseSerialNumber": "1101035",
+  "Context": "eos",
+  "Result": "et",
   "State": "All",
-  "Description": "User-centric intangible parallelism",
-  "Response": "dignissimos",
-  "Request": "quas",
-  "ProgressDescription": "User-friendly hybrid projection",
-  "ProgressPercent": 356,
-  "FileName": "McLaughlin-Marvin",
+  "Description": "Seamless optimal synergy",
+  "Response": "esse",
+  "Request": "sunt",
+  "ProgressDescription": "Multi-channelled optimizing methodology",
+  "ProgressPercent": 825,
+  "FileName": "Marks, Wisozk and Stroman",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldType": "System.Int32",
+      "FieldLength": 786
     }
   }
 }

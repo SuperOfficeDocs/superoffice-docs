@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -134,10 +135,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 123,
-  "StartTime": "2010-11-11T11:06:33.4444886+01:00",
-  "EndTime": "2022-01-30T11:06:33.4444886+01:00",
-  "Count": 130,
+  "PersonId": 108,
+  "StartTime": "2023-09-09T13:38:12.8428246+02:00",
+  "EndTime": "2010-10-02T13:38:12.8428246+02:00",
+  "Count": 334,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 252,
-    "StartDate": "1997-03-09T11:06:33.4444886+01:00",
-    "EndDate": "2012-11-20T11:06:33.4444886+01:00",
+    "AppointmentId": 767,
+    "StartDate": "2002-05-20T13:38:12.8428246+02:00",
+    "EndDate": "2001-09-06T13:38:12.8428246+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptas",
-    "AssociateFullName": "Claudia Lemke",
-    "ContactName": "Lakin Inc and Sons",
-    "Description": "Synergistic context-sensitive data-warehouse",
-    "PersonFullName": "Logan D'Amore",
-    "PersonId": 224,
-    "ContactId": 194,
-    "ProjectId": 158,
-    "ProjectName": "Dooley Group",
+    "Task": "est",
+    "AssociateFullName": "Bennie Beahan",
+    "ContactName": "Rosenbaum-Friesen",
+    "Description": "Synergized well-modulated neural-net",
+    "PersonFullName": "Jessica Gaylord",
+    "PersonId": 201,
+    "ContactId": 339,
+    "ProjectId": 184,
+    "ProjectName": "Pfeffer, Abbott and Prohaska",
     "IsPublished": false,
     "AssociateId": 778,
-    "ColorIndex": 676,
+    "ColorIndex": 353,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 506,
-    "PriorityName": "Walsh LLC",
+    "PriorityId": 833,
+    "PriorityName": "Borer-Jacobson",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2012-09-19T11:06:33.4444886+02:00",
+    "IsBooking": false,
+    "ActiveDate": "1998-04-18T13:38:12.8428246+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-05-23T11:06:33.4444886+02:00",
-    "RecurringEndDate": "2018-04-16T11:06:33.4444886+02:00",
-    "MotherId": 365,
-    "AssignedBy": 171,
-    "AssignedByFullName": "Mollie Jaskolski",
+    "RecurringStartDate": "2009-12-11T13:38:12.8428246+01:00",
+    "RecurringEndDate": "2004-07-08T13:38:12.8428246+02:00",
+    "MotherId": 928,
+    "AssignedBy": 960,
+    "AssignedByFullName": "Mauricio Schuster",
     "RejectReason": "",
-    "Location": "alias",
-    "AlarmLeadTime": "in",
-    "SaleId": 404,
-    "SaleName": "Beatty, Carter and Buckridge",
-    "AssociateName": "Bayer LLC",
-    "CreatedDate": "2010-04-05T11:06:33.4444886+02:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Shad O'Hara",
-    "CreatedByAssociateId": 640,
+    "Location": "repellat",
+    "AlarmLeadTime": "illo",
+    "SaleId": 743,
+    "SaleName": "Hegmann, Rau and Kozey",
+    "AssociateName": "Bahringer LLC",
+    "CreatedDate": "1998-01-17T13:38:12.8428246+01:00",
+    "CreatedBy": "sint",
+    "CreatedByFullName": "Mrs. Dane Goyette",
+    "CreatedByAssociateId": 245,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "explicabo",
-    "Agenda": "et",
-    "InternalNotes": "quod",
+    "PreferredTZLocation": 824,
+    "Title": "dolorem",
+    "Agenda": "quibusdam",
+    "InternalNotes": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 162
+        "FieldLength": 128
       }
     }
   }

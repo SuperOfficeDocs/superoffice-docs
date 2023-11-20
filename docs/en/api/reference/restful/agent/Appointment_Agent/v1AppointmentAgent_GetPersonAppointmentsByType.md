@@ -119,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -135,11 +136,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 316,
-  "IncludeProjectAppointments": true,
-  "StartTime": "1999-05-27T11:06:33.7347319+02:00",
-  "EndTime": "2005-12-03T11:06:33.7347319+01:00",
-  "Count": 206,
+  "PersonId": 242,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2004-08-03T13:38:13.0459237+02:00",
+  "EndTime": "2005-05-02T13:38:13.0459237+02:00",
+  "Count": 761,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -152,64 +153,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 998,
-    "StartDate": "2011-09-21T11:06:33.7347319+02:00",
-    "EndDate": "2002-08-02T11:06:33.7347319+02:00",
+    "AppointmentId": 315,
+    "StartDate": "2018-12-14T13:38:13.0459237+01:00",
+    "EndDate": "2020-12-27T13:38:13.0459237+01:00",
     "Type": "BookingForChecklist",
-    "Task": "asperiores",
-    "AssociateFullName": "Golden Rippin III",
-    "ContactName": "Wilderman LLC",
-    "Description": "Advanced attitude-oriented toolset",
-    "PersonFullName": "Ms. Raymond Gulgowski DDS",
-    "PersonId": 427,
-    "ContactId": 34,
-    "ProjectId": 538,
-    "ProjectName": "Wunsch, Mertz and Schroeder",
+    "Task": "omnis",
+    "AssociateFullName": "Van Bruen",
+    "ContactName": "Monahan, Keebler and Konopelski",
+    "Description": "Sharable mission-critical model",
+    "PersonFullName": "Mr. Clay Tre Cummings Sr.",
+    "PersonId": 317,
+    "ContactId": 479,
+    "ProjectId": 985,
+    "ProjectName": "Kessler, Stanton and Wilkinson",
     "IsPublished": false,
-    "AssociateId": 852,
-    "ColorIndex": 209,
+    "AssociateId": 880,
+    "ColorIndex": 746,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 538,
-    "PriorityName": "Thompson, Koss and Morar",
+    "PriorityId": 818,
+    "PriorityName": "Block Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2019-12-11T11:06:33.7347319+01:00",
+    "ActiveDate": "2003-05-23T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-06-27T11:06:33.7347319+02:00",
-    "RecurringEndDate": "2013-11-08T11:06:33.7347319+01:00",
-    "MotherId": 24,
-    "AssignedBy": 431,
-    "AssignedByFullName": "Mr. Evert Tremblay V",
+    "RecurringStartDate": "2018-07-13T13:38:13.0459237+02:00",
+    "RecurringEndDate": "2022-01-02T13:38:13.0459237+01:00",
+    "MotherId": 859,
+    "AssignedBy": 436,
+    "AssignedByFullName": "Gwen Bradtke",
     "RejectReason": "",
-    "Location": "aperiam",
-    "AlarmLeadTime": "error",
-    "SaleId": 17,
-    "SaleName": "Glover Group",
-    "AssociateName": "Cormier Group",
-    "CreatedDate": "2003-01-11T11:06:33.7347319+01:00",
-    "CreatedBy": "nam",
-    "CreatedByFullName": "Abel Keeling",
-    "CreatedByAssociateId": 662,
+    "Location": "qui",
+    "AlarmLeadTime": "vitae",
+    "SaleId": 200,
+    "SaleName": "Turner, Carter and Lemke",
+    "AssociateName": "Kulas-Emmerich",
+    "CreatedDate": "2013-12-27T13:38:13.0459237+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Cleve Cynthia Lockman PhD",
+    "CreatedByAssociateId": 798,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "recusandae",
-    "Agenda": "provident",
-    "InternalNotes": "qui",
+    "PreferredTZLocation": 568,
+    "Title": "cumque",
+    "Agenda": "nihil",
+    "InternalNotes": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 343
       }
     }
   }

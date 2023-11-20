@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=a
+GET /api/v1/List/DeliveryTerm/MDOItems?query=nesciunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Mueller-Wilderman",
-    "ToolTip": "Modi qui.",
+    "Id": 213,
+    "Name": "Stiedemann, Hilll and Bailey",
+    "ToolTip": "Tempore vitae qui architecto.",
     "Deleted": true,
-    "Rank": 942,
-    "Type": "odit",
+    "Rank": 364,
+    "Type": "at",
     "ChildItems": [
       {
-        "Id": 530,
-        "Name": "Yundt, Konopelski and Stiedemann",
-        "ToolTip": "Nihil quasi minima et doloribus quibusdam labore aut.",
-        "Deleted": true,
-        "Rank": 77,
-        "Type": "rerum",
+        "Id": 706,
+        "Name": "Larson-Schmeler",
+        "ToolTip": "Voluptates porro ut quae et.",
+        "Deleted": false,
+        "Rank": 373,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maiores",
-        "ColorBlock": 633,
-        "ExtraInfo": "quis",
-        "StyleHint": "voluptates",
-        "FullName": "Shanna Dooley",
+        "IconHint": "cum",
+        "ColorBlock": 420,
+        "ExtraInfo": "similique",
+        "StyleHint": "velit",
+        "FullName": "Saige Armstrong",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldLength": 476
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 699,
-    "ExtraInfo": "numquam",
-    "StyleHint": "animi",
-    "FullName": "Mrs. Gerson Bashirian",
+    "IconHint": "beatae",
+    "ColorBlock": 724,
+    "ExtraInfo": "aut",
+    "StyleHint": "asperiores",
+    "FullName": "Helene Hayes V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 103
+        "FieldLength": 690
       }
     }
   }

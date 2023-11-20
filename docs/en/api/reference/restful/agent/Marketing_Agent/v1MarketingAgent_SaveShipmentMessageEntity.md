@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 454,
-  "PlainMessage": "qui",
-  "HtmlMessage": "maxime",
-  "SmsMessage": "consectetur",
-  "Description": "Automated systematic hub",
-  "Subject": "voluptas",
-  "FolderId": 185,
-  "HeaderField": "numquam",
-  "Design": "et",
+  "ShipmentMessageId": 443,
+  "PlainMessage": "sed",
+  "HtmlMessage": "nulla",
+  "SmsMessage": "eius",
+  "Description": "Robust bottom-line hardware",
+  "Subject": "omnis",
+  "FolderId": 596,
+  "HeaderField": "et",
+  "Design": "consectetur",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Profound next generation adapter",
-  "AccessKey": "et",
-  "DocumentMessage": 286,
-  "Registered": "2013-12-24T11:06:34.7864409+01:00",
-  "RegisteredAssociateId": 782,
-  "Updated": "2002-02-28T11:06:34.7864409+01:00",
-  "UpdatedAssociateId": 290,
-  "UpdatedCount": 195
+  "LongDescription": "Organized intermediate focus group",
+  "AccessKey": "saepe",
+  "DocumentMessage": 307,
+  "Registered": "2001-03-19T13:38:13.7333439+01:00",
+  "RegisteredAssociateId": 372,
+  "Updated": "1998-02-28T13:38:13.7333439+01:00",
+  "UpdatedAssociateId": 515,
+  "UpdatedCount": 285
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 130,
-  "PlainMessage": "molestias",
-  "HtmlMessage": "odio",
-  "SmsMessage": "ipsum",
-  "Description": "Profound high-level instruction set",
-  "Subject": "quis",
-  "FolderId": 869,
-  "HeaderField": "quasi",
-  "Design": "eos",
+  "ShipmentMessageId": 692,
+  "PlainMessage": "pariatur",
+  "HtmlMessage": "qui",
+  "SmsMessage": "ab",
+  "Description": "Triple-buffered multi-state challenge",
+  "Subject": "qui",
+  "FolderId": 930,
+  "HeaderField": "qui",
+  "Design": "possimus",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Down-sized contextually-based utilisation",
-  "AccessKey": "eveniet",
-  "DocumentMessage": 481,
-  "Registered": "2001-09-16T11:06:34.7864409+02:00",
-  "RegisteredAssociateId": 453,
-  "Updated": "2020-03-28T11:06:34.7864409+01:00",
-  "UpdatedAssociateId": 184,
-  "UpdatedCount": 462,
+  "InlineImages": false,
+  "LongDescription": "Operative coherent solution",
+  "AccessKey": "culpa",
+  "DocumentMessage": 609,
+  "Registered": "2010-10-11T13:38:13.7333439+02:00",
+  "RegisteredAssociateId": 427,
+  "Updated": "2003-09-19T13:38:13.7333439+02:00",
+  "UpdatedAssociateId": 214,
+  "UpdatedCount": 792,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldType": "System.Int32",
+      "FieldLength": 797
     }
   }
 }

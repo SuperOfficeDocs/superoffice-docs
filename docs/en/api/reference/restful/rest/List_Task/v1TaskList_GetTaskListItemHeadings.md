@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 643,
-    "Name": "Haley, Kirlin and Emard",
-    "Tooltip": "laborum",
-    "Deleted": true,
-    "Rank": 251,
-    "UdListDefinitionId": 404,
+    "HeadingId": 646,
+    "Name": "Streich Group",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 966,
+    "UdListDefinitionId": 592,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 141
       }
     }
   }

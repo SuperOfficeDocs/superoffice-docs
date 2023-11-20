@@ -79,6 +79,8 @@ OK
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
 | ParserValues | object | Parser values sent to the event handler |
+| CgiVariables | object | Cgi variables sent by some events |
+| CgiContent | string | The Cgi content/body, sent by some events |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -88,11 +90,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "non",
+  "CRMScriptUniqueId": "blanditiis",
   "EventData": null
 }
 ```
@@ -106,32 +108,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "voluptas",
-    "InputValues2": "consequuntur"
+    "InputValues1": "aut",
+    "InputValues2": "dicta"
   },
   "BlockExecution": false,
-  "NavigateTo": "magnam",
-  "Message": "eum",
-  "ShowDialog": "animi",
+  "NavigateTo": "reprehenderit",
+  "Message": "cumque",
+  "ShowDialog": "omnis",
   "OutputValues": {
-    "OutputValues1": "tempora",
-    "OutputValues2": "placeat"
+    "OutputValues1": "sed",
+    "OutputValues2": "et"
   },
   "StateValues": {
-    "StateValues1": "ut",
-    "StateValues2": "a"
+    "StateValues1": "dolor",
+    "StateValues2": "et"
   },
-  "Exception": "quibusdam",
+  "Exception": "aut",
   "ParserValues": {
-    "ParserValues1": "maxime",
-    "ParserValues2": "hic"
+    "ParserValues1": "vel",
+    "ParserValues2": "incidunt"
   },
+  "CgiVariables": {
+    "CgiVariables1": "inventore",
+    "CgiVariables2": "praesentium"
+  },
+  "CgiContent": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

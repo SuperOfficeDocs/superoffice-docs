@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 965,
-  "Name": "Kreiger-Kub",
+  "ScreenChooserId": 184,
+  "Name": "Wiza, Pfeffer and Graham",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "ducimus",
-  "Registered": "2006-05-07T11:06:42.3647477+02:00",
-  "RegisteredAssociateId": 536,
-  "Updated": "2013-02-04T11:06:42.3647477+01:00",
-  "UpdatedAssociateId": 814
+  "Enabled": true,
+  "UniqueIdentifier": "in",
+  "Source": "quia",
+  "Registered": "2006-10-07T13:38:17.7650302+02:00",
+  "RegisteredAssociateId": 580,
+  "Updated": "2018-08-19T13:38:17.7650302+02:00",
+  "UpdatedAssociateId": 46
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 831,
-  "Name": "Kozey-Ziemann",
+  "ScreenChooserId": 517,
+  "Name": "Harber-Bayer",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "id",
-  "Source": "aut",
-  "Registered": "2013-11-02T11:06:42.3647477+01:00",
-  "RegisteredAssociateId": 175,
-  "Updated": "2011-10-28T11:06:42.3647477+02:00",
-  "UpdatedAssociateId": 705,
+  "UniqueIdentifier": "aperiam",
+  "Source": "ea",
+  "Registered": "2002-02-08T13:38:17.7650302+01:00",
+  "RegisteredAssociateId": 464,
+  "Updated": "2007-08-26T13:38:17.7650302+02:00",
+  "UpdatedAssociateId": 104,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldType": "System.String",
+      "FieldLength": 743
     }
   },
   "_Links": {

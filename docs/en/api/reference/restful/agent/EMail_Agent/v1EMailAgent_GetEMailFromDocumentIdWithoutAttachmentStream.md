@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 236
+  "DocumentId": 446
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 756,
-      "ContactName": "Gutkowski, Wisozk and Klein",
-      "PersonId": 952,
-      "PersonName": "Kozey, Metz and Johnson",
-      "AssociateId": 55,
-      "Address": "ut",
-      "EmailId": 250,
+      "ContactId": 332,
+      "ContactName": "Rau Group",
+      "PersonId": 471,
+      "PersonName": "Bogisich LLC",
+      "AssociateId": 318,
+      "Address": "sint",
+      "EmailId": 65,
       "DuplicatePersonIds": [
-        618,
-        315
+        189,
+        153
       ],
-      "Name": "Wyman Group",
+      "Name": "Schneider-Green",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldLength": 595
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 111,
-      "ContactName": "Dach-Welch",
-      "PersonId": 583,
-      "PersonName": "Carter, Turcotte and Christiansen",
-      "AssociateId": 285,
-      "Address": "possimus",
-      "EmailId": 336,
+      "ContactId": 159,
+      "ContactName": "Hyatt, Bartoletti and Waelchi",
+      "PersonId": 721,
+      "PersonName": "Rippin, Cummings and Gutkowski",
+      "AssociateId": 702,
+      "Address": "facilis",
+      "EmailId": 504,
       "DuplicatePersonIds": [
-        70,
-        641
+        757,
+        896
       ],
-      "Name": "Bergnaum Group",
+      "Name": "Koss-Pfannerstill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldLength": 294
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 444,
-      "ContactName": "Dicki LLC",
-      "PersonId": 344,
-      "PersonName": "Weimann Group",
-      "AssociateId": 242,
-      "Address": "fugiat",
-      "EmailId": 91,
+      "ContactId": 349,
+      "ContactName": "O'Kon Inc and Sons",
+      "PersonId": 472,
+      "PersonName": "Dooley-Kling",
+      "AssociateId": 931,
+      "Address": "aut",
+      "EmailId": 616,
       "DuplicatePersonIds": [
-        207,
-        453
+        567,
+        530
       ],
-      "Name": "Wiza LLC",
+      "Name": "Windler-Lindgren",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldType": "System.String",
+          "FieldLength": 406
         }
       }
     }
   ],
-  "Subject": "tempora",
-  "HTMLBody": "nesciunt",
+  "Subject": "officiis",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2005-01-08T11:06:34.473931+01:00",
-  "Size": 452,
+  "Sent": "2011-11-14T13:38:13.5302438+01:00",
+  "Size": 303,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "dolores",
+  "MessageID": "eum",
+  "PlainBody": "facere",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 498,
+  "ServerId": 437,
   "Attachments": [
     {
-      "Description": "Diverse mission-critical approach",
-      "Filename": "aut",
-      "Size": 290,
-      "Type": "laboriosam",
-      "Encoding": "harum",
-      "Id": "consectetur",
-      "Disposition": "modi",
+      "Description": "User-centric actuating neural-net",
+      "Filename": "neque",
+      "Size": 108,
+      "Type": "ipsum",
+      "Encoding": "est",
+      "Id": "ea",
+      "Disposition": "quod",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 598
+          "FieldType": "System.String",
+          "FieldLength": 550
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kihn Group",
+      "Name": "Balistreri-Deckow",
       "Values": [
-        "sint",
-        "autem"
+        "in",
+        "atque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 350
         }
       }
     },
     {
-      "Name": "Kihn Group",
+      "Name": "Balistreri-Deckow",
       "Values": [
-        "sint",
-        "autem"
+        "in",
+        "atque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 350
         }
       }
     }
   ],
-  "FolderName": "Stehr Group",
-  "EmailItemId": 909,
-  "AccountId": 902,
-  "ReceivedAt": "2007-09-27T11:06:34.473931+02:00",
+  "FolderName": "King Inc and Sons",
+  "EmailItemId": 253,
+  "AccountId": 363,
+  "ReceivedAt": "2005-08-12T13:38:13.5302438+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-05-01T11:06:34.473931+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2015-10-07T13:38:13.5302438+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   }
 }

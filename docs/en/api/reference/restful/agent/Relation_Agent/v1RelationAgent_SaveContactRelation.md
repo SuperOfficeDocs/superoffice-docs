@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 997,
-  "SourcePersonId": 970,
-  "DestinationContactId": 544,
-  "DestinationPersonId": 747,
-  "RelationId": 43,
-  "Comment": "ab",
-  "RelationDefinitionId": 959,
-  "Reversed": 618,
-  "UpdatedDate": "2021-08-30T11:06:35.2395651+02:00",
-  "CreatedDate": "1998-05-14T11:06:35.2395651+02:00",
+  "SourceContactId": 357,
+  "SourcePersonId": 148,
+  "DestinationContactId": 499,
+  "DestinationPersonId": 9,
+  "RelationId": 217,
+  "Comment": "dolorum",
+  "RelationDefinitionId": 817,
+  "Reversed": 589,
+  "UpdatedDate": "2004-01-29T13:38:14.045953+01:00",
+  "CreatedDate": "2019-09-22T13:38:14.045953+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Dibbert-Rohan",
-  "SourcePersonName": "Jacobi LLC",
-  "DestinationContactName": "Kuhn-Reichert",
-  "DestinationPersonName": "Hirthe Inc and Sons",
-  "ActiveText": "qui",
-  "PassiveText": "optio",
+  "SourceContactName": "Rodriguez, Yost and VonRueden",
+  "SourcePersonName": "Beer LLC",
+  "DestinationContactName": "Jacobson Group",
+  "DestinationPersonName": "Hagenes LLC",
+  "ActiveText": "et",
+  "PassiveText": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 583
+      "FieldType": "System.Int32",
+      "FieldLength": 660
     }
   }
 }

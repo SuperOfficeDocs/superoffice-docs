@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 258,
-    "Name": "Aufderhar-McKenzie",
-    "ToolTip": "Est et adipisci repellat officiis.",
+    "Id": 351,
+    "Name": "Hyatt Inc and Sons",
+    "ToolTip": "Eveniet aperiam officiis nihil.",
     "Deleted": false,
-    "Rank": 606,
-    "Type": "sint",
-    "ColorBlock": 519,
-    "IconHint": "molestias",
+    "Rank": 175,
+    "Type": "omnis",
+    "ColorBlock": 654,
+    "IconHint": "voluptatibus",
     "Selected": true,
-    "LastChanged": "2007-07-16T11:06:42.7565694+02:00",
+    "LastChanged": "2000-12-04T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Labadie Group",
-        "ToolTip": "Odit voluptatem officiis voluptatem.",
+        "Id": 717,
+        "Name": "Block-Collins",
+        "ToolTip": "Non quia quas sed ducimus saepe.",
         "Deleted": false,
-        "Rank": 11,
-        "Type": "velit",
-        "ColorBlock": 334,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "1997-08-23T11:06:42.7565694+02:00",
+        "Rank": 869,
+        "Type": "voluptas",
+        "ColorBlock": 306,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2019-09-10T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Carissa Labadie Jr."
+        "ExtraInfo": "inventore",
+        "StyleHint": "mollitia",
+        "Hidden": true,
+        "FullName": "Cecile Hayes Sr."
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "ut",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Mrs. Elroy Casimer Leffler"
+    "FullName": "Raegan Dicki"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 795,
-    "Name": "Daniel LLC",
-    "ToolTip": "Qui voluptates dolorem voluptas laudantium officiis omnis.",
-    "Deleted": false,
-    "Rank": 436,
-    "Type": "ut",
-    "ColorBlock": 377,
-    "IconHint": "cumque",
-    "Selected": false,
-    "LastChanged": "1996-12-26T11:06:42.7565694+01:00",
+    "Id": 36,
+    "Name": "Bauch-Boyer",
+    "ToolTip": "Deleniti occaecati quia impedit.",
+    "Deleted": true,
+    "Rank": 370,
+    "Type": "eius",
+    "ColorBlock": 693,
+    "IconHint": "similique",
+    "Selected": true,
+    "LastChanged": "2003-05-22T13:38:18.0306692+02:00",
     "ChildItems": [
       {
-        "Id": 168,
-        "Name": "Murray-Sanford",
-        "ToolTip": "Nisi placeat natus et cumque.",
+        "Id": 66,
+        "Name": "Becker, Jaskolski and Lockman",
+        "ToolTip": "Eligendi reiciendis est consequatur.",
         "Deleted": true,
-        "Rank": 859,
-        "Type": "laborum",
-        "ColorBlock": 334,
-        "IconHint": "corporis",
+        "Rank": 892,
+        "Type": "est",
+        "ColorBlock": 892,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "2003-05-02T11:06:42.7565694+02:00",
+        "LastChanged": "2007-07-10T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Mrs. Jerel Astrid Roob",
+        "ExtraInfo": "esse",
+        "StyleHint": "sequi",
+        "Hidden": true,
+        "FullName": "Joana Runte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 292
+            "FieldLength": 68
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Lempi Keebler",
+    "ExtraInfo": "quidem",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Terrance Leann Abbott III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 725
       }
     }
   }

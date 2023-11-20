@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "nemo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "nemo",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 588,
-  "UniqueId": "id",
-  "Name": "Keeling-Runolfsdottir",
-  "Description": "Team-oriented asynchronous focus group",
-  "AssociateId": 823,
-  "Columns": 593,
+  "DashboardId": 133,
+  "UniqueId": "sint",
+  "Name": "Schroeder Group",
+  "Description": "Right-sized bi-directional throughput",
+  "AssociateId": 943,
+  "Columns": 691,
   "Theme": null,
-  "VisibleForAll": 949,
+  "VisibleForAll": 982,
   "VisibleForAssociates": [
-    426,
-    98
+    404,
+    658
   ],
   "VisibleForGroups": [
-    729,
-    269
+    388,
+    384
   ],
-  "PinForAll": 797,
+  "PinForAll": 929,
   "PinForAssociates": [
-    318,
-    964
+    888,
+    816
   ],
   "PinForGroups": [
-    219,
-    741
+    958,
+    496
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   },
   "_Links": {

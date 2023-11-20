@@ -25,7 +25,7 @@ Deletes the Dash
 | DashId | int32 | **Required** The id of the Dash to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDash?DashId=871
+POST /api/v1/Agents/Dash/DeleteDash?DashId=245
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Dash/DeleteDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

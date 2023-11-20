@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 1002,
+  "ErpConnectionId": 376,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 896,
-      "CrmFieldKey": "neque",
-      "CrmDisplayName": "Oberbrunner, Kub and Terry",
-      "CrmDisplayTooltip": "et",
-      "ErpFieldKey": "animi",
+      "ErpFieldId": 442,
+      "CrmFieldKey": "quia",
+      "CrmDisplayName": "Tremblay-Cartwright",
+      "CrmDisplayTooltip": "ullam",
+      "ErpFieldKey": "eum",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Rice, Fahey and Ernser",
-      "ErpDisplayTooltip": "asperiores",
+      "ErpDisplayName": "Effertz LLC",
+      "ErpDisplayTooltip": "corrupti",
       "SyncToCrm": false,
       "SyncToErp": false,
-      "ShowInGui": false,
+      "ShowInGui": true,
       "ShowInSearch": false,
       "AlreadyMapped": true,
       "MissingInERP": false,
-      "MissingInCRM": false,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "consectetur",
+      "ListReference": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 433
+          "FieldLength": 610
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldType": "System.Int32",
+      "FieldLength": 490
     }
   }
 }

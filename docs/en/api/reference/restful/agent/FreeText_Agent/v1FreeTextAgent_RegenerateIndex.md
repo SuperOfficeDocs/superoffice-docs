@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 532,
-  "Name": "Hermann-Dooley",
-  "AssociateId": 404,
-  "DetailsTable": 651,
-  "DetailsRecord": 556,
+  "Id": 332,
+  "Name": "Kreiger, Shields and Hyatt",
+  "AssociateId": 298,
+  "DetailsTable": 684,
+  "DetailsRecord": 4,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "quis",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "rerum",
+    "ParameterObject2": "dignissimos"
   },
-  "LastStarted": "2020-09-03T11:06:34.6458113+02:00",
-  "Created": "2001-05-13T11:06:34.6458113+02:00",
-  "StartCount": 933,
-  "DatabaseSerialNumber": "1826848",
-  "Context": "explicabo",
-  "Result": "unde",
+  "LastStarted": "2015-02-09T13:38:13.6396102+01:00",
+  "Created": "1998-11-30T13:38:13.6396102+01:00",
+  "StartCount": 147,
+  "DatabaseSerialNumber": "671405",
+  "Context": "assumenda",
+  "Result": "placeat",
   "State": "All",
-  "Description": "Optimized neutral groupware",
-  "Response": "aut",
+  "Description": "Synergistic upward-trending matrices",
+  "Response": "enim",
   "Request": "et",
-  "ProgressDescription": "Centralized background infrastructure",
-  "ProgressPercent": 439,
-  "FileName": "Halvorson-Schmidt",
+  "ProgressDescription": "Persevering dynamic open system",
+  "ProgressPercent": 250,
+  "FileName": "Beer Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldType": "System.String",
+      "FieldLength": 491
     }
   }
 }

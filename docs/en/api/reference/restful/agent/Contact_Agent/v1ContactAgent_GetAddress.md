@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 598
+  "ContactId": 880
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 29161.87,
-  "Wgs84Longitude": 8490.006,
+  "Wgs84Latitude": 18741.32,
+  "Wgs84Longitude": 10458.158,
   "LocalizedAddress": [
     [
       {
-        "Name": "Willms, Hickle and Zboncak",
-        "Value": "impedit",
-        "Tooltip": "sunt",
-        "Label": "soluta",
-        "ValueLength": 34,
-        "AddressType": "sed",
+        "Name": "Gislason, Larson and Fadel",
+        "Value": "nobis",
+        "Tooltip": "atque",
+        "Label": "eveniet",
+        "ValueLength": 185,
+        "AddressType": "ut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 981
+            "FieldLength": 898
           }
         }
       }
     ],
     [
       {
-        "Name": "Harvey, Blick and Dickinson",
-        "Value": "voluptas",
-        "Tooltip": "non",
-        "Label": "beatae",
-        "ValueLength": 625,
-        "AddressType": "dolor",
+        "Name": "Lind Group",
+        "Value": "odit",
+        "Tooltip": "rem",
+        "Label": "velit",
+        "ValueLength": 343,
+        "AddressType": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 685
+            "FieldLength": 909
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "commodi",
+  "Formatted": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldLength": 591
     }
   }
 }

@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Grimes-Upton",
-  "Id": 922
+  "ListName": "Veum Group",
+  "Id": 900
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Swift Group",
-  "ToolTip": "Quo voluptates delectus aut in architecto.",
+  "Id": 872,
+  "Name": "Crona Group",
+  "ToolTip": "Minus eius voluptatem nihil odit consequuntur facilis.",
   "Deleted": false,
-  "Rank": 367,
-  "Type": "omnis",
+  "Rank": 835,
+  "Type": "voluptas",
   "ChildItems": [
     {
-      "Id": 336,
-      "Name": "Frami-Toy",
-      "ToolTip": "Consequuntur sit est repudiandae rerum doloribus.",
-      "Deleted": false,
-      "Rank": 702,
-      "Type": "sint",
+      "Id": 137,
+      "Name": "Murphy-Berge",
+      "ToolTip": "Consequuntur architecto quis illum assumenda deserunt.",
+      "Deleted": true,
+      "Rank": 473,
+      "Type": "beatae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sit",
-      "ColorBlock": 614,
-      "ExtraInfo": "nisi",
-      "StyleHint": "error",
-      "FullName": "Miss Queenie Parisian",
+      "IconHint": "voluptas",
+      "ColorBlock": 696,
+      "ExtraInfo": "qui",
+      "StyleHint": "illo",
+      "FullName": "Jordyn O'Conner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 37
+          "FieldType": "System.Int32",
+          "FieldLength": 496
         }
       }
     }
   ],
-  "IconHint": "aut",
-  "ColorBlock": 280,
-  "ExtraInfo": "earum",
-  "StyleHint": "sed",
-  "FullName": "Andy Walsh",
+  "IconHint": "vero",
+  "ColorBlock": 373,
+  "ExtraInfo": "atque",
+  "StyleHint": "cupiditate",
+  "FullName": "Jany Casper",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 100
     }
   }
 }

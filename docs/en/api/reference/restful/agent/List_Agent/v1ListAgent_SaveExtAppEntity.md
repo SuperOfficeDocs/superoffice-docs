@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 961,
-  "Name": "Cremin-Reynolds",
-  "Tooltip": "laudantium",
+  "ExtAppId": 419,
+  "Name": "Ruecker, Flatley and Conroy",
+  "Tooltip": "optio",
   "Deleted": true,
-  "Rank": 834,
-  "Filename": "ut",
-  "Parameters": "repudiandae",
-  "Workdir": "reprehenderit",
+  "Rank": 435,
+  "Filename": "esse",
+  "Parameters": "eligendi",
+  "Workdir": "vel",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 575,
-  "WaitToFinish": true,
+  "Icon": 41,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "laudantium"
+  "Path": "sit"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 440,
-  "Name": "Tillman Inc and Sons",
-  "Tooltip": "qui",
+  "ExtAppId": 935,
+  "Name": "O'Hara, Abernathy and Fisher",
+  "Tooltip": "illum",
   "Deleted": true,
-  "Rank": 74,
-  "Filename": "iusto",
-  "Parameters": "et",
-  "Workdir": "ullam",
+  "Rank": 218,
+  "Filename": "fugiat",
+  "Parameters": "deserunt",
+  "Workdir": "quos",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "Icon": 180,
+  "Icon": 262,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "quasi",
+  "Path": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 801
+      "FieldType": "System.Int32",
+      "FieldLength": 781
     }
   }
 }

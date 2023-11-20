@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "est",
-    "PersonId": 388,
-    "Mrmrs": "velit",
-    "Firstname": "Brianne",
-    "Lastname": "Hilll",
-    "MiddleName": "Effertz Group",
-    "Title": "ipsam",
-    "Description": "Configurable asynchronous artificial intelligence",
-    "Email": "cristina@metztrantow.uk",
-    "FullName": "Noemi Larson",
-    "DirectPhone": "650.751.3917 x80382",
-    "FormalName": "Harris-Jerde",
-    "CountryId": 849,
-    "ContactId": 376,
-    "ContactName": "Ruecker Group",
-    "Retired": 401,
-    "Rank": 907,
-    "ActiveInterests": 816,
+    "Position": "recusandae",
+    "PersonId": 287,
+    "Mrmrs": "occaecati",
+    "Firstname": "Darwin",
+    "Lastname": "Langworth",
+    "MiddleName": "Huels-Lehner",
+    "Title": "eligendi",
+    "Description": "Streamlined object-oriented orchestration",
+    "Email": "dolores_russel@steuber.uk",
+    "FullName": "Prof. Vilma Kilback III",
+    "DirectPhone": "1-518-211-8329 x817",
+    "FormalName": "Littel-Mayert",
+    "CountryId": 148,
+    "ContactId": 932,
+    "ContactName": "Anderson-Batz",
+    "Retired": 252,
+    "Rank": 459,
+    "ActiveInterests": 458,
     "ContactDepartment": "",
-    "ContactCountryId": 187,
-    "ContactOrgNr": "1152340",
-    "FaxPhone": "867.632.3151",
-    "MobilePhone": "381.335.6617 x39219",
-    "ContactPhone": "326.489.3874",
-    "AssociateName": "Brakus Inc and Sons",
-    "AssociateId": 102,
-    "UsePersonAddress": true,
-    "ContactFax": "eius",
-    "Kanafname": "voluptatem",
-    "Kanalname": "laudantium",
-    "Post1": "et",
-    "Post2": "harum",
-    "Post3": "asperiores",
-    "EmailName": "kian@breitenberg.name",
-    "ContactFullName": "Avery Morar",
-    "ActiveErpLinks": 53,
-    "TicketPriorityId": 512,
-    "SupportLanguageId": 178,
-    "SupportAssociateId": 659,
+    "ContactCountryId": 162,
+    "ContactOrgNr": "1356621",
+    "FaxPhone": "993.383.3827 x169",
+    "MobilePhone": "193.336.8470",
+    "ContactPhone": "1-225-547-2049",
+    "AssociateName": "Mayert Inc and Sons",
+    "AssociateId": 771,
+    "UsePersonAddress": false,
+    "ContactFax": "doloremque",
+    "Kanafname": "eveniet",
+    "Kanalname": "aut",
+    "Post1": "suscipit",
+    "Post2": "nihil",
+    "Post3": "et",
+    "EmailName": "piper_thiel@daviscronin.uk",
+    "ContactFullName": "Kenton Dooley",
+    "ActiveErpLinks": 309,
+    "TicketPriorityId": 11,
+    "SupportLanguageId": 302,
+    "SupportAssociateId": 5,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 193
       }
     }
   }

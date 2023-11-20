@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 122,
-  "Name": "Wiza, Kozey and Rohan",
-  "Tooltip": "asperiores",
-  "Deleted": true,
-  "UdListDefinitionId": 210,
-  "Rank": 467,
+  "Id": 100,
+  "Name": "Johnson Inc and Sons",
+  "Tooltip": "consequuntur",
+  "Deleted": false,
+  "UdListDefinitionId": 652,
+  "Rank": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 369
     }
   }
 }

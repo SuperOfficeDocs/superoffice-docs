@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 84
+  "DepartmentId": 412
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(768)442-3005 x4615",
-    "PersonCellPhone": "615-718-1581 x410",
-    "PersonPrivatePhone": "1-901-631-9912",
-    "PersonFaxNumber": "799335",
-    "PersonPagerNumber": "1525415",
-    "PersonEmail": "tomasa@metz.us",
-    "Id": 412,
-    "Name": "Bernhard, Stracke and Gulgowski",
-    "Tooltip": "rerum",
-    "UniqueId": "veniam",
+    "PersonDirectPhone": "611-543-3934",
+    "PersonCellPhone": "085.559.1077",
+    "PersonPrivatePhone": "1-941-537-4524 x3558",
+    "PersonFaxNumber": "1003440",
+    "PersonPagerNumber": "269421",
+    "PersonEmail": "shyanne@cartwrighthettinger.uk",
+    "Id": 570,
+    "Name": "Aufderhar, Hauck and Cummings",
+    "Tooltip": "quidem",
+    "UniqueId": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 639
       }
     }
   }

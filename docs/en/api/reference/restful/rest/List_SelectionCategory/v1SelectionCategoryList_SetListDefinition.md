@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 863,
-  "Name": "Kertzmann, Graham and Klocko",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 18,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": true
+  "Id": 901,
+  "Name": "Johnston Group",
+  "Tooltip": "ipsam",
+  "Deleted": true,
+  "Rank": 298,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "porro",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 982,
-  "Name": "Murazik-Osinski",
-  "Tooltip": "asperiores",
+  "Id": 334,
+  "Name": "Jewess Group",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 220,
+  "Rank": 999,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
+  "ListType": "corrupti",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 803
+      "FieldType": "System.Int32",
+      "FieldLength": 122
     }
   }
 }

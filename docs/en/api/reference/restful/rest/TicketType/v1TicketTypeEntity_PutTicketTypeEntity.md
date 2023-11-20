@@ -101,27 +101,27 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 976,
-  "Name": "Hagenes-Cummerata",
-  "Rank": 488,
-  "Tooltip": "at",
-  "Icon": "iusto",
-  "DefaultTicketStatus": 214,
+  "TicketTypeId": 994,
+  "Name": "Glover-Friesen",
+  "Rank": 111,
+  "Tooltip": "consequatur",
+  "Icon": "quia",
+  "DefaultTicketStatus": 610,
   "TicketStatuses": [
-    245,
-    663
+    899,
+    477
   ],
-  "DefaultTicketPriority": 944,
+  "DefaultTicketPriority": 345,
   "TicketPriorities": [
-    419,
-    608
+    256,
+    79
   ],
-  "ReplyTemplate": 200,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 384,
+  "IsExternalVisible": false,
   "IsDefault": false
 }
 ```
@@ -133,30 +133,30 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 306,
-  "Name": "Rolfson, Blick and Heaney",
-  "Rank": 432,
-  "Tooltip": "laudantium",
-  "Icon": "voluptatem",
-  "DefaultTicketStatus": 473,
+  "TicketTypeId": 13,
+  "Name": "Wolf, Swaniawski and Hammes",
+  "Rank": 761,
+  "Tooltip": "nihil",
+  "Icon": "et",
+  "DefaultTicketStatus": 179,
   "TicketStatuses": [
-    900,
-    195
+    153,
+    202
   ],
-  "DefaultTicketPriority": 628,
+  "DefaultTicketPriority": 656,
   "TicketPriorities": [
-    791,
-    305
+    545,
+    912
   ],
-  "ReplyTemplate": 141,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 289,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldLength": 104
     }
   },
   "_Links": {

@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 388,
-  "Count": 234
+  "AmountLimit": 646,
+  "Count": 910
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Parisian Inc and Sons",
-    "SaleDate": "1999-01-07T11:06:35.3333182+01:00",
-    "SaleId": 391,
-    "Probability": 897,
-    "Title": "iure",
-    "Amount": 2463.324,
-    "Currency": "dicta",
-    "ProjectName": "Shanahan, Dare and Rice",
-    "AssociateFullName": "Prof. Eliseo Spinka",
-    "Description": "Open-source even-keeled projection",
+    "ContactName": "Emard, Becker and Mitchell",
+    "SaleDate": "2009-02-26T13:38:14.0928295+01:00",
+    "SaleId": 106,
+    "Probability": 4,
+    "Title": "dolor",
+    "Amount": 3099.526,
+    "Currency": "delectus",
+    "ProjectName": "Hintz Inc and Sons",
+    "AssociateFullName": "Lou Gerhold",
+    "Description": "User-centric needs-based encoding",
     "Status": "Lost",
-    "WeightedAmount": 7321.0239999999994,
-    "ProjectId": 399,
-    "EarningPercent": 10809.166,
-    "Earning": 22837.458,
-    "ContactId": 138,
-    "AssociateId": 228,
-    "PersonId": 217,
-    "SaleTypeId": 955,
-    "SaleTypeName": "Doyle Group",
-    "PersonFullName": "Liza Emmerich",
+    "WeightedAmount": 13081.315999999999,
+    "ProjectId": 710,
+    "EarningPercent": 10307.726,
+    "Earning": 24097.326,
+    "ContactId": 649,
+    "AssociateId": 707,
+    "PersonId": 78,
+    "SaleTypeId": 383,
+    "SaleTypeName": "Durgan, Jerde and Rohan",
+    "PersonFullName": "Ardella Autumn Funk IV",
     "Completed": "Completed",
-    "ActiveErpLinks": 63,
-    "NextDueDate": "1998-05-19T11:06:35.3333182+02:00",
-    "Number": "716092",
+    "ActiveErpLinks": 140,
+    "NextDueDate": "2002-12-08T13:38:14.0928295+01:00",
+    "Number": "1031002",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   }

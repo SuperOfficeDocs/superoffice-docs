@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 676,
-  "Name": "Schuster, Windler and Zemlak",
-  "Tooltip": "nisi",
+  "Id": 949,
+  "Name": "Bergstrom-Torp",
+  "Tooltip": "vel",
   "Deleted": false,
-  "UdListDefinitionId": 128,
-  "Rank": 625,
+  "UdListDefinitionId": 920,
+  "Rank": 20,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 878
     }
   }
 }

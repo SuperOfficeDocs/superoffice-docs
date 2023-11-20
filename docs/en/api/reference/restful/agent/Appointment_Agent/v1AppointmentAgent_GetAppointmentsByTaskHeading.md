@@ -114,6 +114,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -126,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 237
+  "TaskHeadingId": 389
 }
 ```
 
@@ -142,64 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 725,
-    "StartDate": "2010-07-12T11:06:33.475738+02:00",
-    "EndDate": "2023-09-27T11:06:33.475738+02:00",
+    "AppointmentId": 234,
+    "StartDate": "2020-10-10T13:38:12.8740699+02:00",
+    "EndDate": "2021-05-05T13:38:12.8740699+02:00",
     "Type": "BookingForChecklist",
-    "Task": "iure",
-    "AssociateFullName": "Gina Kohler",
-    "ContactName": "Simonis-Russel",
-    "Description": "Adaptive hybrid info-mediaries",
-    "PersonFullName": "Janessa Schoen",
-    "PersonId": 160,
-    "ContactId": 565,
-    "ProjectId": 465,
-    "ProjectName": "Streich LLC",
+    "Task": "aperiam",
+    "AssociateFullName": "Mrs. Dudley Gutmann",
+    "ContactName": "McLaughlin, Von and Ratke",
+    "Description": "Reduced next generation adapter",
+    "PersonFullName": "Delia Graham",
+    "PersonId": 782,
+    "ContactId": 472,
+    "ProjectId": 522,
+    "ProjectName": "Schoen, Adams and Grant",
     "IsPublished": false,
-    "AssociateId": 456,
-    "ColorIndex": 293,
-    "IsFree": false,
+    "AssociateId": 294,
+    "ColorIndex": 528,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 933,
-    "PriorityName": "Pacocha, Armstrong and Schneider",
+    "PriorityId": 930,
+    "PriorityName": "Veum Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2023-10-11T11:06:33.475738+02:00",
+    "ActiveDate": "2021-07-18T13:38:12.8740699+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-05-30T11:06:33.475738+02:00",
-    "RecurringEndDate": "2008-10-31T11:06:33.475738+01:00",
-    "MotherId": 48,
-    "AssignedBy": 136,
-    "AssignedByFullName": "Mr. Daniella Emard III",
+    "RecurringStartDate": "2016-02-10T13:38:12.8740699+01:00",
+    "RecurringEndDate": "2001-09-12T13:38:12.8740699+02:00",
+    "MotherId": 88,
+    "AssignedBy": 122,
+    "AssignedByFullName": "Miss Ashtyn Jenkins PhD",
     "RejectReason": "",
-    "Location": "quidem",
-    "AlarmLeadTime": "voluptatum",
-    "SaleId": 464,
-    "SaleName": "Dickens, Pollich and Stracke",
-    "AssociateName": "McClure, Ritchie and Kerluke",
-    "CreatedDate": "2004-04-03T11:06:33.475738+02:00",
-    "CreatedBy": "nihil",
-    "CreatedByFullName": "Pedro Schuster",
-    "CreatedByAssociateId": 377,
+    "Location": "ducimus",
+    "AlarmLeadTime": "est",
+    "SaleId": 497,
+    "SaleName": "Williamson Inc and Sons",
+    "AssociateName": "Runte Group",
+    "CreatedDate": "2002-10-10T13:38:12.8740699+02:00",
+    "CreatedBy": "repellat",
+    "CreatedByFullName": "Mrs. Noemi Vida West",
+    "CreatedByAssociateId": 664,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "nemo",
-    "Agenda": "eos",
-    "InternalNotes": "iusto",
+    "PreferredTZLocation": 584,
+    "Title": "atque",
+    "Agenda": "et",
+    "InternalNotes": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 169
+        "FieldLength": 355
       }
     }
   }

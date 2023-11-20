@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 668
+  "ProjectId": 213
 }
 ```
 
@@ -117,79 +117,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "aut",
-  "SignOffText": "quia",
-  "SignOnConfirmationText": "quia",
-  "SignOnText": "voluptatibus",
-  "EventDate": "2006-11-09T11:06:35.1614465+01:00",
+  "SignOffConfirmationText": "deserunt",
+  "SignOffText": "eius",
+  "SignOnConfirmationText": "dolorum",
+  "SignOnText": "alias",
+  "EventDate": "2021-06-06T13:38:13.9834617+02:00",
   "Enabled": false,
-  "CreatedDate": "2001-09-22T11:06:35.1614465+02:00",
-  "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 556,
+  "CreatedDate": "2015-06-26T13:38:13.9834617+02:00",
+  "SignOff": false,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 912,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 969,
+  "SignOn": true,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 852,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2023-08-26T11:06:35.1614465+02:00",
+  "UpdatedDate": "2000-08-26T13:38:13.9834617+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 56,
-  "Id": 631,
-  "PublishFrom": "2018-02-26T11:06:35.1614465+01:00",
+  "ProjectId": 593,
+  "Id": 581,
+  "PublishFrom": "2023-02-04T13:38:13.9834617+01:00",
   "PublishType": "External",
-  "PublishTo": "2004-03-20T11:06:35.1614465+01:00",
+  "PublishTo": "2011-04-03T13:38:13.9834617+02:00",
   "VisibleForCategories": [
     {
-      "Id": 311,
-      "Name": "Stamm, Wisozk and Jerde",
-      "ToolTip": "Animi dolore possimus.",
+      "Id": 723,
+      "Name": "Moore LLC",
+      "ToolTip": "Iusto vero deleniti.",
       "Deleted": false,
-      "Rank": 124,
-      "Type": "necessitatibus",
+      "Rank": 720,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eum",
-      "ColorBlock": 962,
-      "ExtraInfo": "consequatur",
-      "StyleHint": "sequi",
-      "FullName": "Chauncey Jewess",
+      "IconHint": "occaecati",
+      "ColorBlock": 166,
+      "ExtraInfo": "quae",
+      "StyleHint": "quam",
+      "FullName": "Dr. Erick Metz MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 251
+          "FieldType": "System.String",
+          "FieldLength": 410
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 665,
-      "Name": "Fahey LLC",
-      "ToolTip": "Sapiente ea est porro ad iure tempora ut.",
-      "Deleted": true,
-      "Rank": 542,
-      "Type": "dolor",
+      "Id": 923,
+      "Name": "Cartwright, Turcotte and Hettinger",
+      "ToolTip": "Magnam aut cupiditate alias assumenda enim.",
+      "Deleted": false,
+      "Rank": 347,
+      "Type": "voluptatum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatibus",
-      "ColorBlock": 386,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "ea",
-      "FullName": "Henriette Schuppe",
+      "IconHint": "cumque",
+      "ColorBlock": 366,
+      "ExtraInfo": "cupiditate",
+      "StyleHint": "ex",
+      "FullName": "Tanner Braun",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldType": "System.String",
+          "FieldLength": 303
         }
       }
     }
@@ -198,13 +198,13 @@ Content-Type: application/json; charset=utf-8
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 915,
+  "ProjectEventId": 874,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 383
+      "FieldType": "System.Int32",
+      "FieldLength": 530
     }
   }
 }

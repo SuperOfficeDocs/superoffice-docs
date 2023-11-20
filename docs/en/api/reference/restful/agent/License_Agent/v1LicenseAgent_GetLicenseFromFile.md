@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "velit"
+  "FileContent": "inventore"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 997,
-      "NumberOfLicensesFree": 810,
-      "NumberOfLicensesAdded": 136,
-      "NumberOfLicensesNewTotal": 342,
-      "NumberOfLicensesNewFree": 765,
-      "NumberOfLicensesTotal": 886
+      "NumberOfLicensesInUse": 97,
+      "NumberOfLicensesFree": 153,
+      "NumberOfLicensesAdded": 57,
+      "NumberOfLicensesNewTotal": 873,
+      "NumberOfLicensesNewFree": 251,
+      "NumberOfLicensesTotal": 699
     }
   ],
-  "AccumulatedNextCheckDate": "2021-02-11T11:06:34.6458113+01:00"
+  "AccumulatedNextCheckDate": "2017-06-10T13:38:13.6396102+02:00"
 }
 ```

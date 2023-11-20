@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 620,
-    "Name": "Ortiz LLC",
-    "Tooltip": "nihil",
-    "Rank": 424,
-    "Key": "voluptatem",
-    "Deleted": false,
+    "LegalBaseId": 379,
+    "Name": "Bruen LLC",
+    "Tooltip": "sequi",
+    "Rank": 793,
+    "Key": "rerum",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldType": "System.Int32",
+        "FieldLength": 302
       }
     }
   }

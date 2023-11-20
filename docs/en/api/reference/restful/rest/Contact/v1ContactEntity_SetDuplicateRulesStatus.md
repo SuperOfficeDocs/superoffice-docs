@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lueilwitz, Walter and Skiles",
-    "DisplayName": "Auer LLC",
-    "DisplayTooltip": "ea",
-    "IsActive": false
+    "Name": "Rau-Gottlieb",
+    "DisplayName": "Dach, Daniel and Prohaska",
+    "DisplayTooltip": "consequatur",
+    "IsActive": true
   },
   {
-    "Name": "Lueilwitz, Walter and Skiles",
-    "DisplayName": "Auer LLC",
-    "DisplayTooltip": "ea",
-    "IsActive": false
+    "Name": "Rau-Gottlieb",
+    "DisplayName": "Dach, Daniel and Prohaska",
+    "DisplayTooltip": "consequatur",
+    "IsActive": true
   }
 ]
 ```

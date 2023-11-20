@@ -25,7 +25,7 @@ Deletes the ShipmentMessageEntity
 | ShipmentMessageEntityId | int32 | **Required** The id of the ShipmentMessageEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteShipmentMessageEntity?ShipmentMessageEntityId=547
+POST /api/v1/Agents/Marketing/DeleteShipmentMessageEntity?ShipmentMessageEntityId=469
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Marketing/DeleteShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

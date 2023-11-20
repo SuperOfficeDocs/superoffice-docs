@@ -117,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -129,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 17,
-  "StartTime": "2010-05-07T11:06:33.7347319+02:00",
-  "EndTime": "2008-12-26T11:06:33.7347319+01:00",
-  "Count": 83
+  "ProjectId": 793,
+  "StartTime": "2001-02-04T13:38:13.0459237+01:00",
+  "EndTime": "1997-07-07T13:38:13.0459237+02:00",
+  "Count": 806
 }
 ```
 
@@ -148,64 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 946,
-    "StartDate": "2006-09-14T11:06:33.7347319+02:00",
-    "EndDate": "2007-02-26T11:06:33.7347319+01:00",
+    "AppointmentId": 212,
+    "StartDate": "2010-02-01T13:38:13.0459237+01:00",
+    "EndDate": "2018-03-10T13:38:13.0459237+01:00",
     "Type": "BookingForChecklist",
-    "Task": "eum",
-    "AssociateFullName": "Bernardo Langosh",
-    "ContactName": "Fadel Inc and Sons",
-    "Description": "Decentralized regional leverage",
-    "PersonFullName": "Litzy Gaylord",
-    "PersonId": 839,
-    "ContactId": 376,
-    "ProjectId": 632,
-    "ProjectName": "Maggio Inc and Sons",
+    "Task": "voluptate",
+    "AssociateFullName": "Lonnie Swaniawski",
+    "ContactName": "Skiles, Corkery and Wilderman",
+    "Description": "Networked holistic extranet",
+    "PersonFullName": "Douglas Cormier",
+    "PersonId": 977,
+    "ContactId": 406,
+    "ProjectId": 435,
+    "ProjectName": "Grady LLC",
     "IsPublished": false,
-    "AssociateId": 504,
-    "ColorIndex": 833,
+    "AssociateId": 227,
+    "ColorIndex": 707,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 687,
-    "PriorityName": "Gislason, Gottlieb and Robel",
+    "PriorityId": 55,
+    "PriorityName": "Wyman Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1998-05-24T11:06:33.7347319+02:00",
+    "ActiveDate": "2019-04-19T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-11-23T11:06:33.7347319+01:00",
-    "RecurringEndDate": "1997-03-04T11:06:33.7347319+01:00",
-    "MotherId": 776,
-    "AssignedBy": 393,
-    "AssignedByFullName": "Dewitt Kautzer",
+    "RecurringStartDate": "2019-12-05T13:38:13.0459237+01:00",
+    "RecurringEndDate": "2004-07-25T13:38:13.0459237+02:00",
+    "MotherId": 933,
+    "AssignedBy": 948,
+    "AssignedByFullName": "Dr. Josefina Justyn Kuhn",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "accusamus",
-    "SaleId": 809,
-    "SaleName": "Stoltenberg-Wiegand",
-    "AssociateName": "Stamm-Hyatt",
-    "CreatedDate": "2016-08-09T11:06:33.7347319+02:00",
-    "CreatedBy": "illum",
-    "CreatedByFullName": "Loren Christ McDermott V",
-    "CreatedByAssociateId": 259,
+    "Location": "adipisci",
+    "AlarmLeadTime": "et",
+    "SaleId": 621,
+    "SaleName": "Kunde, Quigley and Torp",
+    "AssociateName": "Bashirian-Halvorson",
+    "CreatedDate": "2008-01-23T13:38:13.0459237+01:00",
+    "CreatedBy": "id",
+    "CreatedByFullName": "Mathias Barrows",
+    "CreatedByAssociateId": 733,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "ut",
-    "Agenda": "beatae",
-    "InternalNotes": "quo",
+    "PreferredTZLocation": 469,
+    "Title": "omnis",
+    "Agenda": "doloremque",
+    "InternalNotes": "nostrum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldLength": 49
       }
     }
   }

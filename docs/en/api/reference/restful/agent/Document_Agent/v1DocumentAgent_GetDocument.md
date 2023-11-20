@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=731
+POST /api/v1/Agents/Document/GetDocument?documentId=134
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 549,
-  "Attention": "et",
-  "Header": "repellendus",
-  "Name": "Jaskolski-Wiza",
-  "OurRef": "doloribus",
-  "YourRef": "quis",
-  "Description": "Sharable attitude-oriented product",
-  "DocumentTemplate": "doloremque",
-  "IsPublished": true,
-  "PersonId": 163,
-  "PersonFullName": "Mrs. Barton Quigley",
-  "AssociateFullName": "Allene Johnston",
-  "ContactId": 992,
-  "ContactName": "Bartell, Cummings and Kub",
-  "ProjectId": 785,
-  "ProjectName": "Parker, Schuppe and Trantow",
-  "AssociateId": 234,
-  "Snum": 639,
-  "SaleId": 178,
-  "SaleName": "Schulist, Feeney and Sawayn",
+  "DocumentId": 378,
+  "Attention": "voluptas",
+  "Header": "dicta",
+  "Name": "Rowe, Gerhold and Dach",
+  "OurRef": "sit",
+  "YourRef": "quia",
+  "Description": "Down-sized upward-trending flexibility",
+  "DocumentTemplate": "ea",
+  "IsPublished": false,
+  "PersonId": 844,
+  "PersonFullName": "Brandi Toby Waelchi PhD",
+  "AssociateFullName": "Aidan Ila Douglas II",
+  "ContactId": 526,
+  "ContactName": "Stoltenberg-Nienow",
+  "ProjectId": 759,
+  "ProjectName": "Tremblay-Yundt",
+  "AssociateId": 936,
+  "Snum": 849,
+  "SaleId": 166,
+  "SaleName": "Gottlieb, Kreiger and Dach",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 474
     }
   }
 }

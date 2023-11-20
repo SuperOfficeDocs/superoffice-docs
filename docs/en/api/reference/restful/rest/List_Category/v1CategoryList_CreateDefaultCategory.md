@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 794,
-  "Name": "Hermann-Murray",
-  "Tooltip": "assumenda",
+  "Id": 874,
+  "Name": "Zulauf, Hirthe and Dicki",
+  "Tooltip": "praesentium",
   "Deleted": true,
-  "UdListDefinitionId": 388,
-  "Rank": 9,
+  "UdListDefinitionId": 958,
+  "Rank": 492,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldType": "System.String",
+      "FieldLength": 670
     }
   }
 }

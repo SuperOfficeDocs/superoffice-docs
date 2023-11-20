@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 506,
-  "LanguageId": 940,
-  "PersonId": 707,
-  "TicketId": 258
+  "ReplyTemplateId": 407,
+  "LanguageId": 114,
+  "PersonId": 936,
+  "TicketId": 339
 }
 ```
 
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 445,
-  "PlainParsed": "explicabo",
-  "HtmlParsed": "aliquid",
+  "ReplyTemplateId": 153,
+  "PlainParsed": "laudantium",
+  "HtmlParsed": "assumenda",
   "Attachments": [
     {
-      "AttachmentId": 235,
-      "Name": "Rath-Larkin",
-      "ContentType": "vero",
-      "AttSize": 614,
-      "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "et",
+      "AttachmentId": 817,
+      "Name": "Murphy Inc and Sons",
+      "ContentType": "expedita",
+      "AttSize": 132,
+      "InlineImage": true,
+      "ContentId": "quas",
+      "AuthKey": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 57
+          "FieldType": "System.String",
+          "FieldLength": 549
         }
       }
     }
   ],
-  "Subject": "iste",
+  "Subject": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 746
     }
   }
 }

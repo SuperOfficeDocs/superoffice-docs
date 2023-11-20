@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Huels, Schneider and Mohr"
+  "ApplicationName": "Dicki-Luettgen"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 526,
-    "Name": "Kutch Inc and Sons",
-    "CreatedDate": "2023-06-02T11:06:34.6301875+02:00",
-    "UpdatedDate": "2020-07-07T11:06:34.6301875+02:00",
-    "AssociateFullName": "Jerald Kiehn",
-    "CreatedBy": "delectus",
-    "UpdatedBy": "at",
-    "DeviceIdentifier": "voluptatem",
-    "ForeignAppId": 415,
+    "ForeignDeviceId": 365,
+    "Name": "Bechtelar-Nitzsche",
+    "CreatedDate": "2004-07-15T13:38:13.623981+02:00",
+    "UpdatedDate": "2019-05-24T13:38:13.623981+02:00",
+    "AssociateFullName": "Prof. Herminia Terry IV",
+    "CreatedBy": "fugiat",
+    "UpdatedBy": "perferendis",
+    "DeviceIdentifier": "magnam",
+    "ForeignAppId": 667,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldLength": 615
       }
     }
   }

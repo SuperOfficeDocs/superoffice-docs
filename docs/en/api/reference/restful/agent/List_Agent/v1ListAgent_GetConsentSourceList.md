@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 173,
-    "Name": "Klocko LLC",
-    "Tooltip": "quia",
-    "Rank": 417,
-    "Key": "porro",
-    "MailTemplateId": 501,
-    "Deleted": true,
+    "ConsentSourceId": 996,
+    "Name": "Cole, Will and Cruickshank",
+    "Tooltip": "ut",
+    "Rank": 498,
+    "Key": "voluptatem",
+    "MailTemplateId": 85,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 299
+        "FieldLength": 839
       }
     }
   }

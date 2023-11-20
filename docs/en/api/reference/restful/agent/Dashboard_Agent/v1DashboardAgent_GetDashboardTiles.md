@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    244,
-    688
+    828,
+    523
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 917,
-    "Caption": "et",
-    "Description": "Open-architected next generation encoding",
-    "ChartName": "West Inc and Sons",
-    "ChartId": "et",
-    "IsDefault": true,
-    "AssociateId": 547,
-    "GroupId": 913,
-    "SelectionId": 439,
-    "Config": "a",
+    "DashboardTileId": 211,
+    "Caption": "dicta",
+    "Description": "Innovative 3rd generation matrix",
+    "ChartName": "Carter-Green",
+    "ChartId": "tenetur",
+    "IsDefault": false,
+    "AssociateId": 717,
+    "GroupId": 625,
+    "SelectionId": 31,
+    "Config": "et",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Block-Casper",
-        "Description": "Grass-roots non-volatile knowledge base",
+        "Name": "Dickens LLC",
+        "Description": "Multi-layered bi-directional challenge",
         "Type": "Boolean",
-        "ListName": "Stamm-Pouros",
+        "ListName": "Hackett-Leannon",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "velit",
+        "Value": "accusantium",
         "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 320
+            "FieldType": "System.Int32",
+            "FieldLength": 670
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 475,
+        "VisibleId": 490,
         "Visibility": "All",
-        "DisplayValue": "aut",
+        "DisplayValue": "ex",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 838
+            "FieldLength": 313
           }
         }
       },
       {
-        "VisibleId": 475,
+        "VisibleId": 490,
         "Visibility": "All",
-        "DisplayValue": "aut",
+        "DisplayValue": "ex",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 838
+            "FieldLength": 313
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 334
+        "FieldLength": 34
       }
     }
   }

@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=66
+PUT /api/v1/Project/{id}/ImageInfo?projectId=308
 ```
 
 
@@ -108,19 +108,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 907,
-  "BlobSize": 665,
-  "Description": "Organized interactive firmware",
-  "ExtraInfo": "velit",
+  "BlobId": 406,
+  "BlobSize": 307,
+  "Description": "Customer-focused attitude-oriented local area network",
+  "ExtraInfo": "aperiam",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 527,
-  "CreatedDate": "1999-08-30T11:06:42.0666003+02:00",
-  "UpdatedDate": "1999-02-19T11:06:42.0666003+01:00",
+  "MimeType": "et",
+  "OriginalSize": 140,
+  "CreatedDate": "2013-04-17T13:38:17.5618158+02:00",
+  "UpdatedDate": "2023-07-14T13:38:17.5618158+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "provident"
+  "ConceptualType": "aspernatur"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 843,
-  "BlobSize": 30,
-  "Description": "Assimilated hybrid focus group",
-  "ExtraInfo": "eos",
+  "BlobId": 177,
+  "BlobSize": 217,
+  "Description": "Focused non-volatile local area network",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 939,
-  "CreatedDate": "2004-10-17T11:06:42.0666003+02:00",
-  "UpdatedDate": "2012-09-28T11:06:42.0666003+02:00",
+  "IsZipped": false,
+  "MimeType": "sit",
+  "OriginalSize": 653,
+  "CreatedDate": "2022-10-10T13:38:17.5618158+02:00",
+  "UpdatedDate": "2012-07-24T13:38:17.5618158+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nam",
+  "ConceptualType": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldType": "System.String",
+      "FieldLength": 882
     }
   }
 }

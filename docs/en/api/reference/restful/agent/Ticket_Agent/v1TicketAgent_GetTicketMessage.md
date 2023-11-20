@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=467
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=83
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 581,
-  "CreatedAt": "2009-07-08T11:06:35.6002493+02:00",
+  "TicketMessageId": 614,
+  "CreatedAt": "2016-09-17T13:38:14.295928+02:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "minus",
-  "PersonId": 623,
-  "PersonFullName": "Mr. Jana Sawayn",
-  "ContactId": 561,
-  "ContactName": "Carter-Grimes",
-  "ContactDepartment": "",
-  "NumAttachments": 971,
-  "EmailHeader": "alexie@bradtkelesch.com",
+  "Author": "saepe",
+  "PersonId": 319,
+  "PersonFullName": "Joan Lowe",
+  "ContactId": 262,
+  "ContactName": "Graham-Mueller",
+  "ContactDepartment": "facilitate cross-platform convergence",
+  "NumAttachments": 174,
+  "EmailHeader": "lester.sauer@ullrichmurazik.ca",
   "MessageHeaders": [
     {
-      "Id": 906,
-      "Name": "Klein LLC",
-      "Value": "ea",
+      "Id": 807,
+      "Name": "Block, Kertzmann and Willms",
+      "Value": "sed",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 739
+          "FieldLength": 142
         }
       }
     }
   ],
-  "Language": "autem",
-  "Sentiment": 780,
-  "SentimentConfidence": 62,
-  "CreatedBy": 683,
-  "ChangedAt": "2001-01-31T11:06:35.6002493+01:00",
+  "Language": "est",
+  "Sentiment": 102,
+  "SentimentConfidence": 561,
+  "CreatedBy": 264,
+  "ChangedAt": "1998-02-10T13:38:14.295928+01:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 53
     }
   }
 }

@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 881,
-  "StartTime": "2022-01-14T11:06:33.4601191+01:00",
-  "EndTime": "1996-07-04T11:06:33.4601191+02:00",
-  "Count": 732,
-  "TaskHeadingId": 685
+  "PersonId": 612,
+  "StartTime": "2019-08-22T13:38:12.8584402+02:00",
+  "EndTime": "2010-10-23T13:38:12.8584402+02:00",
+  "Count": 385,
+  "TaskHeadingId": 716
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 304,
-    "StartDate": "2016-05-03T11:06:33.4601191+02:00",
-    "EndDate": "2011-12-06T11:06:33.4601191+01:00",
+    "AppointmentId": 853,
+    "StartDate": "2009-06-16T13:38:12.8584402+02:00",
+    "EndDate": "2001-06-14T13:38:12.8584402+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ullam",
-    "AssociateFullName": "Aaron Haag",
-    "ContactName": "Ullrich-Kerluke",
-    "Description": "Virtual impactful algorithm",
-    "PersonFullName": "Prof. Prince Bernita Emmerich",
-    "PersonId": 1000,
-    "ContactId": 873,
-    "ProjectId": 198,
-    "ProjectName": "Bosco LLC",
-    "IsPublished": false,
-    "AssociateId": 748,
-    "ColorIndex": 920,
-    "IsFree": true,
+    "Task": "laborum",
+    "AssociateFullName": "Vincenza Schmeler",
+    "ContactName": "Carroll LLC",
+    "Description": "Ergonomic systemic internet solution",
+    "PersonFullName": "Cathryn Wehner",
+    "PersonId": 430,
+    "ContactId": 773,
+    "ProjectId": 247,
+    "ProjectName": "Maggio-Schmeler",
+    "IsPublished": true,
+    "AssociateId": 97,
+    "ColorIndex": 628,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 90,
-    "PriorityName": "Schoen-Monahan",
+    "PriorityId": 376,
+    "PriorityName": "Kassulke Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2018-04-16T11:06:33.4601191+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2006-03-31T13:38:12.8584402+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-06-14T11:06:33.4601191+02:00",
-    "RecurringEndDate": "2016-06-29T11:06:33.4601191+02:00",
-    "MotherId": 872,
-    "AssignedBy": 761,
-    "AssignedByFullName": "Mr. Glen Casper",
+    "RecurringStartDate": "2022-07-18T13:38:12.8584402+02:00",
+    "RecurringEndDate": "1997-02-28T13:38:12.8584402+01:00",
+    "MotherId": 786,
+    "AssignedBy": 98,
+    "AssignedByFullName": "Ms. Luz Lonnie Stroman",
     "RejectReason": "",
-    "Location": "autem",
-    "AlarmLeadTime": "veniam",
-    "SaleId": 542,
-    "SaleName": "Brekke-Moore",
-    "AssociateName": "Friesen, Walker and Toy",
-    "CreatedDate": "1997-12-11T11:06:33.4601191+01:00",
-    "CreatedBy": "sunt",
-    "CreatedByFullName": "Philip Schneider",
-    "CreatedByAssociateId": 174,
+    "Location": "et",
+    "AlarmLeadTime": "laborum",
+    "SaleId": 646,
+    "SaleName": "Crist, Heaney and Wilkinson",
+    "AssociateName": "Gerlach LLC",
+    "CreatedDate": "2014-12-27T13:38:12.8584402+01:00",
+    "CreatedBy": "aliquam",
+    "CreatedByFullName": "Prof. Maureen Torphy",
+    "CreatedByAssociateId": 841,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "ea",
-    "Agenda": "a",
-    "InternalNotes": "voluptas",
+    "PreferredTZLocation": 533,
+    "Title": "alias",
+    "Agenda": "omnis",
+    "InternalNotes": "culpa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldLength": 14
       }
     }
   }

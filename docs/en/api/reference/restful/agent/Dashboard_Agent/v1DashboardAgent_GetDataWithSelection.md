@@ -78,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 285,
-  "SelectionId": 627,
-  "Restrictions": "non"
+  "DashboardTileId": 566,
+  "SelectionId": 682,
+  "Restrictions": "molestias"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Toy-Waelchi",
-        "DisplayTooltip": "repellendus",
-        "DisplayType": "aut",
-        "CanOrderBy": true,
-        "Name": "Kovacek LLC",
+        "DisplayName": "Bashirian LLC",
+        "DisplayTooltip": "quia",
+        "DisplayType": "molestias",
+        "CanOrderBy": false,
+        "Name": "Goyette-Rempel",
         "CanRestrictBy": false,
-        "RestrictionType": "praesentium",
-        "RestrictionListName": "Goldner, Murray and Heathcote",
+        "RestrictionType": "mollitia",
+        "RestrictionListName": "Robel Inc and Sons",
         "IsVisible": true,
-        "ExtraInfo": "ducimus",
-        "Width": "autem",
-        "IconHint": "eos",
-        "HeadingIconHint": "aut"
+        "ExtraInfo": "sint",
+        "Width": "libero",
+        "IconHint": "cum",
+        "HeadingIconHint": "dolorum"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Toy-Waelchi",
-        "DisplayTooltip": "repellendus",
-        "DisplayType": "aut",
-        "CanOrderBy": true,
-        "Name": "Kovacek LLC",
+        "DisplayName": "Bashirian LLC",
+        "DisplayTooltip": "quia",
+        "DisplayType": "molestias",
+        "CanOrderBy": false,
+        "Name": "Goyette-Rempel",
         "CanRestrictBy": false,
-        "RestrictionType": "praesentium",
-        "RestrictionListName": "Goldner, Murray and Heathcote",
+        "RestrictionType": "mollitia",
+        "RestrictionListName": "Robel Inc and Sons",
         "IsVisible": true,
-        "ExtraInfo": "ducimus",
-        "Width": "autem",
-        "IconHint": "eos",
-        "HeadingIconHint": "aut"
+        "ExtraInfo": "sint",
+        "Width": "libero",
+        "IconHint": "cum",
+        "HeadingIconHint": "dolorum"
       }
     ],
     "Result": null

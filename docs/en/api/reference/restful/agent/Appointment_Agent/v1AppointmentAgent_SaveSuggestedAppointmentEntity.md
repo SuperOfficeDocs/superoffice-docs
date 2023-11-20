@@ -93,17 +93,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 642,
-  "Name": "Armstrong Inc and Sons",
-  "Tooltip": "illo",
-  "Rank": 582,
+  "SuggestedAppointmentId": 13,
+  "Name": "Hickle LLC",
+  "Tooltip": "molestiae",
+  "Rank": 751,
   "Deleted": false,
-  "DaysFuture": 180,
-  "Duration": "voluptatem",
+  "DaysFuture": 25,
+  "Duration": "ut",
   "AutoSuggest": false,
   "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "cupiditate",
+  "AssignToMember": true,
+  "Text": "id",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 46,
-  "Name": "Zboncak Group",
-  "Tooltip": "veniam",
-  "Rank": 379,
-  "Deleted": false,
-  "DaysFuture": 203,
-  "Duration": "tenetur",
-  "AutoSuggest": false,
+  "SuggestedAppointmentId": 666,
+  "Name": "Gleason, Prosacco and Trantow",
+  "Tooltip": "exercitationem",
+  "Rank": 25,
+  "Deleted": true,
+  "DaysFuture": 134,
+  "Duration": "et",
+  "AutoSuggest": true,
   "IsMilestone": true,
   "AssignToMember": false,
   "Text": "et",
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 702
     }
   }
 }

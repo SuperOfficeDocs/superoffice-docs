@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Torphy, Harris and Wiza",
-  "ProviderName": "Metz-Moen",
+  "GuiName": "Leffler-Schoen",
+  "ProviderName": "Runte, Schmeler and Bailey",
   "SortOrder": [
     {
-      "Name": "Hane-Lowe",
+      "Name": "Hudson, Wolff and Rau",
       "Direction": "ASC"
     },
     {
-      "Name": "Hane-Lowe",
+      "Name": "Hudson, Wolff and Rau",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Spinka-Bednar",
-      "Operator": "qui",
+      "Name": "Klein-Pacocha",
+      "Operator": "quas",
       "Values": [
-        "eveniet",
-        "corporis"
+        "asperiores",
+        "aut"
       ],
       "DisplayValues": [
-        "qui",
-        "deserunt"
+        "explicabo",
+        "iste"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 377,
+      "InterParenthesis": 257,
       "InterOperator": "And",
-      "UniqueHash": 853
+      "UniqueHash": 407
     }
   ],
   "Entities": [
-    "ad",
-    "cumque"
+    "non",
+    "voluptatem"
   ],
-  "Page": 947,
-  "PageSize": 854,
-  "Context": "voluptatem"
+  "Page": 381,
+  "PageSize": 82,
+  "Context": "ut"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ullrich, Hickle and Hintz",
-    "PrimaryKey": 287,
+    "EntityName": "Ruecker-Wintheiser",
+    "PrimaryKey": 478,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "officiis",
-        "TooltipHint": "saepe",
-        "LinkHint": "consequatur"
+        "DisplayValue": "reprehenderit",
+        "TooltipHint": "est",
+        "LinkHint": "impedit"
       }
     },
-    "LinkHint": "officiis",
-    "StyleHint": "laborum",
+    "LinkHint": "nemo",
+    "StyleHint": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldType": "System.String",
+        "FieldLength": 261
       }
     }
   }

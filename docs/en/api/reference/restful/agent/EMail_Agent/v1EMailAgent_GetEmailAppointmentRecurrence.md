@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 491
+  "MailItemId": 221
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 956,
-  "StartDate": "2017-06-24T11:06:34.4895565+02:00",
-  "EndDate": "2009-07-02T11:06:34.4895565+02:00",
-  "RecurrenceCounter": 289,
+  "RecurrenceId": 982,
+  "StartDate": "2011-08-09T13:38:13.5302438+02:00",
+  "EndDate": "2014-10-05T13:38:13.5302438+02:00",
+  "RecurrenceCounter": 404,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2022-06-27T11:06:34.4895565+02:00",
-      "IsConflict": true,
-      "Description": "Secured discrete migration",
-      "DescriptionStyleHint": "Horizontal executive info-mediaries",
-      "Tooltip": "ducimus"
+      "Date": "2002-10-19T13:38:13.5302438+02:00",
+      "IsConflict": false,
+      "Description": "Self-enabling demand-driven leverage",
+      "DescriptionStyleHint": "De-engineered mobile success",
+      "Tooltip": "aut"
     },
     {
-      "Date": "2022-06-27T11:06:34.4895565+02:00",
-      "IsConflict": true,
-      "Description": "Secured discrete migration",
-      "DescriptionStyleHint": "Horizontal executive info-mediaries",
-      "Tooltip": "ducimus"
+      "Date": "2002-10-19T13:38:13.5302438+02:00",
+      "IsConflict": false,
+      "Description": "Self-enabling demand-driven leverage",
+      "DescriptionStyleHint": "De-engineered mobile success",
+      "Tooltip": "aut"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 812,
-    "ColumnId": 791,
-    "FieldDefault": "est",
-    "FieldHeight": 795,
-    "FieldLabel": "enim",
-    "FieldLeft": 735,
-    "FieldTop": 524,
+    "UDefFieldId": 555,
+    "ColumnId": 898,
+    "FieldDefault": "vel",
+    "FieldHeight": 796,
+    "FieldLabel": "alias",
+    "FieldLeft": 211,
+    "FieldTop": 465,
     "FieldType": "Checkbox",
-    "FieldWidth": 636,
-    "FormatMask": "esse",
-    "HideLabel": true,
+    "FieldWidth": 470,
+    "FormatMask": "nihil",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 621,
-    "LabelLeft": 902,
-    "LabelTop": 680,
-    "LabelWidth": 78,
-    "LastVersionId": 916,
-    "ListTableId": 3,
+    "LabelHeight": 186,
+    "LabelLeft": 859,
+    "LabelTop": 641,
+    "LabelWidth": 184,
+    "LastVersionId": 211,
+    "ListTableId": 130,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 833,
-    "ProgId": "eum",
+    "Page1LineNo": 49,
+    "ProgId": "nobis",
     "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 933,
-    "TextLength": 666,
-    "Tooltip": "id",
-    "UdefIdentity": 746,
-    "UDListDefinitionId": 725,
+    "ShortLabel": "inventore",
+    "TabOrder": 630,
+    "TextLength": 569,
+    "Tooltip": "eius",
+    "UdefIdentity": 425,
+    "UDListDefinitionId": 84,
     "Justification": "Center",
-    "Version": 74,
-    "TemplateVariableName": "Blick Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Gibson Group",
+    "Version": 25,
+    "TemplateVariableName": "Sporer-Volkman",
+    "HasBeenPublished": false,
+    "MdoListName": "Jewess-Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldType": "System.String",
+        "FieldLength": 600
       }
     }
   }

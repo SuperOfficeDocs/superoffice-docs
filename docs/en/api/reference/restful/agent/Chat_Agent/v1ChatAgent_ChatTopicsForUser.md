@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 931,
-    "Name": "Satterfield Inc and Sons",
-    "Description": "Synchronised global database",
-    "WelcomeMessage": "sed",
+    "ChatTopicId": 915,
+    "Name": "Schuppe, Wunsch and Schneider",
+    "Description": "Diverse dynamic function",
+    "WelcomeMessage": "facilis",
     "Language": null,
-    "LastAccept": "2015-09-21T11:06:34.0496048+02:00",
-    "SecondsPrAccept": 171,
-    "AlertRecipient": "nam",
+    "LastAccept": "1997-04-28T13:38:13.2490288+02:00",
+    "SecondsPrAccept": 808,
+    "AlertRecipient": "enim",
     "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "eos",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "rem",
-    "WarnNewChatMinutes": 637,
-    "WarnManagerNewChatMinutes": 863,
-    "TicketEnabled": false,
+    "CollectConsent": true,
+    "BadgeHeader": "et",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "incidunt",
+    "WarnNewChatMinutes": 622,
+    "WarnManagerNewChatMinutes": 360,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": false,
+    "BotEnabled": true,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 734,
-    "WarnManagerChatMessageMinutes": 985,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 513,
+    "WarnManagerChatMessageMinutes": 466,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 655,
-    "OfflineFormQueueLength": 989,
+    "OfflineFormTimeLimit": 633,
+    "OfflineFormQueueLength": 104,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "veniam",
+    "WidgetRatingText": "aperiam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldLength": 352
       }
     }
   }

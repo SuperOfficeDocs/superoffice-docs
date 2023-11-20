@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 51
+  "QuoteLineConfigurationId": 334
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 351,
-  "FieldName": "Beatty-Weissnat",
-  "Label": "repellendus",
-  "Tooltip": "velit",
-  "Editable": true,
-  "InUse": false,
+  "QuoteLineConfigurationId": 307,
+  "FieldName": "Ortiz LLC",
+  "Label": "aut",
+  "Tooltip": "perspiciatis",
+  "Editable": false,
+  "InUse": true,
   "Mandatory": false,
-  "Rank": 383,
+  "Rank": 509,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldLength": 791
     }
   }
 }

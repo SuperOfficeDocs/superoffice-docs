@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 709,
-    "Name": "Daugherty-Runolfsdottir",
-    "Tooltip": "accusantium",
-    "Deleted": false,
-    "Rank": 751,
-    "UdListDefinitionId": 966,
+    "HeadingId": 572,
+    "Name": "Swift, Torp and Bode",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "Rank": 147,
+    "UdListDefinitionId": 130,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 231
+        "FieldType": "System.Int32",
+        "FieldLength": 617
       }
     }
   }

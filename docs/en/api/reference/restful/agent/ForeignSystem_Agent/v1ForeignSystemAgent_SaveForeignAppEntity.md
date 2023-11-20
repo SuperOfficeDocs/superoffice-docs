@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 116,
-  "Name": "Bauch-Runolfsson",
-  "CreatedDate": "2002-04-21T11:06:34.6145606+02:00",
-  "UpdatedDate": "2004-11-12T11:06:34.6145606+01:00",
+  "ForeignAppId": 783,
+  "Name": "Swift LLC",
+  "CreatedDate": "1999-10-26T13:38:13.623981+02:00",
+  "UpdatedDate": "1998-08-14T13:38:13.623981+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 466,
-      "Name": "Leannon LLC",
-      "CreatedDate": "2008-07-28T11:06:34.6145606+02:00",
-      "UpdatedDate": "2021-10-10T11:06:34.6145606+02:00",
-      "AssociateFullName": "Dixie Jones",
-      "CreatedBy": "ducimus",
-      "UpdatedBy": "vel",
-      "DeviceIdentifier": "voluptas",
-      "ForeignAppId": 761
+      "ForeignDeviceId": 577,
+      "Name": "Koch Group",
+      "CreatedDate": "2017-07-04T13:38:13.623981+02:00",
+      "UpdatedDate": "1997-09-02T13:38:13.623981+02:00",
+      "AssociateFullName": "Verlie Heller",
+      "CreatedBy": "harum",
+      "UpdatedBy": "asperiores",
+      "DeviceIdentifier": "illo",
+      "ForeignAppId": 411
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 909,
-  "Name": "Renner-Willms",
-  "CreatedDate": "1998-10-07T11:06:34.6301875+02:00",
-  "UpdatedDate": "2015-01-18T11:06:34.6301875+01:00",
+  "ForeignAppId": 733,
+  "Name": "Hartmann-Schulist",
+  "CreatedDate": "2014-08-03T13:38:13.623981+02:00",
+  "UpdatedDate": "2000-01-27T13:38:13.623981+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 436,
-      "Name": "Nolan, Dietrich and Balistreri",
-      "CreatedDate": "2011-06-01T11:06:34.6301875+02:00",
-      "UpdatedDate": "2002-03-11T11:06:34.6301875+01:00",
-      "AssociateFullName": "Eladio Pollich",
-      "CreatedBy": "similique",
-      "UpdatedBy": "libero",
-      "DeviceIdentifier": "necessitatibus",
-      "ForeignAppId": 128,
+      "ForeignDeviceId": 867,
+      "Name": "Crist-Schumm",
+      "CreatedDate": "2002-01-14T13:38:13.623981+01:00",
+      "UpdatedDate": "2021-03-28T13:38:13.623981+02:00",
+      "AssociateFullName": "Deshaun Wilkinson",
+      "CreatedBy": "consequatur",
+      "UpdatedBy": "necessitatibus",
+      "DeviceIdentifier": "possimus",
+      "ForeignAppId": 767,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 949
+          "FieldType": "System.Int32",
+          "FieldLength": 63
         }
       }
     }

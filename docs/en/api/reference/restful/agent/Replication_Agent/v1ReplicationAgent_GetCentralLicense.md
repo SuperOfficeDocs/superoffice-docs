@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,30 +81,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobs Group",
-    "Description": "Focused transitional framework",
+    "Name": "Kuhic-Walker",
+    "Description": "Configurable analyzing matrices",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 659,
-        "Tooltip": "autem",
-        "CanAssign": false,
-        "Free": 3,
-        "InUse": 237,
+        "Total": 861,
+        "Tooltip": "commodi",
+        "CanAssign": true,
+        "Free": 981,
+        "InUse": 733,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 150,
-        "Name": "Dare, Boehm and Miller",
-        "Description": "Sharable disintermediate portal",
-        "PrerequisiteModuleName": "Funk-Bogisich",
-        "SortOrder": 165,
-        "ExtraFlags": 550,
+        "ModuleLicenseId": 652,
+        "Name": "Stoltenberg, Schneider and Rogahn",
+        "Description": "Streamlined actuating model",
+        "PrerequisiteModuleName": "Farrell-Monahan",
+        "SortOrder": 466,
+        "ExtraFlags": 601,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 878
+            "FieldLength": 860
           }
         }
       }
@@ -112,25 +112,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 279,
-        "Tooltip": "debitis",
+        "Total": 762,
+        "Tooltip": "alias",
         "CanAssign": false,
-        "Free": 189,
-        "InUse": 358,
-        "IsHidden": false,
+        "Free": 367,
+        "InUse": 129,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 527,
-        "Name": "O'Hara-Jast",
-        "Description": "Monitored impactful complexity",
-        "PrerequisiteModuleName": "Macejkovic, Mitchell and Halvorson",
-        "SortOrder": 213,
-        "ExtraFlags": 84,
+        "ModuleLicenseId": 247,
+        "Name": "Boyer-Fritsch",
+        "Description": "Focused attitude-oriented moratorium",
+        "PrerequisiteModuleName": "Bahringer, Romaguera and Willms",
+        "SortOrder": 959,
+        "ExtraFlags": 570,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 623
+            "FieldType": "System.Int32",
+            "FieldLength": 717
           }
         }
       }
@@ -139,36 +139,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldType": "System.String",
+        "FieldLength": 820
       }
     }
   },
   {
-    "Name": "Jacobs Group",
-    "Description": "Focused transitional framework",
+    "Name": "Kuhic-Walker",
+    "Description": "Configurable analyzing matrices",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 659,
-        "Tooltip": "autem",
-        "CanAssign": false,
-        "Free": 3,
-        "InUse": 237,
+        "Total": 861,
+        "Tooltip": "commodi",
+        "CanAssign": true,
+        "Free": 981,
+        "InUse": 733,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 150,
-        "Name": "Dare, Boehm and Miller",
-        "Description": "Sharable disintermediate portal",
-        "PrerequisiteModuleName": "Funk-Bogisich",
-        "SortOrder": 165,
-        "ExtraFlags": 550,
+        "ModuleLicenseId": 652,
+        "Name": "Stoltenberg, Schneider and Rogahn",
+        "Description": "Streamlined actuating model",
+        "PrerequisiteModuleName": "Farrell-Monahan",
+        "SortOrder": 466,
+        "ExtraFlags": 601,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 878
+            "FieldLength": 860
           }
         }
       }
@@ -176,25 +176,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 279,
-        "Tooltip": "debitis",
+        "Total": 762,
+        "Tooltip": "alias",
         "CanAssign": false,
-        "Free": 189,
-        "InUse": 358,
-        "IsHidden": false,
+        "Free": 367,
+        "InUse": 129,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 527,
-        "Name": "O'Hara-Jast",
-        "Description": "Monitored impactful complexity",
-        "PrerequisiteModuleName": "Macejkovic, Mitchell and Halvorson",
-        "SortOrder": 213,
-        "ExtraFlags": 84,
+        "ModuleLicenseId": 247,
+        "Name": "Boyer-Fritsch",
+        "Description": "Focused attitude-oriented moratorium",
+        "PrerequisiteModuleName": "Bahringer, Romaguera and Willms",
+        "SortOrder": 959,
+        "ExtraFlags": 570,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 623
+            "FieldType": "System.Int32",
+            "FieldLength": 717
           }
         }
       }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldType": "System.String",
+        "FieldLength": 820
       }
     }
   }

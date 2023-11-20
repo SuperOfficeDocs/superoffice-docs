@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 184,
-    "Name": "Eichmann Inc and Sons",
-    "Tooltip": "voluptas",
+    "Id": 106,
+    "Name": "Carter-Gibson",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 492,
-    "Rank": 551,
+    "UdListDefinitionId": 303,
+    "Rank": 642,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldType": "System.String",
+        "FieldLength": 836
       }
     }
   }

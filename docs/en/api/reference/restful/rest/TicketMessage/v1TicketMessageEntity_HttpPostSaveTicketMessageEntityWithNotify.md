@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=False
+POST /api/v1/TicketMessage?notify=True
 ```
 
 
@@ -127,62 +127,62 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 663,
+  "EjMessageId": 341,
   "Ticket": null,
-  "CreatedAt": "1997-04-04T11:06:42.3322282+02:00",
+  "CreatedAt": "1999-04-02T13:38:17.7336652+02:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "facere",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "excepturi",
-  "TimeSpent": 223,
-  "Body": "occaecati",
-  "HtmlBody": "aut",
-  "EmailHeader": "vilma.jerde@dare.biz",
-  "DebugInfo": "magni",
-  "MailSorter": "enim",
+  "MessageId": "et",
+  "TimeSpent": 806,
+  "Body": "deserunt",
+  "HtmlBody": "vero",
+  "EmailHeader": "jasen@hilll.info",
+  "DebugInfo": "id",
+  "MailSorter": "iusto",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "perferendis",
+  "SearchTitle": "animi",
   "MessageHeaders": [
     {
-      "Id": 644,
-      "Name": "Jacobi, Dietrich and Graham",
-      "Value": "officiis",
+      "Id": 76,
+      "Name": "Osinski, Swift and Mraz",
+      "Value": "in",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 644,
-      "Name": "Jacobi, Dietrich and Graham",
-      "Value": "officiis",
+      "Id": 76,
+      "Name": "Osinski, Swift and Mraz",
+      "Value": "in",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "dolor",
-  "Sentiment": 758,
-  "SentimentConfidence": 419,
+  "Language": "dolorum",
+  "Sentiment": 177,
+  "SentimentConfidence": 384,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 374,
-      "Name": "Bode Inc and Sons",
-      "ContentType": "possimus",
-      "AttSize": 628,
-      "InlineImage": false,
-      "ContentId": "facere",
-      "AuthKey": "laudantium"
+      "AttachmentId": 824,
+      "Name": "Farrell-Stiedemann",
+      "ContentType": "facilis",
+      "AttSize": 399,
+      "InlineImage": true,
+      "ContentId": "assumenda",
+      "AuthKey": "magni"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "numquam"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "distinctio"
+    "CustomFields1": "soluta",
+    "CustomFields2": "fuga"
   }
 }
 ```
@@ -194,78 +194,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 587,
+  "EjMessageId": 108,
   "Ticket": null,
-  "CreatedAt": "1999-09-16T11:06:42.3322282+02:00",
+  "CreatedAt": "1998-03-09T13:38:17.7336652+01:00",
   "CreatedBy": null,
-  "Author": "magni",
+  "Author": "sed",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quisquam",
-  "TimeSpent": 233,
-  "Body": "alias",
-  "HtmlBody": "suscipit",
-  "EmailHeader": "marlee@skilesbrakus.uk",
-  "DebugInfo": "nihil",
-  "MailSorter": "sit",
+  "MessageId": "voluptatem",
+  "TimeSpent": 283,
+  "Body": "commodi",
+  "HtmlBody": "velit",
+  "EmailHeader": "jonathon@reicheldooley.ca",
+  "DebugInfo": "commodi",
+  "MailSorter": "deserunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "unde",
+  "SearchTitle": "voluptate",
   "MessageHeaders": [
     {
-      "Id": 119,
-      "Name": "Boyer LLC",
-      "Value": "ut",
+      "Id": 98,
+      "Name": "Effertz-Kreiger",
+      "Value": "quae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 960
+          "FieldType": "System.Int32",
+          "FieldLength": 121
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "animi",
-  "Sentiment": 160,
-  "SentimentConfidence": 232,
+  "Important": true,
+  "Language": "corporis",
+  "Sentiment": 835,
+  "SentimentConfidence": 531,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 693,
-      "Name": "Heidenreich-Runolfsdottir",
-      "ContentType": "vel",
-      "AttSize": 172,
-      "InlineImage": false,
-      "ContentId": "pariatur",
-      "AuthKey": "et",
+      "AttachmentId": 643,
+      "Name": "O'Kon, Abbott and Larkin",
+      "ContentType": "nisi",
+      "AttSize": 109,
+      "InlineImage": true,
+      "ContentId": "odit",
+      "AuthKey": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 819
+          "FieldType": "System.Int32",
+          "FieldLength": 715
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "est"
+    "CustomFields1": "ullam",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldType": "System.String",
+      "FieldLength": 174
     }
   }
 }

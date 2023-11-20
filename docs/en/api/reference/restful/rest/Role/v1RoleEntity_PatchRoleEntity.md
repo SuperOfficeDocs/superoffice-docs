@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "animi",
+    "path": "error",
     "value": {}
   },
   {
     "op": "add",
-    "path": "animi",
+    "path": "error",
     "value": {}
   }
 ]
@@ -146,24 +146,24 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 515,
-  "Name": "Kemmer-Lowe",
-  "Tooltip": "nostrum",
+  "RoleId": 160,
+  "Name": "Feeney, Walker and Rolfson",
+  "Tooltip": "culpa",
   "RoleType": "Anonymous",
-  "Deleted": 348,
-  "Rank": 981,
-  "Created": "2017-07-23T11:06:42.0822263+02:00",
-  "UseCategories": 720,
+  "Deleted": 504,
+  "Rank": 993,
+  "Created": "2007-08-24T13:38:17.5774332+02:00",
+  "UseCategories": 511,
   "CreatedBy": null,
-  "Updated": "1999-10-21T11:06:42.0822263+02:00",
+  "Updated": "2022-07-01T13:38:17.5774332+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 383
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   },
   "_Links": {

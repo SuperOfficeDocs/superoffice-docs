@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Littel Inc and Sons",
+  "ProviderName": "Torp Inc and Sons",
   "DesiredColumns": [
-    "omnis",
-    "aperiam"
+    "consequatur",
+    "rerum"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Luettgen, Hickle and Heaney",
+    "Name": "O'Reilly-Feeney",
     "Direction": "ASC"
   },
   {
-    "Name": "Luettgen, Hickle and Heaney",
+    "Name": "O'Reilly-Feeney",
     "Direction": "ASC"
   }
 ]

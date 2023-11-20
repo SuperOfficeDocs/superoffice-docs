@@ -91,30 +91,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 167,
-  "UniqueId": "praesentium",
-  "Name": "Kautzer, Johnston and Kertzmann",
-  "Description": "Managed foreground policy",
-  "AssociateId": 212,
-  "Columns": 789,
+  "DashboardId": 505,
+  "UniqueId": "porro",
+  "Name": "Hartmann LLC",
+  "Description": "Upgradable stable circuit",
+  "AssociateId": 732,
+  "Columns": 697,
   "Theme": null,
-  "VisibleForAll": 735,
+  "VisibleForAll": 617,
   "VisibleForAssociates": [
-    652,
-    902
+    382,
+    960
   ],
   "VisibleForGroups": [
-    340,
-    1001
+    285,
+    150
   ],
-  "PinForAll": 942,
+  "PinForAll": 241,
   "PinForAssociates": [
-    527,
-    604
+    282,
+    678
   ],
   "PinForGroups": [
-    343,
-    683
+    211,
+    878
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 608,
-  "UniqueId": "ratione",
-  "Name": "Deckow LLC",
-  "Description": "Centralized stable interface",
-  "AssociateId": 504,
-  "Columns": 418,
+  "DashboardId": 675,
+  "UniqueId": "eaque",
+  "Name": "Upton Inc and Sons",
+  "Description": "Centralized non-volatile Graphic Interface",
+  "AssociateId": 75,
+  "Columns": 56,
   "Theme": null,
-  "VisibleForAll": 419,
+  "VisibleForAll": 299,
   "VisibleForAssociates": [
-    635,
-    789
+    791,
+    170
   ],
   "VisibleForGroups": [
-    132,
-    177
+    32,
+    799
   ],
-  "PinForAll": 626,
+  "PinForAll": 674,
   "PinForAssociates": [
-    302,
-    490
+    891,
+    840
   ],
   "PinForGroups": [
-    800,
-    843
+    966,
+    913
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 155
     }
   }
 }

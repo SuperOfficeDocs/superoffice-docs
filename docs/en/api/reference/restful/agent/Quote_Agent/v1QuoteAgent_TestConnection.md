@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Kerluke-Waelchi",
+  "ConnectorName": "Abshire-Heidenreich",
   "ConnectionData": {
-    "ConnectionData1": "qui",
-    "ConnectionData2": "consectetur"
+    "ConnectionData1": "veniam",
+    "ConnectionData2": "cumque"
   }
 }
 ```
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "voluptatem",
-  "TechExplanation": "repellat",
-  "ErrorCode": "eum",
+  "IsOk": false,
+  "UserExplanation": "aut",
+  "TechExplanation": "nihil",
+  "ErrorCode": "facere",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 293
     }
   }
 }

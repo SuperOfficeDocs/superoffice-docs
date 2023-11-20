@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
-  "Name": "Nader-Schaden",
-  "Tooltip": "nesciunt",
-  "Deleted": true,
-  "UdListDefinitionId": 537,
-  "Rank": 98,
+  "Id": 893,
+  "Name": "Schroeder Inc and Sons",
+  "Tooltip": "a",
+  "Deleted": false,
+  "UdListDefinitionId": 28,
+  "Rank": 409,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

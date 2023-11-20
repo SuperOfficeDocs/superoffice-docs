@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": true,
+  "Notify": false,
   "AttachmentIds": [
-    171,
-    666
+    269,
+    483
   ],
-  "UpdateRepliedAt": false
+  "UpdateRepliedAt": true
 }
 ```
 
@@ -122,78 +122,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 383,
+  "EjMessageId": 115,
   "Ticket": null,
-  "CreatedAt": "2009-12-04T11:06:35.6314993+01:00",
+  "CreatedAt": "2016-01-05T13:38:14.3115522+01:00",
   "CreatedBy": null,
-  "Author": "alias",
+  "Author": "doloremque",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "impedit",
-  "TimeSpent": 502,
-  "Body": "reprehenderit",
-  "HtmlBody": "voluptatem",
-  "EmailHeader": "karley@jacobi.name",
-  "DebugInfo": "omnis",
-  "MailSorter": "eveniet",
+  "MessageId": "adipisci",
+  "TimeSpent": 392,
+  "Body": "modi",
+  "HtmlBody": "ea",
+  "EmailHeader": "brett_damore@osinski.co.uk",
+  "DebugInfo": "qui",
+  "MailSorter": "culpa",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "enim",
+  "SearchTitle": "id",
   "MessageHeaders": [
     {
-      "Id": 806,
-      "Name": "Balistreri Inc and Sons",
-      "Value": "culpa",
+      "Id": 722,
+      "Name": "Glover-Moore",
+      "Value": "aliquam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 53
+          "FieldType": "System.Int32",
+          "FieldLength": 566
         }
       }
     }
   ],
-  "Important": false,
+  "Important": true,
   "Language": "voluptatem",
-  "Sentiment": 157,
-  "SentimentConfidence": 489,
+  "Sentiment": 577,
+  "SentimentConfidence": 82,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 396,
-      "Name": "Paucek Group",
-      "ContentType": "velit",
-      "AttSize": 187,
-      "InlineImage": false,
-      "ContentId": "quisquam",
-      "AuthKey": "rerum",
+      "AttachmentId": 655,
+      "Name": "Wunsch, Herman and Glover",
+      "ContentType": "at",
+      "AttSize": 350,
+      "InlineImage": true,
+      "ContentId": "eos",
+      "AuthKey": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 878
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "dolorum"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "molestias"
+    "CustomFields1": "vel",
+    "CustomFields2": "fugiat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 671
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 871,
-  "Name": "Schmitt, Mann and Oberbrunner",
-  "Tooltip": "sint",
+  "HeadingId": 152,
+  "Name": "Nienow Inc and Sons",
+  "Tooltip": "facere",
   "Deleted": true,
-  "Rank": 801,
-  "UdListDefinitionId": 910
+  "Rank": 754,
+  "UdListDefinitionId": 629
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 850,
-  "Name": "Schroeder Inc and Sons",
-  "Tooltip": "sit",
+  "HeadingId": 477,
+  "Name": "Cummings, Lehner and Predovic",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 398,
-  "UdListDefinitionId": 742,
+  "Rank": 646,
+  "UdListDefinitionId": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 911
     }
   }
 }

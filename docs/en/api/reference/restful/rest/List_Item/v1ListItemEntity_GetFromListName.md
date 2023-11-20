@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 331,
-  "Name": "Morissette-Cummings",
-  "Tooltip": "nam",
-  "Deleted": false,
-  "UdListDefinitionId": 577,
-  "Rank": 630,
+  "Id": 728,
+  "Name": "Gibson LLC",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 922,
+  "Rank": 28,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldLength": 774
     }
   }
 }

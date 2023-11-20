@@ -101,89 +101,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 496,
-  "Name": "Dare-Cassin",
+  "ContactId": 787,
+  "Name": "Bartoletti-Hodkiewicz",
   "Department": "",
-  "OrgNr": "1176091",
-  "Number1": "1033724",
-  "Number2": "469529",
-  "UpdatedDate": "2001-07-28T11:06:41.7540989+02:00",
-  "CreatedDate": "2017-06-24T11:06:41.7540989+02:00",
+  "OrgNr": "1819262",
+  "Number1": "687138",
+  "Number2": "827282",
+  "UpdatedDate": "2021-06-03T13:38:17.2649715+02:00",
+  "CreatedDate": "2009-08-22T13:38:17.2649715+02:00",
   "Emails": [
     {
-      "Value": "modi",
-      "StrippedValue": "nihil",
-      "Description": "Streamlined human-resource open system"
+      "Value": "voluptatem",
+      "StrippedValue": "exercitationem",
+      "Description": "Cloned stable focus group"
     },
     {
-      "Value": "modi",
-      "StrippedValue": "nihil",
-      "Description": "Streamlined human-resource open system"
+      "Value": "voluptatem",
+      "StrippedValue": "exercitationem",
+      "Description": "Cloned stable focus group"
     }
   ],
   "Interests": [
     {
-      "Id": 21,
-      "Name": "Jacobi-Lang",
-      "ToolTip": "Numquam rerum aut modi blanditiis.",
+      "Id": 649,
+      "Name": "Barrows Group",
+      "ToolTip": "Qui culpa voluptas officia nihil.",
       "Deleted": true,
-      "Rank": 805,
-      "Type": "occaecati",
-      "ColorBlock": 167,
-      "IconHint": "expedita",
-      "Selected": true,
-      "LastChanged": "2010-02-07T11:06:41.7540989+01:00",
+      "Rank": 72,
+      "Type": "odio",
+      "ColorBlock": 374,
+      "IconHint": "occaecati",
+      "Selected": false,
+      "LastChanged": "2017-02-06T13:38:17.2649715+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "nihil",
+      "ExtraInfo": "dolor",
+      "StyleHint": "placeat",
       "Hidden": false,
-      "FullName": "Sigmund Waelchi"
+      "FullName": "Paris Ashlynn Schiller DVM"
     }
   ],
   "Urls": [
     {
-      "Value": "est",
-      "StrippedValue": "ea",
-      "Description": "Quality-focused optimizing challenge"
+      "Value": "dolor",
+      "StrippedValue": "officia",
+      "Description": "Implemented secondary ability"
     },
     {
-      "Value": "est",
-      "StrippedValue": "ea",
-      "Description": "Quality-focused optimizing challenge"
+      "Value": "dolor",
+      "StrippedValue": "officia",
+      "Description": "Implemented secondary ability"
     }
   ],
   "Phones": [
     {
-      "Value": "vel",
+      "Value": "ipsa",
       "StrippedValue": "et",
-      "Description": "Configurable eco-centric array"
+      "Description": "Digitized client-driven budgetary management"
     },
     {
-      "Value": "vel",
+      "Value": "ipsa",
       "StrippedValue": "et",
-      "Description": "Configurable eco-centric array"
+      "Description": "Digitized client-driven budgetary management"
     }
   ],
   "Faxes": [
     {
-      "Value": "sed",
-      "StrippedValue": "accusantium",
-      "Description": "Devolved context-sensitive groupware"
+      "Value": "tempore",
+      "StrippedValue": "alias",
+      "Description": "Realigned client-driven process improvement"
     },
     {
-      "Value": "sed",
-      "StrippedValue": "accusantium",
-      "Description": "Devolved context-sensitive groupware"
+      "Value": "tempore",
+      "StrippedValue": "alias",
+      "Description": "Realigned client-driven process improvement"
     }
   ],
-  "Description": "Cross-group methodical collaboration",
+  "Description": "Public-key holistic knowledge user",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,85 +192,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "officiis",
-      "PersonId": 642,
-      "Mrmrs": "laboriosam",
-      "Firstname": "Kaia",
-      "Lastname": "Runte",
-      "MiddleName": "Cremin, Simonis and Flatley",
-      "Title": "laudantium",
-      "Description": "Total fresh-thinking superstructure",
-      "Email": "rubie@shanahanparisian.biz",
-      "FullName": "Jeffery Russel",
-      "DirectPhone": "923-206-6690 x20819",
-      "FormalName": "Rodriguez-Sporer",
-      "CountryId": 87,
-      "ContactId": 664,
-      "ContactName": "Smith Group",
-      "Retired": 699,
-      "Rank": 265,
-      "ActiveInterests": 714,
+      "Position": "ut",
+      "PersonId": 504,
+      "Mrmrs": "est",
+      "Firstname": "Bethany",
+      "Lastname": "Schultz",
+      "MiddleName": "Waters, Hammes and Kris",
+      "Title": "ea",
+      "Description": "Persistent mission-critical hardware",
+      "Email": "rebecca@ferry.uk",
+      "FullName": "Dr. Laverne Lisette Mitchell PhD",
+      "DirectPhone": "(734)301-6127 x905",
+      "FormalName": "Armstrong, Rosenbaum and Kling",
+      "CountryId": 286,
+      "ContactId": 785,
+      "ContactName": "Lynch, O'Conner and Ferry",
+      "Retired": 378,
+      "Rank": 607,
+      "ActiveInterests": 507,
       "ContactDepartment": "",
-      "ContactCountryId": 830,
-      "ContactOrgNr": "937719",
-      "FaxPhone": "091-229-1973 x48280",
-      "MobilePhone": "(227)046-3701 x551",
-      "ContactPhone": "1-517-876-5513",
-      "AssociateName": "Kreiger, Bruen and Abernathy",
-      "AssociateId": 452,
-      "UsePersonAddress": false,
-      "ContactFax": "in",
-      "Kanafname": "perspiciatis",
-      "Kanalname": "consectetur",
-      "Post1": "quae",
-      "Post2": "error",
-      "Post3": "illo",
-      "EmailName": "rasheed@mcglynn.uk",
-      "ContactFullName": "Cristobal Hammes",
-      "ActiveErpLinks": 355,
-      "TicketPriorityId": 663,
-      "SupportLanguageId": 32,
-      "SupportAssociateId": 276,
+      "ContactCountryId": 492,
+      "ContactOrgNr": "1622048",
+      "FaxPhone": "1-756-330-8579 x820",
+      "MobilePhone": "017.685.3532 x82658",
+      "ContactPhone": "(170)964-1922 x35353",
+      "AssociateName": "Spencer-Brekke",
+      "AssociateId": 26,
+      "UsePersonAddress": true,
+      "ContactFax": "aut",
+      "Kanafname": "nostrum",
+      "Kanalname": "ab",
+      "Post1": "est",
+      "Post2": "adipisci",
+      "Post3": "sed",
+      "EmailName": "haley@king.com",
+      "ContactFullName": "Ezra Marvin",
+      "ActiveErpLinks": 399,
+      "TicketPriorityId": 447,
+      "SupportLanguageId": 420,
+      "SupportAssociateId": 966,
       "CategoryName": "VIP Customer"
     }
   ],
   "NoMailing": true,
-  "Kananame": "id",
+  "Kananame": "tempore",
   "Xstop": false,
-  "ActiveInterests": 606,
-  "GroupId": 287,
-  "ActiveStatusMonitorId": 113,
+  "ActiveInterests": 667,
+  "GroupId": 297,
+  "ActiveStatusMonitorId": 956,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 433,
-  "DbiAgentId": 93,
-  "DbiLastSyncronized": "2020-09-28T11:06:41.7540989+02:00",
-  "DbiKey": "nam",
-  "DbiLastModified": "2000-01-29T11:06:41.7540989+01:00",
+  "Deleted": 136,
+  "DbiAgentId": 305,
+  "DbiLastSyncronized": "2009-02-10T13:38:17.2649715+01:00",
+  "DbiKey": "architecto",
+  "DbiLastModified": "2012-06-11T13:38:17.2649715+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 876,
-  "ActiveErpLinks": 629,
+  "Source": 42,
+  "ActiveErpLinks": 352,
   "BounceEmails": [
-    "alfredo.torphy@dibbert.info",
-    "jermey_ankunding@bradtke.com"
+    "oswald.kozey@okunevaprohaska.info",
+    "lenna_treutel@volkman.co.uk"
   ],
   "Domains": [
-    "doloribus",
-    "ut"
+    "voluptatum",
+    "optio"
   ],
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Dr. Ephraim Wolff II"
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "et"
+    "CustomFields1": "quo",
+    "CustomFields2": "doloribus"
   }
 }
 ```
@@ -282,7 +282,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ex",
-  "2": "quo"
+  "1": "dolores",
+  "2": "earum"
 }
 ```

@@ -85,26 +85,26 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 117,
-  "Name": "Wintheiser Inc and Sons",
-  "Rank": 904,
-  "Tooltip": "necessitatibus",
-  "Icon": "itaque",
-  "DefaultTicketStatus": 50,
+  "TicketTypeId": 9,
+  "Name": "Paucek-Rosenbaum",
+  "Rank": 237,
+  "Tooltip": "nam",
+  "Icon": "nesciunt",
+  "DefaultTicketStatus": 146,
   "TicketStatuses": [
-    623,
-    645
+    673,
+    503
   ],
-  "DefaultTicketPriority": 221,
+  "DefaultTicketPriority": 502,
   "TicketPriorities": [
-    106,
-    417
+    359,
+    841
   ],
-  "ReplyTemplate": 648,
+  "ReplyTemplate": 62,
   "IsExternalVisible": true,
   "IsDefault": false
 }
@@ -117,22 +117,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 920,
-  "Name": "Flatley-Boyle",
-  "Rank": 610,
-  "Tooltip": "praesentium",
-  "Icon": "quia",
-  "DefaultTicketStatus": 145,
+  "TicketTypeId": 372,
+  "Name": "Kulas Inc and Sons",
+  "Rank": 601,
+  "Tooltip": "possimus",
+  "Icon": "autem",
+  "DefaultTicketStatus": 918,
   "TicketStatuses": [
-    470,
-    975
+    316,
+    871
   ],
-  "DefaultTicketPriority": 916,
+  "DefaultTicketPriority": 77,
   "TicketPriorities": [
-    335,
-    361
+    620,
+    86
   ],
-  "ReplyTemplate": 106,
+  "ReplyTemplate": 951,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 219
     }
   }
 }

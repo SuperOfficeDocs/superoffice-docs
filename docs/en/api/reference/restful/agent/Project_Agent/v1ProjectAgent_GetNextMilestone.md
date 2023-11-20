@@ -112,6 +112,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -124,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 329
+  "ProjectId": 477
 }
 ```
 
@@ -139,64 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 953,
-  "StartDate": "2005-12-14T11:06:35.1458211+01:00",
-  "EndDate": "2022-04-06T11:06:35.1458211+02:00",
+  "AppointmentId": 905,
+  "StartDate": "1998-02-27T13:38:13.9834617+01:00",
+  "EndDate": "2005-01-17T13:38:13.9834617+01:00",
   "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Telly Price V",
-  "ContactName": "Schimmel-Keebler",
-  "Description": "Function-based composite functionalities",
-  "PersonFullName": "Sammy Hegmann",
-  "PersonId": 958,
-  "ContactId": 901,
-  "ProjectId": 657,
-  "ProjectName": "Wolff, Runolfsdottir and Dooley",
-  "IsPublished": false,
-  "AssociateId": 859,
-  "ColorIndex": 198,
-  "IsFree": false,
+  "Task": "quod",
+  "AssociateFullName": "Roxane Marvin",
+  "ContactName": "Miller-Medhurst",
+  "Description": "Upgradable local array",
+  "PersonFullName": "Akeem O'Kon",
+  "PersonId": 683,
+  "ContactId": 537,
+  "ProjectId": 262,
+  "ProjectName": "Gislason-Kshlerin",
+  "IsPublished": true,
+  "AssociateId": 237,
+  "ColorIndex": 164,
+  "IsFree": true,
   "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 555,
-  "PriorityName": "Schultz Group",
+  "PriorityId": 255,
+  "PriorityName": "Bergnaum-Graham",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2004-10-16T11:06:35.1458211+02:00",
+  "ActiveDate": "2021-02-08T13:38:13.9834617+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2019-12-22T11:06:35.1458211+01:00",
-  "RecurringEndDate": "2019-03-22T11:06:35.1458211+01:00",
-  "MotherId": 595,
-  "AssignedBy": 800,
-  "AssignedByFullName": "Jeanne Corwin V",
+  "RecurringStartDate": "2019-05-25T13:38:13.9834617+02:00",
+  "RecurringEndDate": "2022-04-13T13:38:13.9834617+02:00",
+  "MotherId": 818,
+  "AssignedBy": 923,
+  "AssignedByFullName": "Nedra Veum V",
   "RejectReason": "",
-  "Location": "qui",
-  "AlarmLeadTime": "minus",
-  "SaleId": 691,
-  "SaleName": "Berge, Huel and Ferry",
-  "AssociateName": "Kohler, Carroll and Purdy",
-  "CreatedDate": "2022-10-23T11:06:35.1458211+02:00",
-  "CreatedBy": "enim",
-  "CreatedByFullName": "Clyde Nils Mayer DVM",
-  "CreatedByAssociateId": 804,
+  "Location": "et",
+  "AlarmLeadTime": "sit",
+  "SaleId": 206,
+  "SaleName": "Hayes LLC",
+  "AssociateName": "Hodkiewicz-D'Amore",
+  "CreatedDate": "1997-08-28T13:38:13.9834617+02:00",
+  "CreatedBy": "sunt",
+  "CreatedByFullName": "Kelley Beier Sr.",
+  "CreatedByAssociateId": 758,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "eveniet",
-  "Agenda": "asperiores",
-  "InternalNotes": "qui",
+  "PreferredTZLocation": 15,
+  "Title": "iusto",
+  "Agenda": "et",
+  "InternalNotes": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

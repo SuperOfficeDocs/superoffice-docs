@@ -83,21 +83,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 541,
-      "FieldName": "Boyle-McKenzie",
-      "Label": "ut",
-      "Tooltip": "ratione",
-      "Editable": true,
+      "QuoteLineConfigurationId": 60,
+      "FieldName": "Dickens, Sauer and Romaguera",
+      "Label": "ea",
+      "Tooltip": "eius",
+      "Editable": false,
       "InUse": true,
       "Mandatory": true,
-      "Rank": 741,
-      "RestrictEdit": true
+      "Rank": 356,
+      "RestrictEdit": false
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 242,
-    "FieldName": "Buckridge, Lynch and Bahringer",
-    "Label": "est",
-    "Tooltip": "mollitia",
-    "Editable": true,
+    "QuoteLineConfigurationId": 463,
+    "FieldName": "VonRueden, Lockman and Goyette",
+    "Label": "nobis",
+    "Tooltip": "qui",
+    "Editable": false,
     "InUse": false,
-    "Mandatory": false,
-    "Rank": 545,
-    "RestrictEdit": true,
+    "Mandatory": true,
+    "Rank": 235,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 63
       }
     }
   }

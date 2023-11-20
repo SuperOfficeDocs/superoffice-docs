@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Schowalter-Fritsch",
-    "Tooltip": "optio",
+    "Id": 241,
+    "Name": "Bahringer-Schinner",
+    "Tooltip": "porro",
     "Deleted": false,
-    "UdListDefinitionId": 141,
-    "Rank": 145
+    "UdListDefinitionId": 898,
+    "Rank": 323
   },
   {
-    "Id": 833,
-    "Name": "Schowalter-Fritsch",
-    "Tooltip": "optio",
+    "Id": 241,
+    "Name": "Bahringer-Schinner",
+    "Tooltip": "porro",
     "Deleted": false,
-    "UdListDefinitionId": 141,
-    "Rank": 145
+    "UdListDefinitionId": 898,
+    "Rank": 323
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 360,
-    "Name": "Barrows-Lueilwitz",
-    "Tooltip": "quisquam",
-    "Deleted": false,
-    "UdListDefinitionId": 816,
-    "Rank": 516,
+    "Id": 404,
+    "Name": "Abernathy-Ward",
+    "Tooltip": "nobis",
+    "Deleted": true,
+    "UdListDefinitionId": 947,
+    "Rank": 260,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 409
       }
     }
   }

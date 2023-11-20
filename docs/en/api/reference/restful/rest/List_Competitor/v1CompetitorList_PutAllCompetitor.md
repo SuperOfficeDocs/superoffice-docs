@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 701,
-    "Name": "Hane Group",
-    "Tooltip": "provident",
+    "Id": 826,
+    "Name": "Hills, Gleichner and Kub",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "UdListDefinitionId": 506,
-    "Rank": 730
+    "UdListDefinitionId": 409,
+    "Rank": 644
   },
   {
-    "Id": 701,
-    "Name": "Hane Group",
-    "Tooltip": "provident",
+    "Id": 826,
+    "Name": "Hills, Gleichner and Kub",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "UdListDefinitionId": 506,
-    "Rank": 730
+    "UdListDefinitionId": 409,
+    "Rank": 644
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Bechtelar-Runolfsdottir",
-    "Tooltip": "vel",
+    "Id": 454,
+    "Name": "Weber-Kuhn",
+    "Tooltip": "laboriosam",
     "Deleted": true,
-    "UdListDefinitionId": 239,
-    "Rank": 612,
+    "UdListDefinitionId": 356,
+    "Rank": 402,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldType": "System.String",
+        "FieldLength": 878
       }
     }
   }

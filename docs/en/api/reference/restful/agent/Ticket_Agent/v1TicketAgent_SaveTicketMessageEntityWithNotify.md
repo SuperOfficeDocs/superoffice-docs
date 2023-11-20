@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": false
+  "Notify": true
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 446,
+  "EjMessageId": 284,
   "Ticket": null,
-  "CreatedAt": "2013-06-08T11:06:35.6158782+02:00",
+  "CreatedAt": "2004-09-19T13:38:14.3115522+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "dolorem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 842,
-  "Body": "in",
-  "HtmlBody": "et",
-  "EmailHeader": "sage_berge@heidenreich.com",
+  "MessageId": "eum",
+  "TimeSpent": 128,
+  "Body": "dicta",
+  "HtmlBody": "nemo",
+  "EmailHeader": "judd@walsh.ca",
   "DebugInfo": "et",
-  "MailSorter": "ut",
+  "MailSorter": "delectus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "omnis",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 211,
-      "Name": "Jenkins-Tillman",
-      "Value": "voluptate",
+      "Id": 56,
+      "Name": "Kihn-Koss",
+      "Value": "dicta",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 248
+          "FieldLength": 389
         }
       }
     }
   ],
   "Important": true,
-  "Language": "et",
-  "Sentiment": 245,
-  "SentimentConfidence": 711,
+  "Language": "qui",
+  "Sentiment": 527,
+  "SentimentConfidence": 130,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 843,
-      "Name": "Wehner, Mayer and Bechtelar",
-      "ContentType": "cum",
-      "AttSize": 797,
+      "AttachmentId": 502,
+      "Name": "Abshire Inc and Sons",
+      "ContentType": "maiores",
+      "AttSize": 681,
       "InlineImage": false,
-      "ContentId": "totam",
-      "AuthKey": "et",
+      "ContentId": "illo",
+      "AuthKey": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 63
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "est"
+    "ExtraFields1": "quos",
+    "ExtraFields2": "maxime"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "rem"
+    "CustomFields1": "quidem",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldLength": 155
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Murazik LLC",
-    "ToolTip": "Occaecati alias quia voluptatem dolore praesentium eos.",
+    "Id": 528,
+    "Name": "Heller LLC",
+    "ToolTip": "Minima impedit laborum.",
     "Deleted": false,
-    "Rank": 189,
-    "Type": "assumenda",
-    "ColorBlock": 167,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2016-05-27T11:06:42.6940706+02:00",
+    "Rank": 965,
+    "Type": "id",
+    "ColorBlock": 934,
+    "IconHint": "deserunt",
+    "Selected": false,
+    "LastChanged": "2007-05-09T13:38:17.9056813+02:00",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Thompson, Robel and Toy",
-        "ToolTip": "Consequatur dolorum laborum laborum quasi.",
+        "Id": 256,
+        "Name": "Emmerich Group",
+        "ToolTip": "Occaecati aspernatur dolorem omnis.",
         "Deleted": false,
-        "Rank": 113,
-        "Type": "quisquam",
-        "ColorBlock": 618,
-        "IconHint": "assumenda",
+        "Rank": 3,
+        "Type": "sapiente",
+        "ColorBlock": 480,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2020-06-25T11:06:42.6940706+02:00",
+        "LastChanged": "2015-04-04T13:38:17.9056813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "blanditiis",
-        "Hidden": false,
-        "FullName": "Miss Kiley Shawn Dickens"
+        "ExtraInfo": "ut",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Prof. Bernard Kshlerin"
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Miss Name Tania Kris IV"
+    "ExtraInfo": "non",
+    "StyleHint": "magnam",
+    "Hidden": false,
+    "FullName": "Mr. Rowland Clemens Runolfsdottir V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Connelly, West and Gutkowski",
-    "ToolTip": "Possimus eum et nesciunt culpa eligendi.",
+    "Id": 891,
+    "Name": "Harris Group",
+    "ToolTip": "Dolor tenetur qui quod.",
     "Deleted": false,
-    "Rank": 609,
-    "Type": "aut",
-    "ColorBlock": 242,
-    "IconHint": "vel",
+    "Rank": 903,
+    "Type": "illo",
+    "ColorBlock": 984,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2018-04-16T11:06:42.6940706+02:00",
+    "LastChanged": "1998-04-11T13:38:17.9056813+02:00",
     "ChildItems": [
       {
-        "Id": 820,
-        "Name": "Jakubowski Inc and Sons",
-        "ToolTip": "Et sint.",
+        "Id": 221,
+        "Name": "Williamson-Herman",
+        "ToolTip": "Quia nemo libero.",
         "Deleted": false,
-        "Rank": 270,
-        "Type": "earum",
-        "ColorBlock": 727,
-        "IconHint": "quia",
+        "Rank": 20,
+        "Type": "dolorem",
+        "ColorBlock": 852,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2004-09-03T11:06:42.6940706+02:00",
+        "LastChanged": "2019-01-10T13:38:17.9056813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "ex",
+        "ExtraInfo": "repellat",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Prof. Brody Brian Bartoletti",
+        "FullName": "Coy Marlen Bruen Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldLength": 42
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Beverly King",
+    "ExtraInfo": "nulla",
+    "StyleHint": "eveniet",
+    "Hidden": false,
+    "FullName": "Julie Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldType": "System.String",
+        "FieldLength": 175
       }
     }
   }

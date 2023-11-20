@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 794,
-  "ParentId": 662,
-  "Name": "Dietrich Group",
-  "Fullname": "assumenda",
-  "CategoryMaster": 582,
+  "TicketCategoryId": 58,
+  "ParentId": 226,
+  "Name": "Kirlin-Legros",
+  "Fullname": "animi",
+  "CategoryMaster": 371,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Steuber Inc and Sons",
+  "ExternalName": "Shields LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 717,
-  "ReplyTemplate": 130,
-  "NotificationEmail": "gustave@bartonwolf.name",
+  "AssignmentLag": 673,
+  "ReplyTemplate": 30,
+  "NotificationEmail": "marilie@greenholt.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 936,
+  "EffectiveReplyTemplateId": 373,
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "in"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
     "CustomFields1": "molestiae",
-    "CustomFields2": "sed"
+    "CustomFields2": "rerum"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 325,
-  "ParentId": 732,
-  "Name": "Skiles-Monahan",
-  "Fullname": "ea",
-  "CategoryMaster": 589,
+  "TicketCategoryId": 253,
+  "ParentId": 46,
+  "Name": "Johnston, Kovacek and Weber",
+  "Fullname": "labore",
+  "CategoryMaster": 943,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kerluke, Mante and Howell",
+  "ExternalName": "Pacocha, Zboncak and Schaden",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 402,
-  "ReplyTemplate": 216,
-  "NotificationEmail": "marcella@langosh.biz",
+  "AssignmentLag": 754,
+  "ReplyTemplate": 789,
+  "NotificationEmail": "sallie@bashiriansipes.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 836,
+  "EffectiveReplyTemplateId": 731,
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "excepturi"
+    "ExtraFields1": "et",
+    "ExtraFields2": "odit"
   },
   "CustomFields": {
-    "CustomFields1": "quibusdam",
-    "CustomFields2": "minima"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "recusandae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 640
     }
   }
 }

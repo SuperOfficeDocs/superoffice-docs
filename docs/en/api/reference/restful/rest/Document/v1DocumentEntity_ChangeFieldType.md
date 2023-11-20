@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 822,
-  "ColumnId": 511,
-  "FieldDefault": "non",
-  "FieldHeight": 424,
-  "FieldLabel": "similique",
-  "FieldLeft": 470,
-  "FieldTop": 853,
+  "UDefFieldId": 831,
+  "ColumnId": 791,
+  "FieldDefault": "ducimus",
+  "FieldHeight": 449,
+  "FieldLabel": "et",
+  "FieldLeft": 298,
+  "FieldTop": 159,
   "FieldType": "Checkbox",
-  "FieldWidth": 988,
-  "FormatMask": "maiores",
+  "FieldWidth": 632,
+  "FormatMask": "voluptas",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 93,
-  "LabelLeft": 212,
-  "LabelTop": 631,
-  "LabelWidth": 214,
-  "LastVersionId": 967,
-  "ListTableId": 920,
-  "IsMandatory": false,
+  "LabelHeight": 112,
+  "LabelLeft": 17,
+  "LabelTop": 198,
+  "LabelWidth": 889,
+  "LastVersionId": 396,
+  "ListTableId": 278,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 16,
-  "ProgId": "voluptas",
+  "Page1LineNo": 722,
+  "ProgId": "qui",
   "IsReadOnly": false,
-  "ShortLabel": "alias",
-  "TabOrder": 426,
-  "TextLength": 579,
-  "Tooltip": "at",
-  "UdefIdentity": 411,
-  "UDListDefinitionId": 956,
+  "ShortLabel": "ad",
+  "TabOrder": 37,
+  "TextLength": 505,
+  "Tooltip": "ratione",
+  "UdefIdentity": 142,
+  "UDListDefinitionId": 659,
   "Justification": "Center",
-  "Version": 777,
-  "TemplateVariableName": "Douglas Inc and Sons",
+  "Version": 617,
+  "TemplateVariableName": "Parisian LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Will-Littel",
+  "MdoListName": "Baumbach, Sipes and Moore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldType": "System.String",
+      "FieldLength": 483
     }
   }
 }

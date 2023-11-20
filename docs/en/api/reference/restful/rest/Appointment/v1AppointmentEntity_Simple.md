@@ -101,6 +101,7 @@ AppointmentEntity found.
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -113,7 +114,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,64 +124,65 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 487,
-  "StartDate": "2006-08-10T11:06:41.4103714+02:00",
-  "EndDate": "2003-02-02T11:06:41.4103714+01:00",
+  "AppointmentId": 836,
+  "StartDate": "2016-12-22T13:38:17.0931089+01:00",
+  "EndDate": "2012-04-12T13:38:17.0931089+02:00",
   "Type": "BookingForChecklist",
-  "Task": "suscipit",
-  "AssociateFullName": "Patsy Kolby Mraz II",
-  "ContactName": "Hilll LLC",
-  "Description": "Balanced 6th generation benchmark",
-  "PersonFullName": "Aron Ortiz",
-  "PersonId": 27,
-  "ContactId": 593,
-  "ProjectId": 737,
-  "ProjectName": "Purdy Inc and Sons",
-  "IsPublished": false,
-  "AssociateId": 119,
-  "ColorIndex": 232,
-  "IsFree": false,
-  "HasAlarm": true,
+  "Task": "rerum",
+  "AssociateFullName": "Prof. Bria Mosciski DDS",
+  "ContactName": "Zieme, Blick and Vandervort",
+  "Description": "Multi-lateral maximized policy",
+  "PersonFullName": "Jany Erdman",
+  "PersonId": 534,
+  "ContactId": 741,
+  "ProjectId": 593,
+  "ProjectName": "Quigley-Funk",
+  "IsPublished": true,
+  "AssociateId": 151,
+  "ColorIndex": 528,
+  "IsFree": true,
+  "HasAlarm": false,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 819,
-  "PriorityName": "Schroeder Group",
+  "PriorityId": 90,
+  "PriorityName": "Flatley, Gulgowski and Hilpert",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "1997-11-14T11:06:41.4103714+01:00",
+  "ActiveDate": "2021-06-15T13:38:17.0931089+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2003-07-18T11:06:41.4103714+02:00",
-  "RecurringEndDate": "2008-11-23T11:06:41.4103714+01:00",
-  "MotherId": 752,
-  "AssignedBy": 595,
-  "AssignedByFullName": "Emilia Jerel Lockman MD",
+  "RecurringStartDate": "2017-05-13T13:38:17.0931089+02:00",
+  "RecurringEndDate": "2021-08-22T13:38:17.0931089+02:00",
+  "MotherId": 274,
+  "AssignedBy": 700,
+  "AssignedByFullName": "Saige Lynch",
   "RejectReason": "",
-  "Location": "et",
-  "AlarmLeadTime": "facilis",
-  "SaleId": 799,
-  "SaleName": "Berge LLC",
-  "AssociateName": "Collins LLC",
-  "CreatedDate": "1997-12-30T11:06:41.4103714+01:00",
-  "CreatedBy": "expedita",
-  "CreatedByFullName": "Prof. Freeda Gilberto Lebsack",
-  "CreatedByAssociateId": 862,
+  "Location": "est",
+  "AlarmLeadTime": "et",
+  "SaleId": 764,
+  "SaleName": "Pfannerstill, Grimes and Gulgowski",
+  "AssociateName": "Corkery, Moen and Keebler",
+  "CreatedDate": "2016-10-07T13:38:17.0931089+02:00",
+  "CreatedBy": "maiores",
+  "CreatedByFullName": "Carson Rodriguez",
+  "CreatedByAssociateId": 643,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "doloribus",
-  "Agenda": "aut",
-  "InternalNotes": "repellat",
+  "PreferredTZLocation": 245,
+  "Title": "voluptatem",
+  "Agenda": "distinctio",
+  "InternalNotes": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldLength": 620
     }
   }
 }

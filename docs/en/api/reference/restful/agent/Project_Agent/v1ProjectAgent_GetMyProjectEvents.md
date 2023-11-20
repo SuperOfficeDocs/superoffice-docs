@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Savannah Hintz Sr.",
-    "Description": "Digitized analyzing structure",
-    "ProjectId": 824,
-    "EventName": "Anderson, McCullough and Bergnaum",
-    "AssociateId": 978,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "optio",
-    "SignOffText": "hic",
-    "SignOnConfirmationText": "impedit",
-    "SignOnText": "sit",
-    "EventDate": "2002-04-27T11:06:35.1614465+02:00",
+    "AssociateFullName": "Wilber Lemke",
+    "Description": "Upgradable client-driven capacity",
+    "ProjectId": 433,
+    "EventName": "Ziemann LLC",
+    "AssociateId": 824,
+    "IsSignedOn": true,
+    "SignOffConfirmationText": "quis",
+    "SignOffText": "facilis",
+    "SignOnConfirmationText": "fugit",
+    "SignOnText": "voluptas",
+    "EventDate": "2012-02-13T13:38:13.9834617+01:00",
     "Enabled": false,
     "SignOff": false,
-    "SignOffTaskEnable": false,
-    "SignOnTaskEnable": true,
-    "SignOn": false,
-    "SignOffTaskId": 959,
-    "SignOnTaskId": 591,
+    "SignOffTaskEnable": true,
+    "SignOnTaskEnable": false,
+    "SignOn": true,
+    "SignOffTaskId": 498,
+    "SignOnTaskId": 734,
     "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 580,
-    "SignOffPersonId": 148,
+    "SignOnPersonId": 641,
+    "SignOffPersonId": 585,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 289
+        "FieldType": "System.Int32",
+        "FieldLength": 992
       }
     }
   }

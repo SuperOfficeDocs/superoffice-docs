@@ -27,6 +27,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IContactAgent'>
 * [GetContactList](getcontactlist.md)
 * [GetContactSummary](getcontactsummary.md)
 * [GetContactWithPersons](getcontactwithpersons.md)
+* [GetDomainDuplicates](getdomainduplicates.md)
 * [GetDuplicateRules](getduplicaterules.md)
 * [GetDuplicates](getduplicates.md)
 * [GetMyActiveContacts](getmyactivecontacts.md)

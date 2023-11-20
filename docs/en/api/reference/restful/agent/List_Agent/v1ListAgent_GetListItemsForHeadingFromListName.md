@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Rodriguez, Pouros and Daniel",
-  "HeadingId": 478
+  "UdListDefinitionName": "Miller, Zboncak and Boehm",
+  "HeadingId": 447
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Johns, Williamson and Jast",
-    "ToolTip": "Quo quaerat dolores et.",
+    "Id": 926,
+    "Name": "Schulist LLC",
+    "ToolTip": "Voluptate quae ea.",
     "Deleted": true,
-    "Rank": 984,
-    "Type": "sed",
-    "ColorBlock": 362,
-    "IconHint": "cumque",
-    "Selected": true,
-    "LastChanged": "2020-06-06T11:06:34.723933+02:00",
+    "Rank": 269,
+    "Type": "dolores",
+    "ColorBlock": 386,
+    "IconHint": "expedita",
+    "Selected": false,
+    "LastChanged": "2017-01-08T13:38:13.6864749+01:00",
     "ChildItems": [
       {
-        "Id": 717,
-        "Name": "Strosin-Nikolaus",
-        "ToolTip": "Animi nemo laudantium quaerat perspiciatis.",
+        "Id": 960,
+        "Name": "Eichmann-Leuschke",
+        "ToolTip": "Laboriosam eum velit voluptas sed nihil ipsam.",
         "Deleted": false,
-        "Rank": 957,
-        "Type": "hic",
-        "ColorBlock": 882,
-        "IconHint": "minima",
-        "Selected": true,
-        "LastChanged": "2023-05-01T11:06:34.723933+02:00",
+        "Rank": 277,
+        "Type": "eveniet",
+        "ColorBlock": 981,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2009-03-12T13:38:13.6864749+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "quas",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mrs. Enrico Walker Gerlach",
+        "FullName": "Terrence Hegmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 457
+            "FieldLength": 536
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "repellendus",
-    "Hidden": true,
-    "FullName": "Kassandra Estelle Rempel I",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "modi",
+    "Hidden": false,
+    "FullName": "Mr. Donnie Daphne Oberbrunner DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 461
+        "FieldType": "System.Int32",
+        "FieldLength": 780
       }
     }
   }

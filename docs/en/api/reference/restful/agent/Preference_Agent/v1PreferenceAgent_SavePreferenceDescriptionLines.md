@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 156,
-      "PrefDescId": 38,
-      "PrefValue": "quia",
-      "PrefShowValue": "omnis",
-      "Description": "Upgradable system-worthy pricing structure",
-      "IsBuiltin": true
+      "PrefDescLineId": 394,
+      "PrefDescId": 769,
+      "PrefValue": "iusto",
+      "PrefShowValue": "itaque",
+      "Description": "Customer-focused methodical matrix",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 156,
-      "PrefDescId": 38,
-      "PrefValue": "quia",
-      "PrefShowValue": "omnis",
-      "Description": "Upgradable system-worthy pricing structure",
-      "IsBuiltin": true
+      "PrefDescLineId": 394,
+      "PrefDescId": 769,
+      "PrefValue": "iusto",
+      "PrefShowValue": "itaque",
+      "Description": "Customer-focused methodical matrix",
+      "IsBuiltin": false
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 726,
-    "PrefDescId": 306,
-    "PrefValue": "natus",
-    "PrefShowValue": "aliquid",
-    "Description": "Operative fault-tolerant workforce",
+    "PrefDescLineId": 941,
+    "PrefDescId": 962,
+    "PrefValue": "velit",
+    "PrefShowValue": "molestiae",
+    "Description": "Business-focused disintermediate array",
     "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldType": "System.Int32",
+        "FieldLength": 291
       }
     }
   }

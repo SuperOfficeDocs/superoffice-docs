@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 170,
+  "HierarchyId": 601,
   "Domain": "Dashboards",
-  "Name": "Dare LLC",
-  "Fullname": "tempora",
-  "ParentId": 848,
+  "Name": "Kuhlman LLC",
+  "Fullname": "laborum",
+  "ParentId": 272,
   "Children": [
     {
-      "HierarchyId": 33,
+      "HierarchyId": 313,
       "Domain": "Dashboards",
-      "Name": "Mohr-Langworth",
-      "Fullname": "est",
-      "ParentId": 433,
+      "Name": "Dietrich, Ledner and Kulas",
+      "Fullname": "aliquam",
+      "ParentId": 610,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-10-16T11:06:41.9103479+02:00",
-      "RegisteredAssociateId": 535,
-      "Updated": "2002-02-08T11:06:41.9103479+01:00",
-      "UpdatedAssociateId": 866,
+      "Registered": "1997-07-26T13:38:17.4524494+02:00",
+      "RegisteredAssociateId": 526,
+      "Updated": "2020-08-12T13:38:17.4524494+02:00",
+      "UpdatedAssociateId": 65,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldLength": 978
         }
       }
     }
   ],
-  "Registered": "2015-05-18T11:06:41.9103479+02:00",
-  "RegisteredAssociateId": 166,
-  "Updated": "1997-04-13T11:06:41.9103479+02:00",
-  "UpdatedAssociateId": 339,
+  "Registered": "2017-03-05T13:38:17.4524494+01:00",
+  "RegisteredAssociateId": 567,
+  "Updated": "2020-10-04T13:38:17.4524494+02:00",
+  "UpdatedAssociateId": 510,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldLength": 229
     }
   }
 }

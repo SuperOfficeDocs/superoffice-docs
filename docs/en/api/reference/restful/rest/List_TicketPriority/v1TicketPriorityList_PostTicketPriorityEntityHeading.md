@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 299,
-  "Name": "Satterfield-Jones",
-  "Tooltip": "ab",
-  "Deleted": false,
-  "Rank": 808,
-  "UdListDefinitionId": 701
+  "HeadingId": 923,
+  "Name": "Steuber LLC",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 179,
+  "UdListDefinitionId": 465
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 483,
-  "Name": "Stehr, Collins and Hand",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 770,
-  "UdListDefinitionId": 297,
+  "HeadingId": 725,
+  "Name": "Koelpin Inc and Sons",
+  "Tooltip": "ipsa",
+  "Deleted": false,
+  "Rank": 325,
+  "UdListDefinitionId": 147,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldLength": 664
     }
   }
 }

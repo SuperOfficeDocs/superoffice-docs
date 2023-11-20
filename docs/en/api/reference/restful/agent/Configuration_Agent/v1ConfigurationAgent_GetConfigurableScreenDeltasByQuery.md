@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 679,
-    "Name": "Conroy Group",
-    "Description": "Cross-group fault-tolerant capability",
-    "DeltaJson": "nulla",
+    "ConfigurableScreenDeltaId": 593,
+    "Name": "Grant-Connelly",
+    "Description": "Up-sized optimal monitoring",
+    "DeltaJson": "voluptatum",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "velit",
-    "UpdatedDate": "2000-07-20T11:06:34.080854+02:00",
-    "CreatedDate": "1998-03-12T11:06:34.080854+01:00",
+    "RecipeId": "quidem",
+    "UpdatedDate": "2015-11-21T13:38:13.2646505+01:00",
+    "CreatedDate": "1997-07-23T13:38:13.2646505+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      589,
-      595
+      990,
+      502
     ],
-    "AppliesToKey": "quia",
+    "AppliesToKey": "quidem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldType": "System.String",
+        "FieldLength": 388
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=et
+GET /api/v1/List/MrMrs/MDOItems?flat=False
+GET /api/v1/List/MrMrs/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 429,
-    "Name": "Collier, Thiel and Doyle",
-    "ToolTip": "Maiores eligendi.",
+    "Id": 65,
+    "Name": "Cummerata, Cartwright and Mraz",
+    "ToolTip": "Quo sit voluptatem aspernatur.",
     "Deleted": false,
-    "Rank": 727,
-    "Type": "debitis",
+    "Rank": 722,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 697,
-        "Name": "Gaylord-Reichel",
-        "ToolTip": "Veritatis quis animi.",
-        "Deleted": true,
-        "Rank": 892,
-        "Type": "eos",
+        "Id": 330,
+        "Name": "Hegmann Inc and Sons",
+        "ToolTip": "Est velit a quia ut voluptate.",
+        "Deleted": false,
+        "Rank": 150,
+        "Type": "asperiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "architecto",
-        "ColorBlock": 104,
-        "ExtraInfo": "in",
-        "StyleHint": "quia",
-        "FullName": "Hiram Toy",
+        "IconHint": "sit",
+        "ColorBlock": 849,
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "fugit",
+        "FullName": "Mr. Jaydon Okuneva MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 893
+            "FieldType": "System.Int32",
+            "FieldLength": 851
           }
         }
       }
     ],
-    "IconHint": "nostrum",
-    "ColorBlock": 901,
-    "ExtraInfo": "magnam",
-    "StyleHint": "et",
-    "FullName": "Justina Ritchie",
+    "IconHint": "dolor",
+    "ColorBlock": 612,
+    "ExtraInfo": "beatae",
+    "StyleHint": "fugiat",
+    "FullName": "Prof. Pattie Bart Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldType": "System.String",
+        "FieldLength": 814
       }
     }
   }

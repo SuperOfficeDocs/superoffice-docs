@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 492,
-    "Name": "Lakin Inc and Sons",
-    "Tooltip": "tenetur",
+    "HeadingId": 607,
+    "Name": "Kerluke, Rath and Schamberger",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 978,
-    "UdListDefinitionId": 477,
+    "Rank": 582,
+    "UdListDefinitionId": 824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldLength": 828
       }
     }
   }

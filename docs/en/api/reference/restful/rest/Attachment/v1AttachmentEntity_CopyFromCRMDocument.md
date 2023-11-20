@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 266,
-  "Name": "Boyer-Orn",
-  "ContentType": "eius",
-  "AttSize": 592,
+  "AttachmentId": 408,
+  "Name": "Champlin-Ryan",
+  "ContentType": "ut",
+  "AttSize": 212,
   "InlineImage": false,
-  "ContentId": "ipsam",
-  "AuthKey": "sit",
+  "ContentId": "mollitia",
+  "AuthKey": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldType": "System.String",
+      "FieldLength": 127
     }
   }
 }

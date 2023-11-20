@@ -18,9 +18,9 @@ Activity archive provider for the Person card
 | Name | Description |
 | ---- | ----- |
 |"chat"|Chat session|
+|"formSubmission"|Form submissions|
 |"document"|Documents|
 |"mailing"|Mailings|
-|"formSubmission"|Form submissions|
 |"appointment"|Follow-ups|
 
 ## Supported Columns
@@ -470,16 +470,22 @@ Activity archive provider for the Person card
 |contact/saintIntention|listAny|Intention|  |
 |contact/saintTicketStatus|listAny|Status|  |
 |contact/saintTicketCategory|listAny|Category|  |
-|completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
+|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
+|formSubmissionFormId|int|Id: Id of the form| x |
+|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
+|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |time| *None* |Time: Time|  |
+|updatedBy|associate|Updated by: The user who last updated the data| x |
+|registeredBy|associate|Registered by: The user who registered the data| x |
+|associate/associateDbId|associate|ID| x |
+|completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |recordType|string|Record type : Shows the record type| x |
 |projectId|listAny|Project ID: Database ID of project record| x |
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |userGroup|userGroup|User group : The user group that owns the record| x |
 |who| *None* |Who: Contact and/or company|  |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
 |updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
 |registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |documentId|int|Document ID: Database ID of document record| x |
 |keywords|string|Keywords | x |
@@ -535,16 +541,16 @@ Activity archive provider for the Person card
 |project/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |project/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |project/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |project/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |project/projectAssociate/associateDbId|associate|ID| x |
 |project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -599,7 +605,6 @@ Activity archive provider for the Person card
 |project/saintTicketCategory|listAny|Category|  |
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
-|associate/associateDbId|associate|ID| x |
 |documentUdef/SuperOffice:1|string|documentshorttext| x |
 |documentUdef/SuperOffice:2|string|documentlongtext| x |
 |documentUdef/SuperOffice:3|int|documentnumber| x |
@@ -640,15 +645,15 @@ Activity archive provider for the Person card
 |sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |sale/probPercent|int|Probability as %: Probability as %| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -744,15 +749,15 @@ Activity archive provider for the Person card
 |mailingAddr/contact/contactNoMail|bool|Company - No mailings (company)| x |
 |mailingAddr/contact/updatedBy|associate|Company - Updated by: The user who last updated the data| x |
 |mailingAddr/contact/updatedByFullName|associate|Company - Updated by - Full name: The user who last updated the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/updatedDate|date|Company - Updated: The date/time the data was last updated in UTC.| x |
 |mailingAddr/contact/registeredBy|associate|Company - Registered by: The user who registered the data| x |
 |mailingAddr/contact/registeredByFullName|associate|Company - Registered by - Full name: The user who registered the data| x |
 |mailingAddr/contact/registeredDate|date|Company - Registered date: The date/time the data was registered in UTC.| x |
 |mailingAddr/contact/contactSource|listAny|Company - Source: Source (Company)| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/contactDeleted|bool|Company - Deleted: Deleted| x |
 |mailingAddr/contact/phone/formattedNumber|string|Company - Phone: Displays phone number|  |
 |mailingAddr/contact/activeErpLinks|bool|Company - ERP connected: Is there an active ERP Sync?| x |
@@ -848,15 +853,15 @@ Activity archive provider for the Person card
 |mailingAddr/contact/contactUdef/SuperOffice:5|unlimitedDate|Company - companyunlimiteddate: tooltipunlimiteddate| x |
 |mailingAddr/contact/contactUdef/SuperOffice:6|bool|Company - companycheckbox| x |
 |mailingAddr/contact/contactUdef/SuperOffice:7|listAny|Company - companydropdownlistbox| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/contactUdef/SuperOffice:8|decimal|Company - companydecimal| x |
 |mailingAddr/contact/contactUdef/SuperOffice:9|string|Company - page1saleonly| x |
 |mailingAddr/contact/contactUdef/SuperOffice:10|string|Company - page1marketingonly| x |
 |mailingAddr/contact/contactUdef/SuperOffice:11|string|Company - page1adminonly| x |
 |mailingAddr/contact/contactUdef/SuperOffice:12|listAny|Company - Udlist one: Static tooltip for udlist one| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/contactUdef/SuperOffice:13|listAny|Company - Udlist two: Static tooltip for udlist two| x |
 |mailingAddr/contact/contactExtra/x\_contact\_integer|int|Company - Extra Integer: Custom integer field| x |
 |mailingAddr/contact/contactExtra/x\_contact\_hidden\_integer|int|Company - Extra hidden integer: Custom integer field - hidden| x |
@@ -952,15 +957,15 @@ Activity archive provider for the Person card
 |mailingAddr/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |mailingAddr/person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |mailingAddr/person/phone/formattedNumber|string|Contact - Phone: Displays phone number|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personDirectPhone/formattedNumber|string|Contact - Direct - Phone: Displays phone number|  |
 |mailingAddr/person/personDirectPhone/description|string|Contact - Direct - Description: Phone number description| x |
 |mailingAddr/person/personMobilePhone/formattedNumber|string|Contact - Mobile - Phone: Displays phone number|  |
 |mailingAddr/person/personMobilePhone/description|string|Contact - Mobile - Description: Phone number description| x |
 |mailingAddr/person/personPrivate/formattedNumber|string|Contact - Private - Phone: Displays phone number|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personPrivate/description|string|Contact - Private - Description: Phone number description| x |
 |mailingAddr/person/personPager/formattedNumber|string|Contact - Other - Phone: Displays phone number|  |
 |mailingAddr/person/personPager/description|string|Contact - Other - Description: Phone number description| x |
@@ -1056,15 +1061,15 @@ Activity archive provider for the Person card
 |mailingAddr/person/personAssociate/role|listAny|Contact - Role: Role| x |
 |mailingAddr/person/personAssociate/assocName|associate|Contact - User ID: User ID| x |
 |mailingAddr/person/personAssociate/assocTooltip|string|Contact - Description: Description|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personAssociate/assocType|listAny|Contact - Type: Type of user: associate, external user, system user, anonymous account| x |
 |mailingAddr/person/personAssociate/ejUserId|int|Contact - Service user ID: The database ID of a Service user|  |
 |mailingAddr/person/personAssociate/simultaneousEjUser|bool|Contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |mailingAddr/person/personAssociate/ejDisplayName|string|Contact - Nick name: User's nick name in Service| x |
 |mailingAddr/person/personAssociate/ejStatus|int|Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
 |mailingAddr/person/personAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |mailingAddr/person/personAssociate/isActive|bool|Contact - Active: Is this user active, and should be able to log in?| x |
@@ -1113,10 +1118,6 @@ Activity archive provider for the Person card
 |mailingAddr/person/legalBaseEmarketing|listAny|Contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |mailingAddr/person/consentSourceStore|listAny|Contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |mailingAddr/person/consentSourceEmarketing|listAny|Contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
-|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
-|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
-|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |participating|bool|Participating?: Am I among the participants in a meeting?|  |
 |appointmentId|int|DB ID: Displays the database ID of a row| x |
 |endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -1155,7 +1156,7 @@ Activity archive provider for the Person card
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonActivity?$select=contactId,recordTypeText,person/personAddress/city,person/personAddress/state,person/restrictionAddress/formattedMultiLineAddress
+GET /api/v1/archive/PersonActivity?$select=person/personAssociate/simultaneousEjUser,person/correspondingAssociate/ejStatus,contact/country,contact/stop,sale/who
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

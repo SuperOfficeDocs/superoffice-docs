@@ -78,7 +78,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 5,
-  "PrefDescId": 228,
-  "PrefValue": "laboriosam",
-  "PrefShowValue": "quos",
-  "Description": "Seamless tangible Graphical User Interface",
-  "IsBuiltin": true,
+  "PrefDescLineId": 682,
+  "PrefDescId": 40,
+  "PrefValue": "quasi",
+  "PrefShowValue": "esse",
+  "Description": "Configurable zero defect database",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldLength": 805
     }
   },
   "_Links": {

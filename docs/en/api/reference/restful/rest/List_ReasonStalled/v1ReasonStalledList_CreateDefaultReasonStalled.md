@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 167,
-  "Name": "Kuhn-Cartwright",
-  "Tooltip": "odio",
+  "Id": 787,
+  "Name": "Morissette-McKenzie",
+  "Tooltip": "voluptatum",
   "Deleted": false,
-  "UdListDefinitionId": 599,
-  "Rank": 276,
+  "UdListDefinitionId": 248,
+  "Rank": 503,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 108
+      "FieldType": "System.Int32",
+      "FieldLength": 550
     }
   }
 }

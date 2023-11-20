@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 909,
-  "ModuleOwner": "aut",
+  "AssociateId": 702,
+  "ModuleOwner": "corrupti",
   "ModuleLicenseNames": [
-    "Nienow, Hills and Hickle",
-    "Terry, Emard and Rowe"
+    "Mayert, Thompson and Heaney",
+    "Simonis Group"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 573,
-    "Tooltip": "quibusdam",
+    "Total": 162,
+    "Tooltip": "esse",
     "CanAssign": false,
-    "Free": 337,
-    "InUse": 54,
+    "Free": 986,
+    "InUse": 46,
     "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 587,
-    "Name": "Altenwerth, Hettinger and Huels",
-    "Description": "Multi-tiered optimizing groupware",
-    "PrerequisiteModuleName": "Rogahn Inc and Sons",
-    "SortOrder": 611,
-    "ExtraFlags": 594,
+    "Assigned": false,
+    "ModuleLicenseId": 344,
+    "Name": "Armstrong Group",
+    "Description": "Cloned system-worthy project",
+    "PrerequisiteModuleName": "Abbott-Roberts",
+    "SortOrder": 602,
+    "ExtraFlags": 781,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

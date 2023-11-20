@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=quia
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=est
 ```
 
 
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 15 May 2006 11:06:41 G5T
+Last-Modified: Wed, 09 Feb 2022 13:38:17 G2T
 
 {
-  "Key": "reprehenderit",
-  "Value": "maxime",
-  "RecordId": 461,
-  "CreatedDate": "2006-02-14T11:06:41.8947242+01:00",
-  "UpdatedDate": "2006-05-15T11:06:41.8947242+02:00",
-  "UpdatedBy": "dolorem",
-  "CreatedBy": "ipsum",
-  "TableName": "Robel-Rosenbaum",
+  "Key": "at",
+  "Value": "voluptas",
+  "RecordId": 290,
+  "CreatedDate": "2011-04-27T13:38:17.4524494+02:00",
+  "UpdatedDate": "2022-02-09T13:38:17.4524494+01:00",
+  "UpdatedBy": "error",
+  "CreatedBy": "quod",
+  "TableName": "VonRueden-Daugherty",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 964
     }
   }
 }

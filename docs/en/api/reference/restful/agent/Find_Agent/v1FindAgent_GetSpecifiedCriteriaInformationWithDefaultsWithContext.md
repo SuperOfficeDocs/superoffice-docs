@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "odio",
-  "ProviderName": "Murray, Bednar and West",
-  "StorageKey": "dicta",
+  "StorageType": "qui",
+  "ProviderName": "Jones, Green and Stokes",
+  "StorageKey": "voluptas",
   "DesiredColumnNames": [
-    "Haag, Kozey and Nikolaus",
-    "Fay, Hoeger and Heller"
+    "Wuckert LLC",
+    "Grimes-Ruecker"
   ],
   "StaticColumns": [
-    "aut",
-    "vitae"
+    "soluta",
+    "incidunt"
   ],
-  "Context": "eos"
+  "Context": "nam"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Schulist LLC",
-      "Operator": "omnis",
+      "Name": "Dickens LLC",
+      "Operator": "dolorem",
       "Values": [
-        "reprehenderit",
-        "blanditiis"
+        "similique",
+        "rerum"
       ],
       "DisplayValues": [
-        "unde",
-        "qui"
+        "qui",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 681,
+      "InterParenthesis": 469,
       "InterOperator": "And",
-      "UniqueHash": 86
+      "UniqueHash": 920
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kuvalis Inc and Sons",
-      "DisplayTooltip": "provident",
-      "DisplayType": "qui",
+      "DisplayName": "O'Hara-Spencer",
+      "DisplayTooltip": "in",
+      "DisplayType": "fugiat",
       "CanOrderBy": false,
-      "Name": "Mueller, Kiehn and Stokes",
-      "CanRestrictBy": true,
-      "RestrictionType": "fugiat",
-      "RestrictionListName": "Hammes, Casper and Powlowski",
-      "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "accusamus",
-      "IconHint": "possimus",
-      "HeadingIconHint": "ipsam"
+      "Name": "Funk-Daugherty",
+      "CanRestrictBy": false,
+      "RestrictionType": "neque",
+      "RestrictionListName": "Howe-Cormier",
+      "IsVisible": true,
+      "ExtraInfo": "repellendus",
+      "Width": "reprehenderit",
+      "IconHint": "sint",
+      "HeadingIconHint": "sed"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Hackett, Gislason and Terry",
-      "PrimaryKey": 996,
+      "EntityName": "Stiedemann LLC",
+      "PrimaryKey": 823,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "accusamus",
-          "TooltipHint": "molestias",
-          "LinkHint": "quibusdam"
+          "DisplayValue": "et",
+          "TooltipHint": "cupiditate",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "dolor",
-      "StyleHint": "quia",
+      "LinkHint": "nesciunt",
+      "StyleHint": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 959
+          "FieldLength": 89
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kemmer-Lynch",
-      "Description": "Reverse-engineered radical encryption",
-      "Rank": 111,
+      "Name": "Emard-Sipes",
+      "Description": "Expanded asynchronous array",
+      "Rank": 804,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kemmer-Lynch",
-      "Description": "Reverse-engineered radical encryption",
-      "Rank": 111,
+      "Name": "Emard-Sipes",
+      "Description": "Expanded asynchronous array",
+      "Rank": 804,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldType": "System.Int32",
+      "FieldLength": 919
     }
   }
 }

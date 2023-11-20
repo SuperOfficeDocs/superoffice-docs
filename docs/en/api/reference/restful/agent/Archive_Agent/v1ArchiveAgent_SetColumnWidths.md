@@ -69,10 +69,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Leannon, Ullrich and Mayer",
+  "GuiName": "Ernser, Schuppe and Crooks",
   "ColumnWidths": [
-    "aut",
-    "eaque"
+    "aspernatur",
+    "hic"
   ]
 }
 ```

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Kautzer-Considine",
-    "ToolTip": "Sit officiis quidem aspernatur nulla est natus.",
+    "Id": 524,
+    "Name": "Lockman-Kiehn",
+    "ToolTip": "Velit omnis et veniam incidunt explicabo saepe ad.",
     "Deleted": false,
-    "Rank": 743,
-    "Type": "minus",
-    "ColorBlock": 698,
-    "IconHint": "vitae",
-    "Selected": false,
-    "LastChanged": "2010-02-27T11:06:43.0222001+01:00",
+    "Rank": 118,
+    "Type": "occaecati",
+    "ColorBlock": 471,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "1999-04-26T13:38:18.2025212+02:00",
     "ChildItems": [
       {
-        "Id": 902,
-        "Name": "Hayes, Mraz and Streich",
-        "ToolTip": "Et voluptatem provident quo sint.",
-        "Deleted": true,
-        "Rank": 522,
-        "Type": "ipsum",
-        "ColorBlock": 104,
-        "IconHint": "et",
+        "Id": 264,
+        "Name": "Terry Group",
+        "ToolTip": "Et harum asperiores.",
+        "Deleted": false,
+        "Rank": 216,
+        "Type": "fugiat",
+        "ColorBlock": 761,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2005-12-09T11:06:43.0222001+01:00",
+        "LastChanged": "2018-01-13T13:38:18.2025212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "hic",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "optio",
         "Hidden": true,
-        "FullName": "Fay Hegmann",
+        "FullName": "Marco Schowalter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 725
+            "FieldLength": 932
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "consequuntur",
-    "Hidden": true,
-    "FullName": "Ms. Felix Huel V",
+    "ExtraInfo": "expedita",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Yessenia Keegan Heidenreich Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldType": "System.String",
+        "FieldLength": 374
       }
     }
   }

@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Hahn-McLaughlin",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "UdListDefinitionId": 129,
-  "Rank": 871
+  "Id": 341,
+  "Name": "Morissette, Nienow and Pollich",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "UdListDefinitionId": 970,
+  "Rank": 364
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 651,
-  "Name": "McCullough Inc and Sons",
-  "Tooltip": "minima",
-  "Deleted": false,
-  "UdListDefinitionId": 685,
-  "Rank": 37,
+  "Id": 530,
+  "Name": "Stark, Pouros and Hermiston",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "UdListDefinitionId": 225,
+  "Rank": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 41
     }
   }
 }

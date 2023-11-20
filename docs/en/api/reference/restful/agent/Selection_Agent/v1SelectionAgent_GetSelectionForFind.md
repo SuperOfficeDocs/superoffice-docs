@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Swift Inc and Sons",
-  "TypicalSearchId": 643
+  "EntityName": "Rath, Lockman and Weber",
+  "TypicalSearchId": 801
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hackett Inc and Sons",
-  "SelectionId": 320,
-  "CanSaveAsSelection": true,
-  "MainHeading": "dolore",
-  "FilterScreenHeading": "numquam",
-  "SelectionEntityHeading": "perspiciatis",
+  "ProviderName": "Kemmer, Kirlin and Howe",
+  "SelectionId": 96,
+  "CanSaveAsSelection": false,
+  "MainHeading": "autem",
+  "FilterScreenHeading": "nulla",
+  "SelectionEntityHeading": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldType": "System.String",
+      "FieldLength": 543
     }
   }
 }

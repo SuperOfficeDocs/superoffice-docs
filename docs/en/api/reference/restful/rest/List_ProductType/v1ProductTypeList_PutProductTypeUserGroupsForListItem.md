@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 978,
-    "Name": "Schmeler Group",
-    "ToolTip": "Pariatur voluptate voluptatem dolorem incidunt harum.",
-    "Deleted": false,
-    "Rank": 353,
-    "Type": "quisquam",
-    "ColorBlock": 386,
-    "IconHint": "sapiente",
+    "Id": 371,
+    "Name": "King, Christiansen and Kerluke",
+    "ToolTip": "Ut non modi.",
+    "Deleted": true,
+    "Rank": 251,
+    "Type": "sunt",
+    "ColorBlock": 77,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "1999-12-12T11:06:42.9440712+01:00",
+    "LastChanged": "2017-02-09T13:38:18.1400255+01:00",
     "ChildItems": [
       {
-        "Id": 661,
-        "Name": "Hane-Mraz",
-        "ToolTip": "Voluptatem soluta aliquid rerum ut inventore quisquam.",
+        "Id": 24,
+        "Name": "Swift-Schiller",
+        "ToolTip": "Necessitatibus facilis magni aut assumenda aut non labore.",
         "Deleted": true,
-        "Rank": 905,
-        "Type": "iste",
-        "ColorBlock": 950,
-        "IconHint": "quod",
-        "Selected": false,
-        "LastChanged": "2018-10-02T11:06:42.9440712+02:00",
+        "Rank": 628,
+        "Type": "ipsum",
+        "ColorBlock": 651,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "2001-10-14T13:38:18.1400255+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "magni",
-        "Hidden": false,
-        "FullName": "Carolanne Wisozk"
+        "ExtraInfo": "ea",
+        "StyleHint": "necessitatibus",
+        "Hidden": true,
+        "FullName": "Madalyn Schulist"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "odit",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Therese Casper"
+    "FullName": "Dr. Aniyah Mackenzie Strosin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 822,
-    "Name": "Predovic, Schoen and Bogisich",
-    "ToolTip": "Nesciunt eligendi.",
+    "Id": 3,
+    "Name": "Fadel LLC",
+    "ToolTip": "Quae et consectetur tempora est delectus esse.",
     "Deleted": false,
-    "Rank": 79,
-    "Type": "illum",
-    "ColorBlock": 990,
-    "IconHint": "asperiores",
-    "Selected": false,
-    "LastChanged": "2000-08-26T11:06:42.9440712+02:00",
+    "Rank": 897,
+    "Type": "numquam",
+    "ColorBlock": 753,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "2019-02-14T13:38:18.1400255+01:00",
     "ChildItems": [
       {
-        "Id": 793,
-        "Name": "Conroy-Skiles",
-        "ToolTip": "Enim consequatur quia nemo autem.",
+        "Id": 910,
+        "Name": "Vandervort, Larkin and Dibbert",
+        "ToolTip": "Nobis minima.",
         "Deleted": false,
-        "Rank": 601,
-        "Type": "facilis",
-        "ColorBlock": 105,
-        "IconHint": "impedit",
-        "Selected": false,
-        "LastChanged": "1997-01-19T11:06:42.9440712+01:00",
+        "Rank": 445,
+        "Type": "quia",
+        "ColorBlock": 754,
+        "IconHint": "earum",
+        "Selected": true,
+        "LastChanged": "2001-02-16T13:38:18.1400255+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "magni",
+        "StyleHint": "velit",
         "Hidden": true,
-        "FullName": "Dr. Jaycee Georgette Kovacek",
+        "FullName": "Bert Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 576
+            "FieldLength": 589
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Landen Batz",
+    "ExtraInfo": "delectus",
+    "StyleHint": "magnam",
+    "Hidden": false,
+    "FullName": "Francesca Wiegand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 194
+        "FieldType": "System.Int32",
+        "FieldLength": 850
       }
     }
   }

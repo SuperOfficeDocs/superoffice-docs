@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolor",
-  "ProviderName": "McGlynn-Abernathy",
-  "StorageKey": "eius",
-  "ExtraRestrictions": "repellat",
-  "OrderBy": "aut",
-  "DesiredColumns": "incidunt",
-  "PageSize": 703,
-  "PageNumber": 863
+  "StorageType": "occaecati",
+  "ProviderName": "Mann-Boyer",
+  "StorageKey": "quibusdam",
+  "ExtraRestrictions": "voluptatibus",
+  "OrderBy": "enim",
+  "DesiredColumns": "sit",
+  "PageSize": 51,
+  "PageNumber": 603
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Stark-Toy",
-      "DisplayTooltip": "id",
-      "DisplayType": "vitae",
+      "DisplayName": "Keebler-Towne",
+      "DisplayTooltip": "quos",
+      "DisplayType": "inventore",
       "CanOrderBy": true,
-      "Name": "Kling, Howell and Harber",
+      "Name": "Graham LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "tempore",
-      "RestrictionListName": "Wolff Group",
+      "RestrictionType": "quod",
+      "RestrictionListName": "Hane-Lueilwitz",
       "IsVisible": true,
-      "ExtraInfo": "aspernatur",
-      "Width": "nobis",
-      "IconHint": "sint",
-      "HeadingIconHint": "sunt"
+      "ExtraInfo": "consectetur",
+      "Width": "perferendis",
+      "IconHint": "ut",
+      "HeadingIconHint": "vel"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Gulgowski Group",
-      "PrimaryKey": 415,
+      "EntityName": "Kunze, Ernser and Wisozk",
+      "PrimaryKey": 120,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quaerat",
-          "TooltipHint": "illo",
-          "LinkHint": "qui"
+          "DisplayValue": "veniam",
+          "TooltipHint": "cupiditate",
+          "LinkHint": "distinctio"
         }
       },
-      "LinkHint": "impedit",
-      "StyleHint": "amet",
+      "LinkHint": "et",
+      "StyleHint": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldLength": 444
         }
       }
     }
   ],
-  "RowCount": 991,
+  "RowCount": 808,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 67
     }
   }
 }

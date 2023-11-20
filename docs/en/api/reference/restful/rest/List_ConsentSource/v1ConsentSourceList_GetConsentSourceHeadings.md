@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 8,
-    "Name": "Hodkiewicz-Keebler",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "Rank": 930,
-    "UdListDefinitionId": 978,
+    "HeadingId": 110,
+    "Name": "Koepp LLC",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "Rank": 517,
+    "UdListDefinitionId": 902,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 229
+        "FieldLength": 624
       }
     }
   }

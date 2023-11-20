@@ -117,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -129,16 +130,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "StartTime": "2022-01-10T11:06:33.475738+01:00",
-  "EndTime": "2008-08-07T11:06:33.475738+02:00",
-  "Status": 495,
-  "Type": 926,
-  "AssociateId": 353
+  "Id": 226,
+  "StartTime": "1997-08-05T13:38:12.8740699+02:00",
+  "EndTime": "2011-10-10T13:38:12.8740699+02:00",
+  "Status": 919,
+  "Type": 824,
+  "AssociateId": 410
 }
 ```
 
@@ -149,64 +150,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 285,
-  "StartDate": "2012-02-07T11:06:33.475738+01:00",
-  "EndDate": "2008-12-09T11:06:33.475738+01:00",
+  "AppointmentId": 386,
+  "StartDate": "2016-07-21T13:38:12.8740699+02:00",
+  "EndDate": "2010-01-07T13:38:12.8740699+01:00",
   "Type": "BookingForChecklist",
-  "Task": "asperiores",
-  "AssociateFullName": "Joan Stamm",
-  "ContactName": "Gulgowski-Kreiger",
-  "Description": "Organized optimizing pricing structure",
-  "PersonFullName": "Julian Daniel",
-  "PersonId": 544,
-  "ContactId": 390,
-  "ProjectId": 180,
-  "ProjectName": "Lubowitz-Gleichner",
+  "Task": "odio",
+  "AssociateFullName": "Randall Kub",
+  "ContactName": "Hermann LLC",
+  "Description": "Team-oriented incremental function",
+  "PersonFullName": "Dr. Christine Johns DDS",
+  "PersonId": 214,
+  "ContactId": 383,
+  "ProjectId": 732,
+  "ProjectName": "Johns-Collins",
   "IsPublished": false,
-  "AssociateId": 880,
-  "ColorIndex": 662,
+  "AssociateId": 594,
+  "ColorIndex": 630,
   "IsFree": false,
   "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 76,
-  "PriorityName": "Collins, Witting and Dicki",
+  "PriorityId": 356,
+  "PriorityName": "Fay, Gibson and Klocko",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2005-04-17T11:06:33.475738+02:00",
+  "IsRecurrence": true,
+  "IsBooking": false,
+  "ActiveDate": "2012-11-27T13:38:12.8740699+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2014-05-17T11:06:33.475738+02:00",
-  "RecurringEndDate": "2013-03-06T11:06:33.475738+01:00",
-  "MotherId": 954,
-  "AssignedBy": 648,
-  "AssignedByFullName": "Prof. Rachael Nicolas PhD",
+  "RecurringStartDate": "2011-01-11T13:38:12.8740699+01:00",
+  "RecurringEndDate": "2004-10-02T13:38:12.8740699+02:00",
+  "MotherId": 509,
+  "AssignedBy": 678,
+  "AssignedByFullName": "Prof. Alvina Block",
   "RejectReason": "",
-  "Location": "quibusdam",
-  "AlarmLeadTime": "odio",
-  "SaleId": 585,
-  "SaleName": "Bernhard, Weissnat and Anderson",
-  "AssociateName": "Vandervort, Hermann and Weber",
-  "CreatedDate": "2020-06-06T11:06:33.475738+02:00",
-  "CreatedBy": "sint",
-  "CreatedByFullName": "Mrs. Lenny Kuhn DVM",
-  "CreatedByAssociateId": 514,
+  "Location": "ipsam",
+  "AlarmLeadTime": "expedita",
+  "SaleId": 534,
+  "SaleName": "D'Amore, Dooley and Fritsch",
+  "AssociateName": "Herzog-Paucek",
+  "CreatedDate": "2018-01-30T13:38:12.8740699+01:00",
+  "CreatedBy": "assumenda",
+  "CreatedByFullName": "Prof. Jaydon Urban Welch III",
+  "CreatedByAssociateId": 392,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "nihil",
-  "Agenda": "voluptatibus",
-  "InternalNotes": "repellat",
+  "PreferredTZLocation": 29,
+  "Title": "atque",
+  "Agenda": "alias",
+  "InternalNotes": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 91
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

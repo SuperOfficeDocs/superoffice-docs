@@ -106,7 +106,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -133,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 357,
-  "SaleId": 379,
+  "SuggestedAppointmentId": 626,
+  "SaleId": 603,
   "CreateNow": true,
-  "OwnerId": 271
+  "OwnerId": 335
 }
 ```
 
@@ -155,125 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2008-09-18T11:06:33.6632537+02:00",
-  "AppointmentId": 39,
-  "Description": "Ameliorated transitional benchmark",
-  "StartDate": "2014-06-12T11:06:33.6632537+02:00",
-  "EndDate": "1999-07-12T11:06:33.6632537+02:00",
+  "CreatedDate": "2011-09-28T13:38:12.9990505+02:00",
+  "AppointmentId": 689,
+  "Description": "Diverse coherent architecture",
+  "StartDate": "2015-02-28T13:38:12.9990505+01:00",
+  "EndDate": "2020-12-02T13:38:12.9990505+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 9,
+  "MotherId": 446,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-01-31T11:06:33.6632537+01:00",
+  "UpdatedDate": "2020-05-15T13:38:12.9990505+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 719,
+  "ActiveLinks": 65,
   "Links": [
     {
-      "EntityName": "Donnelly Group",
-      "Id": 450,
-      "Description": "Team-oriented stable pricing structure",
-      "ExtraInfo": "distinctio",
-      "LinkId": 311,
+      "EntityName": "Gottlieb LLC",
+      "Id": 616,
+      "Description": "Optimized intermediate website",
+      "ExtraInfo": "quia",
+      "LinkId": 733,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldType": "System.String",
+          "FieldLength": 102
         }
       }
     }
   ],
-  "AlarmLeadTime": "iste",
-  "HasAlarm": true,
-  "ColorIndex": 232,
+  "AlarmLeadTime": "repellat",
+  "HasAlarm": false,
+  "ColorIndex": 981,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "repellendus",
-  "LeadTime": "libero",
-  "Location": "itaque",
-  "RejectCounter": 314,
+  "LagTime": "ut",
+  "LeadTime": "dolorem",
+  "Location": "harum",
+  "RejectCounter": 241,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 554,
-      "PersonId": 214,
-      "ContactId": 642,
-      "EmailId": 420,
+      "AssociateId": 74,
+      "PersonId": 435,
+      "ContactId": 878,
+      "EmailId": 474,
       "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 554,
-      "PersonId": 214,
-      "ContactId": 642,
-      "EmailId": 420,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "jayce@breitenbergjacobi.info",
+      "Description": "Balanced client-server moratorium"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-06-27T11:06:33.6632537+02:00",
+  "ActiveDate": "2017-06-21T13:38:12.9990505+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 939,
+  "PreferredTZLocation": 342,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 369,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 753,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quasi",
-  "Title": "provident",
-  "Agenda": "ratione",
-  "InternalNotes": "consequuntur",
+  "CentralserviceVideomeetId": "et",
+  "Title": "earum",
+  "Agenda": "recusandae",
+  "InternalNotes": "qui",
   "UserDefinedFields": {
-    "SuperOffice:1": "358769971",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mr. Claudine Jayme Cruickshank Jr.",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "similique"
+    "ExtraFields1": "odio",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "nihil"
+    "CustomFields1": "suscipit",
+    "CustomFields2": "eius"
   },
-  "PublishEventDate": "2016-08-25T11:06:33.6632537+02:00",
-  "PublishTo": "2001-03-09T11:06:33.6632537+01:00",
-  "PublishFrom": "1997-09-28T11:06:33.6632537+02:00",
+  "PublishEventDate": "2014-12-07T13:38:12.9990505+01:00",
+  "PublishTo": "2007-04-10T13:38:12.9990505+02:00",
+  "PublishFrom": "1996-09-14T13:38:12.9990505+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 705,
+      "VisibleId": 702,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldType": "System.String",
+          "FieldLength": 249
         }
       }
     },
     {
-      "VisibleId": 705,
+      "VisibleId": 702,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldType": "System.String",
+          "FieldLength": 249
         }
       }
     }
@@ -282,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldType": "System.String",
+      "FieldLength": 685
     }
   }
 }

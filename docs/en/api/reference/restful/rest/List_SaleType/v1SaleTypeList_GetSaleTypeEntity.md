@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 488,
-  "Name": "Rogahn, Wilkinson and White",
-  "Tooltip": "minus",
-  "Rank": 954,
+  "SaleTypeId": 764,
+  "Name": "Cormier-Herzog",
+  "Tooltip": "nihil",
+  "Rank": 421,
   "DurationUnit": "Century",
-  "SaleDuration": 554,
-  "SaleTypeCatId": 499,
+  "SaleDuration": 860,
+  "SaleTypeCatId": 201,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 962,
-  "QuoteLinesTemplate": 534,
-  "ConfirmationLinesTemplate": 69,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 505,
-  "MinEarningPercent": 392,
-  "GroupQuoteLinesBy": 513,
-  "SortGroupLinesBy": 660,
+  "DefaultQuoteValidity": 13,
+  "QuoteLinesTemplate": 389,
+  "ConfirmationLinesTemplate": 814,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 713,
+  "MinEarningPercent": 745,
+  "GroupQuoteLinesBy": 675,
+  "SortGroupLinesBy": 828,
   "Stages": [
     {
-      "Id": 121,
-      "Name": "Brown LLC",
-      "ToolTip": "Eum in suscipit sed.",
-      "Deleted": true,
-      "Rank": 662,
-      "Type": "consequatur",
-      "ColorBlock": 248,
-      "IconHint": "saepe",
-      "Selected": true,
-      "LastChanged": "2003-12-05T11:06:43.0534497+01:00",
+      "Id": 683,
+      "Name": "Mertz Inc and Sons",
+      "ToolTip": "Sunt omnis expedita aut facere officiis nostrum.",
+      "Deleted": false,
+      "Rank": 195,
+      "Type": "eos",
+      "ColorBlock": 505,
+      "IconHint": "quia",
+      "Selected": false,
+      "LastChanged": "2012-12-04T13:38:18.2181419+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nostrum",
-      "StyleHint": "recusandae",
-      "Hidden": true,
-      "FullName": "Palma Erdman",
+      "ExtraInfo": "odit",
+      "StyleHint": "modi",
+      "Hidden": false,
+      "FullName": "Fatima Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 156
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   }
 }

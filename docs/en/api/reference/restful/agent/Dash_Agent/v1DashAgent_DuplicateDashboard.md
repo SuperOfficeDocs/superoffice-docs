@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 576,
-  "Name": "Lockman, Kunze and Stark"
+  "DashboardId": 168,
+  "Name": "Wehner-Cummerata"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 285,
-  "UniqueId": "aut",
-  "Name": "Senger, Kuphal and Welch",
-  "Description": "Open-architected zero defect knowledge base",
-  "AssociateId": 416,
-  "Columns": 893,
+  "DashboardId": 630,
+  "UniqueId": "asperiores",
+  "Name": "Mayer, Bauch and Feil",
+  "Description": "Diverse solution-oriented intranet",
+  "AssociateId": 923,
+  "Columns": 819,
   "Theme": null,
-  "VisibleForAll": 516,
+  "VisibleForAll": 590,
   "VisibleForAssociates": [
-    437,
-    66
+    309,
+    703
   ],
   "VisibleForGroups": [
-    793,
-    396
+    164,
+    739
   ],
-  "PinForAll": 134,
+  "PinForAll": 897,
   "PinForAssociates": [
-    146,
-    537
+    496,
+    20
   ],
   "PinForGroups": [
-    544,
-    474
+    844,
+    219
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 192
+      "FieldLength": 787
     }
   }
 }

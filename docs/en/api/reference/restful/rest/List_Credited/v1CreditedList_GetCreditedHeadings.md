@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 836,
-    "Name": "Ritchie-Turcotte",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 361,
-    "UdListDefinitionId": 719,
+    "HeadingId": 992,
+    "Name": "Becker, Turcotte and Hessel",
+    "Tooltip": "quas",
+    "Deleted": false,
+    "Rank": 827,
+    "UdListDefinitionId": 181,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 311
+        "FieldType": "System.Int32",
+        "FieldLength": 538
       }
     }
   }

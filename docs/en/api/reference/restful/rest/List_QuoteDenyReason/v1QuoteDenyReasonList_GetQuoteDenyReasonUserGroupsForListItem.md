@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Johnson LLC",
-    "ToolTip": "Iste cupiditate magnam qui dolores et et.",
+    "Id": 200,
+    "Name": "Hettinger-Rosenbaum",
+    "ToolTip": "Ut praesentium aliquid accusantium sint.",
     "Deleted": true,
-    "Rank": 301,
-    "Type": "tempore",
-    "ColorBlock": 259,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2010-12-10T11:06:42.9909515+01:00",
+    "Rank": 483,
+    "Type": "delectus",
+    "ColorBlock": 143,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2008-03-29T13:38:18.1712741+01:00",
     "ChildItems": [
       {
-        "Id": 901,
-        "Name": "Dooley-Grady",
-        "ToolTip": "Distinctio placeat autem est ipsum rerum ea dolorem.",
-        "Deleted": true,
-        "Rank": 284,
-        "Type": "consequatur",
-        "ColorBlock": 323,
-        "IconHint": "voluptatem",
+        "Id": 732,
+        "Name": "Hayes, Murazik and Conroy",
+        "ToolTip": "Numquam provident est commodi.",
+        "Deleted": false,
+        "Rank": 715,
+        "Type": "facilis",
+        "ColorBlock": 716,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2016-06-10T11:06:42.9909515+02:00",
+        "LastChanged": "2001-01-10T13:38:18.1712741+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "eum",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mekhi Stark Jr.",
+        "FullName": "Miss Verla Emmet Treutel Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 947
+            "FieldLength": 954
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Miss Emil Cleora Jenkins",
+    "ExtraInfo": "quia",
+    "StyleHint": "ducimus",
+    "Hidden": true,
+    "FullName": "Amya Kasandra Gerlach V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldLength": 402
       }
     }
   }

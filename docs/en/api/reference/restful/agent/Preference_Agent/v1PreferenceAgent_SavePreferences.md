@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "vel",
+      "RawValue": "perferendis",
       "Specification": null,
-      "DisplayValue": "hic",
-      "DisplayTooltip": "blanditiis",
+      "DisplayValue": "laudantium",
+      "DisplayTooltip": "praesentium",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 995,
-      "PrefDescId": 242,
-      "TableName": "Kuphal, Spencer and Kuhlman",
-      "UserPreferenceId": 805
+      "TargetId": 446,
+      "PrefDescId": 363,
+      "TableName": "Boyle LLC",
+      "UserPreferenceId": 46
     }
   ]
 }

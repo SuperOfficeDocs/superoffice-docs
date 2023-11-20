@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "autem",
-      "Key": "fugiat"
+      "Section": "vitae",
+      "Key": "qui"
     },
     {
-      "Section": "autem",
-      "Key": "fugiat"
+      "Section": "vitae",
+      "Key": "qui"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "vitae",
+    "RawValue": "in",
     "Specification": null,
-    "DisplayValue": "dolores",
-    "DisplayTooltip": "ipsam",
+    "DisplayValue": "placeat",
+    "DisplayTooltip": "molestiae",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 87,
-    "PrefDescId": 555,
-    "TableName": "Brakus-Cummings",
-    "UserPreferenceId": 646,
+    "TargetId": 996,
+    "PrefDescId": 997,
+    "TableName": "Marvin, Bednar and Powlowski",
+    "UserPreferenceId": 365,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 215
       }
     }
   }

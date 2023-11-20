@@ -87,13 +87,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Currents": [
     {
-      "Rank": 389,
-      "Id": 629,
-      "HistoryName": "Goodwin, Gerlach and Grimes",
-      "HistoryId": 976,
-      "AssociateId": 552,
-      "Name": "Upton-Veum",
-      "ItemInfo": "est"
+      "Rank": 472,
+      "Id": 616,
+      "HistoryName": "Nicolas LLC",
+      "HistoryId": 268,
+      "AssociateId": 11,
+      "Name": "Bradtke LLC",
+      "ItemInfo": "dolores"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 486,
-    "Id": 360,
-    "HistoryName": "Parker Group",
-    "HistoryId": 798,
-    "AssociateId": 767,
-    "Name": "Wilderman LLC",
-    "ItemInfo": "ipsa",
+    "Rank": 787,
+    "Id": 302,
+    "HistoryName": "Paucek LLC",
+    "HistoryId": 800,
+    "AssociateId": 489,
+    "Name": "Kutch Inc and Sons",
+    "ItemInfo": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 52
+        "FieldType": "System.Int32",
+        "FieldLength": 988
       }
     }
   }

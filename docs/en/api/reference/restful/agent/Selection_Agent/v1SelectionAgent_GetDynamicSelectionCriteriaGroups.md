@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 972
+  "SelectionId": 336
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Powlowski, Marquardt and Funk",
-    "Description": "Diverse directional software",
-    "Rank": 78,
+    "Name": "Runolfsson, Gislason and Heathcote",
+    "Description": "Digitized web-enabled challenge",
+    "Rank": 214,
     "Restrictions": [
       {
-        "Name": "Langosh, Boyle and Schamberger",
-        "Operator": "optio",
+        "Name": "Lindgren-Torp",
+        "Operator": "vero",
         "Values": [
-          "voluptatibus",
-          "nemo"
+          "qui",
+          "numquam"
         ],
         "DisplayValues": [
-          "possimus",
-          "sed"
+          "corrupti",
+          "natus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 372,
+        "InterParenthesis": 436,
         "InterOperator": "And",
-        "UniqueHash": 675
+        "UniqueHash": 201
       }
     ]
   },
   {
-    "Name": "Powlowski, Marquardt and Funk",
-    "Description": "Diverse directional software",
-    "Rank": 78,
+    "Name": "Runolfsson, Gislason and Heathcote",
+    "Description": "Digitized web-enabled challenge",
+    "Rank": 214,
     "Restrictions": [
       {
-        "Name": "Langosh, Boyle and Schamberger",
-        "Operator": "optio",
+        "Name": "Lindgren-Torp",
+        "Operator": "vero",
         "Values": [
-          "voluptatibus",
-          "nemo"
+          "qui",
+          "numquam"
         ],
         "DisplayValues": [
-          "possimus",
-          "sed"
+          "corrupti",
+          "natus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 372,
+        "InterParenthesis": 436,
         "InterOperator": "And",
-        "UniqueHash": 675
+        "UniqueHash": 201
       }
     ]
   }

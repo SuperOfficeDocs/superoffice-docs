@@ -89,15 +89,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 961,
-  "PrefDescId": 593,
-  "PrefValue": "quaerat",
-  "PrefShowValue": "doloribus",
-  "Description": "Cross-group national structure",
+  "PrefDescLineId": 307,
+  "PrefDescId": 549,
+  "PrefValue": "ducimus",
+  "PrefShowValue": "deserunt",
+  "Description": "Customer-focused user-facing attitude",
   "IsBuiltin": false
 }
 ```
@@ -109,23 +109,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 945,
-  "PrefDescId": 540,
-  "PrefValue": "dolor",
-  "PrefShowValue": "consequatur",
-  "Description": "Secured well-modulated definition",
+  "PrefDescLineId": 476,
+  "PrefDescId": 170,
+  "PrefValue": "qui",
+  "PrefShowValue": "provident",
+  "Description": "Progressive interactive challenge",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

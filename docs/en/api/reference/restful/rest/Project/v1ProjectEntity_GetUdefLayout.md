@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 957,
-    "ColumnId": 466,
-    "FieldDefault": "quae",
-    "FieldHeight": 318,
-    "FieldLabel": "omnis",
-    "FieldLeft": 450,
-    "FieldTop": 709,
+    "UDefFieldId": 838,
+    "ColumnId": 827,
+    "FieldDefault": "ipsam",
+    "FieldHeight": 906,
+    "FieldLabel": "sit",
+    "FieldLeft": 863,
+    "FieldTop": 247,
     "FieldType": "Checkbox",
-    "FieldWidth": 256,
-    "FormatMask": "iste",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 403,
-    "LabelLeft": 729,
-    "LabelTop": 881,
-    "LabelWidth": 167,
-    "LastVersionId": 968,
-    "ListTableId": 132,
+    "FieldWidth": 711,
+    "FormatMask": "aut",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 815,
+    "LabelLeft": 631,
+    "LabelTop": 794,
+    "LabelWidth": 204,
+    "LastVersionId": 60,
+    "ListTableId": 937,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 955,
-    "ProgId": "dolor",
+    "Page1LineNo": 872,
+    "ProgId": "ipsa",
     "IsReadOnly": false,
-    "ShortLabel": "quidem",
-    "TabOrder": 74,
-    "TextLength": 747,
-    "Tooltip": "cum",
-    "UdefIdentity": 914,
-    "UDListDefinitionId": 495,
+    "ShortLabel": "dolor",
+    "TabOrder": 810,
+    "TextLength": 383,
+    "Tooltip": "voluptatum",
+    "UdefIdentity": 345,
+    "UDListDefinitionId": 737,
     "Justification": "Center",
-    "Version": 337,
-    "TemplateVariableName": "Romaguera, Friesen and Kessler",
+    "Version": 760,
+    "TemplateVariableName": "Kautzer-Mante",
     "HasBeenPublished": false,
-    "MdoListName": "Waelchi, Weimann and Quigley",
+    "MdoListName": "Prosacco-Bruen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 311
+        "FieldLength": 297
       }
     }
   }

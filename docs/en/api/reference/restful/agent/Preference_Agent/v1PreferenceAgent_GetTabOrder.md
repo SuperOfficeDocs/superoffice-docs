@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Bradtke, D'Amore and Reynolds"
+  "TabName": "Bernier-Kreiger"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 740,
-  "TabName": "Bartoletti, Lockman and Morissette",
-  "Order": "rerum",
-  "AssociateId": 868,
+  "TabOrderId": 334,
+  "TabName": "Mills, Grady and Champlin",
+  "Order": "mollitia",
+  "AssociateId": 664,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldLength": 2
     }
   }
 }

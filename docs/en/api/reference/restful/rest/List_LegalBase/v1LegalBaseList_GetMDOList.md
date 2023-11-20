@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=aut
+GET /api/v1/List/LegalBase/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Name": "VonRueden Inc and Sons",
-    "ToolTip": "Rerum accusamus quaerat quos architecto non quo quam.",
+    "Id": 274,
+    "Name": "Collins-Volkman",
+    "ToolTip": "Aut perferendis.",
     "Deleted": true,
-    "Rank": 535,
-    "Type": "veritatis",
+    "Rank": 447,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Connelly, Hansen and Gottlieb",
-        "ToolTip": "Provident qui minus et est.",
-        "Deleted": true,
-        "Rank": 826,
-        "Type": "a",
+        "Id": 726,
+        "Name": "Schultz-Ritchie",
+        "ToolTip": "Molestiae soluta cum.",
+        "Deleted": false,
+        "Rank": 359,
+        "Type": "numquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dicta",
-        "ColorBlock": 194,
-        "ExtraInfo": "velit",
-        "StyleHint": "eos",
-        "FullName": "Louvenia Dorris Zieme IV",
+        "IconHint": "error",
+        "ColorBlock": 54,
+        "ExtraInfo": "in",
+        "StyleHint": "quo",
+        "FullName": "Miss Matilda Jameson Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 806
+            "FieldType": "System.Int32",
+            "FieldLength": 310
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 799,
-    "ExtraInfo": "est",
-    "StyleHint": "vel",
-    "FullName": "Lenna Schneider",
+    "IconHint": "aspernatur",
+    "ColorBlock": 165,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "quisquam",
+    "FullName": "Anjali Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 158
       }
     }
   }

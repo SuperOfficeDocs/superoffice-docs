@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 540,
-  "Name": "Pacocha, Kessler and Padberg",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "UdListDefinitionId": 348,
-  "Rank": 146
+  "Id": 756,
+  "Name": "Dach, Haley and Hettinger",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 587,
+  "Rank": 182
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 79,
-  "Name": "O'Conner Group",
-  "Tooltip": "corrupti",
+  "Id": 146,
+  "Name": "White Inc and Sons",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 423,
-  "Rank": 343,
+  "UdListDefinitionId": 34,
+  "Rank": 265,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

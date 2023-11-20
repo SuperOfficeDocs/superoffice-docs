@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 01 Jul 2001 11:06:41 G7T
+Last-Modified: Wed, 30 Dec 2020 13:38:17 G12T
 
 {
-  "ForeignDeviceId": 569,
-  "Name": "Reichert, Mann and Hudson",
-  "CreatedDate": "2005-06-30T11:06:41.8947242+02:00",
-  "UpdatedDate": "2001-07-01T11:06:41.8947242+02:00",
-  "AssociateFullName": "Lexus Klein",
-  "CreatedBy": "reprehenderit",
-  "UpdatedBy": "quaerat",
-  "DeviceIdentifier": "ab",
-  "ForeignAppId": 831,
+  "ForeignDeviceId": 331,
+  "Name": "Cummings-Nikolaus",
+  "CreatedDate": "2019-04-28T13:38:17.4368262+02:00",
+  "UpdatedDate": "2020-12-30T13:38:17.4368262+01:00",
+  "AssociateFullName": "Hailee Kertzmann",
+  "CreatedBy": "unde",
+  "UpdatedBy": "fuga",
+  "DeviceIdentifier": "porro",
+  "ForeignAppId": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 111
     }
   }
 }

@@ -118,12 +118,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sint",
+    "path": "natus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sint",
+    "path": "natus",
     "value": {}
   }
 ]
@@ -136,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 748,
-  "AssociateId": 769,
-  "Caption": "et",
+  "DashboardId": 665,
+  "AssociateId": 998,
+  "Caption": "porro",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 225,
-      "Caption": "nemo",
-      "Description": "Stand-alone secondary concept",
-      "ChartName": "Smitham Group",
-      "ChartId": "explicabo",
+      "DashboardTileId": 348,
+      "Caption": "sed",
+      "Description": "Enterprise-wide eco-centric architecture",
+      "ChartName": "Hand, Toy and Koss",
+      "ChartId": "nemo",
       "IsDefault": false,
-      "AssociateId": 997,
-      "GroupId": 562,
-      "SelectionId": 299,
-      "Config": "officia",
+      "AssociateId": 553,
+      "GroupId": 274,
+      "SelectionId": 666,
+      "Config": "fuga",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 164
+          "FieldType": "System.String",
+          "FieldLength": 271
         }
       }
     }
@@ -176,8 +176,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 171
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   },
   "_Links": {

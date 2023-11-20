@@ -121,18 +121,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ipsa",
+    "path": "ducimus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsa",
+    "path": "ducimus",
     "value": {}
   }
 ]
@@ -145,28 +145,28 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 90,
-  "UniqueIdentifier": "perferendis",
-  "Name": "Ernser, Daniel and Runolfsdottir",
-  "Description": "Cloned exuding neural-net",
-  "IncludeId": "rerum",
-  "HierarchyId": 511,
-  "Source": "id",
-  "Registered": "2014-08-02T11:06:41.7853483+02:00",
-  "RegisteredAssociateId": 345,
-  "Updated": "2002-03-30T11:06:41.7853483+01:00",
-  "UpdatedAssociateId": 270,
+  "EjscriptId": 608,
+  "UniqueIdentifier": "ut",
+  "Name": "Altenwerth, Schiller and Sanford",
+  "Description": "Automated bottom-line firmware",
+  "IncludeId": "odio",
+  "HierarchyId": 28,
+  "Source": "velit",
+  "Registered": "2012-03-21T13:38:17.280593+01:00",
+  "RegisteredAssociateId": 231,
+  "Updated": "2006-11-13T13:38:17.280593+01:00",
+  "UpdatedAssociateId": 812,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 649
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

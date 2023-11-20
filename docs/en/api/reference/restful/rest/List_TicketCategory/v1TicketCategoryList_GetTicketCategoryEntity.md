@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 12,
-  "ParentId": 38,
-  "Name": "Cummings LLC",
-  "Fullname": "minus",
-  "CategoryMaster": 158,
+  "TicketCategoryId": 596,
+  "ParentId": 900,
+  "Name": "Boyle-Waelchi",
+  "Fullname": "voluptas",
+  "CategoryMaster": 385,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Zemlak-McGlynn",
+  "ExternalName": "Murazik, Lindgren and Goodwin",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 725,
-  "ReplyTemplate": 624,
-  "NotificationEmail": "eloy_kunde@cole.name",
+  "AssignmentLag": 426,
+  "ReplyTemplate": 643,
+  "NotificationEmail": "lucile@lemketorp.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 55,
+  "EffectiveReplyTemplateId": 167,
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "sit"
+    "CustomFields1": "nisi",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 379
     }
   }
 }

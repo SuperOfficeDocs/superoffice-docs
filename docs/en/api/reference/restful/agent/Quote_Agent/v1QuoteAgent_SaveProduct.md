@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 495,
-  "ERPProductKey": "necessitatibus",
-  "ERPPriceListKey": "nostrum",
-  "Name": "Runte Group",
-  "Description": "Cloned multimedia hub",
-  "Code": "expedita",
-  "PriceUnit": "facilis",
-  "QuantityUnit": "pariatur",
+  "ProductId": 275,
+  "ERPProductKey": "voluptate",
+  "ERPPriceListKey": "aspernatur",
+  "Name": "Glover, Pfannerstill and Davis",
+  "Description": "Extended even-keeled core",
+  "Code": "quas",
+  "PriceUnit": "harum",
+  "QuantityUnit": "non",
   "IsSubscription": false,
-  "SubscriptionUnit": "dignissimos",
-  "DefaultSubscriptionQuantity": 5280.79,
-  "ItemNumber": "1214187",
+  "SubscriptionUnit": "harum",
+  "DefaultSubscriptionQuantity": 29017.706,
+  "ItemNumber": "1216139",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quas",
-  "ProductTypeKey": "sit",
-  "VAT": 2927.156,
-  "VATInfo": "expedita",
-  "UnitCost": 4215.23,
-  "UnitMinimumPrice": 28864.14,
-  "UnitListPrice": 1429.104,
+  "ProductFamilyKey": "magnam",
+  "ProductTypeKey": "voluptatum",
+  "VAT": 16566.324,
+  "VATInfo": "a",
+  "UnitCost": 9834.492,
+  "UnitMinimumPrice": 26438.424,
+  "UnitListPrice": 30634.85,
   "InAssortment": false,
-  "Supplier": "nemo",
-  "SupplierCode": "et",
-  "Rights": "id",
-  "Rule": "ducimus",
+  "Supplier": "quod",
+  "SupplierCode": "deleniti",
+  "Rights": "soluta",
+  "Rule": "rerum",
   "ExtraInfo": [
     {
-      "Name": "Stark, Marquardt and Lemke",
-      "Value": "consectetur",
+      "Name": "Homenick-Swaniawski",
+      "Value": "provident",
       "Type": "Image"
     },
     {
-      "Name": "Stark, Marquardt and Lemke",
-      "Value": "consectetur",
+      "Name": "Homenick-Swaniawski",
+      "Value": "provident",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "at",
-  "ExtraField1": "veniam",
-  "ExtraField2": "recusandae",
-  "ExtraField3": "labore",
-  "ExtraField4": "minus",
-  "ExtraField5": "minus",
-  "InStock": 16080.554
+  "RawExtraInfo": "doloremque",
+  "ExtraField1": "ducimus",
+  "ExtraField2": "omnis",
+  "ExtraField3": "esse",
+  "ExtraField4": "ab",
+  "ExtraField5": "qui",
+  "InStock": 30738.271999999997
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 591,
-  "ERPProductKey": "eveniet",
-  "ERPPriceListKey": "unde",
-  "Name": "Howe Group",
-  "Description": "Balanced high-level migration",
-  "Code": "eos",
-  "PriceUnit": "suscipit",
-  "QuantityUnit": "facilis",
+  "ProductId": 305,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "enim",
+  "Name": "Larkin, Bins and Emard",
+  "Description": "Digitized multi-state system engine",
+  "Code": "numquam",
+  "PriceUnit": "qui",
+  "QuantityUnit": "aut",
   "IsSubscription": false,
-  "SubscriptionUnit": "velit",
-  "DefaultSubscriptionQuantity": 16102.492,
-  "ItemNumber": "343784",
+  "SubscriptionUnit": "amet",
+  "DefaultSubscriptionQuantity": 7819.33,
+  "ItemNumber": "1407734",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ipsa",
-  "ProductTypeKey": "voluptas",
-  "VAT": 29136.798,
-  "VATInfo": "ipsa",
-  "UnitCost": 11727.428,
-  "UnitMinimumPrice": 16635.272,
-  "UnitListPrice": 8750.128,
-  "InAssortment": true,
-  "Supplier": "nostrum",
-  "SupplierCode": "tenetur",
-  "Rights": "necessitatibus",
-  "Rule": "vero",
+  "ProductFamilyKey": "ullam",
+  "ProductTypeKey": "id",
+  "VAT": 12811.792,
+  "VATInfo": "perspiciatis",
+  "UnitCost": 12733.442,
+  "UnitMinimumPrice": 19524.82,
+  "UnitListPrice": 30277.574,
+  "InAssortment": false,
+  "Supplier": "ea",
+  "SupplierCode": "nam",
+  "Rights": "sed",
+  "Rule": "eveniet",
   "ExtraInfo": [
     {
-      "Name": "Botsford Group",
-      "Value": "sed",
+      "Name": "Haag-Abernathy",
+      "Value": "officia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldType": "System.String",
+          "FieldLength": 947
         }
       }
     },
     {
-      "Name": "Botsford Group",
-      "Value": "sed",
+      "Name": "Haag-Abernathy",
+      "Value": "officia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldType": "System.String",
+          "FieldLength": 947
         }
       }
     }
   ],
-  "RawExtraInfo": "alias",
-  "ExtraField1": "repellat",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "tenetur",
-  "ExtraField4": "quo",
-  "ExtraField5": "ratione",
-  "InStock": 14504.152,
+  "RawExtraInfo": "aut",
+  "ExtraField1": "quos",
+  "ExtraField2": "numquam",
+  "ExtraField3": "dolores",
+  "ExtraField4": "rerum",
+  "ExtraField5": "nam",
+  "InStock": 2623.158,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 397
     }
   }
 }

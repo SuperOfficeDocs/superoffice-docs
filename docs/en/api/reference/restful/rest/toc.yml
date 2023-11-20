@@ -225,6 +225,8 @@ items:
     href: Contact/v1ContactEntity_GetCustomFieldInfo.md
   - name: GET Contact/default
     href: Contact/v1ContactEntity_DefaultContactEntity.md
+  - name: GET Contact/DuplicateDomains/{domain}
+    href: Contact/v1ContactEntity_GetDomainDuplicates.md
   - name: GET Contact/DuplicateRules
     href: Contact/v1ContactEntity_GetDuplicateRules.md
   - name: GET Contact/Duplicates/{name}

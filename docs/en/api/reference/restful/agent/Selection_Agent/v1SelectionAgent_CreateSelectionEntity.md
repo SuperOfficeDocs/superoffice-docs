@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Wisoky, Gutkowski and Borer"
+  "TargetTableName": "Fadel Group"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots eco-centric toolset",
-  "Postit": "et",
+  "Description": "Versatile mobile data-warehouse",
+  "Postit": "nostrum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 234,
-  "IncludePerson": 213,
-  "MemberCount": 460,
-  "Name": "Murray LLC",
-  "PostitTextId": 358,
-  "CreatedDate": "2023-04-14T11:06:35.364568+02:00",
-  "SelectionId": 863,
-  "SoundEx": "natus",
-  "Source": 234,
-  "TextId": 396,
-  "UpdatedDate": "2013-06-05T11:06:35.364568+02:00",
-  "UpdatedCount": 955,
-  "Visibility": 41,
+  "GroupIdx": 765,
+  "IncludePerson": 388,
+  "MemberCount": 165,
+  "Name": "Lynch, Kunze and Crist",
+  "PostitTextId": 443,
+  "CreatedDate": "2022-01-30T13:38:14.124071+01:00",
+  "SelectionId": 150,
+  "SoundEx": "hic",
+  "Source": 735,
+  "TextId": 173,
+  "UpdatedDate": "2013-12-31T13:38:14.124071+01:00",
+  "UpdatedCount": 771,
+  "Visibility": 444,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 166,
-  "TargetTableName": "Jerde, Roob and Langworth",
-  "Completed": true,
-  "LeftSelectionId": 563,
-  "RightSelectionId": 800,
+  "TargetTableNumber": 588,
+  "TargetTableName": "Gutmann-Lowe",
+  "Completed": false,
+  "LeftSelectionId": 328,
+  "RightSelectionId": 686,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gusikowski Inc and Sons",
-  "ShadowProviderName": "Rau, Nikolaus and Bartell",
-  "ChartKey": "minus",
-  "LastLoaded": "2023-10-25T11:06:35.364568+02:00",
-  "LastLoadedBy": 887,
+  "MainProviderName": "Nienow Group",
+  "ShadowProviderName": "Adams-Hand",
+  "ChartKey": "modi",
+  "LastLoaded": "2015-08-22T13:38:14.124071+02:00",
+  "LastLoadedBy": 13,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-03-26T11:06:35.364568+01:00",
-  "LastMembershipChangeBy": 89,
+  "LastMembershipChange": "2003-04-18T13:38:14.124071+02:00",
+  "LastMembershipChangeBy": 124,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "a",
-  "MemberTabHeading": "cumque",
-  "MailingsProviderName": "Hilll-Gleichner",
-  "DashboardTileDefinitionId": 293,
+  "MainHeading": "numquam",
+  "MemberTabHeading": "ex",
+  "MailingsProviderName": "Emard, Runolfsson and Johns",
+  "DashboardTileDefinitionId": 71,
   "VisibleFor": [
     {
-      "VisibleId": 735,
+      "VisibleId": 63,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 592
         }
       }
     },
     {
-      "VisibleId": 735,
+      "VisibleId": 63,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 592
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldType": "System.String",
+      "FieldLength": 1001
     }
   }
 }

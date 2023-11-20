@@ -66,6 +66,7 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 * [SavePersonEntity](SavePersonEntity.md)
 * [SendConsentConfirmationEmail](SendConsentConfirmationEmail.md)
 * [SendEmail](SendEmail.md)
+* [SendEmailWithEventName](SendEmailWithEventName.md)
 * [SetConsent](SetConsent.md)
 * [SetPersonImage](SetPersonImage.md)
 * [SetPersonRank](SetPersonRank.md)

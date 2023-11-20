@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 407,
-    "Name": "Reichel Inc and Sons",
-    "Tooltip": "molestiae",
+    "HeadingId": 224,
+    "Name": "Herzog-Gleichner",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "Rank": 357,
-    "UdListDefinitionId": 850,
+    "Rank": 427,
+    "UdListDefinitionId": 919,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 533
+        "FieldLength": 432
       }
     }
   }

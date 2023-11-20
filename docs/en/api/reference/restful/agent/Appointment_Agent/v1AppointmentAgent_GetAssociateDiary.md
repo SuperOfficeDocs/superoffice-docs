@@ -115,6 +115,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -127,14 +128,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 983,
-  "StartTime": "2003-11-19T11:06:33.475738+01:00",
-  "EndTime": "2001-06-16T11:06:33.475738+02:00",
-  "Count": 722
+  "AssociateId": 698,
+  "StartTime": "2019-09-11T13:38:12.8740699+02:00",
+  "EndTime": "2008-09-12T13:38:12.8740699+02:00",
+  "Count": 14
 }
 ```
 
@@ -146,64 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 705,
-    "StartDate": "2000-07-06T11:06:33.475738+02:00",
-    "EndDate": "2023-03-13T11:06:33.475738+01:00",
+    "AppointmentId": 47,
+    "StartDate": "2021-05-12T13:38:12.8740699+02:00",
+    "EndDate": "2001-07-30T13:38:12.8740699+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sunt",
-    "AssociateFullName": "Mr. Ettie Casper Wolff",
-    "ContactName": "Casper, O'Conner and Senger",
-    "Description": "Customer-focused 24/7 algorithm",
-    "PersonFullName": "Mrs. Enrico Nannie Rice DDS",
-    "PersonId": 770,
-    "ContactId": 504,
-    "ProjectId": 928,
-    "ProjectName": "Conn-Beahan",
-    "IsPublished": false,
-    "AssociateId": 304,
-    "ColorIndex": 235,
+    "Task": "ex",
+    "AssociateFullName": "Travis Bailey",
+    "ContactName": "Zemlak, Mohr and Kuvalis",
+    "Description": "Quality-focused cohesive approach",
+    "PersonFullName": "Rachel Swaniawski",
+    "PersonId": 484,
+    "ContactId": 57,
+    "ProjectId": 412,
+    "ProjectName": "Beatty-Pagac",
+    "IsPublished": true,
+    "AssociateId": 794,
+    "ColorIndex": 167,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 204,
-    "PriorityName": "Rempel Inc and Sons",
+    "PriorityId": 129,
+    "PriorityName": "Auer, Wolff and Rohan",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2012-03-06T11:06:33.475738+01:00",
+    "ActiveDate": "2021-02-27T13:38:12.8740699+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-08-03T11:06:33.475738+02:00",
-    "RecurringEndDate": "1998-02-07T11:06:33.475738+01:00",
-    "MotherId": 449,
-    "AssignedBy": 865,
-    "AssignedByFullName": "Theo Hortense Miller DVM",
-    "RejectReason": "",
-    "Location": "quasi",
-    "AlarmLeadTime": "optio",
-    "SaleId": 57,
-    "SaleName": "Hoeger, Gleason and Weimann",
-    "AssociateName": "Lehner, Sanford and Gusikowski",
-    "CreatedDate": "2022-06-27T11:06:33.475738+02:00",
-    "CreatedBy": "molestiae",
-    "CreatedByFullName": "Luz Janie Donnelly Jr.",
-    "CreatedByAssociateId": 748,
+    "RecurringStartDate": "2010-01-02T13:38:12.8740699+01:00",
+    "RecurringEndDate": "2003-10-04T13:38:12.8740699+02:00",
+    "MotherId": 198,
+    "AssignedBy": 359,
+    "AssignedByFullName": "Prof. Marian Kristoffer Crist",
+    "RejectReason": "mesh transparent interfaces",
+    "Location": "et",
+    "AlarmLeadTime": "dolor",
+    "SaleId": 425,
+    "SaleName": "Bahringer Inc and Sons",
+    "AssociateName": "Renner LLC",
+    "CreatedDate": "2005-10-27T13:38:12.8740699+02:00",
+    "CreatedBy": "illo",
+    "CreatedByFullName": "Lisette Skiles",
+    "CreatedByAssociateId": 960,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "maiores",
-    "Agenda": "a",
-    "InternalNotes": "pariatur",
+    "PreferredTZLocation": 270,
+    "Title": "vel",
+    "Agenda": "consequatur",
+    "InternalNotes": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 87
+        "FieldLength": 770
       }
     }
   }

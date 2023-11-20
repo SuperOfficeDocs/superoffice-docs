@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=134
+POST /api/v1/Agents/Person/GetPerson?personId=808
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "omnis",
-  "PersonId": 858,
-  "Mrmrs": "est",
-  "Firstname": "Camren",
-  "Lastname": "McGlynn",
-  "MiddleName": "Lubowitz LLC",
-  "Title": "beatae",
-  "Description": "Assimilated full-range synergy",
-  "Email": "filiberto_stehr@ritchie.info",
-  "FullName": "Marjorie Sawayn",
-  "DirectPhone": "878-231-5834 x31238",
-  "FormalName": "Hayes, Mante and Lindgren",
-  "CountryId": 287,
-  "ContactId": 602,
-  "ContactName": "Wilderman, Ledner and Douglas",
-  "Retired": 261,
-  "Rank": 28,
-  "ActiveInterests": 510,
+  "Position": "ad",
+  "PersonId": 42,
+  "Mrmrs": "voluptatem",
+  "Firstname": "Mose",
+  "Lastname": "Bradtke",
+  "MiddleName": "Hyatt-Macejkovic",
+  "Title": "sit",
+  "Description": "Balanced encompassing emulation",
+  "Email": "edmond_dietrich@auer.uk",
+  "FullName": "Gail Christiansen",
+  "DirectPhone": "(018)839-0577 x49911",
+  "FormalName": "Nolan-Flatley",
+  "CountryId": 24,
+  "ContactId": 101,
+  "ContactName": "Hoppe Inc and Sons",
+  "Retired": 433,
+  "Rank": 748,
+  "ActiveInterests": 707,
   "ContactDepartment": "",
-  "ContactCountryId": 902,
-  "ContactOrgNr": "676881",
-  "FaxPhone": "1-430-888-7646",
-  "MobilePhone": "651-780-2185",
-  "ContactPhone": "(512)274-9281 x3417",
-  "AssociateName": "Buckridge Group",
-  "AssociateId": 806,
+  "ContactCountryId": 338,
+  "ContactOrgNr": "1226973",
+  "FaxPhone": "413-853-1938 x2640",
+  "MobilePhone": "228-696-3953",
+  "ContactPhone": "529-429-8558",
+  "AssociateName": "Spencer, Heathcote and Deckow",
+  "AssociateId": 302,
   "UsePersonAddress": false,
-  "ContactFax": "saepe",
-  "Kanafname": "aut",
-  "Kanalname": "vel",
-  "Post1": "reiciendis",
-  "Post2": "non",
-  "Post3": "necessitatibus",
-  "EmailName": "destini_osinski@hartmann.uk",
-  "ContactFullName": "Michale Pfannerstill PhD",
-  "ActiveErpLinks": 387,
-  "TicketPriorityId": 142,
-  "SupportLanguageId": 552,
-  "SupportAssociateId": 959,
+  "ContactFax": "eligendi",
+  "Kanafname": "velit",
+  "Kanalname": "animi",
+  "Post1": "odit",
+  "Post2": "deleniti",
+  "Post3": "omnis",
+  "EmailName": "kristofer_runolfsson@gerlachwelch.uk",
+  "ContactFullName": "Mireille King",
+  "ActiveErpLinks": 930,
+  "TicketPriorityId": 828,
+  "SupportLanguageId": 950,
+  "SupportAssociateId": 173,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldLength": 426
     }
   }
 }

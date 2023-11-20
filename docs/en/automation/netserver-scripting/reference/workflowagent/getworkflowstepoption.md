@@ -26,7 +26,7 @@ Event state is not preserved between different service calls. It is set to null 
 ```cs
     static void AfterGetWorkflowStepOption(
        Int32  workflowStepOptionId,
-       ref WorkflowStepOption  returnValue,
+       ref WorkflowStepOptionBase  returnValue,
        ref object  eventState
       );
 ```
@@ -37,7 +37,7 @@ Any state you set in the **Before** method is passed in through the *eventState*
 ```cs
     static void AfterGetWorkflowStepOptionAsync(
        Int32  workflowStepOptionId,
-       ref WorkflowStepOption  returnValue,
+       ref WorkflowStepOptionBase  returnValue,
        ref object  eventState
       );
 ```

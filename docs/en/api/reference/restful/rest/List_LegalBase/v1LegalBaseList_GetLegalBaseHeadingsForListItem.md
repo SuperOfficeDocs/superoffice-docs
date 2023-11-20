@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 250,
-    "Name": "Jewess Group",
-    "ToolTip": "Sequi consequuntur ut dolore reiciendis doloribus.",
-    "Deleted": true,
-    "Rank": 660,
-    "Type": "aut",
-    "ColorBlock": 23,
-    "IconHint": "minus",
+    "Id": 213,
+    "Name": "Batz-Erdman",
+    "ToolTip": "Voluptatibus ea architecto.",
+    "Deleted": false,
+    "Rank": 478,
+    "Type": "praesentium",
+    "ColorBlock": 221,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2013-12-31T11:06:42.8346931+01:00",
+    "LastChanged": "2020-03-07T13:38:18.0775324+01:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "McCullough, Leffler and Lebsack",
-        "ToolTip": "Illum nulla dolores laboriosam.",
+        "Id": 765,
+        "Name": "Nader-Weimann",
+        "ToolTip": "Ab veritatis ipsam et qui at neque qui.",
         "Deleted": true,
-        "Rank": 423,
-        "Type": "provident",
-        "ColorBlock": 585,
-        "IconHint": "quia",
+        "Rank": 599,
+        "Type": "maxime",
+        "ColorBlock": 868,
+        "IconHint": "optio",
         "Selected": false,
-        "LastChanged": "2008-08-27T11:06:42.8346931+02:00",
+        "LastChanged": "2014-01-31T13:38:18.0775324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "eum",
+        "ExtraInfo": "eos",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Brice Stanford Keeling IV",
+        "FullName": "Lance Towne PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 326
+            "FieldLength": 368
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "expedita",
-    "Hidden": true,
-    "FullName": "Virginia Farrell",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "minus",
+    "Hidden": false,
+    "FullName": "Anjali Zieme",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 509
       }
     }
   }

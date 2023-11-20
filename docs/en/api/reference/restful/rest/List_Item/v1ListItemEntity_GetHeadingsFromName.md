@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 995,
-    "Name": "Prohaska, Pollich and Kshlerin",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "Rank": 214,
-    "UdListDefinitionId": 83,
+    "HeadingId": 305,
+    "Name": "Lowe-Schuster",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "Rank": 645,
+    "UdListDefinitionId": 742,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldType": "System.Int32",
+        "FieldLength": 516
       }
     }
   }

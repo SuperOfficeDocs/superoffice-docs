@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,157 +110,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 182,
-  "Name": "Legros LLC",
-  "Department": "disintermediate sticky users",
-  "OrgNr": "757008",
-  "Number1": "1202267",
-  "Number2": "1564288",
-  "UpdatedDate": "1998-11-13T11:06:34.0964784+01:00",
-  "CreatedDate": "2008-12-19T11:06:34.0964784+01:00",
+  "ContactId": 977,
+  "Name": "Lakin Group",
+  "Department": "",
+  "OrgNr": "475222",
+  "Number1": "974902",
+  "Number2": "1362744",
+  "UpdatedDate": "2022-02-09T13:38:13.2802712+01:00",
+  "CreatedDate": "2002-03-27T13:38:13.2802712+01:00",
   "Emails": [
     {
-      "Value": "nisi",
-      "StrippedValue": "enim",
-      "Description": "Robust national focus group",
+      "Value": "deleniti",
+      "StrippedValue": "nihil",
+      "Description": "Versatile asynchronous alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 317
+          "FieldType": "System.Int32",
+          "FieldLength": 628
         }
       }
     },
     {
-      "Value": "nisi",
-      "StrippedValue": "enim",
-      "Description": "Robust national focus group",
+      "Value": "deleniti",
+      "StrippedValue": "nihil",
+      "Description": "Versatile asynchronous alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 317
+          "FieldType": "System.Int32",
+          "FieldLength": 628
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 339,
-      "Name": "Von Group",
-      "ToolTip": "Quos quaerat sint voluptatem et neque occaecati qui.",
-      "Deleted": true,
-      "Rank": 197,
-      "Type": "consectetur",
-      "ColorBlock": 188,
-      "IconHint": "in",
-      "Selected": true,
-      "LastChanged": "2007-11-23T11:06:34.0964784+01:00",
+      "Id": 985,
+      "Name": "Lubowitz Inc and Sons",
+      "ToolTip": "Eveniet voluptatem totam.",
+      "Deleted": false,
+      "Rank": 713,
+      "Type": "enim",
+      "ColorBlock": 458,
+      "IconHint": "laudantium",
+      "Selected": false,
+      "LastChanged": "2018-12-01T13:38:13.2802712+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ab",
-      "StyleHint": "molestiae",
+      "ExtraInfo": "qui",
+      "StyleHint": "deserunt",
       "Hidden": false,
-      "FullName": "Adam Langworth",
+      "FullName": "Marcos Ebert I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 119
+          "FieldLength": 180
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "ratione",
-      "StrippedValue": "blanditiis",
-      "Description": "Balanced transitional website",
+      "Value": "omnis",
+      "StrippedValue": "voluptas",
+      "Description": "Integrated asynchronous functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 143
         }
       }
     },
     {
-      "Value": "ratione",
-      "StrippedValue": "blanditiis",
-      "Description": "Balanced transitional website",
+      "Value": "omnis",
+      "StrippedValue": "voluptas",
+      "Description": "Integrated asynchronous functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 143
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "omnis",
-      "StrippedValue": "ad",
-      "Description": "Diverse actuating alliance",
+      "Value": "a",
+      "StrippedValue": "ut",
+      "Description": "Object-based high-level groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 143
         }
       }
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "ad",
-      "Description": "Diverse actuating alliance",
+      "Value": "a",
+      "StrippedValue": "ut",
+      "Description": "Object-based high-level groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 143
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "enim",
-      "StrippedValue": "excepturi",
-      "Description": "Persevering heuristic database",
+      "Value": "voluptatem",
+      "StrippedValue": "alias",
+      "Description": "Open-architected dynamic projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldType": "System.String",
+          "FieldLength": 613
         }
       }
     },
     {
-      "Value": "enim",
-      "StrippedValue": "excepturi",
-      "Description": "Persevering heuristic database",
+      "Value": "voluptatem",
+      "StrippedValue": "alias",
+      "Description": "Open-architected dynamic projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldType": "System.String",
+          "FieldLength": 613
         }
       }
     }
   ],
-  "Description": "Open-architected multi-state groupware",
+  "Description": "Up-sized coherent adapter",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -269,100 +269,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "qui",
-      "PersonId": 938,
-      "Mrmrs": "accusantium",
-      "Firstname": "Lysanne",
-      "Lastname": "O'Reilly",
-      "MiddleName": "Moen-Schulist",
-      "Title": "omnis",
-      "Description": "Diverse tangible secured line",
-      "Email": "faustino@adams.uk",
-      "FullName": "Niko McClure",
-      "DirectPhone": "002-061-6454",
-      "FormalName": "Shanahan-Glover",
-      "CountryId": 385,
-      "ContactId": 796,
-      "ContactName": "Dare, Greenfelder and Harber",
-      "Retired": 554,
-      "Rank": 713,
-      "ActiveInterests": 292,
+      "Position": "veritatis",
+      "PersonId": 485,
+      "Mrmrs": "voluptatibus",
+      "Firstname": "Magali",
+      "Lastname": "Pollich",
+      "MiddleName": "Kessler LLC",
+      "Title": "nihil",
+      "Description": "Mandatory well-modulated concept",
+      "Email": "ocie_dach@bartolettikulas.uk",
+      "FullName": "Ms. Haven Judy Wiegand IV",
+      "DirectPhone": "(907)797-4402 x3152",
+      "FormalName": "Spinka, Ondricka and Denesik",
+      "CountryId": 931,
+      "ContactId": 735,
+      "ContactName": "Simonis, Blick and Wolf",
+      "Retired": 714,
+      "Rank": 25,
+      "ActiveInterests": 988,
       "ContactDepartment": "",
-      "ContactCountryId": 947,
-      "ContactOrgNr": "1402587",
-      "FaxPhone": "571-583-4856 x5828",
-      "MobilePhone": "(156)846-8427",
-      "ContactPhone": "(210)523-4826",
-      "AssociateName": "Johnston Group",
-      "AssociateId": 555,
+      "ContactCountryId": 597,
+      "ContactOrgNr": "1131591",
+      "FaxPhone": "722.949.5556 x895",
+      "MobilePhone": "1-128-969-0738 x46257",
+      "ContactPhone": "802.095.6451 x7982",
+      "AssociateName": "Harvey, Bechtelar and Mohr",
+      "AssociateId": 935,
       "UsePersonAddress": false,
-      "ContactFax": "itaque",
-      "Kanafname": "sed",
-      "Kanalname": "eum",
-      "Post1": "molestiae",
-      "Post2": "incidunt",
-      "Post3": "magnam",
-      "EmailName": "piper_connelly@beahan.name",
-      "ContactFullName": "Shaina Price",
-      "ActiveErpLinks": 993,
-      "TicketPriorityId": 787,
-      "SupportLanguageId": 963,
-      "SupportAssociateId": 555,
+      "ContactFax": "quas",
+      "Kanafname": "nisi",
+      "Kanalname": "est",
+      "Post1": "voluptas",
+      "Post2": "facilis",
+      "Post3": "veritatis",
+      "EmailName": "jabari_russel@pagac.ca",
+      "ContactFullName": "Prof. Eusebio Jacobi IV",
+      "ActiveErpLinks": 635,
+      "TicketPriorityId": 592,
+      "SupportLanguageId": 356,
+      "SupportAssociateId": 431,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldType": "System.Int32",
+          "FieldLength": 562
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "sit",
+  "Kananame": "eaque",
   "Xstop": false,
-  "ActiveInterests": 247,
-  "GroupId": 290,
-  "ActiveStatusMonitorId": 215,
+  "ActiveInterests": 70,
+  "GroupId": 525,
+  "ActiveStatusMonitorId": 264,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 15,
-  "DbiAgentId": 278,
-  "DbiLastSyncronized": "2003-10-29T11:06:34.0964784+01:00",
-  "DbiKey": "vel",
-  "DbiLastModified": "2006-12-13T11:06:34.0964784+01:00",
+  "Deleted": 200,
+  "DbiAgentId": 454,
+  "DbiLastSyncronized": "2013-04-14T13:38:13.2802712+02:00",
+  "DbiKey": "pariatur",
+  "DbiLastModified": "2020-02-26T13:38:13.2802712+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 510,
-  "ActiveErpLinks": 830,
+  "Source": 384,
+  "ActiveErpLinks": 271,
   "BounceEmails": [
-    "noelia@purdy.name",
-    "cydney@jacobi.ca"
+    "deanna_champlin@littlewiegand.info",
+    "melody.mertz@shanahan.uk"
   ],
   "Domains": [
-    "velit",
-    "officia"
+    "explicabo",
+    "qui"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Wyman Gleichner",
-    "SuperOffice:2": "Elvie Auer"
+    "SuperOffice:1": "561025933",
+    "SuperOffice:2": "Keely Cartwright V"
   },
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "deserunt"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "pariatur"
+    "CustomFields1": "expedita",
+    "CustomFields2": "eos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 664
+      "FieldLength": 730
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stroman-Schuppe",
-  "ListItemId": 950
+  "UdListDefinitionName": "Bergnaum, Robel and Kris",
+  "ListItemId": 329
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Howe Inc and Sons",
-    "ToolTip": "Pariatur et quia adipisci in.",
+    "Id": 619,
+    "Name": "Dach Inc and Sons",
+    "ToolTip": "Ut quod aut.",
     "Deleted": false,
-    "Rank": 852,
-    "Type": "expedita",
-    "ColorBlock": 674,
-    "IconHint": "neque",
-    "Selected": false,
-    "LastChanged": "1999-06-09T11:06:34.7083083+02:00",
+    "Rank": 924,
+    "Type": "suscipit",
+    "ColorBlock": 960,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2003-12-18T13:38:13.6708541+01:00",
     "ChildItems": [
       {
-        "Id": 402,
-        "Name": "Howell-Steuber",
-        "ToolTip": "Repellat sed quam voluptatem dolore itaque.",
+        "Id": 866,
+        "Name": "Ebert-Ferry",
+        "ToolTip": "Quis eligendi magnam.",
         "Deleted": true,
-        "Rank": 203,
-        "Type": "earum",
-        "ColorBlock": 478,
-        "IconHint": "optio",
+        "Rank": 7,
+        "Type": "nihil",
+        "ColorBlock": 79,
+        "IconHint": "expedita",
         "Selected": true,
-        "LastChanged": "2014-06-26T11:06:34.7083083+02:00",
+        "LastChanged": "2000-01-04T13:38:13.6708541+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "est",
+        "ExtraInfo": "autem",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Chanel Pouros",
+        "FullName": "Mac Uriah Wintheiser DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 950
+            "FieldLength": 124
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Keith Purdy",
+    "ExtraInfo": "vel",
+    "StyleHint": "quasi",
+    "Hidden": true,
+    "FullName": "Jany Mertie Mills Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldLength": 385
       }
     }
   }

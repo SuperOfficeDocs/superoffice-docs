@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 887
+  "Count": 198
 }
 ```
 
@@ -132,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "fugiat",
-    "PersonId": 205,
-    "Mrmrs": "laborum",
-    "Firstname": "Krystal",
-    "Lastname": "Wunsch",
-    "MiddleName": "Rolfson-Legros",
-    "Title": "itaque",
-    "Description": "Cross-platform multi-state circuit",
-    "Email": "timothy@watsica.com",
-    "FullName": "Miss Bernadine Shanna Nolan",
-    "DirectPhone": "(871)520-6986 x8019",
-    "FormalName": "Tromp Inc and Sons",
-    "CountryId": 259,
-    "ContactId": 11,
-    "ContactName": "Daniel-Hammes",
-    "Retired": 849,
-    "Rank": 255,
-    "ActiveInterests": 170,
+    "Position": "voluptatem",
+    "PersonId": 785,
+    "Mrmrs": "necessitatibus",
+    "Firstname": "Thaddeus",
+    "Lastname": "Zboncak",
+    "MiddleName": "Ruecker-Mayert",
+    "Title": "et",
+    "Description": "Balanced incremental model",
+    "Email": "perry_lakin@lehnerschumm.ca",
+    "FullName": "Claude Bartoletti",
+    "DirectPhone": "197-767-6736",
+    "FormalName": "Bednar, Wyman and Ernser",
+    "CountryId": 270,
+    "ContactId": 500,
+    "ContactName": "Smith, Parker and Heller",
+    "Retired": 571,
+    "Rank": 784,
+    "ActiveInterests": 529,
     "ContactDepartment": "",
-    "ContactCountryId": 579,
-    "ContactOrgNr": "405795",
-    "FaxPhone": "1-690-951-3835 x828",
-    "MobilePhone": "781-130-8934 x17173",
-    "ContactPhone": "667.434.7171 x56731",
-    "AssociateName": "Swift, Strosin and Jerde",
-    "AssociateId": 457,
+    "ContactCountryId": 401,
+    "ContactOrgNr": "1110509",
+    "FaxPhone": "1-251-231-9780",
+    "MobilePhone": "(193)876-2485",
+    "ContactPhone": "308.154.5642",
+    "AssociateName": "Rodriguez, Harvey and Schuppe",
+    "AssociateId": 68,
     "UsePersonAddress": false,
-    "ContactFax": "aliquid",
-    "Kanafname": "quis",
-    "Kanalname": "ut",
-    "Post1": "aut",
-    "Post2": "quo",
-    "Post3": "sapiente",
-    "EmailName": "elva@purdy.biz",
-    "ContactFullName": "Serenity Yundt",
-    "ActiveErpLinks": 112,
-    "TicketPriorityId": 958,
-    "SupportLanguageId": 333,
-    "SupportAssociateId": 792,
+    "ContactFax": "id",
+    "Kanafname": "aperiam",
+    "Kanalname": "fugiat",
+    "Post1": "cupiditate",
+    "Post2": "aperiam",
+    "Post3": "blanditiis",
+    "EmailName": "beulah.pouros@king.ca",
+    "ContactFullName": "Wiley Kirlin V",
+    "ActiveErpLinks": 803,
+    "TicketPriorityId": 716,
+    "SupportLanguageId": 502,
+    "SupportAssociateId": 929,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldType": "System.String",
+        "FieldLength": 725
       }
     }
   }

@@ -32,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=tempora
-GET /api/v1/MDOList/{listname}?query=in
+GET /api/v1/MDOList/{listname}?additional=omnis
+GET /api/v1/MDOList/{listname}?query=cumque
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Grant Group",
-    "ToolTip": "Quis nostrum.",
-    "Deleted": true,
-    "Rank": 702,
-    "Type": "nisi",
+    "Id": 194,
+    "Name": "Brown-Mayert",
+    "ToolTip": "At voluptatem enim quaerat quia excepturi.",
+    "Deleted": false,
+    "Rank": 938,
+    "Type": "magnam",
     "ChildItems": [
       {
-        "Id": 530,
-        "Name": "Marvin-Konopelski",
-        "ToolTip": "Tempora ad.",
+        "Id": 964,
+        "Name": "Weissnat, Bahringer and Walsh",
+        "ToolTip": "Esse voluptas alias amet velit id tenetur.",
         "Deleted": false,
-        "Rank": 206,
-        "Type": "iste",
+        "Rank": 651,
+        "Type": "optio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 287,
-        "ExtraInfo": "quia",
-        "StyleHint": "aut",
-        "FullName": "Karelle Aiden Wiza III",
+        "IconHint": "sint",
+        "ColorBlock": 256,
+        "ExtraInfo": "qui",
+        "StyleHint": "fuga",
+        "FullName": "Mrs. Frieda Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 638
+            "FieldLength": 363
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 513,
-    "ExtraInfo": "doloremque",
-    "StyleHint": "pariatur",
-    "FullName": "Marilyne Torp",
+    "IconHint": "laudantium",
+    "ColorBlock": 617,
+    "ExtraInfo": "illum",
+    "StyleHint": "ea",
+    "FullName": "Pamela Christiansen III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldLength": 121
       }
     }
   }

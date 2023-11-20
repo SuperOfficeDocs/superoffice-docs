@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 650,
-  "StartTime": "1998-12-10T11:06:34.316457+01:00",
-  "EndTime": "1999-08-05T11:06:34.316457+02:00",
-  "Count": 506,
-  "TemplateHeadingId": 824
+  "ProjectId": 722,
+  "StartTime": "2018-04-10T13:38:13.4208858+02:00",
+  "EndTime": "2009-05-12T13:38:13.4208858+02:00",
+  "Count": 70,
+  "TemplateHeadingId": 242
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 615,
-    "Attention": "dolor",
-    "Header": "quae",
-    "Name": "Thompson LLC",
-    "OurRef": "qui",
-    "YourRef": "ut",
-    "Description": "Open-architected homogeneous interface",
-    "DocumentTemplate": "voluptate",
-    "IsPublished": false,
-    "PersonId": 816,
-    "PersonFullName": "Ms. Genesis Isadore Cormier",
-    "AssociateFullName": "Travis Russel",
-    "ContactId": 932,
-    "ContactName": "Marquardt, Mante and Towne",
-    "ProjectId": 280,
-    "ProjectName": "McCullough-Nikolaus",
-    "AssociateId": 869,
-    "Snum": 179,
-    "SaleId": 702,
-    "SaleName": "Kessler-Predovic",
+    "DocumentId": 256,
+    "Attention": "atque",
+    "Header": "nam",
+    "Name": "Wiegand-Greenfelder",
+    "OurRef": "at",
+    "YourRef": "omnis",
+    "Description": "Pre-emptive asynchronous collaboration",
+    "DocumentTemplate": "iusto",
+    "IsPublished": true,
+    "PersonId": 63,
+    "PersonFullName": "Ms. Bonnie Bernhard",
+    "AssociateFullName": "Miss Adan Wisoky IV",
+    "ContactId": 805,
+    "ContactName": "Rowe, Wiegand and Haag",
+    "ProjectId": 395,
+    "ProjectName": "Corwin-Wiza",
+    "AssociateId": 415,
+    "Snum": 326,
+    "SaleId": 747,
+    "SaleName": "Stroman-DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 864
       }
     }
   }

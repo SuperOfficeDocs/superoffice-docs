@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 537,
-  "ModuleOwner": "est"
+  "AssociateId": 711,
+  "ModuleOwner": "nihil"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 664,
-    "Tooltip": "aut",
+    "Total": 255,
+    "Tooltip": "voluptatibus",
     "CanAssign": true,
-    "Free": 23,
+    "Free": 691,
     "InUse": 252,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 570,
-    "Name": "Morar LLC",
-    "Description": "Fundamental 24/7 utilisation",
-    "PrerequisiteModuleName": "Legros-Kirlin",
-    "SortOrder": 345,
-    "ExtraFlags": 358,
+    "ModuleLicenseId": 954,
+    "Name": "Funk, Hilpert and Nienow",
+    "Description": "User-friendly tertiary matrix",
+    "PrerequisiteModuleName": "Stehr LLC",
+    "SortOrder": 777,
+    "ExtraFlags": 571,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 884
       }
     }
   }

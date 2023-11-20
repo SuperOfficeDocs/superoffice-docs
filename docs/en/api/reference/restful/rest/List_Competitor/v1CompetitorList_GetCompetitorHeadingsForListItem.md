@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Von, Roob and Reichel",
-    "ToolTip": "Nam aut harum.",
-    "Deleted": true,
-    "Rank": 170,
-    "Type": "placeat",
-    "ColorBlock": 323,
-    "IconHint": "amet",
+    "Id": 174,
+    "Name": "Stoltenberg, Swaniawski and Monahan",
+    "ToolTip": "Ipsa eveniet provident et assumenda et.",
+    "Deleted": false,
+    "Rank": 566,
+    "Type": "nihil",
+    "ColorBlock": 340,
+    "IconHint": "ipsam",
     "Selected": false,
-    "LastChanged": "2016-04-08T11:06:42.7096943+02:00",
+    "LastChanged": "2011-03-13T13:38:17.9369258+01:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Hodkiewicz, Wolf and Stroman",
-        "ToolTip": "Et ea aspernatur sapiente fuga rem.",
+        "Id": 17,
+        "Name": "Kunze, Jerde and Bode",
+        "ToolTip": "Voluptatibus quis eos temporibus totam mollitia.",
         "Deleted": false,
-        "Rank": 127,
-        "Type": "in",
-        "ColorBlock": 478,
-        "IconHint": "nam",
+        "Rank": 23,
+        "Type": "autem",
+        "ColorBlock": 328,
+        "IconHint": "quam",
         "Selected": true,
-        "LastChanged": "2006-02-05T11:06:42.7096943+01:00",
+        "LastChanged": "2008-07-15T13:38:17.9369258+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Ms. Remington Norma Goldner Jr.",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Adelle Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 880
+            "FieldLength": 154
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "blanditiis",
-    "Hidden": false,
-    "FullName": "Sammy Ebert",
+    "ExtraInfo": "quos",
+    "StyleHint": "doloribus",
+    "Hidden": true,
+    "FullName": "Asha Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 517
       }
     }
   }

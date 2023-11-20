@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 875,
-  "Name": "Buckridge Inc and Sons",
-  "Tooltip": "nesciunt",
-  "Deleted": true,
-  "Rank": 141,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 291,
+  "Name": "Mertz Group",
+  "Tooltip": "assumenda",
+  "Deleted": false,
+  "Rank": 818,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "officia",
+  "ListType": "nam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 143,
-  "Name": "Price, Kuphal and Kuhic",
-  "Tooltip": "ipsa",
-  "Deleted": true,
-  "Rank": 491,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 21,
+  "Name": "Schmitt-Brakus",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 516,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "ListType": "eum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 424
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   }
 }

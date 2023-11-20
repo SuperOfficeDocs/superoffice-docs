@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 469,
-    "Name": "Murazik Group",
-    "ToolTip": "Consequatur esse nihil consequatur.",
+    "Id": 451,
+    "Name": "Hartmann, Cummerata and Pacocha",
+    "ToolTip": "Aperiam amet aut.",
     "Deleted": false,
-    "Rank": 938,
-    "Type": "nisi",
-    "ColorBlock": 586,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "1999-12-18T11:06:42.8815714+01:00",
+    "Rank": 687,
+    "Type": "voluptas",
+    "ColorBlock": 364,
+    "IconHint": "magni",
+    "Selected": false,
+    "LastChanged": "2007-01-06T13:38:18.1087815+01:00",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Pouros Group",
-        "ToolTip": "Hic quo quo quia sunt expedita.",
+        "Id": 736,
+        "Name": "Dietrich, Champlin and Kassulke",
+        "ToolTip": "Fuga distinctio reiciendis ipsum et autem dolorum.",
         "Deleted": true,
-        "Rank": 70,
-        "Type": "reprehenderit",
-        "ColorBlock": 470,
-        "IconHint": "accusamus",
+        "Rank": 213,
+        "Type": "sunt",
+        "ColorBlock": 486,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2022-11-18T11:06:42.8815714+01:00",
+        "LastChanged": "2012-11-29T13:38:18.1087815+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "nisi",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Janice Renner DDS"
+        "FullName": "Deangelo Alayna Dickens V"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "animi",
+    "ExtraInfo": "dicta",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Hayley Walter"
+    "FullName": "Callie Lakin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 89,
-    "Name": "Kuhic-Brekke",
-    "ToolTip": "Sed dolorem velit totam nisi.",
-    "Deleted": false,
-    "Rank": 562,
-    "Type": "occaecati",
-    "ColorBlock": 57,
-    "IconHint": "architecto",
-    "Selected": false,
-    "LastChanged": "2009-12-03T11:06:42.8815714+01:00",
+    "Id": 411,
+    "Name": "Haley-Volkman",
+    "ToolTip": "Delectus quo consectetur.",
+    "Deleted": true,
+    "Rank": 716,
+    "Type": "perferendis",
+    "ColorBlock": 611,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "2019-01-06T13:38:18.1087815+01:00",
     "ChildItems": [
       {
-        "Id": 73,
-        "Name": "Lang-Kilback",
-        "ToolTip": "Autem molestias quos consectetur aut eveniet sit ducimus.",
+        "Id": 984,
+        "Name": "Harvey Group",
+        "ToolTip": "Aliquid dolorum eligendi ex.",
         "Deleted": false,
-        "Rank": 261,
-        "Type": "sed",
-        "ColorBlock": 639,
-        "IconHint": "sapiente",
+        "Rank": 100,
+        "Type": "est",
+        "ColorBlock": 80,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2005-02-07T11:06:42.8815714+01:00",
+        "LastChanged": "2007-10-16T13:38:18.1087815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "quo",
+        "ExtraInfo": "aut",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Katelin Kub",
+        "FullName": "David Fahey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 814
+            "FieldLength": 849
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "sapiente",
-    "Hidden": true,
-    "FullName": "Ms. Addie Isabelle Miller",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "occaecati",
+    "Hidden": false,
+    "FullName": "Mr. Hyman Ziemann Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 699
+        "FieldLength": 28
       }
     }
   }

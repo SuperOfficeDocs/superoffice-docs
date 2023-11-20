@@ -87,8 +87,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 564,
-  "Filter": "perferendis"
+  "SelectionId": 113,
+  "Filter": "consequatur"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weissnat Inc and Sons",
-    "Operator": "aut",
+    "Name": "Kihn-Smitham",
+    "Operator": "blanditiis",
     "Values": [
-      "et",
-      "porro"
+      "tempore",
+      "qui"
     ],
     "DisplayValues": [
-      "veritatis",
-      "deserunt"
+      "explicabo",
+      "est"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Bradtke-VonRueden",
-        "Operator": "ut",
+        "Name": "Koepp-Farrell",
+        "Operator": "et",
         "Values": [
-          "consectetur",
-          "ducimus"
+          "similique",
+          "itaque"
         ],
         "DisplayValues": [
-          "officia",
-          "vero"
+          "totam",
+          "alias"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 326,
+        "InterParenthesis": 566,
         "InterOperator": "And",
-        "UniqueHash": 506
+        "UniqueHash": 340
       }
     ],
-    "InterParenthesis": 580,
+    "InterParenthesis": 985,
     "InterOperator": "And",
-    "UniqueHash": 245
+    "UniqueHash": 508
   }
 ]
 ```

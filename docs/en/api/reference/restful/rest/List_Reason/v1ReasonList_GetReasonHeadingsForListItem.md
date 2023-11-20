@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Cormier-Osinski",
-    "ToolTip": "Non et minus perferendis sed nulla culpa beatae.",
+    "Id": 236,
+    "Name": "Russel Inc and Sons",
+    "ToolTip": "Molestiae possimus.",
     "Deleted": false,
-    "Rank": 536,
-    "Type": "consequatur",
-    "ColorBlock": 95,
-    "IconHint": "est",
+    "Rank": 460,
+    "Type": "earum",
+    "ColorBlock": 375,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2017-01-24T11:06:43.0222001+01:00",
+    "LastChanged": "2009-06-09T13:38:18.2025212+02:00",
     "ChildItems": [
       {
-        "Id": 517,
-        "Name": "Herman-Jewess",
-        "ToolTip": "Aliquam ipsam maiores et ex inventore.",
+        "Id": 193,
+        "Name": "Conn, Johns and Bosco",
+        "ToolTip": "Quam illo qui non perspiciatis ipsam atque animi.",
         "Deleted": false,
-        "Rank": 275,
-        "Type": "nemo",
-        "ColorBlock": 667,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2011-10-03T11:06:43.0222001+02:00",
+        "Rank": 277,
+        "Type": "aspernatur",
+        "ColorBlock": 973,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2009-08-22T13:38:18.2025212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Octavia Erik Koelpin PhD",
+        "ExtraInfo": "soluta",
+        "StyleHint": "beatae",
+        "Hidden": false,
+        "FullName": "Lukas Blick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 660
+            "FieldType": "System.String",
+            "FieldLength": 334
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "quam",
+    "ExtraInfo": "expedita",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Blaze Jast",
+    "FullName": "Ms. Tavares Ernestina Wehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldLength": 867
       }
     }
   }

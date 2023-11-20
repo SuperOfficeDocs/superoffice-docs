@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 414,
-    "AssociateName": "Nikolaus-Cremin",
-    "AssociateId": 907,
+    "AccountId": 89,
+    "AssociateName": "Hodkiewicz Inc and Sons",
+    "AssociateId": 387,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   },
   {
-    "AccountId": 414,
-    "AssociateName": "Nikolaus-Cremin",
-    "AssociateId": 907,
+    "AccountId": 89,
+    "AssociateName": "Hodkiewicz Inc and Sons",
+    "AssociateId": 387,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   }

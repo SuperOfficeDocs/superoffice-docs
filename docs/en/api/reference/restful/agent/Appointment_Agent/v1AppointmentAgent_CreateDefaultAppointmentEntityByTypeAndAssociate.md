@@ -104,7 +104,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -136,7 +137,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 79
+  "AssociateId": 104
 }
 ```
 
@@ -151,125 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-09-21T11:06:33.6476155+02:00",
-  "AppointmentId": 568,
-  "Description": "Realigned local architecture",
-  "StartDate": "2005-04-14T11:06:33.6476155+02:00",
-  "EndDate": "2008-01-23T11:06:33.6476155+01:00",
+  "CreatedDate": "2007-08-06T13:38:12.983428+02:00",
+  "AppointmentId": 503,
+  "Description": "Decentralized systemic throughput",
+  "StartDate": "1997-06-28T13:38:12.983428+02:00",
+  "EndDate": "1998-07-12T13:38:12.983428+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 999,
+  "MotherId": 105,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-09-20T11:06:33.6476155+02:00",
+  "UpdatedDate": "2001-02-07T13:38:12.9990505+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 892,
+  "ActiveLinks": 864,
   "Links": [
     {
-      "EntityName": "Hettinger-Buckridge",
-      "Id": 810,
-      "Description": "Managed leading edge project",
-      "ExtraInfo": "sunt",
-      "LinkId": 949,
+      "EntityName": "Beahan, Skiles and Lubowitz",
+      "Id": 643,
+      "Description": "Configurable grid-enabled database",
+      "ExtraInfo": "iusto",
+      "LinkId": 328,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldLength": 558
         }
       }
     }
   ],
-  "AlarmLeadTime": "soluta",
+  "AlarmLeadTime": "aut",
   "HasAlarm": false,
-  "ColorIndex": 319,
+  "ColorIndex": 805,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "consequatur",
-  "LeadTime": "debitis",
-  "Location": "laborum",
-  "RejectCounter": 606,
-  "RejectReason": "innovate strategic synergies",
+  "IsAlldayEvent": false,
+  "LagTime": "iste",
+  "LeadTime": "architecto",
+  "Location": "nemo",
+  "RejectCounter": 534,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 737,
-      "PersonId": 652,
-      "ContactId": 95,
-      "EmailId": 45,
+      "AssociateId": 796,
+      "PersonId": 217,
+      "ContactId": 842,
+      "EmailId": 995,
       "SendEmail": true,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 737,
-      "PersonId": 652,
-      "ContactId": 95,
-      "EmailId": 45,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "okey.wuckert@fritsch.ca",
+      "Description": "Reduced explicit contingency"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-06-05T11:06:33.6476155+02:00",
+  "ActiveDate": "2009-05-07T13:38:12.9990505+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 827,
+  "PreferredTZLocation": 75,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 444,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 649,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "esse",
-  "Title": "beatae",
-  "Agenda": "dolor",
-  "InternalNotes": "dignissimos",
+  "CentralserviceVideomeetId": "eligendi",
+  "Title": "ut",
+  "Agenda": "nesciunt",
+  "InternalNotes": "itaque",
   "UserDefinedFields": {
-    "SuperOffice:1": "Arvilla Klein",
-    "SuperOffice:2": "Dr. Claudie Celia Ferry PhD"
+    "SuperOffice:1": "1113992191",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequuntur",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatum",
-    "CustomFields2": "quasi"
+    "CustomFields1": "sed",
+    "CustomFields2": "laborum"
   },
-  "PublishEventDate": "2007-07-07T11:06:33.6476155+02:00",
-  "PublishTo": "1998-04-23T11:06:33.6476155+02:00",
-  "PublishFrom": "2000-11-13T11:06:33.6476155+01:00",
+  "PublishEventDate": "2001-12-04T13:38:12.9990505+01:00",
+  "PublishTo": "2008-12-27T13:38:12.9990505+01:00",
+  "PublishFrom": "2011-05-14T13:38:12.9990505+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 918,
+      "VisibleId": 836,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 559
+          "FieldLength": 421
         }
       }
     },
     {
-      "VisibleId": 918,
+      "VisibleId": 836,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 559
+          "FieldLength": 421
         }
       }
     }
@@ -279,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 268
     }
   }
 }

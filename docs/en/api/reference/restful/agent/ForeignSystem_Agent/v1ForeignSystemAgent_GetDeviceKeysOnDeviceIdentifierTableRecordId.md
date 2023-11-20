@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mante LLC",
-  "DeviceName": "Kozey, Wyman and Robel",
-  "DeviceIdentifier": "ducimus",
-  "TableName": "Paucek, Ledner and Batz",
-  "RecordId": 172
+  "ApplicationName": "Herman, Wyman and Terry",
+  "DeviceName": "McLaughlin Inc and Sons",
+  "DeviceIdentifier": "soluta",
+  "TableName": "Kautzer LLC",
+  "RecordId": 53
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "debitis",
-    "Value": "eius",
-    "RecordId": 716,
-    "CreatedDate": "2011-06-04T11:06:34.6458113+02:00",
-    "UpdatedDate": "2002-04-06T11:06:34.6458113+02:00",
-    "UpdatedBy": "dolores",
-    "CreatedBy": "voluptatum",
-    "TableName": "Batz-Boehm",
+    "Key": "dolor",
+    "Value": "totam",
+    "RecordId": 363,
+    "CreatedDate": "2003-06-24T13:38:13.6396102+02:00",
+    "UpdatedDate": "2021-03-19T13:38:13.6396102+01:00",
+    "UpdatedBy": "ut",
+    "CreatedBy": "tempora",
+    "TableName": "Toy-Fahey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldType": "System.Int32",
+        "FieldLength": 114
       }
     }
   }

@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Jacobi Inc and Sons",
-    "ToolTip": "Sit eum autem.",
+    "Id": 528,
+    "Name": "Morar Group",
+    "ToolTip": "Dolores nobis et qui.",
     "Deleted": false,
-    "Rank": 198,
-    "Type": "rem",
-    "ColorBlock": 850,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "1997-01-01T11:06:35.6939994+01:00",
+    "Rank": 79,
+    "Type": "amet",
+    "ColorBlock": 534,
+    "IconHint": "dignissimos",
+    "Selected": true,
+    "LastChanged": "2019-02-22T13:38:14.3584195+01:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Bernier-Hamill",
-        "ToolTip": "Officiis ea est.",
+        "Id": 275,
+        "Name": "Heaney, Yost and Ziemann",
+        "ToolTip": "Nostrum distinctio neque architecto earum numquam beatae.",
         "Deleted": false,
-        "Rank": 226,
-        "Type": "ex",
-        "ColorBlock": 782,
-        "IconHint": "illum",
+        "Rank": 630,
+        "Type": "optio",
+        "ColorBlock": 448,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2003-04-15T11:06:35.6939994+02:00",
+        "LastChanged": "2002-04-23T13:38:14.3584195+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Dr. Micah Prohaska",
+        "ExtraInfo": "eius",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Prof. Nichole Madie Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 382
+            "FieldLength": 862
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "modi",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Addie Wiza",
+    "FullName": "Prof. Kaleb Ayla Ankunding I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldLength": 186
       }
     }
   }

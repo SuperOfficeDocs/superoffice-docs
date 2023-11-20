@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Hyatt Inc and Sons",
-    "ToolTip": "Quis libero ut asperiores.",
+    "Id": 797,
+    "Name": "Ziemann Inc and Sons",
+    "ToolTip": "Et est et consequatur explicabo autem a odio.",
     "Deleted": false,
-    "Rank": 100,
-    "Type": "et",
-    "ColorBlock": 640,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2004-05-09T11:06:42.0978516+02:00",
+    "Rank": 424,
+    "Type": "autem",
+    "ColorBlock": 667,
+    "IconHint": "architecto",
+    "Selected": false,
+    "LastChanged": "2005-04-14T13:38:17.5774332+02:00",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Harber-Bogisich",
-        "ToolTip": "Atque nulla odio ut est et unde ut.",
+        "Id": 90,
+        "Name": "Lebsack-Sporer",
+        "ToolTip": "Ea ut nemo ea ut.",
         "Deleted": true,
-        "Rank": 792,
-        "Type": "eligendi",
-        "ColorBlock": 989,
-        "IconHint": "laudantium",
-        "Selected": false,
-        "LastChanged": "2010-02-15T11:06:42.0978516+01:00",
+        "Rank": 402,
+        "Type": "quod",
+        "ColorBlock": 249,
+        "IconHint": "eum",
+        "Selected": true,
+        "LastChanged": "2011-10-21T13:38:17.5774332+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "non",
+        "StyleHint": "distinctio",
         "Hidden": true,
-        "FullName": "Prof. Jean Volkman",
+        "FullName": "Brigitte Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 1000
+            "FieldLength": 627
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "fugit",
+    "ExtraInfo": "quia",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Dr. Itzel Mitchell",
+    "FullName": "Julius Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldType": "System.String",
+        "FieldLength": 854
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 575,
-    "Name": "Bahringer Inc and Sons",
-    "Tooltip": "ipsum",
-    "Deleted": false,
-    "Rank": 279,
-    "UdListDefinitionId": 626,
+    "HeadingId": 741,
+    "Name": "Koepp LLC",
+    "Tooltip": "voluptatibus",
+    "Deleted": true,
+    "Rank": 114,
+    "UdListDefinitionId": 469,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldType": "System.String",
+        "FieldLength": 766
       }
     }
   }

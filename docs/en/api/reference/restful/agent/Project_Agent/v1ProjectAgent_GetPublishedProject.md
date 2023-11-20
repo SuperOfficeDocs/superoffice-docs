@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 707
+  "ProjectId": 38
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 916,
-  "Name": "Berge Inc and Sons",
-  "Description": "Streamlined mobile service-desk",
+  "ProjectId": 625,
+  "Name": "Hoeger Inc and Sons",
+  "Description": "Re-contextualized bottom-line hierarchy",
   "URL": "http://www.example.com/",
-  "Type": "ullam",
-  "AssociateId": 925,
-  "AssociateFullName": "Nolan Sanford",
-  "TypeId": 593,
-  "Updated": "2012-01-19T11:06:35.1614465+01:00",
-  "StatusId": 142,
-  "Status": "facilis",
-  "TextId": 795,
-  "PublishTo": "2021-11-01T11:06:35.1614465+01:00",
-  "PublishFrom": "2013-02-15T11:06:35.1614465+01:00",
+  "Type": "molestias",
+  "AssociateId": 582,
+  "AssociateFullName": "Ms. Irwin Roscoe Robel II",
+  "TypeId": 182,
+  "Updated": "2020-01-26T13:38:13.9834617+01:00",
+  "StatusId": 524,
+  "Status": "in",
+  "TextId": 194,
+  "PublishTo": "1999-03-16T13:38:13.9834617+01:00",
+  "PublishFrom": "2013-07-27T13:38:13.9834617+02:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1300505",
-  "ActiveErpLinks": 753,
+  "ProjectNumber": "1062422",
+  "ActiveErpLinks": 593,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldLength": 67
     }
   }
 }

@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 366,
+  "PersonId": 748,
   "IncludeProjectDocuments": true,
-  "StartTime": "1998-06-14T11:06:34.316457+02:00",
-  "EndTime": "2013-06-06T11:06:34.316457+02:00",
-  "Count": 40,
+  "StartTime": "2015-07-10T13:38:13.4208858+02:00",
+  "EndTime": "2009-04-15T13:38:13.4208858+02:00",
+  "Count": 773,
   "DocumentTemplateIds": [
-    397,
-    555
+    22,
+    844
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 116,
-    "Attention": "quod",
-    "Header": "doloremque",
-    "Name": "Ritchie, Lowe and Hegmann",
-    "OurRef": "porro",
-    "YourRef": "aut",
-    "Description": "Centralized zero defect approach",
-    "DocumentTemplate": "non",
+    "DocumentId": 42,
+    "Attention": "blanditiis",
+    "Header": "libero",
+    "Name": "Casper, Farrell and Schmidt",
+    "OurRef": "laboriosam",
+    "YourRef": "aliquid",
+    "Description": "Visionary system-worthy archive",
+    "DocumentTemplate": "ut",
     "IsPublished": true,
-    "PersonId": 713,
-    "PersonFullName": "Reilly Nader IV",
-    "AssociateFullName": "Judah Borer I",
-    "ContactId": 291,
-    "ContactName": "Sawayn-Roob",
-    "ProjectId": 737,
-    "ProjectName": "Feeney-Stark",
-    "AssociateId": 308,
-    "Snum": 737,
-    "SaleId": 667,
-    "SaleName": "Swaniawski-Franecki",
+    "PersonId": 899,
+    "PersonFullName": "Delphia Botsford",
+    "AssociateFullName": "Destany Casper DVM",
+    "ContactId": 894,
+    "ContactName": "Cummings LLC",
+    "ProjectId": 981,
+    "ProjectName": "Miller Group",
+    "AssociateId": 960,
+    "Snum": 572,
+    "SaleId": 402,
+    "SaleName": "Simonis, O'Conner and Goyette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 194
+        "FieldType": "System.Int32",
+        "FieldLength": 554
       }
     }
   }

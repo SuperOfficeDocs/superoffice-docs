@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sit",
+    "path": "a",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
+    "path": "a",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 141,
-  "SourcePersonId": 38,
-  "DestinationContactId": 235,
-  "DestinationPersonId": 384,
-  "RelationId": 350,
-  "Comment": "perspiciatis",
-  "RelationDefinitionId": 927,
-  "Reversed": 585,
-  "UpdatedDate": "2005-10-03T11:06:41.7697222+02:00",
-  "CreatedDate": "2023-06-24T11:06:41.7697222+02:00",
+  "SourceContactId": 715,
+  "SourcePersonId": 955,
+  "DestinationContactId": 302,
+  "DestinationPersonId": 785,
+  "RelationId": 353,
+  "Comment": "repellendus",
+  "RelationDefinitionId": 130,
+  "Reversed": 977,
+  "UpdatedDate": "2008-11-24T13:38:17.280593+01:00",
+  "CreatedDate": "2011-02-03T13:38:17.280593+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "McGlynn, Rogahn and Fay",
-  "SourcePersonName": "Bailey Group",
-  "DestinationContactName": "Reichert, Kuhn and Boehm",
-  "DestinationPersonName": "Fahey, Prohaska and Beatty",
-  "ActiveText": "consequatur",
-  "PassiveText": "adipisci",
+  "SourceContactName": "Friesen Group",
+  "SourcePersonName": "Tromp, Stoltenberg and Cormier",
+  "DestinationContactName": "Jast, Thompson and Goodwin",
+  "DestinationPersonName": "Bailey, Beer and Keeling",
+  "ActiveText": "nam",
+  "PassiveText": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 110
+      "FieldType": "System.Int32",
+      "FieldLength": 734
     }
   },
   "_Links": {

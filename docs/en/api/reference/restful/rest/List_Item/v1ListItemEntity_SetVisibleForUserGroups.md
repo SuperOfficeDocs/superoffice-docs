@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Huels, Moen and Walsh",
-    "ToolTip": "Consectetur necessitatibus earum inventore.",
-    "Deleted": false,
-    "Rank": 62,
-    "Type": "non",
-    "ColorBlock": 582,
-    "IconHint": "necessitatibus",
-    "Selected": false,
-    "LastChanged": "2010-01-09T11:06:42.6471966+01:00",
+    "Id": 908,
+    "Name": "Stokes Group",
+    "ToolTip": "Odio minus voluptas molestiae quis accusantium est.",
+    "Deleted": true,
+    "Rank": 397,
+    "Type": "omnis",
+    "ColorBlock": 716,
+    "IconHint": "inventore",
+    "Selected": true,
+    "LastChanged": "2020-08-19T13:38:17.8744364+02:00",
     "ChildItems": [
       {
-        "Id": 788,
-        "Name": "Jast, Dickens and Jaskolski",
-        "ToolTip": "Tenetur eveniet.",
+        "Id": 579,
+        "Name": "Mayert Inc and Sons",
+        "ToolTip": "Cumque velit alias quaerat.",
         "Deleted": true,
-        "Rank": 399,
-        "Type": "est",
-        "ColorBlock": 498,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2023-04-18T11:06:42.6471966+02:00",
+        "Rank": 817,
+        "Type": "sapiente",
+        "ColorBlock": 958,
+        "IconHint": "cupiditate",
+        "Selected": false,
+        "LastChanged": "2013-01-17T13:38:17.8744364+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Miss Madelynn Morar DDS"
+        "ExtraInfo": "et",
+        "StyleHint": "neque",
+        "Hidden": true,
+        "FullName": "Schuyler Tillman"
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "minima",
+    "ExtraInfo": "delectus",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Dr. Earline Schaden"
+    "FullName": "Lina Stroman"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Kuphal LLC",
-    "ToolTip": "Omnis et facere.",
+    "Id": 486,
+    "Name": "Braun-Powlowski",
+    "ToolTip": "Quo incidunt perferendis doloribus perspiciatis.",
     "Deleted": false,
-    "Rank": 1001,
-    "Type": "ut",
-    "ColorBlock": 411,
-    "IconHint": "quidem",
+    "Rank": 866,
+    "Type": "sint",
+    "ColorBlock": 199,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "2004-04-13T11:06:42.6471966+02:00",
+    "LastChanged": "2019-03-19T13:38:17.8900531+01:00",
     "ChildItems": [
       {
-        "Id": 823,
-        "Name": "Effertz LLC",
-        "ToolTip": "Veniam consectetur alias reiciendis sapiente.",
+        "Id": 653,
+        "Name": "Wisozk, Padberg and Berge",
+        "ToolTip": "Nulla suscipit et voluptatem autem officiis possimus.",
         "Deleted": false,
-        "Rank": 696,
-        "Type": "aut",
-        "ColorBlock": 964,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2022-02-27T11:06:42.6471966+01:00",
+        "Rank": 47,
+        "Type": "voluptatibus",
+        "ColorBlock": 397,
+        "IconHint": "magni",
+        "Selected": true,
+        "LastChanged": "2020-07-30T13:38:17.8900531+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Johnathon Jerde",
+        "ExtraInfo": "illo",
+        "StyleHint": "quidem",
+        "Hidden": true,
+        "FullName": "Chauncey Kshlerin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 184
+            "FieldLength": 115
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Brianne Halvorson",
+    "ExtraInfo": "unde",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Mrs. Amelie Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldType": "System.String",
+        "FieldLength": 461
       }
     }
   }

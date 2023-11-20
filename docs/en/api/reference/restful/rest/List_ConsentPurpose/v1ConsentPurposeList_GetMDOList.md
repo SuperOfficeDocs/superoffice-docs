@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
-GET /api/v1/List/ConsentPurpose/MDOItems?query=saepe
+GET /api/v1/List/ConsentPurpose/MDOItems?query=tempore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 714,
-    "Name": "Ernser LLC",
-    "ToolTip": "Fuga et temporibus blanditiis inventore praesentium voluptatibus.",
-    "Deleted": true,
-    "Rank": 854,
-    "Type": "nesciunt",
+    "Id": 152,
+    "Name": "Swift Inc and Sons",
+    "ToolTip": "Voluptas ut maxime accusantium labore unde nostrum est.",
+    "Deleted": false,
+    "Rank": 408,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 231,
-        "Name": "Harris, Rolfson and Macejkovic",
-        "ToolTip": "Doloremque omnis eum.",
-        "Deleted": false,
-        "Rank": 968,
-        "Type": "earum",
+        "Id": 549,
+        "Name": "Ernser, Emmerich and Bernier",
+        "ToolTip": "Minima perspiciatis non sunt quibusdam.",
+        "Deleted": true,
+        "Rank": 777,
+        "Type": "temporibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "architecto",
-        "ColorBlock": 327,
-        "ExtraInfo": "suscipit",
-        "StyleHint": "voluptatum",
-        "FullName": "Miss Dusty Walker",
+        "IconHint": "aut",
+        "ColorBlock": 873,
+        "ExtraInfo": "perferendis",
+        "StyleHint": "aspernatur",
+        "FullName": "Abdullah Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 625
+            "FieldType": "System.String",
+            "FieldLength": 252
           }
         }
       }
     ],
-    "IconHint": "ad",
-    "ColorBlock": 893,
-    "ExtraInfo": "et",
-    "StyleHint": "aut",
-    "FullName": "Mrs. Gregoria Merl Hilll Jr.",
+    "IconHint": "et",
+    "ColorBlock": 731,
+    "ExtraInfo": "expedita",
+    "StyleHint": "nemo",
+    "FullName": "Carmen Nolan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 372
+        "FieldLength": 849
       }
     }
   }

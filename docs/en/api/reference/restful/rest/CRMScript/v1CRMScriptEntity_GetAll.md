@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=iure
-GET /api/v1/CRMScript?$top=679
-GET /api/v1/CRMScript?$skip=600
+GET /api/v1/CRMScript?$entities=dignissimos
+GET /api/v1/CRMScript?$top=766
+GET /api/v1/CRMScript?$skip=636
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=suscipit
+GET /api/v1/CRMScript?$context=impedit
 GET /api/v1/CRMScript?$format=JSON
-GET /api/v1/CRMScript?$jsonSafe=False
+GET /api/v1/CRMScript?$jsonSafe=True
 GET /api/v1/CRMScript?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quo",
+  "odata.nextLink": "laboriosam",
   "value": [
     {
-      "PrimaryKey": 386,
+      "PrimaryKey": 2019,
       "EntityName": "person",
-      "personId": 386,
-      "fullName": "Skye Hills"
+      "personId": 2019,
+      "fullName": "Dexter Schroeder"
     },
     {
-      "PrimaryKey": 7399,
+      "PrimaryKey": 2086,
       "EntityName": "person",
-      "personId": 7399,
-      "fullName": "Reese Hettinger"
+      "personId": 2086,
+      "fullName": "Mr. Rashad Hoyt Gulgowski"
     }
   ]
 }

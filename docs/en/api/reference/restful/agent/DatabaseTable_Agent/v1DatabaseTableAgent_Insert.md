@@ -86,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Beahan, Emmerich and Nienow",
+  "TableName": "Kunze LLC",
   "Columns": [
-    "corporis",
-    "libero"
+    "quaerat",
+    "repudiandae"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "fugit",
-  "Inserts": 961,
-  "Updates": 674,
-  "Deletes": 6,
+  "Message": "sequi",
+  "Inserts": 69,
+  "Updates": 457,
+  "Deletes": 670,
   "RowStatus": [
     {
-      "PrimaryKey": 127,
+      "PrimaryKey": 714,
       "Action": "ColumnsZeroed",
       "RowKeys": [
         "ut",
-        "exercitationem"
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 898
+          "FieldType": "System.Int32",
+          "FieldLength": 80
         }
       }
     },
     {
-      "PrimaryKey": 127,
+      "PrimaryKey": 714,
       "Action": "ColumnsZeroed",
       "RowKeys": [
         "ut",
-        "exercitationem"
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 898
+          "FieldType": "System.Int32",
+          "FieldLength": 80
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 288
     }
   }
 }

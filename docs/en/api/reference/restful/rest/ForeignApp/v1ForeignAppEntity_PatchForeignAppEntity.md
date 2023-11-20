@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "exercitationem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "exercitationem",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 659,
-  "Name": "Runolfsson LLC",
-  "CreatedDate": "2013-12-03T11:06:41.8947242+01:00",
-  "UpdatedDate": "2002-05-18T11:06:41.8947242+02:00",
+  "ForeignAppId": 286,
+  "Name": "Schneider LLC",
+  "CreatedDate": "2022-03-25T13:38:17.4368262+01:00",
+  "UpdatedDate": "2007-01-06T13:38:17.4368262+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 483,
-      "Name": "Sporer-Harber",
-      "CreatedDate": "2013-01-25T11:06:41.8947242+01:00",
-      "UpdatedDate": "2004-08-02T11:06:41.8947242+02:00",
-      "AssociateFullName": "Kaela Darby Larson V",
-      "CreatedBy": "quis",
-      "UpdatedBy": "tenetur",
-      "DeviceIdentifier": "fugiat",
-      "ForeignAppId": 688,
+      "ForeignDeviceId": 536,
+      "Name": "Gaylord LLC",
+      "CreatedDate": "2000-07-20T13:38:17.4368262+02:00",
+      "UpdatedDate": "2020-08-12T13:38:17.4368262+02:00",
+      "AssociateFullName": "Greg Emard",
+      "CreatedBy": "asperiores",
+      "UpdatedBy": "id",
+      "DeviceIdentifier": "sunt",
+      "ForeignAppId": 662,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 692
         }
       }
     }
@@ -169,13 +169,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 491
+      "FieldType": "System.Int32",
+      "FieldLength": 935
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

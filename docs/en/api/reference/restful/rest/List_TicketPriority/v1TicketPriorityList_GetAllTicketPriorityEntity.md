@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 291,
-    "Name": "Sawayn Inc and Sons",
+    "TicketPriorityId": 41,
+    "Name": "Vandervort Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 969,
+    "SortOrder": 159,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 561,
-    "MonStart": "2013-07-19T11:06:43.1159494+02:00",
-    "MonStop": "2022-12-30T11:06:43.1159494+01:00",
-    "TueStart": "1997-10-10T11:06:43.1159494+02:00",
-    "TueStop": "2005-07-31T11:06:43.1159494+02:00",
-    "WedStart": "1997-01-13T11:06:43.1159494+01:00",
-    "WedStop": "2007-10-06T11:06:43.1159494+02:00",
-    "ThuStart": "1997-12-04T11:06:43.1159494+01:00",
-    "ThuStop": "2008-10-11T11:06:43.1159494+02:00",
-    "FriStart": "2018-06-03T11:06:43.1159494+02:00",
-    "FriStop": "1997-09-27T11:06:43.1159494+02:00",
-    "SatStart": "2008-01-17T11:06:43.1159494+01:00",
-    "SatStop": "2016-05-17T11:06:43.1159494+02:00",
-    "SunStart": "2010-04-28T11:06:43.1159494+02:00",
-    "SunStop": "1999-05-06T11:06:43.1159494+02:00",
+    "Deadline": 556,
+    "MonStart": "2007-12-10T13:38:18.2650127+01:00",
+    "MonStop": "2014-04-26T13:38:18.2650127+02:00",
+    "TueStart": "2005-04-19T13:38:18.2650127+02:00",
+    "TueStop": "2012-02-28T13:38:18.2650127+01:00",
+    "WedStart": "1996-07-22T13:38:18.2650127+02:00",
+    "WedStop": "2017-03-28T13:38:18.2650127+02:00",
+    "ThuStart": "2002-03-07T13:38:18.2650127+01:00",
+    "ThuStop": "2018-05-06T13:38:18.2650127+02:00",
+    "FriStart": "2020-10-24T13:38:18.2650127+02:00",
+    "FriStop": "2015-09-22T13:38:18.2650127+02:00",
+    "SatStart": "2009-03-19T13:38:18.2650127+01:00",
+    "SatStop": "2019-03-20T13:38:18.2650127+01:00",
+    "SunStart": "2015-07-23T13:38:18.2650127+02:00",
+    "SunStop": "1996-11-09T13:38:18.2650127+01:00",
     "NonDates": [
-      "nisi",
-      "et"
+      "dicta",
+      "necessitatibus"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 299,
-        "AlertLevel": 187,
-        "AlertTimeout": 732,
-        "Action": 555,
-        "DelegateTo": 517,
-        "ScriptId": 519,
-        "EmailTo": "dolores@wilkinsonstehr.us",
-        "SmsTo": "fugiat",
-        "ReplyTemplateIdCustomer": 137,
-        "ReplyTemplateIdUser": 565,
-        "ReplyTemplateIdCatmast": 376,
-        "ReplyTemplateIdEmail": 209,
-        "RtiCustomerSms": 110,
-        "ReplyTemplateIdUserSms": 362,
-        "ReplyTemplateIdCatmastSms": 977,
-        "ReplyTemplateIdSms": 451,
+        "TicketAlertId": 778,
+        "AlertLevel": 528,
+        "AlertTimeout": 721,
+        "Action": 584,
+        "DelegateTo": 384,
+        "ScriptId": 404,
+        "EmailTo": "cleta@vandervortpaucek.biz",
+        "SmsTo": "beatae",
+        "ReplyTemplateIdCustomer": 955,
+        "ReplyTemplateIdUser": 189,
+        "ReplyTemplateIdCatmast": 144,
+        "ReplyTemplateIdEmail": 259,
+        "RtiCustomerSms": 700,
+        "ReplyTemplateIdUserSms": 427,
+        "ReplyTemplateIdCatmastSms": 310,
+        "ReplyTemplateIdSms": 773,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 395
+            "FieldLength": 902
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldLength": 255
       }
     }
   }

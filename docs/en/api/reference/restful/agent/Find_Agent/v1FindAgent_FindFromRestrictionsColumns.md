@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Jast, Predovic and Feil",
-      "Operator": "dolores",
+      "Name": "Medhurst LLC",
+      "Operator": "voluptas",
       "Values": [
-        "laboriosam",
-        "aut"
+        "deleniti",
+        "nisi"
       ],
       "DisplayValues": [
-        "ad",
-        "adipisci"
+        "dicta",
+        "ea"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 745,
+      "InterParenthesis": 289,
       "InterOperator": "And",
-      "UniqueHash": 614
+      "UniqueHash": 533
     }
   ],
-  "ProviderName": "Kris-Tremblay",
+  "ProviderName": "Kunze-Rempel",
   "DesiredColumns": [
-    "distinctio",
-    "ad"
+    "quia",
+    "quibusdam"
   ],
-  "PageSize": 809,
-  "PageNumber": 304
+  "PageSize": 326,
+  "PageNumber": 863
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Runolfsson LLC",
-      "DisplayTooltip": "quia",
-      "DisplayType": "vel",
-      "CanOrderBy": true,
-      "Name": "Von-Stamm",
+      "DisplayName": "Berge, Greenfelder and Brown",
+      "DisplayTooltip": "ratione",
+      "DisplayType": "iste",
+      "CanOrderBy": false,
+      "Name": "Hodkiewicz Group",
       "CanRestrictBy": false,
-      "RestrictionType": "sint",
-      "RestrictionListName": "Strosin, Corkery and Heaney",
-      "IsVisible": false,
-      "ExtraInfo": "ipsa",
-      "Width": "mollitia",
-      "IconHint": "omnis",
-      "HeadingIconHint": "dolorem"
+      "RestrictionType": "ut",
+      "RestrictionListName": "Hudson, Larkin and Mitchell",
+      "IsVisible": true,
+      "ExtraInfo": "ipsum",
+      "Width": "consequatur",
+      "IconHint": "est",
+      "HeadingIconHint": "doloremque"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "McClure-Goodwin",
-      "PrimaryKey": 1000,
+      "EntityName": "Quigley-Reichel",
+      "PrimaryKey": 606,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quaerat",
-          "TooltipHint": "necessitatibus",
-          "LinkHint": "tenetur"
+          "DisplayValue": "harum",
+          "TooltipHint": "accusamus",
+          "LinkHint": "id"
         }
       },
-      "LinkHint": "distinctio",
-      "StyleHint": "exercitationem",
+      "LinkHint": "facilis",
+      "StyleHint": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 429
+          "FieldType": "System.String",
+          "FieldLength": 241
         }
       }
     }
   ],
-  "RowCount": 558,
+  "RowCount": 348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldLength": 591
     }
   }
 }

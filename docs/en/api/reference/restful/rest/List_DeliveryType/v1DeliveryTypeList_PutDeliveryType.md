@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488,
-  "Name": "Schulist, Walker and Daniel",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 534,
-  "Rank": 743
+  "Id": 319,
+  "Name": "Predovic LLC",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "UdListDefinitionId": 397,
+  "Rank": 376
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 917,
-  "Name": "Keeling Inc and Sons",
-  "Tooltip": "enim",
+  "Id": 443,
+  "Name": "Gaylord LLC",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 487,
-  "Rank": 82,
+  "UdListDefinitionId": 339,
+  "Rank": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldLength": 517
     }
   }
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Witting-Auer",
+  "UdListDefinitionName": "Hansen-Skiles",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 374,
-  "Name": "Altenwerth Group",
-  "Tooltip": "id",
-  "Deleted": false,
-  "UdListDefinitionId": 483,
-  "Rank": 981,
+  "Id": 186,
+  "Name": "Auer, Barrows and Kreiger",
+  "Tooltip": "cupiditate",
+  "Deleted": true,
+  "UdListDefinitionId": 457,
+  "Rank": 899,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 387
     }
   }
 }

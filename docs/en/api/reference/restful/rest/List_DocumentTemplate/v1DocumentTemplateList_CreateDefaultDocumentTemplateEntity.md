@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 777,
-  "Name": "Greenfelder, Roberts and Sanford",
-  "Tooltip": "nulla",
-  "SaveInDb": 56,
-  "Filename": "labore",
-  "DefaultOref": "dolorem",
+  "DocumentTemplateId": 815,
+  "Name": "Prohaska LLC",
+  "Tooltip": "rerum",
+  "SaveInDb": 236,
+  "Filename": "nulla",
+  "DefaultOref": "sunt",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 554,
-  "IntentId": 487,
-  "IsDefaultPublished": false,
-  "Rank": 528,
-  "LoadTemplateFromPlugin": 309,
-  "MimeType": "error",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 759,
+  "AutoeventId": 442,
+  "IntentId": 539,
+  "IsDefaultPublished": true,
+  "Rank": 787,
+  "LoadTemplateFromPlugin": 573,
+  "MimeType": "distinctio",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 176,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "regan_williamson@greenfelder.com",
-  "IncludeSignature": false,
+  "EmailSubject": "buford@kutchmohr.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kris_grimes@bayer.ca",
+  "SenderEmailAddress": "marcel@ernser.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 66
     }
   }
 }

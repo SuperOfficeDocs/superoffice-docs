@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "placeat",
+  "Provider": "voluptatem",
   "Restrictions": [
     {
-      "Name": "Altenwerth-Funk",
-      "Operator": "non",
+      "Name": "Lynch-Becker",
+      "Operator": "deserunt",
       "Values": [
-        "minus",
-        "et"
+        "sint",
+        "voluptatibus"
       ],
       "DisplayValues": [
-        "consectetur",
-        "doloremque"
+        "neque",
+        "nisi"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 586,
+      "InterParenthesis": 178,
       "InterOperator": "And",
-      "UniqueHash": 895
+      "UniqueHash": 653
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  73,
-  818
+  582,
+  740
 ]
 ```

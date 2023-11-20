@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Name": "Runte, Jewess and Hane",
-    "ToolTip": "Nihil autem doloremque quis.",
+    "Id": 555,
+    "Name": "Price, Becker and Shanahan",
+    "ToolTip": "Reiciendis pariatur recusandae sed rem.",
     "Deleted": false,
-    "Rank": 74,
-    "Type": "nihil",
-    "ColorBlock": 664,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2018-02-28T11:06:34.6614378+01:00",
+    "Rank": 969,
+    "Type": "ea",
+    "ColorBlock": 548,
+    "IconHint": "earum",
+    "Selected": true,
+    "LastChanged": "2004-09-26T13:38:13.6396102+02:00",
     "ChildItems": [
       {
-        "Id": 118,
-        "Name": "Eichmann, Balistreri and Bayer",
-        "ToolTip": "Consequuntur rerum.",
-        "Deleted": true,
-        "Rank": 452,
-        "Type": "dolore",
-        "ColorBlock": 667,
-        "IconHint": "perspiciatis",
+        "Id": 348,
+        "Name": "Strosin-O'Kon",
+        "ToolTip": "Nostrum sed aperiam reprehenderit minima non est.",
+        "Deleted": false,
+        "Rank": 622,
+        "Type": "quam",
+        "ColorBlock": 29,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2018-05-15T11:06:34.6614378+02:00",
+        "LastChanged": "1996-08-03T13:38:13.6396102+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Melvina Klocko IV",
+        "ExtraInfo": "vel",
+        "StyleHint": "quod",
+        "Hidden": true,
+        "FullName": "Prof. Sydni Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 935
+            "FieldType": "System.Int32",
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "nemo",
-    "Hidden": false,
-    "FullName": "Diana Considine",
+    "ExtraInfo": "rerum",
+    "StyleHint": "sapiente",
+    "Hidden": true,
+    "FullName": "Hermina Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldLength": 247
       }
     }
   }

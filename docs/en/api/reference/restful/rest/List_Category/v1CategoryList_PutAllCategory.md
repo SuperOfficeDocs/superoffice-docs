@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Hagenes-Yost",
-    "Tooltip": "voluptates",
-    "Deleted": true,
-    "UdListDefinitionId": 902,
-    "Rank": 835
+    "Id": 890,
+    "Name": "Okuneva-Farrell",
+    "Tooltip": "a",
+    "Deleted": false,
+    "UdListDefinitionId": 605,
+    "Rank": 918
   },
   {
-    "Id": 284,
-    "Name": "Hagenes-Yost",
-    "Tooltip": "voluptates",
-    "Deleted": true,
-    "UdListDefinitionId": 902,
-    "Rank": 835
+    "Id": 890,
+    "Name": "Okuneva-Farrell",
+    "Tooltip": "a",
+    "Deleted": false,
+    "UdListDefinitionId": 605,
+    "Rank": 918
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
-    "Name": "Eichmann LLC",
-    "Tooltip": "et",
+    "Id": 115,
+    "Name": "Blick-Littel",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "UdListDefinitionId": 535,
-    "Rank": 214,
+    "UdListDefinitionId": 338,
+    "Rank": 699,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldType": "System.String",
+        "FieldLength": 489
       }
     }
   }

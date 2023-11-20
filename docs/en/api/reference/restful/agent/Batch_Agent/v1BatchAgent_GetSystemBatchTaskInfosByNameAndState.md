@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Price, Nader and Bernhard",
+  "TaskName": "Schumm, Medhurst and Paucek",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Name": "Gulgowski, Botsford and Collins",
-    "AssociateId": 789,
-    "DetailsTable": 691,
-    "DetailsRecord": 331,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 436,
+    "Name": "Schuppe LLC",
+    "AssociateId": 166,
+    "DetailsTable": 953,
+    "DetailsRecord": 333,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quis",
-      "ParameterObject2": "dolorem"
+      "ParameterObject1": "sint",
+      "ParameterObject2": "doloremque"
     },
-    "LastStarted": "2018-08-19T11:06:33.7972715+02:00",
-    "Created": "2016-12-10T11:06:33.7972715+01:00",
-    "StartCount": 885,
-    "DatabaseSerialNumber": "1276281",
-    "Context": "assumenda",
-    "Result": "omnis",
+    "LastStarted": "2021-09-29T13:38:13.0927968+02:00",
+    "Created": "2014-02-05T13:38:13.0927968+01:00",
+    "StartCount": 311,
+    "DatabaseSerialNumber": "777729",
+    "Context": "perspiciatis",
+    "Result": "excepturi",
     "State": "All",
-    "Description": "Robust homogeneous policy",
-    "Response": "cum",
-    "Request": "voluptatem",
-    "ProgressDescription": "Stand-alone zero tolerance Graphical User Interface",
-    "ProgressPercent": 96,
-    "FileName": "Bayer-Jones",
+    "Description": "Synchronised next generation challenge",
+    "Response": "placeat",
+    "Request": "voluptas",
+    "ProgressDescription": "Ameliorated needs-based project",
+    "ProgressPercent": 74,
+    "FileName": "Nader Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldType": "System.String",
+        "FieldLength": 873
       }
     }
   }

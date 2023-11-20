@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Watsica, Christiansen and Lemke"
+  "FieldName": "Schoen, Schaden and Leffler"
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 387,
-  "FieldName": "Maggio-Jacobi",
-  "Label": "et",
-  "Tooltip": "minus",
+  "QuoteLineConfigurationId": 89,
+  "FieldName": "Hettinger Inc and Sons",
+  "Label": "molestias",
+  "Tooltip": "et",
   "Editable": false,
-  "InUse": false,
+  "InUse": true,
   "Mandatory": false,
-  "Rank": 433,
+  "Rank": 251,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 102
     }
   }
 }

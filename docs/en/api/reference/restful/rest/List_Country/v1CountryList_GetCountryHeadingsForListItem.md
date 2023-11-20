@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Kassulke-Barrows",
-    "ToolTip": "Possimus et omnis minus.",
+    "Id": 517,
+    "Name": "Wiza-Kuphal",
+    "ToolTip": "Non odit ipsam libero impedit.",
     "Deleted": false,
-    "Rank": 337,
-    "Type": "illum",
-    "ColorBlock": 666,
-    "IconHint": "quidem",
-    "Selected": true,
-    "LastChanged": "2007-09-07T11:06:42.7565694+02:00",
+    "Rank": 604,
+    "Type": "necessitatibus",
+    "ColorBlock": 743,
+    "IconHint": "laudantium",
+    "Selected": false,
+    "LastChanged": "2000-05-28T13:38:18.0150452+02:00",
     "ChildItems": [
       {
-        "Id": 433,
-        "Name": "Durgan, Schuster and Walker",
-        "ToolTip": "Omnis minus facilis quidem.",
+        "Id": 181,
+        "Name": "Kiehn LLC",
+        "ToolTip": "Maxime aut.",
         "Deleted": false,
-        "Rank": 614,
-        "Type": "amet",
-        "ColorBlock": 450,
-        "IconHint": "enim",
+        "Rank": 158,
+        "Type": "aut",
+        "ColorBlock": 736,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "1997-06-08T11:06:42.7565694+02:00",
+        "LastChanged": "2018-06-15T13:38:18.0150452+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "quis",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Mr. Meagan Daugherty",
+        "FullName": "Mrs. Stephany Genesis Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 3
+            "FieldType": "System.String",
+            "FieldLength": 26
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "quidem",
+    "ExtraInfo": "rem",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Litzy Wunsch",
+    "FullName": "Maymie Kris Conroy Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 527
       }
     }
   }

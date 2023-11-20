@@ -91,17 +91,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 453,
-  "Name": "Zulauf-O'Connell",
-  "ContentType": "qui",
-  "AttSize": 109,
-  "InlineImage": true,
-  "ContentId": "aperiam",
-  "AuthKey": "natus"
+  "AttachmentId": 72,
+  "Name": "Daniel-Schuppe",
+  "ContentType": "tempora",
+  "AttSize": 785,
+  "InlineImage": false,
+  "ContentId": "in",
+  "AuthKey": "expedita"
 }
 ```
 
@@ -112,19 +112,19 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 376,
-  "Name": "Lubowitz-Walter",
-  "ContentType": "aut",
-  "AttSize": 164,
-  "InlineImage": false,
-  "ContentId": "quo",
-  "AuthKey": "totam",
+  "AttachmentId": 86,
+  "Name": "Gutkowski Group",
+  "ContentType": "et",
+  "AttSize": 379,
+  "InlineImage": true,
+  "ContentId": "ipsum",
+  "AuthKey": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 574
     }
   },
   "_Links": {

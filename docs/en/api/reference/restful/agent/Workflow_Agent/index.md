@@ -28,12 +28,6 @@ generated: true
 
 * [POST Agents/Workflow/DeleteWorkflowGoal](v1WorkflowAgent_DeleteWorkflowGoal.md)
 
-* [POST Agents/Workflow/CreateDefaultWorkflowStepOption](v1WorkflowAgent_CreateDefaultWorkflowStepOption.md)
-
-* [POST Agents/Workflow/SaveWorkflowStepOption](v1WorkflowAgent_SaveWorkflowStepOption.md)
-
-* [POST Agents/Workflow/DeleteWorkflowStepOption](v1WorkflowAgent_DeleteWorkflowStepOption.md)
-
 * [POST Agents/Workflow/CreateDefaultWorkflowTrigger](v1WorkflowAgent_CreateDefaultWorkflowTrigger.md)
 
 * [POST Agents/Workflow/SaveWorkflowTrigger](v1WorkflowAgent_SaveWorkflowTrigger.md)
@@ -63,6 +57,8 @@ generated: true
 * [POST Agents/Workflow/AddAfterWorkflowStep](v1WorkflowAgent_AddAfterWorkflowStep.md)
 
 * [POST Agents/Workflow/CreateDefaultWorkflowStepFromType](v1WorkflowAgent_CreateDefaultWorkflowStepFromType.md)
+
+* [POST Agents/Workflow/CreateDefaultWorkflowStepOptionFromType](v1WorkflowAgent_CreateDefaultWorkflowStepOptionFromType.md)
 
 * [POST Agents/Workflow/GetWorkflowStepOption](v1WorkflowAgent_GetWorkflowStepOption.md)
 

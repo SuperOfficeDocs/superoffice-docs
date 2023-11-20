@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "cupiditate",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cupiditate",
+    "path": "non",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 465,
-  "Name": "Denesik LLC",
-  "Config": "illo",
-  "Rank": 870,
-  "Client": "voluptates",
-  "Style": "rem",
+  "DashboardThemeId": 197,
+  "Name": "Volkman Group",
+  "Config": "quam",
+  "Rank": 954,
+  "Client": "debitis",
+  "Style": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 331
     }
   },
   "_Links": {

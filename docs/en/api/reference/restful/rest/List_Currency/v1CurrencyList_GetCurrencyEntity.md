@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 106,
-  "Name": "Wyman-Torp",
-  "Tooltip": "iste",
-  "Rank": 620,
-  "Rate": 22022.618,
-  "Units": 30725.736,
-  "Deleted": true,
+  "CurrencyId": 319,
+  "Name": "Goyette, Heidenreich and Reichert",
+  "Tooltip": "beatae",
+  "Rank": 783,
+  "Rate": 19625.108,
+  "Units": 13817.805999999999,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 286
     }
   }
 }

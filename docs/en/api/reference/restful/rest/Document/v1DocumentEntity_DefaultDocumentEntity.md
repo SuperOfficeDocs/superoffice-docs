@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 28 Nov 2021 11:06:41 G11T
+Last-Modified: Sat, 25 Apr 2009 13:38:17 G4T
 
 {
-  "DocumentId": 330,
+  "DocumentId": 270,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "vel",
-  "Header": "odit",
-  "Name": "Conn-Altenwerth",
-  "OurRef": "qui",
-  "YourRef": "dolorem",
-  "CreatedDate": "2007-10-16T11:06:41.7853483+02:00",
-  "UpdatedDate": "2021-11-28T11:06:41.7853483+01:00",
-  "Description": "Fully-configurable full-range software",
+  "Attention": "sequi",
+  "Header": "totam",
+  "Name": "Muller, Littel and Stracke",
+  "OurRef": "magni",
+  "YourRef": "et",
+  "CreatedDate": "2002-05-03T13:38:17.2962183+02:00",
+  "UpdatedDate": "2009-04-25T13:38:17.2962183+02:00",
+  "Description": "Multi-tiered uniform implementation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-04-16T11:06:41.8009734+02:00",
-  "ExternalRef": "quo",
+  "Date": "2021-07-22T13:38:17.2962183+02:00",
+  "ExternalRef": "exercitationem",
   "Completed": "Completed",
-  "ActiveLinks": 492,
+  "ActiveLinks": 405,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sanford, Heidenreich and Nolan",
-      "Id": 959,
-      "Description": "Customizable actuating attitude",
-      "ExtraInfo": "voluptatibus",
-      "LinkId": 86,
+      "EntityName": "Rippin Inc and Sons",
+      "Id": 238,
+      "Description": "Profound 6th generation implementation",
+      "ExtraInfo": "ab",
+      "LinkId": 723,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 490
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 766,
-  "Snum": 15,
+  "SuggestedDocumentId": 236,
+  "Snum": 846,
   "UserDefinedFields": {
-    "SuperOffice:1": "Luigi Renner",
-    "SuperOffice:2": "1181926555"
+    "SuperOffice:1": "Mr. Angel Myrtis Weber",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "2003-08-13T11:06:41.8009734+02:00",
-  "PublishTo": "1999-02-22T11:06:41.8009734+01:00",
-  "PublishFrom": "2021-04-23T11:06:41.8009734+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2022-07-03T13:38:17.2962183+02:00",
+  "PublishTo": "2005-08-10T13:38:17.2962183+02:00",
+  "PublishFrom": "2011-09-22T13:38:17.2962183+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 792,
+      "VisibleId": 973,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldLength": 767
         }
       }
     },
     {
-      "VisibleId": 792,
+      "VisibleId": 973,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldLength": 767
         }
       }
     }
@@ -192,7 +192,7 @@ Last-Modified: Sun, 28 Nov 2021 11:06:41 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldLength": 990
     }
   }
 }

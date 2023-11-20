@@ -71,7 +71,7 @@ OK
 GET /api/v1/Person/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Hackett Inc and Sons",
-  "DisplayName": "Pfeffer-Rath",
-  "Description": "Decentralized discrete middleware",
-  "ShortLabel": "cumque",
-  "HideLabel": true,
+  "FieldName": "Lueilwitz, Blanda and Carroll",
+  "DisplayName": "Willms-Casper",
+  "Description": "Programmable leading edge initiative",
+  "ShortLabel": "nesciunt",
+  "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsIndexed": true,
+  "IsMandatory": true,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 201,
-  "TemplateVariableName": "Hamill LLC"
+  "Rank": 357,
+  "TemplateVariableName": "Shields Inc and Sons"
 }
 ```

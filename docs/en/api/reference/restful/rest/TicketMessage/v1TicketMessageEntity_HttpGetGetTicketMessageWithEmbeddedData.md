@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,78 +107,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 193,
+  "EjMessageId": 181,
   "Ticket": null,
-  "CreatedAt": "2001-06-26T11:06:42.3322282+02:00",
+  "CreatedAt": "2000-10-05T13:38:17.7492894+02:00",
   "CreatedBy": null,
-  "Author": "pariatur",
+  "Author": "consequuntur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "molestias",
-  "TimeSpent": 543,
-  "Body": "voluptas",
-  "HtmlBody": "tenetur",
-  "EmailHeader": "gwen.strosin@von.ca",
-  "DebugInfo": "quo",
-  "MailSorter": "sit",
+  "MessageId": "explicabo",
+  "TimeSpent": 357,
+  "Body": "dolore",
+  "HtmlBody": "magni",
+  "EmailHeader": "katheryn@kozey.info",
+  "DebugInfo": "aliquam",
+  "MailSorter": "id",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "facere",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 52,
-      "Name": "Cronin-West",
-      "Value": "sapiente",
+      "Id": 429,
+      "Name": "Littel Group",
+      "Value": "hic",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldType": "System.String",
+          "FieldLength": 348
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "ut",
-  "Sentiment": 621,
-  "SentimentConfidence": 637,
+  "Important": true,
+  "Language": "sit",
+  "Sentiment": 585,
+  "SentimentConfidence": 88,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 624,
-      "Name": "Simonis Group",
-      "ContentType": "molestiae",
-      "AttSize": 631,
+      "AttachmentId": 936,
+      "Name": "Russel-Fay",
+      "ContentType": "sequi",
+      "AttSize": 858,
       "InlineImage": true,
-      "ContentId": "ut",
-      "AuthKey": "architecto",
+      "ContentId": "natus",
+      "AuthKey": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldLength": 259
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "unde"
+    "CustomFields1": "rerum",
+    "CustomFields2": "quae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldLength": 155
     }
   }
 }

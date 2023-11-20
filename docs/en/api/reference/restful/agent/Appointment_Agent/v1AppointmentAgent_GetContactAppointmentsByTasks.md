@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 118,
-  "StartTime": "2006-11-17T11:06:33.4601191+01:00",
-  "EndTime": "1998-01-22T11:06:33.4601191+01:00",
-  "Count": 893,
+  "ContactId": 105,
+  "StartTime": "1997-10-01T13:38:12.8584402+02:00",
+  "EndTime": "2009-12-12T13:38:12.8584402+01:00",
+  "Count": 713,
   "TaskIds": [
-    542,
-    71
+    411,
+    574
   ]
 }
 ```
@@ -154,63 +155,64 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "AppointmentId": 104,
-    "StartDate": "2009-03-08T11:06:33.4601191+01:00",
-    "EndDate": "2012-08-10T11:06:33.4601191+02:00",
+    "StartDate": "2009-03-16T13:38:12.8584402+01:00",
+    "EndDate": "1999-09-03T13:38:12.8584402+02:00",
     "Type": "BookingForChecklist",
-    "Task": "rerum",
-    "AssociateFullName": "Ms. Olga Cecil Mayer PhD",
-    "ContactName": "Nikolaus Group",
-    "Description": "Profound 24/7 contingency",
-    "PersonFullName": "Jadon Russel",
-    "PersonId": 675,
-    "ContactId": 733,
-    "ProjectId": 109,
-    "ProjectName": "Murray-Effertz",
+    "Task": "corrupti",
+    "AssociateFullName": "Candice Gleichner",
+    "ContactName": "Lehner Group",
+    "Description": "Decentralized user-facing attitude",
+    "PersonFullName": "Albin Sanford Collier DVM",
+    "PersonId": 702,
+    "ContactId": 369,
+    "ProjectId": 1002,
+    "ProjectName": "Goodwin LLC",
     "IsPublished": false,
-    "AssociateId": 476,
-    "ColorIndex": 527,
+    "AssociateId": 670,
+    "ColorIndex": 833,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 815,
-    "PriorityName": "Gibson, Conroy and Collins",
+    "PriorityId": 206,
+    "PriorityName": "Batz Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2008-04-25T11:06:33.4601191+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2012-12-22T13:38:12.8584402+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-09-13T11:06:33.4601191+02:00",
-    "RecurringEndDate": "2023-06-10T11:06:33.4601191+02:00",
-    "MotherId": 437,
-    "AssignedBy": 311,
-    "AssignedByFullName": "Sylvester Erdman",
+    "RecurringStartDate": "2021-07-10T13:38:12.8584402+02:00",
+    "RecurringEndDate": "2011-12-07T13:38:12.8584402+01:00",
+    "MotherId": 916,
+    "AssignedBy": 383,
+    "AssignedByFullName": "Prof. Jennie Casper Sr.",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "nihil",
-    "SaleId": 580,
-    "SaleName": "Emard-Altenwerth",
-    "AssociateName": "Kihn-Abernathy",
-    "CreatedDate": "2002-08-01T11:06:33.4601191+02:00",
-    "CreatedBy": "illum",
-    "CreatedByFullName": "Sydnie Gaylord",
-    "CreatedByAssociateId": 578,
+    "Location": "beatae",
+    "AlarmLeadTime": "unde",
+    "SaleId": 185,
+    "SaleName": "O'Reilly-Cruickshank",
+    "AssociateName": "Greenholt, Gutmann and Schiller",
+    "CreatedDate": "2019-06-30T13:38:12.8584402+02:00",
+    "CreatedBy": "sint",
+    "CreatedByFullName": "Leora Norwood Schmeler MD",
+    "CreatedByAssociateId": 263,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "debitis",
-    "Agenda": "ut",
-    "InternalNotes": "incidunt",
+    "PreferredTZLocation": 100,
+    "Title": "et",
+    "Agenda": "tempore",
+    "InternalNotes": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 472
       }
     }
   }

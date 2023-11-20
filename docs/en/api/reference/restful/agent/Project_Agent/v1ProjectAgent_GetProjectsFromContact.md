@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 463
+  "ContactId": 101
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 918,
-    "Name": "Hudson, Cormier and Mayer",
-    "Description": "Fully-configurable methodical Graphical User Interface",
+    "ProjectId": 555,
+    "Name": "Murray Group",
+    "Description": "Integrated content-based product",
     "URL": "http://www.example.com/",
-    "Type": "rerum",
-    "AssociateId": 567,
-    "AssociateFullName": "Lee Shields",
-    "TypeId": 362,
-    "Updated": "2007-08-18T11:06:35.1614465+02:00",
-    "StatusId": 444,
-    "Status": "quae",
-    "TextId": 864,
-    "PublishTo": "2020-05-02T11:06:35.1614465+02:00",
-    "PublishFrom": "2002-11-10T11:06:35.1614465+01:00",
-    "IsPublished": false,
+    "Type": "et",
+    "AssociateId": 217,
+    "AssociateFullName": "Narciso O'Hara",
+    "TypeId": 389,
+    "Updated": "2013-08-21T13:38:13.9834617+02:00",
+    "StatusId": 695,
+    "Status": "id",
+    "TextId": 395,
+    "PublishTo": "2006-10-06T13:38:13.9834617+02:00",
+    "PublishFrom": "2018-01-28T13:38:13.9834617+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "365767",
-    "ActiveErpLinks": 911,
+    "ProjectNumber": "1076883",
+    "ActiveErpLinks": 845,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldType": "System.Int32",
+        "FieldLength": 852
       }
     }
   }

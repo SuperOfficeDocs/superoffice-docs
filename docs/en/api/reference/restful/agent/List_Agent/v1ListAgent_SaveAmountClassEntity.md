@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 372,
-  "Name": "Sauer-Hagenes",
-  "Tooltip": "corrupti",
-  "Rank": 44,
-  "AmountFrom": 3989.582,
-  "AmountTo": 12711.503999999999,
-  "Deleted": true,
-  "CurrencyId": 556
+  "AmountClassId": 934,
+  "Name": "Thompson Inc and Sons",
+  "Tooltip": "omnis",
+  "Rank": 343,
+  "AmountFrom": 14222.091999999999,
+  "AmountTo": 22991.023999999998,
+  "Deleted": false,
+  "CurrencyId": 433
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 197,
-  "Name": "Grady-Hessel",
-  "Tooltip": "molestiae",
-  "Rank": 799,
-  "AmountFrom": 6199.052,
-  "AmountTo": 6722.4299999999994,
-  "Deleted": false,
-  "CurrencyId": 463,
+  "AmountClassId": 798,
+  "Name": "Hudson-Boyle",
+  "Tooltip": "sit",
+  "Rank": 122,
+  "AmountFrom": 19321.11,
+  "AmountTo": 2898.95,
+  "Deleted": true,
+  "CurrencyId": 677,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldType": "System.Int32",
+      "FieldLength": 288
     }
   }
 }

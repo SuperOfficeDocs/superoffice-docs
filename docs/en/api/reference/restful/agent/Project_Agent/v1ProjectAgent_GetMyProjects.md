@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 625,
-    "Name": "Rutherford LLC",
-    "Description": "Upgradable multi-state time-frame",
+    "ProjectId": 272,
+    "Name": "Champlin, Douglas and Heathcote",
+    "Description": "Balanced tertiary artificial intelligence",
     "URL": "http://www.example.com/",
-    "Type": "expedita",
-    "AssociateId": 275,
-    "AssociateFullName": "Alta Collins",
-    "TypeId": 30,
-    "Updated": "2007-04-22T11:06:35.1614465+02:00",
-    "StatusId": 80,
-    "Status": "maxime",
-    "TextId": 677,
-    "PublishTo": "2007-10-25T11:06:35.1614465+02:00",
-    "PublishFrom": "2022-02-22T11:06:35.1614465+01:00",
+    "Type": "quam",
+    "AssociateId": 739,
+    "AssociateFullName": "Kale Zieme",
+    "TypeId": 387,
+    "Updated": "2008-03-21T13:38:13.9834617+01:00",
+    "StatusId": 589,
+    "Status": "id",
+    "TextId": 259,
+    "PublishTo": "2013-12-24T13:38:13.9834617+01:00",
+    "PublishFrom": "2013-05-14T13:38:13.9834617+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "909320",
-    "ActiveErpLinks": 25,
+    "ProjectNumber": "672209",
+    "ActiveErpLinks": 380,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 172
+        "FieldType": "System.Int32",
+        "FieldLength": 231
       }
     }
   }

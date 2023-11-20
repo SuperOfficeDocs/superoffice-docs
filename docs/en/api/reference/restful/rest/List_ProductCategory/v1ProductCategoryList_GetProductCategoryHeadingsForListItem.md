@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Harris Group",
-    "ToolTip": "Et ut non qui.",
+    "Id": 444,
+    "Name": "Harris-Ondricka",
+    "ToolTip": "Sed aut provident ea iste ducimus velit.",
     "Deleted": false,
-    "Rank": 168,
-    "Type": "et",
-    "ColorBlock": 836,
-    "IconHint": "quaerat",
+    "Rank": 667,
+    "Type": "corrupti",
+    "ColorBlock": 79,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2021-07-02T11:06:42.9128214+02:00",
+    "LastChanged": "2009-02-22T13:38:18.1244081+01:00",
     "ChildItems": [
       {
-        "Id": 354,
-        "Name": "Bergstrom, Satterfield and Bartell",
-        "ToolTip": "Cum officia eum et ut et et qui.",
-        "Deleted": true,
-        "Rank": 882,
-        "Type": "voluptate",
-        "ColorBlock": 600,
-        "IconHint": "ea",
+        "Id": 233,
+        "Name": "Howell, Murazik and Abbott",
+        "ToolTip": "Adipisci cum nostrum.",
+        "Deleted": false,
+        "Rank": 866,
+        "Type": "quod",
+        "ColorBlock": 394,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "1999-01-14T11:06:42.9128214+01:00",
+        "LastChanged": "2015-07-07T13:38:18.1244081+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "est",
+        "ExtraInfo": "dolores",
+        "StyleHint": "molestiae",
         "Hidden": true,
-        "FullName": "Cordell Hessel",
+        "FullName": "Marcella Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 219
+            "FieldLength": 937
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "dolor",
+    "ExtraInfo": "nihil",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Timmy Huels",
+    "FullName": "Lizeth Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 145
       }
     }
   }

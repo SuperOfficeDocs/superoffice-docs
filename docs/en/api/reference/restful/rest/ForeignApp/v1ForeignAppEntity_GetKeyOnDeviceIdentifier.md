@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 22 Apr 1999 11:06:41 G4T
+Last-Modified: Sat, 28 Jan 2017 13:38:17 G1T
 
 {
-  "Key": "illum",
-  "Value": "ea",
-  "RecordId": 405,
-  "CreatedDate": "2023-09-03T11:06:41.8947242+02:00",
-  "UpdatedDate": "1999-04-22T11:06:41.8947242+02:00",
-  "UpdatedBy": "dolores",
-  "CreatedBy": "in",
-  "TableName": "Stokes-Lockman",
+  "Key": "expedita",
+  "Value": "qui",
+  "RecordId": 515,
+  "CreatedDate": "1998-03-25T13:38:17.4524494+01:00",
+  "UpdatedDate": "2017-01-28T13:38:17.4524494+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "similique",
+  "TableName": "Goodwin Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldType": "System.String",
+      "FieldLength": 313
     }
   }
 }

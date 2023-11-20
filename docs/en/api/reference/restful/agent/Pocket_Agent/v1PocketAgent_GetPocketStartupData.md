@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "quia",
-    "rerum"
+    "deserunt",
+    "sunt"
   ],
-  "CurrentClientTime": "2005-04-27T11:06:35.0833177+02:00"
+  "CurrentClientTime": "2010-04-13T13:38:13.8584753+02:00"
 }
 ```
 
@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "enim",
-    "possimus"
+    "cumque",
+    "soluta"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 277,
-  "NotificationsCount": 321,
+  "OverdueSalesCount": 213,
+  "NotificationsCount": 719,
   "SystemWebPanels": [
     {
-      "WebPanelId": 938,
-      "Name": "Dare Group",
-      "Tooltip": "iure",
-      "Deleted": false,
-      "Rank": 313,
+      "WebPanelId": 281,
+      "Name": "Effertz Inc and Sons",
+      "Tooltip": "incidunt",
+      "Deleted": true,
+      "Rank": 726,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": true,
+      "OnCentral": false,
       "OnSatellite": true,
-      "OnTravel": true,
+      "OnTravel": false,
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": false,
-      "ShowInAddressBar": false,
+      "ShowInToolBar": true,
+      "ShowInAddressBar": true,
       "ShowInStatusBar": false,
-      "WindowName": "Maggio Inc and Sons",
+      "WindowName": "Rutherford, Yost and Gleichner",
       "Url": "http://www.example.com/",
-      "ProgId": "cupiditate",
-      "Icon": 977,
-      "AlwaysReloadOnShow": true,
+      "ProgId": "omnis",
+      "Icon": 748,
+      "AlwaysReloadOnShow": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldType": "System.String",
+          "FieldLength": 697
         }
       }
     }
@@ -145,34 +145,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "harum",
+      "RawValue": "esse",
       "Specification": null,
-      "DisplayValue": "ducimus",
-      "DisplayTooltip": "optio",
+      "DisplayValue": "harum",
+      "DisplayTooltip": "sed",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 729,
-      "PrefDescId": 992,
-      "TableName": "Legros, Koelpin and Conn",
-      "UserPreferenceId": 207,
+      "TargetId": 586,
+      "PrefDescId": 372,
+      "TableName": "Mohr-Roob",
+      "UserPreferenceId": 580,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 496
+          "FieldType": "System.Int32",
+          "FieldLength": 108
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "sed",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 577
+      "FieldLength": 3
     }
   }
 }

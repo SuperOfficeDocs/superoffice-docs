@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 256,
-  "Name": "Gleichner Group",
-  "Tooltip": "veniam",
-  "Deleted": true,
-  "UdListDefinitionId": 186,
-  "Rank": 680
+  "Id": 980,
+  "Name": "Berge LLC",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "UdListDefinitionId": 985,
+  "Rank": 943
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
-  "Name": "Willms-Kozey",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 344,
-  "Rank": 708,
+  "Id": 796,
+  "Name": "Mayer Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 679,
+  "Rank": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldType": "System.Int32",
+      "FieldLength": 817
     }
   }
 }

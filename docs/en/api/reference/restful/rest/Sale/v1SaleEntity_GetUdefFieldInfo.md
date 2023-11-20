@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 605,
-  "ColumnId": 729,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 618,
-  "FieldLabel": "repudiandae",
-  "FieldLeft": 876,
-  "FieldTop": 114,
+  "UDefFieldId": 633,
+  "ColumnId": 614,
+  "FieldDefault": "ratione",
+  "FieldHeight": 729,
+  "FieldLabel": "sed",
+  "FieldLeft": 676,
+  "FieldTop": 954,
   "FieldType": "Checkbox",
-  "FieldWidth": 852,
-  "FormatMask": "deleniti",
+  "FieldWidth": 920,
+  "FormatMask": "eum",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 76,
-  "LabelLeft": 936,
-  "LabelTop": 81,
-  "LabelWidth": 739,
-  "LastVersionId": 240,
-  "ListTableId": 268,
+  "IsIndexed": true,
+  "LabelHeight": 782,
+  "LabelLeft": 930,
+  "LabelTop": 157,
+  "LabelWidth": 360,
+  "LastVersionId": 671,
+  "ListTableId": 566,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 42,
-  "ProgId": "aspernatur",
-  "IsReadOnly": false,
-  "ShortLabel": "labore",
-  "TabOrder": 958,
-  "TextLength": 414,
-  "Tooltip": "quia",
-  "UdefIdentity": 144,
-  "UDListDefinitionId": 341,
+  "Page1LineNo": 527,
+  "ProgId": "minima",
+  "IsReadOnly": true,
+  "ShortLabel": "iusto",
+  "TabOrder": 316,
+  "TextLength": 833,
+  "Tooltip": "eligendi",
+  "UdefIdentity": 911,
+  "UDListDefinitionId": 451,
   "Justification": "Center",
-  "Version": 690,
-  "TemplateVariableName": "Hane-Bogisich",
-  "HasBeenPublished": true,
-  "MdoListName": "Bode Inc and Sons",
+  "Version": 341,
+  "TemplateVariableName": "Halvorson LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Pollich-Hodkiewicz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 568
+      "FieldType": "System.Int32",
+      "FieldLength": 688
     }
   }
 }

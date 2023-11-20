@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "vel",
-  "Value": "omnis",
-  "RecordId": 376,
-  "CreatedDate": "2008-12-22T11:06:41.8947242+01:00",
-  "UpdatedDate": "2013-07-16T11:06:41.8947242+02:00",
-  "UpdatedBy": "cumque",
-  "CreatedBy": "est",
-  "TableName": "Bechtelar Group"
+  "Key": "accusamus",
+  "Value": "voluptatem",
+  "RecordId": 838,
+  "CreatedDate": "2012-12-26T13:38:17.4524494+01:00",
+  "UpdatedDate": "2003-06-18T13:38:17.4524494+02:00",
+  "UpdatedBy": "adipisci",
+  "CreatedBy": "eligendi",
+  "TableName": "Wehner-Hansen"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "consequuntur",
-  "Value": "quo",
-  "RecordId": 10,
-  "CreatedDate": "1997-03-13T11:06:41.8947242+01:00",
-  "UpdatedDate": "2009-03-24T11:06:41.8947242+01:00",
-  "UpdatedBy": "omnis",
-  "CreatedBy": "nihil",
-  "TableName": "Marvin LLC",
+  "Key": "voluptas",
+  "Value": "aut",
+  "RecordId": 43,
+  "CreatedDate": "2014-07-12T13:38:17.4524494+02:00",
+  "UpdatedDate": "2012-11-29T13:38:17.4524494+01:00",
+  "UpdatedBy": "labore",
+  "CreatedBy": "architecto",
+  "TableName": "Murphy, Rosenbaum and Rippin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 978
+      "FieldType": "System.Int32",
+      "FieldLength": 258
     }
   }
 }

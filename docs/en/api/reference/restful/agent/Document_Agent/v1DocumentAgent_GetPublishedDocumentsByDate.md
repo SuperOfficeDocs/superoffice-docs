@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 765,
+  "PersonId": 303,
   "IncludeProjectDocuments": false,
-  "StartTime": "2000-04-21T11:06:34.3008382+02:00",
-  "EndTime": "1997-07-15T11:06:34.3008382+02:00",
-  "Count": 584
+  "StartTime": "2023-07-15T13:38:13.4208858+02:00",
+  "EndTime": "2014-04-06T13:38:13.4208858+02:00",
+  "Count": 444
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 192,
-    "Attention": "ipsam",
-    "Header": "et",
-    "Name": "Schultz, Smitham and Haag",
-    "OurRef": "iusto",
-    "YourRef": "in",
-    "Description": "Multi-channelled grid-enabled middleware",
-    "DocumentTemplate": "molestiae",
+    "DocumentId": 743,
+    "Attention": "sed",
+    "Header": "debitis",
+    "Name": "Green, Quigley and Brekke",
+    "OurRef": "qui",
+    "YourRef": "qui",
+    "Description": "Multi-layered discrete application",
+    "DocumentTemplate": "nam",
     "IsPublished": false,
-    "PersonId": 883,
-    "PersonFullName": "Armani Bianka O'Keefe PhD",
-    "AssociateFullName": "Justyn Will",
-    "ContactId": 403,
-    "ContactName": "Watsica Group",
-    "ProjectId": 765,
-    "ProjectName": "Swaniawski Group",
-    "AssociateId": 607,
-    "Snum": 921,
-    "SaleId": 308,
-    "SaleName": "Streich LLC",
+    "PersonId": 323,
+    "PersonFullName": "Cecilia Schiller Jr.",
+    "AssociateFullName": "Khalid Reichel",
+    "ContactId": 605,
+    "ContactName": "Cremin-Balistreri",
+    "ProjectId": 661,
+    "ProjectName": "Walker-Rolfson",
+    "AssociateId": 775,
+    "Snum": 775,
+    "SaleId": 517,
+    "SaleName": "Mitchell, Barton and Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 607
       }
     }
   }

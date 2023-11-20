@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 105,
-    "Name": "Durgan-Ryan",
-    "Tooltip": "modi",
-    "Deleted": true,
-    "Rank": 389,
-    "UdListDefinitionId": 569,
+    "HeadingId": 564,
+    "Name": "Torp Group",
+    "Tooltip": "hic",
+    "Deleted": false,
+    "Rank": 566,
+    "UdListDefinitionId": 835,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 693
+        "FieldType": "System.String",
+        "FieldLength": 377
       }
     }
   }

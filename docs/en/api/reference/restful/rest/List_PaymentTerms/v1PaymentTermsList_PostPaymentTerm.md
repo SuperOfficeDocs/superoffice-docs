@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 811,
-  "Name": "Haley Inc and Sons",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "UdListDefinitionId": 821,
-  "Rank": 923
+  "Id": 902,
+  "Name": "O'Hara Group",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 743,
+  "Rank": 137
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 858,
-  "Name": "O'Kon LLC",
-  "Tooltip": "pariatur",
-  "Deleted": false,
-  "UdListDefinitionId": 162,
-  "Rank": 155,
+  "Id": 860,
+  "Name": "Feeney LLC",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "UdListDefinitionId": 593,
+  "Rank": 56,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldType": "System.String",
+      "FieldLength": 364
     }
   }
 }

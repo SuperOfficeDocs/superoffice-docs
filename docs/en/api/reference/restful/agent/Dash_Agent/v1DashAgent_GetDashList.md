@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    120,
-    276
+    422,
+    429
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 7,
-    "UniqueId": "est",
-    "Name": "Frami-Wehner",
-    "Description": "Multi-lateral zero defect Graphical User Interface",
-    "AssociateId": 107,
-    "Columns": 1001,
+    "DashboardId": 364,
+    "UniqueId": "laborum",
+    "Name": "Wuckert LLC",
+    "Description": "Re-engineered dedicated internet solution",
+    "AssociateId": 434,
+    "Columns": 920,
     "Theme": null,
-    "VisibleForAll": 885,
+    "VisibleForAll": 129,
     "VisibleForAssociates": [
-      593,
-      276
+      178,
+      529
     ],
     "VisibleForGroups": [
-      133,
-      321
+      824,
+      583
     ],
-    "PinForAll": 678,
+    "PinForAll": 672,
     "PinForAssociates": [
-      684,
-      555
+      881,
+      793
     ],
     "PinForGroups": [
-      130,
-      166
+      117,
+      7
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 523
+        "FieldType": "System.Int32",
+        "FieldLength": 129
       }
     }
   }

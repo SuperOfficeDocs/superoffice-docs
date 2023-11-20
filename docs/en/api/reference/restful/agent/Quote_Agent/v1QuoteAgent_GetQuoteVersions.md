@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 69
+  "QuoteId": 499
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 996,
-    "ERPQuoteVersionKey": "et",
-    "QuoteId": 931,
-    "Description": "Adaptive demand-driven system engine",
-    "Number": "1429137",
+    "QuoteVersionId": 637,
+    "ERPQuoteVersionKey": "rerum",
+    "QuoteId": 612,
+    "Description": "Front-line needs-based core",
+    "Number": "1391465",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 434,
-    "SentDate": "2005-08-29T11:06:35.1770754+02:00",
-    "FollowupId": 405,
-    "ExpirationDate": "2012-02-16T11:06:35.1770754+01:00",
-    "DeliveryCountryId": 455,
+    "LikelyQuoteAlternativeId": 325,
+    "SentDate": "2020-03-29T13:38:13.9990881+02:00",
+    "FollowupId": 730,
+    "ExpirationDate": "2008-06-12T13:38:13.9990881+02:00",
+    "DeliveryCountryId": 379,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 969,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "distinctio",
-    "ERPPaymentTypeKey": "ut",
-    "ERPDeliveryTermsKey": "debitis",
-    "ERPDeliveryTypeKey": "ut",
-    "Rank": 978,
-    "ApprovedBy": 742,
-    "ApprovedText": "inventore",
-    "ApprovedRegisteredBy": 839,
-    "ApprovedRegisteredDate": "2015-11-16T11:06:35.1770754+01:00",
-    "ExtraField1": "enim",
-    "ExtraField2": "doloribus",
-    "ExtraField3": "autem",
-    "ExtraField4": "delectus",
-    "ExtraField5": "omnis",
-    "LastRecalculated": "2014-06-18T11:06:35.1926981+02:00",
-    "Updated": "2022-08-18T11:06:35.1926981+02:00",
-    "UpdatedAssociateId": 235,
-    "Registered": "1998-08-01T11:06:35.1926981+02:00",
-    "RegisteredAssociateId": 645,
-    "RequestAssociateId": 993,
-    "RequestComment": "hic",
+    "InvoiceCountryId": 157,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "delectus",
+    "ERPPaymentTypeKey": "aut",
+    "ERPDeliveryTermsKey": "laudantium",
+    "ERPDeliveryTypeKey": "error",
+    "Rank": 491,
+    "ApprovedBy": 756,
+    "ApprovedText": "officiis",
+    "ApprovedRegisteredBy": 697,
+    "ApprovedRegisteredDate": "2022-01-12T13:38:13.9990881+01:00",
+    "ExtraField1": "provident",
+    "ExtraField2": "minima",
+    "ExtraField3": "porro",
+    "ExtraField4": "incidunt",
+    "ExtraField5": "voluptatibus",
+    "LastRecalculated": "2010-03-12T13:38:13.9990881+01:00",
+    "Updated": "2020-01-09T13:38:13.9990881+01:00",
+    "UpdatedAssociateId": 182,
+    "Registered": "2004-05-13T13:38:13.9990881+02:00",
+    "RegisteredAssociateId": 598,
+    "RequestAssociateId": 948,
+    "RequestComment": "nihil",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 53,
-        "ERPQuoteAlternativeKey": "cumque",
-        "QuoteVersionId": 775,
-        "Name": "Mueller-Medhurst",
-        "Description": "Switchable logistical functionalities",
+        "QuoteAlternativeId": 959,
+        "ERPQuoteAlternativeKey": "animi",
+        "QuoteVersionId": 5,
+        "Name": "Toy Group",
+        "Description": "Fundamental cohesive alliance",
         "Status": "Error",
-        "Reason": "empower one-to-one experiences",
-        "ERPDiscountPercent": 8612.232,
-        "ERPDiscountAmount": 19471.541999999998,
-        "DiscountPercent": 29782.402,
-        "DiscountAmount": 11981.282,
+        "Reason": "",
+        "ERPDiscountPercent": 1172.116,
+        "ERPDiscountAmount": 7505.9299999999994,
+        "DiscountPercent": 6885.398,
+        "DiscountAmount": 29926.566,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "consequatur",
-        "VAT": 21032.273999999998,
-        "EarningPercent": 26416.486,
-        "EarningAmount": 30735.138,
-        "SubTotal": 2522.87,
-        "TotalPrice": 15090.21,
-        "ExtraField1": "accusantium",
-        "ExtraField2": "eos",
-        "ExtraField3": "delectus",
-        "ExtraField4": "ut",
-        "ExtraField5": "eum",
+        "VATInfo": "modi",
+        "VAT": 9050.992,
+        "EarningPercent": 5258.852,
+        "EarningAmount": 11765.036,
+        "SubTotal": 23827.802,
+        "TotalPrice": 25983.994,
+        "ExtraField1": "tempora",
+        "ExtraField2": "aut",
+        "ExtraField3": "optio",
+        "ExtraField4": "vel",
+        "ExtraField5": "omnis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 324
+            "FieldType": "System.Int32",
+            "FieldLength": 589
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 307
       }
     }
   }

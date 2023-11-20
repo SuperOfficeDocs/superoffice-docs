@@ -26,7 +26,7 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=68
+POST /api/v1/Agents/Contact/GetContact?contactId=783
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Contact/GetContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,36 +100,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 726,
-  "Name": "Herman-Wintheiser",
-  "OrgNr": "806448",
+  "ContactId": 806,
+  "Name": "Witting, Grimes and Schuster",
+  "OrgNr": "1580862",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "voluptas",
-  "DirectPhone": "1-859-393-2840",
-  "AssociateId": 595,
-  "CountryId": 206,
-  "EmailAddress": "cynthia@hackett.info",
-  "Kananame": "facilis",
-  "EmailAddressName": "elisabeth_douglas@will.uk",
+  "City": "consequatur",
+  "DirectPhone": "709.953.5138 x17299",
+  "AssociateId": 688,
+  "CountryId": 737,
+  "EmailAddress": "caroline.satterfield@weissnat.co.uk",
+  "Kananame": "dolores",
+  "EmailAddressName": "declan.moen@marks.info",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Francesca Cody McKenzie DDS",
+  "AssociateFullName": "Ron Quitzon",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "sit",
-  "FullName": "Miss Effie Stokes MD",
+  "FormattedAddress": "voluptatem",
+  "FullName": "Heaven Quitzon",
   "IsOwnerContact": true,
-  "ActiveErpLinks": 286,
-  "Number1": "963316",
-  "Number2": "1757860",
+  "ActiveErpLinks": 635,
+  "Number1": "1050438",
+  "Number2": "1156269",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 962
+      "FieldType": "System.Int32",
+      "FieldLength": 934
     }
   }
 }

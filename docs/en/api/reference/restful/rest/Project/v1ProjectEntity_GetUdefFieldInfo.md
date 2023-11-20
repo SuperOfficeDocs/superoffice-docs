@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 452,
-  "ColumnId": 241,
-  "FieldDefault": "velit",
-  "FieldHeight": 213,
-  "FieldLabel": "sapiente",
-  "FieldLeft": 381,
-  "FieldTop": 942,
+  "UDefFieldId": 960,
+  "ColumnId": 692,
+  "FieldDefault": "earum",
+  "FieldHeight": 218,
+  "FieldLabel": "ipsum",
+  "FieldLeft": 496,
+  "FieldTop": 410,
   "FieldType": "Checkbox",
-  "FieldWidth": 646,
-  "FormatMask": "deleniti",
+  "FieldWidth": 932,
+  "FormatMask": "eaque",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 519,
-  "LabelLeft": 934,
-  "LabelTop": 900,
-  "LabelWidth": 819,
-  "LastVersionId": 741,
-  "ListTableId": 340,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 752,
+  "LabelLeft": 914,
+  "LabelTop": 323,
+  "LabelWidth": 511,
+  "LastVersionId": 443,
+  "ListTableId": 675,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 1002,
-  "ProgId": "quo",
+  "Page1LineNo": 687,
+  "ProgId": "debitis",
   "IsReadOnly": true,
-  "ShortLabel": "tempora",
-  "TabOrder": 782,
-  "TextLength": 453,
-  "Tooltip": "velit",
-  "UdefIdentity": 79,
-  "UDListDefinitionId": 57,
+  "ShortLabel": "harum",
+  "TabOrder": 125,
+  "TextLength": 215,
+  "Tooltip": "quo",
+  "UdefIdentity": 675,
+  "UDListDefinitionId": 262,
   "Justification": "Center",
-  "Version": 20,
-  "TemplateVariableName": "Toy, Friesen and Mayer",
+  "Version": 368,
+  "TemplateVariableName": "Littel-Tillman",
   "HasBeenPublished": false,
-  "MdoListName": "Bashirian LLC",
+  "MdoListName": "Krajcik Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 19
+      "FieldLength": 230
     }
   }
 }

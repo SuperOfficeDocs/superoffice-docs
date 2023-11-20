@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 984,
-  "Name": "Trantow, Franecki and Bailey",
-  "Rank": 146,
-  "Tooltip": "ipsam",
+  "AssociateId": 453,
+  "Name": "Baumbach-Graham",
+  "Rank": 393,
+  "Tooltip": "delectus",
   "LicenseOwners": [
     {
-      "Name": "Bartoletti Inc and Sons",
-      "Description": "Front-line human-resource policy",
+      "Name": "Tromp Group",
+      "Description": "Triple-buffered intermediate time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 854
+          "FieldLength": 527
         }
       }
     },
     {
-      "Name": "Bartoletti Inc and Sons",
-      "Description": "Front-line human-resource policy",
+      "Name": "Tromp Group",
+      "Description": "Triple-buffered intermediate time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 854
+          "FieldLength": 527
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "iste",
-      "Tooltip": "modi",
-      "Id": 544,
-      "Rank": 645,
+      "Value": "doloribus",
+      "Tooltip": "aut",
+      "Id": 621,
+      "Rank": 457,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 768
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2005-06-07T11:06:42.6315642+02:00",
-  "Lastlogout": "1998-04-27T11:06:42.6315642+02:00",
-  "EjUserId": 55,
-  "RequestSignature": "nisi",
+  "Lastlogin": "2001-11-04T13:38:17.8744364+01:00",
+  "Lastlogout": "2015-08-31T13:38:17.8744364+02:00",
+  "EjUserId": 989,
+  "RequestSignature": "consequatur",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dicta",
-      "DisplayValue": "ducimus",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 429
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "dicta",
-      "DisplayValue": "ducimus",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 429
-        }
-      }
-    }
-  ],
-  "UserName": "Moore-Bergnaum",
-  "TicketCategories": [
-    {
-      "Id": 33,
-      "Name": "VonRueden, Boyle and Stark",
-      "ToolTip": "Sint accusantium rerum quod quam.",
-      "Deleted": false,
-      "Rank": 77,
-      "Type": "quia",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "aut",
-      "ColorBlock": 968,
-      "ExtraInfo": "velit",
-      "StyleHint": "eveniet",
-      "FullName": "Jalyn Osinski",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 868
-        }
-      }
-    }
-  ],
-  "NickName": "Batz-Heathcote",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "aperiam",
-    "ExtraFields2": "nihil"
-  },
-  "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "consectetur"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Corkery, Braun and Harber",
-      "DisplayName": "Bahringer-Powlowski",
-      "Description": "Ameliorated maximized knowledge base",
-      "ToolTip": "Quos fugiat aut reprehenderit nam maiores alias ipsam.",
-      "Actions": "Implicit",
-      "ActionData": "autem",
+      "Value": "dolores",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 942
+          "FieldLength": 604
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "dolores",
+      "DisplayValue": "accusantium",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 604
+        }
+      }
+    }
+  ],
+  "UserName": "Dicki-Kassulke",
+  "TicketCategories": [
+    {
+      "Id": 707,
+      "Name": "Corwin-Thiel",
+      "ToolTip": "Suscipit praesentium quia quibusdam reprehenderit et praesentium.",
+      "Deleted": false,
+      "Rank": 589,
+      "Type": "cupiditate",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "voluptas",
+      "ColorBlock": 500,
+      "ExtraInfo": "eum",
+      "StyleHint": "perspiciatis",
+      "FullName": "Edythe Berge",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 68
+        }
+      }
+    }
+  ],
+  "NickName": "Crona Inc and Sons",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "provident",
+    "ExtraFields2": "molestiae"
+  },
+  "CustomFields": {
+    "CustomFields1": "quo",
+    "CustomFields2": "recusandae"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Cartwright, Bogisich and Feil",
+      "DisplayName": "Wilderman-Kuhn",
+      "Description": "Automated non-volatile hub",
+      "ToolTip": "Est adipisci rerum quis deleniti aliquid dolor minus.",
+      "Actions": "Implicit",
+      "ActionData": "voluptatem",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 600
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 864
     }
   }
 }

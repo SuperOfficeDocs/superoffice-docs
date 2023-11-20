@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 392,
-  "Name": "Bernhard Inc and Sons",
+  "ScreenChooserId": 69,
+  "Name": "Hills-McLaughlin",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "aut",
-  "Source": "voluptatum",
-  "Registered": "2015-05-12T11:06:42.3647477+02:00",
-  "RegisteredAssociateId": 774,
-  "Updated": "2013-04-11T11:06:42.3647477+02:00",
-  "UpdatedAssociateId": 92
+  "Enabled": false,
+  "UniqueIdentifier": "quis",
+  "Source": "debitis",
+  "Registered": "1999-08-14T13:38:17.7650302+02:00",
+  "RegisteredAssociateId": 769,
+  "Updated": "1999-06-26T13:38:17.7650302+02:00",
+  "UpdatedAssociateId": 761
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 898,
-  "Name": "Altenwerth LLC",
+  "ScreenChooserId": 844,
+  "Name": "Nitzsche-Wehner",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "commodi",
-  "Source": "odio",
-  "Registered": "1999-12-15T11:06:42.3647477+01:00",
-  "RegisteredAssociateId": 431,
-  "Updated": "1997-12-01T11:06:42.3647477+01:00",
-  "UpdatedAssociateId": 105,
+  "UniqueIdentifier": "ad",
+  "Source": "voluptatum",
+  "Registered": "2013-11-03T13:38:17.7650302+01:00",
+  "RegisteredAssociateId": 991,
+  "Updated": "1997-11-07T13:38:17.7650302+01:00",
+  "UpdatedAssociateId": 271,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldLength": 868
     }
   },
   "_Links": {

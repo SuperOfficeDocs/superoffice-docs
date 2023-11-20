@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 96,
-    "Section": "praesentium",
-    "Key": "necessitatibus",
-    "Name": "Bergnaum LLC",
+    "PrefDescId": 126,
+    "Section": "vel",
+    "Key": "velit",
+    "Name": "Langosh, Kunde and Mertz",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Extended multimedia instruction set",
+    "Description": "De-engineered background open system",
     "IsBuiltin": false,
-    "TableName": "Shields, Rogahn and Wyman",
-    "UserDefinedListId": 840,
-    "Rank": 344,
-    "SubGroup": "nobis",
-    "MinLevel": 348,
-    "MaxValue": 607,
-    "MinValue": 302,
-    "RequiredLicense": "nihil",
+    "TableName": "Hoppe-Cremin",
+    "UserDefinedListId": 530,
+    "Rank": 384,
+    "SubGroup": "facilis",
+    "MinLevel": 567,
+    "MaxValue": 610,
+    "MinValue": 250,
+    "RequiredLicense": "deserunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldLength": 183
       }
     }
   }

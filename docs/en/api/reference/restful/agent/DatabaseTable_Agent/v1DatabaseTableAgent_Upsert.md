@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ritchie Inc and Sons",
+  "TableName": "Carter-Hermiston",
   "Columns": [
-    "nulla",
-    "voluptates"
+    "quisquam",
+    "veniam"
   ],
   "Keys": [
-    "est",
-    "ut"
+    "neque",
+    "quia"
   ],
   "Data": [
     [
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "minima",
-  "Inserts": 970,
-  "Updates": 525,
-  "Deletes": 949,
+  "Success": true,
+  "Message": "dignissimos",
+  "Inserts": 451,
+  "Updates": 556,
+  "Deletes": 732,
   "RowStatus": [
     {
-      "PrimaryKey": 298,
+      "PrimaryKey": 972,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "exercitationem",
-        "vitae"
+        "vel",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldType": "System.String",
+          "FieldLength": 104
         }
       }
     },
     {
-      "PrimaryKey": 298,
+      "PrimaryKey": 972,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "exercitationem",
-        "vitae"
+        "vel",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldType": "System.String",
+          "FieldLength": 104
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 742
+      "FieldLength": 148
     }
   }
 }

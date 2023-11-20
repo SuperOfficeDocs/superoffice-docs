@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 627,
-  "ListItemId": 971
+  "UdListDefinitionId": 467,
+  "ListItemId": 54
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Schmeler-Schmitt",
-    "ToolTip": "Maiores corporis iure nemo hic.",
-    "Deleted": false,
-    "Rank": 126,
-    "Type": "illo",
-    "ColorBlock": 138,
-    "IconHint": "distinctio",
+    "Id": 308,
+    "Name": "Cormier, Dickens and Thompson",
+    "ToolTip": "Quia quod sit perspiciatis molestiae consequuntur.",
+    "Deleted": true,
+    "Rank": 914,
+    "Type": "dolorum",
+    "ColorBlock": 925,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "2014-10-07T11:06:34.7083083+02:00",
+    "LastChanged": "2004-10-15T13:38:13.6708541+02:00",
     "ChildItems": [
       {
-        "Id": 229,
-        "Name": "Bode, Howe and Smitham",
-        "ToolTip": "Consequuntur assumenda totam.",
+        "Id": 29,
+        "Name": "Fahey-Jacobs",
+        "ToolTip": "Ipsum veniam.",
         "Deleted": true,
-        "Rank": 52,
-        "Type": "earum",
-        "ColorBlock": 167,
-        "IconHint": "aspernatur",
+        "Rank": 556,
+        "Type": "ut",
+        "ColorBlock": 34,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2022-04-14T11:06:34.7083083+02:00",
+        "LastChanged": "2015-10-10T13:38:13.6708541+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Mrs. Elisa Jesse Sawayn",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "aliquam",
+        "Hidden": true,
+        "FullName": "Mr. Alexzander Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 697
+            "FieldType": "System.Int32",
+            "FieldLength": 792
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "natus",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "eligendi",
     "Hidden": true,
-    "FullName": "Ericka Hand",
+    "FullName": "Dr. Mariana Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldLength": 671
       }
     }
   }

@@ -1604,10 +1604,28 @@ title: Services88.PersonAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="SendEmailWithEventName">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="To" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="PlainBody" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="HtmlBody" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="EventName" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SendEmailWithEventNameResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetPersonList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q8:ArrayOfint" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2615,6 +2633,23 @@ title: Services88.PersonAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SendEmailWithEventNameRequest">
+    <wsdl:part name="parameters" element="tns:SendEmailWithEventName" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailWithEventNameRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailWithEventNameResponse">
+    <wsdl:part name="parameters" element="tns:SendEmailWithEventNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailWithEventNameResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPersonListRequest">
     <wsdl:part name="parameters" element="tns:GetPersonList" />
   </wsdl:message>
@@ -2986,6 +3021,10 @@ title: Services88.PersonAgent WSDL
     <wsdl:operation name="SendEmail">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendEmail" name="SendEmailRequest" message="tns:SendEmailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendEmailResponse" name="SendEmailResponse" message="tns:SendEmailResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SendEmailWithEventName">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendEmailWithEventName" name="SendEmailWithEventNameRequest" message="tns:SendEmailWithEventNameRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendEmailWithEventNameResponse" name="SendEmailWithEventNameResponse" message="tns:SendEmailWithEventNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonList" name="GetPersonListRequest" message="tns:GetPersonListRequest" />
@@ -3767,6 +3806,22 @@ title: Services88.PersonAgent WSDL
         <soap:header message="tns:SendEmailResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SendEmailResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SendEmailResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendEmailWithEventName">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendEmailWithEventName" style="document" />
+      <wsdl:input name="SendEmailWithEventNameRequest">
+        <soap:header message="tns:SendEmailWithEventNameRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SendEmailWithEventNameRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SendEmailWithEventNameRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SendEmailWithEventNameResponse">
+        <soap:header message="tns:SendEmailWithEventNameResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SendEmailWithEventNameResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SendEmailWithEventNameResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SendEmailWithEventNameResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

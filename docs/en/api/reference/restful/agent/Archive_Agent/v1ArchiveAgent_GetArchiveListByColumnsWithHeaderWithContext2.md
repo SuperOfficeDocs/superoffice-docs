@@ -167,19 +167,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Morar LLC",
-  "Columns": "quaerat",
-  "SortOrder": "omnis",
-  "Restriction": "quidem",
-  "Entities": "aut",
-  "Page": 182,
-  "PageSize": 71,
-  "Options": "deserunt",
-  "Context": "impedit"
+  "ProviderName": "Smitham Inc and Sons",
+  "Columns": "molestiae",
+  "SortOrder": "molestiae",
+  "Restriction": "excepturi",
+  "Entities": "nihil",
+  "Page": 963,
+  "PageSize": 552,
+  "Options": "unde",
+  "Context": "ex"
 }
 ```
 
@@ -190,26 +190,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 832,
+  "RowCount": 29,
   "Rows": [
     {
-      "EntityName": "Williamson-Schmeler",
-      "PrimaryKey": 281,
+      "EntityName": "Mann Group",
+      "PrimaryKey": 131,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "harum",
-          "TooltipHint": "consequatur",
-          "LinkHint": "numquam"
+          "DisplayValue": "beatae",
+          "TooltipHint": "quidem",
+          "LinkHint": "deleniti"
         }
       },
-      "LinkHint": "esse",
-      "StyleHint": "numquam",
+      "LinkHint": "voluptatibus",
+      "StyleHint": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 644
+          "FieldType": "System.Int32",
+          "FieldLength": 700
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldType": "System.Int32",
+      "FieldLength": 850
     }
   }
 }

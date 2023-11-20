@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "McCullough LLC",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "UdListDefinitionId": 195,
-    "Rank": 411
+    "Id": 538,
+    "Name": "Altenwerth-Hessel",
+    "Tooltip": "sint",
+    "Deleted": true,
+    "UdListDefinitionId": 654,
+    "Rank": 577
   },
   {
-    "Id": 98,
-    "Name": "McCullough LLC",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "UdListDefinitionId": 195,
-    "Rank": 411
+    "Id": 538,
+    "Name": "Altenwerth-Hessel",
+    "Tooltip": "sint",
+    "Deleted": true,
+    "UdListDefinitionId": 654,
+    "Rank": 577
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 988,
-    "Name": "Koepp-Koelpin",
-    "Tooltip": "accusantium",
-    "Deleted": true,
-    "UdListDefinitionId": 799,
-    "Rank": 796,
+    "Id": 841,
+    "Name": "Maggio, D'Amore and Wolff",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 722,
+    "Rank": 542,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldType": "System.String",
+        "FieldLength": 127
       }
     }
   }

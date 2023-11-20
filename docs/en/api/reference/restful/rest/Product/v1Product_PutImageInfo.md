@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 332,
-  "BlobSize": 111,
-  "Description": "Multi-tiered transitional success",
-  "ExtraInfo": "commodi",
+  "BlobId": 260,
+  "BlobSize": 430,
+  "Description": "Customer-focused contextually-based neural-net",
+  "ExtraInfo": "excepturi",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "consequuntur",
-  "OriginalSize": 149,
-  "CreatedDate": "2015-09-18T11:06:42.4272471+02:00",
-  "UpdatedDate": "2005-08-21T11:06:42.4272471+02:00",
+  "MimeType": "laborum",
+  "OriginalSize": 302,
+  "CreatedDate": "2003-03-09T13:38:17.8119358+01:00",
+  "UpdatedDate": "2000-11-07T13:38:17.8119358+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "laborum"
+  "ConceptualType": "quaerat"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 501,
-  "BlobSize": 368,
-  "Description": "Grass-roots encompassing groupware",
-  "ExtraInfo": "voluptatem",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "voluptatibus",
-  "OriginalSize": 338,
-  "CreatedDate": "2006-04-14T11:06:42.4272471+02:00",
-  "UpdatedDate": "2005-12-09T11:06:42.4272471+01:00",
+  "BlobId": 506,
+  "BlobSize": 760,
+  "Description": "Vision-oriented multi-tasking algorithm",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "adipisci",
+  "OriginalSize": 218,
+  "CreatedDate": "2007-11-19T13:38:17.8119358+01:00",
+  "UpdatedDate": "2007-12-24T13:38:17.8119358+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iure",
+  "ConceptualType": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldType": "System.Int32",
+      "FieldLength": 835
     }
   }
 }

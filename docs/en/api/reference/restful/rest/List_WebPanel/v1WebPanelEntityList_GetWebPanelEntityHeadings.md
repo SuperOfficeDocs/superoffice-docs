@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 3,
-    "Name": "Durgan, Stanton and Blick",
-    "Tooltip": "nobis",
-    "Deleted": false,
-    "Rank": 226,
-    "UdListDefinitionId": 768,
+    "HeadingId": 172,
+    "Name": "Ruecker LLC",
+    "Tooltip": "quibusdam",
+    "Deleted": true,
+    "Rank": 224,
+    "UdListDefinitionId": 608,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldType": "System.Int32",
+        "FieldLength": 407
       }
     }
   }

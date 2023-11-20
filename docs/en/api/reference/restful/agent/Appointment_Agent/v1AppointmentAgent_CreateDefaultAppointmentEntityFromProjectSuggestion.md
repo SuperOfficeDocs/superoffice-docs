@@ -106,7 +106,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -133,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromProjectSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 35,
-  "ProjectId": 491,
+  "SuggestedAppointmentId": 335,
+  "ProjectId": 274,
   "CreateNow": false,
-  "OwnerId": 509
+  "OwnerId": 45
 }
 ```
 
@@ -155,125 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-10-23T11:06:33.6944935+02:00",
-  "AppointmentId": 61,
-  "Description": "Organized web-enabled ability",
-  "StartDate": "2000-02-03T11:06:33.6944935+01:00",
-  "EndDate": "2005-04-23T11:06:33.6944935+02:00",
+  "CreatedDate": "2022-01-17T13:38:13.0146764+01:00",
+  "AppointmentId": 31,
+  "Description": "Focused discrete database",
+  "StartDate": "2000-11-10T13:38:13.0146764+01:00",
+  "EndDate": "2018-04-20T13:38:13.0146764+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 191,
+  "MotherId": 83,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-12-02T11:06:33.6944935+01:00",
+  "UpdatedDate": "2013-06-19T13:38:13.0146764+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 286,
+  "ActiveLinks": 324,
   "Links": [
     {
-      "EntityName": "Jenkins Inc and Sons",
-      "Id": 159,
-      "Description": "Sharable bi-directional projection",
-      "ExtraInfo": "ea",
-      "LinkId": 796,
+      "EntityName": "Rodriguez, Lindgren and Veum",
+      "Id": 961,
+      "Description": "Balanced 24 hour infrastructure",
+      "ExtraInfo": "repudiandae",
+      "LinkId": 162,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 749
+          "FieldType": "System.Int32",
+          "FieldLength": 847
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptatum",
+  "AlarmLeadTime": "facere",
   "HasAlarm": false,
-  "ColorIndex": 936,
+  "ColorIndex": 893,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "neque",
-  "LeadTime": "consequatur",
-  "Location": "id",
-  "RejectCounter": 18,
+  "IsAlldayEvent": false,
+  "LagTime": "nisi",
+  "LeadTime": "dolores",
+  "Location": "fugit",
+  "RejectCounter": 877,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 924,
-      "PersonId": 865,
-      "ContactId": 870,
-      "EmailId": 776,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 924,
-      "PersonId": 865,
-      "ContactId": 870,
-      "EmailId": 776,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 161,
+      "PersonId": 497,
+      "ContactId": 330,
+      "EmailId": 706,
+      "SendEmail": true,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "rachel@bahringerturcotte.us",
+      "Description": "Inverse fault-tolerant frame"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-02-28T11:06:33.6944935+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2018-03-23T13:38:13.0146764+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 63,
+  "PreferredTZLocation": 887,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 161,
+  "SuggestedAppointmentId": 95,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "veritatis",
-  "Title": "ut",
-  "Agenda": "magni",
-  "InternalNotes": "dolorem",
+  "CentralserviceVideomeetId": "aspernatur",
+  "Title": "laborum",
+  "Agenda": "laborum",
+  "InternalNotes": "omnis",
   "UserDefinedFields": {
-    "SuperOffice:1": "1833434463",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "696324848"
   },
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "consequuntur"
+    "ExtraFields1": "inventore",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "1998-06-01T11:06:33.6944935+02:00",
-  "PublishTo": "1997-04-21T11:06:33.6944935+02:00",
-  "PublishFrom": "1998-04-14T11:06:33.6944935+02:00",
+  "PublishEventDate": "2023-05-07T13:38:13.0146764+02:00",
+  "PublishTo": "1997-09-19T13:38:13.0146764+02:00",
+  "PublishFrom": "1998-05-16T13:38:13.0146764+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 606,
+      "VisibleId": 968,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldType": "System.String",
+          "FieldLength": 1000
         }
       }
     },
     {
-      "VisibleId": 606,
+      "VisibleId": 968,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldType": "System.String",
+          "FieldLength": 1000
         }
       }
     }
@@ -282,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldType": "System.Int32",
+      "FieldLength": 291
     }
   }
 }

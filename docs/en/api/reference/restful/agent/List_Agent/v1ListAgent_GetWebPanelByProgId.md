@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "error"
+  "ProgId": "et"
 }
 ```
 
@@ -108,33 +108,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 49,
-  "Name": "Waelchi-Kub",
-  "Tooltip": "illo",
+  "WebPanelId": 496,
+  "Name": "Powlowski-Littel",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 590,
+  "Rank": 928,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "McKenzie LLC",
+  "WindowName": "Kreiger Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "perspiciatis",
-  "Icon": 44,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "odit",
+  "Icon": 553,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 285
     }
   }
 }

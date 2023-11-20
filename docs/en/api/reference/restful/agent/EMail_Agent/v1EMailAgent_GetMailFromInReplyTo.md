@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "sed"
+  "MessageId": "deserunt"
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 546,
-      "ContactName": "Toy-Leffler",
-      "PersonId": 62,
-      "PersonName": "Gaylord, Krajcik and Moen",
-      "AssociateId": 341,
-      "Address": "minima",
-      "EmailId": 166,
+      "ContactId": 196,
+      "ContactName": "Bahringer LLC",
+      "PersonId": 849,
+      "PersonName": "Hauck, Cremin and Mraz",
+      "AssociateId": 746,
+      "Address": "omnis",
+      "EmailId": 673,
       "DuplicatePersonIds": [
-        454,
-        927
+        815,
+        828
       ],
-      "Name": "Senger, Boehm and Schiller",
+      "Name": "Schultz, Von and Jacobi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldType": "System.String",
+          "FieldLength": 792
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 827,
-      "ContactName": "Boyle, Emmerich and Bergnaum",
-      "PersonId": 178,
-      "PersonName": "Parker-Dooley",
-      "AssociateId": 733,
-      "Address": "eum",
-      "EmailId": 500,
+      "ContactId": 150,
+      "ContactName": "Greenholt-Gleichner",
+      "PersonId": 116,
+      "PersonName": "Torphy, Wolf and Kirlin",
+      "AssociateId": 657,
+      "Address": "praesentium",
+      "EmailId": 583,
       "DuplicatePersonIds": [
-        947,
-        631
+        674,
+        990
       ],
-      "Name": "Jewess, Kunze and Blanda",
+      "Name": "Hirthe-Mohr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 660
+          "FieldType": "System.String",
+          "FieldLength": 588
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 328,
-      "ContactName": "Tremblay-Bayer",
-      "PersonId": 593,
-      "PersonName": "Hilll Inc and Sons",
-      "AssociateId": 749,
-      "Address": "ex",
-      "EmailId": 358,
+      "ContactId": 868,
+      "ContactName": "Williamson, Beer and Sanford",
+      "PersonId": 340,
+      "PersonName": "Hilll, Haley and Eichmann",
+      "AssociateId": 158,
+      "Address": "debitis",
+      "EmailId": 28,
       "DuplicatePersonIds": [
-        28,
-        440
+        141,
+        568
       ],
-      "Name": "McKenzie Inc and Sons",
+      "Name": "Conn, Nader and Dare",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 463
+          "FieldType": "System.Int32",
+          "FieldLength": 718
         }
       }
     }
   ],
-  "Subject": "quasi",
-  "HTMLBody": "rerum",
+  "Subject": "deserunt",
+  "HTMLBody": "voluptates",
   "From": null,
-  "Sent": "1996-06-27T11:06:34.473931+02:00",
-  "Size": 130,
+  "Sent": "1996-12-03T13:38:13.5302438+01:00",
+  "Size": 526,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sunt",
-  "PlainBody": "quis",
-  "IsSent": true,
+  "MessageID": "quas",
+  "PlainBody": "ad",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 178,
+  "ServerId": 641,
   "Attachments": [
     {
-      "Description": "Ameliorated clear-thinking toolset",
-      "Filename": "nostrum",
-      "Size": 490,
-      "Type": "quis",
-      "Encoding": "esse",
-      "Id": "dolores",
-      "Disposition": "ratione",
+      "Description": "Function-based demand-driven application",
+      "Filename": "quis",
+      "Size": 837,
+      "Type": "sunt",
+      "Encoding": "animi",
+      "Id": "autem",
+      "Disposition": "maxime",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 720
+          "FieldLength": 189
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "McClure-Fadel",
+      "Name": "Larkin-Stamm",
       "Values": [
-        "at",
-        "voluptatem"
+        "eum",
+        "similique"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 43
+          "FieldType": "System.String",
+          "FieldLength": 631
         }
       }
     },
     {
-      "Name": "McClure-Fadel",
+      "Name": "Larkin-Stamm",
       "Values": [
-        "at",
-        "voluptatem"
+        "eum",
+        "similique"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 43
+          "FieldType": "System.String",
+          "FieldLength": 631
         }
       }
     }
   ],
-  "FolderName": "Batz-Padberg",
-  "EmailItemId": 116,
-  "AccountId": 315,
-  "ReceivedAt": "1997-12-05T11:06:34.473931+01:00",
+  "FolderName": "Corwin, Herzog and Grady",
+  "EmailItemId": 371,
+  "AccountId": 561,
+  "ReceivedAt": "2002-10-22T13:38:13.5302438+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-07-13T11:06:34.473931+02:00",
+  "RepliedAt": "2011-01-24T13:38:13.5302438+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 289
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

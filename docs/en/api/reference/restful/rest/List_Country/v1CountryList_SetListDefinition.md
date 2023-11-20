@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 265,
-  "Name": "Powlowski LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 632,
+  "Id": 863,
+  "Name": "Roob Inc and Sons",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 932,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": false
+  "ListType": "nihil",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 441,
-  "Name": "Gerhold, Will and Larson",
-  "Tooltip": "enim",
-  "Deleted": false,
-  "Rank": 90,
-  "IsCustomList": true,
+  "Id": 7,
+  "Name": "Marquardt Group",
+  "Tooltip": "totam",
+  "Deleted": true,
+  "Rank": 687,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quam",
+  "ListType": "in",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 63
+      "FieldLength": 102
     }
   }
 }

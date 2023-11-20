@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 969,
-  "UiCulture": "quis"
+  "DocumentId": 229,
+  "UiCulture": "architecto"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 97,
+  "DocumentId": 173,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sunt",
-  "Header": "sed",
-  "Name": "Ziemann-Adams",
-  "OurRef": "tempora",
-  "YourRef": "cumque",
-  "CreatedDate": "2019-08-15T11:06:34.3801825+02:00",
-  "UpdatedDate": "2005-06-13T11:06:34.3801825+02:00",
-  "Description": "Open-source 6th generation encryption",
+  "Attention": "qui",
+  "Header": "non",
+  "Name": "Fadel, Morissette and Schaden",
+  "OurRef": "et",
+  "YourRef": "vero",
+  "CreatedDate": "2010-12-23T13:38:13.4677523+01:00",
+  "UpdatedDate": "1996-11-18T13:38:13.4677523+01:00",
+  "Description": "Compatible interactive functionalities",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1997-04-23T11:06:34.395813+02:00",
-  "ExternalRef": "inventore",
+  "Date": "1996-07-03T13:38:13.4677523+02:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 728,
+  "ActiveLinks": 661,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schinner LLC",
-      "Id": 199,
-      "Description": "Balanced static conglomeration",
-      "ExtraInfo": "cupiditate",
-      "LinkId": 112,
+      "EntityName": "Lubowitz LLC",
+      "Id": 455,
+      "Description": "Seamless stable hierarchy",
+      "ExtraInfo": "natus",
+      "LinkId": 785,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 319
+          "FieldLength": 396
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 266,
-  "Snum": 917,
+  "SuggestedDocumentId": 424,
+  "Snum": 68,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Mr. Noemi Verona White"
+    "SuperOffice:2": "Fred Rowe"
   },
   "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "fugit"
+    "CustomFields1": "aut",
+    "CustomFields2": "necessitatibus"
   },
-  "PublishEventDate": "1999-06-28T11:06:34.395813+02:00",
-  "PublishTo": "2014-05-30T11:06:34.395813+02:00",
-  "PublishFrom": "2016-09-13T11:06:34.395813+02:00",
+  "PublishEventDate": "1998-01-21T13:38:13.4677523+01:00",
+  "PublishTo": "2015-05-31T13:38:13.4677523+02:00",
+  "PublishFrom": "1998-07-21T13:38:13.4677523+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 193,
+      "VisibleId": 147,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 228
+          "FieldType": "System.Int32",
+          "FieldLength": 686
         }
       }
     },
     {
-      "VisibleId": 193,
+      "VisibleId": 147,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 228
+          "FieldType": "System.Int32",
+          "FieldLength": 686
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldLength": 46
     }
   }
 }

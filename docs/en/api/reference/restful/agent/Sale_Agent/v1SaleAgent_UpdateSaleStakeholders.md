@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Langosh, Pagac and Medhurst",
-      "Comment": "et",
-      "StakeholderRoleId": 709,
-      "CountryId": 46,
-      "PersonId": 718,
-      "EmailDescription": "beau@hermann.info",
-      "EmailId": 29,
-      "EmailAddress": "brisa.bahringer@botsford.uk",
-      "PhoneId": 686,
-      "ContactName": "Romaguera LLC",
-      "ContactId": 442,
-      "SaleId": 442,
-      "Mrmrs": "et",
-      "Firstname": "Estrella",
-      "MiddleName": "Moen, Lehner and Botsford",
-      "Lastname": "Hickle",
-      "SaleStakeholderId": 61,
-      "Rank": 418,
-      "Phone": "1-179-312-7923 x1827"
+      "StakeholderRoleName": "Marks Group",
+      "Comment": "sint",
+      "StakeholderRoleId": 112,
+      "CountryId": 553,
+      "PersonId": 966,
+      "EmailDescription": "tyrese_kohler@wilkinsonorn.biz",
+      "EmailId": 11,
+      "EmailAddress": "deven@denesik.ca",
+      "PhoneId": 830,
+      "ContactName": "Bogisich LLC",
+      "ContactId": 488,
+      "SaleId": 843,
+      "Mrmrs": "tempora",
+      "Firstname": "Russ",
+      "MiddleName": "Yost LLC",
+      "Lastname": "Hudson",
+      "SaleStakeholderId": 392,
+      "Rank": 827,
+      "Phone": "1-658-526-4987 x16514"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Schinner Inc and Sons",
-    "Comment": "rerum",
-    "StakeholderRoleId": 56,
-    "CountryId": 318,
-    "PersonId": 653,
-    "EmailDescription": "leonie.klocko@erdmanherzog.com",
-    "EmailId": 376,
-    "EmailAddress": "josh@mayert.name",
-    "PhoneId": 251,
-    "ContactName": "Konopelski Inc and Sons",
-    "ContactId": 292,
-    "SaleId": 98,
-    "Mrmrs": "voluptatem",
-    "Firstname": "Isabella",
-    "MiddleName": "Parisian Inc and Sons",
-    "Lastname": "Herman",
-    "SaleStakeholderId": 600,
-    "Rank": 776,
-    "Phone": "(207)442-3886 x7187",
+    "StakeholderRoleName": "Hahn, Treutel and Funk",
+    "Comment": "quia",
+    "StakeholderRoleId": 155,
+    "CountryId": 168,
+    "PersonId": 254,
+    "EmailDescription": "dasia@trantow.uk",
+    "EmailId": 580,
+    "EmailAddress": "jamir.konopelski@bins.com",
+    "PhoneId": 419,
+    "ContactName": "Monahan-Heidenreich",
+    "ContactId": 910,
+    "SaleId": 239,
+    "Mrmrs": "rem",
+    "Firstname": "Domingo",
+    "MiddleName": "Gulgowski-Zulauf",
+    "Lastname": "Thompson",
+    "SaleStakeholderId": 982,
+    "Rank": 561,
+    "Phone": "736.350.1269 x6035",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldLength": 17
       }
     }
   }

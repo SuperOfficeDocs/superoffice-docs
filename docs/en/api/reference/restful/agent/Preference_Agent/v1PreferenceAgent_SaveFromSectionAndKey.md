@@ -96,8 +96,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "laudantium",
-  "Key": "dolorem",
+  "Section": "qui",
+  "Key": "autem",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 925,
-  "Section": "exercitationem",
-  "Key": "quae",
-  "Name": "Littel, Macejkovic and Cremin",
+  "PrefDescId": 319,
+  "Section": "iste",
+  "Key": "voluptatem",
+  "Name": "Nolan Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Streamlined incremental frame",
-  "IsBuiltin": false,
-  "TableName": "Baumbach-Aufderhar",
-  "UserDefinedListId": 177,
-  "Rank": 553,
-  "SubGroup": "occaecati",
-  "MinLevel": 924,
-  "MaxValue": 354,
-  "MinValue": 200,
-  "RequiredLicense": "perspiciatis",
+  "Description": "Profound optimizing hardware",
+  "IsBuiltin": true,
+  "TableName": "Donnelly Group",
+  "UserDefinedListId": 301,
+  "Rank": 255,
+  "SubGroup": "quaerat",
+  "MinLevel": 816,
+  "MaxValue": 278,
+  "MinValue": 789,
+  "RequiredLicense": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 131
     }
   }
 }

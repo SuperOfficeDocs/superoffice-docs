@@ -68,7 +68,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,50 +79,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 445,
-    "Name": "Yost-Lakin",
-    "ToolTip": "Cum ut.",
+    "Id": 797,
+    "Name": "Crist-Schoen",
+    "ToolTip": "Vel placeat et soluta aut odit fugiat debitis.",
     "Deleted": false,
-    "Rank": 192,
-    "Type": "qui",
+    "Rank": 745,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 703,
-        "Name": "Hagenes LLC",
-        "ToolTip": "Labore eaque iusto expedita sit.",
+        "Id": 443,
+        "Name": "Rempel Group",
+        "ToolTip": "Aliquam sit consequatur perferendis.",
         "Deleted": false,
-        "Rank": 183,
-        "Type": "error",
+        "Rank": 288,
+        "Type": "voluptatum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 982,
-        "ExtraInfo": "eaque",
-        "StyleHint": "quia",
-        "FullName": "Golda Lindgren",
+        "IconHint": "non",
+        "ColorBlock": 708,
+        "ExtraInfo": "perferendis",
+        "StyleHint": "eos",
+        "FullName": "Monica Pagac DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 145
+            "FieldType": "System.String",
+            "FieldLength": 843
           }
         }
       }
     ],
-    "IconHint": "facilis",
-    "ColorBlock": 829,
-    "ExtraInfo": "tempora",
-    "StyleHint": "vel",
-    "FullName": "Minerva Mohr",
+    "IconHint": "nostrum",
+    "ColorBlock": 794,
+    "ExtraInfo": "et",
+    "StyleHint": "quod",
+    "FullName": "Narciso Joshuah Haley IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 968
       }
     }
   }

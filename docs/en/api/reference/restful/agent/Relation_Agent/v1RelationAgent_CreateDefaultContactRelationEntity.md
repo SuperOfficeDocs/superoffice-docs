@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 396,
-  "SourcePersonId": 280,
-  "DestinationContactId": 444,
-  "DestinationPersonId": 848,
-  "RelationId": 738,
-  "Comment": "excepturi",
-  "RelationDefinitionId": 892,
-  "Reversed": 921,
-  "UpdatedDate": "2022-04-23T11:06:35.2395651+02:00",
-  "CreatedDate": "2013-04-10T11:06:35.2395651+02:00",
+  "SourceContactId": 859,
+  "SourcePersonId": 885,
+  "DestinationContactId": 607,
+  "DestinationPersonId": 351,
+  "RelationId": 982,
+  "Comment": "a",
+  "RelationDefinitionId": 872,
+  "Reversed": 385,
+  "UpdatedDate": "2017-10-01T13:38:14.045953+02:00",
+  "CreatedDate": "2010-12-16T13:38:14.045953+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Heller Group",
-  "SourcePersonName": "Weissnat, Rice and Gutmann",
-  "DestinationContactName": "Kling-Littel",
-  "DestinationPersonName": "Hoeger, Volkman and Paucek",
-  "ActiveText": "veritatis",
-  "PassiveText": "nostrum",
+  "SourceContactName": "Denesik, Weber and Barton",
+  "SourcePersonName": "Bechtelar LLC",
+  "DestinationContactName": "Stokes, Kessler and Kling",
+  "DestinationPersonName": "Herman Inc and Sons",
+  "ActiveText": "quia",
+  "PassiveText": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

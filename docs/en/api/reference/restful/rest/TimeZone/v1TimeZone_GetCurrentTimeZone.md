@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 887,
-  "Name": "Schmeler, Larson and Stoltenberg",
-  "TZLocationCode": "in",
-  "TZLocationCities": "voluptas",
-  "IsoNumber": 893,
+  "TZLocationID": 793,
+  "Name": "Prohaska LLC",
+  "TZLocationCode": "consequatur",
+  "TZLocationCities": "dolor",
+  "IsoNumber": 200,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 70,
-      "StartMonth": 724,
-      "EndDay": 885,
-      "EndMonth": 262,
-      "TZOffset": 304,
-      "StartRulePattern": "sunt",
-      "EndRulePattern": "ut"
+      "StartDay": 233,
+      "StartMonth": 111,
+      "EndDay": 48,
+      "EndMonth": 1002,
+      "TZOffset": 560,
+      "StartRulePattern": "aliquam",
+      "EndRulePattern": "quia"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 862,
-      "StartMonth": 509,
-      "EndDay": 515,
-      "EndMonth": 123,
-      "TZOffset": 812,
-      "StartRulePattern": "id",
-      "EndRulePattern": "nulla"
+      "StartDay": 837,
+      "StartMonth": 773,
+      "EndDay": 191,
+      "EndMonth": 202,
+      "TZOffset": 195,
+      "StartRulePattern": "ut",
+      "EndRulePattern": "reprehenderit"
     }
   }
 }

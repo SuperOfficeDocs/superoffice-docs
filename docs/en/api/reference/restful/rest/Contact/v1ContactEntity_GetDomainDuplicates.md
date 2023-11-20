@@ -1,23 +1,25 @@
 ---
-title: POST Agents/Workflow/CreateDefaultWorkflowStepOption
-uid: v1WorkflowAgent_CreateDefaultWorkflowStepOption
+title: GET Contact/DuplicateDomains/{domain}
+uid: v1ContactEntity_GetDomainDuplicates
 generated: true
 ---
 
-# POST Agents/Workflow/CreateDefaultWorkflowStepOption
+# GET Contact/DuplicateDomains/{domain}
 
 ```http
-POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOption
+GET /api/v1/Contact/DuplicateDomains/{domain}
 ```
 
-Set default values into a new WorkflowStepOption.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Get duplicates based on the domain
 
 
 
 
+
+
+| Path Part | Type | Description |
+|-----------|------|-------------|
+| domain | string | Domain used for lookup **Required** |
 
 
 
@@ -35,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response:
+## Response:array
 
 OK
 
@@ -43,24 +45,22 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: WorkflowStepOption
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WorkflowStepOptionId | int32 | Primary key |
-| WorkflowStepId | int32 | The workflow step this instance belongs to |
-| WorkflowId | int32 | The flow this instance belongs to |
-| Key | string | A key used to refer to this option |
-| Name | string | The name of this option |
-| Rank | int32 | The rank of this option |
-| Steps | array | The steps to execute if this option/path is selected |
+| RuleName | string | Identifying name for rule |
+| SoPrimaryKey | int32 | Identity of an entry in the SuperOffice database. Should be 0 for matches from external systems. |
+| EntryName | string | Name of duplicate entry |
+| EntryIdentifier | string | String identifier for entry. Typically used to identify an entry in an external system. |
+| RuleDisplayName | string | Short name of rule to display to user |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
 ```http!
-POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOption
+GET /api/v1/Contact/DuplicateDomains/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
@@ -72,34 +72,21 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-{
-  "WorkflowStepOptionId": 677,
-  "WorkflowStepId": 926,
-  "WorkflowId": 634,
-  "Key": "facere",
-  "Name": "O'Hara, Emmerich and Runolfsdottir",
-  "Rank": 296,
-  "Steps": [
-    {
-      "WorkflowStepId": 213,
-      "WorkflowId": 336,
-      "StepType": "AddToList",
-      "Rank": 962
-    },
-    {
-      "WorkflowStepId": 213,
-      "WorkflowId": 336,
-      "StepType": "AddToList",
-      "Rank": 962
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 555
+[
+  {
+    "RuleName": "Dickinson, Bartell and Legros",
+    "SoPrimaryKey": 964,
+    "EntryName": "Huels Inc and Sons",
+    "EntryIdentifier": "vitae",
+    "RuleDisplayName": "Lockman, Runolfsdottir and Upton",
+    "TableRight": null,
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 539
+      }
     }
   }
-}
+]
 ```

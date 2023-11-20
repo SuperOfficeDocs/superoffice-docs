@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 984,
-    "Name": "Lang-Connelly",
-    "ToolTip": "Vel nisi aut sit itaque.",
-    "Deleted": true,
-    "Rank": 681,
-    "Type": "autem",
-    "ColorBlock": 341,
-    "IconHint": "consectetur",
+    "Id": 660,
+    "Name": "Murazik, Jast and Stroman",
+    "ToolTip": "Aut quas nulla voluptatem perferendis quaerat.",
+    "Deleted": false,
+    "Rank": 822,
+    "Type": "quia",
+    "ColorBlock": 751,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2022-05-01T11:06:42.6784463+02:00",
+    "LastChanged": "2023-06-29T13:38:17.9056813+02:00",
     "ChildItems": [
       {
-        "Id": 313,
-        "Name": "Hudson Group",
-        "ToolTip": "Sit nihil possimus et voluptas.",
+        "Id": 647,
+        "Name": "Raynor-Reichert",
+        "ToolTip": "Quidem sit enim ipsam officiis ea eligendi qui.",
         "Deleted": false,
-        "Rank": 178,
-        "Type": "alias",
-        "ColorBlock": 796,
-        "IconHint": "aliquam",
+        "Rank": 783,
+        "Type": "ratione",
+        "ColorBlock": 195,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "1996-06-15T11:06:42.6784463+02:00",
+        "LastChanged": "2004-09-07T13:38:17.9056813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "cum",
-        "Hidden": true,
-        "FullName": "August Balistreri"
+        "ExtraInfo": "non",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Vincenza Boyle"
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Cornelius Leannon"
+    "ExtraInfo": "nemo",
+    "StyleHint": "ratione",
+    "Hidden": true,
+    "FullName": "Ms. Jannie Felipe Sanford V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "Lakin, Little and Jerde",
-    "ToolTip": "Id dolores voluptas velit maiores esse inventore voluptatibus.",
+    "Id": 497,
+    "Name": "Kuphal Inc and Sons",
+    "ToolTip": "Veritatis in magni quos rerum perspiciatis accusantium iure.",
     "Deleted": false,
-    "Rank": 334,
-    "Type": "qui",
-    "ColorBlock": 34,
-    "IconHint": "ipsum",
+    "Rank": 353,
+    "Type": "quisquam",
+    "ColorBlock": 770,
+    "IconHint": "odio",
     "Selected": true,
-    "LastChanged": "2009-07-01T11:06:42.6784463+02:00",
+    "LastChanged": "2008-09-19T13:38:17.9056813+02:00",
     "ChildItems": [
       {
-        "Id": 99,
-        "Name": "Marvin Group",
-        "ToolTip": "Ducimus illum magni facilis ipsam.",
+        "Id": 172,
+        "Name": "Bins-Walker",
+        "ToolTip": "Ea non expedita esse.",
         "Deleted": true,
-        "Rank": 959,
-        "Type": "rerum",
-        "ColorBlock": 2,
-        "IconHint": "nisi",
-        "Selected": false,
-        "LastChanged": "2003-02-20T11:06:42.6784463+01:00",
+        "Rank": 531,
+        "Type": "aliquid",
+        "ColorBlock": 101,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2014-09-10T13:38:17.9056813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Ms. Cathryn Naomie Crooks DDS",
+        "ExtraInfo": "vitae",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Prof. Katelynn Monty Dach DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 392
+            "FieldLength": 727
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "at",
+    "ExtraInfo": "rem",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Jalyn Kreiger",
+    "FullName": "Roosevelt Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 77
       }
     }
   }

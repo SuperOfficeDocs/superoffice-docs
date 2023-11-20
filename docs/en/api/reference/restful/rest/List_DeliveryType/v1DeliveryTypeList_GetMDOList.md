@@ -26,7 +26,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
 GET /api/v1/List/DeliveryType/MDOItems?query=et
 ```
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Pollich-Dickens",
-    "ToolTip": "Ut et consequatur pariatur consequatur dolorem praesentium deleniti.",
+    "Id": 944,
+    "Name": "Padberg-Gaylord",
+    "ToolTip": "Beatae quia tenetur.",
     "Deleted": false,
-    "Rank": 845,
-    "Type": "perspiciatis",
+    "Rank": 838,
+    "Type": "nesciunt",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Swaniawski Group",
-        "ToolTip": "Sapiente sequi itaque ex nam et cum.",
-        "Deleted": true,
-        "Rank": 60,
-        "Type": "est",
+        "Id": 820,
+        "Name": "Huel, Wintheiser and Wisoky",
+        "ToolTip": "Commodi mollitia eos.",
+        "Deleted": false,
+        "Rank": 582,
+        "Type": "odit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 134,
-        "ExtraInfo": "sit",
-        "StyleHint": "quas",
-        "FullName": "Hailey Pfeffer",
+        "IconHint": "quia",
+        "ColorBlock": 358,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "rerum",
+        "FullName": "Giles Mellie Pouros PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 268
+            "FieldLength": 871
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 248,
-    "ExtraInfo": "eaque",
-    "StyleHint": "doloremque",
-    "FullName": "Dr. Edwardo Kutch",
+    "IconHint": "sint",
+    "ColorBlock": 147,
+    "ExtraInfo": "corporis",
+    "StyleHint": "quam",
+    "FullName": "Prof. Torrey Schroeder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldType": "System.String",
+        "FieldLength": 304
       }
     }
   }

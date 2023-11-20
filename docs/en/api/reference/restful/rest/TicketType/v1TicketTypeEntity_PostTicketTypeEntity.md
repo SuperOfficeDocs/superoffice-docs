@@ -98,26 +98,26 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 499,
-  "Name": "Collins Inc and Sons",
-  "Rank": 234,
-  "Tooltip": "nobis",
-  "Icon": "sint",
-  "DefaultTicketStatus": 804,
+  "TicketTypeId": 345,
+  "Name": "Ebert-Windler",
+  "Rank": 289,
+  "Tooltip": "molestias",
+  "Icon": "sequi",
+  "DefaultTicketStatus": 760,
   "TicketStatuses": [
-    925,
-    621
+    473,
+    416
   ],
-  "DefaultTicketPriority": 729,
+  "DefaultTicketPriority": 291,
   "TicketPriorities": [
-    811,
-    112
+    523,
+    472
   ],
-  "ReplyTemplate": 690,
+  "ReplyTemplate": 526,
   "IsExternalVisible": false,
   "IsDefault": false
 }
@@ -130,35 +130,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 959,
-  "Name": "Hettinger-Ruecker",
-  "Rank": 49,
-  "Tooltip": "molestiae",
-  "Icon": "voluptatem",
-  "DefaultTicketStatus": 460,
+  "TicketTypeId": 644,
+  "Name": "Breitenberg, Powlowski and Williamson",
+  "Rank": 795,
+  "Tooltip": "neque",
+  "Icon": "non",
+  "DefaultTicketStatus": 457,
   "TicketStatuses": [
-    741,
-    549
+    330,
+    566
   ],
-  "DefaultTicketPriority": 702,
+  "DefaultTicketPriority": 803,
   "TicketPriorities": [
-    833,
-    616
+    224,
+    879
   ],
-  "ReplyTemplate": 484,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 277,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldLength": 298
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

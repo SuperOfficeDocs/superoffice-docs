@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 968,
-    "Name": "Lindgren LLC",
-    "ToolTip": "Voluptatem quos dolorem non dignissimos.",
-    "Deleted": false,
-    "Rank": 917,
-    "Type": "reiciendis",
-    "ColorBlock": 174,
-    "IconHint": "quos",
+    "Id": 895,
+    "Name": "Hessel, Abshire and Paucek",
+    "ToolTip": "Laborum a sit autem accusantium asperiores quia rerum.",
+    "Deleted": true,
+    "Rank": 667,
+    "Type": "ipsam",
+    "ColorBlock": 732,
+    "IconHint": "dolorum",
     "Selected": true,
-    "LastChanged": "2009-05-17T11:06:42.7878188+02:00",
+    "LastChanged": "2021-10-13T13:38:18.0462875+02:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Langosh-Considine",
-        "ToolTip": "Harum in debitis qui.",
-        "Deleted": false,
-        "Rank": 469,
-        "Type": "officiis",
-        "ColorBlock": 867,
-        "IconHint": "commodi",
+        "Id": 407,
+        "Name": "Schinner Inc and Sons",
+        "ToolTip": "Harum repellat cumque voluptas ipsam atque soluta.",
+        "Deleted": true,
+        "Rank": 42,
+        "Type": "nihil",
+        "ColorBlock": 294,
+        "IconHint": "temporibus",
         "Selected": true,
-        "LastChanged": "2020-07-30T11:06:42.7878188+02:00",
+        "LastChanged": "2011-09-15T13:38:18.0462875+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "aut",
-        "StyleHint": "eius",
-        "Hidden": false,
-        "FullName": "Sister Willms",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Prof. Ludie Crooks DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 84
+            "FieldLength": 835
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "soluta",
+    "ExtraInfo": "dicta",
+    "StyleHint": "natus",
     "Hidden": true,
-    "FullName": "Cassie Langosh",
+    "FullName": "Ibrahim Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 983
+        "FieldLength": 810
       }
     }
   }

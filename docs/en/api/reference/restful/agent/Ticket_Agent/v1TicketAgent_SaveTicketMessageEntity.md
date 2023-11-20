@@ -113,66 +113,66 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 539,
+  "EjMessageId": 448,
   "Ticket": null,
-  "CreatedAt": "2002-03-22T11:06:35.4895691+01:00",
+  "CreatedAt": "2002-09-26T13:38:14.2178238+02:00",
   "CreatedBy": null,
-  "Author": "eligendi",
+  "Author": "laborum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sit",
-  "TimeSpent": 830,
-  "Body": "assumenda",
-  "HtmlBody": "omnis",
-  "EmailHeader": "abigayle@corwin.co.uk",
-  "DebugInfo": "possimus",
-  "MailSorter": "laudantium",
+  "MessageId": "quo",
+  "TimeSpent": 659,
+  "Body": "culpa",
+  "HtmlBody": "est",
+  "EmailHeader": "jane_upton@leannon.us",
+  "DebugInfo": "alias",
+  "MailSorter": "autem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "debitis",
+  "SearchTitle": "molestiae",
   "MessageHeaders": [
     {
-      "Id": 122,
-      "Name": "Jaskolski-Stehr",
-      "Value": "quam",
+      "Id": 196,
+      "Name": "Friesen Group",
+      "Value": "officiis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 122,
-      "Name": "Jaskolski-Stehr",
-      "Value": "quam",
+      "Id": 196,
+      "Name": "Friesen Group",
+      "Value": "officiis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "ad",
-  "Sentiment": 452,
-  "SentimentConfidence": 389,
+  "Important": true,
+  "Language": "autem",
+  "Sentiment": 575,
+  "SentimentConfidence": 337,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 446,
-      "Name": "Metz Inc and Sons",
-      "ContentType": "laudantium",
-      "AttSize": 68,
-      "InlineImage": true,
-      "ContentId": "et",
-      "AuthKey": "modi"
+      "AttachmentId": 507,
+      "Name": "Jacobson Group",
+      "ContentType": "eos",
+      "AttSize": 268,
+      "InlineImage": false,
+      "ContentId": "non",
+      "AuthKey": "autem"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "neque"
+    "CustomFields1": "nam",
+    "CustomFields2": "aut"
   }
 }
 ```
@@ -184,78 +184,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 890,
+  "EjMessageId": 116,
   "Ticket": null,
-  "CreatedAt": "2019-08-08T11:06:35.4895691+02:00",
+  "CreatedAt": "2003-06-28T13:38:14.2178238+02:00",
   "CreatedBy": null,
-  "Author": "quis",
+  "Author": "sit",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nihil",
-  "TimeSpent": 758,
-  "Body": "eveniet",
-  "HtmlBody": "laborum",
-  "EmailHeader": "antonia.orn@keebler.us",
-  "DebugInfo": "non",
-  "MailSorter": "enim",
+  "MessageId": "atque",
+  "TimeSpent": 489,
+  "Body": "ad",
+  "HtmlBody": "cum",
+  "EmailHeader": "amelie.yost@feeneybaumbach.uk",
+  "DebugInfo": "quidem",
+  "MailSorter": "voluptas",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "magnam",
+  "SearchTitle": "eos",
   "MessageHeaders": [
     {
-      "Id": 874,
-      "Name": "Spencer Inc and Sons",
-      "Value": "occaecati",
+      "Id": 356,
+      "Name": "Bartoletti-Steuber",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 716
+          "FieldType": "System.Int32",
+          "FieldLength": 791
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "magnam",
-  "Sentiment": 417,
-  "SentimentConfidence": 831,
+  "Important": false,
+  "Language": "voluptatem",
+  "Sentiment": 993,
+  "SentimentConfidence": 709,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 134,
-      "Name": "Prosacco Group",
-      "ContentType": "quae",
-      "AttSize": 758,
-      "InlineImage": true,
-      "ContentId": "non",
-      "AuthKey": "qui",
+      "AttachmentId": 662,
+      "Name": "Daugherty, Bogan and Mante",
+      "ContentType": "quos",
+      "AttSize": 734,
+      "InlineImage": false,
+      "ContentId": "esse",
+      "AuthKey": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 19
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "officiis",
-    "CustomFields2": "saepe"
+    "CustomFields1": "enim",
+    "CustomFields2": "veniam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldType": "System.String",
+      "FieldLength": 417
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 715,
-  "Name": "Mohr LLC",
-  "Tooltip": "numquam",
-  "Rank": 885,
+  "SaleTypeId": 392,
+  "Name": "Hyatt-Schoen",
+  "Tooltip": "aut",
+  "Rank": 740,
   "DurationUnit": "Century",
-  "SaleDuration": 733,
-  "SaleTypeCatId": 134,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "SaleDuration": 901,
+  "SaleTypeCatId": 68,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 804,
-  "QuoteLinesTemplate": 404,
-  "ConfirmationLinesTemplate": 572,
+  "DefaultQuoteValidity": 940,
+  "QuoteLinesTemplate": 33,
+  "ConfirmationLinesTemplate": 13,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 954,
-  "MinEarningPercent": 878,
-  "GroupQuoteLinesBy": 277,
+  "MaxDiscountPercent": 86,
+  "MinEarningPercent": 267,
+  "GroupQuoteLinesBy": 299,
   "SortGroupLinesBy": 534,
   "Stages": [
     {
-      "Id": 43,
-      "Name": "Friesen-Torphy",
-      "ToolTip": "Quo voluptatibus velit asperiores velit.",
-      "Deleted": false,
-      "Rank": 771,
-      "Type": "numquam",
-      "ColorBlock": 558,
-      "IconHint": "ab",
-      "Selected": true,
-      "LastChanged": "2022-06-23T11:06:43.0534497+02:00",
+      "Id": 899,
+      "Name": "Romaguera Group",
+      "ToolTip": "Quia distinctio corporis cumque autem.",
+      "Deleted": true,
+      "Rank": 627,
+      "Type": "eos",
+      "ColorBlock": 981,
+      "IconHint": "delectus",
+      "Selected": false,
+      "LastChanged": "2003-04-14T13:38:18.2181419+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "excepturi",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Mrs. Mittie Lysanne McLaughlin Sr.",
+      "ExtraInfo": "dolores",
+      "StyleHint": "necessitatibus",
+      "Hidden": false,
+      "FullName": "Mrs. Frida Roob DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldType": "System.String",
+          "FieldLength": 637
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 928
     }
   }
 }

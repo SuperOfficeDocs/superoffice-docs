@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 28 Mar 2016 11:06:41 G3T
+Last-Modified: Mon, 25 Nov 2019 13:38:17 G11T
 
 {
-  "ForeignAppId": 279,
-  "Name": "Raynor-Thiel",
-  "CreatedDate": "2005-10-27T11:06:41.8790976+02:00",
-  "UpdatedDate": "2016-03-28T11:06:41.8790976+02:00",
+  "ForeignAppId": 154,
+  "Name": "Stoltenberg-Lockman",
+  "CreatedDate": "2002-07-30T13:38:17.4368262+02:00",
+  "UpdatedDate": "2019-11-25T13:38:17.4368262+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 335,
-      "Name": "Ritchie, Mayert and Brekke",
-      "CreatedDate": "2017-09-26T11:06:41.8790976+02:00",
-      "UpdatedDate": "2003-11-07T11:06:41.8790976+01:00",
-      "AssociateFullName": "Mrs. Josefina Walsh",
-      "CreatedBy": "reiciendis",
-      "UpdatedBy": "laboriosam",
-      "DeviceIdentifier": "provident",
-      "ForeignAppId": 145,
+      "ForeignDeviceId": 691,
+      "Name": "Baumbach-Lang",
+      "CreatedDate": "2001-10-03T13:38:17.4368262+02:00",
+      "UpdatedDate": "2012-09-16T13:38:17.4368262+02:00",
+      "AssociateFullName": "Ms. Bradly Joanny Stehr",
+      "CreatedBy": "et",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 570,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 804
+          "FieldType": "System.String",
+          "FieldLength": 929
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Mon, 28 Mar 2016 11:06:41 G3T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 23
     }
   }
 }

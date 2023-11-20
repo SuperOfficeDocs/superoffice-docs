@@ -31,7 +31,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 420,
-    "Name": "Quitzon, West and Schowalter",
-    "ToolTip": "Eius nesciunt.",
-    "Deleted": false,
-    "Rank": 514,
-    "Type": "optio",
-    "ColorBlock": 380,
-    "IconHint": "dolorem",
+    "Id": 386,
+    "Name": "Osinski-Olson",
+    "ToolTip": "Et sapiente.",
+    "Deleted": true,
+    "Rank": 900,
+    "Type": "necessitatibus",
+    "ColorBlock": 728,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2018-05-01T11:06:43.1003256+02:00",
+    "LastChanged": "1997-10-16T13:38:18.2493876+02:00",
     "ChildItems": [
       {
-        "Id": 338,
-        "Name": "Marvin-Konopelski",
-        "ToolTip": "Et impedit dolore id neque omnis.",
-        "Deleted": false,
-        "Rank": 61,
-        "Type": "nostrum",
-        "ColorBlock": 746,
-        "IconHint": "nihil",
+        "Id": 727,
+        "Name": "Klocko-Willms",
+        "ToolTip": "Consectetur culpa tempore est reiciendis.",
+        "Deleted": true,
+        "Rank": 422,
+        "Type": "reiciendis",
+        "ColorBlock": 507,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2023-06-23T11:06:43.1003256+02:00",
+        "LastChanged": "2005-03-30T13:38:18.2493876+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "labore",
+        "ExtraInfo": "sunt",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Gina Hauck",
+        "FullName": "Darwin Schultz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 708
+            "FieldLength": 496
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "unde",
+    "StyleHint": "quibusdam",
     "Hidden": true,
-    "FullName": "Prof. Hertha Rowe",
+    "FullName": "Prof. Lucio Kihn MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 475
       }
     }
   }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 807,
-  "Name": "Kuphal Group",
-  "Tooltip": "nemo",
-  "Deleted": false,
-  "Rank": 41,
+  "Id": 384,
+  "Name": "Douglas Group",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 242,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "id",
+  "ListType": "eum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 291,
-  "Name": "Bergnaum Inc and Sons",
-  "Tooltip": "atque",
-  "Deleted": true,
-  "Rank": 334,
-  "IsCustomList": false,
+  "Id": 120,
+  "Name": "Tremblay, Kilback and Ebert",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "Rank": 754,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eligendi",
+  "UseGroupsAndHeadings": true,
+  "ListType": "porro",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 578
     }
   }
 }

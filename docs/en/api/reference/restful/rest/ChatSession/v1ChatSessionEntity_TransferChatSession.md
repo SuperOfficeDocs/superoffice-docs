@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,29 +102,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 544,
-  "TopicId": 350,
+  "ChatSessionId": 257,
+  "TopicId": 607,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quia",
-  "CustomerHost": "quis",
-  "CustomerName": "Nikolaus, Bradtke and Waelchi",
-  "CustomerEmail": "lucio@pacochaquitzon.info",
-  "CustomerPhone": "374.830.2039 x572",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Zulauf, Vandervort and Senger",
+  "CustomerAlias": "ut",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Johnson Group",
+  "CustomerEmail": "caleigh_hermann@leannon.us",
+  "CustomerPhone": "1-013-336-9042 x271",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Smith-Hamill",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "quia",
-  "WhenRequested": "2005-10-02T11:06:41.4884932+02:00",
-  "WhenStarted": "2005-02-23T11:06:41.4884932+01:00",
-  "WhenEnded": "2009-05-20T11:06:41.4884932+02:00",
-  "WhenIdle": "1999-01-25T11:06:41.4884932+01:00",
-  "WhenFetched": "1999-10-11T11:06:41.4884932+02:00",
-  "SessionKey": "rerum",
-  "InitialQueuePos": 581,
-  "AlertLevel": 104,
-  "Rank": 42,
+  "FirstMessage": "veniam",
+  "LastMessage": "occaecati",
+  "WhenRequested": "1998-03-09T13:38:17.15557+01:00",
+  "WhenStarted": "2009-07-25T13:38:17.15557+02:00",
+  "WhenEnded": "2014-12-18T13:38:17.15557+01:00",
+  "WhenIdle": "2010-06-26T13:38:17.15557+02:00",
+  "WhenFetched": "2020-08-22T13:38:17.15557+02:00",
+  "SessionKey": "quibusdam",
+  "InitialQueuePos": 195,
+  "AlertLevel": 178,
+  "Rank": 566,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 581,
+  "Rating": 28,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldLength": 534
     }
   }
 }

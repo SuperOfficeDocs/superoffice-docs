@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Bergnaum Inc and Sons",
-  "Comment": "quia",
-  "StakeholderRoleId": 644,
-  "CountryId": 825,
-  "PersonId": 432,
-  "EmailDescription": "tate@hoppe.uk",
-  "EmailId": 323,
-  "EmailAddress": "hillary.ortiz@doyle.com",
-  "PhoneId": 187,
-  "ContactName": "Mohr Group",
-  "ContactId": 43,
-  "SaleId": 692,
-  "Mrmrs": "id",
-  "Firstname": "Theresa",
-  "MiddleName": "Connelly, Haley and Reynolds",
-  "Lastname": "Hodkiewicz",
-  "SaleStakeholderId": 930,
-  "Rank": 80,
-  "Phone": "(849)463-4610 x54558",
+  "StakeholderRoleName": "Schmeler Group",
+  "Comment": "dolor",
+  "StakeholderRoleId": 942,
+  "CountryId": 499,
+  "PersonId": 506,
+  "EmailDescription": "estevan@hansen.com",
+  "EmailId": 73,
+  "EmailAddress": "justice.considine@heaneyryan.biz",
+  "PhoneId": 46,
+  "ContactName": "Ankunding, Metz and Bednar",
+  "ContactId": 65,
+  "SaleId": 873,
+  "Mrmrs": "adipisci",
+  "Firstname": "Nedra",
+  "MiddleName": "Wiza Inc and Sons",
+  "Lastname": "Will",
+  "SaleStakeholderId": 2,
+  "Rank": 183,
+  "Phone": "640-069-6705 x78614",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 624
+      "FieldType": "System.Int32",
+      "FieldLength": 373
     }
   }
 }

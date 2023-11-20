@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 568,
-  "SourcePersonId": 981,
-  "DestinationContactId": 709,
-  "DestinationPersonId": 84,
-  "RelationId": 909,
-  "Comment": "illo",
-  "RelationDefinitionId": 125,
-  "Reversed": 291,
-  "UpdatedDate": "2001-02-22T11:06:41.7697222+01:00",
-  "CreatedDate": "2000-11-30T11:06:41.7697222+01:00",
+  "SourceContactId": 600,
+  "SourcePersonId": 933,
+  "DestinationContactId": 157,
+  "DestinationPersonId": 380,
+  "RelationId": 627,
+  "Comment": "nisi",
+  "RelationDefinitionId": 405,
+  "Reversed": 577,
+  "UpdatedDate": "1999-11-06T13:38:17.280593+01:00",
+  "CreatedDate": "2019-06-15T13:38:17.280593+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Maggio-Murray",
-  "SourcePersonName": "Dare-Macejkovic",
-  "DestinationContactName": "Spinka, Collier and Dibbert",
-  "DestinationPersonName": "Harvey, Collier and Gulgowski",
-  "ActiveText": "possimus",
-  "PassiveText": "magnam"
+  "SourceContactName": "Walter, Reynolds and Conn",
+  "SourcePersonName": "Okuneva Inc and Sons",
+  "DestinationContactName": "Collins, McDermott and Hackett",
+  "DestinationPersonName": "Farrell, Kuphal and Anderson",
+  "ActiveText": "dignissimos",
+  "PassiveText": "nemo"
 }
 ```
 
@@ -146,35 +146,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 613,
-  "SourcePersonId": 684,
-  "DestinationContactId": 730,
-  "DestinationPersonId": 925,
-  "RelationId": 822,
-  "Comment": "neque",
-  "RelationDefinitionId": 38,
-  "Reversed": 553,
-  "UpdatedDate": "1997-05-08T11:06:41.7697222+02:00",
-  "CreatedDate": "2012-05-06T11:06:41.7697222+02:00",
+  "SourceContactId": 650,
+  "SourcePersonId": 653,
+  "DestinationContactId": 429,
+  "DestinationPersonId": 52,
+  "RelationId": 498,
+  "Comment": "ut",
+  "RelationDefinitionId": 858,
+  "Reversed": 41,
+  "UpdatedDate": "2012-05-14T13:38:17.280593+02:00",
+  "CreatedDate": "2001-09-04T13:38:17.280593+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bode LLC",
-  "SourcePersonName": "Ferry Inc and Sons",
-  "DestinationContactName": "Parker LLC",
-  "DestinationPersonName": "Windler LLC",
-  "ActiveText": "ullam",
+  "SourceContactName": "Kub, Lueilwitz and Tremblay",
+  "SourcePersonName": "Dietrich Inc and Sons",
+  "DestinationContactName": "Dooley-Fay",
+  "DestinationPersonName": "Purdy, Mann and Wintheiser",
+  "ActiveText": "quod",
   "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 297
+      "FieldLength": 952
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

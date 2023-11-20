@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 416,
-  "Name": "Schumm-Zulauf",
-  "Tooltip": "aut",
+  "HeadingId": 502,
+  "Name": "Lang Group",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "Rank": 483,
-  "UdListDefinitionId": 570
+  "Rank": 887,
+  "UdListDefinitionId": 784
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 196,
-  "Name": "Tillman, Schmeler and Beier",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 693,
-  "UdListDefinitionId": 5,
+  "HeadingId": 286,
+  "Name": "Tillman, Gerlach and Beier",
+  "Tooltip": "quibusdam",
+  "Deleted": false,
+  "Rank": 72,
+  "UdListDefinitionId": 294,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 796
     }
   }
 }

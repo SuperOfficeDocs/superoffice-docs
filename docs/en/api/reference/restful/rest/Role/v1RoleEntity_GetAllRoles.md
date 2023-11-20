@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 45,
-    "Name": "Medhurst, Carter and Powlowski",
-    "ToolTip": "Velit excepturi eveniet autem dicta voluptate sint assumenda.",
+    "Id": 870,
+    "Name": "Gislason-Toy",
+    "ToolTip": "Unde incidunt aperiam eius.",
     "Deleted": false,
-    "Rank": 98,
-    "Type": "pariatur",
-    "ColorBlock": 523,
-    "IconHint": "esse",
-    "Selected": true,
-    "LastChanged": "2014-08-31T11:06:42.0822263+02:00",
+    "Rank": 707,
+    "Type": "consequatur",
+    "ColorBlock": 305,
+    "IconHint": "sapiente",
+    "Selected": false,
+    "LastChanged": "2006-07-12T13:38:17.5774332+02:00",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Deckow LLC",
-        "ToolTip": "Et nemo quia rerum.",
-        "Deleted": false,
-        "Rank": 128,
-        "Type": "molestiae",
-        "ColorBlock": 761,
-        "IconHint": "fuga",
+        "Id": 166,
+        "Name": "Bartell, Bauch and Koelpin",
+        "ToolTip": "Consequatur voluptas nostrum nobis occaecati nisi incidunt qui.",
+        "Deleted": true,
+        "Rank": 764,
+        "Type": "voluptatibus",
+        "ColorBlock": 578,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "1999-08-26T11:06:42.0822263+02:00",
+        "LastChanged": "2021-07-21T13:38:17.5774332+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "tenetur",
-        "Hidden": false,
-        "FullName": "Mable Mraz",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "ratione",
+        "Hidden": true,
+        "FullName": "Mr. Bonnie Cloyd Braun PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 890
+            "FieldType": "System.String",
+            "FieldLength": 320
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Colten Little",
+    "ExtraInfo": "quae",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Joanne Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldLength": 79
       }
     }
   }

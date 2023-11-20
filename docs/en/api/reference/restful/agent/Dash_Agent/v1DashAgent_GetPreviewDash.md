@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 79
+  "DashboardId": 323
 }
 ```
 
@@ -92,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bergstrom-Crooks",
-  "Description": "Inverse motivating parallelism",
-  "OwnedByFullName": "Lily Ondricka",
-  "Registered": "2011-08-22T11:06:34.2852061+02:00",
+  "Name": "Medhurst, Torp and Harber",
+  "Description": "Vision-oriented eco-centric success",
+  "OwnedByFullName": "Joanie Cummings",
+  "Registered": "2013-01-03T13:38:13.4052559+01:00",
   "Tiles": [
     {
-      "Name": "Aufderhar-Nader",
+      "Name": "Ritchie Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 462
         }
       }
     },
     {
-      "Name": "Aufderhar-Nader",
+      "Name": "Ritchie Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 462
         }
       }
     }
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldType": "System.Int32",
+      "FieldLength": 482
     }
   }
 }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 843,
-  "Name": "Jacobs Inc and Sons",
+  "WebhookId": 893,
+  "Name": "Robel-Howell",
   "Events": [
-    "voluptates",
-    "qui"
+    "non",
+    "ipsa"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "excepturi",
+  "Secret": "quia",
   "State": "Active",
-  "Type": "corrupti",
+  "Type": "laudantium",
   "Headers": {
-    "Headers1": "quia",
-    "Headers2": "et"
+    "Headers1": "incidunt",
+    "Headers2": "ad"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2021-01-17T11:06:35.7733119+01:00",
+  "Registered": "2013-01-16T13:38:14.4052895+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-05-08T11:06:35.7733119+02:00",
+  "Updated": "2009-01-15T13:38:14.4052895+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "tianna.boehm@leuschkereichel.name"
+  "ErrorsEmail": "bernard@bernhardkling.name"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 20,
-  "Name": "West-Konopelski",
+  "WebhookId": 672,
+  "Name": "Kub, Jerde and Beatty",
   "Events": [
-    "magni",
-    "autem"
+    "sint",
+    "quis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eveniet",
+  "Secret": "odit",
   "State": "Active",
-  "Type": "sed",
+  "Type": "laboriosam",
   "Headers": {
-    "Headers1": "vero",
-    "Headers2": "accusamus"
+    "Headers1": "ratione",
+    "Headers2": "numquam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-06-26T11:06:35.7733119+02:00",
+  "Registered": "2010-05-21T13:38:14.4052895+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2013-12-23T11:06:35.7733119+01:00",
+  "Updated": "2013-04-20T13:38:14.4052895+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jessica.monahan@caspermosciski.name"
+  "ErrorsEmail": "otha_klocko@kozey.name"
 }
 ```

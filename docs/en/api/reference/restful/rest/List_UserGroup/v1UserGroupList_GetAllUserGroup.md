@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/UserGroup/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "recusandae",
-    "Tooltip": "odit",
-    "Id": 617,
-    "Rank": 667,
+    "Value": "ut",
+    "Tooltip": "voluptatem",
+    "Id": 201,
+    "Rank": 711,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 67
+        "FieldType": "System.Int32",
+        "FieldLength": 193
       }
     }
   }

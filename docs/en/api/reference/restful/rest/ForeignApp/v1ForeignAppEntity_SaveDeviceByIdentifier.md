@@ -89,15 +89,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 871,
-  "Name": "Ruecker LLC",
-  "CreatedDate": "2005-08-02T11:06:41.8947242+02:00",
-  "UpdatedDate": "2001-07-11T11:06:41.8947242+02:00",
-  "AssociateFullName": "Dena Rice",
-  "CreatedBy": "ipsum",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "soluta",
-  "ForeignAppId": 769
+  "ForeignDeviceId": 55,
+  "Name": "Conn, Sanford and VonRueden",
+  "CreatedDate": "2006-12-01T13:38:17.4368262+01:00",
+  "UpdatedDate": "2006-06-26T13:38:17.4368262+02:00",
+  "AssociateFullName": "Joanne Rempel",
+  "CreatedBy": "est",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "ipsum",
+  "ForeignAppId": 471
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 416,
-  "Name": "Torphy-Price",
-  "CreatedDate": "2001-04-28T11:06:41.8947242+02:00",
-  "UpdatedDate": "2015-10-27T11:06:41.8947242+01:00",
-  "AssociateFullName": "Ms. Warren Pearlie Jacobs",
-  "CreatedBy": "inventore",
-  "UpdatedBy": "fugit",
-  "DeviceIdentifier": "adipisci",
-  "ForeignAppId": 902,
+  "ForeignDeviceId": 483,
+  "Name": "Sauer, Quigley and Carter",
+  "CreatedDate": "2008-10-27T13:38:17.4524494+01:00",
+  "UpdatedDate": "2018-07-25T13:38:17.4524494+02:00",
+  "AssociateFullName": "Ollie Ernser",
+  "CreatedBy": "totam",
+  "UpdatedBy": "neque",
+  "DeviceIdentifier": "quia",
+  "ForeignAppId": 187,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 950,
-    "Name": "Barrows Inc and Sons",
-    "Tooltip": "accusantium",
-    "Deleted": false,
-    "Rank": 463,
-    "UdListDefinitionId": 647,
+    "HeadingId": 806,
+    "Name": "Hamill, Littel and Wolf",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 966,
+    "UdListDefinitionId": 908,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 683
+        "FieldType": "System.Int32",
+        "FieldLength": 698
       }
     }
   }

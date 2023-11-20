@@ -94,36 +94,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 752,
+  "HierarchyId": 31,
   "Domain": "Dashboards",
-  "Name": "Schuppe-Bauch",
-  "Fullname": "molestiae",
-  "ParentId": 263,
+  "Name": "Bruen-Renner",
+  "Fullname": "aut",
+  "ParentId": 892,
   "Children": [
     {
-      "HierarchyId": 590,
+      "HierarchyId": 827,
       "Domain": "Dashboards",
-      "Name": "Pagac, Cruickshank and Bashirian",
-      "Fullname": "quo",
-      "ParentId": 139,
+      "Name": "Dickens, Hyatt and Bernhard",
+      "Fullname": "beatae",
+      "ParentId": 278,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-03-23T11:06:41.8947242+01:00",
-      "RegisteredAssociateId": 106,
-      "Updated": "2010-02-19T11:06:41.8947242+01:00",
-      "UpdatedAssociateId": 675
+      "Registered": "1996-11-07T13:38:17.4524494+01:00",
+      "RegisteredAssociateId": 685,
+      "Updated": "2013-07-01T13:38:17.4524494+02:00",
+      "UpdatedAssociateId": 627
     }
   ],
-  "Registered": "2016-01-21T11:06:41.8947242+01:00",
-  "RegisteredAssociateId": 221,
-  "Updated": "2022-11-14T11:06:41.8947242+01:00",
-  "UpdatedAssociateId": 437
+  "Registered": "2009-06-01T13:38:17.4524494+02:00",
+  "RegisteredAssociateId": 612,
+  "Updated": "2004-08-11T13:38:17.4524494+02:00",
+  "UpdatedAssociateId": 585
 }
 ```
 
@@ -134,46 +134,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 984,
+  "HierarchyId": 279,
   "Domain": "Dashboards",
-  "Name": "Russel Inc and Sons",
-  "Fullname": "amet",
-  "ParentId": 783,
+  "Name": "Moen-Kautzer",
+  "Fullname": "dolorum",
+  "ParentId": 327,
   "Children": [
     {
-      "HierarchyId": 237,
+      "HierarchyId": 976,
       "Domain": "Dashboards",
-      "Name": "Blanda-Lynch",
-      "Fullname": "vero",
-      "ParentId": 687,
+      "Name": "Murazik, Jewess and Bergnaum",
+      "Fullname": "molestias",
+      "ParentId": 834,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-07-15T11:06:41.8947242+02:00",
-      "RegisteredAssociateId": 599,
-      "Updated": "2003-06-26T11:06:41.8947242+02:00",
-      "UpdatedAssociateId": 642,
+      "Registered": "2001-01-29T13:38:17.4524494+01:00",
+      "RegisteredAssociateId": 244,
+      "Updated": "2007-02-08T13:38:17.4524494+01:00",
+      "UpdatedAssociateId": 629,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 143
+          "FieldLength": 240
         }
       }
     }
   ],
-  "Registered": "2002-05-17T11:06:41.8947242+02:00",
-  "RegisteredAssociateId": 386,
-  "Updated": "2006-09-23T11:06:41.8947242+02:00",
-  "UpdatedAssociateId": 10,
+  "Registered": "2001-03-16T13:38:17.4524494+01:00",
+  "RegisteredAssociateId": 241,
+  "Updated": "2021-04-24T13:38:17.4524494+02:00",
+  "UpdatedAssociateId": 860,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldLength": 370
     }
   },
   "_Links": {

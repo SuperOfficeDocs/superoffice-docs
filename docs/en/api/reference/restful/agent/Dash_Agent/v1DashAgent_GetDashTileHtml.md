@@ -79,8 +79,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 826,
-  "LanguageCode": "fugit"
+  "DashboardTileDefinitionId": 871,
+  "LanguageCode": "quam"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "accusantium",
-  "Html": "quo",
+  "LanguageCode": "ut",
+  "Html": "quisquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldLength": 363
     }
   }
 }

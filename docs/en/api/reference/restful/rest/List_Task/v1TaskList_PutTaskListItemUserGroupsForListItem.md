@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Hegmann, Johns and Oberbrunner",
-    "ToolTip": "Dolore vel ut quia architecto sit.",
+    "Id": 446,
+    "Name": "Hansen-Christiansen",
+    "ToolTip": "Iure fugit non et enim officia voluptas.",
     "Deleted": false,
-    "Rank": 570,
-    "Type": "dolor",
-    "ColorBlock": 506,
-    "IconHint": "voluptates",
+    "Rank": 604,
+    "Type": "ut",
+    "ColorBlock": 937,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "2017-03-30T11:06:43.1003256+02:00",
+    "LastChanged": "2004-09-20T13:38:18.2493876+02:00",
     "ChildItems": [
       {
-        "Id": 854,
-        "Name": "Morissette, Eichmann and Rutherford",
-        "ToolTip": "Mollitia praesentium unde nisi expedita mollitia omnis.",
+        "Id": 119,
+        "Name": "Becker, Cole and Wiza",
+        "ToolTip": "Quisquam et quam enim exercitationem aut aspernatur aut.",
         "Deleted": true,
-        "Rank": 708,
-        "Type": "ad",
-        "ColorBlock": 513,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "1996-07-11T11:06:43.1003256+02:00",
+        "Rank": 272,
+        "Type": "architecto",
+        "ColorBlock": 111,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2001-11-19T13:38:18.2493876+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "numquam",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Richie Barrows"
+        "FullName": "Alf Will"
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "fuga",
-    "Hidden": false,
-    "FullName": "Mrs. Rosalinda Larson"
+    "ExtraInfo": "saepe",
+    "StyleHint": "quas",
+    "Hidden": true,
+    "FullName": "Frederik Isaias Stroman I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 963,
-    "Name": "Gutkowski, Barrows and Rempel",
-    "ToolTip": "Ipsum est nostrum quis est quia eum aspernatur.",
-    "Deleted": false,
-    "Rank": 81,
-    "Type": "quia",
-    "ColorBlock": 442,
-    "IconHint": "minima",
+    "Id": 727,
+    "Name": "Ondricka Inc and Sons",
+    "ToolTip": "Iusto amet similique repudiandae ad cumque.",
+    "Deleted": true,
+    "Rank": 150,
+    "Type": "neque",
+    "ColorBlock": 207,
+    "IconHint": "natus",
     "Selected": true,
-    "LastChanged": "2007-01-29T11:06:43.1003256+01:00",
+    "LastChanged": "2008-03-17T13:38:18.2493876+01:00",
     "ChildItems": [
       {
-        "Id": 76,
-        "Name": "Thompson LLC",
-        "ToolTip": "Nostrum sit labore labore voluptas inventore.",
+        "Id": 622,
+        "Name": "Hand Inc and Sons",
+        "ToolTip": "Odio reprehenderit in doloremque qui ut.",
         "Deleted": true,
-        "Rank": 845,
-        "Type": "totam",
-        "ColorBlock": 846,
-        "IconHint": "nesciunt",
-        "Selected": false,
-        "LastChanged": "1998-08-25T11:06:43.1003256+02:00",
+        "Rank": 962,
+        "Type": "enim",
+        "ColorBlock": 413,
+        "IconHint": "necessitatibus",
+        "Selected": true,
+        "LastChanged": "2014-02-01T13:38:18.2493876+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "laborum",
+        "ExtraInfo": "ut",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Dr. Rhea Bergstrom II",
+        "FullName": "Clark Parisian II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 687
+            "FieldLength": 305
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "placeat",
-    "Hidden": true,
-    "FullName": "Kieran Heaney",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "veritatis",
+    "Hidden": false,
+    "FullName": "Geraldine Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldType": "System.String",
+        "FieldLength": 402
       }
     }
   }

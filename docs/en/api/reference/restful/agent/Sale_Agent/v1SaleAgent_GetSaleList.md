@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Heidenreich-Daniel",
-    "SaleDate": "2023-01-04T11:06:35.3176952+01:00",
-    "SaleId": 449,
-    "Probability": 999,
-    "Title": "est",
-    "Amount": 4666.526,
-    "Currency": "qui",
-    "ProjectName": "Rath, Legros and Homenick",
-    "AssociateFullName": "Annalise Kristin Emmerich II",
-    "Description": "Front-line transitional task-force",
+    "ContactName": "Ondricka Group",
+    "SaleDate": "2003-05-11T13:38:14.0928295+02:00",
+    "SaleId": 613,
+    "Probability": 78,
+    "Title": "molestiae",
+    "Amount": 7825.598,
+    "Currency": "neque",
+    "ProjectName": "Keebler-Kertzmann",
+    "AssociateFullName": "Mya Lynch",
+    "Description": "Multi-tiered encompassing standardization",
     "Status": "Lost",
-    "WeightedAmount": 19035.916,
-    "ProjectId": 96,
-    "EarningPercent": 16033.544,
-    "Earning": 13466.797999999999,
-    "ContactId": 661,
-    "AssociateId": 683,
-    "PersonId": 501,
-    "SaleTypeId": 639,
-    "SaleTypeName": "Dibbert-Gibson",
-    "PersonFullName": "Anne Ortiz V",
+    "WeightedAmount": 15193.632,
+    "ProjectId": 233,
+    "EarningPercent": 9395.732,
+    "Earning": 9273.506,
+    "ContactId": 699,
+    "AssociateId": 718,
+    "PersonId": 124,
+    "SaleTypeId": 861,
+    "SaleTypeName": "Champlin-Jaskolski",
+    "PersonFullName": "Geo Quigley",
     "Completed": "Completed",
-    "ActiveErpLinks": 117,
-    "NextDueDate": "2021-10-13T11:06:35.3176952+02:00",
-    "Number": "887209",
+    "ActiveErpLinks": 793,
+    "NextDueDate": "2012-02-01T13:38:14.0928295+01:00",
+    "Number": "566203",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 762
+        "FieldLength": 21
       }
     }
   }

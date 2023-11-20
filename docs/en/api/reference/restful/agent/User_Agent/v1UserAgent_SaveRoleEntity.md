@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 765,
-  "Name": "Farrell, Kris and Olson",
-  "Tooltip": "modi",
+  "RoleId": 855,
+  "Name": "Hagenes Inc and Sons",
+  "Tooltip": "eveniet",
   "RoleType": "Anonymous",
-  "Deleted": 704,
-  "Rank": 325,
-  "Created": "2014-08-11T11:06:35.6627548+02:00",
-  "UseCategories": 606,
+  "Deleted": 610,
+  "Rank": 869,
+  "Created": "2005-10-05T13:38:14.327173+02:00",
+  "UseCategories": 590,
   "CreatedBy": null,
-  "Updated": "2009-09-25T11:06:35.6627548+02:00",
+  "Updated": "2018-12-16T13:38:14.327173+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 447,
-  "Name": "Goyette, Gusikowski and Schumm",
-  "Tooltip": "in",
+  "RoleId": 168,
+  "Name": "Nolan-Kuphal",
+  "Tooltip": "voluptatem",
   "RoleType": "Anonymous",
-  "Deleted": 934,
-  "Rank": 958,
-  "Created": "2014-12-04T11:06:35.6783758+01:00",
-  "UseCategories": 992,
+  "Deleted": 575,
+  "Rank": 218,
+  "Created": "2018-09-09T13:38:14.342802+02:00",
+  "UseCategories": 107,
   "CreatedBy": null,
-  "Updated": "1999-10-24T11:06:35.6783758+02:00",
+  "Updated": "2011-05-31T13:38:14.342802+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 525
+      "FieldType": "System.Int32",
+      "FieldLength": 943
     }
   }
 }

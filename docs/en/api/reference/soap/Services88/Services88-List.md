@@ -1262,6 +1262,19 @@ title: Services88.ListAgent WSDL
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfTicketTypeEntity" nillable="true" type="tns:ArrayOfTicketTypeEntity" />
+      <xs:element name="GlobalChangeTicketType">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="FromTicketTypeId" type="xs:int" />
+            <xs:element minOccurs="0" name="ToTicketTypeId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GlobalChangeTicketTypeResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetTicketTypeList">
         <xs:complexType>
           <xs:sequence>
@@ -7012,6 +7025,23 @@ title: Services88.ListAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GlobalChangeTicketTypeRequest">
+    <wsdl:part name="parameters" element="tns:GlobalChangeTicketType" />
+  </wsdl:message>
+  <wsdl:message name="GlobalChangeTicketTypeRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GlobalChangeTicketTypeResponse">
+    <wsdl:part name="parameters" element="tns:GlobalChangeTicketTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GlobalChangeTicketTypeResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetTicketTypeListRequest">
     <wsdl:part name="parameters" element="tns:GetTicketTypeList" />
   </wsdl:message>
@@ -11650,6 +11680,10 @@ title: Services88.ListAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllTicketTypeEntities" name="GetAllTicketTypeEntitiesRequest" message="tns:GetAllTicketTypeEntitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllTicketTypeEntitiesResponse" name="GetAllTicketTypeEntitiesResponse" message="tns:GetAllTicketTypeEntitiesResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GlobalChangeTicketType">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GlobalChangeTicketType" name="GlobalChangeTicketTypeRequest" message="tns:GlobalChangeTicketTypeRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GlobalChangeTicketTypeResponse" name="GlobalChangeTicketTypeResponse" message="tns:GlobalChangeTicketTypeResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetTicketTypeList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketTypeList" name="GetTicketTypeListRequest" message="tns:GetTicketTypeListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketTypeListResponse" name="GetTicketTypeListResponse" message="tns:GetTicketTypeListResponse" />
@@ -13238,6 +13272,22 @@ title: Services88.ListAgent WSDL
         <soap:header message="tns:GetAllTicketTypeEntitiesResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetAllTicketTypeEntitiesResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetAllTicketTypeEntitiesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GlobalChangeTicketType">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GlobalChangeTicketType" style="document" />
+      <wsdl:input name="GlobalChangeTicketTypeRequest">
+        <soap:header message="tns:GlobalChangeTicketTypeRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GlobalChangeTicketTypeRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GlobalChangeTicketTypeRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GlobalChangeTicketTypeResponse">
+        <soap:header message="tns:GlobalChangeTicketTypeResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GlobalChangeTicketTypeResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GlobalChangeTicketTypeResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GlobalChangeTicketTypeResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

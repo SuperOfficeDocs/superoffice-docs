@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 4
+  "QuoteVersionId": 284
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 386,
-    "ERPQuoteAlternativeKey": "et",
-    "QuoteVersionId": 335,
-    "Name": "Skiles Inc and Sons",
-    "Description": "Realigned 5th generation neural-net",
+    "QuoteAlternativeId": 517,
+    "ERPQuoteAlternativeKey": "modi",
+    "QuoteVersionId": 509,
+    "Name": "Mante, Aufderhar and Bruen",
+    "Description": "Networked uniform secured line",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 5685.076,
-    "ERPDiscountAmount": 29343.642,
-    "DiscountPercent": 12918.348,
-    "DiscountAmount": 25714.469999999998,
+    "ERPDiscountPercent": 1369.558,
+    "ERPDiscountAmount": 3704.388,
+    "DiscountPercent": 17396.834,
+    "DiscountAmount": 22107.236,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "similique",
-    "VAT": 18277.488,
-    "EarningPercent": 3842.2839999999997,
-    "EarningAmount": 30703.798,
-    "SubTotal": 28093.176,
-    "TotalPrice": 11345.08,
-    "ExtraField1": "voluptatem",
-    "ExtraField2": "nihil",
-    "ExtraField3": "rerum",
-    "ExtraField4": "incidunt",
-    "ExtraField5": "adipisci",
+    "VATInfo": "quo",
+    "VAT": 6669.152,
+    "EarningPercent": 6841.522,
+    "EarningAmount": 15384.805999999999,
+    "SubTotal": 22514.656,
+    "TotalPrice": 2240.81,
+    "ExtraField1": "ullam",
+    "ExtraField2": "quae",
+    "ExtraField3": "officiis",
+    "ExtraField4": "et",
+    "ExtraField5": "aperiam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 896
       }
     }
   }

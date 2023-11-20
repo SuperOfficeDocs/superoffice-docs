@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Armstrong, Beahan and Rohan",
-  "Comment": "quod",
-  "StakeholderRoleId": 531,
-  "CountryId": 69,
-  "PersonId": 930,
-  "EmailDescription": "godfrey_bartoletti@ebert.com",
-  "EmailId": 911,
-  "EmailAddress": "laurence@daugherty.info",
-  "PhoneId": 363,
-  "ContactName": "Reichel, Kutch and Carter",
-  "ContactId": 560,
-  "SaleId": 601,
-  "Mrmrs": "vel",
-  "Firstname": "Bret",
-  "MiddleName": "Rowe, Wolff and Leuschke",
-  "Lastname": "Hahn",
-  "SaleStakeholderId": 31,
-  "Rank": 280,
-  "Phone": "480.987.3911 x776"
+  "StakeholderRoleName": "Harber-Hahn",
+  "Comment": "non",
+  "StakeholderRoleId": 854,
+  "CountryId": 512,
+  "PersonId": 17,
+  "EmailDescription": "theron_west@altenwerth.biz",
+  "EmailId": 951,
+  "EmailAddress": "tania.vonrueden@quitzondaugherty.name",
+  "PhoneId": 142,
+  "ContactName": "Macejkovic LLC",
+  "ContactId": 702,
+  "SaleId": 331,
+  "Mrmrs": "dolor",
+  "Firstname": "Emile",
+  "MiddleName": "D'Amore LLC",
+  "Lastname": "Hudson",
+  "SaleStakeholderId": 475,
+  "Rank": 587,
+  "Phone": "910.100.0693"
 }
 ```
 
@@ -145,36 +145,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Dooley Inc and Sons",
-  "Comment": "incidunt",
+  "StakeholderRoleName": "Shanahan Inc and Sons",
+  "Comment": "qui",
   "StakeholderRoleId": 180,
-  "CountryId": 51,
-  "PersonId": 224,
-  "EmailDescription": "jabari@gibsonwisozk.info",
-  "EmailId": 666,
-  "EmailAddress": "ashley@toy.biz",
-  "PhoneId": 20,
-  "ContactName": "Dare, Pouros and Osinski",
-  "ContactId": 579,
-  "SaleId": 775,
-  "Mrmrs": "optio",
-  "Firstname": "Emie",
-  "MiddleName": "Thompson-Barrows",
-  "Lastname": "McDermott",
-  "SaleStakeholderId": 693,
-  "Rank": 198,
-  "Phone": "792-319-5773 x862",
+  "CountryId": 633,
+  "PersonId": 417,
+  "EmailDescription": "aidan@huelstokes.us",
+  "EmailId": 641,
+  "EmailAddress": "vella@hagenesschneider.co.uk",
+  "PhoneId": 995,
+  "ContactName": "Crist-Schumm",
+  "ContactId": 727,
+  "SaleId": 559,
+  "Mrmrs": "voluptatem",
+  "Firstname": "Fern",
+  "MiddleName": "Runolfsson, Zulauf and Stokes",
+  "Lastname": "Wiza",
+  "SaleStakeholderId": 701,
+  "Rank": 327,
+  "Phone": "(019)611-1292 x7147",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldType": "System.String",
+      "FieldLength": 751
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

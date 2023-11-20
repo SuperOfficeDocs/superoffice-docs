@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quisquam",
-  "ProviderName": "Cormier-Koelpin",
-  "StorageKey": "alias",
+  "StorageType": "adipisci",
+  "ProviderName": "Lubowitz-Flatley",
+  "StorageKey": "et",
   "DesiredColumnNames": [
-    "Osinski, Olson and Jacobi",
-    "Boyer LLC"
+    "Wiegand, Carter and Braun",
+    "Lindgren-Mayer"
   ],
   "StaticColumns": [
-    "qui",
-    "sunt"
+    "placeat",
+    "totam"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hettinger, Bashirian and Koepp",
-      "Operator": "suscipit",
+      "Name": "Conn, Hettinger and Beer",
+      "Operator": "beatae",
       "Values": [
-        "cupiditate",
-        "eius"
+        "suscipit",
+        "possimus"
       ],
       "DisplayValues": [
-        "sunt",
-        "non"
+        "officia",
+        "maxime"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 605,
+      "InterParenthesis": 121,
       "InterOperator": "And",
-      "UniqueHash": 695
+      "UniqueHash": 682
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kovacek-Hammes",
-      "DisplayTooltip": "ipsam",
-      "DisplayType": "ex",
-      "CanOrderBy": true,
-      "Name": "Frami-Brakus",
-      "CanRestrictBy": false,
-      "RestrictionType": "earum",
-      "RestrictionListName": "Smith Group",
+      "DisplayName": "Grimes LLC",
+      "DisplayTooltip": "aut",
+      "DisplayType": "illum",
+      "CanOrderBy": false,
+      "Name": "Ernser-Ledner",
+      "CanRestrictBy": true,
+      "RestrictionType": "et",
+      "RestrictionListName": "Wolff, Kuhlman and Connelly",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "cumque",
-      "IconHint": "tempora",
-      "HeadingIconHint": "aperiam"
+      "ExtraInfo": "dicta",
+      "Width": "aut",
+      "IconHint": "reiciendis",
+      "HeadingIconHint": "rem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Will-Kerluke",
-      "PrimaryKey": 490,
+      "EntityName": "Bergnaum-Lynch",
+      "PrimaryKey": 185,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "nesciunt"
+          "DisplayValue": "quia",
+          "TooltipHint": "labore",
+          "LinkHint": "officiis"
         }
       },
       "LinkHint": "et",
-      "StyleHint": "consequatur",
+      "StyleHint": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 486
+          "FieldLength": 143
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Herman, Langworth and Weimann",
-      "Description": "Robust fault-tolerant functionalities",
-      "Rank": 849,
+      "Name": "Padberg, Hagenes and Vandervort",
+      "Description": "Assimilated discrete time-frame",
+      "Rank": 774,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Herman, Langworth and Weimann",
-      "Description": "Robust fault-tolerant functionalities",
-      "Rank": 849,
+      "Name": "Padberg, Hagenes and Vandervort",
+      "Description": "Assimilated discrete time-frame",
+      "Rank": 774,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 434
+      "FieldLength": 233
     }
   }
 }

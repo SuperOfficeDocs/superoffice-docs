@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "sit",
-  "Name": "Ruecker-Nolan",
-  "Description": "Enterprise-wide 5th generation paradigm",
-  "IncludeId": "aperiam",
-  "Source": "magni",
-  "Registered": "1997-02-02T11:06:42.4584971+01:00",
-  "RegisteredBy": "odit",
-  "Updated": "1999-02-24T11:06:42.4584971+01:00",
-  "UpdatedBy": "incidunt",
-  "Path": "et",
+  "UniqueIdentifier": "excepturi",
+  "Name": "Dooley Group",
+  "Description": "Configurable web-enabled application",
+  "IncludeId": "voluptatem",
+  "Source": "quo",
+  "Registered": "2017-06-16T13:38:17.8275624+02:00",
+  "RegisteredBy": "et",
+  "Updated": "2000-06-21T13:38:17.8275624+02:00",
+  "UpdatedBy": "fuga",
+  "Path": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldType": "System.String",
+      "FieldLength": 325
     }
   }
 }

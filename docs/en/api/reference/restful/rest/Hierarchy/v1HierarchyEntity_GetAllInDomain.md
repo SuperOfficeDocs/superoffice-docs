@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 979,
+    "HierarchyId": 20,
     "Domain": "Dashboards",
-    "Name": "Sawayn, Daniel and Reichert",
-    "Fullname": "labore",
-    "ParentId": 328,
+    "Name": "Barton, Kunde and Jacobs",
+    "Fullname": "minima",
+    "ParentId": 213,
     "Children": [
       {
-        "HierarchyId": 799,
+        "HierarchyId": 387,
         "Domain": "Dashboards",
-        "Name": "Becker-Stehr",
-        "Fullname": "qui",
-        "ParentId": 415,
+        "Name": "Daniel Inc and Sons",
+        "Fullname": "nulla",
+        "ParentId": 723,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2020-12-17T11:06:41.9103479+01:00",
-        "RegisteredAssociateId": 615,
-        "Updated": "2016-12-01T11:06:41.9103479+01:00",
-        "UpdatedAssociateId": 645,
+        "Registered": "2003-03-15T13:38:17.4524494+01:00",
+        "RegisteredAssociateId": 314,
+        "Updated": "2015-02-04T13:38:17.4524494+01:00",
+        "UpdatedAssociateId": 975,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 955
+            "FieldLength": 552
           }
         }
       }
     ],
-    "Registered": "2000-04-05T11:06:41.9103479+02:00",
-    "RegisteredAssociateId": 898,
-    "Updated": "2004-05-24T11:06:41.9103479+02:00",
-    "UpdatedAssociateId": 843,
+    "Registered": "2008-08-16T13:38:17.4524494+02:00",
+    "RegisteredAssociateId": 456,
+    "Updated": "2021-08-06T13:38:17.4524494+02:00",
+    "UpdatedAssociateId": 912,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 126
       }
     }
   }

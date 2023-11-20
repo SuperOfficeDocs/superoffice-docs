@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 949,
-    "Tooltip": "fuga",
+    "Unrestricted": false,
+    "Total": 138,
+    "Tooltip": "impedit",
     "CanAssign": false,
-    "Free": 878,
-    "InUse": 39,
+    "Free": 521,
+    "InUse": 326,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 42,
-    "Name": "Gerlach-Ryan",
-    "Description": "Mandatory composite knowledge user",
-    "PrerequisiteModuleName": "Reinger-Bartoletti",
-    "SortOrder": 275,
-    "ExtraFlags": 587,
+    "ModuleLicenseId": 827,
+    "Name": "Goodwin, Von and Rath",
+    "Description": "Right-sized encompassing concept",
+    "PrerequisiteModuleName": "O'Conner, Steuber and Herzog",
+    "SortOrder": 1001,
+    "ExtraFlags": 409,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldLength": 147
       }
     }
   }

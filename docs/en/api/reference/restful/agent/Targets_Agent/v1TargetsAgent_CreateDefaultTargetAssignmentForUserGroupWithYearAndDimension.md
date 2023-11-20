@@ -87,9 +87,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 533,
-  "Year": 872,
-  "TargetDimensionId": 364
+  "UserGroupId": 551,
+  "Year": 99,
+  "TargetDimensionId": 141
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 678,
+    "TargetAssignmentInfoId": 151,
     "Values": [
-      726,
-      15
+      250,
+      861
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 730,
-    "DimensionListItemDisplayName": "Ward LLC",
+    "DimensionListItem": 260,
+    "DimensionListItemDisplayName": "Langosh, Brakus and Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 453
       }
     }
   }

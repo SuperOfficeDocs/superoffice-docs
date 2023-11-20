@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 250,
+  "ErpConnectionId": 141,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "molestiae",
-    "Rank": 319,
-    "DisplayName": "Crona-Kuhic",
-    "DisplayDescription": "Assimilated global collaboration",
+    "FieldKey": "maxime",
+    "Rank": 446,
+    "DisplayName": "Crist LLC",
+    "DisplayDescription": "Enhanced real-time knowledge base",
     "FieldType": "Checkbox",
-    "ListName": "Gislason-Bernier",
-    "DefaultValue": "laborum",
-    "MaxLength": 80,
+    "ListName": "Cartwright, Olson and Goodwin",
+    "DefaultValue": "sunt",
+    "MaxLength": 655,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 293
+        "FieldLength": 839
       }
     }
   }

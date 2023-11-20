@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=deleniti
+GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?query=omnis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Jacobs, Wintheiser and Kilback",
-    "ToolTip": "Provident recusandae.",
-    "Deleted": true,
-    "Rank": 330,
-    "Type": "quisquam",
+    "Id": 944,
+    "Name": "King, Stokes and Bailey",
+    "ToolTip": "Voluptas ad in ipsam qui et et cumque.",
+    "Deleted": false,
+    "Rank": 751,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 663,
-        "Name": "Kozey-Ankunding",
-        "ToolTip": "Dolor officiis sit.",
+        "Id": 517,
+        "Name": "O'Connell, Schroeder and Balistreri",
+        "ToolTip": "Dignissimos aperiam architecto optio dolorem.",
         "Deleted": false,
-        "Rank": 79,
-        "Type": "natus",
+        "Rank": 230,
+        "Type": "vero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "assumenda",
-        "ColorBlock": 907,
-        "ExtraInfo": "fugit",
-        "StyleHint": "laboriosam",
-        "FullName": "Ursula Wyman",
+        "IconHint": "dolorem",
+        "ColorBlock": 43,
+        "ExtraInfo": "asperiores",
+        "StyleHint": "ad",
+        "FullName": "Mortimer Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 976
+            "FieldType": "System.Int32",
+            "FieldLength": 770
           }
         }
       }
     ],
-    "IconHint": "veritatis",
-    "ColorBlock": 675,
-    "ExtraInfo": "est",
-    "StyleHint": "incidunt",
-    "FullName": "Alisha Grimes",
+    "IconHint": "sint",
+    "ColorBlock": 573,
+    "ExtraInfo": "illum",
+    "StyleHint": "atque",
+    "FullName": "Rhiannon Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 688
       }
     }
   }

@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 19 Mar 2011 11:06:42 G3T
+Last-Modified: Tue, 03 Jul 2018 13:38:17 G7T
 
 {
-  "BlobId": 875,
-  "BlobSize": 663,
-  "Description": "Front-line impactful collaboration",
-  "ExtraInfo": "dolores",
+  "BlobId": 704,
+  "BlobSize": 540,
+  "Description": "Stand-alone multimedia migration",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "minus",
-  "OriginalSize": 725,
-  "CreatedDate": "2016-11-08T11:06:42.4272471+01:00",
-  "UpdatedDate": "2011-03-19T11:06:42.4272471+01:00",
+  "IsZipped": false,
+  "MimeType": "omnis",
+  "OriginalSize": 845,
+  "CreatedDate": "2017-12-20T13:38:17.8119358+01:00",
+  "UpdatedDate": "2018-07-03T13:38:17.8119358+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 515
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=610
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=198
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 492,
-  "ColumnId": 247,
-  "FieldDefault": "cum",
-  "FieldHeight": 649,
-  "FieldLabel": "non",
-  "FieldLeft": 564,
-  "FieldTop": 87,
+  "UDefFieldId": 873,
+  "ColumnId": 81,
+  "FieldDefault": "est",
+  "FieldHeight": 612,
+  "FieldLabel": "corporis",
+  "FieldLeft": 764,
+  "FieldTop": 269,
   "FieldType": "Checkbox",
-  "FieldWidth": 748,
-  "FormatMask": "aut",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 542,
-  "LabelLeft": 984,
-  "LabelTop": 976,
-  "LabelWidth": 93,
-  "LastVersionId": 103,
-  "ListTableId": 102,
-  "IsMandatory": true,
+  "FieldWidth": 473,
+  "FormatMask": "iure",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 265,
+  "LabelLeft": 825,
+  "LabelTop": 398,
+  "LabelWidth": 838,
+  "LastVersionId": 537,
+  "ListTableId": 839,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 167,
-  "ProgId": "sed",
+  "Page1LineNo": 66,
+  "ProgId": "facere",
   "IsReadOnly": true,
-  "ShortLabel": "animi",
-  "TabOrder": 302,
-  "TextLength": 75,
-  "Tooltip": "et",
-  "UdefIdentity": 800,
-  "UDListDefinitionId": 602,
+  "ShortLabel": "rerum",
+  "TabOrder": 37,
+  "TextLength": 355,
+  "Tooltip": "corrupti",
+  "UdefIdentity": 923,
+  "UDListDefinitionId": 304,
   "Justification": "Center",
-  "Version": 689,
-  "TemplateVariableName": "Runolfsdottir-Grimes",
-  "HasBeenPublished": false,
-  "MdoListName": "Robel, Zemlak and Gleason",
+  "Version": 514,
+  "TemplateVariableName": "Lockman Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Deckow, Romaguera and Green",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldLength": 513
     }
   }
 }

@@ -91,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Feeney Group",
+  "Name": "Hermann-Crona",
   "ForceFlatList": false,
-  "AdditionalInfo": "saepe",
+  "AdditionalInfo": "error",
   "HistoryItems": [
-    43,
-    980
+    6,
+    604
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "McKenzie-Roberts",
-    "ToolTip": "Eum maxime sit reprehenderit a.",
+    "Id": 548,
+    "Name": "Heidenreich LLC",
+    "ToolTip": "Qui ipsum quae.",
     "Deleted": false,
-    "Rank": 828,
-    "Type": "eveniet",
-    "ColorBlock": 934,
-    "IconHint": "est",
+    "Rank": 356,
+    "Type": "esse",
+    "ColorBlock": 482,
+    "IconHint": "fugit",
     "Selected": true,
-    "LastChanged": "2001-03-23T11:06:34.8020663+01:00",
+    "LastChanged": "2020-08-04T13:38:13.7333439+02:00",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Farrell-Jacobson",
-        "ToolTip": "Aperiam impedit dolor non similique.",
+        "Id": 130,
+        "Name": "Pouros, D'Amore and Kovacek",
+        "ToolTip": "Quod explicabo voluptas in expedita dolor vel.",
         "Deleted": true,
-        "Rank": 176,
-        "Type": "vel",
-        "ColorBlock": 545,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2014-01-08T11:06:34.8020663+01:00",
+        "Rank": 666,
+        "Type": "dolores",
+        "ColorBlock": 197,
+        "IconHint": "quam",
+        "Selected": false,
+        "LastChanged": "1997-05-05T13:38:13.7333439+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Ocie Franecki",
+        "FullName": "Miss Tristian Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 74
+            "FieldLength": 51
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "sed",
+    "ExtraInfo": "et",
+    "StyleHint": "id",
     "Hidden": true,
-    "FullName": "Lurline Abbott",
+    "FullName": "Felicita Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldLength": 367
       }
     }
   }

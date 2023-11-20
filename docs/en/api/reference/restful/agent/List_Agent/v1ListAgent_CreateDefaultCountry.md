@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 245,
-  "Name": "Gerhold Inc and Sons",
-  "CurrencyId": 19,
-  "EnglishName": "Carroll Inc and Sons",
+  "CountryId": 960,
+  "Name": "Spinka Inc and Sons",
+  "CurrencyId": 640,
+  "EnglishName": "Doyle-Fisher",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Persevering clear-thinking encoding",
-  "OrgNrText": "1480403",
-  "InterAreaPrefix": "porro",
-  "DialInPrefix": "numquam",
-  "ZipPrefix": "qui",
-  "DomainName": "Stoltenberg, Schiller and Stroman",
-  "AddressLayoutId": 840,
-  "DomesticAddressLayoutId": 731,
-  "ForeignAddressLayoutId": 761,
-  "Rank": 397,
-  "Tooltip": "ratione",
-  "Deleted": false,
+  "ImageDescription": "User-centric grid-enabled Graphical User Interface",
+  "OrgNrText": "927705",
+  "InterAreaPrefix": "facilis",
+  "DialInPrefix": "deleniti",
+  "ZipPrefix": "eum",
+  "DomainName": "Eichmann Group",
+  "AddressLayoutId": 836,
+  "DomesticAddressLayoutId": 566,
+  "ForeignAddressLayoutId": 701,
+  "Rank": 55,
+  "Tooltip": "nulla",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 288
     }
   }
 }

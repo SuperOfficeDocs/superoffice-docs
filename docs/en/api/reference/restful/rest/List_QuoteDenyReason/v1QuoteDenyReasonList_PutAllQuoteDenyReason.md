@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Name": "Cruickshank Group",
-    "Tooltip": "non",
+    "Id": 167,
+    "Name": "Rutherford-Zulauf",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "UdListDefinitionId": 93,
-    "Rank": 513
+    "UdListDefinitionId": 894,
+    "Rank": 86
   },
   {
-    "Id": 14,
-    "Name": "Cruickshank Group",
-    "Tooltip": "non",
+    "Id": 167,
+    "Name": "Rutherford-Zulauf",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "UdListDefinitionId": 93,
-    "Rank": 513
+    "UdListDefinitionId": 894,
+    "Rank": 86
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Monahan Group",
-    "Tooltip": "id",
+    "Id": 650,
+    "Name": "Hansen-Bosco",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 627,
-    "Rank": 151,
+    "UdListDefinitionId": 887,
+    "Rank": 440,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 724
+        "FieldLength": 677
       }
     }
   }

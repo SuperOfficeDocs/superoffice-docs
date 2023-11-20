@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 322,
-  "Id": 965,
-  "HistoryName": "Barton, Rowe and Bode",
-  "HistoryId": 42,
-  "AssociateId": 431,
-  "Name": "Koepp LLC",
-  "ItemInfo": "nihil",
+  "Rank": 396,
+  "Id": 603,
+  "HistoryName": "Hegmann, Schumm and Kautzer",
+  "HistoryId": 365,
+  "AssociateId": 334,
+  "Name": "Sporer, Hyatt and Walker",
+  "ItemInfo": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 497
     }
   }
 }

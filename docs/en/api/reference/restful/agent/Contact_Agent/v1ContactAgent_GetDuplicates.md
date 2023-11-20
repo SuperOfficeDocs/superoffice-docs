@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mertz-Smitham"
+  "Name": "Shields-Schamberger"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Beier-Robel",
-    "SoPrimaryKey": 143,
-    "EntryName": "Ratke, Gerlach and Wintheiser",
-    "EntryIdentifier": "et",
-    "RuleDisplayName": "Weissnat-McClure",
+    "RuleName": "Herzog, Pagac and Aufderhar",
+    "SoPrimaryKey": 968,
+    "EntryName": "Kessler-Feeney",
+    "EntryIdentifier": "minima",
+    "RuleDisplayName": "Hane-Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 585
+        "FieldType": "System.String",
+        "FieldLength": 54
       }
     }
   }

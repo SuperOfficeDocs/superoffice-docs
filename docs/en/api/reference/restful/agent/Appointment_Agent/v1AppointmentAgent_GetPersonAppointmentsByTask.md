@@ -119,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -135,12 +136,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 612,
+  "PersonId": 622,
   "IncludeProjectAppointments": true,
-  "StartTime": "2006-07-08T11:06:33.4444886+02:00",
-  "EndTime": "1996-11-23T11:06:33.4444886+01:00",
-  "Count": 814,
-  "TaskId": 593
+  "StartTime": "2006-01-30T13:38:12.8428246+01:00",
+  "EndTime": "2003-07-16T13:38:12.8428246+02:00",
+  "Count": 722,
+  "TaskId": 241
 }
 ```
 
@@ -152,64 +153,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 660,
-    "StartDate": "2004-04-21T11:06:33.4444886+02:00",
-    "EndDate": "2010-08-15T11:06:33.4444886+02:00",
+    "AppointmentId": 648,
+    "StartDate": "1997-04-29T13:38:12.8428246+02:00",
+    "EndDate": "1997-07-30T13:38:12.8428246+02:00",
     "Type": "BookingForChecklist",
-    "Task": "explicabo",
-    "AssociateFullName": "Green Waters",
-    "ContactName": "Steuber Inc and Sons",
-    "Description": "Multi-tiered even-keeled paradigm",
-    "PersonFullName": "Miss Johnson Hilpert",
-    "PersonId": 827,
-    "ContactId": 829,
-    "ProjectId": 704,
-    "ProjectName": "Kutch LLC",
-    "IsPublished": false,
-    "AssociateId": 752,
-    "ColorIndex": 951,
+    "Task": "sed",
+    "AssociateFullName": "Kira Conn",
+    "ContactName": "Lubowitz Group",
+    "Description": "Robust non-volatile product",
+    "PersonFullName": "Miss Brendan Jose Marks MD",
+    "PersonId": 513,
+    "ContactId": 511,
+    "ProjectId": 870,
+    "ProjectName": "Flatley, Collins and Barrows",
+    "IsPublished": true,
+    "AssociateId": 782,
+    "ColorIndex": 889,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 847,
-    "PriorityName": "Altenwerth LLC",
+    "PriorityId": 579,
+    "PriorityName": "Pfeffer Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1997-07-26T11:06:33.4444886+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2016-07-11T13:38:12.8428246+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-12-23T11:06:33.4444886+01:00",
-    "RecurringEndDate": "2016-09-06T11:06:33.4444886+02:00",
-    "MotherId": 195,
-    "AssignedBy": 79,
-    "AssignedByFullName": "Miss Verla Miles Rosenbaum V",
+    "RecurringStartDate": "2011-07-06T13:38:12.8428246+02:00",
+    "RecurringEndDate": "2017-07-21T13:38:12.8428246+02:00",
+    "MotherId": 344,
+    "AssignedBy": 523,
+    "AssignedByFullName": "Leonie Gerhold",
     "RejectReason": "",
-    "Location": "aspernatur",
-    "AlarmLeadTime": "molestiae",
-    "SaleId": 805,
-    "SaleName": "Hahn-Luettgen",
-    "AssociateName": "McKenzie-Mante",
-    "CreatedDate": "2009-04-28T11:06:33.4444886+02:00",
-    "CreatedBy": "eos",
-    "CreatedByFullName": "Gabriella Glover",
-    "CreatedByAssociateId": 633,
+    "Location": "vitae",
+    "AlarmLeadTime": "a",
+    "SaleId": 229,
+    "SaleName": "Marquardt-Purdy",
+    "AssociateName": "Cole Inc and Sons",
+    "CreatedDate": "2010-01-25T13:38:12.8428246+01:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Joesph Macejkovic",
+    "CreatedByAssociateId": 483,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "pariatur",
-    "Agenda": "architecto",
-    "InternalNotes": "nisi",
+    "PreferredTZLocation": 55,
+    "Title": "accusantium",
+    "Agenda": "ea",
+    "InternalNotes": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldType": "System.Int32",
+        "FieldLength": 283
       }
     }
   }

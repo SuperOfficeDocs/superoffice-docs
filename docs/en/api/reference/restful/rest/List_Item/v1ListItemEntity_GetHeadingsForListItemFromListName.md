@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 969,
-    "Name": "Rau-Watsica",
-    "ToolTip": "Dignissimos earum in consequuntur molestiae.",
-    "Deleted": false,
-    "Rank": 15,
-    "Type": "saepe",
-    "ColorBlock": 582,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2018-11-03T11:06:42.6628226+01:00",
+    "Id": 363,
+    "Name": "Reynolds-Fay",
+    "ToolTip": "Quo inventore accusamus aut cupiditate magnam et.",
+    "Deleted": true,
+    "Rank": 191,
+    "Type": "quod",
+    "ColorBlock": 990,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2011-12-02T13:38:17.8900531+01:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Bruen-Ryan",
-        "ToolTip": "Molestiae deserunt corporis eveniet aut.",
+        "Id": 18,
+        "Name": "Bosco-Sauer",
+        "ToolTip": "Facere assumenda.",
         "Deleted": false,
-        "Rank": 114,
-        "Type": "consequuntur",
-        "ColorBlock": 108,
-        "IconHint": "quisquam",
+        "Rank": 899,
+        "Type": "veritatis",
+        "ColorBlock": 970,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1999-09-05T11:06:42.6628226+02:00",
+        "LastChanged": "2016-02-22T13:38:17.8900531+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "magnam",
-        "Hidden": true,
-        "FullName": "Jaron Wuckert",
+        "ExtraInfo": "in",
+        "StyleHint": "maiores",
+        "Hidden": false,
+        "FullName": "Miss Oren Laverne Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldType": "System.String",
+            "FieldLength": 903
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "accusantium",
-    "Hidden": false,
-    "FullName": "Madonna Lehner",
+    "ExtraInfo": "saepe",
+    "StyleHint": "illum",
+    "Hidden": true,
+    "FullName": "Leonor Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldLength": 986
       }
     }
   }

@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 37,
-    "ColumnId": 610,
-    "FieldDefault": "aut",
-    "FieldHeight": 749,
-    "FieldLabel": "minima",
-    "FieldLeft": 273,
-    "FieldTop": 969,
+    "UDefFieldId": 49,
+    "ColumnId": 552,
+    "FieldDefault": "corrupti",
+    "FieldHeight": 183,
+    "FieldLabel": "occaecati",
+    "FieldLeft": 23,
+    "FieldTop": 94,
     "FieldType": "Checkbox",
-    "FieldWidth": 923,
-    "FormatMask": "consequatur",
+    "FieldWidth": 418,
+    "FormatMask": "dolorem",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 737,
-    "LabelLeft": 214,
-    "LabelTop": 708,
-    "LabelWidth": 148,
-    "LastVersionId": 216,
-    "ListTableId": 170,
+    "IsIndexed": true,
+    "LabelHeight": 99,
+    "LabelLeft": 775,
+    "LabelTop": 650,
+    "LabelWidth": 94,
+    "LastVersionId": 323,
+    "ListTableId": 614,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 159,
-    "ProgId": "voluptas",
-    "IsReadOnly": false,
-    "ShortLabel": "numquam",
-    "TabOrder": 982,
-    "TextLength": 664,
-    "Tooltip": "recusandae",
-    "UdefIdentity": 412,
-    "UDListDefinitionId": 630,
+    "Page1LineNo": 975,
+    "ProgId": "iusto",
+    "IsReadOnly": true,
+    "ShortLabel": "voluptatem",
+    "TabOrder": 875,
+    "TextLength": 83,
+    "Tooltip": "porro",
+    "UdefIdentity": 119,
+    "UDListDefinitionId": 974,
     "Justification": "Center",
-    "Version": 107,
-    "TemplateVariableName": "Erdman, Luettgen and Johnston",
+    "Version": 463,
+    "TemplateVariableName": "Ortiz, Koch and Hoppe",
     "HasBeenPublished": false,
-    "MdoListName": "Abbott, Kunze and Schuster",
+    "MdoListName": "Bradtke Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 21
       }
     }
   }

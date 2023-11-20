@@ -75,11 +75,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 861,
-  "Name": "Littel Inc and Sons",
-  "Tooltip": "et",
+  "Id": 325,
+  "Name": "Volkman-Ondricka",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 296,
+  "Rank": 595,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldType": "System.String",
+      "FieldLength": 75
     }
   },
   "_Links": {

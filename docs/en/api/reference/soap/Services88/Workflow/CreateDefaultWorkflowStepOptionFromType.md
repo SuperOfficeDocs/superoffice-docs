@@ -1,15 +1,15 @@
 ---
-title: Services88.WorkflowAgent.SaveWorkflowStepOption SOAP
+title: Services88.WorkflowAgent.CreateDefaultWorkflowStepOptionFromType SOAP
 generated: true
-uid: Services88-Workflow-SaveWorkflowStepOption
+uid: Services88-Workflow-CreateDefaultWorkflowStepOptionFromType
 ---
 
-# Services88 Workflow SaveWorkflowStepOption
+# Services88 Workflow CreateDefaultWorkflowStepOptionFromType
 
 SOAP request and response examples **Remote/Services88/Workflow.svc**
-Implemented by the <see cref="M:SuperOffice.Services88.IWorkflowAgent.SaveWorkflowStepOption">SuperOffice.Services88.IWorkflowAgent.SaveWorkflowStepOption</see> method.
+Implemented by the <see cref="M:SuperOffice.Services88.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromType">SuperOffice.Services88.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromType</see> method.
 
-## SaveWorkflowStepOption
+## CreateDefaultWorkflowStepOptionFromType
 
 
 
@@ -21,7 +21,7 @@ Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 
-## SaveWorkflowStepOption Request
+## CreateDefaultWorkflowStepOptionFromType Request
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -38,24 +38,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Workflow:Ticket>7T:1234abcxyzExample==</Workflow:Ticket>
   </Workflow:Credentials>
  <SOAP-ENV:Body>
-   <Workflow:SaveWorkflowStepOption>
-    <Workflow:WorkflowStepOption xsi:type="Workflow:WorkflowStepOption">
-     <Workflow:WorkflowStepOptionId xsi:type="xsd:int">0</Workflow:WorkflowStepOptionId>
-     <Workflow:WorkflowStepId xsi:type="xsd:int">0</Workflow:WorkflowStepId>
-     <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
-     <Workflow:Key xsi:type="xsd:string"></Workflow:Key>
-     <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
-     <Workflow:Rank xsi:type="xsd:int">0</Workflow:Rank>
-     <Workflow:Steps xsi:type="Workflow:ArrayOfWorkflowStepBase">
-      <Workflow:WorkflowStepBase xsi:type="Workflow:WorkflowStepBase">
-       <Workflow:WorkflowStepId xsi:type="xsd:int">0</Workflow:WorkflowStepId>
-       <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
-       <Workflow:StepType xsi:type="Workflow:WorkflowStepType">None</Workflow:StepType>
-       <Workflow:Rank xsi:type="xsd:int">0</Workflow:Rank>
-      </Workflow:WorkflowStepBase>
-     </Workflow:Steps>
-    </Workflow:WorkflowStepOption>
-   </Workflow:SaveWorkflowStepOption>
+   <Workflow:CreateDefaultWorkflowStepOptionFromType>
+    <Workflow:OptionType xsi:type="Workflow:WorkflowSplitOptionType">None</Workflow:OptionType>
+   </Workflow:CreateDefaultWorkflowStepOptionFromType>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
@@ -63,7 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 ```
 
 
-## SaveWorkflowStepOption Response
+## CreateDefaultWorkflowStepOptionFromType Response
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -76,12 +61,12 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
  xmlns:Workflow="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
-  <Workflow:SaveWorkflowStepOptionResponse>
-   <Workflow:Response xsi:type="Workflow:WorkflowStepOption">
+  <Workflow:CreateDefaultWorkflowStepOptionFromTypeResponse>
+   <Workflow:Response xsi:type="Workflow:WorkflowStepOptionBase">
+    <Workflow:OptionType xsi:type="Workflow:WorkflowSplitOptionType">None</Workflow:OptionType>
     <Workflow:WorkflowStepOptionId xsi:type="xsd:int">0</Workflow:WorkflowStepOptionId>
     <Workflow:WorkflowStepId xsi:type="xsd:int">0</Workflow:WorkflowStepId>
     <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
-    <Workflow:Key xsi:type="xsd:string"></Workflow:Key>
     <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
     <Workflow:Rank xsi:type="xsd:int">0</Workflow:Rank>
     <Workflow:Steps xsi:type="Workflow:ArrayOfWorkflowStepBase">
@@ -93,7 +78,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      </Workflow:WorkflowStepBase>
     </Workflow:Steps>
    </Workflow:Response>
-  </Workflow:SaveWorkflowStepOptionResponse>
+  </Workflow:CreateDefaultWorkflowStepOptionFromTypeResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 

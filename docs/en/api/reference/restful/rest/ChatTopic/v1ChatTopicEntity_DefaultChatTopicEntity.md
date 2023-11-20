@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 150,
-  "Name": "Vandervort Inc and Sons",
-  "Description": "Visionary 24 hour paradigm",
-  "WelcomeMessage": "esse",
+  "ChatTopicId": 916,
+  "Name": "Olson, Deckow and Cremin",
+  "Description": "Visionary contextually-based parallelism",
+  "WelcomeMessage": "adipisci",
   "Language": null,
-  "LastAccept": "2000-01-16T11:06:41.5353656+01:00",
-  "SecondsPrAccept": 956,
-  "AlertRecipient": "quia",
+  "LastAccept": "2004-04-30T13:38:17.1868579+02:00",
+  "SecondsPrAccept": 37,
+  "AlertRecipient": "repudiandae",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "officiis",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "impedit",
-  "WarnNewChatMinutes": 863,
-  "WarnManagerNewChatMinutes": 532,
+  "CollectConsent": true,
+  "BadgeHeader": "repudiandae",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "autem",
+  "WarnNewChatMinutes": 269,
+  "WarnManagerNewChatMinutes": 901,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -120,20 +120,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 265,
-  "WarnManagerChatMessageMinutes": 261,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 224,
+  "WarnManagerChatMessageMinutes": 51,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 128,
-  "OfflineFormQueueLength": 275,
+  "OfflineFormTimeLimit": 489,
+  "OfflineFormQueueLength": 813,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "ut",
+  "WidgetRatingText": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 630
+      "FieldLength": 280
     }
   }
 }

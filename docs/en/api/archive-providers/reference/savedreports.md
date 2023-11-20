@@ -696,7 +696,7 @@ documents that represent saved reports are shown</description></item></list>
 ## Sample
 
 ```http!
-GET /api/v1/archive/SavedReports?$select=person/personAssociateId,person/personPager/description,person/personUdef/SuperOffice:7,person/personExtra/x_person_date,contact/registeredDate
+GET /api/v1/archive/SavedReports?$select=person/hasCompany,person/correspondingAssociate/assocType,person/correspondingAssociate/credentialType,contact/contactUdef/SuperOffice:9,sale/type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

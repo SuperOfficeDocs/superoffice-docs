@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "officiis",
-      "HTMLBody": "tempore",
+      "Subject": "a",
+      "HTMLBody": "minus",
       "From": null,
-      "Sent": "2009-01-27T11:06:34.458307+01:00",
-      "Size": 85,
+      "Sent": "2008-08-07T13:38:13.5146196+02:00",
+      "Size": 950,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "aperiam",
-      "PlainBody": "dolores",
-      "IsSent": true,
+      "MessageID": "modi",
+      "PlainBody": "vero",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 614,
+      "ServerId": 151,
       "Attachments": [
         {},
         {}
@@ -138,12 +138,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Stark, Jerde and Batz",
-      "EmailItemId": 691,
-      "AccountId": 637,
-      "ReceivedAt": "2004-07-24T11:06:34.458307+02:00",
+      "FolderName": "Stanton, Jones and Volkman",
+      "EmailItemId": 690,
+      "AccountId": 415,
+      "ReceivedAt": "1999-07-03T13:38:13.5146196+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2005-05-28T11:06:34.458307+02:00",
+      "RepliedAt": "2009-09-23T13:38:13.5146196+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -162,97 +162,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 677,
-        "ContactName": "Klein-DuBuque",
-        "PersonId": 473,
-        "PersonName": "Turcotte LLC",
-        "AssociateId": 452,
-        "Address": "et",
-        "EmailId": 517,
+        "ContactId": 868,
+        "ContactName": "Kuhic-Paucek",
+        "PersonId": 859,
+        "PersonName": "Abshire-Stanton",
+        "AssociateId": 693,
+        "Address": "labore",
+        "EmailId": 633,
         "DuplicatePersonIds": [
-          633,
-          960
+          811,
+          745
         ],
-        "Name": "O'Conner-Murazik",
+        "Name": "Parisian Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 471
+            "FieldLength": 219
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 332,
-        "ContactName": "Kohler-Ruecker",
-        "PersonId": 567,
-        "PersonName": "Dietrich LLC",
-        "AssociateId": 847,
-        "Address": "consectetur",
-        "EmailId": 995,
+        "ContactId": 830,
+        "ContactName": "Turner-Rohan",
+        "PersonId": 208,
+        "PersonName": "Kub-Roob",
+        "AssociateId": 567,
+        "Address": "est",
+        "EmailId": 182,
         "DuplicatePersonIds": [
-          920,
-          793
+          484,
+          400
         ],
-        "Name": "Hirthe-Wiegand",
+        "Name": "Wintheiser, Collins and Trantow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 595
+            "FieldType": "System.String",
+            "FieldLength": 459
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 432,
-        "ContactName": "Mayert, Kris and Leuschke",
-        "PersonId": 715,
-        "PersonName": "Schroeder, Parisian and Beahan",
-        "AssociateId": 229,
-        "Address": "molestias",
-        "EmailId": 991,
+        "ContactId": 53,
+        "ContactName": "DuBuque-Watsica",
+        "PersonId": 533,
+        "PersonName": "Yost LLC",
+        "AssociateId": 236,
+        "Address": "est",
+        "EmailId": 587,
         "DuplicatePersonIds": [
-          994,
-          826
+          480,
+          511
         ],
-        "Name": "Bayer, Swaniawski and Schultz",
+        "Name": "Batz, Treutel and Ledner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 387
+            "FieldType": "System.String",
+            "FieldLength": 299
           }
         }
       }
     ],
-    "Subject": "qui",
-    "HTMLBody": "dolores",
+    "Subject": "cupiditate",
+    "HTMLBody": "id",
     "From": null,
-    "Sent": "2014-02-04T11:06:34.458307+01:00",
-    "Size": 38,
+    "Sent": "2023-07-21T13:38:13.5146196+02:00",
+    "Size": 794,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "ratione",
-    "PlainBody": "voluptatem",
-    "IsSent": true,
+    "MessageID": "et",
+    "PlainBody": "ducimus",
+    "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 417,
+    "ServerId": 508,
     "Attachments": [
       {
-        "Description": "Re-contextualized grid-enabled focus group",
-        "Filename": "temporibus",
-        "Size": 290,
-        "Type": "deleniti",
-        "Encoding": "quia",
-        "Id": "commodi",
-        "Disposition": "harum",
+        "Description": "Universal cohesive artificial intelligence",
+        "Filename": "ut",
+        "Size": 977,
+        "Type": "fugiat",
+        "Encoding": "earum",
+        "Id": "sed",
+        "Disposition": "veniam",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -260,49 +260,49 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 697
+            "FieldLength": 416
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Farrell-Gottlieb",
+        "Name": "Lueilwitz-Beatty",
         "Values": [
-          "est",
-          "veniam"
+          "debitis",
+          "molestiae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 341
           }
         }
       },
       {
-        "Name": "Farrell-Gottlieb",
+        "Name": "Lueilwitz-Beatty",
         "Values": [
-          "est",
-          "veniam"
+          "debitis",
+          "molestiae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 341
           }
         }
       }
     ],
-    "FolderName": "Schuster-Cormier",
-    "EmailItemId": 848,
-    "AccountId": 643,
-    "ReceivedAt": "1999-04-06T11:06:34.458307+02:00",
+    "FolderName": "Cole, Dickinson and Hauck",
+    "EmailItemId": 254,
+    "AccountId": 718,
+    "ReceivedAt": "2000-11-11T13:38:13.5146196+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2006-02-08T11:06:34.458307+01:00",
+    "RepliedAt": "2010-12-08T13:38:13.5146196+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -310,8 +310,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldType": "System.String",
+        "FieldLength": 352
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 426,
-    "Attention": "sed",
-    "Header": "reprehenderit",
-    "Name": "Collins Group",
-    "OurRef": "aut",
-    "YourRef": "aut",
-    "Description": "Mandatory transitional circuit",
-    "DocumentTemplate": "et",
+    "DocumentId": 674,
+    "Attention": "dolore",
+    "Header": "voluptas",
+    "Name": "Wehner Group",
+    "OurRef": "excepturi",
+    "YourRef": "et",
+    "Description": "Enterprise-wide local adapter",
+    "DocumentTemplate": "aut",
     "IsPublished": true,
-    "PersonId": 826,
-    "PersonFullName": "Mr. Julian Hessel Jr.",
-    "AssociateFullName": "Hilda Hermann",
-    "ContactId": 340,
-    "ContactName": "Spencer Group",
-    "ProjectId": 203,
-    "ProjectName": "Lang, Wyman and Keebler",
-    "AssociateId": 150,
-    "Snum": 841,
-    "SaleId": 50,
-    "SaleName": "Barton-Rice",
+    "PersonId": 281,
+    "PersonFullName": "Vickie Stracke",
+    "AssociateFullName": "Bernice Bruen II",
+    "ContactId": 300,
+    "ContactName": "Lockman Inc and Sons",
+    "ProjectId": 180,
+    "ProjectName": "O'Hara LLC",
+    "AssociateId": 646,
+    "Snum": 748,
+    "SaleId": 941,
+    "SaleName": "Shields, Schaden and Leffler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 429
+        "FieldType": "System.Int32",
+        "FieldLength": 163
       }
     }
   }

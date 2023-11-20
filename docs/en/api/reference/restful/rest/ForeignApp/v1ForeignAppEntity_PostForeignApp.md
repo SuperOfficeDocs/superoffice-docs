@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 638,
-  "Name": "Simonis Inc and Sons",
-  "CreatedDate": "2021-07-28T11:06:41.8790976+02:00",
-  "UpdatedDate": "2004-01-12T11:06:41.8790976+01:00",
+  "ForeignAppId": 995,
+  "Name": "Trantow, Ernser and Anderson",
+  "CreatedDate": "2002-04-07T13:38:17.4368262+02:00",
+  "UpdatedDate": "2013-09-14T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 195,
-      "Name": "Gutkowski-Metz",
-      "CreatedDate": "1996-07-01T11:06:41.8790976+02:00",
-      "UpdatedDate": "2018-07-24T11:06:41.8790976+02:00",
-      "AssociateFullName": "Mrs. Drake Durgan",
-      "CreatedBy": "quo",
-      "UpdatedBy": "mollitia",
-      "DeviceIdentifier": "non",
-      "ForeignAppId": 357,
+      "ForeignDeviceId": 193,
+      "Name": "Ondricka, Swift and Stiedemann",
+      "CreatedDate": "2001-06-15T13:38:17.4368262+02:00",
+      "UpdatedDate": "2021-03-07T13:38:17.4368262+01:00",
+      "AssociateFullName": "Prof. Emmalee Perry Okuneva",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "dolores",
+      "DeviceIdentifier": "ipsam",
+      "ForeignAppId": 962,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 370
+          "FieldType": "System.Int32",
+          "FieldLength": 900
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 444
+      "FieldType": "System.Int32",
+      "FieldLength": 410
     }
   }
 }

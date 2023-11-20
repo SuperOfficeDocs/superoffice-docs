@@ -26,8 +26,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=et
+GET /api/v1/List/ProductType/MDOItems?flat=False
+GET /api/v1/List/ProductType/MDOItems?query=ipsum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 165,
-    "Name": "Bailey LLC",
-    "ToolTip": "Quisquam et.",
+    "Id": 828,
+    "Name": "Terry, Boyle and Schneider",
+    "ToolTip": "Ad consequatur velit.",
     "Deleted": false,
-    "Rank": 754,
-    "Type": "quod",
+    "Rank": 258,
+    "Type": "deleniti",
     "ChildItems": [
       {
-        "Id": 88,
-        "Name": "Prosacco-Bins",
-        "ToolTip": "Non fugit est accusantium.",
+        "Id": 584,
+        "Name": "Stokes-Carter",
+        "ToolTip": "Natus eos eaque.",
         "Deleted": false,
-        "Rank": 984,
-        "Type": "cumque",
+        "Rank": 20,
+        "Type": "quod",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 349,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "amet",
-        "FullName": "Lucinda Lehner Sr.",
+        "IconHint": "dolore",
+        "ColorBlock": 82,
+        "ExtraInfo": "tempore",
+        "StyleHint": "eos",
+        "FullName": "Leone Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 854
           }
         }
       }
     ],
-    "IconHint": "minima",
-    "ColorBlock": 226,
-    "ExtraInfo": "alias",
-    "StyleHint": "aut",
-    "FullName": "Mr. Alexandria Rey Kerluke Jr.",
+    "IconHint": "ex",
+    "ColorBlock": 113,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "sit",
+    "FullName": "Saul Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 177
+        "FieldLength": 56
       }
     }
   }

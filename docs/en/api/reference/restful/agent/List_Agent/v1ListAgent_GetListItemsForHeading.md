@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 140,
-  "HeadingId": 92
+  "UdListDefinitionId": 495,
+  "HeadingId": 645
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 591,
-    "Name": "Hahn-Bins",
-    "ToolTip": "Doloremque velit eaque et labore ut accusamus.",
-    "Deleted": true,
-    "Rank": 257,
-    "Type": "sunt",
-    "ColorBlock": 600,
-    "IconHint": "et",
+    "Id": 280,
+    "Name": "Stiedemann, Zulauf and Dooley",
+    "ToolTip": "Sed sit quidem dolorum laborum distinctio quae voluptas.",
+    "Deleted": false,
+    "Rank": 754,
+    "Type": "et",
+    "ColorBlock": 991,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2001-12-25T11:06:34.723933+01:00",
+    "LastChanged": "2016-01-17T13:38:13.6864749+01:00",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Fisher LLC",
-        "ToolTip": "Et sed laborum quaerat sunt amet distinctio ratione.",
-        "Deleted": false,
-        "Rank": 982,
+        "Id": 726,
+        "Name": "West Inc and Sons",
+        "ToolTip": "Est vel voluptate.",
+        "Deleted": true,
+        "Rank": 859,
         "Type": "qui",
-        "ColorBlock": 489,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "1998-09-28T11:06:34.723933+02:00",
+        "ColorBlock": 997,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2003-01-09T13:38:13.6864749+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Jamil Stanton",
+        "FullName": "Douglas Smitham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 572
+            "FieldLength": 742
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Ila Vandervort",
+    "ExtraInfo": "est",
+    "StyleHint": "perferendis",
+    "Hidden": false,
+    "FullName": "Peggie Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 168
+        "FieldType": "System.String",
+        "FieldLength": 91
       }
     }
   }

@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 511,
-  "Name": "Mosciski-Considine",
-  "CurrencyId": 387,
-  "EnglishName": "Okuneva-Tillman",
+  "CountryId": 538,
+  "Name": "Rolfson-Frami",
+  "CurrencyId": 595,
+  "EnglishName": "Prohaska, Legros and Sawayn",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Realigned real-time initiative",
-  "OrgNrText": "1794734",
-  "InterAreaPrefix": "nihil",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "porro",
-  "DomainName": "Littel, Kozey and Howe",
-  "AddressLayoutId": 632,
-  "DomesticAddressLayoutId": 8,
-  "ForeignAddressLayoutId": 26,
-  "Rank": 756,
-  "Tooltip": "minima",
+  "ImageDescription": "Ergonomic modular extranet",
+  "OrgNrText": "769938",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "et",
+  "ZipPrefix": "necessitatibus",
+  "DomainName": "Terry, Frami and Breitenberg",
+  "AddressLayoutId": 322,
+  "DomesticAddressLayoutId": 883,
+  "ForeignAddressLayoutId": 622,
+  "Rank": 58,
+  "Tooltip": "enim",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 954,
-  "Name": "Little Inc and Sons",
-  "CurrencyId": 793,
-  "EnglishName": "Hane, Lakin and Greenholt",
+  "CountryId": 616,
+  "Name": "Denesik Inc and Sons",
+  "CurrencyId": 132,
+  "EnglishName": "Hamill, Powlowski and Spencer",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Centralized reciprocal core",
-  "OrgNrText": "725059",
-  "InterAreaPrefix": "quis",
-  "DialInPrefix": "eligendi",
-  "ZipPrefix": "molestiae",
-  "DomainName": "Bradtke, Wolf and Torp",
-  "AddressLayoutId": 277,
-  "DomesticAddressLayoutId": 626,
-  "ForeignAddressLayoutId": 907,
-  "Rank": 977,
-  "Tooltip": "non",
+  "ImageDescription": "Configurable grid-enabled challenge",
+  "OrgNrText": "1151072",
+  "InterAreaPrefix": "nemo",
+  "DialInPrefix": "culpa",
+  "ZipPrefix": "velit",
+  "DomainName": "Steuber, Larson and Wehner",
+  "AddressLayoutId": 607,
+  "DomesticAddressLayoutId": 66,
+  "ForeignAddressLayoutId": 635,
+  "Rank": 887,
+  "Tooltip": "suscipit",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 29
     }
   }
 }

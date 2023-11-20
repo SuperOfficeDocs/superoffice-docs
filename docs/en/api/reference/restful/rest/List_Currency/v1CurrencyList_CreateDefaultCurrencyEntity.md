@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 956,
-  "Name": "Schamberger, Terry and Bins",
-  "Tooltip": "mollitia",
-  "Rank": 446,
-  "Rate": 25454.347999999998,
-  "Units": 1849.06,
-  "Deleted": true,
+  "CurrencyId": 799,
+  "Name": "Lakin-Hagenes",
+  "Tooltip": "optio",
+  "Rank": 73,
+  "Rate": 25821.025999999998,
+  "Units": 21771.898,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldLength": 65
     }
   }
 }

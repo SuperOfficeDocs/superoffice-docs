@@ -1149,13 +1149,11 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personAppointment/appointment/textId|int|Text ID| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name| x |
-|linkClicked/linkId|int|Link ID: Link ID|  |
-|linkClicked/shipmentId|int|ID: Displays the ID of the mailing|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=contactDeleted,postAddress/state,targetRelation/business,sale/associate/personEmail,appointment/recurrenceRuleId
+GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=hasInterests,sale/earning,sale/associate/userName,appointment/appointmentPublish/publishedBy,appointment/appointmentUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

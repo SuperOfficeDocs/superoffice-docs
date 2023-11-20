@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 737,
-    "Name": "Konopelski-Stokes",
-    "ToolTip": "Omnis consequatur quo sunt alias ipsum.",
-    "Deleted": true,
-    "Rank": 694,
-    "Type": "consectetur",
-    "ColorBlock": 817,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2010-07-07T11:06:42.8659405+02:00",
+    "Id": 746,
+    "Name": "Mraz Inc and Sons",
+    "ToolTip": "Praesentium hic harum repudiandae.",
+    "Deleted": false,
+    "Rank": 382,
+    "Type": "libero",
+    "ColorBlock": 57,
+    "IconHint": "perferendis",
+    "Selected": false,
+    "LastChanged": "2013-01-10T13:38:18.0931573+01:00",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Funk Inc and Sons",
-        "ToolTip": "Quia officia est consectetur omnis ea nulla aut.",
+        "Id": 50,
+        "Name": "Klein-Hoppe",
+        "ToolTip": "Molestias vero voluptate sed aut.",
         "Deleted": false,
-        "Rank": 783,
-        "Type": "officia",
-        "ColorBlock": 386,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "1998-08-03T11:06:42.8659405+02:00",
+        "Rank": 828,
+        "Type": "recusandae",
+        "ColorBlock": 820,
+        "IconHint": "tempora",
+        "Selected": false,
+        "LastChanged": "2018-01-16T13:38:18.0931573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "et",
+        "ExtraInfo": "et",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Prof. Julian Roy Hayes",
+        "FullName": "Mrs. Jermey Adams PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 307
+            "FieldType": "System.Int32",
+            "FieldLength": 772
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "sit",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Freda Gorczany",
+    "FullName": "Philip Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldType": "System.String",
+        "FieldLength": 955
       }
     }
   }

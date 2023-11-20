@@ -107,7 +107,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -140,7 +141,7 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": true,
+  "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -157,125 +158,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2015-04-24T11:06:33.6007343+02:00",
-  "AppointmentId": 812,
-  "Description": "User-centric fresh-thinking array",
-  "StartDate": "2014-09-22T11:06:33.6007343+02:00",
-  "EndDate": "2018-03-23T11:06:33.6007343+01:00",
+  "CreatedDate": "2012-03-29T13:38:12.9521841+02:00",
+  "AppointmentId": 451,
+  "Description": "Diverse systemic function",
+  "StartDate": "2023-04-04T13:38:12.9521841+02:00",
+  "EndDate": "2004-10-27T13:38:12.9521841+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 765,
+  "MotherId": 522,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-09-26T11:06:33.6007343+02:00",
+  "UpdatedDate": "2001-02-08T13:38:12.9521841+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 1000,
+  "ActiveLinks": 877,
   "Links": [
     {
-      "EntityName": "Bednar Inc and Sons",
-      "Id": 668,
-      "Description": "Up-sized system-worthy success",
-      "ExtraInfo": "aperiam",
-      "LinkId": 818,
+      "EntityName": "Kiehn-Mohr",
+      "Id": 798,
+      "Description": "Sharable bi-directional budgetary management",
+      "ExtraInfo": "dolorum",
+      "LinkId": 119,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 54
+          "FieldType": "System.Int32",
+          "FieldLength": 318
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": false,
-  "ColorIndex": 217,
+  "AlarmLeadTime": "voluptas",
+  "HasAlarm": true,
+  "ColorIndex": 737,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "voluptatem",
-  "LeadTime": "cum",
-  "Location": "non",
-  "RejectCounter": 502,
+  "LagTime": "dolorem",
+  "LeadTime": "sapiente",
+  "Location": "corporis",
+  "RejectCounter": 891,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 341,
-      "PersonId": 982,
-      "ContactId": 840,
-      "EmailId": 184,
+      "AssociateId": 70,
+      "PersonId": 756,
+      "ContactId": 83,
+      "EmailId": 281,
       "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 341,
-      "PersonId": 982,
-      "ContactId": 840,
-      "EmailId": 184,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "davion_huels@schroederrussel.name",
+      "Description": "Multi-layered assymetric local area network"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-08-26T11:06:33.6007343+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2007-10-15T13:38:12.9521841+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 947,
+  "PreferredTZLocation": 293,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 500,
+  "SuggestedAppointmentId": 374,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dignissimos",
-  "Title": "blanditiis",
-  "Agenda": "voluptas",
-  "InternalNotes": "alias",
+  "CentralserviceVideomeetId": "dolor",
+  "Title": "accusantium",
+  "Agenda": "esse",
+  "InternalNotes": "libero",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1816843454"
+    "SuperOffice:1": "Brody Crist",
+    "SuperOffice:2": "Dr. Ward Beahan"
   },
   "ExtraFields": {
-    "ExtraFields1": "sequi",
-    "ExtraFields2": "fugiat"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "natus"
+    "CustomFields1": "quis",
+    "CustomFields2": "nemo"
   },
-  "PublishEventDate": "2007-12-19T11:06:33.6007343+01:00",
-  "PublishTo": "2007-05-10T11:06:33.6007343+02:00",
-  "PublishFrom": "2017-11-25T11:06:33.6007343+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-03-31T13:38:12.9521841+02:00",
+  "PublishTo": "2013-10-14T13:38:12.9521841+02:00",
+  "PublishFrom": "2021-05-21T13:38:12.9521841+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 434,
+      "VisibleId": 698,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     },
     {
-      "VisibleId": 434,
+      "VisibleId": 698,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     }
@@ -285,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 69
+      "FieldLength": 891
     }
   }
 }

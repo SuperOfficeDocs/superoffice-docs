@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2005-05-19T11:06:34.1277301+02:00",
+  "ActivityStartTime": "2016-03-05T13:38:13.2958954+01:00",
   "ContactCategories": [
-    375,
-    655
+    730,
+    850
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 895,
-    "Department": "synthesize killer solutions",
-    "OrgNr": "746843",
-    "Name": "Hyatt, Jewess and O'Conner",
+    "ContactId": 1002,
+    "Department": "mesh dynamic functionalities",
+    "OrgNr": "320074",
+    "Name": "Donnelly-Harber",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Trevor Ruecker",
+    "AssociateFullName": "Amber Terry",
     "Action": "ActivityCompleted",
-    "ActionTime": "2008-11-21T11:06:34.1277301+01:00",
+    "ActionTime": "2021-03-12T13:38:13.2958954+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Kris, Parker and Ledner",
-    "ActionId": 252,
-    "PersonId": 721,
-    "ActivityPersonId": 176,
-    "AssociateId": 634,
+    "ActivityPersonName": "Goldner, Bartoletti and Graham",
+    "ActionId": 921,
+    "PersonId": 903,
+    "ActivityPersonId": 321,
+    "AssociateId": 376,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldType": "System.String",
+        "FieldLength": 440
       }
     }
   }

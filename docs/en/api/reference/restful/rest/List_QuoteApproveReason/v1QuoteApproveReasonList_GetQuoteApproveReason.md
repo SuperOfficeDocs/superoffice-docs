@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 400,
-  "Name": "Hackett-Balistreri",
-  "Tooltip": "quos",
-  "Deleted": true,
-  "UdListDefinitionId": 876,
-  "Rank": 971,
+  "Id": 460,
+  "Name": "Kassulke-Towne",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 901,
+  "Rank": 966,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 99
     }
   }
 }

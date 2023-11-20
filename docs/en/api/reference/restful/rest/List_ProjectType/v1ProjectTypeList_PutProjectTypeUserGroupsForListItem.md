@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 158,
-    "Name": "Goldner LLC",
-    "ToolTip": "Est repudiandae id sint.",
-    "Deleted": false,
-    "Rank": 452,
-    "Type": "dolore",
-    "ColorBlock": 223,
-    "IconHint": "aut",
+    "Id": 401,
+    "Name": "Mante, Lubowitz and Crist",
+    "ToolTip": "Nesciunt sequi molestiae.",
+    "Deleted": true,
+    "Rank": 12,
+    "Type": "vel",
+    "ColorBlock": 973,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2006-02-23T11:06:42.9597004+01:00",
+    "LastChanged": "2019-10-22T13:38:18.1556538+02:00",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Heller Inc and Sons",
-        "ToolTip": "Error molestias consequatur.",
+        "Id": 289,
+        "Name": "Weissnat, Mante and Towne",
+        "ToolTip": "Voluptas perspiciatis sunt incidunt.",
         "Deleted": false,
-        "Rank": 323,
-        "Type": "repellendus",
-        "ColorBlock": 62,
-        "IconHint": "et",
+        "Rank": 131,
+        "Type": "possimus",
+        "ColorBlock": 60,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2006-01-02T11:06:42.9597004+01:00",
+        "LastChanged": "2007-10-15T13:38:18.1556538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "cupiditate",
-        "Hidden": false,
-        "FullName": "Mr. Antwon Konopelski"
+        "ExtraInfo": "facilis",
+        "StyleHint": "atque",
+        "Hidden": true,
+        "FullName": "Beau Sierra Smith PhD"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "placeat",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Pansy Douglas Sr."
+    "FullName": "Garry Kurt Jerde DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Smitham, Ledner and Schumm",
-    "ToolTip": "Ut natus.",
+    "Id": 304,
+    "Name": "Wolf-Keeling",
+    "ToolTip": "Repudiandae fugit labore est modi at nesciunt dolorum.",
     "Deleted": false,
-    "Rank": 990,
-    "Type": "in",
-    "ColorBlock": 558,
-    "IconHint": "quis",
+    "Rank": 794,
+    "Type": "eum",
+    "ColorBlock": 958,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2015-01-04T11:06:42.9597004+01:00",
+    "LastChanged": "2006-03-17T13:38:18.1712741+01:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Schinner-Anderson",
-        "ToolTip": "Suscipit omnis sed.",
+        "Id": 974,
+        "Name": "Friesen, Rath and Towne",
+        "ToolTip": "Suscipit ipsam eveniet vero.",
         "Deleted": false,
-        "Rank": 603,
-        "Type": "animi",
-        "ColorBlock": 193,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2016-06-23T11:06:42.9597004+02:00",
+        "Rank": 811,
+        "Type": "voluptates",
+        "ColorBlock": 653,
+        "IconHint": "explicabo",
+        "Selected": true,
+        "LastChanged": "2013-07-20T13:38:18.1712741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "odit",
-        "Hidden": false,
-        "FullName": "Vivienne Metz",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "magnam",
+        "Hidden": true,
+        "FullName": "Ms. Mathilde Huel Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 649
+            "FieldType": "System.Int32",
+            "FieldLength": 903
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "enim",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Mrs. Rosalee Mike Weissnat",
+    "FullName": "Gerard Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldLength": 469
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goyette, Turner and Bogisich",
-    "Description": "Progressive object-oriented solution",
+    "Name": "Weimann LLC",
+    "Description": "Pre-emptive 6th generation initiative",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 662,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 628,
-        "InUse": 457,
+        "Unrestricted": true,
+        "Total": 78,
+        "Tooltip": "nihil",
+        "CanAssign": false,
+        "Free": 488,
+        "InUse": 313,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 826,
-        "Name": "Buckridge, Hilll and Rogahn",
-        "Description": "Object-based human-resource benchmark",
-        "PrerequisiteModuleName": "O'Conner Inc and Sons",
-        "SortOrder": 138,
-        "ExtraFlags": 552,
+        "ModuleLicenseId": 133,
+        "Name": "Romaguera-Hodkiewicz",
+        "Description": "Synchronised 4th generation model",
+        "PrerequisiteModuleName": "Cormier Inc and Sons",
+        "SortOrder": 54,
+        "ExtraFlags": 903,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 609
+            "FieldLength": 60
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 572,
-        "Tooltip": "debitis",
+        "Total": 166,
+        "Tooltip": "non",
         "CanAssign": true,
-        "Free": 779,
-        "InUse": 531,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 193,
-        "Name": "Bauch, Hessel and Berge",
-        "Description": "Networked neutral attitude",
-        "PrerequisiteModuleName": "Gleason, Lubowitz and Kuphal",
-        "SortOrder": 978,
-        "ExtraFlags": 927,
+        "Free": 944,
+        "InUse": 338,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 721,
+        "Name": "Fadel Inc and Sons",
+        "Description": "Decentralized hybrid portal",
+        "PrerequisiteModuleName": "Wolf, Cremin and Leffler",
+        "SortOrder": 213,
+        "ExtraFlags": 631,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 515
+            "FieldLength": 314
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldLength": 360
       }
     }
   },
   {
-    "Name": "Goyette, Turner and Bogisich",
-    "Description": "Progressive object-oriented solution",
+    "Name": "Weimann LLC",
+    "Description": "Pre-emptive 6th generation initiative",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 662,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 628,
-        "InUse": 457,
+        "Unrestricted": true,
+        "Total": 78,
+        "Tooltip": "nihil",
+        "CanAssign": false,
+        "Free": 488,
+        "InUse": 313,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 826,
-        "Name": "Buckridge, Hilll and Rogahn",
-        "Description": "Object-based human-resource benchmark",
-        "PrerequisiteModuleName": "O'Conner Inc and Sons",
-        "SortOrder": 138,
-        "ExtraFlags": 552,
+        "ModuleLicenseId": 133,
+        "Name": "Romaguera-Hodkiewicz",
+        "Description": "Synchronised 4th generation model",
+        "PrerequisiteModuleName": "Cormier Inc and Sons",
+        "SortOrder": 54,
+        "ExtraFlags": 903,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 609
+            "FieldLength": 60
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 572,
-        "Tooltip": "debitis",
+        "Total": 166,
+        "Tooltip": "non",
         "CanAssign": true,
-        "Free": 779,
-        "InUse": 531,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 193,
-        "Name": "Bauch, Hessel and Berge",
-        "Description": "Networked neutral attitude",
-        "PrerequisiteModuleName": "Gleason, Lubowitz and Kuphal",
-        "SortOrder": 978,
-        "ExtraFlags": 927,
+        "Free": 944,
+        "InUse": 338,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 721,
+        "Name": "Fadel Inc and Sons",
+        "Description": "Decentralized hybrid portal",
+        "PrerequisiteModuleName": "Wolf, Cremin and Leffler",
+        "SortOrder": 213,
+        "ExtraFlags": 631,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 515
+            "FieldLength": 314
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldLength": 360
       }
     }
   }

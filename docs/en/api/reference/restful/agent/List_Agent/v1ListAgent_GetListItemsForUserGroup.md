@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 594,
-  "GroupId": 4
+  "UdListDefinitionId": 652,
+  "GroupId": 369
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Bode-Schuster",
-    "ToolTip": "Dolores fugit accusantium rerum.",
+    "Id": 320,
+    "Name": "Reynolds-Hills",
+    "ToolTip": "Eos molestiae et voluptatem modi.",
     "Deleted": false,
-    "Rank": 257,
-    "Type": "saepe",
-    "ColorBlock": 364,
-    "IconHint": "velit",
+    "Rank": 453,
+    "Type": "perspiciatis",
+    "ColorBlock": 158,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2015-12-22T11:06:34.7083083+01:00",
+    "LastChanged": "1996-11-07T13:38:13.6708541+01:00",
     "ChildItems": [
       {
-        "Id": 20,
-        "Name": "McGlynn LLC",
-        "ToolTip": "Quia laborum nemo quia pariatur vel non harum.",
-        "Deleted": true,
-        "Rank": 392,
-        "Type": "sint",
-        "ColorBlock": 339,
-        "IconHint": "qui",
+        "Id": 977,
+        "Name": "Hodkiewicz LLC",
+        "ToolTip": "Qui et nostrum ipsam expedita illo.",
+        "Deleted": false,
+        "Rank": 145,
+        "Type": "tenetur",
+        "ColorBlock": 188,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2006-10-01T11:06:34.7083083+02:00",
+        "LastChanged": "2020-07-28T13:38:13.6708541+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Patrick Medhurst",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "expedita",
+        "Hidden": true,
+        "FullName": "Reilly Elisabeth Nolan PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 706
+            "FieldType": "System.Int32",
+            "FieldLength": 659
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "corrupti",
-    "Hidden": true,
-    "FullName": "Mr. Thaddeus Dooley",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "dignissimos",
+    "Hidden": false,
+    "FullName": "Prof. Virgie Jamal Keebler I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 536
+        "FieldLength": 859
       }
     }
   }

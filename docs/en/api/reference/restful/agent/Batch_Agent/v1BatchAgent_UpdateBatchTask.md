@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 783,
-  "Name": "Nader-Cronin",
-  "AssociateId": 548,
-  "DetailsTable": 453,
-  "DetailsRecord": 764,
+  "Id": 444,
+  "Name": "West-Hoeger",
+  "AssociateId": 369,
+  "DetailsTable": 237,
+  "DetailsRecord": 287,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "autem",
-    "ParameterObject2": "possimus"
+    "ParameterObject1": "eius",
+    "ParameterObject2": "non"
   },
-  "LastStarted": "2007-08-22T11:06:33.7972715+02:00",
-  "Created": "2017-03-17T11:06:33.7972715+01:00",
-  "StartCount": 817,
-  "DatabaseSerialNumber": "301584",
-  "Context": "ea",
-  "Result": "nobis",
+  "LastStarted": "2009-05-24T13:38:13.0771703+02:00",
+  "Created": "2003-09-08T13:38:13.0771703+02:00",
+  "StartCount": 349,
+  "DatabaseSerialNumber": "1534830",
+  "Context": "doloremque",
+  "Result": "ut",
   "State": "All",
-  "Description": "Proactive empowering strategy",
-  "Response": "tempora",
-  "Request": "optio",
-  "ProgressDescription": "Future-proofed solution-oriented array",
-  "ProgressPercent": 741,
-  "FileName": "Marquardt LLC",
+  "Description": "Managed transitional internet solution",
+  "Response": "quidem",
+  "Request": "officia",
+  "ProgressDescription": "Balanced assymetric hardware",
+  "ProgressPercent": 390,
+  "FileName": "Stark, Armstrong and Borer",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 947
     }
   }
 }

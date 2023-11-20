@@ -139,33 +139,33 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 839,
-  "TopicId": 221,
+  "ChatSessionId": 638,
+  "TopicId": 849,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "dolor",
-  "CustomerName": "Deckow-Russel",
-  "CustomerEmail": "morton@mccullough.com",
-  "CustomerPhone": "281-241-4830 x5882",
+  "CustomerAlias": "eos",
+  "CustomerHost": "ullam",
+  "CustomerName": "Schmidt, Schneider and Ruecker",
+  "CustomerEmail": "courtney@hoegermayert.ca",
+  "CustomerPhone": "700-520-0601",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Braun LLC",
+  "CustomerCompanyName": "Kemmer-Dickens",
   "Status": "Closed",
-  "FirstMessage": "enim",
-  "LastMessage": "dolorem",
-  "WhenRequested": "2013-02-19T11:06:41.4572424+01:00",
-  "WhenStarted": "2002-05-02T11:06:41.4572424+02:00",
-  "WhenEnded": "2014-03-14T11:06:41.4572424+01:00",
-  "WhenIdle": "2004-09-14T11:06:41.4572424+02:00",
-  "WhenFetched": "2023-04-14T11:06:41.4572424+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 840,
-  "AlertLevel": 544,
-  "Rank": 779,
+  "FirstMessage": "mollitia",
+  "LastMessage": "dolorum",
+  "WhenRequested": "2009-12-08T13:38:17.1243563+01:00",
+  "WhenStarted": "1996-11-13T13:38:17.1243563+01:00",
+  "WhenEnded": "2001-08-03T13:38:17.1243563+02:00",
+  "WhenIdle": "1996-07-25T13:38:17.1243563+02:00",
+  "WhenFetched": "1998-01-12T13:38:17.1243563+01:00",
+  "SessionKey": "vero",
+  "InitialQueuePos": 328,
+  "AlertLevel": 236,
+  "Rank": 978,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 833
+  "Rating": 589
 }
 ```
 
@@ -184,29 +184,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 446,
-  "TopicId": 50,
+  "ChatSessionId": 343,
+  "TopicId": 472,
   "User": null,
   "Person": null,
-  "CustomerAlias": "porro",
-  "CustomerHost": "consequatur",
-  "CustomerName": "Hintz LLC",
-  "CustomerEmail": "malika.bahringer@kuphal.com",
-  "CustomerPhone": "675.687.6605 x1575",
+  "CustomerAlias": "quos",
+  "CustomerHost": "libero",
+  "CustomerName": "Bergstrom-Brekke",
+  "CustomerEmail": "bernard_stokes@hoegermurray.uk",
+  "CustomerPhone": "(895)542-7339 x90329",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Runte Group",
+  "CustomerCompanyName": "Lehner, Mante and Welch",
   "Status": "Closed",
-  "FirstMessage": "dolor",
-  "LastMessage": "nam",
-  "WhenRequested": "2000-04-08T11:06:41.4572424+02:00",
-  "WhenStarted": "2007-08-14T11:06:41.4572424+02:00",
-  "WhenEnded": "2010-04-19T11:06:41.4572424+02:00",
-  "WhenIdle": "2014-08-09T11:06:41.4572424+02:00",
-  "WhenFetched": "2009-12-15T11:06:41.4572424+01:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 267,
-  "AlertLevel": 630,
-  "Rank": 959,
+  "FirstMessage": "consectetur",
+  "LastMessage": "cum",
+  "WhenRequested": "2000-11-05T13:38:17.1243563+01:00",
+  "WhenStarted": "2022-04-26T13:38:17.1243563+02:00",
+  "WhenEnded": "2021-04-08T13:38:17.1243563+02:00",
+  "WhenIdle": "2007-01-20T13:38:17.1243563+01:00",
+  "WhenFetched": "2000-02-28T13:38:17.1243563+01:00",
+  "SessionKey": "commodi",
+  "InitialQueuePos": 732,
+  "AlertLevel": 245,
+  "Rank": 247,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -214,13 +214,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 108,
+  "Rating": 592,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldLength": 349
     }
   },
   "_Links": {

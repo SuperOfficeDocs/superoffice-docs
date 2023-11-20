@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 934,
+  "Id": 45,
   "IncludeAttachments": false
 }
 ```
@@ -122,97 +122,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 43,
-      "ContactName": "Pagac-Hansen",
-      "PersonId": 193,
-      "PersonName": "Ruecker, Littel and Cole",
-      "AssociateId": 938,
-      "Address": "quaerat",
-      "EmailId": 255,
+      "ContactId": 826,
+      "ContactName": "Roob Group",
+      "PersonId": 442,
+      "PersonName": "Kassulke-Tillman",
+      "AssociateId": 331,
+      "Address": "illo",
+      "EmailId": 559,
       "DuplicatePersonIds": [
-        761,
-        524
+        166,
+        220
       ],
-      "Name": "Conroy-Klein",
+      "Name": "Streich-Romaguera",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldLength": 197
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 822,
-      "ContactName": "Kutch-Wunsch",
-      "PersonId": 8,
-      "PersonName": "McLaughlin, Donnelly and Rempel",
-      "AssociateId": 72,
-      "Address": "quis",
-      "EmailId": 865,
+      "ContactId": 8,
+      "ContactName": "Waters Inc and Sons",
+      "PersonId": 113,
+      "PersonName": "Ortiz-Schmeler",
+      "AssociateId": 1002,
+      "Address": "adipisci",
+      "EmailId": 848,
       "DuplicatePersonIds": [
-        630,
-        357
+        689,
+        653
       ],
-      "Name": "Dooley Inc and Sons",
+      "Name": "Zulauf-Shanahan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 309
+          "FieldLength": 821
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 477,
-      "ContactName": "Torphy LLC",
-      "PersonId": 992,
-      "PersonName": "Johnston, Carroll and Hayes",
-      "AssociateId": 336,
-      "Address": "ullam",
-      "EmailId": 290,
+      "ContactId": 314,
+      "ContactName": "Beer, Will and Kuhn",
+      "PersonId": 395,
+      "PersonName": "Reichel Inc and Sons",
+      "AssociateId": 501,
+      "Address": "provident",
+      "EmailId": 570,
       "DuplicatePersonIds": [
-        53,
-        285
+        336,
+        179
       ],
-      "Name": "Doyle-Grant",
+      "Name": "Hand, Upton and D'Amore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 790
+          "FieldLength": 695
         }
       }
     }
   ],
-  "Subject": "vero",
-  "HTMLBody": "dignissimos",
+  "Subject": "quidem",
+  "HTMLBody": "sed",
   "From": null,
-  "Sent": "2013-05-05T11:06:34.5676847+02:00",
-  "Size": 316,
+  "Sent": "2013-01-26T13:38:13.592742+01:00",
+  "Size": 171,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sit",
-  "PlainBody": "iure",
+  "MessageID": "deleniti",
+  "PlainBody": "quia",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 94,
+  "ServerId": 796,
   "Attachments": [
     {
-      "Description": "Organic solution-oriented implementation",
-      "Filename": "rem",
-      "Size": 110,
-      "Type": "deleniti",
-      "Encoding": "et",
-      "Id": "sed",
-      "Disposition": "minus",
+      "Description": "Ergonomic content-based task-force",
+      "Filename": "esse",
+      "Size": 761,
+      "Type": "nihil",
+      "Encoding": "labore",
+      "Id": "voluptatem",
+      "Disposition": "unde",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -220,50 +220,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldLength": 66
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Champlin LLC",
+      "Name": "Rau-Williamson",
       "Values": [
-        "id",
-        "quae"
+        "ut",
+        "nihil"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 623
+          "FieldType": "System.Int32",
+          "FieldLength": 243
         }
       }
     },
     {
-      "Name": "Champlin LLC",
+      "Name": "Rau-Williamson",
       "Values": [
-        "id",
-        "quae"
+        "ut",
+        "nihil"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 623
+          "FieldType": "System.Int32",
+          "FieldLength": 243
         }
       }
     }
   ],
-  "FolderName": "Conn Group",
-  "EmailItemId": 270,
-  "AccountId": 436,
-  "ReceivedAt": "2004-10-31T11:06:34.5676847+01:00",
+  "FolderName": "Herzog Inc and Sons",
+  "EmailItemId": 547,
+  "AccountId": 543,
+  "ReceivedAt": "2006-12-07T13:38:13.592742+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-10-21T11:06:34.5676847+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2010-06-29T13:38:13.592742+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldLength": 457
     }
   }
 }

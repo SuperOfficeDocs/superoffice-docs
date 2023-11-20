@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Maggio, Beatty and Kutch"
+  "ConnectorName": "Fritsch, Hoeger and Hettinger"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 761,
-  "ERPName": "Gibson-Wolff",
-  "DisplayName": "Hegmann-Metz",
-  "DisplayDescription": "Stand-alone contextually-based software",
-  "Rank": 705,
-  "ConnectorName": "Ziemann, Bruen and McClure",
-  "ErpConnectionId": 239,
-  "ExtraData": "est",
-  "IsAvailable": true,
+  "QuoteConnectionId": 592,
+  "ERPName": "Eichmann-Nolan",
+  "DisplayName": "Turcotte Group",
+  "DisplayDescription": "Reduced even-keeled knowledge base",
+  "Rank": 956,
+  "ConnectorName": "Dare, Miller and Prosacco",
+  "ErpConnectionId": 507,
+  "ExtraData": "sint",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 912,
-      "ERPPriceListKey": "quia",
-      "QuoteConnectionId": 733,
-      "Name": "Gerlach LLC",
-      "Description": "Progressive dedicated standardization",
-      "Currency": "ex",
-      "CurrencyName": "Wolf LLC",
-      "ValidFrom": "2012-09-04T11:06:35.2239506+02:00",
-      "ValidTo": "1999-06-25T11:06:35.2239506+02:00",
+      "PriceListId": 41,
+      "ERPPriceListKey": "maxime",
+      "QuoteConnectionId": 141,
+      "Name": "Pacocha-Romaguera",
+      "Description": "Re-engineered explicit task-force",
+      "Currency": "pariatur",
+      "CurrencyName": "Frami Inc and Sons",
+      "ValidFrom": "2017-11-14T13:38:14.0303322+01:00",
+      "ValidTo": "2019-10-19T13:38:14.0303322+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldType": "System.String",
+          "FieldLength": 290
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    26,
-    746
+    449,
+    10
   ],
   "AssociateAccessIds": [
-    859,
-    896
+    878,
+    336
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 65
+      "FieldLength": 574
     }
   }
 }

@@ -133,18 +133,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ipsam",
+    "path": "maxime",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsam",
+    "path": "maxime",
     "value": {}
   }
 ]
@@ -157,28 +157,28 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 738,
+  "EjMessageId": 555,
   "Ticket": null,
-  "CreatedAt": "1996-07-13T11:06:42.3491134+02:00",
+  "CreatedAt": "2003-06-17T13:38:17.7492894+02:00",
   "CreatedBy": null,
-  "Author": "voluptates",
+  "Author": "similique",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sunt",
-  "TimeSpent": 75,
-  "Body": "ea",
-  "HtmlBody": "quo",
-  "EmailHeader": "roberta_aufderhar@oberbrunner.uk",
-  "DebugInfo": "nisi",
-  "MailSorter": "ut",
+  "MessageId": "omnis",
+  "TimeSpent": 183,
+  "Body": "vel",
+  "HtmlBody": "veritatis",
+  "EmailHeader": "ruthie.weissnat@wiegand.com",
+  "DebugInfo": "corrupti",
+  "MailSorter": "iusto",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "modi",
+  "SearchTitle": "adipisci",
   "MessageHeaders": [
     {
-      "Id": 257,
-      "Name": "Windler, Hyatt and Daugherty",
-      "Value": "sapiente",
+      "Id": 363,
+      "Name": "Mayert, Beer and Walter",
+      "Value": "voluptates",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -186,49 +186,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 623
         }
       }
     }
   ],
   "Important": false,
-  "Language": "dolorem",
-  "Sentiment": 285,
-  "SentimentConfidence": 317,
+  "Language": "est",
+  "Sentiment": 757,
+  "SentimentConfidence": 10,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 967,
-      "Name": "Bernier-Bauch",
-      "ContentType": "corporis",
-      "AttSize": 56,
-      "InlineImage": false,
-      "ContentId": "nulla",
-      "AuthKey": "tempora",
+      "AttachmentId": 673,
+      "Name": "Purdy-Dicki",
+      "ContentType": "ducimus",
+      "AttSize": 947,
+      "InlineImage": true,
+      "ContentId": "est",
+      "AuthKey": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 943
+          "FieldType": "System.Int32",
+          "FieldLength": 491
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "labore"
+    "CustomFields1": "distinctio",
+    "CustomFields2": "ullam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 39
     }
   },
   "_Links": {

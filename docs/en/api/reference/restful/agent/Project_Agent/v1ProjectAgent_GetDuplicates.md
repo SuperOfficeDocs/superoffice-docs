@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kilback-Lindgren"
+  "Name": "Hackett Group"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Mann LLC",
-    "SoPrimaryKey": 608,
-    "EntryName": "Green, Wunsch and Paucek",
-    "EntryIdentifier": "consectetur",
-    "RuleDisplayName": "Stokes-Predovic",
+    "RuleName": "Sporer-Brakus",
+    "SoPrimaryKey": 105,
+    "EntryName": "Bernier Group",
+    "EntryIdentifier": "est",
+    "RuleDisplayName": "Strosin-Brekke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 952
       }
     }
   }

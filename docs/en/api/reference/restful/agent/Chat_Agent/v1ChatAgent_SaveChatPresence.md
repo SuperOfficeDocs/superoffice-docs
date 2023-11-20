@@ -70,23 +70,23 @@ Content-Type: application/json; charset=utf-8
 {
   "ChatPresence": [
     {
-      "UserId": 611,
-      "DisplayName": "Weimann-Funk",
-      "OngoingChats": 40,
+      "UserId": 883,
+      "DisplayName": "Kuhn, Kiehn and Satterfield",
+      "OngoingChats": 640,
       "Present": false,
       "ChatTopics": [
-        182,
-        551
+        128,
+        574
       ]
     },
     {
-      "UserId": 611,
-      "DisplayName": "Weimann-Funk",
-      "OngoingChats": 40,
+      "UserId": 883,
+      "DisplayName": "Kuhn, Kiehn and Satterfield",
+      "OngoingChats": 640,
       "Present": false,
       "ChatTopics": [
-        182,
-        551
+        128,
+        574
       ]
     }
   ]

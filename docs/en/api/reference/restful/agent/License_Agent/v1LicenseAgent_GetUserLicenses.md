@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 448
+  "AssociateId": 835
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Herman, Conroy and Mueller",
-    "Description": "Mandatory scalable architecture",
+    "Name": "Cruickshank Inc and Sons",
+    "Description": "Business-focused fault-tolerant intranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 754,
-        "Tooltip": "aut",
+        "Unrestricted": false,
+        "Total": 666,
+        "Tooltip": "velit",
         "CanAssign": false,
-        "Free": 431,
-        "InUse": 823,
+        "Free": 111,
+        "InUse": 467,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 308,
-        "Name": "Ebert Inc and Sons",
-        "Description": "Exclusive object-oriented local area network",
-        "PrerequisiteModuleName": "Bailey Inc and Sons",
-        "SortOrder": 562,
-        "ExtraFlags": 399,
+        "ModuleLicenseId": 439,
+        "Name": "Gulgowski-Welch",
+        "Description": "Secured needs-based service-desk",
+        "PrerequisiteModuleName": "Towne-Carroll",
+        "SortOrder": 23,
+        "ExtraFlags": 657,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 88
+            "FieldLength": 758
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 878,
-        "Tooltip": "aperiam",
+        "Total": 838,
+        "Tooltip": "accusamus",
         "CanAssign": false,
-        "Free": 887,
-        "InUse": 135,
+        "Free": 592,
+        "InUse": 493,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 356,
-        "Name": "Halvorson Group",
-        "Description": "Grass-roots hybrid website",
-        "PrerequisiteModuleName": "Block-Strosin",
-        "SortOrder": 875,
-        "ExtraFlags": 566,
+        "ModuleLicenseId": 479,
+        "Name": "Quitzon-Rath",
+        "Description": "Fully-configurable fault-tolerant attitude",
+        "PrerequisiteModuleName": "Homenick LLC",
+        "SortOrder": 44,
+        "ExtraFlags": 336,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 36
+            "FieldType": "System.String",
+            "FieldLength": 342
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 970
+        "FieldType": "System.Int32",
+        "FieldLength": 769
       }
     }
   },
   {
-    "Name": "Herman, Conroy and Mueller",
-    "Description": "Mandatory scalable architecture",
+    "Name": "Cruickshank Inc and Sons",
+    "Description": "Business-focused fault-tolerant intranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 754,
-        "Tooltip": "aut",
+        "Unrestricted": false,
+        "Total": 666,
+        "Tooltip": "velit",
         "CanAssign": false,
-        "Free": 431,
-        "InUse": 823,
+        "Free": 111,
+        "InUse": 467,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 308,
-        "Name": "Ebert Inc and Sons",
-        "Description": "Exclusive object-oriented local area network",
-        "PrerequisiteModuleName": "Bailey Inc and Sons",
-        "SortOrder": 562,
-        "ExtraFlags": 399,
+        "ModuleLicenseId": 439,
+        "Name": "Gulgowski-Welch",
+        "Description": "Secured needs-based service-desk",
+        "PrerequisiteModuleName": "Towne-Carroll",
+        "SortOrder": 23,
+        "ExtraFlags": 657,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 88
+            "FieldLength": 758
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 878,
-        "Tooltip": "aperiam",
+        "Total": 838,
+        "Tooltip": "accusamus",
         "CanAssign": false,
-        "Free": 887,
-        "InUse": 135,
+        "Free": 592,
+        "InUse": 493,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 356,
-        "Name": "Halvorson Group",
-        "Description": "Grass-roots hybrid website",
-        "PrerequisiteModuleName": "Block-Strosin",
-        "SortOrder": 875,
-        "ExtraFlags": 566,
+        "ModuleLicenseId": 479,
+        "Name": "Quitzon-Rath",
+        "Description": "Fully-configurable fault-tolerant attitude",
+        "PrerequisiteModuleName": "Homenick LLC",
+        "SortOrder": 44,
+        "ExtraFlags": 336,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 36
+            "FieldType": "System.String",
+            "FieldLength": 342
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 970
+        "FieldType": "System.Int32",
+        "FieldLength": 769
       }
     }
   }

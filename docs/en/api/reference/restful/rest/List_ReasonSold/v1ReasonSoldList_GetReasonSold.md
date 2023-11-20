@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 422,
-  "Name": "Rempel, Graham and Gleichner",
-  "Tooltip": "qui",
+  "Id": 219,
+  "Name": "Waelchi-Collier",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 158,
-  "Rank": 619,
+  "UdListDefinitionId": 71,
+  "Rank": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 957
     }
   }
 }

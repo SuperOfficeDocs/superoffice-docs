@@ -1966,6 +1966,13 @@ title: Services88.TicketAgent WSDL
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
+          <xs:enumeration value="Sms">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="RecipientType" nillable="true" type="tns:RecipientType" />
@@ -2017,6 +2024,30 @@ title: Services88.TicketAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetDefaultMessageContentFull">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+            <xs:element minOccurs="0" name="MessageActionType" type="tns:MessageActionType" />
+            <xs:element minOccurs="0" name="TicketMessageId" type="xs:int" />
+            <xs:element minOccurs="0" name="TicketTypeId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetDefaultMessageContentFullResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketMessageContent" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="TicketMessageContent">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Body" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AttachmentsInfo" nillable="true" type="tns:ArrayOfAttachmentEntity" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="TicketMessageContent" nillable="true" type="tns:TicketMessageContent" />
       <xs:element name="GetTicketMessageWithEmbeddedData">
         <xs:complexType>
           <xs:sequence>
@@ -3094,6 +3125,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetDefaultMessageContentFullRequest">
+    <wsdl:part name="parameters" element="tns:GetDefaultMessageContentFull" />
+  </wsdl:message>
+  <wsdl:message name="GetDefaultMessageContentFullRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetDefaultMessageContentFullResponse">
+    <wsdl:part name="parameters" element="tns:GetDefaultMessageContentFullResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDefaultMessageContentFullResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetTicketMessageWithEmbeddedDataRequest">
     <wsdl:part name="parameters" element="tns:GetTicketMessageWithEmbeddedData" />
   </wsdl:message>
@@ -3382,6 +3430,10 @@ title: Services88.TicketAgent WSDL
     <wsdl:operation name="GetDefaultMessageContent">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetDefaultMessageContent" name="GetDefaultMessageContentRequest" message="tns:GetDefaultMessageContentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetDefaultMessageContentResponse" name="GetDefaultMessageContentResponse" message="tns:GetDefaultMessageContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDefaultMessageContentFull">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetDefaultMessageContentFull" name="GetDefaultMessageContentFullRequest" message="tns:GetDefaultMessageContentFullRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetDefaultMessageContentFullResponse" name="GetDefaultMessageContentFullResponse" message="tns:GetDefaultMessageContentFullResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketMessageWithEmbeddedData">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageWithEmbeddedData" name="GetTicketMessageWithEmbeddedDataRequest" message="tns:GetTicketMessageWithEmbeddedDataRequest" />
@@ -4279,6 +4331,22 @@ title: Services88.TicketAgent WSDL
         <soap:header message="tns:GetDefaultMessageContentResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetDefaultMessageContentResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetDefaultMessageContentResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDefaultMessageContentFull">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetDefaultMessageContentFull" style="document" />
+      <wsdl:input name="GetDefaultMessageContentFullRequest">
+        <soap:header message="tns:GetDefaultMessageContentFullRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetDefaultMessageContentFullRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetDefaultMessageContentFullRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetDefaultMessageContentFullResponse">
+        <soap:header message="tns:GetDefaultMessageContentFullResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetDefaultMessageContentFullResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetDefaultMessageContentFullResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetDefaultMessageContentFullResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

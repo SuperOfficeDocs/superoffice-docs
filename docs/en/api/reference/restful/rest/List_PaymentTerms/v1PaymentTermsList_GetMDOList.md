@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=quia
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=rerum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "Graham Inc and Sons",
-    "ToolTip": "Sed ut amet provident expedita adipisci.",
+    "Id": 352,
+    "Name": "Marvin, Erdman and Hansen",
+    "ToolTip": "Sapiente nihil doloribus dolor quidem.",
     "Deleted": false,
-    "Rank": 438,
-    "Type": "maxime",
+    "Rank": 394,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 821,
-        "Name": "Yost-Fahey",
-        "ToolTip": "Aut veniam eos quia.",
+        "Id": 151,
+        "Name": "Rempel, Frami and Gislason",
+        "ToolTip": "Et et porro.",
         "Deleted": false,
-        "Rank": 981,
-        "Type": "porro",
+        "Rank": 929,
+        "Type": "ipsa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 600,
-        "ExtraInfo": "nam",
-        "StyleHint": "cumque",
-        "FullName": "Jed Marquardt MD",
+        "IconHint": "laborum",
+        "ColorBlock": 653,
+        "ExtraInfo": "animi",
+        "StyleHint": "explicabo",
+        "FullName": "Miss Yazmin Garry O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldLength": 925
           }
         }
       }
     ],
-    "IconHint": "tenetur",
-    "ColorBlock": 8,
-    "ExtraInfo": "fugit",
-    "StyleHint": "consequatur",
-    "FullName": "Katrine Volkman DVM",
+    "IconHint": "est",
+    "ColorBlock": 884,
+    "ExtraInfo": "quas",
+    "StyleHint": "harum",
+    "FullName": "Dayna Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldLength": 238
       }
     }
   }

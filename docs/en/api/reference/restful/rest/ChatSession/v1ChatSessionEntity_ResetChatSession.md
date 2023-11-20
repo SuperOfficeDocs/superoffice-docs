@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 834,
-  "TopicId": 111,
+  "ChatSessionId": 485,
+  "TopicId": 967,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ea",
-  "CustomerHost": "harum",
-  "CustomerName": "Kihn, Kautzer and Bahringer",
-  "CustomerEmail": "josefina@hodkiewiczjakubowski.ca",
-  "CustomerPhone": "674-237-4827",
+  "CustomerAlias": "est",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Balistreri Inc and Sons",
+  "CustomerEmail": "kamryn_cummings@sauer.us",
+  "CustomerPhone": "027-184-1889",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Langosh LLC",
+  "CustomerCompanyName": "O'Hara, Ebert and Blick",
   "Status": "Closed",
-  "FirstMessage": "sed",
-  "LastMessage": "rerum",
-  "WhenRequested": "2008-03-05T11:06:41.5353656+01:00",
-  "WhenStarted": "1998-01-07T11:06:41.5353656+01:00",
-  "WhenEnded": "2021-11-07T11:06:41.5353656+01:00",
-  "WhenIdle": "2010-12-19T11:06:41.5353656+01:00",
-  "WhenFetched": "2014-08-01T11:06:41.5353656+02:00",
-  "SessionKey": "cum",
-  "InitialQueuePos": 686,
-  "AlertLevel": 332,
-  "Rank": 867,
+  "FirstMessage": "corporis",
+  "LastMessage": "sit",
+  "WhenRequested": "1998-12-17T13:38:17.1868579+01:00",
+  "WhenStarted": "2018-04-15T13:38:17.1868579+02:00",
+  "WhenEnded": "2011-10-22T13:38:17.1868579+02:00",
+  "WhenIdle": "2016-09-13T13:38:17.1868579+02:00",
+  "WhenFetched": "2018-09-23T13:38:17.1868579+02:00",
+  "SessionKey": "dicta",
+  "InitialQueuePos": 786,
+  "AlertLevel": 777,
+  "Rank": 321,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 755,
+  "ChatbotIsActive": false,
+  "Rating": 788,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 833
     }
   }
 }

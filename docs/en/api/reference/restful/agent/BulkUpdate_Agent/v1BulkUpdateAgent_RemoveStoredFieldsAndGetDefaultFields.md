@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Koelpin, Cartwright and Waelchi",
-  "Context": "quos"
+  "TableName": "Erdman LLC",
+  "Context": "quasi"
 }
 ```
 
@@ -109,72 +109,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "fugiat",
-    "ValueType": "aliquid",
+    "Key": "cum",
+    "ValueType": "ipsa",
     "Mandatory": false,
-    "EncodedDisplayName": "Gottlieb, Prosacco and Kiehn",
-    "EncodedDisplayDescription": "Business-focused bi-directional info-mediaries",
-    "IconHint": "aut",
+    "EncodedDisplayName": "Stiedemann, Casper and Becker",
+    "EncodedDisplayDescription": "Enterprise-wide exuding emulation",
+    "IconHint": "molestiae",
     "ControlInfos": [
       {
-        "Type": "suscipit",
-        "Label": "rem",
-        "Dimension": 748,
-        "ListProviderName": "Romaguera, Lockman and Haley",
-        "ListProviderExtraInfo": "ut",
-        "ListProviderPrimaryKeyName": "Green, Jakubowski and Nader",
-        "ListLeadText": "dolor",
+        "Type": "voluptas",
+        "Label": "est",
+        "Dimension": 623,
+        "ListProviderName": "Halvorson Inc and Sons",
+        "ListProviderExtraInfo": "voluptates",
+        "ListProviderPrimaryKeyName": "Gusikowski-Tromp",
+        "ListLeadText": "nemo",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 654
+            "FieldLength": 451
           }
         }
       }
     ],
-    "EncodedDataCaption": "nemo",
-    "EncodedDataCaptionDescription": "Exclusive full-range groupware",
-    "CurrentOperationType": "esse",
+    "EncodedDataCaption": "qui",
+    "EncodedDataCaptionDescription": "Devolved bifurcated migration",
+    "CurrentOperationType": "maiores",
     "Values": [
-      "ut",
-      "necessitatibus"
+      "consectetur",
+      "veritatis"
     ],
     "DisplayValues": [
-      "aut",
-      "voluptas"
+      "voluptatem",
+      "temporibus"
     ],
     "OperationInfos": [
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Farrell-Ryan",
+        "Key": "dolor",
+        "EncodedDisplayName": "Collier, Hamill and Shanahan",
         "EncodedLeadTexts": [
-          "consequuntur",
-          "nostrum"
+          "cupiditate",
+          "possimus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 553
+            "FieldType": "System.String",
+            "FieldLength": 525
           }
         }
       },
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Farrell-Ryan",
+        "Key": "dolor",
+        "EncodedDisplayName": "Collier, Hamill and Shanahan",
         "EncodedLeadTexts": [
-          "consequuntur",
-          "nostrum"
+          "cupiditate",
+          "possimus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 553
+            "FieldType": "System.String",
+            "FieldLength": 525
           }
         }
       }

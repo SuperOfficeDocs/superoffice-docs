@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Rutherford-Corwin",
-  "EventFilter": "laborum",
+  "NameFilter": "Renner, Marquardt and Sawayn",
+  "EventFilter": "quod",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 465,
-    "Name": "Konopelski, Christiansen and Kuhlman",
+    "WebhookId": 901,
+    "Name": "Kautzer-Gerhold",
     "Events": [
-      "deserunt",
-      "voluptas"
+      "recusandae",
+      "quod"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "non",
+    "Secret": "laborum",
     "State": "Active",
-    "Type": "quo",
+    "Type": "cupiditate",
     "Headers": {
-      "Headers1": "voluptatem",
-      "Headers2": "blanditiis"
+      "Headers1": "quas",
+      "Headers2": "non"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2005-08-08T11:06:35.7733119+02:00",
+    "Registered": "2017-08-04T13:38:14.4052895+02:00",
     "RegisteredAssociate": null,
-    "Updated": "1999-12-16T11:06:35.7733119+01:00",
+    "Updated": "2020-10-03T13:38:14.4052895+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "zoe_stanton@balistrerischumm.us"
+    "ErrorsEmail": "mylene.bogan@predovic.info"
   }
 ]
 ```

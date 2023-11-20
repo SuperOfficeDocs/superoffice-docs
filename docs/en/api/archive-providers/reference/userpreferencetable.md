@@ -44,7 +44,7 @@ actually live in the Service tables.
 ## Sample
 
 ```http!
-GET /api/v1/archive/UserPreferenceTable?$select=deflevelname,maxlevelname
+GET /api/v1/archive/UserPreferenceTable?$select=value,deflevelname,maxlevelname
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

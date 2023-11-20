@@ -88,44 +88,44 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Runolfsson, Thiel and Anderson",
-      "Operator": "expedita",
+      "Name": "Gerlach-Senger",
+      "Operator": "consequatur",
       "Values": [
-        "ad",
-        "eius"
+        "amet",
+        "labore"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "adipisci"
+        "dolores",
+        "officiis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 327,
+      "InterParenthesis": 729,
       "InterOperator": "And",
-      "UniqueHash": 662
+      "UniqueHash": 138
     }
   ],
-  "ProviderName": "Lowe, Greenholt and Schumm",
+  "ProviderName": "Koss, Kertzmann and Mitchell",
   "DesiredColumns": [
-    "alias",
-    "aut"
+    "sed",
+    "id"
   ],
   "OrderBy": [
     {
-      "Name": "Schultz Group",
+      "Name": "Parisian-Champlin",
       "Direction": "ASC"
     },
     {
-      "Name": "Schultz Group",
+      "Name": "Parisian-Champlin",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 921,
-  "PageNumber": 394
+  "PageSize": 363,
+  "PageNumber": 607
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Parker-Abbott",
-      "DisplayTooltip": "quae",
-      "DisplayType": "magnam",
-      "CanOrderBy": false,
-      "Name": "Predovic, Frami and Feeney",
-      "CanRestrictBy": true,
-      "RestrictionType": "vero",
-      "RestrictionListName": "Bode, Klocko and Towne",
-      "IsVisible": false,
-      "ExtraInfo": "velit",
-      "Width": "maiores",
-      "IconHint": "tenetur",
-      "HeadingIconHint": "rerum"
+      "DisplayName": "Marquardt-Hand",
+      "DisplayTooltip": "aut",
+      "DisplayType": "in",
+      "CanOrderBy": true,
+      "Name": "Legros Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "id",
+      "RestrictionListName": "Smith-Okuneva",
+      "IsVisible": true,
+      "ExtraInfo": "soluta",
+      "Width": "minus",
+      "IconHint": "harum",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ritchie-Anderson",
-      "PrimaryKey": 197,
+      "EntityName": "Blick, DuBuque and Green",
+      "PrimaryKey": 892,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "tempore",
-          "TooltipHint": "quia",
-          "LinkHint": "deserunt"
+          "DisplayValue": "ex",
+          "TooltipHint": "esse",
+          "LinkHint": "eum"
         }
       },
-      "LinkHint": "doloremque",
-      "StyleHint": "pariatur",
+      "LinkHint": "vel",
+      "StyleHint": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldLength": 607
         }
       }
     }
   ],
-  "RowCount": 377,
+  "RowCount": 587,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldLength": 660
     }
   }
 }

@@ -85,35 +85,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 544,
-  "Name": "Cormier-Davis",
-  "Tooltip": "harum",
-  "Rank": 643,
+  "ProjTypeId": 176,
+  "Name": "Keebler, Krajcik and Marquardt",
+  "Tooltip": "corrupti",
+  "Rank": 301,
   "DurationUnit": "Century",
-  "ProjectDuration": 118,
-  "Deleted": false,
+  "ProjectDuration": 144,
+  "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 216,
-      "Name": "Oberbrunner, Wehner and Collins",
-      "ToolTip": "Beatae molestiae ad ut non.",
+      "Id": 573,
+      "Name": "Hayes Group",
+      "ToolTip": "Et est dicta occaecati cumque deserunt.",
       "Deleted": false,
-      "Rank": 21,
-      "Type": "harum",
-      "ColorBlock": 66,
-      "IconHint": "reprehenderit",
+      "Rank": 506,
+      "Type": "omnis",
+      "ColorBlock": 487,
+      "IconHint": "sint",
       "Selected": false,
-      "LastChanged": "2019-07-09T11:06:34.7708179+02:00",
+      "LastChanged": "2009-06-13T13:38:13.7177215+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "et",
+      "ExtraInfo": "est",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Muhammad Mills PhD"
+      "FullName": "Devyn Sporer"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 777,
-  "Name": "Champlin, Schamberger and Spinka",
-  "Tooltip": "porro",
-  "Rank": 324,
+  "ProjTypeId": 51,
+  "Name": "Huel-Wintheiser",
+  "Tooltip": "ut",
+  "Rank": 994,
   "DurationUnit": "Century",
-  "ProjectDuration": 588,
+  "ProjectDuration": 126,
   "Deleted": false,
   "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 128,
-      "Name": "Douglas, Fisher and Hermann",
-      "ToolTip": "Rerum ab.",
+      "Id": 38,
+      "Name": "Beahan Group",
+      "ToolTip": "Alias et dolor.",
       "Deleted": false,
-      "Rank": 203,
-      "Type": "ut",
-      "ColorBlock": 376,
-      "IconHint": "at",
+      "Rank": 175,
+      "Type": "quaerat",
+      "ColorBlock": 209,
+      "IconHint": "voluptatem",
       "Selected": false,
-      "LastChanged": "2014-06-03T11:06:34.7708179+02:00",
+      "LastChanged": "2020-11-04T13:38:13.7177215+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "deleniti",
-      "StyleHint": "non",
+      "ExtraInfo": "magni",
+      "StyleHint": "iure",
       "Hidden": false,
-      "FullName": "Dr. Icie Jude Barton",
+      "FullName": "Rebeka Doyle Mraz III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 557
+          "FieldType": "System.Int32",
+          "FieldLength": 25
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 735
+      "FieldType": "System.Int32",
+      "FieldLength": 689
     }
   }
 }

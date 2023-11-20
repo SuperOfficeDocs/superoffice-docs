@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 512,
-  "Rank": 148,
-  "DefaultTask": 401,
-  "DefaultTaskText": "praesentium",
-  "IsVisual": true,
-  "LastGenerated": "2000-02-26T11:06:35.2708148+01:00",
-  "Description": "Multi-layered scalable toolset",
-  "Name": "Brown-Pouros",
-  "StatusMonitorId": 865,
-  "PictureId": 621,
+  "OwnerTable": 841,
+  "Rank": 861,
+  "DefaultTask": 342,
+  "DefaultTaskText": "consequatur",
+  "IsVisual": false,
+  "LastGenerated": "2017-04-10T13:38:14.0615788+02:00",
+  "Description": "Stand-alone coherent solution",
+  "Name": "McClure-Rempel",
+  "StatusMonitorId": 484,
+  "PictureId": 800,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 161,
-  "NumNeedUpdate": 993,
-  "GenerationStart": "2000-03-01T11:06:35.2708148+01:00"
+  "Deleted": true,
+  "NumMatches": 476,
+  "NumNeedUpdate": 590,
+  "GenerationStart": "2005-05-24T13:38:14.0615788+02:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 770,
-  "Rank": 279,
-  "DefaultTask": 222,
-  "DefaultTaskText": "dolores",
+  "OwnerTable": 742,
+  "Rank": 438,
+  "DefaultTask": 54,
+  "DefaultTaskText": "sed",
   "IsVisual": false,
-  "LastGenerated": "2003-05-19T11:06:35.2708148+02:00",
-  "Description": "Cloned human-resource hierarchy",
-  "Name": "Weissnat, Rogahn and Cruickshank",
-  "StatusMonitorId": 536,
-  "PictureId": 211,
+  "LastGenerated": "2000-04-06T13:38:14.0615788+02:00",
+  "Description": "Automated interactive circuit",
+  "Name": "Gibson Group",
+  "StatusMonitorId": 433,
+  "PictureId": 352,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 54,
-  "NumNeedUpdate": 273,
-  "GenerationStart": "2009-05-28T11:06:35.2708148+02:00",
+  "NumMatches": 811,
+  "NumNeedUpdate": 739,
+  "GenerationStart": "2004-01-04T13:38:14.0615788+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 927
+      "FieldType": "System.Int32",
+      "FieldLength": 678
     }
   }
 }

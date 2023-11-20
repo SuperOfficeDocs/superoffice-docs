@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 931,
-    "Name": "Torphy, Kunze and Koss",
-    "AssociateId": 648,
-    "DetailsTable": 250,
-    "DetailsRecord": 46,
+    "Id": 99,
+    "Name": "Cassin, Becker and Homenick",
+    "AssociateId": 880,
+    "DetailsTable": 629,
+    "DetailsRecord": 147,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptatum",
-      "ParameterObject2": "rerum"
+      "ParameterObject1": "repudiandae",
+      "ParameterObject2": "dicta"
     },
-    "LastStarted": "2019-03-25T11:06:33.7972715+01:00",
-    "Created": "2010-05-19T11:06:33.7972715+02:00",
-    "StartCount": 480,
-    "DatabaseSerialNumber": "466131",
-    "Context": "vero",
-    "Result": "inventore",
+    "LastStarted": "2005-05-09T13:38:13.0771703+02:00",
+    "Created": "2003-12-15T13:38:13.0771703+01:00",
+    "StartCount": 181,
+    "DatabaseSerialNumber": "887953",
+    "Context": "nesciunt",
+    "Result": "officiis",
     "State": "All",
-    "Description": "Managed client-driven moderator",
-    "Response": "ea",
-    "Request": "a",
-    "ProgressDescription": "Programmable local function",
-    "ProgressPercent": 34,
-    "FileName": "Hane, Howell and Dickens",
+    "Description": "Up-sized dynamic benchmark",
+    "Response": "maiores",
+    "Request": "adipisci",
+    "ProgressDescription": "Automated 24 hour archive",
+    "ProgressPercent": 225,
+    "FileName": "Mayer-Towne",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldType": "System.String",
+        "FieldLength": 171
       }
     }
   }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 12,
-  "ListItemId": 101,
+  "UdListDefinitionId": 22,
+  "ListItemId": 4,
   "Headings": [
     {
-      "Id": 594,
-      "Name": "Homenick LLC",
-      "ToolTip": "Et non.",
+      "Id": 518,
+      "Name": "Hermiston-Harris",
+      "ToolTip": "Vero ullam sunt et quas quia voluptas.",
       "Deleted": false,
-      "Rank": 870,
-      "Type": "pariatur",
-      "ColorBlock": 91,
-      "IconHint": "quas",
+      "Rank": 578,
+      "Type": "sed",
+      "ColorBlock": 851,
+      "IconHint": "nisi",
       "Selected": false,
-      "LastChanged": "2020-06-14T11:06:34.7083083+02:00",
+      "LastChanged": "2001-08-26T13:38:13.6864749+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "natus",
-      "StyleHint": "voluptas",
-      "Hidden": false,
-      "FullName": "Laverne Nitzsche"
+      "ExtraInfo": "qui",
+      "StyleHint": "consequatur",
+      "Hidden": true,
+      "FullName": "Mrs. Kian Legros PhD"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 887,
-    "Name": "Bartell Inc and Sons",
-    "ToolTip": "Natus sunt autem.",
+    "Id": 899,
+    "Name": "Streich-Monahan",
+    "ToolTip": "Vero nam consequatur eum quo molestiae.",
     "Deleted": false,
-    "Rank": 247,
-    "Type": "maxime",
-    "ColorBlock": 574,
-    "IconHint": "voluptate",
+    "Rank": 978,
+    "Type": "iure",
+    "ColorBlock": 297,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2001-08-02T11:06:34.7083083+02:00",
+    "LastChanged": "2013-03-16T13:38:13.6864749+01:00",
     "ChildItems": [
       {
-        "Id": 914,
-        "Name": "Torp-Nienow",
-        "ToolTip": "Et velit sit unde eos illo.",
+        "Id": 161,
+        "Name": "Lebsack-Muller",
+        "ToolTip": "Commodi asperiores voluptatem rerum incidunt quia repellendus repudiandae.",
         "Deleted": false,
-        "Rank": 472,
-        "Type": "ipsam",
-        "ColorBlock": 57,
-        "IconHint": "vero",
-        "Selected": true,
-        "LastChanged": "2001-12-11T11:06:34.7083083+01:00",
+        "Rank": 675,
+        "Type": "eum",
+        "ColorBlock": 469,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2021-02-21T13:38:13.6864749+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Arely Bauch",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "hic",
+        "Hidden": false,
+        "FullName": "Prof. Ahmad Runolfsdottir",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 224
+            "FieldLength": 77
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "nulla",
+    "ExtraInfo": "expedita",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Madonna Pollich",
+    "FullName": "Ebba Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldLength": 630
       }
     }
   }

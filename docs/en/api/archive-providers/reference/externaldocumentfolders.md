@@ -35,7 +35,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/externaldocumentfolders?$select=hierarchyFullname,hierarchyParentId
+GET /api/v1/archive/externaldocumentfolders?$select=hierarchyParentId,hierarchyFullname,hierarchyParentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

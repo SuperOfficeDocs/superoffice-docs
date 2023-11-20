@@ -73,11 +73,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 755,
-  "InstanceLayout": "earum",
-  "InstanceName": "Graham-Mraz",
-  "CreatedDate": "2003-09-03T11:06:33.7816525+02:00",
-  "UpdatedDate": "2012-09-19T11:06:33.7816525+02:00",
+  "AudienceLayoutId": 642,
+  "InstanceLayout": "consequatur",
+  "InstanceName": "Hoppe, Simonis and Smith",
+  "CreatedDate": "1998-07-15T13:38:13.0771703+02:00",
+  "UpdatedDate": "2009-07-03T13:38:13.0771703+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 238
     }
   }
 }

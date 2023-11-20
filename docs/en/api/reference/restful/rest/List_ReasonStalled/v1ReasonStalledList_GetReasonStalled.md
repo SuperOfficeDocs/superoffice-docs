@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 76,
-  "Name": "Senger Group",
-  "Tooltip": "dicta",
-  "Deleted": false,
-  "UdListDefinitionId": 634,
-  "Rank": 101,
+  "Id": 35,
+  "Name": "Jakubowski Inc and Sons",
+  "Tooltip": "itaque",
+  "Deleted": true,
+  "UdListDefinitionId": 44,
+  "Rank": 294,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldLength": 435
     }
   }
 }

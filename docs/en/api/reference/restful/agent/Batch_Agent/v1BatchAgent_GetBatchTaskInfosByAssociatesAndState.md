@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    660,
-    904
+    177,
+    780
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 232,
-    "Name": "Hauck Inc and Sons",
-    "AssociateId": 418,
-    "DetailsTable": 682,
-    "DetailsRecord": 862,
+    "Id": 690,
+    "Name": "Herman-Morissette",
+    "AssociateId": 912,
+    "DetailsTable": 925,
+    "DetailsRecord": 281,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "fugiat",
-      "ParameterObject2": "et"
+      "ParameterObject1": "ut",
+      "ParameterObject2": "dolore"
     },
-    "LastStarted": "2000-11-26T11:06:33.7972715+01:00",
-    "Created": "2022-08-17T11:06:33.7972715+02:00",
-    "StartCount": 502,
-    "DatabaseSerialNumber": "838967",
-    "Context": "consequatur",
-    "Result": "minima",
+    "LastStarted": "2010-08-26T13:38:13.0927968+02:00",
+    "Created": "2016-01-30T13:38:13.0927968+01:00",
+    "StartCount": 788,
+    "DatabaseSerialNumber": "1058316",
+    "Context": "quae",
+    "Result": "at",
     "State": "All",
-    "Description": "Multi-layered zero defect core",
-    "Response": "est",
-    "Request": "perferendis",
-    "ProgressDescription": "Versatile optimizing moratorium",
-    "ProgressPercent": 560,
-    "FileName": "Runolfsdottir Inc and Sons",
+    "Description": "Synergized radical benchmark",
+    "Response": "voluptate",
+    "Request": "aliquid",
+    "ProgressDescription": "Customer-focused high-level challenge",
+    "ProgressPercent": 932,
+    "FileName": "Haley-Hettinger",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 81
+        "FieldType": "System.Int32",
+        "FieldLength": 711
       }
     }
   }

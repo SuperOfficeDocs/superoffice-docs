@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Name": "Marquardt, Schinner and Connelly",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 685,
-    "Rank": 382,
+    "Id": 234,
+    "Name": "Lockman-Mohr",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 515,
+    "Rank": 728,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 816
+        "FieldType": "System.Int32",
+        "FieldLength": 75
       }
     }
   }

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 879
+  "EntityId": 622
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 336,
-    "ConnectionName": "Heller, Wilderman and McLaughlin",
+    "ErpConnectionId": 3,
+    "ConnectionName": "Rath Group",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "sint",
-        "Rank": 525,
-        "DisplayName": "Reilly, Schimmel and Greenholt",
-        "DisplayDescription": "Object-based 4th generation encoding",
+        "FieldKey": "ut",
+        "Rank": 753,
+        "DisplayName": "Waelchi-Mitchell",
+        "DisplayDescription": "Distributed multimedia moderator",
         "FieldType": "Checkbox",
-        "ListName": "Rempel-Goyette",
-        "DefaultValue": "praesentium",
-        "MaxLength": 826,
+        "ListName": "Schoen Inc and Sons",
+        "DefaultValue": "occaecati",
+        "MaxLength": 124,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 262
+            "FieldLength": 267
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "est",
-      "praesentium"
+      "atque",
+      "fuga"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldLength": 792
       }
     }
   }

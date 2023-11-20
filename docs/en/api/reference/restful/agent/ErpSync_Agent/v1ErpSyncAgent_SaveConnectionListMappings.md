@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Stroman Group",
+      "ErpListName": "Dibbert-Dickinson",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Hodkiewicz Inc and Sons",
-      "ErpFieldId": 442,
+      "ErpActorTypeName": "Lebsack LLC",
+      "ErpFieldId": 933,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldLength": 964
         }
       }
     }
   ],
-  "ErpConnectionId": 822,
-  "ErpConnectionName": "King LLC",
+  "ErpConnectionId": 171,
+  "ErpConnectionName": "Hirthe Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 25
     }
   }
 }

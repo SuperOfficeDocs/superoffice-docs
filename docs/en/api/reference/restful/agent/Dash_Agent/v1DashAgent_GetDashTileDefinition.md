@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=745
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=866
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 296,
-  "Name": "Price Group",
-  "Description": "Enhanced eco-centric support",
-  "DefaultHeight": 37,
-  "DefaultWidth": 738,
+  "DashboardTileDefinitionId": 101,
+  "Name": "Jacobs, Sanford and Effertz",
+  "Description": "Open-architected didactic model",
+  "DefaultHeight": 240,
+  "DefaultWidth": 520,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Heller Group",
-  "SelectionId": 422,
+  "EntityName": "Fisher-Walsh",
+  "SelectionId": 689,
   "CurrencyMode": "Base",
-  "CurrencyCode": "commodi",
+  "CurrencyCode": "non",
   "Measure": "Average",
-  "MeasureField": "qui",
-  "SortBy": "perferendis",
-  "LayoutConfig": "quae",
-  "SecondarySelectionId": 430,
-  "MeasureByField": "eveniet",
+  "MeasureField": "non",
+  "SortBy": "unde",
+  "LayoutConfig": "dolor",
+  "SecondarySelectionId": 171,
+  "MeasureByField": "praesentium",
   "Usage": "Dashboard",
-  "ProviderName": "Medhurst, Ondricka and Herzog",
+  "ProviderName": "Casper Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldType": "System.Int32",
+      "FieldLength": 734
     }
   }
 }

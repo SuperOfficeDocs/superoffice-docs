@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 727,
-    "ColumnId": 801,
-    "FieldDefault": "rem",
-    "FieldHeight": 603,
-    "FieldLabel": "qui",
-    "FieldLeft": 82,
-    "FieldTop": 182,
+    "UDefFieldId": 523,
+    "ColumnId": 882,
+    "FieldDefault": "commodi",
+    "FieldHeight": 925,
+    "FieldLabel": "nostrum",
+    "FieldLeft": 696,
+    "FieldTop": 338,
     "FieldType": "Checkbox",
-    "FieldWidth": 33,
-    "FormatMask": "ex",
-    "HideLabel": false,
+    "FieldWidth": 876,
+    "FormatMask": "ipsam",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 390,
-    "LabelLeft": 889,
-    "LabelTop": 735,
-    "LabelWidth": 862,
-    "LastVersionId": 498,
-    "ListTableId": 165,
+    "LabelHeight": 809,
+    "LabelLeft": 485,
+    "LabelTop": 48,
+    "LabelWidth": 842,
+    "LastVersionId": 792,
+    "ListTableId": 331,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 834,
-    "ProgId": "explicabo",
+    "Page1LineNo": 315,
+    "ProgId": "omnis",
     "IsReadOnly": false,
-    "ShortLabel": "eius",
-    "TabOrder": 391,
-    "TextLength": 121,
-    "Tooltip": "rem",
-    "UdefIdentity": 160,
-    "UDListDefinitionId": 1001,
+    "ShortLabel": "et",
+    "TabOrder": 661,
+    "TextLength": 69,
+    "Tooltip": "assumenda",
+    "UdefIdentity": 881,
+    "UDListDefinitionId": 634,
     "Justification": "Center",
-    "Version": 296,
-    "TemplateVariableName": "Paucek-Dickinson",
+    "Version": 811,
+    "TemplateVariableName": "Gusikowski Group",
     "HasBeenPublished": false,
-    "MdoListName": "Hamill, Dicki and Dickinson",
+    "MdoListName": "Klein, Welch and Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldType": "System.String",
+        "FieldLength": 322
       }
     }
   }

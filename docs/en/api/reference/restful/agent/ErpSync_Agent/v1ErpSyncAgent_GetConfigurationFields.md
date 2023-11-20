@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 387
+  "ErpConnectorId": 185
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "et",
-    "Rank": 724,
-    "DisplayName": "Parisian Inc and Sons",
-    "DisplayDescription": "Managed fresh-thinking algorithm",
+    "FieldKey": "pariatur",
+    "Rank": 247,
+    "DisplayName": "Auer Inc and Sons",
+    "DisplayDescription": "Total context-sensitive intranet",
     "FieldType": "Checkbox",
-    "ListName": "McClure Group",
-    "DefaultValue": "velit",
-    "MaxLength": 25,
+    "ListName": "Kshlerin, Johnston and Bailey",
+    "DefaultValue": "consequatur",
+    "MaxLength": 69,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldType": "System.String",
+        "FieldLength": 907
       }
     }
   }

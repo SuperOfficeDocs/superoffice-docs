@@ -67,7 +67,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Erdman Group",
-    "DisplayName": "Wolf-Heathcote",
-    "Description": "Operative global hierarchy",
-    "ShortLabel": "eius",
+    "FieldName": "Wyman LLC",
+    "DisplayName": "Wolff Group",
+    "Description": "User-friendly systematic algorithm",
+    "ShortLabel": "aspernatur",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 799,
-    "TemplateVariableName": "Crist Group"
+    "Rank": 627,
+    "TemplateVariableName": "Swaniawski, Larson and Torp"
   }
 ]
 ```

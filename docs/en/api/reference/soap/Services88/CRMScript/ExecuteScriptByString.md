@@ -76,6 +76,13 @@ Application tokens must be specified if calling an Online installation. Applicat
        <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
       </CRMScript:StringKeyValuePair>
      </CRMScript:ParserValues>
+     <CRMScript:CgiVariables xsi:type="CRMScript:StringDictionary">
+      <CRMScript:StringKeyValuePair>
+       <CRMScript:Key xsi:type="xsd:string"></CRMScript:Key>
+       <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
+      </CRMScript:StringKeyValuePair>
+     </CRMScript:CgiVariables>
+     <CRMScript:CgiContent xsi:type="xsd:string"></CRMScript:CgiContent>
     </CRMScript:EventData>
    </CRMScript:ExecuteScriptByString>
 
@@ -107,8 +114,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      </CRMScript:StringKeyValuePair>
     </CRMScript:Parameters>
     <CRMScript:TraceRun xsi:type="CRMScript:CRMScriptTraceRun">
-     <CRMScript:StartedAt xsi:type="xsd:dateTime">2023-10-31T10:04:19Z</CRMScript:StartedAt>
-     <CRMScript:EndedAt xsi:type="xsd:dateTime">2023-10-31T10:04:19Z</CRMScript:EndedAt>
+     <CRMScript:StartedAt xsi:type="xsd:dateTime">2023-11-10T12:36:15Z</CRMScript:StartedAt>
+     <CRMScript:EndedAt xsi:type="xsd:dateTime">2023-11-10T12:36:15Z</CRMScript:EndedAt>
      <CRMScript:ExecutionTime xsi:type="xsd:int">0</CRMScript:ExecutionTime>
      <CRMScript:UserExecutionTime xsi:type="xsd:int">0</CRMScript:UserExecutionTime>
      <CRMScript:PeakMemory xsi:type="xsd:int">0</CRMScript:PeakMemory>
@@ -149,6 +156,13 @@ Application tokens must be specified if calling an Online installation. Applicat
        <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
       </CRMScript:StringKeyValuePair>
      </CRMScript:ParserValues>
+     <CRMScript:CgiVariables xsi:type="CRMScript:StringDictionary">
+      <CRMScript:StringKeyValuePair>
+       <CRMScript:Key xsi:type="xsd:string"></CRMScript:Key>
+       <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
+      </CRMScript:StringKeyValuePair>
+     </CRMScript:CgiVariables>
+     <CRMScript:CgiContent xsi:type="xsd:string"></CRMScript:CgiContent>
     </CRMScript:Eventdata>
     <CRMScript:Success xsi:type="xsd:boolean">false</CRMScript:Success>
     <CRMScript:ErrorInformation xsi:type="CRMScript:CRMScriptErrorInfo">

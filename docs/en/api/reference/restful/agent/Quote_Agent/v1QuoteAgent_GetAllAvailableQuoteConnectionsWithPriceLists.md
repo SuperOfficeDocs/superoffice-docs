@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 293,
-    "ERPName": "Howell Group",
-    "DisplayName": "Harvey Inc and Sons",
-    "DisplayDescription": "Implemented methodical service-desk",
-    "Rank": 24,
-    "ConnectorName": "Crist, Quigley and Mayert",
-    "ErpConnectionId": 753,
-    "ExtraData": "omnis",
-    "IsAvailable": false,
+    "QuoteConnectionId": 712,
+    "ERPName": "Williamson-Legros",
+    "DisplayName": "Fisher Inc and Sons",
+    "DisplayDescription": "Diverse stable Graphic Interface",
+    "Rank": 175,
+    "ConnectorName": "Heller-Erdman",
+    "ErpConnectionId": 881,
+    "ExtraData": "veniam",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 821,
-        "ERPPriceListKey": "est",
-        "QuoteConnectionId": 827,
-        "Name": "Hauck-McGlynn",
-        "Description": "Phased zero defect initiative",
-        "Currency": "harum",
-        "CurrencyName": "Bogan-Rempel",
-        "ValidFrom": "2015-06-08T11:06:35.2239506+02:00",
-        "ValidTo": "2008-10-09T11:06:35.2239506+02:00",
+        "PriceListId": 4,
+        "ERPPriceListKey": "explicabo",
+        "QuoteConnectionId": 102,
+        "Name": "Wilkinson, Blick and Kovacek",
+        "Description": "Switchable optimizing capability",
+        "Currency": "et",
+        "CurrencyName": "Graham, Carter and Prosacco",
+        "ValidFrom": "2005-06-18T13:38:14.0303322+02:00",
+        "ValidTo": "2010-05-26T13:38:14.0303322+02:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 50
+            "FieldType": "System.String",
+            "FieldLength": 727
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": true,
+    "AllAccess": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      79,
-      923
+      956,
+      759
     ],
     "AssociateAccessIds": [
-      427,
-      739
+      436,
+      931
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldType": "System.String",
+        "FieldLength": 475
       }
     }
   }

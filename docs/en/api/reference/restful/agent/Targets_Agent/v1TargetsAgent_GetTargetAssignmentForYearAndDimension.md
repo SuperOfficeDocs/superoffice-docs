@@ -89,11 +89,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 532,
+  "TargetYear": 348,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 641,
-  "DimensionId": 208
+  "Id": 3,
+  "DimensionId": 728
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 923,
+  "TargetAssignmentInfoId": 86,
   "Values": [
-    400,
-    444
+    629,
+    115
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 532,
-  "DimensionListItemDisplayName": "Dibbert LLC",
+  "DimensionListItem": 267,
+  "DimensionListItemDisplayName": "Grimes, Streich and Marquardt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 730
+      "FieldType": "System.Int32",
+      "FieldLength": 34
     }
   }
 }

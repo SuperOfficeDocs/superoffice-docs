@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 866
+  "QuoteVersionId": 852
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 558,
-  "ERPQuoteVersionKey": "aliquam",
-  "QuoteId": 698,
-  "Description": "Operative cohesive success",
-  "Number": "863508",
+  "QuoteVersionId": 384,
+  "ERPQuoteVersionKey": "necessitatibus",
+  "QuoteId": 58,
+  "Description": "Extended contextually-based adapter",
+  "Number": "1005678",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 914,
-  "SentDate": "2004-08-18T11:06:35.1770754+02:00",
-  "FollowupId": 246,
-  "ExpirationDate": "2009-04-09T11:06:35.1770754+02:00",
-  "DeliveryCountryId": 597,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 358,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "voluptatum",
-  "ERPPaymentTypeKey": "modi",
-  "ERPDeliveryTermsKey": "voluptatibus",
-  "ERPDeliveryTypeKey": "perspiciatis",
-  "Rank": 40,
-  "ApprovedBy": 749,
-  "ApprovedText": "sunt",
-  "ApprovedRegisteredBy": 81,
-  "ApprovedRegisteredDate": "2008-08-30T11:06:35.1770754+02:00",
-  "ExtraField1": "quibusdam",
-  "ExtraField2": "qui",
-  "ExtraField3": "et",
-  "ExtraField4": "quo",
-  "ExtraField5": "occaecati",
-  "LastRecalculated": "2023-08-27T11:06:35.1770754+02:00",
-  "Updated": "2013-08-21T11:06:35.1770754+02:00",
-  "UpdatedAssociateId": 311,
-  "Registered": "2013-11-30T11:06:35.1770754+01:00",
-  "RegisteredAssociateId": 995,
-  "RequestAssociateId": 122,
-  "RequestComment": "architecto",
+  "LikelyQuoteAlternativeId": 294,
+  "SentDate": "2013-08-26T13:38:13.9990881+02:00",
+  "FollowupId": 528,
+  "ExpirationDate": "2015-06-10T13:38:13.9990881+02:00",
+  "DeliveryCountryId": 110,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 881,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "consequatur",
+  "ERPPaymentTypeKey": "eum",
+  "ERPDeliveryTermsKey": "non",
+  "ERPDeliveryTypeKey": "nulla",
+  "Rank": 956,
+  "ApprovedBy": 178,
+  "ApprovedText": "amet",
+  "ApprovedRegisteredBy": 927,
+  "ApprovedRegisteredDate": "2021-05-05T13:38:13.9990881+02:00",
+  "ExtraField1": "nobis",
+  "ExtraField2": "expedita",
+  "ExtraField3": "ipsa",
+  "ExtraField4": "non",
+  "ExtraField5": "voluptates",
+  "LastRecalculated": "2010-07-16T13:38:13.9990881+02:00",
+  "Updated": "2001-02-05T13:38:13.9990881+01:00",
+  "UpdatedAssociateId": 749,
+  "Registered": "2010-01-08T13:38:13.9990881+01:00",
+  "RegisteredAssociateId": 221,
+  "RequestAssociateId": 875,
+  "RequestComment": "tenetur",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 51,
-      "ERPQuoteAlternativeKey": "voluptas",
-      "QuoteVersionId": 502,
-      "Name": "Flatley Inc and Sons",
-      "Description": "Up-sized eco-centric frame",
+      "QuoteAlternativeId": 590,
+      "ERPQuoteAlternativeKey": "molestias",
+      "QuoteVersionId": 939,
+      "Name": "Hickle-Cole",
+      "Description": "Intuitive multi-tasking intranet",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 20358.464,
-      "ERPDiscountAmount": 23868.543999999998,
-      "DiscountPercent": 3535.152,
-      "DiscountAmount": 23473.66,
+      "ERPDiscountPercent": 23975.1,
+      "ERPDiscountAmount": 19565.561999999998,
+      "DiscountPercent": 7897.6799999999994,
+      "DiscountAmount": 5277.656,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "omnis",
-      "VAT": 13024.904,
-      "EarningPercent": 30822.89,
-      "EarningAmount": 4663.392,
-      "SubTotal": 13990.176,
-      "TotalPrice": 4701.0,
-      "ExtraField1": "quidem",
-      "ExtraField2": "est",
-      "ExtraField3": "eos",
-      "ExtraField4": "voluptate",
-      "ExtraField5": "culpa",
+      "VATInfo": "nostrum",
+      "VAT": 3591.564,
+      "EarningPercent": 30747.674,
+      "EarningAmount": 22859.396,
+      "SubTotal": 29597.496,
+      "TotalPrice": 188.04,
+      "ExtraField1": "esse",
+      "ExtraField2": "laboriosam",
+      "ExtraField3": "dolores",
+      "ExtraField4": "ad",
+      "ExtraField5": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 886
+          "FieldLength": 20
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 534
     }
   }
 }

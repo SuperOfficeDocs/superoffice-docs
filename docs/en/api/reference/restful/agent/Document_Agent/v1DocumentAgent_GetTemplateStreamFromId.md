@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 913,
-  "UiCulture": "blanditiis"
+  "TemplateId": 935,
+  "UiCulture": "praesentium"
 }
 ```
 

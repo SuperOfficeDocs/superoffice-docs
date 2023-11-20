@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Document/UndoCheckoutDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 871,
+  "DocumentId": 897,
   "AllowedReturnTypes": [
-    "adipisci",
-    "quam"
+    "excepturi",
+    "molestiae"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "adipisci",
-  "VersionId": "veniam",
+  "ExternalReference": "harum",
+  "VersionId": "exercitationem",
   "Success": true,
   "Type": "CustomGui",
   "Value": "alias",
-  "AdditionalInfo": "minus"
+  "AdditionalInfo": "cumque"
 }
 ```

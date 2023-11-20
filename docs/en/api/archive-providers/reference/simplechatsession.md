@@ -468,7 +468,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleChatSession?$select=date,person/retired,person/personAssociate/isActive,person/withdrawnStoreConsent,person/withdrawnEmarketingConsent
+GET /api/v1/archive/SimpleChatSession?$select=whenRequested,associate/portraitThumbnail,person/fullName,person/personExtra/x_person_boolean,contact/restrictionAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

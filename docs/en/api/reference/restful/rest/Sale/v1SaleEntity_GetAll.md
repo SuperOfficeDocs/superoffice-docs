@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=aspernatur
-GET /api/v1/Sale?$top=542
-GET /api/v1/Sale?$skip=240
+GET /api/v1/Sale?$entities=cumque
+GET /api/v1/Sale?$top=976
+GET /api/v1/Sale?$skip=1000
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=nulla
+GET /api/v1/Sale?$context=et
 GET /api/v1/Sale?$format=JSON
-GET /api/v1/Sale?$jsonSafe=False
+GET /api/v1/Sale?$jsonSafe=True
 GET /api/v1/Sale?$output=Display
 ```
 
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolorem",
+  "odata.nextLink": "impedit",
   "value": [
     {
-      "PrimaryKey": 9586,
+      "PrimaryKey": 5710,
       "EntityName": "person",
-      "personId": 9586,
-      "fullName": "Marvin Wilkinson"
+      "personId": 5710,
+      "fullName": "Vallie Schneider"
     },
     {
-      "PrimaryKey": 7009,
+      "PrimaryKey": 6945,
       "EntityName": "person",
-      "personId": 7009,
-      "fullName": "Rosina Boehm"
+      "personId": 6945,
+      "fullName": "Meredith Frederic Rogahn V"
     }
   ]
 }

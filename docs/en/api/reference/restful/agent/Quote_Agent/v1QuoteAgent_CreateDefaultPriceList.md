@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 791,
-  "ERPPriceListKey": "illo",
-  "QuoteConnectionId": 907,
-  "Name": "Weimann Inc and Sons",
-  "Description": "Advanced optimizing utilisation",
-  "Currency": "doloribus",
-  "CurrencyName": "Reichel Inc and Sons",
-  "ValidFrom": "2023-10-11T11:06:35.1926981+02:00",
-  "ValidTo": "2002-04-24T11:06:35.1926981+02:00",
+  "PriceListId": 177,
+  "ERPPriceListKey": "ab",
+  "QuoteConnectionId": 8,
+  "Name": "Quitzon-Bode",
+  "Description": "Progressive encompassing capacity",
+  "Currency": "est",
+  "CurrencyName": "Walter-Barton",
+  "ValidFrom": "2020-10-30T13:38:14.0147081+01:00",
+  "ValidTo": "2014-09-22T13:38:14.0147081+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 343
     }
   }
 }

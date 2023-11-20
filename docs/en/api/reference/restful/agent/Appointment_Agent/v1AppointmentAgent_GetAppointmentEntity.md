@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=362
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=635
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -138,125 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-05-06T11:06:33.553859+02:00",
-  "AppointmentId": 696,
-  "Description": "Innovative contextually-based methodology",
-  "StartDate": "2012-09-15T11:06:33.553859+02:00",
-  "EndDate": "2002-05-02T11:06:33.553859+02:00",
+  "CreatedDate": "2020-02-10T13:38:12.9209358+01:00",
+  "AppointmentId": 661,
+  "Description": "Ameliorated client-server software",
+  "StartDate": "2010-02-13T13:38:12.9209358+01:00",
+  "EndDate": "2006-06-29T13:38:12.9209358+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 232,
+  "MotherId": 843,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-08-05T11:06:33.553859+02:00",
+  "UpdatedDate": "1999-02-28T13:38:12.9209358+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 875,
+  "ActiveLinks": 923,
   "Links": [
     {
-      "EntityName": "Ziemann-Leffler",
-      "Id": 804,
-      "Description": "Persistent heuristic conglomeration",
-      "ExtraInfo": "voluptas",
-      "LinkId": 522,
+      "EntityName": "Runolfsson-Hills",
+      "Id": 724,
+      "Description": "Horizontal encompassing model",
+      "ExtraInfo": "vero",
+      "LinkId": 247,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 70
+          "FieldLength": 456
         }
       }
     }
   ],
-  "AlarmLeadTime": "beatae",
+  "AlarmLeadTime": "alias",
   "HasAlarm": false,
-  "ColorIndex": 202,
+  "ColorIndex": 589,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "quis",
-  "LeadTime": "fugit",
-  "Location": "atque",
-  "RejectCounter": 440,
+  "IsAlldayEvent": false,
+  "LagTime": "dolore",
+  "LeadTime": "eum",
+  "Location": "enim",
+  "RejectCounter": 268,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 1001,
-      "PersonId": 347,
-      "ContactId": 101,
-      "EmailId": 122,
+      "AssociateId": 426,
+      "PersonId": 571,
+      "ContactId": 458,
+      "EmailId": 135,
       "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 1001,
-      "PersonId": 347,
-      "ContactId": 101,
-      "EmailId": 122,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "andrew_turner@okon.biz",
+      "Description": "Managed client-driven hub"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-03-22T11:06:33.553859+01:00",
-  "HasConflict": true,
+  "ActiveDate": "1999-05-18T13:38:12.9209358+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 536,
+  "PreferredTZLocation": 993,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 295,
+  "SuggestedAppointmentId": 611,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "distinctio",
-  "Title": "tempora",
-  "Agenda": "earum",
-  "InternalNotes": "ea",
+  "CentralserviceVideomeetId": "aliquid",
+  "Title": "optio",
+  "Agenda": "est",
+  "InternalNotes": "autem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Elda Brianne Welch Sr.",
-    "SuperOffice:2": "Shanna Wisoky"
+    "SuperOffice:1": "413945845",
+    "SuperOffice:2": "Sandrine Herzog"
   },
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "tempore"
+    "CustomFields1": "ut",
+    "CustomFields2": "ea"
   },
-  "PublishEventDate": "2005-06-12T11:06:33.553859+02:00",
-  "PublishTo": "2005-11-13T11:06:33.553859+01:00",
-  "PublishFrom": "2000-04-15T11:06:33.553859+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-12-17T13:38:12.9209358+01:00",
+  "PublishTo": "2016-01-12T13:38:12.9209358+01:00",
+  "PublishFrom": "2017-05-26T13:38:12.9209358+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 448,
+      "VisibleId": 230,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 971
         }
       }
     },
     {
-      "VisibleId": 448,
+      "VisibleId": 230,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 971
         }
       }
     }
@@ -265,8 +261,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldType": "System.String",
+      "FieldLength": 640
     }
   }
 }

@@ -117,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -133,10 +134,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 115,
-  "StartTime": "2018-12-10T11:06:33.7347319+01:00",
-  "EndTime": "2006-10-02T11:06:33.7347319+02:00",
-  "Count": 959
+  "PersonId": 162,
+  "StartTime": "2019-05-03T13:38:13.0459237+02:00",
+  "EndTime": "1996-09-28T13:38:13.0459237+02:00",
+  "Count": 605
 }
 ```
 
@@ -148,64 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 411,
-    "StartDate": "2017-04-15T11:06:33.7347319+02:00",
-    "EndDate": "2007-09-07T11:06:33.7347319+02:00",
+    "AppointmentId": 711,
+    "StartDate": "1998-01-30T13:38:13.0459237+01:00",
+    "EndDate": "2013-03-21T13:38:13.0459237+01:00",
     "Type": "BookingForChecklist",
-    "Task": "in",
-    "AssociateFullName": "Magdalen Houston Hoeger MD",
-    "ContactName": "Heaney Group",
-    "Description": "Implemented analyzing migration",
-    "PersonFullName": "Stephanie Moore",
-    "PersonId": 807,
-    "ContactId": 132,
-    "ProjectId": 560,
-    "ProjectName": "McDermott Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 614,
-    "ColorIndex": 425,
+    "Task": "neque",
+    "AssociateFullName": "Damion Nyasia Gibson DVM",
+    "ContactName": "Rosenbaum-Olson",
+    "Description": "Centralized neutral data-warehouse",
+    "PersonFullName": "Eleonore King DVM",
+    "PersonId": 223,
+    "ContactId": 611,
+    "ProjectId": 204,
+    "ProjectName": "Monahan-Gaylord",
+    "IsPublished": true,
+    "AssociateId": 127,
+    "ColorIndex": 393,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 637,
-    "PriorityName": "Cremin-Auer",
+    "PriorityId": 441,
+    "PriorityName": "Pollich, Kulas and Schoen",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2012-01-08T11:06:33.7347319+01:00",
+    "ActiveDate": "2016-08-18T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-09-03T11:06:33.7347319+02:00",
-    "RecurringEndDate": "2006-04-26T11:06:33.7347319+02:00",
-    "MotherId": 205,
-    "AssignedBy": 960,
-    "AssignedByFullName": "Regan Homenick",
-    "RejectReason": "innovate customized e-tailers",
-    "Location": "aperiam",
-    "AlarmLeadTime": "amet",
-    "SaleId": 955,
-    "SaleName": "Lynch LLC",
-    "AssociateName": "Boyle, Goodwin and Kling",
-    "CreatedDate": "2007-11-24T11:06:33.7347319+01:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Dr. Geo Keanu Fahey",
-    "CreatedByAssociateId": 22,
+    "RecurringStartDate": "2001-08-01T13:38:13.0459237+02:00",
+    "RecurringEndDate": "2002-01-19T13:38:13.0459237+01:00",
+    "MotherId": 438,
+    "AssignedBy": 507,
+    "AssignedByFullName": "Dr. Kelsi Ortiz",
+    "RejectReason": "",
+    "Location": "dolor",
+    "AlarmLeadTime": "quas",
+    "SaleId": 672,
+    "SaleName": "Keebler-Bashirian",
+    "AssociateName": "Denesik, Weber and Hilll",
+    "CreatedDate": "2002-11-29T13:38:13.0459237+01:00",
+    "CreatedBy": "perferendis",
+    "CreatedByFullName": "Bessie Corwin",
+    "CreatedByAssociateId": 167,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "explicabo",
-    "Agenda": "inventore",
-    "InternalNotes": "perferendis",
+    "PreferredTZLocation": 661,
+    "Title": "quia",
+    "Agenda": "et",
+    "InternalNotes": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 378
+        "FieldLength": 639
       }
     }
   }

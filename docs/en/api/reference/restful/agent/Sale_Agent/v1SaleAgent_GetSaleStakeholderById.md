@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    36,
-    789
+    549,
+    264
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Crooks, Abbott and Hartmann",
-    "Comment": "eaque",
-    "StakeholderRoleId": 536,
-    "CountryId": 361,
-    "PersonId": 884,
-    "EmailDescription": "hal@heidenreich.uk",
-    "EmailId": 406,
-    "EmailAddress": "wilber@mcdermott.ca",
-    "PhoneId": 637,
-    "ContactName": "Hackett, Tillman and Prosacco",
-    "ContactId": 544,
-    "SaleId": 602,
-    "Mrmrs": "similique",
-    "Firstname": "Jerald",
-    "MiddleName": "Erdman Group",
-    "Lastname": "Schroeder",
-    "SaleStakeholderId": 146,
-    "Rank": 350,
-    "Phone": "1-535-365-4749 x6019",
+    "StakeholderRoleName": "Thompson-Koelpin",
+    "Comment": "veritatis",
+    "StakeholderRoleId": 869,
+    "CountryId": 827,
+    "PersonId": 301,
+    "EmailDescription": "noel@reichert.ca",
+    "EmailId": 6,
+    "EmailAddress": "genesis_hintz@fisherpollich.info",
+    "PhoneId": 704,
+    "ContactName": "Kilback-Towne",
+    "ContactId": 705,
+    "SaleId": 843,
+    "Mrmrs": "voluptatibus",
+    "Firstname": "Elsie",
+    "MiddleName": "Romaguera, Medhurst and Brekke",
+    "Lastname": "Deckow",
+    "SaleStakeholderId": 849,
+    "Rank": 15,
+    "Phone": "671.866.9958 x52965",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 976
+        "FieldLength": 932
       }
     }
   }

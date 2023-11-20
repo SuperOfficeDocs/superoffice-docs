@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/List/DeleteAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

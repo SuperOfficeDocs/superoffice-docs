@@ -79,7 +79,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,24 +89,24 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 812,
-  "Name": "Mann-Deckow",
-  "ContentType": "sit",
-  "AttSize": 695,
+  "AttachmentId": 722,
+  "Name": "Boyle, Wolf and Olson",
+  "ContentType": "officia",
+  "AttSize": 287,
   "InlineImage": true,
-  "ContentId": "delectus",
-  "AuthKey": "eaque",
+  "ContentId": "aut",
+  "AuthKey": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 302
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

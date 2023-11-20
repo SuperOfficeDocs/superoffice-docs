@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 603,
-  "Name": "Kutch LLC",
-  "Rank": 352,
-  "Tooltip": "quidem",
-  "Deleted": false,
+  "ResourceId": 229,
+  "Name": "Williamson Inc and Sons",
+  "Rank": 903,
+  "Tooltip": "minus",
+  "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "quas",
+  "LocationAddress": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldType": "System.String",
+      "FieldLength": 760
     }
   }
 }

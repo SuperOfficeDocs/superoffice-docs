@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    950,
-    283
+    563,
+    242
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 979,
-    "MessageId": "quo",
-    "Subject": "dolores",
+    "ServerId": 800,
+    "MessageId": "sunt",
+    "Subject": "consequatur",
     "From": null,
     "To": [
       {
-        "ContactId": 393,
-        "ContactName": "Wintheiser-Reichel",
-        "PersonId": 278,
-        "PersonName": "Watsica Group",
-        "AssociateId": 618,
-        "Address": "quo",
-        "EmailId": 200,
+        "ContactId": 753,
+        "ContactName": "Rodriguez Group",
+        "PersonId": 204,
+        "PersonName": "Jacobson, Deckow and Lehner",
+        "AssociateId": 599,
+        "Address": "reiciendis",
+        "EmailId": 114,
         "DuplicatePersonIds": [
-          577,
-          61
+          751,
+          673
         ],
-        "Name": "Lesch, Hauck and Jacobs",
+        "Name": "Hilll, Brown and Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 243
+            "FieldLength": 18
           }
         }
       }
     ],
-    "Sent": "2012-10-02T11:06:34.5520595+02:00",
+    "Sent": "2001-11-20T13:38:13.5771153+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 918,
+    "Size": 872,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 923
+        "FieldType": "System.Int32",
+        "FieldLength": 30
       }
     }
   }

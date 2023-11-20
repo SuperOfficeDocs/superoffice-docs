@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 920,
-    "Name": "Toy Group",
-    "Tooltip": "harum",
-    "SaveInDb": 770,
-    "Filename": "sed",
-    "DefaultOref": "quis",
+    "DocumentTemplateId": 312,
+    "Name": "Ondricka-Schowalter",
+    "Tooltip": "necessitatibus",
+    "SaveInDb": 695,
+    "Filename": "maiores",
+    "DefaultOref": "veniam",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 806,
-    "IntentId": 958,
-    "IsDefaultPublished": false,
-    "Rank": 397,
-    "LoadTemplateFromPlugin": 52,
-    "MimeType": "eos",
+    "AutoeventId": 406,
+    "IntentId": 513,
+    "IsDefaultPublished": true,
+    "Rank": 584,
+    "LoadTemplateFromPlugin": 729,
+    "MimeType": "saepe",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 978,
+    "DocumentTypeKey": 439,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "erwin.wilkinson@brown.com",
+    "EmailSubject": "heloise_kuhn@welch.name",
     "IncludeSignature": false,
-    "ShowCurrents": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "lesley@okeefe.name",
+    "SenderEmailAddress": "antonia.nader@kessler.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldType": "System.String",
+        "FieldLength": 104
       }
     }
   }

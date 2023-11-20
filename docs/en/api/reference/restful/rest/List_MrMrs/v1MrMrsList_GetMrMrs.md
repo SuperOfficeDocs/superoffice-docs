@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 166,
-  "Name": "Lubowitz Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 371,
+  "Name": "Pfannerstill-West",
+  "Tooltip": "atque",
   "Deleted": false,
-  "UdListDefinitionId": 94,
-  "Rank": 34,
+  "UdListDefinitionId": 940,
+  "Rank": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldType": "System.String",
+      "FieldLength": 550
     }
   }
 }

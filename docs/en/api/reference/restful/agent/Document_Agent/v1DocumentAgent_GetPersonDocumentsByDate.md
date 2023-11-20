@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 725,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2015-06-11T11:06:34.316457+02:00",
-  "EndTime": "1998-04-14T11:06:34.316457+02:00",
-  "Count": 619
+  "PersonId": 377,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2014-03-10T13:38:13.4365041+01:00",
+  "EndTime": "2004-05-04T13:38:13.4365041+02:00",
+  "Count": 564
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 439,
-    "Attention": "quia",
-    "Header": "aut",
-    "Name": "Schinner-Reynolds",
-    "OurRef": "eligendi",
-    "YourRef": "omnis",
-    "Description": "Configurable heuristic standardization",
-    "DocumentTemplate": "et",
-    "IsPublished": true,
-    "PersonId": 471,
-    "PersonFullName": "Deshawn Rau",
-    "AssociateFullName": "Amber Schumm",
-    "ContactId": 309,
-    "ContactName": "Hand-Kozey",
-    "ProjectId": 338,
-    "ProjectName": "Herman Inc and Sons",
-    "AssociateId": 436,
-    "Snum": 660,
-    "SaleId": 685,
-    "SaleName": "Herzog LLC",
+    "DocumentId": 148,
+    "Attention": "harum",
+    "Header": "repudiandae",
+    "Name": "Gerhold, Bode and Sipes",
+    "OurRef": "neque",
+    "YourRef": "corrupti",
+    "Description": "Fundamental disintermediate data-warehouse",
+    "DocumentTemplate": "neque",
+    "IsPublished": false,
+    "PersonId": 843,
+    "PersonFullName": "Terrell Shanahan",
+    "AssociateFullName": "Marlee Schmitt",
+    "ContactId": 305,
+    "ContactName": "Fadel, Nader and Morissette",
+    "ProjectId": 287,
+    "ProjectName": "Nicolas Inc and Sons",
+    "AssociateId": 872,
+    "Snum": 69,
+    "SaleId": 681,
+    "SaleName": "Adams-Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 66
+        "FieldType": "System.Int32",
+        "FieldLength": 631
       }
     }
   }

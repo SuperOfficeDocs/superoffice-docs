@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 94,
-      "UniqueId": "vel",
-      "Name": "Howell Inc and Sons",
-      "Description": "Focused 6th generation open architecture",
-      "AssociateId": 654,
-      "Columns": 308,
+      "DashboardId": 82,
+      "UniqueId": "commodi",
+      "Name": "Schroeder-Prohaska",
+      "Description": "Persevering grid-enabled data-warehouse",
+      "AssociateId": 116,
+      "Columns": 36,
       "Theme": null,
-      "VisibleForAll": 689,
+      "VisibleForAll": 730,
       "VisibleForAssociates": [
-        308,
-        528
+        493,
+        928
       ],
       "VisibleForGroups": [
-        488,
-        321
+        134,
+        338
       ],
-      "PinForAll": 900,
+      "PinForAll": 243,
       "PinForAssociates": [
-        726,
-        563
+        422,
+        316
       ],
       "PinForGroups": [
-        407,
-        719
+        614,
+        913
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldLength": 761
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 23,
-      "UniqueId": "tenetur",
-      "Name": "Schaefer Inc and Sons",
-      "Description": "Reduced 24/7 access",
-      "AssociateId": 297,
-      "Columns": 919,
+      "DashboardId": 507,
+      "UniqueId": "earum",
+      "Name": "Ferry Inc and Sons",
+      "Description": "Re-contextualized high-level internet solution",
+      "AssociateId": 943,
+      "Columns": 183,
       "Theme": null,
-      "VisibleForAll": 533,
+      "VisibleForAll": 653,
       "VisibleForAssociates": [
-        898,
-        150
+        151,
+        991
       ],
       "VisibleForGroups": [
-        44,
-        74
+        48,
+        217
       ],
-      "PinForAll": 569,
+      "PinForAll": 312,
       "PinForAssociates": [
-        992,
-        122
+        204,
+        328
       ],
       "PinForGroups": [
-        699,
-        403
+        672,
+        994
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 628
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 909,
-      "UniqueId": "eum",
-      "Name": "Beier-Waelchi",
-      "Description": "Optional secondary orchestration",
-      "AssociateId": 744,
-      "Columns": 242,
+      "DashboardId": 824,
+      "UniqueId": "eaque",
+      "Name": "Vandervort, Kihn and Hirthe",
+      "Description": "Multi-tiered intermediate process improvement",
+      "AssociateId": 273,
+      "Columns": 798,
       "Theme": null,
-      "VisibleForAll": 949,
+      "VisibleForAll": 700,
       "VisibleForAssociates": [
-        874,
-        798
+        665,
+        305
       ],
       "VisibleForGroups": [
-        979,
-        200
+        140,
+        53
       ],
-      "PinForAll": 682,
+      "PinForAll": 753,
       "PinForAssociates": [
-        449,
-        246
+        690,
+        286
       ],
       "PinForGroups": [
-        895,
-        842
+        49,
+        529
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 648
+          "FieldType": "System.Int32",
+          "FieldLength": 364
         }
       }
     }
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldLength": 22
     }
   }
 }

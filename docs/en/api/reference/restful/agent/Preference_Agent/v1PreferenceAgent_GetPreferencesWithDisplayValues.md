@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "quasi",
-      "Key": "blanditiis"
+      "Section": "et",
+      "Key": "in"
     },
     {
-      "Section": "quasi",
-      "Key": "blanditiis"
+      "Section": "et",
+      "Key": "in"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "neque",
+    "RawValue": "ipsa",
     "Specification": null,
-    "DisplayValue": "impedit",
-    "DisplayTooltip": "minima",
+    "DisplayValue": "ipsa",
+    "DisplayTooltip": "velit",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 118,
-    "PrefDescId": 648,
-    "TableName": "Feil, Hirthe and Schimmel",
-    "UserPreferenceId": 983,
+    "TargetId": 808,
+    "PrefDescId": 442,
+    "TableName": "Marks Inc and Sons",
+    "UserPreferenceId": 703,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 234
+        "FieldLength": 959
       }
     }
   }

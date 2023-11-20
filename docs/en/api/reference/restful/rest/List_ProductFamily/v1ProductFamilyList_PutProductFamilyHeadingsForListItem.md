@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Tromp Inc and Sons",
-    "ToolTip": "Unde aut saepe.",
-    "Deleted": false,
-    "Rank": 831,
-    "Type": "minima",
-    "ColorBlock": 20,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2019-08-01T11:06:42.9284383+02:00",
+    "Id": 632,
+    "Name": "Durgan Inc and Sons",
+    "ToolTip": "Sequi aut dicta.",
+    "Deleted": true,
+    "Rank": 127,
+    "Type": "nihil",
+    "ColorBlock": 126,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2003-07-16T13:38:18.1400255+02:00",
     "ChildItems": [
       {
-        "Id": 990,
-        "Name": "Nolan Group",
-        "ToolTip": "At et facilis non delectus ab.",
+        "Id": 589,
+        "Name": "Murphy-Denesik",
+        "ToolTip": "Eaque consequatur consequatur aspernatur atque perspiciatis et.",
         "Deleted": true,
-        "Rank": 204,
-        "Type": "repellendus",
-        "ColorBlock": 815,
-        "IconHint": "deserunt",
+        "Rank": 456,
+        "Type": "molestiae",
+        "ColorBlock": 448,
+        "IconHint": "tenetur",
         "Selected": true,
-        "LastChanged": "2021-09-28T11:06:42.9284383+02:00",
+        "LastChanged": "2017-01-30T13:38:18.1400255+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "maiores",
+        "ExtraInfo": "placeat",
+        "StyleHint": "consequuntur",
         "Hidden": false,
-        "FullName": "Ms. Delia Hackett"
+        "FullName": "Mrs. Fritz Daphne Blanda III"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "minus",
-    "Hidden": true,
-    "FullName": "Prof. Nasir Ziemann PhD"
+    "ExtraInfo": "qui",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Alysha Grimes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Beer, Turcotte and Daugherty",
-    "ToolTip": "Id eaque quo eum consequatur in sunt.",
+    "Id": 875,
+    "Name": "Prohaska, Stanton and Mante",
+    "ToolTip": "Accusantium omnis corrupti dicta.",
     "Deleted": true,
-    "Rank": 794,
-    "Type": "laboriosam",
-    "ColorBlock": 603,
-    "IconHint": "earum",
+    "Rank": 861,
+    "Type": "occaecati",
+    "ColorBlock": 980,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2008-10-22T11:06:42.9284383+02:00",
+    "LastChanged": "2000-05-24T13:38:18.1400255+02:00",
     "ChildItems": [
       {
-        "Id": 73,
-        "Name": "McGlynn, Gusikowski and Reichert",
-        "ToolTip": "Hic sed dolores reiciendis iusto et dolorum.",
-        "Deleted": true,
-        "Rank": 122,
-        "Type": "sed",
-        "ColorBlock": 707,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2012-07-28T11:06:42.9284383+02:00",
+        "Id": 335,
+        "Name": "Boyle-Wisoky",
+        "ToolTip": "Eius voluptas deserunt.",
+        "Deleted": false,
+        "Rank": 851,
+        "Type": "eveniet",
+        "ColorBlock": 339,
+        "IconHint": "asperiores",
+        "Selected": false,
+        "LastChanged": "1997-12-01T13:38:18.1400255+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "est",
+        "ExtraInfo": "amet",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Marilie Streich",
+        "FullName": "Wanda Terry I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 960
+            "FieldLength": 911
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "aut",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Ephraim Walsh",
+    "FullName": "Elisa Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldLength": 241
       }
     }
   }

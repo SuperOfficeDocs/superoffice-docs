@@ -89,8 +89,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 259,
-  "CurrencyId": 788
+  "QuoteConnectionId": 176,
+  "CurrencyId": 97
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 19,
-    "ERPPriceListKey": "maxime",
-    "QuoteConnectionId": 342,
-    "Name": "Murazik, Turner and Hamill",
-    "Description": "Down-sized contextually-based Graphical User Interface",
-    "Currency": "cum",
-    "CurrencyName": "Hyatt-Harvey",
-    "ValidFrom": "2018-05-26T11:06:35.2239506+02:00",
-    "ValidTo": "1998-06-22T11:06:35.2239506+02:00",
-    "IsActive": true,
+    "PriceListId": 434,
+    "ERPPriceListKey": "ipsum",
+    "QuoteConnectionId": 40,
+    "Name": "Cartwright Group",
+    "Description": "Programmable disintermediate orchestration",
+    "Currency": "corporis",
+    "CurrencyName": "Morar, Anderson and Connelly",
+    "ValidFrom": "2008-11-22T13:38:14.0303322+01:00",
+    "ValidTo": "2010-10-25T13:38:14.0303322+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldType": "System.String",
+        "FieldLength": 392
       }
     }
   }

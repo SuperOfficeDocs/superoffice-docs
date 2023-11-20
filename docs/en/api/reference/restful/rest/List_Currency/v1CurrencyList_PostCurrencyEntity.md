@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 136,
-  "Name": "Cartwright-Schaefer",
-  "Tooltip": "veniam",
-  "Rank": 27,
-  "Rate": 17995.428,
-  "Units": 9423.938,
-  "Deleted": false
+  "CurrencyId": 735,
+  "Name": "Hammes Group",
+  "Tooltip": "nam",
+  "Rank": 766,
+  "Rate": 19487.212,
+  "Units": 20947.656,
+  "Deleted": true
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 143,
-  "Name": "Shields-Turcotte",
-  "Tooltip": "corrupti",
-  "Rank": 665,
-  "Rate": 23702.442,
-  "Units": 27460.108,
+  "CurrencyId": 409,
+  "Name": "Hoppe LLC",
+  "Tooltip": "architecto",
+  "Rank": 925,
+  "Rate": 26009.066,
+  "Units": 7922.7519999999995,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 442
     }
   }
 }

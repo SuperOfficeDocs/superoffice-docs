@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174,
-  "Name": "Roberts, Schneider and Carter",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 491,
-  "Rank": 126,
+  "Id": 673,
+  "Name": "Bogan Group",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "UdListDefinitionId": 214,
+  "Rank": 434,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldType": "System.Int32",
+      "FieldLength": 277
     }
   }
 }

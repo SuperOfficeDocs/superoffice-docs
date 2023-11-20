@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 366,
-  "Name": "Powlowski-Pacocha",
-  "Description": "User-centric hybrid project",
+  "ReportLabelLayoutId": 637,
+  "Name": "Larkin-Powlowski",
+  "Description": "Virtual fresh-thinking installation",
   "Orientation": "Landscape",
-  "PaperWidth": 510,
-  "PaperHeight": 539,
-  "LeftMargin": 141,
-  "RightMargin": 581,
-  "TopMargin": 586,
-  "BottomMargin": 582,
-  "CountColumns": 821,
-  "CountRows": 118,
+  "PaperWidth": 780,
+  "PaperHeight": 39,
+  "LeftMargin": 165,
+  "RightMargin": 500,
+  "TopMargin": 864,
+  "BottomMargin": 17,
+  "CountColumns": 127,
+  "CountRows": 33,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldType": "System.String",
+      "FieldLength": 315
     }
   }
 }

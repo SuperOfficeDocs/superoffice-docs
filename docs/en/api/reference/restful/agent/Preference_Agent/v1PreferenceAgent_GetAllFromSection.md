@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "numquam"
+  "Section": "veritatis"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 464,
-    "Section": "et",
-    "Key": "ipsum",
-    "Name": "Moen-Kovacek",
+    "PrefDescId": 211,
+    "Section": "hic",
+    "Key": "pariatur",
+    "Name": "Schiller Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Implemented regional focus group",
+    "Description": "Function-based background database",
     "IsBuiltin": false,
-    "TableName": "Davis Inc and Sons",
-    "UserDefinedListId": 939,
-    "Rank": 366,
-    "SubGroup": "debitis",
-    "MinLevel": 209,
-    "MaxValue": 252,
-    "MinValue": 995,
-    "RequiredLicense": "beatae",
+    "TableName": "Feest, Koepp and Hegmann",
+    "UserDefinedListId": 719,
+    "Rank": 660,
+    "SubGroup": "harum",
+    "MinLevel": 444,
+    "MaxValue": 587,
+    "MinValue": 254,
+    "RequiredLicense": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldType": "System.String",
+        "FieldLength": 733
       }
     }
   }

@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 753,
-  "WorkflowId": 696,
+  "WorkflowGoalId": 186,
+  "WorkflowId": 913,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "McClure Inc and Sons",
-      "Description": "Multi-layered grid-enabled ability",
-      "Rank": 572,
+      "Name": "Bailey LLC",
+      "Description": "Fully-configurable asynchronous task-force",
+      "Rank": 416,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "McClure Inc and Sons",
-      "Description": "Multi-layered grid-enabled ability",
-      "Rank": 572,
+      "Name": "Bailey LLC",
+      "Description": "Fully-configurable asynchronous task-force",
+      "Rank": 416,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 568
+      "FieldType": "System.String",
+      "FieldLength": 348
     }
   }
 }

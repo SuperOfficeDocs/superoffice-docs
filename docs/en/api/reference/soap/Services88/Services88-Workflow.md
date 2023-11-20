@@ -455,14 +455,14 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="FollowUpType" type="xs:int" />
               <xs:element minOccurs="0" name="Project" type="xs:int" />
               <xs:element minOccurs="0" name="Completed" type="xs:boolean" />
-              <xs:element minOccurs="0" name="WorkflowActionType" type="tns:WorkflowActionType" />
-              <xs:element minOccurs="0" name="WorkflowActionTime" type="xs:int" />
-              <xs:element minOccurs="0" name="WorkflowActionTimeUnit" type="tns:WorkflowTimeWaitIntervalType" />
+              <xs:element minOccurs="0" name="ActionType" type="tns:WorkflowActionType" />
+              <xs:element minOccurs="0" name="ActionTime" type="xs:int" />
+              <xs:element minOccurs="0" name="ActionTimeUnit" type="tns:WorkflowTimeWaitIntervalType" />
               <xs:element minOccurs="0" name="Duration" type="xs:int" />
               <xs:element minOccurs="0" name="Availability" type="tns:FreeBusy" />
-              <xs:element minOccurs="0" name="AssignTo" type="xs:int" />
-              <xs:element minOccurs="0" name="WorkflowOwnerType" type="tns:WorkflowOwnerType" />
+              <xs:element minOccurs="0" name="OwnerType" type="tns:WorkflowOwnerType" />
               <xs:element minOccurs="0" name="Agenda" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Owner" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -516,12 +516,12 @@ title: Services88.WorkflowAgent WSDL
           <xs:extension base="tns:WorkflowStepBase">
             <xs:sequence>
               <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="RequestType" type="xs:int" />
               <xs:element minOccurs="0" name="Category" type="xs:int" />
               <xs:element minOccurs="0" name="Priority" type="xs:int" />
-              <xs:element minOccurs="0" name="Owner" type="xs:int" />
-              <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="RequestType" type="xs:int" />
               <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Owner" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -530,11 +530,29 @@ title: Services88.WorkflowAgent WSDL
       <xs:complexType name="WorkflowStepCreateSale">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
-            <xs:sequence />
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="SaleType" type="xs:int" />
+              <xs:element minOccurs="0" name="Stage" type="xs:int" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="Currency" type="xs:int" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Project" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleDateType" type="tns:WorkflowSaleDateType" />
+              <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Owner" type="xs:int" />
+            </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowStepCreateSale" nillable="true" type="tns:WorkflowStepCreateSale" />
+      <xs:simpleType name="WorkflowSaleDateType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Estimated" />
+          <xs:enumeration value="Equals" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="WorkflowSaleDateType" nillable="true" type="tns:WorkflowSaleDateType" />
       <xs:complexType name="WorkflowStepNotifyByEmail">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
@@ -594,34 +612,154 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
             <xs:sequence>
-              <xs:element minOccurs="0" name="Options" nillable="true" type="tns:ArrayOfWorkflowStepOption" />
+              <xs:element minOccurs="0" name="SplitOptionType" type="tns:WorkflowSplitOptionType" />
+              <xs:element minOccurs="0" name="Options" nillable="true" type="tns:ArrayOfWorkflowStepOptionBase" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowStepSplit" nillable="true" type="tns:WorkflowStepSplit" />
-      <xs:complexType name="ArrayOfWorkflowStepOption">
+      <xs:simpleType name="WorkflowSplitOptionType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="PersonData" />
+          <xs:enumeration value="FormSubmission" />
+          <xs:enumeration value="LinkClicked" />
+          <xs:enumeration value="ProjectMembership" />
+          <xs:enumeration value="SelectionMembership" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="WorkflowSplitOptionType" nillable="true" type="tns:WorkflowSplitOptionType" />
+      <xs:complexType name="ArrayOfWorkflowStepOptionBase">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkflowStepOption" nillable="true" type="tns:WorkflowStepOption" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkflowStepOptionBase" nillable="true" type="tns:WorkflowStepOptionBase" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfWorkflowStepOption" nillable="true" type="tns:ArrayOfWorkflowStepOption" />
-      <xs:complexType name="WorkflowStepOption">
+      <xs:element name="ArrayOfWorkflowStepOptionBase" nillable="true" type="tns:ArrayOfWorkflowStepOptionBase" />
+      <xs:complexType name="WorkflowStepOptionBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="OptionType" type="tns:WorkflowSplitOptionType" />
+          <xs:element minOccurs="0" name="WorkflowStepOptionId" type="xs:int" />
+          <xs:element minOccurs="0" name="WorkflowStepId" type="xs:int" />
+          <xs:element minOccurs="0" name="WorkflowId" type="xs:int" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Rank" type="xs:int" />
+          <xs:element minOccurs="0" name="Steps" nillable="true" type="tns:ArrayOfWorkflowStepBase" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="WorkflowStepOptionBase" nillable="true" type="tns:WorkflowStepOptionBase" />
+      <xs:complexType name="WorkflowStepOptionFormSubmission">
         <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
+          <xs:extension base="tns:WorkflowStepOptionBase">
             <xs:sequence>
-              <xs:element minOccurs="0" name="WorkflowStepOptionId" type="xs:int" />
-              <xs:element minOccurs="0" name="WorkflowStepId" type="xs:int" />
-              <xs:element minOccurs="0" name="WorkflowId" type="xs:int" />
-              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Rank" type="xs:int" />
-              <xs:element minOccurs="0" name="Steps" nillable="true" type="tns:ArrayOfWorkflowStepBase" />
+              <xs:element minOccurs="0" name="FormId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="WorkflowStepOption" nillable="true" type="tns:WorkflowStepOption" />
+      <xs:element name="WorkflowStepOptionFormSubmission" nillable="true" type="tns:WorkflowStepOptionFormSubmission" />
+      <xs:complexType name="WorkflowStepOptionLinkClicked">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:WorkflowStepOptionBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="LinkId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="WorkflowStepOptionLinkClicked" nillable="true" type="tns:WorkflowStepOptionLinkClicked" />
+      <xs:complexType name="WorkflowStepOptionPersonData">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:WorkflowStepOptionBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="RestrictionGroups" nillable="true" type="tns:ArrayOfArchiveRestrictionGroup" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="WorkflowStepOptionPersonData" nillable="true" type="tns:WorkflowStepOptionPersonData" />
+      <xs:complexType name="ArrayOfArchiveRestrictionGroup">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionGroup" nillable="true" type="tns:ArchiveRestrictionGroup" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfArchiveRestrictionGroup" nillable="true" type="tns:ArrayOfArchiveRestrictionGroup" />
+      <xs:complexType name="ArchiveRestrictionGroup">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Rank" type="xs:short" />
+          <xs:element minOccurs="0" name="Restrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArchiveRestrictionGroup" nillable="true" type="tns:ArchiveRestrictionGroup" />
+      <xs:complexType name="ArrayOfArchiveRestrictionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionInfo" nillable="true" type="tns:ArchiveRestrictionInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfArchiveRestrictionInfo" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+      <xs:complexType name="ArchiveRestrictionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="ColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
+          <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+          <xs:element minOccurs="0" name="SubRestrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+          <xs:element minOccurs="0" name="InterParenthesis" type="xs:int" />
+          <xs:element minOccurs="0" name="InterOperator" type="tns:InterRestrictionOperator" />
+          <xs:element minOccurs="0" name="UniqueHash" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArchiveRestrictionInfo" nillable="true" type="tns:ArchiveRestrictionInfo" />
+      <xs:complexType name="ArchiveColumnInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DisplayTooltip" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DisplayType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CanOrderBy" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CanRestrictBy" type="xs:boolean" />
+          <xs:element minOccurs="0" name="RestrictionType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RestrictionListName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsVisible" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Width" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HeadingIconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArchiveColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
+      <xs:simpleType name="InterRestrictionOperator">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="And" />
+          <xs:enumeration value="Or" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="InterRestrictionOperator" nillable="true" type="tns:InterRestrictionOperator" />
+      <xs:complexType name="WorkflowStepOptionProjectMembership">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:WorkflowStepOptionBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="WorkflowStepOptionProjectMembership" nillable="true" type="tns:WorkflowStepOptionProjectMembership" />
+      <xs:complexType name="WorkflowStepOptionSelectionMembership">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:WorkflowStepOptionBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="WorkflowStepOptionSelectionMembership" nillable="true" type="tns:WorkflowStepOptionSelectionMembership" />
       <xs:complexType name="WorkflowStepUpdateParticipant">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
@@ -703,68 +841,6 @@ title: Services88.WorkflowAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="WorkflowTriggerType" nillable="true" type="tns:WorkflowTriggerType" />
-      <xs:complexType name="ArrayOfArchiveRestrictionGroup">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionGroup" nillable="true" type="tns:ArchiveRestrictionGroup" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfArchiveRestrictionGroup" nillable="true" type="tns:ArrayOfArchiveRestrictionGroup" />
-      <xs:complexType name="ArchiveRestrictionGroup">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Rank" type="xs:short" />
-          <xs:element minOccurs="0" name="Restrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArchiveRestrictionGroup" nillable="true" type="tns:ArchiveRestrictionGroup" />
-      <xs:complexType name="ArrayOfArchiveRestrictionInfo">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionInfo" nillable="true" type="tns:ArchiveRestrictionInfo" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfArchiveRestrictionInfo" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
-      <xs:complexType name="ArchiveRestrictionInfo">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Values" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          <xs:element minOccurs="0" name="ColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
-          <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
-          <xs:element minOccurs="0" name="SubRestrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
-          <xs:element minOccurs="0" name="InterParenthesis" type="xs:int" />
-          <xs:element minOccurs="0" name="InterOperator" type="tns:InterRestrictionOperator" />
-          <xs:element minOccurs="0" name="UniqueHash" type="xs:int" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArchiveRestrictionInfo" nillable="true" type="tns:ArchiveRestrictionInfo" />
-      <xs:complexType name="ArchiveColumnInfo">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="DisplayTooltip" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="DisplayType" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="CanOrderBy" type="xs:boolean" />
-          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="CanRestrictBy" type="xs:boolean" />
-          <xs:element minOccurs="0" name="RestrictionType" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="RestrictionListName" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="IsVisible" type="xs:boolean" />
-          <xs:element minOccurs="0" name="Width" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="HeadingIconHint" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArchiveColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
-      <xs:simpleType name="InterRestrictionOperator">
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="None" />
-          <xs:enumeration value="And" />
-          <xs:enumeration value="Or" />
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="InterRestrictionOperator" nillable="true" type="tns:InterRestrictionOperator" />
       <xs:complexType name="ArrayOfWorkflowGoal">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkflowGoal" nillable="true" type="tns:WorkflowGoal" />
@@ -1112,44 +1188,6 @@ title: Services88.WorkflowAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
-      <xs:element name="CreateDefaultWorkflowStepOption">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateDefaultWorkflowStepOptionResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:WorkflowStepOption" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveWorkflowStepOption">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="WorkflowStepOption" nillable="true" type="tns:WorkflowStepOption" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveWorkflowStepOptionResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:WorkflowStepOption" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteWorkflowStepOption">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="WorkflowStepOptionId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteWorkflowStepOptionResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
       <xs:element name="CreateDefaultWorkflowTrigger">
         <xs:complexType>
           <xs:sequence />
@@ -1356,6 +1394,20 @@ title: Services88.WorkflowAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="CreateDefaultWorkflowStepOptionFromType">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="OptionType" type="tns:WorkflowSplitOptionType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultWorkflowStepOptionFromTypeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:WorkflowStepOptionBase" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetWorkflowStepOption">
         <xs:complexType>
           <xs:sequence>
@@ -1366,7 +1418,7 @@ title: Services88.WorkflowAgent WSDL
       <xs:element name="GetWorkflowStepOptionResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:WorkflowStepOption" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:WorkflowStepOptionBase" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1595,57 +1647,6 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:part name="parameters" element="tns:DeleteWorkflowGoalResponse" />
   </wsdl:message>
   <wsdl:message name="DeleteWorkflowGoalResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultWorkflowStepOptionRequest">
-    <wsdl:part name="parameters" element="tns:CreateDefaultWorkflowStepOption" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultWorkflowStepOptionRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultWorkflowStepOptionResponse">
-    <wsdl:part name="parameters" element="tns:CreateDefaultWorkflowStepOptionResponse" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultWorkflowStepOptionResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveWorkflowStepOptionRequest">
-    <wsdl:part name="parameters" element="tns:SaveWorkflowStepOption" />
-  </wsdl:message>
-  <wsdl:message name="SaveWorkflowStepOptionRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveWorkflowStepOptionResponse">
-    <wsdl:part name="parameters" element="tns:SaveWorkflowStepOptionResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveWorkflowStepOptionResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteWorkflowStepOptionRequest">
-    <wsdl:part name="parameters" element="tns:DeleteWorkflowStepOption" />
-  </wsdl:message>
-  <wsdl:message name="DeleteWorkflowStepOptionRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteWorkflowStepOptionResponse">
-    <wsdl:part name="parameters" element="tns:DeleteWorkflowStepOptionResponse" />
-  </wsdl:message>
-  <wsdl:message name="DeleteWorkflowStepOptionResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1906,6 +1907,23 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CreateDefaultWorkflowStepOptionFromTypeRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultWorkflowStepOptionFromType" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultWorkflowStepOptionFromTypeRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultWorkflowStepOptionFromTypeResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultWorkflowStepOptionFromTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultWorkflowStepOptionFromTypeResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetWorkflowStepOptionRequest">
     <wsdl:part name="parameters" element="tns:GetWorkflowStepOption" />
   </wsdl:message>
@@ -1977,18 +1995,6 @@ title: Services88.WorkflowAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/DeleteWorkflowGoal" name="DeleteWorkflowGoalRequest" message="tns:DeleteWorkflowGoalRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/DeleteWorkflowGoalResponse" name="DeleteWorkflowGoalResponse" message="tns:DeleteWorkflowGoalResponse" />
     </wsdl:operation>
-    <wsdl:operation name="CreateDefaultWorkflowStepOption">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowStepOption" name="CreateDefaultWorkflowStepOptionRequest" message="tns:CreateDefaultWorkflowStepOptionRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowStepOptionResponse" name="CreateDefaultWorkflowStepOptionResponse" message="tns:CreateDefaultWorkflowStepOptionResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SaveWorkflowStepOption">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/SaveWorkflowStepOption" name="SaveWorkflowStepOptionRequest" message="tns:SaveWorkflowStepOptionRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/SaveWorkflowStepOptionResponse" name="SaveWorkflowStepOptionResponse" message="tns:SaveWorkflowStepOptionResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="DeleteWorkflowStepOption">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/DeleteWorkflowStepOption" name="DeleteWorkflowStepOptionRequest" message="tns:DeleteWorkflowStepOptionRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/DeleteWorkflowStepOptionResponse" name="DeleteWorkflowStepOptionResponse" message="tns:DeleteWorkflowStepOptionResponse" />
-    </wsdl:operation>
     <wsdl:operation name="CreateDefaultWorkflowTrigger">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowTrigger" name="CreateDefaultWorkflowTriggerRequest" message="tns:CreateDefaultWorkflowTriggerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowTriggerResponse" name="CreateDefaultWorkflowTriggerResponse" message="tns:CreateDefaultWorkflowTriggerResponse" />
@@ -2048,6 +2054,10 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:operation name="CreateDefaultWorkflowStepFromType">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowStepFromType" name="CreateDefaultWorkflowStepFromTypeRequest" message="tns:CreateDefaultWorkflowStepFromTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowStepFromTypeResponse" name="CreateDefaultWorkflowStepFromTypeResponse" message="tns:CreateDefaultWorkflowStepFromTypeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultWorkflowStepOptionFromType">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowStepOptionFromType" name="CreateDefaultWorkflowStepOptionFromTypeRequest" message="tns:CreateDefaultWorkflowStepOptionFromTypeRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowStepOptionFromTypeResponse" name="CreateDefaultWorkflowStepOptionFromTypeResponse" message="tns:CreateDefaultWorkflowStepOptionFromTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWorkflowStepOption">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/GetWorkflowStepOption" name="GetWorkflowStepOptionRequest" message="tns:GetWorkflowStepOptionRequest" />
@@ -2201,54 +2211,6 @@ title: Services88.WorkflowAgent WSDL
         <soap:header message="tns:DeleteWorkflowGoalResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:DeleteWorkflowGoalResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:DeleteWorkflowGoalResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="CreateDefaultWorkflowStepOption">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowStepOption" style="document" />
-      <wsdl:input name="CreateDefaultWorkflowStepOptionRequest">
-        <soap:header message="tns:CreateDefaultWorkflowStepOptionRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:CreateDefaultWorkflowStepOptionRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:CreateDefaultWorkflowStepOptionRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="CreateDefaultWorkflowStepOptionResponse">
-        <soap:header message="tns:CreateDefaultWorkflowStepOptionResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:CreateDefaultWorkflowStepOptionResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:CreateDefaultWorkflowStepOptionResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:CreateDefaultWorkflowStepOptionResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SaveWorkflowStepOption">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/SaveWorkflowStepOption" style="document" />
-      <wsdl:input name="SaveWorkflowStepOptionRequest">
-        <soap:header message="tns:SaveWorkflowStepOptionRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveWorkflowStepOptionRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveWorkflowStepOptionRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveWorkflowStepOptionResponse">
-        <soap:header message="tns:SaveWorkflowStepOptionResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveWorkflowStepOptionResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveWorkflowStepOptionResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveWorkflowStepOptionResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="DeleteWorkflowStepOption">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/DeleteWorkflowStepOption" style="document" />
-      <wsdl:input name="DeleteWorkflowStepOptionRequest">
-        <soap:header message="tns:DeleteWorkflowStepOptionRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:DeleteWorkflowStepOptionRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:DeleteWorkflowStepOptionRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="DeleteWorkflowStepOptionResponse">
-        <soap:header message="tns:DeleteWorkflowStepOptionResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:DeleteWorkflowStepOptionResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:DeleteWorkflowStepOptionResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:DeleteWorkflowStepOptionResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2489,6 +2451,22 @@ title: Services88.WorkflowAgent WSDL
         <soap:header message="tns:CreateDefaultWorkflowStepFromTypeResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:CreateDefaultWorkflowStepFromTypeResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:CreateDefaultWorkflowStepFromTypeResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultWorkflowStepOptionFromType">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowStepOptionFromType" style="document" />
+      <wsdl:input name="CreateDefaultWorkflowStepOptionFromTypeRequest">
+        <soap:header message="tns:CreateDefaultWorkflowStepOptionFromTypeRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultWorkflowStepOptionFromTypeRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultWorkflowStepOptionFromTypeRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultWorkflowStepOptionFromTypeResponse">
+        <soap:header message="tns:CreateDefaultWorkflowStepOptionFromTypeResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultWorkflowStepOptionFromTypeResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultWorkflowStepOptionFromTypeResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultWorkflowStepOptionFromTypeResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

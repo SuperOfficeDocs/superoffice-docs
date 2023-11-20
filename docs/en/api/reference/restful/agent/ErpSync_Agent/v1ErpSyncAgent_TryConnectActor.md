@@ -75,31 +75,31 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 154,
-  "CrmRecordId": 375,
+  "ErpConnectionId": 983,
+  "CrmRecordId": 778,
   "CrmActorType": "Contact",
-  "ErpKey": "natus",
+  "ErpKey": "in",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Emmerich-Braun",
-      "CrmFieldKey": "ratione",
-      "Value": "enim",
-      "DisplayValue": "laborum",
-      "SyncToCrm": false,
-      "SyncToErp": false
+      "DisplayName": "Gutkowski-Reilly",
+      "CrmFieldKey": "ut",
+      "Value": "qui",
+      "DisplayValue": "iusto",
+      "SyncToCrm": true,
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Emmerich-Braun",
-      "CrmFieldKey": "ratione",
-      "Value": "enim",
-      "DisplayValue": "laborum",
-      "SyncToCrm": false,
-      "SyncToErp": false
+      "DisplayName": "Gutkowski-Reilly",
+      "CrmFieldKey": "ut",
+      "Value": "qui",
+      "DisplayValue": "iusto",
+      "SyncToCrm": true,
+      "SyncToErp": true
     }
   ]
 }

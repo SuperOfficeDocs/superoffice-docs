@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 486,
-    "Name": "O'Keefe, Ryan and Ondricka",
-    "Description": "Team-oriented systematic internet solution",
+    "ProjectId": 876,
+    "Name": "Hammes Group",
+    "Description": "Mandatory zero administration hub",
     "URL": "http://www.example.com/",
-    "Type": "facere",
-    "AssociateId": 103,
-    "AssociateFullName": "Mr. Scottie Anna Ryan DDS",
-    "TypeId": 426,
-    "Updated": "2000-05-26T11:06:35.1614465+02:00",
-    "StatusId": 995,
-    "Status": "fugit",
-    "TextId": 836,
-    "PublishTo": "2012-07-05T11:06:35.1614465+02:00",
-    "PublishFrom": "2008-09-24T11:06:35.1614465+02:00",
+    "Type": "reiciendis",
+    "AssociateId": 272,
+    "AssociateFullName": "Samir Cronin",
+    "TypeId": 126,
+    "Updated": "1999-12-18T13:38:13.9834617+01:00",
+    "StatusId": 919,
+    "Status": "illum",
+    "TextId": 511,
+    "PublishTo": "2013-01-08T13:38:13.9834617+01:00",
+    "PublishFrom": "2014-06-24T13:38:13.9834617+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "809901",
-    "ActiveErpLinks": 823,
+    "ProjectNumber": "1225869",
+    "ActiveErpLinks": 976,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldLength": 466
       }
     }
   }

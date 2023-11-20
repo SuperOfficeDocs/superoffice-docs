@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 293,
-  "Name": "Ruecker Inc and Sons",
-  "Tooltip": "nostrum",
-  "Deleted": false,
-  "UdListDefinitionId": 7,
-  "Rank": 260,
+  "Id": 839,
+  "Name": "Schuppe, Torp and Moore",
+  "Tooltip": "itaque",
+  "Deleted": true,
+  "UdListDefinitionId": 292,
+  "Rank": 621,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 558
+      "FieldType": "System.Int32",
+      "FieldLength": 285
     }
   }
 }

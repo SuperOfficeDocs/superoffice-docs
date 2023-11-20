@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "UdListDefinitionName": "Rath, Bogisich and Greenfelder"
+  "Id": 764,
+  "UdListDefinitionName": "Olson-Yundt"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 958,
-  "Name": "Wintheiser-Jast",
-  "Tooltip": "fugit",
+  "Id": 770,
+  "Name": "Abernathy-Littel",
+  "Tooltip": "iste",
   "Deleted": false,
-  "UdListDefinitionId": 642,
-  "Rank": 174,
+  "UdListDefinitionId": 660,
+  "Rank": 759,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

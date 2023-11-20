@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 632
+  "PersonId": 789
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 352,
-    "Name": "Waters-Brekke",
-    "Value": "dolores",
-    "CreatedDate": "2000-02-13T11:06:33.7816525+01:00",
-    "UpdatedDate": "2008-08-27T11:06:33.7816525+02:00",
-    "CreatedBy": "ut",
-    "UpdatedBy": "officia",
+    "AudienceLayoutId": 281,
+    "Name": "Braun, Abernathy and Kuhn",
+    "Value": "eos",
+    "CreatedDate": "2003-01-20T13:38:13.0771703+01:00",
+    "UpdatedDate": "2017-01-18T13:38:13.0771703+01:00",
+    "CreatedBy": "numquam",
+    "UpdatedBy": "voluptatum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 872
+        "FieldLength": 81
       }
     }
   }

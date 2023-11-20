@@ -93,8 +93,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 531,
-  "ListItemId": 460,
+  "UdListDefinitionId": 765,
+  "ListItemId": 6,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Bashirian Group",
-    "ToolTip": "Et tempora nisi vel vitae.",
-    "Deleted": true,
-    "Rank": 843,
-    "Type": "ut",
-    "ColorBlock": 31,
-    "IconHint": "magnam",
+    "Id": 85,
+    "Name": "Fahey, Mayert and Hahn",
+    "ToolTip": "Saepe fugit ut animi.",
+    "Deleted": false,
+    "Rank": 861,
+    "Type": "harum",
+    "ColorBlock": 912,
+    "IconHint": "sapiente",
     "Selected": true,
-    "LastChanged": "2019-08-31T11:06:34.7083083+02:00",
+    "LastChanged": "1999-07-04T13:38:13.6864749+02:00",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Berge Group",
-        "ToolTip": "Perferendis perspiciatis.",
+        "Id": 418,
+        "Name": "Schumm, Bergnaum and McCullough",
+        "ToolTip": "Nisi aut consequatur.",
         "Deleted": false,
-        "Rank": 573,
-        "Type": "ea",
-        "ColorBlock": 593,
-        "IconHint": "facilis",
-        "Selected": false,
-        "LastChanged": "1997-07-31T11:06:34.7083083+02:00",
+        "Rank": 909,
+        "Type": "sapiente",
+        "ColorBlock": 296,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2021-03-25T13:38:13.6864749+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "officiis",
+        "StyleHint": "repudiandae",
         "Hidden": false,
-        "FullName": "Prof. Gail Kiehn III",
+        "FullName": "Mrs. Amely Alaina Yundt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 458
+            "FieldLength": 269
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "nemo",
-    "Hidden": true,
-    "FullName": "Pansy Cassin",
+    "ExtraInfo": "ea",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Addison Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldType": "System.String",
+        "FieldLength": 52
       }
     }
   }

@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "reprehenderit",
-  "ProviderName": "Hickle Group",
-  "StorageKey": "ea",
-  "Restrictions": "occaecati"
+  "StorageType": "quam",
+  "ProviderName": "Greenfelder, Shanahan and VonRueden",
+  "StorageKey": "rerum",
+  "Restrictions": "voluptas"
 }
 ```
 

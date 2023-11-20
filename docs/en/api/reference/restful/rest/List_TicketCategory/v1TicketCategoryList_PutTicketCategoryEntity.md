@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 153,
-  "ParentId": 136,
-  "Name": "Barrows, Ward and Considine",
-  "Fullname": "dolorem",
-  "CategoryMaster": 774,
+  "TicketCategoryId": 319,
+  "ParentId": 994,
+  "Name": "VonRueden LLC",
+  "Fullname": "enim",
+  "CategoryMaster": 695,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Beahan, Gerlach and Frami",
+  "ExternalName": "Champlin-Hagenes",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 732,
-  "ReplyTemplate": 700,
-  "NotificationEmail": "grover.reichel@durgan.uk",
+  "AssignmentLag": 820,
+  "ReplyTemplate": 497,
+  "NotificationEmail": "arnaldo_parker@walsh.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 336,
+  "EffectiveReplyTemplateId": 713,
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "porro"
+    "CustomFields1": "labore",
+    "CustomFields2": "doloremque"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 205,
-  "ParentId": 146,
-  "Name": "Schamberger, Swift and Ondricka",
-  "Fullname": "vitae",
-  "CategoryMaster": 641,
+  "TicketCategoryId": 837,
+  "ParentId": 619,
+  "Name": "Dooley-Lueilwitz",
+  "Fullname": "quaerat",
+  "CategoryMaster": 779,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Borer Inc and Sons",
+  "ExternalName": "McKenzie Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 321,
-  "ReplyTemplate": 337,
-  "NotificationEmail": "johanna@goldner.name",
+  "AssignmentLag": 84,
+  "ReplyTemplate": 939,
+  "NotificationEmail": "marjorie.hane@carter.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 57,
+  "EffectiveReplyTemplateId": 326,
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "dicta",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "deleniti",
-    "CustomFields2": "ex"
+    "CustomFields1": "omnis",
+    "CustomFields2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldType": "System.String",
+      "FieldLength": 122
     }
   }
 }

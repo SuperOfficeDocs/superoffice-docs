@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 858,
-    "Name": "Purdy-McLaughlin",
-    "Tooltip": "omnis",
+    "HeadingId": 400,
+    "Name": "Schroeder LLC",
+    "Tooltip": "rerum",
     "Deleted": true,
-    "Rank": 786,
-    "UdListDefinitionId": 282,
+    "Rank": 357,
+    "UdListDefinitionId": 485,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 714
+        "FieldLength": 820
       }
     }
   }

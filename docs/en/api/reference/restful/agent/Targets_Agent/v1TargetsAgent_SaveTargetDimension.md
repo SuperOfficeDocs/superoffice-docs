@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 149,
+  "TargetDimensionId": 494,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "et",
-  "DimensionListName": "Turner Inc and Sons",
-  "DimensionListId": 37,
-  "DimensionListLabel": "omnis",
+  "DimensionListField": "odit",
+  "DimensionListName": "Simonis Group",
+  "DimensionListId": 824,
+  "DimensionListLabel": "autem",
   "SelectedDimensions": [
-    400,
-    698
+    132,
+    217
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 352,
+  "TargetDimensionId": 580,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "ut",
-  "DimensionListName": "Abbott, Haag and Nitzsche",
-  "DimensionListId": 345,
-  "DimensionListLabel": "quisquam",
+  "DimensionListField": "eum",
+  "DimensionListName": "Blick-Simonis",
+  "DimensionListId": 831,
+  "DimensionListLabel": "asperiores",
   "SelectedDimensions": [
-    761,
-    824
+    92,
+    154
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldType": "System.String",
+      "FieldLength": 356
     }
   }
 }

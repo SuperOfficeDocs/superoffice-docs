@@ -87,16 +87,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 187,
+  "EMailAccountId": 856,
   "EMailAddress": "et",
-  "AssociateId": 227,
+  "AssociateId": 970,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 825,
-  "ErrorCount": 34,
+  "AccountStatus": 99,
+  "ErrorCount": 743,
   "ErrorReason": "",
-  "InboxFolder": "consequuntur",
-  "SentFolder": "impedit"
+  "InboxFolder": "provident",
+  "SentFolder": "perspiciatis"
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 664,
-  "EMailAddress": "ut",
-  "AssociateId": 412,
+  "EMailAccountId": 474,
+  "EMailAddress": "recusandae",
+  "AssociateId": 275,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 25,
-  "ErrorCount": 78,
+  "AccountStatus": 310,
+  "ErrorCount": 917,
   "ErrorReason": "",
-  "InboxFolder": "nihil",
-  "SentFolder": "voluptatem",
+  "InboxFolder": "ea",
+  "SentFolder": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldLength": 29
     }
   }
 }

@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 156
+  "SelectedListId": 851
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 261,
-  "ColumnId": 390,
-  "FieldDefault": "quasi",
-  "FieldHeight": 430,
-  "FieldLabel": "id",
-  "FieldLeft": 773,
-  "FieldTop": 653,
+  "UDefFieldId": 410,
+  "ColumnId": 537,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 475,
+  "FieldLabel": "in",
+  "FieldLeft": 807,
+  "FieldTop": 210,
   "FieldType": "Checkbox",
-  "FieldWidth": 581,
-  "FormatMask": "dolorem",
+  "FieldWidth": 68,
+  "FormatMask": "quasi",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 541,
-  "LabelLeft": 869,
-  "LabelTop": 124,
-  "LabelWidth": 358,
-  "LastVersionId": 425,
-  "ListTableId": 797,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 439,
+  "LabelLeft": 32,
+  "LabelTop": 53,
+  "LabelWidth": 723,
+  "LastVersionId": 995,
+  "ListTableId": 182,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 4,
-  "ProgId": "ex",
-  "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 697,
-  "TextLength": 31,
-  "Tooltip": "unde",
-  "UdefIdentity": 679,
-  "UDListDefinitionId": 807,
+  "Page1LineNo": 700,
+  "ProgId": "modi",
+  "IsReadOnly": true,
+  "ShortLabel": "consequuntur",
+  "TabOrder": 81,
+  "TextLength": 60,
+  "Tooltip": "enim",
+  "UdefIdentity": 266,
+  "UDListDefinitionId": 417,
   "Justification": "Center",
-  "Version": 713,
-  "TemplateVariableName": "Kulas Inc and Sons",
+  "Version": 421,
+  "TemplateVariableName": "Wisoky, Waelchi and Brekke",
   "HasBeenPublished": false,
-  "MdoListName": "Kiehn LLC",
+  "MdoListName": "Jerde, Wuckert and Bogan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldType": "System.String",
+      "FieldLength": 99
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Daugherty-VonRueden",
-    "ToolTip": "Quaerat est quae consequuntur est corporis sunt accusamus.",
+    "Id": 652,
+    "Name": "Little, Dach and Gutmann",
+    "ToolTip": "Qui qui et qui.",
     "Deleted": false,
-    "Rank": 204,
-    "Type": "dolorem",
-    "ColorBlock": 394,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2005-11-28T11:06:42.8659405+01:00",
+    "Rank": 612,
+    "Type": "modi",
+    "ColorBlock": 58,
+    "IconHint": "praesentium",
+    "Selected": true,
+    "LastChanged": "1999-01-27T13:38:18.0931573+01:00",
     "ChildItems": [
       {
-        "Id": 615,
-        "Name": "Cronin, Cormier and Larkin",
-        "ToolTip": "Quos nihil autem aliquid rerum quasi nemo consectetur.",
-        "Deleted": true,
-        "Rank": 489,
-        "Type": "fuga",
-        "ColorBlock": 933,
-        "IconHint": "et",
+        "Id": 601,
+        "Name": "Kovacek, Keebler and Johnson",
+        "ToolTip": "Harum esse est quia vel provident.",
+        "Deleted": false,
+        "Rank": 79,
+        "Type": "perferendis",
+        "ColorBlock": 18,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2016-09-24T11:06:42.8659405+02:00",
+        "LastChanged": "2001-05-08T13:38:18.0931573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Cullen Gerlach"
+        "ExtraInfo": "sed",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Miss Rosamond Johnson"
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Gonzalo McCullough"
+    "ExtraInfo": "minima",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Dr. Amelia Herman Walter V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Muller, Hagenes and Lowe",
-    "ToolTip": "Amet accusamus.",
-    "Deleted": false,
-    "Rank": 229,
-    "Type": "quis",
-    "ColorBlock": 21,
-    "IconHint": "reiciendis",
-    "Selected": false,
-    "LastChanged": "2011-11-19T11:06:42.8659405+01:00",
+    "Id": 781,
+    "Name": "Olson, Littel and Wuckert",
+    "ToolTip": "Quisquam sint aut quia nostrum nihil.",
+    "Deleted": true,
+    "Rank": 751,
+    "Type": "enim",
+    "ColorBlock": 469,
+    "IconHint": "at",
+    "Selected": true,
+    "LastChanged": "2022-05-20T13:38:18.0931573+02:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Collier-Heidenreich",
-        "ToolTip": "Enim ab nisi omnis.",
-        "Deleted": true,
-        "Rank": 250,
-        "Type": "illum",
-        "ColorBlock": 284,
-        "IconHint": "dolore",
+        "Id": 71,
+        "Name": "Sawayn-Kunze",
+        "ToolTip": "Voluptas laudantium sequi dolores ducimus beatae vel tempora.",
+        "Deleted": false,
+        "Rank": 644,
+        "Type": "eaque",
+        "ColorBlock": 526,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2019-06-01T11:06:42.8659405+02:00",
+        "LastChanged": "2011-11-02T13:38:18.0931573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "eos",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Miss Norris Turcotte",
+        "FullName": "Prof. Cleo Betsy Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 117
+            "FieldLength": 717
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "eos",
+    "ExtraInfo": "aut",
+    "StyleHint": "dolor",
     "Hidden": true,
-    "FullName": "Thaddeus Gleason",
+    "FullName": "Mr. Perry Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 961
+        "FieldType": "System.Int32",
+        "FieldLength": 728
       }
     }
   }

@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 300,
-    "Name": "Marquardt Inc and Sons",
-    "Value": "consectetur",
-    "CreatedDate": "2010-05-03T11:06:33.7816525+02:00",
-    "UpdatedDate": "2003-06-21T11:06:33.7816525+02:00",
-    "CreatedBy": "voluptatem",
-    "UpdatedBy": "maiores",
+    "AudienceLayoutId": 622,
+    "Name": "Roob Inc and Sons",
+    "Value": "ut",
+    "CreatedDate": "2016-07-06T13:38:13.0771703+02:00",
+    "UpdatedDate": "2020-02-19T13:38:13.0771703+01:00",
+    "CreatedBy": "ut",
+    "UpdatedBy": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldType": "System.String",
+        "FieldLength": 638
       }
     }
   }

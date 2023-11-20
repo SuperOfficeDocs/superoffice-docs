@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 762,
-  "ERPPriceListKey": "nihil",
-  "QuoteConnectionId": 332,
-  "Name": "Murray Inc and Sons",
-  "Description": "Compatible cohesive model",
-  "Currency": "molestiae",
-  "CurrencyName": "Heaney, Okuneva and Becker",
-  "ValidFrom": "2005-12-21T11:06:42.8971908+01:00",
-  "ValidTo": "2014-04-13T11:06:42.8971908+02:00",
-  "IsActive": true
+  "PriceListId": 505,
+  "ERPPriceListKey": "sint",
+  "QuoteConnectionId": 368,
+  "Name": "Purdy LLC",
+  "Description": "Object-based systemic task-force",
+  "Currency": "perspiciatis",
+  "CurrencyName": "Osinski, O'Hara and White",
+  "ValidFrom": "2014-08-10T13:38:18.1087815+02:00",
+  "ValidTo": "2002-11-14T13:38:18.1087815+01:00",
+  "IsActive": false
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 108,
-  "ERPPriceListKey": "non",
-  "QuoteConnectionId": 761,
-  "Name": "Boehm-Dooley",
-  "Description": "Balanced systemic support",
-  "Currency": "alias",
-  "CurrencyName": "Armstrong LLC",
-  "ValidFrom": "2014-11-10T11:06:42.8971908+01:00",
-  "ValidTo": "2018-03-28T11:06:42.8971908+02:00",
-  "IsActive": false,
+  "PriceListId": 265,
+  "ERPPriceListKey": "sunt",
+  "QuoteConnectionId": 641,
+  "Name": "Prosacco-Becker",
+  "Description": "Decentralized content-based database",
+  "Currency": "sint",
+  "CurrencyName": "Kuphal-Zulauf",
+  "ValidFrom": "2008-09-19T13:38:18.1087815+02:00",
+  "ValidTo": "2023-03-28T13:38:18.1087815+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldType": "System.String",
+      "FieldLength": 941
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

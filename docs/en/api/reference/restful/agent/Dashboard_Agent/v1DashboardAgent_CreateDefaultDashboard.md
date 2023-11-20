@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 858,
-  "AssociateId": 764,
-  "Caption": "rerum",
+  "DashboardId": 200,
+  "AssociateId": 856,
+  "Caption": "tempore",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 204,
-      "Caption": "vel",
-      "Description": "Profit-focused national installation",
-      "ChartName": "Bruen-Koss",
-      "ChartId": "odio",
+      "DashboardTileId": 78,
+      "Caption": "atque",
+      "Description": "Synchronised real-time budgetary management",
+      "ChartName": "Collier, Gleason and Leffler",
+      "ChartId": "ut",
       "IsDefault": false,
-      "AssociateId": 268,
-      "GroupId": 392,
-      "SelectionId": 438,
-      "Config": "voluptatem",
+      "AssociateId": 672,
+      "GroupId": 810,
+      "SelectionId": 399,
+      "Config": "voluptate",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 307
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldLength": 91
     }
   }
 }

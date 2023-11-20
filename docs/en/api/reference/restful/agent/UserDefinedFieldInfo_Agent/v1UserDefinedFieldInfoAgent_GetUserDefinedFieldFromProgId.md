@@ -113,7 +113,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "at",
+  "ProgId": "dolor",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 1000,
-  "ColumnId": 515,
-  "FieldDefault": "eius",
-  "FieldHeight": 13,
-  "FieldLabel": "magni",
-  "FieldLeft": 53,
-  "FieldTop": 486,
+  "UDefFieldId": 71,
+  "ColumnId": 41,
+  "FieldDefault": "quibusdam",
+  "FieldHeight": 408,
+  "FieldLabel": "totam",
+  "FieldLeft": 573,
+  "FieldTop": 650,
   "FieldType": "Checkbox",
-  "FieldWidth": 1002,
-  "FormatMask": "quia",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 759,
-  "LabelLeft": 847,
-  "LabelTop": 115,
-  "LabelWidth": 170,
-  "LastVersionId": 848,
-  "ListTableId": 172,
+  "FieldWidth": 765,
+  "FormatMask": "alias",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 784,
+  "LabelLeft": 248,
+  "LabelTop": 294,
+  "LabelWidth": 958,
+  "LastVersionId": 578,
+  "ListTableId": 498,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 150,
-  "ProgId": "est",
+  "Page1LineNo": 8,
+  "ProgId": "porro",
   "IsReadOnly": false,
-  "ShortLabel": "nihil",
-  "TabOrder": 897,
-  "TextLength": 486,
-  "Tooltip": "aperiam",
-  "UdefIdentity": 20,
-  "UDListDefinitionId": 182,
+  "ShortLabel": "et",
+  "TabOrder": 827,
+  "TextLength": 780,
+  "Tooltip": "id",
+  "UdefIdentity": 57,
+  "UDListDefinitionId": 153,
   "Justification": "Center",
-  "Version": 323,
-  "TemplateVariableName": "Schuppe, Jerde and Powlowski",
+  "Version": 706,
+  "TemplateVariableName": "Shields, McClure and Bednar",
   "HasBeenPublished": false,
-  "MdoListName": "Mann Inc and Sons",
+  "MdoListName": "Shanahan-Veum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldLength": 673
     }
   }
 }

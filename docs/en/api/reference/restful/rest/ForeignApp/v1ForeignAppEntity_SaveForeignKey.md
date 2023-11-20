@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quis",
-  "Value": "recusandae",
-  "RecordId": 44,
-  "CreatedDate": "2008-04-05T11:06:41.8947242+02:00",
-  "UpdatedDate": "2011-10-15T11:06:41.8947242+02:00",
-  "UpdatedBy": "culpa",
-  "CreatedBy": "et",
-  "TableName": "Macejkovic, Thiel and Weissnat"
+  "Key": "quae",
+  "Value": "id",
+  "RecordId": 490,
+  "CreatedDate": "2023-10-07T13:38:17.4524494+02:00",
+  "UpdatedDate": "2009-01-27T13:38:17.4524494+01:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "quia",
+  "TableName": "Maggio, Kris and Rice"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptas",
-  "Value": "ipsam",
-  "RecordId": 275,
-  "CreatedDate": "2006-03-03T11:06:41.8947242+01:00",
-  "UpdatedDate": "2022-10-13T11:06:41.8947242+02:00",
-  "UpdatedBy": "rem",
-  "CreatedBy": "adipisci",
-  "TableName": "Schuster Inc and Sons",
+  "Key": "consequatur",
+  "Value": "debitis",
+  "RecordId": 11,
+  "CreatedDate": "2013-06-26T13:38:17.4524494+02:00",
+  "UpdatedDate": "2015-12-05T13:38:17.4524494+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "culpa",
+  "TableName": "Nienow, Ratke and Grant",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldLength": 568
     }
   }
 }

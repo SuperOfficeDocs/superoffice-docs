@@ -91,9 +91,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "deserunt",
-  "ProviderName": "Bauch, Borer and Gutkowski",
-  "StorageKey": "necessitatibus"
+  "StorageType": "et",
+  "ProviderName": "Grady, Dickinson and Jerde",
+  "StorageKey": "quidem"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "O'Kon, Gaylord and Abbott",
-    "DisplayTooltip": "harum",
-    "DisplayType": "quia",
+    "DisplayName": "Keebler-McGlynn",
+    "DisplayTooltip": "magni",
+    "DisplayType": "rerum",
     "CanOrderBy": false,
-    "Name": "Gleason Group",
-    "CanRestrictBy": true,
-    "RestrictionType": "dolorem",
-    "RestrictionListName": "Kuhn Inc and Sons",
+    "Name": "Kutch-Mohr",
+    "CanRestrictBy": false,
+    "RestrictionType": "excepturi",
+    "RestrictionListName": "Williamson-Watsica",
     "IsVisible": false,
-    "ExtraInfo": "quidem",
-    "Width": "omnis",
-    "IconHint": "in",
-    "HeadingIconHint": "nulla"
+    "ExtraInfo": "animi",
+    "Width": "cum",
+    "IconHint": "repellat",
+    "HeadingIconHint": "voluptatum"
   }
 ]
 ```

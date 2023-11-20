@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Parisian-Stoltenberg"
+  "Name": "West Group"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 348,
-    "Name": "O'Connell-Waelchi",
-    "Tooltip": "praesentium",
-    "Deleted": true,
-    "Rank": 199,
-    "UdListDefinitionId": 735,
+    "HeadingId": 913,
+    "Name": "Vandervort Group",
+    "Tooltip": "totam",
+    "Deleted": false,
+    "Rank": 687,
+    "UdListDefinitionId": 930,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldType": "System.Int32",
+        "FieldLength": 952
       }
     }
   }

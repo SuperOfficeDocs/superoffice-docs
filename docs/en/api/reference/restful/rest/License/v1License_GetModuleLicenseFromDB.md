@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Bayer Group",
-  "ModuleName": "Brown-Schuster",
-  "ModuleDescription": "User-centric modular analyzer",
-  "ModuleTooltip": "modi",
-  "ModuleVersion": "alias",
+  "OwnerName": "Wyman-Turcotte",
+  "ModuleName": "Hegmann Inc and Sons",
+  "ModuleDescription": "Seamless system-worthy model",
+  "ModuleTooltip": "dolores",
+  "ModuleVersion": "architecto",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 171,
-  "ExtraFlags": 205,
-  "ExtraInfo": "ea",
-  "SortOrder": 560,
+  "NumberOfLicenses": 480,
+  "ExtraFlags": 619,
+  "ExtraInfo": "possimus",
+  "SortOrder": 443,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Stanton-Ritchie",
-  "Signature": "et"
+  "PrerequisiteModuleName": "Boyer, McCullough and Carter",
+  "Signature": "aspernatur"
 }
 ```

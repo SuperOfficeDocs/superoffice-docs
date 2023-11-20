@@ -77,8 +77,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 493,
-  "Restrictions": "illum"
+  "DashboardTileId": 485,
+  "Restrictions": "deleniti"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Hudson Inc and Sons",
-        "DisplayTooltip": "eligendi",
-        "DisplayType": "esse",
+        "DisplayName": "Kessler, Pagac and Hilpert",
+        "DisplayTooltip": "in",
+        "DisplayType": "similique",
         "CanOrderBy": false,
-        "Name": "Bauch-Emard",
-        "CanRestrictBy": true,
-        "RestrictionType": "illo",
-        "RestrictionListName": "Pouros Group",
-        "IsVisible": true,
-        "ExtraInfo": "velit",
-        "Width": "necessitatibus",
-        "IconHint": "qui",
-        "HeadingIconHint": "velit"
+        "Name": "Bruen Group",
+        "CanRestrictBy": false,
+        "RestrictionType": "dolorem",
+        "RestrictionListName": "Bednar, McGlynn and Gleichner",
+        "IsVisible": false,
+        "ExtraInfo": "eius",
+        "Width": "vel",
+        "IconHint": "reiciendis",
+        "HeadingIconHint": "maxime"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Hudson Inc and Sons",
-        "DisplayTooltip": "eligendi",
-        "DisplayType": "esse",
+        "DisplayName": "Kessler, Pagac and Hilpert",
+        "DisplayTooltip": "in",
+        "DisplayType": "similique",
         "CanOrderBy": false,
-        "Name": "Bauch-Emard",
-        "CanRestrictBy": true,
-        "RestrictionType": "illo",
-        "RestrictionListName": "Pouros Group",
-        "IsVisible": true,
-        "ExtraInfo": "velit",
-        "Width": "necessitatibus",
-        "IconHint": "qui",
-        "HeadingIconHint": "velit"
+        "Name": "Bruen Group",
+        "CanRestrictBy": false,
+        "RestrictionType": "dolorem",
+        "RestrictionListName": "Bednar, McGlynn and Gleichner",
+        "IsVisible": false,
+        "ExtraInfo": "eius",
+        "Width": "vel",
+        "IconHint": "reiciendis",
+        "HeadingIconHint": "maxime"
       }
     ],
     "Result": null

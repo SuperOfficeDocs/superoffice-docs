@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 736,
-    "Name": "Kovacek Group",
-    "ToolTip": "Ut aliquid veritatis est.",
+    "Id": 242,
+    "Name": "Kunde-Bayer",
+    "ToolTip": "Magnam id vitae adipisci nihil minima est consequuntur.",
     "Deleted": false,
-    "Rank": 67,
-    "Type": "laboriosam",
-    "ColorBlock": 576,
-    "IconHint": "soluta",
+    "Rank": 565,
+    "Type": "ipsa",
+    "ColorBlock": 925,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "2012-06-07T11:06:42.6940706+02:00",
+    "LastChanged": "2022-12-11T13:38:17.9056813+01:00",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Monahan, Kohler and Kuhn",
-        "ToolTip": "Culpa voluptatem aut accusamus.",
+        "Id": 54,
+        "Name": "Rempel-Douglas",
+        "ToolTip": "Culpa sit minus id.",
         "Deleted": true,
-        "Rank": 642,
-        "Type": "assumenda",
-        "ColorBlock": 76,
-        "IconHint": "animi",
+        "Rank": 925,
+        "Type": "et",
+        "ColorBlock": 72,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2010-09-30T11:06:42.6940706+02:00",
+        "LastChanged": "2018-09-02T13:38:17.9056813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "dolor",
+        "ExtraInfo": "et",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Claire Pfannerstill",
+        "FullName": "Kelvin Bartoletti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldType": "System.String",
+            "FieldLength": 789
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "dolore",
-    "Hidden": false,
-    "FullName": "Heather Reichel",
+    "ExtraInfo": "minima",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Vince Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 783
+        "FieldType": "System.Int32",
+        "FieldLength": 162
       }
     }
   }

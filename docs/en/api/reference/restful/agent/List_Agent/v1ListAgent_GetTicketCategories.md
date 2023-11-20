@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 478,
-    "ParentId": 336,
-    "Name": "Jerde-Satterfield",
-    "Fullname": "ut",
-    "CategoryMaster": 781,
+    "TicketCategoryId": 835,
+    "ParentId": 918,
+    "Name": "Littel Group",
+    "Fullname": "ad",
+    "CategoryMaster": 831,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Mertz, McKenzie and Senger",
+    "ExternalName": "Erdman, Mosciski and Brown",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 691,
-    "ReplyTemplate": 241,
-    "NotificationEmail": "claudie.wyman@mccullougholson.co.uk",
+    "AssignmentLag": 744,
+    "ReplyTemplate": 416,
+    "NotificationEmail": "jacky@monahanjast.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 111,
+    "EffectiveReplyTemplateId": 193,
     "ExtraFields": {
-      "ExtraFields1": "harum",
-      "ExtraFields2": "ab"
+      "ExtraFields1": "iure",
+      "ExtraFields2": "quis"
     },
     "CustomFields": {
-      "CustomFields1": "beatae",
-      "CustomFields2": "vel"
+      "CustomFields1": "cum",
+      "CustomFields2": "quo"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldType": "System.String",
+        "FieldLength": 995
       }
     }
   }

@@ -64,18 +64,18 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Durgan Inc and Sons",
-      "State": false
+      "Name": "Kulas, Hirthe and Reichel",
+      "State": true
     },
     {
-      "Name": "Durgan Inc and Sons",
-      "State": false
+      "Name": "Kulas, Hirthe and Reichel",
+      "State": true
     }
   ]
 }

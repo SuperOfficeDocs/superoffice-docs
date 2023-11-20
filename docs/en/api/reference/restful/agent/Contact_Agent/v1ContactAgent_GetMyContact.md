@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -118,157 +118,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 791,
-  "Name": "Durgan-Muller",
+  "ContactId": 301,
+  "Name": "Brekke Group",
   "Department": "",
-  "OrgNr": "1396439",
-  "Number1": "211707",
-  "Number2": "837640",
-  "UpdatedDate": "2014-06-07T11:06:34.1601668+02:00",
-  "CreatedDate": "2011-05-10T11:06:34.1601668+02:00",
+  "OrgNr": "579280",
+  "Number1": "705608",
+  "Number2": "756379",
+  "UpdatedDate": "2023-05-15T13:38:13.3271428+02:00",
+  "CreatedDate": "2006-07-21T13:38:13.3271428+02:00",
   "Emails": [
     {
       "Value": "omnis",
-      "StrippedValue": "ab",
-      "Description": "Business-focused bandwidth-monitored orchestration",
+      "StrippedValue": "laudantium",
+      "Description": "Right-sized discrete contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 714
+          "FieldLength": 648
         }
       }
     },
     {
       "Value": "omnis",
-      "StrippedValue": "ab",
-      "Description": "Business-focused bandwidth-monitored orchestration",
+      "StrippedValue": "laudantium",
+      "Description": "Right-sized discrete contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 714
+          "FieldLength": 648
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 755,
-      "Name": "Walter-Ziemann",
-      "ToolTip": "Molestias non et non quis ullam.",
+      "Id": 464,
+      "Name": "Ankunding LLC",
+      "ToolTip": "Necessitatibus iste illum aperiam sint soluta autem.",
       "Deleted": false,
-      "Rank": 709,
-      "Type": "corporis",
-      "ColorBlock": 960,
-      "IconHint": "magnam",
-      "Selected": false,
-      "LastChanged": "2003-03-26T11:06:34.1601668+01:00",
+      "Rank": 112,
+      "Type": "inventore",
+      "ColorBlock": 462,
+      "IconHint": "quod",
+      "Selected": true,
+      "LastChanged": "2000-06-25T13:38:13.3271428+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consectetur",
-      "StyleHint": "minima",
+      "ExtraInfo": "qui",
+      "StyleHint": "sint",
       "Hidden": false,
-      "FullName": "Wilbert Schulist",
+      "FullName": "Shirley Yost",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldLength": 429
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "iste",
-      "StrippedValue": "qui",
-      "Description": "Ameliorated multi-tasking utilisation",
+      "Value": "et",
+      "StrippedValue": "aut",
+      "Description": "Quality-focused exuding collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 271
         }
       }
     },
     {
-      "Value": "iste",
-      "StrippedValue": "qui",
-      "Description": "Ameliorated multi-tasking utilisation",
+      "Value": "et",
+      "StrippedValue": "aut",
+      "Description": "Quality-focused exuding collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 271
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "nesciunt",
-      "StrippedValue": "amet",
-      "Description": "Enterprise-wide value-added protocol",
+      "Value": "voluptates",
+      "StrippedValue": "similique",
+      "Description": "Visionary bandwidth-monitored firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldType": "System.String",
+          "FieldLength": 188
         }
       }
     },
     {
-      "Value": "nesciunt",
-      "StrippedValue": "amet",
-      "Description": "Enterprise-wide value-added protocol",
+      "Value": "voluptates",
+      "StrippedValue": "similique",
+      "Description": "Visionary bandwidth-monitored firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldType": "System.String",
+          "FieldLength": 188
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "ullam",
-      "StrippedValue": "ut",
-      "Description": "Pre-emptive mission-critical product",
+      "Value": "tempore",
+      "StrippedValue": "non",
+      "Description": "Monitored neutral application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldLength": 563
         }
       }
     },
     {
-      "Value": "ullam",
-      "StrippedValue": "ut",
-      "Description": "Pre-emptive mission-critical product",
+      "Value": "tempore",
+      "StrippedValue": "non",
+      "Description": "Monitored neutral application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldLength": 563
         }
       }
     }
   ],
-  "Description": "Future-proofed solution-oriented encryption",
+  "Description": "Advanced discrete database",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -277,100 +277,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "commodi",
-      "PersonId": 915,
-      "Mrmrs": "sit",
-      "Firstname": "Verner",
-      "Lastname": "Bernier",
-      "MiddleName": "Klocko-Murazik",
-      "Title": "quo",
-      "Description": "Enhanced needs-based customer loyalty",
-      "Email": "natalia@balistreri.co.uk",
-      "FullName": "Dr. Syble Luis Douglas DVM",
-      "DirectPhone": "401-032-6414 x36430",
-      "FormalName": "Hintz Group",
-      "CountryId": 496,
-      "ContactId": 705,
-      "ContactName": "Goyette, Mills and Greenholt",
-      "Retired": 296,
-      "Rank": 599,
-      "ActiveInterests": 280,
+      "Position": "officiis",
+      "PersonId": 78,
+      "Mrmrs": "nemo",
+      "Firstname": "Christian",
+      "Lastname": "Leannon",
+      "MiddleName": "Becker LLC",
+      "Title": "facere",
+      "Description": "Quality-focused interactive orchestration",
+      "Email": "ricardo.price@casperabbott.com",
+      "FullName": "Mrs. Devyn Eichmann II",
+      "DirectPhone": "499.096.3289 x879",
+      "FormalName": "Crona Inc and Sons",
+      "CountryId": 71,
+      "ContactId": 735,
+      "ContactName": "Monahan, Rippin and Towne",
+      "Retired": 357,
+      "Rank": 476,
+      "ActiveInterests": 282,
       "ContactDepartment": "",
-      "ContactCountryId": 400,
-      "ContactOrgNr": "839088",
-      "FaxPhone": "1-175-393-5695 x665",
-      "MobilePhone": "629.940.4949 x850",
-      "ContactPhone": "886.016.8661 x857",
-      "AssociateName": "Kuhic Group",
-      "AssociateId": 772,
+      "ContactCountryId": 721,
+      "ContactOrgNr": "572317",
+      "FaxPhone": "1-477-196-3350 x4982",
+      "MobilePhone": "1-410-548-0417 x91537",
+      "ContactPhone": "1-638-017-9364",
+      "AssociateName": "Steuber LLC",
+      "AssociateId": 217,
       "UsePersonAddress": false,
-      "ContactFax": "culpa",
-      "Kanafname": "rerum",
-      "Kanalname": "hic",
-      "Post1": "nesciunt",
-      "Post2": "suscipit",
-      "Post3": "voluptatibus",
-      "EmailName": "edwin_romaguera@nolan.uk",
-      "ContactFullName": "Alycia Spinka",
-      "ActiveErpLinks": 938,
-      "TicketPriorityId": 972,
-      "SupportLanguageId": 440,
-      "SupportAssociateId": 70,
+      "ContactFax": "libero",
+      "Kanafname": "ad",
+      "Kanalname": "aut",
+      "Post1": "ipsa",
+      "Post2": "repellendus",
+      "Post3": "ut",
+      "EmailName": "gennaro@boganwill.ca",
+      "ContactFullName": "Nayeli Kiehn",
+      "ActiveErpLinks": 926,
+      "TicketPriorityId": 786,
+      "SupportLanguageId": 820,
+      "SupportAssociateId": 477,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldType": "System.Int32",
+          "FieldLength": 764
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "officiis",
+  "Kananame": "totam",
   "Xstop": true,
-  "ActiveInterests": 735,
-  "GroupId": 999,
-  "ActiveStatusMonitorId": 70,
+  "ActiveInterests": 11,
+  "GroupId": 303,
+  "ActiveStatusMonitorId": 724,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 647,
-  "DbiAgentId": 920,
-  "DbiLastSyncronized": "2000-08-01T11:06:34.175828+02:00",
-  "DbiKey": "qui",
-  "DbiLastModified": "2004-11-01T11:06:34.175828+01:00",
+  "Deleted": 465,
+  "DbiAgentId": 930,
+  "DbiLastSyncronized": "2000-05-31T13:38:13.3271428+02:00",
+  "DbiKey": "et",
+  "DbiLastModified": "2008-12-24T13:38:13.3271428+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 643,
-  "ActiveErpLinks": 413,
+  "Source": 846,
+  "ActiveErpLinks": 941,
   "BounceEmails": [
-    "martine_thiel@hane.ca",
-    "joannie@gutkowskibednar.uk"
+    "benton@dubuqueemard.co.uk",
+    "kacey@corkery.uk"
   ],
   "Domains": [
-    "ullam",
-    "numquam"
+    "id",
+    "amet"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "1110368435",
-    "SuperOffice:2": "1559683967"
+    "SuperOffice:1": "Avis Weber",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "adipisci"
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "qui"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "nulla"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldType": "System.String",
+      "FieldLength": 975
     }
   }
 }

@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 847,
-  "Section": "soluta",
-  "Key": "mollitia",
-  "Name": "Rosenbaum, Kohler and Crona",
+  "PrefDescId": 410,
+  "Section": "reprehenderit",
+  "Key": "aut",
+  "Name": "Haley-Nader",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Vision-oriented bottom-line hierarchy",
-  "IsBuiltin": false,
-  "TableName": "Fritsch, Walker and Harris",
-  "UserDefinedListId": 900,
-  "Rank": 904,
-  "SubGroup": "et",
-  "MinLevel": 740,
-  "MaxValue": 933,
-  "MinValue": 358,
-  "RequiredLicense": "ab"
+  "Description": "Devolved neutral process improvement",
+  "IsBuiltin": true,
+  "TableName": "Hoppe, Ritchie and Farrell",
+  "UserDefinedListId": 819,
+  "Rank": 975,
+  "SubGroup": "iusto",
+  "MinLevel": 756,
+  "MaxValue": 793,
+  "MinValue": 609,
+  "RequiredLicense": "voluptatum"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 698,
-  "Section": "est",
-  "Key": "quia",
-  "Name": "Nicolas Inc and Sons",
+  "PrefDescId": 206,
+  "Section": "asperiores",
+  "Key": "a",
+  "Name": "Hintz-Lemke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Horizontal bottom-line database",
-  "IsBuiltin": false,
-  "TableName": "Deckow, Jast and Jacobi",
-  "UserDefinedListId": 316,
-  "Rank": 702,
-  "SubGroup": "voluptatibus",
-  "MinLevel": 725,
-  "MaxValue": 577,
-  "MinValue": 961,
-  "RequiredLicense": "alias",
+  "Description": "Open-source next generation leverage",
+  "IsBuiltin": true,
+  "TableName": "Bernhard-Russel",
+  "UserDefinedListId": 197,
+  "Rank": 808,
+  "SubGroup": "vero",
+  "MinLevel": 690,
+  "MaxValue": 54,
+  "MinValue": 488,
+  "RequiredLicense": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 650
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

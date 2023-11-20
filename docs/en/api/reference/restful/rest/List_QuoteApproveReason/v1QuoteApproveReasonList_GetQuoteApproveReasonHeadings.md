@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 315,
-    "Name": "Bailey, Barton and Effertz",
-    "Tooltip": "error",
+    "HeadingId": 66,
+    "Name": "D'Amore LLC",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "Rank": 904,
-    "UdListDefinitionId": 449,
+    "Rank": 114,
+    "UdListDefinitionId": 218,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 25
+        "FieldType": "System.Int32",
+        "FieldLength": 374
       }
     }
   }

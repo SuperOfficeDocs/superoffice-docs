@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 222,
-    "Name": "Champlin-Kuhlman",
-    "Tooltip": "impedit",
-    "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 535
+    "HeadingId": 121,
+    "Name": "Schowalter, Treutel and Hegmann",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "Rank": 100,
+    "UdListDefinitionId": 543
   },
   {
-    "HeadingId": 222,
-    "Name": "Champlin-Kuhlman",
-    "Tooltip": "impedit",
-    "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 535
+    "HeadingId": 121,
+    "Name": "Schowalter, Treutel and Hegmann",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "Rank": 100,
+    "UdListDefinitionId": 543
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 554,
-    "Name": "Ullrich Group",
-    "Tooltip": "vitae",
-    "Deleted": true,
-    "Rank": 506,
-    "UdListDefinitionId": 831,
+    "HeadingId": 535,
+    "Name": "Stokes, Kihn and Boyle",
+    "Tooltip": "quam",
+    "Deleted": false,
+    "Rank": 3,
+    "UdListDefinitionId": 824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldLength": 473
       }
     }
   }

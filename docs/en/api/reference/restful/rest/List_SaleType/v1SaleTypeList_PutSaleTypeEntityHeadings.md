@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 822,
-    "Name": "Lynch, Daniel and Reichel",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 739,
-    "UdListDefinitionId": 896
+    "HeadingId": 115,
+    "Name": "Gulgowski, Mosciski and Nitzsche",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 813,
+    "UdListDefinitionId": 849
   },
   {
-    "HeadingId": 822,
-    "Name": "Lynch, Daniel and Reichel",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 739,
-    "UdListDefinitionId": 896
+    "HeadingId": 115,
+    "Name": "Gulgowski, Mosciski and Nitzsche",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 813,
+    "UdListDefinitionId": 849
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 365,
-    "Name": "Hagenes Inc and Sons",
-    "Tooltip": "atque",
+    "HeadingId": 42,
+    "Name": "Rath Inc and Sons",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "Rank": 249,
-    "UdListDefinitionId": 704,
+    "Rank": 93,
+    "UdListDefinitionId": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 975
+        "FieldLength": 741
       }
     }
   }

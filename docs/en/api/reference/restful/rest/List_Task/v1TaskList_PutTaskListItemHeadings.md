@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 442,
-    "Name": "Fisher Inc and Sons",
-    "Tooltip": "dolor",
+    "HeadingId": 175,
+    "Name": "Legros-Gulgowski",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 189,
-    "UdListDefinitionId": 386
+    "Rank": 658,
+    "UdListDefinitionId": 725
   },
   {
-    "HeadingId": 442,
-    "Name": "Fisher Inc and Sons",
-    "Tooltip": "dolor",
+    "HeadingId": 175,
+    "Name": "Legros-Gulgowski",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 189,
-    "UdListDefinitionId": 386
+    "Rank": 658,
+    "UdListDefinitionId": 725
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 794,
-    "Name": "King LLC",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 436,
-    "UdListDefinitionId": 818,
+    "HeadingId": 805,
+    "Name": "Mills LLC",
+    "Tooltip": "ullam",
+    "Deleted": false,
+    "Rank": 597,
+    "UdListDefinitionId": 17,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 631
       }
     }
   }

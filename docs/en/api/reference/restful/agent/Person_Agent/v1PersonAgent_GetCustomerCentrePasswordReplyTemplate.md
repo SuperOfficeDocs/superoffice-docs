@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 787
+  "PersonId": 609
 }
 ```
 
@@ -92,35 +92,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 443,
-  "PlainParsed": "quam",
-  "HtmlParsed": "incidunt",
+  "ReplyTemplateId": 275,
+  "PlainParsed": "velit",
+  "HtmlParsed": "assumenda",
   "Attachments": [
     {
-      "AttachmentId": 139,
-      "Name": "Herzog Inc and Sons",
-      "ContentType": "adipisci",
-      "AttSize": 388,
-      "InlineImage": false,
-      "ContentId": "voluptates",
-      "AuthKey": "odit",
+      "AttachmentId": 909,
+      "Name": "Abshire, Kuhn and Runolfsson",
+      "ContentType": "facilis",
+      "AttSize": 650,
+      "InlineImage": true,
+      "ContentId": "quisquam",
+      "AuthKey": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 177
+          "FieldLength": 845
         }
       }
     }
   ],
-  "Subject": "aut",
+  "Subject": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 324
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   }
 }

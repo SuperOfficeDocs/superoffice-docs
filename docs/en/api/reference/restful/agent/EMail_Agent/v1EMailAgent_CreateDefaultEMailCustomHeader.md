@@ -71,17 +71,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rodriguez, Senger and Kunze",
+  "Name": "Kiehn-Murphy",
   "Values": [
-    "illo",
-    "doloremque"
+    "sapiente",
+    "architecto"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 201
     }
   }
 }

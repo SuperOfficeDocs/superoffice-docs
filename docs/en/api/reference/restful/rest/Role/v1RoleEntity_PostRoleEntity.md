@@ -105,16 +105,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 730,
-  "Name": "Hahn Group",
-  "Tooltip": "ut",
+  "RoleId": 881,
+  "Name": "Von Inc and Sons",
+  "Tooltip": "reprehenderit",
   "RoleType": "Anonymous",
-  "Deleted": 782,
-  "Rank": 985,
-  "Created": "1998-10-18T11:06:42.0822263+02:00",
-  "UseCategories": 900,
+  "Deleted": 978,
+  "Rank": 679,
+  "Created": "2011-10-25T13:38:17.5618158+02:00",
+  "UseCategories": 191,
   "CreatedBy": null,
-  "Updated": "2018-12-05T11:06:42.0822263+01:00",
+  "Updated": "2009-10-22T13:38:17.5774332+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 588,
-  "Name": "Roberts Group",
-  "Tooltip": "qui",
+  "RoleId": 870,
+  "Name": "Hyatt, Hyatt and Crooks",
+  "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 667,
-  "Rank": 671,
-  "Created": "2006-09-17T11:06:42.0822263+02:00",
-  "UseCategories": 18,
+  "Deleted": 352,
+  "Rank": 228,
+  "Created": "2013-01-28T13:38:17.5774332+01:00",
+  "UseCategories": 98,
   "CreatedBy": null,
-  "Updated": "2012-06-25T11:06:42.0822263+02:00",
+  "Updated": "2015-01-30T13:38:17.5774332+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldType": "System.String",
+      "FieldLength": 3
     }
   },
   "_Links": {

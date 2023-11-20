@@ -104,12 +104,12 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 673,
+  "MessageServerId": 242,
   "LookupAddresses": true,
   "Flags": "Answered",
   "IncludeAttachments": true
@@ -125,97 +125,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 1001,
-      "ContactName": "O'Hara Inc and Sons",
-      "PersonId": 783,
-      "PersonName": "Walker, Lowe and Fritsch",
-      "AssociateId": 634,
-      "Address": "esse",
-      "EmailId": 177,
+      "ContactId": 875,
+      "ContactName": "Durgan, Fay and Ortiz",
+      "PersonId": 996,
+      "PersonName": "Kihn, Pollich and Keebler",
+      "AssociateId": 827,
+      "Address": "earum",
+      "EmailId": 744,
       "DuplicatePersonIds": [
-        294,
-        369
+        142,
+        937
       ],
-      "Name": "Larson-Stroman",
+      "Name": "Mraz LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldType": "System.String",
+          "FieldLength": 962
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 378,
-      "ContactName": "Jaskolski-Watsica",
-      "PersonId": 65,
-      "PersonName": "Lockman-Fay",
-      "AssociateId": 511,
-      "Address": "dolorum",
-      "EmailId": 653,
+      "ContactId": 85,
+      "ContactName": "Kovacek, Hoeger and Mertz",
+      "PersonId": 991,
+      "PersonName": "Gaylord-Becker",
+      "AssociateId": 912,
+      "Address": "qui",
+      "EmailId": 669,
       "DuplicatePersonIds": [
-        860,
-        377
+        967,
+        9
       ],
-      "Name": "Bartell-Schmitt",
+      "Name": "Morar-Murazik",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 886
+          "FieldLength": 65
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 988,
-      "ContactName": "Macejkovic Group",
-      "PersonId": 588,
-      "PersonName": "Howe-Hegmann",
-      "AssociateId": 608,
-      "Address": "vitae",
-      "EmailId": 330,
+      "ContactId": 705,
+      "ContactName": "Bashirian, Kreiger and Crona",
+      "PersonId": 681,
+      "PersonName": "Hammes Group",
+      "AssociateId": 138,
+      "Address": "et",
+      "EmailId": 129,
       "DuplicatePersonIds": [
-        258,
-        208
+        99,
+        333
       ],
-      "Name": "Kunde-Kulas",
+      "Name": "Bayer-Cole",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 400
         }
       }
     }
   ],
-  "Subject": "hic",
-  "HTMLBody": "et",
+  "Subject": "id",
+  "HTMLBody": "delectus",
   "From": null,
-  "Sent": "2003-08-27T11:06:34.5208161+02:00",
-  "Size": 894,
+  "Sent": "2007-04-26T13:38:13.5614895+02:00",
+  "Size": 338,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "id",
-  "PlainBody": "quaerat",
-  "IsSent": true,
+  "MessageID": "facere",
+  "PlainBody": "hic",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 71,
+  "ServerId": 7,
   "Attachments": [
     {
-      "Description": "Organized 6th generation leverage",
-      "Filename": "et",
-      "Size": 238,
-      "Type": "commodi",
-      "Encoding": "odio",
-      "Id": "adipisci",
-      "Disposition": "iure",
+      "Description": "Realigned logistical paradigm",
+      "Filename": "corporis",
+      "Size": 430,
+      "Type": "tempora",
+      "Encoding": "blanditiis",
+      "Id": "odit",
+      "Disposition": "et",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -223,58 +223,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldLength": 33
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Luettgen LLC",
+      "Name": "Klocko-White",
       "Values": [
-        "omnis",
-        "reiciendis"
+        "eos",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldType": "System.String",
+          "FieldLength": 394
         }
       }
     },
     {
-      "Name": "Luettgen LLC",
+      "Name": "Klocko-White",
       "Values": [
-        "omnis",
-        "reiciendis"
+        "eos",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldType": "System.String",
+          "FieldLength": 394
         }
       }
     }
   ],
-  "FolderName": "Gutmann-Bahringer",
-  "EmailItemId": 33,
-  "AccountId": 935,
-  "ReceivedAt": "1998-08-13T11:06:34.5208161+02:00",
+  "FolderName": "Walter Inc and Sons",
+  "EmailItemId": 167,
+  "AccountId": 434,
+  "ReceivedAt": "2010-11-20T13:38:13.5614895+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-02-14T11:06:34.5208161+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "1999-08-05T13:38:13.5614895+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 995
+      "FieldType": "System.Int32",
+      "FieldLength": 70
     }
   }
 }

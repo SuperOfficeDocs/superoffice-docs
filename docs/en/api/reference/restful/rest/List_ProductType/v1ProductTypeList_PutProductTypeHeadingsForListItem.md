@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Schoen-Halvorson",
-    "ToolTip": "Aut ipsa sit dolorem fuga dignissimos dolorem voluptates.",
-    "Deleted": false,
-    "Rank": 442,
-    "Type": "atque",
-    "ColorBlock": 962,
-    "IconHint": "natus",
+    "Id": 707,
+    "Name": "Fritsch-Morar",
+    "ToolTip": "Et velit voluptatem enim est dolorem.",
+    "Deleted": true,
+    "Rank": 102,
+    "Type": "inventore",
+    "ColorBlock": 105,
+    "IconHint": "ipsum",
     "Selected": true,
-    "LastChanged": "2017-01-02T11:06:42.9440712+01:00",
+    "LastChanged": "2021-05-12T13:38:18.1400255+02:00",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "Collins Group",
-        "ToolTip": "Natus ea sit eum ab.",
+        "Id": 398,
+        "Name": "Bechtelar Group",
+        "ToolTip": "Aut consequatur quaerat provident.",
         "Deleted": false,
-        "Rank": 969,
-        "Type": "rerum",
-        "ColorBlock": 804,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2017-12-16T11:06:42.9440712+01:00",
+        "Rank": 54,
+        "Type": "officia",
+        "ColorBlock": 823,
+        "IconHint": "facilis",
+        "Selected": false,
+        "LastChanged": "2011-02-05T13:38:18.1400255+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "porro",
+        "ExtraInfo": "alias",
+        "StyleHint": "autem",
         "Hidden": true,
-        "FullName": "Mr. Mikel Valerie Conn V"
+        "FullName": "Ms. Brandon Sipes"
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Jasen Fahey"
+    "ExtraInfo": "nihil",
+    "StyleHint": "earum",
+    "Hidden": false,
+    "FullName": "Morgan Emerson VonRueden II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 804,
-    "Name": "Lind, Braun and Little",
-    "ToolTip": "Et qui neque fuga culpa.",
+    "Id": 199,
+    "Name": "Sawayn Group",
+    "ToolTip": "A perferendis aliquam sunt.",
     "Deleted": true,
-    "Rank": 449,
-    "Type": "doloribus",
-    "ColorBlock": 287,
-    "IconHint": "necessitatibus",
-    "Selected": true,
-    "LastChanged": "2005-02-12T11:06:42.9440712+01:00",
+    "Rank": 8,
+    "Type": "suscipit",
+    "ColorBlock": 932,
+    "IconHint": "impedit",
+    "Selected": false,
+    "LastChanged": "2022-12-25T13:38:18.1556538+01:00",
     "ChildItems": [
       {
-        "Id": 720,
-        "Name": "Rodriguez Group",
-        "ToolTip": "Voluptatem recusandae fuga.",
-        "Deleted": true,
-        "Rank": 949,
-        "Type": "minima",
-        "ColorBlock": 60,
-        "IconHint": "repellat",
+        "Id": 83,
+        "Name": "Crist LLC",
+        "ToolTip": "Reprehenderit exercitationem in ut odit sit.",
+        "Deleted": false,
+        "Rank": 115,
+        "Type": "ipsum",
+        "ColorBlock": 742,
+        "IconHint": "explicabo",
         "Selected": true,
-        "LastChanged": "1998-01-07T11:06:42.9440712+01:00",
+        "LastChanged": "2015-10-24T13:38:18.1556538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "odio",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Miss Caroline Wolff",
+        "FullName": "Dr. Jaiden Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 544
+            "FieldType": "System.Int32",
+            "FieldLength": 628
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "quod",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Dr. Jadon Edyth Walsh DDS",
+    "FullName": "Dominic Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 842
+        "FieldType": "System.Int32",
+        "FieldLength": 89
       }
     }
   }

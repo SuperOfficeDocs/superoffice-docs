@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 164,
-  "Name": "Thiel LLC",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 559,
+  "Id": 962,
+  "Name": "Collins, Jacobi and Ferry",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "Rank": 961,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
+  "ListType": "eos",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "Williamson Inc and Sons",
-  "Tooltip": "est",
+  "Id": 773,
+  "Name": "Hansen, Turner and Williamson",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 347,
+  "Rank": 451,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "mollitia",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quo",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 515
+      "FieldLength": 186
     }
   }
 }

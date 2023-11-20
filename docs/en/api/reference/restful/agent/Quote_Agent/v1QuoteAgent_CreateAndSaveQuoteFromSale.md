@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 457,
-  "CopyToSaleId": 455
+  "CopyFromSaleId": 926,
+  "CopyToSaleId": 653
 }
 ```
 
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 195,
-  "SaleId": 298,
-  "QuoteConnectionId": 884,
-  "ERPQuoteKey": "voluptatem",
-  "ERPOrderKey": "et",
-  "ActiveQuoteVersionId": 445,
-  "AcceptedQuoteAlternativeId": 749,
-  "UseValuesFromQuote": 162,
-  "DocumentId": 474,
-  "PoNumber": "1613654",
-  "OrderComment": "dolorem",
-  "PreferredEmailCulture": "jamie@waters.info",
+  "QuoteId": 9,
+  "SaleId": 290,
+  "QuoteConnectionId": 232,
+  "ERPQuoteKey": "occaecati",
+  "ERPOrderKey": "facilis",
+  "ActiveQuoteVersionId": 519,
+  "AcceptedQuoteAlternativeId": 998,
+  "UseValuesFromQuote": 707,
+  "DocumentId": 699,
+  "PoNumber": "651571",
+  "OrderComment": "incidunt",
+  "PreferredEmailCulture": "brendan@bayer.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 615,
-      "ERPQuoteVersionKey": "rerum",
-      "QuoteId": 483,
-      "Description": "Realigned system-worthy support",
-      "Number": "722612",
+      "QuoteVersionId": 845,
+      "ERPQuoteVersionKey": "in",
+      "QuoteId": 107,
+      "Description": "Cross-platform bottom-line projection",
+      "Number": "1628583",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 519,
-      "SentDate": "1998-11-18T11:06:35.2395651+01:00",
-      "FollowupId": 836,
-      "ExpirationDate": "2001-12-08T11:06:35.2395651+01:00",
-      "DeliveryCountryId": 22,
+      "LikelyQuoteAlternativeId": 134,
+      "SentDate": "2017-03-25T13:38:14.0303322+01:00",
+      "FollowupId": 208,
+      "ExpirationDate": "2023-04-13T13:38:14.0303322+02:00",
+      "DeliveryCountryId": 372,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 469,
+      "InvoiceCountryId": 368,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "quasi",
-      "ERPPaymentTypeKey": "et",
-      "ERPDeliveryTermsKey": "qui",
-      "ERPDeliveryTypeKey": "eos",
-      "Rank": 448,
-      "ApprovedBy": 992,
-      "ApprovedText": "sed",
-      "ApprovedRegisteredBy": 661,
-      "ApprovedRegisteredDate": "2007-08-20T11:06:35.2395651+02:00",
-      "ExtraField1": "molestiae",
-      "ExtraField2": "placeat",
-      "ExtraField3": "id",
-      "ExtraField4": "incidunt",
-      "ExtraField5": "omnis",
-      "LastRecalculated": "2001-07-07T11:06:35.2395651+02:00",
-      "Updated": "2012-08-15T11:06:35.2395651+02:00",
-      "UpdatedAssociateId": 371,
-      "Registered": "2012-06-08T11:06:35.2395651+02:00",
-      "RegisteredAssociateId": 179,
-      "RequestAssociateId": 525,
-      "RequestComment": "rerum",
+      "ERPPaymentTermsKey": "occaecati",
+      "ERPPaymentTypeKey": "laborum",
+      "ERPDeliveryTermsKey": "vitae",
+      "ERPDeliveryTypeKey": "dolores",
+      "Rank": 839,
+      "ApprovedBy": 605,
+      "ApprovedText": "commodi",
+      "ApprovedRegisteredBy": 726,
+      "ApprovedRegisteredDate": "2011-11-28T13:38:14.0303322+01:00",
+      "ExtraField1": "quibusdam",
+      "ExtraField2": "aut",
+      "ExtraField3": "ut",
+      "ExtraField4": "rem",
+      "ExtraField5": "repudiandae",
+      "LastRecalculated": "2009-05-07T13:38:14.0303322+02:00",
+      "Updated": "2007-08-19T13:38:14.0303322+02:00",
+      "UpdatedAssociateId": 930,
+      "Registered": "2006-06-12T13:38:14.0303322+02:00",
+      "RegisteredAssociateId": 625,
+      "RequestAssociateId": 257,
+      "RequestComment": "omnis",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldLength": 411
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldType": "System.String",
+      "FieldLength": 119
     }
   }
 }

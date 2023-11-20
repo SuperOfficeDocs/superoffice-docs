@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 580,
-    "FieldName": "Tremblay Inc and Sons",
-    "Label": "error",
-    "Tooltip": "quae",
-    "Editable": false,
+    "QuoteLineConfigurationId": 575,
+    "FieldName": "Brekke, Cronin and Franecki",
+    "Label": "sit",
+    "Tooltip": "sint",
+    "Editable": true,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 775,
+    "Rank": 300,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 652
       }
     }
   }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 77,
-    "Section": "explicabo",
-    "Key": "voluptas",
-    "Name": "Stokes Inc and Sons",
+    "PrefDescId": 557,
+    "Section": "sint",
+    "Key": "non",
+    "Name": "Johns LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Organic impactful secured line",
+    "Description": "Focused multimedia paradigm",
     "IsBuiltin": false,
-    "TableName": "Hane, Turner and Runolfsdottir",
-    "UserDefinedListId": 380,
-    "Rank": 903,
-    "SubGroup": "et",
-    "MinLevel": 133,
-    "MaxValue": 287,
-    "MinValue": 762,
-    "RequiredLicense": "atque",
+    "TableName": "Romaguera, Turcotte and Koepp",
+    "UserDefinedListId": 940,
+    "Rank": 686,
+    "SubGroup": "repudiandae",
+    "MinLevel": 368,
+    "MaxValue": 464,
+    "MinValue": 20,
+    "RequiredLicense": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldType": "System.String",
+        "FieldLength": 365
       }
     }
   }

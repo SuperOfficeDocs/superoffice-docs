@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 340,
-  "Name": "Fisher Inc and Sons",
-  "Tooltip": "cum",
+  "Id": 552,
+  "Name": "Hoeger-Stamm",
+  "Tooltip": "error",
   "Deleted": false,
-  "UdListDefinitionId": 948,
-  "Rank": 927
+  "UdListDefinitionId": 55,
+  "Rank": 77
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 227,
-  "Name": "Strosin, Johnston and Steuber",
-  "Tooltip": "a",
-  "Deleted": false,
-  "UdListDefinitionId": 174,
-  "Rank": 923,
+  "Id": 797,
+  "Name": "Grimes-Kub",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "UdListDefinitionId": 690,
+  "Rank": 816,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldType": "System.String",
+      "FieldLength": 80
     }
   }
 }

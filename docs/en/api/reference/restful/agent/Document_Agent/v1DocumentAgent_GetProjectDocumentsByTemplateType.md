@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 428,
-  "StartTime": "2021-05-08T11:06:34.316457+02:00",
-  "EndTime": "2006-01-06T11:06:34.316457+01:00",
-  "Count": 951,
-  "DocumentTemplateId": 736
+  "ProjectId": 583,
+  "StartTime": "2012-08-01T13:38:13.4208858+02:00",
+  "EndTime": "2023-03-08T13:38:13.4208858+01:00",
+  "Count": 341,
+  "DocumentTemplateId": 223
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 699,
-    "Attention": "ea",
-    "Header": "autem",
-    "Name": "Pfannerstill-Kuhlman",
-    "OurRef": "ut",
-    "YourRef": "reiciendis",
-    "Description": "Synergized client-driven infrastructure",
-    "DocumentTemplate": "inventore",
+    "DocumentId": 492,
+    "Attention": "est",
+    "Header": "est",
+    "Name": "Lehner Inc and Sons",
+    "OurRef": "quae",
+    "YourRef": "facilis",
+    "Description": "Future-proofed bifurcated pricing structure",
+    "DocumentTemplate": "nulla",
     "IsPublished": false,
-    "PersonId": 356,
-    "PersonFullName": "Marjorie Mitchell",
-    "AssociateFullName": "Garrett Sporer",
-    "ContactId": 930,
-    "ContactName": "O'Keefe, Kreiger and Price",
-    "ProjectId": 538,
-    "ProjectName": "Nikolaus LLC",
-    "AssociateId": 644,
-    "Snum": 218,
-    "SaleId": 640,
-    "SaleName": "Macejkovic-Funk",
+    "PersonId": 846,
+    "PersonFullName": "Lessie Wehner",
+    "AssociateFullName": "Dr. Adolph Jared Gleichner DDS",
+    "ContactId": 958,
+    "ContactName": "Bauch-Cremin",
+    "ProjectId": 605,
+    "ProjectName": "Borer, Hegmann and Gibson",
+    "AssociateId": 1001,
+    "Snum": 888,
+    "SaleId": 611,
+    "SaleName": "Feest-Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldType": "System.String",
+        "FieldLength": 831
       }
     }
   }

@@ -88,9 +88,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hammes Group",
-  "DeviceName": "Kirlin-Gislason",
-  "DeviceIdentifier": "rerum",
+  "ApplicationName": "Gleason-Hills",
+  "DeviceName": "Weissnat Group",
+  "DeviceIdentifier": "est",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 308,
-  "Name": "Murray-Luettgen",
-  "CreatedDate": "2004-07-21T11:06:34.6301875+02:00",
-  "UpdatedDate": "2021-05-29T11:06:34.6301875+02:00",
-  "AssociateFullName": "Iliana Schimmel",
-  "CreatedBy": "est",
-  "UpdatedBy": "doloribus",
-  "DeviceIdentifier": "sint",
-  "ForeignAppId": 745,
+  "ForeignDeviceId": 338,
+  "Name": "Sipes Group",
+  "CreatedDate": "2013-02-05T13:38:13.623981+01:00",
+  "UpdatedDate": "2015-09-13T13:38:13.623981+02:00",
+  "AssociateFullName": "Carolyn Orn",
+  "CreatedBy": "rem",
+  "UpdatedBy": "veritatis",
+  "DeviceIdentifier": "atque",
+  "ForeignAppId": 755,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldType": "System.String",
+      "FieldLength": 616
     }
   }
 }

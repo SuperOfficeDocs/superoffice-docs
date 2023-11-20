@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 733,
-  "Name": "Greenfelder-Smith",
-  "Tooltip": "et",
+  "Id": 59,
+  "Name": "Ritchie Group",
+  "Tooltip": "dolore",
   "Deleted": false,
-  "Rank": 168,
-  "IsCustomList": true,
+  "Rank": 561,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
   "ListType": "sint",
-  "InUseByUserDefinedFields": true,
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 98
     }
   },
   "_Links": {

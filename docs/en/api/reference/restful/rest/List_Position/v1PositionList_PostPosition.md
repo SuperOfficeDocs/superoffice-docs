@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 942,
-  "Name": "Hoppe LLC",
-  "Tooltip": "provident",
+  "Id": 399,
+  "Name": "Dooley Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 921,
-  "Rank": 586
+  "UdListDefinitionId": 843,
+  "Rank": 829
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 627,
-  "Name": "Raynor-Weimann",
-  "Tooltip": "ipsam",
-  "Deleted": false,
-  "UdListDefinitionId": 317,
-  "Rank": 142,
+  "Id": 719,
+  "Name": "Ferry, Becker and Simonis",
+  "Tooltip": "laborum",
+  "Deleted": true,
+  "UdListDefinitionId": 881,
+  "Rank": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldType": "System.String",
+      "FieldLength": 405
     }
   }
 }

@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quasi",
+    "path": "labore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quasi",
+    "path": "labore",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 842,
+  "DocumentId": 267,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sunt",
-  "Header": "ab",
-  "Name": "Balistreri-Johnson",
-  "OurRef": "hic",
-  "YourRef": "placeat",
-  "CreatedDate": "2005-11-18T11:06:41.8478481+01:00",
-  "UpdatedDate": "1998-05-31T11:06:41.8478481+02:00",
-  "Description": "Multi-tiered web-enabled intranet",
+  "Attention": "iusto",
+  "Header": "molestias",
+  "Name": "Gorczany, Halvorson and Rolfson",
+  "OurRef": "ut",
+  "YourRef": "recusandae",
+  "CreatedDate": "2022-09-26T13:38:17.4055756+02:00",
+  "UpdatedDate": "2021-09-17T13:38:17.4055756+02:00",
+  "Description": "Triple-buffered analyzing paradigm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-04-14T11:06:41.8478481+02:00",
-  "ExternalRef": "libero",
+  "Date": "1997-03-06T13:38:17.4055756+01:00",
+  "ExternalRef": "alias",
   "Completed": "Completed",
-  "ActiveLinks": 580,
+  "ActiveLinks": 36,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Simonis, Blanda and Hintz",
-      "Id": 528,
-      "Description": "Streamlined eco-centric functionalities",
-      "ExtraInfo": "tempore",
-      "LinkId": 897,
+      "EntityName": "Barrows Group",
+      "Id": 793,
+      "Description": "Advanced human-resource parallelism",
+      "ExtraInfo": "commodi",
+      "LinkId": 3,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 589
+          "FieldType": "System.Int32",
+          "FieldLength": 639
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 636,
-  "Snum": 296,
+  "SuggestedDocumentId": 880,
+  "Snum": 261,
   "UserDefinedFields": {
-    "SuperOffice:1": "Neil Trantow",
-    "SuperOffice:2": "William Bailey"
+    "SuperOffice:1": "Karson Smith",
+    "SuperOffice:2": "Dereck Becker"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "ipsa"
+    "ExtraFields1": "et",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "alias"
   },
-  "PublishEventDate": "2021-10-26T11:06:41.8478481+02:00",
-  "PublishTo": "2021-09-18T11:06:41.8478481+02:00",
-  "PublishFrom": "1998-05-03T11:06:41.8478481+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-07-13T13:38:17.4055756+02:00",
+  "PublishTo": "2007-09-12T13:38:17.4055756+02:00",
+  "PublishFrom": "1996-09-10T13:38:17.4055756+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 822,
+      "VisibleId": 974,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldLength": 872
         }
       }
     },
     {
-      "VisibleId": 822,
+      "VisibleId": 974,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldLength": 872
         }
       }
     }
@@ -256,12 +256,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 814
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

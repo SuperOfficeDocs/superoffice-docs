@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 256,
-  "Name": "Veum-Kertzmann",
-  "Tooltip": "quod",
-  "Deleted": true,
-  "Rank": 200,
-  "UdListDefinitionId": 513
+  "HeadingId": 684,
+  "Name": "Little LLC",
+  "Tooltip": "atque",
+  "Deleted": false,
+  "Rank": 929,
+  "UdListDefinitionId": 291
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 43,
-  "Name": "Schaden Inc and Sons",
-  "Tooltip": "minus",
-  "Deleted": true,
-  "Rank": 854,
-  "UdListDefinitionId": 206,
+  "HeadingId": 857,
+  "Name": "Harris-Ortiz",
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "Rank": 18,
+  "UdListDefinitionId": 781,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldType": "System.String",
+      "FieldLength": 346
     }
   }
 }

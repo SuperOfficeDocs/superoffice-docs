@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 918,
-  "Name": "Kunde-Bogan",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 858,
-  "Rank": 124,
+  "Id": 698,
+  "Name": "Effertz, Donnelly and Smith",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "UdListDefinitionId": 372,
+  "Rank": 883,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 548
+      "FieldLength": 639
     }
   }
 }

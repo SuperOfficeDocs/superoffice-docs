@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 789,
-  "Name": "Gutkowski-Schmidt",
-  "CreatedDate": "2006-04-14T11:06:41.8790976+02:00",
-  "UpdatedDate": "1996-08-29T11:06:41.8790976+02:00",
+  "ForeignAppId": 337,
+  "Name": "Grady-Ryan",
+  "CreatedDate": "2002-08-20T13:38:17.4368262+02:00",
+  "UpdatedDate": "2000-04-10T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 86,
-      "Name": "Haley Inc and Sons",
-      "CreatedDate": "2016-05-04T11:06:41.8790976+02:00",
-      "UpdatedDate": "1998-09-13T11:06:41.8790976+02:00",
-      "AssociateFullName": "Mrs. Milford Paucek V",
-      "CreatedBy": "ut",
-      "UpdatedBy": "laboriosam",
-      "DeviceIdentifier": "commodi",
-      "ForeignAppId": 545,
+      "ForeignDeviceId": 100,
+      "Name": "Waters Inc and Sons",
+      "CreatedDate": "2006-11-02T13:38:17.4368262+01:00",
+      "UpdatedDate": "2017-05-23T13:38:17.4368262+02:00",
+      "AssociateFullName": "Shany Spinka DVM",
+      "CreatedBy": "delectus",
+      "UpdatedBy": "labore",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 985,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   }
 }

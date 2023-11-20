@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 315,
-  "Name": "Lowe LLC",
-  "CreatedDate": "2015-08-13T11:06:41.8790976+02:00",
-  "UpdatedDate": "2008-09-17T11:06:41.8790976+02:00",
+  "ForeignAppId": 330,
+  "Name": "Weimann Group",
+  "CreatedDate": "2005-01-21T13:38:17.4368262+01:00",
+  "UpdatedDate": "2006-09-11T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 397,
-      "Name": "McClure LLC",
-      "CreatedDate": "2001-02-22T11:06:41.8790976+01:00",
-      "UpdatedDate": "2003-03-03T11:06:41.8790976+01:00",
-      "AssociateFullName": "Salvador Blanda",
-      "CreatedBy": "corporis",
-      "UpdatedBy": "velit",
-      "DeviceIdentifier": "praesentium",
-      "ForeignAppId": 962
+      "ForeignDeviceId": 595,
+      "Name": "Kub, Zboncak and Goodwin",
+      "CreatedDate": "1997-04-28T13:38:17.4368262+02:00",
+      "UpdatedDate": "1999-06-11T13:38:17.4368262+02:00",
+      "AssociateFullName": "Rae Ondricka",
+      "CreatedBy": "aut",
+      "UpdatedBy": "corporis",
+      "DeviceIdentifier": "eveniet",
+      "ForeignAppId": 890
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 9,
-  "Name": "Daniel-Kuhn",
-  "CreatedDate": "2003-05-06T11:06:41.8790976+02:00",
-  "UpdatedDate": "2018-08-10T11:06:41.8790976+02:00",
+  "ForeignAppId": 575,
+  "Name": "McGlynn Group",
+  "CreatedDate": "2020-03-08T13:38:17.4368262+01:00",
+  "UpdatedDate": "2004-11-01T13:38:17.4368262+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 265,
-      "Name": "Zemlak-Turcotte",
-      "CreatedDate": "2022-01-16T11:06:41.8790976+01:00",
-      "UpdatedDate": "2010-08-26T11:06:41.8790976+02:00",
-      "AssociateFullName": "Mariana Kreiger",
-      "CreatedBy": "et",
-      "UpdatedBy": "error",
-      "DeviceIdentifier": "quam",
-      "ForeignAppId": 955,
+      "ForeignDeviceId": 187,
+      "Name": "Hermiston Inc and Sons",
+      "CreatedDate": "2005-08-14T13:38:17.4368262+02:00",
+      "UpdatedDate": "2011-03-17T13:38:17.4368262+01:00",
+      "AssociateFullName": "Skylar Taurean Jerde III",
+      "CreatedBy": "sint",
+      "UpdatedBy": "aperiam",
+      "DeviceIdentifier": "aliquam",
+      "ForeignAppId": 847,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldType": "System.Int32",
+          "FieldLength": 329
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 442
+      "FieldLength": 894
     }
   },
   "_Links": {

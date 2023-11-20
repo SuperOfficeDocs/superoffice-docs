@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 640
+  "ShipmentId": 505
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2012-01-13T11:06:34.7864409+01:00",
+  "StartDate": "2004-08-18T13:38:13.7333439+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 276,
-  "ShipmentDescription": "Enterprise-wide assymetric system engine",
-  "FromAddress": "rerum",
-  "PersonId": 998,
-  "PersonFullName": "Foster Feeney",
-  "ShipmentType": "voluptatem",
-  "MessageId": 290,
-  "MessageSubject": "assumenda",
-  "DocumentMessageId": 559,
-  "NumSent": 413,
-  "NumOpened": 810,
-  "NumBounced": 222,
-  "NumClicks": 288,
+  "ShipmentId": 206,
+  "ShipmentDescription": "Persistent bifurcated policy",
+  "FromAddress": "et",
+  "PersonId": 625,
+  "PersonFullName": "Amie Casper",
+  "ShipmentType": "provident",
+  "MessageId": 818,
+  "MessageSubject": "voluptatum",
+  "DocumentMessageId": 251,
+  "NumSent": 659,
+  "NumOpened": 872,
+  "NumBounced": 70,
+  "NumClicks": 367,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   }
 }

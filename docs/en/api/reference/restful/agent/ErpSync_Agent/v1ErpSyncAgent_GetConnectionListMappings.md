@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 223
+  "ErpConnectionId": 939
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Mante, Gutmann and Marvin",
+      "ErpListName": "Deckow-Kertzmann",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Rosenbaum Inc and Sons",
-      "ErpFieldId": 425,
+      "ErpActorTypeName": "Rosenbaum, O'Keefe and Swaniawski",
+      "ErpFieldId": 464,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 251
+          "FieldLength": 329
         }
       }
     }
   ],
-  "ErpConnectionId": 777,
-  "ErpConnectionName": "Grady, McDermott and Schultz",
+  "ErpConnectionId": 879,
+  "ErpConnectionName": "Hudson, Schmidt and Paucek",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 446
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   }
 }

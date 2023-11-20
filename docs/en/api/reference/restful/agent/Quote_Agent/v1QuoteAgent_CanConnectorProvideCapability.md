@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 666,
-  "CapabilityName": "Smitham-Hills"
+  "QuoteConnectionId": 635,
+  "CapabilityName": "Schneider, Jenkins and Deckow"
 }
 ```
 

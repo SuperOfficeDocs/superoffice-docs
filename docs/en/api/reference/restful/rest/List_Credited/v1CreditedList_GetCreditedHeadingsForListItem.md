@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Fadel, Moore and Miller",
-    "ToolTip": "Impedit enim dolores vero voluptatem mollitia doloribus.",
+    "Id": 467,
+    "Name": "Smith-Hane",
+    "ToolTip": "Nihil repellat necessitatibus et.",
     "Deleted": false,
-    "Rank": 370,
-    "Type": "eos",
-    "ColorBlock": 74,
-    "IconHint": "qui",
+    "Rank": 248,
+    "Type": "nisi",
+    "ColorBlock": 909,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2013-06-11T11:06:42.7565694+02:00",
+    "LastChanged": "2021-03-09T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 766,
-        "Name": "Lindgren Group",
-        "ToolTip": "Fuga soluta doloremque aspernatur.",
-        "Deleted": true,
-        "Rank": 286,
-        "Type": "cupiditate",
-        "ColorBlock": 956,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "2018-08-08T11:06:42.7565694+02:00",
+        "Id": 10,
+        "Name": "Witting-Bosco",
+        "ToolTip": "Repellat sit est nam maxime.",
+        "Deleted": false,
+        "Rank": 434,
+        "Type": "ducimus",
+        "ColorBlock": 971,
+        "IconHint": "vitae",
+        "Selected": true,
+        "LastChanged": "2006-05-04T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Nash Pfannerstill",
+        "ExtraInfo": "dolor",
+        "StyleHint": "repudiandae",
+        "Hidden": true,
+        "FullName": "Mr. Lafayette Damien Gorczany Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 122
+            "FieldType": "System.Int32",
+            "FieldLength": 346
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "minima",
-    "Hidden": false,
-    "FullName": "Jody Murray",
+    "ExtraInfo": "nemo",
+    "StyleHint": "numquam",
+    "Hidden": true,
+    "FullName": "Garett Kristoffer Boyer I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldLength": 995
       }
     }
   }

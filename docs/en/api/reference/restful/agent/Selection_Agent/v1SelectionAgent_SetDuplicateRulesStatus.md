@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Upton, Jones and Becker",
-      "DisplayName": "Haag, Kassulke and Ruecker",
-      "DisplayTooltip": "voluptatum",
+      "Name": "Effertz-Gulgowski",
+      "DisplayName": "Schinner Inc and Sons",
+      "DisplayTooltip": "aut",
       "IsActive": false
     },
     {
-      "Name": "Upton, Jones and Becker",
-      "DisplayName": "Haag, Kassulke and Ruecker",
-      "DisplayTooltip": "voluptatum",
+      "Name": "Effertz-Gulgowski",
+      "DisplayName": "Schinner Inc and Sons",
+      "DisplayTooltip": "aut",
       "IsActive": false
     }
   ]

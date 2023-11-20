@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 403,
-    "Name": "Barton-Wolf",
-    "ToolTip": "Nobis dolore ea qui recusandae nesciunt doloribus.",
+    "Id": 42,
+    "Name": "Beer-Runolfsdottir",
+    "ToolTip": "Non aliquam in.",
     "Deleted": false,
-    "Rank": 576,
-    "Type": "et",
-    "ColorBlock": 820,
-    "IconHint": "perspiciatis",
+    "Rank": 97,
+    "Type": "vel",
+    "ColorBlock": 535,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "1997-07-03T11:06:43.0534497+02:00",
+    "LastChanged": "2020-06-11T13:38:18.2181419+02:00",
     "ChildItems": [
       {
-        "Id": 20,
-        "Name": "Huel, Ruecker and Kub",
-        "ToolTip": "Modi corporis sit.",
+        "Id": 331,
+        "Name": "Windler-Ferry",
+        "ToolTip": "Molestiae repellendus rerum fuga ut.",
         "Deleted": false,
-        "Rank": 465,
-        "Type": "est",
-        "ColorBlock": 864,
-        "IconHint": "fugiat",
-        "Selected": true,
-        "LastChanged": "2012-12-30T11:06:43.0534497+01:00",
+        "Rank": 122,
+        "Type": "eligendi",
+        "ColorBlock": 620,
+        "IconHint": "porro",
+        "Selected": false,
+        "LastChanged": "2004-06-06T13:38:18.2181419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "at",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "cupiditate",
         "Hidden": true,
-        "FullName": "Mrs. Davin Zemlak"
+        "FullName": "Maureen Schiller"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Zola Powlowski"
+    "ExtraInfo": "culpa",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Clara Alta Powlowski I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Schiller Inc and Sons",
-    "ToolTip": "Qui ullam.",
+    "Id": 517,
+    "Name": "McLaughlin, Schmeler and Mosciski",
+    "ToolTip": "Molestiae maiores dignissimos dolor.",
     "Deleted": false,
-    "Rank": 536,
-    "Type": "corrupti",
-    "ColorBlock": 257,
-    "IconHint": "quidem",
-    "Selected": false,
-    "LastChanged": "2000-05-28T11:06:43.0534497+02:00",
+    "Rank": 144,
+    "Type": "fuga",
+    "ColorBlock": 876,
+    "IconHint": "libero",
+    "Selected": true,
+    "LastChanged": "2023-08-24T13:38:18.2181419+02:00",
     "ChildItems": [
       {
-        "Id": 303,
-        "Name": "Lesch Inc and Sons",
-        "ToolTip": "Quasi dolore ea ut non nostrum et ut.",
+        "Id": 408,
+        "Name": "Yost-Konopelski",
+        "ToolTip": "Ipsam voluptas laudantium culpa dicta voluptatem aut inventore.",
         "Deleted": false,
-        "Rank": 874,
-        "Type": "non",
-        "ColorBlock": 139,
-        "IconHint": "quia",
+        "Rank": 414,
+        "Type": "occaecati",
+        "ColorBlock": 722,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2001-05-09T11:06:43.0534497+02:00",
+        "LastChanged": "1999-08-27T13:38:18.2181419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Kraig Bechtelar",
+        "ExtraInfo": "qui",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Prof. Marshall Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 688
+            "FieldType": "System.Int32",
+            "FieldLength": 131
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Hallie Dietrich",
+    "ExtraInfo": "hic",
+    "StyleHint": "a",
+    "Hidden": false,
+    "FullName": "Otis DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 650
+        "FieldLength": 90
       }
     }
   }

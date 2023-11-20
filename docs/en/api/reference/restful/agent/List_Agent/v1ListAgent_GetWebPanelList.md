@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 298,
-    "Name": "Hagenes-Hahn",
-    "Tooltip": "blanditiis",
-    "Deleted": true,
-    "Rank": 762,
+    "WebPanelId": 378,
+    "Name": "Durgan Group",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "Rank": 341,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Wehner Group",
+    "WindowName": "Durgan Group",
     "Url": "http://www.example.com/",
-    "ProgId": "maxime",
-    "Icon": 670,
+    "ProgId": "fuga",
+    "Icon": 500,
     "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldType": "System.String",
+        "FieldLength": 685
       }
     }
   }

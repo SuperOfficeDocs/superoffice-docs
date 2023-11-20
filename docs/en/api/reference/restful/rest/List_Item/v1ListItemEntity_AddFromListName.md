@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 231,
-  "Name": "Yost, Rau and Graham",
-  "Tooltip": "voluptatum",
+  "Id": 536,
+  "Name": "Crooks-Schneider",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "UdListDefinitionId": 526,
-  "Rank": 331
+  "UdListDefinitionId": 214,
+  "Rank": 920
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 524,
-  "Name": "Schultz LLC",
-  "Tooltip": "ipsam",
-  "Deleted": false,
-  "UdListDefinitionId": 340,
-  "Rank": 422,
+  "Id": 362,
+  "Name": "Carroll LLC",
+  "Tooltip": "ipsum",
+  "Deleted": true,
+  "UdListDefinitionId": 184,
+  "Rank": 971,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldType": "System.String",
+      "FieldLength": 59
     }
   }
 }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Value": "aut",
-    "Tooltip": "eos",
+    "Id": 520,
+    "Value": "est",
+    "Tooltip": "aperiam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldType": "System.String",
+        "FieldLength": 419
       }
     }
   },
   {
-    "Id": 724,
-    "Value": "aut",
-    "Tooltip": "eos",
+    "Id": 520,
+    "Value": "est",
+    "Tooltip": "aperiam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldType": "System.String",
+        "FieldLength": 419
       }
     }
   }

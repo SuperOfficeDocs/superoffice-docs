@@ -140,22 +140,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 364,
-  "Name": "Miller-Kuhn",
-  "Description": "Enhanced foreground process improvement",
-  "WelcomeMessage": "rerum",
+  "ChatTopicId": 258,
+  "Name": "Casper-Reilly",
+  "Description": "Realigned multi-state local area network",
+  "WelcomeMessage": "nam",
   "Language": null,
-  "LastAccept": "2012-07-30T11:06:41.5353656+02:00",
-  "SecondsPrAccept": 185,
-  "AlertRecipient": "adipisci",
+  "LastAccept": "2021-01-24T13:38:17.1868579+01:00",
+  "SecondsPrAccept": 135,
+  "AlertRecipient": "ad",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "tempora",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sed",
-  "WarnNewChatMinutes": 521,
-  "WarnManagerNewChatMinutes": 784,
-  "TicketEnabled": true,
+  "BadgeHeader": "doloremque",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "qui",
+  "WarnNewChatMinutes": 769,
+  "WarnManagerNewChatMinutes": 564,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -163,14 +163,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 744,
-  "WarnManagerChatMessageMinutes": 212,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 530,
+  "WarnManagerChatMessageMinutes": 232,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 20,
-  "OfflineFormQueueLength": 865,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "ea"
+  "OfflineFormTimeLimit": 915,
+  "OfflineFormQueueLength": 296,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "voluptates"
 }
 ```
 
@@ -181,48 +181,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 622,
-  "Name": "Gorczany Group",
-  "Description": "Quality-focused 4th generation parallelism",
-  "WelcomeMessage": "voluptas",
+  "ChatTopicId": 728,
+  "Name": "Johnson LLC",
+  "Description": "Optimized web-enabled portal",
+  "WelcomeMessage": "dicta",
   "Language": null,
-  "LastAccept": "2022-04-11T11:06:41.5353656+02:00",
-  "SecondsPrAccept": 716,
-  "AlertRecipient": "vitae",
+  "LastAccept": "2020-05-20T13:38:17.1868579+02:00",
+  "SecondsPrAccept": 664,
+  "AlertRecipient": "dolor",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "nostrum",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "numquam",
-  "WarnNewChatMinutes": 76,
-  "WarnManagerNewChatMinutes": 578,
+  "BadgeHeader": "itaque",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "sunt",
+  "WarnNewChatMinutes": 436,
+  "WarnManagerNewChatMinutes": 526,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 910,
-  "WarnManagerChatMessageMinutes": 113,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 288,
+  "WarnManagerChatMessageMinutes": 595,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 331,
-  "OfflineFormQueueLength": 287,
-  "WidgetEnableRating": false,
+  "OfflineFormTimeLimit": 494,
+  "OfflineFormQueueLength": 143,
+  "WidgetEnableRating": true,
   "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 895
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

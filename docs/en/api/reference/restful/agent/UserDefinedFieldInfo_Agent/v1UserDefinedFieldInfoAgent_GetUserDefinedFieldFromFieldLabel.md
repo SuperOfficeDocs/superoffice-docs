@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "quisquam",
+  "FieldLabel": "eos",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 908,
-  "ColumnId": 209,
-  "FieldDefault": "hic",
-  "FieldHeight": 478,
-  "FieldLabel": "ut",
-  "FieldLeft": 701,
-  "FieldTop": 103,
+  "UDefFieldId": 411,
+  "ColumnId": 317,
+  "FieldDefault": "et",
+  "FieldHeight": 670,
+  "FieldLabel": "facere",
+  "FieldLeft": 941,
+  "FieldTop": 178,
   "FieldType": "Checkbox",
-  "FieldWidth": 898,
-  "FormatMask": "beatae",
+  "FieldWidth": 43,
+  "FormatMask": "natus",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 650,
-  "LabelLeft": 498,
-  "LabelTop": 701,
-  "LabelWidth": 846,
-  "LastVersionId": 992,
-  "ListTableId": 462,
+  "IsIndexed": false,
+  "LabelHeight": 641,
+  "LabelLeft": 238,
+  "LabelTop": 18,
+  "LabelWidth": 266,
+  "LastVersionId": 745,
+  "ListTableId": 814,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 455,
-  "ProgId": "praesentium",
+  "Page1LineNo": 87,
+  "ProgId": "impedit",
   "IsReadOnly": false,
-  "ShortLabel": "illum",
-  "TabOrder": 216,
-  "TextLength": 942,
-  "Tooltip": "et",
-  "UdefIdentity": 361,
-  "UDListDefinitionId": 483,
+  "ShortLabel": "dolor",
+  "TabOrder": 364,
+  "TextLength": 477,
+  "Tooltip": "assumenda",
+  "UdefIdentity": 257,
+  "UDListDefinitionId": 572,
   "Justification": "Center",
-  "Version": 166,
-  "TemplateVariableName": "Nienow Inc and Sons",
+  "Version": 899,
+  "TemplateVariableName": "Harvey, Schmeler and Casper",
   "HasBeenPublished": false,
-  "MdoListName": "Herman, Fadel and Cartwright",
+  "MdoListName": "Eichmann LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 76
     }
   }
 }

@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 981,
-  "AssociateId": 727,
-  "Caption": "dolorem",
+  "DashboardId": 858,
+  "AssociateId": 308,
+  "Caption": "nihil",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 409,
-      "Caption": "sunt",
-      "Description": "Cross-platform user-facing solution",
-      "ChartName": "Kihn, Keeling and O'Connell",
-      "ChartId": "eius",
+      "DashboardTileId": 44,
+      "Caption": "autem",
+      "Description": "Intuitive reciprocal monitoring",
+      "ChartName": "Kuhic Inc and Sons",
+      "ChartId": "deserunt",
       "IsDefault": false,
-      "AssociateId": 850,
-      "GroupId": 229,
-      "SelectionId": 731,
-      "Config": "animi",
+      "AssociateId": 856,
+      "GroupId": 547,
+      "SelectionId": 329,
+      "Config": "illo",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 327,
-  "AssociateId": 64,
-  "Caption": "quia",
+  "DashboardId": 81,
+  "AssociateId": 802,
+  "Caption": "quos",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 828,
-      "Caption": "reiciendis",
-      "Description": "Realigned static matrix",
-      "ChartName": "Nitzsche Inc and Sons",
-      "ChartId": "tempore",
+      "DashboardTileId": 142,
+      "Caption": "laboriosam",
+      "Description": "Innovative tertiary hub",
+      "ChartName": "Walter-Corwin",
+      "ChartId": "autem",
       "IsDefault": false,
-      "AssociateId": 167,
-      "GroupId": 134,
-      "SelectionId": 332,
-      "Config": "quidem",
+      "AssociateId": 572,
+      "GroupId": 912,
+      "SelectionId": 262,
+      "Config": "culpa",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldType": "System.Int32",
+          "FieldLength": 422
         }
       }
     }
@@ -166,13 +166,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

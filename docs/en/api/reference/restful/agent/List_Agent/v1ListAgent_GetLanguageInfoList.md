@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 570,
-    "LCID": 881,
-    "EnglishName": "Smitham, Moen and Windler",
-    "NativeName": "Kuhlman-O'Reilly",
-    "ThreeLetterISOLanguageName": "Balistreri-O'Conner",
-    "TwoLetterISOLanguageName": "Mohr-Olson",
+    "LanguageInfoId": 684,
+    "LCID": 323,
+    "EnglishName": "Stark-Langworth",
+    "NativeName": "Pollich-Haag",
+    "ThreeLetterISOLanguageName": "Jerde, Green and Larson",
+    "TwoLetterISOLanguageName": "Marks, Kihn and Littel",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldLength": 404
       }
     }
   }

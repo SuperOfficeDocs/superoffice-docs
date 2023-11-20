@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 556,
-    "Name": "Stroman, O'Kon and Rippin",
-    "OrgNr": "535487",
+    "ContactId": 999,
+    "Name": "Ryan, Roberts and Ledner",
+    "OrgNr": "1736667",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "tenetur",
-    "DirectPhone": "1-210-396-4567 x7779",
-    "AssociateId": 304,
-    "CountryId": 453,
-    "EmailAddress": "flavie@veum.info",
-    "Kananame": "ut",
-    "EmailAddressName": "marcos@ferrywillms.name",
+    "City": "adipisci",
+    "DirectPhone": "976-787-8234 x1479",
+    "AssociateId": 424,
+    "CountryId": 282,
+    "EmailAddress": "judah_koch@hauck.info",
+    "Kananame": "placeat",
+    "EmailAddressName": "joey_harris@mcglynn.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Marisol Borer",
+    "AssociateFullName": "Reese Sophie Smitham PhD",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "alias",
-    "FullName": "Dr. Janis Misty Collins DVM",
+    "FormattedAddress": "quis",
+    "FullName": "Peggie O'Connell",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 549,
-    "Number1": "681067",
-    "Number2": "893344",
+    "ActiveErpLinks": 945,
+    "Number1": "941035",
+    "Number2": "260975",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldType": "System.String",
+        "FieldLength": 769
       }
     }
   }

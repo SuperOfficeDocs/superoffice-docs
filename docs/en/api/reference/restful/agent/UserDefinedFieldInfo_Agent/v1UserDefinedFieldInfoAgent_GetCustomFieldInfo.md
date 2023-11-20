@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Grant LLC",
-  "FieldName": "King, Hermann and Streich"
+  "TableName": "Christiansen, Renner and Mraz",
+  "FieldName": "Hickle, Carter and Kassulke"
 }
 ```
 
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Casper LLC",
-  "DisplayName": "Rau Group",
-  "Description": "Expanded modular capability",
-  "ShortLabel": "fugit",
+  "FieldName": "Jewess-Bartell",
+  "DisplayName": "Schuppe-Grimes",
+  "Description": "Open-source tertiary emulation",
+  "ShortLabel": "iure",
   "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": true,
-  "Rank": 221,
-  "TemplateVariableName": "Bartoletti LLC"
+  "HideField": false,
+  "IsIndexed": true,
+  "IsMandatory": true,
+  "IsReadOnly": true,
+  "IsExternal": false,
+  "Rank": 56,
+  "TemplateVariableName": "Green-Cole"
 }
 ```

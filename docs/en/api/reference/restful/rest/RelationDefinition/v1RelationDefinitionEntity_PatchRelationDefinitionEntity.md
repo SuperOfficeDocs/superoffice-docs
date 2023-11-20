@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "tempore",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "tempore",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 985,
-  "Name": "Beier Group",
-  "Tooltip": "ipsam",
-  "PassiveText": "non",
+  "ReldefId": 65,
+  "Name": "Collins-Ryan",
+  "Tooltip": "ab",
+  "PassiveText": "eum",
   "Deleted": false,
-  "Rank": 877,
+  "Rank": 977,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,12 +152,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 272
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```
