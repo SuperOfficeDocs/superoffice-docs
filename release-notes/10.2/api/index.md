@@ -13,9 +13,6 @@ so.topic: reference
 
 ## New Archive provider
 
-* v10.2.8
-  * [Appointmenthadowselectioncombined][150]
-
 * v10.2.6
   * [EmailFlowContentProvider][120]
   * [ExternalDocumentItems][121]
@@ -45,6 +42,10 @@ so.topic: reference
   * [Recycle ticket][2]
 
 ## New MDO Providers
+
+* v10.2.10
+  * [EmailPhone][210]
+  * [WorkflowSplitOptionType][211]
 
 * v10.2.9
   * [ShipmentLinks][180]
@@ -95,11 +96,13 @@ so.topic: reference
 |IAIAgent          | SummarizeText                          |10.2.9   | [REST Link][194]| [SOAP Link][206] |
 |IAIAgent          | SummarizeTicket                        |10.2.9   | [REST Link][195]| [SOAP Link][207] |
 |IAppointmentAgent | CleanUpBookingDeletedWithUpdateMode    |10.2.3   | [REST Link][44] | [SOAP Link][45] |
-|IAppointmentAgent | CreateAppointmentEntityFromExisting    |10.2.8   | [REST Link][137]| [REST Link][138]|
+|IAppointmentAgent | CreateAppointmentEntityFromExisting    |10.2.8   | [REST Link][137]| [SOAP Link][138]|
+|IAppointmentAgent | GetNextAvailableTime                   |10.2.10  | [REST Link][213]| [SOAP Link][212]|
 |IAppointmentAgent | SetSeenMany                            |10.2.2   | [REST Link][60] | [SOAP Link][61] |
 |IArchiveAgent     | GetRelatedData                         |10.2.1   | [REST Link][8]  | [SOAP Link][26] |
 |IArchiveAgent     | GetRelatedData2                        |10.2.1   | [REST Link][9]  | [SOAP Link][27] |
 |IAssociateAgent   | GetEncryptionKey                       |10.2.6   | [REST Link][123]| [SOAP Link][124]|
+|IContactAgent     | GetDomainDuplicates                    |10.2.10  | [REST Link][214]| [SOAP Link][215]|
 |ICRMScriptAgent   | ExecuteScriptByString                  |10.2.8   | [REST Link][139]| [SOAP Link][143]|
 |ICRMScriptAgent   | ValidateScriptByString                 |10.2.8   | [REST Link][144]| [SOAP Link][145]|
 |IDiagnosticsAgent | GetEntityCountsForCurrentUser          |10.2.4   | [REST Link][76] | [SOAP Link][98] |
@@ -119,6 +122,7 @@ so.topic: reference
 |IListAgent        | GetAppTaskMenus                        |10.2.1   | [REST Link][14] | [SOAP Link][32] |
 |IListAgent        | GetTaskMenu                            |10.2.1   | [REST Link][15] | [SOAP Link][33] |
 |IListAgent        | GetTaskMenuByProgId                    |10.2.1   | [REST Link][16] | [SOAP Link][34] |
+|IListAgent        | GlobalChangeTicketType                 |10.2.10  | [REST Link][216]| [SOAP Link][217]|
 |IListAgent        | SaveTaskMenu                           |10.2.1   | [REST Link][17] | [SOAP Link][35] |
 |IListAgent        | SaveTicketTypeEntity                   |10.2.8   | [REST Link][161]| [SOAP Link][162]|
 |IMarketingAgent   | GetFormSubmissionsCount                |10.2.2   | [REST Link][17] | [SOAP Link][35] |
@@ -128,9 +132,11 @@ so.topic: reference
 |IPersonAgent      | GetPersonImages                        |10.2.1   | [REST Link][19] | [SOAP Link][37] |
 |IPersonAgent      | GetUserCandidateByPerson               |10.2.4   | [REST Link][80] | [SOAP Link][102]|
 |IPersonAgent      | SendEmail                              |10.2.4   | [REST Link][81] | [SOAP Link][103]|
+|IPersonAgent      | SendEmailWithEventName                 |10.2.10  | [REST Link][218]| [SOAP Link][219]|
 |ITicketAgent      | ClearNotify                            |10.2.3   | [REST Link][46] | [SOAP Link][47] |
 |ITicketAgent      | CopyFromCRMDocument                    |10.2.3   | [REST Link][48] | [SOAP Link][49] |
 |ITicketAgent      | CopyToTempFile                         |10.2.6   | [REST Link][125]| [SOAP Link][126]|
+|ITicketAgent      | GetDefaultMessageContentFull           |10.2.10  | [REST Link][220]| [SOAP Link][221]|
 |ITicketAgent      | GetNextInQueue                         |10.2.3   | [REST Link][50] | [SOAP Link][51] |
 |ITicketAgent      | GetTicketMessageEntities               |10.2.9   | [REST Link][196]| [SOAP Link][208]   |
 |ITicketAgent      | GetTicketMessageWithOptions            |10.2.1   | [REST Link][20] | [SOAP Link][38] |
@@ -149,11 +155,10 @@ so.topic: reference
 |IWorkflowAgent    | CreateDefaultWorkflowFilter            |10.2.4   | [REST Link][84] | [SOAP Link][106]|
 |IWorkflowAgent    | CreateDefaultWorkflowGoal              |10.2.4   | [REST Link][85] | [SOAP Link][107]|
 |IWorkflowAgent    | CreateDefaultWorkflowStepFromType      |10.2.4   | [REST Link][86] | [SOAP Link][108]|
-|IWorkflowAgent    | CreateDefaultWorkflowStepOption        |10.2.4   | [REST Link][87] | [SOAP Link][109]|
+|IWorkflowAgent    | CreateDefaultWorkflowStepOptionFromType|10.2.10  | [REST Link][222]| [SOAP Link][223]|
 |IWorkflowAgent    | CreateDefaultWorkflowTrigger           |10.2.4   | [REST Link][88] | [SOAP Link][110]|
 |IWorkflowAgent    | CreateEmailFlowContent                 |10.2.6/8 | [REST Link][129]| [SOAP Link][130]|
 |IWorkflowAgent    | DeleteWorkflowGoal                     |10.2.4   | [REST Link][89] | [SOAP Link][111]|
-|IWorkflowAgent    | DeleteWorkflowStepOption               |10.2.4   | [REST Link][90] | [SOAP Link][112]|
 |IWorkflowAgent    | DeleteWorkflowTrigger                  |10.2.4   | [REST Link][91] | [SOAP Link][113]|
 |IWorkflowAgent    | GetWorkflowGoal                        |10.2.4   | [REST Link][92] | [SOAP Link][114]|
 |IWorkflowAgent    | GetWorkflowStepOption                  |10.2.4   | [REST Link][93] | [SOAP Link][115]|
@@ -161,7 +166,6 @@ so.topic: reference
 |IWorkflowAgent    | RemoveParticipantsFromEmailFlow        |10.2.8   | [REST Link][171]| [SOAP Link][172]|
 |IWorkflowAgent    | Run                                    |10.2.8   | [REST Link][173]| [SOAP Link][174]|
 |IWorkflowAgent    | SaveWorkflowGoal                       |10.2.4   | [REST Link][95] | [SOAP Link][117]|
-|IWorkflowAgent    | SaveWorkflowStepOption                 |10.2.4   | [REST Link][96] | [SOAP Link][118]|
 |IWorkflowAgent    | SaveWorkflowTrigger                    |10.2.4   | [REST Link][97] | [SOAP Link][119]|
 |IWorkflowAgent    | SendEvent                              |10.2.8   | [REST Link][175]| [SOAP Link][176]|
 
@@ -172,6 +176,10 @@ so.topic: reference
 |ITicketAgent      | SaveTicketMessageEntityWithOptions    |10.2.4   |                                   |
 |ITicketAgent      | SplitTicket                           |10.2.8   | Added two new arguments.          |
 |IWorkflowAgent    | CreateEmailFlowContent                |10.2.8   | Added one new argument            |
+|IWorkflowAgent    | CreateDefaultWorkflowStepOption       |10.2.10  | Deleted                           |
+|IWorkflowAgent    | DeleteWorkflowStepOption              |10.2.10  | Deleted                           |
+|IWorkflowAgent    | SaveWorkflowStepOption                |10.2.10  | Deleted                           |
+
 
 ## NetServer Core changes
 
@@ -252,6 +260,7 @@ services.AddLogging(a =>
 * [Version 10.2.6][135]
 * [Version 10.2.8][136]
 * [Version 10.2.9][209]
+* [Version 10.2.10][224]
 
 <!-- Referenced links-->
 [1]: 10.2.1-update.md
@@ -339,16 +348,13 @@ services.AddLogging(a =>
 [84]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowFilter.md
 [85]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowGoal.md
 [86]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepFromType.md
-[87]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepOption.md
 [88]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowTrigger.md
 [89]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_DeleteWorkflowGoal.md
-[90]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_DeleteWorkflowStepOption.md
 [91]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_DeleteWorkflowTrigger.md
 [92]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_GetWorkflowGoal.md
 [93]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_GetWorkflowStepOption.md
 [94]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_GetWorkflowTrigger.md
 [95]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveWorkflowGoal.md
-[96]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveWorkflowStepOption.md
 [97]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveWorkflowTrigger.md
 [98]: ../../../docs/en/api/reference/soap/Services88/Diagnostics/GetEntityCountsForCurrentUser.md
 [99]: ../../../docs/en/api/reference/soap/Services88/EMail/ResolveEMailRecipients.md
@@ -361,16 +367,13 @@ services.AddLogging(a =>
 [106]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowFilter.md
 [107]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowGoal.md
 [108]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowStepFromType.md
-[109]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowStepOption.md
 [110]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowTrigger.md
 [111]: ../../../docs/en/api/reference/soap/Services88/Workflow/DeleteWorkflowGoal.md
-[112]: ../../../docs/en/api/reference/soap/Services88/Workflow/DeleteWorkflowStepOption.md
 [113]: ../../../docs/en/api/reference/soap/Services88/Workflow/DeleteWorkflowTrigger.md
 [114]: ../../../docs/en/api/reference/soap/Services88/Workflow/GetWorkflowGoal.md
 [115]: ../../../docs/en/api/reference/soap/Services88/Workflow/GetWorkflowStepOption.md
 [116]: ../../../docs/en/api/reference/soap/Services88/Workflow/GetWorkflowTrigger.md
 [117]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowGoal.md
-[118]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowStepOption.md
 [119]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowTrigger.md
 [120]: ../../../docs/en/api/archive-providers/reference/externaldocumentfolders.md
 [121]: ../../../docs/en/api/archive-providers/reference/externaldocumentitems.md
@@ -405,8 +408,6 @@ services.AddLogging(a =>
 
 [148]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_CreateDefaultTicketTypeEntity.md
 [149]: ../../../docs/en/api/reference/soap/Services88/List/CreateDefaultTicketTypeEntity.md
-
-[150]: ../../../docs/en/api/archive-providers/reference/appointmenthadowselectioncombined.md
 
 [151]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_DeleteTicketTypeEntity.md
 [152]: ../../../docs/en/api/reference/soap/Services88/List/DeleteTicketTypeEntity.md
@@ -483,3 +484,26 @@ services.AddLogging(a =>
 [207]: ../../../docs/en/api/reference/soap/Services88/AI/SummarizeTicket.md
 [208]: ../../../docs/en/api/reference/soap/Services88/Ticket/GetTicketMessageEntities.md
 [209]: 10.2.9-update.md
+
+[210]: ../../../docs/en/api/mdo-providers/reference/emailphone.md
+[211]: ../../../docs/en/api/mdo-providers/reference/workflowsplitoptiontype.md
+
+[212]: ../../../docs/en/api/reference/soap/Services88/Appointment/GetNextAvailableTime.md
+[213]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_GetNextAvailableTime.md
+
+[214]: ../../../docs/en/api/reference/restful/agent/Contact_Agent/v1ContactAgent_GetDomainDuplicates.md
+[215]: ../../../docs/en/api/reference/soap/Services88/Contact/GetDomainDuplicates.md
+
+[216]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_GlobalChangeTicketType.md
+[217]: ../../../docs/en/api/reference/soap/Services88/List/GlobalChangeTicketType.md
+
+[218]: ../../../docs/en/api/reference/restful/agent/Person_Agent/v1PersonAgent_SendEmailWithEventName.md
+[219]: ../../../docs/en/api/reference/soap/Services88/Person/SendEmailWithEventName.md
+
+[220]: ../../../docs/en/api/reference/restful/agent/Ticket_Agent/v1TicketAgent_GetDefaultMessageContentFull.md
+[221]: ../../../docs/en/api/reference/soap/Services88/Ticket/GetDefaultMessageContentFull.md
+
+[222]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepOptionFromType.md
+[223]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowStepOptionFromType.md
+
+[224]: 10.2.10-update.md
