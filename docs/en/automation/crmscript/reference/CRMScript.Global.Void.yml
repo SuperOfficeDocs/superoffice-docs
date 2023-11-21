@@ -51,6 +51,7 @@ items:
   - CRMScript.Global.Void.faqSearch(Integer,Integer,String,Parser,Integer)
   - CRMScript.Global.Void.findReplyTemplateToMerge(Integer)
   - CRMScript.Global.Void.flushCaches()
+  - CRMScript.Global.Void.forceSaveTrace(Bool)
   - CRMScript.Global.Void.forwardMail(String,String,Integer)
   - CRMScript.Global.Void.GenericToArray(Generic)
   - CRMScript.Global.Void.GenericToBool(Generic)
@@ -1307,6 +1308,29 @@ items:
     return:
       type: CRMScript.Global.Void
   example: 
+- uid: CRMScript.Global.Void.forceSaveTrace(Bool)
+  commentId: M:CRMScript.Global.Void.forceSaveTrace(Bool)
+  id: 'forceSaveTrace(Bool)'
+  so.intellisense: Void.forceSaveTrace
+  so.version: 10.2.11
+  langs:
+  - crmscript
+  name: 'forceSaveTrace(Bool)'
+  nameWithType: Void.forceSaveTrace(Bool)
+  fullName: CRMScript.Global.Void.forceSaveTrace(Bool)
+  type: Method
+  summary: "If there is a script trace enabled for the current script, with the exception-only flag set, calling this method with true as the parameter will make the trace become saved, just like if there was an unhandled exception.\n"
+  remarks: 
+  syntax: 
+    content: Void forceSaveTrace(Bool)
+    parameters: 
+    - id: doSave
+      type: CRMScript.Global.Bool
+      description: "Whether to save or not"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>forceSaveTrace(true);</code></pre>Will save the trace if the other conditions are met.\n"
 - uid: CRMScript.Global.Void.forwardMail(String,String,Integer)
   commentId: M:CRMScript.Global.Void.forwardMail(String,String,Integer)
   id: 'forwardMail(String,String,Integer)'
