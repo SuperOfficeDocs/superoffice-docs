@@ -1312,7 +1312,7 @@ items:
   commentId: M:CRMScript.Global.Void.forceSaveTrace(Bool)
   id: 'forceSaveTrace(Bool)'
   so.intellisense: Void.forceSaveTrace
-  so.version: 7.0
+  so.version: 10.2.11
   langs:
   - crmscript
   name: 'forceSaveTrace(Bool)'
