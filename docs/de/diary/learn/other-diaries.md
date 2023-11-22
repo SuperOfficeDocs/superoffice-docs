@@ -23,7 +23,7 @@ Wenn Sie auf den Namen eines Benutzers oder einer Ressource klicken, wird dieser
 3. Der Kalender des anderen Benutzers bzw. der Ressource wird geöffnet und sein bzw. ihr Name (nicht der eigene) oben rechts in der Ansicht Kalender angezeigt. Es wird auch die Aktivitätenliste des anderen Benutzers bzw. der Ressource angezeigt.
 
 > [!NOTE]
-> Andere Benutzer werden rot unterstrichen und mit dem ![Symbol][img2] angezeigt, während Ressourcen mit dem ![Symbol][img3] und blau unterstrichen angezeigt werden.
+> Andere Benutzer werden rot unterstrichen und mit dem ![Symbol][img2] angezeigt. Ressourcen werden mit dem ![Symbol][img3] und blau unterstrichen angezeigt.
 
 Wenn Sie den Kalender eines anderen Benutzers bzw. einer anderen Ressource öffnen, können Sie zwischen den verschiedenen Registerkarten wie in Ihrem eigenen Kalender wechseln und in den Kalendern durch Klicken und Wählen von Zeiträumen mit der Maus [Folgeaufgaben erstellen][2], sofern Sie über die Rechte verfügen.
 

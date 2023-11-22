@@ -155,7 +155,7 @@ Den här fliken innehåller information om URL:er, aktiviteter (dokument och hä
 
 ## Fliken Mer
 
-På den här fliken visas alla [egendefinierade fält][14] som har konfigurerats under Inställningar och underhåll.
+På den här fliken visas alla [egendefinierade fält][14] som har konfigurerats under Inställningar och underhåll. Om inte konfigurerat visas inte den här fliken.
 
 <!-- Referenced links -->
 [1]: ../follow-ups.md

@@ -155,7 +155,7 @@ Dit tabblad bevat informatie over URL's, activiteiten (documenten en vervolgacti
 
 ## Het tabblad Meer
 
-Op dit tabblad worden alle [aangepaste velden][14] weergegeven die zijn geconfigureerd in Instellingen en onderhoud.
+Op dit tabblad worden alle [aangepaste velden][14] weergegeven die zijn geconfigureerd in Instellingen en onderhoud. Indien niet geconfigureerd, wordt deze tab niet weergegeven.
 
 <!-- Referenced links -->
 [1]: ../follow-ups.md

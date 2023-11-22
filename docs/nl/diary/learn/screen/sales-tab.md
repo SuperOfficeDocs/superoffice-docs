@@ -47,7 +47,7 @@ Verkopen die niet als voltooid zijn gemarkeerd worden in deze lijst weergegeven.
 * Alle verkopen met geplande activiteiten voor een bepaald aantal dagen van tevoren.
 
     > [!NOTE]
-    > Het aantal dagen van tevoren, op basis van de datum van de volgende activiteit, is een voorkeur. Als u dit wilt wijzigen, gaat u naar ![pictogram][img5] **Persoonlijke instellingen &gt; Voorkeuren** en selecteert u **Functies** > **Aantal dagen van tevoren weergeven**.
+    > Het aantal dagen van tevoren, op basis van de datum van de volgende activiteit, is een voorkeur. Als u dit wilt wijzigen, gaat u naar ![pictogram][img5] **Persoonlijke instellingen** > **Voorkeuren** en selecteert u **Functies** > **Aantal dagen van tevoren weergeven**.
 
 * Alle verkopen met nog niet uitgevoerde activiteiten (einddatum is eerder dan vandaag). Deze verkopen worden rood weergegeven.
 

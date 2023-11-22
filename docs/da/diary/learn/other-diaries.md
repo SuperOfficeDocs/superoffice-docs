@@ -23,7 +23,7 @@ Hvis du klikker på en brugers eller en ressources navn, bliver denne bruger ell
 3. Dagbogen for den anden bruger eller ressource åbnes, og deres navn (ikke dit eget) vises øverst til højre på dagbogsskærmen. Listen over aktiviteter for den anden bruger eller ressource vises også.
 
 > [!NOTE]
-> Andre brugere vises med ikonet ![ikon][img2] og rød understregning, mens ressourcer vises med ikonet ![ikon][img3] og blå understregning.
+> Andre brugere vises med ikonet ![ikon][img2] og rød understregning. Ressourcer vises med ikonet ![ikon][img3] og blå understregning.
 
 Når du åbner en anden brugers eller ressources dagbog, kan du skifte mellem de forskellige faner som i din egen dagbog, og du kan [oprette opfølgninger][2] i deres dagbøger ved at klikke og vælge tidsperioder med musen, forudsat at du har adgangsrettighederne.
 

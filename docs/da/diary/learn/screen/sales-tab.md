@@ -47,7 +47,7 @@ Fanen **Salgssektion** i dagbogen fungerer som en slags "salgssekretær", der hj
 * Alt salg med planlagte aktiviteter for et bestemt antal dage frem.
 
     > [!NOTE]
-    > Antallet af kommende dage, baseret på den næste aktivitetsdato, er en præference. For at ændre det skal du gå til ![ikon][img5] **Personlige indstillinger &gt; Indstillinger** og vælge **Funktioner** > **Vis kommende dage**.
+    > Antallet af kommende dage, baseret på den næste aktivitetsdato, er en præference. For at ændre det skal du gå til ![ikon][img5] **Personlige indstillinger** > **Indstillinger** og vælge **Funktioner** > **Vis kommende dage**.
 
 * Alle salg med forfaldne aktiviteter (slutdatoen er tidligere end i dag). Disse salg vises med rødt.
 

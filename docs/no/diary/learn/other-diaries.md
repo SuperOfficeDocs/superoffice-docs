@@ -23,7 +23,7 @@ Hvis du klikker på navnet til en bruker eller ressurs, blir denne brukeren elle
 3. Dagboken til den andre brukeren eller ressursen åpnes, og navnet deres (ikke ditt eget) vises øverst til høyre i Dagbok-bildet. Du får også se aktivitetslisten til den andre brukeren eller ressursen.
 
 > [!NOTE]
-> Andre brukere vises med ![ikon][img2] ikonet og en rød strek under navnet, mens ressurser vises med ![ikon][img3] ikonet og en blå strek under navnet.
+> Andre brukere vises med ![ikon][img2] ikonet og en rød strek under navnet. Ressurser vises med ![ikon][img3] ikonet og en blå strek under navnet.
 
 Når du er inne i dagboken til en annen bruker eller ressurs, kan du skifte mellom de ulike fanene som i din egen dagbok, og du kan [opprette oppfølginger][2] i deres dagbøker ved å klikke og velge tidsperioder med musen, hvis du har rettigheter til dette.
 

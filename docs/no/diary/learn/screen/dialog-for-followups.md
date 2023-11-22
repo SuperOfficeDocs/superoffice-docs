@@ -155,7 +155,7 @@ Denne fanen inneholder informasjon om nettadresser, aktiviteter (dokumenter og o
 
 ## Fanen Mer
 
-Denne fanen viser eventuelle [egendefinerte felt][14] som er konfigurert i Innstillinger og vedlikehold.
+Denne fanen viser eventuelle [egendefinerte felt][14] som er konfigurert i Innstillinger og vedlikehold. Hvis ikke konfigurert, vises ikke denne fanen.
 
 <!-- Referenced links -->
 [1]: ../follow-ups.md

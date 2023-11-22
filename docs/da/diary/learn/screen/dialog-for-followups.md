@@ -155,7 +155,7 @@ Denne fane indeholder oplysninger om URL-adresser, aktiviteter (dokumenter og op
 
 ## Fanen Mere
 
-Denne fane viser alle [brugerdefinerede felter][14], der er konfigureret i Indstillinger og vedligeholdelse.
+Denne fane viser alle [brugerdefinerede felter][14], der er konfigureret i Indstillinger og vedligeholdelse. Hvis ikke konfigureret, vises denne fane ikke.
 
 <!-- Referenced links -->
 [1]: ../follow-ups.md

@@ -23,7 +23,7 @@ Om du klickar på namnet för en användare eller resurs blir denne ägare av ka
 3. Den andra användarens eller resursens kalender öppnas och användarens/resursens namn (inte ditt eget) visas längst upp till höger i Kalender-fönstret. Aktivitetslistan för den andra användaren eller resursen visas också.
 
 > [!NOTE]
-> Andra användare visas med ![ikon][img2]-ikonen och röd understrykning, medan resurser visas med ![ikon][img3]-ikonen och blå understrykning.
+> Andra användare visas med ![ikon][img2]-ikonen och röd understrykning. Resurser visas med ![ikon][img3]-ikonen och blå understrykning.
 
 När du öppnar en annan användares eller resurs kalender kan du växla mellan de olika flikarna på samma sätt som i din egen kalender, och du kan [skapa händelser][2] i deras kalendrar genom att klicka och välja tidsperioder med musen, förutsatt att du har behörighet.
 

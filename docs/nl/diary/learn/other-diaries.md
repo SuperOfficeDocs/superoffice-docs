@@ -23,7 +23,7 @@ Als u op de naam van een gebruiker of bron klikt, wordt deze gebruiker of bron d
 3. De agenda voor de andere gebruiker of bron wordt geopend en hun naam (niet die van u) wordt weergegeven in de rechterbovenhoek van het scherm Agenda. De activiteitenlijst voor de andere gebruiker of bron wordt ook weergegeven.
 
 > [!NOTE]
-> Andere gebruikers worden rood onderstreept weergegeven met het ![pictogram][img2] pictogram; bronnen worden blauw onderstreept weergegeven met het ![pictogram][img3] pictogram.
+> Andere gebruikers worden rood onderstreept weergegeven met het ![pictogram][img2] pictogram. Bronnen worden blauw onderstreept weergegeven met het ![pictogram][img3] pictogram.
 
 Wanneer u zich bevindt in de agenda van een andere gebruiker of een bron, kunt u net als in uw eigen agenda schakelen tussen de verschillende tabbladen. U kunt [vervolgactiviteiten maken][2] in de andere agenda door op deze activiteiten te klikken met de muis en vervolgens de gepaste tijdsperiodes te selecteren, mits u daarvoor de toegangsrechten hebt.
 

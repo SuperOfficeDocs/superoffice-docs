@@ -155,7 +155,7 @@ Diese Registerkarte enthält Informationen zu URLs, Aktivitäten (Dokumente und 
 
 ## Registerkarte Mehr
 
-Auf dieser Registerkarte finden Sie alle [benutzerdefinierten Felder][14], die in Einstellungen und Verwaltung konfiguriert wurden.
+Auf dieser Registerkarte finden Sie alle [benutzerdefinierten Felder][14], die in Einstellungen und Verwaltung konfiguriert wurden. Wenn nicht konfiguriert, wird dieser Tab nicht angezeigt.
 
 <!-- Referenced links -->
 [1]: ../follow-ups.md
