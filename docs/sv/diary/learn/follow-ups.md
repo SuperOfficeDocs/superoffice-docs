@@ -11,7 +11,7 @@ language: sv
 
 # Händelser
 
-*Händelse* är ett samlingsbegrepp för[möte](#meeting) och [att göra](#todo). Ett [telefonsamtal](call) är en hybrid av de båda. Händelser är nära kopplade till Kalender-fönstret och fungerar på i stort sett samma sätt.
+*Händelse* är ett samlingsbegrepp för[möte](#meeting) och [att göra](#todo). Ett [telefonsamtal](#call) är en hybrid av de båda. Händelser är nära kopplade till Kalender-fönstret och fungerar på i stort sett samma sätt.
 
 Öppna en befintlig händelse genom att dubbelklicka på den i kalendern eller i detaljkortet **Aktiviteter**.
 
@@ -77,9 +77,7 @@ Som standard hittar du uppgifter på dagbokens "att göra"-lista, där de kan bo
 
 ## <a id="call" />Händelse (samtal)
 
-Ett *samtal* är en händelse som representerar en mycket specifik åtgärd - telefonsamtalet. Till exempel vill du registrera ett utgående telefonsamtal.
-
-Det är också något av en hybrid mellan en möte och en uppgift:
+Ett *samtal* representerar en mycket specifik handling - telefonsamtalet - och är en hybrid mellan ett möte och en att göra:
 
 * När du först planerar ett samtal, finns det i att göra-listan med en deadline, precis som en uppgift.
 * När du genomför samtalet, fixeras det i tid och liknar nu en mötesbokning.

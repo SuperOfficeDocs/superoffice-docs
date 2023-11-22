@@ -13,28 +13,24 @@ language: de
 
 Der Kalender in SuperOffice CRM wird ganz ähnlich wie ein Zeitplaner verwendet und enthält separate Seiten für jeden Tag, jede Woche und jeden Monat.
 
+* **Kalender:** zeigt Einträge, die einem bestimmten Zeitpunkt oder Datum zugeordnet sind.
+* **Aufgabenliste:** zeigt Dinge, die du noch nicht abgeschlossen hast, hauptsächlich Anrufe und Aufgaben ohne festgelegte Zeit oder Datum.
+
 ![Tragen Sie alle Ihre Termine und Aufgaben im Kalender ein, um sie im Überblick zu behalten -screenshot][img3]
 
 Der Kalender ist bei der Planung und Ausführung verschiedener Arten von Aufgaben hilfreich. Vom Kalender aus können Sie [Aktivitäten][16] anzeigen, bearbeiten und löschen. Auf der Bereichsregisterkarte **Verkäufe** in der Ansicht Kalender finden Sie eine [Liste der Verkäufe][13], die Sie bearbeiten können.
 
-Durch die regelmäßige Nutzung des Kalenders können Sie Termine und Aktivitäten, die mit einer Person oder Firma verknüpft sind, automatisch verbinden und teilen, damit Sie und Ihr Team mühelos im Plan bleiben und produktiv arbeiten können.
+Regelmäßige Nutzung des Kalenders, bei der Aktivitäten mit einem Kontakt oder einem Unternehmen verbunden werden, stellt sicher, dass Sie und Ihr Team mühelos organisiert bleiben und eine reibungslose Zusammenarbeit sowie gesteigerte Produktivität fördern.
 
 ## <a id="open" />Kalender anzeigen
 
-Klicken Sie im Navigator auf **Kalender** und wählen Sie einen Zeitraum aus der angezeigten Liste aus, oder klicken Sie auf **Heute** oder **Diese Woche**, um zum aktuellen Tag oder zur aktuellen Woche zu wechseln. Oben rechts in der Ansicht Kalender wird Ihr Name angezeigt.
+Klicken Sie im Navigator auf **Kalender** und wählen Sie einen Zeitraum aus der angezeigten Liste aus, oder klicken Sie auf **Heute** oder **Diese Woche**, um zum aktuellen Tag oder zur aktuellen Woche zu wechseln. Oben rechts in der Ansicht Kalender wird Ihr Name angezeigt. Wenn sich zwei oder mehr Folgeaufgabe überschneiden, können Sie einen Teil jeder Nachverfolgung sehen.
 
-Wenn sich zwei oder mehr Folgeaufgabe überschneiden, können Sie einen Teil jeder Nachverfolgung sehen.
-
-Sie können den Kalender anderer Benutzer oder einer verfügbaren Ressource öffnen, um zum Beispiel ihre Verfügbarkeit zu überprüfen oder Folgeaufgaben für sie zu erstellen.
-
-Sie können auch die Kalender anderer Benutzer und Ressourcen in Ihrer Firma anzeigen, indem Sie [Gruppenansichten][2] in Ihrem eigenen Kalender aufrufen.
-
-> [!TIP]
-> In Einstellungen und Verwaltung können Sie festlegen, dass alle Folgeaufgaben eines bestimmten Typs in der Ansicht Kalender mit derselben Hintergrundfarbe angezeigt werden sollen.
+Sie können auf den Kalender eines anderen Benutzers oder einer verfügbaren Ressource zugreifen, um deren Verfügbarkeit zu überprüfen oder Folgeaufgabe direkt zu erstellen. Um mehrere Kalender gleichzeitig anzuzeigen, erstellen Sie eine [Gruppenansicht][2].
 
 ## <a id="nav" />In der Ansicht Kalender navigieren
 
-Der Kalender besteht aus [vier verschiedenen Registerkarten][24]: Registerkarte **Tag**, Registerkarte **Woche**, Registerkarte **Monat** und Registerkarte **Übersicht**. Sie können problemlos zwischen diesen Ansichten wechseln: Klicken Sie dazu einfach auf die Registerkarten oben in der Ansicht Kalender. Je nach Registerkarte wird oben der Tag, die Woche oder der Monat angezeigt.
+Der Kalender besteht aus [vier Registerkarten][24]: Registerkarte **Tag**, Registerkarte **Woche**, Registerkarte **Monat** und Registerkarte **Übersicht**. Sie können problemlos zwischen diesen Ansichten wechseln: Klicken Sie dazu einfach auf die Registerkarten oben in der Ansicht Kalender. Je nach Registerkarte wird oben der Tag, die Woche oder der Monat angezeigt.
 
 * Auf der Registerkarte **Tag**, **Woche** und **Monat** können Sie auf **Heute** oder **Diese Woche** klicken, um zum aktuellen Tag oder zur aktuellen Woche zu wechseln.
 

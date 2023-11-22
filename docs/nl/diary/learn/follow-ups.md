@@ -76,9 +76,7 @@ Standaard vind je taken in de dagboek "to-do"-lijst, waar ze kunnen worden afgev
 
 ## <a id="call" />Gesprek
 
-Een *gesprek* is een vervolgactiviteit die een zeer specifieke actie vertegenwoordigt - het telefoongesprek. Bijvoorbeeld, u wilt een uitgaand telefoongesprek invoeren.
-
-Het is ook een beetje een hybride tussen een vergadering en een taak:
+Een *gesprek* vertegenwoordigt een zeer specifieke handeling - het telefoongesprek - en is een hybride tussen een vergadering en een taak:
 
 * Wanneer u in eerste instantie een telefoongesprek plant, staat het op de "to-do"-lijst met een deadline, net als een taak.
 * Wanneer u het gesprek voert, wordt het vastgelegd in de tijd en lijkt het nu op een vergadering.

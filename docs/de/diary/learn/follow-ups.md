@@ -75,9 +75,7 @@ Standardmäßig finden Sie Aufgaben in der To-do-Liste dem Kalender, wo sie abge
 
 ## <a id="call" />Folgeaufgabe (Anruf)
 
-Ein *Anruf* ist eine Folgeaufgabe, die eine sehr spezifische Aktion repräsentiert - das Telefongespräch. Zum Beispiel möchten Sie ein ausgehendes Telefongespräch erfassen.
-
-Es ist auch irgendwie eine Mischung zwischen einem Besprechung und einer Aufgabe:
+Ein *Anruf* repräsentiert eine sehr spezifische Handlung - den Telefonanruf - und ist eine Mischung zwischen einem Besprechung und einer Aufgabe:
 
 * Wenn Sie anfangs ein Telefonat planen, befindet es sich in der To-do-Liste mit einer Frist, ähnlich wie eine Aufgabe.
 * Wenn Sie das Telefonat führen, wird es zeitlich festgelegt und ähnelt jetzt einem Besprechung.

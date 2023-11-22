@@ -32,15 +32,7 @@ Du kan välja kalendrar för andra användare och resurser, och du kan spara des
 
 1. Ange de relevanta uppgifterna i fälten **Namn** och **Beskrivning** i dialogrutan **Ny gruppöversikt**.
 
-1. Välj om du vill visa kalendern för **Medarbetare**, **Projekt** eller **Resurs** i fältet **Välj från**.
-
-1. Innehållet i listrutan precis under fältet **Välj från** varierar beroende på vad du har valt i fältet **Välj från**.
-
-    * Om du har valt **Medarbetare** visas en lista med användargrupper på ditt företag. Du kan också välja **Alla** om du vill visa alla användare på företaget.
-
-    * Om du har valt **Projekt** visas historiklistan med projekt.
-
-    * Om du har valt **Resurs** visas en lista med resursgrupper på företaget. Denna lista definieras under Inställningar och underhåll. Välj **Alla** om du vill se alla resurser på ditt företag.
+1. Välj om du vill visa kalendern för **Medarbetare**, **Projekt** eller **Resurs** i fältet **Välj från**. Innehållet i listrutan precis under fältet **Välj från** varierar beroende på vad du har valt.
 
 1. Markera användare/resurser och klicka på högerpilen ![ikon][img2] så läggs de till i den högra rutan. Du kan lägga till användare och resurser en i taget genom att dubbelklicka på dem.
 
@@ -48,9 +40,7 @@ Du kan välja kalendrar för andra användare och resurser, och du kan spara des
 
 1. De valda användarna och resurserna visas i gruppöversikten i samma ordning som i rutan till höger. Om du vill ändra ordningen markerar du en användare eller resurs och klickar på uppåtpilen ![ikon][img3] eller nedåtpilen ![ikon][img4] så flyttas posten uppåt eller nedåt i listan.
 
-1. När du har valt användare och resurser klickar du på **Spara**, eller på **Avbryt** om du vill stänga dialogrutan utan att spara.
-
-Du kommer tillbaka till fliken **Översikt** där du bland annat kan skapa bokningar för andra medarbetare.
+1. När du har valt användare och resurser klickar du på **Spara**, eller på **Avbryt** om du vill stänga dialogrutan utan att spara. Du kommer tillbaka till fliken **Översikt** där du bland annat kan skapa bokningar för andra medarbetare.
 
 > [!TIP]
 > Om du vill ta bort den aktiva gruppöversikten klickar du på knappen **Uppgift** längst ner till höger och väljer **Ta bort gruppöversikt**.

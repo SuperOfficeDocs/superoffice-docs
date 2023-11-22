@@ -85,7 +85,7 @@ På fliken **Översikt** i Kalender-fönstret visas din egen kalender med ditt a
 
 Fliken **Översikt** används främst för att öppna och titta på översikter över andra användare eller resurser för att ta reda på när de är tillgängliga innan du bjuder in dem till ett möte genom att [koppla dem till händelser][5] eller skapar händelser för dem.
 
-Om du väljer fliken **Översikt** i Kalender-fönstret visas ![ikon][img8] knappen **Uppgift**.
+![Ikon][img8] **Uppgift**-knappen är tillgänglig på **Översikt**-fliken.
 
 **Alternativ:**
 

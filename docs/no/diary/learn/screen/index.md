@@ -85,7 +85,7 @@ Hvis du vil åpne fanen **Dag** for en bestemt dag, kan du klikke på overskrift
 
 **Vis**-fanen brukes hovedsakelig til å åpne og se på oversikter over andre brukere eller ressurser, for å finne ut når de vil være tilgjengelige, før du inviterer dem til et møte ved å [koble dem til oppfølginger][5], eller opprette oppfølginger for dem.
 
-Hvis du velger **Vis**-fanen på Dagbok-skjermbildet, vises ![icon][img8] **Oppgave**-knappen.
+![Ikon][img8] **Oppgave**-knappen er tilgjengelig på **Vis**-fanen.
 
 **Alternativer:**
 

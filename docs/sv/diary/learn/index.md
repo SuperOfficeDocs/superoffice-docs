@@ -13,24 +13,20 @@ language: sv
 
 Kalendern i SuperOffice CRM används på samma sätt som en pappersalmanacka och har separata sidor för varje dag, vecka och månad.
 
+* **Kalender:** visar poster som är tilldelade en särskild tid eller datum.
+* **Att göra-lista:** visar saker som du ännu inte har slutfört, mestadels samtal och uppgifter utan specifik tid eller datum.
+
 ![Håll koll på alla dina bokningar och uppgifter genom att lägga in dem i kalendern -screenshot][img3]
 
 Kalendern är ett användbart hjälpmedel vid planering och utförande av olika typer av uppgifter. Du kan visa, redigera och ta bort [aktiviteter][16] i kalendern. Dessutom kan du få du en [lista över försäljningarna][13] du ska jobba med på detaljkortet **Försäljning** i Kalender-fönstret.
 
-Regelbunden användning av kalendern hjälper dig att automatiskt koppla och dela bokningar och aktiviteter kopplade till en kontakt eller ett företag så att du och ditt team enkelt kan hålla koll på vad som händer och arbeta produktivt.
+Regelbunden användning av dagboken, där aktiviteter kopplas till en kontakt eller ett företag, säkerställer att du och ditt team kan hålla ordning på ett enkelt sätt, främja smidigt samarbete och ökad produktivitet.
 
 ## <a id="open" />Visa kalender
 
-För at gå til kalendern, klicka på ordet **Kalender** i navigatorn och välj en tidsperiod i listan som visas, eller klicka på **Idag** eller **Innevarande vecka** för att gå till aktuell dag eller vecka. Ditt namn visas längst upp till höger i Kalender-fönstret.
+För at gå til kalendern, klicka på ordet **Kalender** i navigatorn och välj en tidsperiod i listan som visas, eller klicka på **Idag** eller **Innevarande vecka** för att gå till aktuell dag eller vecka. Ditt namn visas längst upp till höger i Kalender-fönstret. Om två eller fler händelse överlappar varandra kan du se en del av varje händelse.
 
-Om två eller fler händelse överlappar varandra kan du se en del av varje händelse.
-
-Du kan öppna en annan användares kalender, eller kalendern för en tillgänglig resurs, för att se när de är lediga, till exempel, eller för att skapa händelser för dem direkt.
-
-Du kan också visa kalendrar för andra användare och resurser i företaget genom att visa [gruppvyer][2] i din kalender.
-
-> [!TIP]
-> Under Inställningar och underhåll kan du definiera att alla händelser av en viss typ ska visas med en annan bakgrundsfärg i fönstret Kalender.
+Du kan få tillgång till en annan användares dagbok eller en tillgänglig resurs för att kontrollera deras tillgänglighet eller skapa uppföljningar direkt. För att visa flera dagböcker samtidigt, skapa en [gruppvyn][2].
 
 ## <a id="nav" />Navigera i fönstret Kalender
 

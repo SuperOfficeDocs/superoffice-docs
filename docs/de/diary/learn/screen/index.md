@@ -85,7 +85,7 @@ Wenn Sie in der Ansicht Kalender die Registerkarte **Ansicht**auswählen, wird e
 
 Die Registerkarte **Übersicht** dient hauptsächlich dazu, die Übersichten anderer Benutzer und Ressourcen zu öffnen und einzusehen. Auf diese Weise können Sie überprüfen, wann sie verfügbar sind, bevor Sie sie über eine Folgeaufgabe zu einer Besprechung einladen, indem Sie sie [Mit Folgeaufgaben verknüpfen][5] oder Folgeaufgaben für Sie erstellen.
 
-Wenn Sie die Registerkarte **Übersicht** in der Ansicht Kalender auswählen, wird die Schaltfläche ![Symbol][img8] **Aufgabe** angezeigt.
+![Symbol][img8] Die **Aufgabe**-Schaltfläche ist auf der **Übersicht**-Registerkarte verfügbar.
 
 **Optionen:**
 

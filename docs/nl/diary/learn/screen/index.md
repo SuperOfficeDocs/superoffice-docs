@@ -85,7 +85,7 @@ Als u op het tabblad **Weergave** klikt in het scherm Agenda, ziet u een scherm 
 
 U gebruikt het tabblad **Weergave** voornamelijk voor het openen en bekijken van overzichten van andere gebruikers of bronnen. Zo kunt u vaststellen wanneer iedereen beschikbaar is voor een vergadering. Vervolgens kunt u deze personen uitnodigen door hen te [koppelen aan vervolgactiviteiten][5] of door vervolgactiviteiten voor hen te registreren.
 
-Als u het tabblad **Weergave** in het scherm Agenda selecteert, wordt de ![pictogram][img8] knop **Taak** weergegeven.
+![Icoon][img8] De **Taak**-knop is beschikbaar op het **Weergave**-tabblad.
 
 **Opties:**
 

@@ -75,9 +75,7 @@ Som standard finder du skal udføres på dagbogens "to-do"-liste, hvor de kan ma
 
 ## <a id="call" />Opfølging (samtale)
 
-En *samtale* er en opfølgning, der repræsenterer en meget specifik handling - telefonopkaldet. For eksempel ønsker du at registrere et udgående telefonopkald.
-
-Det er også en hybrid mellem en aftale og en opgave:
+En *samtale* repræsenterer en meget specifik handling - telefonopkaldet - og er en hybrid mellem et møde og en to-do:
 
 * Når du først planlægger et opkald, befinder det sig på "to-do"-listen med en deadline, ligesom en opgave.
 * Når du foretager opkaldet, fastsættes det på et tidspunkt og ligner nu en aftale.

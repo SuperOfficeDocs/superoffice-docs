@@ -32,15 +32,7 @@ Du kan vise brukere og ressurser som du vil se dagbøkene til, og lagre oversikt
 
 1. I dialogboksen **Ny gruppeoversikt** skriver du inn relevant informasjon i feltene **Navn** og **Beskrivelse**.
 
-1. Velg å vise dagboken for **Medarbeidere**, **Prosjekt** eller **Ressurs** i det neste **Velg fra**-feltet.
-
-1. Innholdet i listeboksen like under feltet **Velg fra** varierer, avhengig av hva du valgte i feltet **Velg fra**.
-
-    * Hvis du valgte **Medarbeidere**, vises en liste over brukergrupper i organisasjonen din. Du kan også velge **Alle** for å vise alle brukerne i organisasjonen.
-
-    * Hvis du valgte **Prosjekt**, vises historikklisten over prosjekter.
-
-    * Hvis du valgte **Ressurs**, vises en liste over ressursgruppene for organisasjonen. Denne listen defineres i Innstillinger og vedlikehold. Velg **Alle** for å se alle ressursene i organisasjonen.
+1. Velg å vise dagboken for **Medarbeidere**, **Prosjekt** eller **Ressurs** i det neste **Velg fra**-feltet. Innholdet i listeboksen like under feltet **Velg fra** varierer, avhengig av hva du valgte.
 
 1. Velg brukerne/ressursene du trenger, og klikk deretter på pil til høyre ![ikon][img2] for å legge dem til i ruten til høyre. Du kan også legge til brukere og ressurser enkeltvis ved å dobbeltklikke på dem.
 
@@ -48,9 +40,7 @@ Du kan vise brukere og ressurser som du vil se dagbøkene til, og lagre oversikt
 
 1. Brukerne og ressursene du har valgt, vises i gruppeoversikten i den rekkefølgen de vises i ruten til høyre. Hvis du vil endre denne rekkefølgen, velger du en bruker eller ressurs og klikker på pil opp ![ikon][img3] eller pil ned ![ikon][img4] for å flytte brukeren eller ressursen opp eller ned.
 
-1. Klikk på **Lagre** etter å ha valgt brukere og ressurser, eller klikk på **Avbryt** for å lukke dialogboksen uten å lagre.
-
-Du kommer nå tilbake til fanen **Oversikt** og kan blant annet opprette avtaler for andre medarbeidere.
+1. Klikk på **Lagre** etter å ha valgt brukere og ressurser, eller klikk på **Avbryt** for å lukke dialogboksen uten å lagre. Du kommer nå tilbake til fanen **Oversikt** og kan blant annet opprette avtaler for andre medarbeidere.
 
 > [!TIP]
 > Hvis du vil slette den aktive gruppeoversikten, klikker du på knappen **Oppgave** nederst til høyre, og deretter velger du **Slett gruppeoversikt**.

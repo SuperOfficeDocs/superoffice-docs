@@ -4,7 +4,7 @@ title: Ändra Slutfört-status för en aktivitet
 description: Ändra Slutfört-status för en aktivitet
 author: SuperOffice RnD
 so.date: 11.03.2023
-keywords: kalender, händelse
+keywords: kalender, händelse, slutfört
 so.topic: howto
 language: sv
 ---
@@ -19,13 +19,27 @@ När du anser att en aktivitet är avslutad kan du markera den som slutförd.
 
 Utför en av följande åtgärder:
 
-* Öppna aktiviteten och avmarkera ikonen **Slutförd** längst upp till höger i dialogrutan.
-
-    ![Ändra Slutfört-status för en aktivitet -screenshot][img3]
+* Högerklicka på aktiviteten och välj **Slutförd**.
 
 * Klicka i kryssrutan i kolumnen **Slutförd** ![ikon][img2] på fliken **Aktiviteter**.
 
-* Högerklicka på aktiviteten och välj **Slutförd**.
+* Öppna aktiviteten och välj **Slutförd**.
+
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/complete-old)
+
+Klicka på bockmarkeringssymbolen längst upp till höger i dialogrutan.
+
+![Ändra slutfört status för en aktivitet -skärmbild][img3]
+
+### [Ny (från version 10.2.11 pilot)](#tab/complete-new)
+
+Markera/avmarkera kryssrutan längst ner i följd-dialogen.
+
+![Ändra slutfört status för en uppföljning -skärmbild][img4]
+
+***
+<!-- markdownlint-restore -->
 
 > [!NOTE]
 > Om du vill redigera en slutförd aktivitet måste du först avmarkera statusen **Slutförd**.
@@ -35,3 +49,4 @@ Utför en av följande åtgärder:
 <!-- Referenced images -->
 [img2]: ../../../media/icons/sale-sold-details.png
 [img3]: ../../../media/loc/en/diary/completed-activity.png
+[img4]: ../../../media/loc/en/diary/completed.png

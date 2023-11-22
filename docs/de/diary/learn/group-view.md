@@ -32,15 +32,7 @@ Sie können Benutzer und Ressourcen aufrufen, deren Kalender Sie einsehen möcht
 
 1. Geben Sie im Dialogfeld **Neue Gruppenansicht** die entsprechende Information in den Feldern **Name** und **Beschreibung** ein.
 
-1. Wählen Sie im Feld **Auswählen aus**, ob der Kalender für **Mitarbeiter**, ein **Projekt** oder eine **Ressource** angezeigt werden soll.
-
-1. Der Inhalt im Listenfeld unter dem Feld **Auswählen aus** richtet sich nach den Einstellungen unter **Auswählen aus**.
-
-    * Wenn Sie **Mitarbeiter** ausgewählt haben, wird eine Liste von Benutzergruppen Ihres Unternehmens angezeigt. Sie können auch **Alle** auswählen, um alle Benutzer des Unternehmens anzuzeigen.
-
-    * Wenn Sie **Projekt** ausgewählt haben, wird die Verlaufsliste von Projekten angezeigt.
-
-    * Wenn Sie **Ressource** ausgewählt haben, wird eine Liste von Ressourcengruppen Ihrer Firma angezeigt. Diese Liste wurde in Einstellungen und Verwaltung definiert. Wählen Sie **Alle**, um alle Ressourcen Ihres Unternehmens anzuzeigen.
+1. Wählen Sie im Feld **Auswählen aus**, ob der Kalender für **Mitarbeiter**, ein **Projekt** oder eine **Ressource** angezeigt werden soll. Der Inhalt im Listenfeld unter dem Feld **Auswählen aus** richtet sich nach den Einstellungen.
 
 1. Wählen Sie die gewünschten Benutzer/Ressourcen aus, und klicken Sie auf den Pfeil nach rechts ![Symbol][img2], um sie zum rechten Fenster hinzuzufügen. Sie können Benutzer und Ressourcen auch einzeln auswählen, indem Sie darauf doppelklicken.
 
@@ -48,9 +40,7 @@ Sie können Benutzer und Ressourcen aufrufen, deren Kalender Sie einsehen möcht
 
 1. Die ausgewählten Benutzer und Ressourcen werden in der Gruppenansicht in der gleichen Reihenfolge wie im rechten Fenster angezeigt. Wenn Sie diese Reihenfolge ändern möchten, wählen Sie einen Benutzer oder eine Ressource aus und klicken Sie auf den Pfeil nach oben ![Symbol][img3] oder nach unten ![Symbol][img4], um den Eintrag entsprechend zu verschieben.
 
-1. Klicken Sie auf **Speichern**, nachdem Sie die Benutzer und Ressourcen ausgewählt haben, oder klicken Sie auf **Abbrechen**, um das Dialogfeld ohne Speichern zu schließen.
-
-Sie kehren daraufhin zur Registerkarte **Übersicht** zurück, in der Sie Termine für Mitarbeiter usw. festlegen können.
+1. Klicken Sie auf **Speichern**, nachdem Sie die Benutzer und Ressourcen ausgewählt haben, oder klicken Sie auf **Abbrechen**, um das Dialogfeld ohne Speichern zu schließen. Sie kehren daraufhin zur Registerkarte **Übersicht** zurück, in der Sie Termine für Mitarbeiter usw. festlegen können.
 
 > [!TIP]
 > Klicken Sie unten rechts auf die Schaltfläche **Aufgabe** und wählen **Gruppenansicht löschen** aus, um die aktive Gruppenansicht zu löschen.

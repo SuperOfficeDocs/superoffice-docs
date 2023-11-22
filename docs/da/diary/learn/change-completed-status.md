@@ -19,13 +19,27 @@ Når du mener, at en aktivitet er afsluttet, kan du markere den som fuldført.
 
 Udfør en af følgende handlinger:
 
-* Åbn aktiviteten, og fjern markeringen af ikonet **Afsluttet** øverst til højre i dialogen.
-
-    ![Ændring af status Udført for en aktivitet -screenshot][img3]
+* Højreklik på aktiviteten, og vælg **Fuldført**.
 
 * Klik på afkrydsningsfeltet i kolonnen **Fuldført** ![ikon][img2] på detaljekortet **Aktiviteter**.
 
-* Højreklik på aktiviteten, og vælg **Fuldført**.
+* Åbn aktiviteten, og vælg **Afsluttet**.
+
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/complete-old)
+
+Click på afkrydsningsikonet øverst til højre i dialogboksen.
+
+![Ændre fuldført status for en aktivitet -screenshot][img3]
+
+### [Ny (fra version 10.2.11 pilot)](#tab/complete-new)
+
+Markér/afmarker afkrydsningsfeltet i bunden af dialogen.
+
+![Ændre fuldført status for en opfølgning -screenshot][img4]
+
+***
+<!-- markdownlint-restore -->
 
 > [!NOTE]
 > Hvis du vil redigere en fuldført aktivitet, skal du først fjerne markeringen af statussen **Fuldført**.
@@ -35,3 +49,4 @@ Udfør en af følgende handlinger:
 <!-- Referenced images -->
 [img2]: ../../../media/icons/sale-sold-details.png
 [img3]: ../../../media/loc/en/diary/completed-activity.png
+[img4]: ../../../media/loc/en/diary/completed.png

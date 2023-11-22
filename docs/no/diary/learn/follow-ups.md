@@ -75,9 +75,7 @@ Som standard finner du oppgaver i dagbokens "to-do"-liste, hvor de kan krysses a
 
 ## <a id="call" />Oppfølging (samtale)
 
-En *samtale* er en oppfølging som representerer en svært spesifikk handling - telefonsamtalen. For eksempel ønsker du å registrere et utgående telefonanrop.
-
-Det er også en hybrid mellom et møte og en oppgave:
+En *samtale* representerer en svært spesifikk handling - telefonsamtalen - og er en hybrid mellom et møte og en to-do:
 
 * Når du først planlegger en samtale, befinner den seg i listen med en frist, akkurat som en oppgave.
 * Når du utfører samtalen, blir den knyttet til et tidspunkt og ligner nå et møte.

@@ -13,30 +13,26 @@ language: no
 
 Dagboken i SuperOffice CRM brukes omtrent som en kalender og har egne sider for hver dag, uke og måned.
 
+* **Kalender:** viser oppføringer som er tildelt en bestemt tid eller dato.
+* **Oppgaveliste:** viser ting du ikke har fullført ennå, hovedsakelig samtaler og gjøremål uten bestemt tid eller dato.
+
 ![Registrer alle avtalene og oppgavene dine i dagboken, slik at du kan holde oversikt over dem -screenshot][img3]
 
 Dagboken er et nyttig hjelpemiddel for å planlegge og utføre ulike typer oppgaver. Fra dagboken kan du både vise, redigere og slette [aktiviteter][16]. I tillegg får du [oversikt over salgene][13] du skal jobbe med, ved hjelp av detaljkortet **Salg** nederst i Dagbok-bildet.
 
-Regelmessig bruk av dagboken hjelper deg med å automatisk koble til og dele avtaler og aktiviteter knyttet til en person eller et firma, slik at du og teamet ditt enkelt kan holde fokus og jobbe produktivt.
+Regelmessig bruk av dagboken, der aktiviteter knyttes til en kontakt eller et selskap, sikrer at du og ditt team kan holde orden enkelt, fremme smidig samarbeid og økt produktivitet.
 
 ## <a id="open" />Vise dagbok
 
-For å åpne dagboken, klikk på ordet **Dagbok** i navigatoren, og velg en tidsperiode fra listen som vises, eller klikk **I dag** eller **Denne uken** for å gå til gjeldende dag eller uke. Ditt eget navn vises øverst til høyre i Dagbok-bildet.
+For å åpne dagboken, klikk på ordet **Dagbok** i navigatoren, og velg en tidsperiode fra listen som vises, eller klikk **I dag** eller **Denne uken** for å gå til gjeldende dag eller uke. Ditt eget navn vises øverst til høyre i Dagbok-bildet. Hvis to eller flere oppfølginger overlapper, kan du se deler av hver oppfølging.
 
-Hvis to eller flere oppfølginger overlapper, kan du se deler av hver oppfølging.
-
-Du kan hente inn dagboken til en annen bruker eller en tilgjengelig ressurs, for eksempel hvis du ønsker å se når de har ledig tid, eller hvis du vil opprette oppfølginger for dem direkte.
-
-Du kan også vise dagbøkene til andre brukere og ressurser i organisasjonen ved å vise [gruppeoversikter][2] i dagboken.
-
-> [!TIP]
-> I Innstillinger og vedlikehold kan du definere at alle oppfølginger av en bestemt type skal vises i Dagbok-bildet med samme bakgrunnsfarge.
+Du kan få tilgang til en annen brukers dagbok eller en tilgjengelig ressurs for å sjekke deres tilgjengelighet eller opprette oppfølginger direkte. For å se flere dagbøker samtidig, opprett en [gruppevisning][2].
 
 ## <a id="nav" />Navigere i Dagbok-bildet
 
-Dagboken består av [fire forskjellige faner][24]: **Dag**, **Uke**, **Måned** og **Oversikt**-fanen. Det er enkelt å bytte mellom disse visningene: bare klikk på fanene øverst på dagbokskjermen. Den aktuelle dagen, uken eller måneden vises øverst på siden, avhengig av hvilken fane du velger.
+Dagboken består av [fire faner][24]: **Dag**, **Uke**, **Måned** og **Oversikt**-fanen. Det er enkelt å bytte mellom disse visningene: bare klikk på fanene øverst på dagbokskjermen. Den aktuelle dagen, uken eller måneden vises øverst på siden, avhengig av hvilken fane du velger.
 
-* På fanen **Dag**, **Uke** og **Måned** kan du klikke på **I dag** eller **Denne uken** for å gå til gjeldende dag eller uke.
+* På fanen **Dag**, **Uke** og **Måned**, klikk på **I dag** eller **Denne uken** for å gå til gjeldende dag eller uke.
 
 * Klikk på en måned, et ukenummer eller en dag i kalenderen for å gå direkte til en av fanene ovenfor.
 

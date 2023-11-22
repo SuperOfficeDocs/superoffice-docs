@@ -13,28 +13,24 @@ language: da
 
 Dagbogen i SuperOffice CRM bruges omtrent som en personlig kalender og har separate sider for hver dag, uge og måned.
 
+* **Kalender:** viser indtastninger allokeret til en bestemt tid eller dato.
+* **To-do-liste:** viser ting, du endnu ikke har afsluttet, primært opkald og opgaver uden bestemt tid eller dato.
+
 ![Hold styr på alle dine aftaler og opgaver ved at registrere dem i din dagbog -screenshot][img3]
 
 Dagbogen er et nyttigt hjælpemiddel til at planlægge og udføre forskellige former for opgaver. På dagbogen kan du både flytte, redigere og slette [aktiviteter][16]. Desuden får du en [oversigt over de salg][13], du skal arbejde med, ved hjælp af detaljekortet **Salg** nederst i skærmbilledet Dagbog.
 
-Regelmæssig brug af dagbogen hjælper dig med automatisk at forbinde og dele aftaler og aktiviteter, der er knyttet til en kontakt eller en virksomhed, så du og dit team ubesværet kan holde dig på sporet og arbejde produktivt.
+Regelmæssig brug af dagbogen, hvor aktiviteter knyttes til en kontakt eller et firma, sikrer, at du og dit team nemt kan holde styr på tingene, fremme smidigt samarbejde og øget produktivitet.
 
 ## <a id="open" />Se dagbog
 
-For at åbne din dagbog, klik på ordet **Dagbog** i navigatoren, og vælg en tidsperiode på den liste, der vises, eller klik på **I dag** eller **Denne uge** for at gå til den aktuelle dag eller uge. Dit navn vises øverst til højre på skærmen Dagbog.
+For at åbne din dagbog, klik på ordet **Dagbog** i navigatoren, og vælg en tidsperiode på den liste, der vises, eller klik på **I dag** eller **Denne uge** for at gå til den aktuelle dag eller uge. Dit navn vises øverst til højre på skærmen Dagbog. Hvis to eller flere opfølgninger overlapper, kan du se en del af hver opfølgning.
 
-Hvis to eller flere opfølgninger overlapper, kan du se en del af hver opfølgning.
-
-Du kan åbne en anden brugers dagbog eller dagbogen for en tilgængelig ressource for f.eks. at se, hvornår de er ledige, eller for at oprette opfølgninger direkte til dem.
-
-Du kan også få vist dagbøger for andre brugere og ressourcer i organisationen ved at få vist [gruppevisninger][2] i din dagbog.
-
-> [!TIP]
-> I Indstillinger og vedligeholdelse kan du definere, at alle opfølgninger af en bestemt type skal vises på skærmen Dagbog med samme baggrundsfarve.
+Du kan få adgang til en anden brugers dagbog eller en tilgængelig ressource for at tjekke deres tilgængelighed eller oprette opfølgningsopgaver direkte. For at se flere dagbøger samtidigt, opret en [gruppevisning][2].
 
 ## <a id="nav" />Navigering i skærmbilledet Dagbog
 
-Dagbogen består af [fire forskellige faner][24]: **Dag**, **Uge**, **Måned** og **Oversigt**. Du kan nemt skifte mellem disse oversigter ved at klikke på fanerne øverst i skærmbilledet Dagbog. Den aktuelle dag, uge eller måned vises øverst på siden, afhængigt af hvilken oversigt du befinder dig i.
+Dagbogen består af [fire faner][24]: **Dag**, **Uge**, **Måned** og **Oversigt**. Du kan nemt skifte mellem disse oversigter ved at klikke på fanerne øverst i skærmbilledet Dagbog. Den aktuelle dag, uge eller måned vises øverst på siden, afhængigt af hvilken oversigt du befinder dig i.
 
 * På fanen **Dag**, fanen **Uge** og fanen **Måned** kan du klikke på **I dag** eller **Denne uge** for at gå til den aktuelle dag eller uge.
 

@@ -85,7 +85,7 @@ Fanen **Vis** på skærmen Dagbog viser din egen dagbog med dit bruger-id øvers
 
 Fanen **Vis** bruges primært til at åbne og se oversigter over andre brugere eller ressourcer for at finde ud af, hvornår de vil være tilgængelige, før du inviterer dem til et møde ved [at linke dem til opfølgninger][5], eller oprette opfølgninger til dem.
 
-Hvis du vælger **fanen Vis** på skærmbilledet Dagbog, ![vises ikonet][img8] **Opgaveknap** .
+![Ikon][img8] **Opgave**-knappen er tilgængelig på **Vis**-fanen.
 
 **Muligheder:**
 
