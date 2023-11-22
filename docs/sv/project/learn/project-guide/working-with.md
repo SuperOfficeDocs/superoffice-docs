@@ -23,14 +23,14 @@ Om en projektguide är definierad för en projekttyp som du har angett för ett 
 
    ![Detaljkortet Projektguide med översikt över Planerad status -screenshot][img1]
 
-1. I dialogrutan som öppnas skapar du händelsen/dokumentet som vanligt. Många av fälten är redan ifyllda, men du kan ändra informationen eller lägga till mer information. Se [Dialogrutan Dokument][1] eller [Dialogrutan för händelser][2].
+1. I dialogrutan som öppnas [skapar du händelsen][2] eller [dokumentet][3] som vanligt. Många av fälten är redan ifyllda, men du kan ändra informationen eller lägga till mer information.
 
     Du kan delegera händelsen till andra medarbetare genom att ange dem som ägare av händelsen. Om detta är definierat i Inställningar och underhåll öppnas dialogrutan **Överför uppgiften till en projektdeltagare** där du kan välja en medarbetare som ägare av händelsen.
 
 1. När du slutför händelsen markerar du **Slutfört** i den aktuella dialogrutan eller i checkrutan framför händelsenamnet på detaljkortet **Projektguide**. Dokument är som standard markerade som slutförda.
 
     > [!TIP]
-    > För att skapa flera händelser av samma typ kan du högerklicka på händelsen och välja **Skapa en till**. [Dialogrutan för händelser][2] visas.
+    > För att skapa flera händelser av samma typ kan du högerklicka på händelsen och välja **Skapa en till**.
     >
     > ![Skapa en till -screenshot][img2]
 
@@ -83,7 +83,7 @@ Du registrerar ett nytt projekt och väljer projekttypen **Konferens**, som är 
 
     1. I projektguiden klickar du på knappen **Skapa** bredvid händelsen **Planeringsmöte**.
         Dialogrutan **Händelse** öppnas med **Möte inne** angivet som typ och namnet på projektet redan ifyllt.
-    1. [Fyll i information och bjud in deltagare][2].
+    1. Fyll i information och [bjud in deltagare][2].
     1. Klicka på **Spara**.
 
 1. På mötet bestämmer ni konferensprogrammet (agendan) och du vill skapa en anteckning som innehåller denna information.
@@ -165,8 +165,8 @@ När alla önskade händelser och dokument för projektet är färdiga kan du st
 * [Lägg till och redigera projektguider i Inställningar och underhåll][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

@@ -23,14 +23,14 @@ Hvis en prosjektveiledning er definert for en prosjekttype som du angir for et p
 
    ![Detaljkortet Prosjektguide med oversikt over statuskode Planlagt -screenshot][img1]
 
-1. I dialogboksen som åpnes, oppretter du oppfølgingen/dokumentet på vanlig måte. Mange av feltene er ferdig utfylt, men du kan endre informasjonen eller legge til mer informasjon. Se [Dialogboksen Dokument][1] eller [Dialogboksen for oppfølginger][2].
+1. I dialogboksen som åpnes, [oppretter du oppfølgingen][2] eller [dokumentet][3] på vanlig måte. Mange av feltene er ferdig utfylt, men du kan endre informasjonen eller legge til mer informasjon.
 
     Du kan delegere oppfølgingen til andre medarbeidere ved å angi dem som eier av oppfølgingen. Hvis dette er definert i Innstillinger og vedlikehold, åpnes dialogboksen **Overfør oppgaven til en prosjektdeltaker**, der du kan velge en medarbeider som eier av oppfølgingen.
 
 1. Når du er ferdig med oppfølgingen, merker du av for **Utført** i den aktuelle dialogboksen, eller i avmerkingsboksen foran oppfølgingsnavnet på detaljkortet **Prosjektguide**. Dokumenter er som standard merket som utført.
 
     > [!TIP]
-    > Hvis du vil opprette flere oppfølginger av samme type, kan du høyreklikke på aktiviteten og velge **Opprett en til**. [Dialogboksen for oppfølginger][2] vises.
+    > Hvis du vil opprette flere oppfølginger av samme type, kan du høyreklikke på aktiviteten og velge **Opprett en til**.
     >
     > ![I tabben Prosjektguide kan du høyreklikke og velge Opprett en til -screenshot][img2]
 
@@ -83,7 +83,7 @@ Du registrerer et nytt prosjekt og velger prosjekttypen **Konferanse**, som er t
 
     1. I prosjektguiden klikker du på knappen **Opprett** ved siden av oppfølgingen **Planleggingsmøte**.
         Dialogboksen **Avtale** åpnes, med **Møte inne** angitt som type og navnet på prosjektet ferdig utfylt.
-    1. [Fyll ut informasjon, og inviter deltakere][2].
+    1. Fyll ut informasjon, og [inviter deltakere][2].
     1. Klikk på **Lagre**.
 
 1. På møtet fastsetter dere konferanseprogrammet (agenda), og du ønsker å opprette et notat som inneholder denne informasjonen.
@@ -165,8 +165,8 @@ Når alle ønskede oppfølginger og dokumenter for prosjektet er ferdige, kan du
 * [Legg til og rediger prosjektguider i Innstillinger og vedlikehold][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

@@ -20,7 +20,7 @@ Dialogrutan **Visa status** öppnas när du klickar på en statusbild på ett pr
 | Namn | Namnet på statusen anges i Inställningar och underhåll. |
 | Beskrivning | En beskrivning av statusen anges i Inställningar och underhåll. |
 | Andra statuslägen | Här finns länkar till andra eventuella statuslägen som gäller för företag, kontakt eller projektet. Detta fält visas endast om det finns flera statuslägen för den aktuella poster. |
-| Skapa uppföljning | Används för att skapa en ny händelse för företaget eller projektet. Vilken typ av händelse som skapas som standard definieras i Inställningar och underhåll. |
+| Skapa uppföljning | Används för att [skapa en ny händelse][3] för företaget eller projektet. Vilken typ av händelse som skapas som standard definieras i Inställningar och underhåll. |
 | Lägg till i urval | När man klickar här, öppnas dialogrutan **Lägg till i urval**, och du kan lägga till det aktuella företaget eller den aktuella kontakten i ett statiskt urval som du väljer själv. |
 | Stäng | Stänger statusdialogrutan. |
 
@@ -35,6 +35,6 @@ Dialogrutan **Visa status** öppnas när du klickar på en statusbild på ett pr
 <!-- Referenced links -->
 [1]: using-status-monitors-in-dynamic-selections.md
 [2]: index.md
-[3]:  ../../../diary/learn/screen/dialog-for-followups.md
+[3]: ../../../diary/learn/create-follow-up.md
 
 <!-- Referenced images -->

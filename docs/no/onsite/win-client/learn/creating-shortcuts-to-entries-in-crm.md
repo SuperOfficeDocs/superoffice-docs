@@ -21,14 +21,3 @@ Alternativet **Kopier snarvei** er tilgjengelig her:
 Når du velger alternativet **Kopier snarvei**, blir en snarvei (URL) til gjeldende oppføring kopiert til utklippstavlen. Du kan nå lime inn snarveien som en kobling i for eksempel en e-postmelding og sende den til én eller flere interne SuperOffice CRM-brukere. Du kan også lime inn snarveien i dialogboksen **Kjør** i Windows for å kjøre den.
 
 Denne funksjonen bruker SOProtocol. SuperOffice Web Tools må være installert for at denne funksjonen skal fungere ordentlig.
-
-## Aktuelle emner
-
-* [Dialogboksen for oppfølginger][1]
-* [Dialogboksen Dokument][2]
-
-<!-- Referenced links -->
-[1]: ../../../diary/learn/screen/dialog-for-followups.md
-[2]: ../../../document/learn/screen/index.md
-
-<!-- Referenced images -->

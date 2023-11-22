@@ -23,14 +23,14 @@ Wanneer een projectgids is gedefinieerd voor een projecttype dat u voor een proj
 
    ![Sectietabblad Projectgids met overzicht van de status Gepland -screenshot][img1]
 
-1. U maakt de vervolgactiviteit/het document op de gebruikelijke manier in het dialoogvenster dat wordt geopend. Veel van de velden zijn al ingevuld, maar u kunt de informatie wijzigen of informatie toevoegen. Zie [Het dialoogvenster Document][1] of [Het dialoogvenster voor vervolgactiviteiten][2].
+1. U [maakt de vervolgactiviteit][2] of het [document][3] op de gebruikelijke manier in het dialoogvenster dat wordt geopend. Veel van de velden zijn al ingevuld, maar u kunt de informatie wijzigen of informatie toevoegen.
 
     U kunt de vervolgactiviteit naar uw collega's delegeren door hem/haar tot eigenaar van de vervolgactiviteit te maken. Wanneer dit voor een specifieke vervolgactiviteit gedefinieerd is in Instellingen en onderhoud, wordt het dialoogvenster **Taak toewijzen aan projectlid** weergegeven, waar u een collega als eigenaar van de vervolgactiviteit kunt selecteren.
 
 1. Wanneer u de vervolgactiviteit voltooit, schakelt u de optie **Voltooid** in het relevante dialoogvenster in of schakelt u het selectievakje in vóór de naam van de vervolgactiviteit op het sectietabblad **Projectgids**. Documenten worden standaard gemarkeerd als voltooid.
 
     > [!TIP]
-    > Als u meerdere vervolgactiviteiten van hetzelfde type wilt maken, klikt u met rechtermuisknop op de activiteit en selecteert u **Nog een maken**. Het [dialoogvenster activiteiten][2] wordt geopend.
+    > Als u meerdere vervolgactiviteiten van hetzelfde type wilt maken, klikt u met rechtermuisknop op de activiteit en selecteert u **Nog een maken**.
     >
     > ![Nog een maken -screenshot][img2]
 
@@ -83,7 +83,7 @@ U registreert een nieuw project en selecteert het projecttype **Vergadering**, d
 
     1. In de projectgids klikt u op de knop **Maken** naast de vervolgactiviteit **Planningsvergadering**.
         Het dialoogvenster **Vervolgactiviteit** wordt geopend, met het type **Vergadering (intern)** en vooraf ingevulde naam van het project.
-    1. [Vul de overige gegevens in en nodig deelnemers uit][2].
+    1. Vul de overige gegevens in en [nodig deelnemers uit][2].
     1. Klik op **Opslaan**.
 
 1. Tijdens de vergadering wordt het conferentieprogramma (agenda) bepaald en u wilt een memo maken met deze informatie.
@@ -165,8 +165,8 @@ Nadat alle vereiste vervolgactiviteiten en documenten voor het project zijn volt
 * [Toevoegen en bewerken van de projectgidsen in  Instellingen en onderhoud][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

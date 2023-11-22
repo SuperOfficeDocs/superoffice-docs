@@ -30,12 +30,12 @@ Bekijk deze video en zie hoe eenvoudig het is om de verkoopgids te gebruiken (du
 
 1. Klik op de knop **Maken** die voor de naam van de vervolgactiviteit/het document staat.
 
-2. U maakt de vervolgactiviteit/het document op de gebruikelijke manier in het dialoogvenster dat wordt geopend. Veel van de velden zijn al ingevuld, maar u kunt de informatie wijzigen of informatie toevoegen. Zie [Het dialoogvenster Document][1] en [Het dialoogvenster voor vervolgactiviteiten][2].
+2. U [maakt de vervolgactiviteit][2] of het [document][3] op de gebruikelijke manier in het dialoogvenster dat wordt geopend. Veel van de velden zijn al ingevuld, maar u kunt de informatie wijzigen of informatie toevoegen.
 
 3. Wanneer u de vervolgactiviteit hebt voltooid, schakelt u de optie **Voltooid** in het relevante dialoogvenster in of schakelt u het selectievakje in vóór de naam van de vervolgactiviteit op het sectietabblad **Verkoophandleiding**. Documenten worden standaard gemarkeerd als voltooid.
 
     > [!TIP]
-    > Als u meerdere vervolgactiviteiten van hetzelfde type wilt maken, klikt u met rechtermuisknop op de activiteit en selecteert u **Nog een maken**. Het [dialoogvenster voor vervolgactiviteiten][2] wordt geopend.
+    > Als u meerdere vervolgactiviteiten van hetzelfde type wilt maken, klikt u met rechtermuisknop op de activiteit en selecteert u **Nog een maken**.
 
 4. Nadat alle vervolgactiviteiten en documenten voor een fase zijn voltooid, gaat u naar de volgende fase op de hoofdkaart **Verkoop**.
 
@@ -95,7 +95,7 @@ U registreert een nieuwe verkoop en selecteert het verkooptype **Verkoop aan nie
 
     1. In de verkoophandleiding klikt u op de knop **Maken** naast de vervolgactiviteit **Klantgesprek**.
         Het dialoogvenster **Vervolgactiviteit** wordt geopend, met het type **Vergadering (extern)** en vooringevulde naam van verkoop en bedrijf.
-    2. [Vul de overige gegevens in en nodig deelnemers uit][1].
+    2. Vul de overige gegevens in en [nodig deelnemers uit][1].
     3. Klik op **Opslaan**.
 
 2. U wilt een e-mailbericht sturen met bevestiging van tijd en locatie van het gesprek.
@@ -182,8 +182,8 @@ U kunt de fase nu wijzigen in **Verkocht**. Nadat alle vereiste vervolgactivitei
 * [De verkoopgids instellen in Instellingen en onderhoud][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

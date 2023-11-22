@@ -30,12 +30,12 @@ Sehen Sie sich dieses Video an, um zu lernen, wie einfach es ist, den Verkaufsle
 
 1. Klicken Sie vor dem Namen der Folgeaufgabe/des Dokuments auf die Schaltfläche **Erstellen**.
 
-2. Erstellen Sie im daraufhin angezeigten Dialogfeld die Folgeaufgabe/das Dokument auf die übliche Art und Weise. Viele Felder sind bereits ausgefüllt. Sie können die Informationen jedoch ändern oder weitere Informationen hinzufügen. Siehe [Dialogfeld Dokument][1] und [Dialogfeld für Folgeaufgaben][2].
+2. Erstellen Sie im daraufhin angezeigten [Dialogfeld die Folgeaufgabe][2] oder [das Dokument][3] auf die übliche Art und Weise. Viele Felder sind bereits ausgefüllt. Sie können die Informationen jedoch ändern oder weitere Informationen hinzufügen.
 
 3. Wenn Sie die Folgeaufgabe abgeschlossen haben, markieren Sie im entsprechenden Dialogfeld die Option **Abgeschlossen**, oder aktivieren Sie das entsprechende Kontrollkästchen vor dem Namen der Folgeaufgabe auf der Bereichsregisterkarte **Verkaufsleitfaden**. Standardmäßig werden Dokumente als abgeschlossen gekennzeichnet.
 
     > [!TIP]
-    > Um mehrere Folgeaufgaben desselben Typs zu erstellen, müssen mit der rechten Maustaste auf die Aktivität klicken **Weitere erstellen** auswählen. Daraufhin wird das Dialogfeld [Folgeaufgaben][2] geöffnet.
+    > Um mehrere Folgeaufgaben desselben Typs zu erstellen, müssen mit der rechten Maustaste auf die Aktivität klicken **Weitere erstellen** auswählen.
 
 4. Nachdem alle Folgeaufgaben und Dokumente für eine Stufe abgeschlossen wurden, wechseln Sie zur nächsten Stufe auf der Hauptkarte **Verkauf**.
 
@@ -95,7 +95,7 @@ Sie erfassen einen neuen Verkauf und wählen den Verkaufstyp **Verkauf an neuen 
 
     1. Klicken Sie im Verkaufsleitfaden auf **Erstellen** neben der Folgeaufgabe **Kundenbesprechung**.
         Das Dialogfeld **Folgeaufgabe** wird geöffnet, in dem **Meeting (extern)** als Typ angegeben ist und der Name des Verkaufs sowie die Firma bereits eingegeben sind.
-    2. [Vervollständigen Sie die Information und laden Sie Teilnehmer ein][1].
+    2. Vervollständigen Sie die Information und [laden Sie Teilnehmer ein][1].
     3. Klicken Sie auf **Speichern**.
 
 2. Versenden Sie zudem eine E-Mail-Nachricht, um zu bestätigen, wo und wann die Besprechung stattfindet.
@@ -182,8 +182,8 @@ Sie können die Stufe dann zu **Verkauft** ändern. Nachdem alle erforderlichen 
 * [Verkaufsleitfaden in Einstellungen und Verwaltung einrichten][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

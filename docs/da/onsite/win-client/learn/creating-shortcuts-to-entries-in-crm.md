@@ -21,14 +21,3 @@ Indstillingen **Kopier genvej** er tilgængelig her:
 Når du vælger indstillingen **Kopier genvej**, kopieres en genvej (URL) til den aktuelle post til udklipsholderen. Nu kan du sætte genvejen ind i f.eks. en e-mailbesked og sende den til én eller flere interne brugere af SuperOffice CRM. Du kan også indsætte genvejen i dialogboksen **Kør** i Windows for at køre den.
 
 Denne funktion anvender SOProtocol. SuperOffice WebTools skal være installeret, for at denne funktion kan fungere korrekt.
-
-## Relaterede emner
-
-* [Dialogboksen for opfølgninger][1]
-* [Dialogboksen Dokument][2]
-
-<!-- Referenced links -->
-[1]: ../../../diary/learn/screen/dialog-for-followups.md
-[2]: ../../../document/learn/screen/index.md
-
-<!-- Referenced images -->

@@ -21,14 +21,3 @@ Die Option **Shortcut kopieren** ist hier verfügbar:
 Wenn Sie die Option **Shortcut kopieren** auswählen, wird ein Shortcut (URL) zum aktuellen Eintrag in die Zwischenablage kopiert. Sie können den Shortcut anschließend zum Beispiel in eine E-Mail-Nachricht einfügen und an interne Benutzer von SuperOffice CRM senden. Sie können den Shortcut auch in das Dialogfeld **Ausführen** von Windows einfügen, um ihn auszuführen.
 
 Diese Funktion verwendet das SOProtocol. SuperOffice WebTools muss installiert sein, damit dies richtig funktioniert.
-
-## Verwandte Themen
-
-* [Dialogfeld für Folgeaufgaben][1]
-* [Dialogfeld Dokument][2]
-
-<!-- Referenced links -->
-[1]: ../../../diary/learn/screen/dialog-for-followups.md
-[2]: ../../../document/learn/screen/index.md
-
-<!-- Referenced images -->

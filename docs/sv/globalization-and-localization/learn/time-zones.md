@@ -29,7 +29,7 @@ Funktionen har stöd för sommartid.
 
 ## Hur väljer du tidszoner?
 
-Tidszoner visas i form av en listruta i [kalenderen][1] och i [dialogrutan för händelser][3]. Tidszonen som är standard för din SuperOffice-databas visas överst med denna ikon: ![ikon][img1].
+Tidszoner visas i form av en listruta i [kalenderen][1] och för [händelser][3]. Tidszonen som är standard för din SuperOffice-databas visas överst med denna ikon: ![ikon][img1].
 
 Tidszonslistan sorteras efter land. Högst upp i tidszonslistan visas det valda landets namn och flagga.
 
@@ -56,7 +56,7 @@ Du kan söka på antal timmar och hitta rätt tidszon. Om du till exempel skrive
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
-[3]: ../../diary/learn/screen/dialog-for-followups.md
+[3]: ../../diary/learn/follow-ups.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/time-zone-local.png

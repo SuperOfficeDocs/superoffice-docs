@@ -14,8 +14,7 @@ language: no
 1. Åpne prosjektet, og gå til detaljkortet **Prosjektdeltakere**.
 2. Velg prosjektdeltakerne du vil invitere.
 3. Høyreklikk og velg **Be om møte**.
-
-    Dialogboksen [**Oppfølging**][1] vises.
+4. [Fyll ut de andre feltene med ønsket informasjon][1].
 
 <!-- Referenced links -->
-[1]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/create-follow-up.md#fields

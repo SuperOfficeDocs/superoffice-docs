@@ -30,12 +30,12 @@ Se denne video for at få mere at vide om, hvor nemt det er at bruge salgsguiden
 
 1. Klik på knappen **Opret** foran opfølgningens/dokumentets navn.
 
-2. I den dialogboks, der åbnes, opretter du opfølgningen/dokumentet på normal vis. Mange af felterne er færdigudfyldte, men du kan ændre oplysningerne eller tilføje flere oplysninger. Se [Dialogboksen Dokument][1] og [Dialogboksen for opfølgninger][2].
+2. I den dialogboks, der åbnes, [opretter du opfølgningen][2] eller [dokumentet][3] på normal vis. Mange af felterne er færdigudfyldte, men du kan ændre oplysningerne eller tilføje flere oplysninger.
 
 3. Når du er færdig med opfølgningen, markerer du **Udført** i den aktuelle dialogboks eller i afkrydsningsfeltet foran opfølgningsnavnet på detaljekortet **Salgsguide**. Dokumenter er som standard markeret som udført.
 
     > [!TIP]
-    > Hvis du vil oprette flere opfølgninger af samme type, skal du højreklikke på aktiviteten og vælge**Opret en til**. Derefter vises [dialogboksen for opfølgningen][2].
+    > Hvis du vil oprette flere opfølgninger af samme type, skal du højreklikke på aktiviteten og vælge**Opret en til**.
 
 4. Når alle opfølgninger og dokumenter for en fase er udført, skal du gå til næste faste på hovedkortet **Salg**.
 
@@ -94,7 +94,7 @@ Du registrerer et nyt salg og vælger salgstypen **Salg til ny kunde**, som er t
 
     1. I projektguiden klikker du på knappen **Opret** ved siden af opfølgningen **Kundemøde**.
         Dialogboksen **Opfølgning** åbnes med **Møde ude** angivet som type og navnet på salget og firmaet færdigudfyldt.
-    2. [Udfyld informationer, og inviter deltagere.][1]
+    2. Udfyld informationer, og [inviter deltagere][1].
     3. Klik på **Gem**.
 
 2. For god ordens skyld vil du sende en e-mail, hvori du bekræfter mødetidspunkt og mødested.
@@ -181,8 +181,8 @@ Du kan nu ændre fasen til **Solgt**. Når alle ønskede opfølgninger og dokume
 * [Opsæt en salgsguide i Indstillinger og vedligeholdelse][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

@@ -23,14 +23,14 @@ Hvis der er defineret en projektguide for en projekttype, du har angivet for et 
 
    ![Detaljekortet Projektguide med oversigt over status for Planlagt -screenshot][img1]
 
-1. I den dialogboks, der åbnes, opretter du opfølgningen/dokumentet på normal vis. Mange af felterne er færdigudfyldte, men du kan ændre oplysningerne eller tilføje flere oplysninger. Se [Dialogboksen Dokument][1] og [Dialogboksen for opfølgninger][2].
+1. I den dialogboks, der åbnes, [opretter du opfølgningen][2] eller [dokumentet][3] på normal vis. Mange af felterne er færdigudfyldte, men du kan ændre oplysningerne eller tilføje flere oplysninger.
 
     Du kan delegere opfølgningen til andre medarbejdere ved at angive dem som ejer af opfølgningen. Hvis dette er defineret i Indstillinger og vedligeholdelse, åbnes dialogboksen **Overfør opgaven til en projektdeltager**, hvor du kan vælge en medarbejder som ejer af opfølgningen.
 
 1. Når du er færdig med opfølgningen, markerer du **Udført** i den aktuelle dialogboks eller i afkrydsningsfeltet foran opfølgningsnavnet på detaljekortet **Projektguide**. Dokumenter er som standard markeret som udført.
 
     > [!TIP]
-    > Hvis du vil oprette flere opfølgninger af samme type, kan du højreklikke på opfølgningen og vælge **Opret en til**. [Dialogboksen for opfølgninger][2] åbnes.
+    > Hvis du vil oprette flere opfølgninger af samme type, kan du højreklikke på opfølgningen og vælge **Opret en til**.
     >
     > ![Opret en til -screenshot][img2]
 
@@ -83,7 +83,7 @@ Du registrerer et nyt projekt og vælger projekttypen **Konference**, som er til
 
     1. I projektguiden klikker du på knappen **Opret** ved siden af opfølgningen **Planlægningsmøde**.
         Dialogboksen **Opfølging** åbnes med **Møde inde** angivet som type og navnet på projektet færdigudfyldt.
-    1. [Udfyld informationer, og inviter deltagere.][2]
+    1. Udfyld informationer, og [inviter deltagere][2].
     1. Klik på **Gem**.
 
 1. På mødet bestemmer du konferenceprogrammet (agendaen), og du vil oprette en bemærkning, som indeholder denne oplysning.
@@ -165,8 +165,8 @@ Når alle ønskede opfølgninger og dokumenter for projektet er færdige, kan du
 * [Tilføj og rediger projektguider i Indstillinger og vedligeholdelse][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

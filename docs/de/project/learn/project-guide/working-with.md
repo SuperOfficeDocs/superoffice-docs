@@ -23,14 +23,14 @@ Wenn für einen Projekttyp, den Sie für ein Projekt angeben, ein Projektleitfad
 
    ![Bereichsregisterkarte Projektleitfaden mit Übersicht über den Status Geplant -screenshot][img1]
 
-1. Erstellen Sie im daraufhin angezeigten Dialogfeld die Folgeaufgabe/das Dokument auf die übliche Art und Weise. Viele Felder sind bereits ausgefüllt. Sie können die Informationen jedoch ändern oder weitere Informationen hinzufügen. Siehe [Dialogfeld Dokument][1] oder [Dialogfeld für Folgeaufgaben][2].
+1. Erstellen Sie im daraufhin angezeigten [Dialogfeld die Folgeaufgabe][2] order [das Dokument][3] auf die übliche Art und Weise. Viele Felder sind bereits ausgefüllt. Sie können die Informationen jedoch ändern oder weitere Informationen hinzufügen.
 
     Sie können die Folgeaufgabe an Ihre Kollegen delegieren, indem Sie die Kollegen als Eigentümer der Folgeaufgabe festlegen. Falls in Einstellungen und Verwaltung für eine bestimmte Folgeaufgabe definiert, wird das Dialogfeld **Aufgabe zu Projektmitglied zuweisen** angezeigt, in dem Sie einen Kollegen als Eigentümer der Folgeaufgabe auswählen können.
 
 1. Wenn Sie die Folgeaufgabe abgeschlossen haben, markieren Sie im entsprechenden Dialogfeld die Option **Abgeschlossen**, oder aktivieren Sie das entsprechende Kontrollkästchen vor dem Namen der Folgeaufgabe auf der Bereichsregisterkarte **Projektleitfaden**. Standardmäßig werden Dokumente als abgeschlossen gekennzeichnet.
 
     > [!TIP]
-    > Um mehrere Folgeaufgaben desselben Typs zu erstellen, müssen mit der rechten Maustaste auf die Aktivität klicken **Weitere erstellen** auswählen. Das [Dialogfeld Folgeaufgaben][2] wird geöffnet.
+    > Um mehrere Folgeaufgaben desselben Typs zu erstellen, müssen mit der rechten Maustaste auf die Aktivität klicken **Weitere erstellen** auswählen.
     >
     > ![Weitere erstellen -screenshot][img2]
 
@@ -83,7 +83,7 @@ Sie erfassen ein neues Projekt und wählen den Projekttyp **Konferenz**, der mit
 
     1. Klicken Sie im Projektleitfaden auf **Erstellen** neben der Folgeaufgabe **Recherche**.
         Das Dialogfeld **Folgeaufgabe** wird geöffnet, in dem **Meeting (intern)** als Typ angegeben ist und der Name des Projekts bereits eingegeben ist.
-    1. [Vervollständigen Sie die Information und laden Sie Teilnehmer ein][2].
+    1. Vervollständigen Sie die Information und [laden Sie Teilnehmer ein][2].
     1. Klicken Sie auf **Speichern**.
 
 1. Während der Besprechung beschließen Sie ein Konferenzprogramm (Zeitplan) und möchten ein Memo mit diesen Informationen erstellen.
@@ -165,8 +165,8 @@ Nachdem alle erforderlichen Folgeaufgaben und Dokumente für das Projekt abgesch
 * [Projektleitfaden ist in Einstellungen und Verwaltung hinzufügen und bearbeiten][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

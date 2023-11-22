@@ -14,8 +14,7 @@ language: sv
 1. Öppna projektet och gå till detaljkortet **Projektdeltagare**.
 2. Välj de projektdeltagare du vill bjuda in.
 3. Högerklicka och välj **Förfrågan om möte**.
-
-    Dialogrutan [**Händelse**][1] öppnas.
+4. [Fyll i nödvändiga uppgifter i fälten][1].
 
 <!-- Referenced links -->
-[1]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/create-follow-up.md#fields

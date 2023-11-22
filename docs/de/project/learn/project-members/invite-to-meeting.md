@@ -14,8 +14,7 @@ language: de
 1. Öffnen Sie das Projekt und wechseln Sie zur Bereichsregisterkarte **Projektmitglieder**.
 2. Wählen Sie die einzuladenden Projektmitglieder aus.
 3. Klicken Sie mit der rechten Maustaste und wählen Sie **Eine Besprechung anfordern**.
-
-    Das [Dialogfeld **Folgeaufgabe**][1] wird geöffnet.
+4. [Geben Sie die erforderlichen Informationen in das Feld ein][1].
 
 <!-- Referenced links -->
-[1]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/create-follow-up.md#fields

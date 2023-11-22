@@ -14,8 +14,7 @@ language: da
 1. Åbn projektet, og gå til fanen **Projektdeltagere**.
 2. Vælg de projektdeltagere, du vil invitere.
 3. Højreklik, og vælg **Aftal et møde**.
-
-    [Dialogboksen *Opfølging**][1] vises.
+4. [Indtast de ønskede oplysninger i felterne][1].
 
 <!-- Referenced links -->
-[1]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/create-follow-up.md#fields

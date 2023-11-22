@@ -30,12 +30,12 @@ Titta på den här videon för att lära dig hur enkelt det är att använda sä
 
 1. Klicka på knappen **Skapa** framför namnet på händelsen/dokumentet.
 
-2. I dialogrutan som öppnas skapar du händelsen/dokumentet som vanligt. Många av fälten är redan ifyllda, men du kan ändra informationen eller lägga till mer information. Se [Dialogrutan Dokument][1] eller [Dialogrutan för händelser][2].
+2. I dialogrutan som öppnas [skapar du händelsen][2] eller [dokumentet][3] som vanligt. Många av fälten är redan ifyllda, men du kan ändra informationen eller lägga till mer information.
 
 3. När du är färdig med händelsen markerar du **Slutfört** i den aktuella dialogrutan eller i kryssrutan framför händelsenamnet på detaljkortet **Säljguide**. Dokument är som standard markerade som slutförda.
 
     > [!TIP]
-    > För att skapa flera händelser av samma typ kan du högerklicka på händelsen och välja **Skapa en till**. Då visas [dialogrutan för händelser][2].
+    > För att skapa flera händelser av samma typ kan du högerklicka på händelsen och välja **Skapa en till**.
 
 4. När alla händelser och dokument för en fas är slutförda, går du till nästa fas på huvudkortet **Försäljning**.
 
@@ -94,7 +94,7 @@ Du registrerar en ny försäljning och väljer försäljningstypen **Försäljni
 
     1. I projektguiden klickar du på knappen **Skapa** bredvid händelsen **Kundmöte**.
         Dialogrutan **Händels** öppnas, med **Möte ute** angivet som typ och namnet på försäljningen och företaget redan ifyllt.
-    2. [Fyll i information och bjud in deltagare][1].
+    2. Fyll i information och [bjud in deltagare][1].
     3. Klicka på **Spara**.
 
 2. För ordningens skull vill du skicka ett e-postmeddelande där du bekräftar tidpunkt och plats för mötet.
@@ -181,8 +181,8 @@ Nu kan du ändra fasen till **Såld**. När alla önskade händelser och dokumen
 * [Konfigurera en säljguide i Inställningar och underhåll][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 
