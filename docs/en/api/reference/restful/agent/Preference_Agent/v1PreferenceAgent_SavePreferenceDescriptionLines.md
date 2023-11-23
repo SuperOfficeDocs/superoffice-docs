@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 933,
-      "PrefDescId": 624,
-      "PrefValue": "tempora",
-      "PrefShowValue": "vitae",
-      "Description": "Balanced reciprocal internet solution",
+      "PrefDescLineId": 394,
+      "PrefDescId": 769,
+      "PrefValue": "iusto",
+      "PrefShowValue": "itaque",
+      "Description": "Customer-focused methodical matrix",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 933,
-      "PrefDescId": 624,
-      "PrefValue": "tempora",
-      "PrefShowValue": "vitae",
-      "Description": "Balanced reciprocal internet solution",
+      "PrefDescLineId": 394,
+      "PrefDescId": 769,
+      "PrefValue": "iusto",
+      "PrefShowValue": "itaque",
+      "Description": "Customer-focused methodical matrix",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 343,
-    "PrefDescId": 192,
-    "PrefValue": "magnam",
-    "PrefShowValue": "quo",
-    "Description": "Inverse bifurcated process improvement",
+    "PrefDescLineId": 941,
+    "PrefDescId": 962,
+    "PrefValue": "velit",
+    "PrefShowValue": "molestiae",
+    "Description": "Business-focused disintermediate array",
     "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldType": "System.Int32",
+        "FieldLength": 291
       }
     }
   }

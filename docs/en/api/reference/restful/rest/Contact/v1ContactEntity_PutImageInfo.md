@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 757,
-  "BlobSize": 778,
-  "Description": "Re-engineered client-server toolset",
-  "ExtraInfo": "sapiente",
+  "BlobId": 810,
+  "BlobSize": 630,
+  "Description": "Adaptive foreground emulation",
+  "ExtraInfo": "vel",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "cum",
-  "OriginalSize": 359,
-  "CreatedDate": "2018-12-16T03:24:51.459286+01:00",
-  "UpdatedDate": "1998-10-26T03:24:51.459286+01:00",
+  "MimeType": "ratione",
+  "OriginalSize": 641,
+  "CreatedDate": "1999-08-29T13:38:17.2024711+02:00",
+  "UpdatedDate": "2004-06-16T13:38:17.2024711+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "facilis"
+  "ConceptualType": "rerum"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 624,
-  "BlobSize": 909,
-  "Description": "Multi-lateral fault-tolerant utilisation",
-  "ExtraInfo": "ad",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "temporibus",
-  "OriginalSize": 894,
-  "CreatedDate": "2014-03-20T03:24:51.459286+01:00",
-  "UpdatedDate": "2008-04-01T03:24:51.459286+02:00",
+  "BlobId": 275,
+  "BlobSize": 51,
+  "Description": "Automated optimizing core",
+  "ExtraInfo": "dolorem",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "dolorem",
+  "OriginalSize": 169,
+  "CreatedDate": "1998-02-15T13:38:17.2024711+01:00",
+  "UpdatedDate": "1997-11-26T13:38:17.2024711+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "architecto",
+  "ConceptualType": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldType": "System.String",
+      "FieldLength": 972
     }
   }
 }

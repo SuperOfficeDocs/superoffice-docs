@@ -78,7 +78,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 119,
-  "Name": "Nikolaus-Koch",
-  "Config": "ea",
-  "Rank": 701,
-  "Client": "nihil",
-  "Style": "aut",
+  "DashboardThemeId": 450,
+  "Name": "Abernathy, Nikolaus and Heller",
+  "Config": "tempora",
+  "Rank": 814,
+  "Client": "fugiat",
+  "Style": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 902
     }
   },
   "_Links": {

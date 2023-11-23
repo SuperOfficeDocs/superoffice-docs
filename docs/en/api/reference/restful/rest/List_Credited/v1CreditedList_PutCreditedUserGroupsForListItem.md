@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Crooks, Romaguera and Botsford",
-    "ToolTip": "Sit voluptas ut dolor consequatur quo vitae.",
+    "Id": 351,
+    "Name": "Hyatt Inc and Sons",
+    "ToolTip": "Eveniet aperiam officiis nihil.",
     "Deleted": false,
-    "Rank": 243,
-    "Type": "non",
-    "ColorBlock": 502,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2019-04-29T03:24:52.2244666+02:00",
+    "Rank": 175,
+    "Type": "omnis",
+    "ColorBlock": 654,
+    "IconHint": "voluptatibus",
+    "Selected": true,
+    "LastChanged": "2000-12-04T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "White-Bode",
-        "ToolTip": "Et qui itaque.",
+        "Id": 717,
+        "Name": "Block-Collins",
+        "ToolTip": "Non quia quas sed ducimus saepe.",
         "Deleted": false,
-        "Rank": 559,
-        "Type": "delectus",
-        "ColorBlock": 235,
-        "IconHint": "doloremque",
+        "Rank": 869,
+        "Type": "voluptas",
+        "ColorBlock": 306,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2014-01-15T03:24:52.2244666+01:00",
+        "LastChanged": "2019-09-10T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "inventore",
+        "StyleHint": "mollitia",
         "Hidden": true,
-        "FullName": "Mr. Nils Burnice McDermott"
+        "FullName": "Cecile Hayes Sr."
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "culpa",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Kennedi Cruickshank"
+    "FullName": "Raegan Dicki"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Nienow, Weissnat and Denesik",
-    "ToolTip": "Possimus ut delectus quia accusamus.",
+    "Id": 36,
+    "Name": "Bauch-Boyer",
+    "ToolTip": "Deleniti occaecati quia impedit.",
     "Deleted": true,
-    "Rank": 599,
-    "Type": "quam",
-    "ColorBlock": 665,
-    "IconHint": "eum",
+    "Rank": 370,
+    "Type": "eius",
+    "ColorBlock": 693,
+    "IconHint": "similique",
     "Selected": true,
-    "LastChanged": "1996-11-27T03:24:52.2244666+01:00",
+    "LastChanged": "2003-05-22T13:38:18.0306692+02:00",
     "ChildItems": [
       {
-        "Id": 844,
-        "Name": "Hane Inc and Sons",
-        "ToolTip": "Quidem quaerat nisi iusto ut sint amet ut.",
-        "Deleted": false,
-        "Rank": 541,
-        "Type": "sit",
-        "ColorBlock": 472,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2008-12-26T03:24:52.2244666+01:00",
+        "Id": 66,
+        "Name": "Becker, Jaskolski and Lockman",
+        "ToolTip": "Eligendi reiciendis est consequatur.",
+        "Deleted": true,
+        "Rank": 892,
+        "Type": "est",
+        "ColorBlock": 892,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "2007-07-10T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "esse",
+        "StyleHint": "sequi",
         "Hidden": true,
-        "FullName": "Mr. Kennedy Annamae Satterfield Sr.",
+        "FullName": "Joana Runte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 851
+            "FieldType": "System.Int32",
+            "FieldLength": 68
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "nam",
+    "ExtraInfo": "quidem",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Dr. Otilia Brielle Runolfsson",
+    "FullName": "Terrance Leann Abbott III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldLength": 725
       }
     }
   }

@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 324,
-  "Name": "Eichmann, O'Conner and Balistreri"
+  "SelectionId": 743,
+  "Name": "Ryan, McCullough and Jerde"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable didactic projection",
-  "Postit": "quasi",
+  "Description": "Enterprise-wide intermediate forecast",
+  "Postit": "atque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 165,
-  "IncludePerson": 591,
-  "MemberCount": 403,
-  "Name": "Wyman-Krajcik",
-  "PostitTextId": 664,
-  "CreatedDate": "2016-06-11T03:24:48.2680521+02:00",
-  "SelectionId": 897,
-  "SoundEx": "quas",
-  "Source": 356,
-  "TextId": 642,
-  "UpdatedDate": "2008-06-21T03:24:48.2680521+02:00",
-  "UpdatedCount": 52,
-  "Visibility": 984,
+  "GroupIdx": 10,
+  "IncludePerson": 339,
+  "MemberCount": 706,
+  "Name": "Larkin Inc and Sons",
+  "PostitTextId": 855,
+  "CreatedDate": "2023-04-26T13:38:14.1553188+02:00",
+  "SelectionId": 138,
+  "SoundEx": "eos",
+  "Source": 247,
+  "TextId": 151,
+  "UpdatedDate": "2011-03-27T13:38:14.1553188+02:00",
+  "UpdatedCount": 703,
+  "Visibility": 921,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 449,
-  "TargetTableName": "Daugherty Group",
-  "Completed": true,
-  "LeftSelectionId": 331,
-  "RightSelectionId": 786,
+  "CompanyUnique": false,
+  "TargetTableNumber": 887,
+  "TargetTableName": "Smith-Johnson",
+  "Completed": false,
+  "LeftSelectionId": 740,
+  "RightSelectionId": 988,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wehner, Hagenes and Dach",
-  "ShadowProviderName": "Will Inc and Sons",
-  "ChartKey": "aut",
-  "LastLoaded": "2022-09-08T03:24:48.2680521+02:00",
-  "LastLoadedBy": 778,
+  "MainProviderName": "Cartwright-Blick",
+  "ShadowProviderName": "Wolff, Borer and Davis",
+  "ChartKey": "cumque",
+  "LastLoaded": "2001-03-22T13:38:14.1553188+01:00",
+  "LastLoadedBy": 565,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-10-27T03:24:48.2680521+02:00",
-  "LastMembershipChangeBy": 582,
+  "LastMembershipChange": "2005-03-11T13:38:14.1553188+01:00",
+  "LastMembershipChangeBy": 288,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "eveniet",
-  "MailingsProviderName": "Cassin-Muller",
-  "DashboardTileDefinitionId": 785,
+  "MainHeading": "nesciunt",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Bruen, Kerluke and Beier",
+  "DashboardTileDefinitionId": 857,
   "VisibleFor": [
     {
-      "VisibleId": 160,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 672
+          "FieldLength": 647
         }
       }
     },
     {
-      "VisibleId": 160,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 672
+          "FieldLength": 647
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldType": "System.Int32",
+      "FieldLength": 230
     }
   }
 }

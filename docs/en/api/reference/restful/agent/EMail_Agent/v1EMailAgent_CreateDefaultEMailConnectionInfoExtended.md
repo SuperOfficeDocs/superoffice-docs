@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 55,
-  "ServerName": "Blanda-O'Reilly",
-  "Protocol": "aperiam",
-  "UserName": "Batz Group",
-  "Password": "libero",
-  "UseSSL": false,
-  "Folder": "aut",
+  "Port": 88,
+  "ServerName": "Mertz, Stamm and Crist",
+  "Protocol": "ut",
+  "UserName": "Marvin-Brown",
+  "Password": "voluptatem",
+  "UseSSL": true,
+  "Folder": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldType": "System.Int32",
+      "FieldLength": 953
     }
   }
 }

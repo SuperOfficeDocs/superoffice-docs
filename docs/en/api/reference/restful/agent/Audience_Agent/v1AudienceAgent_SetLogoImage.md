@@ -69,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Halvorson Group",
+  "LayoutName": "Jerde, Davis and Hickle",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

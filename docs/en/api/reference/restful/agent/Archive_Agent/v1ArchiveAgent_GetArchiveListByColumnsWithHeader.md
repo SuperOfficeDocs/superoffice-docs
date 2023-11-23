@@ -106,32 +106,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Graham, Lubowitz and Marks",
+  "ProviderName": "Berge, Huels and Frami",
   "Columns": [
-    "et",
-    "commodi"
+    "id",
+    "ut"
   ],
   "SortOrder": [
     {
-      "Name": "Parker Inc and Sons",
+      "Name": "McKenzie LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Parker Inc and Sons",
+      "Name": "McKenzie LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kuvalis, Nitzsche and Borer",
-      "Operator": "mollitia",
+      "Name": "Kiehn, Kohler and Murazik",
+      "Operator": "libero",
       "Values": [
-        "corrupti",
-        "doloribus"
+        "labore",
+        "qui"
       ],
       "DisplayValues": [
-        "numquam",
-        "quo"
+        "consequatur",
+        "qui"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 424,
+      "InterParenthesis": 861,
       "InterOperator": "And",
-      "UniqueHash": 180
+      "UniqueHash": 765
     }
   ],
   "Entities": [
-    "quo",
-    "officiis"
+    "a",
+    "quibusdam"
   ],
-  "Page": 529,
-  "PageSize": 934,
-  "Options": "fugiat"
+  "Page": 215,
+  "PageSize": 34,
+  "Options": "reiciendis"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 668,
+  "RowCount": 350,
   "Rows": [
     {
-      "EntityName": "Tromp, Gottlieb and Harvey",
-      "PrimaryKey": 552,
+      "EntityName": "Ortiz Group",
+      "PrimaryKey": 218,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "vel",
-          "TooltipHint": "eos",
-          "LinkHint": "consequatur"
+          "DisplayValue": "aliquam",
+          "TooltipHint": "itaque",
+          "LinkHint": "commodi"
         }
       },
-      "LinkHint": "magni",
-      "StyleHint": "quis",
+      "LinkHint": "fugiat",
+      "StyleHint": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 64
+          "FieldType": "System.Int32",
+          "FieldLength": 728
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 624
     }
   }
 }

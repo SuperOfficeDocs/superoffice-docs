@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cremin Inc and Sons",
-    "Description": "Multi-tiered user-facing neural-net",
+    "Name": "Abernathy-Feeney",
+    "Description": "Upgradable multi-tasking paradigm",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 171,
-        "Tooltip": "reiciendis",
-        "CanAssign": true,
-        "Free": 923,
-        "InUse": 821,
+        "Unrestricted": true,
+        "Total": 841,
+        "Tooltip": "et",
+        "CanAssign": false,
+        "Free": 912,
+        "InUse": 471,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 717,
-        "Name": "Goyette LLC",
-        "Description": "Realigned global firmware",
-        "PrerequisiteModuleName": "Fritsch-Wilkinson",
-        "SortOrder": 963,
-        "ExtraFlags": 654,
+        "ModuleLicenseId": 754,
+        "Name": "O'Connell-Ruecker",
+        "Description": "Synergized 3rd generation intranet",
+        "PrerequisiteModuleName": "Langworth, Abbott and Gottlieb",
+        "SortOrder": 26,
+        "ExtraFlags": 166,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 73
+            "FieldType": "System.Int32",
+            "FieldLength": 127
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 493,
-        "Tooltip": "placeat",
+        "Total": 433,
+        "Tooltip": "possimus",
         "CanAssign": false,
-        "Free": 680,
-        "InUse": 29,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 123,
-        "Name": "Bailey, Bradtke and Schroeder",
-        "Description": "User-friendly zero defect moderator",
-        "PrerequisiteModuleName": "Frami LLC",
-        "SortOrder": 945,
-        "ExtraFlags": 22,
+        "Free": 342,
+        "InUse": 416,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 332,
+        "Name": "Conn, Gerlach and Schulist",
+        "Description": "Multi-tiered 4th generation infrastructure",
+        "PrerequisiteModuleName": "Runte, Cronin and Spencer",
+        "SortOrder": 736,
+        "ExtraFlags": 254,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 348
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 932
       }
     }
   },
   {
-    "Name": "Cremin Inc and Sons",
-    "Description": "Multi-tiered user-facing neural-net",
+    "Name": "Abernathy-Feeney",
+    "Description": "Upgradable multi-tasking paradigm",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 171,
-        "Tooltip": "reiciendis",
-        "CanAssign": true,
-        "Free": 923,
-        "InUse": 821,
+        "Unrestricted": true,
+        "Total": 841,
+        "Tooltip": "et",
+        "CanAssign": false,
+        "Free": 912,
+        "InUse": 471,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 717,
-        "Name": "Goyette LLC",
-        "Description": "Realigned global firmware",
-        "PrerequisiteModuleName": "Fritsch-Wilkinson",
-        "SortOrder": 963,
-        "ExtraFlags": 654,
+        "ModuleLicenseId": 754,
+        "Name": "O'Connell-Ruecker",
+        "Description": "Synergized 3rd generation intranet",
+        "PrerequisiteModuleName": "Langworth, Abbott and Gottlieb",
+        "SortOrder": 26,
+        "ExtraFlags": 166,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 73
+            "FieldType": "System.Int32",
+            "FieldLength": 127
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 493,
-        "Tooltip": "placeat",
+        "Total": 433,
+        "Tooltip": "possimus",
         "CanAssign": false,
-        "Free": 680,
-        "InUse": 29,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 123,
-        "Name": "Bailey, Bradtke and Schroeder",
-        "Description": "User-friendly zero defect moderator",
-        "PrerequisiteModuleName": "Frami LLC",
-        "SortOrder": 945,
-        "ExtraFlags": 22,
+        "Free": 342,
+        "InUse": 416,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 332,
+        "Name": "Conn, Gerlach and Schulist",
+        "Description": "Multi-tiered 4th generation infrastructure",
+        "PrerequisiteModuleName": "Runte, Cronin and Spencer",
+        "SortOrder": 736,
+        "ExtraFlags": 254,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 348
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 932
       }
     }
   }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 886
+  "PersonId": 812
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 85,
-  "BlobSize": 614,
-  "Description": "Cloned logistical product",
-  "ExtraInfo": "explicabo",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "nam",
-  "OriginalSize": 112,
-  "CreatedDate": "2016-06-27T03:24:47.2677007+02:00",
-  "UpdatedDate": "1999-05-23T03:24:47.2677007+02:00",
+  "BlobId": 254,
+  "BlobSize": 140,
+  "Description": "Innovative disintermediate portal",
+  "ExtraInfo": "autem",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "ratione",
+  "OriginalSize": 755,
+  "CreatedDate": "2006-04-06T13:38:13.0927968+02:00",
+  "UpdatedDate": "2000-08-29T13:38:13.0927968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 357
+      "FieldType": "System.Int32",
+      "FieldLength": 698
     }
   }
 }

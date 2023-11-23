@@ -70,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "ratione",
+  "Provider": "voluptatem",
   "Restrictions": [
     {
-      "Name": "Kerluke, Renner and Becker",
-      "Operator": "ut",
+      "Name": "Lynch-Becker",
+      "Operator": "deserunt",
       "Values": [
-        "ullam",
-        "qui"
+        "sint",
+        "voluptatibus"
       ],
       "DisplayValues": [
-        "blanditiis",
-        "et"
+        "neque",
+        "nisi"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 717,
+      "InterParenthesis": 178,
       "InterOperator": "And",
-      "UniqueHash": 822
+      "UniqueHash": 653
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  20,
-  547
+  582,
+  740
 ]
 ```

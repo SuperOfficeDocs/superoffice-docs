@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "Feil-Crooks",
-    "ToolTip": "Ea impedit quo.",
-    "Deleted": false,
-    "Rank": 908,
-    "Type": "explicabo",
-    "ColorBlock": 698,
-    "IconHint": "quam",
+    "Id": 332,
+    "Name": "Hayes Group",
+    "ToolTip": "Quia nemo nisi qui.",
+    "Deleted": true,
+    "Rank": 965,
+    "Type": "animi",
+    "ColorBlock": 482,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "1998-08-10T03:24:52.1932187+02:00",
+    "LastChanged": "2010-03-24T13:38:18.0150452+01:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Osinski, Ratke and Smitham",
-        "ToolTip": "Voluptatem quo quam.",
-        "Deleted": true,
-        "Rank": 720,
-        "Type": "impedit",
-        "ColorBlock": 375,
-        "IconHint": "omnis",
+        "Id": 327,
+        "Name": "Cronin Inc and Sons",
+        "ToolTip": "Quidem a enim similique reprehenderit.",
+        "Deleted": false,
+        "Rank": 487,
+        "Type": "et",
+        "ColorBlock": 636,
+        "IconHint": "odit",
         "Selected": true,
-        "LastChanged": "2021-11-11T03:24:52.1932187+01:00",
+        "LastChanged": "2019-12-07T13:38:18.0150452+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "beatae",
+        "ExtraInfo": "sed",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Miss Arielle Rhoda Herzog III"
+        "FullName": "Name Brook Casper Sr."
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "itaque",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Ms. Arianna Windler I"
+    "FullName": "Prof. Guillermo Elta Hoeger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Sporer, Senger and Muller",
-    "ToolTip": "Excepturi ut est doloremque.",
+    "Id": 500,
+    "Name": "West-Casper",
+    "ToolTip": "Aut id molestias.",
     "Deleted": false,
-    "Rank": 724,
-    "Type": "rerum",
-    "ColorBlock": 934,
-    "IconHint": "corporis",
+    "Rank": 807,
+    "Type": "omnis",
+    "ColorBlock": 311,
+    "IconHint": "ipsum",
     "Selected": true,
-    "LastChanged": "2001-06-17T03:24:52.2088405+02:00",
+    "LastChanged": "2013-09-29T13:38:18.0150452+02:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Harber LLC",
-        "ToolTip": "Sint necessitatibus autem.",
-        "Deleted": false,
-        "Rank": 694,
-        "Type": "molestias",
-        "ColorBlock": 664,
-        "IconHint": "labore",
-        "Selected": false,
-        "LastChanged": "2020-09-01T03:24:52.2088405+02:00",
+        "Id": 2,
+        "Name": "Kshlerin-Cruickshank",
+        "ToolTip": "Cumque dolore ipsam.",
+        "Deleted": true,
+        "Rank": 184,
+        "Type": "aut",
+        "ColorBlock": 903,
+        "IconHint": "a",
+        "Selected": true,
+        "LastChanged": "2004-08-13T13:38:18.0150452+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "hic",
-        "Hidden": true,
-        "FullName": "Miss Baron Miller Ebert",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "itaque",
+        "Hidden": false,
+        "FullName": "Mrs. Guadalupe Gabriel Hessel MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 82
+            "FieldLength": 711
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "officiis",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Emil Schiller",
+    "FullName": "Cristal Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldType": "System.String",
+        "FieldLength": 652
       }
     }
   }

@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 490,
-  "ERPQuoteAlternativeKey": "dolorum",
-  "QuoteVersionId": 781,
-  "Name": "Miller Inc and Sons",
-  "Description": "Multi-channelled stable budgetary management",
+  "QuoteAlternativeId": 271,
+  "ERPQuoteAlternativeKey": "ut",
+  "QuoteVersionId": 352,
+  "Name": "Beer LLC",
+  "Description": "Advanced reciprocal encryption",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 4534.898,
-  "ERPDiscountAmount": 20154.754,
-  "DiscountPercent": 23226.074,
-  "DiscountAmount": 30948.25,
+  "ERPDiscountPercent": 24197.613999999998,
+  "ERPDiscountAmount": 22514.656,
+  "DiscountPercent": 9433.34,
+  "DiscountAmount": 24739.796,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "animi",
-  "VAT": 18656.702,
-  "EarningPercent": 4569.372,
-  "EarningAmount": 17960.953999999998,
-  "SubTotal": 3679.316,
-  "TotalPrice": 30261.904,
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "repellendus",
-  "ExtraField3": "eos",
-  "ExtraField4": "rerum",
-  "ExtraField5": "labore"
+  "VATInfo": "delectus",
+  "VAT": 30083.266,
+  "EarningPercent": 27482.046,
+  "EarningAmount": 27046.42,
+  "SubTotal": 14626.377999999999,
+  "TotalPrice": 24877.692,
+  "ExtraField1": "dolorem",
+  "ExtraField2": "nulla",
+  "ExtraField3": "aspernatur",
+  "ExtraField4": "beatae",
+  "ExtraField5": "maxime"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 457,
-  "ERPQuoteAlternativeKey": "doloremque",
-  "QuoteVersionId": 909,
-  "Name": "Jewess, Wolff and Effertz",
-  "Description": "Phased scalable local area network",
+  "QuoteAlternativeId": 708,
+  "ERPQuoteAlternativeKey": "in",
+  "QuoteVersionId": 684,
+  "Name": "Kihn Inc and Sons",
+  "Description": "Cloned mission-critical matrix",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 921.396,
-  "ERPDiscountAmount": 14109.268,
-  "DiscountPercent": 27949.012,
-  "DiscountAmount": 14008.98,
+  "ERPDiscountPercent": 9123.074,
+  "ERPDiscountAmount": 16663.478,
+  "DiscountPercent": 22188.719999999998,
+  "DiscountAmount": 29606.897999999997,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ratione",
-  "VAT": 5026.936,
-  "EarningPercent": 27989.754,
-  "EarningAmount": 22433.172,
-  "SubTotal": 13980.774,
-  "TotalPrice": 7690.8359999999993,
-  "ExtraField1": "ad",
-  "ExtraField2": "labore",
-  "ExtraField3": "ipsam",
-  "ExtraField4": "commodi",
-  "ExtraField5": "ut",
+  "VATInfo": "voluptatem",
+  "VAT": 25877.438,
+  "EarningPercent": 9499.154,
+  "EarningAmount": 4936.05,
+  "SubTotal": 21079.284,
+  "TotalPrice": 16829.579999999998,
+  "ExtraField1": "saepe",
+  "ExtraField2": "illo",
+  "ExtraField3": "quibusdam",
+  "ExtraField4": "rerum",
+  "ExtraField5": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 38
     }
   }
 }

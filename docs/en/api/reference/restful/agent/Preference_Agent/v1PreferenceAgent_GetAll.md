@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 593,
-    "Section": "libero",
-    "Key": "officiis",
-    "Name": "Kassulke, Renner and Greenfelder",
+    "PrefDescId": 557,
+    "Section": "sint",
+    "Key": "non",
+    "Name": "Johns LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Profound cohesive ability",
+    "Description": "Focused multimedia paradigm",
     "IsBuiltin": false,
-    "TableName": "Lesch LLC",
-    "UserDefinedListId": 908,
-    "Rank": 414,
-    "SubGroup": "itaque",
-    "MinLevel": 778,
-    "MaxValue": 434,
-    "MinValue": 892,
-    "RequiredLicense": "eligendi",
+    "TableName": "Romaguera, Turcotte and Koepp",
+    "UserDefinedListId": 940,
+    "Rank": 686,
+    "SubGroup": "repudiandae",
+    "MinLevel": 368,
+    "MaxValue": 464,
+    "MinValue": 20,
+    "RequiredLicense": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldType": "System.String",
+        "FieldLength": 365
       }
     }
   }

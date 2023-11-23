@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 601,
-  "Name": "Gislason, McDermott and Gutmann",
-  "Description": "Switchable next generation moderator",
-  "DeltaJson": "corrupti",
+  "ConfigurableScreenDeltaId": 767,
+  "Name": "Bernhard Group",
+  "Description": "Visionary needs-based database",
+  "DeltaJson": "et",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "architecto",
-  "UpdatedDate": "2003-05-15T03:24:47.3614382+02:00",
-  "CreatedDate": "1998-01-09T03:24:47.3614382+01:00",
+  "RecipeId": "porro",
+  "UpdatedDate": "2021-03-21T13:38:13.2646505+01:00",
+  "CreatedDate": "2004-03-20T13:38:13.2646505+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    627,
-    47
+    876,
+    816
   ],
-  "AppliesToKey": "eaque"
+  "AppliesToKey": "temporibus"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 197,
-  "Name": "Dicki LLC",
-  "Description": "Fundamental bi-directional workforce",
-  "DeltaJson": "nesciunt",
+  "ConfigurableScreenDeltaId": 803,
+  "Name": "Trantow-Adams",
+  "Description": "Progressive bi-directional secured line",
+  "DeltaJson": "quasi",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "aliquam",
-  "UpdatedDate": "2002-11-24T03:24:47.3614382+01:00",
-  "CreatedDate": "2020-07-11T03:24:47.3614382+02:00",
+  "RecipeId": "eum",
+  "UpdatedDate": "1997-11-13T13:38:13.2646505+01:00",
+  "CreatedDate": "2001-07-26T13:38:13.2646505+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    105,
-    550
+    16,
+    12
   ],
-  "AppliesToKey": "voluptatem",
+  "AppliesToKey": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 234
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   }
 }

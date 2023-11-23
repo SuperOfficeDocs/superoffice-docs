@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ferry, Schoen and Lebsack",
-  "ProviderName": "Osinski, Huels and Hodkiewicz",
-  "Context": "dolore",
-  "OwnerKeys": "sed",
+  "GuiName": "Pacocha LLC",
+  "ProviderName": "Rau-Moen",
+  "Context": "doloribus",
+  "OwnerKeys": "autem",
   "Entities": [
-    "velit",
-    "est"
+    "maxime",
+    "nihil"
   ]
 }
 ```

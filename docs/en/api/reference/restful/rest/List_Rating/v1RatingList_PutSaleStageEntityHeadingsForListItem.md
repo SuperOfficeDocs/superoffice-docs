@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Schroeder-Morar",
-    "ToolTip": "Omnis nemo voluptatem.",
+    "Id": 886,
+    "Name": "Barrows, Thiel and Crist",
+    "ToolTip": "Culpa provident sequi nihil aut similique sint.",
     "Deleted": false,
-    "Rank": 766,
-    "Type": "mollitia",
-    "ColorBlock": 461,
-    "IconHint": "ipsa",
+    "Rank": 897,
+    "Type": "omnis",
+    "ColorBlock": 99,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2014-03-31T03:24:52.3806958+02:00",
+    "LastChanged": "2003-12-08T13:38:18.186902+01:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Muller LLC",
-        "ToolTip": "Ut quisquam.",
-        "Deleted": true,
-        "Rank": 252,
-        "Type": "velit",
-        "ColorBlock": 915,
-        "IconHint": "natus",
+        "Id": 130,
+        "Name": "Wisozk-Reinger",
+        "ToolTip": "Voluptas temporibus debitis ut repudiandae.",
+        "Deleted": false,
+        "Rank": 701,
+        "Type": "aperiam",
+        "ColorBlock": 27,
+        "IconHint": "laboriosam",
         "Selected": true,
-        "LastChanged": "1997-07-18T03:24:52.3806958+02:00",
+        "LastChanged": "1998-10-11T13:38:18.186902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "fuga",
-        "Hidden": true,
-        "FullName": "Mrs. Rachael Treutel"
+        "ExtraInfo": "repellendus",
+        "StyleHint": "quidem",
+        "Hidden": false,
+        "FullName": "Mr. Kay Diana Boyer"
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "porro",
-    "Hidden": false,
-    "FullName": "Miss Michele Brakus"
+    "ExtraInfo": "quia",
+    "StyleHint": "excepturi",
+    "Hidden": true,
+    "FullName": "Bulah Rowe III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Feest LLC",
-    "ToolTip": "Occaecati voluptas.",
+    "Id": 642,
+    "Name": "Stroman LLC",
+    "ToolTip": "Molestiae ut et vel.",
     "Deleted": false,
-    "Rank": 56,
-    "Type": "facere",
-    "ColorBlock": 81,
-    "IconHint": "nulla",
+    "Rank": 124,
+    "Type": "consequuntur",
+    "ColorBlock": 734,
+    "IconHint": "debitis",
     "Selected": false,
-    "LastChanged": "2016-12-20T03:24:52.3806958+01:00",
+    "LastChanged": "2015-08-03T13:38:18.186902+02:00",
     "ChildItems": [
       {
-        "Id": 812,
-        "Name": "Considine-Harris",
-        "ToolTip": "Fugit earum ut aliquam eos.",
+        "Id": 482,
+        "Name": "Jacobs-Reichert",
+        "ToolTip": "Dignissimos et inventore aut.",
         "Deleted": true,
-        "Rank": 408,
-        "Type": "deleniti",
-        "ColorBlock": 226,
-        "IconHint": "magnam",
-        "Selected": false,
-        "LastChanged": "2008-03-31T03:24:52.3806958+02:00",
+        "Rank": 173,
+        "Type": "dignissimos",
+        "ColorBlock": 718,
+        "IconHint": "eaque",
+        "Selected": true,
+        "LastChanged": "2000-11-01T13:38:18.186902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "nesciunt",
-        "Hidden": true,
-        "FullName": "Mrs. Jarrell Maverick Kovacek V",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "necessitatibus",
+        "Hidden": false,
+        "FullName": "Cathryn Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 721
+            "FieldType": "System.Int32",
+            "FieldLength": 836
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "ut",
+    "ExtraInfo": "harum",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Angela Hudson",
+    "FullName": "Prof. Luna Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldLength": 748
       }
     }
   }

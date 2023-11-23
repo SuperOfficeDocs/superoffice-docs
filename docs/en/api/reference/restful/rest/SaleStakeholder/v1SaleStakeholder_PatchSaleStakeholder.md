@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quisquam",
+    "path": "minima",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quisquam",
+    "path": "minima",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Leffler, Harris and Breitenberg",
-  "Comment": "quia",
-  "StakeholderRoleId": 662,
-  "CountryId": 634,
-  "PersonId": 790,
-  "EmailDescription": "lee.nicolas@bahringer.co.uk",
-  "EmailId": 609,
-  "EmailAddress": "cierra.cormier@hermiston.us",
-  "PhoneId": 741,
-  "ContactName": "Renner-Bailey",
-  "ContactId": 610,
-  "SaleId": 263,
-  "Mrmrs": "non",
-  "Firstname": "Kallie",
-  "MiddleName": "Ullrich LLC",
-  "Lastname": "Larson",
-  "SaleStakeholderId": 186,
-  "Rank": 164,
-  "Phone": "271-188-6113",
+  "StakeholderRoleName": "Heathcote Inc and Sons",
+  "Comment": "consequatur",
+  "StakeholderRoleId": 646,
+  "CountryId": 250,
+  "PersonId": 991,
+  "EmailDescription": "sonia_gorczany@streich.us",
+  "EmailId": 642,
+  "EmailAddress": "nona.goodwin@stracke.biz",
+  "PhoneId": 241,
+  "ContactName": "Gusikowski-Price",
+  "ContactId": 353,
+  "SaleId": 460,
+  "Mrmrs": "perferendis",
+  "Firstname": "Lenna",
+  "MiddleName": "Lockman-Friesen",
+  "Lastname": "Ebert",
+  "SaleStakeholderId": 79,
+  "Rank": 591,
+  "Phone": "(383)205-3962 x43829",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldLength": 754
     }
   },
   "_Links": {

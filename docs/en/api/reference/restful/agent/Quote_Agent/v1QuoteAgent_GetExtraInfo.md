@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "et"
+  "QuoteLineExtraData": "aut"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Blanda, Connelly and Fadel",
-    "Value": "ut",
+    "Name": "Robel, Bauch and Dach",
+    "Value": "veniam",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldLength": 206
       }
     }
   },
   {
-    "Name": "Blanda, Connelly and Fadel",
-    "Value": "ut",
+    "Name": "Robel, Bauch and Dach",
+    "Value": "veniam",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldLength": 206
       }
     }
   }

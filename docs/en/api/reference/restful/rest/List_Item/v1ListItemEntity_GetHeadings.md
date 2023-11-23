@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Name": "Rippin LLC",
-    "ToolTip": "Qui accusantium voluptas fuga laudantium ea iste ab.",
+    "Id": 688,
+    "Name": "Morissette, Boyer and Stroman",
+    "ToolTip": "Asperiores aspernatur cupiditate vero eveniet nam.",
     "Deleted": false,
-    "Rank": 63,
-    "Type": "aut",
-    "ColorBlock": 160,
-    "IconHint": "impedit",
+    "Rank": 43,
+    "Type": "ab",
+    "ColorBlock": 148,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2010-08-10T03:24:52.1463474+02:00",
+    "LastChanged": "2023-01-13T13:38:17.8900531+01:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Moore Inc and Sons",
-        "ToolTip": "Qui blanditiis in.",
-        "Deleted": true,
-        "Rank": 839,
+        "Id": 890,
+        "Name": "Fadel-Berge",
+        "ToolTip": "Laborum repellendus.",
+        "Deleted": false,
+        "Rank": 550,
         "Type": "est",
-        "ColorBlock": 793,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2005-08-26T03:24:52.1463474+02:00",
+        "ColorBlock": 492,
+        "IconHint": "consectetur",
+        "Selected": true,
+        "LastChanged": "2001-09-30T13:38:17.8900531+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "corrupti",
+        "ExtraInfo": "saepe",
+        "StyleHint": "mollitia",
         "Hidden": false,
-        "FullName": "Owen Kertzmann II",
+        "FullName": "Fidel Klein I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 190
+            "FieldLength": 763
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Mr. Sarah Roob DVM",
+    "ExtraInfo": "ut",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Dejuan Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldType": "System.String",
+        "FieldLength": 962
       }
     }
   }

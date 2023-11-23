@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 293,
-  "InstanceLayout": "et",
-  "InstanceName": "Dach-Gleichner",
-  "CreatedDate": "2011-03-28T03:24:47.2520803+02:00",
-  "UpdatedDate": "2011-04-20T03:24:47.2520803+02:00",
+  "AudienceLayoutId": 421,
+  "InstanceLayout": "qui",
+  "InstanceName": "Moore, Schulist and Williamson",
+  "CreatedDate": "2009-12-25T13:38:13.0771703+01:00",
+  "UpdatedDate": "2013-10-03T13:38:13.0771703+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 986
     }
   }
 }

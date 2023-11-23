@@ -1176,6 +1176,8 @@ title: Services88.CRMScriptAgent WSDL
               <xs:element minOccurs="0" name="StateValues" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ParserValues" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="CgiVariables" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="CgiContent" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1292,7 +1294,7 @@ title: Services88.CRMScriptAgent WSDL
             <xs:sequence>
               <xs:element minOccurs="0" name="Output" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:StringDictionary" />
-              <xs:element minOccurs="0" name="Trace" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TraceRun" nillable="true" type="tns:CRMScriptTraceRun" />
               <xs:element minOccurs="0" name="Eventdata" nillable="true" type="tns:EventData" />
               <xs:element minOccurs="0" name="Success" type="xs:boolean" />
               <xs:element minOccurs="0" name="ErrorInformation" nillable="true" type="tns:CRMScriptErrorInfo" />
@@ -1301,6 +1303,25 @@ title: Services88.CRMScriptAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="CRMScriptRunResult" nillable="true" type="tns:CRMScriptRunResult" />
+      <xs:complexType name="CRMScriptTraceRun">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="StartedAt" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="EndedAt" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ExecutionTime" type="xs:int" />
+              <xs:element minOccurs="0" name="UserExecutionTime" type="xs:int" />
+              <xs:element minOccurs="0" name="PeakMemory" type="xs:int" />
+              <xs:element minOccurs="0" name="NumFrames" type="xs:int" />
+              <xs:element minOccurs="0" name="FileSize" type="xs:int" />
+              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Frames" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="CRMScriptTraceRun" nillable="true" type="tns:CRMScriptTraceRun" />
       <xs:element name="ValidateScriptByString">
         <xs:complexType>
           <xs:sequence>

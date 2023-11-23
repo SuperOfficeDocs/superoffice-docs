@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cummings LLC",
+  "TableName": "Dooley, Renner and Smith",
   "IncludeStandard": true
 }
 ```
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Baumbach, Conroy and Kovacek",
-    "DisplayName": "Schamberger-Mayer",
-    "Description": "Multi-layered 24/7 superstructure",
-    "ShortLabel": "nostrum",
-    "HideLabel": true,
+    "FieldName": "Walker-Anderson",
+    "DisplayName": "Lang-Lebsack",
+    "Description": "Total logistical internet solution",
+    "ShortLabel": "impedit",
+    "HideLabel": false,
     "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 298,
-    "TemplateVariableName": "Harber, Dooley and Leuschke"
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "Rank": 667,
+    "TemplateVariableName": "Ritchie Inc and Sons"
   }
 ]
 ```

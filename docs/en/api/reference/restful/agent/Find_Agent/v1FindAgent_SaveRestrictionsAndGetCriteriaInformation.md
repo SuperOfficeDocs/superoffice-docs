@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "autem",
-  "ProviderName": "Lakin-Kuphal",
-  "StorageKey": "similique",
+  "StorageType": "non",
+  "ProviderName": "Ullrich Group",
+  "StorageKey": "atque",
   "Restrictions": [
     {
-      "Name": "Boyer, Thompson and Kihn",
-      "Operator": "et",
+      "Name": "Senger-Mayer",
+      "Operator": "magni",
       "Values": [
-        "non",
-        "sit"
+        "earum",
+        "animi"
       ],
       "DisplayValues": [
-        "officia",
-        "quia"
+        "error",
+        "sit"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 647,
+      "InterParenthesis": 759,
       "InterOperator": "And",
-      "UniqueHash": 478
+      "UniqueHash": 361
     }
   ],
   "StaticColumns": [
-    "quas",
-    "sequi"
+    "modi",
+    "error"
   ]
 }
 ```
@@ -128,81 +128,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wolff Inc and Sons",
-      "Operator": "quisquam",
+      "Name": "Vandervort-Kuhic",
+      "Operator": "voluptatem",
       "Values": [
-        "et",
-        "molestias"
+        "animi",
+        "officia"
       ],
       "DisplayValues": [
-        "ea",
-        "quo"
+        "quas",
+        "ratione"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 648,
+      "InterParenthesis": 715,
       "InterOperator": "And",
-      "UniqueHash": 476
+      "UniqueHash": 391
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Pagac LLC",
-      "DisplayTooltip": "voluptas",
-      "DisplayType": "eum",
+      "DisplayName": "Stamm, DuBuque and Feil",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "consectetur",
       "CanOrderBy": false,
-      "Name": "Spencer, Johns and McDermott",
+      "Name": "Bode-Tillman",
       "CanRestrictBy": false,
-      "RestrictionType": "porro",
-      "RestrictionListName": "Kuvalis LLC",
+      "RestrictionType": "debitis",
+      "RestrictionListName": "Simonis LLC",
       "IsVisible": false,
-      "ExtraInfo": "vel",
-      "Width": "dicta",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "rem"
+      "ExtraInfo": "occaecati",
+      "Width": "occaecati",
+      "IconHint": "nihil",
+      "HeadingIconHint": "quisquam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Leffler-Wunsch",
-      "PrimaryKey": 532,
+      "EntityName": "Crooks LLC",
+      "PrimaryKey": 353,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "deleniti",
-          "TooltipHint": "et",
-          "LinkHint": "aliquam"
+          "DisplayValue": "pariatur",
+          "TooltipHint": "consequatur",
+          "LinkHint": "beatae"
         }
       },
-      "LinkHint": "laudantium",
-      "StyleHint": "sit",
+      "LinkHint": "dolores",
+      "StyleHint": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 741
+          "FieldType": "System.String",
+          "FieldLength": 321
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Tremblay Group",
-      "Description": "Virtual holistic standardization",
-      "Rank": 498,
+      "Name": "Abshire Inc and Sons",
+      "Description": "Balanced zero administration core",
+      "Rank": 817,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Tremblay Group",
-      "Description": "Virtual holistic standardization",
-      "Rank": 498,
+      "Name": "Abshire Inc and Sons",
+      "Description": "Balanced zero administration core",
+      "Rank": 817,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldType": "System.String",
+      "FieldLength": 814
     }
   }
 }

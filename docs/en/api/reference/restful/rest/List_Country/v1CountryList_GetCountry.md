@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 740,
-  "Name": "Lehner, Gulgowski and Gutkowski",
-  "CurrencyId": 649,
-  "EnglishName": "Schiller-Bergnaum",
+  "CountryId": 258,
+  "Name": "Cremin, Goodwin and Johnson",
+  "CurrencyId": 32,
+  "EnglishName": "Strosin-Will",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Inverse modular flexibility",
-  "OrgNrText": "1259939",
-  "InterAreaPrefix": "sed",
-  "DialInPrefix": "autem",
-  "ZipPrefix": "voluptatem",
-  "DomainName": "Mitchell-Wiegand",
-  "AddressLayoutId": 146,
-  "DomesticAddressLayoutId": 775,
-  "ForeignAddressLayoutId": 447,
-  "Rank": 506,
-  "Tooltip": "facere",
+  "ImageDescription": "Reduced holistic concept",
+  "OrgNrText": "869472",
+  "InterAreaPrefix": "dolore",
+  "DialInPrefix": "nihil",
+  "ZipPrefix": "dolores",
+  "DomainName": "Thompson LLC",
+  "AddressLayoutId": 809,
+  "DomesticAddressLayoutId": 153,
+  "ForeignAddressLayoutId": 196,
+  "Rank": 303,
+  "Tooltip": "quis",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldType": "System.String",
+      "FieldLength": 295
     }
   }
 }

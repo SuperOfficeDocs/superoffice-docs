@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Heaney-Runolfsdottir",
-  "GroupId": 137
+  "UdListDefinitionName": "Feest, Sipes and Eichmann",
+  "GroupId": 907
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Lebsack Group",
-    "ToolTip": "Iusto repudiandae aut dolore esse officia omnis.",
+    "Id": 934,
+    "Name": "Kub-Wolf",
+    "ToolTip": "Eos recusandae reiciendis.",
     "Deleted": false,
-    "Rank": 789,
-    "Type": "eos",
-    "ColorBlock": 148,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2018-10-22T03:24:47.8613878+02:00",
+    "Rank": 720,
+    "Type": "aut",
+    "ColorBlock": 700,
+    "IconHint": "at",
+    "Selected": false,
+    "LastChanged": "2016-02-06T13:38:13.6708541+01:00",
     "ChildItems": [
       {
-        "Id": 753,
-        "Name": "Spencer Inc and Sons",
-        "ToolTip": "Error molestiae perferendis id.",
+        "Id": 134,
+        "Name": "Parisian-Goyette",
+        "ToolTip": "Aut error dolores quas fugiat iure et.",
         "Deleted": false,
-        "Rank": 23,
-        "Type": "quas",
-        "ColorBlock": 665,
-        "IconHint": "est",
+        "Rank": 92,
+        "Type": "sed",
+        "ColorBlock": 777,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2019-09-23T03:24:47.8613878+02:00",
+        "LastChanged": "2015-10-19T13:38:13.6708541+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "odit",
+        "ExtraInfo": "et",
+        "StyleHint": "deserunt",
         "Hidden": false,
-        "FullName": "Hassie Fadel",
+        "FullName": "Kara Miller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 325
+            "FieldType": "System.Int32",
+            "FieldLength": 385
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Janet Wuckert",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "eaque",
+    "Hidden": false,
+    "FullName": "Rossie Gerhold Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldType": "System.String",
+        "FieldLength": 291
       }
     }
   }

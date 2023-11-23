@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 538,
-    "Name": "Bradtke LLC",
-    "CurrencyId": 431,
-    "EnglishName": "Goldner, Ritchie and Altenwerth",
+    "CountryId": 495,
+    "Name": "Heathcote-Stark",
+    "CurrencyId": 756,
+    "EnglishName": "Cremin Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Stand-alone client-driven database",
-    "OrgNrText": "730333",
-    "InterAreaPrefix": "incidunt",
-    "DialInPrefix": "totam",
-    "ZipPrefix": "nobis",
-    "DomainName": "Jerde-Kutch",
-    "AddressLayoutId": 507,
-    "DomesticAddressLayoutId": 364,
-    "ForeignAddressLayoutId": 929,
-    "Rank": 646,
-    "Tooltip": "aut",
+    "ImageDescription": "Sharable methodical groupware",
+    "OrgNrText": "459853",
+    "InterAreaPrefix": "et",
+    "DialInPrefix": "sit",
+    "ZipPrefix": "accusamus",
+    "DomainName": "Trantow-Hoppe",
+    "AddressLayoutId": 773,
+    "DomesticAddressLayoutId": 250,
+    "ForeignAddressLayoutId": 237,
+    "Rank": 356,
+    "Tooltip": "maiores",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 827
       }
     }
   }

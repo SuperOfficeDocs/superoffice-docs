@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 938,
-  "Name": "Sipes, Berge and Wisozk",
-  "Description": "Sharable motivating contingency",
-  "DefaultHeight": 432,
-  "DefaultWidth": 659,
+  "DashboardTileDefinitionId": 703,
+  "Name": "Ebert, Brakus and Pouros",
+  "Description": "Streamlined client-server concept",
+  "DefaultHeight": 315,
+  "DefaultWidth": 487,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Reichert-Kilback",
-  "SelectionId": 45,
+  "EntityName": "Blick, Prosacco and Wilkinson",
+  "SelectionId": 329,
   "CurrencyMode": "Base",
-  "CurrencyCode": "temporibus",
+  "CurrencyCode": "dolores",
   "Measure": "Average",
-  "MeasureField": "sapiente",
-  "SortBy": "et",
-  "LayoutConfig": "eos",
-  "SecondarySelectionId": 703,
-  "MeasureByField": "omnis",
+  "MeasureField": "ut",
+  "SortBy": "libero",
+  "LayoutConfig": "dolorem",
+  "SecondarySelectionId": 570,
+  "MeasureByField": "reiciendis",
   "Usage": "Dashboard",
-  "ProviderName": "Brekke, Rogahn and Brekke",
+  "ProviderName": "Connelly-Kulas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 702
     }
   }
 }

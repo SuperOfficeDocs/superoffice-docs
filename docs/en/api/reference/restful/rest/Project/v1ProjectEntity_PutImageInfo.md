@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=19
+PUT /api/v1/Project/{id}/ImageInfo?projectId=308
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 461,
-  "BlobSize": 868,
-  "Description": "Reactive homogeneous ability",
-  "ExtraInfo": "officiis",
+  "BlobId": 406,
+  "BlobSize": 307,
+  "Description": "Customer-focused attitude-oriented local area network",
+  "ExtraInfo": "aperiam",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "rerum",
-  "OriginalSize": 517,
-  "CreatedDate": "2001-01-26T03:24:51.7401403+01:00",
-  "UpdatedDate": "2019-07-17T03:24:51.7401403+02:00",
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 140,
+  "CreatedDate": "2013-04-17T13:38:17.5618158+02:00",
+  "UpdatedDate": "2023-07-14T13:38:17.5618158+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "deleniti"
+  "ConceptualType": "aspernatur"
 }
 ```
 
@@ -131,16 +131,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 796,
-  "BlobSize": 1000,
-  "Description": "Programmable explicit task-force",
-  "ExtraInfo": "quos",
+  "BlobId": 177,
+  "BlobSize": 217,
+  "Description": "Focused non-volatile local area network",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "praesentium",
-  "OriginalSize": 618,
-  "CreatedDate": "2016-12-29T03:24:51.7401403+01:00",
-  "UpdatedDate": "2003-11-05T03:24:51.7401403+01:00",
+  "IsZipped": false,
+  "MimeType": "sit",
+  "OriginalSize": 653,
+  "CreatedDate": "2022-10-10T13:38:17.5618158+02:00",
+  "UpdatedDate": "2012-07-24T13:38:17.5618158+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "ConceptualType": "sint",
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldType": "System.String",
+      "FieldLength": 882
     }
   }
 }

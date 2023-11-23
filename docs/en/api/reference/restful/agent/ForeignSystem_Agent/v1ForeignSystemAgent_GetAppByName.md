@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Baumbach-Toy"
+  "ApplicationName": "Gaylord-Koepp"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 502,
-  "Name": "Walker, Lang and Koss",
-  "CreatedDate": "2008-06-16T03:24:47.8145137+02:00",
-  "UpdatedDate": "2022-04-15T03:24:47.8145137+02:00",
+  "ForeignAppId": 52,
+  "Name": "West, Auer and Donnelly",
+  "CreatedDate": "2000-01-15T13:38:13.623981+01:00",
+  "UpdatedDate": "2003-01-25T13:38:13.623981+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 908,
-      "Name": "Yost-Murray",
-      "CreatedDate": "2009-12-04T03:24:47.8145137+01:00",
-      "UpdatedDate": "2008-02-22T03:24:47.8145137+01:00",
-      "AssociateFullName": "Mr. Louisa Greg Rogahn",
-      "CreatedBy": "magnam",
-      "UpdatedBy": "illo",
-      "DeviceIdentifier": "modi",
-      "ForeignAppId": 401,
+      "ForeignDeviceId": 738,
+      "Name": "McDermott-Ryan",
+      "CreatedDate": "2009-10-10T13:38:13.623981+02:00",
+      "UpdatedDate": "2013-04-17T13:38:13.623981+02:00",
+      "AssociateFullName": "Kaden Renner",
+      "CreatedBy": "sit",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "beatae",
+      "ForeignAppId": 395,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldLength": 410
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 976
     }
   }
 }

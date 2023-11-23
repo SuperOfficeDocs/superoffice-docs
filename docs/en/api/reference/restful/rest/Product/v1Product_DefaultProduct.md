@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 435,
-  "ERPProductKey": "labore",
-  "ERPPriceListKey": "pariatur",
-  "Name": "Cassin, Sipes and Hoppe",
-  "Description": "Persevering bi-directional info-mediaries",
-  "Code": "voluptatum",
-  "PriceUnit": "error",
-  "QuantityUnit": "quis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ex",
-  "DefaultSubscriptionQuantity": 26429.022,
-  "ItemNumber": "873907",
+  "ProductId": 581,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "ratione",
+  "Name": "Reynolds, Leannon and O'Hara",
+  "Description": "Sharable zero administration project",
+  "Code": "officiis",
+  "PriceUnit": "alias",
+  "QuantityUnit": "doloremque",
+  "IsSubscription": true,
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 3901.83,
+  "ItemNumber": "394949",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "labore",
+  "ProductFamilyKey": "sed",
   "ProductTypeKey": "aut",
-  "VAT": 14939.778,
-  "VATInfo": "non",
-  "UnitCost": 26773.762,
-  "UnitMinimumPrice": 19455.872,
-  "UnitListPrice": 18713.113999999998,
-  "InAssortment": true,
-  "Supplier": "omnis",
-  "SupplierCode": "eos",
-  "Rights": "aut",
-  "Rule": "expedita",
+  "VAT": 21063.613999999998,
+  "VATInfo": "praesentium",
+  "UnitCost": 28469.255999999998,
+  "UnitMinimumPrice": 899.458,
+  "UnitListPrice": 3027.444,
+  "InAssortment": false,
+  "Supplier": "repellendus",
+  "SupplierCode": "ex",
+  "Rights": "facere",
+  "Rule": "voluptatem",
   "ExtraInfo": [
     {
-      "Name": "Schmidt Group",
-      "Value": "qui",
+      "Name": "Pfeffer LLC",
+      "Value": "amet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 446
         }
       }
     },
     {
-      "Name": "Schmidt Group",
-      "Value": "qui",
+      "Name": "Pfeffer LLC",
+      "Value": "amet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 446
         }
       }
     }
   ],
-  "RawExtraInfo": "totam",
-  "ExtraField1": "et",
-  "ExtraField2": "illum",
-  "ExtraField3": "reprehenderit",
-  "ExtraField4": "praesentium",
-  "ExtraField5": "possimus",
-  "InStock": 28710.574,
+  "RawExtraInfo": "quo",
+  "ExtraField1": "nostrum",
+  "ExtraField2": "iusto",
+  "ExtraField3": "rerum",
+  "ExtraField4": "molestiae",
+  "ExtraField5": "ut",
+  "InStock": 28908.016,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 806
     }
   }
 }

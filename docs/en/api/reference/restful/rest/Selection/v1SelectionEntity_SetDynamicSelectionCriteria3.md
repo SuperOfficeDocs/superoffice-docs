@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Von-Gusikowski",
-    "Operator": "quaerat",
+    "Name": "Pouros Inc and Sons",
+    "Operator": "ut",
     "Values": [
-      "quos",
-      "consequuntur"
+      "dolorum",
+      "nulla"
     ],
     "DisplayValues": [
-      "consequuntur",
-      "aut"
+      "id",
+      "consequatur"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Leannon, Oberbrunner and Bahringer",
-        "Operator": "labore",
+        "Name": "Nicolas-Johns",
+        "Operator": "perspiciatis",
         "Values": [
-          "ut",
-          "sed"
+          "magni",
+          "rerum"
         ],
         "DisplayValues": [
-          "suscipit",
-          "placeat"
+          "ipsum",
+          "non"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 49,
+        "InterParenthesis": 742,
         "InterOperator": "And",
-        "UniqueHash": 812
+        "UniqueHash": 634
       }
     ],
-    "InterParenthesis": 434,
+    "InterParenthesis": 419,
     "InterOperator": "And",
-    "UniqueHash": 564
+    "UniqueHash": 978
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Carter, Tromp and Emard",
-    "Operator": "aliquam",
+    "Name": "Dicki, Kuhn and Bashirian",
+    "Operator": "quibusdam",
     "Values": [
-      "enim",
-      "officiis"
+      "voluptates",
+      "facilis"
     ],
     "DisplayValues": [
-      "rerum",
-      "eos"
+      "sit",
+      "rem"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Kling, Labadie and Morissette",
-        "Operator": "debitis",
+        "Name": "Connelly Inc and Sons",
+        "Operator": "reiciendis",
         "Values": [
-          "eius",
-          "et"
+          "rem",
+          "ducimus"
         ],
         "DisplayValues": [
-          "sed",
-          "consequatur"
+          "molestias",
+          "eveniet"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 70,
+        "InterParenthesis": 280,
         "InterOperator": "And",
-        "UniqueHash": 825
+        "UniqueHash": 253
       }
     ],
-    "InterParenthesis": 10,
+    "InterParenthesis": 605,
     "InterOperator": "And",
-    "UniqueHash": 448
+    "UniqueHash": 329
   }
 ]
 ```

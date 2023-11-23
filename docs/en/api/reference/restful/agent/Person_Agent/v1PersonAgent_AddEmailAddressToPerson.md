@@ -70,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 9,
-  "EmailAddress": "teagan_walter@kovacek.name",
+  "PersonId": 385,
+  "EmailAddress": "myriam@yostbahringer.com",
   "SetAsPrimaryEmail": false
 }
 ```

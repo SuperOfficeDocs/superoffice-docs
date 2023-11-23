@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Auer Inc and Sons",
-    "ToolTip": "Ut et sunt alias.",
+    "Id": 451,
+    "Name": "Hartmann, Cummerata and Pacocha",
+    "ToolTip": "Aperiam amet aut.",
     "Deleted": false,
-    "Rank": 472,
-    "Type": "commodi",
-    "ColorBlock": 377,
-    "IconHint": "incidunt",
-    "Selected": true,
-    "LastChanged": "2011-04-08T03:24:52.3025813+02:00",
+    "Rank": 687,
+    "Type": "voluptas",
+    "ColorBlock": 364,
+    "IconHint": "magni",
+    "Selected": false,
+    "LastChanged": "2007-01-06T13:38:18.1087815+01:00",
     "ChildItems": [
       {
-        "Id": 917,
-        "Name": "Greenfelder, Beer and Marks",
-        "ToolTip": "Ipsa odit qui incidunt voluptatem nihil.",
-        "Deleted": false,
-        "Rank": 679,
-        "Type": "nesciunt",
-        "ColorBlock": 757,
-        "IconHint": "aliquam",
-        "Selected": true,
-        "LastChanged": "1998-01-17T03:24:52.3025813+01:00",
+        "Id": 736,
+        "Name": "Dietrich, Champlin and Kassulke",
+        "ToolTip": "Fuga distinctio reiciendis ipsum et autem dolorum.",
+        "Deleted": true,
+        "Rank": 213,
+        "Type": "sunt",
+        "ColorBlock": 486,
+        "IconHint": "alias",
+        "Selected": false,
+        "LastChanged": "2012-11-29T13:38:18.1087815+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "deserunt",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Hulda Boyer"
+        "FullName": "Deangelo Alayna Dickens V"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "repellat",
+    "ExtraInfo": "dicta",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Henderson Cartwright"
+    "FullName": "Callie Lakin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Kris, Sauer and Keebler",
-    "ToolTip": "Quidem totam repellat excepturi dolor.",
-    "Deleted": false,
-    "Rank": 346,
-    "Type": "similique",
-    "ColorBlock": 838,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2017-09-06T03:24:52.3025813+02:00",
+    "Id": 411,
+    "Name": "Haley-Volkman",
+    "ToolTip": "Delectus quo consectetur.",
+    "Deleted": true,
+    "Rank": 716,
+    "Type": "perferendis",
+    "ColorBlock": 611,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "2019-01-06T13:38:18.1087815+01:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Tremblay-Schowalter",
-        "ToolTip": "Id nisi rerum dolor tempore sed.",
-        "Deleted": true,
-        "Rank": 710,
-        "Type": "quia",
-        "ColorBlock": 191,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2001-03-22T03:24:52.3025813+01:00",
+        "Id": 984,
+        "Name": "Harvey Group",
+        "ToolTip": "Aliquid dolorum eligendi ex.",
+        "Deleted": false,
+        "Rank": 100,
+        "Type": "est",
+        "ColorBlock": 80,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2007-10-16T13:38:18.1087815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "ad",
+        "ExtraInfo": "aut",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Herta Feil DDS",
+        "FullName": "David Fahey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldLength": 849
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "voluptates",
-    "Hidden": true,
-    "FullName": "Rahsaan Sporer",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "occaecati",
+    "Hidden": false,
+    "FullName": "Mr. Hyman Ziemann Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldType": "System.String",
+        "FieldLength": 28
       }
     }
   }

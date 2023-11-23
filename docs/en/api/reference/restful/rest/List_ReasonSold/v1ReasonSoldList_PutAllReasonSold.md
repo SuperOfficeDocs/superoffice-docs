@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Yost-Leannon",
-    "Tooltip": "beatae",
+    "Id": 268,
+    "Name": "McKenzie LLC",
+    "Tooltip": "totam",
     "Deleted": false,
-    "UdListDefinitionId": 360,
-    "Rank": 995
+    "UdListDefinitionId": 799,
+    "Rank": 619
   },
   {
-    "Id": 757,
-    "Name": "Yost-Leannon",
-    "Tooltip": "beatae",
+    "Id": 268,
+    "Name": "McKenzie LLC",
+    "Tooltip": "totam",
     "Deleted": false,
-    "UdListDefinitionId": 360,
-    "Rank": 995
+    "UdListDefinitionId": 799,
+    "Rank": 619
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Senger-Towne",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 516,
-    "Rank": 512,
+    "Id": 860,
+    "Name": "Jacobi, Muller and Carter",
+    "Tooltip": "minima",
+    "Deleted": true,
+    "UdListDefinitionId": 768,
+    "Rank": 349,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 921
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 54,
-    "Name": "Nolan Inc and Sons",
-    "Tooltip": "ullam",
-    "Deleted": true,
-    "Rank": 465,
+    "WebPanelId": 378,
+    "Name": "Durgan Group",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "Rank": 341,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "King Inc and Sons",
+    "WindowName": "Durgan Group",
     "Url": "http://www.example.com/",
-    "ProgId": "ullam",
-    "Icon": 970,
+    "ProgId": "fuga",
+    "Icon": 500,
     "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldType": "System.String",
+        "FieldLength": 685
       }
     }
   }

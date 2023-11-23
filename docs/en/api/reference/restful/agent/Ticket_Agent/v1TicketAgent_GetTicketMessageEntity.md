@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=182
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=417
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,78 +102,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 588,
+  "EjMessageId": 462,
   "Ticket": null,
-  "CreatedAt": "2018-07-16T03:24:48.4872676+02:00",
+  "CreatedAt": "2002-04-20T13:38:14.295928+02:00",
   "CreatedBy": null,
-  "Author": "placeat",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ex",
-  "TimeSpent": 989,
-  "Body": "nesciunt",
-  "HtmlBody": "consectetur",
-  "EmailHeader": "andres@hauck.us",
-  "DebugInfo": "nobis",
-  "MailSorter": "minima",
+  "MessageId": "sed",
+  "TimeSpent": 941,
+  "Body": "aut",
+  "HtmlBody": "architecto",
+  "EmailHeader": "hettie_volkman@toy.info",
+  "DebugInfo": "quas",
+  "MailSorter": "cumque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "non",
+  "SearchTitle": "occaecati",
   "MessageHeaders": [
     {
-      "Id": 635,
-      "Name": "Marks, Dietrich and Murazik",
-      "Value": "unde",
+      "Id": 203,
+      "Name": "Gutmann-Heaney",
+      "Value": "at",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 76
+          "FieldType": "System.String",
+          "FieldLength": 263
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "et",
-  "Sentiment": 207,
-  "SentimentConfidence": 765,
+  "Important": false,
+  "Language": "suscipit",
+  "Sentiment": 721,
+  "SentimentConfidence": 393,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 292,
-      "Name": "Runolfsdottir Inc and Sons",
-      "ContentType": "magnam",
-      "AttSize": 519,
-      "InlineImage": false,
-      "ContentId": "ratione",
-      "AuthKey": "quisquam",
+      "AttachmentId": 750,
+      "Name": "Hudson Group",
+      "ContentType": "veniam",
+      "AttSize": 193,
+      "InlineImage": true,
+      "ContentId": "quo",
+      "AuthKey": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldLength": 724
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "eligendi"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "fuga"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldType": "System.Int32",
+      "FieldLength": 7
     }
   }
 }

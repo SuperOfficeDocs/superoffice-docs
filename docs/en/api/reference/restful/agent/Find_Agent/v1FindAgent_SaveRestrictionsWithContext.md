@@ -68,37 +68,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tenetur",
-  "ProviderName": "Collier-Powlowski",
-  "StorageKey": "ipsum",
+  "StorageType": "itaque",
+  "ProviderName": "Langosh, O'Hara and Swaniawski",
+  "StorageKey": "possimus",
   "Restrictions": [
     {
-      "Name": "Yost Inc and Sons",
-      "Operator": "enim",
+      "Name": "Kuvalis Inc and Sons",
+      "Operator": "aut",
       "Values": [
-        "omnis",
-        "amet"
+        "incidunt",
+        "magnam"
       ],
       "DisplayValues": [
-        "ullam",
-        "laborum"
+        "culpa",
+        "tempora"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 484,
+      "InterParenthesis": 438,
       "InterOperator": "And",
-      "UniqueHash": 770
+      "UniqueHash": 419
     }
   ],
-  "Context": "veniam"
+  "Context": "eum"
 }
 ```
 

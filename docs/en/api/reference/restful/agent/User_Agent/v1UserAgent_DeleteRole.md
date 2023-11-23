@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/User/DeleteRole
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleIdToDelete": 375,
-  "ReplacingRoleId": 261
+  "RoleIdToDelete": 359,
+  "ReplacingRoleId": 218
 }
 ```
 

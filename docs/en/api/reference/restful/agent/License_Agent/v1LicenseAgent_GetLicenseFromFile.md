@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "maiores"
+  "FileContent": "inventore"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 677,
-      "NumberOfLicensesFree": 785,
-      "NumberOfLicensesAdded": 939,
-      "NumberOfLicensesNewTotal": 149,
-      "NumberOfLicensesNewFree": 38,
-      "NumberOfLicensesTotal": 3
+      "NumberOfLicensesInUse": 97,
+      "NumberOfLicensesFree": 153,
+      "NumberOfLicensesAdded": 57,
+      "NumberOfLicensesNewTotal": 873,
+      "NumberOfLicensesNewFree": 251,
+      "NumberOfLicensesTotal": 699
     }
   ],
-  "AccumulatedNextCheckDate": "2006-03-22T03:24:47.8301403+01:00"
+  "AccumulatedNextCheckDate": "2017-06-10T13:38:13.6396102+02:00"
 }
 ```

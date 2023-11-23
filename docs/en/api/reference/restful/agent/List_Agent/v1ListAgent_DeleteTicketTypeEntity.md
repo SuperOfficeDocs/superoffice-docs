@@ -25,7 +25,7 @@ Deletes the TicketTypeEntity
 | TicketTypeEntityId | int32 | **Required** The id of the TicketTypeEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketTypeEntity?TicketTypeEntityId=680
+POST /api/v1/Agents/List/DeleteTicketTypeEntity?TicketTypeEntityId=902
 ```
 
 

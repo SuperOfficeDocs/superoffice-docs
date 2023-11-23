@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hoppe Group",
-  "Comment": "aliquid",
-  "StakeholderRoleId": 187,
-  "CountryId": 486,
-  "PersonId": 115,
-  "EmailDescription": "ramiro.farrell@mueller.name",
-  "EmailId": 148,
-  "EmailAddress": "nelda_hauck@bruen.name",
-  "PhoneId": 639,
-  "ContactName": "Fisher, Schuppe and Brakus",
-  "ContactId": 386,
-  "SaleId": 746,
-  "Mrmrs": "quisquam",
-  "Firstname": "Larry",
-  "MiddleName": "Farrell, Feil and Champlin",
-  "Lastname": "Koss",
-  "SaleStakeholderId": 109,
-  "Rank": 772,
-  "Phone": "492-274-9346"
+  "StakeholderRoleName": "White Group",
+  "Comment": "consequuntur",
+  "StakeholderRoleId": 88,
+  "CountryId": 501,
+  "PersonId": 538,
+  "EmailDescription": "keyon@berge.info",
+  "EmailId": 344,
+  "EmailAddress": "carlos@fay.biz",
+  "PhoneId": 750,
+  "ContactName": "McKenzie, Adams and Hamill",
+  "ContactId": 793,
+  "SaleId": 867,
+  "Mrmrs": "omnis",
+  "Firstname": "Linda",
+  "MiddleName": "Ullrich Group",
+  "Lastname": "Ryan",
+  "SaleStakeholderId": 851,
+  "Rank": 114,
+  "Phone": "054.842.5969 x05432"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Stehr-Stark",
-  "Comment": "est",
-  "StakeholderRoleId": 964,
-  "CountryId": 451,
-  "PersonId": 457,
-  "EmailDescription": "jaylen_lakin@hickle.us",
-  "EmailId": 215,
-  "EmailAddress": "stanton@bahringersauer.co.uk",
-  "PhoneId": 345,
-  "ContactName": "Feest Group",
-  "ContactId": 235,
-  "SaleId": 883,
-  "Mrmrs": "in",
-  "Firstname": "Chaz",
-  "MiddleName": "Littel Group",
-  "Lastname": "Doyle",
-  "SaleStakeholderId": 654,
-  "Rank": 447,
-  "Phone": "008.559.2738",
+  "StakeholderRoleName": "Rath Group",
+  "Comment": "laudantium",
+  "StakeholderRoleId": 70,
+  "CountryId": 652,
+  "PersonId": 523,
+  "EmailDescription": "quinten@koss.co.uk",
+  "EmailId": 551,
+  "EmailAddress": "lemuel@robertstromp.ca",
+  "PhoneId": 650,
+  "ContactName": "Greenfelder-Schoen",
+  "ContactId": 92,
+  "SaleId": 690,
+  "Mrmrs": "officia",
+  "Firstname": "Libby",
+  "MiddleName": "Hoeger LLC",
+  "Lastname": "Reichel",
+  "SaleStakeholderId": 84,
+  "Rank": 997,
+  "Phone": "(418)442-5099 x67393",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 350
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

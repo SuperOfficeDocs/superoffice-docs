@@ -112,6 +112,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -124,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    534,
-    920
+    11,
+    304
   ]
 }
 ```
@@ -143,64 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 43,
-    "StartDate": "2019-03-21T03:24:46.9550719+01:00",
-    "EndDate": "2010-04-08T03:24:46.9550719+02:00",
+    "AppointmentId": 664,
+    "StartDate": "2020-01-20T13:38:12.8584402+01:00",
+    "EndDate": "2006-11-09T13:38:12.8584402+01:00",
     "Type": "BookingForChecklist",
-    "Task": "est",
-    "AssociateFullName": "Hilbert Warren Davis MD",
-    "ContactName": "Marks LLC",
-    "Description": "Focused didactic analyzer",
-    "PersonFullName": "Julio Gorczany",
-    "PersonId": 732,
-    "ContactId": 23,
-    "ProjectId": 125,
-    "ProjectName": "Daniel-Harvey",
-    "IsPublished": true,
-    "AssociateId": 814,
-    "ColorIndex": 466,
-    "IsFree": true,
+    "Task": "laboriosam",
+    "AssociateFullName": "Emma Purdy",
+    "ContactName": "Murray Group",
+    "Description": "Open-architected human-resource alliance",
+    "PersonFullName": "Dr. Alvera Jenifer Kessler",
+    "PersonId": 645,
+    "ContactId": 346,
+    "ProjectId": 112,
+    "ProjectName": "Abernathy LLC",
+    "IsPublished": false,
+    "AssociateId": 701,
+    "ColorIndex": 591,
+    "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 677,
-    "PriorityName": "Auer-Greenholt",
+    "PriorityId": 466,
+    "PriorityName": "Parker LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2005-05-06T03:24:46.9550719+02:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2004-06-18T13:38:12.8584402+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-06-01T03:24:46.9550719+02:00",
-    "RecurringEndDate": "2008-11-09T03:24:46.9550719+01:00",
-    "MotherId": 71,
-    "AssignedBy": 177,
-    "AssignedByFullName": "Laisha Emard",
+    "RecurringStartDate": "2011-10-15T13:38:12.8584402+02:00",
+    "RecurringEndDate": "1999-10-10T13:38:12.8584402+02:00",
+    "MotherId": 537,
+    "AssignedBy": 785,
+    "AssignedByFullName": "Zelda Quigley",
     "RejectReason": "",
-    "Location": "quam",
-    "AlarmLeadTime": "aut",
-    "SaleId": 512,
-    "SaleName": "Hirthe, Mayer and Lakin",
-    "AssociateName": "Durgan-Goodwin",
-    "CreatedDate": "2005-01-28T03:24:46.9550719+01:00",
-    "CreatedBy": "accusantium",
-    "CreatedByFullName": "Ashlynn Parker",
-    "CreatedByAssociateId": 249,
+    "Location": "eos",
+    "AlarmLeadTime": "minus",
+    "SaleId": 406,
+    "SaleName": "Mills, Streich and Brown",
+    "AssociateName": "Bogan, Leffler and Marvin",
+    "CreatedDate": "2013-04-13T13:38:12.8584402+02:00",
+    "CreatedBy": "unde",
+    "CreatedByFullName": "Mr. Nona Una Paucek DVM",
+    "CreatedByAssociateId": 60,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "autem",
-    "Agenda": "ea",
-    "InternalNotes": "sed",
+    "PreferredTZLocation": 931,
+    "Title": "qui",
+    "Agenda": "assumenda",
+    "InternalNotes": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 430
+        "FieldLength": 287
       }
     }
   }

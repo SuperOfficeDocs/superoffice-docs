@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Okuneva, Cormier and Waelchi",
-    "ToolTip": "Cupiditate velit sit voluptas quis similique neque sit.",
-    "Deleted": true,
-    "Rank": 746,
-    "Type": "et",
+    "Id": 832,
+    "Name": "Nader, Kub and Waelchi",
+    "ToolTip": "Et porro.",
+    "Deleted": false,
+    "Rank": 577,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Nienow-Kling",
-        "ToolTip": "Et suscipit eveniet voluptas.",
+        "Id": 17,
+        "Name": "Lind-Grant",
+        "ToolTip": "Assumenda odio consectetur vel alias in odio.",
         "Deleted": true,
-        "Rank": 324,
-        "Type": "nostrum",
+        "Rank": 815,
+        "Type": "atque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 402,
-        "ExtraInfo": "quia",
-        "StyleHint": "fugiat",
-        "FullName": "Ms. Connie Kohler II",
+        "IconHint": "voluptatem",
+        "ColorBlock": 987,
+        "ExtraInfo": "repellat",
+        "StyleHint": "deserunt",
+        "FullName": "Icie Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 330
+            "FieldType": "System.String",
+            "FieldLength": 934
           }
         }
       }
     ],
-    "IconHint": "unde",
-    "ColorBlock": 547,
-    "ExtraInfo": "placeat",
-    "StyleHint": "quod",
-    "FullName": "Herminia Rempel",
+    "IconHint": "autem",
+    "ColorBlock": 258,
+    "ExtraInfo": "quae",
+    "StyleHint": "et",
+    "FullName": "Liana Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 531
+        "FieldLength": 641
       }
     }
   }

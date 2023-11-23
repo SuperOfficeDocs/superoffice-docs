@@ -105,19 +105,19 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 777,
-  "Name": "Bode, Macejkovic and Carter",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "Rank": 647,
+  "WebPanelId": 948,
+  "Name": "Ryan, Langworth and Kuphal",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 474,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
@@ -125,11 +125,11 @@ Content-Type: application/json; charset=utf-8
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Langosh-Renner",
+  "WindowName": "Quigley, Keebler and Windler",
   "Url": "http://www.example.com/",
-  "ProgId": "sequi",
-  "Icon": 990,
-  "AlwaysReloadOnShow": false
+  "ProgId": "eaque",
+  "Icon": 962,
+  "AlwaysReloadOnShow": true
 }
 ```
 
@@ -140,33 +140,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 182,
-  "Name": "Wiegand Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 802,
+  "WebPanelId": 444,
+  "Name": "Schinner-Kohler",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "Rank": 780,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSatellite": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Veum-Blick",
+  "WindowName": "Harber LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "sunt",
-  "Icon": 873,
+  "ProgId": "dolorem",
+  "Icon": 775,
   "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 318
     }
   }
 }

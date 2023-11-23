@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 282,
-  "Name": "Zboncak LLC",
-  "Description": "Public-key context-sensitive projection",
+  "ProjectId": 524,
+  "Name": "Leannon, Mante and Schumm",
+  "Description": "Face to face intangible leverage",
   "URL": "http://www.example.com/",
-  "Type": "expedita",
-  "AssociateId": 503,
-  "AssociateFullName": "Russell Langworth",
-  "TypeId": 326,
-  "Updated": "2017-02-19T03:24:51.7401403+01:00",
-  "StatusId": 111,
-  "Status": "quis",
-  "TextId": 228,
-  "PublishTo": "1997-02-07T03:24:51.7401403+01:00",
-  "PublishFrom": "2002-08-23T03:24:51.7401403+02:00",
+  "Type": "porro",
+  "AssociateId": 912,
+  "AssociateFullName": "Arthur Murphy III",
+  "TypeId": 860,
+  "Updated": "2012-11-12T13:38:17.5618158+01:00",
+  "StatusId": 735,
+  "Status": "et",
+  "TextId": 367,
+  "PublishTo": "2007-10-28T13:38:17.5618158+01:00",
+  "PublishFrom": "2023-08-07T13:38:17.5618158+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "671141",
-  "ActiveErpLinks": 744,
+  "ProjectNumber": "813562",
+  "ActiveErpLinks": 305,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldLength": 697
     }
   }
 }

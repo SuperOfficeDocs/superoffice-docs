@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "quaerat"
+  "SearchString": "tempore"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "600-483-0600",
-    "PersonCellPhone": "(436)273-6058 x264",
-    "PersonPrivatePhone": "1-262-711-1122 x1090",
-    "PersonFaxNumber": "1277383",
-    "PersonPagerNumber": "1227856",
-    "PersonEmail": "roselyn_moore@bogisich.com",
-    "Id": 271,
-    "Name": "Will, Macejkovic and Mayer",
-    "Tooltip": "doloribus",
-    "UniqueId": "minima",
+    "PersonDirectPhone": "395.278.6815 x68654",
+    "PersonCellPhone": "382-484-9918 x90363",
+    "PersonPrivatePhone": "(242)354-8051",
+    "PersonFaxNumber": "1432637",
+    "PersonPagerNumber": "1105537",
+    "PersonEmail": "noel@ward.info",
+    "Id": 977,
+    "Name": "Kunze Group",
+    "Tooltip": "provident",
+    "UniqueId": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldLength": 830
       }
     }
   }

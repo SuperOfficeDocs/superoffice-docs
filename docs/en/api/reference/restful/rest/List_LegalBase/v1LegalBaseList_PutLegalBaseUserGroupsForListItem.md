@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 910,
-    "Name": "Wunsch-Gerhold",
-    "ToolTip": "Illum nulla delectus numquam tenetur aut quis est.",
+    "Id": 115,
+    "Name": "Kovacek, Casper and Stark",
+    "ToolTip": "Tempora quia.",
     "Deleted": true,
-    "Rank": 415,
-    "Type": "molestiae",
-    "ColorBlock": 595,
-    "IconHint": "labore",
+    "Rank": 806,
+    "Type": "occaecati",
+    "ColorBlock": 621,
+    "IconHint": "inventore",
     "Selected": true,
-    "LastChanged": "2000-01-04T03:24:52.2557133+01:00",
+    "LastChanged": "2020-09-15T13:38:18.0775324+02:00",
     "ChildItems": [
       {
-        "Id": 351,
-        "Name": "Smitham-Gleichner",
-        "ToolTip": "Iste dolorem.",
+        "Id": 157,
+        "Name": "Cummerata-Grimes",
+        "ToolTip": "Enim sit quia ad temporibus modi et.",
         "Deleted": false,
-        "Rank": 480,
-        "Type": "consequuntur",
-        "ColorBlock": 90,
-        "IconHint": "cupiditate",
-        "Selected": true,
-        "LastChanged": "2001-02-16T03:24:52.2557133+01:00",
+        "Rank": 798,
+        "Type": "corrupti",
+        "ColorBlock": 351,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2006-11-27T13:38:18.0775324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Hester Raynor"
+        "ExtraInfo": "accusantium",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Victoria Purdy"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "ullam",
+    "ExtraInfo": "quae",
+    "StyleHint": "nesciunt",
     "Hidden": false,
-    "FullName": "Miss Theo Turner I"
+    "FullName": "Talon Jenkins"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "Dibbert LLC",
-    "ToolTip": "Occaecati ab repellat animi.",
+    "Id": 669,
+    "Name": "Renner-Stoltenberg",
+    "ToolTip": "Illo corporis eveniet enim sed odit quia atque.",
     "Deleted": false,
-    "Rank": 303,
-    "Type": "consectetur",
-    "ColorBlock": 890,
-    "IconHint": "ut",
+    "Rank": 506,
+    "Type": "similique",
+    "ColorBlock": 57,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2022-03-30T03:24:52.2557133+02:00",
+    "LastChanged": "1998-10-22T13:38:18.0775324+02:00",
     "ChildItems": [
       {
-        "Id": 620,
-        "Name": "Yundt-Zemlak",
-        "ToolTip": "Iste nesciunt.",
+        "Id": 12,
+        "Name": "Mayer, Maggio and Kuvalis",
+        "ToolTip": "Quisquam eveniet.",
         "Deleted": false,
-        "Rank": 157,
-        "Type": "est",
-        "ColorBlock": 589,
-        "IconHint": "at",
+        "Rank": 343,
+        "Type": "ea",
+        "ColorBlock": 123,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2011-02-01T03:24:52.2557133+01:00",
+        "LastChanged": "2009-12-09T13:38:18.0775324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "placeat",
+        "ExtraInfo": "illo",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Ms. Tristin Wyman Hodkiewicz",
+        "FullName": "Lorna Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 360
+            "FieldType": "System.String",
+            "FieldLength": 831
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Dante Boyer Jr.",
+    "ExtraInfo": "aut",
+    "StyleHint": "nobis",
+    "Hidden": false,
+    "FullName": "Lisette Henri Reynolds IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldType": "System.Int32",
+        "FieldLength": 343
       }
     }
   }

@@ -89,15 +89,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 693,
-  "PrefDescId": 960,
-  "PrefValue": "ullam",
-  "PrefShowValue": "nihil",
-  "Description": "Right-sized solution-oriented customer loyalty",
+  "PrefDescLineId": 307,
+  "PrefDescId": 549,
+  "PrefValue": "ducimus",
+  "PrefShowValue": "deserunt",
+  "Description": "Customer-focused user-facing attitude",
   "IsBuiltin": false
 }
 ```
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 453,
-  "PrefDescId": 206,
-  "PrefValue": "dicta",
-  "PrefShowValue": "iusto",
-  "Description": "De-engineered regional concept",
+  "PrefDescLineId": 476,
+  "PrefDescId": 170,
+  "PrefValue": "qui",
+  "PrefShowValue": "provident",
+  "Description": "Progressive interactive challenge",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldLength": 965
     }
   },
   "_Links": {

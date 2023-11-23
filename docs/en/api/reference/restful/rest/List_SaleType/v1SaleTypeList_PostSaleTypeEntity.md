@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 767,
-  "Name": "Wehner-Miller",
-  "Tooltip": "nesciunt",
-  "Rank": 276,
+  "SaleTypeId": 77,
+  "Name": "Tromp-Steuber",
+  "Tooltip": "et",
+  "Rank": 762,
   "DurationUnit": "Century",
-  "SaleDuration": 736,
-  "SaleTypeCatId": 484,
+  "SaleDuration": 358,
+  "SaleTypeCatId": 693,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 800,
-  "QuoteLinesTemplate": 96,
-  "ConfirmationLinesTemplate": 405,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 967,
+  "QuoteLinesTemplate": 494,
+  "ConfirmationLinesTemplate": 96,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 380,
-  "MinEarningPercent": 807,
-  "GroupQuoteLinesBy": 936,
-  "SortGroupLinesBy": 555,
+  "MaxDiscountPercent": 955,
+  "MinEarningPercent": 496,
+  "GroupQuoteLinesBy": 283,
+  "SortGroupLinesBy": 127,
   "Stages": [
     {
-      "Id": 771,
-      "Name": "Klocko-O'Kon",
-      "ToolTip": "At aut quia voluptas.",
+      "Id": 491,
+      "Name": "Schamberger-Marquardt",
+      "ToolTip": "Rerum alias aliquid dolorem.",
       "Deleted": true,
-      "Rank": 934,
-      "Type": "incidunt",
-      "ColorBlock": 267,
-      "IconHint": "aliquam",
-      "Selected": true,
-      "LastChanged": "2009-09-21T03:24:52.4119449+02:00",
+      "Rank": 85,
+      "Type": "culpa",
+      "ColorBlock": 420,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "2021-05-21T13:38:18.2181419+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "nobis",
+      "ExtraInfo": "ratione",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Prof. Gennaro Hahn"
+      "FullName": "Amira Nienow"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 311,
-  "Name": "Marks-Fay",
-  "Tooltip": "mollitia",
-  "Rank": 214,
+  "SaleTypeId": 362,
+  "Name": "Collins LLC",
+  "Tooltip": "voluptatibus",
+  "Rank": 743,
   "DurationUnit": "Century",
-  "SaleDuration": 623,
-  "SaleTypeCatId": 306,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 1001,
-  "QuoteLinesTemplate": 974,
-  "ConfirmationLinesTemplate": 264,
+  "SaleDuration": 280,
+  "SaleTypeCatId": 334,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 8,
+  "QuoteLinesTemplate": 216,
+  "ConfirmationLinesTemplate": 350,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 200,
-  "MinEarningPercent": 177,
-  "GroupQuoteLinesBy": 716,
-  "SortGroupLinesBy": 533,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 352,
+  "MinEarningPercent": 620,
+  "GroupQuoteLinesBy": 579,
+  "SortGroupLinesBy": 560,
   "Stages": [
     {
-      "Id": 916,
-      "Name": "Gaylord, Hagenes and Keebler",
-      "ToolTip": "Quibusdam qui doloremque nobis est.",
-      "Deleted": false,
-      "Rank": 968,
-      "Type": "enim",
-      "ColorBlock": 988,
-      "IconHint": "dolore",
+      "Id": 983,
+      "Name": "Murray, Bayer and Kozey",
+      "ToolTip": "Impedit earum est doloremque in officiis id.",
+      "Deleted": true,
+      "Rank": 10,
+      "Type": "natus",
+      "ColorBlock": 815,
+      "IconHint": "natus",
       "Selected": false,
-      "LastChanged": "2021-12-24T03:24:52.4119449+01:00",
+      "LastChanged": "2012-02-10T13:38:18.2181419+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptate",
-      "StyleHint": "qui",
-      "Hidden": false,
-      "FullName": "Thelma Dach",
+      "ExtraInfo": "repellendus",
+      "StyleHint": "ipsam",
+      "Hidden": true,
+      "FullName": "Clyde Gottlieb",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 710
+          "FieldType": "System.Int32",
+          "FieldLength": 535
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldLength": 132
     }
   }
 }

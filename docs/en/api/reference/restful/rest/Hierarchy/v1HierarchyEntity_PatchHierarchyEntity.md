@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "odio",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "odio",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 988,
+  "HierarchyId": 144,
   "Domain": "Dashboards",
-  "Name": "Windler-Wehner",
-  "Fullname": "sed",
-  "ParentId": 526,
+  "Name": "Pagac Group",
+  "Fullname": "explicabo",
+  "ParentId": 85,
   "Children": [
     {
-      "HierarchyId": 763,
+      "HierarchyId": 472,
       "Domain": "Dashboards",
-      "Name": "Aufderhar-Hilpert",
-      "Fullname": "eius",
-      "ParentId": 79,
+      "Name": "Spinka-Schaden",
+      "Fullname": "ipsam",
+      "ParentId": 739,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-12-21T03:24:51.630601+01:00",
-      "RegisteredAssociateId": 135,
-      "Updated": "2008-02-06T03:24:51.630601+01:00",
-      "UpdatedAssociateId": 632,
+      "Registered": "2012-12-28T13:38:17.4524494+01:00",
+      "RegisteredAssociateId": 894,
+      "Updated": "2002-10-31T13:38:17.4524494+01:00",
+      "UpdatedAssociateId": 828,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 469
+          "FieldType": "System.Int32",
+          "FieldLength": 55
         }
       }
     }
   ],
-  "Registered": "2022-04-29T03:24:51.630601+02:00",
-  "RegisteredAssociateId": 80,
-  "Updated": "2007-03-14T03:24:51.630601+01:00",
-  "UpdatedAssociateId": 959,
+  "Registered": "2023-11-10T13:38:17.4524494+01:00",
+  "RegisteredAssociateId": 765,
+  "Updated": "2002-03-05T13:38:17.4524494+01:00",
+  "UpdatedAssociateId": 583,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 723
     }
   },
   "_Links": {

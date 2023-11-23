@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 17,
-  "Name": "Stark-Mraz",
+  "ScreenChooserId": 251,
+  "Name": "Witting, Goodwin and Quigley",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "corrupti",
-  "Source": "atque",
-  "Registered": "2010-10-03T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 345,
-  "Updated": "2010-08-25T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 737,
+  "UniqueIdentifier": "vel",
+  "Source": "libero",
+  "Registered": "2006-09-20T13:38:13.374011+02:00",
+  "RegisteredAssociateId": 850,
+  "Updated": "2008-04-24T13:38:13.374011+02:00",
+  "UpdatedAssociateId": 134,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 859
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

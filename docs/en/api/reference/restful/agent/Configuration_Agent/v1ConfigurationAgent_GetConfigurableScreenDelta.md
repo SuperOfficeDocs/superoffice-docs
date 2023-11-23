@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=991
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=251
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 998,
-  "Name": "Nolan Group",
-  "Description": "Ameliorated neutral architecture",
-  "DeltaJson": "vero",
+  "ConfigurableScreenDeltaId": 83,
+  "Name": "Kshlerin LLC",
+  "Description": "Re-contextualized hybrid definition",
+  "DeltaJson": "vitae",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "repellendus",
-  "UpdatedDate": "2005-01-17T03:24:47.3614382+01:00",
-  "CreatedDate": "2008-04-24T03:24:47.3614382+02:00",
+  "RecipeId": "nisi",
+  "UpdatedDate": "2007-12-11T13:38:13.2646505+01:00",
+  "CreatedDate": "1999-01-06T13:38:13.2646505+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    738,
-    500
+    606,
+    255
   ],
-  "AppliesToKey": "sed",
+  "AppliesToKey": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 981
+      "FieldType": "System.Int32",
+      "FieldLength": 446
     }
   }
 }

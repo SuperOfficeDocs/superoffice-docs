@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Breitenberg, Konopelski and O'Conner"
+  "OwnerName": "Wilkinson-Padberg"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "delectus",
+  "Message": "quam",
   "Url": "http://www.example.com/"
 }
 ```

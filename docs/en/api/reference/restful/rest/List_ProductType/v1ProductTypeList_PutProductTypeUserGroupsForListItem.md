@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 667,
-    "Name": "Bergnaum Group",
-    "ToolTip": "Error et qui et consequatur.",
-    "Deleted": false,
-    "Rank": 891,
-    "Type": "magnam",
-    "ColorBlock": 997,
-    "IconHint": "deleniti",
-    "Selected": true,
-    "LastChanged": "1998-03-02T03:24:52.3338241+01:00",
+    "Id": 371,
+    "Name": "King, Christiansen and Kerluke",
+    "ToolTip": "Ut non modi.",
+    "Deleted": true,
+    "Rank": 251,
+    "Type": "sunt",
+    "ColorBlock": 77,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "2017-02-09T13:38:18.1400255+01:00",
     "ChildItems": [
       {
-        "Id": 31,
-        "Name": "Yost Group",
-        "ToolTip": "Ut est culpa explicabo vel omnis neque.",
+        "Id": 24,
+        "Name": "Swift-Schiller",
+        "ToolTip": "Necessitatibus facilis magni aut assumenda aut non labore.",
         "Deleted": true,
-        "Rank": 639,
-        "Type": "alias",
-        "ColorBlock": 273,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2005-03-20T03:24:52.3338241+01:00",
+        "Rank": 628,
+        "Type": "ipsum",
+        "ColorBlock": 651,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "2001-10-14T13:38:18.1400255+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "May Kris"
+        "ExtraInfo": "ea",
+        "StyleHint": "necessitatibus",
+        "Hidden": true,
+        "FullName": "Madalyn Schulist"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "quia",
+    "ExtraInfo": "odit",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Floyd Muller"
+    "FullName": "Dr. Aniyah Mackenzie Strosin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Roob-Sporer",
-    "ToolTip": "Ea officiis quis repellat.",
-    "Deleted": true,
-    "Rank": 243,
-    "Type": "unde",
-    "ColorBlock": 844,
-    "IconHint": "qui",
+    "Id": 3,
+    "Name": "Fadel LLC",
+    "ToolTip": "Quae et consectetur tempora est delectus esse.",
+    "Deleted": false,
+    "Rank": 897,
+    "Type": "numquam",
+    "ColorBlock": 753,
+    "IconHint": "molestiae",
     "Selected": true,
-    "LastChanged": "2008-02-24T03:24:52.3338241+01:00",
+    "LastChanged": "2019-02-14T13:38:18.1400255+01:00",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "Koelpin Inc and Sons",
-        "ToolTip": "Repellendus ut vero fuga aut consequuntur voluptatibus laboriosam.",
+        "Id": 910,
+        "Name": "Vandervort, Larkin and Dibbert",
+        "ToolTip": "Nobis minima.",
         "Deleted": false,
-        "Rank": 806,
-        "Type": "maxime",
-        "ColorBlock": 801,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2004-11-03T03:24:52.3338241+01:00",
+        "Rank": 445,
+        "Type": "quia",
+        "ColorBlock": 754,
+        "IconHint": "earum",
+        "Selected": true,
+        "LastChanged": "2001-02-16T13:38:18.1400255+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "error",
+        "ExtraInfo": "magni",
+        "StyleHint": "velit",
         "Hidden": true,
-        "FullName": "Ms. Juston Mona Waelchi",
+        "FullName": "Bert Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 609
+            "FieldType": "System.Int32",
+            "FieldLength": 589
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "ipsum",
+    "ExtraInfo": "delectus",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Jadon Ondricka",
+    "FullName": "Francesca Wiegand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 850
       }
     }
   }

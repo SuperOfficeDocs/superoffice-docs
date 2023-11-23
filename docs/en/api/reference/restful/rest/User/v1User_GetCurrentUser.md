@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 751,
-  "Name": "Schiller, Armstrong and Denesik",
-  "Rank": 770,
-  "Tooltip": "et",
+  "AssociateId": 453,
+  "Name": "Baumbach-Graham",
+  "Rank": 393,
+  "Tooltip": "delectus",
   "LicenseOwners": [
     {
-      "Name": "Rice-Strosin",
-      "Description": "Function-based bifurcated parallelism",
+      "Name": "Tromp Group",
+      "Description": "Triple-buffered intermediate time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldLength": 527
         }
       }
     },
     {
-      "Name": "Rice-Strosin",
-      "Description": "Function-based bifurcated parallelism",
+      "Name": "Tromp Group",
+      "Description": "Triple-buffered intermediate time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldLength": 527
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "qui",
-      "Tooltip": "beatae",
-      "Id": 552,
-      "Rank": 401,
-      "Deleted": true,
+      "Value": "doloribus",
+      "Tooltip": "aut",
+      "Id": 621,
+      "Rank": 457,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 111
+          "FieldLength": 768
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2023-03-26T03:24:52.1307225+02:00",
-  "Lastlogout": "2020-10-25T03:24:52.1307225+01:00",
-  "EjUserId": 779,
-  "RequestSignature": "voluptatem",
+  "Lastlogin": "2001-11-04T13:38:17.8744364+01:00",
+  "Lastlogout": "2015-08-31T13:38:17.8744364+02:00",
+  "EjUserId": 989,
+  "RequestSignature": "consequatur",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "facilis",
-      "DisplayValue": "voluptatem",
+      "Value": "dolores",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldType": "System.String",
+          "FieldLength": 604
         }
       }
     },
     {
       "Type": null,
-      "Value": "facilis",
-      "DisplayValue": "voluptatem",
+      "Value": "dolores",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldType": "System.String",
+          "FieldLength": 604
         }
       }
     }
   ],
-  "UserName": "Glover-Boyle",
+  "UserName": "Dicki-Kassulke",
   "TicketCategories": [
     {
-      "Id": 308,
-      "Name": "Murray-Blanda",
-      "ToolTip": "Deleniti voluptatibus exercitationem voluptates cupiditate.",
-      "Deleted": true,
-      "Rank": 614,
-      "Type": "repellendus",
+      "Id": 707,
+      "Name": "Corwin-Thiel",
+      "ToolTip": "Suscipit praesentium quia quibusdam reprehenderit et praesentium.",
+      "Deleted": false,
+      "Rank": 589,
+      "Type": "cupiditate",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 552,
-      "ExtraInfo": "ea",
-      "StyleHint": "aut",
-      "FullName": "Prof. Pat Hegmann",
+      "IconHint": "voluptas",
+      "ColorBlock": 500,
+      "ExtraInfo": "eum",
+      "StyleHint": "perspiciatis",
+      "FullName": "Edythe Berge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 68
         }
       }
     }
   ],
-  "NickName": "Cole, Effertz and Waelchi",
-  "WaitingForApproval": false,
+  "NickName": "Crona Inc and Sons",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "natus",
-    "ExtraFields2": "expedita"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "nulla"
+    "CustomFields1": "quo",
+    "CustomFields2": "recusandae"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kuphal Inc and Sons",
-      "DisplayName": "Brakus-Gleichner",
-      "Description": "Object-based secondary array",
-      "ToolTip": "Accusantium ipsa pariatur ducimus molestiae consequatur laudantium aut.",
+      "Name": "Cartwright, Bogisich and Feil",
+      "DisplayName": "Wilderman-Kuhn",
+      "Description": "Automated non-volatile hub",
+      "ToolTip": "Est adipisci rerum quis deleniti aliquid dolor minus.",
       "Actions": "Implicit",
-      "ActionData": "sed",
+      "ActionData": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 322
+          "FieldType": "System.String",
+          "FieldLength": 600
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 864
     }
   }
 }

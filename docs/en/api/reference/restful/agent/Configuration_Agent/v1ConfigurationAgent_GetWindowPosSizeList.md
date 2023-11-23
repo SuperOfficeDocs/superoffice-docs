@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "alias",
-    "PersonId": 565,
-    "AssociateId": 337,
-    "ExtraId": 89,
-    "ExtraInfo": "molestias",
-    "Height": 109,
-    "LeftX": 403,
+    "OwnerWindow": "voluptatem",
+    "PersonId": 922,
+    "AssociateId": 509,
+    "ExtraId": 477,
+    "ExtraInfo": "fugiat",
+    "Height": 407,
+    "LeftX": 710,
     "State": "Maximized",
-    "UpperY": 404,
-    "Width": 517,
-    "WindowPosSizeId": 982,
+    "UpperY": 978,
+    "Width": 609,
+    "WindowPosSizeId": 651,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldType": "System.Int32",
+        "FieldLength": 967
       }
     }
   }

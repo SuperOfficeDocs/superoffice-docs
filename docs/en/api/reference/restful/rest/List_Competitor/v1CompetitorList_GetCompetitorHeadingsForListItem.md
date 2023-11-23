@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Schumm, Sauer and Quitzon",
-    "ToolTip": "Reiciendis et natus in.",
+    "Id": 174,
+    "Name": "Stoltenberg, Swaniawski and Monahan",
+    "ToolTip": "Ipsa eveniet provident et assumenda et.",
     "Deleted": false,
-    "Rank": 456,
-    "Type": "laboriosam",
-    "ColorBlock": 132,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2002-06-11T03:24:52.1775959+02:00",
+    "Rank": 566,
+    "Type": "nihil",
+    "ColorBlock": 340,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "2011-03-13T13:38:17.9369258+01:00",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Strosin, Mante and Rath",
-        "ToolTip": "Ut soluta.",
+        "Id": 17,
+        "Name": "Kunze, Jerde and Bode",
+        "ToolTip": "Voluptatibus quis eos temporibus totam mollitia.",
         "Deleted": false,
-        "Rank": 799,
-        "Type": "qui",
-        "ColorBlock": 508,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2016-11-13T03:24:52.1932187+01:00",
+        "Rank": 23,
+        "Type": "autem",
+        "ColorBlock": 328,
+        "IconHint": "quam",
+        "Selected": true,
+        "LastChanged": "2008-07-15T13:38:17.9369258+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "officia",
-        "Hidden": false,
-        "FullName": "Guy Sipes",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Adelle Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldType": "System.String",
+            "FieldLength": 154
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "nemo",
+    "ExtraInfo": "quos",
+    "StyleHint": "doloribus",
     "Hidden": true,
-    "FullName": "Dustin Satterfield III",
+    "FullName": "Asha Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 517
       }
     }
   }

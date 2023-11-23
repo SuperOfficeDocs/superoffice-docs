@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 817,
-  "TopicId": 889,
+  "ChatSessionId": 214,
+  "TopicId": 10,
   "User": null,
   "Person": null,
-  "CustomerAlias": "inventore",
-  "CustomerHost": "alias",
-  "CustomerName": "Tromp LLC",
-  "CustomerEmail": "carrie_denesik@roberts.uk",
-  "CustomerPhone": "1-394-943-7003 x8316",
+  "CustomerAlias": "ut",
+  "CustomerHost": "ut",
+  "CustomerName": "Hoeger Group",
+  "CustomerEmail": "holden@connelly.name",
+  "CustomerPhone": "(057)384-0238 x08850",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Jaskolski, Mohr and Kiehn",
+  "CustomerCompanyName": "Fritsch Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "unde",
-  "LastMessage": "quis",
-  "WhenRequested": "2016-05-28T03:24:51.4117024+02:00",
-  "WhenStarted": "2014-12-02T03:24:51.4117024+01:00",
-  "WhenEnded": "2013-09-24T03:24:51.4117024+02:00",
-  "WhenIdle": "2023-07-05T03:24:51.4117024+02:00",
-  "WhenFetched": "2004-10-15T03:24:51.4117024+02:00",
-  "SessionKey": "quia",
-  "InitialQueuePos": 249,
-  "AlertLevel": 335,
-  "Rank": 379,
+  "FirstMessage": "aliquam",
+  "LastMessage": "asperiores",
+  "WhenRequested": "1996-10-21T13:38:17.15557+02:00",
+  "WhenStarted": "1997-06-29T13:38:17.15557+02:00",
+  "WhenEnded": "2003-09-20T13:38:17.15557+02:00",
+  "WhenIdle": "2005-08-10T13:38:17.15557+02:00",
+  "WhenFetched": "2005-10-06T13:38:17.15557+02:00",
+  "SessionKey": "nesciunt",
+  "InitialQueuePos": 738,
+  "AlertLevel": 191,
+  "Rank": 502,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 43,
+  "ChatbotIsActive": false,
+  "Rating": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 146
     }
   }
 }

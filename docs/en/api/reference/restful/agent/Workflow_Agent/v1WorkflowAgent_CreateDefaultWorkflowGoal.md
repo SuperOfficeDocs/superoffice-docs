@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 7,
-  "WorkflowId": 29,
+  "WorkflowGoalId": 186,
+  "WorkflowId": 913,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Olson Group",
-      "Description": "Multi-tiered dynamic emulation",
-      "Rank": 951,
+      "Name": "Bailey LLC",
+      "Description": "Fully-configurable asynchronous task-force",
+      "Rank": 416,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Olson Group",
-      "Description": "Multi-tiered dynamic emulation",
-      "Rank": 951,
+      "Name": "Bailey LLC",
+      "Description": "Fully-configurable asynchronous task-force",
+      "Rank": 416,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldLength": 348
     }
   }
 }

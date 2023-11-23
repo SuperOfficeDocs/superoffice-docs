@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Haley, Collier and Kuhn"
+  "Name": "West Group"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 41,
-    "Name": "Osinski Inc and Sons",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 913,
+    "Name": "Vandervort Group",
+    "Tooltip": "totam",
     "Deleted": false,
-    "Rank": 714,
-    "UdListDefinitionId": 111,
+    "Rank": 687,
+    "UdListDefinitionId": 930,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 952
       }
     }
   }

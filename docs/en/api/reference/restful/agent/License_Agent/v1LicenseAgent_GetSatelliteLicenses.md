@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 29
+  "SatelliteId": 810
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heaney LLC",
-    "Description": "Polarised 3rd generation pricing structure",
+    "Name": "Dare, Parker and Goldner",
+    "Description": "Synergistic 3rd generation solution",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 600,
-        "Tooltip": "unde",
-        "CanAssign": true,
-        "Free": 603,
-        "InUse": 503,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 880,
+        "Tooltip": "excepturi",
+        "CanAssign": false,
+        "Free": 97,
+        "InUse": 86,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 313,
-        "Name": "Dicki, Douglas and Kuphal",
-        "Description": "Multi-channelled non-volatile support",
-        "PrerequisiteModuleName": "Becker, Robel and Abernathy",
-        "SortOrder": 277,
-        "ExtraFlags": 317,
+        "ModuleLicenseId": 464,
+        "Name": "Kunze-Kub",
+        "Description": "Centralized 3rd generation flexibility",
+        "PrerequisiteModuleName": "Klein-Deckow",
+        "SortOrder": 81,
+        "ExtraFlags": 925,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 546
+            "FieldLength": 405
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 626,
-        "Tooltip": "dolor",
-        "CanAssign": true,
-        "Free": 763,
-        "InUse": 814,
-        "IsHidden": false,
+        "Unrestricted": true,
+        "Total": 744,
+        "Tooltip": "nemo",
+        "CanAssign": false,
+        "Free": 790,
+        "InUse": 527,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 457,
-        "Name": "Christiansen-Bartoletti",
-        "Description": "Fundamental impactful functionalities",
-        "PrerequisiteModuleName": "Wiegand, Koelpin and Nitzsche",
-        "SortOrder": 771,
-        "ExtraFlags": 634,
+        "ModuleLicenseId": 387,
+        "Name": "Yundt-Wiza",
+        "Description": "Cross-group context-sensitive groupware",
+        "PrerequisiteModuleName": "Reynolds, Harber and Cummerata",
+        "SortOrder": 67,
+        "ExtraFlags": 515,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 922
+            "FieldLength": 169
           }
         }
       }
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 629
+        "FieldLength": 657
       }
     }
   },
   {
-    "Name": "Heaney LLC",
-    "Description": "Polarised 3rd generation pricing structure",
+    "Name": "Dare, Parker and Goldner",
+    "Description": "Synergistic 3rd generation solution",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 600,
-        "Tooltip": "unde",
-        "CanAssign": true,
-        "Free": 603,
-        "InUse": 503,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 880,
+        "Tooltip": "excepturi",
+        "CanAssign": false,
+        "Free": 97,
+        "InUse": 86,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 313,
-        "Name": "Dicki, Douglas and Kuphal",
-        "Description": "Multi-channelled non-volatile support",
-        "PrerequisiteModuleName": "Becker, Robel and Abernathy",
-        "SortOrder": 277,
-        "ExtraFlags": 317,
+        "ModuleLicenseId": 464,
+        "Name": "Kunze-Kub",
+        "Description": "Centralized 3rd generation flexibility",
+        "PrerequisiteModuleName": "Klein-Deckow",
+        "SortOrder": 81,
+        "ExtraFlags": 925,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 546
+            "FieldLength": 405
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 626,
-        "Tooltip": "dolor",
-        "CanAssign": true,
-        "Free": 763,
-        "InUse": 814,
-        "IsHidden": false,
+        "Unrestricted": true,
+        "Total": 744,
+        "Tooltip": "nemo",
+        "CanAssign": false,
+        "Free": 790,
+        "InUse": 527,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 457,
-        "Name": "Christiansen-Bartoletti",
-        "Description": "Fundamental impactful functionalities",
-        "PrerequisiteModuleName": "Wiegand, Koelpin and Nitzsche",
-        "SortOrder": 771,
-        "ExtraFlags": 634,
+        "ModuleLicenseId": 387,
+        "Name": "Yundt-Wiza",
+        "Description": "Cross-group context-sensitive groupware",
+        "PrerequisiteModuleName": "Reynolds, Harber and Cummerata",
+        "SortOrder": 67,
+        "ExtraFlags": 515,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 922
+            "FieldLength": 169
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 629
+        "FieldLength": 657
       }
     }
   }

@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Fadel Group",
-  "RecordId": 903,
-  "AssociateId": 145
+  "TableName": "Stracke, Donnelly and Williamson",
+  "RecordId": 516,
+  "AssociateId": 217
 }
 ```
 

@@ -19,8 +19,8 @@ Activity archive provider for the Company card
 | ---- | ----- |
 |"document"|Documents|
 |"chat"|Chat session|
-|"formSubmission"|Form submissions|
 |"appointment"|Follow-ups|
+|"formSubmission"|Form submissions|
 |"mailing"|Mailings|
 
 ## Supported Columns
@@ -707,10 +707,6 @@ Activity archive provider for the Company card
 |chatTopic/name|string|Name: Name| x |
 |chatTopic/description|string|Description: The description of the chat channel| x |
 |chatTopic/badgeHeader|string|Badge header: The value of the badge header for the chat channel| x |
-|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
-|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
-|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |participating|bool|Participating?: Am I among the participants in a meeting?|  |
 |appointmentId|int|DB ID: Displays the database ID of a row| x |
 |endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -745,14 +741,19 @@ Activity archive provider for the Company card
 |appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
 |appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
+|formSubmissionFormId|int|Id: Id of the form| x |
+|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
+|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
-|mailingSent|listAny|Sent: Displays the sent status of the mailing| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingSent|listAny|Sent: Displays the sent status of the mailing| x |
 |mailingSimpleStatus|listAny|Status: Status| x |
 |mailingEndDate|date|Date sent: Displays the date when the mailing was sent (completed)| x |
 |mailingType|listAny|Type: Display the type of the mailing| x |
@@ -852,11 +853,11 @@ Activity archive provider for the Company card
 |mailingAddr/contact/contactAssociate/lastName|string|Company - Last name: Displays the contact's last name| x |
 |mailingAddr/contact/contactAssociate/middleName|string|Company - Middle Name: Displays the contact's middle name.| x |
 |mailingAddr/contact/contactAssociate/fullName|string|Company - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|mailingAddr/contact/contactAssociate/contactId|int|Company - Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/contactAssociate/contactId|int|Company - Company ID: Database ID of the company the user belongs to|  |
 |mailingAddr/contact/contactAssociate/personId|int|Company - Contact ID: Database ID of the contact row|  |
 |mailingAddr/contact/contactAssociate/mrMrs|string|Company - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |mailingAddr/contact/contactAssociate/title|string|Company - Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -956,11 +957,11 @@ Activity archive provider for the Company card
 |mailingAddr/person/personNumber|string|Contact - Number: Displays the contact's number| x |
 |mailingAddr/person/title|string|Contact - Title: Displays the contact's job title| x |
 |mailingAddr/person/personCountry|listAny|Contact - Country: Country| x |
-|mailingAddr/person/personCountryId|int|Contact - Country ID: Country ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/personCountryId|int|Contact - Country ID: Country ID| x |
 |mailingAddr/person/personNoMail|bool|Contact - No Mailings: Displays the contact's No Mailings checkbox| x |
 |mailingAddr/person/rank|int|Contact - Rank: Displays a contact's current rank| x |
 |mailingAddr/person/birthdate| *None* |Contact - Birthdate: Displays the contact's date of birth|  |
@@ -1060,11 +1061,11 @@ Activity archive provider for the Company card
 |mailingAddr/person/personExtra/x\_person\_longtext|string|Contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |mailingAddr/person/personExtra/x\_person\_date|date|Contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
 |mailingAddr/person/personExtra/x\_person\_datetime|datetime|Contact - Extra DateTime: Custom person date and time field. No default| x |
-|mailingAddr/person/personExtra/x\_person\_time| *None* |Contact - Extra time: Custom time field on person. Current time as default| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/personExtra/x\_person\_time| *None* |Contact - Extra time: Custom time field on person. Current time as default| x |
 |mailingAddr/person/personExtra/x\_person\_boolean|bool|Contact - Extra Boolean: Custom boolean field on person. Default checked| x |
 |mailingAddr/person/personExtra/x\_person\_timespan|timeSpan|Contact - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
 |mailingAddr/person/personExtra/x\_person\_shorttext|string|Contact - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
@@ -1155,7 +1156,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=updatedDate,person/personExtra/x_person_priority_relation,contact/code,project/projectAssociate/lastName,mailingAddr/contact/contactPhone/description
+GET /api/v1/archive/ContactActivity?$select=person/personAssociateFullName,person/personAssociate/role,person/correspondingAssociate/fullName,contact/mainContact,contact/restrictionAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

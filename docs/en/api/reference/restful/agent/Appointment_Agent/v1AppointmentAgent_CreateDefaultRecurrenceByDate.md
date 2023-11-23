@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2019-12-29T03:24:47.1427162+01:00"
+  "StartDate": "2009-07-07T13:38:12.983428+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 963,
-  "StartDate": "2018-04-09T03:24:47.1427162+02:00",
-  "EndDate": "2019-01-21T03:24:47.1427162+01:00",
-  "RecurrenceCounter": 246,
+  "RecurrenceId": 98,
+  "StartDate": "2006-12-14T13:38:12.983428+01:00",
+  "EndDate": "1996-10-13T13:38:12.983428+02:00",
+  "RecurrenceCounter": 271,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2001-03-18T03:24:47.1427162+01:00",
+      "Date": "2012-10-24T13:38:12.983428+02:00",
       "IsConflict": false,
-      "Description": "Organized transitional migration",
-      "DescriptionStyleHint": "Sharable object-oriented budgetary management",
-      "Tooltip": "qui"
+      "Description": "Enterprise-wide mobile firmware",
+      "DescriptionStyleHint": "Quality-focused transitional circuit",
+      "Tooltip": "tenetur"
     },
     {
-      "Date": "2001-03-18T03:24:47.1427162+01:00",
+      "Date": "2012-10-24T13:38:12.983428+02:00",
       "IsConflict": false,
-      "Description": "Organized transitional migration",
-      "DescriptionStyleHint": "Sharable object-oriented budgetary management",
-      "Tooltip": "qui"
+      "Description": "Enterprise-wide mobile firmware",
+      "DescriptionStyleHint": "Quality-focused transitional circuit",
+      "Tooltip": "tenetur"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

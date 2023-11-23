@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 511,
-  "Name": "Yundt Inc and Sons",
-  "Tooltip": "iure",
+  "RoleId": 411,
+  "Name": "Larson Inc and Sons",
+  "Tooltip": "corporis",
   "RoleType": "Anonymous",
-  "Deleted": 227,
-  "Rank": 295,
-  "Created": "2005-05-16T03:24:51.7401403+02:00",
-  "UseCategories": 332,
+  "Deleted": 331,
+  "Rank": 75,
+  "Created": "2015-02-21T13:38:17.5618158+01:00",
+  "UseCategories": 379,
   "CreatedBy": null,
-  "Updated": "2016-11-16T03:24:51.7401403+01:00",
+  "Updated": "2005-01-19T13:38:17.5618158+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldLength": 410
     }
   }
 }

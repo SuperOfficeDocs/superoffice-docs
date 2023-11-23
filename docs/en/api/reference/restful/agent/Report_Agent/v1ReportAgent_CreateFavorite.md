@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 869,
-  "Name": "Luettgen LLC",
-  "Description": "Seamless discrete data-warehouse"
+  "SourceId": 386,
+  "Name": "Abernathy-Bartoletti",
+  "Description": "Multi-channelled value-added migration"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 242,
+  "ReportId": 948,
   "ReportCategory": "All",
-  "Description": "Re-contextualized bifurcated middleware",
+  "Description": "Devolved mission-critical approach",
   "ReportLayout": "CalendarMonth",
-  "Name": "Abernathy, Rodriguez and Klein",
-  "AssociateId": 913,
-  "TemplateId": 873,
-  "Published": false,
+  "Name": "Maggio Inc and Sons",
+  "AssociateId": 544,
+  "TemplateId": 393,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldLength": 402
     }
   }
 }

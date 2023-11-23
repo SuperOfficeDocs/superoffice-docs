@@ -83,59 +83,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Klocko, O'Connell and Renner",
-  "Context": "nam",
+  "ProviderName": "Jacobson, Harber and Considine",
+  "Context": "tempore",
   "DesiredEntities": [
-    "numquam",
-    "dolore"
+    "quis",
+    "eos"
   ],
   "Columns": [
-    "iure",
-    "earum"
+    "et",
+    "ut"
   ],
   "SortOrder": [
     {
-      "Name": "Flatley Inc and Sons",
+      "Name": "Ullrich Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Flatley Inc and Sons",
+      "Name": "Ullrich Group",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Rowe-Hagenes",
-      "Operator": "quia",
+      "Name": "Wunsch Inc and Sons",
+      "Operator": "corrupti",
       "Values": [
-        "maiores",
-        "aut"
+        "nisi",
+        "voluptatem"
       ],
       "DisplayValues": [
         "consequatur",
-        "quia"
+        "ipsam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 622,
+      "InterParenthesis": 794,
       "InterOperator": "And",
-      "UniqueHash": 762
+      "UniqueHash": 758
     }
   ],
-  "ExportType": "ipsum",
+  "ExportType": "odit",
   "SelectedRowIds": [
-    "magnam",
-    "asperiores"
+    "quae",
+    "sed"
   ],
-  "EstimatedRowCount": 156
+  "EstimatedRowCount": 749
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 766,
-  "FileName": "Bauch-Schowalter",
-  "Message": "at",
+  "BatchTaskId": 487,
+  "FileName": "Lockman Group",
+  "Message": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 458
     }
   }
 }

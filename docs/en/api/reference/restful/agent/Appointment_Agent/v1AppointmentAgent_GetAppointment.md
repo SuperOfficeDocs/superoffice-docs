@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=557
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=65
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -106,6 +106,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -118,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,64 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 416,
-  "StartDate": "2000-09-07T03:24:47.0803445+02:00",
-  "EndDate": "2019-08-15T03:24:47.0803445+02:00",
+  "AppointmentId": 212,
+  "StartDate": "2022-12-18T13:38:12.9209358+01:00",
+  "EndDate": "2004-08-02T13:38:12.9209358+02:00",
   "Type": "BookingForChecklist",
-  "Task": "ea",
-  "AssociateFullName": "Abner Spencer",
-  "ContactName": "Jewess, Russel and Gottlieb",
-  "Description": "Sharable local local area network",
-  "PersonFullName": "Jimmie Gulgowski",
-  "PersonId": 268,
-  "ContactId": 463,
-  "ProjectId": 776,
-  "ProjectName": "Sauer-Altenwerth",
-  "IsPublished": true,
-  "AssociateId": 344,
-  "ColorIndex": 333,
+  "Task": "et",
+  "AssociateFullName": "Mrs. Felix Estefania Lindgren",
+  "ContactName": "Mitchell, McDermott and Schuster",
+  "Description": "Proactive incremental projection",
+  "PersonFullName": "Marshall Funk",
+  "PersonId": 291,
+  "ContactId": 201,
+  "ProjectId": 586,
+  "ProjectName": "Leffler LLC",
+  "IsPublished": false,
+  "AssociateId": 616,
+  "ColorIndex": 299,
   "IsFree": false,
   "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 334,
-  "PriorityName": "Lubowitz-Lockman",
+  "PriorityId": 776,
+  "PriorityName": "Lemke-Jenkins",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "2015-07-22T03:24:47.0803445+02:00",
+  "IsBooking": false,
+  "ActiveDate": "1997-09-28T13:38:12.9209358+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2015-06-15T03:24:47.0803445+02:00",
-  "RecurringEndDate": "2015-01-25T03:24:47.0803445+01:00",
-  "MotherId": 190,
-  "AssignedBy": 121,
-  "AssignedByFullName": "Dr. Janae Conroy",
+  "RecurringStartDate": "2018-08-27T13:38:12.9209358+02:00",
+  "RecurringEndDate": "2006-07-16T13:38:12.9209358+02:00",
+  "MotherId": 877,
+  "AssignedBy": 130,
+  "AssignedByFullName": "Jaquelin Dora Berge DVM",
   "RejectReason": "",
-  "Location": "tempora",
-  "AlarmLeadTime": "earum",
-  "SaleId": 295,
-  "SaleName": "Tromp Group",
-  "AssociateName": "Muller-Bogan",
-  "CreatedDate": "2003-01-10T03:24:47.0803445+01:00",
-  "CreatedBy": "explicabo",
-  "CreatedByFullName": "Buster Padberg",
-  "CreatedByAssociateId": 840,
+  "Location": "iste",
+  "AlarmLeadTime": "molestiae",
+  "SaleId": 108,
+  "SaleName": "Schoen Inc and Sons",
+  "AssociateName": "Carter-Shanahan",
+  "CreatedDate": "2023-07-18T13:38:12.9209358+02:00",
+  "CreatedBy": "soluta",
+  "CreatedByFullName": "Noel Hermiston",
+  "CreatedByAssociateId": 575,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "non",
-  "Agenda": "qui",
+  "PreferredTZLocation": 574,
+  "Title": "qui",
+  "Agenda": "facere",
   "InternalNotes": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 155
     }
   }
 }

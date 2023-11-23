@@ -86,7 +86,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,23 +96,23 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 804,
-  "UniqueIdentifier": "ab",
-  "Name": "Collins Inc and Sons",
-  "Description": "Optimized even-keeled data-warehouse",
-  "IncludeId": "quis",
-  "HierarchyId": 114,
-  "Source": "distinctio",
-  "Registered": "2016-10-13T03:24:51.5368575+02:00",
-  "RegisteredAssociateId": 203,
-  "Updated": "2001-05-28T03:24:51.5368575+02:00",
-  "UpdatedAssociateId": 49,
+  "EjscriptId": 115,
+  "UniqueIdentifier": "fugit",
+  "Name": "Dicki-Johns",
+  "Description": "Stand-alone 24/7 methodology",
+  "IncludeId": "accusantium",
+  "HierarchyId": 444,
+  "Source": "omnis",
+  "Registered": "2011-11-21T13:38:17.280593+01:00",
+  "RegisteredAssociateId": 121,
+  "Updated": "2007-06-15T13:38:17.280593+02:00",
+  "UpdatedAssociateId": 450,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldType": "System.String",
+      "FieldLength": 651
     }
   },
   "_Links": {

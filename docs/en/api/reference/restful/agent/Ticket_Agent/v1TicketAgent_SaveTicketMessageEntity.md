@@ -113,66 +113,66 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 277,
+  "EjMessageId": 448,
   "Ticket": null,
-  "CreatedAt": "2004-02-05T03:24:48.4092931+01:00",
+  "CreatedAt": "2002-09-26T13:38:14.2178238+02:00",
   "CreatedBy": null,
-  "Author": "dolore",
+  "Author": "laborum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "commodi",
-  "TimeSpent": 395,
-  "Body": "dolores",
-  "HtmlBody": "sapiente",
-  "EmailHeader": "corrine@murphy.co.uk",
-  "DebugInfo": "non",
-  "MailSorter": "quod",
+  "MessageId": "quo",
+  "TimeSpent": 659,
+  "Body": "culpa",
+  "HtmlBody": "est",
+  "EmailHeader": "jane_upton@leannon.us",
+  "DebugInfo": "alias",
+  "MailSorter": "autem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "libero",
+  "SearchTitle": "molestiae",
   "MessageHeaders": [
     {
-      "Id": 801,
-      "Name": "Hayes, Olson and Roob",
-      "Value": "omnis",
+      "Id": 196,
+      "Name": "Friesen Group",
+      "Value": "officiis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 801,
-      "Name": "Hayes, Olson and Roob",
-      "Value": "omnis",
+      "Id": 196,
+      "Name": "Friesen Group",
+      "Value": "officiis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": true,
-  "Language": "perferendis",
-  "Sentiment": 152,
-  "SentimentConfidence": 552,
+  "Language": "autem",
+  "Sentiment": 575,
+  "SentimentConfidence": 337,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 341,
-      "Name": "Prohaska, Sawayn and Powlowski",
-      "ContentType": "non",
-      "AttSize": 759,
-      "InlineImage": true,
-      "ContentId": "officia",
-      "AuthKey": "esse"
+      "AttachmentId": 507,
+      "Name": "Jacobson Group",
+      "ContentType": "eos",
+      "AttSize": 268,
+      "InlineImage": false,
+      "ContentId": "non",
+      "AuthKey": "autem"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "qui"
+    "CustomFields1": "nam",
+    "CustomFields2": "aut"
   }
 }
 ```
@@ -184,28 +184,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 599,
+  "EjMessageId": 116,
   "Ticket": null,
-  "CreatedAt": "2004-11-18T03:24:48.4092931+01:00",
+  "CreatedAt": "2003-06-28T13:38:14.2178238+02:00",
   "CreatedBy": null,
-  "Author": "quam",
+  "Author": "sit",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "unde",
-  "TimeSpent": 159,
-  "Body": "dolor",
-  "HtmlBody": "vel",
-  "EmailHeader": "obie_moen@huelslangworth.uk",
-  "DebugInfo": "non",
-  "MailSorter": "cum",
+  "MessageId": "atque",
+  "TimeSpent": 489,
+  "Body": "ad",
+  "HtmlBody": "cum",
+  "EmailHeader": "amelie.yost@feeneybaumbach.uk",
+  "DebugInfo": "quidem",
+  "MailSorter": "voluptas",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "accusantium",
+  "SearchTitle": "eos",
   "MessageHeaders": [
     {
-      "Id": 970,
-      "Name": "Turner-Stiedemann",
-      "Value": "earum",
+      "Id": 356,
+      "Name": "Bartoletti-Steuber",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -213,49 +213,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 791
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "rerum",
-  "Sentiment": 609,
-  "SentimentConfidence": 473,
+  "Important": false,
+  "Language": "voluptatem",
+  "Sentiment": 993,
+  "SentimentConfidence": 709,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 510,
-      "Name": "Toy, Gorczany and Von",
-      "ContentType": "maxime",
-      "AttSize": 536,
+      "AttachmentId": 662,
+      "Name": "Daugherty, Bogan and Mante",
+      "ContentType": "quos",
+      "AttSize": 734,
       "InlineImage": false,
-      "ContentId": "nemo",
-      "AuthKey": "consectetur",
+      "ContentId": "esse",
+      "AuthKey": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 611
+          "FieldLength": 19
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "necessitatibus",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "enim",
+    "CustomFields2": "veniam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 409
+      "FieldLength": 417
     }
   }
 }

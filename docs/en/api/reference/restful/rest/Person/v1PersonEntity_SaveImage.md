@@ -62,7 +62,7 @@ The image blob id
 PUT /api/v1/Person/{personId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,5 +71,5 @@ Accept-Language: en
 HTTP/1.1 200 The image blob id
 Content-Type: application/json; charset=utf-8
 
-178
+378
 ```

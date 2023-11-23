@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 360,
-    "FieldName": "Reichert Inc and Sons",
+    "QuoteLineConfigurationId": 575,
+    "FieldName": "Brekke, Cronin and Franecki",
     "Label": "sit",
-    "Tooltip": "facere",
+    "Tooltip": "sint",
     "Editable": true,
-    "InUse": true,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 70,
-    "RestrictEdit": false,
+    "Rank": 300,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 652
       }
     }
   }

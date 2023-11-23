@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=est
+GET /api/v1/List/Category/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Reichert, Vandervort and Toy",
-    "ToolTip": "Voluptates vel quos quod natus voluptates repellat voluptas.",
+    "Id": 376,
+    "Name": "Will Inc and Sons",
+    "ToolTip": "Sint ratione accusamus ab sed fuga.",
     "Deleted": false,
-    "Rank": 482,
-    "Type": "in",
+    "Rank": 142,
+    "Type": "facilis",
     "ChildItems": [
       {
-        "Id": 359,
-        "Name": "Hoeger, Moore and Murray",
-        "ToolTip": "Animi maxime voluptatum et ipsam.",
+        "Id": 449,
+        "Name": "Donnelly, Schmitt and O'Kon",
+        "ToolTip": "Officiis tempore earum odio molestiae iure et expedita.",
         "Deleted": true,
-        "Rank": 256,
-        "Type": "aut",
+        "Rank": 330,
+        "Type": "quas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloremque",
-        "ColorBlock": 594,
-        "ExtraInfo": "vel",
-        "StyleHint": "ut",
-        "FullName": "Prof. Lionel Camille Quigley I",
+        "IconHint": "facilis",
+        "ColorBlock": 921,
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "dicta",
+        "FullName": "Ms. Abdullah Gutmann I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 147
+            "FieldLength": 273
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 918,
-    "ExtraInfo": "aut",
-    "StyleHint": "vitae",
-    "FullName": "Christine Davis",
+    "IconHint": "deleniti",
+    "ColorBlock": 374,
+    "ExtraInfo": "atque",
+    "StyleHint": "praesentium",
+    "FullName": "Braeden Dooley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldLength": 662
       }
     }
   }

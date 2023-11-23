@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 331,
-    "Name": "Collins, Lindgren and Buckridge",
-    "ToolTip": "Qui soluta beatae corporis repudiandae laborum amet ut.",
-    "Deleted": false,
-    "Rank": 804,
-    "Type": "dolores",
-    "ColorBlock": 30,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2015-09-05T03:24:52.2869587+02:00",
+    "Id": 374,
+    "Name": "Brekke-Weissnat",
+    "ToolTip": "Nihil velit iste quam.",
+    "Deleted": true,
+    "Rank": 63,
+    "Type": "et",
+    "ColorBlock": 872,
+    "IconHint": "quasi",
+    "Selected": true,
+    "LastChanged": "2001-03-28T13:38:18.1087815+02:00",
     "ChildItems": [
       {
-        "Id": 936,
-        "Name": "Reichert-Walker",
-        "ToolTip": "Eos perspiciatis harum.",
-        "Deleted": true,
-        "Rank": 501,
-        "Type": "quas",
-        "ColorBlock": 760,
-        "IconHint": "accusamus",
-        "Selected": false,
-        "LastChanged": "2017-10-28T03:24:52.2869587+02:00",
+        "Id": 235,
+        "Name": "Kshlerin, Leffler and Abshire",
+        "ToolTip": "Iusto quisquam nihil quia aut velit est libero.",
+        "Deleted": false,
+        "Rank": 379,
+        "Type": "non",
+        "ColorBlock": 97,
+        "IconHint": "molestiae",
+        "Selected": true,
+        "LastChanged": "1996-10-02T13:38:18.1087815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "est",
+        "ExtraInfo": "sunt",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Coralie Thiel DVM",
+        "FullName": "Breanne Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 413
+            "FieldType": "System.Int32",
+            "FieldLength": 243
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "iusto",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Lowell Huel",
+    "FullName": "Aimee Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 287
       }
     }
   }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 11,
-  "UdListDefinitionName": "Feeney Inc and Sons",
+  "Id": 362,
+  "UdListDefinitionName": "Robel, Prohaska and Wiegand",
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 120,
-  "Name": "Kovacek-Schmitt",
-  "Tooltip": "cupiditate",
+  "Id": 117,
+  "Name": "Schmitt-Kautzer",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "UdListDefinitionId": 507,
-  "Rank": 220,
+  "UdListDefinitionId": 317,
+  "Rank": 685,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 48
     }
   }
 }

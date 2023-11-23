@@ -25,7 +25,7 @@ Deletes the DashboardTile
 | DashboardTileId | int32 | **Required** The id of the DashboardTile to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dashboard/DeleteDashboardTile?DashboardTileId=273
+POST /api/v1/Agents/Dashboard/DeleteDashboardTile?DashboardTileId=13
 ```
 
 

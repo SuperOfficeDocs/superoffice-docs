@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 835,
-  "Name": "Dickens-Jerde",
-  "Tooltip": "assumenda",
-  "Deleted": false,
-  "UdListDefinitionId": 400,
-  "Rank": 275,
+  "Id": 427,
+  "Name": "Prohaska, Wisozk and Sawayn",
+  "Tooltip": "architecto",
+  "Deleted": true,
+  "UdListDefinitionId": 193,
+  "Rank": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldType": "System.String",
+      "FieldLength": 811
     }
   }
 }

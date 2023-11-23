@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "GroupId": 374,
-  "Type": 267
+  "Type": 263
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 249,
-    "Name": "Mayer LLC",
-    "PersonId": 342,
-    "Rank": 261,
-    "Tooltip": "nihil",
+    "AssociateId": 834,
+    "Name": "Veum Group",
+    "PersonId": 671,
+    "Rank": 867,
+    "Tooltip": "enim",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 419,
-    "FullName": "Corbin McCullough",
-    "FormalName": "Flatley, Cassin and McDermott",
-    "Deleted": false,
-    "EjUserId": 160,
-    "UserName": "Hermiston-Nitzsche",
+    "GroupIdx": 444,
+    "FullName": "Mrs. Roosevelt Lelah Haag III",
+    "FormalName": "Feest-Smitham",
+    "Deleted": true,
+    "EjUserId": 785,
+    "UserName": "Weimann-Boyer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 356
+        "FieldType": "System.String",
+        "FieldLength": 887
       }
     }
   }

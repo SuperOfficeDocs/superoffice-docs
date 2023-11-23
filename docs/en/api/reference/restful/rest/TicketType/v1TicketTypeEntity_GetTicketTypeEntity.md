@@ -94,35 +94,35 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 742,
-  "Name": "Schimmel-Leffler",
-  "Rank": 126,
-  "Tooltip": "omnis",
-  "Icon": "et",
-  "DefaultTicketStatus": 758,
+  "TicketTypeId": 403,
+  "Name": "Becker, Pfeffer and Walsh",
+  "Rank": 226,
+  "Tooltip": "molestiae",
+  "Icon": "perferendis",
+  "DefaultTicketStatus": 407,
   "TicketStatuses": [
-    398,
-    165
+    124,
+    361
   ],
-  "DefaultTicketPriority": 902,
+  "DefaultTicketPriority": 608,
   "TicketPriorities": [
-    103,
-    753
+    782,
+    94
   ],
-  "ReplyTemplate": 789,
-  "IsExternalVisible": true,
-  "IsDefault": true,
+  "ReplyTemplate": 968,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 618,
-    "ERPName": "Larson Inc and Sons",
-    "DisplayName": "Rogahn-Hilpert",
-    "DisplayDescription": "Re-contextualized client-server database",
-    "Rank": 610,
-    "ConnectorName": "Price LLC",
-    "ErpConnectionId": 751,
-    "ExtraData": "reiciendis",
+    "QuoteConnectionId": 51,
+    "ERPName": "Hyatt-Hessel",
+    "DisplayName": "Kshlerin LLC",
+    "DisplayDescription": "Cross-platform homogeneous frame",
+    "Rank": 16,
+    "ConnectorName": "Nader, Jaskolski and Grant",
+    "ErpConnectionId": 893,
+    "ExtraData": "eligendi",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 890,
-        "ERPPriceListKey": "qui",
-        "QuoteConnectionId": 716,
-        "Name": "Gusikowski Group",
-        "Description": "Enterprise-wide 4th generation monitoring",
-        "Currency": "quam",
-        "CurrencyName": "Treutel Inc and Sons",
-        "ValidFrom": "2001-06-14T03:24:48.1426062+02:00",
-        "ValidTo": "2016-08-15T03:24:48.1426062+02:00",
+        "PriceListId": 468,
+        "ERPPriceListKey": "cum",
+        "QuoteConnectionId": 9,
+        "Name": "Flatley Group",
+        "Description": "Secured user-facing encoding",
+        "Currency": "quas",
+        "CurrencyName": "Botsford Inc and Sons",
+        "ValidFrom": "2008-03-10T13:38:14.0303322+01:00",
+        "ValidTo": "2015-02-27T13:38:14.0303322+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldLength": 87
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      426,
-      214
+      808,
+      101
     ],
     "AssociateAccessIds": [
-      976,
-      757
+      475,
+      496
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 955
       }
     }
   }

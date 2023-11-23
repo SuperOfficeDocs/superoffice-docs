@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Krajcik, Hayes and Sporer",
+  "ProviderName": "Torp Inc and Sons",
   "DesiredColumns": [
-    "totam",
-    "cum"
+    "consequatur",
+    "rerum"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Welch Inc and Sons",
+    "Name": "O'Reilly-Feeney",
     "Direction": "ASC"
   },
   {
-    "Name": "Welch Inc and Sons",
+    "Name": "O'Reilly-Feeney",
     "Direction": "ASC"
   }
 ]

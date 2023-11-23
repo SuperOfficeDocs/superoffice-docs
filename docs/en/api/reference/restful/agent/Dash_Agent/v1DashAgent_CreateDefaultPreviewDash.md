@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bauch Inc and Sons",
-  "Description": "Optimized executive productivity",
-  "OwnedByFullName": "Ms. Katelynn Reva Larson DVM",
-  "Registered": "1997-07-06T03:24:47.4864254+02:00",
+  "Name": "Bauch-Mohr",
+  "Description": "Re-contextualized local archive",
+  "OwnedByFullName": "Ariel Christine Erdman III",
+  "Registered": "2021-10-25T13:38:13.4052559+02:00",
   "Tiles": [
     {
-      "Name": "Waelchi-Raynor",
+      "Name": "Schaefer, Bechtelar and Adams",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 672
         }
       }
     },
     {
-      "Name": "Waelchi-Raynor",
+      "Name": "Schaefer, Bechtelar and Adams",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 672
         }
       }
     }
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 308
+      "FieldLength": 572
     }
   }
 }

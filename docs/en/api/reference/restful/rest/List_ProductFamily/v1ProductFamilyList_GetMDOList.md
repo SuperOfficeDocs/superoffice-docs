@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=eum
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=dolores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Auer, Blick and Padberg",
-    "ToolTip": "Harum aut nisi odit ut aut.",
+    "Id": 671,
+    "Name": "Lesch, Collier and Swift",
+    "ToolTip": "Quas qui qui aut ut id fuga.",
     "Deleted": false,
-    "Rank": 376,
-    "Type": "voluptatem",
+    "Rank": 941,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Littel-Schulist",
-        "ToolTip": "Necessitatibus amet molestias.",
-        "Deleted": false,
-        "Rank": 1000,
-        "Type": "ab",
+        "Id": 415,
+        "Name": "Haag, O'Reilly and Klocko",
+        "ToolTip": "Omnis aut voluptatem.",
+        "Deleted": true,
+        "Rank": 725,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 171,
-        "ExtraInfo": "aut",
-        "StyleHint": "deleniti",
-        "FullName": "Miss Daphne Stroman PhD",
+        "IconHint": "vitae",
+        "ColorBlock": 428,
+        "ExtraInfo": "sed",
+        "StyleHint": "aut",
+        "FullName": "Miss Rubie Veum I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 962
+            "FieldType": "System.Int32",
+            "FieldLength": 635
           }
         }
       }
     ],
-    "IconHint": "laboriosam",
-    "ColorBlock": 23,
-    "ExtraInfo": "aut",
-    "StyleHint": "provident",
-    "FullName": "Mrs. Ethelyn Stehr",
+    "IconHint": "rerum",
+    "ColorBlock": 667,
+    "ExtraInfo": "omnis",
+    "StyleHint": "quibusdam",
+    "FullName": "Easton Josiane Lynch V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldLength": 449
       }
     }
   }

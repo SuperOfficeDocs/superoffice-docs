@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
-  "Name": "Metz Group",
-  "Tooltip": "occaecati",
-  "Deleted": false,
-  "UdListDefinitionId": 671,
-  "Rank": 206,
+  "Id": 728,
+  "Name": "Gibson LLC",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 922,
+  "Rank": 28,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldLength": 774
     }
   }
 }

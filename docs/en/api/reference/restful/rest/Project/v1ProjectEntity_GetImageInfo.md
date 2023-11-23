@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 01 Jun 2018 03:24:51 G6T
+Last-Modified: Mon, 12 Oct 1998 13:38:17 G10T
 
 {
-  "BlobId": 462,
-  "BlobSize": 6,
-  "Description": "Stand-alone tangible synergy",
-  "ExtraInfo": "aut",
-  "IsEncrypted": false,
+  "BlobId": 240,
+  "BlobSize": 301,
+  "Description": "Intuitive reciprocal intranet",
+  "ExtraInfo": "dolores",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "possimus",
-  "OriginalSize": 743,
-  "CreatedDate": "1998-08-24T03:24:51.7401403+02:00",
-  "UpdatedDate": "2018-06-01T03:24:51.7401403+02:00",
+  "MimeType": "voluptatem",
+  "OriginalSize": 732,
+  "CreatedDate": "2022-11-25T13:38:17.5618158+01:00",
+  "UpdatedDate": "1998-10-12T13:38:17.5618158+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "tempore",
+  "ConceptualType": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 976
     }
   }
 }

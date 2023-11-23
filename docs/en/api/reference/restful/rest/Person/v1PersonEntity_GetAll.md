@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person?$select=name,department,category/id
 GET /api/v1/Person?$filter=name begins 'S'
 GET /api/v1/Person?$orderBy=name asc
-GET /api/v1/Person?$entities=ipsam
-GET /api/v1/Person?$top=653
-GET /api/v1/Person?$skip=373
+GET /api/v1/Person?$entities=quas
+GET /api/v1/Person?$top=645
+GET /api/v1/Person?$skip=234
 GET /api/v1/Person?$mode=Full
 GET /api/v1/Person?$options=GrandTotal=true
-GET /api/v1/Person?$context=repellendus
+GET /api/v1/Person?$context=sunt
 GET /api/v1/Person?$format=JSON
-GET /api/v1/Person?$jsonSafe=False
+GET /api/v1/Person?$jsonSafe=True
 GET /api/v1/Person?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Person
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "porro",
+  "odata.nextLink": "eum",
   "value": [
     {
-      "PrimaryKey": 1081,
+      "PrimaryKey": 2240,
       "EntityName": "person",
-      "personId": 1081,
-      "fullName": "Kristian Crist"
+      "personId": 2240,
+      "fullName": "Ms. Carolanne Felicia Torphy"
     },
     {
-      "PrimaryKey": 1336,
+      "PrimaryKey": 39,
       "EntityName": "person",
-      "personId": 1336,
-      "fullName": "Mr. Kaycee Huel"
+      "personId": 39,
+      "fullName": "Ayana Turcotte"
     }
   ]
 }

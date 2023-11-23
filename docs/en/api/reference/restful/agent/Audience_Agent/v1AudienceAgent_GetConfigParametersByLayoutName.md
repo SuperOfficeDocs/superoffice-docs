@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Waelchi-Christiansen"
+  "LayoutName": "West-Hintz"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 250,
-    "Name": "Bednar-Crona",
-    "Value": "atque",
-    "CreatedDate": "2012-07-12T03:24:47.2520803+02:00",
-    "UpdatedDate": "2000-12-28T03:24:47.2520803+01:00",
-    "CreatedBy": "et",
-    "UpdatedBy": "reiciendis",
+    "AudienceLayoutId": 6,
+    "Name": "Hodkiewicz Inc and Sons",
+    "Value": "omnis",
+    "CreatedDate": "1996-11-14T13:38:13.0771703+01:00",
+    "UpdatedDate": "2023-01-13T13:38:13.0771703+01:00",
+    "CreatedBy": "quis",
+    "UpdatedBy": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldType": "System.String",
+        "FieldLength": 369
       }
     }
   }

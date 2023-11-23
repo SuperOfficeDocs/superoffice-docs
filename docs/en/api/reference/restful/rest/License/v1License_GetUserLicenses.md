@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Morissette, Smitham and Carroll",
-    "Description": "Cloned homogeneous extranet",
+    "Name": "Weimann LLC",
+    "Description": "Pre-emptive 6th generation initiative",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 423,
-        "Tooltip": "officia",
+        "Total": 78,
+        "Tooltip": "nihil",
         "CanAssign": false,
-        "Free": 421,
-        "InUse": 103,
-        "IsHidden": true,
+        "Free": 488,
+        "InUse": 313,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 835,
-        "Name": "Weissnat, Littel and Adams",
-        "Description": "Optimized 24/7 attitude",
-        "PrerequisiteModuleName": "Bechtelar-Spinka",
-        "SortOrder": 781,
-        "ExtraFlags": 423,
+        "ModuleLicenseId": 133,
+        "Name": "Romaguera-Hodkiewicz",
+        "Description": "Synchronised 4th generation model",
+        "PrerequisiteModuleName": "Cormier Inc and Sons",
+        "SortOrder": 54,
+        "ExtraFlags": 903,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 335
+            "FieldLength": 60
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 250,
-        "Tooltip": "laboriosam",
-        "CanAssign": false,
-        "Free": 35,
-        "InUse": 232,
+        "Total": 166,
+        "Tooltip": "non",
+        "CanAssign": true,
+        "Free": 944,
+        "InUse": 338,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 357,
-        "Name": "Rosenbaum-Wisoky",
-        "Description": "Advanced bandwidth-monitored core",
-        "PrerequisiteModuleName": "Bernhard LLC",
-        "SortOrder": 34,
-        "ExtraFlags": 840,
+        "Assigned": false,
+        "ModuleLicenseId": 721,
+        "Name": "Fadel Inc and Sons",
+        "Description": "Decentralized hybrid portal",
+        "PrerequisiteModuleName": "Wolf, Cremin and Leffler",
+        "SortOrder": 213,
+        "ExtraFlags": 631,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 543
+            "FieldLength": 314
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 651
+        "FieldType": "System.Int32",
+        "FieldLength": 360
       }
     }
   },
   {
-    "Name": "Morissette, Smitham and Carroll",
-    "Description": "Cloned homogeneous extranet",
+    "Name": "Weimann LLC",
+    "Description": "Pre-emptive 6th generation initiative",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 423,
-        "Tooltip": "officia",
+        "Total": 78,
+        "Tooltip": "nihil",
         "CanAssign": false,
-        "Free": 421,
-        "InUse": 103,
-        "IsHidden": true,
+        "Free": 488,
+        "InUse": 313,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 835,
-        "Name": "Weissnat, Littel and Adams",
-        "Description": "Optimized 24/7 attitude",
-        "PrerequisiteModuleName": "Bechtelar-Spinka",
-        "SortOrder": 781,
-        "ExtraFlags": 423,
+        "ModuleLicenseId": 133,
+        "Name": "Romaguera-Hodkiewicz",
+        "Description": "Synchronised 4th generation model",
+        "PrerequisiteModuleName": "Cormier Inc and Sons",
+        "SortOrder": 54,
+        "ExtraFlags": 903,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 335
+            "FieldLength": 60
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 250,
-        "Tooltip": "laboriosam",
-        "CanAssign": false,
-        "Free": 35,
-        "InUse": 232,
+        "Total": 166,
+        "Tooltip": "non",
+        "CanAssign": true,
+        "Free": 944,
+        "InUse": 338,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 357,
-        "Name": "Rosenbaum-Wisoky",
-        "Description": "Advanced bandwidth-monitored core",
-        "PrerequisiteModuleName": "Bernhard LLC",
-        "SortOrder": 34,
-        "ExtraFlags": 840,
+        "Assigned": false,
+        "ModuleLicenseId": 721,
+        "Name": "Fadel Inc and Sons",
+        "Description": "Decentralized hybrid portal",
+        "PrerequisiteModuleName": "Wolf, Cremin and Leffler",
+        "SortOrder": 213,
+        "ExtraFlags": 631,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 543
+            "FieldLength": 314
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 651
+        "FieldType": "System.Int32",
+        "FieldLength": 360
       }
     }
   }

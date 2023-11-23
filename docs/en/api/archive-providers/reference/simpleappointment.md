@@ -697,7 +697,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleAppointment?$select=personId,contact/contactAssociate/ejUserId,person/birthYear,sale/associate/middleName
+GET /api/v1/archive/SimpleAppointment?$select=contact/contactAssociate/isActive,contact/contactUdef/SuperOffice:2,contact/saintTicketCategory,person/contactId,person/personCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

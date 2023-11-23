@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 214,
-    "Name": "Mosciski, Hodkiewicz and Gerhold",
-    "Tooltip": "impedit",
-    "Deleted": false,
-    "Rank": 977,
-    "UdListDefinitionId": 149
+    "HeadingId": 347,
+    "Name": "Marvin LLC",
+    "Tooltip": "quibusdam",
+    "Deleted": true,
+    "Rank": 32,
+    "UdListDefinitionId": 573
   },
   {
-    "HeadingId": 214,
-    "Name": "Mosciski, Hodkiewicz and Gerhold",
-    "Tooltip": "impedit",
-    "Deleted": false,
-    "Rank": 977,
-    "UdListDefinitionId": 149
+    "HeadingId": 347,
+    "Name": "Marvin LLC",
+    "Tooltip": "quibusdam",
+    "Deleted": true,
+    "Rank": 32,
+    "UdListDefinitionId": 573
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 33,
-    "Name": "Keeling-Heidenreich",
+    "HeadingId": 672,
+    "Name": "Strosin-Simonis",
     "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 885,
-    "UdListDefinitionId": 813,
+    "Rank": 844,
+    "UdListDefinitionId": 437,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 173
+        "FieldType": "System.Int32",
+        "FieldLength": 35
       }
     }
   }

@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 449,
-  "TemplateName": "Oberbrunner, Mayert and Gutkowski",
+  "SelectionId": 169,
+  "TemplateName": "Auer-Hickle",
   "UseContacts": false,
-  "OrderBy": "perspiciatis"
+  "OrderBy": "esse"
 }
 ```
 

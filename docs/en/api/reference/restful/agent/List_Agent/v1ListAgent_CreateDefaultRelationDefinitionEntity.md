@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 238,
-  "Name": "Denesik-Dooley",
-  "Tooltip": "quia",
-  "PassiveText": "itaque",
-  "Deleted": true,
-  "Rank": 485,
+  "ReldefId": 373,
+  "Name": "Fay Group",
+  "Tooltip": "non",
+  "PassiveText": "eaque",
+  "Deleted": false,
+  "Rank": 927,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

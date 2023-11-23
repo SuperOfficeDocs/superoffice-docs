@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Treutel-Gerlach",
-    "ToolTip": "Doloribus consectetur rem explicabo quibusdam.",
-    "Deleted": true,
-    "Rank": 692,
-    "Type": "non",
-    "ColorBlock": 624,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2018-05-05T03:24:52.4119449+02:00",
+    "Id": 553,
+    "Name": "Ankunding Group",
+    "ToolTip": "Quos facilis.",
+    "Deleted": false,
+    "Rank": 53,
+    "Type": "nihil",
+    "ColorBlock": 447,
+    "IconHint": "explicabo",
+    "Selected": false,
+    "LastChanged": "2003-04-30T13:38:18.2337719+02:00",
     "ChildItems": [
       {
-        "Id": 630,
-        "Name": "Walker-Monahan",
-        "ToolTip": "Temporibus nulla nesciunt perferendis sapiente molestiae.",
-        "Deleted": true,
-        "Rank": 388,
-        "Type": "autem",
-        "ColorBlock": 224,
-        "IconHint": "soluta",
-        "Selected": true,
-        "LastChanged": "2023-02-04T03:24:52.4119449+01:00",
+        "Id": 738,
+        "Name": "Bernier LLC",
+        "ToolTip": "Ipsa autem.",
+        "Deleted": false,
+        "Rank": 714,
+        "Type": "nemo",
+        "ColorBlock": 133,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2005-10-17T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "recusandae",
-        "Hidden": true,
-        "FullName": "Lue Bartell"
+        "ExtraInfo": "repellat",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Dr. Tomasa Boyer"
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Leta Bechtelar"
+    "ExtraInfo": "molestiae",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Kieran Jacobi"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Marvin-Zboncak",
-    "ToolTip": "Reiciendis vel voluptatem perspiciatis.",
-    "Deleted": false,
-    "Rank": 205,
-    "Type": "enim",
-    "ColorBlock": 328,
-    "IconHint": "et",
+    "Id": 549,
+    "Name": "Kunze LLC",
+    "ToolTip": "Eos voluptas in sequi nihil debitis facilis aliquid.",
+    "Deleted": true,
+    "Rank": 811,
+    "Type": "id",
+    "ColorBlock": 726,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2005-12-22T03:24:52.4119449+01:00",
+    "LastChanged": "1997-04-27T13:38:18.2337719+02:00",
     "ChildItems": [
       {
-        "Id": 587,
-        "Name": "Steuber-Greenholt",
-        "ToolTip": "Dolore quo delectus veritatis consequatur.",
-        "Deleted": false,
-        "Rank": 239,
-        "Type": "eum",
-        "ColorBlock": 793,
-        "IconHint": "omnis",
+        "Id": 379,
+        "Name": "Goyette Inc and Sons",
+        "ToolTip": "Totam accusantium maiores deserunt sequi cum.",
+        "Deleted": true,
+        "Rank": 302,
+        "Type": "atque",
+        "ColorBlock": 636,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2012-05-28T03:24:52.4119449+02:00",
+        "LastChanged": "2005-10-03T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Flavie Angelina Hartmann IV",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "itaque",
+        "Hidden": true,
+        "FullName": "Granville Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 111
+            "FieldLength": 945
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "sequi",
+    "ExtraInfo": "dolor",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Ryley Price",
+    "FullName": "Issac Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldLength": 812
       }
     }
   }

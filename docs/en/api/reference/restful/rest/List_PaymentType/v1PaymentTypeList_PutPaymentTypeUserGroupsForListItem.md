@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 901,
-    "Name": "Hettinger Inc and Sons",
-    "ToolTip": "Aut incidunt voluptate accusamus.",
-    "Deleted": true,
-    "Rank": 18,
-    "Type": "voluptatem",
-    "ColorBlock": 784,
-    "IconHint": "atque",
+    "Id": 161,
+    "Name": "Zboncak Group",
+    "ToolTip": "Excepturi officiis amet similique blanditiis.",
+    "Deleted": false,
+    "Rank": 542,
+    "Type": "ipsum",
+    "ColorBlock": 361,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "1996-05-20T03:24:52.2869587+02:00",
+    "LastChanged": "2015-01-13T13:38:18.0931573+01:00",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Howe, Rodriguez and Kuvalis",
-        "ToolTip": "Corporis et illum.",
+        "Id": 255,
+        "Name": "Bogan, Hagenes and Jast",
+        "ToolTip": "Odit totam soluta unde asperiores ut dolores eius.",
         "Deleted": false,
-        "Rank": 813,
-        "Type": "voluptatem",
-        "ColorBlock": 600,
-        "IconHint": "nemo",
-        "Selected": false,
-        "LastChanged": "2003-04-28T03:24:52.2869587+02:00",
+        "Rank": 790,
+        "Type": "ut",
+        "ColorBlock": 37,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "2018-09-08T13:38:18.0931573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "ab",
+        "ExtraInfo": "non",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Bonnie Huels"
+        "FullName": "Mr. Bella Kiehn I"
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Genesis Schumm"
+    "ExtraInfo": "aliquid",
+    "StyleHint": "fuga",
+    "Hidden": false,
+    "FullName": "Mrs. Earl Koelpin DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 910,
-    "Name": "Koch-Prosacco",
-    "ToolTip": "Dolores explicabo dolor adipisci magnam maiores.",
+    "Id": 543,
+    "Name": "Gutmann, Zulauf and Hickle",
+    "ToolTip": "Laboriosam vel tempore consequuntur.",
     "Deleted": true,
-    "Rank": 362,
-    "Type": "non",
-    "ColorBlock": 991,
-    "IconHint": "recusandae",
-    "Selected": false,
-    "LastChanged": "2016-10-23T03:24:52.2869587+02:00",
+    "Rank": 755,
+    "Type": "est",
+    "ColorBlock": 972,
+    "IconHint": "exercitationem",
+    "Selected": true,
+    "LastChanged": "2019-03-26T13:38:18.0931573+01:00",
     "ChildItems": [
       {
-        "Id": 759,
-        "Name": "Ernser LLC",
-        "ToolTip": "Ipsa enim quaerat omnis illo dicta.",
+        "Id": 299,
+        "Name": "Renner-McClure",
+        "ToolTip": "Vitae enim sequi quae et voluptatem.",
         "Deleted": false,
-        "Rank": 957,
-        "Type": "iusto",
-        "ColorBlock": 134,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2020-12-08T03:24:52.2869587+01:00",
+        "Rank": 889,
+        "Type": "voluptas",
+        "ColorBlock": 743,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2001-04-30T13:38:18.0931573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "necessitatibus",
-        "Hidden": false,
-        "FullName": "Dr. Marley Odell Roob",
+        "ExtraInfo": "non",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Janice Dickinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldType": "System.String",
+            "FieldLength": 938
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "quas",
+    "ExtraInfo": "quam",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Ofelia Bauch",
+    "FullName": "Whitney Carolyne Aufderhar III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 205
       }
     }
   }

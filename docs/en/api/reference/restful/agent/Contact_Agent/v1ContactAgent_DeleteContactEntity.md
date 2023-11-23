@@ -25,7 +25,7 @@ Deletes the ContactEntity
 | ContactEntityId | int32 | **Required** The id of the ContactEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Contact/DeleteContactEntity?ContactEntityId=907
+POST /api/v1/Agents/Contact/DeleteContactEntity?ContactEntityId=320
 ```
 
 

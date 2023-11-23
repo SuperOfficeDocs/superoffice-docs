@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 883,
-  "CurrentAppointmentId": 119,
+  "SaleId": 180,
+  "CurrentAppointmentId": 370,
   "SkipCompleteCheck": true
 }
 ```
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 141,
-  "Deleted": 529,
-  "DaysFuture": 133,
-  "Tooltip": "nulla",
-  "Text": "nam",
-  "TaskId": 669,
-  "SuggestedAppointmentId": 633,
-  "SaleTypeStageLinkId": 728,
-  "RegisteredAssociateId": 745,
-  "Rank": 853,
-  "ProjectTypeStatusLinkId": 700,
-  "Name": "Larson, Rohan and Beier",
-  "Duration": 767,
+  "AutoSuggest": 503,
+  "Deleted": 533,
+  "DaysFuture": 930,
+  "Tooltip": "quo",
+  "Text": "velit",
+  "TaskId": 828,
+  "SuggestedAppointmentId": 238,
+  "SaleTypeStageLinkId": 603,
+  "RegisteredAssociateId": 552,
+  "Rank": 270,
+  "ProjectTypeStatusLinkId": 532,
+  "Name": "Keebler, Kuhic and Hessel",
+  "Duration": 420,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 407
     }
   }
 }

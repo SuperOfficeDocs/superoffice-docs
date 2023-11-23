@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kutch, Stiedemann and Runte",
-  "AssociateId": 782
+  "TableName": "Greenholt, McKenzie and Raynor",
+  "AssociateId": 794
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Block-Cassin",
-    "RecordId": 999,
-    "AssociateId": 367,
-    "ExtraInfo": "est",
-    "Rank": 301,
+    "TableName": "Jenkins LLC",
+    "RecordId": 345,
+    "AssociateId": 465,
+    "ExtraInfo": "natus",
+    "Rank": 111,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldLength": 668
       }
     }
   }

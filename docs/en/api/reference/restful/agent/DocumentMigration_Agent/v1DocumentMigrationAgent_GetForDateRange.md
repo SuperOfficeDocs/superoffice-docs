@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 906,
-  "MinDate": "2016-10-04T03:24:47.705153+02:00",
-  "MaxDate": "1998-11-19T03:24:47.705153+01:00",
+  "DocumentPluginId": 116,
+  "MinDate": "2017-05-01T13:38:13.5146196+02:00",
+  "MaxDate": "1997-03-31T13:38:13.5146196+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 988,
-  "NumDocumentsAlreadyMigrated": 271,
+  "NumDocumentsOmitted": 126,
+  "NumDocumentsAlreadyMigrated": 997,
   "Documents": [
     {
-      "DocumentId": 234,
-      "ContactId": 503,
-      "PersonId": 90,
-      "SaleId": 502,
-      "ProjectId": 23,
-      "DocTmplId": 981,
-      "AssociateId": 258,
-      "UserGroupId": 346,
-      "VisibleForId": 689
+      "DocumentId": 344,
+      "ContactId": 857,
+      "PersonId": 768,
+      "SaleId": 989,
+      "ProjectId": 784,
+      "DocTmplId": 302,
+      "AssociateId": 143,
+      "UserGroupId": 702,
+      "VisibleForId": 661
     }
   ],
   "Associates": [
     {
-      "AssociateId": 146,
-      "EmailAddress": "leslie.schumm@thiel.uk"
+      "AssociateId": 76,
+      "EmailAddress": "mellie_fay@quigley.biz"
     },
     {
-      "AssociateId": 146,
-      "EmailAddress": "leslie.schumm@thiel.uk"
+      "AssociateId": 76,
+      "EmailAddress": "mellie_fay@quigley.biz"
     }
   ]
 }

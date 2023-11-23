@@ -25,7 +25,7 @@ Gets all the Credited items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Credited/Items?includeDeleted=True
+GET /api/v1/List/Credited/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 949,
-    "Name": "Schaden, Upton and Reilly",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 226,
-    "Rank": 143,
+    "Id": 234,
+    "Name": "Lockman-Mohr",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 515,
+    "Rank": 728,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldType": "System.Int32",
+        "FieldLength": 75
       }
     }
   }

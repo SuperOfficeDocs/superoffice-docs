@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Funk Inc and Sons",
-    "ToolTip": "Nihil ea aperiam.",
+    "Id": 200,
+    "Name": "Hettinger-Rosenbaum",
+    "ToolTip": "Ut praesentium aliquid accusantium sint.",
     "Deleted": true,
-    "Rank": 451,
-    "Type": "id",
-    "ColorBlock": 757,
-    "IconHint": "fugit",
+    "Rank": 483,
+    "Type": "delectus",
+    "ColorBlock": 143,
+    "IconHint": "corrupti",
     "Selected": true,
-    "LastChanged": "2004-07-15T03:24:52.3650758+02:00",
+    "LastChanged": "2008-03-29T13:38:18.1712741+01:00",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Denesik-Littel",
-        "ToolTip": "Quas quis nihil necessitatibus rerum sequi.",
+        "Id": 732,
+        "Name": "Hayes, Murazik and Conroy",
+        "ToolTip": "Numquam provident est commodi.",
         "Deleted": false,
-        "Rank": 8,
-        "Type": "vero",
-        "ColorBlock": 483,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "1998-02-03T03:24:52.3650758+01:00",
+        "Rank": 715,
+        "Type": "facilis",
+        "ColorBlock": 716,
+        "IconHint": "neque",
+        "Selected": false,
+        "LastChanged": "2001-01-10T13:38:18.1712741+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Angelita Hilpert",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Miss Verla Emmet Treutel Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 620
+            "FieldLength": 954
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "fugit",
+    "ExtraInfo": "quia",
+    "StyleHint": "ducimus",
     "Hidden": true,
-    "FullName": "Mr. Skylar Frami",
+    "FullName": "Amya Kasandra Gerlach V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldType": "System.Int32",
+        "FieldLength": 402
       }
     }
   }

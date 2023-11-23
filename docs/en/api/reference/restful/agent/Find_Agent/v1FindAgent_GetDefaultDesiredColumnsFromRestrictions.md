@@ -86,32 +86,32 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ziemann, Schaden and Beahan",
+  "ProviderName": "Jones-Buckridge",
   "Restrictions": [
     {
-      "Name": "Marks, Oberbrunner and Hauck",
-      "Operator": "incidunt",
+      "Name": "Schmitt-Gleichner",
+      "Operator": "et",
       "Values": [
-        "modi",
-        "consequatur"
+        "qui",
+        "quia"
       ],
       "DisplayValues": [
-        "aut",
-        "incidunt"
+        "enim",
+        "iure"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 32,
+      "InterParenthesis": 649,
       "InterOperator": "And",
-      "UniqueHash": 241
+      "UniqueHash": 290
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Hegmann, Bins and Deckow",
-    "DisplayTooltip": "incidunt",
-    "DisplayType": "et",
-    "CanOrderBy": false,
-    "Name": "Gaylord, Marks and Harris",
-    "CanRestrictBy": false,
-    "RestrictionType": "labore",
-    "RestrictionListName": "Pollich-Goldner",
+    "DisplayName": "Emmerich, Jones and Weimann",
+    "DisplayTooltip": "perferendis",
+    "DisplayType": "vel",
+    "CanOrderBy": true,
+    "Name": "Marquardt, Kuvalis and O'Keefe",
+    "CanRestrictBy": true,
+    "RestrictionType": "cupiditate",
+    "RestrictionListName": "Heller LLC",
     "IsVisible": false,
-    "ExtraInfo": "quia",
-    "Width": "asperiores",
-    "IconHint": "magni",
-    "HeadingIconHint": "vel"
+    "ExtraInfo": "quo",
+    "Width": "sapiente",
+    "IconHint": "neque",
+    "HeadingIconHint": "laborum"
   }
 ]
 ```

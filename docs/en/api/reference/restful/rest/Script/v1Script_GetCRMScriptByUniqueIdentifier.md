@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
-  "Name": "Kuhn LLC",
-  "Description": "Operative national capability",
-  "IncludeId": "esse",
-  "Source": "dolores",
-  "Registered": "2017-09-29T03:24:52.0838565+02:00",
-  "RegisteredBy": "aliquam",
-  "Updated": "2015-07-15T03:24:52.0838565+02:00",
-  "UpdatedBy": "perferendis",
-  "Path": "animi",
+  "UniqueIdentifier": "excepturi",
+  "Name": "Dooley Group",
+  "Description": "Configurable web-enabled application",
+  "IncludeId": "voluptatem",
+  "Source": "quo",
+  "Registered": "2017-06-16T13:38:17.8275624+02:00",
+  "RegisteredBy": "et",
+  "Updated": "2000-06-21T13:38:17.8275624+02:00",
+  "UpdatedBy": "fuga",
+  "Path": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldLength": 325
     }
   }
 }

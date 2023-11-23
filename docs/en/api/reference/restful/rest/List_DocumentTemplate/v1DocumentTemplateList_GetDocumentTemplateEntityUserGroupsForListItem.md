@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Ward, Hermann and DuBuque",
-    "ToolTip": "Odit fugit.",
+    "Id": 465,
+    "Name": "Wehner LLC",
+    "ToolTip": "Accusamus voluptatem aut laborum sint voluptatum eum.",
     "Deleted": false,
-    "Rank": 81,
-    "Type": "tempore",
-    "ColorBlock": 746,
-    "IconHint": "et",
+    "Rank": 230,
+    "Type": "perspiciatis",
+    "ColorBlock": 477,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2018-08-08T03:24:52.2557133+02:00",
+    "LastChanged": "1997-10-26T13:38:18.0619133+01:00",
     "ChildItems": [
       {
-        "Id": 784,
-        "Name": "Ullrich, Koelpin and Purdy",
-        "ToolTip": "Aperiam dolor quis ipsa velit velit non.",
+        "Id": 53,
+        "Name": "Simonis LLC",
+        "ToolTip": "Autem illo fugiat nobis.",
         "Deleted": false,
-        "Rank": 342,
-        "Type": "ratione",
-        "ColorBlock": 502,
-        "IconHint": "cumque",
+        "Rank": 527,
+        "Type": "fugiat",
+        "ColorBlock": 440,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "1996-09-05T03:24:52.2557133+02:00",
+        "LastChanged": "2006-01-27T13:38:18.0619133+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Sadye Koepp",
+        "ExtraInfo": "nihil",
+        "StyleHint": "eligendi",
+        "Hidden": true,
+        "FullName": "Prof. Brandon Chasity Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 489
+            "FieldLength": 264
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "error",
-    "Hidden": true,
-    "FullName": "Dr. Dakota Marcel Carter",
+    "ExtraInfo": "aut",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Miss Dallas Stokes III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldLength": 817
       }
     }
   }

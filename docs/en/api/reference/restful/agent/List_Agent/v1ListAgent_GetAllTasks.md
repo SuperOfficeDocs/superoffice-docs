@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -101,25 +101,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 204,
-    "Value": "libero",
+    "TaskListItemId": 268,
+    "Value": "officia",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "totam",
+    "Tooltip": "blanditiis",
     "Deleted": false,
-    "IntentId": 932,
-    "Rank": 638,
-    "IsDefaultAlldayEvent": true,
-    "IsDefaultFree": false,
-    "IsDefaultPublished": true,
+    "IntentId": 296,
+    "Rank": 948,
+    "IsDefaultAlldayEvent": false,
+    "IsDefaultFree": true,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 591
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   }

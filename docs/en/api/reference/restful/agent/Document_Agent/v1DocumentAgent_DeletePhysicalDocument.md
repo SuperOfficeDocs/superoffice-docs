@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 545,
+  "DocumentId": 657,
   "AllowedReturnType": [
-    "veritatis",
-    "vitae"
+    "quis",
+    "aut"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "corrupti",
-  "VersionId": "fuga",
+  "ExternalReference": "modi",
+  "VersionId": "tempore",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "expedita",
-  "AdditionalInfo": "nihil"
+  "Value": "harum",
+  "AdditionalInfo": "fugit"
 }
 ```

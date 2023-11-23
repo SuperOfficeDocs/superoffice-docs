@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 146,
-  "Name": "Murphy Group",
-  "Rank": 376,
-  "Tooltip": "quam",
+  "AssociateId": 418,
+  "Name": "Champlin LLC",
+  "Rank": 780,
+  "Tooltip": "earum",
   "LicenseOwners": [
     {
-      "Name": "Kunde LLC",
-      "Description": "Down-sized 6th generation framework",
+      "Name": "Jacobi, Casper and Leuschke",
+      "Description": "Balanced leading edge implementation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldType": "System.String",
+          "FieldLength": 778
         }
       }
     },
     {
-      "Name": "Kunde LLC",
-      "Description": "Down-sized 6th generation framework",
+      "Name": "Jacobi, Casper and Leuschke",
+      "Description": "Balanced leading edge implementation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldType": "System.String",
+          "FieldLength": 778
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "autem",
-      "Tooltip": "nisi",
-      "Id": 879,
-      "Rank": 302,
+      "Value": "pariatur",
+      "Tooltip": "voluptas",
+      "Id": 553,
+      "Rank": 821,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 412
+          "FieldLength": 976
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2022-07-03T03:24:48.5185139+02:00",
-  "Lastlogout": "2018-10-09T03:24:48.5185139+02:00",
-  "EjUserId": 414,
-  "RequestSignature": "ipsa",
+  "Deleted": false,
+  "Lastlogin": "2016-10-05T13:38:14.327173+02:00",
+  "Lastlogout": "2005-04-10T13:38:14.327173+02:00",
+  "EjUserId": 54,
+  "RequestSignature": "qui",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "autem",
-      "DisplayValue": "incidunt",
+      "Value": "ut",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 62
+          "FieldLength": 333
         }
       }
     },
     {
       "Type": null,
-      "Value": "autem",
-      "DisplayValue": "incidunt",
+      "Value": "ut",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 62
+          "FieldLength": 333
         }
       }
     }
   ],
-  "UserName": "Boyle-Metz",
+  "UserName": "Lind, Wiegand and Rutherford",
   "TicketCategories": [
     {
-      "Id": 589,
-      "Name": "Parisian, Skiles and Tromp",
-      "ToolTip": "Sunt voluptatem.",
-      "Deleted": true,
-      "Rank": 235,
-      "Type": "hic",
+      "Id": 937,
+      "Name": "Jacobson, Walter and Beer",
+      "ToolTip": "Numquam doloremque facilis accusantium molestias accusantium consequatur.",
+      "Deleted": false,
+      "Rank": 347,
+      "Type": "repellat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nesciunt",
-      "ColorBlock": 32,
-      "ExtraInfo": "et",
-      "StyleHint": "consequatur",
-      "FullName": "Felicita DuBuque",
+      "IconHint": "officia",
+      "ColorBlock": 696,
+      "ExtraInfo": "aut",
+      "StyleHint": "amet",
+      "FullName": "Zelda Steuber",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 689
         }
       }
     }
   ],
-  "NickName": "Kautzer, Hudson and Orn",
-  "WaitingForApproval": false,
+  "NickName": "Hansen Group",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "et"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "excepturi"
+    "CustomFields1": "est",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Heidenreich Inc and Sons",
-      "DisplayName": "Nader, Beatty and Nikolaus",
-      "Description": "Customizable global alliance",
-      "ToolTip": "Ex eos.",
+      "Name": "Tremblay Group",
+      "DisplayName": "Stiedemann Inc and Sons",
+      "Description": "Function-based background hardware",
+      "ToolTip": "Nobis doloribus sit sed a.",
       "Actions": "Implicit",
-      "ActionData": "consequatur",
+      "ActionData": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 311
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldType": "System.Int32",
+      "FieldLength": 885
     }
   }
 }

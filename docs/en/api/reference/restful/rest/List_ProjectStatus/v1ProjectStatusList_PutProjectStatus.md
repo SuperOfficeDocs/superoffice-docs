@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 51,
-  "Name": "Klocko, Haag and Wilkinson",
-  "Tooltip": "fuga",
-  "Deleted": false,
-  "UdListDefinitionId": 558,
-  "Rank": 709
+  "Id": 876,
+  "Name": "Buckridge Inc and Sons",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "UdListDefinitionId": 720,
+  "Rank": 424
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "Name": "Jast-Friesen",
-  "Tooltip": "voluptas",
+  "Id": 319,
+  "Name": "Nicolas Group",
+  "Tooltip": "alias",
   "Deleted": false,
-  "UdListDefinitionId": 61,
-  "Rank": 443,
+  "UdListDefinitionId": 909,
+  "Rank": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldLength": 29
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 866,
-  "Name": "Wiza-Collins",
-  "Tooltip": "necessitatibus",
+  "Id": 874,
+  "Name": "Trantow LLC",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "Rank": 129,
+  "Rank": 36,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "assumenda",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 423
+      "FieldLength": 911
     }
   },
   "_Links": {

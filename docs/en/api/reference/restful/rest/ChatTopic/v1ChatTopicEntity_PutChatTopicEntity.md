@@ -139,41 +139,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 865,
-  "Name": "Roob Group",
-  "Description": "Distributed responsive approach",
-  "WelcomeMessage": "velit",
+  "ChatTopicId": 785,
+  "Name": "Klocko Group",
+  "Description": "Multi-lateral bandwidth-monitored paradigm",
+  "WelcomeMessage": "molestias",
   "Language": null,
-  "LastAccept": "2014-11-18T03:24:51.4429545+01:00",
-  "SecondsPrAccept": 48,
-  "AlertRecipient": "similique",
+  "LastAccept": "2008-12-21T13:38:17.1868579+01:00",
+  "SecondsPrAccept": 189,
+  "AlertRecipient": "omnis",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "enim",
+  "CollectConsent": false,
+  "BadgeHeader": "repudiandae",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "doloribus",
-  "WarnNewChatMinutes": 916,
-  "WarnManagerNewChatMinutes": 674,
-  "TicketEnabled": false,
+  "CustomQueueText": "nam",
+  "WarnNewChatMinutes": 301,
+  "WarnManagerNewChatMinutes": 295,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 451,
-  "WarnManagerChatMessageMinutes": 503,
+  "WarnChatMessageMinutes": 222,
+  "WarnManagerChatMessageMinutes": 8,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 308,
-  "OfflineFormQueueLength": 611,
+  "OfflineFormTimeLimit": 260,
+  "OfflineFormQueueLength": 4,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quibusdam"
+  "WidgetRatingText": "voluptas"
 }
 ```
 
@@ -184,22 +184,22 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 641,
-  "Name": "Bailey Group",
-  "Description": "User-friendly grid-enabled parallelism",
-  "WelcomeMessage": "commodi",
+  "ChatTopicId": 388,
+  "Name": "Lockman, Pollich and Cruickshank",
+  "Description": "Progressive value-added internet solution",
+  "WelcomeMessage": "esse",
   "Language": null,
-  "LastAccept": "2020-11-09T03:24:51.4429545+01:00",
-  "SecondsPrAccept": 572,
-  "AlertRecipient": "deleniti",
+  "LastAccept": "1998-01-18T13:38:17.1868579+01:00",
+  "SecondsPrAccept": 301,
+  "AlertRecipient": "dolor",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "ipsa",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "autem",
-  "WarnNewChatMinutes": 654,
-  "WarnManagerNewChatMinutes": 816,
-  "TicketEnabled": true,
+  "CollectConsent": true,
+  "BadgeHeader": "repellendus",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "est",
+  "WarnNewChatMinutes": 124,
+  "WarnManagerNewChatMinutes": 265,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -207,20 +207,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 631,
-  "WarnManagerChatMessageMinutes": 859,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 566,
+  "WarnManagerChatMessageMinutes": 435,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 972,
-  "OfflineFormQueueLength": 576,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "sed",
+  "OfflineFormTimeLimit": 437,
+  "OfflineFormQueueLength": 121,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldType": "System.Int32",
+      "FieldLength": 438
     }
   },
   "_Links": {

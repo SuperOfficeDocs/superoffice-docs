@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 746,
-    "Name": "Sanford, Kiehn and Howe",
-    "HtmlBody": "maxime",
+    "QuickReplyId": 325,
+    "Name": "Greenfelder-Effertz",
+    "HtmlBody": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldType": "System.String",
+        "FieldLength": 88
       }
     }
   },
   {
-    "QuickReplyId": 746,
-    "Name": "Sanford, Kiehn and Howe",
-    "HtmlBody": "maxime",
+    "QuickReplyId": 325,
+    "Name": "Greenfelder-Effertz",
+    "HtmlBody": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldType": "System.String",
+        "FieldLength": 88
       }
     }
   }

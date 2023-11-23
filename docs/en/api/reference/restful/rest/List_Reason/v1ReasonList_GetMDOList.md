@@ -26,8 +26,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=vel
+GET /api/v1/List/Reason/MDOItems?flat=True
+GET /api/v1/List/Reason/MDOItems?query=hic
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Gottlieb, Treutel and Kuhlman",
-    "ToolTip": "Iste in enim pariatur repudiandae.",
+    "Id": 447,
+    "Name": "Medhurst-Marks",
+    "ToolTip": "Porro vitae quibusdam.",
     "Deleted": true,
-    "Rank": 811,
-    "Type": "qui",
+    "Rank": 244,
+    "Type": "laboriosam",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Reinger, Murazik and Berge",
-        "ToolTip": "Nam asperiores earum tempora et.",
+        "Id": 67,
+        "Name": "Dickens Inc and Sons",
+        "ToolTip": "Et debitis est sint magnam accusamus impedit id.",
         "Deleted": true,
-        "Rank": 748,
-        "Type": "et",
+        "Rank": 778,
+        "Type": "tempore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tenetur",
-        "ColorBlock": 793,
-        "ExtraInfo": "ad",
-        "StyleHint": "et",
-        "FullName": "Zola Reichert",
+        "IconHint": "quia",
+        "ColorBlock": 867,
+        "ExtraInfo": "provident",
+        "StyleHint": "in",
+        "FullName": "Mathilde Graham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 315
+            "FieldLength": 465
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 202,
-    "ExtraInfo": "nulla",
-    "StyleHint": "unde",
-    "FullName": "Elias Hirthe Jr.",
+    "IconHint": "nihil",
+    "ColorBlock": 977,
+    "ExtraInfo": "iure",
+    "StyleHint": "assumenda",
+    "FullName": "Soledad Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 172
       }
     }
   }

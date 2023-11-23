@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quis",
+  "RawValue": "ut",
   "Specification": null,
-  "DisplayValue": "laborum",
-  "DisplayTooltip": "officia",
+  "DisplayValue": "sed",
+  "DisplayTooltip": "est",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 865,
-  "PrefDescId": 220,
-  "TableName": "Goyette Inc and Sons",
-  "UserPreferenceId": 568
+  "TargetId": 959,
+  "PrefDescId": 354,
+  "TableName": "Leffler Group",
+  "UserPreferenceId": 939
 }
 ```
 

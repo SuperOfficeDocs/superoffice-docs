@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 341,
-    "Name": "Mosciski-Hintz",
-    "Tooltip": "vel",
+    "HeadingId": 642,
+    "Name": "Block Inc and Sons",
+    "Tooltip": "blanditiis",
     "Deleted": true,
-    "Rank": 494,
-    "UdListDefinitionId": 650,
+    "Rank": 234,
+    "UdListDefinitionId": 444,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 357
       }
     }
   }

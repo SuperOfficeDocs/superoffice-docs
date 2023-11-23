@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Wolf LLC",
-    "ToolTip": "Quia laboriosam.",
+    "Id": 857,
+    "Name": "Cassin, Nader and Schmitt",
+    "ToolTip": "Tempore nobis repudiandae exercitationem excepturi.",
     "Deleted": true,
-    "Rank": 10,
-    "Type": "est",
-    "ColorBlock": 42,
-    "IconHint": "nemo",
-    "Selected": true,
-    "LastChanged": "2016-02-19T03:24:52.1775959+01:00",
+    "Rank": 941,
+    "Type": "amet",
+    "ColorBlock": 656,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2004-10-22T13:38:17.9213006+02:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Gleichner-Pagac",
-        "ToolTip": "Dolore expedita consequatur totam.",
+        "Id": 703,
+        "Name": "Schaden-Feeney",
+        "ToolTip": "Maiores esse et est architecto nam non voluptatem.",
         "Deleted": false,
-        "Rank": 201,
+        "Rank": 102,
         "Type": "qui",
-        "ColorBlock": 226,
-        "IconHint": "laboriosam",
-        "Selected": false,
-        "LastChanged": "2013-05-29T03:24:52.1775959+02:00",
+        "ColorBlock": 502,
+        "IconHint": "labore",
+        "Selected": true,
+        "LastChanged": "2008-10-15T13:38:17.9213006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "eaque",
-        "Hidden": true,
-        "FullName": "Eli Hilpert PhD"
+        "ExtraInfo": "unde",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Prof. Lizeth Carissa Hermann II"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "optio",
+    "ExtraInfo": "facere",
+    "StyleHint": "consequuntur",
     "Hidden": true,
-    "FullName": "Richie Langworth"
+    "FullName": "Prof. Rosemary Angus Walker DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Ledner Inc and Sons",
-    "ToolTip": "Quo libero quibusdam quam neque.",
+    "Id": 541,
+    "Name": "Gerlach LLC",
+    "ToolTip": "Autem qui placeat cupiditate.",
     "Deleted": false,
-    "Rank": 149,
-    "Type": "omnis",
-    "ColorBlock": 273,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2000-02-02T03:24:52.1775959+01:00",
+    "Rank": 659,
+    "Type": "tempora",
+    "ColorBlock": 50,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2004-06-26T13:38:17.9213006+02:00",
     "ChildItems": [
       {
-        "Id": 691,
-        "Name": "Kulas, Kessler and Von",
-        "ToolTip": "Sint maxime nulla labore inventore rerum quo.",
+        "Id": 344,
+        "Name": "Cartwright LLC",
+        "ToolTip": "Labore esse itaque dolor quis eligendi.",
         "Deleted": true,
-        "Rank": 189,
-        "Type": "vitae",
-        "ColorBlock": 21,
-        "IconHint": "consequatur",
+        "Rank": 40,
+        "Type": "et",
+        "ColorBlock": 364,
+        "IconHint": "iste",
         "Selected": false,
-        "LastChanged": "2012-01-18T03:24:52.1775959+01:00",
+        "LastChanged": "2001-03-16T13:38:17.9213006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "nulla",
+        "StyleHint": "itaque",
         "Hidden": true,
-        "FullName": "Tia Hirthe",
+        "FullName": "Mrs. Keagan Roderick Larkin I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 822
+            "FieldLength": 944
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "facilis",
+    "ExtraInfo": "debitis",
+    "StyleHint": "distinctio",
     "Hidden": true,
-    "FullName": "Christian Barrows",
+    "FullName": "Emmanuel Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 262
       }
     }
   }

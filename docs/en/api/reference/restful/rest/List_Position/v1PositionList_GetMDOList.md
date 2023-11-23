@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=cumque
+GET /api/v1/List/Position/MDOItems?query=quis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Wiegand, Pacocha and Blick",
-    "ToolTip": "Placeat temporibus temporibus.",
+    "Id": 637,
+    "Name": "Medhurst Inc and Sons",
+    "ToolTip": "Rerum praesentium omnis.",
     "Deleted": false,
-    "Rank": 711,
-    "Type": "qui",
+    "Rank": 424,
+    "Type": "quos",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Marks, Howell and Lehner",
-        "ToolTip": "Excepturi sed.",
+        "Id": 249,
+        "Name": "Skiles LLC",
+        "ToolTip": "Sed rem facilis.",
         "Deleted": false,
-        "Rank": 66,
-        "Type": "tenetur",
+        "Rank": 193,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 51,
-        "ExtraInfo": "quia",
-        "StyleHint": "illo",
-        "FullName": "Darrell Daniel",
+        "IconHint": "quaerat",
+        "ColorBlock": 305,
+        "ExtraInfo": "ullam",
+        "StyleHint": "sequi",
+        "FullName": "Mrs. Fannie Fredrick Buckridge I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 888
+            "FieldLength": 904
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 327,
-    "ExtraInfo": "corporis",
-    "StyleHint": "dicta",
-    "FullName": "Ms. Ed Kemmer IV",
+    "IconHint": "et",
+    "ColorBlock": 855,
+    "ExtraInfo": "nam",
+    "StyleHint": "delectus",
+    "FullName": "Edison Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldType": "System.String",
+        "FieldLength": 95
       }
     }
   }

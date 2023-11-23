@@ -26,8 +26,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=eos
+GET /api/v1/List/ProductCategory/MDOItems?flat=True
+GET /api/v1/List/ProductCategory/MDOItems?query=reprehenderit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 222,
-    "Name": "Farrell, Bode and Leannon",
-    "ToolTip": "Magnam repellendus quibusdam ut.",
-    "Deleted": false,
-    "Rank": 69,
-    "Type": "voluptatem",
+    "Id": 276,
+    "Name": "Feil Group",
+    "ToolTip": "Corporis non delectus ut.",
+    "Deleted": true,
+    "Rank": 93,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 946,
-        "Name": "Reynolds-Botsford",
-        "ToolTip": "Voluptas inventore repellat neque qui assumenda.",
-        "Deleted": true,
-        "Rank": 864,
-        "Type": "repellendus",
+        "Id": 310,
+        "Name": "Kohler, Lesch and Conn",
+        "ToolTip": "Eum earum suscipit.",
+        "Deleted": false,
+        "Rank": 489,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 78,
-        "ExtraInfo": "iste",
-        "StyleHint": "consequatur",
-        "FullName": "Dion Thiel",
+        "IconHint": "nam",
+        "ColorBlock": 707,
+        "ExtraInfo": "temporibus",
+        "StyleHint": "delectus",
+        "FullName": "Mrs. Alexandria Michele Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 529
+            "FieldType": "System.String",
+            "FieldLength": 870
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 967,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "aut",
-    "FullName": "April Jacobson",
+    "IconHint": "voluptatum",
+    "ColorBlock": 792,
+    "ExtraInfo": "nihil",
+    "StyleHint": "dicta",
+    "FullName": "Herbert Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 49
+        "FieldType": "System.Int32",
+        "FieldLength": 613
       }
     }
   }

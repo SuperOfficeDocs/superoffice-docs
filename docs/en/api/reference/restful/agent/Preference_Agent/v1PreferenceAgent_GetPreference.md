@@ -87,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 207
+  "Id": 884
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "officiis",
+  "RawValue": "omnis",
   "Specification": null,
-  "DisplayValue": "officiis",
-  "DisplayTooltip": "placeat",
+  "DisplayValue": "sunt",
+  "DisplayTooltip": "quae",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 925,
-  "PrefDescId": 648,
-  "TableName": "Abbott, Lind and Smith",
-  "UserPreferenceId": 165,
+  "TargetId": 396,
+  "PrefDescId": 100,
+  "TableName": "Watsica-Zulauf",
+  "UserPreferenceId": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 497
     }
   }
 }

@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 899,
-  "ColumnId": 439,
-  "FieldDefault": "impedit",
-  "FieldHeight": 858,
-  "FieldLabel": "nihil",
-  "FieldLeft": 700,
-  "FieldTop": 522,
+  "UDefFieldId": 633,
+  "ColumnId": 614,
+  "FieldDefault": "ratione",
+  "FieldHeight": 729,
+  "FieldLabel": "sed",
+  "FieldLeft": 676,
+  "FieldTop": 954,
   "FieldType": "Checkbox",
-  "FieldWidth": 231,
-  "FormatMask": "totam",
+  "FieldWidth": 920,
+  "FormatMask": "eum",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 68,
-  "LabelLeft": 644,
-  "LabelTop": 985,
-  "LabelWidth": 650,
-  "LastVersionId": 659,
-  "ListTableId": 464,
+  "IsIndexed": true,
+  "LabelHeight": 782,
+  "LabelLeft": 930,
+  "LabelTop": 157,
+  "LabelWidth": 360,
+  "LastVersionId": 671,
+  "ListTableId": 566,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 68,
-  "ProgId": "ut",
+  "Page1LineNo": 527,
+  "ProgId": "minima",
   "IsReadOnly": true,
-  "ShortLabel": "quis",
-  "TabOrder": 827,
-  "TextLength": 874,
-  "Tooltip": "delectus",
-  "UdefIdentity": 752,
-  "UDListDefinitionId": 239,
+  "ShortLabel": "iusto",
+  "TabOrder": 316,
+  "TextLength": 833,
+  "Tooltip": "eligendi",
+  "UdefIdentity": 911,
+  "UDListDefinitionId": 451,
   "Justification": "Center",
-  "Version": 955,
-  "TemplateVariableName": "O'Kon-Bogisich",
+  "Version": 341,
+  "TemplateVariableName": "Halvorson LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Dietrich Group",
+  "MdoListName": "Pollich-Hodkiewicz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 688
     }
   }
 }

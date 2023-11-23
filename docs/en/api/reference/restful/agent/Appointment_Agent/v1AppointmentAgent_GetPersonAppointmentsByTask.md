@@ -119,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -131,16 +132,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 446,
+  "PersonId": 622,
   "IncludeProjectAppointments": true,
-  "StartTime": "1999-01-14T03:24:46.9394467+01:00",
-  "EndTime": "2019-12-09T03:24:46.9394467+01:00",
-  "Count": 488,
-  "TaskId": 795
+  "StartTime": "2006-01-30T13:38:12.8428246+01:00",
+  "EndTime": "2003-07-16T13:38:12.8428246+02:00",
+  "Count": 722,
+  "TaskId": 241
 }
 ```
 
@@ -152,64 +153,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 905,
-    "StartDate": "2019-09-03T03:24:46.9394467+02:00",
-    "EndDate": "2002-03-08T03:24:46.9394467+01:00",
+    "AppointmentId": 648,
+    "StartDate": "1997-04-29T13:38:12.8428246+02:00",
+    "EndDate": "1997-07-30T13:38:12.8428246+02:00",
     "Type": "BookingForChecklist",
-    "Task": "possimus",
-    "AssociateFullName": "Tristin Stehr",
-    "ContactName": "Farrell-Schultz",
-    "Description": "Stand-alone attitude-oriented alliance",
-    "PersonFullName": "Caden Bruen",
-    "PersonId": 241,
-    "ContactId": 602,
-    "ProjectId": 563,
-    "ProjectName": "Schinner-Wuckert",
-    "IsPublished": false,
-    "AssociateId": 675,
-    "ColorIndex": 563,
+    "Task": "sed",
+    "AssociateFullName": "Kira Conn",
+    "ContactName": "Lubowitz Group",
+    "Description": "Robust non-volatile product",
+    "PersonFullName": "Miss Brendan Jose Marks MD",
+    "PersonId": 513,
+    "ContactId": 511,
+    "ProjectId": 870,
+    "ProjectName": "Flatley, Collins and Barrows",
+    "IsPublished": true,
+    "AssociateId": 782,
+    "ColorIndex": 889,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 888,
-    "PriorityName": "Wilkinson, Kirlin and Hackett",
+    "PriorityId": 579,
+    "PriorityName": "Pfeffer Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "1996-06-29T03:24:46.9394467+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2016-07-11T13:38:12.8428246+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-12-02T03:24:46.9394467+01:00",
-    "RecurringEndDate": "2013-07-13T03:24:46.9394467+02:00",
-    "MotherId": 260,
-    "AssignedBy": 739,
-    "AssignedByFullName": "Baylee Ruecker",
+    "RecurringStartDate": "2011-07-06T13:38:12.8428246+02:00",
+    "RecurringEndDate": "2017-07-21T13:38:12.8428246+02:00",
+    "MotherId": 344,
+    "AssignedBy": 523,
+    "AssignedByFullName": "Leonie Gerhold",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "veritatis",
-    "SaleId": 889,
-    "SaleName": "Bernier-Powlowski",
-    "AssociateName": "Franecki Inc and Sons",
-    "CreatedDate": "2011-10-14T03:24:46.9394467+02:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Dr. Catalina Koch DVM",
-    "CreatedByAssociateId": 408,
+    "Location": "vitae",
+    "AlarmLeadTime": "a",
+    "SaleId": 229,
+    "SaleName": "Marquardt-Purdy",
+    "AssociateName": "Cole Inc and Sons",
+    "CreatedDate": "2010-01-25T13:38:12.8428246+01:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Joesph Macejkovic",
+    "CreatedByAssociateId": 483,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "quaerat",
-    "Agenda": "repellat",
-    "InternalNotes": "eos",
+    "PreferredTZLocation": 55,
+    "Title": "accusantium",
+    "Agenda": "ea",
+    "InternalNotes": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 523
+        "FieldType": "System.Int32",
+        "FieldLength": 283
       }
     }
   }

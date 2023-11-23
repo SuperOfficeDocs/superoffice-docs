@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 893,
-  "PersonName": "Sipes, Nitzsche and Fritsch",
+  "ContactId": 659,
+  "PersonName": "Abernathy-Rohan",
   "PhoneNumbers": [
-    "469385",
-    "1275214"
+    "711647",
+    "1010723"
   ],
   "Emails": [
-    "santos.kohler@corkery.ca",
-    "brenna@cummerata.biz"
+    "amos@block.com",
+    "lilliana@erdmanroob.name"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 851
     }
   }
 }

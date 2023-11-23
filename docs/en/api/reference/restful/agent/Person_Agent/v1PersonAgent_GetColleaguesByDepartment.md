@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 133
+  "DepartmentId": 241
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "sit",
-    "PersonId": 626,
-    "Mrmrs": "praesentium",
-    "Firstname": "Zula",
-    "Lastname": "Abernathy",
-    "MiddleName": "O'Keefe-O'Hara",
-    "Title": "quod",
-    "Description": "Face to face tertiary solution",
-    "Email": "kennith@simonis.co.uk",
-    "FullName": "Ida Larkin",
-    "DirectPhone": "1-387-654-8805",
-    "FormalName": "Bayer-Greenfelder",
-    "CountryId": 581,
-    "ContactId": 482,
-    "ContactName": "Leannon-Dickinson",
-    "Retired": 292,
-    "Rank": 337,
-    "ActiveInterests": 957,
+    "Position": "dolore",
+    "PersonId": 334,
+    "Mrmrs": "repudiandae",
+    "Firstname": "Asia",
+    "Lastname": "Leuschke",
+    "MiddleName": "Hills-Hamill",
+    "Title": "perferendis",
+    "Description": "Automated static orchestration",
+    "Email": "xander@erdman.biz",
+    "FullName": "Ms. Murl Titus Ritchie",
+    "DirectPhone": "1-922-095-4630",
+    "FormalName": "Heller Group",
+    "CountryId": 896,
+    "ContactId": 616,
+    "ContactName": "Herzog, Hamill and Shanahan",
+    "Retired": 585,
+    "Rank": 501,
+    "ActiveInterests": 285,
     "ContactDepartment": "",
-    "ContactCountryId": 155,
-    "ContactOrgNr": "1480942",
-    "FaxPhone": "997-688-2082 x370",
-    "MobilePhone": "478.282.5416 x99533",
-    "ContactPhone": "343-547-3086 x489",
-    "AssociateName": "Champlin-Price",
-    "AssociateId": 177,
+    "ContactCountryId": 229,
+    "ContactOrgNr": "850947",
+    "FaxPhone": "516.353.4735 x328",
+    "MobilePhone": "(649)965-4358",
+    "ContactPhone": "(245)931-3292",
+    "AssociateName": "Stanton-Hintz",
+    "AssociateId": 1000,
     "UsePersonAddress": false,
-    "ContactFax": "vitae",
-    "Kanafname": "ut",
-    "Kanalname": "rem",
-    "Post1": "atque",
-    "Post2": "et",
-    "Post3": "eos",
-    "EmailName": "howell@kohler.uk",
-    "ContactFullName": "Napoleon Parker",
-    "ActiveErpLinks": 519,
-    "TicketPriorityId": 952,
-    "SupportLanguageId": 467,
-    "SupportAssociateId": 908,
+    "ContactFax": "corrupti",
+    "Kanafname": "est",
+    "Kanalname": "minima",
+    "Post1": "dolor",
+    "Post2": "nam",
+    "Post3": "qui",
+    "EmailName": "alice@cassinhills.name",
+    "ContactFullName": "Ms. Miller Schultz",
+    "ActiveErpLinks": 290,
+    "TicketPriorityId": 924,
+    "SupportLanguageId": 802,
+    "SupportAssociateId": 733,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 327
       }
     }
   }

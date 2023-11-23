@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 30,
-  "Name": "Kuhlman, Cummings and Effertz",
-  "Tooltip": "provident",
-  "Deleted": true,
-  "Rank": 951,
-  "UdListDefinitionId": 88
+  "HeadingId": 334,
+  "Name": "Mosciski, Farrell and Daugherty",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 945,
+  "UdListDefinitionId": 65
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 655,
-  "Name": "Kris Group",
-  "Tooltip": "qui",
+  "HeadingId": 215,
+  "Name": "Johns Group",
+  "Tooltip": "unde",
   "Deleted": false,
-  "Rank": 665,
-  "UdListDefinitionId": 686,
+  "Rank": 355,
+  "UdListDefinitionId": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 478
     }
   }
 }

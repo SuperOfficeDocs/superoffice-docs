@@ -250,6 +250,7 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [GetWebPanelEntity](GetWebPanelEntity.md)
 * [GetWebPanelList](GetWebPanelList.md)
 * [GlobalChangeTicketStatus](GlobalChangeTicketStatus.md)
+* [GlobalChangeTicketType](GlobalChangeTicketType.md)
 * [MoveAllTickets](MoveAllTickets.md)
 * [MoveListItem](MoveListItem.md)
 * [RebuildFullnames](RebuildFullnames.md)

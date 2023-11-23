@@ -28,7 +28,7 @@ Post the array of strings to get translations for all the strings.
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-POST /api/v1/String?isoLangCode=distinctio
+POST /api/v1/String?isoLangCode=iste
 POST /api/v1/String?ignoreOverrides=False
 ```
 

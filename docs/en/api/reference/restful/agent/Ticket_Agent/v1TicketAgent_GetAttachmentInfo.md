@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 930
+  "TicketMessageEntityId": 330
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 335,
-    "Name": "Ruecker Group",
-    "ContentType": "natus",
-    "AttSize": 887,
+    "AttachmentId": 906,
+    "Name": "Osinski-Shields",
+    "ContentType": "ad",
+    "AttSize": 917,
     "InlineImage": false,
-    "ContentId": "vel",
-    "AuthKey": "magni",
+    "ContentId": "nihil",
+    "AuthKey": "odio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 268
       }
     }
   }

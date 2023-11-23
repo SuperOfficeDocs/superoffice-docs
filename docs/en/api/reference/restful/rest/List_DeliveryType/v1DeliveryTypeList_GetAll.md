@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 442,
-    "Name": "Goodwin Inc and Sons",
-    "Tooltip": "quo",
+    "Id": 106,
+    "Name": "Carter-Gibson",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 140,
-    "Rank": 333,
+    "UdListDefinitionId": 303,
+    "Rank": 642,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldLength": 836
       }
     }
   }

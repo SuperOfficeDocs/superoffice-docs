@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "vel",
+    "path": "harum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vel",
+    "path": "harum",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 692,
-  "Name": "Strosin, Halvorson and Beier",
-  "Description": "Multi-tiered multimedia data-warehouse",
-  "WelcomeMessage": "consequuntur",
+  "ChatTopicId": 244,
+  "Name": "Hodkiewicz Group",
+  "Description": "Robust holistic instruction set",
+  "WelcomeMessage": "ex",
   "Language": null,
-  "LastAccept": "2012-08-04T03:24:51.4429545+02:00",
-  "SecondsPrAccept": 368,
-  "AlertRecipient": "totam",
+  "LastAccept": "2000-10-04T13:38:17.1868579+02:00",
+  "SecondsPrAccept": 365,
+  "AlertRecipient": "alias",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "labore",
+  "CollectConsent": true,
+  "BadgeHeader": "nam",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "dolor",
-  "WarnNewChatMinutes": 457,
-  "WarnManagerNewChatMinutes": 62,
+  "CustomQueueText": "qui",
+  "WarnNewChatMinutes": 784,
+  "WarnManagerNewChatMinutes": 1001,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 361,
-  "WarnManagerChatMessageMinutes": 404,
+  "WarnChatMessageMinutes": 85,
+  "WarnManagerChatMessageMinutes": 436,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 627,
-  "OfflineFormQueueLength": 992,
+  "OfflineFormTimeLimit": 565,
+  "OfflineFormQueueLength": 114,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "omnis",
+  "WidgetRatingText": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldLength": 620
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 220,
-    "Name": "Smitham Inc and Sons",
-    "Description": "Down-sized user-facing frame",
-    "DeltaJson": "voluptatem",
+    "ConfigurableScreenDeltaId": 593,
+    "Name": "Grant-Connelly",
+    "Description": "Up-sized optimal monitoring",
+    "DeltaJson": "voluptatum",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "quia",
-    "UpdatedDate": "2000-11-21T03:24:47.3614382+01:00",
-    "CreatedDate": "2001-04-02T03:24:47.3614382+02:00",
+    "RecipeId": "quidem",
+    "UpdatedDate": "2015-11-21T13:38:13.2646505+01:00",
+    "CreatedDate": "1997-07-23T13:38:13.2646505+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      317,
-      334
+      990,
+      502
     ],
-    "AppliesToKey": "et",
+    "AppliesToKey": "quidem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldType": "System.String",
+        "FieldLength": 388
       }
     }
   }

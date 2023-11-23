@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=False
+GET /api/v1/Appointment/{id}?fk=True
 ```
 
 
@@ -105,7 +105,8 @@ AppointmentEntity found.
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -141,132 +142,127 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 23 Dec 1996 03:24:51 G12T
+Last-Modified: Sun, 25 Oct 1998 13:38:17 G10T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-12-06T03:24:51.3180018+01:00",
-  "AppointmentId": 994,
-  "Description": "Vision-oriented regional attitude",
-  "StartDate": "2007-07-02T03:24:51.3180018+02:00",
-  "EndDate": "2005-12-31T03:24:51.3180018+01:00",
+  "CreatedDate": "2022-04-13T13:38:17.0618658+02:00",
+  "AppointmentId": 59,
+  "Description": "Exclusive demand-driven secured line",
+  "StartDate": "1996-11-16T13:38:17.0618658+01:00",
+  "EndDate": "2013-11-16T13:38:17.0618658+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 30,
+  "MotherId": 573,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1996-12-23T03:24:51.3180018+01:00",
+  "UpdatedDate": "1998-10-25T13:38:17.0618658+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 522,
+  "ActiveLinks": 147,
   "Links": [
     {
-      "EntityName": "Durgan Group",
-      "Id": 251,
-      "Description": "Synergistic interactive secured line",
-      "ExtraInfo": "id",
-      "LinkId": 86,
+      "EntityName": "Murphy, Bosco and Mayer",
+      "Id": 687,
+      "Description": "Extended empowering framework",
+      "ExtraInfo": "veritatis",
+      "LinkId": 555,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 430
+          "FieldLength": 886
         }
       }
     }
   ],
-  "AlarmLeadTime": "minus",
-  "HasAlarm": true,
-  "ColorIndex": 984,
+  "AlarmLeadTime": "perferendis",
+  "HasAlarm": false,
+  "ColorIndex": 488,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "et",
-  "LeadTime": "ipsa",
-  "Location": "illo",
-  "RejectCounter": 451,
+  "IsAlldayEvent": false,
+  "LagTime": "adipisci",
+  "LeadTime": "qui",
+  "Location": "quis",
+  "RejectCounter": 382,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 270,
-      "PersonId": 403,
-      "ContactId": 173,
-      "EmailId": 285,
+      "AssociateId": 673,
+      "PersonId": 765,
+      "ContactId": 616,
+      "EmailId": 607,
       "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 270,
-      "PersonId": 403,
-      "ContactId": 173,
-      "EmailId": 285,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "lavon@borer.biz",
+      "Description": "Object-based composite adapter"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-05-19T03:24:51.3180018+02:00",
+  "ActiveDate": "1999-06-09T13:38:17.0618658+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 840,
+  "PreferredTZLocation": 542,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 153,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 908,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quasi",
-  "Title": "accusamus",
-  "Agenda": "amet",
-  "InternalNotes": "sit",
+  "CentralserviceVideomeetId": "provident",
+  "Title": "id",
+  "Agenda": "voluptatem",
+  "InternalNotes": "dolorum",
   "UserDefinedFields": {
-    "SuperOffice:1": "137115827",
-    "SuperOffice:2": "1451572660"
+    "SuperOffice:1": "Daniella Renner",
+    "SuperOffice:2": "Lorine Angelo Bahringer II"
   },
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "id"
+    "CustomFields1": "id",
+    "CustomFields2": "magni"
   },
-  "PublishEventDate": "2010-03-12T03:24:51.3180018+01:00",
-  "PublishTo": "2019-08-09T03:24:51.3180018+02:00",
-  "PublishFrom": "2011-12-23T03:24:51.3180018+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1996-08-05T13:38:17.0618658+02:00",
+  "PublishTo": "2020-09-25T13:38:17.0618658+02:00",
+  "PublishFrom": "2023-07-22T13:38:17.0618658+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 115,
+      "VisibleId": 356,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldLength": 593
         }
       }
     },
     {
-      "VisibleId": 115,
+      "VisibleId": 356,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldLength": 593
         }
       }
     }
@@ -275,13 +271,13 @@ Last-Modified: Mon, 23 Dec 1996 03:24:51 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldType": "System.String",
+      "FieldLength": 112
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -83,10 +83,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 461,
+  "AssociateId": 961,
   "Type": "AnonymousAssociate",
-  "PersonId": 385,
-  "Password": "ut"
+  "PersonId": 837,
+  "Password": "nihil"
 }
 ```
 
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 648
     }
   }
 }

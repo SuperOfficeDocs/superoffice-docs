@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 969,
-    "Name": "Reinger Inc and Sons",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 642,
-    "UdListDefinitionId": 298,
+    "HeadingId": 305,
+    "Name": "Lowe-Schuster",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "Rank": 645,
+    "UdListDefinitionId": 742,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 584
+        "FieldType": "System.Int32",
+        "FieldLength": 516
       }
     }
   }

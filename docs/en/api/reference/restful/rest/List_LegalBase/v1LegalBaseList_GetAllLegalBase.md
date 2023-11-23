@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 270,
-    "Name": "Hermann-Walker",
-    "Tooltip": "quia",
-    "Rank": 47,
-    "Key": "omnis",
+    "LegalBaseId": 513,
+    "Name": "Hackett, Erdman and Hills",
+    "Tooltip": "voluptatem",
+    "Rank": 294,
+    "Key": "quis",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 255
       }
     }
   }

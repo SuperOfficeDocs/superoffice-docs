@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 773,
-  "Name": "Breitenberg, Hane and Kuphal",
-  "Tooltip": "adipisci",
-  "VisibleColumns": 815,
-  "Rank": 905,
-  "AssocId": 62,
+  "DiaryViewId": 193,
+  "Name": "Metz-Prosacco",
+  "Tooltip": "ipsa",
+  "VisibleColumns": 943,
+  "Rank": 91,
+  "AssocId": 452,
   "AssociateList": [
     {
-      "Id": 682,
-      "Name": "Sanford-Boyle",
-      "ToolTip": "Sunt sit animi dolor aut dolore.",
-      "Deleted": true,
-      "Rank": 809,
-      "Type": "provident",
-      "ColorBlock": 63,
-      "IconHint": "pariatur",
+      "Id": 129,
+      "Name": "Marquardt Group",
+      "ToolTip": "Dicta incidunt et ut omnis.",
+      "Deleted": false,
+      "Rank": 486,
+      "Type": "consequatur",
+      "ColorBlock": 245,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2011-05-12T03:24:47.3614382+02:00",
+      "LastChanged": "2007-05-29T13:38:13.2646505+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sunt",
-      "StyleHint": "est",
+      "ExtraInfo": "veniam",
+      "StyleHint": "nihil",
       "Hidden": false,
-      "FullName": "Minerva Kovacek",
+      "FullName": "Dedrick Lowe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 45
+          "FieldType": "System.Int32",
+          "FieldLength": 799
         }
       }
     }
   ],
-  "TzLocationId": 246,
+  "TzLocationId": 902,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 401
     }
   }
 }

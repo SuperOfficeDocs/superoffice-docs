@@ -84,8 +84,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 909,
-  "IncludeEmails": true
+  "DocumentPluginId": 912,
+  "IncludeEmails": false
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 872,
-  "NumDocumentsAlreadyMigrated": 715,
+  "NumDocumentsOmitted": 2,
+  "NumDocumentsAlreadyMigrated": 65,
   "Documents": [
     {
-      "DocumentId": 931,
-      "ContactId": 39,
-      "PersonId": 435,
-      "SaleId": 187,
-      "ProjectId": 886,
-      "DocTmplId": 720,
-      "AssociateId": 333,
-      "UserGroupId": 776,
-      "VisibleForId": 670
+      "DocumentId": 518,
+      "ContactId": 70,
+      "PersonId": 929,
+      "SaleId": 897,
+      "ProjectId": 914,
+      "DocTmplId": 780,
+      "AssociateId": 236,
+      "UserGroupId": 340,
+      "VisibleForId": 854
     }
   ],
   "Associates": [
     {
-      "AssociateId": 794,
-      "EmailAddress": "carmel.runolfsson@brakusmuller.uk"
+      "AssociateId": 491,
+      "EmailAddress": "josefa_kovacek@hirtheklocko.uk"
     },
     {
-      "AssociateId": 794,
-      "EmailAddress": "carmel.runolfsson@brakusmuller.uk"
+      "AssociateId": 491,
+      "EmailAddress": "josefa_kovacek@hirtheklocko.uk"
     }
   ]
 }

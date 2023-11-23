@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 358,
-  "ERPQuoteAlternativeKey": "porro",
-  "QuoteVersionId": 840,
-  "Name": "Reynolds-Jaskolski",
-  "Description": "Cross-group discrete conglomeration",
+  "QuoteAlternativeId": 361,
+  "ERPQuoteAlternativeKey": "mollitia",
+  "QuoteVersionId": 446,
+  "Name": "Ryan-Rempel",
+  "Description": "Down-sized needs-based attitude",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 14485.348,
-  "ERPDiscountAmount": 21167.036,
-  "DiscountPercent": 20762.75,
-  "DiscountAmount": 23269.95,
+  "ERPDiscountPercent": 13006.1,
+  "ERPDiscountAmount": 10216.84,
+  "DiscountPercent": 7233.272,
+  "DiscountAmount": 12774.184,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptas",
-  "VAT": 9574.369999999999,
-  "EarningPercent": 567.254,
-  "EarningAmount": 29741.66,
-  "SubTotal": 10890.65,
-  "TotalPrice": 25930.716,
-  "ExtraField1": "vel",
-  "ExtraField2": "nihil",
-  "ExtraField3": "at",
-  "ExtraField4": "reiciendis",
-  "ExtraField5": "non",
+  "VATInfo": "iusto",
+  "VAT": 9470.948,
+  "EarningPercent": 15754.617999999999,
+  "EarningAmount": 28243.608,
+  "SubTotal": 20327.124,
+  "TotalPrice": 20847.368,
+  "ExtraField1": "minus",
+  "ExtraField2": "quaerat",
+  "ExtraField3": "odit",
+  "ExtraField4": "nobis",
+  "ExtraField5": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 856
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

@@ -92,23 +92,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 67,
-  "Name": "Erdman, Bernhard and Altenwerth",
-  "CreatedDate": "2021-05-25T03:24:51.6149823+02:00",
-  "UpdatedDate": "2002-08-26T03:24:51.6149823+02:00",
+  "ForeignAppId": 330,
+  "Name": "Weimann Group",
+  "CreatedDate": "2005-01-21T13:38:17.4368262+01:00",
+  "UpdatedDate": "2006-09-11T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 608,
-      "Name": "Kerluke Group",
-      "CreatedDate": "2009-02-08T03:24:51.6149823+01:00",
-      "UpdatedDate": "2002-03-13T03:24:51.6149823+01:00",
-      "AssociateFullName": "Trevion Barrows",
-      "CreatedBy": "dolores",
-      "UpdatedBy": "commodi",
-      "DeviceIdentifier": "quia",
-      "ForeignAppId": 54
+      "ForeignDeviceId": 595,
+      "Name": "Kub, Zboncak and Goodwin",
+      "CreatedDate": "1997-04-28T13:38:17.4368262+02:00",
+      "UpdatedDate": "1999-06-11T13:38:17.4368262+02:00",
+      "AssociateFullName": "Rae Ondricka",
+      "CreatedBy": "aut",
+      "UpdatedBy": "corporis",
+      "DeviceIdentifier": "eveniet",
+      "ForeignAppId": 890
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 664,
-  "Name": "Casper Group",
-  "CreatedDate": "2023-09-15T03:24:51.6149823+02:00",
-  "UpdatedDate": "2006-10-21T03:24:51.6149823+02:00",
+  "ForeignAppId": 575,
+  "Name": "McGlynn Group",
+  "CreatedDate": "2020-03-08T13:38:17.4368262+01:00",
+  "UpdatedDate": "2004-11-01T13:38:17.4368262+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 863,
-      "Name": "Roberts, Gleason and Lind",
-      "CreatedDate": "2009-07-17T03:24:51.6149823+02:00",
-      "UpdatedDate": "2000-01-04T03:24:51.6149823+01:00",
-      "AssociateFullName": "Jeffry Rolfson",
-      "CreatedBy": "aut",
-      "UpdatedBy": "ipsa",
-      "DeviceIdentifier": "unde",
-      "ForeignAppId": 639,
+      "ForeignDeviceId": 187,
+      "Name": "Hermiston Inc and Sons",
+      "CreatedDate": "2005-08-14T13:38:17.4368262+02:00",
+      "UpdatedDate": "2011-03-17T13:38:17.4368262+01:00",
+      "AssociateFullName": "Skylar Taurean Jerde III",
+      "CreatedBy": "sint",
+      "UpdatedBy": "aperiam",
+      "DeviceIdentifier": "aliquam",
+      "ForeignAppId": 847,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 329
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   },
   "_Links": {

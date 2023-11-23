@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 51,
-  "Name": "Okuneva-Bosco",
-  "CurrencyId": 307,
-  "EnglishName": "Dietrich, Barrows and Paucek",
+  "CountryId": 568,
+  "Name": "Heathcote Group",
+  "CurrencyId": 178,
+  "EnglishName": "Prohaska, Wehner and O'Reilly",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Inverse empowering initiative",
-  "OrgNrText": "865242",
-  "InterAreaPrefix": "expedita",
-  "DialInPrefix": "quasi",
-  "ZipPrefix": "aspernatur",
-  "DomainName": "Rogahn, Hagenes and Parker",
-  "AddressLayoutId": 866,
-  "DomesticAddressLayoutId": 336,
-  "ForeignAddressLayoutId": 105,
-  "Rank": 68,
-  "Tooltip": "omnis",
+  "ImageDescription": "Horizontal solution-oriented contingency",
+  "OrgNrText": "863131",
+  "InterAreaPrefix": "quisquam",
+  "DialInPrefix": "quis",
+  "ZipPrefix": "est",
+  "DomainName": "Douglas-Collins",
+  "AddressLayoutId": 102,
+  "DomesticAddressLayoutId": 247,
+  "ForeignAddressLayoutId": 469,
+  "Rank": 206,
+  "Tooltip": "ut",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 459,
-  "Name": "Miller, Hermann and Strosin",
-  "CurrencyId": 126,
-  "EnglishName": "Tremblay, Gulgowski and Moen",
+  "CountryId": 48,
+  "Name": "Feest Inc and Sons",
+  "CurrencyId": 641,
+  "EnglishName": "Bauch-Grimes",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Monitored asynchronous implementation",
-  "OrgNrText": "191311",
-  "InterAreaPrefix": "dolores",
-  "DialInPrefix": "sint",
-  "ZipPrefix": "quo",
-  "DomainName": "Reynolds Group",
-  "AddressLayoutId": 412,
-  "DomesticAddressLayoutId": 618,
-  "ForeignAddressLayoutId": 361,
-  "Rank": 561,
-  "Tooltip": "sed",
-  "Deleted": true,
+  "ImageDescription": "User-friendly 3rd generation productivity",
+  "OrgNrText": "462847",
+  "InterAreaPrefix": "molestiae",
+  "DialInPrefix": "qui",
+  "ZipPrefix": "ut",
+  "DomainName": "Trantow Inc and Sons",
+  "AddressLayoutId": 500,
+  "DomesticAddressLayoutId": 919,
+  "ForeignAddressLayoutId": 845,
+  "Rank": 47,
+  "Tooltip": "dolor",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldType": "System.String",
+      "FieldLength": 464
     }
   }
 }

@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 972,
-  "AppointmentId": 589,
-  "ProjectId": 706,
-  "SaleId": 60,
-  "Archived": false,
-  "ArchivedAt": "2021-10-24T03:24:47.7363985+02:00",
-  "ArchivedBy": 602,
-  "ArchivedDisplayName": "Orn LLC",
+  "DocumentId": 949,
+  "AppointmentId": 689,
+  "ProjectId": 37,
+  "SaleId": 896,
+  "Archived": true,
+  "ArchivedAt": "2018-12-25T13:38:13.5458695+01:00",
+  "ArchivedBy": 917,
+  "ArchivedDisplayName": "Spinka-Grant",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

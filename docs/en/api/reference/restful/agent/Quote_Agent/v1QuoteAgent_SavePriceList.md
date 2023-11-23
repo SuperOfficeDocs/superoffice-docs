@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 916,
-  "ERPPriceListKey": "reprehenderit",
-  "QuoteConnectionId": 416,
-  "Name": "Eichmann Inc and Sons",
-  "Description": "Multi-layered zero administration migration",
-  "Currency": "dolores",
-  "CurrencyName": "Walter Inc and Sons",
-  "ValidFrom": "2018-08-14T03:24:48.1269787+02:00",
-  "ValidTo": "2020-05-08T03:24:48.1269787+02:00",
-  "IsActive": true
+  "PriceListId": 205,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 100,
+  "Name": "Marvin, Wilkinson and Ullrich",
+  "Description": "Streamlined mission-critical product",
+  "Currency": "ipsa",
+  "CurrencyName": "Smitham Group",
+  "ValidFrom": "2014-03-28T13:38:14.0147081+01:00",
+  "ValidTo": "2012-03-25T13:38:14.0147081+02:00",
+  "IsActive": false
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 742,
-  "ERPPriceListKey": "fugiat",
-  "QuoteConnectionId": 314,
-  "Name": "Botsford, Lindgren and Dooley",
-  "Description": "De-engineered well-modulated internet solution",
-  "Currency": "ipsa",
-  "CurrencyName": "Koch Group",
-  "ValidFrom": "2002-06-22T03:24:48.1269787+02:00",
-  "ValidTo": "2000-05-03T03:24:48.1269787+02:00",
+  "PriceListId": 85,
+  "ERPPriceListKey": "ex",
+  "QuoteConnectionId": 394,
+  "Name": "Bradtke Inc and Sons",
+  "Description": "Inverse client-server analyzer",
+  "Currency": "tempore",
+  "CurrencyName": "Hauck Group",
+  "ValidFrom": "2006-03-19T13:38:14.0147081+01:00",
+  "ValidTo": "2009-05-26T13:38:14.0147081+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldType": "System.String",
+      "FieldLength": 394
     }
   }
 }

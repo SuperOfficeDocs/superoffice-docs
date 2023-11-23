@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 662,
-    "Name": "Hirthe Inc and Sons",
-    "Tooltip": "quaerat",
-    "Deleted": false,
-    "Rank": 602,
-    "UdListDefinitionId": 407,
+    "HeadingId": 491,
+    "Name": "Roob Inc and Sons",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 674,
+    "UdListDefinitionId": 200,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 327
+        "FieldType": "System.Int32",
+        "FieldLength": 13
       }
     }
   }

@@ -24,6 +24,7 @@ The name of the MDO list is 'person'.
 |Restrict results to person.| person_id|10|
 |Restrict results to project members.| project_id|15|
 |Restrict results to selection members.| selection_id|23|
+|Restrict results to sale stakeholders.| sale_id|32|
 
 
 

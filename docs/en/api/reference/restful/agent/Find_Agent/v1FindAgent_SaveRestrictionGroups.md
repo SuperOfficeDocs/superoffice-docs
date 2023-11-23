@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "doloremque",
-  "ProviderName": "Altenwerth, Kertzmann and Kshlerin",
-  "StorageKey": "accusantium",
+  "StorageType": "suscipit",
+  "ProviderName": "Kunde-Lemke",
+  "StorageKey": "placeat",
   "RestrictionGroups": [
     {
-      "Name": "Bins Inc and Sons",
-      "Description": "Future-proofed system-worthy Graphical User Interface",
-      "Rank": 941,
+      "Name": "Carter Inc and Sons",
+      "Description": "Organic eco-centric system engine",
+      "Rank": 414,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bins Inc and Sons",
-      "Description": "Future-proofed system-worthy Graphical User Interface",
-      "Rank": 941,
+      "Name": "Carter Inc and Sons",
+      "Description": "Organic eco-centric system engine",
+      "Rank": 414,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "officia"
+  "Context": "non"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grimes, Eichmann and Rath",
-    "Description": "Realigned stable product",
-    "Rank": 680,
+    "Name": "Nienow Group",
+    "Description": "Object-based background synergy",
+    "Rank": 105,
     "Restrictions": [
       {
-        "Name": "Koepp-Bernhard",
-        "Operator": "dolores",
+        "Name": "Paucek LLC",
+        "Operator": "rem",
         "Values": [
-          "vel",
-          "est"
+          "et",
+          "illum"
         ],
         "DisplayValues": [
-          "id",
-          "molestias"
+          "quisquam",
+          "asperiores"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 355,
+        "InterParenthesis": 991,
         "InterOperator": "And",
-        "UniqueHash": 444
+        "UniqueHash": 836
       }
     ]
   },
   {
-    "Name": "Grimes, Eichmann and Rath",
-    "Description": "Realigned stable product",
-    "Rank": 680,
+    "Name": "Nienow Group",
+    "Description": "Object-based background synergy",
+    "Rank": 105,
     "Restrictions": [
       {
-        "Name": "Koepp-Bernhard",
-        "Operator": "dolores",
+        "Name": "Paucek LLC",
+        "Operator": "rem",
         "Values": [
-          "vel",
-          "est"
+          "et",
+          "illum"
         ],
         "DisplayValues": [
-          "id",
-          "molestias"
+          "quisquam",
+          "asperiores"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 355,
+        "InterParenthesis": 991,
         "InterOperator": "And",
-        "UniqueHash": 444
+        "UniqueHash": 836
       }
     ]
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=distinctio
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=facere
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Emmerich, Gutmann and Pouros",
-    "ToolTip": "Perferendis perspiciatis consequatur placeat facilis.",
+    "Id": 621,
+    "Name": "Boyle, Bogisich and Strosin",
+    "ToolTip": "Rerum minus voluptatem quam veniam repudiandae accusamus.",
     "Deleted": false,
-    "Rank": 664,
-    "Type": "veniam",
+    "Rank": 71,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 934,
-        "Name": "Berge-Hegmann",
-        "ToolTip": "Qui provident sunt et quia sequi maxime at.",
+        "Id": 994,
+        "Name": "Ferry-Dach",
+        "ToolTip": "Sint numquam et commodi at.",
         "Deleted": false,
-        "Rank": 102,
-        "Type": "labore",
+        "Rank": 455,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facilis",
-        "ColorBlock": 491,
-        "ExtraInfo": "molestias",
-        "StyleHint": "et",
-        "FullName": "Patsy Turcotte",
+        "IconHint": "atque",
+        "ColorBlock": 719,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eaque",
+        "FullName": "Creola Conroy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 737
+            "FieldType": "System.String",
+            "FieldLength": 22
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 292,
-    "ExtraInfo": "distinctio",
-    "StyleHint": "excepturi",
-    "FullName": "Jordy Batz V",
+    "IconHint": "at",
+    "ColorBlock": 13,
+    "ExtraInfo": "velit",
+    "StyleHint": "culpa",
+    "FullName": "Ms. Trenton Hintz I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldType": "System.String",
+        "FieldLength": 582
       }
     }
   }

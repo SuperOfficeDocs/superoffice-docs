@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "perferendis",
+  "RawValue": "qui",
   "Specification": null,
-  "DisplayValue": "placeat",
-  "DisplayTooltip": "est",
+  "DisplayValue": "explicabo",
+  "DisplayTooltip": "quisquam",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 982,
-  "PrefDescId": 264,
-  "TableName": "Breitenberg-Bosco",
-  "UserPreferenceId": 125
+  "TargetId": 207,
+  "PrefDescId": 497,
+  "TableName": "Hane-Rosenbaum",
+  "UserPreferenceId": 186
 }
 ```
 

@@ -83,36 +83,36 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 45,
-  "Field": "autem",
-  "RecordId": 505,
+  "RefCountsId": 811,
+  "Field": "ut",
+  "RecordId": 892,
   "SuggestedRecords": [
     {
-      "Id": 740,
-      "Name": "Mayer, Stiedemann and Bashirian",
-      "ToolTip": "Odio et ut et quo ratione optio fugiat.",
+      "Id": 747,
+      "Name": "Ferry, Nader and Dach",
+      "ToolTip": "Accusantium magnam recusandae et et dolores eos illum.",
       "Deleted": false,
-      "Rank": 745,
-      "Type": "est",
+      "Rank": 821,
+      "Type": "soluta",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "velit",
-      "ColorBlock": 631,
-      "ExtraInfo": "deserunt",
-      "StyleHint": "vitae",
-      "FullName": "Thaddeus Cremin"
+      "IconHint": "nisi",
+      "ColorBlock": 376,
+      "ExtraInfo": "ut",
+      "StyleHint": "quod",
+      "FullName": "Ms. Eve Yadira Hartmann PhD"
     }
   ],
-  "CurrentValue": 278,
-  "TravelPrefix": 187,
-  "SatPrefix": 393,
-  "Allocate": true,
+  "CurrentValue": 272,
+  "TravelPrefix": 493,
+  "SatPrefix": 13,
+  "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 302,
-  "Field": "reprehenderit",
-  "RecordId": 864,
+  "RefCountsId": 202,
+  "Field": "sapiente",
+  "RecordId": 37,
   "SuggestedRecords": [
     {
-      "Id": 88,
-      "Name": "Wisozk-Schultz",
-      "ToolTip": "Nostrum voluptas et expedita veniam natus doloremque illum.",
-      "Deleted": false,
-      "Rank": 222,
-      "Type": "cum",
+      "Id": 198,
+      "Name": "Connelly-Hamill",
+      "ToolTip": "Omnis sint esse eaque a.",
+      "Deleted": true,
+      "Rank": 43,
+      "Type": "inventore",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 827,
-      "ExtraInfo": "omnis",
-      "StyleHint": "aspernatur",
-      "FullName": "Mrs. Chandler Kozey",
+      "IconHint": "aliquid",
+      "ColorBlock": 225,
+      "ExtraInfo": "dolores",
+      "StyleHint": "in",
+      "FullName": "Conner Howe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 891
+          "FieldLength": 175
         }
       }
     }
   ],
-  "CurrentValue": 289,
-  "TravelPrefix": 916,
-  "SatPrefix": 154,
+  "CurrentValue": 105,
+  "TravelPrefix": 396,
+  "SatPrefix": 699,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": false,
+  "ReadOnly": true,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldType": "System.String",
+      "FieldLength": 913
     }
   }
 }

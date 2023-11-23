@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 95,
-  "ERPProductKey": "facilis",
-  "ERPPriceListKey": "sed",
-  "Name": "Schultz, Wilderman and Treutel",
-  "Description": "Exclusive contextually-based policy",
-  "Code": "doloremque",
-  "PriceUnit": "ratione",
-  "QuantityUnit": "enim",
-  "IsSubscription": true,
-  "SubscriptionUnit": "nam",
-  "DefaultSubscriptionQuantity": 15663.732,
-  "ItemNumber": "857863",
+  "ProductId": 353,
+  "ERPProductKey": "porro",
+  "ERPPriceListKey": "provident",
+  "Name": "Bergstrom-Feeney",
+  "Description": "Devolved systematic parallelism",
+  "Code": "nihil",
+  "PriceUnit": "laudantium",
+  "QuantityUnit": "qui",
+  "IsSubscription": false,
+  "SubscriptionUnit": "fuga",
+  "DefaultSubscriptionQuantity": 24498.478,
+  "ItemNumber": "360922",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eos",
-  "ProductTypeKey": "qui",
-  "VAT": 4663.392,
-  "VATInfo": "voluptas",
-  "UnitCost": 15942.658,
-  "UnitMinimumPrice": 29816.876,
-  "UnitListPrice": 8305.1,
-  "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "facilis",
-  "Rights": "tempore",
-  "Rule": "sunt",
+  "ProductFamilyKey": "quae",
+  "ProductTypeKey": "esse",
+  "VAT": 1219.126,
+  "VATInfo": "tempore",
+  "UnitCost": 18017.365999999998,
+  "UnitMinimumPrice": 24028.378,
+  "UnitListPrice": 9605.71,
+  "InAssortment": false,
+  "Supplier": "cupiditate",
+  "SupplierCode": "possimus",
+  "Rights": "deleniti",
+  "Rule": "voluptatum",
   "ExtraInfo": [
     {
-      "Name": "Kautzer-Feil",
-      "Value": "et",
+      "Name": "Cummerata LLC",
+      "Value": "aliquid",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 684
         }
       }
     },
     {
-      "Name": "Kautzer-Feil",
-      "Value": "et",
+      "Name": "Cummerata LLC",
+      "Value": "aliquid",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 684
         }
       }
     }
   ],
-  "RawExtraInfo": "quae",
-  "ExtraField1": "ut",
-  "ExtraField2": "perspiciatis",
-  "ExtraField3": "consequatur",
-  "ExtraField4": "commodi",
-  "ExtraField5": "facilis",
-  "InStock": 1378.96,
+  "RawExtraInfo": "deserunt",
+  "ExtraField1": "quidem",
+  "ExtraField2": "illo",
+  "ExtraField3": "reprehenderit",
+  "ExtraField4": "quia",
+  "ExtraField5": "voluptates",
+  "InStock": 8941.302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 650
     }
   }
 }

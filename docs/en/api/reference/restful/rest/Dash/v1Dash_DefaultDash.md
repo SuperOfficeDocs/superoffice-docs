@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 587,
-  "UniqueId": "assumenda",
-  "Name": "Walker-Lubowitz",
-  "Description": "Progressive local monitoring",
-  "AssociateId": 267,
-  "Columns": 853,
+  "DashboardId": 172,
+  "UniqueId": "adipisci",
+  "Name": "Watsica, Predovic and Hamill",
+  "Description": "Grass-roots 4th generation leverage",
+  "AssociateId": 666,
+  "Columns": 806,
   "Theme": null,
-  "VisibleForAll": 511,
+  "VisibleForAll": 445,
   "VisibleForAssociates": [
-    356,
-    823
+    186,
+    495
   ],
   "VisibleForGroups": [
-    778,
-    702
+    26,
+    840
   ],
-  "PinForAll": 345,
+  "PinForAll": 493,
   "PinForAssociates": [
-    970,
-    326
+    369,
+    750
   ],
   "PinForGroups": [
-    892,
-    913
+    549,
+    341
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldType": "System.String",
+      "FieldLength": 740
     }
   }
 }

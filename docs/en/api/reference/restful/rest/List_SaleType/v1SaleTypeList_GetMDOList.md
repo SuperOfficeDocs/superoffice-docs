@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=et
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=velit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 447,
-    "Name": "Bechtelar-Gibson",
-    "ToolTip": "Quo libero quaerat magni.",
-    "Deleted": true,
-    "Rank": 482,
-    "Type": "sunt",
+    "Id": 443,
+    "Name": "Murray Group",
+    "ToolTip": "Nisi neque autem amet.",
+    "Deleted": false,
+    "Rank": 432,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Mann Inc and Sons",
-        "ToolTip": "Hic nobis.",
-        "Deleted": true,
-        "Rank": 740,
-        "Type": "sit",
+        "Id": 775,
+        "Name": "Jerde Group",
+        "ToolTip": "Veniam atque dolor.",
+        "Deleted": false,
+        "Rank": 208,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fuga",
-        "ColorBlock": 777,
-        "ExtraInfo": "numquam",
-        "StyleHint": "reprehenderit",
-        "FullName": "Dena Kutch",
+        "IconHint": "non",
+        "ColorBlock": 145,
+        "ExtraInfo": "possimus",
+        "StyleHint": "ut",
+        "FullName": "Alexandria Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 974
+            "FieldLength": 807
           }
         }
       }
     ],
-    "IconHint": "laborum",
-    "ColorBlock": 48,
-    "ExtraInfo": "iure",
-    "StyleHint": "ea",
-    "FullName": "Mr. King Harris III",
+    "IconHint": "aut",
+    "ColorBlock": 640,
+    "ExtraInfo": "atque",
+    "StyleHint": "non",
+    "FullName": "Woodrow Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 689
+        "FieldType": "System.Int32",
+        "FieldLength": 532
       }
     }
   }

@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 100
+  "ErpFieldId": 951
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 538,
-  "DefaultValue": "earum",
+  "ErpFieldId": 383,
+  "DefaultValue": "nesciunt",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "atque",
+  "FirstSyncDefaultValue": "incidunt",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "error",
+  "ErpFieldKey": "ea",
   "FieldType": "Checkbox",
-  "ListName": "Padberg Group",
+  "ListName": "Rempel Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 687
+      "FieldLength": 940
     }
   }
 }

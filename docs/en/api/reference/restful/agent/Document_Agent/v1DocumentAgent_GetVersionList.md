@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 466
+  "DocumentId": 175
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "veniam",
-    "DocumentId": 652,
-    "VersionId": "eum",
-    "CheckedInDate": "2005-08-16T03:24:47.6739096+02:00",
-    "CheckedInByName": "Graham Inc and Sons",
-    "CheckedInByAssociateId": 81,
-    "Description": "Fully-configurable foreground definition",
-    "DisplayText": "commodi",
+    "ExternalReference": "hic",
+    "DocumentId": 945,
+    "VersionId": "praesentium",
+    "CheckedInDate": "2008-05-07T13:38:13.4990023+02:00",
+    "CheckedInByName": "Macejkovic, Boehm and Ankunding",
+    "CheckedInByAssociateId": 249,
+    "Description": "Customizable contextually-based protocol",
+    "DisplayText": "minima",
     "ExtraFields": [
-      "reiciendis",
-      "nesciunt"
+      "ducimus",
+      "odit"
     ]
   }
 ]

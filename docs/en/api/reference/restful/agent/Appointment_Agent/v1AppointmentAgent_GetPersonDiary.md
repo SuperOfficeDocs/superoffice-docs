@@ -117,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -129,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 411,
-  "StartTime": "2020-06-13T03:24:47.2052134+02:00",
-  "EndTime": "2014-01-12T03:24:47.2052134+01:00",
-  "Count": 942
+  "PersonId": 162,
+  "StartTime": "2019-05-03T13:38:13.0459237+02:00",
+  "EndTime": "1996-09-28T13:38:13.0459237+02:00",
+  "Count": 605
 }
 ```
 
@@ -148,64 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 921,
-    "StartDate": "2004-12-19T03:24:47.2052134+01:00",
-    "EndDate": "2019-01-11T03:24:47.2052134+01:00",
+    "AppointmentId": 711,
+    "StartDate": "1998-01-30T13:38:13.0459237+01:00",
+    "EndDate": "2013-03-21T13:38:13.0459237+01:00",
     "Type": "BookingForChecklist",
-    "Task": "consectetur",
-    "AssociateFullName": "Robin Kerluke",
-    "ContactName": "Morissette, Mueller and Jewess",
-    "Description": "Upgradable transitional info-mediaries",
-    "PersonFullName": "Saige Roob",
-    "PersonId": 486,
-    "ContactId": 588,
-    "ProjectId": 992,
-    "ProjectName": "Emard-West",
-    "IsPublished": false,
-    "AssociateId": 903,
-    "ColorIndex": 985,
+    "Task": "neque",
+    "AssociateFullName": "Damion Nyasia Gibson DVM",
+    "ContactName": "Rosenbaum-Olson",
+    "Description": "Centralized neutral data-warehouse",
+    "PersonFullName": "Eleonore King DVM",
+    "PersonId": 223,
+    "ContactId": 611,
+    "ProjectId": 204,
+    "ProjectName": "Monahan-Gaylord",
+    "IsPublished": true,
+    "AssociateId": 127,
+    "ColorIndex": 393,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 857,
-    "PriorityName": "Cremin-Crist",
+    "PriorityId": 441,
+    "PriorityName": "Pollich, Kulas and Schoen",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2000-07-10T03:24:47.220828+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2016-08-18T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-04-23T03:24:47.220828+02:00",
-    "RecurringEndDate": "2009-11-29T03:24:47.220828+01:00",
-    "MotherId": 990,
-    "AssignedBy": 947,
-    "AssignedByFullName": "Erik Morissette",
+    "RecurringStartDate": "2001-08-01T13:38:13.0459237+02:00",
+    "RecurringEndDate": "2002-01-19T13:38:13.0459237+01:00",
+    "MotherId": 438,
+    "AssignedBy": 507,
+    "AssignedByFullName": "Dr. Kelsi Ortiz",
     "RejectReason": "",
-    "Location": "quisquam",
-    "AlarmLeadTime": "debitis",
-    "SaleId": 310,
-    "SaleName": "Ritchie-Mueller",
-    "AssociateName": "Swaniawski-O'Keefe",
-    "CreatedDate": "2011-05-08T03:24:47.220828+02:00",
-    "CreatedBy": "dolorem",
-    "CreatedByFullName": "Mr. Jaron Dejuan Osinski",
-    "CreatedByAssociateId": 552,
+    "Location": "dolor",
+    "AlarmLeadTime": "quas",
+    "SaleId": 672,
+    "SaleName": "Keebler-Bashirian",
+    "AssociateName": "Denesik, Weber and Hilll",
+    "CreatedDate": "2002-11-29T13:38:13.0459237+01:00",
+    "CreatedBy": "perferendis",
+    "CreatedByFullName": "Bessie Corwin",
+    "CreatedByAssociateId": 167,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "qui",
-    "Agenda": "officiis",
-    "InternalNotes": "nesciunt",
+    "PreferredTZLocation": 661,
+    "Title": "quia",
+    "Agenda": "et",
+    "InternalNotes": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 639
       }
     }
   }

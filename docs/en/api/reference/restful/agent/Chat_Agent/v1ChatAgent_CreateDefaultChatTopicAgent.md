@@ -70,11 +70,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 621,
+  "TopicId": 862,
   "User": null,
-  "CanListen": false,
-  "CanRespond": true,
-  "CanManage": false,
+  "CanListen": true,
+  "CanRespond": false,
+  "CanManage": true,
   "CanNotify": false
 }
 ```

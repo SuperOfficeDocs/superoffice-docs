@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 517,
-  "Currency": "non"
+  "QuoteConnectionId": 814,
+  "Currency": "odit"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 454,
-    "ERPPriceListKey": "voluptate",
-    "QuoteConnectionId": 303,
-    "Name": "Kihn, Jerde and Schuster",
-    "Description": "Adaptive foreground circuit",
-    "Currency": "excepturi",
-    "CurrencyName": "Lynch-Casper",
-    "ValidFrom": "2014-12-06T03:24:48.1426062+01:00",
-    "ValidTo": "2023-09-10T03:24:48.1426062+02:00",
+    "PriceListId": 947,
+    "ERPPriceListKey": "vel",
+    "QuoteConnectionId": 168,
+    "Name": "Considine Inc and Sons",
+    "Description": "Ameliorated hybrid website",
+    "Currency": "dolorem",
+    "CurrencyName": "Morissette Inc and Sons",
+    "ValidFrom": "1999-06-10T13:38:14.0303322+02:00",
+    "ValidTo": "2018-12-06T13:38:14.0303322+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldLength": 742
       }
     }
   }

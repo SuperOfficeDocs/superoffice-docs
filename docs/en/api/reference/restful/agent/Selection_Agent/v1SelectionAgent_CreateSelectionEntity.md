@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Ernser Inc and Sons"
+  "TargetTableName": "Fadel Group"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Polarised demand-driven Graphical User Interface",
-  "Postit": "delectus",
+  "Description": "Versatile mobile data-warehouse",
+  "Postit": "nostrum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 986,
-  "IncludePerson": 474,
-  "MemberCount": 303,
-  "Name": "Kris, Jakubowski and Baumbach",
-  "PostitTextId": 477,
-  "CreatedDate": "2000-02-10T03:24:48.2409231+01:00",
-  "SelectionId": 958,
-  "SoundEx": "voluptas",
-  "Source": 363,
-  "TextId": 217,
-  "UpdatedDate": "2016-05-07T03:24:48.2409231+02:00",
-  "UpdatedCount": 388,
-  "Visibility": 63,
+  "GroupIdx": 765,
+  "IncludePerson": 388,
+  "MemberCount": 165,
+  "Name": "Lynch, Kunze and Crist",
+  "PostitTextId": 443,
+  "CreatedDate": "2022-01-30T13:38:14.124071+01:00",
+  "SelectionId": 150,
+  "SoundEx": "hic",
+  "Source": 735,
+  "TextId": 173,
+  "UpdatedDate": "2013-12-31T13:38:14.124071+01:00",
+  "UpdatedCount": 771,
+  "Visibility": 444,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 971,
-  "TargetTableName": "Abshire, Lynch and Mraz",
-  "Completed": true,
-  "LeftSelectionId": 112,
-  "RightSelectionId": 135,
+  "CompanyUnique": true,
+  "TargetTableNumber": 588,
+  "TargetTableName": "Gutmann-Lowe",
+  "Completed": false,
+  "LeftSelectionId": 328,
+  "RightSelectionId": 686,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schumm, Schultz and Ledner",
-  "ShadowProviderName": "Kohler Inc and Sons",
-  "ChartKey": "provident",
-  "LastLoaded": "1999-02-14T03:24:48.2409231+01:00",
-  "LastLoadedBy": 797,
+  "MainProviderName": "Nienow Group",
+  "ShadowProviderName": "Adams-Hand",
+  "ChartKey": "modi",
+  "LastLoaded": "2015-08-22T13:38:14.124071+02:00",
+  "LastLoadedBy": 13,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-07-06T03:24:48.2409231+02:00",
-  "LastMembershipChangeBy": 249,
+  "LastMembershipChange": "2003-04-18T13:38:14.124071+02:00",
+  "LastMembershipChangeBy": 124,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "blanditiis",
-  "MailingsProviderName": "Barton, Deckow and Mraz",
-  "DashboardTileDefinitionId": 207,
+  "MainHeading": "numquam",
+  "MemberTabHeading": "ex",
+  "MailingsProviderName": "Emard, Runolfsson and Johns",
+  "DashboardTileDefinitionId": 71,
   "VisibleFor": [
     {
-      "VisibleId": 9,
+      "VisibleId": 63,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 15
+          "FieldType": "System.Int32",
+          "FieldLength": 592
         }
       }
     },
     {
-      "VisibleId": 9,
+      "VisibleId": 63,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 15
+          "FieldType": "System.Int32",
+          "FieldLength": 592
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 1001
     }
   }
 }

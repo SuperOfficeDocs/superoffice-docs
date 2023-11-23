@@ -108,7 +108,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 14 Sep 2006 03:24:51 G9T
+Last-Modified: Sat, 04 Mar 2023 13:38:17 G3T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Thu, 14 Sep 2006 03:24:51 G9T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quas",
+  "SaleText": "eius",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Thu, 14 Sep 2006 03:24:51 G9T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-01-20T03:24:51.7713912+01:00",
-  "Amount": 780.366,
-  "SaleId": 943,
-  "Earning": 22752.84,
-  "EarningPercent": 4647.722,
-  "Heading": "repudiandae",
-  "Number": "322633",
-  "Probability": 753,
-  "CreatedDate": "2009-09-04T03:24:51.7713912+02:00",
-  "UpdatedDate": "2006-09-14T03:24:51.7713912+02:00",
+  "Saledate": "2019-01-01T13:38:17.5930592+01:00",
+  "Amount": 9477.216,
+  "SaleId": 455,
+  "Earning": 23022.363999999998,
+  "EarningPercent": 23727.514,
+  "Heading": "et",
+  "Number": "1247928",
+  "Probability": 342,
+  "CreatedDate": "1998-04-08T13:38:17.5930592+02:00",
+  "UpdatedDate": "2023-03-04T13:38:17.5930592+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 543,
+  "ActiveLinks": 349,
   "Links": [
     {
-      "EntityName": "Walker LLC",
-      "Id": 830,
-      "Description": "Open-source even-keeled application",
-      "ExtraInfo": "dolores",
-      "LinkId": 599,
+      "EntityName": "Cruickshank, Toy and West",
+      "Id": 579,
+      "Description": "Visionary tertiary structure",
+      "ExtraInfo": "nobis",
+      "LinkId": 459,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldLength": 383
         }
       }
     }
   ],
-  "NextDueDate": "2008-09-18T03:24:51.7713912+02:00",
-  "Postit": "et",
+  "NextDueDate": "2005-05-02T13:38:17.5930592+02:00",
+  "Postit": "esse",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-01-19T03:24:51.7713912+01:00",
+  "ReopenDate": "2017-03-06T13:38:17.5930592+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Senger Inc and Sons",
-      "Comment": "impedit",
-      "StakeholderRoleId": 326,
-      "CountryId": 517,
-      "PersonId": 912,
-      "EmailDescription": "minnie.lynch@balistreri.com",
-      "EmailId": 616,
-      "EmailAddress": "haskell.considine@braun.name",
-      "PhoneId": 604,
-      "ContactName": "Schroeder, Batz and King",
-      "ContactId": 934,
-      "SaleId": 677,
+      "StakeholderRoleName": "Larkin LLC",
+      "Comment": "aperiam",
+      "StakeholderRoleId": 426,
+      "CountryId": 509,
+      "PersonId": 921,
+      "EmailDescription": "aurelio.stiedemann@oharaframi.uk",
+      "EmailId": 139,
+      "EmailAddress": "vesta.langworth@boyertreutel.com",
+      "PhoneId": 52,
+      "ContactName": "Wiegand-Armstrong",
+      "ContactId": 73,
+      "SaleId": 878,
       "Mrmrs": "et",
-      "Firstname": "Aditya",
-      "MiddleName": "Cummerata LLC",
-      "Lastname": "Walter",
-      "SaleStakeholderId": 114,
-      "Rank": 692,
-      "Phone": "1-507-138-3818",
+      "Firstname": "Stephany",
+      "MiddleName": "White, Kilback and Hilpert",
+      "Lastname": "Gleichner",
+      "SaleStakeholderId": 552,
+      "Rank": 813,
+      "Phone": "1-064-518-3113 x55896",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 581
+          "FieldLength": 793
         }
       }
     }
   ],
-  "ActiveErpLinks": 739,
+  "ActiveErpLinks": 804,
   "UserDefinedFields": {
-    "SuperOffice:1": "2029887923",
-    "SuperOffice:2": "566891631"
+    "SuperOffice:1": "Anabel Nicolas",
+    "SuperOffice:2": "Ms. Phyllis Quinten Will"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "laboriosam"
+    "CustomFields1": "veniam",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2020-09-15T03:24:51.7713912+02:00",
-  "PublishTo": "2014-05-04T03:24:51.7713912+02:00",
-  "PublishFrom": "2023-03-29T03:24:51.7713912+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-05-28T13:38:17.5930592+02:00",
+  "PublishTo": "1996-12-06T13:38:17.5930592+01:00",
+  "PublishFrom": "2016-12-25T13:38:17.5930592+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 417,
+      "VisibleId": 569,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldLength": 709
         }
       }
     },
     {
-      "VisibleId": 417,
+      "VisibleId": 569,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldLength": 709
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Thu, 14 Sep 2006 03:24:51 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 782
     }
   }
 }

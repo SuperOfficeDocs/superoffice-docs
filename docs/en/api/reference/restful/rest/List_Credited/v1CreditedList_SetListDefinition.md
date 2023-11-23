@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 599,
-  "Name": "Keebler, Emmerich and Gislason",
-  "Tooltip": "sit",
+  "Id": 962,
+  "Name": "Collins, Jacobi and Ferry",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "Rank": 562,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 961,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
-  "InUseByUserDefinedFields": true
+  "ListType": "eos",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 839,
-  "Name": "Kling, Green and Graham",
-  "Tooltip": "error",
-  "Deleted": true,
-  "Rank": 842,
+  "Id": 773,
+  "Name": "Hansen, Turner and Williamson",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "Rank": 451,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "debitis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quo",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldType": "System.String",
+      "FieldLength": 186
     }
   }
 }

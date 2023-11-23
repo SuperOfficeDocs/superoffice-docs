@@ -116,6 +116,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -128,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2023-04-21T03:24:47.2052134+02:00",
-  "EndTime": "2014-05-29T03:24:47.2052134+02:00",
-  "Count": 333
+  "StartTime": "1999-08-09T13:38:13.0459237+02:00",
+  "EndTime": "2005-12-12T13:38:13.0459237+01:00",
+  "Count": 656
 }
 ```
 
@@ -146,64 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 538,
-    "StartDate": "1998-09-30T03:24:47.2052134+02:00",
-    "EndDate": "2008-09-30T03:24:47.2052134+02:00",
+    "AppointmentId": 543,
+    "StartDate": "2020-08-22T13:38:13.0459237+02:00",
+    "EndDate": "2022-01-23T13:38:13.0459237+01:00",
     "Type": "BookingForChecklist",
-    "Task": "amet",
-    "AssociateFullName": "Braulio Barrows",
-    "ContactName": "Crist-Daniel",
-    "Description": "Profit-focused multimedia orchestration",
-    "PersonFullName": "Mrs. Vallie Dakota Kuhlman MD",
-    "PersonId": 929,
-    "ContactId": 22,
-    "ProjectId": 94,
-    "ProjectName": "Larson-Hagenes",
-    "IsPublished": false,
-    "AssociateId": 609,
-    "ColorIndex": 140,
-    "IsFree": false,
-    "HasAlarm": false,
+    "Task": "corporis",
+    "AssociateFullName": "Dr. Jackson Magnus Ferry",
+    "ContactName": "Trantow Inc and Sons",
+    "Description": "Triple-buffered encompassing instruction set",
+    "PersonFullName": "Mr. Ewell Jocelyn Baumbach Sr.",
+    "PersonId": 128,
+    "ContactId": 6,
+    "ProjectId": 138,
+    "ProjectName": "Keebler-Douglas",
+    "IsPublished": true,
+    "AssociateId": 831,
+    "ColorIndex": 5,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 337,
-    "PriorityName": "Kemmer Inc and Sons",
+    "PriorityId": 324,
+    "PriorityName": "Labadie-Gleichner",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2019-08-05T03:24:47.2052134+02:00",
+    "ActiveDate": "2007-10-13T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-01-24T03:24:47.2052134+01:00",
-    "RecurringEndDate": "2021-11-30T03:24:47.2052134+01:00",
-    "MotherId": 332,
-    "AssignedBy": 467,
-    "AssignedByFullName": "Dr. Jewell Hosea Walter",
+    "RecurringStartDate": "2004-05-07T13:38:13.0459237+02:00",
+    "RecurringEndDate": "2006-08-30T13:38:13.0459237+02:00",
+    "MotherId": 19,
+    "AssignedBy": 618,
+    "AssignedByFullName": "Mr. Cathy Garnett Morissette",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "blanditiis",
-    "SaleId": 761,
-    "SaleName": "Ebert, Anderson and Turcotte",
-    "AssociateName": "Hills, Reichel and Goodwin",
-    "CreatedDate": "2014-12-09T03:24:47.2052134+01:00",
-    "CreatedBy": "facere",
-    "CreatedByFullName": "Myron Vida Block DDS",
-    "CreatedByAssociateId": 634,
+    "Location": "itaque",
+    "AlarmLeadTime": "illo",
+    "SaleId": 890,
+    "SaleName": "Goyette, Prohaska and Schuppe",
+    "AssociateName": "Bode, Hagenes and Friesen",
+    "CreatedDate": "2018-09-23T13:38:13.0459237+02:00",
+    "CreatedBy": "placeat",
+    "CreatedByFullName": "Raegan Hirthe",
+    "CreatedByAssociateId": 620,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "et",
-    "Agenda": "asperiores",
-    "InternalNotes": "velit",
+    "PreferredTZLocation": 183,
+    "Title": "animi",
+    "Agenda": "eos",
+    "InternalNotes": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

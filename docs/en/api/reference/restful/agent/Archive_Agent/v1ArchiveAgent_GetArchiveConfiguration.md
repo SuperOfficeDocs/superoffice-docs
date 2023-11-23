@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Erdman, Bernier and Doyle",
-  "ProviderName": "Dickinson-Daniel"
+  "GuiName": "Larson Group",
+  "ProviderName": "Senger-Larkin"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Kutch-Schuppe",
-      "DisplayTooltip": "ut",
-      "DisplayType": "dolores",
-      "CanOrderBy": false,
-      "Name": "Farrell, Wehner and VonRueden",
+      "DisplayName": "Gleason, Lang and Blick",
+      "DisplayTooltip": "libero",
+      "DisplayType": "eaque",
+      "CanOrderBy": true,
+      "Name": "Feil Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "ea",
-      "RestrictionListName": "Klein Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "impedit",
-      "Width": "et",
-      "IconHint": "voluptas",
-      "HeadingIconHint": "unde"
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Macejkovic-Schultz",
+      "IsVisible": true,
+      "ExtraInfo": "ipsum",
+      "Width": "aliquid",
+      "IconHint": "possimus",
+      "HeadingIconHint": "repellendus"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 185,
-      "Name": "Dickinson, Wyman and Kilback",
-      "ToolTip": "Rerum earum.",
-      "Deleted": false,
-      "Rank": 172,
-      "Type": "ad",
-      "ColorBlock": 845,
-      "IconHint": "ullam",
-      "Selected": true,
-      "LastChanged": "2001-11-11T03:24:47.220828+01:00",
+      "Id": 227,
+      "Name": "Stracke, Anderson and Lemke",
+      "ToolTip": "Ad in suscipit quisquam totam omnis quia.",
+      "Deleted": true,
+      "Rank": 260,
+      "Type": "autem",
+      "ColorBlock": 990,
+      "IconHint": "culpa",
+      "Selected": false,
+      "LastChanged": "2007-02-17T13:38:13.0615453+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "optio",
-      "StyleHint": "quia",
-      "Hidden": true,
-      "FullName": "Miss Fay Dejuan Skiles V",
+      "ExtraInfo": "quia",
+      "StyleHint": "impedit",
+      "Hidden": false,
+      "FullName": "Josh Bailey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 501
+          "FieldLength": 580
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Hirthe Group",
+      "Name": "McLaughlin Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Hirthe Group",
+      "Name": "McLaughlin Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "sapiente",
+  "OwnerKeys": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 488
     }
   }
 }

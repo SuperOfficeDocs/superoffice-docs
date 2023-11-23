@@ -39,8 +39,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:GetActivityInformationListByDatesAndAssociate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2023-09-19T01:22:14Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2023-09-19T01:22:14Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2023-11-10T12:35:40Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2023-11-10T12:35:40Z</Appointment:EndDate>
     <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
    </Appointment:GetActivityInformationListByDatesAndAssociate>
 
@@ -66,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:GetActivityInformationListByDatesAndAssociateResponse>
    <Appointment:Response xsi:type="Appointment:ArrayOfActivityInformationListItem">
     <Appointment:ActivityInformationListItem xsi:type="Appointment:ActivityInformationListItem">
-     <Appointment:Date xsi:type="xsd:dateTime">2023-09-19T01:22:14Z</Appointment:Date>
+     <Appointment:Date xsi:type="xsd:dateTime">2023-11-10T12:35:40Z</Appointment:Date>
      <Appointment:ActivityInformation xsi:type="Appointment:ActivitySummary">
       <Appointment:NumBusyActivities xsi:type="xsd:int">0</Appointment:NumBusyActivities>
       <Appointment:NumFreeActivities xsi:type="xsd:int">0</Appointment:NumFreeActivities>

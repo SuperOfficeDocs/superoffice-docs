@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 307,
-  "Name": "Hagenes Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 517,
+  "Name": "Hegmann-Boyle",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 188,
-  "UdListDefinitionId": 310
+  "Rank": 161,
+  "UdListDefinitionId": 610
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 880,
-  "Name": "Steuber Inc and Sons",
-  "Tooltip": "perspiciatis",
+  "HeadingId": 488,
+  "Name": "Mitchell-Bartell",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 609,
-  "UdListDefinitionId": 122,
+  "Rank": 346,
+  "UdListDefinitionId": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 612
     }
   }
 }

@@ -47,7 +47,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/OtherUsers?$select=isActiveText,role,assocType
+GET /api/v1/archive/OtherUsers?$select=role,assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

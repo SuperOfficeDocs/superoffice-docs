@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 995,
-  "Name": "Doyle Inc and Sons",
-  "Tooltip": "dolorum",
-  "Deleted": false,
-  "UdListDefinitionId": 219,
-  "Rank": 151
+  "Id": 293,
+  "Name": "Hessel, Miller and Brown",
+  "Tooltip": "eaque",
+  "Deleted": true,
+  "UdListDefinitionId": 923,
+  "Rank": 616
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 666,
-  "Name": "Stanton LLC",
-  "Tooltip": "perspiciatis",
+  "Id": 310,
+  "Name": "Tromp Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 251,
-  "Rank": 834,
+  "UdListDefinitionId": 736,
+  "Rank": 786,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 569
     }
   }
 }

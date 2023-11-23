@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 426,
-  "ListItemId": 449,
+  "UdListDefinitionId": 226,
+  "ListItemId": 105,
   "UserGroups": [
     {
-      "Id": 645,
-      "Name": "Schiller Inc and Sons",
-      "ToolTip": "Quisquam distinctio autem.",
-      "Deleted": false,
-      "Rank": 678,
-      "Type": "debitis",
-      "ColorBlock": 670,
-      "IconHint": "exercitationem",
-      "Selected": true,
-      "LastChanged": "2016-05-14T03:24:47.8613878+02:00",
+      "Id": 237,
+      "Name": "Gerhold, Veum and Marks",
+      "ToolTip": "Veritatis ut rerum accusantium tempora.",
+      "Deleted": true,
+      "Rank": 749,
+      "Type": "omnis",
+      "ColorBlock": 437,
+      "IconHint": "tempora",
+      "Selected": false,
+      "LastChanged": "2016-11-10T13:38:13.6708541+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "optio",
-      "StyleHint": "accusamus",
+      "ExtraInfo": "quia",
+      "StyleHint": "est",
       "Hidden": true,
-      "FullName": "Mrs. Philip Gerlach II"
+      "FullName": "Cierra Carroll"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Metz LLC",
-    "ToolTip": "Nihil porro eos ducimus vel.",
+    "Id": 928,
+    "Name": "Prosacco Inc and Sons",
+    "ToolTip": "Perferendis consectetur molestias reiciendis vitae quod incidunt repudiandae.",
     "Deleted": false,
-    "Rank": 501,
-    "Type": "aut",
-    "ColorBlock": 565,
-    "IconHint": "quidem",
+    "Rank": 606,
+    "Type": "voluptate",
+    "ColorBlock": 931,
+    "IconHint": "quos",
     "Selected": true,
-    "LastChanged": "2006-08-07T03:24:47.8613878+02:00",
+    "LastChanged": "2006-12-25T13:38:13.6708541+01:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Heller-Pfeffer",
-        "ToolTip": "Nobis ut enim commodi possimus quo in eius.",
+        "Id": 912,
+        "Name": "Marks-Funk",
+        "ToolTip": "Magni earum cum.",
         "Deleted": true,
-        "Rank": 423,
-        "Type": "quaerat",
-        "ColorBlock": 26,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2010-02-17T03:24:47.8613878+01:00",
+        "Rank": 436,
+        "Type": "aliquid",
+        "ColorBlock": 679,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2017-05-19T13:38:13.6708541+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Verdie Williamson",
+        "ExtraInfo": "harum",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Bessie Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 224
+            "FieldType": "System.Int32",
+            "FieldLength": 436
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "iusto",
+    "ExtraInfo": "et",
+    "StyleHint": "culpa",
     "Hidden": true,
-    "FullName": "Miss Mabelle Sanford Jr.",
+    "FullName": "Prof. Dulce Sierra Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 755
       }
     }
   }

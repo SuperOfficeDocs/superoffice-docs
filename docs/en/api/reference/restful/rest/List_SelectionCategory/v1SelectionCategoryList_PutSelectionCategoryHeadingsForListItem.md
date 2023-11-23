@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Mraz, Vandervort and Haley",
-    "ToolTip": "Voluptas doloribus dolores quis cupiditate sit.",
-    "Deleted": false,
-    "Rank": 259,
-    "Type": "aspernatur",
-    "ColorBlock": 804,
-    "IconHint": "consequatur",
+    "Id": 395,
+    "Name": "Gerlach, Larson and Green",
+    "ToolTip": "Accusamus blanditiis aspernatur quis harum est.",
+    "Deleted": true,
+    "Rank": 353,
+    "Type": "temporibus",
+    "ColorBlock": 543,
+    "IconHint": "illum",
     "Selected": true,
-    "LastChanged": "2009-12-05T03:24:52.4275712+01:00",
+    "LastChanged": "2005-09-01T13:38:18.2337719+02:00",
     "ChildItems": [
       {
-        "Id": 201,
-        "Name": "Tremblay-Moore",
-        "ToolTip": "Ut saepe deserunt perferendis delectus.",
-        "Deleted": false,
-        "Rank": 791,
-        "Type": "eum",
-        "ColorBlock": 933,
-        "IconHint": "quasi",
-        "Selected": true,
-        "LastChanged": "2006-04-27T03:24:52.4275712+02:00",
+        "Id": 484,
+        "Name": "Corkery-Larkin",
+        "ToolTip": "Eius minima ratione minima.",
+        "Deleted": true,
+        "Rank": 562,
+        "Type": "architecto",
+        "ColorBlock": 765,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2018-03-25T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "earum",
-        "StyleHint": "quam",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Alejandra O'Hara"
+        "FullName": "Ariane Tremblay"
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "et",
+    "ExtraInfo": "fugit",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Miss Angie Hartmann MD"
+    "FullName": "Dora Lockman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 60,
-    "Name": "Reichert-Davis",
-    "ToolTip": "Ipsa aliquid nulla qui.",
-    "Deleted": true,
-    "Rank": 174,
-    "Type": "et",
-    "ColorBlock": 261,
-    "IconHint": "eveniet",
+    "Id": 575,
+    "Name": "Nienow-West",
+    "ToolTip": "Sint illum debitis maxime.",
+    "Deleted": false,
+    "Rank": 215,
+    "Type": "placeat",
+    "ColorBlock": 825,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2015-12-20T03:24:52.4275712+01:00",
+    "LastChanged": "2019-06-25T13:38:18.2337719+02:00",
     "ChildItems": [
       {
-        "Id": 892,
-        "Name": "Kuhic, Wiza and Parker",
-        "ToolTip": "Nam quasi ut quibusdam beatae.",
+        "Id": 996,
+        "Name": "Little, Toy and Gislason",
+        "ToolTip": "Rerum dolor et cum aut est.",
         "Deleted": false,
-        "Rank": 651,
-        "Type": "eaque",
-        "ColorBlock": 870,
-        "IconHint": "ut",
+        "Rank": 341,
+        "Type": "vel",
+        "ColorBlock": 168,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2020-10-31T03:24:52.4275712+01:00",
+        "LastChanged": "2017-07-09T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "fuga",
+        "StyleHint": "sit",
         "Hidden": true,
-        "FullName": "Kristina Dickinson",
+        "FullName": "Dr. Kaelyn Kale Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 258
+            "FieldType": "System.String",
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "sint",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Miss Kristy Marks",
+    "FullName": "Lawson Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 951
       }
     }
   }

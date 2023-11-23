@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 728,
-  "Name": "Wiza-Altenwerth",
-  "Tooltip": "laboriosam",
+  "HeadingId": 869,
+  "Name": "Price Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": true,
-  "Rank": 596,
-  "UdListDefinitionId": 229
+  "Rank": 636,
+  "UdListDefinitionId": 126
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 360,
-  "Name": "Hauck, Deckow and Monahan",
-  "Tooltip": "dicta",
-  "Deleted": false,
-  "Rank": 916,
-  "UdListDefinitionId": 231,
+  "HeadingId": 97,
+  "Name": "Dickinson, Trantow and Williamson",
+  "Tooltip": "ex",
+  "Deleted": true,
+  "Rank": 360,
+  "UdListDefinitionId": 523,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 413
     }
   }
 }

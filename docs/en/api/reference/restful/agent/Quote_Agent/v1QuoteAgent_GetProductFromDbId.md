@@ -110,7 +110,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 367
+  "ProductId": 768
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 580,
-  "ERPProductKey": "laudantium",
-  "ERPPriceListKey": "nesciunt",
-  "Name": "Balistreri, O'Hara and Schultz",
-  "Description": "Down-sized full-range monitoring",
-  "Code": "eius",
-  "PriceUnit": "ullam",
-  "QuantityUnit": "eum",
+  "ProductId": 810,
+  "ERPProductKey": "maiores",
+  "ERPPriceListKey": "ad",
+  "Name": "Koepp-Spinka",
+  "Description": "Proactive full-range conglomeration",
+  "Code": "fugiat",
+  "PriceUnit": "impedit",
+  "QuantityUnit": "mollitia",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 9768.678,
-  "ItemNumber": "1297328",
+  "SubscriptionUnit": "enim",
+  "DefaultSubscriptionQuantity": 3108.928,
+  "ItemNumber": "1254989",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cupiditate",
-  "ProductTypeKey": "rerum",
-  "VAT": 313.4,
-  "VATInfo": "dolorem",
-  "UnitCost": 3904.964,
-  "UnitMinimumPrice": 4675.928,
-  "UnitListPrice": 12890.142,
-  "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "aut",
-  "Rights": "unde",
-  "Rule": "omnis",
+  "ProductFamilyKey": "provident",
+  "ProductTypeKey": "fugit",
+  "VAT": 6029.816,
+  "VATInfo": "excepturi",
+  "UnitCost": 1751.906,
+  "UnitMinimumPrice": 6318.144,
+  "UnitListPrice": 15068.271999999999,
+  "InAssortment": false,
+  "Supplier": "nisi",
+  "SupplierCode": "debitis",
+  "Rights": "suscipit",
+  "Rule": "voluptatibus",
   "ExtraInfo": [
     {
-      "Name": "Parisian-Kuhlman",
-      "Value": "nihil",
+      "Name": "Von-Crooks",
+      "Value": "nam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldType": "System.String",
+          "FieldLength": 30
         }
       }
     },
     {
-      "Name": "Parisian-Kuhlman",
-      "Value": "nihil",
+      "Name": "Von-Crooks",
+      "Value": "nam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldType": "System.String",
+          "FieldLength": 30
         }
       }
     }
   ],
-  "RawExtraInfo": "hic",
-  "ExtraField1": "nam",
-  "ExtraField2": "numquam",
-  "ExtraField3": "commodi",
-  "ExtraField4": "et",
-  "ExtraField5": "enim",
-  "InStock": 30800.951999999997,
+  "RawExtraInfo": "accusantium",
+  "ExtraField1": "saepe",
+  "ExtraField2": "odit",
+  "ExtraField3": "eum",
+  "ExtraField4": "facere",
+  "ExtraField5": "minus",
+  "InStock": 5528.376,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldLength": 235
     }
   }
 }

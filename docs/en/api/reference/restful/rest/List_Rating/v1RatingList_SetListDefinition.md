@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 277,
-  "Name": "Schowalter Group",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 517,
+  "Id": 245,
+  "Name": "Hudson, Ruecker and Ferry",
+  "Tooltip": "modi",
+  "Deleted": false,
+  "Rank": 247,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Harris Group",
-  "Tooltip": "corporis",
-  "Deleted": true,
-  "Rank": 844,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 569,
+  "Name": "Walker-Auer",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "Rank": 610,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 619
+      "FieldLength": 950
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 494,
-  "Name": "Bins-Beier",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "Rank": 433,
-  "UdListDefinitionId": 896
+  "HeadingId": 982,
+  "Name": "Witting-Feest",
+  "Tooltip": "aliquid",
+  "Deleted": false,
+  "Rank": 946,
+  "UdListDefinitionId": 63
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 734,
-  "Name": "Daugherty LLC",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 764,
-  "UdListDefinitionId": 610,
+  "HeadingId": 244,
+  "Name": "Stark, Hudson and Sawayn",
+  "Tooltip": "tenetur",
+  "Deleted": true,
+  "Rank": 689,
+  "UdListDefinitionId": 615,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 92
     }
   }
 }

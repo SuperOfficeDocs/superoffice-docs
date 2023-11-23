@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 864,
-  "Name": "Miller, Kuhic and Larson",
-  "Tooltip": "atque",
+  "Id": 810,
+  "Name": "Bode, Gorczany and Brown",
+  "Tooltip": "est",
   "Deleted": true,
-  "UdListDefinitionId": 776,
-  "Rank": 845
+  "UdListDefinitionId": 338,
+  "Rank": 408
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 24,
-  "Name": "Rowe, Mayert and Cartwright",
-  "Tooltip": "eius",
-  "Deleted": false,
-  "UdListDefinitionId": 296,
-  "Rank": 696,
+  "Id": 251,
+  "Name": "Kemmer-Jakubowski",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 178,
+  "Rank": 720,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldType": "System.String",
+      "FieldLength": 165
     }
   }
 }

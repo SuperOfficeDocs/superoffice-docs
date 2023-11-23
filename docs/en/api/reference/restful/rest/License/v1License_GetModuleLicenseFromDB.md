@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kautzer, Walsh and Littel",
-  "ModuleName": "Huels-Collins",
-  "ModuleDescription": "Profound mobile hub",
-  "ModuleTooltip": "voluptas",
-  "ModuleVersion": "sed",
+  "OwnerName": "Wyman-Turcotte",
+  "ModuleName": "Hegmann Inc and Sons",
+  "ModuleDescription": "Seamless system-worthy model",
+  "ModuleTooltip": "dolores",
+  "ModuleVersion": "architecto",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 580,
-  "ExtraFlags": 449,
-  "ExtraInfo": "quam",
-  "SortOrder": 3,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Brekke-Adams",
-  "Signature": "ea"
+  "NumberOfLicenses": 480,
+  "ExtraFlags": 619,
+  "ExtraInfo": "possimus",
+  "SortOrder": 443,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Boyer, McCullough and Carter",
+  "Signature": "aspernatur"
 }
 ```

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Conroy-Runte",
-    "ToolTip": "Molestiae adipisci eveniet repudiandae pariatur.",
+    "Id": 366,
+    "Name": "Kessler Group",
+    "ToolTip": "Ut non recusandae asperiores enim dolor temporibus iure.",
     "Deleted": false,
-    "Rank": 159,
-    "Type": "quod",
-    "ColorBlock": 196,
-    "IconHint": "quia",
+    "Rank": 197,
+    "Type": "debitis",
+    "ColorBlock": 394,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2020-08-22T03:24:52.3650758+02:00",
+    "LastChanged": "2014-01-17T13:38:18.1712741+01:00",
     "ChildItems": [
       {
-        "Id": 193,
-        "Name": "Dietrich Inc and Sons",
-        "ToolTip": "Doloribus accusantium id veniam quam consectetur.",
-        "Deleted": false,
-        "Rank": 941,
-        "Type": "est",
-        "ColorBlock": 305,
-        "IconHint": "voluptatum",
+        "Id": 99,
+        "Name": "Morar Inc and Sons",
+        "ToolTip": "Nesciunt facilis.",
+        "Deleted": true,
+        "Rank": 852,
+        "Type": "ex",
+        "ColorBlock": 215,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2021-08-01T03:24:52.3650758+02:00",
+        "LastChanged": "2018-09-15T13:38:18.1712741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Deshawn Runte",
+        "ExtraInfo": "quam",
+        "StyleHint": "ab",
+        "Hidden": false,
+        "FullName": "Ms. Randal Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldType": "System.String",
+            "FieldLength": 812
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "ducimus",
-    "Hidden": false,
-    "FullName": "Dannie Tromp",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Nyah Fahey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 693
       }
     }
   }

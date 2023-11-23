@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Swift-Metz",
-  "Tooltip": "inventore",
-  "Deleted": true,
-  "UdListDefinitionId": 223,
-  "Rank": 538,
+  "Id": 291,
+  "Name": "Bergstrom-Cummings",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "UdListDefinitionId": 574,
+  "Rank": 950,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 234
     }
   }
 }

@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "quo",
-    "at"
+    "dicta",
+    "ipsa"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "temporibus",
+    "Label": "nihil",
     "Values": [
       {
-        "Label": "et",
-        "Value": 3751.3979999999997,
-        "Description": "Implemented bandwidth-monitored interface",
+        "Label": "minima",
+        "Value": 21232.85,
+        "Description": "Managed solution-oriented projection",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldLength": 117
           }
         }
       },
       {
-        "Label": "et",
-        "Value": 3751.3979999999997,
-        "Description": "Implemented bandwidth-monitored interface",
+        "Label": "minima",
+        "Value": 21232.85,
+        "Description": "Managed solution-oriented projection",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldLength": 117
           }
         }
       }
     ],
-    "Description": "Managed demand-driven methodology",
+    "Description": "Down-sized intangible project",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldLength": 608
       }
     }
   },
   {
-    "Label": "temporibus",
+    "Label": "nihil",
     "Values": [
       {
-        "Label": "et",
-        "Value": 3751.3979999999997,
-        "Description": "Implemented bandwidth-monitored interface",
+        "Label": "minima",
+        "Value": 21232.85,
+        "Description": "Managed solution-oriented projection",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldLength": 117
           }
         }
       },
       {
-        "Label": "et",
-        "Value": 3751.3979999999997,
-        "Description": "Implemented bandwidth-monitored interface",
+        "Label": "minima",
+        "Value": 21232.85,
+        "Description": "Managed solution-oriented projection",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldLength": 117
           }
         }
       }
     ],
-    "Description": "Managed demand-driven methodology",
+    "Description": "Down-sized intangible project",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldLength": 608
       }
     }
   }

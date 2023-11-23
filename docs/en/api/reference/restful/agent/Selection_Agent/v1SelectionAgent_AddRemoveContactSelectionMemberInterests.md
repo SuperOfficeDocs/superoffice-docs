@@ -68,26 +68,26 @@ No Content
 POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 732,
+  "SelectionId": 136,
   "AddCompanyInterests": [
-    486,
-    148
+    390,
+    948
   ],
   "RemoveCompanyInterests": [
-    820,
-    25
+    597,
+    73
   ],
   "AddContactInterests": [
-    972,
-    915
+    861,
+    275
   ],
   "RemoveContactInterests": [
-    505,
-    998
+    126,
+    742
   ]
 }
 ```

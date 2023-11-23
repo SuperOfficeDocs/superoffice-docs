@@ -22,6 +22,7 @@ The name of the MDO list is 'ticketpriority'.
 |-----|-----|------|
 |Include deleted items| |showDeleted|
 |Flag to include default values (e.g., 'Automatic')| |includeDefaultItems|
+|ticketType| |1|
 
 
 

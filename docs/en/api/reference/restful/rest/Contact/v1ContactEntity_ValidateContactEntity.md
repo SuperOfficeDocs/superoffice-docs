@@ -101,89 +101,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 409,
-  "Name": "Greenholt Group",
+  "ContactId": 787,
+  "Name": "Bartoletti-Hodkiewicz",
   "Department": "",
-  "OrgNr": "261487",
-  "Number1": "947942",
-  "Number2": "764838",
-  "UpdatedDate": "2022-04-16T03:24:51.52124+02:00",
-  "CreatedDate": "2015-05-08T03:24:51.52124+02:00",
+  "OrgNr": "1819262",
+  "Number1": "687138",
+  "Number2": "827282",
+  "UpdatedDate": "2021-06-03T13:38:17.2649715+02:00",
+  "CreatedDate": "2009-08-22T13:38:17.2649715+02:00",
   "Emails": [
     {
-      "Value": "dolores",
-      "StrippedValue": "voluptas",
-      "Description": "Diverse eco-centric synergy"
+      "Value": "voluptatem",
+      "StrippedValue": "exercitationem",
+      "Description": "Cloned stable focus group"
     },
     {
-      "Value": "dolores",
-      "StrippedValue": "voluptas",
-      "Description": "Diverse eco-centric synergy"
+      "Value": "voluptatem",
+      "StrippedValue": "exercitationem",
+      "Description": "Cloned stable focus group"
     }
   ],
   "Interests": [
     {
-      "Id": 511,
-      "Name": "Runolfsson, Lindgren and Beer",
-      "ToolTip": "Rerum iusto perferendis error optio numquam.",
+      "Id": 649,
+      "Name": "Barrows Group",
+      "ToolTip": "Qui culpa voluptas officia nihil.",
       "Deleted": true,
-      "Rank": 347,
-      "Type": "minus",
-      "ColorBlock": 800,
-      "IconHint": "fugit",
+      "Rank": 72,
+      "Type": "odio",
+      "ColorBlock": 374,
+      "IconHint": "occaecati",
       "Selected": false,
-      "LastChanged": "2012-04-02T03:24:51.52124+02:00",
+      "LastChanged": "2017-02-06T13:38:17.2649715+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "fugit",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Candelario Price"
+      "ExtraInfo": "dolor",
+      "StyleHint": "placeat",
+      "Hidden": false,
+      "FullName": "Paris Ashlynn Schiller DVM"
     }
   ],
   "Urls": [
     {
-      "Value": "qui",
-      "StrippedValue": "voluptas",
-      "Description": "Virtual incremental open architecture"
+      "Value": "dolor",
+      "StrippedValue": "officia",
+      "Description": "Implemented secondary ability"
     },
     {
-      "Value": "qui",
-      "StrippedValue": "voluptas",
-      "Description": "Virtual incremental open architecture"
+      "Value": "dolor",
+      "StrippedValue": "officia",
+      "Description": "Implemented secondary ability"
     }
   ],
   "Phones": [
     {
-      "Value": "a",
-      "StrippedValue": "nihil",
-      "Description": "Self-enabling multimedia analyzer"
+      "Value": "ipsa",
+      "StrippedValue": "et",
+      "Description": "Digitized client-driven budgetary management"
     },
     {
-      "Value": "a",
-      "StrippedValue": "nihil",
-      "Description": "Self-enabling multimedia analyzer"
+      "Value": "ipsa",
+      "StrippedValue": "et",
+      "Description": "Digitized client-driven budgetary management"
     }
   ],
   "Faxes": [
     {
-      "Value": "labore",
-      "StrippedValue": "libero",
-      "Description": "Multi-layered intermediate neural-net"
+      "Value": "tempore",
+      "StrippedValue": "alias",
+      "Description": "Realigned client-driven process improvement"
     },
     {
-      "Value": "labore",
-      "StrippedValue": "libero",
-      "Description": "Multi-layered intermediate neural-net"
+      "Value": "tempore",
+      "StrippedValue": "alias",
+      "Description": "Realigned client-driven process improvement"
     }
   ],
-  "Description": "Managed motivating task-force",
+  "Description": "Public-key holistic knowledge user",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,85 +192,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quo",
-      "PersonId": 668,
-      "Mrmrs": "accusamus",
-      "Firstname": "Omari",
-      "Lastname": "Nolan",
-      "MiddleName": "Boyle-Rogahn",
-      "Title": "suscipit",
-      "Description": "Multi-channelled background throughput",
-      "Email": "burley@feeneyskiles.name",
-      "FullName": "Ahmad Strosin",
-      "DirectPhone": "1-861-867-8584 x24473",
-      "FormalName": "Rippin Inc and Sons",
-      "CountryId": 833,
-      "ContactId": 849,
-      "ContactName": "Legros, Stracke and Johnston",
-      "Retired": 187,
-      "Rank": 294,
-      "ActiveInterests": 339,
-      "ContactDepartment": "monetize out-of-the-box e-tailers",
-      "ContactCountryId": 224,
-      "ContactOrgNr": "1064095",
-      "FaxPhone": "1-026-622-3811",
-      "MobilePhone": "770.094.6222",
-      "ContactPhone": "863.496.1280 x0573",
-      "AssociateName": "Bogan-Watsica",
-      "AssociateId": 312,
-      "UsePersonAddress": false,
-      "ContactFax": "assumenda",
-      "Kanafname": "error",
-      "Kanalname": "quae",
-      "Post1": "delectus",
-      "Post2": "rerum",
-      "Post3": "numquam",
-      "EmailName": "tianna@davisgleason.uk",
-      "ContactFullName": "Leif Schimmel",
-      "ActiveErpLinks": 843,
-      "TicketPriorityId": 286,
-      "SupportLanguageId": 624,
-      "SupportAssociateId": 955,
+      "Position": "ut",
+      "PersonId": 504,
+      "Mrmrs": "est",
+      "Firstname": "Bethany",
+      "Lastname": "Schultz",
+      "MiddleName": "Waters, Hammes and Kris",
+      "Title": "ea",
+      "Description": "Persistent mission-critical hardware",
+      "Email": "rebecca@ferry.uk",
+      "FullName": "Dr. Laverne Lisette Mitchell PhD",
+      "DirectPhone": "(734)301-6127 x905",
+      "FormalName": "Armstrong, Rosenbaum and Kling",
+      "CountryId": 286,
+      "ContactId": 785,
+      "ContactName": "Lynch, O'Conner and Ferry",
+      "Retired": 378,
+      "Rank": 607,
+      "ActiveInterests": 507,
+      "ContactDepartment": "",
+      "ContactCountryId": 492,
+      "ContactOrgNr": "1622048",
+      "FaxPhone": "1-756-330-8579 x820",
+      "MobilePhone": "017.685.3532 x82658",
+      "ContactPhone": "(170)964-1922 x35353",
+      "AssociateName": "Spencer-Brekke",
+      "AssociateId": 26,
+      "UsePersonAddress": true,
+      "ContactFax": "aut",
+      "Kanafname": "nostrum",
+      "Kanalname": "ab",
+      "Post1": "est",
+      "Post2": "adipisci",
+      "Post3": "sed",
+      "EmailName": "haley@king.com",
+      "ContactFullName": "Ezra Marvin",
+      "ActiveErpLinks": 399,
+      "TicketPriorityId": 447,
+      "SupportLanguageId": 420,
+      "SupportAssociateId": 966,
       "CategoryName": "VIP Customer"
     }
   ],
-  "NoMailing": false,
-  "Kananame": "placeat",
+  "NoMailing": true,
+  "Kananame": "tempore",
   "Xstop": false,
-  "ActiveInterests": 185,
-  "GroupId": 940,
-  "ActiveStatusMonitorId": 244,
+  "ActiveInterests": 667,
+  "GroupId": 297,
+  "ActiveStatusMonitorId": 956,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 717,
-  "DbiAgentId": 388,
-  "DbiLastSyncronized": "2013-08-12T03:24:51.52124+02:00",
-  "DbiKey": "maxime",
-  "DbiLastModified": "2007-09-14T03:24:51.52124+02:00",
+  "Deleted": 136,
+  "DbiAgentId": 305,
+  "DbiLastSyncronized": "2009-02-10T13:38:17.2649715+01:00",
+  "DbiKey": "architecto",
+  "DbiLastModified": "2012-06-11T13:38:17.2649715+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 246,
-  "ActiveErpLinks": 164,
+  "Source": 42,
+  "ActiveErpLinks": 352,
   "BounceEmails": [
-    "genoveva@eichmann.biz",
-    "felicity.funk@runolfsson.us"
+    "oswald.kozey@okunevaprohaska.info",
+    "lenna_treutel@volkman.co.uk"
   ],
   "Domains": [
-    "qui",
-    "non"
+    "voluptatum",
+    "optio"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Trevion Thompson",
-    "SuperOffice:2": "Miss Derrick Sanford"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "fugit",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "quo",
+    "CustomFields2": "doloribus"
   }
 }
 ```
@@ -282,7 +282,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ut",
-  "2": "nostrum"
+  "1": "dolores",
+  "2": "earum"
 }
 ```

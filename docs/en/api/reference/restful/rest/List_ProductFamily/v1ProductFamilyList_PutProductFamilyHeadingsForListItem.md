@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Jerde, Marks and Abshire",
-    "ToolTip": "Fugit numquam debitis atque.",
-    "Deleted": false,
-    "Rank": 640,
-    "Type": "doloremque",
-    "ColorBlock": 345,
-    "IconHint": "eligendi",
+    "Id": 632,
+    "Name": "Durgan Inc and Sons",
+    "ToolTip": "Sequi aut dicta.",
+    "Deleted": true,
+    "Rank": 127,
+    "Type": "nihil",
+    "ColorBlock": 126,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2019-12-09T03:24:52.3338241+01:00",
+    "LastChanged": "2003-07-16T13:38:18.1400255+02:00",
     "ChildItems": [
       {
-        "Id": 652,
-        "Name": "Schimmel, Borer and Hodkiewicz",
-        "ToolTip": "Dolorem molestiae voluptatem laboriosam et explicabo.",
-        "Deleted": false,
-        "Rank": 299,
-        "Type": "ut",
-        "ColorBlock": 155,
-        "IconHint": "autem",
+        "Id": 589,
+        "Name": "Murphy-Denesik",
+        "ToolTip": "Eaque consequatur consequatur aspernatur atque perspiciatis et.",
+        "Deleted": true,
+        "Rank": 456,
+        "Type": "molestiae",
+        "ColorBlock": 448,
+        "IconHint": "tenetur",
         "Selected": true,
-        "LastChanged": "1997-01-18T03:24:52.3338241+01:00",
+        "LastChanged": "2017-01-30T13:38:18.1400255+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "placeat",
+        "StyleHint": "consequuntur",
         "Hidden": false,
-        "FullName": "Vincenza Billie Goldner III"
+        "FullName": "Mrs. Fritz Daphne Blanda III"
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "qui",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Gudrun Bartell"
+    "FullName": "Alysha Grimes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Funk Inc and Sons",
-    "ToolTip": "Velit aliquam ducimus hic sit labore explicabo.",
+    "Id": 875,
+    "Name": "Prohaska, Stanton and Mante",
+    "ToolTip": "Accusantium omnis corrupti dicta.",
     "Deleted": true,
-    "Rank": 899,
-    "Type": "voluptas",
-    "ColorBlock": 709,
-    "IconHint": "molestiae",
+    "Rank": 861,
+    "Type": "occaecati",
+    "ColorBlock": 980,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "1999-11-11T03:24:52.3338241+01:00",
+    "LastChanged": "2000-05-24T13:38:18.1400255+02:00",
     "ChildItems": [
       {
-        "Id": 927,
-        "Name": "McDermott, Towne and Russel",
-        "ToolTip": "Esse veniam ut.",
-        "Deleted": true,
-        "Rank": 630,
-        "Type": "maiores",
-        "ColorBlock": 706,
-        "IconHint": "velit",
+        "Id": 335,
+        "Name": "Boyle-Wisoky",
+        "ToolTip": "Eius voluptas deserunt.",
+        "Deleted": false,
+        "Rank": 851,
+        "Type": "eveniet",
+        "ColorBlock": 339,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "1999-05-23T03:24:52.3338241+02:00",
+        "LastChanged": "1997-12-01T13:38:18.1400255+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "amet",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mr. Bryon Vivianne Lubowitz DDS",
+        "FullName": "Wanda Terry I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 729
+            "FieldType": "System.String",
+            "FieldLength": 911
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Miss Reuben Parisian DVM",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "quos",
+    "Hidden": false,
+    "FullName": "Elisa Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 295
+        "FieldType": "System.Int32",
+        "FieldLength": 241
       }
     }
   }

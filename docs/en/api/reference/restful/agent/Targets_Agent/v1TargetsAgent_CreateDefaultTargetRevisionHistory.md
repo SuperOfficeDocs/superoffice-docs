@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetRevisionHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,13 +69,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 436,
-  "Year": 221,
+  "TargetGroupId": 588,
+  "Year": 354,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2000-11-01T03:24:48.2837166+01:00",
+      "When": "1997-11-15T13:38:14.1709068+01:00",
       "Changes": [
         {},
         {}
@@ -85,14 +85,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 577
+          "FieldLength": 446
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2000-11-01T03:24:48.2837166+01:00",
+      "When": "1997-11-15T13:38:14.1709068+01:00",
       "Changes": [
         {},
         {}
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 577
+          "FieldLength": 446
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 216
     }
   }
 }

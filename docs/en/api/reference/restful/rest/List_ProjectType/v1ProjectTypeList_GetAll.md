@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 764,
-    "Name": "Hyatt-Fritsch",
-    "Tooltip": "atque",
-    "Deleted": true,
-    "UdListDefinitionId": 771,
-    "Rank": 271,
+    "Id": 631,
+    "Name": "Ortiz Group",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "UdListDefinitionId": 780,
+    "Rank": 911,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 201
+        "FieldType": "System.Int32",
+        "FieldLength": 208
       }
     }
   }

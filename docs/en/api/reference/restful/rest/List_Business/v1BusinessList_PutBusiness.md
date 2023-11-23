@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 25,
-  "Name": "Baumbach, Willms and Reilly",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 114,
-  "Rank": 232
+  "Id": 756,
+  "Name": "Dach, Haley and Hettinger",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 587,
+  "Rank": 182
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 781,
-  "Name": "Smitham Inc and Sons",
-  "Tooltip": "et",
+  "Id": 146,
+  "Name": "White Inc and Sons",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 280,
-  "Rank": 975,
+  "UdListDefinitionId": 34,
+  "Rank": 265,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 820
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

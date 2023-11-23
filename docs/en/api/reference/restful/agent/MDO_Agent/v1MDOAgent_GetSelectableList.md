@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lindgren Inc and Sons",
+  "Name": "Boyer-Upton",
   "ForceFlatList": true,
-  "AdditionalInfo": "recusandae",
-  "OnlyHistory": true
+  "AdditionalInfo": "at",
+  "OnlyHistory": false
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Gulgowski LLC",
-    "ToolTip": "Quae ut et.",
+    "Id": 807,
+    "Name": "Donnelly-Erdman",
+    "ToolTip": "Quia tempore voluptas ut explicabo.",
     "Deleted": false,
-    "Rank": 270,
-    "Type": "esse",
-    "ColorBlock": 183,
-    "IconHint": "sequi",
-    "Selected": false,
-    "LastChanged": "2016-01-20T03:24:47.9395013+01:00",
+    "Rank": 282,
+    "Type": "minus",
+    "ColorBlock": 315,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2018-04-16T13:38:13.7491627+02:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Johnston-King",
-        "ToolTip": "Et corrupti fugiat ullam ab.",
+        "Id": 571,
+        "Name": "Zboncak, Legros and Raynor",
+        "ToolTip": "Debitis officia tempore qui qui quos quos.",
         "Deleted": false,
-        "Rank": 166,
-        "Type": "quia",
-        "ColorBlock": 194,
-        "IconHint": "iusto",
+        "Rank": 902,
+        "Type": "iste",
+        "ColorBlock": 655,
+        "IconHint": "velit",
         "Selected": true,
-        "LastChanged": "2013-09-18T03:24:47.9395013+02:00",
+        "LastChanged": "2004-04-11T13:38:13.7491627+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "quae",
+        "ExtraInfo": "in",
+        "StyleHint": "laboriosam",
         "Hidden": true,
-        "FullName": "Enos Carroll Rodriguez I",
+        "FullName": "Syble Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 948
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "porro",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Adrain Lakin V",
+    "FullName": "Belle Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 610
       }
     }
   }

@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "McDermott-Swaniawski",
+  "TableName": "Lindgren Inc and Sons",
   "RecordIds": [
-    343,
-    658
+    789,
+    995
   ],
-  "AssociateId": 462,
-  "ExtraInfo": "beatae"
+  "AssociateId": 607,
+  "ExtraInfo": "deserunt"
 }
 ```
 

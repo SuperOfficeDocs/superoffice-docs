@@ -77,24 +77,24 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 76,
-  "Year": 644,
+  "TargetGroupId": 266,
+  "Year": 232,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 689,
+      "TargetAssignmentInfoId": 204,
       "Values": [
-        546,
-        335
+        899,
+        758
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 15,
-      "DimensionListItemDisplayName": "Bailey Inc and Sons"
+      "DimensionListItem": 483,
+      "DimensionListItemDisplayName": "Ullrich-Gleason"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 980,
-  "Year": 916,
+  "TargetGroupId": 823,
+  "Year": 922,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 567,
+      "TargetAssignmentInfoId": 634,
       "Values": [
-        884,
-        238
+        129,
+        31
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 354,
-      "DimensionListItemDisplayName": "Reilly, Jacobi and Becker",
+      "DimensionListItem": 774,
+      "DimensionListItemDisplayName": "Smith-Luettgen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldType": "System.String",
+          "FieldLength": 858
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 182
+      "FieldType": "System.Int32",
+      "FieldLength": 301
     }
   }
 }

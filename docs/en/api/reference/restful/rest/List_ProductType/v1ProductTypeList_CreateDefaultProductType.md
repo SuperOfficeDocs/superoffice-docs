@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 839,
-  "Name": "Bartoletti Inc and Sons",
-  "Tooltip": "velit",
+  "Id": 48,
+  "Name": "Adams-Orn",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 514,
-  "Rank": 15,
+  "UdListDefinitionId": 760,
+  "Rank": 563,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 171
     }
   }
 }

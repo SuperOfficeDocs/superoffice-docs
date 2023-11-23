@@ -71,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 178,
-  "Name": "Marquardt-Nitzsche",
+  "WebhookId": 697,
+  "Name": "Wiegand, Nitzsche and Lockman",
   "Events": [
-    "cupiditate",
-    "placeat"
+    "esse",
+    "qui"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "hic",
+  "Secret": "quod",
   "State": "Active",
-  "Type": "ad",
+  "Type": "eaque",
   "Headers": {
-    "Headers1": "repudiandae",
-    "Headers2": "quos"
+    "Headers1": "omnis",
+    "Headers2": "unde"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-08-02T03:24:52.1307225+02:00",
+  "Registered": "2015-10-05T13:38:17.8744364+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2000-01-02T03:24:52.1307225+01:00",
+  "Updated": "2002-10-03T13:38:17.8744364+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "mittie.stark@wunschdurgan.info"
+  "ErrorsEmail": "louisa_pollich@wilkinsonaltenwerth.biz"
 }
 ```

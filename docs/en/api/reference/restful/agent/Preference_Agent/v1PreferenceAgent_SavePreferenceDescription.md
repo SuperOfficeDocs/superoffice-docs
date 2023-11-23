@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 78,
-  "Section": "accusantium",
-  "Key": "et",
-  "Name": "Kuhlman Inc and Sons",
+  "PrefDescId": 374,
+  "Section": "numquam",
+  "Key": "quae",
+  "Name": "Walter Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ameliorated bifurcated migration",
-  "IsBuiltin": false,
-  "TableName": "Schulist, Stark and Hane",
-  "UserDefinedListId": 571,
-  "Rank": 5,
-  "SubGroup": "asperiores",
-  "MinLevel": 666,
-  "MaxValue": 248,
-  "MinValue": 744,
-  "RequiredLicense": "eos"
+  "Description": "Persevering zero administration Graphical User Interface",
+  "IsBuiltin": true,
+  "TableName": "Block, Dare and Berge",
+  "UserDefinedListId": 319,
+  "Rank": 23,
+  "SubGroup": "odio",
+  "MinLevel": 287,
+  "MaxValue": 215,
+  "MinValue": 882,
+  "RequiredLicense": "voluptate"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 882,
-  "Section": "esse",
-  "Key": "nulla",
-  "Name": "Kerluke-Stracke",
+  "PrefDescId": 271,
+  "Section": "quam",
+  "Key": "accusantium",
+  "Name": "Hudson, Hammes and Brown",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enhanced motivating hub",
-  "IsBuiltin": false,
-  "TableName": "Hermiston, Gulgowski and Dickens",
-  "UserDefinedListId": 688,
-  "Rank": 751,
-  "SubGroup": "consequuntur",
-  "MinLevel": 73,
-  "MaxValue": 40,
-  "MinValue": 196,
-  "RequiredLicense": "quaerat",
+  "Description": "Virtual incremental implementation",
+  "IsBuiltin": true,
+  "TableName": "Rolfson, Fahey and Ankunding",
+  "UserDefinedListId": 948,
+  "Rank": 324,
+  "SubGroup": "id",
+  "MinLevel": 95,
+  "MaxValue": 323,
+  "MinValue": 661,
+  "RequiredLicense": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 988
     }
   }
 }

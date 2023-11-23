@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 21,
-  "Name": "Schmidt Inc and Sons",
-  "CurrencyId": 928,
-  "EnglishName": "Thompson Group",
+  "CountryId": 51,
+  "Name": "Shields Inc and Sons",
+  "CurrencyId": 868,
+  "EnglishName": "Blanda-Stoltenberg",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Ameliorated contextually-based portal",
-  "OrgNrText": "1080610",
-  "InterAreaPrefix": "alias",
-  "DialInPrefix": "at",
-  "ZipPrefix": "laboriosam",
-  "DomainName": "Sawayn, Wisoky and Ratke",
-  "AddressLayoutId": 391,
-  "DomesticAddressLayoutId": 521,
-  "ForeignAddressLayoutId": 412,
-  "Rank": 56,
-  "Tooltip": "exercitationem",
+  "ImageDescription": "User-centric directional knowledge base",
+  "OrgNrText": "1246881",
+  "InterAreaPrefix": "delectus",
+  "DialInPrefix": "illum",
+  "ZipPrefix": "sed",
+  "DomainName": "Gaylord Inc and Sons",
+  "AddressLayoutId": 45,
+  "DomesticAddressLayoutId": 631,
+  "ForeignAddressLayoutId": 56,
+  "Rank": 332,
+  "Tooltip": "repellendus",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldLength": 247
     }
   }
 }

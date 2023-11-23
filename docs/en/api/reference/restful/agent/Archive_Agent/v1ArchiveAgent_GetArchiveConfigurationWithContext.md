@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Huel Inc and Sons",
-  "ProviderName": "Hoppe-Cremin",
-  "Context": "ab"
+  "GuiName": "Renner-Roob",
+  "ProviderName": "Upton-Price",
+  "Context": "tempore"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Gleason-Denesik",
-      "DisplayTooltip": "qui",
-      "DisplayType": "iste",
+      "DisplayName": "Carter-Lockman",
+      "DisplayTooltip": "quia",
+      "DisplayType": "ut",
       "CanOrderBy": false,
-      "Name": "Senger-Gleichner",
-      "CanRestrictBy": true,
-      "RestrictionType": "ullam",
-      "RestrictionListName": "Kilback, Hammes and Hudson",
-      "IsVisible": false,
-      "ExtraInfo": "rerum",
-      "Width": "optio",
-      "IconHint": "est",
-      "HeadingIconHint": "nihil"
+      "Name": "Dickens-McCullough",
+      "CanRestrictBy": false,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Willms, Heidenreich and Treutel",
+      "IsVisible": true,
+      "ExtraInfo": "molestiae",
+      "Width": "assumenda",
+      "IconHint": "repudiandae",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 789,
-      "Name": "Douglas, Connelly and Shields",
-      "ToolTip": "Repellat illum.",
+      "Id": 274,
+      "Name": "Metz, DuBuque and Tremblay",
+      "ToolTip": "Optio reiciendis suscipit est quidem odio est.",
       "Deleted": false,
-      "Rank": 510,
-      "Type": "enim",
-      "ColorBlock": 351,
-      "IconHint": "itaque",
-      "Selected": true,
-      "LastChanged": "1998-06-07T03:24:47.220828+02:00",
+      "Rank": 554,
+      "Type": "rerum",
+      "ColorBlock": 913,
+      "IconHint": "nostrum",
+      "Selected": false,
+      "LastChanged": "2011-03-27T13:38:13.0615453+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "voluptatem",
-      "Hidden": false,
-      "FullName": "Fredy Medhurst",
+      "ExtraInfo": "excepturi",
+      "StyleHint": "minima",
+      "Hidden": true,
+      "FullName": "Mr. Bradly Erica Durgan I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldType": "System.Int32",
+          "FieldLength": 162
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Flatley LLC",
+      "Name": "Medhurst, Stark and Orn",
       "Direction": "ASC"
     },
     {
-      "Name": "Flatley LLC",
+      "Name": "Medhurst, Stark and Orn",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "mollitia",
+  "OwnerKeys": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldType": "System.Int32",
+      "FieldLength": 436
     }
   }
 }

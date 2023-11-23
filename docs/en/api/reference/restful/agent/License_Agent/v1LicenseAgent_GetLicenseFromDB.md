@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Rice, Lesch and Gislason"
+  "OwnerName": "Brown, Bogisich and Dibbert"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 384,
-      "NumberOfLicensesFree": 380,
-      "NumberOfLicensesAdded": 315,
-      "NumberOfLicensesNewTotal": 677,
-      "NumberOfLicensesNewFree": 622,
-      "NumberOfLicensesTotal": 487
+      "NumberOfLicensesInUse": 56,
+      "NumberOfLicensesFree": 709,
+      "NumberOfLicensesAdded": 514,
+      "NumberOfLicensesNewTotal": 518,
+      "NumberOfLicensesNewFree": 594,
+      "NumberOfLicensesTotal": 524
     }
   ],
-  "AccumulatedNextCheckDate": "2021-01-17T03:24:47.8301403+01:00"
+  "AccumulatedNextCheckDate": "1997-12-26T13:38:13.6396102+01:00"
 }
 ```

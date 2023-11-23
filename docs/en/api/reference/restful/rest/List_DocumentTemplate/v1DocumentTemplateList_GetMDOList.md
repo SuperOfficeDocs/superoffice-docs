@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=ut
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
+GET /api/v1/List/DocumentTemplate/MDOItems?query=consequatur
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "Gulgowski, Feeney and Huel",
-    "ToolTip": "Qui ut unde quidem ea quibusdam esse culpa.",
-    "Deleted": false,
-    "Rank": 168,
-    "Type": "in",
+    "Id": 300,
+    "Name": "Waelchi-Konopelski",
+    "ToolTip": "Reprehenderit aut nesciunt et iure et optio id.",
+    "Deleted": true,
+    "Rank": 955,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Fadel-Pagac",
-        "ToolTip": "Enim architecto rerum voluptatem consequuntur labore.",
-        "Deleted": true,
-        "Rank": 108,
-        "Type": "quas",
+        "Id": 738,
+        "Name": "Zboncak-Yundt",
+        "ToolTip": "Facilis laboriosam voluptatibus ducimus et soluta quia.",
+        "Deleted": false,
+        "Rank": 222,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 759,
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptas",
-        "FullName": "Carlotta Huels",
+        "IconHint": "eos",
+        "ColorBlock": 863,
+        "ExtraInfo": "quo",
+        "StyleHint": "ipsam",
+        "FullName": "Mrs. Isabel Ernestina Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 746
+            "FieldLength": 469
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 208,
-    "ExtraInfo": "in",
-    "StyleHint": "sit",
-    "FullName": "Dandre Marquardt",
+    "IconHint": "labore",
+    "ColorBlock": 679,
+    "ExtraInfo": "impedit",
+    "StyleHint": "hic",
+    "FullName": "Joey Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldLength": 465
       }
     }
   }

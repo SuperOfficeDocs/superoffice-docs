@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 729,
-  "Name": "Marquardt-Waelchi",
-  "Tooltip": "iste",
+  "Id": 912,
+  "Name": "Goodwin Group",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 250,
+  "Rank": 668,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "ListType": "cum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 263,
-  "Name": "Thompson LLC",
-  "Tooltip": "corporis",
+  "Id": 958,
+  "Name": "Leffler, Fadel and Baumbach",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 252,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 624,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "corrupti",
+  "ListType": "qui",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldLength": 39
     }
   }
 }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 347,
-  "CountryId": 590
+  "ContactId": 171,
+  "CountryId": 868
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 12786.72,
-  "Wgs84Longitude": 12244.538,
+  "Wgs84Latitude": 1109.436,
+  "Wgs84Longitude": 22442.574,
   "LocalizedAddress": [
     [
       {
-        "Name": "Weissnat-Stamm",
-        "Value": "ullam",
-        "Tooltip": "officiis",
-        "Label": "voluptatibus",
-        "ValueLength": 588,
-        "AddressType": "ipsum",
+        "Name": "Keebler Group",
+        "Value": "autem",
+        "Tooltip": "quidem",
+        "Label": "eos",
+        "ValueLength": 533,
+        "AddressType": "vel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 877
+            "FieldLength": 265
           }
         }
       }
     ],
     [
       {
-        "Name": "Keeling-Prosacco",
-        "Value": "vel",
-        "Tooltip": "beatae",
-        "Label": "voluptatem",
-        "ValueLength": 182,
-        "AddressType": "vitae",
+        "Name": "Rippin, Kassulke and Rutherford",
+        "Value": "atque",
+        "Tooltip": "amet",
+        "Label": "corporis",
+        "ValueLength": 582,
+        "AddressType": "enim",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 424
+            "FieldLength": 714
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "dolor",
+  "Formatted": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldType": "System.Int32",
+      "FieldLength": 832
     }
   }
 }

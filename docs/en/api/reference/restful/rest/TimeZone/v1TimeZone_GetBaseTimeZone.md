@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 804,
-  "Name": "Murphy-Wolf",
-  "TZLocationCode": "repudiandae",
-  "TZLocationCities": "distinctio",
-  "IsoNumber": 635,
+  "TZLocationID": 538,
+  "Name": "Stehr, Schmeler and Paucek",
+  "TZLocationCode": "repellendus",
+  "TZLocationCities": "dolor",
+  "IsoNumber": 712,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 742,
-      "StartMonth": 365,
-      "EndDay": 255,
-      "EndMonth": 181,
-      "TZOffset": 291,
-      "StartRulePattern": "voluptas",
-      "EndRulePattern": "nihil"
+      "StartDay": 175,
+      "StartMonth": 924,
+      "EndDay": 524,
+      "EndMonth": 609,
+      "TZOffset": 494,
+      "StartRulePattern": "et",
+      "EndRulePattern": "deleniti"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 485,
-      "StartMonth": 671,
-      "EndDay": 900,
-      "EndMonth": 458,
-      "TZOffset": 304,
-      "StartRulePattern": "molestiae",
-      "EndRulePattern": "quasi"
+      "StartDay": 477,
+      "StartMonth": 748,
+      "EndDay": 505,
+      "EndMonth": 679,
+      "TZOffset": 823,
+      "StartRulePattern": "minus",
+      "EndRulePattern": "laboriosam"
     }
   }
 }

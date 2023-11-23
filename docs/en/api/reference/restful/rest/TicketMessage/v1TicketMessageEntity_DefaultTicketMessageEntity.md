@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 19,
+  "EjMessageId": 876,
   "Ticket": null,
-  "CreatedAt": "2019-03-03T03:24:51.9901188+01:00",
+  "CreatedAt": "2017-11-01T13:38:17.7336652+01:00",
   "CreatedBy": null,
-  "Author": "quas",
+  "Author": "dolor",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dicta",
-  "TimeSpent": 209,
-  "Body": "sit",
-  "HtmlBody": "tempora",
-  "EmailHeader": "darien@marks.ca",
-  "DebugInfo": "voluptatem",
-  "MailSorter": "repellendus",
+  "MessageId": "et",
+  "TimeSpent": 216,
+  "Body": "perspiciatis",
+  "HtmlBody": "numquam",
+  "EmailHeader": "georgette.kautzer@wizastamm.name",
+  "DebugInfo": "quaerat",
+  "MailSorter": "autem",
   "MessageCategory": "Bounce",
   "Person": null,
   "SearchTitle": "repudiandae",
   "MessageHeaders": [
     {
-      "Id": 47,
-      "Name": "Bernhard-Emmerich",
-      "Value": "quas",
+      "Id": 509,
+      "Name": "Schiller-Pagac",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,49 +121,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 85
         }
       }
     }
   ],
   "Important": false,
-  "Language": "voluptatibus",
-  "Sentiment": 737,
-  "SentimentConfidence": 596,
+  "Language": "doloribus",
+  "Sentiment": 659,
+  "SentimentConfidence": 379,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 151,
-      "Name": "Gutmann Inc and Sons",
-      "ContentType": "voluptatem",
-      "AttSize": 32,
-      "InlineImage": false,
-      "ContentId": "culpa",
-      "AuthKey": "quo",
+      "AttachmentId": 1001,
+      "Name": "Torp Group",
+      "ContentType": "totam",
+      "AttSize": 573,
+      "InlineImage": true,
+      "ContentId": "omnis",
+      "AuthKey": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 107
+          "FieldType": "System.Int32",
+          "FieldLength": 279
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "neque"
   },
   "CustomFields": {
-    "CustomFields1": "itaque",
-    "CustomFields2": "magni"
+    "CustomFields1": "dolores",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 585
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   }
 }

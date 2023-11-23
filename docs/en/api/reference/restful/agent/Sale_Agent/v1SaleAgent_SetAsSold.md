@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Sale/SetAsSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    950,
-    223
+    241,
+    734
   ]
 }
 ```

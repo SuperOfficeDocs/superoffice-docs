@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=et
+GET /api/v1/List/MrMrs/MDOItems?query=aut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 542,
-    "Name": "Ruecker, Raynor and Zulauf",
-    "ToolTip": "Est non repellendus aut ea quo odio.",
+    "Id": 65,
+    "Name": "Cummerata, Cartwright and Mraz",
+    "ToolTip": "Quo sit voluptatem aspernatur.",
     "Deleted": false,
-    "Rank": 640,
-    "Type": "quisquam",
+    "Rank": 722,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 329,
-        "Name": "Monahan, Trantow and Roob",
-        "ToolTip": "Corporis non sit officiis alias beatae consequatur tempore.",
-        "Deleted": true,
-        "Rank": 252,
-        "Type": "voluptatem",
+        "Id": 330,
+        "Name": "Hegmann Inc and Sons",
+        "ToolTip": "Est velit a quia ut voluptate.",
+        "Deleted": false,
+        "Rank": 150,
+        "Type": "asperiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 428,
-        "ExtraInfo": "iure",
-        "StyleHint": "ut",
-        "FullName": "Newell Hackett PhD",
+        "IconHint": "sit",
+        "ColorBlock": 849,
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "fugit",
+        "FullName": "Mr. Jaydon Okuneva MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 711
+            "FieldType": "System.Int32",
+            "FieldLength": 851
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 714,
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "officia",
-    "FullName": "Chanel Monahan",
+    "IconHint": "dolor",
+    "ColorBlock": 612,
+    "ExtraInfo": "beatae",
+    "StyleHint": "fugiat",
+    "FullName": "Prof. Pattie Bart Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldType": "System.String",
+        "FieldLength": 814
       }
     }
   }

@@ -119,18 +119,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "est",
     "value": {}
   }
 ]
@@ -143,30 +143,30 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 752,
-  "Name": "Stracke Group",
-  "Rank": 55,
-  "Tooltip": "sint",
-  "Icon": "nobis",
-  "DefaultTicketStatus": 829,
+  "TicketTypeId": 498,
+  "Name": "Bernhard, Cormier and Volkman",
+  "Rank": 668,
+  "Tooltip": "aliquam",
+  "Icon": "dicta",
+  "DefaultTicketStatus": 730,
   "TicketStatuses": [
-    692,
-    166
+    476,
+    598
   ],
-  "DefaultTicketPriority": 555,
+  "DefaultTicketPriority": 496,
   "TicketPriorities": [
-    543,
-    492
+    770,
+    81
   ],
-  "ReplyTemplate": 895,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 529,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldType": "System.String",
+      "FieldLength": 641
     }
   },
   "_Links": {

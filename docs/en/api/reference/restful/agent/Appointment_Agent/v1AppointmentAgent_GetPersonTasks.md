@@ -115,6 +115,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -131,8 +132,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 795,
-  "Count": 940
+  "PersonId": 502,
+  "Count": 917
 }
 ```
 
@@ -144,64 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 945,
-    "StartDate": "1996-05-10T03:24:47.220828+02:00",
-    "EndDate": "2014-10-08T03:24:47.220828+02:00",
+    "AppointmentId": 877,
+    "StartDate": "2014-10-03T13:38:13.0459237+02:00",
+    "EndDate": "2007-08-09T13:38:13.0459237+02:00",
     "Type": "BookingForChecklist",
-    "Task": "blanditiis",
-    "AssociateFullName": "Miss Nigel Lesch DVM",
-    "ContactName": "Windler, Will and Auer",
-    "Description": "Devolved value-added service-desk",
-    "PersonFullName": "Miss Reece Jenkins",
-    "PersonId": 331,
-    "ContactId": 400,
-    "ProjectId": 824,
-    "ProjectName": "Cremin, Jacobi and Wilkinson",
+    "Task": "ut",
+    "AssociateFullName": "Alycia Paula Corwin II",
+    "ContactName": "VonRueden-Runte",
+    "Description": "Upgradable 6th generation neural-net",
+    "PersonFullName": "Albina Koepp",
+    "PersonId": 587,
+    "ContactId": 912,
+    "ProjectId": 971,
+    "ProjectName": "Hessel, D'Amore and Leffler",
     "IsPublished": true,
-    "AssociateId": 835,
-    "ColorIndex": 611,
-    "IsFree": false,
+    "AssociateId": 353,
+    "ColorIndex": 564,
+    "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 669,
-    "PriorityName": "Runolfsdottir, Hegmann and White",
+    "PriorityId": 138,
+    "PriorityName": "Howe-Keeling",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2005-07-19T03:24:47.220828+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "1998-09-01T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-09-17T03:24:47.220828+02:00",
-    "RecurringEndDate": "2019-04-10T03:24:47.220828+02:00",
-    "MotherId": 486,
-    "AssignedBy": 945,
-    "AssignedByFullName": "Rosa Yost IV",
-    "RejectReason": "",
-    "Location": "nulla",
-    "AlarmLeadTime": "dolor",
-    "SaleId": 611,
-    "SaleName": "Bashirian Inc and Sons",
-    "AssociateName": "Mohr Inc and Sons",
-    "CreatedDate": "2020-09-06T03:24:47.220828+02:00",
-    "CreatedBy": "iure",
-    "CreatedByFullName": "Kattie Ondricka",
-    "CreatedByAssociateId": 491,
+    "RecurringStartDate": "2007-01-31T13:38:13.0459237+01:00",
+    "RecurringEndDate": "2013-06-02T13:38:13.0459237+02:00",
+    "MotherId": 94,
+    "AssignedBy": 72,
+    "AssignedByFullName": "Mrs. Makenzie King I",
+    "RejectReason": "target intuitive initiatives",
+    "Location": "ea",
+    "AlarmLeadTime": "nihil",
+    "SaleId": 256,
+    "SaleName": "Kertzmann LLC",
+    "AssociateName": "Bednar-Wunsch",
+    "CreatedDate": "2023-02-03T13:38:13.0459237+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Prof. Jude Mauricio Ledner DVM",
+    "CreatedByAssociateId": 917,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "ipsam",
-    "Agenda": "assumenda",
-    "InternalNotes": "est",
+    "PreferredTZLocation": 197,
+    "Title": "illo",
+    "Agenda": "sunt",
+    "InternalNotes": "doloribus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 815
+        "FieldType": "System.Int32",
+        "FieldLength": 934
       }
     }
   }

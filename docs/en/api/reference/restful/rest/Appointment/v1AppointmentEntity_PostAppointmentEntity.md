@@ -91,7 +91,8 @@ The AppointmentEntity to be saved.
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | Integer | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | Integer | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | Integer | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | Boolean | Is this appointment a milestone? |
@@ -162,7 +163,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -198,110 +200,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-05-17T03:24:51.3023402+02:00",
-  "AppointmentId": 291,
-  "Description": "Customer-focused content-based intranet",
-  "StartDate": "1997-07-03T03:24:51.3023402+02:00",
-  "EndDate": "2020-06-15T03:24:51.3023402+02:00",
+  "CreatedDate": "2017-10-16T13:38:17.0462403+02:00",
+  "AppointmentId": 540,
+  "Description": "Stand-alone well-modulated productivity",
+  "StartDate": "2018-01-30T13:38:17.0462403+01:00",
+  "EndDate": "2015-01-20T13:38:17.0462403+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 663,
+  "MotherId": 97,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-06-04T03:24:51.3023402+02:00",
+  "UpdatedDate": "2000-12-31T13:38:17.0462403+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 729,
+  "ActiveLinks": 28,
   "Links": [
     {
-      "EntityName": "Wuckert-Spencer",
-      "Id": 952,
-      "Description": "Polarised holistic pricing structure",
-      "ExtraInfo": "quae",
-      "LinkId": 191
+      "EntityName": "Schumm, Bradtke and Gaylord",
+      "Id": 972,
+      "Description": "Organized grid-enabled conglomeration",
+      "ExtraInfo": "aperiam",
+      "LinkId": 251
     },
     {
-      "EntityName": "Wuckert-Spencer",
-      "Id": 952,
-      "Description": "Polarised holistic pricing structure",
-      "ExtraInfo": "quae",
-      "LinkId": 191
+      "EntityName": "Schumm, Bradtke and Gaylord",
+      "Id": 972,
+      "Description": "Organized grid-enabled conglomeration",
+      "ExtraInfo": "aperiam",
+      "LinkId": 251
     }
   ],
-  "AlarmLeadTime": "labore",
-  "HasAlarm": true,
-  "ColorIndex": 284,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "praesentium",
-  "LeadTime": "illum",
-  "Location": "eos",
-  "RejectCounter": 382,
+  "AlarmLeadTime": "earum",
+  "HasAlarm": false,
+  "ColorIndex": 927,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "sunt",
+  "LeadTime": "qui",
+  "Location": "asperiores",
+  "RejectCounter": 90,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 470,
-      "PersonId": 343,
-      "ContactId": 983,
-      "EmailId": 455,
+      "AssociateId": 75,
+      "PersonId": 433,
+      "ContactId": 618,
+      "EmailId": 611,
       "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 470,
-      "PersonId": 343,
-      "ContactId": 983,
-      "EmailId": 455,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "alexys@howe.co.uk",
+      "Description": "Mandatory encompassing system engine"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-09-19T03:24:51.3023402+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2006-05-10T13:38:17.0462403+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 898,
+  "PreferredTZLocation": 643,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 422,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 764,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eos",
-  "Title": "est",
-  "Agenda": "sed",
-  "InternalNotes": "molestiae",
+  "CentralserviceVideomeetId": "pariatur",
+  "Title": "eveniet",
+  "Agenda": "reprehenderit",
+  "InternalNotes": "est",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Jamir Kyler Cassin",
+    "SuperOffice:1": "1141236809",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "sit"
+    "CustomFields1": "itaque",
+    "CustomFields2": "corrupti"
   },
-  "PublishEventDate": "2002-06-26T03:24:51.3023402+02:00",
-  "PublishTo": "1999-03-21T03:24:51.3023402+01:00",
-  "PublishFrom": "2018-05-01T03:24:51.3023402+02:00",
+  "PublishEventDate": "1999-12-11T13:38:17.0462403+01:00",
+  "PublishTo": "2001-06-28T13:38:17.0462403+02:00",
+  "PublishFrom": "2015-06-24T13:38:17.0462403+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 152,
+      "VisibleId": 639,
       "Visibility": "All",
-      "DisplayValue": "repellendus"
+      "DisplayValue": "atque"
     },
     {
-      "VisibleId": 152,
+      "VisibleId": 639,
       "Visibility": "All",
-      "DisplayValue": "repellendus"
+      "DisplayValue": "atque"
     }
   ]
 }
@@ -318,125 +315,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-03-30T03:24:51.3023402+02:00",
-  "AppointmentId": 880,
-  "Description": "Exclusive tangible alliance",
-  "StartDate": "2005-01-21T03:24:51.3023402+01:00",
-  "EndDate": "1997-05-28T03:24:51.3023402+02:00",
+  "CreatedDate": "2014-04-10T13:38:17.0462403+02:00",
+  "AppointmentId": 139,
+  "Description": "Re-engineered secondary structure",
+  "StartDate": "2011-09-08T13:38:17.0462403+02:00",
+  "EndDate": "2009-01-03T13:38:17.0462403+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 369,
+  "MotherId": 280,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-03-01T03:24:51.3023402+01:00",
+  "UpdatedDate": "2019-07-03T13:38:17.0462403+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 387,
+  "ActiveLinks": 816,
   "Links": [
     {
-      "EntityName": "Paucek Group",
-      "Id": 334,
-      "Description": "Adaptive client-server support",
-      "ExtraInfo": "totam",
-      "LinkId": 662,
+      "EntityName": "Rempel Group",
+      "Id": 579,
+      "Description": "Realigned transitional leverage",
+      "ExtraInfo": "et",
+      "LinkId": 623,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 280
+          "FieldLength": 464
         }
       }
     }
   ],
-  "AlarmLeadTime": "harum",
-  "HasAlarm": false,
-  "ColorIndex": 252,
+  "AlarmLeadTime": "voluptatem",
+  "HasAlarm": true,
+  "ColorIndex": 248,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "corrupti",
-  "LeadTime": "aliquam",
-  "Location": "adipisci",
-  "RejectCounter": 578,
+  "LagTime": "voluptatem",
+  "LeadTime": "ea",
+  "Location": "eos",
+  "RejectCounter": 48,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 787,
-      "PersonId": 40,
-      "ContactId": 944,
-      "EmailId": 879,
+      "AssociateId": 471,
+      "PersonId": 273,
+      "ContactId": 928,
+      "EmailId": 405,
       "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 787,
-      "PersonId": 40,
-      "ContactId": 944,
-      "EmailId": 879,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "geoffrey_armstrong@west.com",
+      "Description": "Polarised 24/7 support"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1996-07-14T03:24:51.3023402+02:00",
+  "ActiveDate": "2017-09-07T13:38:17.0462403+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 14,
+  "PreferredTZLocation": 214,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 335,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 778,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nihil",
-  "Title": "deleniti",
-  "Agenda": "occaecati",
-  "InternalNotes": "totam",
+  "CentralserviceVideomeetId": "similique",
+  "Title": "et",
+  "Agenda": "impedit",
+  "InternalNotes": "explicabo",
   "UserDefinedFields": {
-    "SuperOffice:1": "1649608852",
-    "SuperOffice:2": "Laurel Hills"
+    "SuperOffice:1": "1379202187",
+    "SuperOffice:2": "Karl Bartoletti"
   },
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "tenetur"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "minus"
+    "CustomFields1": "esse",
+    "CustomFields2": "aspernatur"
   },
-  "PublishEventDate": "2005-08-25T03:24:51.3180018+02:00",
-  "PublishTo": "2015-12-07T03:24:51.3180018+01:00",
-  "PublishFrom": "2015-09-23T03:24:51.3180018+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2016-07-01T13:38:17.0462403+02:00",
+  "PublishTo": "2014-06-09T13:38:17.0462403+02:00",
+  "PublishFrom": "2019-02-23T13:38:17.0462403+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 761,
+      "VisibleId": 804,
       "Visibility": "All",
-      "DisplayValue": "quos",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldLength": 591
         }
       }
     },
     {
-      "VisibleId": 761,
+      "VisibleId": 804,
       "Visibility": "All",
-      "DisplayValue": "quos",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldLength": 591
         }
       }
     }
@@ -446,12 +438,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldLength": 946
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 640,
-  "Name": "Sipes Group",
-  "Tooltip": "quibusdam",
+  "Id": 698,
+  "Name": "Effertz, Donnelly and Smith",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 460,
-  "Rank": 4,
+  "UdListDefinitionId": 372,
+  "Rank": 883,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldType": "System.String",
+      "FieldLength": 639
     }
   }
 }

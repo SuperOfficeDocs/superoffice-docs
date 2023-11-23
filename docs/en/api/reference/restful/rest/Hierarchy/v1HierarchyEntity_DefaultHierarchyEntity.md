@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 50,
+  "HierarchyId": 541,
   "Domain": "Dashboards",
-  "Name": "Macejkovic Group",
-  "Fullname": "deserunt",
-  "ParentId": 909,
+  "Name": "Stamm Inc and Sons",
+  "Fullname": "vel",
+  "ParentId": 138,
   "Children": [
     {
-      "HierarchyId": 126,
+      "HierarchyId": 461,
       "Domain": "Dashboards",
-      "Name": "Grimes Group",
-      "Fullname": "hic",
-      "ParentId": 528,
+      "Name": "Senger-Parker",
+      "Fullname": "est",
+      "ParentId": 504,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-08-01T03:24:51.630601+02:00",
-      "RegisteredAssociateId": 691,
-      "Updated": "2014-12-14T03:24:51.630601+01:00",
-      "UpdatedAssociateId": 306,
+      "Registered": "2010-08-15T13:38:17.4524494+02:00",
+      "RegisteredAssociateId": 701,
+      "Updated": "2008-12-10T13:38:17.4524494+01:00",
+      "UpdatedAssociateId": 123,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldType": "System.Int32",
+          "FieldLength": 639
         }
       }
     }
   ],
-  "Registered": "2007-03-23T03:24:51.630601+01:00",
-  "RegisteredAssociateId": 347,
-  "Updated": "2003-09-15T03:24:51.630601+02:00",
-  "UpdatedAssociateId": 167,
+  "Registered": "2007-10-26T13:38:17.4524494+02:00",
+  "RegisteredAssociateId": 57,
+  "Updated": "2003-02-10T13:38:17.4524494+01:00",
+  "UpdatedAssociateId": 441,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldType": "System.Int32",
+      "FieldLength": 725
     }
   }
 }

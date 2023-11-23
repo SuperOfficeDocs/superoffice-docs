@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 55,
-    "Name": "Kirlin-Raynor",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "Rank": 973,
-    "UdListDefinitionId": 816,
+    "HeadingId": 20,
+    "Name": "Bosco-Bailey",
+    "Tooltip": "voluptatibus",
+    "Deleted": false,
+    "Rank": 624,
+    "UdListDefinitionId": 875,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldType": "System.String",
+        "FieldLength": 858
       }
     }
   }

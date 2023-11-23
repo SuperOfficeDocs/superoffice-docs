@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -134,10 +135,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 323,
-  "StartTime": "2009-03-03T03:24:46.9081566+01:00",
-  "EndTime": "2011-08-09T03:24:46.9081566+02:00",
-  "Count": 534,
+  "ProjectId": 88,
+  "StartTime": "2004-11-13T13:38:12.8271613+01:00",
+  "EndTime": "2002-07-02T13:38:12.8271613+02:00",
+  "Count": 221,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 219,
-    "StartDate": "2020-04-03T03:24:46.9238216+02:00",
-    "EndDate": "2019-05-23T03:24:46.9238216+02:00",
+    "AppointmentId": 1001,
+    "StartDate": "2014-07-06T13:38:12.8271613+02:00",
+    "EndDate": "2011-04-05T13:38:12.8271613+02:00",
     "Type": "BookingForChecklist",
-    "Task": "neque",
-    "AssociateFullName": "Rosanna Mayer",
-    "ContactName": "Mayert-Sawayn",
-    "Description": "Organic interactive initiative",
-    "PersonFullName": "Miss Cleve Klein",
-    "PersonId": 170,
-    "ContactId": 258,
-    "ProjectId": 275,
-    "ProjectName": "Lynch-Schuppe",
-    "IsPublished": false,
-    "AssociateId": 194,
-    "ColorIndex": 440,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "Task": "laudantium",
+    "AssociateFullName": "Mrs. Nicolette McDermott I",
+    "ContactName": "Metz, Kuphal and King",
+    "Description": "Inverse demand-driven website",
+    "PersonFullName": "Mrs. Clemmie Carroll",
+    "PersonId": 742,
+    "ContactId": 137,
+    "ProjectId": 363,
+    "ProjectName": "Cummerata, Graham and Lockman",
+    "IsPublished": true,
+    "AssociateId": 768,
+    "ColorIndex": 189,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 734,
-    "PriorityName": "Nolan-Erdman",
+    "PriorityId": 966,
+    "PriorityName": "Renner Group",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2015-01-04T03:24:46.9238216+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2016-01-24T13:38:12.8271613+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-09-30T03:24:46.9238216+02:00",
-    "RecurringEndDate": "2008-12-26T03:24:46.9238216+01:00",
-    "MotherId": 366,
-    "AssignedBy": 48,
-    "AssignedByFullName": "Thea McClure DVM",
+    "RecurringStartDate": "2005-11-08T13:38:12.8271613+01:00",
+    "RecurringEndDate": "2008-08-24T13:38:12.8271613+02:00",
+    "MotherId": 916,
+    "AssignedBy": 512,
+    "AssignedByFullName": "Torrey Ullrich",
     "RejectReason": "",
-    "Location": "molestiae",
-    "AlarmLeadTime": "fugiat",
-    "SaleId": 236,
-    "SaleName": "Schmeler-Glover",
-    "AssociateName": "Gottlieb Group",
-    "CreatedDate": "2021-06-08T03:24:46.9238216+02:00",
-    "CreatedBy": "illum",
-    "CreatedByFullName": "Hollis Sonny Cruickshank I",
-    "CreatedByAssociateId": 306,
+    "Location": "et",
+    "AlarmLeadTime": "quasi",
+    "SaleId": 490,
+    "SaleName": "Stamm-Gislason",
+    "AssociateName": "Wisoky-Torp",
+    "CreatedDate": "2019-04-19T13:38:12.8271613+02:00",
+    "CreatedBy": "unde",
+    "CreatedByFullName": "Prof. Camila Paucek",
+    "CreatedByAssociateId": 499,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "eum",
-    "Agenda": "rerum",
-    "InternalNotes": "neque",
+    "PreferredTZLocation": 959,
+    "Title": "est",
+    "Agenda": "dolorem",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldLength": 333
       }
     }
   }

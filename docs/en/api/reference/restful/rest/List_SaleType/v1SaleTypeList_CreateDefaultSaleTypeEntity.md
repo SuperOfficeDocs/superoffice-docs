@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 857,
-  "Name": "Rogahn-Daniel",
-  "Tooltip": "ut",
-  "Rank": 843,
+  "SaleTypeId": 392,
+  "Name": "Hyatt-Schoen",
+  "Tooltip": "aut",
+  "Rank": 740,
   "DurationUnit": "Century",
-  "SaleDuration": 223,
-  "SaleTypeCatId": 626,
-  "Deleted": true,
+  "SaleDuration": 901,
+  "SaleTypeCatId": 68,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 589,
-  "QuoteLinesTemplate": 538,
-  "ConfirmationLinesTemplate": 595,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 4,
-  "MinEarningPercent": 521,
-  "GroupQuoteLinesBy": 240,
-  "SortGroupLinesBy": 442,
+  "DefaultQuoteValidity": 940,
+  "QuoteLinesTemplate": 33,
+  "ConfirmationLinesTemplate": 13,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 86,
+  "MinEarningPercent": 267,
+  "GroupQuoteLinesBy": 299,
+  "SortGroupLinesBy": 534,
   "Stages": [
     {
-      "Id": 978,
-      "Name": "Flatley, Nicolas and Heidenreich",
-      "ToolTip": "Quia quia.",
+      "Id": 899,
+      "Name": "Romaguera Group",
+      "ToolTip": "Quia distinctio corporis cumque autem.",
       "Deleted": true,
-      "Rank": 788,
-      "Type": "optio",
-      "ColorBlock": 592,
-      "IconHint": "occaecati",
+      "Rank": 627,
+      "Type": "eos",
+      "ColorBlock": 981,
+      "IconHint": "delectus",
       "Selected": false,
-      "LastChanged": "2012-03-12T03:24:52.4119449+01:00",
+      "LastChanged": "2003-04-14T13:38:18.2181419+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "voluptatem",
-      "Hidden": true,
-      "FullName": "Nikolas Zulauf",
+      "ExtraInfo": "dolores",
+      "StyleHint": "necessitatibus",
+      "Hidden": false,
+      "FullName": "Mrs. Frida Roob DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldType": "System.String",
+          "FieldLength": 637
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 928
     }
   }
 }

@@ -88,15 +88,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 425,
-  "Name": "Balistreri, Ferry and Satterfield",
-  "Tooltip": "illo",
-  "Deleted": true,
-  "Rank": 896,
+  "Id": 200,
+  "Name": "Toy-Runolfsson",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 604,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
+  "ListType": "excepturi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 925,
-  "Name": "Cassin, Fadel and Schumm",
-  "Tooltip": "iusto",
-  "Deleted": false,
-  "Rank": 382,
-  "IsCustomList": false,
+  "Id": 266,
+  "Name": "Fadel Inc and Sons",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 773,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "facere",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 662
     }
   }
 }

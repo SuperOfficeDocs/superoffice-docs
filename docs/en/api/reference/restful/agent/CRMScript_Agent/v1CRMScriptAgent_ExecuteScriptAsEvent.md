@@ -79,6 +79,8 @@ OK
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
 | ParserValues | object | Parser values sent to the event handler |
+| CgiVariables | object | Cgi variables sent by some events |
+| CgiContent | string | The Cgi content/body, sent by some events |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -92,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 772,
+  "CRMScriptId": 543,
   "EventData": null
 }
 ```
@@ -106,32 +108,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "aut",
-    "InputValues2": "voluptatem"
+    "InputValues1": "odit",
+    "InputValues2": "nobis"
   },
   "BlockExecution": false,
-  "NavigateTo": "voluptatem",
-  "Message": "quibusdam",
-  "ShowDialog": "odit",
+  "NavigateTo": "doloribus",
+  "Message": "mollitia",
+  "ShowDialog": "recusandae",
   "OutputValues": {
-    "OutputValues1": "et",
-    "OutputValues2": "pariatur"
+    "OutputValues1": "unde",
+    "OutputValues2": "accusantium"
   },
   "StateValues": {
-    "StateValues1": "doloribus",
-    "StateValues2": "nulla"
+    "StateValues1": "omnis",
+    "StateValues2": "facere"
   },
-  "Exception": "magni",
+  "Exception": "id",
   "ParserValues": {
-    "ParserValues1": "nam",
-    "ParserValues2": "error"
+    "ParserValues1": "porro",
+    "ParserValues2": "voluptatum"
   },
+  "CgiVariables": {
+    "CgiVariables1": "quasi",
+    "CgiVariables2": "maiores"
+  },
+  "CgiContent": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldLength": 602
     }
   }
 }

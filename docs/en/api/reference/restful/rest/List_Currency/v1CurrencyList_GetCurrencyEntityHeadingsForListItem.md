@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 387,
-    "Name": "Trantow-Cronin",
-    "ToolTip": "Dolores necessitatibus delectus reiciendis esse.",
-    "Deleted": true,
-    "Rank": 261,
-    "Type": "deleniti",
-    "ColorBlock": 755,
-    "IconHint": "debitis",
+    "Id": 596,
+    "Name": "Hansen-Schuppe",
+    "ToolTip": "Quasi dolore a quisquam non.",
+    "Deleted": false,
+    "Rank": 893,
+    "Type": "dolorem",
+    "ColorBlock": 95,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "1996-05-09T03:24:52.2244666+02:00",
+    "LastChanged": "2004-04-21T13:38:18.0306692+02:00",
     "ChildItems": [
       {
-        "Id": 972,
-        "Name": "Reynolds, Aufderhar and Zboncak",
-        "ToolTip": "Vitae exercitationem qui.",
+        "Id": 112,
+        "Name": "Hayes, Lindgren and Jacobi",
+        "ToolTip": "Nobis accusantium laudantium dolor vero.",
         "Deleted": false,
-        "Rank": 355,
-        "Type": "sed",
-        "ColorBlock": 827,
-        "IconHint": "adipisci",
-        "Selected": true,
-        "LastChanged": "2021-10-12T03:24:52.2244666+02:00",
+        "Rank": 307,
+        "Type": "porro",
+        "ColorBlock": 242,
+        "IconHint": "harum",
+        "Selected": false,
+        "LastChanged": "2007-05-04T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "debitis",
+        "ExtraInfo": "aut",
+        "StyleHint": "dicta",
         "Hidden": false,
-        "FullName": "Malinda Kuhic",
+        "FullName": "Reymundo Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 773
+            "FieldLength": 557
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Mrs. Emilio Fabiola Hettinger",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "distinctio",
+    "Hidden": false,
+    "FullName": "Prof. Stephany Jamir Lakin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldLength": 50
       }
     }
   }

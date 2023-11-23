@@ -62,11 +62,11 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:Workflow="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
   <Workflow:GetWorkflowStepOptionResponse>
-   <Workflow:Response xsi:type="Workflow:WorkflowStepOption">
+   <Workflow:Response xsi:type="Workflow:WorkflowStepOptionBase">
+    <Workflow:OptionType xsi:type="Workflow:WorkflowSplitOptionType">None</Workflow:OptionType>
     <Workflow:WorkflowStepOptionId xsi:type="xsd:int">0</Workflow:WorkflowStepOptionId>
     <Workflow:WorkflowStepId xsi:type="xsd:int">0</Workflow:WorkflowStepId>
     <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
-    <Workflow:Key xsi:type="xsd:string"></Workflow:Key>
     <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
     <Workflow:Rank xsi:type="xsd:int">0</Workflow:Rank>
     <Workflow:Steps xsi:type="Workflow:ArrayOfWorkflowStepBase">

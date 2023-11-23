@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 668,
-  "Name": "Flatley LLC",
-  "Tooltip": "natus",
-  "Deleted": true,
-  "Rank": 427,
+  "Id": 98,
+  "Name": "Deckow Group",
+  "Tooltip": "rem",
+  "Deleted": false,
+  "Rank": 221,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "unde",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 608,
-  "Name": "Legros-Bogisich",
-  "Tooltip": "exercitationem",
+  "Id": 678,
+  "Name": "Blick, Hane and Farrell",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 945,
+  "Rank": 96,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestias",
-  "InUseByUserDefinedFields": false,
+  "ListType": "atque",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldLength": 880
     }
   }
 }

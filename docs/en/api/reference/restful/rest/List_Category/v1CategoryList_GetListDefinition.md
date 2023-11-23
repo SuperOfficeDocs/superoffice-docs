@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 180,
-  "Name": "Gerhold-Nitzsche",
-  "Tooltip": "laudantium",
+  "Id": 450,
+  "Name": "Dickens-Paucek",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 195,
+  "Rank": 468,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quaerat",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "enim",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   },
   "_Links": {

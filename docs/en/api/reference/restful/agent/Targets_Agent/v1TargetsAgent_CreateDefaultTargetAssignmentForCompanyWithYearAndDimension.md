@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 155,
-  "TargetDimensionId": 100
+  "Year": 510,
+  "TargetDimensionId": 51
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 369,
+    "TargetAssignmentInfoId": 834,
     "Values": [
-      61,
-      469
+      420,
+      509
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 774,
-    "DimensionListItemDisplayName": "Wisoky, Goodwin and Reilly",
+    "DimensionListItem": 147,
+    "DimensionListItemDisplayName": "Lockman, Lindgren and Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldLength": 951
       }
     }
   }

@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 424,
-    "Name": "Altenwerth LLC",
-    "ToolTip": "Reiciendis consequatur tenetur sunt.",
-    "Deleted": true,
-    "Rank": 505,
-    "Type": "eos",
-    "ColorBlock": 743,
-    "IconHint": "ut",
+    "Id": 786,
+    "Name": "Streich-Littel",
+    "ToolTip": "Rerum harum ullam eum autem.",
+    "Deleted": false,
+    "Rank": 219,
+    "Type": "accusantium",
+    "ColorBlock": 29,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "1997-04-26T03:24:52.318209+02:00",
+    "LastChanged": "2004-12-25T13:38:18.1400255+01:00",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Wehner, Grimes and Jacobson",
-        "ToolTip": "Consequatur nam et sunt rem.",
-        "Deleted": true,
-        "Rank": 537,
-        "Type": "pariatur",
-        "ColorBlock": 332,
-        "IconHint": "ipsam",
+        "Id": 122,
+        "Name": "Crist, Zulauf and Beer",
+        "ToolTip": "Sed quo doloribus dolor eligendi.",
+        "Deleted": false,
+        "Rank": 705,
+        "Type": "nihil",
+        "ColorBlock": 35,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2023-02-23T03:24:52.318209+01:00",
+        "LastChanged": "2003-02-16T13:38:18.1400255+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "similique",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Dr. Maggie Zieme",
+        "FullName": "Ms. Gianni Burnice Renner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 229
+            "FieldLength": 109
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "animi",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Millie Ayden Jerde IV",
+    "FullName": "Jairo VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 476
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 48,
-    "Name": "Watsica, Considine and Schowalter",
-    "ToolTip": "In sunt eaque.",
-    "Deleted": false,
-    "Rank": 539,
-    "Type": "consectetur",
-    "ColorBlock": 940,
-    "IconHint": "corporis",
-    "Selected": true,
-    "LastChanged": "2007-10-21T03:24:52.2244666+02:00",
+    "Id": 918,
+    "Name": "Abbott LLC",
+    "ToolTip": "Quas deleniti consequuntur culpa et sed sit consequuntur.",
+    "Deleted": true,
+    "Rank": 292,
+    "Type": "voluptatem",
+    "ColorBlock": 191,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "2007-07-31T13:38:18.0306692+02:00",
     "ChildItems": [
       {
-        "Id": 447,
-        "Name": "Rodriguez, Treutel and Botsford",
-        "ToolTip": "Temporibus quo vel ipsa dolor ea ut repellat.",
+        "Id": 642,
+        "Name": "Nolan LLC",
+        "ToolTip": "Consequatur maxime eum quidem.",
         "Deleted": false,
-        "Rank": 324,
-        "Type": "accusamus",
-        "ColorBlock": 166,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2018-05-12T03:24:52.2244666+02:00",
+        "Rank": 565,
+        "Type": "nulla",
+        "ColorBlock": 161,
+        "IconHint": "minus",
+        "Selected": false,
+        "LastChanged": "2021-09-18T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "sequi",
+        "ExtraInfo": "magnam",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Nicklaus Daniel"
+        "FullName": "Abraham Braun"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Dr. Brenna Feest DDS"
+    "ExtraInfo": "sed",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Alfonzo Gibson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Name": "Gulgowski, Graham and Kemmer",
-    "ToolTip": "Possimus hic consequatur libero.",
-    "Deleted": false,
-    "Rank": 205,
-    "Type": "qui",
-    "ColorBlock": 290,
-    "IconHint": "sed",
+    "Id": 717,
+    "Name": "Gorczany, Beahan and Kuvalis",
+    "ToolTip": "Molestiae consequuntur adipisci vitae magnam magni totam reprehenderit.",
+    "Deleted": true,
+    "Rank": 924,
+    "Type": "aut",
+    "ColorBlock": 479,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2020-04-21T03:24:52.2244666+02:00",
+    "LastChanged": "2002-12-07T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 479,
-        "Name": "McClure-Nitzsche",
-        "ToolTip": "Quae in illo.",
+        "Id": 332,
+        "Name": "Grady-Mueller",
+        "ToolTip": "Quia repellendus deleniti nulla labore qui voluptate in.",
         "Deleted": false,
-        "Rank": 400,
-        "Type": "laudantium",
-        "ColorBlock": 441,
-        "IconHint": "ipsam",
+        "Rank": 399,
+        "Type": "ad",
+        "ColorBlock": 605,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2004-01-31T03:24:52.2244666+01:00",
+        "LastChanged": "1998-12-30T13:38:18.0306692+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "omnis",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Kylie Howe",
+        "FullName": "Miss Lexi Schuster DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 407
+            "FieldLength": 809
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "ex",
-    "Hidden": true,
-    "FullName": "Mr. Melissa Yundt",
+    "ExtraInfo": "iste",
+    "StyleHint": "quaerat",
+    "Hidden": false,
+    "FullName": "Walter Braun",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldType": "System.String",
+        "FieldLength": 485
       }
     }
   }

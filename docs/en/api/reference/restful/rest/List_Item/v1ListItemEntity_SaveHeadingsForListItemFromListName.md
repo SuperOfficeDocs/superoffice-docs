@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Spencer Group",
-    "ToolTip": "Omnis repellendus occaecati nesciunt.",
+    "Id": 595,
+    "Name": "Schmitt, Hoeger and Kessler",
+    "ToolTip": "Et repudiandae.",
     "Deleted": false,
-    "Rank": 654,
-    "Type": "sit",
-    "ColorBlock": 799,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2015-08-28T03:24:52.1463474+02:00",
+    "Rank": 398,
+    "Type": "ea",
+    "ColorBlock": 935,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2019-03-04T13:38:17.8900531+01:00",
     "ChildItems": [
       {
-        "Id": 521,
-        "Name": "Rippin-Veum",
-        "ToolTip": "Dolorum et dolor saepe.",
-        "Deleted": false,
-        "Rank": 892,
-        "Type": "et",
-        "ColorBlock": 204,
-        "IconHint": "aliquid",
-        "Selected": false,
-        "LastChanged": "2005-05-06T03:24:52.1463474+02:00",
+        "Id": 230,
+        "Name": "Rohan LLC",
+        "ToolTip": "Dolore id ut.",
+        "Deleted": true,
+        "Rank": 36,
+        "Type": "placeat",
+        "ColorBlock": 343,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2012-06-22T13:38:17.8900531+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Nico Mckayla Effertz II"
+        "ExtraInfo": "deserunt",
+        "StyleHint": "laboriosam",
+        "Hidden": false,
+        "FullName": "Serena Cremin"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "nihil",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "adipisci",
     "Hidden": false,
-    "FullName": "Dr. Troy Ellis Okuneva"
+    "FullName": "Miss Justine Abagail Ebert I"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "Morissette, Quigley and Schmitt",
-    "ToolTip": "Quis consectetur quibusdam doloribus vel.",
+    "Id": 197,
+    "Name": "Brown Group",
+    "ToolTip": "Cum et qui illum earum.",
     "Deleted": false,
-    "Rank": 795,
-    "Type": "iusto",
-    "ColorBlock": 511,
-    "IconHint": "hic",
+    "Rank": 281,
+    "Type": "illo",
+    "ColorBlock": 475,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "2006-09-25T03:24:52.1463474+02:00",
+    "LastChanged": "2015-06-10T13:38:17.8900531+02:00",
     "ChildItems": [
       {
-        "Id": 402,
-        "Name": "Hayes-Dickens",
-        "ToolTip": "Quo porro.",
+        "Id": 662,
+        "Name": "Rau, Towne and Wilkinson",
+        "ToolTip": "Quam enim expedita.",
         "Deleted": false,
-        "Rank": 451,
-        "Type": "molestias",
-        "ColorBlock": 551,
-        "IconHint": "amet",
+        "Rank": 29,
+        "Type": "quae",
+        "ColorBlock": 627,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "1996-11-11T03:24:52.1463474+01:00",
+        "LastChanged": "2006-05-20T13:38:17.8900531+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "eos",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Carolyne Trantow DVM",
+        "FullName": "Carleton Eino Zboncak I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 231
+            "FieldType": "System.String",
+            "FieldLength": 957
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Mossie Ondricka",
+    "ExtraInfo": "saepe",
+    "StyleHint": "facilis",
+    "Hidden": false,
+    "FullName": "Noemi Dayana Rodriguez I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldLength": 413
       }
     }
   }

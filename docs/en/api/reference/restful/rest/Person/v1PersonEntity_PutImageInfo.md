@@ -97,19 +97,19 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 344,
-  "BlobSize": 441,
-  "Description": "Robust composite superstructure",
-  "ExtraInfo": "adipisci",
+  "BlobId": 578,
+  "BlobSize": 72,
+  "Description": "Focused bandwidth-monitored matrices",
+  "ExtraInfo": "eligendi",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "dolorem",
-  "OriginalSize": 121,
-  "CreatedDate": "2009-07-12T03:24:51.6930999+02:00",
-  "UpdatedDate": "2004-05-25T03:24:51.6930999+02:00",
+  "MimeType": "iusto",
+  "OriginalSize": 188,
+  "CreatedDate": "2004-07-12T13:38:17.5305626+02:00",
+  "UpdatedDate": "2012-02-09T13:38:17.5305626+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et"
+  "ConceptualType": "molestiae"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 856,
-  "BlobSize": 374,
-  "Description": "Multi-tiered mobile website",
-  "ExtraInfo": "atque",
+  "BlobId": 453,
+  "BlobSize": 539,
+  "Description": "Integrated executive methodology",
+  "ExtraInfo": "possimus",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "alias",
-  "OriginalSize": 893,
-  "CreatedDate": "2022-11-07T03:24:51.7089392+01:00",
-  "UpdatedDate": "2009-07-08T03:24:51.7089392+02:00",
+  "MimeType": "vero",
+  "OriginalSize": 942,
+  "CreatedDate": "2016-04-07T13:38:17.5305626+02:00",
+  "UpdatedDate": "2008-07-15T13:38:17.5305626+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vel",
+  "ConceptualType": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

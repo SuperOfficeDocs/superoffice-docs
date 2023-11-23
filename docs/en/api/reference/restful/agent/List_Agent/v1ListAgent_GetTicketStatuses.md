@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 694,
-    "Name": "Bailey-Mertz",
+    "TicketStatusId": 655,
+    "Name": "Strosin, Baumbach and Harris",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": true,
+    "NoEmailReopen": true,
+    "IsDefault": true,
+    "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 607
+        "FieldType": "System.Int32",
+        "FieldLength": 805
       }
     }
   }

@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "omnis",
-  "ProviderName": "Beahan-Kemmer",
-  "StorageKey": "deserunt",
-  "ExtraRestrictions": "quidem",
-  "OrderBy": "aut",
-  "DesiredColumns": "placeat",
-  "PageSize": 142,
-  "PageNumber": 351
+  "StorageType": "occaecati",
+  "ProviderName": "Mann-Boyer",
+  "StorageKey": "quibusdam",
+  "ExtraRestrictions": "voluptatibus",
+  "OrderBy": "enim",
+  "DesiredColumns": "sit",
+  "PageSize": 51,
+  "PageNumber": 603
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Cummings Group",
-      "DisplayTooltip": "sint",
-      "DisplayType": "sit",
+      "DisplayName": "Keebler-Towne",
+      "DisplayTooltip": "quos",
+      "DisplayType": "inventore",
       "CanOrderBy": true,
-      "Name": "Howe LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Kuvalis LLC",
+      "Name": "Graham LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "quod",
+      "RestrictionListName": "Hane-Lueilwitz",
       "IsVisible": true,
-      "ExtraInfo": "repellendus",
-      "Width": "ipsa",
-      "IconHint": "neque",
-      "HeadingIconHint": "provident"
+      "ExtraInfo": "consectetur",
+      "Width": "perferendis",
+      "IconHint": "ut",
+      "HeadingIconHint": "vel"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Keebler LLC",
-      "PrimaryKey": 445,
+      "EntityName": "Kunze, Ernser and Wisozk",
+      "PrimaryKey": 120,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "assumenda",
-          "TooltipHint": "eius",
-          "LinkHint": "repellendus"
+          "DisplayValue": "veniam",
+          "TooltipHint": "cupiditate",
+          "LinkHint": "distinctio"
         }
       },
-      "LinkHint": "perspiciatis",
-      "StyleHint": "placeat",
+      "LinkHint": "et",
+      "StyleHint": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 444
         }
       }
     }
   ],
-  "RowCount": 148,
+  "RowCount": 808,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldLength": 67
     }
   }
 }

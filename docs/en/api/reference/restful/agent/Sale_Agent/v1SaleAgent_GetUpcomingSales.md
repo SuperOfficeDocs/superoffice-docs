@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 280,
-  "Count": 831
+  "WeightedAmountLimit": 436,
+  "Count": 22
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Baumbach, Wisozk and Stamm",
-    "SaleDate": "2017-12-29T03:24:48.2207231+01:00",
-    "SaleId": 558,
-    "Probability": 934,
-    "Title": "dolore",
-    "Amount": 30929.446,
-    "Currency": "debitis",
-    "ProjectName": "Kertzmann Inc and Sons",
-    "AssociateFullName": "Felix Weissnat",
-    "Description": "Re-contextualized human-resource info-mediaries",
+    "ContactName": "Schultz-Hessel",
+    "SaleDate": "2001-05-31T13:38:14.0928295+02:00",
+    "SaleId": 909,
+    "Probability": 158,
+    "Title": "vero",
+    "Amount": 30365.325999999997,
+    "Currency": "sunt",
+    "ProjectName": "O'Hara Group",
+    "AssociateFullName": "Giuseppe Jacobson",
+    "Description": "Stand-alone maximized encryption",
     "Status": "Lost",
-    "WeightedAmount": 6753.7699999999995,
-    "ProjectId": 945,
-    "EarningPercent": 6202.186,
-    "Earning": 21424.023999999998,
-    "ContactId": 118,
-    "AssociateId": 136,
-    "PersonId": 54,
-    "SaleTypeId": 250,
-    "SaleTypeName": "Dickens LLC",
-    "PersonFullName": "Juanita Nienow",
+    "WeightedAmount": 9420.804,
+    "ProjectId": 50,
+    "EarningPercent": 15250.044,
+    "Earning": 24871.424,
+    "ContactId": 382,
+    "AssociateId": 214,
+    "PersonId": 806,
+    "SaleTypeId": 246,
+    "SaleTypeName": "Kuphal Group",
+    "PersonFullName": "Mr. Patricia Elza Hickle",
     "Completed": "Completed",
-    "ActiveErpLinks": 964,
-    "NextDueDate": "2003-04-07T03:24:48.2207231+02:00",
-    "Number": "995677",
+    "ActiveErpLinks": 276,
+    "NextDueDate": "2004-05-15T13:38:14.0928295+02:00",
+    "Number": "875677",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 843
+        "FieldLength": 893
       }
     }
   }

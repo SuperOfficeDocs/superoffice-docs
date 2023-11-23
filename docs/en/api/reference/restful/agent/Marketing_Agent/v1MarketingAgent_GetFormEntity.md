@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=535
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=745
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 302,
-  "FormKey": "quo",
-  "Name": "Erdman, O'Connell and Rutherford",
-  "Description": "Exclusive grid-enabled analyzer",
-  "Config": "eveniet",
-  "FolderId": 425,
-  "ScriptId": 888,
-  "ResponseShipmentId": 559,
-  "Active": false,
-  "Expires": "2007-07-22T03:24:47.9238778+02:00",
-  "MaxSubmits": 272,
+  "FormId": 150,
+  "FormKey": "corrupti",
+  "Name": "Terry-Dietrich",
+  "Description": "Multi-layered context-sensitive artificial intelligence",
+  "Config": "assumenda",
+  "FolderId": 110,
+  "ScriptId": 674,
+  "ResponseShipmentId": 196,
+  "Active": true,
+  "Expires": "2019-09-12T13:38:13.7333439+02:00",
+  "MaxSubmits": 273,
   "Type": "Normal",
-  "Recipe": "magni",
-  "GroupId": 786,
+  "Recipe": "in",
+  "GroupId": 414,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2017-04-22T03:24:47.9238778+02:00",
-  "RegisteredAssociateId": 7,
-  "Updated": "1999-04-16T03:24:47.9238778+02:00",
-  "UpdatedAssociateId": 581,
-  "UpdatedCount": 831,
-  "FolderName": "Stracke-Balistreri",
+  "Registered": "2004-04-09T13:38:13.7333439+02:00",
+  "RegisteredAssociateId": 646,
+  "Updated": "2020-02-15T13:38:13.7333439+01:00",
+  "UpdatedAssociateId": 418,
+  "UpdatedCount": 992,
+  "FolderName": "Hackett Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 409
     }
   }
 }

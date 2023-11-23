@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=saepe
+GET /api/v1/List/DeliveryType/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Daugherty, Schaefer and Wunsch",
-    "ToolTip": "Deserunt laudantium velit recusandae.",
-    "Deleted": true,
-    "Rank": 156,
-    "Type": "modi",
+    "Id": 944,
+    "Name": "Padberg-Gaylord",
+    "ToolTip": "Beatae quia tenetur.",
+    "Deleted": false,
+    "Rank": 838,
+    "Type": "nesciunt",
     "ChildItems": [
       {
-        "Id": 324,
-        "Name": "Homenick, Stokes and Haag",
-        "ToolTip": "Enim optio nesciunt totam inventore omnis eligendi.",
-        "Deleted": true,
-        "Rank": 844,
-        "Type": "quia",
+        "Id": 820,
+        "Name": "Huel, Wintheiser and Wisoky",
+        "ToolTip": "Commodi mollitia eos.",
+        "Deleted": false,
+        "Rank": 582,
+        "Type": "odit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempora",
-        "ColorBlock": 511,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "ullam",
-        "FullName": "Dr. Kristina Dare I",
+        "IconHint": "quia",
+        "ColorBlock": 358,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "rerum",
+        "FullName": "Giles Mellie Pouros PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 10
+            "FieldLength": 871
           }
         }
       }
     ],
-    "IconHint": "aspernatur",
-    "ColorBlock": 950,
-    "ExtraInfo": "temporibus",
-    "StyleHint": "alias",
-    "FullName": "Kendra Maurine Daugherty I",
+    "IconHint": "sint",
+    "ColorBlock": 147,
+    "ExtraInfo": "corporis",
+    "StyleHint": "quam",
+    "FullName": "Prof. Torrey Schroeder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldType": "System.String",
+        "FieldLength": 304
       }
     }
   }

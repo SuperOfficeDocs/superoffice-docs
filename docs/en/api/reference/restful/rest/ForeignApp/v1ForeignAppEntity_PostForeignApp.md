@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 455,
-  "Name": "Veum-Greenfelder",
-  "CreatedDate": "2005-06-27T03:24:51.6149823+02:00",
-  "UpdatedDate": "2002-06-18T03:24:51.6149823+02:00",
+  "ForeignAppId": 995,
+  "Name": "Trantow, Ernser and Anderson",
+  "CreatedDate": "2002-04-07T13:38:17.4368262+02:00",
+  "UpdatedDate": "2013-09-14T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 639,
-      "Name": "Schaefer Group",
-      "CreatedDate": "2002-10-03T03:24:51.6149823+02:00",
-      "UpdatedDate": "2008-04-20T03:24:51.6149823+02:00",
-      "AssociateFullName": "Kevon Dylan Rolfson DVM",
-      "CreatedBy": "possimus",
-      "UpdatedBy": "assumenda",
-      "DeviceIdentifier": "delectus",
-      "ForeignAppId": 16,
+      "ForeignDeviceId": 193,
+      "Name": "Ondricka, Swift and Stiedemann",
+      "CreatedDate": "2001-06-15T13:38:17.4368262+02:00",
+      "UpdatedDate": "2021-03-07T13:38:17.4368262+01:00",
+      "AssociateFullName": "Prof. Emmalee Perry Okuneva",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "dolores",
+      "DeviceIdentifier": "ipsam",
+      "ForeignAppId": 962,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 429
+          "FieldType": "System.Int32",
+          "FieldLength": 900
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 410
     }
   }
 }

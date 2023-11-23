@@ -103,56 +103,56 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Heller LLC",
+  "ProviderName": "Pouros LLC",
   "Columns": [
-    "praesentium",
-    "in"
+    "voluptatibus",
+    "consectetur"
   ],
   "SortOrder": [
     {
-      "Name": "Grimes, Bogan and Friesen",
+      "Name": "Will Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Grimes, Bogan and Friesen",
+      "Name": "Will Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Prosacco Inc and Sons",
-      "Operator": "et",
+      "Name": "Breitenberg-Leffler",
+      "Operator": "eum",
       "Values": [
-        "ut",
-        "ut"
+        "est",
+        "omnis"
       ],
       "DisplayValues": [
-        "eum",
-        "aut"
+        "ab",
+        "maiores"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 303,
+      "InterParenthesis": 104,
       "InterOperator": "And",
-      "UniqueHash": 490
+      "UniqueHash": 75
     }
   ],
   "Entities": [
-    "porro",
-    "ab"
+    "veniam",
+    "ad"
   ],
-  "Page": 466,
-  "PageSize": 160,
-  "Options": "provident",
-  "Context": "enim"
+  "Page": 401,
+  "PageSize": 565,
+  "Options": "doloribus",
+  "Context": "natus"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 514,
+  "RowCount": 238,
   "Rows": [
     {
-      "EntityName": "Doyle-Armstrong",
-      "PrimaryKey": 153,
+      "EntityName": "Kertzmann, Johnson and Wilderman",
+      "PrimaryKey": 866,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ratione",
-          "TooltipHint": "eaque",
-          "LinkHint": "eveniet"
+          "DisplayValue": "eligendi",
+          "TooltipHint": "in",
+          "LinkHint": "illo"
         }
       },
-      "LinkHint": "sequi",
-      "StyleHint": "nobis",
+      "LinkHint": "nihil",
+      "StyleHint": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldLength": 900
         }
       }
     }
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldType": "System.String",
+      "FieldLength": 862
     }
   }
 }

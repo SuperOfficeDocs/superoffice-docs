@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Muller, Bernhard and Jacobi"
+  "ConnectorName": "Fritsch, Hoeger and Hettinger"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 522,
-  "ERPName": "Kiehn, Stiedemann and Wuckert",
-  "DisplayName": "Champlin, Keeling and Cummerata",
-  "DisplayDescription": "Adaptive client-server data-warehouse",
-  "Rank": 699,
-  "ConnectorName": "Paucek Group",
-  "ErpConnectionId": 476,
-  "ExtraData": "minus",
-  "IsAvailable": true,
+  "QuoteConnectionId": 592,
+  "ERPName": "Eichmann-Nolan",
+  "DisplayName": "Turcotte Group",
+  "DisplayDescription": "Reduced even-keeled knowledge base",
+  "Rank": 956,
+  "ConnectorName": "Dare, Miller and Prosacco",
+  "ErpConnectionId": 507,
+  "ExtraData": "sint",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 319,
-      "ERPPriceListKey": "veritatis",
-      "QuoteConnectionId": 67,
-      "Name": "Kessler-Bartell",
-      "Description": "User-centric impactful process improvement",
-      "Currency": "eos",
-      "CurrencyName": "Roob, Harris and Deckow",
-      "ValidFrom": "2006-12-07T03:24:48.1426062+01:00",
-      "ValidTo": "2013-04-24T03:24:48.1426062+02:00",
-      "IsActive": true,
+      "PriceListId": 41,
+      "ERPPriceListKey": "maxime",
+      "QuoteConnectionId": 141,
+      "Name": "Pacocha-Romaguera",
+      "Description": "Re-engineered explicit task-force",
+      "Currency": "pariatur",
+      "CurrencyName": "Frami Inc and Sons",
+      "ValidFrom": "2017-11-14T13:38:14.0303322+01:00",
+      "ValidTo": "2019-10-19T13:38:14.0303322+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldType": "System.String",
+          "FieldLength": 290
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    556,
-    853
+    449,
+    10
   ],
   "AssociateAccessIds": [
-    64,
-    475
+    878,
+    336
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldType": "System.String",
+      "FieldLength": 574
     }
   }
 }

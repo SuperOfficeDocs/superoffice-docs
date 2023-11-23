@@ -79,6 +79,8 @@ OK
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
 | ParserValues | object | Parser values sent to the event handler |
+| CgiVariables | object | Cgi variables sent by some events |
+| CgiContent | string | The Cgi content/body, sent by some events |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -92,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "et",
+  "CRMScriptUniqueId": "blanditiis",
   "EventData": null
 }
 ```
@@ -106,32 +108,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "vel",
-    "InputValues2": "voluptas"
+    "InputValues1": "aut",
+    "InputValues2": "dicta"
   },
   "BlockExecution": false,
-  "NavigateTo": "nobis",
-  "Message": "porro",
-  "ShowDialog": "eveniet",
+  "NavigateTo": "reprehenderit",
+  "Message": "cumque",
+  "ShowDialog": "omnis",
   "OutputValues": {
-    "OutputValues1": "mollitia",
-    "OutputValues2": "rerum"
+    "OutputValues1": "sed",
+    "OutputValues2": "et"
   },
   "StateValues": {
-    "StateValues1": "sed",
-    "StateValues2": "ipsam"
+    "StateValues1": "dolor",
+    "StateValues2": "et"
   },
-  "Exception": "perspiciatis",
+  "Exception": "aut",
   "ParserValues": {
-    "ParserValues1": "totam",
-    "ParserValues2": "exercitationem"
+    "ParserValues1": "vel",
+    "ParserValues2": "incidunt"
   },
+  "CgiVariables": {
+    "CgiVariables1": "inventore",
+    "CgiVariables2": "praesentium"
+  },
+  "CgiContent": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

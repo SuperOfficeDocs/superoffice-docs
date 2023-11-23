@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 273,
-    "Name": "Herman-Zieme",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "Rank": 463,
-    "UdListDefinitionId": 349,
+    "HeadingId": 572,
+    "Name": "Swift, Torp and Bode",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "Rank": 147,
+    "UdListDefinitionId": 130,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 629
+        "FieldLength": 617
       }
     }
   }

@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Becker Group",
-  "ListItemId": 782,
+  "UdListDefinitionName": "Koelpin Inc and Sons",
+  "ListItemId": 222,
   "UserGroups": [
     {
-      "Id": 689,
-      "Name": "Rohan-Carroll",
-      "ToolTip": "Omnis eveniet quod eveniet recusandae.",
+      "Id": 620,
+      "Name": "Mayert Inc and Sons",
+      "ToolTip": "Unde veritatis recusandae amet.",
       "Deleted": false,
-      "Rank": 32,
-      "Type": "eos",
-      "ColorBlock": 257,
-      "IconHint": "sed",
+      "Rank": 171,
+      "Type": "ipsam",
+      "ColorBlock": 63,
+      "IconHint": "tempora",
       "Selected": false,
-      "LastChanged": "1996-05-22T03:24:47.8613878+02:00",
+      "LastChanged": "2012-12-10T13:38:13.6708541+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sequi",
-      "StyleHint": "aperiam",
+      "ExtraInfo": "voluptates",
+      "StyleHint": "hic",
       "Hidden": true,
-      "FullName": "Maurine Orn"
+      "FullName": "Miss Lenore Towne"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 971,
-    "Name": "Mosciski, Rolfson and Carter",
-    "ToolTip": "Quis in.",
-    "Deleted": false,
-    "Rank": 533,
-    "Type": "vel",
-    "ColorBlock": 281,
-    "IconHint": "molestias",
+    "Id": 143,
+    "Name": "Brakus, Mraz and Kilback",
+    "ToolTip": "Eos nam aut.",
+    "Deleted": true,
+    "Rank": 830,
+    "Type": "voluptate",
+    "ColorBlock": 102,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2002-08-30T03:24:47.8613878+02:00",
+    "LastChanged": "2002-07-01T13:38:13.6708541+02:00",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Cremin-Wintheiser",
-        "ToolTip": "Quis distinctio aut nihil cupiditate.",
+        "Id": 394,
+        "Name": "Purdy-O'Conner",
+        "ToolTip": "Quas dolor nostrum voluptatem laudantium quis repellendus commodi.",
         "Deleted": false,
-        "Rank": 885,
-        "Type": "vero",
-        "ColorBlock": 944,
-        "IconHint": "totam",
+        "Rank": 976,
+        "Type": "blanditiis",
+        "ColorBlock": 344,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2023-09-09T03:24:47.8613878+02:00",
+        "LastChanged": "2011-10-22T13:38:13.6708541+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "dolor",
+        "ExtraInfo": "sed",
+        "StyleHint": "cumque",
         "Hidden": false,
-        "FullName": "Prof. Jackie Isadore Abbott",
+        "FullName": "Kareem Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 535
+            "FieldType": "System.String",
+            "FieldLength": 289
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "pariatur",
-    "Hidden": false,
-    "FullName": "Prof. Jaida Kohler II",
+    "ExtraInfo": "sed",
+    "StyleHint": "architecto",
+    "Hidden": true,
+    "FullName": "Ms. Glen Carson Koelpin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 816
+        "FieldType": "System.Int32",
+        "FieldLength": 472
       }
     }
   }

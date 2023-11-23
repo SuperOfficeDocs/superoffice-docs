@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 327,
-  "Name": "Schowalter, Flatley and Stark",
-  "Tooltip": "at",
-  "Deleted": false,
-  "UdListDefinitionId": 427,
-  "Rank": 559,
+  "Id": 35,
+  "Name": "Jakubowski Inc and Sons",
+  "Tooltip": "itaque",
+  "Deleted": true,
+  "UdListDefinitionId": 44,
+  "Rank": 294,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   }
 }

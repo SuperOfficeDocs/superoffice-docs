@@ -98,16 +98,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 743,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 401,
-  "Name": "Romaguera Inc and Sons",
-  "Description": "Persistent radical internet solution",
-  "Currency": "et",
-  "CurrencyName": "Nikolaus-Witting",
-  "ValidFrom": "2010-02-07T03:24:52.3025813+01:00",
-  "ValidTo": "2002-09-01T03:24:52.3025813+02:00",
-  "IsActive": true
+  "PriceListId": 996,
+  "ERPPriceListKey": "cum",
+  "QuoteConnectionId": 710,
+  "Name": "Gleason LLC",
+  "Description": "Vision-oriented client-server moderator",
+  "Currency": "delectus",
+  "CurrencyName": "Stark, Hauck and Baumbach",
+  "ValidFrom": "2005-04-21T13:38:18.1087815+02:00",
+  "ValidTo": "2011-09-30T13:38:18.1087815+02:00",
+  "IsActive": false
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 667,
-  "ERPPriceListKey": "voluptatum",
-  "QuoteConnectionId": 106,
-  "Name": "Howe LLC",
-  "Description": "Balanced bi-directional info-mediaries",
-  "Currency": "doloribus",
-  "CurrencyName": "Lang LLC",
-  "ValidFrom": "2018-05-31T03:24:52.3025813+02:00",
-  "ValidTo": "2022-08-31T03:24:52.3025813+02:00",
-  "IsActive": false,
+  "PriceListId": 900,
+  "ERPPriceListKey": "non",
+  "QuoteConnectionId": 221,
+  "Name": "Haley, Funk and Lebsack",
+  "Description": "Grass-roots client-driven website",
+  "Currency": "enim",
+  "CurrencyName": "Smith-Ratke",
+  "ValidFrom": "2018-11-21T13:38:18.1087815+01:00",
+  "ValidTo": "2015-06-20T13:38:18.1087815+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldType": "System.String",
+      "FieldLength": 94
     }
   },
   "_Links": {

@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 332,
-    "Section": "voluptates",
-    "Key": "voluptatem",
-    "Name": "Conroy-Stark",
+    "PrefDescId": 126,
+    "Section": "vel",
+    "Key": "velit",
+    "Name": "Langosh, Kunde and Mertz",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Universal systemic hub",
-    "IsBuiltin": true,
-    "TableName": "Johns-Goodwin",
-    "UserDefinedListId": 789,
-    "Rank": 86,
-    "SubGroup": "mollitia",
-    "MinLevel": 74,
-    "MaxValue": 22,
-    "MinValue": 981,
-    "RequiredLicense": "perspiciatis",
+    "Description": "De-engineered background open system",
+    "IsBuiltin": false,
+    "TableName": "Hoppe-Cremin",
+    "UserDefinedListId": 530,
+    "Rank": 384,
+    "SubGroup": "facilis",
+    "MinLevel": 567,
+    "MaxValue": 610,
+    "MinValue": 250,
+    "RequiredLicense": "deserunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldLength": 183
       }
     }
   }

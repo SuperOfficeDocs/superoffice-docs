@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "asperiores",
+  "SaleText": "quidem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2001-08-06T03:24:48.1894758+02:00",
-  "Amount": 13777.064,
-  "SaleId": 961,
-  "Earning": 24771.136,
-  "EarningPercent": 18728.784,
-  "Heading": "tempore",
-  "Number": "248870",
-  "Probability": 313,
-  "CreatedDate": "2020-02-15T03:24:48.1894758+01:00",
-  "UpdatedDate": "1998-04-16T03:24:48.1894758+02:00",
+  "Saledate": "2000-05-12T13:38:14.0615788+02:00",
+  "Amount": 23157.126,
+  "SaleId": 186,
+  "Earning": 14717.264,
+  "EarningPercent": 1482.382,
+  "Heading": "labore",
+  "Number": "828125",
+  "Probability": 394,
+  "CreatedDate": "1998-07-27T13:38:14.0615788+02:00",
+  "UpdatedDate": "2011-08-23T13:38:14.0615788+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 828,
+  "ActiveLinks": 543,
   "Links": [
     {
-      "EntityName": "Haley, Davis and Dickinson",
-      "Id": 97,
-      "Description": "Profit-focused multimedia array",
-      "ExtraInfo": "non",
-      "LinkId": 937,
+      "EntityName": "Keeling Group",
+      "Id": 612,
+      "Description": "Vision-oriented exuding conglomeration",
+      "ExtraInfo": "nihil",
+      "LinkId": 940,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 266
+          "FieldLength": 68
         }
       }
     }
   ],
-  "NextDueDate": "2015-08-21T03:24:48.1894758+02:00",
-  "Postit": "deleniti",
+  "NextDueDate": "2003-08-04T13:38:14.0615788+02:00",
+  "Postit": "aspernatur",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2011-09-16T03:24:48.1894758+02:00",
+  "ReopenDate": "2006-09-13T13:38:14.0615788+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Armstrong-Conroy",
-      "Comment": "magni",
-      "StakeholderRoleId": 938,
-      "CountryId": 379,
-      "PersonId": 526,
-      "EmailDescription": "orrin@oconnell.name",
-      "EmailId": 100,
-      "EmailAddress": "mina@romaguerastehr.info",
-      "PhoneId": 292,
-      "ContactName": "Wisoky LLC",
-      "ContactId": 304,
-      "SaleId": 805,
-      "Mrmrs": "a",
-      "Firstname": "Maximillian",
-      "MiddleName": "Quitzon LLC",
-      "Lastname": "Ullrich",
-      "SaleStakeholderId": 83,
-      "Rank": 546,
-      "Phone": "175.686.6482 x304",
+      "StakeholderRoleName": "Littel Group",
+      "Comment": "velit",
+      "StakeholderRoleId": 287,
+      "CountryId": 921,
+      "PersonId": 606,
+      "EmailDescription": "jay_carroll@daniel.us",
+      "EmailId": 920,
+      "EmailAddress": "milton@carroll.co.uk",
+      "PhoneId": 759,
+      "ContactName": "Haley LLC",
+      "ContactId": 38,
+      "SaleId": 808,
+      "Mrmrs": "modi",
+      "Firstname": "Branson",
+      "MiddleName": "Leuschke-Zemlak",
+      "Lastname": "Kessler",
+      "SaleStakeholderId": 922,
+      "Rank": 328,
+      "Phone": "1-609-856-0965 x5171",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldType": "System.String",
+          "FieldLength": 867
         }
       }
     }
   ],
-  "ActiveErpLinks": 674,
+  "ActiveErpLinks": 600,
   "UserDefinedFields": {
-    "SuperOffice:1": "1988944610",
+    "SuperOffice:1": "1636008032",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "aperiam",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "veritatis"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "ad"
+    "CustomFields1": "rerum",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "1998-09-11T03:24:48.1894758+02:00",
-  "PublishTo": "2011-03-23T03:24:48.1894758+01:00",
-  "PublishFrom": "2021-12-21T03:24:48.1894758+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2011-07-04T13:38:14.0615788+02:00",
+  "PublishTo": "2005-11-12T13:38:14.0615788+01:00",
+  "PublishFrom": "2003-10-22T13:38:14.0615788+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 881,
+      "VisibleId": 162,
       "Visibility": "All",
-      "DisplayValue": "quae",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldType": "System.String",
+          "FieldLength": 352
         }
       }
     },
     {
-      "VisibleId": 881,
+      "VisibleId": 162,
       "Visibility": "All",
-      "DisplayValue": "quae",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldType": "System.String",
+          "FieldLength": 352
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldType": "System.String",
+      "FieldLength": 207
     }
   }
 }

@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 622,
-  "NumDocumentsAlreadyMigrated": 270,
+  "NumDocumentsOmitted": 401,
+  "NumDocumentsAlreadyMigrated": 364,
   "Documents": [
     {
-      "DocumentId": 63,
-      "ContactId": 508,
-      "PersonId": 116,
-      "SaleId": 929,
-      "ProjectId": 292,
-      "DocTmplId": 495,
-      "AssociateId": 178,
-      "UserGroupId": 352,
-      "VisibleForId": 940
+      "DocumentId": 296,
+      "ContactId": 858,
+      "PersonId": 599,
+      "SaleId": 705,
+      "ProjectId": 724,
+      "DocTmplId": 323,
+      "AssociateId": 613,
+      "UserGroupId": 857,
+      "VisibleForId": 910
     }
   ],
   "Associates": [
     {
-      "AssociateId": 474,
-      "EmailAddress": "kathleen.ferry@dachzulauf.us"
+      "AssociateId": 236,
+      "EmailAddress": "noemy@schoen.info"
     },
     {
-      "AssociateId": 474,
-      "EmailAddress": "kathleen.ferry@dachzulauf.us"
+      "AssociateId": 236,
+      "EmailAddress": "noemy@schoen.info"
     }
   ]
 }

@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 168,
-  "Name": "Boehm Group",
-  "Tooltip": "ea",
+  "RoleId": 881,
+  "Name": "Von Inc and Sons",
+  "Tooltip": "reprehenderit",
   "RoleType": "Anonymous",
-  "Deleted": 256,
-  "Rank": 867,
-  "Created": "2022-08-14T03:24:51.7401403+02:00",
-  "UseCategories": 835,
+  "Deleted": 978,
+  "Rank": 679,
+  "Created": "2011-10-25T13:38:17.5618158+02:00",
+  "UseCategories": 191,
   "CreatedBy": null,
-  "Updated": "2000-07-17T03:24:51.7401403+02:00",
+  "Updated": "2009-10-22T13:38:17.5774332+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 929,
-  "Name": "Mante LLC",
-  "Tooltip": "in",
+  "RoleId": 870,
+  "Name": "Hyatt, Hyatt and Crooks",
+  "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 698,
-  "Rank": 836,
-  "Created": "2019-01-18T03:24:51.7401403+01:00",
-  "UseCategories": 353,
+  "Deleted": 352,
+  "Rank": 228,
+  "Created": "2013-01-28T13:38:17.5774332+01:00",
+  "UseCategories": 98,
   "CreatedBy": null,
-  "Updated": "2010-10-21T03:24:51.7401403+02:00",
+  "Updated": "2015-01-30T13:38:17.5774332+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldType": "System.String",
+      "FieldLength": 3
     }
   },
   "_Links": {

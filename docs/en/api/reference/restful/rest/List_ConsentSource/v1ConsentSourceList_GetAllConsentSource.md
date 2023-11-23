@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 869,
-    "Name": "Goyette, Luettgen and Green",
-    "Tooltip": "mollitia",
-    "Rank": 12,
-    "Key": "molestiae",
-    "MailTemplateId": 523,
-    "Deleted": false,
+    "ConsentSourceId": 305,
+    "Name": "Lubowitz Inc and Sons",
+    "Tooltip": "quae",
+    "Rank": 777,
+    "Key": "deleniti",
+    "MailTemplateId": 233,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 616
       }
     }
   }

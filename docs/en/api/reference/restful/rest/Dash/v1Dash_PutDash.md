@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 269,
-  "UniqueId": "sequi",
-  "Name": "Zemlak-Jenkins",
-  "Description": "Profit-focused optimal approach",
-  "AssociateId": 907,
-  "Columns": 607,
+  "DashboardId": 144,
+  "UniqueId": "cum",
+  "Name": "Heaney, Aufderhar and Hoppe",
+  "Description": "Implemented analyzing projection",
+  "AssociateId": 360,
+  "Columns": 515,
   "Theme": null,
-  "VisibleForAll": 22,
+  "VisibleForAll": 931,
   "VisibleForAssociates": [
-    855,
-    909
+    968,
+    962
   ],
   "VisibleForGroups": [
-    98,
-    206
+    953,
+    428
   ],
-  "PinForAll": 941,
+  "PinForAll": 311,
   "PinForAssociates": [
-    308,
-    978
+    979,
+    198
   ],
   "PinForGroups": [
-    430,
-    159
+    766,
+    637
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 526,
-  "UniqueId": "eius",
-  "Name": "Watsica-Rempel",
-  "Description": "Customer-focused zero tolerance matrix",
-  "AssociateId": 763,
-  "Columns": 358,
+  "DashboardId": 820,
+  "UniqueId": "modi",
+  "Name": "Rolfson, Kassulke and Gottlieb",
+  "Description": "Total actuating structure",
+  "AssociateId": 735,
+  "Columns": 3,
   "Theme": null,
-  "VisibleForAll": 145,
+  "VisibleForAll": 319,
   "VisibleForAssociates": [
-    687,
-    615
+    586,
+    559
   ],
   "VisibleForGroups": [
-    781,
-    870
+    549,
+    430
   ],
-  "PinForAll": 44,
+  "PinForAll": 293,
   "PinForAssociates": [
-    734,
-    953
+    742,
+    83
   ],
   "PinForGroups": [
-    108,
-    651
+    549,
+    560
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 448
     }
   },
   "_Links": {

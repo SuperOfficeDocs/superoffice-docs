@@ -112,6 +112,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -128,7 +129,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 564
+  "AppointmentId": 326
 }
 ```
 
@@ -139,64 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 631,
-  "StartDate": "2012-05-17T03:24:46.9550719+02:00",
-  "EndDate": "2004-08-16T03:24:46.9550719+02:00",
+  "AppointmentId": 943,
+  "StartDate": "2005-12-14T13:38:12.8584402+01:00",
+  "EndDate": "1998-06-10T13:38:12.8584402+02:00",
   "Type": "BookingForChecklist",
-  "Task": "eaque",
-  "AssociateFullName": "Evie Beahan",
-  "ContactName": "Deckow-Quigley",
-  "Description": "Fundamental assymetric analyzer",
-  "PersonFullName": "Darby Valentine Brown II",
-  "PersonId": 159,
-  "ContactId": 811,
-  "ProjectId": 55,
-  "ProjectName": "Orn Group",
-  "IsPublished": false,
-  "AssociateId": 81,
-  "ColorIndex": 846,
-  "IsFree": false,
+  "Task": "voluptatem",
+  "AssociateFullName": "Morgan Adolfo Kunde DDS",
+  "ContactName": "Gusikowski-Rau",
+  "Description": "Extended reciprocal analyzer",
+  "PersonFullName": "Sigrid Hirthe",
+  "PersonId": 254,
+  "ContactId": 48,
+  "ProjectId": 672,
+  "ProjectName": "Lueilwitz, Cummerata and Murphy",
+  "IsPublished": true,
+  "AssociateId": 495,
+  "ColorIndex": 370,
+  "IsFree": true,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 885,
-  "PriorityName": "Veum Group",
+  "PriorityId": 929,
+  "PriorityName": "Koepp LLC",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2000-11-28T03:24:46.9550719+01:00",
+  "ActiveDate": "1999-08-11T13:38:12.8584402+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2010-01-12T03:24:46.9550719+01:00",
-  "RecurringEndDate": "2022-03-31T03:24:46.9550719+02:00",
-  "MotherId": 106,
-  "AssignedBy": 14,
-  "AssignedByFullName": "Ariane Bogisich",
+  "RecurringStartDate": "2007-04-12T13:38:12.8584402+02:00",
+  "RecurringEndDate": "2020-02-29T13:38:12.8584402+01:00",
+  "MotherId": 807,
+  "AssignedBy": 747,
+  "AssignedByFullName": "Theresa Moen",
   "RejectReason": "",
-  "Location": "sequi",
-  "AlarmLeadTime": "et",
-  "SaleId": 118,
-  "SaleName": "Cummerata, Ward and Wisoky",
-  "AssociateName": "Parker, Casper and Herman",
-  "CreatedDate": "1997-07-09T03:24:46.9550719+02:00",
-  "CreatedBy": "molestias",
-  "CreatedByFullName": "Dr. Federico Hagenes IV",
-  "CreatedByAssociateId": 869,
+  "Location": "unde",
+  "AlarmLeadTime": "ipsam",
+  "SaleId": 645,
+  "SaleName": "Blick LLC",
+  "AssociateName": "Hartmann-Considine",
+  "CreatedDate": "2022-08-20T13:38:12.8584402+02:00",
+  "CreatedBy": "qui",
+  "CreatedByFullName": "Malika Schmidt",
+  "CreatedByAssociateId": 779,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "ut",
-  "Agenda": "est",
-  "InternalNotes": "qui",
+  "PreferredTZLocation": 752,
+  "Title": "non",
+  "Agenda": "totam",
+  "InternalNotes": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 881
     }
   }
 }

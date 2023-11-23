@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,30 +78,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 374,
-  "Name": "Conroy, Olson and Carroll",
-  "Rank": 40,
-  "Tooltip": "et",
-  "Icon": "ad",
-  "DefaultTicketStatus": 962,
+  "TicketTypeId": 192,
+  "Name": "Roberts LLC",
+  "Rank": 684,
+  "Tooltip": "accusamus",
+  "Icon": "dolore",
+  "DefaultTicketStatus": 957,
   "TicketStatuses": [
-    727,
-    676
+    919,
+    673
   ],
-  "DefaultTicketPriority": 467,
+  "DefaultTicketPriority": 617,
   "TicketPriorities": [
-    405,
-    834
+    95,
+    725
   ],
-  "ReplyTemplate": 559,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 246,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldType": "System.String",
+      "FieldLength": 487
     }
   }
 }

@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,51 +92,51 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 93,
+  "HierarchyId": 498,
   "Domain": "Dashboards",
-  "Name": "Kuhlman-Towne",
-  "Fullname": "eum",
-  "ParentId": 557,
+  "Name": "Kilback, Pfeffer and Kuhic",
+  "Fullname": "aut",
+  "ParentId": 565,
   "Children": [
     {
-      "HierarchyId": 69,
+      "HierarchyId": 24,
       "Domain": "Dashboards",
-      "Name": "Hoeger-D'Amore",
-      "Fullname": "quaerat",
-      "ParentId": 664,
+      "Name": "Swift Inc and Sons",
+      "Fullname": "voluptatibus",
+      "ParentId": 459,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-04-06T03:24:51.630601+02:00",
-      "RegisteredAssociateId": 78,
-      "Updated": "2007-06-15T03:24:51.630601+02:00",
-      "UpdatedAssociateId": 173,
+      "Registered": "2012-12-16T13:38:17.4524494+01:00",
+      "RegisteredAssociateId": 606,
+      "Updated": "2002-04-01T13:38:17.4524494+02:00",
+      "UpdatedAssociateId": 274,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldType": "System.String",
+          "FieldLength": 386
         }
       }
     }
   ],
-  "Registered": "2022-09-21T03:24:51.630601+02:00",
-  "RegisteredAssociateId": 92,
-  "Updated": "2002-10-14T03:24:51.630601+02:00",
-  "UpdatedAssociateId": 861,
+  "Registered": "2023-04-28T13:38:17.4524494+02:00",
+  "RegisteredAssociateId": 850,
+  "Updated": "2008-09-12T13:38:17.4524494+02:00",
+  "UpdatedAssociateId": 284,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 585
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

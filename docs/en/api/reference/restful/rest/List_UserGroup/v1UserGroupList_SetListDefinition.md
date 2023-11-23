@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 919,
-  "Name": "Homenick-Braun",
-  "Tooltip": "reiciendis",
+  "Id": 20,
+  "Name": "Barrows, Lind and Leuschke",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 662,
+  "Rank": 18,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": false
+  "ListType": "expedita",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 834,
-  "Name": "Kertzmann LLC",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "Rank": 831,
-  "IsCustomList": false,
+  "Id": 496,
+  "Name": "Kuhic-Pollich",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "Rank": 618,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quod",
+  "ListType": "modi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 369
     }
   }
 }

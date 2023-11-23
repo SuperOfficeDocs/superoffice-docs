@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 426
+  "QuoteConnectionId": 482
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 625,
-  "ERPName": "Hickle-Robel",
-  "DisplayName": "Swift, Auer and Balistreri",
-  "DisplayDescription": "Streamlined 24 hour internet solution",
-  "Rank": 665,
-  "ConnectorName": "Rippin Inc and Sons",
-  "ErpConnectionId": 522,
-  "ExtraData": "velit",
-  "IsAvailable": false,
+  "QuoteConnectionId": 993,
+  "ERPName": "Schamberger Inc and Sons",
+  "DisplayName": "Graham, Rempel and Von",
+  "DisplayDescription": "Extended analyzing approach",
+  "Rank": 533,
+  "ConnectorName": "Jenkins-McClure",
+  "ErpConnectionId": 737,
+  "ExtraData": "autem",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 861,
-      "ERPPriceListKey": "veniam",
-      "QuoteConnectionId": 272,
-      "Name": "Block-Bernhard",
-      "Description": "Grass-roots explicit structure",
-      "Currency": "odio",
-      "CurrencyName": "Runolfsdottir Group",
-      "ValidFrom": "2003-10-04T03:24:48.1426062+02:00",
-      "ValidTo": "2019-11-27T03:24:48.1426062+01:00",
+      "PriceListId": 234,
+      "ERPPriceListKey": "facilis",
+      "QuoteConnectionId": 639,
+      "Name": "Maggio Group",
+      "Description": "Grass-roots systemic forecast",
+      "Currency": "modi",
+      "CurrencyName": "Olson-Mueller",
+      "ValidFrom": "2015-05-17T13:38:14.0303322+02:00",
+      "ValidTo": "2004-11-18T13:38:14.0303322+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldLength": 67
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    702,
-    823
+    547,
+    158
   ],
   "AssociateAccessIds": [
-    153,
-    298
+    982,
+    636
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldType": "System.Int32",
+      "FieldLength": 741
     }
   }
 }

@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Tromp Group",
-    "Volkman, Shields and Stroman"
+    "Renner, Windler and DuBuque",
+    "Stracke-Bernier"
   ],
-  "Culture": "qui"
+  "Culture": "expedita"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Leannon, Green and Douglas",
-    "ResourceValue": "officiis",
-    "Culture": "vero",
-    "IsActive": false,
+    "ResourceName": "Crist LLC",
+    "ResourceValue": "magnam",
+    "Culture": "facere",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 535
       }
     }
   },
   {
-    "ResourceName": "Leannon, Green and Douglas",
-    "ResourceValue": "officiis",
-    "Culture": "vero",
-    "IsActive": false,
+    "ResourceName": "Crist LLC",
+    "ResourceValue": "magnam",
+    "Culture": "facere",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 535
       }
     }
   }

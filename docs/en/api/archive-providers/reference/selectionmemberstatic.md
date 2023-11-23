@@ -38,7 +38,7 @@ It will only return fields from the SelectionMember table.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionMemberStatic?$select=targetTableNumber,selectionMemberId,rowKind
+GET /api/v1/archive/SelectionMemberStatic?$select=selectionMemberId,rowKind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

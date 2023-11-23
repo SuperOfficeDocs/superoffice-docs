@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 666,
-  "Name": "Kuvalis-Kilback",
-  "Config": "veritatis",
-  "Rank": 760,
-  "Client": "dolor",
-  "Style": "consequuntur",
+  "DashboardThemeId": 862,
+  "Name": "Parker Inc and Sons",
+  "Config": "molestiae",
+  "Rank": 172,
+  "Client": "omnis",
+  "Style": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldType": "System.String",
+      "FieldLength": 628
     }
   }
 }

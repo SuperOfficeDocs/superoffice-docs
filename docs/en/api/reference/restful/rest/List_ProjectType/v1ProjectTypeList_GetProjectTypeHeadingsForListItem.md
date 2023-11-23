@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Graham, Schaden and Pfannerstill",
-    "ToolTip": "Ut aut veritatis laboriosam distinctio nemo nemo distinctio.",
+    "Id": 136,
+    "Name": "Weissnat-Mitchell",
+    "ToolTip": "Consequuntur ut ab ullam.",
     "Deleted": true,
-    "Rank": 276,
-    "Type": "eius",
-    "ColorBlock": 212,
-    "IconHint": "unde",
-    "Selected": false,
-    "LastChanged": "2005-03-25T03:24:52.3494474+01:00",
+    "Rank": 335,
+    "Type": "maxime",
+    "ColorBlock": 741,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "2017-01-27T13:38:18.1712741+01:00",
     "ChildItems": [
       {
-        "Id": 303,
-        "Name": "Ziemann-Langosh",
-        "ToolTip": "Labore dolorem et officia eius incidunt.",
-        "Deleted": false,
-        "Rank": 1000,
-        "Type": "est",
-        "ColorBlock": 260,
-        "IconHint": "occaecati",
-        "Selected": false,
-        "LastChanged": "2010-05-02T03:24:52.3494474+02:00",
+        "Id": 585,
+        "Name": "Nikolaus, Ryan and Carroll",
+        "ToolTip": "Suscipit accusamus ratione iusto exercitationem dolorem natus.",
+        "Deleted": true,
+        "Rank": 108,
+        "Type": "debitis",
+        "ColorBlock": 124,
+        "IconHint": "labore",
+        "Selected": true,
+        "LastChanged": "1996-10-03T13:38:18.1712741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "saepe",
+        "ExtraInfo": "rerum",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Consuelo Vandervort",
+        "FullName": "Miss Schuyler Maggie Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldType": "System.String",
+            "FieldLength": 210
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "itaque",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "consequuntur",
     "Hidden": false,
-    "FullName": "Miss Kole Gulgowski DVM",
+    "FullName": "Estevan Waters",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 641
       }
     }
   }

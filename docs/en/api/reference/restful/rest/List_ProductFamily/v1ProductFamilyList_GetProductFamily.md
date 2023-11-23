@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 172,
-  "Name": "Carroll-Lehner",
+  "Id": 914,
+  "Name": "Jakubowski Group",
   "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 161,
-  "Rank": 365,
+  "Deleted": false,
+  "UdListDefinitionId": 451,
+  "Rank": 318,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldType": "System.String",
+      "FieldLength": 362
     }
   }
 }

@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 463,
-  "OnlyOpenSales": false
+  "PersonId": 389,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Torphy-Heidenreich",
-    "SaleDate": "1996-06-06T03:24:48.2207231+02:00",
-    "SaleId": 132,
-    "Probability": 33,
-    "Title": "deleniti",
-    "Amount": 22922.076,
-    "Currency": "perferendis",
-    "ProjectName": "Breitenberg-Marquardt",
-    "AssociateFullName": "Dr. Delphine Kirlin V",
-    "Description": "Team-oriented static encoding",
+    "ContactName": "Jewess, Kuhn and Dickinson",
+    "SaleDate": "2000-04-18T13:38:14.1084486+02:00",
+    "SaleId": 491,
+    "Probability": 307,
+    "Title": "vero",
+    "Amount": 29362.446,
+    "Currency": "ipsam",
+    "ProjectName": "Von-Hoppe",
+    "AssociateFullName": "Ms. Jalon Schuyler Schmitt II",
+    "Description": "Persistent next generation structure",
     "Status": "Lost",
-    "WeightedAmount": 28459.854,
-    "ProjectId": 751,
-    "EarningPercent": 14805.016,
-    "Earning": 28450.451999999997,
-    "ContactId": 733,
-    "AssociateId": 905,
-    "PersonId": 778,
-    "SaleTypeId": 327,
-    "SaleTypeName": "McLaughlin-Leannon",
-    "PersonFullName": "Prof. Nils Jermain Schulist",
+    "WeightedAmount": 19621.974,
+    "ProjectId": 84,
+    "EarningPercent": 12752.246,
+    "Earning": 14049.722,
+    "ContactId": 782,
+    "AssociateId": 62,
+    "PersonId": 371,
+    "SaleTypeId": 477,
+    "SaleTypeName": "Schimmel-Hilpert",
+    "PersonFullName": "Everett Nolan",
     "Completed": "Completed",
-    "ActiveErpLinks": 329,
-    "NextDueDate": "2020-02-07T03:24:48.2207231+01:00",
-    "Number": "1441560",
+    "ActiveErpLinks": 477,
+    "NextDueDate": "2023-09-19T13:38:14.1084486+02:00",
+    "Number": "1686143",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldType": "System.Int32",
+        "FieldLength": 967
       }
     }
   }

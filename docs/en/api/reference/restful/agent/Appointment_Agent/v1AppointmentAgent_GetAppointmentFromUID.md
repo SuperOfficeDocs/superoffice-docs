@@ -103,7 +103,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -130,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "quidem"
+  "UID": "consequuntur"
 }
 ```
 
@@ -149,125 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-02-02T03:24:47.2052134+01:00",
-  "AppointmentId": 832,
-  "Description": "Future-proofed asynchronous conglomeration",
-  "StartDate": "2013-02-18T03:24:47.2052134+01:00",
-  "EndDate": "2007-03-02T03:24:47.2052134+01:00",
+  "CreatedDate": "2016-03-13T13:38:13.0302987+01:00",
+  "AppointmentId": 254,
+  "Description": "Synergistic cohesive ability",
+  "StartDate": "2018-01-14T13:38:13.0302987+01:00",
+  "EndDate": "2023-03-23T13:38:13.0302987+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 540,
+  "MotherId": 420,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-05-28T03:24:47.2052134+02:00",
+  "UpdatedDate": "2011-05-09T13:38:13.0302987+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 219,
+  "ActiveLinks": 608,
   "Links": [
     {
-      "EntityName": "Langworth-Cole",
-      "Id": 928,
-      "Description": "Universal eco-centric pricing structure",
-      "ExtraInfo": "necessitatibus",
-      "LinkId": 109,
+      "EntityName": "Kutch, Huel and Waters",
+      "Id": 552,
+      "Description": "Cross-group 4th generation hub",
+      "ExtraInfo": "deserunt",
+      "LinkId": 932,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 622
+          "FieldType": "System.Int32",
+          "FieldLength": 535
         }
       }
     }
   ],
-  "AlarmLeadTime": "consequatur",
+  "AlarmLeadTime": "dolor",
   "HasAlarm": false,
-  "ColorIndex": 727,
+  "ColorIndex": 76,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "ut",
-  "LeadTime": "ut",
-  "Location": "est",
-  "RejectCounter": 735,
+  "IsAlldayEvent": true,
+  "LagTime": "accusamus",
+  "LeadTime": "quo",
+  "Location": "tempora",
+  "RejectCounter": 100,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 913,
-      "PersonId": 970,
-      "ContactId": 828,
-      "EmailId": 732,
+      "AssociateId": 772,
+      "PersonId": 232,
+      "ContactId": 685,
+      "EmailId": 245,
       "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 913,
-      "PersonId": 970,
-      "ContactId": 828,
-      "EmailId": 732,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "lew@weissnat.info",
+      "Description": "Configurable zero tolerance database"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-10-01T03:24:47.2052134+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2017-03-14T13:38:13.0302987+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 379,
+  "PreferredTZLocation": 492,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 214,
+  "SuggestedAppointmentId": 784,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "odio",
-  "Title": "qui",
-  "Agenda": "ratione",
-  "InternalNotes": "aperiam",
+  "CentralserviceVideomeetId": "nesciunt",
+  "Title": "ut",
+  "Agenda": "eum",
+  "InternalNotes": "iure",
   "UserDefinedFields": {
-    "SuperOffice:1": "173769922",
-    "SuperOffice:2": "1384637109"
+    "SuperOffice:1": "Michale Nienow",
+    "SuperOffice:2": "Colleen Larson"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "est"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2001-11-27T03:24:47.2052134+01:00",
-  "PublishTo": "2012-02-17T03:24:47.2052134+01:00",
-  "PublishFrom": "1999-06-28T03:24:47.2052134+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-12-26T13:38:13.0302987+01:00",
+  "PublishTo": "2010-06-04T13:38:13.0302987+02:00",
+  "PublishFrom": "2006-06-03T13:38:13.0302987+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 442,
+      "VisibleId": 669,
       "Visibility": "All",
-      "DisplayValue": "nemo",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldType": "System.String",
+          "FieldLength": 482
         }
       }
     },
     {
-      "VisibleId": 442,
+      "VisibleId": 669,
       "Visibility": "All",
-      "DisplayValue": "nemo",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldType": "System.String",
+          "FieldLength": 482
         }
       }
     }
@@ -277,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 991
     }
   }
 }

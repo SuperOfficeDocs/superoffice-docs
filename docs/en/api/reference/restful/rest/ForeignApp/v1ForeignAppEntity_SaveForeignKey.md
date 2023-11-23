@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptates",
-  "Value": "dolorum",
-  "RecordId": 839,
-  "CreatedDate": "2019-01-27T03:24:51.630601+01:00",
-  "UpdatedDate": "2013-09-16T03:24:51.630601+02:00",
-  "UpdatedBy": "nemo",
-  "CreatedBy": "adipisci",
-  "TableName": "Sporer-Haag"
+  "Key": "quae",
+  "Value": "id",
+  "RecordId": 490,
+  "CreatedDate": "2023-10-07T13:38:17.4524494+02:00",
+  "UpdatedDate": "2009-01-27T13:38:17.4524494+01:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "quia",
+  "TableName": "Maggio, Kris and Rice"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "mollitia",
-  "Value": "alias",
-  "RecordId": 199,
-  "CreatedDate": "2021-08-13T03:24:51.630601+02:00",
-  "UpdatedDate": "2006-05-31T03:24:51.630601+02:00",
-  "UpdatedBy": "veritatis",
-  "CreatedBy": "modi",
-  "TableName": "Eichmann, Flatley and Nicolas",
+  "Key": "consequatur",
+  "Value": "debitis",
+  "RecordId": 11,
+  "CreatedDate": "2013-06-26T13:38:17.4524494+02:00",
+  "UpdatedDate": "2015-12-05T13:38:17.4524494+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "culpa",
+  "TableName": "Nienow, Ratke and Grant",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 568
     }
   }
 }

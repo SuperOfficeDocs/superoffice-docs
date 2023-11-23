@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "114.380.7628 x037",
-    "PersonCellPhone": "1-529-966-9106",
-    "PersonPrivatePhone": "1-626-851-3961",
-    "PersonFaxNumber": "861018",
-    "PersonPagerNumber": "1019351",
-    "PersonEmail": "jade@harvey.co.uk",
-    "Id": 12,
-    "Name": "Moore Group",
-    "Tooltip": "libero",
-    "UniqueId": "quam",
+    "PersonDirectPhone": "332-634-8051",
+    "PersonCellPhone": "605.150.9576 x33616",
+    "PersonPrivatePhone": "562-094-5954 x08558",
+    "PersonFaxNumber": "981225",
+    "PersonPagerNumber": "358456",
+    "PersonEmail": "eddie.cartwright@wehnerrogahn.co.uk",
+    "Id": 331,
+    "Name": "Kirlin Group",
+    "Tooltip": "ipsum",
+    "UniqueId": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 110
+        "FieldLength": 970
       }
     }
   }

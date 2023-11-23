@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "excepturi",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "excepturi",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 666,
-  "Name": "Murray Group",
-  "Tooltip": "dolores",
-  "PassiveText": "pariatur",
+  "ReldefId": 65,
+  "Name": "Collins-Ryan",
+  "Tooltip": "ab",
+  "PassiveText": "eum",
   "Deleted": false,
-  "Rank": 821,
+  "Rank": 977,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,12 +152,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 272
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

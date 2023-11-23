@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 361,
-    "Name": "Towne Group",
-    "Description": "Visionary stable architecture",
+    "ProjectId": 785,
+    "Name": "Krajcik-Blanda",
+    "Description": "Front-line grid-enabled hierarchy",
     "URL": "http://www.example.com/",
-    "Type": "distinctio",
-    "AssociateId": 947,
-    "AssociateFullName": "Noemi Rath",
-    "TypeId": 931,
-    "Updated": "2004-12-23T03:24:48.0957311+01:00",
-    "StatusId": 366,
-    "Status": "ducimus",
-    "TextId": 689,
-    "PublishTo": "2023-01-13T03:24:48.0957311+01:00",
-    "PublishFrom": "1997-11-16T03:24:48.0957311+01:00",
+    "Type": "vero",
+    "AssociateId": 198,
+    "AssociateFullName": "Dr. Monroe Fritsch DVM",
+    "TypeId": 339,
+    "Updated": "2011-01-01T13:38:13.9834617+01:00",
+    "StatusId": 717,
+    "Status": "sit",
+    "TextId": 923,
+    "PublishTo": "2004-01-29T13:38:13.9834617+01:00",
+    "PublishFrom": "2002-08-10T13:38:13.9834617+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "901110",
-    "ActiveErpLinks": 663,
+    "ProjectNumber": "901272",
+    "ActiveErpLinks": 765,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 352
       }
     }
   }

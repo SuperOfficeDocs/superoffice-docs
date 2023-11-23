@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hammes, Medhurst and Dickinson",
-    "SaleDate": "2007-01-21T03:24:48.2207231+01:00",
-    "SaleId": 868,
-    "Probability": 700,
-    "Title": "voluptatem",
-    "Amount": 29644.505999999998,
-    "Currency": "esse",
-    "ProjectName": "Hane-Jaskolski",
-    "AssociateFullName": "Mrs. Glenna Heller",
-    "Description": "Function-based tangible ability",
+    "ContactName": "Ondricka Group",
+    "SaleDate": "2003-05-11T13:38:14.0928295+02:00",
+    "SaleId": 613,
+    "Probability": 78,
+    "Title": "molestiae",
+    "Amount": 7825.598,
+    "Currency": "neque",
+    "ProjectName": "Keebler-Kertzmann",
+    "AssociateFullName": "Mya Lynch",
+    "Description": "Multi-tiered encompassing standardization",
     "Status": "Lost",
-    "WeightedAmount": 15422.413999999999,
-    "ProjectId": 177,
-    "EarningPercent": 11918.601999999999,
-    "Earning": 1087.498,
-    "ContactId": 381,
-    "AssociateId": 203,
-    "PersonId": 699,
-    "SaleTypeId": 484,
-    "SaleTypeName": "Lockman LLC",
-    "PersonFullName": "Ray Krystel Spinka V",
+    "WeightedAmount": 15193.632,
+    "ProjectId": 233,
+    "EarningPercent": 9395.732,
+    "Earning": 9273.506,
+    "ContactId": 699,
+    "AssociateId": 718,
+    "PersonId": 124,
+    "SaleTypeId": 861,
+    "SaleTypeName": "Champlin-Jaskolski",
+    "PersonFullName": "Geo Quigley",
     "Completed": "Completed",
-    "ActiveErpLinks": 267,
-    "NextDueDate": "1997-03-01T03:24:48.2207231+01:00",
-    "Number": "1685961",
+    "ActiveErpLinks": 793,
+    "NextDueDate": "2012-02-01T13:38:14.0928295+01:00",
+    "Number": "566203",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 21
       }
     }
   }

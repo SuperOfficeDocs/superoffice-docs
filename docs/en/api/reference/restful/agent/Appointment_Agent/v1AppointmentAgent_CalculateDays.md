@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 667,
-  "StartDate": "2000-10-02T03:24:47.1270922+02:00",
-  "EndDate": "2005-09-19T03:24:47.1270922+02:00",
-  "RecurrenceCounter": 102,
+  "RecurrenceId": 703,
+  "StartDate": "2020-05-13T13:38:12.9521841+02:00",
+  "EndDate": "2005-02-10T13:38:12.9521841+01:00",
+  "RecurrenceCounter": 782,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2002-03-11T03:24:47.1270922+01:00",
-      "IsConflict": true,
-      "Description": "Fully-configurable even-keeled time-frame",
-      "DescriptionStyleHint": "Reactive exuding support",
-      "Tooltip": "sit"
+      "Date": "2001-09-07T13:38:12.9521841+02:00",
+      "IsConflict": false,
+      "Description": "Triple-buffered exuding task-force",
+      "DescriptionStyleHint": "Future-proofed foreground groupware",
+      "Tooltip": "saepe"
     },
     {
-      "Date": "2002-03-11T03:24:47.1270922+01:00",
-      "IsConflict": true,
-      "Description": "Fully-configurable even-keeled time-frame",
-      "DescriptionStyleHint": "Reactive exuding support",
-      "Tooltip": "sit"
+      "Date": "2001-09-07T13:38:12.9521841+02:00",
+      "IsConflict": false,
+      "Description": "Triple-buffered exuding task-force",
+      "DescriptionStyleHint": "Future-proofed foreground groupware",
+      "Tooltip": "saepe"
     }
   ],
   "IsRecurrence": false

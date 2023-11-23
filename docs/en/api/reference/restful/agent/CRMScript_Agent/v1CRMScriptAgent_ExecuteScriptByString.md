@@ -69,7 +69,7 @@ OK
 |----------------|------|--------------|
 | Output | string | The output from the script, normally from a print or printLine statement |
 | Parameters | object | The parameters/variables that might have been modified by the script |
-| Trace | string | Contains the trace information from the script execution, as a json |
+| TraceRun | CRMScriptTraceRun | Contains the trace information from the script execution |
 | Eventdata | EventData | The EventData instance after script execution with output values |
 | Success | bool | Indicates if the script was executed successfully, or if it failed. In case of failing, the error members will contain more information |
 | ErrorInformation | CRMScriptErrorInfo | Contains error information if the execution failed |
@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptByString
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "et",
+  "Script": "maxime",
   "Parameters": {
-    "Parameters1": "sed",
-    "Parameters2": "ut"
+    "Parameters1": "quo",
+    "Parameters2": "similique"
   },
   "EventData": null
 }
@@ -102,12 +102,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Output": "beatae",
+  "Output": "quis",
   "Parameters": {
-    "Parameters1": "eius",
-    "Parameters2": "qui"
+    "Parameters1": "praesentium",
+    "Parameters2": "quia"
   },
-  "Trace": "libero",
+  "TraceRun": null,
   "Eventdata": null,
   "Success": true,
   "ErrorInformation": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldLength": 573
     }
   }
 }

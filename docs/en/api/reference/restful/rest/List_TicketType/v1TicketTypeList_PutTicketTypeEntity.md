@@ -92,28 +92,28 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 690,
-  "Name": "Parker-Botsford",
-  "Rank": 91,
-  "Tooltip": "aut",
-  "Icon": "qui",
-  "DefaultTicketStatus": 498,
+  "TicketTypeId": 691,
+  "Name": "Runolfsson Inc and Sons",
+  "Rank": 14,
+  "Tooltip": "quidem",
+  "Icon": "laudantium",
+  "DefaultTicketStatus": 958,
   "TicketStatuses": [
-    341,
-    29
+    74,
+    587
   ],
-  "DefaultTicketPriority": 404,
+  "DefaultTicketPriority": 792,
   "TicketPriorities": [
-    342,
-    557
+    869,
+    55
   ],
-  "ReplyTemplate": 603,
-  "IsExternalVisible": true,
-  "IsDefault": true
+  "ReplyTemplate": 412,
+  "IsExternalVisible": false,
+  "IsDefault": false
 }
 ```
 
@@ -124,22 +124,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 167,
-  "Name": "Lockman-Trantow",
-  "Rank": 889,
-  "Tooltip": "inventore",
-  "Icon": "dicta",
-  "DefaultTicketStatus": 829,
+  "TicketTypeId": 604,
+  "Name": "Bergnaum Inc and Sons",
+  "Rank": 860,
+  "Tooltip": "distinctio",
+  "Icon": "rerum",
+  "DefaultTicketStatus": 312,
   "TicketStatuses": [
-    638,
-    352
+    156,
+    520
   ],
-  "DefaultTicketPriority": 722,
+  "DefaultTicketPriority": 420,
   "TicketPriorities": [
-    501,
-    135
+    879,
+    120
   ],
-  "ReplyTemplate": 578,
+  "ReplyTemplate": 232,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 235
+      "FieldLength": 561
     }
   }
 }

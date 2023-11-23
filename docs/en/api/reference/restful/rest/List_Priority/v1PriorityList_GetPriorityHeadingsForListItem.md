@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 509,
-    "Name": "Hamill-Schinner",
-    "ToolTip": "Dolorem voluptatem reiciendis neque delectus animi.",
+    "Id": 54,
+    "Name": "Hartmann, Kovacek and Schuppe",
+    "ToolTip": "Tempora doloremque et est expedita nihil.",
     "Deleted": false,
-    "Rank": 689,
-    "Type": "accusamus",
-    "ColorBlock": 613,
-    "IconHint": "sed",
+    "Rank": 822,
+    "Type": "enim",
+    "ColorBlock": 155,
+    "IconHint": "laborum",
     "Selected": false,
-    "LastChanged": "2022-09-10T03:24:52.3025813+02:00",
+    "LastChanged": "2015-08-29T13:38:18.1244081+02:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Batz-Rohan",
-        "ToolTip": "Velit velit molestiae exercitationem voluptatibus.",
-        "Deleted": false,
-        "Rank": 512,
-        "Type": "est",
-        "ColorBlock": 447,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "1997-01-22T03:24:52.3025813+01:00",
+        "Id": 877,
+        "Name": "Kautzer-Wolff",
+        "ToolTip": "Velit voluptatum sit maiores cum.",
+        "Deleted": true,
+        "Rank": 782,
+        "Type": "non",
+        "ColorBlock": 486,
+        "IconHint": "neque",
+        "Selected": true,
+        "LastChanged": "2023-04-17T13:38:18.1244081+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Una Kuphal",
+        "ExtraInfo": "porro",
+        "StyleHint": "tempora",
+        "Hidden": false,
+        "FullName": "Georgiana Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 125
+            "FieldLength": 312
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "tempora",
-    "Hidden": false,
-    "FullName": "Mrs. Lonzo Sigmund Mayert MD",
+    "ExtraInfo": "fuga",
+    "StyleHint": "ab",
+    "Hidden": true,
+    "FullName": "Porter Dietrich DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldLength": 906
       }
     }
   }

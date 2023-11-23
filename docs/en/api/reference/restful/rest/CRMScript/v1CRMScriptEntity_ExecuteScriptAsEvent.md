@@ -58,6 +58,8 @@ The EventData instance sent to the crmscript with input values
 | StateValues | Object | Values kept between event handlers |
 | Exception | String | String containing error message from handler system if it failed |
 | ParserValues | Object | Parser values sent to the event handler |
+| CgiVariables | Object | Cgi variables sent by some events |
+| CgiContent | String | The Cgi content/body, sent by some events |
 
 ## Response:
 
@@ -81,6 +83,8 @@ OK
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
 | ParserValues | object | Parser values sent to the event handler |
+| CgiVariables | object | Cgi variables sent by some events |
+| CgiContent | string | The Cgi content/body, sent by some events |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -90,32 +94,37 @@ OK
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "officia",
-    "InputValues2": "quis"
+    "InputValues1": "exercitationem",
+    "InputValues2": "enim"
   },
   "BlockExecution": false,
-  "NavigateTo": "autem",
-  "Message": "commodi",
-  "ShowDialog": "adipisci",
+  "NavigateTo": "et",
+  "Message": "sint",
+  "ShowDialog": "nisi",
   "OutputValues": {
-    "OutputValues1": "dolorem",
-    "OutputValues2": "quia"
+    "OutputValues1": "assumenda",
+    "OutputValues2": "totam"
   },
   "StateValues": {
-    "StateValues1": "voluptas",
-    "StateValues2": "nihil"
+    "StateValues1": "laudantium",
+    "StateValues2": "eum"
   },
-  "Exception": "quia",
+  "Exception": "architecto",
   "ParserValues": {
-    "ParserValues1": "quia",
-    "ParserValues2": "sed"
-  }
+    "ParserValues1": "nihil",
+    "ParserValues2": "ullam"
+  },
+  "CgiVariables": {
+    "CgiVariables1": "assumenda",
+    "CgiVariables2": "necessitatibus"
+  },
+  "CgiContent": "velit"
 }
 ```
 
@@ -128,32 +137,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "cum",
-    "InputValues2": "quia"
+    "InputValues1": "non",
+    "InputValues2": "consectetur"
   },
-  "BlockExecution": true,
-  "NavigateTo": "commodi",
-  "Message": "quae",
-  "ShowDialog": "aut",
+  "BlockExecution": false,
+  "NavigateTo": "in",
+  "Message": "sunt",
+  "ShowDialog": "eveniet",
   "OutputValues": {
-    "OutputValues1": "explicabo",
-    "OutputValues2": "sit"
+    "OutputValues1": "quod",
+    "OutputValues2": "sunt"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "non"
+    "StateValues1": "eum",
+    "StateValues2": "quaerat"
   },
-  "Exception": "officiis",
+  "Exception": "quo",
   "ParserValues": {
-    "ParserValues1": "minima",
-    "ParserValues2": "voluptatem"
+    "ParserValues1": "consequatur",
+    "ParserValues2": "iusto"
   },
+  "CgiVariables": {
+    "CgiVariables1": "aperiam",
+    "CgiVariables2": "aut"
+  },
+  "CgiContent": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldType": "System.String",
+      "FieldLength": 24
     }
   }
 }

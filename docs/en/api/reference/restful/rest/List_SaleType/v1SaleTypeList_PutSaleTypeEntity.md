@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 283,
-  "Name": "Hane, Kessler and Gorczany",
-  "Tooltip": "voluptatem",
-  "Rank": 145,
+  "SaleTypeId": 213,
+  "Name": "Mueller-Donnelly",
+  "Tooltip": "aut",
+  "Rank": 482,
   "DurationUnit": "Century",
-  "SaleDuration": 881,
-  "SaleTypeCatId": 143,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 594,
-  "QuoteLinesTemplate": 205,
-  "ConfirmationLinesTemplate": 347,
+  "SaleDuration": 588,
+  "SaleTypeCatId": 561,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 315,
+  "QuoteLinesTemplate": 803,
+  "ConfirmationLinesTemplate": 615,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 402,
-  "MinEarningPercent": 702,
-  "GroupQuoteLinesBy": 70,
-  "SortGroupLinesBy": 276,
+  "MaxDiscountPercent": 373,
+  "MinEarningPercent": 190,
+  "GroupQuoteLinesBy": 754,
+  "SortGroupLinesBy": 896,
   "Stages": [
     {
-      "Id": 845,
-      "Name": "Schamberger-Harvey",
-      "ToolTip": "Quas ratione nam ut eum qui.",
+      "Id": 316,
+      "Name": "Adams LLC",
+      "ToolTip": "Magni perspiciatis officia et nisi non.",
       "Deleted": true,
-      "Rank": 98,
-      "Type": "eius",
-      "ColorBlock": 84,
-      "IconHint": "debitis",
-      "Selected": true,
-      "LastChanged": "2012-06-21T03:24:52.4119449+02:00",
+      "Rank": 466,
+      "Type": "soluta",
+      "ColorBlock": 508,
+      "IconHint": "sed",
+      "Selected": false,
+      "LastChanged": "2001-06-03T13:38:18.2181419+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "perferendis",
-      "StyleHint": "quia",
-      "Hidden": true,
-      "FullName": "Dr. Christopher Steve Sporer"
+      "ExtraInfo": "quo",
+      "StyleHint": "numquam",
+      "Hidden": false,
+      "FullName": "Effie Steuber"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 593,
-  "Name": "Hermiston Group",
-  "Tooltip": "molestias",
-  "Rank": 463,
+  "SaleTypeId": 491,
+  "Name": "Ziemann-Jacobi",
+  "Tooltip": "et",
+  "Rank": 673,
   "DurationUnit": "Century",
-  "SaleDuration": 352,
-  "SaleTypeCatId": 516,
+  "SaleDuration": 870,
+  "SaleTypeCatId": 861,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 821,
-  "QuoteLinesTemplate": 104,
-  "ConfirmationLinesTemplate": 217,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 286,
-  "MinEarningPercent": 286,
-  "GroupQuoteLinesBy": 638,
-  "SortGroupLinesBy": 795,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 320,
+  "QuoteLinesTemplate": 350,
+  "ConfirmationLinesTemplate": 669,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 626,
+  "MinEarningPercent": 741,
+  "GroupQuoteLinesBy": 72,
+  "SortGroupLinesBy": 948,
   "Stages": [
     {
-      "Id": 143,
-      "Name": "Prohaska, Boyer and Hudson",
-      "ToolTip": "Amet quia et delectus.",
-      "Deleted": true,
-      "Rank": 359,
-      "Type": "sit",
-      "ColorBlock": 457,
-      "IconHint": "quia",
-      "Selected": false,
-      "LastChanged": "2020-10-22T03:24:52.4119449+02:00",
+      "Id": 216,
+      "Name": "Mayer-Hagenes",
+      "ToolTip": "Nostrum mollitia.",
+      "Deleted": false,
+      "Rank": 783,
+      "Type": "molestiae",
+      "ColorBlock": 716,
+      "IconHint": "dolores",
+      "Selected": true,
+      "LastChanged": "2005-07-11T13:38:18.2181419+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "nostrum",
+      "ExtraInfo": "modi",
+      "StyleHint": "perferendis",
       "Hidden": false,
-      "FullName": "Dorcas Orn",
+      "FullName": "Mr. Tommie Sauer Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 595
+          "FieldType": "System.String",
+          "FieldLength": 824
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldType": "System.String",
+      "FieldLength": 179
     }
   }
 }

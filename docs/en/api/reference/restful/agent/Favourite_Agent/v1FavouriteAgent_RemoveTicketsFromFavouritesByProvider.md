@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hintz Group",
+  "ProviderName": "Oberbrunner-Gulgowski",
   "Restrictions": [
     {
-      "Name": "Kuhn Inc and Sons",
-      "Operator": "ducimus",
+      "Name": "Bernhard-Runte",
+      "Operator": "assumenda",
       "Values": [
-        "vel",
-        "praesentium"
+        "veritatis",
+        "et"
       ],
       "DisplayValues": [
-        "consectetur",
-        "consequatur"
+        "labore",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 993,
+      "InterParenthesis": 295,
       "InterOperator": "And",
-      "UniqueHash": 136
+      "UniqueHash": 120
     }
   ],
-  "AssociateId": 191
+  "AssociateId": 890
 }
 ```
 

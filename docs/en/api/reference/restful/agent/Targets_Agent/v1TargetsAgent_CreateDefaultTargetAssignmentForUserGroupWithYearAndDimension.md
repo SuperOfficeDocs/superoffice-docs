@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 961,
-  "Year": 194,
-  "TargetDimensionId": 237
+  "UserGroupId": 551,
+  "Year": 99,
+  "TargetDimensionId": 141
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 233,
+    "TargetAssignmentInfoId": 151,
     "Values": [
-      725,
-      677
+      250,
+      861
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 577,
-    "DimensionListItemDisplayName": "Funk-Runolfsdottir",
+    "DimensionListItem": 260,
+    "DimensionListItemDisplayName": "Langosh, Brakus and Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldLength": 453
       }
     }
   }

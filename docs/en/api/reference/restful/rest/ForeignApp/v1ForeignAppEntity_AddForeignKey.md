@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aut",
-  "Value": "eius",
-  "RecordId": 165,
-  "CreatedDate": "2015-07-16T03:24:51.630601+02:00",
-  "UpdatedDate": "2004-08-17T03:24:51.630601+02:00",
-  "UpdatedBy": "velit",
-  "CreatedBy": "delectus",
-  "TableName": "Schumm Group"
+  "Key": "accusamus",
+  "Value": "voluptatem",
+  "RecordId": 838,
+  "CreatedDate": "2012-12-26T13:38:17.4524494+01:00",
+  "UpdatedDate": "2003-06-18T13:38:17.4524494+02:00",
+  "UpdatedBy": "adipisci",
+  "CreatedBy": "eligendi",
+  "TableName": "Wehner-Hansen"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "occaecati",
-  "Value": "sunt",
-  "RecordId": 974,
-  "CreatedDate": "2013-12-25T03:24:51.630601+01:00",
-  "UpdatedDate": "2006-07-25T03:24:51.630601+02:00",
-  "UpdatedBy": "provident",
-  "CreatedBy": "quia",
-  "TableName": "Quigley LLC",
+  "Key": "voluptas",
+  "Value": "aut",
+  "RecordId": 43,
+  "CreatedDate": "2014-07-12T13:38:17.4524494+02:00",
+  "UpdatedDate": "2012-11-29T13:38:17.4524494+01:00",
+  "UpdatedBy": "labore",
+  "CreatedBy": "architecto",
+  "TableName": "Murphy, Rosenbaum and Rippin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 119
+      "FieldType": "System.Int32",
+      "FieldLength": 258
     }
   }
 }

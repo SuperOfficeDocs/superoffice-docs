@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 87,
-  "ApprovedByText": "velit",
-  "ApprovedByAssociateId": 602,
-  "ApprovalText": "a"
+  "QuoteVersionId": 848,
+  "ApprovedByText": "vel",
+  "ApprovedByAssociateId": 48,
+  "ApprovalText": "excepturi"
 }
 ```
 
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 283,
+  "CreatedAppointmentId": 847,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 221
+      "FieldLength": 458
     }
   }
 }

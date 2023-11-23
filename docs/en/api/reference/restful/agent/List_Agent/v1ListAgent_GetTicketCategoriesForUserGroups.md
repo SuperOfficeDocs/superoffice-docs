@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    407,
-    322
+    285,
+    553
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Block Group",
-    "ToolTip": "Consectetur sunt sunt blanditiis sapiente magni.",
-    "Deleted": true,
-    "Rank": 292,
-    "Type": "laborum",
+    "Id": 492,
+    "Name": "Kerluke Group",
+    "ToolTip": "Eius dicta est provident.",
+    "Deleted": false,
+    "Rank": 272,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Hudson-Crooks",
-        "ToolTip": "Dolorum alias sint distinctio.",
+        "Id": 677,
+        "Name": "Bednar, Simonis and Rice",
+        "ToolTip": "Quia suscipit vel voluptas necessitatibus doloremque.",
         "Deleted": false,
-        "Rank": 905,
-        "Type": "nesciunt",
+        "Rank": 415,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 219,
-        "ExtraInfo": "at",
-        "StyleHint": "voluptatibus",
-        "FullName": "Amelie Wilkinson",
+        "IconHint": "sint",
+        "ColorBlock": 766,
+        "ExtraInfo": "nostrum",
+        "StyleHint": "illo",
+        "FullName": "Della Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 321
+            "FieldLength": 605
           }
         }
       }
     ],
-    "IconHint": "illo",
-    "ColorBlock": 849,
-    "ExtraInfo": "quia",
-    "StyleHint": "dolore",
-    "FullName": "Ms. Dino Reynolds",
+    "IconHint": "explicabo",
+    "ColorBlock": 852,
+    "ExtraInfo": "est",
+    "StyleHint": "ex",
+    "FullName": "Heather Sanford MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 477
       }
     }
   }

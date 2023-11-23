@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 138,
+  "UdListDefinitionId": 603,
   "Items": [
     {
-      "Id": 705,
-      "Name": "Dietrich Group",
-      "Tooltip": "veritatis",
-      "Deleted": true,
-      "UdListDefinitionId": 749,
-      "Rank": 961
+      "Id": 794,
+      "Name": "Veum-Bernier",
+      "Tooltip": "autem",
+      "Deleted": false,
+      "UdListDefinitionId": 579,
+      "Rank": 282
     },
     {
-      "Id": 705,
-      "Name": "Dietrich Group",
-      "Tooltip": "veritatis",
-      "Deleted": true,
-      "UdListDefinitionId": 749,
-      "Rank": 961
+      "Id": 794,
+      "Name": "Veum-Bernier",
+      "Tooltip": "autem",
+      "Deleted": false,
+      "UdListDefinitionId": 579,
+      "Rank": 282
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Jacobi Inc and Sons",
-    "Tooltip": "a",
+    "Id": 303,
+    "Name": "Stanton, Boehm and Langworth",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 990,
-    "Rank": 635,
+    "UdListDefinitionId": 279,
+    "Rank": 621,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldLength": 672
       }
     }
   }

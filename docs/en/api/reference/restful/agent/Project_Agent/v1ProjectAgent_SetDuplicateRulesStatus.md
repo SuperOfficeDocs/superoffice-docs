@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Quigley LLC",
-      "DisplayName": "Blick, Mohr and Rosenbaum",
-      "DisplayTooltip": "tenetur",
+      "Name": "Kemmer, McCullough and Tillman",
+      "DisplayName": "Stamm-Rohan",
+      "DisplayTooltip": "pariatur",
       "IsActive": false
     },
     {
-      "Name": "Quigley LLC",
-      "DisplayName": "Blick, Mohr and Rosenbaum",
-      "DisplayTooltip": "tenetur",
+      "Name": "Kemmer, McCullough and Tillman",
+      "DisplayName": "Stamm-Rohan",
+      "DisplayTooltip": "pariatur",
       "IsActive": false
     }
   ]

@@ -73,16 +73,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "saepe",
+      "RawValue": "perferendis",
       "Specification": null,
-      "DisplayValue": "laborum",
-      "DisplayTooltip": "dignissimos",
+      "DisplayValue": "laudantium",
+      "DisplayTooltip": "praesentium",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 468,
-      "PrefDescId": 592,
-      "TableName": "Rolfson-Botsford",
-      "UserPreferenceId": 484
+      "TargetId": 446,
+      "PrefDescId": 363,
+      "TableName": "Boyle LLC",
+      "UserPreferenceId": 46
     }
   ]
 }

@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Cummings-Flatley",
-    "Tooltip": "facilis",
-    "Deleted": false,
-    "UdListDefinitionId": 438,
-    "Rank": 844,
+    "Id": 179,
+    "Name": "Goyette-Schroeder",
+    "Tooltip": "ducimus",
+    "Deleted": true,
+    "UdListDefinitionId": 426,
+    "Rank": 78,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldType": "System.String",
+        "FieldLength": 918
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 883,
-    "Name": "Kub-Welch",
-    "Tooltip": "reiciendis",
+    "HeadingId": 853,
+    "Name": "Prohaska, Purdy and Hagenes",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 465,
-    "UdListDefinitionId": 716,
+    "Rank": 406,
+    "UdListDefinitionId": 270,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 451
+        "FieldLength": 314
       }
     }
   }

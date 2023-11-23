@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 355,
-    "Name": "Hermiston, Bergstrom and Oberbrunner",
-    "Tooltip": "accusamus",
+    "HeadingId": 236,
+    "Name": "Morissette-Romaguera",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "Rank": 951,
-    "UdListDefinitionId": 238
+    "Rank": 349,
+    "UdListDefinitionId": 792
   },
   {
-    "HeadingId": 355,
-    "Name": "Hermiston, Bergstrom and Oberbrunner",
-    "Tooltip": "accusamus",
+    "HeadingId": 236,
+    "Name": "Morissette-Romaguera",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "Rank": 951,
-    "UdListDefinitionId": 238
+    "Rank": 349,
+    "UdListDefinitionId": 792
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 449,
-    "Name": "Konopelski-Lindgren",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 622,
-    "UdListDefinitionId": 880,
+    "HeadingId": 509,
+    "Name": "Haag, Witting and Schultz",
+    "Tooltip": "dolore",
+    "Deleted": true,
+    "Rank": 918,
+    "UdListDefinitionId": 981,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 556
       }
     }
   }

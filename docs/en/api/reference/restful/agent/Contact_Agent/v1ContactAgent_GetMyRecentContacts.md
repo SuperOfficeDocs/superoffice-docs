@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 432,
-    "Name": "Erdman-Wisozk",
-    "OrgNr": "1627078",
-    "Department": "",
+    "ContactId": 117,
+    "Name": "Kuhlman, Dietrich and Berge",
+    "OrgNr": "1318373",
+    "Department": "streamline proactive technologies",
     "URL": "http://www.example.com/",
-    "City": "debitis",
-    "DirectPhone": "987.172.2272",
-    "AssociateId": 284,
-    "CountryId": 246,
-    "EmailAddress": "keshaun_lesch@turcotte.biz",
-    "Kananame": "blanditiis",
-    "EmailAddressName": "soledad.robel@witting.us",
+    "City": "nihil",
+    "DirectPhone": "(944)511-1159",
+    "AssociateId": 940,
+    "CountryId": 858,
+    "EmailAddress": "kenyon@pacocha.ca",
+    "Kananame": "necessitatibus",
+    "EmailAddressName": "nayeli@cronin.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ms. Izaiah Lakin I",
+    "AssociateFullName": "Dylan Hane",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "consectetur",
-    "FullName": "Lesly Tatum Kuvalis I",
+    "FormattedAddress": "exercitationem",
+    "FullName": "Miss Arnaldo Jackeline Klein MD",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 775,
-    "Number1": "1408372",
-    "Number2": "1141999",
+    "ActiveErpLinks": 531,
+    "Number1": "1212314",
+    "Number2": "630192",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 458
+        "FieldType": "System.Int32",
+        "FieldLength": 175
       }
     }
   }

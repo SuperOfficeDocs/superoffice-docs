@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive value-added function",
-  "Postit": "asperiores",
+  "Description": "Streamlined coherent contingency",
+  "Postit": "molestias",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 975,
-  "IncludePerson": 507,
-  "MemberCount": 712,
-  "Name": "Kovacek, Schamberger and Lesch",
-  "PostitTextId": 716,
-  "CreatedDate": "2003-05-22T03:24:51.927622+02:00",
-  "SelectionId": 627,
-  "SoundEx": "quia",
-  "Source": 398,
-  "TextId": 331,
-  "UpdatedDate": "2007-08-27T03:24:51.927622+02:00",
-  "UpdatedCount": 90,
-  "Visibility": 370,
+  "GroupIdx": 175,
+  "IncludePerson": 715,
+  "MemberCount": 270,
+  "Name": "Schuppe-Lubowitz",
+  "PostitTextId": 794,
+  "CreatedDate": "2007-11-10T13:38:17.6555554+01:00",
+  "SelectionId": 398,
+  "SoundEx": "pariatur",
+  "Source": 95,
+  "TextId": 147,
+  "UpdatedDate": "2023-10-09T13:38:17.6555554+02:00",
+  "UpdatedCount": 687,
+  "Visibility": 46,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 36,
-  "TargetTableName": "Hayes-Ziemann",
+  "CompanyUnique": true,
+  "TargetTableNumber": 520,
+  "TargetTableName": "Jacobs, Nikolaus and Koelpin",
   "Completed": false,
-  "LeftSelectionId": 522,
-  "RightSelectionId": 336,
+  "LeftSelectionId": 512,
+  "RightSelectionId": 745,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bosco, Haley and Fahey",
-  "ShadowProviderName": "Von, Shanahan and Eichmann",
-  "ChartKey": "sint",
-  "LastLoaded": "2006-01-09T03:24:51.927622+01:00",
-  "LastLoadedBy": 560,
+  "MainProviderName": "Abshire, Ferry and Kihn",
+  "ShadowProviderName": "Monahan, Fahey and Corwin",
+  "ChartKey": "et",
+  "LastLoaded": "2005-09-14T13:38:17.6555554+02:00",
+  "LastLoadedBy": 455,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-01-20T03:24:51.927622+01:00",
-  "LastMembershipChangeBy": 532,
+  "LastMembershipChange": "2014-05-09T13:38:17.6555554+02:00",
+  "LastMembershipChangeBy": 635,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "unde",
-  "MailingsProviderName": "Grant Group",
-  "DashboardTileDefinitionId": 250,
+  "MainHeading": "sit",
+  "MemberTabHeading": "dolores",
+  "MailingsProviderName": "Morar, Dibbert and Reynolds",
+  "DashboardTileDefinitionId": 691,
   "VisibleFor": [
     {
-      "VisibleId": 732,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 312
         }
       }
     },
     {
-      "VisibleId": 732,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 312
         }
       }
     }
@@ -244,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 302
     }
   },
   "_Links": {

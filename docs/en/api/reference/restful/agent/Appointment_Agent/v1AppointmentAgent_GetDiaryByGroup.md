@@ -116,6 +116,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -128,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 660,
-  "GroupType": 39,
-  "StartTime": "2009-09-21T03:24:46.9550719+02:00",
-  "EndTime": "2006-01-17T03:24:46.9550719+01:00",
-  "Count": 841
+  "GroupId": 912,
+  "GroupType": 134,
+  "StartTime": "2004-06-25T13:38:12.8740699+02:00",
+  "EndTime": "2018-07-23T13:38:12.8740699+02:00",
+  "Count": 390
 }
 ```
 
@@ -148,64 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 331,
-    "StartDate": "2017-03-11T03:24:46.9550719+01:00",
-    "EndDate": "2013-08-17T03:24:46.9550719+02:00",
+    "AppointmentId": 514,
+    "StartDate": "2020-01-27T13:38:12.8740699+01:00",
+    "EndDate": "2001-03-26T13:38:12.8740699+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quam",
-    "AssociateFullName": "Joelle McGlynn",
-    "ContactName": "Lebsack-Okuneva",
-    "Description": "Polarised modular support",
-    "PersonFullName": "Mr. May Buck Hammes IV",
-    "PersonId": 933,
-    "ContactId": 748,
-    "ProjectId": 973,
-    "ProjectName": "Heathcote-Muller",
-    "IsPublished": true,
-    "AssociateId": 899,
-    "ColorIndex": 182,
+    "Task": "quas",
+    "AssociateFullName": "Odessa Lakin",
+    "ContactName": "Hahn LLC",
+    "Description": "Synergized 24 hour implementation",
+    "PersonFullName": "Miss Bennie Jacinto Cremin",
+    "PersonId": 706,
+    "ContactId": 528,
+    "ProjectId": 297,
+    "ProjectName": "Purdy Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 458,
+    "ColorIndex": 867,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 359,
-    "PriorityName": "Jacobs-Jast",
+    "PriorityId": 417,
+    "PriorityName": "Beahan LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2016-09-11T03:24:46.9550719+02:00",
+    "ActiveDate": "2002-02-13T13:38:12.8740699+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-03-20T03:24:46.9550719+01:00",
-    "RecurringEndDate": "2009-01-15T03:24:46.9550719+01:00",
-    "MotherId": 66,
-    "AssignedBy": 306,
-    "AssignedByFullName": "Alene Pagac",
+    "RecurringStartDate": "2015-07-22T13:38:12.8740699+02:00",
+    "RecurringEndDate": "2012-02-25T13:38:12.8740699+01:00",
+    "MotherId": 295,
+    "AssignedBy": 424,
+    "AssignedByFullName": "Bailey Ondricka",
     "RejectReason": "",
-    "Location": "odit",
-    "AlarmLeadTime": "et",
-    "SaleId": 469,
-    "SaleName": "Collier, Medhurst and Kuhic",
-    "AssociateName": "Reinger Inc and Sons",
-    "CreatedDate": "2003-09-02T03:24:46.9550719+02:00",
-    "CreatedBy": "blanditiis",
-    "CreatedByFullName": "Wade Moen",
-    "CreatedByAssociateId": 828,
+    "Location": "voluptas",
+    "AlarmLeadTime": "eligendi",
+    "SaleId": 600,
+    "SaleName": "Hane, Graham and Schuppe",
+    "AssociateName": "Schaefer-Block",
+    "CreatedDate": "2017-08-26T13:38:12.8740699+02:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Wilfredo Larkin",
+    "CreatedByAssociateId": 513,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "ab",
-    "Agenda": "dolorem",
-    "InternalNotes": "consectetur",
+    "PreferredTZLocation": 553,
+    "Title": "voluptatem",
+    "Agenda": "sint",
+    "InternalNotes": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   }

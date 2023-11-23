@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 865,
-    "Attention": "nostrum",
-    "Header": "excepturi",
-    "Name": "Harber, Cronin and Thompson",
-    "OurRef": "iure",
-    "YourRef": "voluptatem",
-    "Description": "Persevering bandwidth-monitored standardization",
-    "DocumentTemplate": "perspiciatis",
-    "IsPublished": true,
-    "PersonId": 119,
-    "PersonFullName": "Palma Henry Labadie Jr.",
-    "AssociateFullName": "Rico Brekke",
-    "ContactId": 64,
-    "ContactName": "Gaylord, Rowe and Labadie",
-    "ProjectId": 107,
-    "ProjectName": "Bernhard Inc and Sons",
-    "AssociateId": 477,
-    "Snum": 726,
-    "SaleId": 424,
-    "SaleName": "Cummings LLC",
+    "DocumentId": 211,
+    "Attention": "non",
+    "Header": "autem",
+    "Name": "Nader, Braun and Gleason",
+    "OurRef": "quaerat",
+    "YourRef": "nihil",
+    "Description": "Centralized demand-driven intranet",
+    "DocumentTemplate": "voluptas",
+    "IsPublished": false,
+    "PersonId": 920,
+    "PersonFullName": "Justyn Mae Prohaska Jr.",
+    "AssociateFullName": "Dr. Ila Howe II",
+    "ContactId": 479,
+    "ContactName": "Renner Group",
+    "ProjectId": 814,
+    "ProjectName": "Kemmer, Runte and Lowe",
+    "AssociateId": 379,
+    "Snum": 524,
+    "SaleId": 140,
+    "SaleName": "Dach-Hermann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 728
+        "FieldLength": 534
       }
     }
   }

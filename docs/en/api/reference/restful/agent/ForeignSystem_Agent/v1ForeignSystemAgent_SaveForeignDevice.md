@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Blanda, Wiza and Feest"
+  "ApplicationName": "Cormier-Anderson"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 814,
-  "Name": "West Inc and Sons",
-  "CreatedDate": "1998-01-28T03:24:47.8301403+01:00",
-  "UpdatedDate": "1999-10-19T03:24:47.8301403+02:00",
-  "AssociateFullName": "Alessandra Ferry",
-  "CreatedBy": "tempore",
-  "UpdatedBy": "quaerat",
-  "DeviceIdentifier": "ipsam",
-  "ForeignAppId": 772,
+  "ForeignDeviceId": 659,
+  "Name": "Hagenes, Block and Armstrong",
+  "CreatedDate": "2022-09-18T13:38:13.6396102+02:00",
+  "UpdatedDate": "2017-10-16T13:38:13.6396102+02:00",
+  "AssociateFullName": "Lenna Kerluke",
+  "CreatedBy": "illo",
+  "UpdatedBy": "aut",
+  "DeviceIdentifier": "occaecati",
+  "ForeignAppId": 598,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldType": "System.String",
+      "FieldLength": 662
     }
   }
 }

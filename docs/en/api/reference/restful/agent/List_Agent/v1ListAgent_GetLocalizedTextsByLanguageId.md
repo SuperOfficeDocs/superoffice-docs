@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 412
+  "LanguageId": 227
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 565,
-    "ResourceId": 628,
-    "Text": "ad",
+    "LanguageId": 238,
+    "ResourceId": 946,
+    "Text": "dolor",
     "Type": "Column",
-    "LocalizedTextId": 889,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 887,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 595
       }
     }
   }

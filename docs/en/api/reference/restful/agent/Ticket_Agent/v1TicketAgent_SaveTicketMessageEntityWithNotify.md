@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": false
+  "Notify": true
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 169,
+  "EjMessageId": 284,
   "Ticket": null,
-  "CreatedAt": "2017-04-15T03:24:48.5028909+02:00",
+  "CreatedAt": "2004-09-19T13:38:14.3115522+02:00",
   "CreatedBy": null,
-  "Author": "quia",
+  "Author": "dolorem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "praesentium",
-  "TimeSpent": 823,
-  "Body": "quod",
-  "HtmlBody": "saepe",
-  "EmailHeader": "margret.schiller@franecki.uk",
-  "DebugInfo": "voluptatum",
-  "MailSorter": "quia",
+  "MessageId": "eum",
+  "TimeSpent": 128,
+  "Body": "dicta",
+  "HtmlBody": "nemo",
+  "EmailHeader": "judd@walsh.ca",
+  "DebugInfo": "et",
+  "MailSorter": "delectus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ipsum",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 714,
-      "Name": "Koelpin Group",
-      "Value": "quasi",
+      "Id": 56,
+      "Name": "Kihn-Koss",
+      "Value": "dicta",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 831
+          "FieldLength": 389
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "facere",
-  "Sentiment": 762,
-  "SentimentConfidence": 421,
+  "Important": true,
+  "Language": "qui",
+  "Sentiment": 527,
+  "SentimentConfidence": 130,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 382,
-      "Name": "Schulist-Wisozk",
-      "ContentType": "harum",
-      "AttSize": 730,
+      "AttachmentId": 502,
+      "Name": "Abshire Inc and Sons",
+      "ContentType": "maiores",
+      "AttSize": 681,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "voluptas",
+      "ContentId": "illo",
+      "AuthKey": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldLength": 63
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "quos",
+    "ExtraFields2": "maxime"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "velit"
+    "CustomFields1": "quidem",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 155
     }
   }
 }

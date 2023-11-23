@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -134,11 +135,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 484,
-  "StartTime": "1997-12-03T03:24:46.9394467+01:00",
-  "EndTime": "2004-10-23T03:24:46.9394467+02:00",
-  "Count": 359,
-  "TaskId": 410
+  "PersonId": 125,
+  "StartTime": "1999-01-23T13:38:12.8584402+01:00",
+  "EndTime": "2001-05-23T13:38:12.8584402+02:00",
+  "Count": 549,
+  "TaskId": 259
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 768,
-    "StartDate": "2021-10-22T03:24:46.9394467+02:00",
-    "EndDate": "2000-01-06T03:24:46.9394467+01:00",
+    "AppointmentId": 868,
+    "StartDate": "2004-08-30T13:38:12.8584402+02:00",
+    "EndDate": "2016-10-12T13:38:12.8584402+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Brent Wolff",
-    "ContactName": "Hodkiewicz, Zemlak and Graham",
-    "Description": "Seamless dynamic hub",
-    "PersonFullName": "Maritza Homenick",
-    "PersonId": 481,
-    "ContactId": 560,
-    "ProjectId": 391,
-    "ProjectName": "Koepp, Heathcote and Halvorson",
+    "Task": "nisi",
+    "AssociateFullName": "Prof. Greta VonRueden DVM",
+    "ContactName": "Hickle-Gulgowski",
+    "Description": "Distributed optimal success",
+    "PersonFullName": "Perry Douglas",
+    "PersonId": 601,
+    "ContactId": 38,
+    "ProjectId": 845,
+    "ProjectName": "McDermott, Becker and Lueilwitz",
     "IsPublished": false,
-    "AssociateId": 309,
-    "ColorIndex": 189,
-    "IsFree": false,
+    "AssociateId": 879,
+    "ColorIndex": 577,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 607,
-    "PriorityName": "Koelpin-Ledner",
+    "PriorityId": 220,
+    "PriorityName": "Haley Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2007-04-20T03:24:46.9394467+02:00",
+    "ActiveDate": "2014-05-17T13:38:12.8584402+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-12-28T03:24:46.9394467+01:00",
-    "RecurringEndDate": "2017-10-20T03:24:46.9394467+02:00",
-    "MotherId": 553,
-    "AssignedBy": 930,
-    "AssignedByFullName": "Ms. Ezekiel Heathcote",
+    "RecurringStartDate": "2013-11-24T13:38:12.8584402+01:00",
+    "RecurringEndDate": "1998-09-29T13:38:12.8584402+02:00",
+    "MotherId": 894,
+    "AssignedBy": 291,
+    "AssignedByFullName": "Dino Cassin",
     "RejectReason": "",
-    "Location": "ab",
-    "AlarmLeadTime": "et",
-    "SaleId": 284,
-    "SaleName": "Goldner Inc and Sons",
-    "AssociateName": "Reichel-Conroy",
-    "CreatedDate": "1998-10-27T03:24:46.9394467+01:00",
-    "CreatedBy": "magnam",
-    "CreatedByFullName": "Hermina Monahan DDS",
-    "CreatedByAssociateId": 100,
+    "Location": "hic",
+    "AlarmLeadTime": "laudantium",
+    "SaleId": 297,
+    "SaleName": "Heller LLC",
+    "AssociateName": "Hintz, Hoppe and Kuhn",
+    "CreatedDate": "2008-01-15T13:38:12.8584402+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Cali Raynor",
+    "CreatedByAssociateId": 937,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "et",
-    "Agenda": "autem",
-    "InternalNotes": "blanditiis",
+    "PreferredTZLocation": 75,
+    "Title": "minus",
+    "Agenda": "beatae",
+    "InternalNotes": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldType": "System.Int32",
+        "FieldLength": 369
       }
     }
   }

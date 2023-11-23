@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 610,
-  "Name": "Glover, McKenzie and Rowe",
-  "Description": "Total cohesive open architecture",
-  "DefaultHeight": 877,
-  "DefaultWidth": 870,
+  "DashboardTileDefinitionId": 461,
+  "Name": "Torp, Hamill and Gleason",
+  "Description": "Re-engineered zero defect utilisation",
+  "DefaultHeight": 440,
+  "DefaultWidth": 175,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Shanahan-Kuhn",
-  "SelectionId": 948,
+  "EntityName": "Hudson-Lesch",
+  "SelectionId": 651,
   "CurrencyMode": "Base",
-  "CurrencyCode": "porro",
+  "CurrencyCode": "aperiam",
   "Measure": "Average",
-  "MeasureField": "vel",
-  "SortBy": "earum",
-  "LayoutConfig": "vel",
-  "SecondarySelectionId": 809,
-  "MeasureByField": "sit",
+  "MeasureField": "eum",
+  "SortBy": "velit",
+  "LayoutConfig": "voluptatibus",
+  "SecondarySelectionId": 103,
+  "MeasureByField": "aliquid",
   "Usage": "Dashboard",
-  "ProviderName": "Muller, Batz and Bernhard",
+  "ProviderName": "Hessel, Halvorson and Stracke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldType": "System.Int32",
+      "FieldLength": 516
     }
   }
 }

@@ -82,16 +82,16 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 674,
-  "Name": "Hansen-Hagenes",
-  "Tooltip": "est",
-  "Rank": 558,
-  "Rate": 1366.424,
-  "Units": 22633.748,
+  "CurrencyId": 728,
+  "Name": "Fadel Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 163,
+  "Rate": 10608.59,
+  "Units": 9145.0119999999988,
   "Deleted": true
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 622,
-  "Name": "Pfannerstill-Bergstrom",
-  "Tooltip": "blanditiis",
-  "Rank": 925,
-  "Rate": 18985.772,
-  "Units": 7004.49,
+  "CurrencyId": 352,
+  "Name": "King-Abbott",
+  "Tooltip": "animi",
+  "Rank": 611,
+  "Rate": 4055.3959999999997,
+  "Units": 17973.489999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 819
     }
   }
 }

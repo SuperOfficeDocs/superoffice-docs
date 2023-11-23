@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=391
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=725
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 836,
-  "Name": "Ratke, Bednar and Hoppe",
-  "Tooltip": "officiis",
-  "Rank": 772,
+  "ProjTypeId": 163,
+  "Name": "Fritsch, Klein and Hodkiewicz",
+  "Tooltip": "est",
+  "Rank": 143,
   "DurationUnit": "Century",
-  "ProjectDuration": 137,
+  "ProjectDuration": 164,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 930,
-      "Name": "Altenwerth Group",
-      "ToolTip": "Et voluptas dolor quo voluptas repellat est.",
-      "Deleted": false,
-      "Rank": 8,
-      "Type": "quod",
-      "ColorBlock": 289,
-      "IconHint": "sapiente",
-      "Selected": false,
-      "LastChanged": "2018-06-27T03:24:47.8457602+02:00",
+      "Id": 981,
+      "Name": "Mayer LLC",
+      "ToolTip": "Qui aliquid id autem itaque error.",
+      "Deleted": true,
+      "Rank": 657,
+      "Type": "ducimus",
+      "ColorBlock": 44,
+      "IconHint": "est",
+      "Selected": true,
+      "LastChanged": "2004-09-11T13:38:13.6552317+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "temporibus",
-      "Hidden": true,
-      "FullName": "Tre Conn",
+      "ExtraInfo": "aut",
+      "StyleHint": "molestias",
+      "Hidden": false,
+      "FullName": "Kiley Spencer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 437
+          "FieldType": "System.Int32",
+          "FieldLength": 187
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 33
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 374,
-  "ColumnId": 661,
-  "FieldDefault": "in",
-  "FieldHeight": 368,
-  "FieldLabel": "deleniti",
-  "FieldLeft": 10,
-  "FieldTop": 17,
+  "UDefFieldId": 251,
+  "ColumnId": 385,
+  "FieldDefault": "sit",
+  "FieldHeight": 839,
+  "FieldLabel": "et",
+  "FieldLeft": 842,
+  "FieldTop": 34,
   "FieldType": "Checkbox",
-  "FieldWidth": 753,
-  "FormatMask": "eius",
+  "FieldWidth": 111,
+  "FormatMask": "neque",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 201,
-  "LabelLeft": 953,
-  "LabelTop": 817,
-  "LabelWidth": 564,
-  "LastVersionId": 265,
-  "ListTableId": 420,
-  "IsMandatory": false,
+  "LabelHeight": 821,
+  "LabelLeft": 27,
+  "LabelTop": 592,
+  "LabelWidth": 575,
+  "LastVersionId": 457,
+  "ListTableId": 882,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 324,
-  "ProgId": "quis",
+  "Page1LineNo": 237,
+  "ProgId": "repellat",
   "IsReadOnly": true,
-  "ShortLabel": "sit",
-  "TabOrder": 378,
-  "TextLength": 683,
-  "Tooltip": "cupiditate",
-  "UdefIdentity": 639,
-  "UDListDefinitionId": 734,
+  "ShortLabel": "est",
+  "TabOrder": 177,
+  "TextLength": 564,
+  "Tooltip": "dolores",
+  "UdefIdentity": 130,
+  "UDListDefinitionId": 441,
   "Justification": "Center",
-  "Version": 599,
-  "TemplateVariableName": "Brekke-Larkin",
+  "Version": 598,
+  "TemplateVariableName": "Harris-Grady",
   "HasBeenPublished": true,
-  "MdoListName": "Kilback-Auer",
+  "MdoListName": "Haag LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 444
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

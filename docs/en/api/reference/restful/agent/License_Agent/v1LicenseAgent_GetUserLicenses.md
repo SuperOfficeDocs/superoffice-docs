@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 621
+  "AssociateId": 835
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Steuber-Schumm",
-    "Description": "Multi-layered homogeneous Graphic Interface",
+    "Name": "Cruickshank Inc and Sons",
+    "Description": "Business-focused fault-tolerant intranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 935,
-        "Tooltip": "sit",
+        "Unrestricted": false,
+        "Total": 666,
+        "Tooltip": "velit",
         "CanAssign": false,
-        "Free": 190,
-        "InUse": 994,
+        "Free": 111,
+        "InUse": 467,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 62,
-        "Name": "O'Reilly, Jacobs and Kihn",
-        "Description": "Synergistic national focus group",
-        "PrerequisiteModuleName": "Koss LLC",
-        "SortOrder": 934,
-        "ExtraFlags": 518,
+        "ModuleLicenseId": 439,
+        "Name": "Gulgowski-Welch",
+        "Description": "Secured needs-based service-desk",
+        "PrerequisiteModuleName": "Towne-Carroll",
+        "SortOrder": 23,
+        "ExtraFlags": 657,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 563
+            "FieldLength": 758
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 300,
-        "Tooltip": "minus",
-        "CanAssign": true,
-        "Free": 296,
-        "InUse": 739,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 639,
-        "Name": "Glover, Gutmann and Schumm",
-        "Description": "Profit-focused zero tolerance secured line",
-        "PrerequisiteModuleName": "Harber-Auer",
-        "SortOrder": 162,
-        "ExtraFlags": 112,
+        "Unrestricted": true,
+        "Total": 838,
+        "Tooltip": "accusamus",
+        "CanAssign": false,
+        "Free": 592,
+        "InUse": 493,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 479,
+        "Name": "Quitzon-Rath",
+        "Description": "Fully-configurable fault-tolerant attitude",
+        "PrerequisiteModuleName": "Homenick LLC",
+        "SortOrder": 44,
+        "ExtraFlags": 336,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 370
+            "FieldLength": 342
           }
         }
       }
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldLength": 769
       }
     }
   },
   {
-    "Name": "Steuber-Schumm",
-    "Description": "Multi-layered homogeneous Graphic Interface",
+    "Name": "Cruickshank Inc and Sons",
+    "Description": "Business-focused fault-tolerant intranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 935,
-        "Tooltip": "sit",
+        "Unrestricted": false,
+        "Total": 666,
+        "Tooltip": "velit",
         "CanAssign": false,
-        "Free": 190,
-        "InUse": 994,
+        "Free": 111,
+        "InUse": 467,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 62,
-        "Name": "O'Reilly, Jacobs and Kihn",
-        "Description": "Synergistic national focus group",
-        "PrerequisiteModuleName": "Koss LLC",
-        "SortOrder": 934,
-        "ExtraFlags": 518,
+        "ModuleLicenseId": 439,
+        "Name": "Gulgowski-Welch",
+        "Description": "Secured needs-based service-desk",
+        "PrerequisiteModuleName": "Towne-Carroll",
+        "SortOrder": 23,
+        "ExtraFlags": 657,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 563
+            "FieldLength": 758
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 300,
-        "Tooltip": "minus",
-        "CanAssign": true,
-        "Free": 296,
-        "InUse": 739,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 639,
-        "Name": "Glover, Gutmann and Schumm",
-        "Description": "Profit-focused zero tolerance secured line",
-        "PrerequisiteModuleName": "Harber-Auer",
-        "SortOrder": 162,
-        "ExtraFlags": 112,
+        "Unrestricted": true,
+        "Total": 838,
+        "Tooltip": "accusamus",
+        "CanAssign": false,
+        "Free": 592,
+        "InUse": 493,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 479,
+        "Name": "Quitzon-Rath",
+        "Description": "Fully-configurable fault-tolerant attitude",
+        "PrerequisiteModuleName": "Homenick LLC",
+        "SortOrder": 44,
+        "ExtraFlags": 336,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 370
+            "FieldLength": 342
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldLength": 769
       }
     }
   }

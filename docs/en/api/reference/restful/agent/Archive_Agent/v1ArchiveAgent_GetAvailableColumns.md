@@ -90,8 +90,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "VonRueden Group",
-  "Context": "aut"
+  "ProviderName": "Pfeffer Inc and Sons",
+  "Context": "dignissimos"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gleason, Brakus and Kunze",
-    "DisplayTooltip": "molestias",
-    "DisplayType": "qui",
-    "CanOrderBy": true,
-    "Name": "Stoltenberg, Dooley and Stark",
+    "DisplayName": "Durgan, Hamill and Reinger",
+    "DisplayTooltip": "blanditiis",
+    "DisplayType": "molestias",
+    "CanOrderBy": false,
+    "Name": "Wolf Inc and Sons",
     "CanRestrictBy": true,
-    "RestrictionType": "eum",
-    "RestrictionListName": "Jones, Kozey and Gerhold",
-    "IsVisible": false,
-    "ExtraInfo": "et",
-    "Width": "aspernatur",
-    "IconHint": "sunt",
-    "HeadingIconHint": "alias"
+    "RestrictionType": "delectus",
+    "RestrictionListName": "Abshire-Halvorson",
+    "IsVisible": true,
+    "ExtraInfo": "nemo",
+    "Width": "voluptas",
+    "IconHint": "molestiae",
+    "HeadingIconHint": "debitis"
   }
 ]
 ```

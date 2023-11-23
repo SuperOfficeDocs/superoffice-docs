@@ -1155,7 +1155,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=contactAssociate/firstName,contactUdef/SuperOffice:1,sale/time,appointment/appointmentPublish/publishedTo,document/recordType
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=sourceRelation/number,targetRelation/registeredBy,targetRelation/mainContact,sale/registeredByFullName,document/yourref
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

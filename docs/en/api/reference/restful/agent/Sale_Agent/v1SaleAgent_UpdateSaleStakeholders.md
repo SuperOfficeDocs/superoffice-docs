@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Considine, Eichmann and Bashirian",
-      "Comment": "adipisci",
-      "StakeholderRoleId": 632,
-      "CountryId": 685,
-      "PersonId": 361,
-      "EmailDescription": "chadd@mayertgulgowski.com",
-      "EmailId": 249,
-      "EmailAddress": "rickey.daniel@weissnat.info",
-      "PhoneId": 160,
-      "ContactName": "Schuster LLC",
-      "ContactId": 652,
-      "SaleId": 748,
-      "Mrmrs": "veniam",
-      "Firstname": "Waylon",
-      "MiddleName": "Mayert-Runolfsdottir",
-      "Lastname": "Brekke",
-      "SaleStakeholderId": 335,
-      "Rank": 89,
-      "Phone": "041-478-5372 x209"
+      "StakeholderRoleName": "Marks Group",
+      "Comment": "sint",
+      "StakeholderRoleId": 112,
+      "CountryId": 553,
+      "PersonId": 966,
+      "EmailDescription": "tyrese_kohler@wilkinsonorn.biz",
+      "EmailId": 11,
+      "EmailAddress": "deven@denesik.ca",
+      "PhoneId": 830,
+      "ContactName": "Bogisich LLC",
+      "ContactId": 488,
+      "SaleId": 843,
+      "Mrmrs": "tempora",
+      "Firstname": "Russ",
+      "MiddleName": "Yost LLC",
+      "Lastname": "Hudson",
+      "SaleStakeholderId": 392,
+      "Rank": 827,
+      "Phone": "1-658-526-4987 x16514"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Nolan-Wiegand",
-    "Comment": "a",
-    "StakeholderRoleId": 701,
-    "CountryId": 284,
-    "PersonId": 487,
-    "EmailDescription": "roosevelt@koch.uk",
-    "EmailId": 392,
-    "EmailAddress": "luther@luettgen.name",
-    "PhoneId": 344,
-    "ContactName": "Koepp Inc and Sons",
-    "ContactId": 100,
-    "SaleId": 552,
-    "Mrmrs": "quaerat",
-    "Firstname": "Otho",
-    "MiddleName": "Simonis, Herman and Dickinson",
-    "Lastname": "Batz",
-    "SaleStakeholderId": 290,
-    "Rank": 922,
-    "Phone": "(221)492-8242 x214",
+    "StakeholderRoleName": "Hahn, Treutel and Funk",
+    "Comment": "quia",
+    "StakeholderRoleId": 155,
+    "CountryId": 168,
+    "PersonId": 254,
+    "EmailDescription": "dasia@trantow.uk",
+    "EmailId": 580,
+    "EmailAddress": "jamir.konopelski@bins.com",
+    "PhoneId": 419,
+    "ContactName": "Monahan-Heidenreich",
+    "ContactId": 910,
+    "SaleId": 239,
+    "Mrmrs": "rem",
+    "Firstname": "Domingo",
+    "MiddleName": "Gulgowski-Zulauf",
+    "Lastname": "Thompson",
+    "SaleStakeholderId": 982,
+    "Rank": 561,
+    "Phone": "736.350.1269 x6035",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldLength": 17
       }
     }
   }

@@ -83,17 +83,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 832,
-  "Created": "2005-02-06T03:24:48.1582254+01:00",
+  "SatelliteId": 114,
+  "Created": "2013-02-07T13:38:14.045953+01:00",
   "CreatedBy": null,
-  "Updated": "1998-01-11T03:24:48.1582254+01:00",
+  "Updated": "1996-11-10T13:38:14.045953+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "McKenzie, Prohaska and Emmerich",
-      "Description": "Devolved 6th generation product",
+      "Name": "Ortiz, O'Hara and Jast",
+      "Description": "Compatible tangible function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "McKenzie, Prohaska and Emmerich",
-      "Description": "Devolved 6th generation product",
+      "Name": "Ortiz, O'Hara and Jast",
+      "Description": "Compatible tangible function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 629,
-  "Created": "2004-08-23T03:24:48.1582254+02:00",
+  "SatelliteId": 736,
+  "Created": "1997-01-31T13:38:14.045953+01:00",
   "CreatedBy": null,
-  "Updated": "2007-02-19T03:24:48.1582254+01:00",
+  "Updated": "2012-04-26T13:38:14.045953+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Balistreri, Keeling and Wehner",
-      "Description": "Fully-configurable 6th generation moratorium",
+      "Name": "Dach LLC",
+      "Description": "Quality-focused object-oriented approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 945
+          "FieldLength": 85
         }
       }
     },
     {
-      "Name": "Balistreri, Keeling and Wehner",
-      "Description": "Fully-configurable 6th generation moratorium",
+      "Name": "Dach LLC",
+      "Description": "Quality-focused object-oriented approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 945
+          "FieldLength": 85
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 735
+      "FieldType": "System.Int32",
+      "FieldLength": 912
     }
   }
 }

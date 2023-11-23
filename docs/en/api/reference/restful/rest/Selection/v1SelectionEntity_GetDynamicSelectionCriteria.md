@@ -77,44 +77,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "O'Kon Group",
-    "Operator": "et",
+    "Name": "Brakus Group",
+    "Operator": "debitis",
     "Values": [
-      "officiis",
-      "qui"
+      "asperiores",
+      "sint"
     ],
     "DisplayValues": [
-      "aspernatur",
-      "enim"
+      "dolore",
+      "dolore"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Wintheiser-Christiansen",
-        "Operator": "eveniet",
+        "Name": "Nikolaus, Ward and Carroll",
+        "Operator": "quo",
         "Values": [
-          "rerum",
-          "dolor"
+          "autem",
+          "quibusdam"
         ],
         "DisplayValues": [
-          "eaque",
-          "maxime"
+          "et",
+          "voluptate"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 849,
+        "InterParenthesis": 782,
         "InterOperator": "And",
-        "UniqueHash": 92
+        "UniqueHash": 275
       }
     ],
-    "InterParenthesis": 991,
+    "InterParenthesis": 426,
     "InterOperator": "And",
-    "UniqueHash": 745
+    "UniqueHash": 384
   }
 ]
 ```

@@ -117,18 +117,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "natus",
+    "path": "libero",
     "value": {}
   },
   {
     "op": "add",
-    "path": "natus",
+    "path": "libero",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 167,
-  "Name": "Kirlin, Corkery and Crist",
-  "Tooltip": "ut",
+  "Id": 152,
+  "Name": "Kihn-Walsh",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 875,
+  "Rank": 77,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 313
     }
   },
   "_Links": {

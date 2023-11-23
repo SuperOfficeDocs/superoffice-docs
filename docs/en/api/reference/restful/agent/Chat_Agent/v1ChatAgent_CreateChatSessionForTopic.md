@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 245
+  "ChatTopicId": 223
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 911,
-  "TopicId": 767,
+  "ChatSessionId": 502,
+  "TopicId": 521,
   "User": null,
   "Person": null,
-  "CustomerAlias": "soluta",
-  "CustomerHost": "ut",
-  "CustomerName": "Wintheiser LLC",
-  "CustomerEmail": "alfredo_mcdermott@moen.co.uk",
-  "CustomerPhone": "(336)224-7811 x13941",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Trantow, Pfannerstill and Braun",
+  "CustomerAlias": "omnis",
+  "CustomerHost": "quidem",
+  "CustomerName": "Jerde LLC",
+  "CustomerEmail": "ashly_monahan@kubpaucek.info",
+  "CustomerPhone": "380.447.0732",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Hilll-Champlin",
   "Status": "Closed",
-  "FirstMessage": "rerum",
-  "LastMessage": "vero",
-  "WhenRequested": "2011-09-25T03:24:47.3614382+02:00",
-  "WhenStarted": "2019-08-18T03:24:47.3614382+02:00",
-  "WhenEnded": "1998-08-23T03:24:47.3614382+02:00",
-  "WhenIdle": "2023-02-26T03:24:47.3614382+01:00",
-  "WhenFetched": "2002-09-20T03:24:47.3614382+02:00",
-  "SessionKey": "quas",
-  "InitialQueuePos": 346,
-  "AlertLevel": 943,
-  "Rank": 244,
+  "FirstMessage": "eos",
+  "LastMessage": "inventore",
+  "WhenRequested": "2023-02-05T13:38:13.2646505+01:00",
+  "WhenStarted": "2015-04-17T13:38:13.2646505+02:00",
+  "WhenEnded": "2013-10-01T13:38:13.2646505+02:00",
+  "WhenIdle": "2007-02-17T13:38:13.2646505+01:00",
+  "WhenFetched": "2016-03-20T13:38:13.2646505+01:00",
+  "SessionKey": "aut",
+  "InitialQueuePos": 44,
+  "AlertLevel": 571,
+  "Rank": 855,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 942,
+  "Rating": 307,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 484
     }
   }
 }

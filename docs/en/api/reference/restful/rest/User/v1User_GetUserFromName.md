@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 561,
-  "Name": "Hahn-Bosco",
-  "Rank": 470,
-  "Tooltip": "qui",
+  "AssociateId": 685,
+  "Name": "Powlowski Group",
+  "Rank": 379,
+  "Tooltip": "rerum",
   "LicenseOwners": [
     {
-      "Name": "Bahringer-Hyatt",
-      "Description": "Reduced methodical algorithm",
+      "Name": "Nader, Mraz and Morissette",
+      "Description": "Horizontal maximized open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 583
+          "FieldLength": 64
         }
       }
     },
     {
-      "Name": "Bahringer-Hyatt",
-      "Description": "Reduced methodical algorithm",
+      "Name": "Nader, Mraz and Morissette",
+      "Description": "Horizontal maximized open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 583
+          "FieldLength": 64
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "magni",
-      "Tooltip": "minus",
-      "Id": 516,
-      "Rank": 410,
+      "Value": "non",
+      "Tooltip": "dignissimos",
+      "Id": 312,
+      "Rank": 902,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 891
+          "FieldType": "System.String",
+          "FieldLength": 578
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2001-10-06T03:24:52.1151023+02:00",
-  "Lastlogout": "2022-11-10T03:24:52.1151023+01:00",
-  "EjUserId": 105,
-  "RequestSignature": "et",
+  "Lastlogin": "1998-11-03T13:38:17.8588097+01:00",
+  "Lastlogout": "2014-12-09T13:38:17.8588097+01:00",
+  "EjUserId": 792,
+  "RequestSignature": "in",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "et",
+      "Value": "qui",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldLength": 374
         }
       }
     },
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "et",
+      "Value": "qui",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldLength": 374
         }
       }
     }
   ],
-  "UserName": "Yundt, Zieme and Bergnaum",
+  "UserName": "Mayer Group",
   "TicketCategories": [
     {
-      "Id": 545,
-      "Name": "Fadel-Kuvalis",
-      "ToolTip": "Consequatur ratione rerum sapiente vel voluptas.",
-      "Deleted": true,
-      "Rank": 950,
-      "Type": "hic",
+      "Id": 73,
+      "Name": "O'Keefe, Schulist and Haag",
+      "ToolTip": "Quia sed odit repellat reiciendis consequatur dolor.",
+      "Deleted": false,
+      "Rank": 451,
+      "Type": "molestiae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 793,
-      "ExtraInfo": "et",
-      "StyleHint": "incidunt",
-      "FullName": "Israel Walter",
+      "IconHint": "nulla",
+      "ColorBlock": 363,
+      "ExtraInfo": "vel",
+      "StyleHint": "quis",
+      "FullName": "Hayley Nikolaus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 206
         }
       }
     }
   ],
-  "NickName": "Schultz Inc and Sons",
-  "WaitingForApproval": true,
+  "NickName": "Renner-Boyle",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "quidem"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "nostrum"
+    "CustomFields1": "perspiciatis",
+    "CustomFields2": "quaerat"
   },
   "PostSaveCommands": [
     {
-      "Name": "Pacocha LLC",
-      "DisplayName": "Grady Inc and Sons",
-      "Description": "Down-sized impactful instruction set",
-      "ToolTip": "Voluptates quibusdam quibusdam assumenda.",
+      "Name": "Schiller-Hamill",
+      "DisplayName": "Quitzon-Kilback",
+      "Description": "Fundamental solution-oriented archive",
+      "ToolTip": "Harum est quia esse non magnam.",
       "Actions": "Implicit",
-      "ActionData": "voluptas",
+      "ActionData": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 705
+          "FieldType": "System.Int32",
+          "FieldLength": 112
         }
       }
     }
@@ -258,7 +258,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 522
     }
   }
 }

@@ -25,7 +25,7 @@ Deletes the SelectionEntity
 | SelectionEntityId | int32 | **Required** The id of the SelectionEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Selection/DeleteSelectionEntity?SelectionEntityId=525
+POST /api/v1/Agents/Selection/DeleteSelectionEntity?SelectionEntityId=497
 ```
 
 

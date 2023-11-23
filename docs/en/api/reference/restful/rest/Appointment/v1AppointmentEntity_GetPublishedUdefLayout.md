@@ -88,7 +88,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 473,
-    "ColumnId": 667,
-    "FieldDefault": "quaerat",
-    "FieldHeight": 618,
-    "FieldLabel": "dolorem",
-    "FieldLeft": 756,
-    "FieldTop": 57,
+    "UDefFieldId": 999,
+    "ColumnId": 309,
+    "FieldDefault": "sed",
+    "FieldHeight": 905,
+    "FieldLabel": "est",
+    "FieldLeft": 150,
+    "FieldTop": 892,
     "FieldType": "Checkbox",
-    "FieldWidth": 38,
-    "FormatMask": "laudantium",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 90,
-    "LabelLeft": 796,
-    "LabelTop": 672,
-    "LabelWidth": 363,
-    "LastVersionId": 871,
-    "ListTableId": 845,
-    "IsMandatory": false,
+    "FieldWidth": 146,
+    "FormatMask": "accusamus",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 161,
+    "LabelLeft": 582,
+    "LabelTop": 36,
+    "LabelWidth": 423,
+    "LastVersionId": 838,
+    "ListTableId": 560,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 920,
-    "ProgId": "et",
+    "Page1LineNo": 212,
+    "ProgId": "expedita",
     "IsReadOnly": false,
-    "ShortLabel": "deleniti",
-    "TabOrder": 45,
-    "TextLength": 453,
-    "Tooltip": "autem",
-    "UdefIdentity": 460,
-    "UDListDefinitionId": 662,
+    "ShortLabel": "corporis",
+    "TabOrder": 594,
+    "TextLength": 708,
+    "Tooltip": "quae",
+    "UdefIdentity": 904,
+    "UDListDefinitionId": 257,
     "Justification": "Center",
-    "Version": 394,
-    "TemplateVariableName": "Satterfield Group",
+    "Version": 865,
+    "TemplateVariableName": "Hane-Casper",
     "HasBeenPublished": false,
-    "MdoListName": "King-Heidenreich",
+    "MdoListName": "Oberbrunner, Zieme and Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 614
       }
     }
   }

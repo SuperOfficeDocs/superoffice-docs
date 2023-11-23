@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 249,
-  "Name": "Gerlach Inc and Sons",
-  "Tooltip": "nisi",
-  "SaveInDb": 87,
-  "Filename": "aperiam",
-  "DefaultOref": "odio",
+  "DocumentTemplateId": 422,
+  "Name": "Lang Group",
+  "Tooltip": "consectetur",
+  "SaveInDb": 104,
+  "Filename": "voluptates",
+  "DefaultOref": "itaque",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 351,
-  "IntentId": 622,
-  "IsDefaultPublished": true,
-  "Rank": 222,
-  "LoadTemplateFromPlugin": 645,
-  "MimeType": "excepturi",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 467,
+  "AutoeventId": 180,
+  "IntentId": 187,
+  "IsDefaultPublished": false,
+  "Rank": 469,
+  "LoadTemplateFromPlugin": 72,
+  "MimeType": "est",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 978,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "levi@huelbahringer.info",
+  "EmailSubject": "al@cormiercassin.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "willis.langosh@kuhn.info",
+  "SenderEmailAddress": "jordy.kautzer@marksschinner.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 398,
-  "Name": "McCullough-Littel",
-  "Tooltip": "sed",
-  "SaveInDb": 659,
-  "Filename": "distinctio",
-  "DefaultOref": "dignissimos",
+  "DocumentTemplateId": 183,
+  "Name": "Konopelski-Rohan",
+  "Tooltip": "dolor",
+  "SaveInDb": 209,
+  "Filename": "quod",
+  "DefaultOref": "distinctio",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 875,
-  "IntentId": 614,
+  "AutoeventId": 665,
+  "IntentId": 988,
   "IsDefaultPublished": false,
-  "Rank": 253,
-  "LoadTemplateFromPlugin": 331,
-  "MimeType": "explicabo",
+  "Rank": 28,
+  "LoadTemplateFromPlugin": 217,
+  "MimeType": "ut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 396,
+  "DocumentTypeKey": 750,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "perry@prohaska.ca",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
+  "EmailSubject": "malcolm@flatley.com",
+  "IncludeSignature": true,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "bernadette.casper@schoen.co.uk",
+  "SenderEmailAddress": "ronny@gulgowskiokeefe.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldType": "System.String",
+      "FieldLength": 707
     }
   }
 }

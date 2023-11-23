@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 306,
+  "QuoteAlternativeId": 641,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 842,
-  "ERPQuoteLineKey": "quos",
-  "QuoteAlternativeId": 151,
-  "ERPProductKey": "aspernatur",
+  "QuoteLineId": 675,
+  "ERPQuoteLineKey": "amet",
+  "QuoteAlternativeId": 9,
+  "ERPProductKey": "laborum",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 25078.268,
-  "DeliveredQuantity": 26617.061999999998,
-  "Rank": 972,
-  "Name": "Lubowitz-Hackett",
-  "Description": "Quality-focused actuating firmware",
-  "Code": "inventore",
-  "QuantityUnit": "dolorem",
-  "PriceUnit": "repudiandae",
-  "ItemNumber": "820189",
+  "Quantity": 28723.11,
+  "DeliveredQuantity": 28362.7,
+  "Rank": 720,
+  "Name": "DuBuque-Streich",
+  "Description": "Extended bandwidth-monitored framework",
+  "Code": "omnis",
+  "QuantityUnit": "numquam",
+  "PriceUnit": "cum",
+  "ItemNumber": "774221",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptates",
-  "ProductTypeKey": "modi",
-  "Supplier": "quibusdam",
-  "SupplierCode": "quisquam",
-  "Thumbnail": "et",
-  "VATInfo": "tempore",
-  "VAT": 7762.918,
-  "UnitCost": 28130.784,
-  "UnitMinimumPrice": 28390.906,
-  "UnitListPrice": 3281.298,
+  "ProductFamilyKey": "quis",
+  "ProductTypeKey": "architecto",
+  "Supplier": "reprehenderit",
+  "SupplierCode": "quia",
+  "Thumbnail": "impedit",
+  "VATInfo": "enim",
+  "VAT": 9909.708,
+  "UnitCost": 30045.658,
+  "UnitMinimumPrice": 10251.314,
+  "UnitListPrice": 3911.232,
   "ExtraInfo": [
     {
-      "Name": "Bashirian-Lind",
-      "Value": "vel",
+      "Name": "Corkery-Nicolas",
+      "Value": "doloremque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 529
         }
       }
     },
     {
-      "Name": "Bashirian-Lind",
-      "Value": "vel",
+      "Name": "Corkery-Nicolas",
+      "Value": "doloremque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 529
         }
       }
     }
   ],
-  "RawExtraInfo": "perferendis",
+  "RawExtraInfo": "blanditiis",
   "IsSubscription": false,
-  "SubscriptionUnit": "distinctio",
-  "SubscriptionQuantity": 30569.036,
-  "SubscriptionStart": "2021-06-26T03:24:48.1582254+02:00",
-  "ERPDiscountPercent": 30359.057999999997,
-  "ERPDiscountAmount": 3930.036,
-  "DiscountPercent": 19998.054,
-  "DiscountAmount": 27218.79,
+  "SubscriptionUnit": "doloremque",
+  "SubscriptionQuantity": 25827.293999999998,
+  "SubscriptionStart": "2008-11-22T13:38:14.0303322+01:00",
+  "ERPDiscountPercent": 959.004,
+  "ERPDiscountAmount": 11464.172,
+  "DiscountPercent": 12141.116,
+  "DiscountAmount": 25313.318,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 19358.718,
-  "EarningAmount": 11078.69,
-  "SubTotal": 6515.586,
-  "TotalPrice": 3312.638,
-  "Rights": "distinctio",
-  "Rule": "et",
-  "ExtraField1": "ut",
-  "ExtraField2": "harum",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "sapiente",
-  "ExtraField5": "exercitationem",
+  "EarningPercent": 17594.275999999998,
+  "EarningAmount": 16506.778,
+  "SubTotal": 17945.284,
+  "TotalPrice": 14717.264,
+  "Rights": "exercitationem",
+  "Rule": "consequatur",
+  "ExtraField1": "dicta",
+  "ExtraField2": "est",
+  "ExtraField3": "et",
+  "ExtraField4": "omnis",
+  "ExtraField5": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 524
     }
   }
 }

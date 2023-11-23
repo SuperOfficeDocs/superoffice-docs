@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 53,
+  "PersonId": 748,
   "IncludeProjectDocuments": true,
-  "StartTime": "2005-06-30T03:24:47.5176724+02:00",
-  "EndTime": "1999-11-03T03:24:47.5176724+01:00",
-  "Count": 389,
+  "StartTime": "2015-07-10T13:38:13.4208858+02:00",
+  "EndTime": "2009-04-15T13:38:13.4208858+02:00",
+  "Count": 773,
   "DocumentTemplateIds": [
-    352,
-    380
+    22,
+    844
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 292,
-    "Attention": "quia",
-    "Header": "eum",
-    "Name": "Schaden, Beer and Sporer",
-    "OurRef": "ut",
-    "YourRef": "exercitationem",
-    "Description": "User-centric hybrid portal",
-    "DocumentTemplate": "numquam",
-    "IsPublished": false,
-    "PersonId": 460,
-    "PersonFullName": "Santos Hertha Grant MD",
-    "AssociateFullName": "Dr. Ashtyn Cassie Wilkinson",
-    "ContactId": 997,
-    "ContactName": "Wolf Inc and Sons",
-    "ProjectId": 74,
-    "ProjectName": "Buckridge-Schiller",
-    "AssociateId": 804,
-    "Snum": 930,
-    "SaleId": 112,
-    "SaleName": "Kertzmann Inc and Sons",
+    "DocumentId": 42,
+    "Attention": "blanditiis",
+    "Header": "libero",
+    "Name": "Casper, Farrell and Schmidt",
+    "OurRef": "laboriosam",
+    "YourRef": "aliquid",
+    "Description": "Visionary system-worthy archive",
+    "DocumentTemplate": "ut",
+    "IsPublished": true,
+    "PersonId": 899,
+    "PersonFullName": "Delphia Botsford",
+    "AssociateFullName": "Destany Casper DVM",
+    "ContactId": 894,
+    "ContactName": "Cummings LLC",
+    "ProjectId": 981,
+    "ProjectName": "Miller Group",
+    "AssociateId": 960,
+    "Snum": 572,
+    "SaleId": 402,
+    "SaleName": "Simonis, O'Conner and Goyette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldLength": 554
       }
     }
   }

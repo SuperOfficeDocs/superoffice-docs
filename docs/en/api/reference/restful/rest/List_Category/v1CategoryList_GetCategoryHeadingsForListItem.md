@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Batz LLC",
-    "ToolTip": "Rem et quod delectus rerum suscipit aliquam.",
-    "Deleted": true,
-    "Rank": 854,
-    "Type": "voluptates",
-    "ColorBlock": 997,
-    "IconHint": "et",
+    "Id": 296,
+    "Name": "Abshire, Bechtelar and Kohler",
+    "ToolTip": "Molestias suscipit.",
+    "Deleted": false,
+    "Rank": 369,
+    "Type": "et",
+    "ColorBlock": 474,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2002-07-18T03:24:52.1775959+02:00",
+    "LastChanged": "2000-09-23T13:38:17.9056813+02:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Kreiger LLC",
-        "ToolTip": "Illum eos quibusdam atque.",
+        "Id": 612,
+        "Name": "Abshire, Windler and Fahey",
+        "ToolTip": "Quis magnam qui ducimus aliquam omnis.",
         "Deleted": false,
-        "Rank": 762,
-        "Type": "delectus",
-        "ColorBlock": 286,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2002-06-22T03:24:52.1775959+02:00",
+        "Rank": 543,
+        "Type": "nulla",
+        "ColorBlock": 192,
+        "IconHint": "magni",
+        "Selected": false,
+        "LastChanged": "2016-02-20T13:38:17.9056813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Lacey Altenwerth",
+        "ExtraInfo": "ut",
+        "StyleHint": "saepe",
+        "Hidden": false,
+        "FullName": "Dolly Welch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 730
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Titus Ullrich",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "quos",
+    "Hidden": false,
+    "FullName": "Dr. Archibald Liam Walter Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldLength": 809
       }
     }
   }

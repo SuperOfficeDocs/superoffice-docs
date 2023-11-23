@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=228
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=159
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 953,
-  "UniqueIdentifier": "totam",
-  "Name": "Wisoky-Kub",
-  "Description": "Inverse full-range local area network",
-  "IncludeId": "enim",
-  "HierarchyId": 345,
-  "Source": "aut",
-  "Registered": "2005-05-08T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 445,
-  "Updated": "2013-10-17T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 417,
+  "EjscriptId": 270,
+  "UniqueIdentifier": "suscipit",
+  "Name": "Upton Inc and Sons",
+  "Description": "Stand-alone fresh-thinking structure",
+  "IncludeId": "voluptatem",
+  "HierarchyId": 722,
+  "Source": "esse",
+  "Registered": "2022-10-18T13:38:13.374011+02:00",
+  "RegisteredAssociateId": 15,
+  "Updated": "2016-12-18T13:38:13.374011+01:00",
+  "UpdatedAssociateId": 967,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldType": "System.Int32",
+      "FieldLength": 878
     }
   }
 }

@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=eum
-GET /api/v1/MDOList/{listname}?query=dolor
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=omnis
+GET /api/v1/MDOList/{listname}?query=cumque
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Hauck, Gaylord and Satterfield",
-    "ToolTip": "Ut dolore commodi error aut vero vel.",
+    "Id": 194,
+    "Name": "Brown-Mayert",
+    "ToolTip": "At voluptatem enim quaerat quia excepturi.",
     "Deleted": false,
-    "Rank": 699,
-    "Type": "distinctio",
+    "Rank": 938,
+    "Type": "magnam",
     "ChildItems": [
       {
-        "Id": 164,
-        "Name": "Feest Group",
-        "ToolTip": "Est consequatur ut repellendus nihil facilis.",
-        "Deleted": true,
-        "Rank": 664,
-        "Type": "nulla",
+        "Id": 964,
+        "Name": "Weissnat, Bahringer and Walsh",
+        "ToolTip": "Esse voluptas alias amet velit id tenetur.",
+        "Deleted": false,
+        "Rank": 651,
+        "Type": "optio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deserunt",
-        "ColorBlock": 657,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "et",
-        "FullName": "Miss Otis Hoeger IV",
+        "IconHint": "sint",
+        "ColorBlock": 256,
+        "ExtraInfo": "qui",
+        "StyleHint": "fuga",
+        "FullName": "Mrs. Frieda Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldType": "System.String",
+            "FieldLength": 363
           }
         }
       }
     ],
-    "IconHint": "praesentium",
-    "ColorBlock": 753,
-    "ExtraInfo": "numquam",
-    "StyleHint": "reiciendis",
-    "FullName": "Cordelia McLaughlin",
+    "IconHint": "laudantium",
+    "ColorBlock": 617,
+    "ExtraInfo": "illum",
+    "StyleHint": "ea",
+    "FullName": "Pamela Christiansen III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldType": "System.String",
+        "FieldLength": 121
       }
     }
   }

@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 244,
-  "StartTime": "2006-09-23T03:24:46.9394467+02:00",
-  "EndTime": "2014-10-26T03:24:46.9394467+01:00",
-  "Count": 460,
+  "ProjectId": 939,
+  "StartTime": "2021-11-29T13:38:12.8428246+01:00",
+  "EndTime": "2013-09-09T13:38:12.8428246+02:00",
+  "Count": 221,
   "TaskIds": [
-    979,
-    485
+    872,
+    547
   ]
 }
 ```
@@ -153,64 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 265,
-    "StartDate": "1999-03-06T03:24:46.9394467+01:00",
-    "EndDate": "2023-01-15T03:24:46.9394467+01:00",
+    "AppointmentId": 980,
+    "StartDate": "2001-01-17T13:38:12.8428246+01:00",
+    "EndDate": "2004-12-12T13:38:12.8428246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "magnam",
-    "AssociateFullName": "Susan Koelpin",
-    "ContactName": "Crist, Hirthe and Hirthe",
-    "Description": "Distributed cohesive process improvement",
-    "PersonFullName": "Nicholaus Abernathy",
-    "PersonId": 849,
-    "ContactId": 663,
-    "ProjectId": 554,
-    "ProjectName": "McGlynn-Konopelski",
+    "Task": "consequatur",
+    "AssociateFullName": "Danika Schumm",
+    "ContactName": "Renner LLC",
+    "Description": "Reactive client-driven model",
+    "PersonFullName": "Ted Bechtelar",
+    "PersonId": 288,
+    "ContactId": 831,
+    "ProjectId": 914,
+    "ProjectName": "Stanton-Heller",
     "IsPublished": false,
-    "AssociateId": 412,
-    "ColorIndex": 813,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "AssociateId": 33,
+    "ColorIndex": 231,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 960,
-    "PriorityName": "Koepp-Carroll",
+    "PriorityId": 827,
+    "PriorityName": "Hilll, Thompson and Cartwright",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2007-01-12T03:24:46.9394467+01:00",
+    "ActiveDate": "2008-02-23T13:38:12.8428246+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-05-01T03:24:46.9394467+02:00",
-    "RecurringEndDate": "2012-03-13T03:24:46.9394467+01:00",
-    "MotherId": 599,
-    "AssignedBy": 331,
-    "AssignedByFullName": "Ms. Andy Bartell PhD",
+    "RecurringStartDate": "2005-12-16T13:38:12.8428246+01:00",
+    "RecurringEndDate": "2007-10-17T13:38:12.8428246+02:00",
+    "MotherId": 667,
+    "AssignedBy": 704,
+    "AssignedByFullName": "Mrs. Marley Jason Gleichner",
     "RejectReason": "",
     "Location": "et",
-    "AlarmLeadTime": "necessitatibus",
-    "SaleId": 13,
-    "SaleName": "Rice Group",
-    "AssociateName": "Durgan-Hagenes",
-    "CreatedDate": "2011-06-16T03:24:46.9394467+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Stacey Veum Sr.",
-    "CreatedByAssociateId": 51,
+    "AlarmLeadTime": "qui",
+    "SaleId": 252,
+    "SaleName": "Schowalter, Abernathy and Hilll",
+    "AssociateName": "Emard-Pollich",
+    "CreatedDate": "2012-03-03T13:38:12.8428246+01:00",
+    "CreatedBy": "debitis",
+    "CreatedByFullName": "Jessy Schulist",
+    "CreatedByAssociateId": 666,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "est",
-    "Agenda": "labore",
-    "InternalNotes": "quo",
+    "PreferredTZLocation": 612,
+    "Title": "distinctio",
+    "Agenda": "eum",
+    "InternalNotes": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldType": "System.String",
+        "FieldLength": 800
       }
     }
   }

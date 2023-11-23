@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Friesen, Vandervort and Orn",
-  "DeviceName": "Stark Inc and Sons",
-  "DeviceIdentifier": "voluptatem"
+  "ApplicationName": "O'Connell-Berge",
+  "DeviceName": "Gerhold-Treutel",
+  "DeviceIdentifier": "magnam"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptas",
-  "Value": "atque",
-  "RecordId": 812,
-  "CreatedDate": "1999-12-19T03:24:47.8145137+01:00",
-  "UpdatedDate": "2011-08-21T03:24:47.8145137+02:00",
-  "UpdatedBy": "veritatis",
-  "CreatedBy": "sed",
-  "TableName": "Schumm-McGlynn",
+  "Key": "quo",
+  "Value": "fugiat",
+  "RecordId": 324,
+  "CreatedDate": "2021-09-25T13:38:13.6396102+02:00",
+  "UpdatedDate": "1997-05-29T13:38:13.6396102+02:00",
+  "UpdatedBy": "corporis",
+  "CreatedBy": "deserunt",
+  "TableName": "Larson-Kunze",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 54
     }
   }
 }

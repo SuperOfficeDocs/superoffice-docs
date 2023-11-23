@@ -25,7 +25,7 @@ Deletes the PersonEntity
 | PersonEntityId | int32 | **Required** The id of the PersonEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Person/DeletePersonEntity?PersonEntityId=765
+POST /api/v1/Agents/Person/DeletePersonEntity?PersonEntityId=819
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Person/DeletePersonEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

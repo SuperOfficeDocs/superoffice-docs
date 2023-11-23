@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Name": "Gleason-McClure",
-  "Tooltip": "esse",
+  "Id": 775,
+  "Name": "Crooks Inc and Sons",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 161,
-  "IsCustomList": false,
+  "Rank": 230,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quos",
+  "ListType": "incidunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 651,
-  "Name": "Olson, Adams and Volkman",
-  "Tooltip": "natus",
-  "Deleted": true,
-  "Rank": 835,
+  "Id": 647,
+  "Name": "Greenholt, Swaniawski and Waelchi",
+  "Tooltip": "ad",
+  "Deleted": false,
+  "Rank": 405,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nihil",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldLength": 727
     }
   }
 }

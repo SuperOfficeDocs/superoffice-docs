@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 214,
+  "ErpConnectionId": 729,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 319,
+  "ErpConnectionId": 429,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 330,
-      "CrmFieldKey": "omnis",
-      "CrmDisplayName": "Koelpin-Keeling",
-      "CrmDisplayTooltip": "quas",
-      "ErpFieldKey": "et",
+      "ErpFieldId": 885,
+      "CrmFieldKey": "pariatur",
+      "CrmDisplayName": "Purdy, Bechtelar and Lynch",
+      "CrmDisplayTooltip": "alias",
+      "ErpFieldKey": "molestiae",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Heathcote-Heller",
-      "ErpDisplayTooltip": "neque",
-      "SyncToCrm": false,
-      "SyncToErp": false,
-      "ShowInGui": false,
-      "ShowInSearch": true,
+      "ErpDisplayName": "Hessel-Hand",
+      "ErpDisplayTooltip": "omnis",
+      "SyncToCrm": true,
+      "SyncToErp": true,
+      "ShowInGui": true,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "dolorum",
+      "ListReference": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 493
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldType": "System.String",
+      "FieldLength": 183
     }
   }
 }

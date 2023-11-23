@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=fugiat
-GET /api/v1/Document?$top=176
-GET /api/v1/Document?$skip=794
+GET /api/v1/Document?$entities=nobis
+GET /api/v1/Document?$top=400
+GET /api/v1/Document?$skip=354
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=voluptates
+GET /api/v1/Document?$context=sapiente
 GET /api/v1/Document?$format=JSON
-GET /api/v1/Document?$jsonSafe=True
+GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
 ```
 
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatem",
+  "odata.nextLink": "optio",
   "value": [
     {
-      "PrimaryKey": 9032,
+      "PrimaryKey": 2321,
       "EntityName": "person",
-      "personId": 9032,
-      "fullName": "Guy Murphy Sr."
+      "personId": 2321,
+      "fullName": "Dayton Larson III"
     },
     {
-      "PrimaryKey": 1583,
+      "PrimaryKey": 4643,
       "EntityName": "person",
-      "personId": 1583,
-      "fullName": "Giles Mante"
+      "personId": 4643,
+      "fullName": "Alessandro Orn"
     }
   ]
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Jones, Sauer and Brakus",
-  "Tooltip": "vel",
+  "Id": 285,
+  "Name": "Stehr Inc and Sons",
+  "Tooltip": "saepe",
   "Deleted": false,
-  "Rank": 831,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "Rank": 160,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "laborum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Lindgren Group",
-  "Tooltip": "corporis",
+  "Id": 136,
+  "Name": "Schumm, Renner and Parisian",
+  "Tooltip": "magni",
   "Deleted": false,
-  "Rank": 138,
+  "Rank": 478,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "quo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldLength": 21
     }
   }
 }

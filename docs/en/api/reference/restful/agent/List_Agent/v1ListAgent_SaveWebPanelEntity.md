@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 848,
-  "Name": "Harris, Mraz and Collins",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 471,
+  "WebPanelId": 516,
+  "Name": "Jewess-Hirthe",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 434,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Bahringer Inc and Sons",
+  "WindowName": "Langworth-Emard",
   "Url": "http://www.example.com/",
-  "ProgId": "laboriosam",
-  "Icon": 139,
-  "AlwaysReloadOnShow": true
+  "ProgId": "aliquid",
+  "Icon": 975,
+  "AlwaysReloadOnShow": false
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 198,
-  "Name": "Towne LLC",
+  "WebPanelId": 35,
+  "Name": "Larkin LLC",
   "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 331,
+  "Deleted": true,
+  "Rank": 38,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Harris-Jacobson",
+  "WindowName": "Herzog LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "consequatur",
-  "Icon": 616,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "a",
+  "Icon": 278,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 95
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

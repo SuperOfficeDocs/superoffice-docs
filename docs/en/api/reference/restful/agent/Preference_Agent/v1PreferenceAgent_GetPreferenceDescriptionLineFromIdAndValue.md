@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 994,
-  "PrefValue": "saepe"
+  "PrefDescId": 883,
+  "PrefValue": "accusantium"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 855,
-  "PrefDescId": 525,
-  "PrefValue": "nesciunt",
-  "PrefShowValue": "odit",
-  "Description": "Managed user-facing challenge",
+  "PrefDescLineId": 185,
+  "PrefDescId": 528,
+  "PrefValue": "et",
+  "PrefShowValue": "ad",
+  "Description": "Down-sized attitude-oriented interface",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 398
     }
   }
 }

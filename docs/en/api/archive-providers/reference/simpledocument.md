@@ -689,7 +689,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleDocument?$select=person/personAddress/line3,contact/LastDoByTicket,associate/associateDbId
+GET /api/v1/archive/SimpleDocument?$select=person/personActiveErpLinks,contact/contactUdef/SuperOffice:7,contact/NumberOfActivitiesInPeriod,project/projectAssociate/firstName,sale/competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

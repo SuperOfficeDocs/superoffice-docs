@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 703,
-  "Name": "Pacocha, Kozey and Powlowski",
-  "Tooltip": "commodi",
+  "Id": 691,
+  "Name": "Schroeder LLC",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "UdListDefinitionId": 148,
-  "Rank": 141,
+  "UdListDefinitionId": 730,
+  "Rank": 609,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 276
     }
   }
 }

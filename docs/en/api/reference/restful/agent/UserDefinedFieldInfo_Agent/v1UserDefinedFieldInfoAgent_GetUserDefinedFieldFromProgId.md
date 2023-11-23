@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "voluptates",
+  "ProgId": "dolor",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 806,
-  "ColumnId": 623,
-  "FieldDefault": "eius",
-  "FieldHeight": 793,
-  "FieldLabel": "quo",
-  "FieldLeft": 430,
-  "FieldTop": 713,
+  "UDefFieldId": 71,
+  "ColumnId": 41,
+  "FieldDefault": "quibusdam",
+  "FieldHeight": 408,
+  "FieldLabel": "totam",
+  "FieldLeft": 573,
+  "FieldTop": 650,
   "FieldType": "Checkbox",
-  "FieldWidth": 791,
-  "FormatMask": "qui",
-  "HideLabel": true,
+  "FieldWidth": 765,
+  "FormatMask": "alias",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 829,
-  "LabelLeft": 40,
-  "LabelTop": 441,
-  "LabelWidth": 170,
-  "LastVersionId": 401,
-  "ListTableId": 391,
+  "LabelHeight": 784,
+  "LabelLeft": 248,
+  "LabelTop": 294,
+  "LabelWidth": 958,
+  "LastVersionId": 578,
+  "ListTableId": 498,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 460,
-  "ProgId": "autem",
+  "Page1LineNo": 8,
+  "ProgId": "porro",
   "IsReadOnly": false,
-  "ShortLabel": "totam",
-  "TabOrder": 967,
-  "TextLength": 810,
-  "Tooltip": "ipsam",
-  "UdefIdentity": 67,
-  "UDListDefinitionId": 773,
+  "ShortLabel": "et",
+  "TabOrder": 827,
+  "TextLength": 780,
+  "Tooltip": "id",
+  "UdefIdentity": 57,
+  "UDListDefinitionId": 153,
   "Justification": "Center",
-  "Version": 740,
-  "TemplateVariableName": "Quitzon, Durgan and Raynor",
-  "HasBeenPublished": true,
-  "MdoListName": "Koelpin LLC",
+  "Version": 706,
+  "TemplateVariableName": "Shields, McClure and Bednar",
+  "HasBeenPublished": false,
+  "MdoListName": "Shanahan-Veum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 673
     }
   }
 }

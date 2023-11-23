@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 144,
-    "Name": "Spinka Group",
-    "CurrencyId": 957,
-    "EnglishName": "Toy, Wiza and Buckridge",
+    "CountryId": 847,
+    "Name": "Stark-McKenzie",
+    "CurrencyId": 450,
+    "EnglishName": "Reinger, Boyer and Abbott",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Inverse grid-enabled task-force",
-    "OrgNrText": "1204428",
-    "InterAreaPrefix": "et",
-    "DialInPrefix": "dolores",
-    "ZipPrefix": "sed",
-    "DomainName": "Roob, Cremin and Marks",
-    "AddressLayoutId": 824,
-    "DomesticAddressLayoutId": 528,
-    "ForeignAddressLayoutId": 807,
-    "Rank": 317,
-    "Tooltip": "qui",
+    "ImageDescription": "Function-based web-enabled encoding",
+    "OrgNrText": "935693",
+    "InterAreaPrefix": "fuga",
+    "DialInPrefix": "odit",
+    "ZipPrefix": "quia",
+    "DomainName": "Sauer, Kerluke and Rempel",
+    "AddressLayoutId": 241,
+    "DomesticAddressLayoutId": 517,
+    "ForeignAddressLayoutId": 372,
+    "Rank": 531,
+    "Tooltip": "perferendis",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldType": "System.String",
+        "FieldLength": 912
       }
     }
   }

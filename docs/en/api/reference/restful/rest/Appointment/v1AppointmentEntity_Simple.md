@@ -101,6 +101,7 @@ AppointmentEntity found.
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -113,7 +114,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,64 +124,65 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 459,
-  "StartDate": "2023-02-05T03:24:51.3492095+01:00",
-  "EndDate": "2000-09-12T03:24:51.3492095+02:00",
+  "AppointmentId": 836,
+  "StartDate": "2016-12-22T13:38:17.0931089+01:00",
+  "EndDate": "2012-04-12T13:38:17.0931089+02:00",
   "Type": "BookingForChecklist",
-  "Task": "dolor",
-  "AssociateFullName": "Lenora Jakubowski",
-  "ContactName": "Daugherty, Mayer and Jast",
-  "Description": "Object-based national application",
-  "PersonFullName": "Maribel Bauch",
-  "PersonId": 403,
-  "ContactId": 434,
-  "ProjectId": 112,
-  "ProjectName": "Wintheiser Inc and Sons",
+  "Task": "rerum",
+  "AssociateFullName": "Prof. Bria Mosciski DDS",
+  "ContactName": "Zieme, Blick and Vandervort",
+  "Description": "Multi-lateral maximized policy",
+  "PersonFullName": "Jany Erdman",
+  "PersonId": 534,
+  "ContactId": 741,
+  "ProjectId": 593,
+  "ProjectName": "Quigley-Funk",
   "IsPublished": true,
-  "AssociateId": 298,
-  "ColorIndex": 543,
+  "AssociateId": 151,
+  "ColorIndex": 528,
   "IsFree": true,
-  "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "HasAlarm": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 726,
-  "PriorityName": "Doyle Inc and Sons",
+  "PriorityId": 90,
+  "PriorityName": "Flatley, Gulgowski and Hilpert",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2012-12-02T03:24:51.3492095+01:00",
+  "IsBooking": false,
+  "ActiveDate": "2021-06-15T13:38:17.0931089+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2021-12-27T03:24:51.3492095+01:00",
-  "RecurringEndDate": "1998-05-30T03:24:51.3492095+02:00",
-  "MotherId": 912,
-  "AssignedBy": 519,
-  "AssignedByFullName": "Mr. Maximus Auer V",
+  "RecurringStartDate": "2017-05-13T13:38:17.0931089+02:00",
+  "RecurringEndDate": "2021-08-22T13:38:17.0931089+02:00",
+  "MotherId": 274,
+  "AssignedBy": 700,
+  "AssignedByFullName": "Saige Lynch",
   "RejectReason": "",
-  "Location": "ipsum",
-  "AlarmLeadTime": "suscipit",
-  "SaleId": 311,
-  "SaleName": "Veum-Skiles",
-  "AssociateName": "Franecki-Kuhic",
-  "CreatedDate": "2013-02-17T03:24:51.3492095+01:00",
-  "CreatedBy": "optio",
-  "CreatedByFullName": "Mrs. Leif Shea Metz",
-  "CreatedByAssociateId": 9,
+  "Location": "est",
+  "AlarmLeadTime": "et",
+  "SaleId": 764,
+  "SaleName": "Pfannerstill, Grimes and Gulgowski",
+  "AssociateName": "Corkery, Moen and Keebler",
+  "CreatedDate": "2016-10-07T13:38:17.0931089+02:00",
+  "CreatedBy": "maiores",
+  "CreatedByFullName": "Carson Rodriguez",
+  "CreatedByAssociateId": 643,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "consequatur",
-  "Agenda": "qui",
-  "InternalNotes": "aliquid",
+  "PreferredTZLocation": 245,
+  "Title": "voluptatem",
+  "Agenda": "distinctio",
+  "InternalNotes": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldType": "System.String",
+      "FieldLength": 620
     }
   }
 }

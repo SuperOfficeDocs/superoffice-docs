@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=voluptatem
+GET /api/v1/List/Competitor/MDOItems?query=sunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Tillman-Lemke",
-    "ToolTip": "Doloremque dicta aut.",
+    "Id": 580,
+    "Name": "Breitenberg-Fadel",
+    "ToolTip": "Quis occaecati consequatur vel porro doloremque magnam.",
     "Deleted": false,
-    "Rank": 119,
-    "Type": "quo",
+    "Rank": 793,
+    "Type": "vero",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Bosco LLC",
-        "ToolTip": "Molestias numquam consequuntur ullam qui et et quisquam.",
-        "Deleted": false,
-        "Rank": 859,
-        "Type": "expedita",
+        "Id": 84,
+        "Name": "Rau, Murray and Vandervort",
+        "ToolTip": "Quasi molestiae natus.",
+        "Deleted": true,
+        "Rank": 676,
+        "Type": "laudantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 970,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "sequi",
-        "FullName": "Dr. Amani Delia Grimes II",
+        "IconHint": "nisi",
+        "ColorBlock": 371,
+        "ExtraInfo": "nostrum",
+        "StyleHint": "eos",
+        "FullName": "Ciara Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 243
+            "FieldLength": 738
           }
         }
       }
     ],
-    "IconHint": "labore",
-    "ColorBlock": 417,
-    "ExtraInfo": "neque",
-    "StyleHint": "excepturi",
-    "FullName": "Destiney Beatty",
+    "IconHint": "vel",
+    "ColorBlock": 117,
+    "ExtraInfo": "atque",
+    "StyleHint": "qui",
+    "FullName": "Catherine Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 803
+        "FieldLength": 502
       }
     }
   }

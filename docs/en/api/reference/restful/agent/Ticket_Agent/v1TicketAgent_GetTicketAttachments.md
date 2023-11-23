@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 52
+  "TicketEntityId": 184
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 519,
-    "Name": "VonRueden-Shanahan",
-    "ContentType": "tempora",
-    "AttSize": 76,
+    "AttachmentId": 431,
+    "Name": "Bruen, Mosciski and Corwin",
+    "ContentType": "eaque",
+    "AttSize": 699,
     "InlineImage": false,
-    "ContentId": "deserunt",
-    "AuthKey": "sit",
+    "ContentId": "eos",
+    "AuthKey": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldLength": 598
       }
     }
   }

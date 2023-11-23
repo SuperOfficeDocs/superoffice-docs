@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 785,
-  "Name": "Upton-Lindgren",
-  "Description": "Seamless intermediate moderator",
-  "DefaultHeight": 534,
-  "DefaultWidth": 47,
+  "DashboardTileDefinitionId": 192,
+  "Name": "Marquardt Group",
+  "Description": "Open-architected zero defect system engine",
+  "DefaultHeight": 854,
+  "DefaultWidth": 785,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Balistreri Group",
-  "SelectionId": 989,
+  "EntityName": "Lueilwitz-Swaniawski",
+  "SelectionId": 2,
   "CurrencyMode": "Base",
-  "CurrencyCode": "veritatis",
+  "CurrencyCode": "assumenda",
   "Measure": "Average",
-  "MeasureField": "praesentium",
-  "SortBy": "omnis",
-  "LayoutConfig": "quaerat",
-  "SecondarySelectionId": 928,
-  "MeasureByField": "quam",
+  "MeasureField": "et",
+  "SortBy": "eveniet",
+  "LayoutConfig": "dolores",
+  "SecondarySelectionId": 541,
+  "MeasureByField": "perferendis",
   "Usage": "Dashboard",
-  "ProviderName": "Bode, Zieme and Hilll"
+  "ProviderName": "Shanahan-Volkman"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 733,
-  "Name": "Little Inc and Sons",
-  "Description": "Business-focused tertiary service-desk",
-  "DefaultHeight": 691,
-  "DefaultWidth": 513,
+  "DashboardTileDefinitionId": 991,
+  "Name": "Nolan, Hegmann and Quigley",
+  "Description": "Extended bifurcated artificial intelligence",
+  "DefaultHeight": 299,
+  "DefaultWidth": 316,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Maggio-Waters",
-  "SelectionId": 771,
+  "EntityName": "Berge, Zemlak and Bernhard",
+  "SelectionId": 561,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ut",
+  "CurrencyCode": "voluptatem",
   "Measure": "Average",
-  "MeasureField": "sint",
-  "SortBy": "et",
-  "LayoutConfig": "expedita",
-  "SecondarySelectionId": 642,
-  "MeasureByField": "ipsa",
+  "MeasureField": "ut",
+  "SortBy": "atque",
+  "LayoutConfig": "vero",
+  "SecondarySelectionId": 572,
+  "MeasureByField": "porro",
   "Usage": "Dashboard",
-  "ProviderName": "Dicki, Kihn and Hahn",
+  "ProviderName": "Funk-Hilll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldType": "System.Int32",
+      "FieldLength": 333
     }
   }
 }

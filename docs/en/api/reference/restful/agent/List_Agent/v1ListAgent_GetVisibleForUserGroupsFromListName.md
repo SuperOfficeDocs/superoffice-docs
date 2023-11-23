@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Monahan LLC",
-  "ListItemId": 346
+  "UdListDefinitionName": "Bergnaum, Robel and Kris",
+  "ListItemId": 329
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 215,
-    "Name": "Ritchie, Murphy and Wiza",
-    "ToolTip": "Ut dolor accusantium voluptatibus molestiae.",
+    "Id": 619,
+    "Name": "Dach Inc and Sons",
+    "ToolTip": "Ut quod aut.",
     "Deleted": false,
-    "Rank": 701,
-    "Type": "aut",
-    "ColorBlock": 695,
-    "IconHint": "laborum",
-    "Selected": false,
-    "LastChanged": "2006-10-22T03:24:47.8613878+02:00",
+    "Rank": 924,
+    "Type": "suscipit",
+    "ColorBlock": 960,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2003-12-18T13:38:13.6708541+01:00",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "Ondricka, Hodkiewicz and Stracke",
-        "ToolTip": "Est iure qui porro aut.",
+        "Id": 866,
+        "Name": "Ebert-Ferry",
+        "ToolTip": "Quis eligendi magnam.",
         "Deleted": true,
-        "Rank": 513,
-        "Type": "vel",
-        "ColorBlock": 369,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "1999-03-31T03:24:47.8613878+02:00",
+        "Rank": 7,
+        "Type": "nihil",
+        "ColorBlock": 79,
+        "IconHint": "expedita",
+        "Selected": true,
+        "LastChanged": "2000-01-04T13:38:13.6708541+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ut",
+        "ExtraInfo": "autem",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Miss Jennie Hermann DDS",
+        "FullName": "Mac Uriah Wintheiser DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 716
+            "FieldType": "System.String",
+            "FieldLength": 124
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "nam",
-    "Hidden": false,
-    "FullName": "Warren Walker",
+    "ExtraInfo": "vel",
+    "StyleHint": "quasi",
+    "Hidden": true,
+    "FullName": "Jany Mertie Mills Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldType": "System.Int32",
+        "FieldLength": 385
       }
     }
   }

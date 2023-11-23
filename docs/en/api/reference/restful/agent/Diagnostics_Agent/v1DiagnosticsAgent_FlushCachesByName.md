@@ -69,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Pfeffer, Huel and Heidenreich",
-    "Little-Kirlin"
+    "Borer, Batz and Walsh",
+    "Berge Group"
   ]
 }
 ```

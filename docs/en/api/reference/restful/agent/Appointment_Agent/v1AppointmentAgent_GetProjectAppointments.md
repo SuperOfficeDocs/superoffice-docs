@@ -117,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -129,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 688,
-  "StartTime": "2021-12-26T03:24:47.220828+01:00",
-  "EndTime": "2020-10-12T03:24:47.220828+02:00",
-  "Count": 201
+  "ProjectId": 793,
+  "StartTime": "2001-02-04T13:38:13.0459237+01:00",
+  "EndTime": "1997-07-07T13:38:13.0459237+02:00",
+  "Count": 806
 }
 ```
 
@@ -148,64 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 264,
-    "StartDate": "2020-06-11T03:24:47.220828+02:00",
-    "EndDate": "2004-05-28T03:24:47.220828+02:00",
+    "AppointmentId": 212,
+    "StartDate": "2010-02-01T13:38:13.0459237+01:00",
+    "EndDate": "2018-03-10T13:38:13.0459237+01:00",
     "Type": "BookingForChecklist",
-    "Task": "labore",
-    "AssociateFullName": "Alex Weimann",
-    "ContactName": "Krajcik-Streich",
-    "Description": "Cross-platform disintermediate definition",
-    "PersonFullName": "Tyrese Torp",
-    "PersonId": 464,
-    "ContactId": 597,
-    "ProjectId": 19,
-    "ProjectName": "Gusikowski, Jacobson and Wisoky",
-    "IsPublished": true,
-    "AssociateId": 249,
-    "ColorIndex": 230,
+    "Task": "voluptate",
+    "AssociateFullName": "Lonnie Swaniawski",
+    "ContactName": "Skiles, Corkery and Wilderman",
+    "Description": "Networked holistic extranet",
+    "PersonFullName": "Douglas Cormier",
+    "PersonId": 977,
+    "ContactId": 406,
+    "ProjectId": 435,
+    "ProjectName": "Grady LLC",
+    "IsPublished": false,
+    "AssociateId": 227,
+    "ColorIndex": 707,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 844,
-    "PriorityName": "McCullough LLC",
+    "PriorityId": 55,
+    "PriorityName": "Wyman Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2001-05-04T03:24:47.220828+02:00",
+    "ActiveDate": "2019-04-19T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-10-27T03:24:47.220828+02:00",
-    "RecurringEndDate": "1999-03-09T03:24:47.220828+01:00",
-    "MotherId": 947,
-    "AssignedBy": 504,
-    "AssignedByFullName": "Ruthe Kassulke",
+    "RecurringStartDate": "2019-12-05T13:38:13.0459237+01:00",
+    "RecurringEndDate": "2004-07-25T13:38:13.0459237+02:00",
+    "MotherId": 933,
+    "AssignedBy": 948,
+    "AssignedByFullName": "Dr. Josefina Justyn Kuhn",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "aperiam",
-    "SaleId": 758,
-    "SaleName": "Lesch, Ward and Stamm",
-    "AssociateName": "Hegmann Inc and Sons",
-    "CreatedDate": "2002-07-27T03:24:47.220828+02:00",
-    "CreatedBy": "molestiae",
-    "CreatedByFullName": "Miss Tyler Jazmyn Kertzmann",
-    "CreatedByAssociateId": 320,
+    "Location": "adipisci",
+    "AlarmLeadTime": "et",
+    "SaleId": 621,
+    "SaleName": "Kunde, Quigley and Torp",
+    "AssociateName": "Bashirian-Halvorson",
+    "CreatedDate": "2008-01-23T13:38:13.0459237+01:00",
+    "CreatedBy": "id",
+    "CreatedByFullName": "Mathias Barrows",
+    "CreatedByAssociateId": 733,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "neque",
-    "Agenda": "consequatur",
-    "InternalNotes": "repudiandae",
+    "PreferredTZLocation": 469,
+    "Title": "omnis",
+    "Agenda": "doloremque",
+    "InternalNotes": "nostrum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 700
+        "FieldType": "System.Int32",
+        "FieldLength": 49
       }
     }
   }

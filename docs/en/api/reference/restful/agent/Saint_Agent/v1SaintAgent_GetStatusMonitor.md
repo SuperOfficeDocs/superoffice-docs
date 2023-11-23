@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 963
+  "Id": 961
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 465,
-  "Rank": 113,
-  "DefaultTask": 411,
-  "DefaultTaskText": "nesciunt",
+  "OwnerTable": 578,
+  "Rank": 231,
+  "DefaultTask": 15,
+  "DefaultTaskText": "ipsam",
   "IsVisual": false,
-  "LastGenerated": "2021-04-30T03:24:48.1738537+02:00",
-  "Description": "Organized user-facing conglomeration",
-  "Name": "Keebler, Ullrich and Cole",
-  "StatusMonitorId": 878,
-  "PictureId": 557,
+  "LastGenerated": "2023-08-21T13:38:14.0615788+02:00",
+  "Description": "Streamlined tertiary extranet",
+  "Name": "Donnelly, Kerluke and Hagenes",
+  "StatusMonitorId": 964,
+  "PictureId": 816,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 332,
-  "NumNeedUpdate": 18,
-  "GenerationStart": "1997-08-12T03:24:48.1738537+02:00",
+  "Deleted": true,
+  "NumMatches": 636,
+  "NumNeedUpdate": 215,
+  "GenerationStart": "1999-04-24T13:38:14.0615788+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 703
     }
   }
 }

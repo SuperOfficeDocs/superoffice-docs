@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,75 +104,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "omnis",
-    "ValueType": "inventore",
+    "Key": "nemo",
+    "ValueType": "praesentium",
     "Mandatory": false,
-    "EncodedDisplayName": "Marquardt Inc and Sons",
-    "EncodedDisplayDescription": "De-engineered tangible open system",
-    "IconHint": "dolor",
+    "EncodedDisplayName": "Collier-Gutmann",
+    "EncodedDisplayDescription": "Up-sized bifurcated website",
+    "IconHint": "quos",
     "ControlInfos": [
       {
-        "Type": "quas",
-        "Label": "quis",
-        "Dimension": 823,
-        "ListProviderName": "Bernhard LLC",
-        "ListProviderExtraInfo": "beatae",
-        "ListProviderPrimaryKeyName": "Funk Inc and Sons",
-        "ListLeadText": "voluptas",
+        "Type": "mollitia",
+        "Label": "labore",
+        "Dimension": 516,
+        "ListProviderName": "Nolan Inc and Sons",
+        "ListProviderExtraInfo": "mollitia",
+        "ListProviderPrimaryKeyName": "McClure, Bahringer and Bode",
+        "ListLeadText": "dolores",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 171
+            "FieldLength": 725
           }
         }
       }
     ],
-    "EncodedDataCaption": "nobis",
-    "EncodedDataCaptionDescription": "Down-sized leading edge forecast",
-    "CurrentOperationType": "voluptate",
+    "EncodedDataCaption": "omnis",
+    "EncodedDataCaptionDescription": "Seamless client-driven complexity",
+    "CurrentOperationType": "tempora",
     "Values": [
-      "ut",
-      "ea"
+      "aut",
+      "sit"
     ],
     "DisplayValues": [
-      "qui",
-      "minima"
+      "autem",
+      "exercitationem"
     ],
     "OperationInfos": [
       {
-        "Key": "voluptatibus",
-        "EncodedDisplayName": "Adams, Braun and Hills",
+        "Key": "laboriosam",
+        "EncodedDisplayName": "Toy, Skiles and Streich",
         "EncodedLeadTexts": [
-          "iste",
-          "qui"
+          "minima",
+          "suscipit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 487
+            "FieldType": "System.Int32",
+            "FieldLength": 308
           }
         }
       },
       {
-        "Key": "voluptatibus",
-        "EncodedDisplayName": "Adams, Braun and Hills",
+        "Key": "laboriosam",
+        "EncodedDisplayName": "Toy, Skiles and Streich",
         "EncodedLeadTexts": [
-          "iste",
-          "qui"
+          "minima",
+          "suscipit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 487
+            "FieldType": "System.Int32",
+            "FieldLength": 308
           }
         }
       }

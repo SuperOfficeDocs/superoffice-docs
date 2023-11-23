@@ -101,27 +101,27 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 592,
-  "Name": "Cummings, Roob and Dietrich",
-  "Rank": 853,
-  "Tooltip": "suscipit",
-  "Icon": "perferendis",
-  "DefaultTicketStatus": 819,
+  "TicketTypeId": 994,
+  "Name": "Glover-Friesen",
+  "Rank": 111,
+  "Tooltip": "consequatur",
+  "Icon": "quia",
+  "DefaultTicketStatus": 610,
   "TicketStatuses": [
-    248,
-    446
+    899,
+    477
   ],
-  "DefaultTicketPriority": 422,
+  "DefaultTicketPriority": 345,
   "TicketPriorities": [
-    555,
-    792
+    256,
+    79
   ],
-  "ReplyTemplate": 481,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 384,
+  "IsExternalVisible": false,
   "IsDefault": false
 }
 ```
@@ -133,35 +133,35 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 890,
-  "Name": "Spinka Inc and Sons",
-  "Rank": 629,
-  "Tooltip": "enim",
-  "Icon": "minima",
-  "DefaultTicketStatus": 182,
+  "TicketTypeId": 13,
+  "Name": "Wolf, Swaniawski and Hammes",
+  "Rank": 761,
+  "Tooltip": "nihil",
+  "Icon": "et",
+  "DefaultTicketStatus": 179,
   "TicketStatuses": [
-    892,
-    733
+    153,
+    202
   ],
-  "DefaultTicketPriority": 970,
+  "DefaultTicketPriority": 656,
   "TicketPriorities": [
-    300,
-    910
+    545,
+    912
   ],
-  "ReplyTemplate": 290,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 289,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldType": "System.String",
+      "FieldLength": 104
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

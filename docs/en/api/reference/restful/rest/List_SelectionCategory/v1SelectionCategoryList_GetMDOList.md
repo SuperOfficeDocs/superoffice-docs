@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=sint
+GET /api/v1/List/SelectionCategory/MDOItems?query=fuga
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Marks Inc and Sons",
-    "ToolTip": "Assumenda architecto doloremque.",
-    "Deleted": false,
-    "Rank": 578,
-    "Type": "quia",
+    "Id": 923,
+    "Name": "Zboncak-Labadie",
+    "ToolTip": "At laboriosam et itaque et aliquid deleniti.",
+    "Deleted": true,
+    "Rank": 70,
+    "Type": "magni",
     "ChildItems": [
       {
-        "Id": 113,
-        "Name": "Anderson-Durgan",
-        "ToolTip": "Eos impedit occaecati autem.",
+        "Id": 117,
+        "Name": "Johnston, Hyatt and Larkin",
+        "ToolTip": "Repudiandae ut est esse quo enim.",
         "Deleted": false,
-        "Rank": 472,
-        "Type": "rerum",
+        "Rank": 798,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 35,
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "molestiae",
-        "FullName": "Mr. Chester Sonny Lebsack I",
+        "IconHint": "nulla",
+        "ColorBlock": 922,
+        "ExtraInfo": "autem",
+        "StyleHint": "deleniti",
+        "FullName": "Winifred Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 75
+            "FieldLength": 968
           }
         }
       }
     ],
-    "IconHint": "repellendus",
-    "ColorBlock": 620,
-    "ExtraInfo": "et",
-    "StyleHint": "voluptates",
-    "FullName": "Mrs. Benjamin Missouri Smitham V",
+    "IconHint": "aut",
+    "ColorBlock": 934,
+    "ExtraInfo": "qui",
+    "StyleHint": "consequatur",
+    "FullName": "Rafaela Joanie Ziemann DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldType": "System.String",
+        "FieldLength": 996
       }
     }
   }

@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Reinger-Auer",
-  "Columns": "autem",
-  "SortOrder": "aut",
-  "Restriction": "repellat",
-  "Entities": "fugiat",
-  "Page": 848,
-  "PageSize": 356,
-  "Context": "et"
+  "ProviderName": "Pfeffer Inc and Sons",
+  "Columns": "voluptates",
+  "SortOrder": "et",
+  "Restriction": "porro",
+  "Entities": "harum",
+  "Page": 606,
+  "PageSize": 528,
+  "Context": "quos"
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Rau, Cassin and Klocko",
-    "PrimaryKey": 586,
+    "EntityName": "Murphy LLC",
+    "PrimaryKey": 858,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "minima",
-        "TooltipHint": "fugit",
-        "LinkHint": "tempora"
+        "DisplayValue": "nobis",
+        "TooltipHint": "animi",
+        "LinkHint": "occaecati"
       }
     },
-    "LinkHint": "enim",
-    "StyleHint": "non",
+    "LinkHint": "voluptatem",
+    "StyleHint": "quidem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldLength": 321
       }
     }
   }

@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Boehm, Hermann and Reilly",
-  "RecordId": 178,
-  "AssociateId": 232,
-  "ExtraInfo": "beatae"
+  "TableName": "McKenzie-Herman",
+  "RecordId": 786,
+  "AssociateId": 706,
+  "ExtraInfo": "excepturi"
 }
 ```
 

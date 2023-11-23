@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 361,
-  "Name": "Hickle Group",
-  "Tooltip": "possimus",
-  "Deleted": false,
-  "UdListDefinitionId": 486,
-  "Rank": 189
+  "Id": 902,
+  "Name": "O'Hara Group",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 743,
+  "Rank": 137
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 723,
-  "Name": "Swift-Harris",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 128,
-  "Rank": 32,
+  "Id": 860,
+  "Name": "Feeney LLC",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "UdListDefinitionId": 593,
+  "Rank": 56,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldType": "System.String",
+      "FieldLength": 364
     }
   }
 }

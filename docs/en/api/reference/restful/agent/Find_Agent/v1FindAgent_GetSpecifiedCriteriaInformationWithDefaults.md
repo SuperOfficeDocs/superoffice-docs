@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsum",
-  "ProviderName": "Wisoky-Goyette",
+  "StorageType": "adipisci",
+  "ProviderName": "Lubowitz-Flatley",
   "StorageKey": "et",
   "DesiredColumnNames": [
-    "Bauch-Hintz",
-    "Collins, Morissette and Kassulke"
+    "Wiegand, Carter and Braun",
+    "Lindgren-Mayer"
   ],
   "StaticColumns": [
-    "porro",
-    "iusto"
+    "placeat",
+    "totam"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Schowalter, Fadel and Lindgren",
-      "Operator": "vel",
+      "Name": "Conn, Hettinger and Beer",
+      "Operator": "beatae",
       "Values": [
-        "et",
-        "sed"
+        "suscipit",
+        "possimus"
       ],
       "DisplayValues": [
-        "vitae",
-        "officia"
+        "officia",
+        "maxime"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 820,
+      "InterParenthesis": 121,
       "InterOperator": "And",
-      "UniqueHash": 424
+      "UniqueHash": 682
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Fay Inc and Sons",
-      "DisplayTooltip": "reiciendis",
-      "DisplayType": "officiis",
+      "DisplayName": "Grimes LLC",
+      "DisplayTooltip": "aut",
+      "DisplayType": "illum",
       "CanOrderBy": false,
-      "Name": "Torp LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "reiciendis",
-      "RestrictionListName": "Heathcote Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "ut",
-      "Width": "ratione",
-      "IconHint": "ut",
-      "HeadingIconHint": "quaerat"
+      "Name": "Ernser-Ledner",
+      "CanRestrictBy": true,
+      "RestrictionType": "et",
+      "RestrictionListName": "Wolff, Kuhlman and Connelly",
+      "IsVisible": false,
+      "ExtraInfo": "dicta",
+      "Width": "aut",
+      "IconHint": "reiciendis",
+      "HeadingIconHint": "rem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Dooley-Spencer",
-      "PrimaryKey": 424,
+      "EntityName": "Bergnaum-Lynch",
+      "PrimaryKey": 185,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "iste",
-          "TooltipHint": "dolore",
-          "LinkHint": "temporibus"
+          "DisplayValue": "quia",
+          "TooltipHint": "labore",
+          "LinkHint": "officiis"
         }
       },
-      "LinkHint": "vel",
-      "StyleHint": "incidunt",
+      "LinkHint": "et",
+      "StyleHint": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 70
+          "FieldType": "System.Int32",
+          "FieldLength": 143
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Jones, Armstrong and Hintz",
-      "Description": "Synchronised even-keeled methodology",
-      "Rank": 816,
+      "Name": "Padberg, Hagenes and Vandervort",
+      "Description": "Assimilated discrete time-frame",
+      "Rank": 774,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jones, Armstrong and Hintz",
-      "Description": "Synchronised even-keeled methodology",
-      "Rank": 816,
+      "Name": "Padberg, Hagenes and Vandervort",
+      "Description": "Assimilated discrete time-frame",
+      "Rank": 774,
       "Restrictions": [
         {},
         {}
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldType": "System.String",
+      "FieldLength": 233
     }
   }
 }

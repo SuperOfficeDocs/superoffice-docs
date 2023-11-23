@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 926,
+  "HierarchyId": 165,
   "Domain": "Dashboards",
-  "Name": "Corwin-Goldner",
-  "Fullname": "vel",
-  "ParentId": 871,
+  "Name": "Dooley Inc and Sons",
+  "Fullname": "illo",
+  "ParentId": 678,
   "Children": [
     {
-      "HierarchyId": 459,
+      "HierarchyId": 180,
       "Domain": "Dashboards",
-      "Name": "Stehr, Zulauf and Mueller",
-      "Fullname": "deserunt",
-      "ParentId": 355,
+      "Name": "Hilll, Stanton and Jones",
+      "Fullname": "sapiente",
+      "ParentId": 935,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-07-28T03:24:51.630601+02:00",
-      "RegisteredAssociateId": 825,
-      "Updated": "2009-08-07T03:24:51.630601+02:00",
-      "UpdatedAssociateId": 165,
+      "Registered": "2000-05-02T13:38:17.4524494+02:00",
+      "RegisteredAssociateId": 526,
+      "Updated": "2015-08-26T13:38:17.4524494+02:00",
+      "UpdatedAssociateId": 258,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldLength": 778
         }
       }
     }
   ],
-  "Registered": "2006-04-26T03:24:51.630601+02:00",
-  "RegisteredAssociateId": 366,
-  "Updated": "2022-09-15T03:24:51.630601+02:00",
-  "UpdatedAssociateId": 52,
+  "Registered": "2001-05-05T13:38:17.4524494+02:00",
+  "RegisteredAssociateId": 700,
+  "Updated": "2023-04-11T13:38:17.4524494+02:00",
+  "UpdatedAssociateId": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   }
 }

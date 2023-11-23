@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "eveniet",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "eveniet",
     "value": {}
   }
 ]
@@ -163,42 +163,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ChatSessionId": 347,
-  "TopicId": 495,
+  "TopicId": 378,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quaerat",
-  "CustomerHost": "vel",
-  "CustomerName": "Prosacco-Wiegand",
-  "CustomerEmail": "joanny.mills@gislasonlueilwitz.us",
-  "CustomerPhone": "958.656.4642",
+  "CustomerAlias": "odio",
+  "CustomerHost": "beatae",
+  "CustomerName": "Windler, Marks and Fritsch",
+  "CustomerEmail": "annabell_herzog@sporer.us",
+  "CustomerPhone": "(471)455-8699",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Towne LLC",
+  "CustomerCompanyName": "Lesch, Schmitt and Schuppe",
   "Status": "Closed",
-  "FirstMessage": "sint",
-  "LastMessage": "ab",
-  "WhenRequested": "2005-05-12T03:24:51.3960792+02:00",
-  "WhenStarted": "2010-11-26T03:24:51.3960792+01:00",
-  "WhenEnded": "2002-06-09T03:24:51.3960792+02:00",
-  "WhenIdle": "2002-04-26T03:24:51.3960792+02:00",
-  "WhenFetched": "2015-03-17T03:24:51.3960792+01:00",
-  "SessionKey": "nesciunt",
-  "InitialQueuePos": 693,
-  "AlertLevel": 949,
-  "Rank": 311,
+  "FirstMessage": "similique",
+  "LastMessage": "autem",
+  "WhenRequested": "2007-09-30T13:38:17.1399788+02:00",
+  "WhenStarted": "2022-04-23T13:38:17.1399788+02:00",
+  "WhenEnded": "2023-02-09T13:38:17.1399788+01:00",
+  "WhenIdle": "2013-06-11T13:38:17.1399788+02:00",
+  "WhenFetched": "1998-04-12T13:38:17.1399788+02:00",
+  "SessionKey": "consequatur",
+  "InitialQueuePos": 122,
+  "AlertLevel": 59,
+  "Rank": 310,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 643,
+  "ChatbotIsActive": true,
+  "Rating": 220,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldType": "System.Int32",
+      "FieldLength": 351
     }
   },
   "_Links": {

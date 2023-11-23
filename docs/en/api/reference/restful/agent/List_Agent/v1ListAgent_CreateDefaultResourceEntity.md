@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 346,
-  "Name": "Lakin LLC",
-  "Rank": 333,
-  "Tooltip": "quis",
-  "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "sit",
+  "ResourceId": 229,
+  "Name": "Williamson Inc and Sons",
+  "Rank": 903,
+  "Tooltip": "minus",
+  "Deleted": true,
+  "IsLocation": false,
+  "LocationAddress": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldType": "System.String",
+      "FieldLength": 760
     }
   }
 }

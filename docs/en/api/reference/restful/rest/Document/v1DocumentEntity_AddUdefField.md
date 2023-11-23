@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 804,
-  "ColumnId": 885,
-  "FieldDefault": "aut",
-  "FieldHeight": 73,
-  "FieldLabel": "rerum",
-  "FieldLeft": 106,
-  "FieldTop": 997,
+  "UDefFieldId": 37,
+  "ColumnId": 253,
+  "FieldDefault": "quia",
+  "FieldHeight": 40,
+  "FieldLabel": "voluptate",
+  "FieldLeft": 630,
+  "FieldTop": 564,
   "FieldType": "Checkbox",
-  "FieldWidth": 505,
-  "FormatMask": "repudiandae",
+  "FieldWidth": 595,
+  "FormatMask": "deleniti",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 453,
-  "LabelLeft": 506,
-  "LabelTop": 268,
-  "LabelWidth": 91,
-  "LastVersionId": 858,
-  "ListTableId": 244,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 296,
+  "LabelLeft": 969,
+  "LabelTop": 169,
+  "LabelWidth": 485,
+  "LastVersionId": 791,
+  "ListTableId": 392,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 298,
-  "ProgId": "inventore",
-  "IsReadOnly": true,
-  "ShortLabel": "nulla",
-  "TabOrder": 732,
-  "TextLength": 276,
-  "Tooltip": "iusto",
-  "UdefIdentity": 195,
-  "UDListDefinitionId": 395,
+  "Page1LineNo": 594,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptatibus",
+  "TabOrder": 420,
+  "TextLength": 204,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 208,
+  "UDListDefinitionId": 18,
   "Justification": "Center",
-  "Version": 631,
-  "TemplateVariableName": "Hilpert-Dibbert",
-  "HasBeenPublished": false,
-  "MdoListName": "Collier, Dooley and Willms",
+  "Version": 653,
+  "TemplateVariableName": "Heidenreich-Wisozk",
+  "HasBeenPublished": true,
+  "MdoListName": "Toy-Gleason",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 89
     }
   }
 }

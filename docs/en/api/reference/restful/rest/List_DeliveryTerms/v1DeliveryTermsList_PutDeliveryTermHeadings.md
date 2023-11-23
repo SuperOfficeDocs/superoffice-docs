@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 68,
-    "Name": "Larson, Wyman and Nienow",
-    "Tooltip": "omnis",
+    "HeadingId": 850,
+    "Name": "Smitham-Wunsch",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "Rank": 453,
-    "UdListDefinitionId": 177
+    "Rank": 187,
+    "UdListDefinitionId": 623
   },
   {
-    "HeadingId": 68,
-    "Name": "Larson, Wyman and Nienow",
-    "Tooltip": "omnis",
+    "HeadingId": 850,
+    "Name": "Smitham-Wunsch",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "Rank": 453,
-    "UdListDefinitionId": 177
+    "Rank": 187,
+    "UdListDefinitionId": 623
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 935,
-    "Name": "VonRueden Group",
-    "Tooltip": "reprehenderit",
+    "HeadingId": 30,
+    "Name": "Fritsch Group",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 134,
+    "Rank": 877,
+    "UdListDefinitionId": 190,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldType": "System.String",
+        "FieldLength": 722
       }
     }
   }

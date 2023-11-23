@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 422
+  "ContactId": 415
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aut",
-    "PersonId": 202,
-    "Mrmrs": "nesciunt",
-    "Firstname": "Eden",
-    "Lastname": "Reichel",
-    "MiddleName": "Sporer LLC",
-    "Title": "reiciendis",
-    "Description": "Upgradable assymetric local area network",
-    "Email": "elmore@bartell.com",
-    "FullName": "Dr. Misael Desmond Aufderhar",
-    "DirectPhone": "941.223.5321",
-    "FormalName": "Nikolaus Group",
-    "CountryId": 284,
-    "ContactId": 259,
-    "ContactName": "Hegmann Group",
-    "Retired": 892,
-    "Rank": 388,
-    "ActiveInterests": 262,
+    "Position": "beatae",
+    "PersonId": 706,
+    "Mrmrs": "est",
+    "Firstname": "Jalyn",
+    "Lastname": "Kessler",
+    "MiddleName": "Feil-Kuvalis",
+    "Title": "odit",
+    "Description": "Progressive disintermediate secured line",
+    "Email": "naomie@abbott.ca",
+    "FullName": "Ms. Ezequiel Jena Willms III",
+    "DirectPhone": "1-849-763-4598",
+    "FormalName": "Schoen LLC",
+    "CountryId": 881,
+    "ContactId": 493,
+    "ContactName": "Kautzer Group",
+    "Retired": 746,
+    "Rank": 424,
+    "ActiveInterests": 665,
     "ContactDepartment": "",
-    "ContactCountryId": 864,
-    "ContactOrgNr": "922847",
-    "FaxPhone": "1-799-882-8989 x260",
-    "MobilePhone": "1-862-562-3474",
-    "ContactPhone": "1-322-961-6652 x8019",
-    "AssociateName": "Herman-Weber",
-    "AssociateId": 158,
+    "ContactCountryId": 818,
+    "ContactOrgNr": "681963",
+    "FaxPhone": "267-181-2507",
+    "MobilePhone": "1-619-116-9857",
+    "ContactPhone": "571-332-8665",
+    "AssociateName": "Cremin-Lemke",
+    "AssociateId": 188,
     "UsePersonAddress": false,
-    "ContactFax": "et",
-    "Kanafname": "rerum",
-    "Kanalname": "est",
-    "Post1": "eos",
-    "Post2": "quas",
-    "Post3": "quisquam",
-    "EmailName": "enid.klein@cormierkovacek.info",
-    "ContactFullName": "Miss Carmela Corkery",
-    "ActiveErpLinks": 467,
-    "TicketPriorityId": 572,
-    "SupportLanguageId": 380,
-    "SupportAssociateId": 634,
+    "ContactFax": "itaque",
+    "Kanafname": "et",
+    "Kanalname": "repudiandae",
+    "Post1": "facilis",
+    "Post2": "omnis",
+    "Post3": "et",
+    "EmailName": "keshaun_roob@abbott.us",
+    "ContactFullName": "Melany Cremin",
+    "ActiveErpLinks": 689,
+    "TicketPriorityId": 708,
+    "SupportLanguageId": 318,
+    "SupportAssociateId": 874,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldType": "System.String",
+        "FieldLength": 525
       }
     }
   }

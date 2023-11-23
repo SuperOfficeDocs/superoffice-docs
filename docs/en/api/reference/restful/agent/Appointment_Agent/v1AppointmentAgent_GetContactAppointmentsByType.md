@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,14 +131,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 783,
-  "StartTime": "2023-06-05T03:24:46.9238216+02:00",
-  "EndTime": "1998-08-08T03:24:46.9238216+02:00",
-  "Count": 463,
+  "ContactId": 534,
+  "StartTime": "1999-04-04T13:38:12.8428246+02:00",
+  "EndTime": "2010-05-27T13:38:12.8428246+02:00",
+  "Count": 272,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 338,
-    "StartDate": "2018-08-17T03:24:46.9238216+02:00",
-    "EndDate": "2019-11-16T03:24:46.9238216+01:00",
+    "AppointmentId": 541,
+    "StartDate": "2007-07-20T13:38:12.8428246+02:00",
+    "EndDate": "1997-01-26T13:38:12.8428246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "architecto",
-    "AssociateFullName": "Danyka Johnson",
-    "ContactName": "Rempel-Ziemann",
-    "Description": "Proactive executive leverage",
-    "PersonFullName": "Geovany Schiller",
-    "PersonId": 208,
-    "ContactId": 512,
-    "ProjectId": 627,
-    "ProjectName": "Abbott-Boyle",
+    "Task": "ut",
+    "AssociateFullName": "Prof. Letitia Stanton",
+    "ContactName": "Lind, Hintz and VonRueden",
+    "Description": "Distributed bifurcated solution",
+    "PersonFullName": "Mrs. Ima Genoveva Miller III",
+    "PersonId": 237,
+    "ContactId": 26,
+    "ProjectId": 642,
+    "ProjectName": "Smith Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 609,
-    "ColorIndex": 435,
+    "AssociateId": 135,
+    "ColorIndex": 382,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 343,
-    "PriorityName": "Hermann LLC",
+    "PriorityId": 286,
+    "PriorityName": "Buckridge Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2005-11-06T03:24:46.9238216+01:00",
+    "ActiveDate": "2011-11-09T13:38:12.8428246+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-04-10T03:24:46.9238216+02:00",
-    "RecurringEndDate": "2004-04-23T03:24:46.9238216+02:00",
-    "MotherId": 578,
-    "AssignedBy": 973,
-    "AssignedByFullName": "Johnathan Bayer",
-    "RejectReason": "generate cutting-edge partnerships",
-    "Location": "tenetur",
-    "AlarmLeadTime": "quasi",
-    "SaleId": 481,
-    "SaleName": "Kovacek Inc and Sons",
-    "AssociateName": "Kuphal-Trantow",
-    "CreatedDate": "2013-12-30T03:24:46.9238216+01:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Bud Kirlin",
-    "CreatedByAssociateId": 60,
+    "RecurringStartDate": "1999-03-23T13:38:12.8428246+01:00",
+    "RecurringEndDate": "1997-04-16T13:38:12.8428246+02:00",
+    "MotherId": 588,
+    "AssignedBy": 984,
+    "AssignedByFullName": "Miss William Dooley",
+    "RejectReason": "",
+    "Location": "consequatur",
+    "AlarmLeadTime": "dolorem",
+    "SaleId": 842,
+    "SaleName": "Lind, Murphy and Kuhic",
+    "AssociateName": "Runte, Bashirian and Baumbach",
+    "CreatedDate": "2002-12-09T13:38:12.8428246+01:00",
+    "CreatedBy": "consequatur",
+    "CreatedByFullName": "Dante Rohan",
+    "CreatedByAssociateId": 923,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "sit",
-    "Agenda": "quo",
-    "InternalNotes": "qui",
+    "PreferredTZLocation": 783,
+    "Title": "eum",
+    "Agenda": "iusto",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 907
+        "FieldLength": 208
       }
     }
   }

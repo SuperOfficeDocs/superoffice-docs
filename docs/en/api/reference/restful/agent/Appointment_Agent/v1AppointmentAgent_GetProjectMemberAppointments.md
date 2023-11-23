@@ -117,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -129,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 594,
-  "StartTime": "2013-07-12T03:24:46.9238216+02:00",
-  "EndTime": "2022-11-09T03:24:46.9238216+01:00",
-  "Count": 575
+  "PersonId": 366,
+  "StartTime": "2021-06-16T13:38:12.8428246+02:00",
+  "EndTime": "2009-02-01T13:38:12.8428246+01:00",
+  "Count": 102
 }
 ```
 
@@ -148,64 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 471,
-    "StartDate": "1997-05-01T03:24:46.9238216+02:00",
-    "EndDate": "2003-06-20T03:24:46.9238216+02:00",
+    "AppointmentId": 746,
+    "StartDate": "2017-10-15T13:38:12.8428246+02:00",
+    "EndDate": "2015-03-26T13:38:12.8428246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Stefanie Nader",
-    "ContactName": "Davis, Cassin and Hauck",
-    "Description": "Multi-channelled responsive interface",
-    "PersonFullName": "Mrs. Curtis Isabell Rogahn II",
-    "PersonId": 607,
-    "ContactId": 179,
-    "ProjectId": 874,
-    "ProjectName": "Grimes Group",
-    "IsPublished": false,
-    "AssociateId": 401,
-    "ColorIndex": 873,
+    "Task": "libero",
+    "AssociateFullName": "Orion Hansen",
+    "ContactName": "Hickle Group",
+    "Description": "Optional human-resource algorithm",
+    "PersonFullName": "Mrs. Callie Kellen Schaden IV",
+    "PersonId": 787,
+    "ContactId": 820,
+    "ProjectId": 871,
+    "ProjectName": "O'Keefe-Trantow",
+    "IsPublished": true,
+    "AssociateId": 715,
+    "ColorIndex": 363,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 45,
-    "PriorityName": "Muller LLC",
+    "PriorityId": 402,
+    "PriorityName": "Daugherty, Huel and Ankunding",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2021-12-08T03:24:46.9238216+01:00",
+    "ActiveDate": "2016-02-18T13:38:12.8428246+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-02-08T03:24:46.9238216+01:00",
-    "RecurringEndDate": "2011-09-29T03:24:46.9238216+02:00",
-    "MotherId": 711,
-    "AssignedBy": 934,
-    "AssignedByFullName": "Betsy Konopelski",
+    "RecurringStartDate": "2004-07-06T13:38:12.8428246+02:00",
+    "RecurringEndDate": "2018-01-28T13:38:12.8428246+01:00",
+    "MotherId": 524,
+    "AssignedBy": 832,
+    "AssignedByFullName": "Pat Adrien Bruen DDS",
     "RejectReason": "",
-    "Location": "illo",
-    "AlarmLeadTime": "non",
-    "SaleId": 543,
-    "SaleName": "Kerluke, Schowalter and Beahan",
-    "AssociateName": "Rath-Flatley",
-    "CreatedDate": "2007-05-19T03:24:46.9238216+02:00",
+    "Location": "facere",
+    "AlarmLeadTime": "laudantium",
+    "SaleId": 244,
+    "SaleName": "Jones LLC",
+    "AssociateName": "Schroeder LLC",
+    "CreatedDate": "2013-05-21T13:38:12.8428246+02:00",
     "CreatedBy": "et",
-    "CreatedByFullName": "Duncan Torphy",
-    "CreatedByAssociateId": 570,
+    "CreatedByFullName": "Samir Heller",
+    "CreatedByAssociateId": 360,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "fugiat",
-    "Agenda": "adipisci",
-    "InternalNotes": "maxime",
+    "PreferredTZLocation": 193,
+    "Title": "soluta",
+    "Agenda": "consequatur",
+    "InternalNotes": "corrupti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldLength": 768
       }
     }
   }

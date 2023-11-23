@@ -86,16 +86,16 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 590,
-  "PrefDescId": 183,
-  "PrefValue": "nihil",
-  "PrefShowValue": "et",
-  "Description": "Team-oriented intangible collaboration",
-  "IsBuiltin": true
+  "PrefDescLineId": 695,
+  "PrefDescId": 922,
+  "PrefValue": "et",
+  "PrefShowValue": "molestiae",
+  "Description": "Devolved leading edge functionalities",
+  "IsBuiltin": false
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 857,
-  "PrefDescId": 734,
-  "PrefValue": "consectetur",
-  "PrefShowValue": "et",
-  "Description": "Persevering zero administration product",
+  "PrefDescLineId": 753,
+  "PrefDescId": 482,
+  "PrefValue": "maxime",
+  "PrefShowValue": "ratione",
+  "Description": "Team-oriented foreground open architecture",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   },
   "_Links": {

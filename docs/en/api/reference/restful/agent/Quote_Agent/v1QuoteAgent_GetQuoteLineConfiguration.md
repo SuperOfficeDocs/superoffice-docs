@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 870
+  "QuoteLineConfigurationId": 334
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 778,
-  "FieldName": "Conroy-Strosin",
+  "QuoteLineConfigurationId": 307,
+  "FieldName": "Ortiz LLC",
   "Label": "aut",
-  "Tooltip": "doloribus",
+  "Tooltip": "perspiciatis",
   "Editable": false,
-  "InUse": false,
+  "InUse": true,
   "Mandatory": false,
-  "Rank": 818,
-  "RestrictEdit": true,
+  "Rank": 509,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldType": "System.String",
+      "FieldLength": 791
     }
   }
 }

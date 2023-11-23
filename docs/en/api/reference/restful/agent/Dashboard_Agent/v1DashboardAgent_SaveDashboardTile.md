@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 830,
-  "Caption": "debitis",
-  "Description": "Face to face foreground moratorium",
-  "ChartName": "Wisozk, Boyer and Lakin",
-  "ChartId": "eos",
-  "IsDefault": false,
-  "AssociateId": 804,
-  "GroupId": 416,
-  "SelectionId": 590,
-  "Config": "recusandae",
+  "DashboardTileId": 708,
+  "Caption": "reiciendis",
+  "Description": "Phased motivating process improvement",
+  "ChartName": "Runte-Fritsch",
+  "ChartId": "nobis",
+  "IsDefault": true,
+  "AssociateId": 922,
+  "GroupId": 386,
+  "SelectionId": 166,
+  "Config": "possimus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Weber-Shanahan",
-      "Description": "Quality-focused methodical artificial intelligence",
+      "Name": "Pfeffer-Becker",
+      "Description": "Triple-buffered human-resource application",
       "Type": "Boolean",
-      "ListName": "Lang LLC",
+      "ListName": "Smitham, Streich and Halvorson",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ea",
+      "Value": "nemo",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 844,
+      "VisibleId": 558,
       "Visibility": "All",
-      "DisplayValue": "voluptas"
+      "DisplayValue": "cumque"
     },
     {
-      "VisibleId": 844,
+      "VisibleId": 558,
       "Visibility": "All",
-      "DisplayValue": "voluptas"
+      "DisplayValue": "cumque"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 383,
-  "Caption": "mollitia",
-  "Description": "User-friendly dedicated throughput",
-  "ChartName": "Corkery LLC",
-  "ChartId": "aut",
-  "IsDefault": false,
-  "AssociateId": 791,
-  "GroupId": 735,
-  "SelectionId": 236,
-  "Config": "sit",
+  "DashboardTileId": 574,
+  "Caption": "provident",
+  "Description": "Right-sized multimedia data-warehouse",
+  "ChartName": "Rosenbaum-Schneider",
+  "ChartId": "adipisci",
+  "IsDefault": true,
+  "AssociateId": 82,
+  "GroupId": 972,
+  "SelectionId": 460,
+  "Config": "excepturi",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Rohan LLC",
-      "Description": "Reverse-engineered actuating open architecture",
+      "Name": "Abernathy, Bogan and Feil",
+      "Description": "Grass-roots client-driven system engine",
       "Type": "Boolean",
-      "ListName": "Fisher Group",
+      "ListName": "Langosh-Hahn",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "eum",
+      "Value": "sit",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldLength": 268
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 444,
+      "VisibleId": 817,
       "Visibility": "All",
-      "DisplayValue": "quaerat",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 407
+          "FieldType": "System.Int32",
+          "FieldLength": 333
         }
       }
     },
     {
-      "VisibleId": 444,
+      "VisibleId": 817,
       "Visibility": "All",
-      "DisplayValue": "quaerat",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 407
+          "FieldType": "System.Int32",
+          "FieldLength": 333
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 434
+      "FieldLength": 78
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 23 May 1997 03:24:51 G5T
+Last-Modified: Sun, 24 Nov 2002 13:38:17 G11T
 
 {
-  "ForeignAppId": 475,
-  "Name": "Parker, Lynch and O'Connell",
-  "CreatedDate": "2008-06-15T03:24:51.6149823+02:00",
-  "UpdatedDate": "1997-05-23T03:24:51.6149823+02:00",
+  "ForeignAppId": 12,
+  "Name": "Jast, Keeling and Littel",
+  "CreatedDate": "2002-03-08T13:38:17.4368262+01:00",
+  "UpdatedDate": "2002-11-24T13:38:17.4368262+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 433,
-      "Name": "Barrows, Jewess and Hessel",
-      "CreatedDate": "2014-03-08T03:24:51.6149823+01:00",
-      "UpdatedDate": "2013-11-02T03:24:51.6149823+01:00",
-      "AssociateFullName": "Mr. Hipolito Mueller",
-      "CreatedBy": "eligendi",
-      "UpdatedBy": "porro",
-      "DeviceIdentifier": "unde",
-      "ForeignAppId": 746,
+      "ForeignDeviceId": 510,
+      "Name": "Schiller LLC",
+      "CreatedDate": "2021-02-21T13:38:17.4368262+01:00",
+      "UpdatedDate": "2017-02-11T13:38:17.4368262+01:00",
+      "AssociateFullName": "Cayla Stanton",
+      "CreatedBy": "eius",
+      "UpdatedBy": "repellat",
+      "DeviceIdentifier": "consequatur",
+      "ForeignAppId": 608,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldLength": 203
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Fri, 23 May 1997 03:24:51 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 947
     }
   }
 }

@@ -29,7 +29,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=True
+GET /api/v1/Hierarchy/{domain}?children=False
 ```
 
 
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 243,
+    "HierarchyId": 20,
     "Domain": "Dashboards",
-    "Name": "Brown-Senger",
-    "Fullname": "doloribus",
-    "ParentId": 176,
+    "Name": "Barton, Kunde and Jacobs",
+    "Fullname": "minima",
+    "ParentId": 213,
     "Children": [
       {
-        "HierarchyId": 827,
+        "HierarchyId": 387,
         "Domain": "Dashboards",
-        "Name": "Kling-Bogisich",
-        "Fullname": "soluta",
-        "ParentId": 450,
+        "Name": "Daniel Inc and Sons",
+        "Fullname": "nulla",
+        "ParentId": 723,
         "Children": [
           {},
           {}
         ],
-        "Registered": "1997-12-19T03:24:51.630601+01:00",
-        "RegisteredAssociateId": 263,
-        "Updated": "1999-06-13T03:24:51.630601+02:00",
-        "UpdatedAssociateId": 503,
+        "Registered": "2003-03-15T13:38:17.4524494+01:00",
+        "RegisteredAssociateId": 314,
+        "Updated": "2015-02-04T13:38:17.4524494+01:00",
+        "UpdatedAssociateId": 975,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 395
+            "FieldLength": 552
           }
         }
       }
     ],
-    "Registered": "2018-10-03T03:24:51.630601+02:00",
-    "RegisteredAssociateId": 328,
-    "Updated": "2000-10-16T03:24:51.630601+02:00",
-    "UpdatedAssociateId": 818,
+    "Registered": "2008-08-16T13:38:17.4524494+02:00",
+    "RegisteredAssociateId": 456,
+    "Updated": "2021-08-06T13:38:17.4524494+02:00",
+    "UpdatedAssociateId": 912,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldLength": 126
       }
     }
   }

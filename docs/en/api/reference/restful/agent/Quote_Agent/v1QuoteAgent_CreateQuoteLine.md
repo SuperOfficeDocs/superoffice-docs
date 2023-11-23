@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 204,
-  "ERPProductKey": "saepe"
+  "QuoteAlternativeId": 997,
+  "ERPProductKey": "deserunt"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 934,
-  "ERPQuoteLineKey": "vero",
-  "QuoteAlternativeId": 828,
-  "ERPProductKey": "maiores",
+  "QuoteLineId": 81,
+  "ERPQuoteLineKey": "consectetur",
+  "QuoteAlternativeId": 67,
+  "ERPProductKey": "optio",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 18995.174,
-  "DeliveredQuantity": 29453.332,
-  "Rank": 189,
-  "Name": "Douglas-Cronin",
-  "Description": "Stand-alone impactful application",
-  "Code": "veniam",
-  "QuantityUnit": "rerum",
-  "PriceUnit": "quia",
-  "ItemNumber": "1266010",
+  "Quantity": 18227.344,
+  "DeliveredQuantity": 25654.924,
+  "Rank": 768,
+  "Name": "Ferry, Herzog and Huels",
+  "Description": "Re-engineered client-server projection",
+  "Code": "quidem",
+  "QuantityUnit": "ab",
+  "PriceUnit": "porro",
+  "ItemNumber": "1124567",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quidem",
-  "ProductTypeKey": "sed",
-  "Supplier": "officiis",
-  "SupplierCode": "quo",
-  "Thumbnail": "sed",
-  "VATInfo": "dolor",
-  "VAT": 29243.354,
-  "UnitCost": 9464.68,
-  "UnitMinimumPrice": 7831.866,
-  "UnitListPrice": 9853.296,
+  "ProductFamilyKey": "reiciendis",
+  "ProductTypeKey": "est",
+  "Supplier": "quia",
+  "SupplierCode": "earum",
+  "Thumbnail": "natus",
+  "VATInfo": "nisi",
+  "VAT": 24178.809999999998,
+  "UnitCost": 573.52199999999993,
+  "UnitMinimumPrice": 9944.1819999999989,
+  "UnitListPrice": 1087.498,
   "ExtraInfo": [
     {
-      "Name": "Moen, Abbott and Aufderhar",
-      "Value": "voluptatem",
+      "Name": "Bartell LLC",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 396
         }
       }
     },
     {
-      "Name": "Moen, Abbott and Aufderhar",
-      "Value": "voluptatem",
+      "Name": "Bartell LLC",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 396
         }
       }
     }
   ],
-  "RawExtraInfo": "autem",
+  "RawExtraInfo": "nihil",
   "IsSubscription": false,
-  "SubscriptionUnit": "amet",
-  "SubscriptionQuantity": 23226.074,
-  "SubscriptionStart": "2016-09-21T03:24:48.1426062+02:00",
-  "ERPDiscountPercent": 12062.766,
-  "ERPDiscountAmount": 3312.638,
-  "DiscountPercent": 1178.384,
-  "DiscountAmount": 25238.102,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 17497.122,
+  "SubscriptionStart": "2009-08-26T13:38:14.0303322+02:00",
+  "ERPDiscountPercent": 28798.325999999997,
+  "ERPDiscountAmount": 6465.442,
+  "DiscountPercent": 11266.73,
+  "DiscountAmount": 19399.46,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 12730.307999999999,
-  "EarningAmount": 16406.489999999998,
-  "SubTotal": 24714.724,
-  "TotalPrice": 20374.134,
-  "Rights": "reiciendis",
-  "Rule": "ut",
-  "ExtraField1": "dolor",
-  "ExtraField2": "sed",
-  "ExtraField3": "et",
-  "ExtraField4": "qui",
-  "ExtraField5": "possimus",
+  "EarningPercent": 18456.126,
+  "EarningAmount": 19828.818,
+  "SubTotal": 1184.652,
+  "TotalPrice": 20333.392,
+  "Rights": "officia",
+  "Rule": "ipsa",
+  "ExtraField1": "ea",
+  "ExtraField2": "ducimus",
+  "ExtraField3": "adipisci",
+  "ExtraField4": "ut",
+  "ExtraField5": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   }
 }

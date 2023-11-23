@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 556,
-  "PlainMessage": "in",
-  "HtmlMessage": "dignissimos",
-  "SmsMessage": "sed",
-  "Description": "Virtual asynchronous software",
-  "Subject": "iste",
-  "FolderId": 299,
+  "ShipmentMessageId": 443,
+  "PlainMessage": "sed",
+  "HtmlMessage": "nulla",
+  "SmsMessage": "eius",
+  "Description": "Robust bottom-line hardware",
+  "Subject": "omnis",
+  "FolderId": 596,
   "HeaderField": "et",
-  "Design": "dolores",
+  "Design": "consectetur",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Public-key hybrid ability",
-  "AccessKey": "cum",
-  "DocumentMessage": 518,
-  "Registered": "2015-09-15T03:24:47.9238778+02:00",
-  "RegisteredAssociateId": 377,
-  "Updated": "2005-05-29T03:24:47.9238778+02:00",
-  "UpdatedAssociateId": 763,
-  "UpdatedCount": 504
+  "LongDescription": "Organized intermediate focus group",
+  "AccessKey": "saepe",
+  "DocumentMessage": 307,
+  "Registered": "2001-03-19T13:38:13.7333439+01:00",
+  "RegisteredAssociateId": 372,
+  "Updated": "1998-02-28T13:38:13.7333439+01:00",
+  "UpdatedAssociateId": 515,
+  "UpdatedCount": 285
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 623,
-  "PlainMessage": "et",
-  "HtmlMessage": "iusto",
-  "SmsMessage": "similique",
-  "Description": "Progressive local structure",
-  "Subject": "et",
-  "FolderId": 257,
-  "HeaderField": "eos",
-  "Design": "maxime",
+  "ShipmentMessageId": 692,
+  "PlainMessage": "pariatur",
+  "HtmlMessage": "qui",
+  "SmsMessage": "ab",
+  "Description": "Triple-buffered multi-state challenge",
+  "Subject": "qui",
+  "FolderId": 930,
+  "HeaderField": "qui",
+  "Design": "possimus",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Inverse bottom-line pricing structure",
-  "AccessKey": "accusamus",
-  "DocumentMessage": 736,
-  "Registered": "2009-08-01T03:24:47.9238778+02:00",
-  "RegisteredAssociateId": 300,
-  "Updated": "2014-05-09T03:24:47.9238778+02:00",
-  "UpdatedAssociateId": 490,
-  "UpdatedCount": 1001,
+  "LongDescription": "Operative coherent solution",
+  "AccessKey": "culpa",
+  "DocumentMessage": 609,
+  "Registered": "2010-10-11T13:38:13.7333439+02:00",
+  "RegisteredAssociateId": 427,
+  "Updated": "2003-09-19T13:38:13.7333439+02:00",
+  "UpdatedAssociateId": 214,
+  "UpdatedCount": 792,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 797
     }
   }
 }

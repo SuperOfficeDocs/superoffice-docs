@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=sunt
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=molestias
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Kuphal-Waelchi",
-    "ToolTip": "Molestiae voluptatibus.",
-    "Deleted": false,
-    "Rank": 723,
-    "Type": "adipisci",
+    "Id": 554,
+    "Name": "Runte-Thompson",
+    "ToolTip": "Sequi dolores.",
+    "Deleted": true,
+    "Rank": 253,
+    "Type": "ab",
     "ChildItems": [
       {
-        "Id": 680,
-        "Name": "Balistreri LLC",
-        "ToolTip": "Vel sit rem impedit omnis eligendi.",
+        "Id": 272,
+        "Name": "Fadel LLC",
+        "ToolTip": "Distinctio veniam quod voluptate deleniti cum ullam.",
         "Deleted": false,
-        "Rank": 644,
-        "Type": "excepturi",
+        "Rank": 528,
+        "Type": "quas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 920,
-        "ExtraInfo": "modi",
-        "StyleHint": "velit",
-        "FullName": "Demetris Champlin",
+        "IconHint": "aut",
+        "ColorBlock": 136,
+        "ExtraInfo": "enim",
+        "StyleHint": "deserunt",
+        "FullName": "Roman Pacocha DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 228
+            "FieldType": "System.String",
+            "FieldLength": 240
           }
         }
       }
     ],
-    "IconHint": "provident",
-    "ColorBlock": 288,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "dolore",
-    "FullName": "Wilhelm Frami",
+    "IconHint": "iste",
+    "ColorBlock": 532,
+    "ExtraInfo": "aut",
+    "StyleHint": "qui",
+    "FullName": "Genesis Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldLength": 720
       }
     }
   }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,78 +92,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 663,
+  "EjMessageId": 813,
   "Ticket": null,
-  "CreatedAt": "2006-02-06T03:24:48.4092931+01:00",
+  "CreatedAt": "2019-09-04T13:38:14.2178238+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "aliquam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "facere",
-  "TimeSpent": 529,
-  "Body": "repudiandae",
-  "HtmlBody": "perferendis",
-  "EmailHeader": "elyssa@kilbackhammes.biz",
-  "DebugInfo": "sint",
-  "MailSorter": "quis",
+  "MessageId": "hic",
+  "TimeSpent": 811,
+  "Body": "non",
+  "HtmlBody": "eaque",
+  "EmailHeader": "lexie.herman@stromanpfannerstill.uk",
+  "DebugInfo": "eius",
+  "MailSorter": "ex",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "facere",
+  "SearchTitle": "reiciendis",
   "MessageHeaders": [
     {
-      "Id": 770,
-      "Name": "Hilpert LLC",
-      "Value": "sequi",
+      "Id": 42,
+      "Name": "Pouros LLC",
+      "Value": "rerum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 910
+          "FieldType": "System.Int32",
+          "FieldLength": 127
         }
       }
     }
   ],
   "Important": false,
-  "Language": "repellat",
-  "Sentiment": 98,
-  "SentimentConfidence": 67,
+  "Language": "quia",
+  "Sentiment": 725,
+  "SentimentConfidence": 40,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 209,
-      "Name": "Brakus Inc and Sons",
-      "ContentType": "sit",
-      "AttSize": 170,
+      "AttachmentId": 478,
+      "Name": "Hegmann LLC",
+      "ContentType": "recusandae",
+      "AttSize": 548,
       "InlineImage": false,
-      "ContentId": "atque",
-      "AuthKey": "vero",
+      "ContentId": "eos",
+      "AuthKey": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 727
+          "FieldLength": 694
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "error"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "mollitia"
+    "CustomFields1": "qui",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 765
+      "FieldType": "System.String",
+      "FieldLength": 241
     }
   }
 }

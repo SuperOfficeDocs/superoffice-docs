@@ -73,6 +73,8 @@ OK
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
 | ParserValues | object | Parser values sent to the event handler |
+| CgiVariables | object | Cgi variables sent by some events |
+| CgiContent | string | The Cgi content/body, sent by some events |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -82,7 +84,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,32 +101,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "rem",
-    "InputValues2": "officia"
+    "InputValues1": "voluptas",
+    "InputValues2": "aliquam"
   },
   "BlockExecution": true,
-  "NavigateTo": "ut",
-  "Message": "a",
-  "ShowDialog": "quam",
+  "NavigateTo": "eos",
+  "Message": "rerum",
+  "ShowDialog": "corrupti",
   "OutputValues": {
-    "OutputValues1": "quidem",
-    "OutputValues2": "error"
+    "OutputValues1": "non",
+    "OutputValues2": "dolores"
   },
   "StateValues": {
-    "StateValues1": "delectus",
-    "StateValues2": "officia"
+    "StateValues1": "ut",
+    "StateValues2": "quaerat"
   },
-  "Exception": "necessitatibus",
+  "Exception": "doloribus",
   "ParserValues": {
-    "ParserValues1": "odio",
-    "ParserValues2": "quos"
+    "ParserValues1": "omnis",
+    "ParserValues2": "magnam"
   },
+  "CgiVariables": {
+    "CgiVariables1": "veniam",
+    "CgiVariables2": "laborum"
+  },
+  "CgiContent": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

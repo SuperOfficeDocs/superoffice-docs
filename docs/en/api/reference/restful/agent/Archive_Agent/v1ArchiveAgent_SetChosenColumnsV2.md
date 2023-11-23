@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Goodwin, Towne and Wolff",
-  "ProviderName": "Buckridge Group",
-  "Context": "illum",
-  "OwnerKeys": "voluptatibus",
+  "GuiName": "Wisozk Inc and Sons",
+  "ProviderName": "Quigley-Murphy",
+  "Context": "rerum",
+  "OwnerKeys": "sed",
   "ChosenColumns": [
-    "delectus",
-    "a"
+    "eum",
+    "nemo"
   ]
 }
 ```

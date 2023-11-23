@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 573,
-  "Name": "Feest Group",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 746,
-  "Filename": "explicabo",
-  "Parameters": "voluptas",
-  "Workdir": "assumenda",
+  "ExtAppId": 918,
+  "Name": "Runolfsdottir Group",
+  "Tooltip": "aliquid",
+  "Deleted": false,
+  "Rank": 816,
+  "Filename": "reprehenderit",
+  "Parameters": "id",
+  "Workdir": "amet",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 953,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 218,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "unde",
+  "Path": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 167
     }
   }
 }

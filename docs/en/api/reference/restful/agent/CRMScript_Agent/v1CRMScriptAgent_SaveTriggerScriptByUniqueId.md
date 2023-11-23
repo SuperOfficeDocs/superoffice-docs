@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "impedit",
+  "TriggerScriptUniqueId": "maiores",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 88,
-  "Name": "Cassin Inc and Sons",
+  "ScreenChooserId": 748,
+  "Name": "Ankunding, Koss and Kutch",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "autem",
-  "Source": "voluptas",
-  "Registered": "2012-05-07T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 568,
-  "Updated": "2004-02-13T03:24:47.4708008+01:00",
-  "UpdatedAssociateId": 225,
+  "UniqueIdentifier": "ea",
+  "Source": "aspernatur",
+  "Registered": "2012-06-17T13:38:13.3896326+02:00",
+  "RegisteredAssociateId": 137,
+  "Updated": "2022-07-19T13:38:13.3896326+02:00",
+  "UpdatedAssociateId": 356,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 741
     }
   }
 }

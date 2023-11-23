@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=sunt
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=expedita
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 748,
-    "Name": "Bernhard, Koepp and Stiedemann",
-    "ToolTip": "Exercitationem blanditiis voluptas repudiandae similique.",
-    "Deleted": false,
-    "Rank": 914,
-    "Type": "aliquid",
+    "Id": 478,
+    "Name": "Pacocha Inc and Sons",
+    "ToolTip": "Illo molestiae quia ut rem placeat pariatur.",
+    "Deleted": true,
+    "Rank": 326,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 814,
-        "Name": "Gislason LLC",
-        "ToolTip": "Animi aut et assumenda occaecati ad tenetur laboriosam.",
-        "Deleted": false,
-        "Rank": 679,
-        "Type": "temporibus",
+        "Id": 283,
+        "Name": "Rosenbaum-Kihn",
+        "ToolTip": "Praesentium non velit occaecati voluptas dicta harum.",
+        "Deleted": true,
+        "Rank": 668,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 956,
-        "ExtraInfo": "consectetur",
-        "StyleHint": "ipsum",
-        "FullName": "Katelynn Adams",
+        "IconHint": "facere",
+        "ColorBlock": 857,
+        "ExtraInfo": "accusamus",
+        "StyleHint": "quidem",
+        "FullName": "Mia Hudson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 220
+            "FieldLength": 19
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 372,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "facere",
-    "FullName": "Vicente Skiles",
+    "IconHint": "molestiae",
+    "ColorBlock": 797,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "sed",
+    "FullName": "Ms. Filiberto Nico Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 343
+        "FieldType": "System.Int32",
+        "FieldLength": 676
       }
     }
   }

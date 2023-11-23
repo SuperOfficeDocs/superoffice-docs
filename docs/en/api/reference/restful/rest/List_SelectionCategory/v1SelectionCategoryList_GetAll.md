@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Marquardt-Denesik",
-    "Tooltip": "vero",
-    "Deleted": false,
-    "UdListDefinitionId": 595,
-    "Rank": 414,
+    "Id": 519,
+    "Name": "Walsh-Reynolds",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "UdListDefinitionId": 637,
+    "Rank": 65,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldType": "System.Int32",
+        "FieldLength": 831
       }
     }
   }

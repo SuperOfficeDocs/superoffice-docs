@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 15,
-  "Name": "Langosh-Johnston",
+  "ScreenChooserId": 69,
+  "Name": "Hills-McLaughlin",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "at",
-  "Source": "eum",
-  "Registered": "2019-09-08T03:24:52.0213616+02:00",
-  "RegisteredAssociateId": 164,
-  "Updated": "2001-12-08T03:24:52.0213616+01:00",
-  "UpdatedAssociateId": 352
+  "UniqueIdentifier": "quis",
+  "Source": "debitis",
+  "Registered": "1999-08-14T13:38:17.7650302+02:00",
+  "RegisteredAssociateId": 769,
+  "Updated": "1999-06-26T13:38:17.7650302+02:00",
+  "UpdatedAssociateId": 761
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 655,
-  "Name": "Hudson-Kirlin",
+  "ScreenChooserId": 844,
+  "Name": "Nitzsche-Wehner",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "atque",
-  "Source": "quia",
-  "Registered": "2002-09-03T03:24:52.0213616+02:00",
-  "RegisteredAssociateId": 349,
-  "Updated": "2017-03-15T03:24:52.0213616+01:00",
-  "UpdatedAssociateId": 295,
+  "UniqueIdentifier": "ad",
+  "Source": "voluptatum",
+  "Registered": "2013-11-03T13:38:17.7650302+01:00",
+  "RegisteredAssociateId": 991,
+  "Updated": "1997-11-07T13:38:17.7650302+01:00",
+  "UpdatedAssociateId": 271,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldType": "System.String",
+      "FieldLength": 868
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

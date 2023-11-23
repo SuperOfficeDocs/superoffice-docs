@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "corporis"
+  "MimeMessage": "id"
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 642,
-      "ContactName": "Kuhic-Willms",
-      "PersonId": 101,
-      "PersonName": "Dickens, Frami and Marks",
-      "AssociateId": 159,
-      "Address": "facere",
-      "EmailId": 382,
+      "ContactId": 963,
+      "ContactName": "Shanahan Inc and Sons",
+      "PersonId": 938,
+      "PersonName": "Dicki Group",
+      "AssociateId": 536,
+      "Address": "eius",
+      "EmailId": 300,
       "DuplicatePersonIds": [
-        820,
-        550
+        550,
+        142
       ],
-      "Name": "Cruickshank, Murray and Sanford",
+      "Name": "Barrows, Christiansen and Torphy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 920
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 322,
-      "ContactName": "Gottlieb-Mueller",
-      "PersonId": 684,
-      "PersonName": "Hermiston LLC",
-      "AssociateId": 73,
-      "Address": "vel",
-      "EmailId": 280,
+      "ContactId": 211,
+      "ContactName": "Gerhold, Dicki and Swift",
+      "PersonId": 245,
+      "PersonName": "Beahan, Bailey and Shanahan",
+      "AssociateId": 456,
+      "Address": "omnis",
+      "EmailId": 770,
       "DuplicatePersonIds": [
-        827,
-        804
+        362,
+        672
       ],
-      "Name": "Denesik-Brakus",
+      "Name": "Kertzmann LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 763
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 458,
-      "ContactName": "Eichmann-Labadie",
-      "PersonId": 527,
-      "PersonName": "Bartoletti-Beatty",
-      "AssociateId": 177,
-      "Address": "earum",
-      "EmailId": 925,
+      "ContactId": 927,
+      "ContactName": "Heller Inc and Sons",
+      "PersonId": 305,
+      "PersonName": "Mohr, Brown and Jacobs",
+      "AssociateId": 569,
+      "Address": "sed",
+      "EmailId": 75,
       "DuplicatePersonIds": [
-        897,
-        716
+        400,
+        949
       ],
-      "Name": "Haley-Jenkins",
+      "Name": "Johnson LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 371
+          "FieldLength": 943
         }
       }
     }
   ],
-  "Subject": "amet",
-  "HTMLBody": "quia",
+  "Subject": "facere",
+  "HTMLBody": "accusamus",
   "From": null,
-  "Sent": "2002-11-07T03:24:47.7676476+01:00",
-  "Size": 116,
+  "Sent": "2013-03-22T13:38:13.5771153+01:00",
+  "Size": 327,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "officiis",
-  "IsSent": false,
+  "MessageID": "magni",
+  "PlainBody": "tempore",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 705,
+  "ServerId": 910,
   "Attachments": [
     {
-      "Description": "Reactive fault-tolerant local area network",
-      "Filename": "maiores",
-      "Size": 847,
-      "Type": "voluptas",
-      "Encoding": "quia",
-      "Id": "eveniet",
-      "Disposition": "non",
+      "Description": "Total fault-tolerant database",
+      "Filename": "dolor",
+      "Size": 726,
+      "Type": "nisi",
+      "Encoding": "minus",
+      "Id": "vel",
+      "Disposition": "cumque",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,50 +215,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldLength": 81
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Daniel, Haag and Barton",
+      "Name": "Senger Group",
       "Values": [
-        "aut",
-        "ut"
+        "architecto",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 136
         }
       }
     },
     {
-      "Name": "Daniel, Haag and Barton",
+      "Name": "Senger Group",
       "Values": [
-        "aut",
-        "ut"
+        "architecto",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 136
         }
       }
     }
   ],
-  "FolderName": "Hamill, Mosciski and Parisian",
-  "EmailItemId": 777,
-  "AccountId": 809,
-  "ReceivedAt": "2006-11-28T03:24:47.7676476+01:00",
+  "FolderName": "Mraz Group",
+  "EmailItemId": 459,
+  "AccountId": 19,
+  "ReceivedAt": "2015-06-28T13:38:13.5771153+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-09-23T03:24:47.7676476+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "1999-02-03T13:38:13.5771153+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 62
     }
   }
 }

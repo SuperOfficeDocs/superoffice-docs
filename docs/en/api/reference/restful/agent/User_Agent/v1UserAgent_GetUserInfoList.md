@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 881,
-    "UserName": "Little LLC",
-    "PersonId": 727,
-    "Rank": 577,
-    "Tooltip": "et",
-    "UserGroupId": 459,
-    "EjUserId": 718,
+    "UserInfoId": 356,
+    "UserName": "Stokes Group",
+    "PersonId": 255,
+    "Rank": 253,
+    "Tooltip": "sit",
+    "UserGroupId": 62,
+    "EjUserId": 31,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "debitis",
-      "necessitatibus"
+      "placeat",
+      "excepturi"
     ],
     "CanLogon": true,
-    "RoleName": "Hills Inc and Sons",
-    "RoleTooltip": "maxime",
-    "UserGroupName": "Dooley, Herzog and Blanda",
-    "UserGroupTooltip": "quas",
+    "RoleName": "Erdman-Zboncak",
+    "RoleTooltip": "ullam",
+    "UserGroupName": "Watsica, Rice and McClure",
+    "UserGroupTooltip": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 932
+        "FieldType": "System.Int32",
+        "FieldLength": 437
       }
     }
   }

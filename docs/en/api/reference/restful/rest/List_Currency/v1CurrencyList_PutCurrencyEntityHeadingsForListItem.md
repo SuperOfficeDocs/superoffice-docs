@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Kovacek, Lesch and Conroy",
-    "ToolTip": "Aperiam facere dolorum.",
+    "Id": 435,
+    "Name": "Bailey, Wilderman and Olson",
+    "ToolTip": "Aut dolorem.",
     "Deleted": false,
-    "Rank": 246,
-    "Type": "fugit",
-    "ColorBlock": 995,
-    "IconHint": "ut",
+    "Rank": 270,
+    "Type": "eveniet",
+    "ColorBlock": 13,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2022-06-16T03:24:52.2244666+02:00",
+    "LastChanged": "2016-12-14T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 457,
-        "Name": "Feeney-Robel",
-        "ToolTip": "Eveniet distinctio maxime facere aperiam nihil est minima.",
+        "Id": 329,
+        "Name": "Raynor-Deckow",
+        "ToolTip": "Mollitia quae.",
         "Deleted": false,
-        "Rank": 158,
-        "Type": "quae",
-        "ColorBlock": 964,
-        "IconHint": "odit",
+        "Rank": 182,
+        "Type": "nostrum",
+        "ColorBlock": 496,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2023-02-21T03:24:52.2244666+01:00",
+        "LastChanged": "2006-04-15T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "ut",
+        "ExtraInfo": "et",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Gillian Koss"
+        "FullName": "Tate Gusikowski"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "facere",
-    "Hidden": false,
-    "FullName": "Agustina Turcotte Sr."
+    "ExtraInfo": "dolores",
+    "StyleHint": "architecto",
+    "Hidden": true,
+    "FullName": "Michele Sipes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Bruen, Stracke and Rosenbaum",
-    "ToolTip": "Voluptates nobis consectetur quaerat occaecati commodi officiis.",
+    "Id": 590,
+    "Name": "Weimann, Nader and Simonis",
+    "ToolTip": "Recusandae animi.",
     "Deleted": false,
-    "Rank": 400,
-    "Type": "voluptates",
-    "ColorBlock": 375,
-    "IconHint": "esse",
+    "Rank": 492,
+    "Type": "voluptas",
+    "ColorBlock": 373,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2004-02-27T03:24:52.2244666+01:00",
+    "LastChanged": "2001-03-11T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Bartell, Russel and Gutkowski",
-        "ToolTip": "Ullam corrupti dolores qui ut aut odio.",
-        "Deleted": false,
-        "Rank": 957,
-        "Type": "molestias",
-        "ColorBlock": 602,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2017-04-20T03:24:52.2244666+02:00",
+        "Id": 223,
+        "Name": "Willms, Bergstrom and Kozey",
+        "ToolTip": "Voluptas nihil expedita.",
+        "Deleted": true,
+        "Rank": 272,
+        "Type": "praesentium",
+        "ColorBlock": 520,
+        "IconHint": "soluta",
+        "Selected": true,
+        "LastChanged": "2014-11-15T13:38:18.0462875+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Kathlyn Donnelly",
+        "ExtraInfo": "quo",
+        "StyleHint": "pariatur",
+        "Hidden": false,
+        "FullName": "Ignacio Tremblay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 280
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Mr. Shanel Celia Heaney MD",
+    "ExtraInfo": "hic",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Miss Elza Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 760
+        "FieldType": "System.Int32",
+        "FieldLength": 199
       }
     }
   }

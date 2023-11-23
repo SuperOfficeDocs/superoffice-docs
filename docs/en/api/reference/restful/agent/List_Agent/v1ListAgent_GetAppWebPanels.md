@@ -96,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 187,
-    "Name": "Marquardt LLC",
-    "Tooltip": "tempore",
+    "WebPanelId": 268,
+    "Name": "Moore Group",
+    "Tooltip": "adipisci",
     "Deleted": false,
-    "Rank": 993,
+    "Rank": 904,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": true,
     "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": false,
     "ShowInToolBar": true,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Pagac, Kutch and Lynch",
+    "WindowName": "Waters, Schmidt and Bayer",
     "Url": "http://www.example.com/",
-    "ProgId": "quasi",
-    "Icon": 361,
+    "ProgId": "et",
+    "Icon": 676,
     "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldType": "System.String",
+        "FieldLength": 845
       }
     }
   }

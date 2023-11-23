@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 971,
-  "SelectionId": 465,
+  "DocumentPluginId": 873,
+  "SelectionId": 145,
   "IncludeEmails": true
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 434,
-  "NumDocumentsAlreadyMigrated": 65,
+  "NumDocumentsOmitted": 27,
+  "NumDocumentsAlreadyMigrated": 397,
   "Documents": [
     {
-      "DocumentId": 536,
-      "ContactId": 594,
-      "PersonId": 329,
-      "SaleId": 613,
-      "ProjectId": 116,
-      "DocTmplId": 159,
-      "AssociateId": 151,
-      "UserGroupId": 589,
-      "VisibleForId": 247
+      "DocumentId": 717,
+      "ContactId": 765,
+      "PersonId": 605,
+      "SaleId": 20,
+      "ProjectId": 638,
+      "DocTmplId": 236,
+      "AssociateId": 643,
+      "UserGroupId": 158,
+      "VisibleForId": 7
     }
   ],
   "Associates": [
     {
-      "AssociateId": 803,
-      "EmailAddress": "vallie@littel.ca"
+      "AssociateId": 621,
+      "EmailAddress": "gavin_auer@krajcik.us"
     },
     {
-      "AssociateId": 803,
-      "EmailAddress": "vallie@littel.ca"
+      "AssociateId": 621,
+      "EmailAddress": "gavin_auer@krajcik.us"
     }
   ]
 }

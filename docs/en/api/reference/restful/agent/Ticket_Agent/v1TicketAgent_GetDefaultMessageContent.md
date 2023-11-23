@@ -10,7 +10,7 @@ generated: true
 POST /api/v1/Agents/Ticket/GetDefaultMessageContent
 ```
 
-Generate a default message body (possibly including user signature, quoted message content) as sanitized HTML
+Obsolete, use GetDefaultMessageContentFull instead
 
 
 
@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 260,
+  "TicketId": 499,
   "MessageActionType": "Forward",
-  "TicketMessageId": 986
+  "TicketMessageId": 594
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quibusdam"
+"facilis"
 ```

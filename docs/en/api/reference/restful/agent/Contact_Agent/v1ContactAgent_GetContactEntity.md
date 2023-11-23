@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=501
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=311
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 365,
-  "Name": "Durgan, Turcotte and Cruickshank",
+  "ContactId": 946,
+  "Name": "Swift Inc and Sons",
   "Department": "",
-  "OrgNr": "1009980",
-  "Number1": "1171868",
-  "Number2": "1516604",
-  "UpdatedDate": "1996-08-31T03:24:47.4083086+02:00",
-  "CreatedDate": "2006-09-03T03:24:47.4083086+02:00",
+  "OrgNr": "671871",
+  "Number1": "869050",
+  "Number2": "1120620",
+  "UpdatedDate": "2021-10-07T13:38:13.3115228+02:00",
+  "CreatedDate": "2021-04-20T13:38:13.3115228+02:00",
   "Emails": [
     {
-      "Value": "hic",
-      "StrippedValue": "libero",
-      "Description": "Progressive demand-driven matrices",
+      "Value": "aliquam",
+      "StrippedValue": "in",
+      "Description": "User-friendly multimedia projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 498
+          "FieldType": "System.Int32",
+          "FieldLength": 406
         }
       }
     },
     {
-      "Value": "hic",
-      "StrippedValue": "libero",
-      "Description": "Progressive demand-driven matrices",
+      "Value": "aliquam",
+      "StrippedValue": "in",
+      "Description": "User-friendly multimedia projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 498
+          "FieldType": "System.Int32",
+          "FieldLength": 406
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 429,
-      "Name": "Kovacek, Heidenreich and Abbott",
-      "ToolTip": "Saepe dolore consequatur illum rerum est hic.",
-      "Deleted": true,
-      "Rank": 254,
-      "Type": "provident",
-      "ColorBlock": 624,
-      "IconHint": "sequi",
-      "Selected": false,
-      "LastChanged": "2022-03-10T03:24:47.4083086+01:00",
+      "Id": 561,
+      "Name": "Reichert, Eichmann and Bartoletti",
+      "ToolTip": "Molestias odit voluptas sed quibusdam similique sunt.",
+      "Deleted": false,
+      "Rank": 479,
+      "Type": "sed",
+      "ColorBlock": 430,
+      "IconHint": "est",
+      "Selected": true,
+      "LastChanged": "2021-11-12T13:38:13.3115228+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "fuga",
-      "StyleHint": "voluptate",
-      "Hidden": true,
-      "FullName": "Wilburn Nader",
+      "ExtraInfo": "dolor",
+      "StyleHint": "voluptas",
+      "Hidden": false,
+      "FullName": "Amiya Boyer III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 395
+          "FieldLength": 879
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "et",
-      "StrippedValue": "quaerat",
-      "Description": "Synergized disintermediate service-desk",
+      "Value": "rem",
+      "StrippedValue": "similique",
+      "Description": "Synergistic intangible artificial intelligence",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldLength": 983
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "quaerat",
-      "Description": "Synergized disintermediate service-desk",
+      "Value": "rem",
+      "StrippedValue": "similique",
+      "Description": "Synergistic intangible artificial intelligence",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldLength": 983
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "est",
-      "StrippedValue": "et",
-      "Description": "Pre-emptive eco-centric capacity",
+      "Value": "nesciunt",
+      "StrippedValue": "quisquam",
+      "Description": "Cross-platform exuding matrices",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldType": "System.String",
+          "FieldLength": 60
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "et",
-      "Description": "Pre-emptive eco-centric capacity",
+      "Value": "nesciunt",
+      "StrippedValue": "quisquam",
+      "Description": "Cross-platform exuding matrices",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldType": "System.String",
+          "FieldLength": 60
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "veniam",
-      "StrippedValue": "esse",
-      "Description": "Optimized human-resource knowledge user",
+      "Value": "recusandae",
+      "StrippedValue": "ullam",
+      "Description": "Mandatory contextually-based encryption",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 207
+          "FieldType": "System.Int32",
+          "FieldLength": 273
         }
       }
     },
     {
-      "Value": "veniam",
-      "StrippedValue": "esse",
-      "Description": "Optimized human-resource knowledge user",
+      "Value": "recusandae",
+      "StrippedValue": "ullam",
+      "Description": "Mandatory contextually-based encryption",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 207
+          "FieldType": "System.Int32",
+          "FieldLength": 273
         }
       }
     }
   ],
-  "Description": "Universal bifurcated solution",
+  "Description": "Inverse systematic complexity",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "voluptatem",
-      "PersonId": 938,
-      "Mrmrs": "hic",
-      "Firstname": "Eugenia",
-      "Lastname": "Deckow",
-      "MiddleName": "Upton-Halvorson",
-      "Title": "dolor",
-      "Description": "Fundamental cohesive structure",
-      "Email": "joanne@nitzsche.ca",
-      "FullName": "Joana Kuhic",
-      "DirectPhone": "(975)187-5949",
-      "FormalName": "Langworth, Wehner and Bayer",
-      "CountryId": 987,
-      "ContactId": 286,
-      "ContactName": "Herzog-Pfeffer",
-      "Retired": 970,
-      "Rank": 377,
-      "ActiveInterests": 660,
+      "Position": "officia",
+      "PersonId": 631,
+      "Mrmrs": "commodi",
+      "Firstname": "Cody",
+      "Lastname": "Walter",
+      "MiddleName": "Macejkovic-Conroy",
+      "Title": "aut",
+      "Description": "Horizontal scalable framework",
+      "Email": "karlie_cole@raynorkris.co.uk",
+      "FullName": "Aubree Schmitt",
+      "DirectPhone": "886.603.7751 x6896",
+      "FormalName": "Kunze Inc and Sons",
+      "CountryId": 423,
+      "ContactId": 158,
+      "ContactName": "Stamm-Yost",
+      "Retired": 955,
+      "Rank": 85,
+      "ActiveInterests": 79,
       "ContactDepartment": "",
-      "ContactCountryId": 709,
-      "ContactOrgNr": "939162",
-      "FaxPhone": "426-233-9218 x1497",
-      "MobilePhone": "(945)050-5065 x9013",
-      "ContactPhone": "1-632-014-2967 x48765",
-      "AssociateName": "Smitham Inc and Sons",
-      "AssociateId": 629,
+      "ContactCountryId": 638,
+      "ContactOrgNr": "1163080",
+      "FaxPhone": "(143)031-2497 x32299",
+      "MobilePhone": "416-239-3567 x245",
+      "ContactPhone": "586.759.1039 x712",
+      "AssociateName": "Lowe-Murphy",
+      "AssociateId": 640,
       "UsePersonAddress": false,
-      "ContactFax": "neque",
-      "Kanafname": "qui",
-      "Kanalname": "in",
-      "Post1": "mollitia",
-      "Post2": "hic",
-      "Post3": "deserunt",
-      "EmailName": "lysanne.kreiger@dickinsonmclaughlin.info",
-      "ContactFullName": "Brandyn Thiel",
-      "ActiveErpLinks": 906,
-      "TicketPriorityId": 698,
-      "SupportLanguageId": 215,
-      "SupportAssociateId": 789,
+      "ContactFax": "laborum",
+      "Kanafname": "vel",
+      "Kanalname": "quia",
+      "Post1": "facilis",
+      "Post2": "explicabo",
+      "Post3": "consequatur",
+      "EmailName": "brock_gerlach@rath.co.uk",
+      "ContactFullName": "Baron Volkman",
+      "ActiveErpLinks": 563,
+      "TicketPriorityId": 536,
+      "SupportLanguageId": 71,
+      "SupportAssociateId": 923,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 852
+          "FieldLength": 764
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "aspernatur",
-  "Xstop": true,
-  "ActiveInterests": 779,
-  "GroupId": 327,
-  "ActiveStatusMonitorId": 502,
+  "Kananame": "non",
+  "Xstop": false,
+  "ActiveInterests": 745,
+  "GroupId": 829,
+  "ActiveStatusMonitorId": 874,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 631,
-  "DbiAgentId": 395,
-  "DbiLastSyncronized": "2013-08-15T03:24:47.4083086+02:00",
-  "DbiKey": "perspiciatis",
-  "DbiLastModified": "2017-07-11T03:24:47.4083086+02:00",
+  "Deleted": 414,
+  "DbiAgentId": 684,
+  "DbiLastSyncronized": "2017-07-09T13:38:13.3115228+02:00",
+  "DbiKey": "recusandae",
+  "DbiLastModified": "2007-01-08T13:38:13.3115228+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 366,
-  "ActiveErpLinks": 619,
+  "Source": 481,
+  "ActiveErpLinks": 611,
   "BounceEmails": [
-    "fermin.koss@veum.ca",
-    "paul@bergstrom.biz"
+    "fabiola@gleichner.us",
+    "myron_dietrich@pagacyost.biz"
   ],
   "Domains": [
-    "ut",
-    "a"
+    "voluptatem",
+    "qui"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "874382065"
+    "SuperOffice:1": "Laron Casper",
+    "SuperOffice:2": "Monroe Bechtelar DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "non",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 859
     }
   }
 }

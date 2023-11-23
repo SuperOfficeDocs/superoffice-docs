@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "est",
-  "ProviderName": "DuBuque LLC",
-  "StorageKey": "in",
+  "StorageType": "molestiae",
+  "ProviderName": "Berge Group",
+  "StorageKey": "ut",
   "Restrictions": [
     {
-      "Name": "D'Amore, Kuvalis and Heidenreich",
-      "Operator": "quia",
+      "Name": "Kreiger Inc and Sons",
+      "Operator": "velit",
       "Values": [
-        "nemo",
-        "nemo"
+        "quas",
+        "doloremque"
       ],
       "DisplayValues": [
-        "nam",
-        "et"
+        "porro",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 712,
+      "InterParenthesis": 548,
       "InterOperator": "And",
-      "UniqueHash": 543
+      "UniqueHash": 43
     }
   ]
 }

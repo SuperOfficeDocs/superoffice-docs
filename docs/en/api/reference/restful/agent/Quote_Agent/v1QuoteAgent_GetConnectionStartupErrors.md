@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "IsOk": false,
-    "UserExplanation": "quibusdam",
-    "TechExplanation": "deserunt",
-    "ErrorCode": "ea",
+    "UserExplanation": "blanditiis",
+    "TechExplanation": "possimus",
+    "ErrorCode": "quod",
     "Changes": null,
     "Status": "Error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldType": "System.Int32",
+        "FieldLength": 428
       }
     }
   }

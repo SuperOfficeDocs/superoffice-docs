@@ -25,7 +25,7 @@ Deletes the TaskMenu
 | TaskMenuId | int32 | **Required** The id of the TaskMenu to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteTaskMenu?TaskMenuId=945
+POST /api/v1/Agents/List/DeleteTaskMenu?TaskMenuId=120
 ```
 
 

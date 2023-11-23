@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 70,
-  "SaleId": 583,
-  "QuoteConnectionId": 889,
+  "QuoteId": 801,
+  "SaleId": 571,
+  "QuoteConnectionId": 626,
   "ERPQuoteKey": "eos",
-  "ERPOrderKey": "aut",
-  "ActiveQuoteVersionId": 792,
-  "AcceptedQuoteAlternativeId": 576,
-  "UseValuesFromQuote": 609,
-  "DocumentId": 836,
-  "PoNumber": "1143412",
-  "OrderComment": "totam",
-  "PreferredEmailCulture": "kaya.rutherford@treutelwunsch.com",
+  "ERPOrderKey": "quos",
+  "ActiveQuoteVersionId": 768,
+  "AcceptedQuoteAlternativeId": 402,
+  "UseValuesFromQuote": 617,
+  "DocumentId": 773,
+  "PoNumber": "1766731",
+  "OrderComment": "sed",
+  "PreferredEmailCulture": "alice@barrows.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 848,
-      "ERPQuoteVersionKey": "illum",
-      "QuoteId": 892,
-      "Description": "Up-sized attitude-oriented standardization",
-      "Number": "263566",
+      "QuoteVersionId": 389,
+      "ERPQuoteVersionKey": "sint",
+      "QuoteId": 855,
+      "Description": "Seamless high-level circuit",
+      "Number": "1123280",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 993,
-      "SentDate": "2009-10-03T03:24:48.1426062+02:00",
-      "FollowupId": 85,
-      "ExpirationDate": "2013-01-09T03:24:48.1426062+01:00",
-      "DeliveryCountryId": 680,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 366,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "ad",
-      "ERPPaymentTypeKey": "sed",
-      "ERPDeliveryTermsKey": "aut",
-      "ERPDeliveryTypeKey": "eligendi",
-      "Rank": 421,
-      "ApprovedBy": 730,
-      "ApprovedText": "sequi",
-      "ApprovedRegisteredBy": 562,
-      "ApprovedRegisteredDate": "2007-10-09T03:24:48.1426062+02:00",
-      "ExtraField1": "corporis",
-      "ExtraField2": "debitis",
-      "ExtraField3": "et",
-      "ExtraField4": "cum",
-      "ExtraField5": "dolores",
-      "LastRecalculated": "2005-09-04T03:24:48.1426062+02:00",
-      "Updated": "2014-03-21T03:24:48.1426062+01:00",
-      "UpdatedAssociateId": 936,
-      "Registered": "2004-08-20T03:24:48.1426062+02:00",
-      "RegisteredAssociateId": 15,
-      "RequestAssociateId": 641,
-      "RequestComment": "eveniet",
+      "LikelyQuoteAlternativeId": 889,
+      "SentDate": "1998-11-12T13:38:14.0303322+01:00",
+      "FollowupId": 329,
+      "ExpirationDate": "2012-07-09T13:38:14.0303322+02:00",
+      "DeliveryCountryId": 218,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 583,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "omnis",
+      "ERPPaymentTypeKey": "corporis",
+      "ERPDeliveryTermsKey": "sit",
+      "ERPDeliveryTypeKey": "ut",
+      "Rank": 1000,
+      "ApprovedBy": 939,
+      "ApprovedText": "in",
+      "ApprovedRegisteredBy": 62,
+      "ApprovedRegisteredDate": "2017-08-22T13:38:14.0303322+02:00",
+      "ExtraField1": "sunt",
+      "ExtraField2": "perferendis",
+      "ExtraField3": "aut",
+      "ExtraField4": "nemo",
+      "ExtraField5": "ut",
+      "LastRecalculated": "2009-04-01T13:38:14.0303322+02:00",
+      "Updated": "1997-06-04T13:38:14.0303322+02:00",
+      "UpdatedAssociateId": 105,
+      "Registered": "1997-01-21T13:38:14.0303322+01:00",
+      "RegisteredAssociateId": 623,
+      "RequestAssociateId": 131,
+      "RequestComment": "et",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 808
+          "FieldType": "System.Int32",
+          "FieldLength": 958
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 692
     }
   }
 }

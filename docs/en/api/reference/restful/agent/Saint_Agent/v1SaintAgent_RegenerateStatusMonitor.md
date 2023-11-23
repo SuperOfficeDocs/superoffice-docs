@@ -68,7 +68,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StatusMonitorId": 758
+  "StatusMonitorId": 104
 }
 ```
 

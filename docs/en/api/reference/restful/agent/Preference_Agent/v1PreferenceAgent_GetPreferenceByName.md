@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "quia",
-  "PrefKey": "quaerat",
+  "PrefSection": "sit",
+  "PrefKey": "delectus",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "tempora",
+  "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "nulla",
-  "DisplayTooltip": "accusamus",
+  "DisplayValue": "et",
+  "DisplayTooltip": "consectetur",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 376,
-  "PrefDescId": 56,
-  "TableName": "Hessel-Kreiger",
-  "UserPreferenceId": 665,
+  "TargetId": 465,
+  "PrefDescId": 859,
+  "TableName": "Koelpin-Jenkins",
+  "UserPreferenceId": 85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 291
+      "FieldType": "System.Int32",
+      "FieldLength": 947
     }
   }
 }

@@ -102,8 +102,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 978,
-  "OnlyOpenSales": false
+  "ContactId": 515,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Feil Group",
-    "SaleDate": "2000-03-02T03:24:48.2207231+01:00",
-    "SaleId": 233,
-    "Probability": 712,
-    "Title": "eum",
-    "Amount": 24880.826,
+    "ContactName": "Kunde LLC",
+    "SaleDate": "2003-03-27T13:38:14.1084486+01:00",
+    "SaleId": 230,
+    "Probability": 939,
+    "Title": "nihil",
+    "Amount": 18058.108,
     "Currency": "numquam",
-    "ProjectName": "Kshlerin, Kuphal and Denesik",
-    "AssociateFullName": "Eriberto Laurine Konopelski DVM",
-    "Description": "De-engineered bottom-line hardware",
+    "ProjectName": "Hermann, McGlynn and Carter",
+    "AssociateFullName": "Landen White PhD",
+    "Description": "Grass-roots dedicated success",
     "Status": "Lost",
-    "WeightedAmount": 24391.922,
-    "ProjectId": 170,
-    "EarningPercent": 18264.952,
-    "Earning": 26203.374,
-    "ContactId": 125,
-    "AssociateId": 599,
-    "PersonId": 276,
-    "SaleTypeId": 768,
-    "SaleTypeName": "McCullough-Fisher",
-    "PersonFullName": "Kennith Nicklaus Mohr PhD",
+    "WeightedAmount": 29509.744,
+    "ProjectId": 648,
+    "EarningPercent": 30826.023999999998,
+    "Earning": 17870.068,
+    "ContactId": 179,
+    "AssociateId": 690,
+    "PersonId": 349,
+    "SaleTypeId": 30,
+    "SaleTypeName": "Schoen Group",
+    "PersonFullName": "Joany Leffler",
     "Completed": "Completed",
-    "ActiveErpLinks": 675,
-    "NextDueDate": "2009-02-08T03:24:48.2207231+01:00",
-    "Number": "947453",
+    "ActiveErpLinks": 349,
+    "NextDueDate": "1999-03-12T13:38:14.1084486+01:00",
+    "Number": "913036",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldLength": 970
       }
     }
   }

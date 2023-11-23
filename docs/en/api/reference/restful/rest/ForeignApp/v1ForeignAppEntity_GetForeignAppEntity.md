@@ -88,32 +88,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 29 May 1996 03:24:51 G5T
+Last-Modified: Sat, 31 Mar 2018 13:38:17 G3T
 
 {
-  "ForeignAppId": 888,
-  "Name": "Cormier-Hickle",
-  "CreatedDate": "2017-08-05T03:24:51.6149823+02:00",
-  "UpdatedDate": "1996-05-29T03:24:51.6149823+02:00",
+  "ForeignAppId": 726,
+  "Name": "Farrell-Kshlerin",
+  "CreatedDate": "1998-12-09T13:38:17.4368262+01:00",
+  "UpdatedDate": "2018-03-31T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 310,
-      "Name": "Boyle-Mann",
-      "CreatedDate": "2011-07-16T03:24:51.6149823+02:00",
-      "UpdatedDate": "2009-03-25T03:24:51.6149823+01:00",
-      "AssociateFullName": "Ellsworth Martin Auer Sr.",
-      "CreatedBy": "et",
-      "UpdatedBy": "numquam",
-      "DeviceIdentifier": "rem",
-      "ForeignAppId": 243,
+      "ForeignDeviceId": 341,
+      "Name": "Kertzmann-O'Conner",
+      "CreatedDate": "1999-07-06T13:38:17.4368262+02:00",
+      "UpdatedDate": "1998-05-11T13:38:17.4368262+02:00",
+      "AssociateFullName": "Fredy Tillman",
+      "CreatedBy": "ea",
+      "UpdatedBy": "eos",
+      "DeviceIdentifier": "rerum",
+      "ForeignAppId": 785,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 930
+          "FieldLength": 880
         }
       }
     }
@@ -123,7 +123,7 @@ Last-Modified: Wed, 29 May 1996 03:24:51 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldLength": 142
     }
   },
   "_Links": {

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 596,
-  "GroupId": 126
+  "UdListDefinitionId": 652,
+  "GroupId": 369
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "Nitzsche, Collier and Erdman",
-    "ToolTip": "Soluta aut voluptatem autem distinctio.",
+    "Id": 320,
+    "Name": "Reynolds-Hills",
+    "ToolTip": "Eos molestiae et voluptatem modi.",
     "Deleted": false,
-    "Rank": 373,
-    "Type": "ab",
-    "ColorBlock": 411,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "1997-02-08T03:24:47.8613878+01:00",
+    "Rank": 453,
+    "Type": "perspiciatis",
+    "ColorBlock": 158,
+    "IconHint": "occaecati",
+    "Selected": false,
+    "LastChanged": "1996-11-07T13:38:13.6708541+01:00",
     "ChildItems": [
       {
-        "Id": 625,
-        "Name": "Kreiger, Steuber and Franecki",
-        "ToolTip": "Sunt ab et perspiciatis.",
+        "Id": 977,
+        "Name": "Hodkiewicz LLC",
+        "ToolTip": "Qui et nostrum ipsam expedita illo.",
         "Deleted": false,
-        "Rank": 810,
-        "Type": "placeat",
-        "ColorBlock": 706,
-        "IconHint": "enim",
+        "Rank": 145,
+        "Type": "tenetur",
+        "ColorBlock": 188,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2008-05-11T03:24:47.8613878+02:00",
+        "LastChanged": "2020-07-28T13:38:13.6708541+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Jensen Marjory Bechtelar PhD",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "expedita",
+        "Hidden": true,
+        "FullName": "Reilly Elisabeth Nolan PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 777
+            "FieldType": "System.Int32",
+            "FieldLength": 659
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "sit",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Prof. Wilbert Gene Grady",
+    "FullName": "Prof. Virgie Jamal Keebler I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 494
+        "FieldLength": 859
       }
     }
   }

@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": false,
-  "OnlyPresent": false
+  "Flat": true,
+  "OnlyPresent": true
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Lebsack, Sawayn and Reilly",
-    "ToolTip": "In quia magni explicabo accusamus maxime totam.",
-    "Deleted": true,
-    "Rank": 883,
-    "Type": "at",
+    "Id": 237,
+    "Name": "Medhurst Inc and Sons",
+    "ToolTip": "Ut est officiis architecto doloremque et.",
+    "Deleted": false,
+    "Rank": 940,
+    "Type": "sunt",
     "ChildItems": [
       {
-        "Id": 204,
-        "Name": "Gottlieb, Frami and Herman",
-        "ToolTip": "Quos quo.",
-        "Deleted": false,
-        "Rank": 429,
-        "Type": "odit",
+        "Id": 727,
+        "Name": "Brakus-Streich",
+        "ToolTip": "Ullam tenetur id ad.",
+        "Deleted": true,
+        "Rank": 393,
+        "Type": "perspiciatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "exercitationem",
-        "ColorBlock": 547,
-        "ExtraInfo": "autem",
-        "StyleHint": "minus",
-        "FullName": "Lester Weimann",
+        "IconHint": "rerum",
+        "ColorBlock": 351,
+        "ExtraInfo": "et",
+        "StyleHint": "vitae",
+        "FullName": "Layla Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 553
+            "FieldType": "System.Int32",
+            "FieldLength": 940
           }
         }
       }
     ],
-    "IconHint": "aperiam",
-    "ColorBlock": 367,
-    "ExtraInfo": "inventore",
-    "StyleHint": "sit",
-    "FullName": "Haleigh Mayert",
+    "IconHint": "qui",
+    "ColorBlock": 904,
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "modi",
+    "FullName": "Heloise Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 371
       }
     }
   }

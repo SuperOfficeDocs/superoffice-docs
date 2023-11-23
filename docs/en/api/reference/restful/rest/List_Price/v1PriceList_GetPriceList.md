@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,27 +92,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 991,
-  "ERPPriceListKey": "fugiat",
-  "QuoteConnectionId": 880,
-  "Name": "Koss, Windler and Frami",
-  "Description": "Intuitive radical approach",
-  "Currency": "quasi",
-  "CurrencyName": "Ward LLC",
-  "ValidFrom": "2021-04-24T03:24:52.3025813+02:00",
-  "ValidTo": "2017-01-26T03:24:52.3025813+01:00",
-  "IsActive": false,
+  "PriceListId": 110,
+  "ERPPriceListKey": "suscipit",
+  "QuoteConnectionId": 453,
+  "Name": "Kling-Kulas",
+  "Description": "Optimized impactful emulation",
+  "Currency": "quia",
+  "CurrencyName": "Bernhard LLC",
+  "ValidFrom": "2015-03-01T13:38:18.1087815+01:00",
+  "ValidTo": "2002-02-27T13:38:18.1087815+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldLength": 464
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

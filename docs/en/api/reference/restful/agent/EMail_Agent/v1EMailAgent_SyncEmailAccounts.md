@@ -66,20 +66,20 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 536,
-      "AssociateName": "Mosciski-Frami",
-      "AssociateId": 764
+      "AccountId": 90,
+      "AssociateName": "Lockman, Beier and Leannon",
+      "AssociateId": 162
     },
     {
-      "AccountId": 536,
-      "AssociateName": "Mosciski-Frami",
-      "AssociateId": 764
+      "AccountId": 90,
+      "AssociateName": "Lockman, Beier and Leannon",
+      "AssociateId": 162
     }
   ]
 }

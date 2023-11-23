@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Erdman-Heathcote",
-    "ToolTip": "Facilis quia.",
-    "Deleted": true,
-    "Rank": 978,
-    "Type": "ut",
-    "ColorBlock": 684,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2001-05-18T03:24:52.3806958+02:00",
+    "Id": 836,
+    "Name": "Okuneva LLC",
+    "ToolTip": "Hic enim ullam vitae quaerat non.",
+    "Deleted": false,
+    "Rank": 229,
+    "Type": "necessitatibus",
+    "ColorBlock": 554,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "2021-01-24T13:38:18.2025212+01:00",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Fahey, Kerluke and Hettinger",
-        "ToolTip": "Ut porro alias consequatur.",
-        "Deleted": false,
-        "Rank": 655,
-        "Type": "ea",
-        "ColorBlock": 852,
-        "IconHint": "molestiae",
-        "Selected": true,
-        "LastChanged": "1999-07-06T03:24:52.3806958+02:00",
+        "Id": 456,
+        "Name": "Bayer, Hickle and Wyman",
+        "ToolTip": "Voluptas minus quia.",
+        "Deleted": true,
+        "Rank": 572,
+        "Type": "facilis",
+        "ColorBlock": 772,
+        "IconHint": "corrupti",
+        "Selected": false,
+        "LastChanged": "1999-05-15T13:38:18.2025212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "numquam",
-        "Hidden": false,
-        "FullName": "Mr. Chyna Reynolds",
+        "ExtraInfo": "expedita",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Joe Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 99
+            "FieldLength": 918
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "officiis",
+    "ExtraInfo": "amet",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Mrs. Flavie Stracke",
+    "FullName": "Miss Lincoln O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 510
       }
     }
   }

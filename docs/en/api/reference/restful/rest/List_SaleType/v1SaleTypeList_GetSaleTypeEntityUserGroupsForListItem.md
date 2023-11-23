@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Wyman-Erdman",
-    "ToolTip": "Repudiandae asperiores placeat repellat sed doloremque.",
-    "Deleted": false,
-    "Rank": 498,
-    "Type": "illum",
-    "ColorBlock": 178,
-    "IconHint": "culpa",
+    "Id": 889,
+    "Name": "Leffler Inc and Sons",
+    "ToolTip": "Molestiae hic reiciendis.",
+    "Deleted": true,
+    "Rank": 141,
+    "Type": "ut",
+    "ColorBlock": 191,
+    "IconHint": "sapiente",
     "Selected": false,
-    "LastChanged": "2019-04-12T03:24:52.4119449+02:00",
+    "LastChanged": "2007-04-15T13:38:18.2181419+02:00",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Stiedemann, Metz and Wilderman",
-        "ToolTip": "Odio commodi doloribus deserunt alias animi delectus.",
+        "Id": 801,
+        "Name": "Larkin-Corkery",
+        "ToolTip": "Nulla fugit enim assumenda dolor sequi.",
         "Deleted": false,
-        "Rank": 51,
-        "Type": "non",
-        "ColorBlock": 157,
-        "IconHint": "aliquid",
+        "Rank": 377,
+        "Type": "et",
+        "ColorBlock": 939,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2018-11-06T03:24:52.4119449+01:00",
+        "LastChanged": "2020-11-29T13:38:18.2181419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Loma Alayna Hilll PhD",
+        "ExtraInfo": "eos",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Shanelle Fausto Ebert V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 597
+            "FieldType": "System.Int32",
+            "FieldLength": 522
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "debitis",
+    "ExtraInfo": "possimus",
+    "StyleHint": "tenetur",
     "Hidden": true,
-    "FullName": "Miss Nicole McGlynn III",
+    "FullName": "Jedediah Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 391
       }
     }
   }

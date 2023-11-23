@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 315,
-    "Name": "Mills, Mann and Rice",
-    "ToolTip": "Est nihil atque animi architecto necessitatibus veritatis nesciunt.",
+    "Id": 135,
+    "Name": "Aufderhar, Bayer and Heidenreich",
+    "ToolTip": "Rerum accusamus ea.",
     "Deleted": false,
-    "Rank": 848,
-    "Type": "voluptas",
-    "ColorBlock": 896,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2014-02-19T03:24:52.1463474+01:00",
+    "Rank": 413,
+    "Type": "debitis",
+    "ColorBlock": 814,
+    "IconHint": "illo",
+    "Selected": true,
+    "LastChanged": "2016-10-15T13:38:17.8900531+02:00",
     "ChildItems": [
       {
-        "Id": 913,
-        "Name": "Kunde-Bashirian",
-        "ToolTip": "Ullam ipsum ea quia debitis.",
+        "Id": 944,
+        "Name": "Reichel-Harvey",
+        "ToolTip": "Qui facere ipsam maiores.",
         "Deleted": true,
-        "Rank": 211,
-        "Type": "voluptatem",
-        "ColorBlock": 679,
-        "IconHint": "quo",
-        "Selected": true,
-        "LastChanged": "2004-12-09T03:24:52.1463474+01:00",
+        "Rank": 460,
+        "Type": "labore",
+        "ColorBlock": 631,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2018-11-24T13:38:17.8900531+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "commodi",
+        "ExtraInfo": "quam",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Paxton Howell",
+        "FullName": "Flavie Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 763
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "debitis",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "dolores",
     "Hidden": true,
-    "FullName": "Quentin Schuppe",
+    "FullName": "Ms. Cristian Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 846
+        "FieldType": "System.Int32",
+        "FieldLength": 271
       }
     }
   }

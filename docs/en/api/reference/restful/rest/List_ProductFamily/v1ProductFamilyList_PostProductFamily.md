@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 631,
-  "Name": "Jaskolski-Hills",
-  "Tooltip": "soluta",
+  "Id": 3,
+  "Name": "Howe-Balistreri",
+  "Tooltip": "et",
   "Deleted": true,
-  "UdListDefinitionId": 761,
-  "Rank": 634
+  "UdListDefinitionId": 603,
+  "Rank": 503
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 455,
-  "Name": "Legros LLC",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "UdListDefinitionId": 295,
-  "Rank": 61,
+  "Id": 231,
+  "Name": "Pouros, Lubowitz and Satterfield",
+  "Tooltip": "hic",
+  "Deleted": true,
+  "UdListDefinitionId": 241,
+  "Rank": 389,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 565
     }
   }
 }

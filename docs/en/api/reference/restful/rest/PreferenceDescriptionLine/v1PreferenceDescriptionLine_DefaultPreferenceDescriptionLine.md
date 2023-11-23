@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 527,
-  "PrefDescId": 41,
-  "PrefValue": "labore",
-  "PrefShowValue": "sit",
-  "Description": "Mandatory scalable leverage",
+  "PrefDescLineId": 740,
+  "PrefDescId": 833,
+  "PrefValue": "dolorem",
+  "PrefShowValue": "laudantium",
+  "Description": "Distributed demand-driven monitoring",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldType": "System.String",
+      "FieldLength": 815
     }
   }
 }

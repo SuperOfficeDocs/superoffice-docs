@@ -30,6 +30,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
  xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
  xmlns:AI="http://www.superoffice.net/ws/crm/NetServer/Services88">
   <AI:ApplicationToken>1234567-1234-9876</AI:ApplicationToken>
@@ -55,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
  xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
  xmlns:AI="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
@@ -63,12 +65,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <AI:ContextIdentifier xsi:type="xsd:string"></AI:ContextIdentifier>
     <AI:Status xsi:type="xsd:string"></AI:Status>
     <AI:CurrentModel xsi:type="AI:CategorizationModelDetails">
-     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-09-19T01:22:09Z</AI:ModelBuiltDateTime>
+     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-11-10T12:35:35Z</AI:ModelBuiltDateTime>
      <AI:Accuracy xsi:type="xsd:double">0.0</AI:Accuracy>
      <AI:TicketCountForTraining xsi:type="xsd:int">0</AI:TicketCountForTraining>
     </AI:CurrentModel>
     <AI:PreviousModel xsi:type="AI:CategorizationModelDetails">
-     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-09-19T01:22:09Z</AI:ModelBuiltDateTime>
+     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2023-11-10T12:35:35Z</AI:ModelBuiltDateTime>
      <AI:Accuracy xsi:type="xsd:double">0.0</AI:Accuracy>
      <AI:TicketCountForTraining xsi:type="xsd:int">0</AI:TicketCountForTraining>
     </AI:PreviousModel>

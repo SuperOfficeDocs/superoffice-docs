@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 932,
-  "PrefDescId": 388,
-  "PrefValue": "non",
-  "PrefShowValue": "vero",
-  "Description": "Cloned demand-driven core",
+  "PrefDescLineId": 378,
+  "PrefDescId": 199,
+  "PrefValue": "aut",
+  "PrefShowValue": "eaque",
+  "Description": "Fundamental zero tolerance flexibility",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   }
 }

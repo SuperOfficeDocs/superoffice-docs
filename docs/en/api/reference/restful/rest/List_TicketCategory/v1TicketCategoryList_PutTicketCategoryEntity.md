@@ -108,29 +108,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 502,
-  "ParentId": 782,
-  "Name": "Gerlach Group",
-  "Fullname": "cupiditate",
-  "CategoryMaster": 195,
+  "TicketCategoryId": 319,
+  "ParentId": 994,
+  "Name": "VonRueden LLC",
+  "Fullname": "enim",
+  "CategoryMaster": 695,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Gaylord Inc and Sons",
+  "ExternalName": "Champlin-Hagenes",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 483,
-  "ReplyTemplate": 491,
-  "NotificationEmail": "kariane@lindgren.name",
+  "AssignmentLag": 820,
+  "ReplyTemplate": 497,
+  "NotificationEmail": "arnaldo_parker@walsh.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 648,
+  "EffectiveReplyTemplateId": 713,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "temporibus"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "magni",
-    "CustomFields2": "iure"
+    "CustomFields1": "labore",
+    "CustomFields2": "doloremque"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 807,
-  "ParentId": 284,
-  "Name": "Larson-Toy",
-  "Fullname": "necessitatibus",
-  "CategoryMaster": 591,
+  "TicketCategoryId": 837,
+  "ParentId": 619,
+  "Name": "Dooley-Lueilwitz",
+  "Fullname": "quaerat",
+  "CategoryMaster": 779,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Tillman, Leannon and Leannon",
+  "ExternalName": "McKenzie Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 913,
-  "ReplyTemplate": 43,
-  "NotificationEmail": "ramiro.kulas@prohaska.biz",
+  "AssignmentLag": 84,
+  "ReplyTemplate": 939,
+  "NotificationEmail": "marjorie.hane@carter.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 742,
+  "EffectiveReplyTemplateId": 326,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "dicta",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "omnis",
+    "CustomFields2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldLength": 122
     }
   }
 }

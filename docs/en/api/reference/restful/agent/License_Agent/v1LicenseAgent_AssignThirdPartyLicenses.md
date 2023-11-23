@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 546,
-  "ModuleOwner": "voluptatem",
+  "AssociateId": 702,
+  "ModuleOwner": "corrupti",
   "ModuleLicenseNames": [
-    "Strosin, Funk and Kuvalis",
-    "Medhurst LLC"
+    "Mayert, Thompson and Heaney",
+    "Simonis Group"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 368,
-    "Tooltip": "voluptatum",
-    "CanAssign": true,
-    "Free": 279,
-    "InUse": 131,
-    "IsHidden": false,
+    "Total": 162,
+    "Tooltip": "esse",
+    "CanAssign": false,
+    "Free": 986,
+    "InUse": 46,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 96,
-    "Name": "Ritchie Inc and Sons",
-    "Description": "Team-oriented static adapter",
-    "PrerequisiteModuleName": "Schultz-Rodriguez",
-    "SortOrder": 364,
-    "ExtraFlags": 149,
+    "ModuleLicenseId": 344,
+    "Name": "Armstrong Group",
+    "Description": "Cloned system-worthy project",
+    "PrerequisiteModuleName": "Abbott-Roberts",
+    "SortOrder": 602,
+    "ExtraFlags": 781,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

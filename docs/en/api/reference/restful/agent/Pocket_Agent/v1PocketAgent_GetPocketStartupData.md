@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "blanditiis",
-    "sit"
+    "deserunt",
+    "sunt"
   ],
-  "CurrentClientTime": "2017-12-05T03:24:48.0488658+01:00"
+  "CurrentClientTime": "2010-04-13T13:38:13.8584753+02:00"
 }
 ```
 
@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "et",
-    "explicabo"
+    "cumque",
+    "soluta"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 779,
-  "NotificationsCount": 182,
+  "OverdueSalesCount": 213,
+  "NotificationsCount": 719,
   "SystemWebPanels": [
     {
-      "WebPanelId": 109,
-      "Name": "Runte, Abbott and Stamm",
-      "Tooltip": "et",
-      "Deleted": false,
-      "Rank": 243,
+      "WebPanelId": 281,
+      "Name": "Effertz Inc and Sons",
+      "Tooltip": "incidunt",
+      "Deleted": true,
+      "Rank": 726,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": true,
-      "OnTravel": true,
+      "OnTravel": false,
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
       "ShowInToolBar": true,
       "ShowInAddressBar": true,
-      "ShowInStatusBar": true,
-      "WindowName": "Hilpert, Quitzon and Satterfield",
+      "ShowInStatusBar": false,
+      "WindowName": "Rutherford, Yost and Gleichner",
       "Url": "http://www.example.com/",
-      "ProgId": "et",
-      "Icon": 355,
+      "ProgId": "omnis",
+      "Icon": 748,
       "AlwaysReloadOnShow": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldLength": 697
         }
       }
     }
@@ -145,34 +145,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "eaque",
+      "RawValue": "esse",
       "Specification": null,
-      "DisplayValue": "dolorem",
-      "DisplayTooltip": "laborum",
+      "DisplayValue": "harum",
+      "DisplayTooltip": "sed",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 71,
-      "PrefDescId": 902,
-      "TableName": "King, Stroman and Renner",
-      "UserPreferenceId": 641,
+      "TargetId": 586,
+      "PrefDescId": 372,
+      "TableName": "Mohr-Roob",
+      "UserPreferenceId": 580,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 108
         }
       }
     }
   ],
   "IsPushNotificationEnabled": true,
-  "CustomData": "culpa",
+  "CustomData": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldType": "System.String",
+      "FieldLength": 3
     }
   }
 }

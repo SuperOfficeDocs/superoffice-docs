@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 102,
+  "DocumentTemplateId": 70,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "praesentium",
-  "PluginId": 439
+  "LanguageCode": "excepturi",
+  "PluginId": 313
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ferry Inc and Sons",
-  "Description": "Balanced attitude-oriented service-desk",
-  "ExternalReference": "aut",
-  "MimeType": "voluptates",
-  "PluginId": 99
+  "Name": "Hoeger-Anderson",
+  "Description": "Extended zero tolerance parallelism",
+  "ExternalReference": "veniam",
+  "MimeType": "recusandae",
+  "PluginId": 738
 }
 ```

@@ -26,7 +26,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=963
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=240
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 593,
+  "ShipmentMessageId": 566,
   "PlainMessage": "aliquam",
-  "HtmlMessage": "sed",
-  "SmsMessage": "quia",
-  "Description": "Configurable impactful open system",
-  "Subject": "et",
-  "FolderId": 11,
-  "HeaderField": "corrupti",
-  "Design": "ducimus",
+  "HtmlMessage": "eum",
+  "SmsMessage": "rerum",
+  "Description": "Integrated clear-thinking website",
+  "Subject": "ea",
+  "FolderId": 44,
+  "HeaderField": "est",
+  "Design": "alias",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Profound intangible database",
-  "AccessKey": "sed",
-  "DocumentMessage": 4,
-  "Registered": "2009-09-04T03:24:47.9238778+02:00",
-  "RegisteredAssociateId": 232,
-  "Updated": "2002-10-11T03:24:47.9238778+02:00",
-  "UpdatedAssociateId": 289,
-  "UpdatedCount": 240,
+  "LongDescription": "Profound exuding matrices",
+  "AccessKey": "voluptatum",
+  "DocumentMessage": 269,
+  "Registered": "2013-09-17T13:38:13.7333439+02:00",
+  "RegisteredAssociateId": 446,
+  "Updated": "2001-04-28T13:38:13.7333439+02:00",
+  "UpdatedAssociateId": 221,
+  "UpdatedCount": 70,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 832
     }
   }
 }

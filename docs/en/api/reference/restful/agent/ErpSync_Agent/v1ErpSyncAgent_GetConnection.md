@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 854
+  "ErpConnectionId": 32
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 634,
-  "ErpConnectorId": 564,
-  "DisplayName": "Ondricka-Harvey",
-  "DisplayDescription": "Managed bottom-line core",
+  "ErpConnectionId": 356,
+  "ErpConnectorId": 905,
+  "DisplayName": "Mohr, Stracke and Monahan",
+  "DisplayDescription": "Intuitive impactful core",
   "Active": false,
-  "ConnectionId": "deserunt",
-  "MostRecentTimestamp": "ipsa",
+  "ConnectionId": "necessitatibus",
+  "MostRecentTimestamp": "et",
   "ConfigFields": {
-    "ConfigFields1": "ipsum",
-    "ConfigFields2": "et"
+    "ConfigFields1": "vero",
+    "ConfigFields2": "maxime"
   },
-  "Deleted": false,
+  "Deleted": true,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    937,
-    52
+    382,
+    982
   ],
   "AssociateAccessIds": [
-    483,
-    699
+    902,
+    921
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 485
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Mosciski, Stehr and Funk",
-    "ToolTip": "Sit eos.",
+    "Id": 937,
+    "Name": "Schuster-Dibbert",
+    "ToolTip": "Reprehenderit dolor ut.",
     "Deleted": false,
-    "Rank": 153,
-    "Type": "voluptates",
-    "ColorBlock": 608,
-    "IconHint": "consectetur",
-    "Selected": true,
-    "LastChanged": "2005-09-10T03:24:52.3025813+02:00",
+    "Rank": 343,
+    "Type": "assumenda",
+    "ColorBlock": 587,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "2006-02-07T13:38:18.1087815+01:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Hermiston, Hoppe and Ritchie",
-        "ToolTip": "Doloremque omnis eveniet occaecati sit occaecati.",
-        "Deleted": true,
-        "Rank": 768,
+        "Id": 402,
+        "Name": "Beer Inc and Sons",
+        "ToolTip": "Vitae ab omnis est illo nulla alias.",
+        "Deleted": false,
+        "Rank": 49,
         "Type": "ut",
-        "ColorBlock": 547,
-        "IconHint": "fugiat",
+        "ColorBlock": 496,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2000-09-17T03:24:52.3025813+02:00",
+        "LastChanged": "2016-10-06T13:38:18.1087815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "qui",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Isabella Gibson",
+        "FullName": "Miss Vada Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 584
+            "FieldType": "System.Int32",
+            "FieldLength": 926
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Helena Muller PhD",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "doloremque",
+    "Hidden": false,
+    "FullName": "Mr. Claudia Waters",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 237
+        "FieldLength": 234
       }
     }
   }

@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -118,157 +118,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 743,
-  "Name": "Beatty-Berge",
+  "ContactId": 301,
+  "Name": "Brekke Group",
   "Department": "",
-  "OrgNr": "1164770",
-  "Number1": "877467",
-  "Number2": "893757",
-  "UpdatedDate": "2000-05-31T03:24:47.4239365+02:00",
-  "CreatedDate": "2000-03-21T03:24:47.4239365+01:00",
+  "OrgNr": "579280",
+  "Number1": "705608",
+  "Number2": "756379",
+  "UpdatedDate": "2023-05-15T13:38:13.3271428+02:00",
+  "CreatedDate": "2006-07-21T13:38:13.3271428+02:00",
   "Emails": [
     {
       "Value": "omnis",
-      "StrippedValue": "aut",
-      "Description": "Right-sized scalable artificial intelligence",
+      "StrippedValue": "laudantium",
+      "Description": "Right-sized discrete contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 648
         }
       }
     },
     {
       "Value": "omnis",
-      "StrippedValue": "aut",
-      "Description": "Right-sized scalable artificial intelligence",
+      "StrippedValue": "laudantium",
+      "Description": "Right-sized discrete contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 648
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 536,
-      "Name": "Green LLC",
-      "ToolTip": "Quo perspiciatis quia quia nobis cumque.",
+      "Id": 464,
+      "Name": "Ankunding LLC",
+      "ToolTip": "Necessitatibus iste illum aperiam sint soluta autem.",
       "Deleted": false,
-      "Rank": 447,
-      "Type": "placeat",
-      "ColorBlock": 823,
-      "IconHint": "quia",
-      "Selected": false,
-      "LastChanged": "2005-02-07T03:24:47.4239365+01:00",
+      "Rank": 112,
+      "Type": "inventore",
+      "ColorBlock": 462,
+      "IconHint": "quod",
+      "Selected": true,
+      "LastChanged": "2000-06-25T13:38:13.3271428+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Tatyana Armstrong",
+      "ExtraInfo": "qui",
+      "StyleHint": "sint",
+      "Hidden": false,
+      "FullName": "Shirley Yost",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 429
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "labore",
-      "StrippedValue": "ut",
-      "Description": "Mandatory demand-driven moratorium",
+      "Value": "et",
+      "StrippedValue": "aut",
+      "Description": "Quality-focused exuding collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldLength": 271
         }
       }
     },
     {
-      "Value": "labore",
-      "StrippedValue": "ut",
-      "Description": "Mandatory demand-driven moratorium",
+      "Value": "et",
+      "StrippedValue": "aut",
+      "Description": "Quality-focused exuding collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldLength": 271
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "ullam",
-      "StrippedValue": "at",
-      "Description": "Quality-focused 5th generation data-warehouse",
+      "Value": "voluptates",
+      "StrippedValue": "similique",
+      "Description": "Visionary bandwidth-monitored firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldLength": 188
         }
       }
     },
     {
-      "Value": "ullam",
-      "StrippedValue": "at",
-      "Description": "Quality-focused 5th generation data-warehouse",
+      "Value": "voluptates",
+      "StrippedValue": "similique",
+      "Description": "Visionary bandwidth-monitored firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldLength": 188
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "quo",
+      "Value": "tempore",
       "StrippedValue": "non",
-      "Description": "Reduced neutral forecast",
+      "Description": "Monitored neutral application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 563
         }
       }
     },
     {
-      "Value": "quo",
+      "Value": "tempore",
       "StrippedValue": "non",
-      "Description": "Reduced neutral forecast",
+      "Description": "Monitored neutral application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 563
         }
       }
     }
   ],
-  "Description": "User-centric executive database",
+  "Description": "Advanced discrete database",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -277,100 +277,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quia",
-      "PersonId": 743,
-      "Mrmrs": "consequatur",
-      "Firstname": "Karlee",
-      "Lastname": "Stroman",
-      "MiddleName": "Mitchell, Padberg and McDermott",
-      "Title": "quis",
-      "Description": "Ergonomic actuating attitude",
-      "Email": "orlo.lehner@upton.info",
-      "FullName": "Mr. Cordie Maurine Eichmann II",
-      "DirectPhone": "021-176-0250 x6788",
-      "FormalName": "Krajcik, Simonis and Pfannerstill",
-      "CountryId": 251,
-      "ContactId": 229,
-      "ContactName": "Will-Hagenes",
-      "Retired": 204,
-      "Rank": 815,
-      "ActiveInterests": 774,
+      "Position": "officiis",
+      "PersonId": 78,
+      "Mrmrs": "nemo",
+      "Firstname": "Christian",
+      "Lastname": "Leannon",
+      "MiddleName": "Becker LLC",
+      "Title": "facere",
+      "Description": "Quality-focused interactive orchestration",
+      "Email": "ricardo.price@casperabbott.com",
+      "FullName": "Mrs. Devyn Eichmann II",
+      "DirectPhone": "499.096.3289 x879",
+      "FormalName": "Crona Inc and Sons",
+      "CountryId": 71,
+      "ContactId": 735,
+      "ContactName": "Monahan, Rippin and Towne",
+      "Retired": 357,
+      "Rank": 476,
+      "ActiveInterests": 282,
       "ContactDepartment": "",
-      "ContactCountryId": 720,
-      "ContactOrgNr": "1319208",
-      "FaxPhone": "1-760-689-0536",
-      "MobilePhone": "1-287-994-7798 x4452",
-      "ContactPhone": "1-687-027-9688",
-      "AssociateName": "Brakus Inc and Sons",
-      "AssociateId": 372,
-      "UsePersonAddress": true,
-      "ContactFax": "itaque",
-      "Kanafname": "ut",
-      "Kanalname": "ut",
-      "Post1": "eos",
-      "Post2": "doloribus",
-      "Post3": "fugiat",
-      "EmailName": "madalyn_littel@wolffjohns.com",
-      "ContactFullName": "Electa Corwin",
-      "ActiveErpLinks": 690,
-      "TicketPriorityId": 942,
-      "SupportLanguageId": 992,
-      "SupportAssociateId": 514,
+      "ContactCountryId": 721,
+      "ContactOrgNr": "572317",
+      "FaxPhone": "1-477-196-3350 x4982",
+      "MobilePhone": "1-410-548-0417 x91537",
+      "ContactPhone": "1-638-017-9364",
+      "AssociateName": "Steuber LLC",
+      "AssociateId": 217,
+      "UsePersonAddress": false,
+      "ContactFax": "libero",
+      "Kanafname": "ad",
+      "Kanalname": "aut",
+      "Post1": "ipsa",
+      "Post2": "repellendus",
+      "Post3": "ut",
+      "EmailName": "gennaro@boganwill.ca",
+      "ContactFullName": "Nayeli Kiehn",
+      "ActiveErpLinks": 926,
+      "TicketPriorityId": 786,
+      "SupportLanguageId": 820,
+      "SupportAssociateId": 477,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldLength": 764
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "voluptatem",
+  "NoMailing": true,
+  "Kananame": "totam",
   "Xstop": true,
-  "ActiveInterests": 485,
-  "GroupId": 191,
-  "ActiveStatusMonitorId": 829,
+  "ActiveInterests": 11,
+  "GroupId": 303,
+  "ActiveStatusMonitorId": 724,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 854,
-  "DbiAgentId": 368,
-  "DbiLastSyncronized": "2019-03-18T03:24:47.4239365+01:00",
-  "DbiKey": "cum",
-  "DbiLastModified": "2009-10-23T03:24:47.4239365+02:00",
+  "Deleted": 465,
+  "DbiAgentId": 930,
+  "DbiLastSyncronized": "2000-05-31T13:38:13.3271428+02:00",
+  "DbiKey": "et",
+  "DbiLastModified": "2008-12-24T13:38:13.3271428+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 252,
-  "ActiveErpLinks": 43,
+  "Source": 846,
+  "ActiveErpLinks": 941,
   "BounceEmails": [
-    "oma.lind@stokes.ca",
-    "wilma@thiel.info"
+    "benton@dubuqueemard.co.uk",
+    "kacey@corkery.uk"
   ],
   "Domains": [
-    "dolorum",
-    "cum"
+    "id",
+    "amet"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Josie Gulgowski"
+    "SuperOffice:1": "Avis Weber",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "nulla"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldType": "System.String",
+      "FieldLength": 975
     }
   }
 }

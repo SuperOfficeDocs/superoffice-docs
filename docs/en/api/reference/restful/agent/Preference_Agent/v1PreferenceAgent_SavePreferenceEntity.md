@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "officia",
   "Specification": null,
-  "DisplayValue": "nihil",
-  "DisplayTooltip": "asperiores",
+  "DisplayValue": "sed",
+  "DisplayTooltip": "ad",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 737,
-  "PrefDescId": 698,
-  "TableName": "Dibbert-Hamill",
-  "UserPreferenceId": 313,
+  "TargetId": 608,
+  "PrefDescId": 725,
+  "TableName": "Littel-Hudson",
+  "UserPreferenceId": 2,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

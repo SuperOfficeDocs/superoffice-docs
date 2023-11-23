@@ -98,15 +98,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 227,
-  "Name": "Gleason Group",
-  "Tooltip": "sed",
+  "Id": 988,
+  "Name": "Schuppe Group",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "Rank": 629,
-  "IsCustomList": true,
+  "Rank": 710,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ex",
+  "ListType": "similique",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 245,
-  "Name": "Kuhic, Beatty and Fisher",
-  "Tooltip": "possimus",
-  "Deleted": false,
-  "Rank": 892,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 189,
+  "Name": "Kunze Inc and Sons",
+  "Tooltip": "placeat",
+  "Deleted": true,
+  "Rank": 627,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eaque",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldLength": 516
     }
   },
   "_Links": {

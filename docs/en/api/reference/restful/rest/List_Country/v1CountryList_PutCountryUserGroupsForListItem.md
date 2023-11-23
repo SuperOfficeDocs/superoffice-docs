@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Cummerata LLC",
-    "ToolTip": "Modi laudantium a neque est laudantium necessitatibus quia.",
-    "Deleted": true,
-    "Rank": 636,
-    "Type": "voluptatem",
-    "ColorBlock": 195,
-    "IconHint": "eveniet",
+    "Id": 493,
+    "Name": "Purdy, Hane and Towne",
+    "ToolTip": "Perferendis minus dolorum velit.",
+    "Deleted": false,
+    "Rank": 522,
+    "Type": "id",
+    "ColorBlock": 167,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "1999-11-12T03:24:52.2088405+01:00",
+    "LastChanged": "2014-06-19T13:38:18.0150452+02:00",
     "ChildItems": [
       {
-        "Id": 384,
-        "Name": "Douglas, Mohr and Kovacek",
-        "ToolTip": "Dolorem veniam et.",
+        "Id": 912,
+        "Name": "Fay Group",
+        "ToolTip": "Repudiandae eum eveniet ipsa.",
         "Deleted": false,
-        "Rank": 195,
-        "Type": "in",
-        "ColorBlock": 180,
-        "IconHint": "sed",
+        "Rank": 637,
+        "Type": "odio",
+        "ColorBlock": 360,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2013-03-17T03:24:52.2088405+01:00",
+        "LastChanged": "2009-09-12T13:38:18.0150452+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "id",
-        "Hidden": false,
-        "FullName": "Maddison Collier II"
+        "ExtraInfo": "at",
+        "StyleHint": "amet",
+        "Hidden": true,
+        "FullName": "Miss Bethel Alec Mante IV"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "ad",
+    "ExtraInfo": "velit",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Dr. Marina Mollie Luettgen"
+    "FullName": "Miss Lionel Trantow I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Smith Group",
-    "ToolTip": "Laborum molestiae consectetur vel voluptatem est quis voluptas.",
+    "Id": 933,
+    "Name": "Boehm, Nitzsche and Bahringer",
+    "ToolTip": "Sed praesentium.",
     "Deleted": false,
-    "Rank": 565,
-    "Type": "minus",
-    "ColorBlock": 622,
-    "IconHint": "laboriosam",
-    "Selected": true,
-    "LastChanged": "2022-08-16T03:24:52.2088405+02:00",
+    "Rank": 267,
+    "Type": "ut",
+    "ColorBlock": 188,
+    "IconHint": "voluptatum",
+    "Selected": false,
+    "LastChanged": "2022-05-07T13:38:18.0150452+02:00",
     "ChildItems": [
       {
-        "Id": 945,
-        "Name": "Olson-Welch",
-        "ToolTip": "Officia ex consequuntur.",
-        "Deleted": false,
-        "Rank": 36,
-        "Type": "soluta",
-        "ColorBlock": 619,
-        "IconHint": "et",
+        "Id": 201,
+        "Name": "Koepp-Pfannerstill",
+        "ToolTip": "Delectus aut nulla ullam velit accusamus quam delectus.",
+        "Deleted": true,
+        "Rank": 308,
+        "Type": "hic",
+        "ColorBlock": 650,
+        "IconHint": "eaque",
         "Selected": true,
-        "LastChanged": "2001-10-18T03:24:52.2088405+02:00",
+        "LastChanged": "2022-08-17T13:38:18.0150452+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Prof. Miles Brekke PhD",
+        "ExtraInfo": "et",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Prof. Emmanuelle Lillian Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "sit",
+    "ExtraInfo": "aut",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Frida Boehm",
+    "FullName": "Ernesto Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 440
+        "FieldLength": 511
       }
     }
   }

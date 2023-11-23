@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 573,
-    "Name": "Schmeler-Wilderman",
-    "Tooltip": "in",
+    "HeadingId": 976,
+    "Name": "Koss LLC",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 645,
-    "UdListDefinitionId": 362
+    "Rank": 935,
+    "UdListDefinitionId": 513
   },
   {
-    "HeadingId": 573,
-    "Name": "Schmeler-Wilderman",
-    "Tooltip": "in",
+    "HeadingId": 976,
+    "Name": "Koss LLC",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 645,
-    "UdListDefinitionId": 362
+    "Rank": 935,
+    "UdListDefinitionId": 513
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 863,
-    "Name": "Hahn, O'Conner and Walsh",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 821,
-    "UdListDefinitionId": 838,
+    "HeadingId": 890,
+    "Name": "Rath, Haag and Schimmel",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "Rank": 273,
+    "UdListDefinitionId": 609,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 115
+        "FieldLength": 68
       }
     }
   }

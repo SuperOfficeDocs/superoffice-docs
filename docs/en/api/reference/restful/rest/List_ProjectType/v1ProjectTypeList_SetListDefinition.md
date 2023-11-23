@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 658,
-  "Name": "Terry-Hudson",
-  "Tooltip": "tempora",
+  "Id": 266,
+  "Name": "Langosh, Adams and Bosco",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 310,
+  "Rank": 518,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 986,
-  "Name": "Wiegand Inc and Sons",
-  "Tooltip": "recusandae",
-  "Deleted": false,
-  "Rank": 224,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eos",
-  "InUseByUserDefinedFields": false,
+  "Id": 672,
+  "Name": "Spinka Inc and Sons",
+  "Tooltip": "debitis",
+  "Deleted": true,
+  "Rank": 391,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "architecto",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldType": "System.String",
+      "FieldLength": 916
     }
   }
 }

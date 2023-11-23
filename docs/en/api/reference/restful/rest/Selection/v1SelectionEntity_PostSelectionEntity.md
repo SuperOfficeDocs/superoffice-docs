@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed client-server intranet",
-  "Postit": "vel",
+  "Description": "Grass-roots hybrid ability",
+  "Postit": "velit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 189,
-  "IncludePerson": 13,
-  "MemberCount": 530,
-  "Name": "Zieme, Boehm and Hamill",
-  "PostitTextId": 980,
-  "CreatedDate": "2014-09-03T03:24:51.9119624+02:00",
-  "SelectionId": 902,
-  "SoundEx": "perspiciatis",
-  "Source": 329,
-  "TextId": 447,
-  "UpdatedDate": "2006-06-08T03:24:51.9119624+02:00",
-  "UpdatedCount": 642,
-  "Visibility": 320,
+  "GroupIdx": 663,
+  "IncludePerson": 936,
+  "MemberCount": 83,
+  "Name": "Strosin-Senger",
+  "PostitTextId": 90,
+  "CreatedDate": "2012-01-18T13:38:17.6555554+01:00",
+  "SelectionId": 184,
+  "SoundEx": "fugit",
+  "Source": 863,
+  "TextId": 628,
+  "UpdatedDate": "2021-09-19T13:38:17.6555554+02:00",
+  "UpdatedCount": 525,
+  "Visibility": 222,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 118,
-  "TargetTableName": "Berge-Glover",
-  "Completed": true,
-  "LeftSelectionId": 382,
-  "RightSelectionId": 975,
+  "CompanyUnique": false,
+  "TargetTableNumber": 817,
+  "TargetTableName": "Rodriguez Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 304,
+  "RightSelectionId": 659,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hegmann LLC",
-  "ShadowProviderName": "Nolan-Marks",
-  "ChartKey": "dolor",
-  "LastLoaded": "2013-10-26T03:24:51.9119624+02:00",
-  "LastLoadedBy": 778,
+  "MainProviderName": "Schamberger-Stiedemann",
+  "ShadowProviderName": "Botsford Inc and Sons",
+  "ChartKey": "suscipit",
+  "LastLoaded": "2011-01-24T13:38:17.6555554+01:00",
+  "LastLoadedBy": 911,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-02-20T03:24:51.9119624+01:00",
-  "LastMembershipChangeBy": 572,
+  "LastMembershipChange": "2013-05-23T13:38:17.6555554+02:00",
+  "LastMembershipChangeBy": 60,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "non",
-  "MemberTabHeading": "molestiae",
-  "MailingsProviderName": "Adams, Breitenberg and Cruickshank",
-  "DashboardTileDefinitionId": 751,
+  "MainHeading": "voluptatum",
+  "MemberTabHeading": "quasi",
+  "MailingsProviderName": "Buckridge-Jerde",
+  "DashboardTileDefinitionId": 738,
   "VisibleFor": [
     {
-      "VisibleId": 505,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "officiis"
+      "DisplayValue": "quaerat"
     },
     {
-      "VisibleId": 505,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "officiis"
+      "DisplayValue": "quaerat"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Virtual regional open architecture",
-  "Postit": "quaerat",
+  "Description": "Multi-layered optimizing local area network",
+  "Postit": "at",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 67,
-  "IncludePerson": 764,
-  "MemberCount": 528,
-  "Name": "Von Inc and Sons",
-  "PostitTextId": 268,
-  "CreatedDate": "1998-10-09T03:24:51.9119624+02:00",
-  "SelectionId": 728,
-  "SoundEx": "quaerat",
-  "Source": 469,
-  "TextId": 347,
-  "UpdatedDate": "2000-08-25T03:24:51.9119624+02:00",
-  "UpdatedCount": 431,
-  "Visibility": 486,
+  "GroupIdx": 833,
+  "IncludePerson": 298,
+  "MemberCount": 436,
+  "Name": "Casper, Turner and Hermann",
+  "PostitTextId": 417,
+  "CreatedDate": "2007-02-22T13:38:17.6555554+01:00",
+  "SelectionId": 211,
+  "SoundEx": "facere",
+  "Source": 553,
+  "TextId": 257,
+  "UpdatedDate": "2004-06-09T13:38:17.6555554+02:00",
+  "UpdatedCount": 269,
+  "Visibility": 21,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 457,
-  "TargetTableName": "Murazik Inc and Sons",
+  "TargetTableNumber": 220,
+  "TargetTableName": "Becker-Cole",
   "Completed": false,
-  "LeftSelectionId": 911,
-  "RightSelectionId": 804,
+  "LeftSelectionId": 280,
+  "RightSelectionId": 773,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Trantow, Shields and Carroll",
-  "ShadowProviderName": "Windler Group",
-  "ChartKey": "dolorem",
-  "LastLoaded": "1997-03-19T03:24:51.9119624+01:00",
-  "LastLoadedBy": 388,
+  "MainProviderName": "Dibbert LLC",
+  "ShadowProviderName": "Bednar, Medhurst and Kiehn",
+  "ChartKey": "dolores",
+  "LastLoaded": "2004-05-19T13:38:17.6555554+02:00",
+  "LastLoadedBy": 635,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-08-14T03:24:51.9119624+02:00",
-  "LastMembershipChangeBy": 465,
+  "LastMembershipChange": "1999-03-26T13:38:17.6555554+01:00",
+  "LastMembershipChangeBy": 302,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "commodi",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Moen-Keeling",
-  "DashboardTileDefinitionId": 312,
+  "MainHeading": "odio",
+  "MemberTabHeading": "similique",
+  "MailingsProviderName": "Little, Davis and Gleichner",
+  "DashboardTileDefinitionId": 326,
   "VisibleFor": [
     {
-      "VisibleId": 279,
+      "VisibleId": 34,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldType": "System.String",
+          "FieldLength": 342
         }
       }
     },
     {
-      "VisibleId": 279,
+      "VisibleId": 34,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldType": "System.String",
+          "FieldLength": 342
         }
       }
     }
@@ -295,7 +295,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 207
     }
   },
   "_Links": {

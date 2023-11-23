@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,33 +85,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 520,
-  "Name": "Rogahn LLC",
-  "Tooltip": "sit",
+  "WebPanelId": 235,
+  "Name": "Hodkiewicz-Hintz",
+  "Tooltip": "adipisci",
   "Deleted": true,
-  "Rank": 582,
+  "Rank": 709,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "Fritsch-Bauch",
+  "WindowName": "Langworth, Blick and Rempel",
   "Url": "http://www.example.com/",
-  "ProgId": "animi",
-  "Icon": 485,
+  "ProgId": "consequatur",
+  "Icon": 740,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldLength": 526
     }
   }
 }

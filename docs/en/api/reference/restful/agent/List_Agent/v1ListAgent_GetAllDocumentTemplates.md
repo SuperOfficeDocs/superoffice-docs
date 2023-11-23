@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 412,
-    "Name": "Bogan Inc and Sons",
-    "Tooltip": "corporis",
-    "SaveInDb": 359,
-    "Filename": "voluptatem",
+    "DocumentTemplateId": 312,
+    "Name": "Ondricka-Schowalter",
+    "Tooltip": "necessitatibus",
+    "SaveInDb": 695,
+    "Filename": "maiores",
     "DefaultOref": "veniam",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 687,
-    "IntentId": 65,
+    "AutoeventId": 406,
+    "IntentId": 513,
     "IsDefaultPublished": true,
-    "Rank": 148,
-    "LoadTemplateFromPlugin": 179,
-    "MimeType": "numquam",
+    "Rank": 584,
+    "LoadTemplateFromPlugin": 729,
+    "MimeType": "saepe",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 570,
+    "DocumentTypeKey": 439,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "sonya_bogan@stokes.ca",
-    "IncludeSignature": true,
+    "EmailSubject": "heloise_kuhn@welch.name",
+    "IncludeSignature": false,
     "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "keon.ernser@barton.biz",
+    "SenderEmailAddress": "antonia.nader@kessler.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldType": "System.String",
+        "FieldLength": 104
       }
     }
   }

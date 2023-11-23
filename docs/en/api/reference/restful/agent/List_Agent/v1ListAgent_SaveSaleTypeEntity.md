@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 16,
-  "Name": "Kulas, Kreiger and Romaguera",
-  "Tooltip": "consequatur",
-  "Rank": 952,
+  "SaleTypeId": 379,
+  "Name": "Hirthe-Ruecker",
+  "Tooltip": "iusto",
+  "Rank": 172,
   "DurationUnit": "Century",
-  "SaleDuration": 808,
-  "SaleTypeCatId": 444,
+  "SaleDuration": 746,
+  "SaleTypeCatId": 353,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 18,
-  "QuoteLinesTemplate": 671,
-  "ConfirmationLinesTemplate": 846,
-  "MaxDiscountPercentSet": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 868,
+  "QuoteLinesTemplate": 896,
+  "ConfirmationLinesTemplate": 330,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 470,
-  "MinEarningPercent": 167,
-  "GroupQuoteLinesBy": 655,
-  "SortGroupLinesBy": 521,
+  "MaxDiscountPercent": 89,
+  "MinEarningPercent": 412,
+  "GroupQuoteLinesBy": 633,
+  "SortGroupLinesBy": 133,
   "Stages": [
     {
-      "Id": 210,
-      "Name": "Hyatt, Stoltenberg and McClure",
-      "ToolTip": "Nisi saepe.",
+      "Id": 765,
+      "Name": "Crist-Robel",
+      "ToolTip": "Aut perferendis dignissimos doloremque aspernatur aut nulla occaecati.",
       "Deleted": false,
-      "Rank": 137,
-      "Type": "esse",
-      "ColorBlock": 309,
-      "IconHint": "temporibus",
-      "Selected": true,
-      "LastChanged": "2001-02-05T03:24:47.908255+01:00",
+      "Rank": 378,
+      "Type": "id",
+      "ColorBlock": 754,
+      "IconHint": "dolorem",
+      "Selected": false,
+      "LastChanged": "2003-07-23T13:38:13.7177215+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "natus",
+      "ExtraInfo": "vel",
+      "StyleHint": "cupiditate",
       "Hidden": false,
-      "FullName": "Mr. Estevan Titus Stanton"
+      "FullName": "Godfrey Willms"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 770,
-  "Name": "Kunze-Runolfsdottir",
-  "Tooltip": "qui",
-  "Rank": 889,
+  "SaleTypeId": 277,
+  "Name": "Hagenes-Bruen",
+  "Tooltip": "atque",
+  "Rank": 311,
   "DurationUnit": "Century",
-  "SaleDuration": 754,
-  "SaleTypeCatId": 231,
+  "SaleDuration": 501,
+  "SaleTypeCatId": 128,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 582,
-  "QuoteLinesTemplate": 840,
-  "ConfirmationLinesTemplate": 821,
+  "DefaultQuoteValidity": 628,
+  "QuoteLinesTemplate": 653,
+  "ConfirmationLinesTemplate": 21,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 575,
-  "MinEarningPercent": 401,
-  "GroupQuoteLinesBy": 517,
-  "SortGroupLinesBy": 191,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 139,
+  "MinEarningPercent": 488,
+  "GroupQuoteLinesBy": 25,
+  "SortGroupLinesBy": 166,
   "Stages": [
     {
-      "Id": 317,
-      "Name": "Reinger, Russel and Dickens",
-      "ToolTip": "Quos nisi et.",
-      "Deleted": false,
-      "Rank": 587,
-      "Type": "est",
-      "ColorBlock": 329,
-      "IconHint": "explicabo",
+      "Id": 470,
+      "Name": "Pfannerstill-Greenholt",
+      "ToolTip": "Dignissimos sed dolorem quae ducimus veritatis.",
+      "Deleted": true,
+      "Rank": 613,
+      "Type": "similique",
+      "ColorBlock": 364,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2015-07-11T03:24:47.908255+02:00",
+      "LastChanged": "2014-07-20T13:38:13.7177215+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "doloremque",
-      "StyleHint": "enim",
+      "ExtraInfo": "ullam",
+      "StyleHint": "et",
       "Hidden": true,
-      "FullName": "Turner Brown",
+      "FullName": "Zora Bogisich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldLength": 987
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 222
+      "FieldType": "System.String",
+      "FieldLength": 970
     }
   }
 }

@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "voluptatem",
-  "OptionalSecretKey": "nemo"
+  "Token": "et",
+  "OptionalSecretKey": "quas"
 }
 ```
 

@@ -91,22 +91,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 693,
-  "Name": "Lakin, Roob and Smith",
-  "Rank": 898,
-  "Tooltip": "recusandae",
-  "Icon": "ipsa",
-  "DefaultTicketStatus": 782,
+  "TicketTypeId": 239,
+  "Name": "Klein Group",
+  "Rank": 314,
+  "Tooltip": "rem",
+  "Icon": "placeat",
+  "DefaultTicketStatus": 68,
   "TicketStatuses": [
-    493,
-    704
+    387,
+    187
   ],
-  "DefaultTicketPriority": 179,
+  "DefaultTicketPriority": 991,
   "TicketPriorities": [
-    206,
-    190
+    221,
+    180
   ],
-  "ReplyTemplate": 794,
+  "ReplyTemplate": 6,
   "IsExternalVisible": false,
   "IsDefault": true
 }
@@ -119,30 +119,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 855,
-  "Name": "Hagenes-Shanahan",
-  "Rank": 711,
-  "Tooltip": "quis",
-  "Icon": "harum",
-  "DefaultTicketStatus": 7,
+  "TicketTypeId": 320,
+  "Name": "DuBuque Group",
+  "Rank": 518,
+  "Tooltip": "doloremque",
+  "Icon": "temporibus",
+  "DefaultTicketStatus": 506,
   "TicketStatuses": [
-    957,
-    743
+    926,
+    829
   ],
-  "DefaultTicketPriority": 408,
+  "DefaultTicketPriority": 826,
   "TicketPriorities": [
-    977,
-    182
+    238,
+    825
   ],
-  "ReplyTemplate": 363,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 184,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldType": "System.Int32",
+      "FieldLength": 550
     }
   }
 }

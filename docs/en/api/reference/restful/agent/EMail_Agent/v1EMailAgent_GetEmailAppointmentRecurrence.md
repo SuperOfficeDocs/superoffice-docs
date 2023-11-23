@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 139
+  "MailItemId": 221
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 370,
-  "StartDate": "2013-07-30T03:24:47.7207759+02:00",
-  "EndDate": "2000-01-29T03:24:47.7207759+01:00",
-  "RecurrenceCounter": 928,
+  "RecurrenceId": 982,
+  "StartDate": "2011-08-09T13:38:13.5302438+02:00",
+  "EndDate": "2014-10-05T13:38:13.5302438+02:00",
+  "RecurrenceCounter": 404,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2002-12-20T03:24:47.7207759+01:00",
+      "Date": "2002-10-19T13:38:13.5302438+02:00",
       "IsConflict": false,
-      "Description": "Exclusive regional methodology",
-      "DescriptionStyleHint": "Synergistic user-facing intranet",
-      "Tooltip": "dolorum"
+      "Description": "Self-enabling demand-driven leverage",
+      "DescriptionStyleHint": "De-engineered mobile success",
+      "Tooltip": "aut"
     },
     {
-      "Date": "2002-12-20T03:24:47.7207759+01:00",
+      "Date": "2002-10-19T13:38:13.5302438+02:00",
       "IsConflict": false,
-      "Description": "Exclusive regional methodology",
-      "DescriptionStyleHint": "Synergistic user-facing intranet",
-      "Tooltip": "dolorum"
+      "Description": "Self-enabling demand-driven leverage",
+      "DescriptionStyleHint": "De-engineered mobile success",
+      "Tooltip": "aut"
     }
   ],
   "IsRecurrence": false

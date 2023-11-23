@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 631,
+  "LatestKnownEventId": 423,
   "PublishEvents": [
     {
-      "EventId": 579,
-      "EventName": "Sipes-Welch",
-      "EntityType": "saepe",
-      "EntityKey": 945,
-      "AssociateId": 355,
-      "AssociateName": "Aufderhar-Mitchell",
-      "EventDateTime": "1997-10-14T03:24:48.5966823+02:00"
+      "EventId": 911,
+      "EventName": "Wilderman-Block",
+      "EntityType": "in",
+      "EntityKey": 50,
+      "AssociateId": 150,
+      "AssociateName": "Kuhlman Inc and Sons",
+      "EventDateTime": "2005-10-21T13:38:14.4052895+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Nikolaus, Fay and Leuschke",
-      "Value": 454
+      "Name": "Langworth, Stark and Blick",
+      "Value": 716
     },
     {
-      "Name": "Nikolaus, Fay and Leuschke",
-      "Value": 454
+      "Name": "Langworth, Stark and Blick",
+      "Value": 716
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 662,
-    "EventName": "Hayes LLC",
-    "EntityType": "molestias",
-    "EntityKey": 754,
-    "AssociateId": 62,
-    "AssociateName": "Hilpert-Pouros",
-    "EventDateTime": "2015-10-31T03:24:48.5966823+01:00",
+    "EventId": 715,
+    "EventName": "Wisozk LLC",
+    "EntityType": "eveniet",
+    "EntityKey": 466,
+    "AssociateId": 395,
+    "AssociateName": "Willms-Wunsch",
+    "EventDateTime": "2014-05-22T13:38:14.4052895+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldType": "System.String",
+        "FieldLength": 655
       }
     }
   }

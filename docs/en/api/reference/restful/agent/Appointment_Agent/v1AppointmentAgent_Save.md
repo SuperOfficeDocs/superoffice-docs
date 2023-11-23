@@ -107,7 +107,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -134,7 +135,7 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -157,125 +158,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-11-16T03:24:47.1114653+01:00",
-  "AppointmentId": 670,
-  "Description": "Adaptive clear-thinking core",
-  "StartDate": "2003-08-30T03:24:47.1114653+02:00",
-  "EndDate": "2007-08-29T03:24:47.1114653+02:00",
+  "CreatedDate": "2012-03-29T13:38:12.9521841+02:00",
+  "AppointmentId": 451,
+  "Description": "Diverse systemic function",
+  "StartDate": "2023-04-04T13:38:12.9521841+02:00",
+  "EndDate": "2004-10-27T13:38:12.9521841+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 153,
+  "MotherId": 522,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-01-05T03:24:47.1114653+01:00",
+  "UpdatedDate": "2001-02-08T13:38:12.9521841+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 560,
+  "ActiveLinks": 877,
   "Links": [
     {
-      "EntityName": "Kreiger-White",
-      "Id": 754,
-      "Description": "Optional optimal help-desk",
-      "ExtraInfo": "quia",
-      "LinkId": 375,
+      "EntityName": "Kiehn-Mohr",
+      "Id": 798,
+      "Description": "Sharable bi-directional budgetary management",
+      "ExtraInfo": "dolorum",
+      "LinkId": 119,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 318
         }
       }
     }
   ],
-  "AlarmLeadTime": "earum",
-  "HasAlarm": false,
-  "ColorIndex": 862,
-  "IsFree": false,
+  "AlarmLeadTime": "voluptas",
+  "HasAlarm": true,
+  "ColorIndex": 737,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "qui",
-  "LeadTime": "dicta",
-  "Location": "et",
-  "RejectCounter": 230,
+  "LagTime": "dolorem",
+  "LeadTime": "sapiente",
+  "Location": "corporis",
+  "RejectCounter": 891,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 195,
-      "PersonId": 767,
-      "ContactId": 671,
-      "EmailId": 919,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 195,
-      "PersonId": 767,
-      "ContactId": 671,
-      "EmailId": 919,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 70,
+      "PersonId": 756,
+      "ContactId": 83,
+      "EmailId": 281,
+      "SendEmail": false,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "davion_huels@schroederrussel.name",
+      "Description": "Multi-layered assymetric local area network"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-09-16T03:24:47.1114653+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2007-10-15T13:38:12.9521841+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 143,
+  "PreferredTZLocation": 293,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 337,
+  "SuggestedAppointmentId": 374,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "reiciendis",
-  "Title": "beatae",
-  "Agenda": "blanditiis",
-  "InternalNotes": "provident",
+  "CentralserviceVideomeetId": "dolor",
+  "Title": "accusantium",
+  "Agenda": "esse",
+  "InternalNotes": "libero",
   "UserDefinedFields": {
-    "SuperOffice:1": "Genoveva Schneider Jr.",
-    "SuperOffice:2": "650897835"
+    "SuperOffice:1": "Brody Crist",
+    "SuperOffice:2": "Dr. Ward Beahan"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "sequi",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "quis",
+    "CustomFields2": "nemo"
   },
-  "PublishEventDate": "2019-03-06T03:24:47.1114653+01:00",
-  "PublishTo": "2001-03-26T03:24:47.1114653+02:00",
-  "PublishFrom": "2004-06-05T03:24:47.1114653+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-03-31T13:38:12.9521841+02:00",
+  "PublishTo": "2013-10-14T13:38:12.9521841+02:00",
+  "PublishFrom": "2021-05-21T13:38:12.9521841+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 208,
+      "VisibleId": 698,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     },
     {
-      "VisibleId": 208,
+      "VisibleId": 698,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     }
@@ -285,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldLength": 891
     }
   }
 }

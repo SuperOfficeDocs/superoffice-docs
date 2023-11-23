@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=dolor
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=nesciunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Hilpert, Lemke and Hyatt",
-    "ToolTip": "Eligendi aut mollitia.",
-    "Deleted": false,
-    "Rank": 605,
-    "Type": "molestiae",
+    "Id": 213,
+    "Name": "Stiedemann, Hilll and Bailey",
+    "ToolTip": "Tempore vitae qui architecto.",
+    "Deleted": true,
+    "Rank": 364,
+    "Type": "at",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Okuneva, Wiza and Haag",
-        "ToolTip": "Dolore laborum.",
+        "Id": 706,
+        "Name": "Larson-Schmeler",
+        "ToolTip": "Voluptates porro ut quae et.",
         "Deleted": false,
-        "Rank": 845,
-        "Type": "doloremque",
+        "Rank": 373,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 507,
-        "ExtraInfo": "cumque",
-        "StyleHint": "qui",
-        "FullName": "Miss Roel Volkman I",
+        "IconHint": "cum",
+        "ColorBlock": 420,
+        "ExtraInfo": "similique",
+        "StyleHint": "velit",
+        "FullName": "Saige Armstrong",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 71
+            "FieldLength": 476
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 968,
-    "ExtraInfo": "quae",
-    "StyleHint": "incidunt",
-    "FullName": "Miss Adrain Bosco V",
+    "IconHint": "beatae",
+    "ColorBlock": 724,
+    "ExtraInfo": "aut",
+    "StyleHint": "asperiores",
+    "FullName": "Helene Hayes V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 690
       }
     }
   }

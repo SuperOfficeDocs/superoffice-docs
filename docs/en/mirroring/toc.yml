@@ -13,8 +13,8 @@ items:
   href: mirroring-task.md
 - name: Change tracking
   href: change-tracking.md
-- name: Blacklist tables
-  href: skip-tables.md
+- name: Blocked tables
+  href: blocked-tables.md
 - name: SQL server schema
   href: sql-server-schema.md
 - name: Getting started
@@ -29,3 +29,5 @@ items:
   href: force-resync.md
 - name: Troubleshooting
   href: troubleshooting.md
+- name: (legacy) Skipped tables
+  href: skip-tables.md

@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 23
+  "SelectionId": 336
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Davis LLC",
-    "Description": "Down-sized radical function",
-    "Rank": 919,
+    "Name": "Runolfsson, Gislason and Heathcote",
+    "Description": "Digitized web-enabled challenge",
+    "Rank": 214,
     "Restrictions": [
       {
-        "Name": "West Inc and Sons",
-        "Operator": "est",
+        "Name": "Lindgren-Torp",
+        "Operator": "vero",
         "Values": [
           "qui",
-          "repudiandae"
+          "numquam"
         ],
         "DisplayValues": [
-          "aliquid",
-          "quas"
+          "corrupti",
+          "natus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 920,
+        "InterParenthesis": 436,
         "InterOperator": "And",
-        "UniqueHash": 360
+        "UniqueHash": 201
       }
     ]
   },
   {
-    "Name": "Davis LLC",
-    "Description": "Down-sized radical function",
-    "Rank": 919,
+    "Name": "Runolfsson, Gislason and Heathcote",
+    "Description": "Digitized web-enabled challenge",
+    "Rank": 214,
     "Restrictions": [
       {
-        "Name": "West Inc and Sons",
-        "Operator": "est",
+        "Name": "Lindgren-Torp",
+        "Operator": "vero",
         "Values": [
           "qui",
-          "repudiandae"
+          "numquam"
         ],
         "DisplayValues": [
-          "aliquid",
-          "quas"
+          "corrupti",
+          "natus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 920,
+        "InterParenthesis": 436,
         "InterOperator": "And",
-        "UniqueHash": 360
+        "UniqueHash": 201
       }
     ]
   }

@@ -248,6 +248,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IListAgent'>Lis
 * [GetWebPanelEntity](getwebpanelentity.md)
 * [GetWebPanelList](getwebpanellist.md)
 * [GlobalChangeTicketStatus](globalchangeticketstatus.md)
+* [GlobalChangeTicketType](globalchangetickettype.md)
 * [MoveAllTickets](movealltickets.md)
 * [MoveListItem](movelistitem.md)
 * [RebuildFullnames](rebuildfullnames.md)

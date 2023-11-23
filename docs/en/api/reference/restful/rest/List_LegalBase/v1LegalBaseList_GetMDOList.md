@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=est
+GET /api/v1/List/LegalBase/MDOItems?query=ut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 794,
-    "Name": "Schultz LLC",
-    "ToolTip": "Quaerat expedita dolor autem ex non.",
-    "Deleted": false,
-    "Rank": 263,
-    "Type": "rerum",
+    "Id": 274,
+    "Name": "Collins-Volkman",
+    "ToolTip": "Aut perferendis.",
+    "Deleted": true,
+    "Rank": 447,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Wiza Inc and Sons",
-        "ToolTip": "Fugiat inventore sapiente suscipit.",
+        "Id": 726,
+        "Name": "Schultz-Ritchie",
+        "ToolTip": "Molestiae soluta cum.",
         "Deleted": false,
-        "Rank": 856,
-        "Type": "qui",
+        "Rank": 359,
+        "Type": "numquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 679,
-        "ExtraInfo": "enim",
-        "StyleHint": "id",
-        "FullName": "Prof. Francis Krajcik",
+        "IconHint": "error",
+        "ColorBlock": 54,
+        "ExtraInfo": "in",
+        "StyleHint": "quo",
+        "FullName": "Miss Matilda Jameson Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 139
+            "FieldLength": 310
           }
         }
       }
     ],
-    "IconHint": "inventore",
-    "ColorBlock": 806,
-    "ExtraInfo": "libero",
-    "StyleHint": "aliquid",
-    "FullName": "Mrs. Rahsaan Melyna Yundt",
+    "IconHint": "aspernatur",
+    "ColorBlock": 165,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "quisquam",
+    "FullName": "Anjali Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 741
+        "FieldLength": 158
       }
     }
   }

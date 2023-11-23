@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 662,
-  "Name": "Robel, Greenfelder and Pfeffer",
-  "Tooltip": "suscipit",
+  "Id": 547,
+  "Name": "Ebert Inc and Sons",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 149,
-  "Rank": 818
+  "UdListDefinitionId": 725,
+  "Rank": 643
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 751,
-  "Name": "Price Inc and Sons",
-  "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 531,
-  "Rank": 603,
+  "Id": 577,
+  "Name": "Lang, Ullrich and Cartwright",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 522,
+  "Rank": 243,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldLength": 177
     }
   }
 }

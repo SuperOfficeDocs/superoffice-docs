@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=qui
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?query=tempore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Cartwright Group",
-    "ToolTip": "Minima qui earum dignissimos corporis.",
+    "Id": 152,
+    "Name": "Swift Inc and Sons",
+    "ToolTip": "Voluptas ut maxime accusantium labore unde nostrum est.",
     "Deleted": false,
-    "Rank": 841,
-    "Type": "omnis",
+    "Rank": 408,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 56,
-        "Name": "Swift, Leannon and Hane",
-        "ToolTip": "Modi iure modi et eos et at alias.",
+        "Id": 549,
+        "Name": "Ernser, Emmerich and Bernier",
+        "ToolTip": "Minima perspiciatis non sunt quibusdam.",
         "Deleted": true,
-        "Rank": 463,
-        "Type": "explicabo",
+        "Rank": 777,
+        "Type": "temporibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 919,
-        "ExtraInfo": "ad",
-        "StyleHint": "alias",
-        "FullName": "Lilla Wehner",
+        "IconHint": "aut",
+        "ColorBlock": 873,
+        "ExtraInfo": "perferendis",
+        "StyleHint": "aspernatur",
+        "FullName": "Abdullah Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldType": "System.String",
+            "FieldLength": 252
           }
         }
       }
     ],
-    "IconHint": "perferendis",
-    "ColorBlock": 709,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "occaecati",
-    "FullName": "Freddie Von",
+    "IconHint": "et",
+    "ColorBlock": 731,
+    "ExtraInfo": "expedita",
+    "StyleHint": "nemo",
+    "FullName": "Carmen Nolan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldType": "System.String",
+        "FieldLength": 849
       }
     }
   }

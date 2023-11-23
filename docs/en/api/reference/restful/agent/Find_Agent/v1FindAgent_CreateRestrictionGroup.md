@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Sawayn Inc and Sons",
-  "StorageKey": "vel",
-  "Context": "veritatis"
+  "StorageType": "nemo",
+  "ProviderName": "Wunsch-Stark",
+  "StorageKey": "non",
+  "Context": "omnis"
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Welch-Bernhard",
-  "Description": "Streamlined systemic frame",
-  "Rank": 951,
+  "Name": "Block, Dietrich and Koch",
+  "Description": "Quality-focused explicit monitoring",
+  "Rank": 322,
   "Restrictions": [
     {
-      "Name": "Quitzon-Rath",
-      "Operator": "aspernatur",
+      "Name": "Treutel Group",
+      "Operator": "unde",
       "Values": [
-        "voluptas",
-        "ab"
+        "veniam",
+        "doloremque"
       ],
       "DisplayValues": [
-        "alias",
-        "illum"
+        "eum",
+        "eum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 579,
+      "InterParenthesis": 740,
       "InterOperator": "And",
-      "UniqueHash": 424
+      "UniqueHash": 673
     }
   ]
 }

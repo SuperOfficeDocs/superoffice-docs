@@ -65,7 +65,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 325,
-    "Name": "Hammes Group",
-    "ContentType": "nostrum",
-    "AttSize": 446,
+    "AttachmentId": 93,
+    "Name": "Wuckert Inc and Sons",
+    "ContentType": "ea",
+    "AttSize": 70,
     "InlineImage": false,
-    "ContentId": "asperiores",
-    "AuthKey": "velit",
+    "ContentId": "itaque",
+    "AuthKey": "ullam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldType": "System.String",
+        "FieldLength": 825
       }
     }
   }

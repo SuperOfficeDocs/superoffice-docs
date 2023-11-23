@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=153
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=883
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 553,
-  "Name": "Dach, Rippin and Zboncak",
+  "DocumentTemplateId": 34,
+  "Name": "Corkery Group",
   "Tooltip": "quia",
-  "SaveInDb": 160,
-  "Filename": "cum",
-  "DefaultOref": "fuga",
+  "SaveInDb": 25,
+  "Filename": "quo",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 907,
-  "IntentId": 573,
+  "AutoeventId": 535,
+  "IntentId": 427,
   "IsDefaultPublished": false,
-  "Rank": 349,
-  "LoadTemplateFromPlugin": 642,
-  "MimeType": "porro",
+  "Rank": 230,
+  "LoadTemplateFromPlugin": 235,
+  "MimeType": "voluptate",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 993,
+  "DocumentTypeKey": 670,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "dameon@little.co.uk",
+  "EmailSubject": "modesto_rice@greenfelder.co.uk",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "carlos@corkery.ca",
+  "SenderEmailAddress": "ahmad.anderson@medhurst.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 939
     }
   }
 }

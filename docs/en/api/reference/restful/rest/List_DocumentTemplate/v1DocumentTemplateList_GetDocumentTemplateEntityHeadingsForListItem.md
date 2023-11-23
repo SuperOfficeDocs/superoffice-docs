@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Jakubowski Inc and Sons",
-    "ToolTip": "Tempora repellat saepe.",
+    "Id": 890,
+    "Name": "Swift Group",
+    "ToolTip": "Laboriosam et.",
     "Deleted": false,
-    "Rank": 662,
-    "Type": "numquam",
-    "ColorBlock": 182,
-    "IconHint": "nesciunt",
+    "Rank": 133,
+    "Type": "dolor",
+    "ColorBlock": 624,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2018-11-21T03:24:52.2557133+01:00",
+    "LastChanged": "1999-05-31T13:38:18.0619133+02:00",
     "ChildItems": [
       {
-        "Id": 265,
-        "Name": "Tromp Inc and Sons",
-        "ToolTip": "Reprehenderit amet et.",
+        "Id": 294,
+        "Name": "Dietrich-Murphy",
+        "ToolTip": "Est sunt deleniti natus.",
         "Deleted": false,
-        "Rank": 251,
-        "Type": "aut",
-        "ColorBlock": 178,
-        "IconHint": "aut",
+        "Rank": 639,
+        "Type": "numquam",
+        "ColorBlock": 269,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2015-09-03T03:24:52.2557133+02:00",
+        "LastChanged": "2019-09-24T13:38:18.0619133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "tempore",
-        "Hidden": true,
-        "FullName": "Ms. Alden Bethany Wehner III",
+        "ExtraInfo": "ut",
+        "StyleHint": "porro",
+        "Hidden": false,
+        "FullName": "Prof. Barry Lowe Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 966
+            "FieldLength": 71
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "et",
+    "ExtraInfo": "maiores",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Ms. Darian Sterling Rosenbaum",
+    "FullName": "Kylie Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldLength": 502
       }
     }
   }

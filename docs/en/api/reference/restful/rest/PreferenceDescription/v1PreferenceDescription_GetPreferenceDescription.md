@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 131,
-  "Section": "enim",
+  "PrefDescId": 264,
+  "Section": "molestiae",
   "Key": "aut",
-  "Name": "Kreiger-Reichel",
+  "Name": "Hodkiewicz-Leffler",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse content-based policy",
+  "Description": "Business-focused 24/7 internet solution",
   "IsBuiltin": true,
-  "TableName": "Towne, Lind and Raynor",
-  "UserDefinedListId": 631,
-  "Rank": 977,
-  "SubGroup": "qui",
-  "MinLevel": 329,
-  "MaxValue": 112,
-  "MinValue": 763,
-  "RequiredLicense": "ut",
+  "TableName": "Oberbrunner, Emard and Nicolas",
+  "UserDefinedListId": 200,
+  "Rank": 1002,
+  "SubGroup": "voluptatum",
+  "MinLevel": 133,
+  "MaxValue": 561,
+  "MinValue": 177,
+  "RequiredLicense": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 861
     }
   },
   "_Links": {

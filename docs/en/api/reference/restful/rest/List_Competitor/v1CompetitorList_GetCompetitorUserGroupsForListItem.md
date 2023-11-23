@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Hirthe LLC",
-    "ToolTip": "Quis dolorem.",
-    "Deleted": false,
-    "Rank": 165,
-    "Type": "eos",
-    "ColorBlock": 970,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "1998-12-16T03:24:52.1775959+01:00",
+    "Id": 669,
+    "Name": "Wolff, Dibbert and White",
+    "ToolTip": "Illo voluptate temporibus ipsum aut omnis.",
+    "Deleted": true,
+    "Rank": 440,
+    "Type": "ut",
+    "ColorBlock": 761,
+    "IconHint": "odit",
+    "Selected": false,
+    "LastChanged": "1997-11-04T13:38:17.9213006+01:00",
     "ChildItems": [
       {
-        "Id": 324,
-        "Name": "Pfannerstill-Huels",
-        "ToolTip": "Ut est iusto.",
-        "Deleted": false,
-        "Rank": 744,
-        "Type": "dignissimos",
-        "ColorBlock": 951,
-        "IconHint": "et",
+        "Id": 167,
+        "Name": "Kunze, Hirthe and Marvin",
+        "ToolTip": "Dolorem laudantium voluptatem et.",
+        "Deleted": true,
+        "Rank": 966,
+        "Type": "modi",
+        "ColorBlock": 504,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "1998-06-18T03:24:52.1775959+02:00",
+        "LastChanged": "2015-09-24T13:38:17.9213006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "vel",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Ms. Yadira Agustin Hamill III",
+        "FullName": "Prof. Sheridan Morar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 957
+            "FieldLength": 235
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "in",
+    "ExtraInfo": "quasi",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Karli Considine",
+    "FullName": "Dr. Willis Darwin Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 621
       }
     }
   }

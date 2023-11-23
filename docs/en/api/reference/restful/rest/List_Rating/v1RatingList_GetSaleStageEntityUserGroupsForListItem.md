@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Yost-Jast",
-    "ToolTip": "Velit et deleniti.",
+    "Id": 41,
+    "Name": "Russel-Casper",
+    "ToolTip": "Sit reprehenderit magni quasi voluptatem.",
     "Deleted": true,
-    "Rank": 382,
-    "Type": "voluptatem",
-    "ColorBlock": 743,
-    "IconHint": "commodi",
-    "Selected": true,
-    "LastChanged": "1997-01-07T03:24:52.3806958+01:00",
+    "Rank": 88,
+    "Type": "blanditiis",
+    "ColorBlock": 729,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2000-03-11T13:38:18.186902+01:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "McClure Inc and Sons",
-        "ToolTip": "Exercitationem non unde molestiae.",
-        "Deleted": false,
-        "Rank": 822,
-        "Type": "suscipit",
-        "ColorBlock": 840,
-        "IconHint": "dolores",
-        "Selected": true,
-        "LastChanged": "2007-01-04T03:24:52.3806958+01:00",
+        "Id": 648,
+        "Name": "Mitchell Group",
+        "ToolTip": "Nostrum laboriosam est.",
+        "Deleted": true,
+        "Rank": 261,
+        "Type": "magnam",
+        "ColorBlock": 492,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "1997-02-13T13:38:18.186902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "quia",
+        "ExtraInfo": "quod",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Mr. Jazmyn Alexa Kerluke",
+        "FullName": "Christophe Greenfelder IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 543
+            "FieldLength": 552
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Miss Keshaun Mann",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Nona Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 845
+        "FieldType": "System.Int32",
+        "FieldLength": 513
       }
     }
   }

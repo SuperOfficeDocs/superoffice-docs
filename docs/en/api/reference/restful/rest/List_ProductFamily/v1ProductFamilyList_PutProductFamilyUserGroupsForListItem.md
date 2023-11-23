@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Hettinger Group",
-    "ToolTip": "Vitae fugit.",
+    "Id": 569,
+    "Name": "Gottlieb-Steuber",
+    "ToolTip": "Cupiditate ea quis dolor consequatur cupiditate qui vitae.",
     "Deleted": false,
-    "Rank": 992,
-    "Type": "repellendus",
-    "ColorBlock": 277,
-    "IconHint": "neque",
-    "Selected": false,
-    "LastChanged": "2009-04-10T03:24:52.318209+02:00",
+    "Rank": 237,
+    "Type": "occaecati",
+    "ColorBlock": 827,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2006-10-17T13:38:18.1400255+02:00",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "Weimann-Lehner",
-        "ToolTip": "Unde soluta et rem aut voluptatem vel.",
-        "Deleted": false,
-        "Rank": 977,
-        "Type": "repellendus",
-        "ColorBlock": 860,
-        "IconHint": "consequatur",
+        "Id": 684,
+        "Name": "Vandervort LLC",
+        "ToolTip": "Architecto eaque est dolor aut ipsum ipsum.",
+        "Deleted": true,
+        "Rank": 655,
+        "Type": "quas",
+        "ColorBlock": 153,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2021-03-16T03:24:52.318209+01:00",
+        "LastChanged": "2001-08-25T13:38:18.1400255+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quo",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Sylvia Pfeffer DVM"
+        "FullName": "Rahsaan Maggio DVM"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Miss Luis Austin Casper Sr."
+    "ExtraInfo": "magni",
+    "StyleHint": "saepe",
+    "Hidden": false,
+    "FullName": "Kane Dickinson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 68,
-    "Name": "Reynolds-Lebsack",
-    "ToolTip": "Laudantium eveniet esse qui ipsum nemo.",
+    "Id": 850,
+    "Name": "Conn LLC",
+    "ToolTip": "Dolorem voluptas aliquid architecto odio enim et.",
     "Deleted": false,
-    "Rank": 193,
-    "Type": "nobis",
-    "ColorBlock": 255,
-    "IconHint": "quas",
-    "Selected": true,
-    "LastChanged": "2011-08-14T03:24:52.318209+02:00",
+    "Rank": 669,
+    "Type": "sit",
+    "ColorBlock": 264,
+    "IconHint": "odio",
+    "Selected": false,
+    "LastChanged": "2013-09-03T13:38:18.1400255+02:00",
     "ChildItems": [
       {
-        "Id": 971,
-        "Name": "Stoltenberg LLC",
-        "ToolTip": "Occaecati eveniet dolores.",
-        "Deleted": true,
-        "Rank": 331,
-        "Type": "facilis",
-        "ColorBlock": 756,
-        "IconHint": "temporibus",
+        "Id": 326,
+        "Name": "Krajcik, Brakus and Larkin",
+        "ToolTip": "Sed unde.",
+        "Deleted": false,
+        "Rank": 580,
+        "Type": "dolores",
+        "ColorBlock": 941,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "1997-06-22T03:24:52.318209+02:00",
+        "LastChanged": "1997-07-03T13:38:18.1400255+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "corporis",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Foster Wolf",
+        "FullName": "Miss Kayla Wiegand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 459
+            "FieldType": "System.Int32",
+            "FieldLength": 391
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "et",
+    "ExtraInfo": "quia",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Tyrel Abbott Sr.",
+    "FullName": "Dr. Vance Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 646
+        "FieldType": "System.Int32",
+        "FieldLength": 575
       }
     }
   }

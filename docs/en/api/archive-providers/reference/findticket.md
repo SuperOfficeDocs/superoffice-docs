@@ -734,7 +734,7 @@ Ticket provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindTicket?$select=realTimeSpentExternally,person/correspondingAssociate/ejStatus,person/correspondingAssociate/isActiveText,sale/salePublish/publishedFrom,project/projectUdef/SuperOffice:8
+GET /api/v1/archive/FindTicket?$select=author,createdBy/contactDepartment,person/email/emailLastSent,sale/updatedByFullName,project/projectUrl/URLAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 411,
-  "Name": "Mills, Quitzon and Cummings",
-  "AssociateId": 345,
-  "DetailsTable": 896,
-  "DetailsRecord": 783,
+  "Id": 975,
+  "Name": "Rolfson Group",
+  "AssociateId": 24,
+  "DetailsTable": 773,
+  "DetailsRecord": 546,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nesciunt",
-    "ParameterObject2": "eos"
+    "ParameterObject1": "perferendis",
+    "ParameterObject2": "aliquam"
   },
-  "LastStarted": "2022-07-18T03:24:52.0369874+02:00",
-  "Created": "2013-03-03T03:24:52.0369874+01:00",
-  "StartCount": 92,
-  "DatabaseSerialNumber": "1258304",
-  "Context": "sed",
-  "Result": "eius",
+  "LastStarted": "2003-09-16T13:38:17.7650302+02:00",
+  "Created": "1996-08-21T13:38:17.7650302+02:00",
+  "StartCount": 963,
+  "DatabaseSerialNumber": "729881",
+  "Context": "beatae",
+  "Result": "est",
   "State": "All",
-  "Description": "Adaptive demand-driven neural-net",
-  "Response": "illo",
-  "Request": "eaque",
-  "ProgressDescription": "Secured regional utilisation",
-  "ProgressPercent": 909,
-  "FileName": "Marks-Batz",
+  "Description": "Total clear-thinking protocol",
+  "Response": "est",
+  "Request": "sint",
+  "ProgressDescription": "Automated even-keeled project",
+  "ProgressPercent": 506,
+  "FileName": "Corkery-Stiedemann",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Buckridge, Koch and Prosacco",
-  "AssociateId": 649,
-  "DetailsTable": 885,
-  "DetailsRecord": 851,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 471,
+  "Name": "McDermott, Collier and Hammes",
+  "AssociateId": 56,
+  "DetailsTable": 284,
+  "DetailsRecord": 606,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "fuga",
-    "ParameterObject2": "dolor"
+    "ParameterObject1": "et",
+    "ParameterObject2": "qui"
   },
-  "LastStarted": "2006-12-19T03:24:52.0369874+01:00",
-  "Created": "2005-05-23T03:24:52.0369874+02:00",
-  "StartCount": 777,
-  "DatabaseSerialNumber": "1091865",
-  "Context": "cum",
-  "Result": "laboriosam",
+  "LastStarted": "2012-03-16T13:38:17.7650302+01:00",
+  "Created": "2003-05-05T13:38:17.7650302+02:00",
+  "StartCount": 527,
+  "DatabaseSerialNumber": "595988",
+  "Context": "totam",
+  "Result": "saepe",
   "State": "All",
-  "Description": "Streamlined object-oriented encoding",
-  "Response": "animi",
-  "Request": "itaque",
-  "ProgressDescription": "Distributed bi-directional groupware",
-  "ProgressPercent": 791,
-  "FileName": "Streich, Windler and Bernier",
+  "Description": "Optional 24 hour algorithm",
+  "Response": "omnis",
+  "Request": "eos",
+  "ProgressDescription": "Extended context-sensitive definition",
+  "ProgressPercent": 128,
+  "FileName": "Borer Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldLength": 539
     }
   }
 }

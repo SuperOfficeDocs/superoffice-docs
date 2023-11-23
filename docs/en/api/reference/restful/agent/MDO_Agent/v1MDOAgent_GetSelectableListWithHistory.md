@@ -91,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rath, Daugherty and Becker",
+  "Name": "Hermann-Crona",
   "ForceFlatList": false,
-  "AdditionalInfo": "fugit",
+  "AdditionalInfo": "error",
   "HistoryItems": [
-    858,
-    469
+    6,
+    604
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Dicki, Funk and Lynch",
-    "ToolTip": "Cum aspernatur ut deleniti voluptatibus est.",
+    "Id": 548,
+    "Name": "Heidenreich LLC",
+    "ToolTip": "Qui ipsum quae.",
     "Deleted": false,
-    "Rank": 517,
-    "Type": "consequatur",
-    "ColorBlock": 826,
-    "IconHint": "non",
+    "Rank": 356,
+    "Type": "esse",
+    "ColorBlock": 482,
+    "IconHint": "fugit",
     "Selected": true,
-    "LastChanged": "2017-03-11T03:24:47.9395013+01:00",
+    "LastChanged": "2020-08-04T13:38:13.7333439+02:00",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Williamson, Emard and Reichert",
-        "ToolTip": "Culpa harum maxime ut soluta facilis exercitationem.",
-        "Deleted": false,
-        "Rank": 774,
-        "Type": "sed",
-        "ColorBlock": 645,
-        "IconHint": "assumenda",
-        "Selected": true,
-        "LastChanged": "2005-03-29T03:24:47.9395013+02:00",
+        "Id": 130,
+        "Name": "Pouros, D'Amore and Kovacek",
+        "ToolTip": "Quod explicabo voluptas in expedita dolor vel.",
+        "Deleted": true,
+        "Rank": 666,
+        "Type": "dolores",
+        "ColorBlock": 197,
+        "IconHint": "quam",
+        "Selected": false,
+        "LastChanged": "1997-05-05T13:38:13.7333439+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
+        "ExtraInfo": "molestiae",
         "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Nikita Walsh",
+        "FullName": "Miss Tristian Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldLength": 51
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Saul Corwin",
+    "ExtraInfo": "et",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Felicita Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 776
+        "FieldLength": 367
       }
     }
   }

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 325,
-  "Name": "Williamson Inc and Sons",
-  "AssociateId": 147,
-  "DetailsTable": 818,
-  "DetailsRecord": 631,
+  "Id": 332,
+  "Name": "Kreiger, Shields and Hyatt",
+  "AssociateId": 298,
+  "DetailsTable": 684,
+  "DetailsRecord": 4,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "voluptatem",
-    "ParameterObject2": "dolorem"
+    "ParameterObject1": "rerum",
+    "ParameterObject2": "dignissimos"
   },
-  "LastStarted": "1999-01-25T03:24:47.8301403+01:00",
-  "Created": "1998-10-24T03:24:47.8301403+02:00",
-  "StartCount": 706,
-  "DatabaseSerialNumber": "1101607",
-  "Context": "nisi",
-  "Result": "dolorum",
+  "LastStarted": "2015-02-09T13:38:13.6396102+01:00",
+  "Created": "1998-11-30T13:38:13.6396102+01:00",
+  "StartCount": 147,
+  "DatabaseSerialNumber": "671405",
+  "Context": "assumenda",
+  "Result": "placeat",
   "State": "All",
-  "Description": "Mandatory cohesive success",
-  "Response": "laboriosam",
-  "Request": "sunt",
-  "ProgressDescription": "Automated contextually-based capability",
-  "ProgressPercent": 374,
-  "FileName": "Gorczany-Dare",
+  "Description": "Synergistic upward-trending matrices",
+  "Response": "enim",
+  "Request": "et",
+  "ProgressDescription": "Persevering dynamic open system",
+  "ProgressPercent": 250,
+  "FileName": "Beer Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 491
     }
   }
 }

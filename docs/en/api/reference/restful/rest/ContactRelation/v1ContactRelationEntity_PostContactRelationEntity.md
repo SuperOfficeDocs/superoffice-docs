@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 773,
-  "SourcePersonId": 145,
-  "DestinationContactId": 513,
-  "DestinationPersonId": 195,
-  "RelationId": 460,
-  "Comment": "dolorem",
-  "RelationDefinitionId": 354,
-  "Reversed": 798,
-  "UpdatedDate": "2000-10-13T03:24:51.5368575+02:00",
-  "CreatedDate": "2019-10-17T03:24:51.5368575+02:00",
+  "SourceContactId": 180,
+  "SourcePersonId": 569,
+  "DestinationContactId": 377,
+  "DestinationPersonId": 456,
+  "RelationId": 419,
+  "Comment": "eius",
+  "RelationDefinitionId": 494,
+  "Reversed": 876,
+  "UpdatedDate": "1998-09-10T13:38:17.280593+02:00",
+  "CreatedDate": "2013-12-26T13:38:17.280593+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Larson, Cronin and Batz",
-  "SourcePersonName": "Rath, Nicolas and Mraz",
-  "DestinationContactName": "Kilback Group",
-  "DestinationPersonName": "Ankunding, Lesch and Larkin",
-  "ActiveText": "facilis",
-  "PassiveText": "occaecati"
+  "SourceContactName": "Block, Kerluke and Howe",
+  "SourcePersonName": "Romaguera, Weissnat and Rohan",
+  "DestinationContactName": "Smith LLC",
+  "DestinationPersonName": "Goodwin LLC",
+  "ActiveText": "laudantium",
+  "PassiveText": "architecto"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 525,
-  "SourcePersonId": 702,
-  "DestinationContactId": 594,
-  "DestinationPersonId": 133,
-  "RelationId": 794,
-  "Comment": "a",
-  "RelationDefinitionId": 992,
-  "Reversed": 568,
-  "UpdatedDate": "2008-07-11T03:24:51.5368575+02:00",
-  "CreatedDate": "2015-01-12T03:24:51.5368575+01:00",
+  "SourceContactId": 461,
+  "SourcePersonId": 795,
+  "DestinationContactId": 410,
+  "DestinationPersonId": 443,
+  "RelationId": 965,
+  "Comment": "et",
+  "RelationDefinitionId": 984,
+  "Reversed": 611,
+  "UpdatedDate": "2019-12-19T13:38:17.280593+01:00",
+  "CreatedDate": "2008-11-10T13:38:17.280593+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Wunsch, Feil and Greenfelder",
-  "SourcePersonName": "Kertzmann Group",
-  "DestinationContactName": "Sauer, Stehr and Douglas",
-  "DestinationPersonName": "Stehr, Rempel and Leuschke",
-  "ActiveText": "eos",
-  "PassiveText": "nesciunt",
+  "SourceContactName": "Veum-Bashirian",
+  "SourcePersonName": "Rodriguez Group",
+  "DestinationContactName": "Jacobson Group",
+  "DestinationPersonName": "Robel-Flatley",
+  "ActiveText": "et",
+  "PassiveText": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldLength": 189
     }
   },
   "_Links": {

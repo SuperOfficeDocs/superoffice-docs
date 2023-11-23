@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=147
+POST /api/v1/Agents/Person/GetPerson?personId=808
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "dolore",
-  "PersonId": 946,
-  "Mrmrs": "dolor",
-  "Firstname": "Denis",
-  "Lastname": "Conroy",
-  "MiddleName": "Effertz LLC",
-  "Title": "ut",
-  "Description": "Stand-alone responsive function",
-  "Email": "clair@mckenzie.us",
-  "FullName": "Ms. Josianne Nadia Feest",
-  "DirectPhone": "126-912-4123",
-  "FormalName": "Botsford-Will",
-  "CountryId": 37,
-  "ContactId": 831,
-  "ContactName": "Keeling LLC",
-  "Retired": 862,
-  "Rank": 674,
-  "ActiveInterests": 347,
-  "ContactDepartment": "engage cross-platform infrastructures",
-  "ContactCountryId": 673,
-  "ContactOrgNr": "1509296",
-  "FaxPhone": "1-096-243-7013",
-  "MobilePhone": "473.574.4653",
-  "ContactPhone": "(959)105-5646 x931",
-  "AssociateName": "Purdy-Bergnaum",
-  "AssociateId": 236,
+  "Position": "ad",
+  "PersonId": 42,
+  "Mrmrs": "voluptatem",
+  "Firstname": "Mose",
+  "Lastname": "Bradtke",
+  "MiddleName": "Hyatt-Macejkovic",
+  "Title": "sit",
+  "Description": "Balanced encompassing emulation",
+  "Email": "edmond_dietrich@auer.uk",
+  "FullName": "Gail Christiansen",
+  "DirectPhone": "(018)839-0577 x49911",
+  "FormalName": "Nolan-Flatley",
+  "CountryId": 24,
+  "ContactId": 101,
+  "ContactName": "Hoppe Inc and Sons",
+  "Retired": 433,
+  "Rank": 748,
+  "ActiveInterests": 707,
+  "ContactDepartment": "",
+  "ContactCountryId": 338,
+  "ContactOrgNr": "1226973",
+  "FaxPhone": "413-853-1938 x2640",
+  "MobilePhone": "228-696-3953",
+  "ContactPhone": "529-429-8558",
+  "AssociateName": "Spencer, Heathcote and Deckow",
+  "AssociateId": 302,
   "UsePersonAddress": false,
-  "ContactFax": "libero",
-  "Kanafname": "dolores",
-  "Kanalname": "fugit",
-  "Post1": "optio",
-  "Post2": "adipisci",
-  "Post3": "pariatur",
-  "EmailName": "kelley@millerruecker.ca",
-  "ContactFullName": "Ambrose Stehr",
-  "ActiveErpLinks": 47,
-  "TicketPriorityId": 205,
-  "SupportLanguageId": 961,
-  "SupportAssociateId": 349,
+  "ContactFax": "eligendi",
+  "Kanafname": "velit",
+  "Kanalname": "animi",
+  "Post1": "odit",
+  "Post2": "deleniti",
+  "Post3": "omnis",
+  "EmailName": "kristofer_runolfsson@gerlachwelch.uk",
+  "ContactFullName": "Mireille King",
+  "ActiveErpLinks": 930,
+  "TicketPriorityId": 828,
+  "SupportLanguageId": 950,
+  "SupportAssociateId": 173,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 426
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/List/GetPluginList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "unde",
-  "2": "et"
+  "1": "aliquam",
+  "2": "eum"
 }
 ```

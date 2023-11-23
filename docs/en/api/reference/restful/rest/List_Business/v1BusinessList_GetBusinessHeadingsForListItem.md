@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Gleason-Senger",
-    "ToolTip": "Recusandae et et rem.",
-    "Deleted": true,
-    "Rank": 428,
-    "Type": "error",
-    "ColorBlock": 422,
-    "IconHint": "quos",
+    "Id": 557,
+    "Name": "Rosenbaum, Boyer and Lakin",
+    "ToolTip": "Voluptatibus est aut cupiditate praesentium minus est autem.",
+    "Deleted": false,
+    "Rank": 521,
+    "Type": "voluptas",
+    "ColorBlock": 260,
+    "IconHint": "laborum",
     "Selected": true,
-    "LastChanged": "2022-02-26T03:24:52.1619753+01:00",
+    "LastChanged": "2008-03-07T13:38:17.9056813+01:00",
     "ChildItems": [
       {
-        "Id": 295,
-        "Name": "Rice-Donnelly",
-        "ToolTip": "Libero at temporibus.",
-        "Deleted": false,
-        "Rank": 907,
-        "Type": "numquam",
-        "ColorBlock": 749,
-        "IconHint": "pariatur",
-        "Selected": false,
-        "LastChanged": "2020-06-14T03:24:52.1619753+02:00",
+        "Id": 562,
+        "Name": "Price Inc and Sons",
+        "ToolTip": "Eum est maiores quisquam mollitia vel est.",
+        "Deleted": true,
+        "Rank": 146,
+        "Type": "consequatur",
+        "ColorBlock": 799,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2017-10-28T13:38:17.9056813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "earum",
-        "Hidden": false,
-        "FullName": "Litzy Brakus",
+        "ExtraInfo": "est",
+        "StyleHint": "occaecati",
+        "Hidden": true,
+        "FullName": "Linnie Fay PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 827
+            "FieldLength": 200
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "ab",
+    "ExtraInfo": "et",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Jasmin Corkery",
+    "FullName": "Marvin Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 477
       }
     }
   }

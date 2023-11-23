@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Runte-Fadel",
-    "ToolTip": "Eos est.",
+    "Id": 191,
+    "Name": "Maggio-Hoeger",
+    "ToolTip": "Nulla maxime qui fugiat adipisci et.",
     "Deleted": false,
-    "Rank": 333,
-    "Type": "dolores",
-    "ColorBlock": 694,
-    "IconHint": "incidunt",
+    "Rank": 608,
+    "Type": "ut",
+    "ColorBlock": 557,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2010-05-17T03:24:52.3494474+02:00",
+    "LastChanged": "2014-03-28T13:38:18.1556538+01:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Turcotte, Senger and Sauer",
-        "ToolTip": "Natus impedit ex molestiae eos non.",
+        "Id": 882,
+        "Name": "Brakus, Fritsch and Anderson",
+        "ToolTip": "Ut et autem dolorem quaerat.",
         "Deleted": false,
-        "Rank": 317,
-        "Type": "ipsam",
-        "ColorBlock": 253,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2007-10-07T03:24:52.3494474+02:00",
+        "Rank": 736,
+        "Type": "culpa",
+        "ColorBlock": 157,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "2017-12-07T13:38:18.1556538+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "laborum",
-        "Hidden": false,
-        "FullName": "Oleta Bogan",
+        "ExtraInfo": "optio",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Madaline Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 180
+            "FieldLength": 686
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "incidunt",
-    "Hidden": true,
-    "FullName": "Adrian Champlin",
+    "ExtraInfo": "itaque",
+    "StyleHint": "voluptate",
+    "Hidden": false,
+    "FullName": "Dr. Jevon Cristina Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldType": "System.String",
+        "FieldLength": 462
       }
     }
   }

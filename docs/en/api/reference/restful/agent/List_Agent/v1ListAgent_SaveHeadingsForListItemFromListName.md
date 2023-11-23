@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Koch LLC",
-  "ListItemId": 616,
+  "UdListDefinitionName": "Kozey, Lebsack and Toy",
+  "ListItemId": 59,
   "Headings": [
     {
-      "Id": 561,
-      "Name": "Herman, Marquardt and Emmerich",
-      "ToolTip": "Praesentium animi.",
+      "Id": 832,
+      "Name": "Rutherford, Farrell and Johnston",
+      "ToolTip": "Odio quos.",
       "Deleted": false,
-      "Rank": 272,
-      "Type": "quod",
-      "ColorBlock": 293,
-      "IconHint": "in",
+      "Rank": 214,
+      "Type": "dolor",
+      "ColorBlock": 731,
+      "IconHint": "dolore",
       "Selected": true,
-      "LastChanged": "2020-03-13T03:24:47.8770078+01:00",
+      "LastChanged": "2019-02-14T13:38:13.6864749+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "sint",
-      "Hidden": true,
-      "FullName": "Anahi Nikolaus"
+      "ExtraInfo": "unde",
+      "StyleHint": "nulla",
+      "Hidden": false,
+      "FullName": "Tomasa Denesik I"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Runolfsson Inc and Sons",
-    "ToolTip": "In animi quia excepturi magni ut a vitae.",
-    "Deleted": true,
-    "Rank": 446,
-    "Type": "voluptas",
-    "ColorBlock": 963,
-    "IconHint": "quibusdam",
+    "Id": 774,
+    "Name": "Langworth, Schaefer and Hilll",
+    "ToolTip": "Qui et eaque aut consequuntur.",
+    "Deleted": false,
+    "Rank": 987,
+    "Type": "eos",
+    "ColorBlock": 331,
+    "IconHint": "illo",
     "Selected": false,
-    "LastChanged": "2011-12-01T03:24:47.8770078+01:00",
+    "LastChanged": "2012-04-04T13:38:13.6864749+02:00",
     "ChildItems": [
       {
-        "Id": 494,
-        "Name": "Jerde-Osinski",
-        "ToolTip": "Nam earum autem velit.",
-        "Deleted": true,
-        "Rank": 264,
-        "Type": "illum",
-        "ColorBlock": 831,
+        "Id": 33,
+        "Name": "Dickens Inc and Sons",
+        "ToolTip": "Expedita quis inventore dolorum et tenetur hic.",
+        "Deleted": false,
+        "Rank": 262,
+        "Type": "eos",
+        "ColorBlock": 967,
         "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "1999-05-09T03:24:47.8770078+02:00",
+        "LastChanged": "1999-03-26T13:38:13.6864749+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "earum",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "tenetur",
         "Hidden": true,
-        "FullName": "Geovanny Gorczany",
+        "FullName": "Mr. Scot Willie Harris DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 221
+            "FieldLength": 786
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "tempore",
+    "ExtraInfo": "et",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Miss Aaron DuBuque DVM",
+    "FullName": "Mrs. Bethel Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldType": "System.Int32",
+        "FieldLength": 572
       }
     }
   }

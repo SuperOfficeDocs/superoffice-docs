@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 352,
-  "Name": "D'Amore Group",
-  "Tooltip": "labore",
-  "Deleted": false,
-  "UdListDefinitionId": 273,
-  "Rank": 760
+  "Id": 908,
+  "Name": "Tremblay-Weissnat",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "UdListDefinitionId": 791,
+  "Rank": 735
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 82,
-  "Name": "Barton LLC",
-  "Tooltip": "nihil",
+  "Id": 428,
+  "Name": "Lubowitz, Reynolds and Larson",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 605,
-  "Rank": 850,
+  "UdListDefinitionId": 493,
+  "Rank": 578,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 919
+      "FieldLength": 80
     }
   }
 }

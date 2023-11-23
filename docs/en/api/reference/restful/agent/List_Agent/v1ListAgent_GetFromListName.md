@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "UdListDefinitionName": "Beahan LLC"
+  "Id": 764,
+  "UdListDefinitionName": "Olson-Yundt"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 170,
-  "Name": "Beer, Kub and Koelpin",
-  "Tooltip": "exercitationem",
-  "Deleted": true,
-  "UdListDefinitionId": 469,
-  "Rank": 555,
+  "Id": 770,
+  "Name": "Abernathy-Littel",
+  "Tooltip": "iste",
+  "Deleted": false,
+  "UdListDefinitionId": 660,
+  "Rank": 759,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

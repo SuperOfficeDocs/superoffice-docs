@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wiegand-Berge",
-    "Description": "Extended non-volatile workforce",
-    "Rank": 135,
+    "Name": "Rice, Runolfsson and Kuvalis",
+    "Description": "Networked responsive productivity",
+    "Rank": 156,
     "Restrictions": [
       {
-        "Name": "Marquardt Inc and Sons",
-        "Operator": "occaecati",
+        "Name": "Kiehn-Waelchi",
+        "Operator": "odit",
         "Values": [
-          "qui",
-          "qui"
+          "vero",
+          "eos"
         ],
         "DisplayValues": [
-          "quis",
-          "eaque"
+          "error",
+          "sed"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 879,
+        "InterParenthesis": 950,
         "InterOperator": "And",
-        "UniqueHash": 218
+        "UniqueHash": 345
       }
     ]
   },
   {
-    "Name": "Wiegand-Berge",
-    "Description": "Extended non-volatile workforce",
-    "Rank": 135,
+    "Name": "Rice, Runolfsson and Kuvalis",
+    "Description": "Networked responsive productivity",
+    "Rank": 156,
     "Restrictions": [
       {
-        "Name": "Marquardt Inc and Sons",
-        "Operator": "occaecati",
+        "Name": "Kiehn-Waelchi",
+        "Operator": "odit",
         "Values": [
-          "qui",
-          "qui"
+          "vero",
+          "eos"
         ],
         "DisplayValues": [
-          "quis",
-          "eaque"
+          "error",
+          "sed"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 879,
+        "InterParenthesis": 950,
         "InterOperator": "And",
-        "UniqueHash": 218
+        "UniqueHash": 345
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McCullough, Grimes and Hodkiewicz",
-    "Description": "Fully-configurable non-volatile focus group",
-    "Rank": 471,
+    "Name": "Hirthe LLC",
+    "Description": "Monitored next generation customer loyalty",
+    "Rank": 780,
     "Restrictions": [
       {
-        "Name": "Huels, Schneider and McLaughlin",
-        "Operator": "et",
+        "Name": "Kling-Jacobson",
+        "Operator": "consectetur",
         "Values": [
-          "corporis",
-          "molestiae"
+          "voluptates",
+          "inventore"
         ],
         "DisplayValues": [
-          "fugit",
-          "quos"
+          "cumque",
+          "laboriosam"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 711,
+        "InterParenthesis": 183,
         "InterOperator": "And",
-        "UniqueHash": 690
+        "UniqueHash": 966
       }
     ]
   },
   {
-    "Name": "McCullough, Grimes and Hodkiewicz",
-    "Description": "Fully-configurable non-volatile focus group",
-    "Rank": 471,
+    "Name": "Hirthe LLC",
+    "Description": "Monitored next generation customer loyalty",
+    "Rank": 780,
     "Restrictions": [
       {
-        "Name": "Huels, Schneider and McLaughlin",
-        "Operator": "et",
+        "Name": "Kling-Jacobson",
+        "Operator": "consectetur",
         "Values": [
-          "corporis",
-          "molestiae"
+          "voluptates",
+          "inventore"
         ],
         "DisplayValues": [
-          "fugit",
-          "quos"
+          "cumque",
+          "laboriosam"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 711,
+        "InterParenthesis": 183,
         "InterOperator": "And",
-        "UniqueHash": 690
+        "UniqueHash": 966
       }
     ]
   }

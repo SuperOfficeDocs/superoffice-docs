@@ -119,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -135,11 +136,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 924,
+  "PersonId": 242,
   "IncludeProjectAppointments": false,
-  "StartTime": "1999-07-20T03:24:47.220828+02:00",
-  "EndTime": "2015-09-26T03:24:47.220828+02:00",
-  "Count": 926,
+  "StartTime": "2004-08-03T13:38:13.0459237+02:00",
+  "EndTime": "2005-05-02T13:38:13.0459237+02:00",
+  "Count": 761,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -152,64 +153,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 561,
-    "StartDate": "2022-08-02T03:24:47.220828+02:00",
-    "EndDate": "2000-11-10T03:24:47.220828+01:00",
+    "AppointmentId": 315,
+    "StartDate": "2018-12-14T13:38:13.0459237+01:00",
+    "EndDate": "2020-12-27T13:38:13.0459237+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quis",
-    "AssociateFullName": "Ms. Jaylin O'Keefe",
-    "ContactName": "Marks Inc and Sons",
-    "Description": "Sharable intermediate website",
-    "PersonFullName": "Ms. Bartholome Blanda",
-    "PersonId": 493,
-    "ContactId": 516,
-    "ProjectId": 687,
-    "ProjectName": "Brakus, Ziemann and Daniel",
+    "Task": "omnis",
+    "AssociateFullName": "Van Bruen",
+    "ContactName": "Monahan, Keebler and Konopelski",
+    "Description": "Sharable mission-critical model",
+    "PersonFullName": "Mr. Clay Tre Cummings Sr.",
+    "PersonId": 317,
+    "ContactId": 479,
+    "ProjectId": 985,
+    "ProjectName": "Kessler, Stanton and Wilkinson",
     "IsPublished": false,
-    "AssociateId": 356,
-    "ColorIndex": 968,
+    "AssociateId": 880,
+    "ColorIndex": 746,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 873,
-    "PriorityName": "Langosh Group",
+    "PriorityId": 818,
+    "PriorityName": "Block Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "1999-07-29T03:24:47.220828+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2003-05-23T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-06-26T03:24:47.220828+02:00",
-    "RecurringEndDate": "2008-06-22T03:24:47.220828+02:00",
-    "MotherId": 448,
-    "AssignedBy": 601,
-    "AssignedByFullName": "Wilton Bauch",
+    "RecurringStartDate": "2018-07-13T13:38:13.0459237+02:00",
+    "RecurringEndDate": "2022-01-02T13:38:13.0459237+01:00",
+    "MotherId": 859,
+    "AssignedBy": 436,
+    "AssignedByFullName": "Gwen Bradtke",
     "RejectReason": "",
-    "Location": "quae",
-    "AlarmLeadTime": "accusamus",
-    "SaleId": 472,
-    "SaleName": "Baumbach-Gleichner",
-    "AssociateName": "Daniel Inc and Sons",
-    "CreatedDate": "2005-10-30T03:24:47.220828+01:00",
-    "CreatedBy": "voluptates",
-    "CreatedByFullName": "Louie Heidenreich",
-    "CreatedByAssociateId": 22,
+    "Location": "qui",
+    "AlarmLeadTime": "vitae",
+    "SaleId": 200,
+    "SaleName": "Turner, Carter and Lemke",
+    "AssociateName": "Kulas-Emmerich",
+    "CreatedDate": "2013-12-27T13:38:13.0459237+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Cleve Cynthia Lockman PhD",
+    "CreatedByAssociateId": 798,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "atque",
-    "Agenda": "explicabo",
-    "InternalNotes": "cupiditate",
+    "PreferredTZLocation": 568,
+    "Title": "cumque",
+    "Agenda": "nihil",
+    "InternalNotes": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 343
       }
     }
   }

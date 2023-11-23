@@ -81,36 +81,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 436,
+  "HierarchyId": 118,
   "Domain": "Dashboards",
-  "Name": "Sanford, Grady and Dicki",
-  "Fullname": "quae",
-  "ParentId": 401,
+  "Name": "Miller LLC",
+  "Fullname": "a",
+  "ParentId": 935,
   "Children": [
     {
-      "HierarchyId": 281,
+      "HierarchyId": 285,
       "Domain": "Dashboards",
-      "Name": "Torphy, Gutmann and Greenfelder",
-      "Fullname": "pariatur",
-      "ParentId": 785,
+      "Name": "Parisian-Murazik",
+      "Fullname": "laborum",
+      "ParentId": 580,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-02-14T03:24:47.908255+01:00",
-      "RegisteredAssociateId": 795,
-      "Updated": "2003-07-30T03:24:47.908255+02:00",
-      "UpdatedAssociateId": 671
+      "Registered": "2013-08-01T13:38:13.7177215+02:00",
+      "RegisteredAssociateId": 743,
+      "Updated": "2005-01-26T13:38:13.7177215+01:00",
+      "UpdatedAssociateId": 206
     }
   ],
-  "Registered": "2001-05-20T03:24:47.908255+02:00",
-  "RegisteredAssociateId": 50,
-  "Updated": "2020-07-06T03:24:47.908255+02:00",
-  "UpdatedAssociateId": 110
+  "Registered": "2010-08-29T13:38:13.7177215+02:00",
+  "RegisteredAssociateId": 523,
+  "Updated": "2001-08-20T13:38:13.7177215+02:00",
+  "UpdatedAssociateId": 36
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 714,
+  "HierarchyId": 843,
   "Domain": "Dashboards",
-  "Name": "Reynolds-Rolfson",
-  "Fullname": "sit",
-  "ParentId": 556,
+  "Name": "Wisoky, McCullough and Stiedemann",
+  "Fullname": "facere",
+  "ParentId": 26,
   "Children": [
     {
-      "HierarchyId": 761,
+      "HierarchyId": 480,
       "Domain": "Dashboards",
-      "Name": "Lynch-Blanda",
-      "Fullname": "aliquam",
-      "ParentId": 590,
+      "Name": "Morissette LLC",
+      "Fullname": "vero",
+      "ParentId": 233,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-05-25T03:24:47.908255+02:00",
-      "RegisteredAssociateId": 931,
-      "Updated": "2021-11-23T03:24:47.908255+01:00",
-      "UpdatedAssociateId": 362,
+      "Registered": "1997-04-28T13:38:13.7177215+02:00",
+      "RegisteredAssociateId": 359,
+      "Updated": "2020-06-06T13:38:13.7177215+02:00",
+      "UpdatedAssociateId": 679,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 487
         }
       }
     }
   ],
-  "Registered": "2002-05-23T03:24:47.908255+02:00",
-  "RegisteredAssociateId": 626,
-  "Updated": "2012-06-15T03:24:47.908255+02:00",
-  "UpdatedAssociateId": 205,
+  "Registered": "2015-10-27T13:38:13.7177215+01:00",
+  "RegisteredAssociateId": 150,
+  "Updated": "2006-10-03T13:38:13.7177215+02:00",
+  "UpdatedAssociateId": 356,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldLength": 203
     }
   }
 }

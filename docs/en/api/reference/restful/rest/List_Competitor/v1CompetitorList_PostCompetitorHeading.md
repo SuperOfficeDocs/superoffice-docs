@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 247,
-  "Name": "Hyatt-Reichel",
-  "Tooltip": "ratione",
-  "Deleted": true,
-  "Rank": 265,
-  "UdListDefinitionId": 543
+  "HeadingId": 783,
+  "Name": "O'Connell-Sipes",
+  "Tooltip": "accusamus",
+  "Deleted": false,
+  "Rank": 783,
+  "UdListDefinitionId": 148
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 661,
-  "Name": "Dibbert Group",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 588,
-  "UdListDefinitionId": 181,
+  "HeadingId": 376,
+  "Name": "Schiller-Lockman",
+  "Tooltip": "asperiores",
+  "Deleted": true,
+  "Rank": 41,
+  "UdListDefinitionId": 983,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 972
     }
   }
 }

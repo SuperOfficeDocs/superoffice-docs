@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 321,
-  "EmailAddress": "claudie_abshire@cummerata.uk",
-  "EmailTemplateId": 568,
-  "CultureLcidId": 970,
-  "Subject": "dolorum"
+  "PersonId": 844,
+  "EmailAddress": "devin@hudsonhahn.biz",
+  "EmailTemplateId": 835,
+  "CultureLcidId": 151,
+  "Subject": "asperiores"
 }
 ```
 

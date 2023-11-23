@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Padberg Group"
+  "Name": "Hackett Group"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Trantow, Ondricka and Hodkiewicz",
-    "SoPrimaryKey": 895,
-    "EntryName": "Kiehn LLC",
-    "EntryIdentifier": "ut",
-    "RuleDisplayName": "Upton Group",
+    "RuleName": "Sporer-Brakus",
+    "SoPrimaryKey": 105,
+    "EntryName": "Bernier Group",
+    "EntryIdentifier": "est",
+    "RuleDisplayName": "Strosin-Brekke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldType": "System.Int32",
+        "FieldLength": 952
       }
     }
   }

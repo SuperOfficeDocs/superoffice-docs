@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 820,
-    "Name": "Halvorson, Heathcote and Cremin",
-    "MaxDataAge": 526,
-    "NumberOfUsers": 316,
-    "NumberOfLogins": 44,
+    "AreaId": 742,
+    "Name": "Schuster LLC",
+    "MaxDataAge": 709,
+    "NumberOfUsers": 921,
+    "NumberOfLogins": 864,
     "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldType": "System.String",
+        "FieldLength": 396
       }
     }
   }

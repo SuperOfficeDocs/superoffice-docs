@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 894,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2002-08-13T03:24:47.2052134+02:00",
-  "EndTime": "2013-04-09T03:24:47.2052134+02:00",
-  "Count": 341
+  "PersonId": 802,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2013-11-18T13:38:13.0459237+01:00",
+  "EndTime": "2023-05-16T13:38:13.0459237+02:00",
+  "Count": 83
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 132,
-    "StartDate": "2021-09-04T03:24:47.2052134+02:00",
-    "EndDate": "2019-04-19T03:24:47.2052134+02:00",
+    "AppointmentId": 461,
+    "StartDate": "2010-11-14T13:38:13.0459237+01:00",
+    "EndDate": "2015-07-29T13:38:13.0459237+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Jadon Kihn",
-    "ContactName": "Franecki-Wehner",
-    "Description": "Fully-configurable static concept",
-    "PersonFullName": "Kasandra Jast",
-    "PersonId": 742,
-    "ContactId": 990,
-    "ProjectId": 993,
-    "ProjectName": "Krajcik, Bartell and Armstrong",
-    "IsPublished": false,
-    "AssociateId": 959,
-    "ColorIndex": 700,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "nesciunt",
+    "AssociateFullName": "Oceane Telly Buckridge I",
+    "ContactName": "Schoen LLC",
+    "Description": "Cross-platform multimedia benchmark",
+    "PersonFullName": "Darryl Strosin",
+    "PersonId": 967,
+    "ContactId": 794,
+    "ProjectId": 61,
+    "ProjectName": "Gutkowski, Lebsack and Lockman",
+    "IsPublished": true,
+    "AssociateId": 505,
+    "ColorIndex": 954,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 47,
-    "PriorityName": "Murphy-Sawayn",
+    "PriorityId": 148,
+    "PriorityName": "Orn Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2001-06-17T03:24:47.2052134+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2021-05-23T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-07-25T03:24:47.2052134+02:00",
-    "RecurringEndDate": "2005-02-15T03:24:47.2052134+01:00",
-    "MotherId": 523,
-    "AssignedBy": 351,
-    "AssignedByFullName": "Hobart Gleason",
+    "RecurringStartDate": "2021-02-25T13:38:13.0459237+01:00",
+    "RecurringEndDate": "2013-10-25T13:38:13.0459237+02:00",
+    "MotherId": 489,
+    "AssignedBy": 174,
+    "AssignedByFullName": "Nelson Lesch II",
     "RejectReason": "",
-    "Location": "eum",
-    "AlarmLeadTime": "odio",
-    "SaleId": 105,
-    "SaleName": "Walter-Adams",
-    "AssociateName": "Kiehn-Kris",
-    "CreatedDate": "2019-12-15T03:24:47.2052134+01:00",
-    "CreatedBy": "quo",
-    "CreatedByFullName": "Vincenza Grant",
-    "CreatedByAssociateId": 7,
+    "Location": "et",
+    "AlarmLeadTime": "laboriosam",
+    "SaleId": 160,
+    "SaleName": "King Group",
+    "AssociateName": "Robel, Gutmann and Blick",
+    "CreatedDate": "2016-09-25T13:38:13.0459237+02:00",
+    "CreatedBy": "itaque",
+    "CreatedByFullName": "Janice Wilderman",
+    "CreatedByAssociateId": 116,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "perferendis",
-    "Agenda": "qui",
-    "InternalNotes": "quas",
+    "PreferredTZLocation": 604,
+    "Title": "minima",
+    "Agenda": "necessitatibus",
+    "InternalNotes": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldLength": 989
       }
     }
   }

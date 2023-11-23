@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 916,
-  "UniqueId": "doloribus",
-  "Name": "Cole-Stroman",
-  "Description": "Intuitive intermediate pricing structure",
-  "AssociateId": 510,
-  "Columns": 473,
+  "DashboardId": 154,
+  "UniqueId": "quis",
+  "Name": "Runolfsson, Senger and Crooks",
+  "Description": "Profit-focused 3rd generation leverage",
+  "AssociateId": 603,
+  "Columns": 646,
   "Theme": null,
-  "VisibleForAll": 569,
+  "VisibleForAll": 320,
   "VisibleForAssociates": [
-    57,
-    784
+    233,
+    524
   ],
   "VisibleForGroups": [
-    214,
-    959
+    25,
+    512
   ],
-  "PinForAll": 98,
+  "PinForAll": 326,
   "PinForAssociates": [
-    190,
-    366
+    333,
+    26
   ],
   "PinForGroups": [
-    582,
-    637
+    939,
+    244
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 595
     }
   },
   "_Links": {

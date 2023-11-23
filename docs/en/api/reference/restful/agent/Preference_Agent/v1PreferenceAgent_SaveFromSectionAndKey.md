@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "minima",
-  "Key": "possimus",
+  "Section": "qui",
+  "Key": "autem",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 747,
-  "Section": "aperiam",
-  "Key": "dolores",
-  "Name": "Sanford, Jast and Kemmer",
+  "PrefDescId": 319,
+  "Section": "iste",
+  "Key": "voluptatem",
+  "Name": "Nolan Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reduced composite knowledge base",
-  "IsBuiltin": false,
-  "TableName": "Lubowitz, Bayer and King",
-  "UserDefinedListId": 58,
-  "Rank": 476,
-  "SubGroup": "molestiae",
-  "MinLevel": 893,
-  "MaxValue": 865,
-  "MinValue": 358,
-  "RequiredLicense": "dicta",
+  "Description": "Profound optimizing hardware",
+  "IsBuiltin": true,
+  "TableName": "Donnelly Group",
+  "UserDefinedListId": 301,
+  "Rank": 255,
+  "SubGroup": "quaerat",
+  "MinLevel": 816,
+  "MaxValue": 278,
+  "MinValue": 789,
+  "RequiredLicense": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 131
     }
   }
 }

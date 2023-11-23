@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 591,
-  "Name": "Stehr-Rogahn",
-  "AssociateId": 570,
-  "DetailsTable": 706,
-  "DetailsRecord": 11,
+  "Id": 444,
+  "Name": "West-Hoeger",
+  "AssociateId": 369,
+  "DetailsTable": 237,
+  "DetailsRecord": 287,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "aut",
-    "ParameterObject2": "eos"
+    "ParameterObject1": "eius",
+    "ParameterObject2": "non"
   },
-  "LastStarted": "2000-02-29T03:24:47.2520803+01:00",
-  "Created": "2013-07-18T03:24:47.2520803+02:00",
-  "StartCount": 487,
-  "DatabaseSerialNumber": "893400",
-  "Context": "expedita",
-  "Result": "sit",
+  "LastStarted": "2009-05-24T13:38:13.0771703+02:00",
+  "Created": "2003-09-08T13:38:13.0771703+02:00",
+  "StartCount": 349,
+  "DatabaseSerialNumber": "1534830",
+  "Context": "doloremque",
+  "Result": "ut",
   "State": "All",
-  "Description": "Quality-focused encompassing adapter",
-  "Response": "quis",
-  "Request": "et",
-  "ProgressDescription": "Team-oriented secondary circuit",
-  "ProgressPercent": 942,
-  "FileName": "Lowe, Jacobi and Mills",
+  "Description": "Managed transitional internet solution",
+  "Response": "quidem",
+  "Request": "officia",
+  "ProgressDescription": "Balanced assymetric hardware",
+  "ProgressPercent": 390,
+  "FileName": "Stark, Armstrong and Borer",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 947
     }
   }
 }

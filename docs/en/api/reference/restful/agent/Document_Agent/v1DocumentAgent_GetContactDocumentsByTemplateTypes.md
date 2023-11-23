@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 910,
-  "StartTime": "2001-09-14T03:24:47.5020527+02:00",
-  "EndTime": "2012-10-15T03:24:47.5020527+02:00",
-  "Count": 445,
+  "ContactId": 962,
+  "StartTime": "2021-07-13T13:38:13.4208858+02:00",
+  "EndTime": "1997-08-26T13:38:13.4208858+02:00",
+  "Count": 172,
   "DocumentTemplateIds": [
-    155,
-    72
+    696,
+    10
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 782,
-    "Attention": "molestias",
-    "Header": "veritatis",
-    "Name": "Wunsch-Skiles",
-    "OurRef": "doloribus",
-    "YourRef": "veritatis",
-    "Description": "Optional optimizing hardware",
-    "DocumentTemplate": "et",
+    "DocumentId": 936,
+    "Attention": "est",
+    "Header": "vitae",
+    "Name": "Boyer Group",
+    "OurRef": "similique",
+    "YourRef": "molestiae",
+    "Description": "Grass-roots 24/7 database",
+    "DocumentTemplate": "consequatur",
     "IsPublished": false,
-    "PersonId": 673,
-    "PersonFullName": "Elza Monahan",
-    "AssociateFullName": "Andre Glover",
-    "ContactId": 727,
-    "ContactName": "Renner, Brown and Nikolaus",
-    "ProjectId": 467,
-    "ProjectName": "Lynch Group",
-    "AssociateId": 764,
-    "Snum": 37,
-    "SaleId": 387,
-    "SaleName": "Feest-Nikolaus",
+    "PersonId": 406,
+    "PersonFullName": "Miss Ford Harvey",
+    "AssociateFullName": "Zackary Mitchell",
+    "ContactId": 490,
+    "ContactName": "Bernhard, Barrows and Toy",
+    "ProjectId": 480,
+    "ProjectName": "Funk, Heidenreich and Wisoky",
+    "AssociateId": 467,
+    "Snum": 881,
+    "SaleId": 197,
+    "SaleName": "Heidenreich-Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 358
+        "FieldType": "System.Int32",
+        "FieldLength": 512
       }
     }
   }

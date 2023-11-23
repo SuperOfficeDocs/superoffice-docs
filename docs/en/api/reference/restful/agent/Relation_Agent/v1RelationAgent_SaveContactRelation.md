@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 666,
-  "SourcePersonId": 548,
-  "DestinationContactId": 944,
-  "DestinationPersonId": 845,
-  "RelationId": 10,
-  "Comment": "nisi",
-  "RelationDefinitionId": 798,
-  "Reversed": 651,
-  "UpdatedDate": "2015-09-01T03:24:48.1582254+02:00",
-  "CreatedDate": "2003-02-02T03:24:48.1582254+01:00",
+  "SourceContactId": 357,
+  "SourcePersonId": 148,
+  "DestinationContactId": 499,
+  "DestinationPersonId": 9,
+  "RelationId": 217,
+  "Comment": "dolorum",
+  "RelationDefinitionId": 817,
+  "Reversed": 589,
+  "UpdatedDate": "2004-01-29T13:38:14.045953+01:00",
+  "CreatedDate": "2019-09-22T13:38:14.045953+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Durgan, Leuschke and Marks",
-  "SourcePersonName": "Kautzer, Grant and Ondricka",
-  "DestinationContactName": "Frami, Bartoletti and Borer",
-  "DestinationPersonName": "Christiansen Inc and Sons",
-  "ActiveText": "sit",
-  "PassiveText": "excepturi",
+  "SourceContactName": "Rodriguez, Yost and VonRueden",
+  "SourcePersonName": "Beer LLC",
+  "DestinationContactName": "Jacobson Group",
+  "DestinationPersonName": "Hagenes LLC",
+  "ActiveText": "et",
+  "PassiveText": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 660
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 757,
-  "UniqueIdentifier": "sint",
-  "Name": "Langosh LLC",
-  "Description": "Automated dedicated database",
-  "IncludeId": "maiores",
-  "HierarchyId": 412,
-  "Source": "quo",
-  "Registered": "2006-10-04T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 980,
-  "Updated": "2001-08-19T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 870,
+  "EjscriptId": 412,
+  "UniqueIdentifier": "ipsam",
+  "Name": "Powlowski LLC",
+  "Description": "Distributed fault-tolerant migration",
+  "IncludeId": "magni",
+  "HierarchyId": 670,
+  "Source": "provident",
+  "Registered": "2003-03-24T13:38:13.374011+01:00",
+  "RegisteredAssociateId": 961,
+  "Updated": "2019-03-18T13:38:13.374011+01:00",
+  "UpdatedAssociateId": 227,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 31
     }
   }
 }

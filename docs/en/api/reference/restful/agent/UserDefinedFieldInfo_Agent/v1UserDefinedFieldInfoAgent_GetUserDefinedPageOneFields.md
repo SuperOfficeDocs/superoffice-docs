@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 652
+  "UserGroupId": 224
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 819,
-    "ColumnId": 330,
-    "FieldDefault": "illo",
-    "FieldHeight": 918,
-    "FieldLabel": "mollitia",
-    "FieldLeft": 382,
-    "FieldTop": 620,
+    "UDefFieldId": 560,
+    "ColumnId": 674,
+    "FieldDefault": "voluptas",
+    "FieldHeight": 894,
+    "FieldLabel": "natus",
+    "FieldLeft": 234,
+    "FieldTop": 331,
     "FieldType": "Checkbox",
-    "FieldWidth": 86,
-    "FormatMask": "cum",
+    "FieldWidth": 317,
+    "FormatMask": "veniam",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 830,
-    "LabelLeft": 64,
-    "LabelTop": 423,
-    "LabelWidth": 244,
-    "LastVersionId": 610,
-    "ListTableId": 773,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 669,
+    "LabelLeft": 593,
+    "LabelTop": 537,
+    "LabelWidth": 206,
+    "LastVersionId": 162,
+    "ListTableId": 298,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 810,
-    "ProgId": "deleniti",
-    "IsReadOnly": true,
-    "ShortLabel": "quidem",
-    "TabOrder": 224,
-    "TextLength": 498,
-    "Tooltip": "doloremque",
-    "UdefIdentity": 661,
-    "UDListDefinitionId": 198,
+    "Page1LineNo": 793,
+    "ProgId": "quidem",
+    "IsReadOnly": false,
+    "ShortLabel": "odio",
+    "TabOrder": 886,
+    "TextLength": 913,
+    "Tooltip": "harum",
+    "UdefIdentity": 380,
+    "UDListDefinitionId": 22,
     "Justification": "Center",
-    "Version": 569,
-    "TemplateVariableName": "Nitzsche-Skiles",
+    "Version": 669,
+    "TemplateVariableName": "Gleason, Runolfsdottir and Mills",
     "HasBeenPublished": false,
-    "MdoListName": "Lang-Champlin",
+    "MdoListName": "Champlin Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 12
+        "FieldType": "System.Int32",
+        "FieldLength": 934
       }
     }
   }

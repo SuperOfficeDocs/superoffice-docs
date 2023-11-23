@@ -133,51 +133,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 668,
-  "ERPProductKey": "quos",
-  "ERPPriceListKey": "minus",
-  "Name": "Sawayn, Hammes and Ondricka",
-  "Description": "Inverse multimedia firmware",
-  "Code": "aperiam",
-  "PriceUnit": "ipsum",
-  "QuantityUnit": "tenetur",
+  "ProductId": 275,
+  "ERPProductKey": "voluptate",
+  "ERPPriceListKey": "aspernatur",
+  "Name": "Glover, Pfannerstill and Davis",
+  "Description": "Extended even-keeled core",
+  "Code": "quas",
+  "PriceUnit": "harum",
+  "QuantityUnit": "non",
   "IsSubscription": false,
-  "SubscriptionUnit": "fuga",
-  "DefaultSubscriptionQuantity": 11072.422,
-  "ItemNumber": "1322457",
+  "SubscriptionUnit": "harum",
+  "DefaultSubscriptionQuantity": 29017.706,
+  "ItemNumber": "1216139",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "laborum",
-  "ProductTypeKey": "facilis",
-  "VAT": 18976.37,
-  "VATInfo": "repudiandae",
-  "UnitCost": 28726.244,
-  "UnitMinimumPrice": 27955.28,
-  "UnitListPrice": 17296.546,
-  "InAssortment": true,
-  "Supplier": "est",
-  "SupplierCode": "amet",
-  "Rights": "dolores",
-  "Rule": "vitae",
+  "ProductFamilyKey": "magnam",
+  "ProductTypeKey": "voluptatum",
+  "VAT": 16566.324,
+  "VATInfo": "a",
+  "UnitCost": 9834.492,
+  "UnitMinimumPrice": 26438.424,
+  "UnitListPrice": 30634.85,
+  "InAssortment": false,
+  "Supplier": "quod",
+  "SupplierCode": "deleniti",
+  "Rights": "soluta",
+  "Rule": "rerum",
   "ExtraInfo": [
     {
-      "Name": "Kuhic Group",
-      "Value": "cupiditate",
+      "Name": "Homenick-Swaniawski",
+      "Value": "provident",
       "Type": "Image"
     },
     {
-      "Name": "Kuhic Group",
-      "Value": "cupiditate",
+      "Name": "Homenick-Swaniawski",
+      "Value": "provident",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "suscipit",
-  "ExtraField1": "earum",
-  "ExtraField2": "quo",
-  "ExtraField3": "officia",
-  "ExtraField4": "reiciendis",
-  "ExtraField5": "iusto",
-  "InStock": 9213.96
+  "RawExtraInfo": "doloremque",
+  "ExtraField1": "ducimus",
+  "ExtraField2": "omnis",
+  "ExtraField3": "esse",
+  "ExtraField4": "ab",
+  "ExtraField5": "qui",
+  "InStock": 30738.271999999997
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 280,
-  "ERPProductKey": "corrupti",
-  "ERPPriceListKey": "velit",
-  "Name": "Reynolds LLC",
-  "Description": "Enhanced tangible internet solution",
-  "Code": "iure",
-  "PriceUnit": "sint",
-  "QuantityUnit": "in",
+  "ProductId": 305,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "enim",
+  "Name": "Larkin, Bins and Emard",
+  "Description": "Digitized multi-state system engine",
+  "Code": "numquam",
+  "PriceUnit": "qui",
+  "QuantityUnit": "aut",
   "IsSubscription": false,
-  "SubscriptionUnit": "suscipit",
-  "DefaultSubscriptionQuantity": 2178.13,
-  "ItemNumber": "362543",
+  "SubscriptionUnit": "amet",
+  "DefaultSubscriptionQuantity": 7819.33,
+  "ItemNumber": "1407734",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "iste",
-  "ProductTypeKey": "sit",
-  "VAT": 9496.02,
-  "VATInfo": "ea",
-  "UnitCost": 7042.098,
-  "UnitMinimumPrice": 11865.323999999999,
-  "UnitListPrice": 9000.848,
+  "ProductFamilyKey": "ullam",
+  "ProductTypeKey": "id",
+  "VAT": 12811.792,
+  "VATInfo": "perspiciatis",
+  "UnitCost": 12733.442,
+  "UnitMinimumPrice": 19524.82,
+  "UnitListPrice": 30277.574,
   "InAssortment": false,
-  "Supplier": "est",
-  "SupplierCode": "tempore",
-  "Rights": "pariatur",
-  "Rule": "incidunt",
+  "Supplier": "ea",
+  "SupplierCode": "nam",
+  "Rights": "sed",
+  "Rule": "eveniet",
   "ExtraInfo": [
     {
-      "Name": "Johnson Inc and Sons",
-      "Value": "rerum",
+      "Name": "Haag-Abernathy",
+      "Value": "officia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldType": "System.String",
+          "FieldLength": 947
         }
       }
     },
     {
-      "Name": "Johnson Inc and Sons",
-      "Value": "rerum",
+      "Name": "Haag-Abernathy",
+      "Value": "officia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldType": "System.String",
+          "FieldLength": 947
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "dolores",
-  "ExtraField2": "laboriosam",
-  "ExtraField3": "cumque",
-  "ExtraField4": "ipsa",
-  "ExtraField5": "provident",
-  "InStock": 15776.555999999999,
+  "RawExtraInfo": "aut",
+  "ExtraField1": "quos",
+  "ExtraField2": "numquam",
+  "ExtraField3": "dolores",
+  "ExtraField4": "rerum",
+  "ExtraField5": "nam",
+  "InStock": 2623.158,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 27 Dec 2007 03:24:51 G12T
+Last-Modified: Sat, 01 Jul 2023 13:38:17 G7T
 
 {
-  "BlobId": 94,
-  "BlobSize": 347,
-  "Description": "Assimilated demand-driven pricing structure",
+  "BlobId": 563,
+  "BlobSize": 181,
+  "Description": "Innovative clear-thinking alliance",
   "ExtraInfo": "saepe",
-  "IsEncrypted": true,
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "blanditiis",
-  "OriginalSize": 366,
-  "CreatedDate": "2015-05-15T03:24:51.459286+02:00",
-  "UpdatedDate": "2007-12-27T03:24:51.459286+01:00",
+  "MimeType": "qui",
+  "OriginalSize": 550,
+  "CreatedDate": "2013-10-07T13:38:17.2024711+02:00",
+  "UpdatedDate": "2023-07-01T13:38:17.2024711+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsum",
+  "ConceptualType": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldLength": 995
     }
   }
 }

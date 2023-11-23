@@ -1,0 +1,9 @@
+items:
+- name: Introduction
+  href: index.md
+- name: Lotus Notes Link
+  href: lotus.md
+- name: Pagebuilder
+  href: pagebuilder.md
+- name: SOAP web services
+  href: soap.md

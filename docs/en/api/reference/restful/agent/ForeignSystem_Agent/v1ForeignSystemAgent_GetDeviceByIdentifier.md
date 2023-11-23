@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Leffler-Boehm",
-  "DeviceName": "Konopelski, Nienow and Glover",
-  "DeviceIdentifier": "ex"
+  "ApplicationName": "Pagac-Vandervort",
+  "DeviceName": "Wilkinson-Funk",
+  "DeviceIdentifier": "vel"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 743,
-  "Name": "Dibbert, Heaney and Lindgren",
-  "CreatedDate": "2008-02-24T03:24:47.8145137+01:00",
-  "UpdatedDate": "2008-12-14T03:24:47.8145137+01:00",
-  "AssociateFullName": "Miss Ricky Tremblay DVM",
-  "CreatedBy": "deleniti",
-  "UpdatedBy": "quia",
-  "DeviceIdentifier": "est",
-  "ForeignAppId": 707,
+  "ForeignDeviceId": 186,
+  "Name": "Witting-Weimann",
+  "CreatedDate": "2012-07-23T13:38:13.623981+02:00",
+  "UpdatedDate": "1999-05-15T13:38:13.623981+02:00",
+  "AssociateFullName": "Ms. Vada Hunter Jerde PhD",
+  "CreatedBy": "accusantium",
+  "UpdatedBy": "neque",
+  "DeviceIdentifier": "eveniet",
+  "ForeignAppId": 737,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldType": "System.Int32",
+      "FieldLength": 312
     }
   }
 }

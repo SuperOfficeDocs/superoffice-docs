@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 394,
-  "UniqueId": "voluptatem",
-  "Name": "Hudson, Gleichner and Stracke",
-  "Description": "Ergonomic value-added standardization",
-  "AssociateId": 845,
-  "Columns": 253,
+  "DashboardId": 103,
+  "UniqueId": "dolor",
+  "Name": "Schulist Inc and Sons",
+  "Description": "Business-focused optimal hardware",
+  "AssociateId": 888,
+  "Columns": 750,
   "Theme": null,
-  "VisibleForAll": 699,
+  "VisibleForAll": 108,
   "VisibleForAssociates": [
-    234,
-    579
+    736,
+    718
   ],
   "VisibleForGroups": [
-    574,
-    531
+    643,
+    552
   ],
-  "PinForAll": 645,
+  "PinForAll": 29,
   "PinForAssociates": [
-    221,
-    479
+    348,
+    938
   ],
   "PinForGroups": [
-    419,
-    608
+    689,
+    985
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 617,
-  "UniqueId": "et",
-  "Name": "Murphy LLC",
-  "Description": "Optimized well-modulated secured line",
-  "AssociateId": 912,
-  "Columns": 631,
+  "DashboardId": 417,
+  "UniqueId": "laudantium",
+  "Name": "Langosh, Marks and Wisozk",
+  "Description": "Monitored stable project",
+  "AssociateId": 277,
+  "Columns": 290,
   "Theme": null,
-  "VisibleForAll": 782,
+  "VisibleForAll": 380,
   "VisibleForAssociates": [
-    910,
-    536
+    583,
+    115
   ],
   "VisibleForGroups": [
-    23,
-    144
+    392,
+    762
   ],
-  "PinForAll": 942,
+  "PinForAll": 722,
   "PinForAssociates": [
-    565,
-    17
+    862,
+    109
   ],
   "PinForGroups": [
-    569,
-    15
+    554,
+    883
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldLength": 695
     }
   },
   "_Links": {

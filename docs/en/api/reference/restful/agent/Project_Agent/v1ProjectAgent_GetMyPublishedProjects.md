@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 65,
-    "Name": "Hills Inc and Sons",
-    "Description": "Persevering didactic standardization",
+    "ProjectId": 191,
+    "Name": "Mertz-Carroll",
+    "Description": "Digitized next generation core",
     "URL": "http://www.example.com/",
-    "Type": "tempora",
-    "AssociateId": 465,
-    "AssociateFullName": "Prof. Dexter Volkman",
-    "TypeId": 436,
-    "Updated": "2010-10-23T03:24:48.0957311+02:00",
-    "StatusId": 980,
-    "Status": "ex",
-    "TextId": 497,
-    "PublishTo": "2018-05-08T03:24:48.0957311+02:00",
-    "PublishFrom": "1999-05-01T03:24:48.0957311+02:00",
-    "IsPublished": false,
+    "Type": "odit",
+    "AssociateId": 549,
+    "AssociateFullName": "Miss Gerardo Skyla Mayer",
+    "TypeId": 572,
+    "Updated": "2017-09-13T13:38:13.9834617+02:00",
+    "StatusId": 141,
+    "Status": "vitae",
+    "TextId": 496,
+    "PublishTo": "2016-04-02T13:38:13.9834617+02:00",
+    "PublishFrom": "2004-04-05T13:38:13.9834617+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1042193",
-    "ActiveErpLinks": 733,
+    "ProjectNumber": "353199",
+    "ActiveErpLinks": 419,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 25
       }
     }
   }

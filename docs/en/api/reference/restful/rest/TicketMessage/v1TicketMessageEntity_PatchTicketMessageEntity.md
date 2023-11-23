@@ -133,18 +133,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "maxime",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "maxime",
     "value": {}
   }
 ]
@@ -157,28 +157,28 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 963,
+  "EjMessageId": 555,
   "Ticket": null,
-  "CreatedAt": "2020-04-04T03:24:52.0213616+02:00",
+  "CreatedAt": "2003-06-17T13:38:17.7492894+02:00",
   "CreatedBy": null,
-  "Author": "earum",
+  "Author": "similique",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 536,
-  "Body": "itaque",
-  "HtmlBody": "quam",
-  "EmailHeader": "victoria_walker@russelcummerata.biz",
-  "DebugInfo": "ullam",
-  "MailSorter": "fuga",
+  "MessageId": "omnis",
+  "TimeSpent": 183,
+  "Body": "vel",
+  "HtmlBody": "veritatis",
+  "EmailHeader": "ruthie.weissnat@wiegand.com",
+  "DebugInfo": "corrupti",
+  "MailSorter": "iusto",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "minima",
+  "SearchTitle": "adipisci",
   "MessageHeaders": [
     {
-      "Id": 700,
-      "Name": "Mraz LLC",
-      "Value": "possimus",
+      "Id": 363,
+      "Name": "Mayert, Beer and Walter",
+      "Value": "voluptates",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -186,54 +186,54 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldLength": 623
         }
       }
     }
   ],
   "Important": false,
-  "Language": "voluptas",
-  "Sentiment": 17,
-  "SentimentConfidence": 608,
+  "Language": "est",
+  "Sentiment": 757,
+  "SentimentConfidence": 10,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 750,
-      "Name": "Lubowitz Group",
-      "ContentType": "optio",
-      "AttSize": 451,
-      "InlineImage": false,
-      "ContentId": "esse",
-      "AuthKey": "ullam",
+      "AttachmentId": 673,
+      "Name": "Purdy-Dicki",
+      "ContentType": "ducimus",
+      "AttSize": 947,
+      "InlineImage": true,
+      "ContentId": "est",
+      "AuthKey": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 491
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "deleniti"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "distinctio",
+    "CustomFields2": "ullam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 39
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

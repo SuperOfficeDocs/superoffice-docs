@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 470,
+  "DashboardTileId": 406,
   "Caption": "et",
-  "Description": "Profit-focused human-resource contingency",
-  "SelectionId": 49,
+  "Description": "Balanced well-modulated challenge",
+  "SelectionId": 358,
   "VisibleFor": [
     {
-      "VisibleId": 697,
+      "VisibleId": 206,
       "Visibility": "All",
-      "DisplayValue": "cumque"
+      "DisplayValue": "repudiandae"
     },
     {
-      "VisibleId": 697,
+      "VisibleId": 206,
       "Visibility": "All",
-      "DisplayValue": "cumque"
+      "DisplayValue": "repudiandae"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 74,
-  "Caption": "quia",
-  "Description": "Decentralized attitude-oriented groupware",
-  "ChartName": "Grady LLC",
-  "ChartId": "illum",
-  "IsDefault": false,
-  "AssociateId": 802,
-  "GroupId": 272,
-  "SelectionId": 104,
-  "Config": "eveniet",
+  "DashboardTileId": 983,
+  "Caption": "est",
+  "Description": "Multi-lateral web-enabled product",
+  "ChartName": "Bogisich, Bins and Kuhn",
+  "ChartId": "laborum",
+  "IsDefault": true,
+  "AssociateId": 456,
+  "GroupId": 223,
+  "SelectionId": 506,
+  "Config": "quas",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Block LLC",
-      "Description": "Function-based bottom-line parallelism",
+      "Name": "Kuhn, Runolfsson and Jacobi",
+      "Description": "Ameliorated didactic matrices",
       "Type": "Boolean",
-      "ListName": "Fisher, Hamill and Lesch",
+      "ListName": "Abshire, Reinger and Cole",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "vitae",
+      "Value": "aliquid",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 317
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 521,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     },
     {
-      "VisibleId": 521,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 326
     }
   }
 }

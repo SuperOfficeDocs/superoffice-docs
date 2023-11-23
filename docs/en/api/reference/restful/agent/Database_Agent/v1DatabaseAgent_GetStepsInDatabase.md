@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Larson, Osinski and Abshire",
-    "StepNumber": 738,
+    "Name": "Streich, Fadel and White",
+    "StepNumber": 757,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 218
+        "FieldType": "System.Int32",
+        "FieldLength": 247
       }
     }
   },
   {
-    "Name": "Larson, Osinski and Abshire",
-    "StepNumber": 738,
+    "Name": "Streich, Fadel and White",
+    "StepNumber": 757,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 218
+        "FieldType": "System.Int32",
+        "FieldLength": 247
       }
     }
   }

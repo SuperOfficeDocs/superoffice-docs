@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    653,
-    855
+    177,
+    780
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 28,
-    "Name": "Breitenberg Group",
-    "AssociateId": 476,
-    "DetailsTable": 707,
-    "DetailsRecord": 729,
-    "IsSystemTask": true,
+    "Id": 690,
+    "Name": "Herman-Morissette",
+    "AssociateId": 912,
+    "DetailsTable": 925,
+    "DetailsRecord": 281,
+    "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "repellendus",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "ut",
+      "ParameterObject2": "dolore"
     },
-    "LastStarted": "2003-01-17T03:24:47.2520803+01:00",
-    "Created": "2002-07-22T03:24:47.2520803+02:00",
-    "StartCount": 272,
-    "DatabaseSerialNumber": "358200",
-    "Context": "est",
-    "Result": "saepe",
+    "LastStarted": "2010-08-26T13:38:13.0927968+02:00",
+    "Created": "2016-01-30T13:38:13.0927968+01:00",
+    "StartCount": 788,
+    "DatabaseSerialNumber": "1058316",
+    "Context": "quae",
+    "Result": "at",
     "State": "All",
-    "Description": "Configurable system-worthy utilisation",
-    "Response": "aut",
-    "Request": "qui",
-    "ProgressDescription": "Realigned stable workforce",
-    "ProgressPercent": 998,
-    "FileName": "Keeling-Durgan",
+    "Description": "Synergized radical benchmark",
+    "Response": "voluptate",
+    "Request": "aliquid",
+    "ProgressDescription": "Customer-focused high-level challenge",
+    "ProgressPercent": 932,
+    "FileName": "Haley-Hettinger",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 881
+        "FieldLength": 711
       }
     }
   }

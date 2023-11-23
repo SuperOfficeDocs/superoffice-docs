@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Friesen-Strosin",
-      "Operator": "reprehenderit",
+      "Name": "Langworth, Fisher and Schamberger",
+      "Operator": "cum",
       "Values": [
-        "repudiandae",
-        "facilis"
+        "incidunt",
+        "enim"
       ],
       "DisplayValues": [
-        "nisi",
-        "id"
+        "illum",
+        "expedita"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 511,
+      "InterParenthesis": 444,
       "InterOperator": "And",
-      "UniqueHash": 327
+      "UniqueHash": 434
     }
   ],
-  "ProviderName": "Keeling-Torp",
-  "PageSize": 253,
-  "PageNumber": 319
+  "ProviderName": "Jacobs-Langworth",
+  "PageSize": 401,
+  "PageNumber": 452
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hackett-O'Hara",
-      "DisplayTooltip": "earum",
-      "DisplayType": "accusamus",
+      "DisplayName": "Schaden, Terry and Quigley",
+      "DisplayTooltip": "et",
+      "DisplayType": "a",
       "CanOrderBy": false,
-      "Name": "McGlynn-Reynolds",
+      "Name": "Hermann, Funk and Kreiger",
       "CanRestrictBy": false,
-      "RestrictionType": "autem",
-      "RestrictionListName": "Haley-Toy",
-      "IsVisible": true,
-      "ExtraInfo": "praesentium",
-      "Width": "delectus",
-      "IconHint": "rem",
-      "HeadingIconHint": "numquam"
+      "RestrictionType": "quia",
+      "RestrictionListName": "Sawayn LLC",
+      "IsVisible": false,
+      "ExtraInfo": "maxime",
+      "Width": "repellendus",
+      "IconHint": "dolores",
+      "HeadingIconHint": "pariatur"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Klocko, Grady and Spinka",
-      "PrimaryKey": 656,
+      "EntityName": "Johns-Berge",
+      "PrimaryKey": 582,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "facere",
-          "LinkHint": "quibusdam"
+          "DisplayValue": "perferendis",
+          "TooltipHint": "aut",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "architecto",
-      "StyleHint": "odio",
+      "LinkHint": "reprehenderit",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldType": "System.String",
+          "FieldLength": 466
         }
       }
     }
   ],
-  "RowCount": 823,
+  "RowCount": 557,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldType": "System.Int32",
+      "FieldLength": 698
     }
   }
 }

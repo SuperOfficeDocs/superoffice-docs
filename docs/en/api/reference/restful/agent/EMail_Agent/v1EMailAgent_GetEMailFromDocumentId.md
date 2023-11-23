@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 351
+  "DocumentId": 71
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 296,
-      "ContactName": "Leuschke, Ullrich and Stiedemann",
-      "PersonId": 301,
-      "PersonName": "Johnson Inc and Sons",
-      "AssociateId": 481,
-      "Address": "beatae",
-      "EmailId": 849,
+      "ContactId": 227,
+      "ContactName": "Strosin LLC",
+      "PersonId": 29,
+      "PersonName": "White, Smitham and Gerlach",
+      "AssociateId": 789,
+      "Address": "consequatur",
+      "EmailId": 170,
       "DuplicatePersonIds": [
-        352,
-        893
+        897,
+        826
       ],
-      "Name": "Reichel, Becker and McKenzie",
+      "Name": "Mueller LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 205
+          "FieldLength": 587
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 649,
-      "ContactName": "Brown-Greenfelder",
-      "PersonId": 297,
-      "PersonName": "Mueller Inc and Sons",
-      "AssociateId": 383,
-      "Address": "animi",
-      "EmailId": 327,
+      "ContactId": 354,
+      "ContactName": "Dickens-Lockman",
+      "PersonId": 549,
+      "PersonName": "Prosacco Inc and Sons",
+      "AssociateId": 516,
+      "Address": "autem",
+      "EmailId": 49,
       "DuplicatePersonIds": [
-        330,
-        900
+        47,
+        493
       ],
-      "Name": "Rippin-Wisozk",
+      "Name": "Bergstrom-Jast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldType": "System.String",
+          "FieldLength": 312
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 876,
-      "ContactName": "Carroll-Block",
-      "PersonId": 968,
-      "PersonName": "Considine, Eichmann and Stoltenberg",
-      "AssociateId": 351,
-      "Address": "eum",
-      "EmailId": 558,
+      "ContactId": 159,
+      "ContactName": "Auer, Crist and Collins",
+      "PersonId": 897,
+      "PersonName": "Deckow, Cronin and Wisozk",
+      "AssociateId": 107,
+      "Address": "sequi",
+      "EmailId": 110,
       "DuplicatePersonIds": [
-        443,
-        366
+        626,
+        280
       ],
-      "Name": "Wilderman, Mayer and Smitham",
+      "Name": "Carroll-Bogisich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 336
         }
       }
     }
   ],
-  "Subject": "libero",
-  "HTMLBody": "non",
+  "Subject": "vel",
+  "HTMLBody": "earum",
   "From": null,
-  "Sent": "2014-03-02T03:24:47.7520273+01:00",
-  "Size": 235,
+  "Sent": "2003-03-15T13:38:13.5614895+01:00",
+  "Size": 253,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quis",
-  "PlainBody": "quod",
-  "IsSent": false,
+  "MessageID": "ea",
+  "PlainBody": "et",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 335,
+  "ServerId": 639,
   "Attachments": [
     {
-      "Description": "Organized dynamic data-warehouse",
-      "Filename": "temporibus",
-      "Size": 165,
-      "Type": "quas",
-      "Encoding": "a",
-      "Id": "repellat",
-      "Disposition": "tenetur",
-      "IsSafeFileExtension": false,
+      "Description": "Horizontal 4th generation database",
+      "Filename": "earum",
+      "Size": 466,
+      "Type": "vel",
+      "Encoding": "et",
+      "Id": "similique",
+      "Disposition": "eveniet",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 261
+          "FieldLength": 872
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bosco Group",
+      "Name": "Muller LLC",
       "Values": [
-        "in",
-        "cum"
+        "molestias",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 723
+          "FieldType": "System.Int32",
+          "FieldLength": 136
         }
       }
     },
     {
-      "Name": "Bosco Group",
+      "Name": "Muller LLC",
       "Values": [
-        "in",
-        "cum"
+        "molestias",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 723
+          "FieldType": "System.Int32",
+          "FieldLength": 136
         }
       }
     }
   ],
-  "FolderName": "Hamill Group",
-  "EmailItemId": 241,
-  "AccountId": 514,
-  "ReceivedAt": "1999-03-10T03:24:47.7520273+01:00",
+  "FolderName": "Hand, Wilkinson and Kuphal",
+  "EmailItemId": 470,
+  "AccountId": 139,
+  "ReceivedAt": "2008-02-06T13:38:13.5614895+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-03-16T03:24:47.7520273+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1998-04-28T13:38:13.5614895+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldType": "System.String",
+      "FieldLength": 375
     }
   }
 }

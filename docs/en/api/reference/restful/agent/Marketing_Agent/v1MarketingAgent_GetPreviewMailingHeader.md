@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 461
+  "ShipmentId": 505
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2002-02-17T03:24:47.9238778+01:00",
+  "StartDate": "2004-08-18T13:38:13.7333439+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 820,
-  "ShipmentDescription": "User-friendly national data-warehouse",
-  "FromAddress": "officia",
-  "PersonId": 288,
-  "PersonFullName": "Steve Kuhn",
-  "ShipmentType": "et",
-  "MessageId": 800,
-  "MessageSubject": "dolore",
-  "DocumentMessageId": 482,
-  "NumSent": 35,
-  "NumOpened": 772,
-  "NumBounced": 954,
-  "NumClicks": 886,
+  "ShipmentId": 206,
+  "ShipmentDescription": "Persistent bifurcated policy",
+  "FromAddress": "et",
+  "PersonId": 625,
+  "PersonFullName": "Amie Casper",
+  "ShipmentType": "provident",
+  "MessageId": 818,
+  "MessageSubject": "voluptatum",
+  "DocumentMessageId": 251,
+  "NumSent": 659,
+  "NumOpened": 872,
+  "NumBounced": 70,
+  "NumClicks": 367,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 478
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=665
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=108
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -84,49 +84,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 559,
-  "Name": "Oberbrunner, Langworth and Schulist",
-  "Tooltip": "iusto",
-  "VisibleColumns": 779,
-  "Rank": 19,
-  "AssocId": 146,
+  "DiaryViewId": 562,
+  "Name": "Runte-Nolan",
+  "Tooltip": "ratione",
+  "VisibleColumns": 428,
+  "Rank": 586,
+  "AssocId": 848,
   "AssociateList": [
     {
-      "Id": 121,
-      "Name": "Bernhard LLC",
-      "ToolTip": "Culpa et.",
+      "Id": 319,
+      "Name": "Kassulke-Ullrich",
+      "ToolTip": "Non mollitia nesciunt sunt earum est.",
       "Deleted": true,
-      "Rank": 355,
-      "Type": "nisi",
-      "ColorBlock": 652,
-      "IconHint": "voluptatibus",
+      "Rank": 217,
+      "Type": "culpa",
+      "ColorBlock": 288,
+      "IconHint": "similique",
       "Selected": false,
-      "LastChanged": "2019-10-02T03:24:47.3770673+02:00",
+      "LastChanged": "1998-09-26T13:38:13.2802712+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "dolore",
-      "Hidden": true,
-      "FullName": "Ruth Ferry",
+      "ExtraInfo": "quia",
+      "StyleHint": "numquam",
+      "Hidden": false,
+      "FullName": "Ervin Torp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 714
         }
       }
     }
   ],
-  "TzLocationId": 176,
+  "TzLocationId": 41,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldLength": 35
     }
   }
 }

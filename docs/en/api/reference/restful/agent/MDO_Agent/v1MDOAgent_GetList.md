@@ -91,10 +91,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Renner LLC",
-  "ForceFlatList": false,
-  "AdditionalInfo": "vel",
-  "OnlyHistory": true
+  "Name": "Jewess, Boyer and Bogan",
+  "ForceFlatList": true,
+  "AdditionalInfo": "quam",
+  "OnlyHistory": false
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 898,
-    "Name": "Corkery-Zieme",
-    "ToolTip": "Quisquam consectetur incidunt iusto minima.",
-    "Deleted": true,
-    "Rank": 132,
-    "Type": "ducimus",
+    "Id": 117,
+    "Name": "Blanda, Gerhold and Kihn",
+    "ToolTip": "Quaerat omnis.",
+    "Deleted": false,
+    "Rank": 172,
+    "Type": "consectetur",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Hahn Group",
-        "ToolTip": "Accusamus illo nobis.",
-        "Deleted": true,
-        "Rank": 619,
-        "Type": "sit",
+        "Id": 668,
+        "Name": "Bednar-Renner",
+        "ToolTip": "Aut qui quidem voluptates est nobis.",
+        "Deleted": false,
+        "Rank": 166,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 375,
-        "ExtraInfo": "ipsum",
-        "StyleHint": "aliquid",
-        "FullName": "Helene Hand",
+        "IconHint": "incidunt",
+        "ColorBlock": 177,
+        "ExtraInfo": "quam",
+        "StyleHint": "qui",
+        "FullName": "Estrella Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 854
+            "FieldLength": 174
           }
         }
       }
     ],
-    "IconHint": "nostrum",
-    "ColorBlock": 136,
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "veniam",
-    "FullName": "Reginald Zachery Gusikowski PhD",
+    "IconHint": "molestias",
+    "ColorBlock": 128,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "a",
+    "FullName": "Leopold Lynch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldType": "System.Int32",
+        "FieldLength": 58
       }
     }
   }

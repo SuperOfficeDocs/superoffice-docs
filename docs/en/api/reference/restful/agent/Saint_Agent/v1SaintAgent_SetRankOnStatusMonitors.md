@@ -69,10 +69,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "repellat",
+  "Type": "distinctio",
   "ItemsIds": [
-    321,
-    44
+    189,
+    633
   ]
 }
 ```

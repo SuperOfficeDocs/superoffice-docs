@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 270,
-  "Name": "Boehm Inc and Sons",
-  "Tooltip": "odio",
+  "Id": 369,
+  "Name": "Gislason-Mertz",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 424,
+  "Rank": 526,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laboriosam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "id",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldLength": 726
     }
   },
   "_Links": {

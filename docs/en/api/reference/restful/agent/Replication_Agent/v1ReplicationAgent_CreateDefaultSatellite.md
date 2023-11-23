@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 943,
-  "Created": "2006-02-23T03:24:48.1582254+01:00",
+  "SatelliteId": 344,
+  "Created": "2003-03-15T13:38:14.045953+01:00",
   "CreatedBy": null,
-  "Updated": "2008-02-02T03:24:48.1582254+01:00",
+  "Updated": "2011-08-31T13:38:14.045953+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Hamill LLC",
-      "Description": "Synchronised systemic system engine",
+      "Name": "McClure, Walsh and Schroeder",
+      "Description": "Enhanced optimizing adapter",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 184
         }
       }
     },
     {
-      "Name": "Hamill LLC",
-      "Description": "Synchronised systemic system engine",
+      "Name": "McClure, Walsh and Schroeder",
+      "Description": "Enhanced optimizing adapter",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 184
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldType": "System.String",
+      "FieldLength": 64
     }
   }
 }

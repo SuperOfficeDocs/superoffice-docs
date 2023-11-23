@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Jaskolski-Borer",
-      "Operator": "blanditiis",
+      "Name": "Reilly, Kuphal and Schaden",
+      "Operator": "vero",
       "Values": [
-        "excepturi",
-        "assumenda"
+        "iusto",
+        "enim"
       ],
       "DisplayValues": [
-        "fugit",
-        "quos"
+        "laudantium",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 835,
+      "InterParenthesis": 778,
       "InterOperator": "And",
-      "UniqueHash": 523
+      "UniqueHash": 27
     }
   ]
 }
@@ -120,44 +120,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Thiel-Zulauf",
-    "Operator": "quisquam",
+    "Name": "Shanahan Inc and Sons",
+    "Operator": "in",
     "Values": [
-      "aut",
-      "vel"
+      "pariatur",
+      "corporis"
     ],
     "DisplayValues": [
-      "facilis",
-      "rerum"
+      "adipisci",
+      "velit"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Brown-Ankunding",
-        "Operator": "repellendus",
+        "Name": "Wisozk LLC",
+        "Operator": "pariatur",
         "Values": [
           "sed",
-          "rerum"
+          "molestiae"
         ],
         "DisplayValues": [
-          "quibusdam",
-          "laborum"
+          "doloribus",
+          "facere"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 960,
+        "InterParenthesis": 295,
         "InterOperator": "And",
-        "UniqueHash": 939
+        "UniqueHash": 940
       }
     ],
-    "InterParenthesis": 617,
+    "InterParenthesis": 11,
     "InterOperator": "And",
-    "UniqueHash": 152
+    "UniqueHash": 424
   }
 ]
 ```

@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 370,
-    "DisplayName": "Dickens Group",
-    "OngoingChats": 546,
-    "Present": true,
+    "UserId": 888,
+    "DisplayName": "Larson, McClure and Beer",
+    "OngoingChats": 655,
+    "Present": false,
     "ChatTopics": [
-      159,
-      701
+      355,
+      754
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldType": "System.String",
+        "FieldLength": 766
       }
     }
   }

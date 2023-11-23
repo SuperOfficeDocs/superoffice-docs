@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Miller-Boyle",
+  "TableName": "Carter-Hermiston",
   "Columns": [
-    "enim",
-    "delectus"
+    "quisquam",
+    "veniam"
   ],
   "Keys": [
-    "labore",
-    "ut"
+    "neque",
+    "quia"
   ],
   "Data": [
     [
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": false
+  "ReturnRowStatus": true
 }
 ```
 
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "dolorem",
-  "Inserts": 108,
-  "Updates": 845,
-  "Deletes": 567,
+  "Success": true,
+  "Message": "dignissimos",
+  "Inserts": 451,
+  "Updates": 556,
+  "Deletes": 732,
   "RowStatus": [
     {
-      "PrimaryKey": 779,
+      "PrimaryKey": 972,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "architecto",
-        "et"
+        "vel",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldType": "System.String",
+          "FieldLength": 104
         }
       }
     },
     {
-      "PrimaryKey": 779,
+      "PrimaryKey": 972,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "architecto",
-        "et"
+        "vel",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldType": "System.String",
+          "FieldLength": 104
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldLength": 148
     }
   }
 }

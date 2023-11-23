@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Schulist-Gibson",
+  "TaskName": "Schumm, Medhurst and Paucek",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Jewess Group",
-    "AssociateId": 366,
-    "DetailsTable": 887,
-    "DetailsRecord": 963,
-    "IsSystemTask": false,
+    "Id": 436,
+    "Name": "Schuppe LLC",
+    "AssociateId": 166,
+    "DetailsTable": 953,
+    "DetailsRecord": 333,
+    "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "blanditiis",
-      "ParameterObject2": "quas"
+      "ParameterObject1": "sint",
+      "ParameterObject2": "doloremque"
     },
-    "LastStarted": "2019-11-13T03:24:47.2520803+01:00",
-    "Created": "2003-03-13T03:24:47.2520803+01:00",
-    "StartCount": 612,
-    "DatabaseSerialNumber": "959451",
-    "Context": "unde",
-    "Result": "quia",
+    "LastStarted": "2021-09-29T13:38:13.0927968+02:00",
+    "Created": "2014-02-05T13:38:13.0927968+01:00",
+    "StartCount": 311,
+    "DatabaseSerialNumber": "777729",
+    "Context": "perspiciatis",
+    "Result": "excepturi",
     "State": "All",
-    "Description": "Proactive logistical project",
-    "Response": "facere",
-    "Request": "et",
-    "ProgressDescription": "User-centric eco-centric approach",
-    "ProgressPercent": 137,
-    "FileName": "Gerhold-Cartwright",
+    "Description": "Synchronised next generation challenge",
+    "Response": "placeat",
+    "Request": "voluptas",
+    "ProgressDescription": "Ameliorated needs-based project",
+    "ProgressPercent": 74,
+    "FileName": "Nader Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldType": "System.String",
+        "FieldLength": 873
       }
     }
   }

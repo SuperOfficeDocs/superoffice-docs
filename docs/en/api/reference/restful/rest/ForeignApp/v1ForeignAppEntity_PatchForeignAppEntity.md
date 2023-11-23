@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "expedita",
+    "path": "exercitationem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "expedita",
+    "path": "exercitationem",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 423,
-  "Name": "Schmidt, Boyle and Funk",
-  "CreatedDate": "2013-04-06T03:24:51.6149823+02:00",
-  "UpdatedDate": "1998-10-11T03:24:51.6149823+02:00",
+  "ForeignAppId": 286,
+  "Name": "Schneider LLC",
+  "CreatedDate": "2022-03-25T13:38:17.4368262+01:00",
+  "UpdatedDate": "2007-01-06T13:38:17.4368262+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 432,
-      "Name": "Jast, Mante and Bruen",
-      "CreatedDate": "2000-01-01T03:24:51.6149823+01:00",
-      "UpdatedDate": "2006-05-23T03:24:51.6149823+02:00",
-      "AssociateFullName": "Jessie Runolfsson",
-      "CreatedBy": "odit",
-      "UpdatedBy": "suscipit",
-      "DeviceIdentifier": "animi",
-      "ForeignAppId": 91,
+      "ForeignDeviceId": 536,
+      "Name": "Gaylord LLC",
+      "CreatedDate": "2000-07-20T13:38:17.4368262+02:00",
+      "UpdatedDate": "2020-08-12T13:38:17.4368262+02:00",
+      "AssociateFullName": "Greg Emard",
+      "CreatedBy": "asperiores",
+      "UpdatedBy": "id",
+      "DeviceIdentifier": "sunt",
+      "ForeignAppId": 662,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 710
+          "FieldLength": 692
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldType": "System.Int32",
+      "FieldLength": 935
     }
   },
   "_Links": {

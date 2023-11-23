@@ -115,6 +115,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -131,8 +132,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 844,
-  "RecurrenceRuleId": 779
+  "MotherId": 998,
+  "RecurrenceRuleId": 863
 }
 ```
 
@@ -144,64 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 224,
-    "StartDate": "1997-05-10T03:24:46.9713962+02:00",
-    "EndDate": "2016-05-31T03:24:46.9713962+02:00",
+    "AppointmentId": 934,
+    "StartDate": "2004-11-18T13:38:12.8740699+01:00",
+    "EndDate": "2022-09-01T13:38:12.8740699+02:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Jayce Reichert",
-    "ContactName": "Zemlak, Dare and Nader",
-    "Description": "Team-oriented motivating functionalities",
-    "PersonFullName": "Toni Beer",
-    "PersonId": 407,
-    "ContactId": 486,
-    "ProjectId": 328,
-    "ProjectName": "Effertz-Ryan",
-    "IsPublished": true,
-    "AssociateId": 840,
-    "ColorIndex": 131,
+    "Task": "numquam",
+    "AssociateFullName": "Adriana Keeling",
+    "ContactName": "Larkin Inc and Sons",
+    "Description": "Implemented intermediate emulation",
+    "PersonFullName": "Rupert Schuster",
+    "PersonId": 642,
+    "ContactId": 858,
+    "ProjectId": 190,
+    "ProjectName": "Dibbert-Goldner",
+    "IsPublished": false,
+    "AssociateId": 18,
+    "ColorIndex": 353,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 7,
-    "PriorityName": "Sipes-Altenwerth",
+    "PriorityId": 606,
+    "PriorityName": "Jenkins LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2014-12-09T03:24:46.9713962+01:00",
+    "ActiveDate": "1998-03-27T13:38:12.8740699+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-03-29T03:24:46.9713962+02:00",
-    "RecurringEndDate": "2010-08-20T03:24:46.9713962+02:00",
-    "MotherId": 904,
-    "AssignedBy": 254,
-    "AssignedByFullName": "Percival Kling",
+    "RecurringStartDate": "2022-06-30T13:38:12.8740699+02:00",
+    "RecurringEndDate": "2016-04-29T13:38:12.8740699+02:00",
+    "MotherId": 941,
+    "AssignedBy": 174,
+    "AssignedByFullName": "Felipe Boehm",
     "RejectReason": "",
-    "Location": "omnis",
-    "AlarmLeadTime": "odit",
-    "SaleId": 715,
-    "SaleName": "Batz, Hirthe and Miller",
-    "AssociateName": "Powlowski-Orn",
-    "CreatedDate": "2011-01-14T03:24:46.9713962+01:00",
-    "CreatedBy": "tempore",
-    "CreatedByFullName": "Ms. Aditya Nader",
-    "CreatedByAssociateId": 792,
+    "Location": "consequatur",
+    "AlarmLeadTime": "fuga",
+    "SaleId": 80,
+    "SaleName": "Ward, Osinski and Wintheiser",
+    "AssociateName": "Rath-Labadie",
+    "CreatedDate": "2002-03-18T13:38:12.8740699+01:00",
+    "CreatedBy": "minus",
+    "CreatedByFullName": "Mrs. Austen Dustin Murazik I",
+    "CreatedByAssociateId": 100,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "officia",
-    "Agenda": "qui",
-    "InternalNotes": "mollitia",
+    "PreferredTZLocation": 182,
+    "Title": "nostrum",
+    "Agenda": "nam",
+    "InternalNotes": "laudantium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldLength": 4
       }
     }
   }

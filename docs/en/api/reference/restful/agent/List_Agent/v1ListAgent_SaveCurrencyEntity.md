@@ -75,16 +75,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 531,
-  "Name": "Stokes Group",
-  "Tooltip": "sunt",
-  "Rank": 166,
-  "Rate": 29550.486,
-  "Units": 7916.4839999999995,
+  "CurrencyId": 46,
+  "Name": "Powlowski-Hilll",
+  "Tooltip": "magnam",
+  "Rank": 3,
+  "Rate": 1767.576,
+  "Units": 2820.6,
   "Deleted": false
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 144,
-  "Name": "Blick, Runolfsdottir and Hauck",
-  "Tooltip": "consectetur",
-  "Rank": 388,
-  "Rate": 5117.822,
-  "Units": 31104.95,
+  "CurrencyId": 481,
+  "Name": "Steuber, Roberts and Bailey",
+  "Tooltip": "debitis",
+  "Rank": 59,
+  "Rate": 21596.394,
+  "Units": 18985.772,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldType": "System.Int32",
+      "FieldLength": 454
     }
   }
 }

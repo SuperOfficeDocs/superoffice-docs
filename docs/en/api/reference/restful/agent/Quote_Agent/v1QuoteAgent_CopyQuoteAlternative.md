@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 627,
-  "QuoteAlternativeId": 674,
-  "QuoteAlternativeName": "Dare, Nader and Koelpin"
+  "QuoteVersionId": 580,
+  "QuoteAlternativeId": 918,
+  "QuoteAlternativeName": "Doyle, Bruen and Schulist"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 448,
-  "ERPQuoteAlternativeKey": "reiciendis",
-  "QuoteVersionId": 49,
-  "Name": "Reinger LLC",
-  "Description": "Diverse systematic moratorium",
+  "QuoteAlternativeId": 941,
+  "ERPQuoteAlternativeKey": "dignissimos",
+  "QuoteVersionId": 773,
+  "Name": "Stehr-Nienow",
+  "Description": "Digitized intermediate structure",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 28237.34,
-  "ERPDiscountAmount": 30393.532,
-  "DiscountPercent": 9170.0839999999989,
-  "DiscountAmount": 29995.514,
+  "ERPDiscountPercent": 24150.604,
+  "ERPDiscountAmount": 25780.284,
+  "DiscountPercent": 6650.348,
+  "DiscountAmount": 15967.73,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "nisi",
-  "VAT": 15036.931999999999,
-  "EarningPercent": 15215.57,
-  "EarningAmount": 25435.543999999998,
-  "SubTotal": 11627.14,
-  "TotalPrice": 5193.038,
-  "ExtraField1": "et",
-  "ExtraField2": "in",
-  "ExtraField3": "qui",
-  "ExtraField4": "provident",
-  "ExtraField5": "architecto",
+  "VATInfo": "porro",
+  "VAT": 14463.41,
+  "EarningPercent": 18299.426,
+  "EarningAmount": 29102.324,
+  "SubTotal": 8944.436,
+  "TotalPrice": 6214.722,
+  "ExtraField1": "eos",
+  "ExtraField2": "ipsum",
+  "ExtraField3": "sed",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 381
     }
   }
 }

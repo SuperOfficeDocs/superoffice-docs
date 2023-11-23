@@ -103,7 +103,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -134,7 +135,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 811
+  "SaleId": 623
 }
 ```
 
@@ -149,125 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-08-25T03:24:47.1739602+02:00",
-  "AppointmentId": 754,
-  "Description": "Focused executive contingency",
-  "StartDate": "2005-11-01T03:24:47.1739602+01:00",
-  "EndDate": "1996-06-23T03:24:47.1739602+02:00",
+  "CreatedDate": "2007-12-01T13:38:13.0146764+01:00",
+  "AppointmentId": 982,
+  "Description": "Re-contextualized web-enabled portal",
+  "StartDate": "2015-03-24T13:38:13.0146764+01:00",
+  "EndDate": "2022-02-08T13:38:13.0146764+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 412,
+  "MotherId": 752,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-04-10T03:24:47.1739602+02:00",
+  "UpdatedDate": "2022-11-06T13:38:13.0146764+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 928,
+  "ActiveLinks": 667,
   "Links": [
     {
-      "EntityName": "Koss, Renner and Daugherty",
-      "Id": 503,
-      "Description": "Customer-focused explicit productivity",
-      "ExtraInfo": "pariatur",
-      "LinkId": 350,
+      "EntityName": "Volkman-Kerluke",
+      "Id": 509,
+      "Description": "Customizable context-sensitive strategy",
+      "ExtraInfo": "sunt",
+      "LinkId": 15,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 64
+          "FieldType": "System.Int32",
+          "FieldLength": 557
         }
       }
     }
   ],
-  "AlarmLeadTime": "recusandae",
-  "HasAlarm": true,
-  "ColorIndex": 346,
+  "AlarmLeadTime": "atque",
+  "HasAlarm": false,
+  "ColorIndex": 442,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "accusamus",
-  "LeadTime": "sapiente",
-  "Location": "facere",
-  "RejectCounter": 840,
+  "IsAlldayEvent": false,
+  "LagTime": "perspiciatis",
+  "LeadTime": "temporibus",
+  "Location": "voluptatem",
+  "RejectCounter": 346,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 679,
-      "PersonId": 14,
-      "ContactId": 946,
-      "EmailId": 567,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 679,
-      "PersonId": 14,
-      "ContactId": 946,
-      "EmailId": 567,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 683,
+      "PersonId": 458,
+      "ContactId": 327,
+      "EmailId": 968,
+      "SendEmail": false,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "mollie@klocko.com",
+      "Description": "Synergistic tertiary analyzer"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2001-10-18T03:24:47.1739602+02:00",
+  "ActiveDate": "2006-12-12T13:38:13.0146764+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 988,
+  "PreferredTZLocation": 712,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 783,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 977,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "repellat",
-  "Title": "cum",
-  "Agenda": "ut",
-  "InternalNotes": "ipsam",
+  "CentralserviceVideomeetId": "sapiente",
+  "Title": "dicta",
+  "Agenda": "atque",
+  "InternalNotes": "recusandae",
   "UserDefinedFields": {
-    "SuperOffice:1": "Alexie Hoeger",
-    "SuperOffice:2": "Jerry Fisher"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Adella Walker PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "optio",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "amet"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "quo"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "praesentium"
   },
-  "PublishEventDate": "2004-06-18T03:24:47.1739602+02:00",
-  "PublishTo": "2000-07-11T03:24:47.1739602+02:00",
-  "PublishFrom": "2011-10-14T03:24:47.1739602+02:00",
+  "PublishEventDate": "2002-12-24T13:38:13.0146764+01:00",
+  "PublishTo": "2012-09-12T13:38:13.0146764+02:00",
+  "PublishFrom": "2021-06-18T13:38:13.0146764+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 269,
+      "VisibleId": 151,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 194
+          "FieldType": "System.Int32",
+          "FieldLength": 220
         }
       }
     },
     {
-      "VisibleId": 269,
+      "VisibleId": 151,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 194
+          "FieldType": "System.Int32",
+          "FieldLength": 220
         }
       }
     }
@@ -277,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 49
+      "FieldLength": 956
     }
   }
 }

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 777,
-  "Name": "Goodwin-Blick",
-  "Tooltip": "ad",
+  "Id": 28,
+  "Name": "Eichmann Inc and Sons",
+  "Tooltip": "enim",
   "Deleted": true,
-  "UdListDefinitionId": 602,
-  "Rank": 637
+  "UdListDefinitionId": 544,
+  "Rank": 876
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 736,
-  "Name": "Mayer Inc and Sons",
-  "Tooltip": "nam",
+  "Id": 556,
+  "Name": "Murazik LLC",
+  "Tooltip": "voluptatum",
   "Deleted": true,
-  "UdListDefinitionId": 588,
-  "Rank": 737,
+  "UdListDefinitionId": 988,
+  "Rank": 147,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldType": "System.String",
+      "FieldLength": 62
     }
   }
 }

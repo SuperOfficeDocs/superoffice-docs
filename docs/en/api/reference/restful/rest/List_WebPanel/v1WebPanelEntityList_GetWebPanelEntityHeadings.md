@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 675,
-    "Name": "McKenzie-Farrell",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 803,
-    "UdListDefinitionId": 144,
+    "HeadingId": 172,
+    "Name": "Ruecker LLC",
+    "Tooltip": "quibusdam",
+    "Deleted": true,
+    "Rank": 224,
+    "UdListDefinitionId": 608,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 407
       }
     }
   }

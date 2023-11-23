@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 218,
-    "ColumnId": 91,
-    "FieldDefault": "dolor",
-    "FieldHeight": 854,
-    "FieldLabel": "eius",
-    "FieldLeft": 262,
-    "FieldTop": 638,
+    "UDefFieldId": 506,
+    "ColumnId": 913,
+    "FieldDefault": "commodi",
+    "FieldHeight": 522,
+    "FieldLabel": "dolorem",
+    "FieldLeft": 341,
+    "FieldTop": 520,
     "FieldType": "Checkbox",
-    "FieldWidth": 233,
-    "FormatMask": "suscipit",
-    "HideLabel": true,
+    "FieldWidth": 198,
+    "FormatMask": "pariatur",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 892,
-    "LabelLeft": 854,
-    "LabelTop": 505,
-    "LabelWidth": 346,
-    "LastVersionId": 91,
-    "ListTableId": 984,
+    "LabelHeight": 403,
+    "LabelLeft": 960,
+    "LabelTop": 366,
+    "LabelWidth": 788,
+    "LastVersionId": 93,
+    "ListTableId": 667,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 489,
-    "ProgId": "aut",
+    "Page1LineNo": 350,
+    "ProgId": "ea",
     "IsReadOnly": false,
-    "ShortLabel": "sint",
-    "TabOrder": 571,
-    "TextLength": 495,
-    "Tooltip": "accusamus",
-    "UdefIdentity": 412,
-    "UDListDefinitionId": 264,
+    "ShortLabel": "accusamus",
+    "TabOrder": 160,
+    "TextLength": 42,
+    "Tooltip": "commodi",
+    "UdefIdentity": 279,
+    "UDListDefinitionId": 127,
     "Justification": "Center",
-    "Version": 501,
-    "TemplateVariableName": "Schneider-Lind",
+    "Version": 50,
+    "TemplateVariableName": "Kilback, Ward and Runolfsdottir",
     "HasBeenPublished": false,
-    "MdoListName": "Ryan Inc and Sons",
+    "MdoListName": "Fritsch Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldLength": 414
       }
     }
   }

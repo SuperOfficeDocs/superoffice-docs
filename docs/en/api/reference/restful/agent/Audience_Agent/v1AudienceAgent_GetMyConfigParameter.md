@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Fadel-Schmitt"
+  "ParameterName": "Koss LLC"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 438,
-  "Name": "Casper, Koss and McGlynn",
-  "Value": "ratione",
-  "CreatedDate": "2009-09-10T03:24:47.2364513+02:00",
-  "UpdatedDate": "2012-12-23T03:24:47.2364513+01:00",
-  "CreatedBy": "consequatur",
-  "UpdatedBy": "ut",
+  "AudienceLayoutId": 497,
+  "Name": "Lehner Group",
+  "Value": "hic",
+  "CreatedDate": "2009-06-03T13:38:13.0771703+02:00",
+  "UpdatedDate": "2013-04-18T13:38:13.0771703+02:00",
+  "CreatedBy": "eos",
+  "UpdatedBy": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 811
     }
   }
 }

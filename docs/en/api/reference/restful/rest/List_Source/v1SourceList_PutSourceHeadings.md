@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 971,
-    "Name": "Steuber, Mayert and Dach",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "Rank": 709,
-    "UdListDefinitionId": 227
+    "HeadingId": 730,
+    "Name": "Moore, Schuster and Boyer",
+    "Tooltip": "nam",
+    "Deleted": false,
+    "Rank": 688,
+    "UdListDefinitionId": 688
   },
   {
-    "HeadingId": 971,
-    "Name": "Steuber, Mayert and Dach",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "Rank": 709,
-    "UdListDefinitionId": 227
+    "HeadingId": 730,
+    "Name": "Moore, Schuster and Boyer",
+    "Tooltip": "nam",
+    "Deleted": false,
+    "Rank": 688,
+    "UdListDefinitionId": 688
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 285,
-    "Name": "Kreiger Group",
-    "Tooltip": "recusandae",
-    "Deleted": false,
-    "Rank": 336,
-    "UdListDefinitionId": 237,
+    "HeadingId": 112,
+    "Name": "Jakubowski Inc and Sons",
+    "Tooltip": "repellendus",
+    "Deleted": true,
+    "Rank": 314,
+    "UdListDefinitionId": 149,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldType": "System.Int32",
+        "FieldLength": 64
       }
     }
   }

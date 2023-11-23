@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "dignissimos",
-    "explicabo"
+    "in",
+    "id"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Paucek LLC",
-    "Delimiter": "corrupti",
-    "Flags": "sed",
-    "TotalItems": 832,
-    "UnreadItems": 881,
+    "Name": "McKenzie-King",
+    "Delimiter": "optio",
+    "Flags": "odio",
+    "TotalItems": 194,
+    "UnreadItems": 751,
     "Subscribed": false,
-    "EmailFolderId": 245,
+    "EmailFolderId": 557,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldLength": 794
       }
     }
   }

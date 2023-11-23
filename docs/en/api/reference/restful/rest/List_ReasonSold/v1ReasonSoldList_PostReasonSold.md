@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "Name": "Bogan Inc and Sons",
-  "Tooltip": "laborum",
-  "Deleted": false,
-  "UdListDefinitionId": 752,
-  "Rank": 461
+  "Id": 650,
+  "Name": "Gulgowski-Baumbach",
+  "Tooltip": "cupiditate",
+  "Deleted": true,
+  "UdListDefinitionId": 908,
+  "Rank": 641
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 403,
-  "Name": "Runolfsdottir, Conn and Berge",
-  "Tooltip": "qui",
+  "Id": 336,
+  "Name": "Weber-Johnston",
+  "Tooltip": "ab",
   "Deleted": true,
-  "UdListDefinitionId": 94,
-  "Rank": 391,
+  "UdListDefinitionId": 654,
+  "Rank": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldType": "System.String",
+      "FieldLength": 923
     }
   }
 }

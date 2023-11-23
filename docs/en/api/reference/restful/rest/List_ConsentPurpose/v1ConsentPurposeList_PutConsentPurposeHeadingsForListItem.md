@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 574,
-    "Name": "McDermott-Hills",
-    "ToolTip": "Temporibus eveniet.",
+    "Id": 62,
+    "Name": "Metz-Rempel",
+    "ToolTip": "Quod maxime praesentium cumque laudantium repellendus.",
     "Deleted": false,
-    "Rank": 423,
-    "Type": "molestias",
-    "ColorBlock": 419,
-    "IconHint": "quod",
-    "Selected": true,
-    "LastChanged": "2005-12-28T03:24:52.1932187+01:00",
+    "Rank": 548,
+    "Type": "quod",
+    "ColorBlock": 600,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2016-09-23T13:38:17.9994152+02:00",
     "ChildItems": [
       {
-        "Id": 4,
-        "Name": "Ziemann Group",
-        "ToolTip": "Amet ut nihil perspiciatis est amet in velit.",
+        "Id": 166,
+        "Name": "Stracke-Auer",
+        "ToolTip": "Reprehenderit facilis perferendis molestias.",
         "Deleted": false,
-        "Rank": 258,
-        "Type": "voluptas",
-        "ColorBlock": 408,
-        "IconHint": "fugit",
+        "Rank": 425,
+        "Type": "molestiae",
+        "ColorBlock": 499,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2023-04-21T03:24:52.1932187+02:00",
+        "LastChanged": "2019-08-18T13:38:17.9994152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "pariatur",
-        "Hidden": true,
-        "FullName": "Mrs. Mariah Hauck"
+        "ExtraInfo": "sunt",
+        "StyleHint": "dolorem",
+        "Hidden": false,
+        "FullName": "Lora Herman"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "et",
+    "ExtraInfo": "dolor",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Haylee Fisher"
+    "FullName": "Forrest Kunde"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 898,
-    "Name": "Okuneva LLC",
-    "ToolTip": "Omnis deleniti velit quis optio eum necessitatibus.",
+    "Id": 223,
+    "Name": "Wunsch-Howell",
+    "ToolTip": "Debitis quis magnam ut.",
     "Deleted": false,
-    "Rank": 76,
-    "Type": "voluptas",
-    "ColorBlock": 971,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2022-01-29T03:24:52.1932187+01:00",
+    "Rank": 246,
+    "Type": "qui",
+    "ColorBlock": 5,
+    "IconHint": "reprehenderit",
+    "Selected": false,
+    "LastChanged": "2023-03-16T13:38:17.9994152+01:00",
     "ChildItems": [
       {
-        "Id": 367,
-        "Name": "Deckow, Lemke and Schulist",
-        "ToolTip": "Eaque veritatis impedit cum explicabo.",
-        "Deleted": false,
-        "Rank": 995,
-        "Type": "beatae",
-        "ColorBlock": 125,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2006-08-10T03:24:52.1932187+02:00",
+        "Id": 443,
+        "Name": "Conn, Aufderhar and Bernhard",
+        "ToolTip": "Itaque corporis praesentium harum voluptas distinctio.",
+        "Deleted": true,
+        "Rank": 838,
+        "Type": "odio",
+        "ColorBlock": 974,
+        "IconHint": "magnam",
+        "Selected": true,
+        "LastChanged": "2006-10-09T13:38:17.9994152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "unde",
-        "Hidden": false,
-        "FullName": "Augusta Bechtelar DDS",
+        "ExtraInfo": "et",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Alana Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 728
+            "FieldType": "System.Int32",
+            "FieldLength": 421
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Linnie Crooks DDS",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "porro",
+    "Hidden": false,
+    "FullName": "Nannie Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 951
+        "FieldType": "System.String",
+        "FieldLength": 519
       }
     }
   }

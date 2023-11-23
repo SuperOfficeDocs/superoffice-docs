@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "animi",
-  "GroupName": "Goldner-Heaney"
+  "Type": "atque",
+  "GroupName": "Fisher, Zieme and Renner"
 }
 ```
 
@@ -94,16 +94,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "sit",
-    "dicta"
+    "fugit",
+    "consequatur"
   ],
   "Users": [
     {
-      "Value": "vero",
-      "DisplayValue": "quas",
+      "Value": "officia",
+      "DisplayValue": "optio",
       "Columns": [
-        "veniam",
-        "debitis"
+        "possimus",
+        "ullam"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -111,16 +111,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 344
         }
       }
     },
     {
-      "Value": "vero",
-      "DisplayValue": "quas",
+      "Value": "officia",
+      "DisplayValue": "optio",
       "Columns": [
-        "veniam",
-        "debitis"
+        "possimus",
+        "ullam"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 344
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldLength": 668
     }
   }
 }

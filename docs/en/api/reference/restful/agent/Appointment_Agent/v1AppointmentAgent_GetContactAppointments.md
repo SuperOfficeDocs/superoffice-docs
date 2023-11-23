@@ -117,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -129,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 319,
-  "StartTime": "2021-09-05T03:24:46.9238216+02:00",
-  "EndTime": "2014-03-19T03:24:46.9238216+01:00",
-  "Count": 961
+  "ContactId": 634,
+  "StartTime": "2014-03-16T13:38:12.8428246+01:00",
+  "EndTime": "2014-08-15T13:38:12.8428246+02:00",
+  "Count": 444
 }
 ```
 
@@ -148,64 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 820,
-    "StartDate": "2012-09-16T03:24:46.9238216+02:00",
-    "EndDate": "2017-05-01T03:24:46.9238216+02:00",
+    "AppointmentId": 25,
+    "StartDate": "2009-08-12T13:38:12.8428246+02:00",
+    "EndDate": "2023-03-24T13:38:12.8428246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ad",
-    "AssociateFullName": "Kole Frami Jr.",
-    "ContactName": "Barton Group",
-    "Description": "Business-focused client-server synergy",
-    "PersonFullName": "Cristal Kilback",
-    "PersonId": 523,
-    "ContactId": 172,
-    "ProjectId": 374,
-    "ProjectName": "Considine, Veum and Borer",
+    "Task": "aut",
+    "AssociateFullName": "Anissa O'Keefe",
+    "ContactName": "Hammes Inc and Sons",
+    "Description": "Business-focused tangible intranet",
+    "PersonFullName": "Johann Jerde",
+    "PersonId": 406,
+    "ContactId": 446,
+    "ProjectId": 72,
+    "ProjectName": "Gleichner Group",
     "IsPublished": false,
-    "AssociateId": 543,
-    "ColorIndex": 548,
-    "IsFree": true,
+    "AssociateId": 241,
+    "ColorIndex": 787,
+    "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 975,
-    "PriorityName": "Barton-Hudson",
+    "PriorityId": 707,
+    "PriorityName": "Lueilwitz, Hilll and Olson",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2021-04-22T03:24:46.9238216+02:00",
+    "ActiveDate": "2014-04-06T13:38:12.8428246+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-03-31T03:24:46.9238216+02:00",
-    "RecurringEndDate": "2016-11-12T03:24:46.9238216+01:00",
-    "MotherId": 899,
-    "AssignedBy": 677,
-    "AssignedByFullName": "Micheal Ortiz",
+    "RecurringStartDate": "2022-03-25T13:38:12.8428246+01:00",
+    "RecurringEndDate": "2002-03-04T13:38:12.8428246+01:00",
+    "MotherId": 446,
+    "AssignedBy": 279,
+    "AssignedByFullName": "Adell Grimes DVM",
     "RejectReason": "",
-    "Location": "blanditiis",
-    "AlarmLeadTime": "ut",
-    "SaleId": 902,
-    "SaleName": "Shields, Buckridge and White",
-    "AssociateName": "Conroy LLC",
-    "CreatedDate": "2015-07-10T03:24:46.9238216+02:00",
-    "CreatedBy": "dignissimos",
-    "CreatedByFullName": "Dr. Armando Mayer PhD",
-    "CreatedByAssociateId": 800,
+    "Location": "nihil",
+    "AlarmLeadTime": "aliquid",
+    "SaleId": 725,
+    "SaleName": "Kilback LLC",
+    "AssociateName": "Botsford Group",
+    "CreatedDate": "2016-05-09T13:38:12.8428246+02:00",
+    "CreatedBy": "veniam",
+    "CreatedByFullName": "Ward Koepp",
+    "CreatedByAssociateId": 389,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "dolores",
-    "Agenda": "culpa",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 32,
+    "Title": "error",
+    "Agenda": "molestiae",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldType": "System.Int32",
+        "FieldLength": 828
       }
     }
   }

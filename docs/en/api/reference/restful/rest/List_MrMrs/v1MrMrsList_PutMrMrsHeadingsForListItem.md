@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Keebler, Breitenberg and Osinski",
-    "ToolTip": "Omnis tenetur quibusdam.",
-    "Deleted": true,
-    "Rank": 613,
-    "Type": "itaque",
-    "ColorBlock": 809,
-    "IconHint": "mollitia",
+    "Id": 536,
+    "Name": "Hessel LLC",
+    "ToolTip": "Possimus earum iure.",
+    "Deleted": false,
+    "Rank": 174,
+    "Type": "officiis",
+    "ColorBlock": 83,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2000-12-10T03:24:52.2713365+01:00",
+    "LastChanged": "2013-08-10T13:38:18.0931573+02:00",
     "ChildItems": [
       {
-        "Id": 271,
-        "Name": "Howe Inc and Sons",
-        "ToolTip": "Quod aut voluptatem aspernatur.",
-        "Deleted": true,
-        "Rank": 101,
-        "Type": "facere",
-        "ColorBlock": 386,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "1999-03-08T03:24:52.2713365+01:00",
+        "Id": 902,
+        "Name": "Schroeder-Ondricka",
+        "ToolTip": "Fugit et quis consequatur eum odit.",
+        "Deleted": false,
+        "Rank": 250,
+        "Type": "alias",
+        "ColorBlock": 563,
+        "IconHint": "labore",
+        "Selected": true,
+        "LastChanged": "2020-06-30T13:38:18.0931573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "aut",
+        "ExtraInfo": "odit",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Ryan Cummings V"
+        "FullName": "Prof. Nichole McCullough I"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Fatima Roob"
+    "ExtraInfo": "dolorem",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Ms. Javon O'Hara"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Mante-Feil",
-    "ToolTip": "Eos rerum fugit ab.",
-    "Deleted": true,
-    "Rank": 691,
-    "Type": "dicta",
-    "ColorBlock": 833,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2010-08-31T03:24:52.2713365+02:00",
+    "Id": 903,
+    "Name": "Grady, Watsica and Corwin",
+    "ToolTip": "Cupiditate sed dicta ipsa animi in.",
+    "Deleted": false,
+    "Rank": 686,
+    "Type": "et",
+    "ColorBlock": 270,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2011-06-19T13:38:18.0931573+02:00",
     "ChildItems": [
       {
-        "Id": 356,
-        "Name": "Deckow, Hermiston and Kris",
-        "ToolTip": "Quidem soluta omnis animi consequatur est laborum.",
+        "Id": 929,
+        "Name": "Leffler LLC",
+        "ToolTip": "Sequi dicta sequi.",
         "Deleted": false,
-        "Rank": 910,
-        "Type": "magni",
-        "ColorBlock": 547,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2002-12-21T03:24:52.2713365+01:00",
+        "Rank": 452,
+        "Type": "qui",
+        "ColorBlock": 752,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2021-09-12T13:38:18.0931573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "fuga",
-        "Hidden": false,
-        "FullName": "Valentin Wisoky",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Maureen Harvey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 987
+            "FieldType": "System.String",
+            "FieldLength": 591
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "vel",
+    "ExtraInfo": "rerum",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Prof. Imani Kuhic",
+    "FullName": "Emilio Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldLength": 351
       }
     }
   }

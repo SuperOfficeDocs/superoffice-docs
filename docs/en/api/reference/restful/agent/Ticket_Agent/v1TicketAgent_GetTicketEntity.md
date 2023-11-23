@@ -26,7 +26,7 @@ Gets a TicketEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=163
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=570
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
 
@@ -123,7 +123,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -133,21 +133,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 66,
-  "Title": "sit",
-  "CreatedAt": "2019-09-19T03:24:48.4247716+02:00",
-  "LastChanged": "1999-06-14T03:24:48.4247716+02:00",
-  "ReadByOwner": "1998-02-15T03:24:48.4247716+01:00",
-  "ReadByCustomer": "2002-02-01T03:24:48.4247716+01:00",
-  "FirstReadByOwner": "2010-01-10T03:24:48.4247716+01:00",
-  "FirstReadByUser": "2017-03-23T03:24:48.4247716+01:00",
-  "Activate": "2003-10-02T03:24:48.4247716+02:00",
-  "ClosedAt": "2003-05-25T03:24:48.4247716+02:00",
-  "RepliedAt": "2002-07-22T03:24:48.4247716+02:00",
-  "AlertTimeout": "2002-04-21T03:24:48.4247716+02:00",
-  "Deadline": "2012-05-29T03:24:48.4247716+02:00",
+  "TicketId": 249,
+  "Title": "quis",
+  "CreatedAt": "2003-02-13T13:38:14.2178238+01:00",
+  "LastChanged": "2022-05-30T13:38:14.2178238+02:00",
+  "ReadByOwner": "2007-09-25T13:38:14.2178238+02:00",
+  "ReadByCustomer": "2008-10-22T13:38:14.2178238+02:00",
+  "FirstReadByOwner": "2004-04-15T13:38:14.2178238+02:00",
+  "FirstReadByUser": "2013-12-21T13:38:14.2178238+01:00",
+  "Activate": "2021-06-06T13:38:14.2178238+02:00",
+  "ClosedAt": "2010-08-26T13:38:14.2178238+02:00",
+  "RepliedAt": "2007-11-20T13:38:14.2178238+01:00",
+  "AlertTimeout": "2004-04-01T13:38:14.2178238+02:00",
+  "Deadline": "2000-06-11T13:38:14.2178238+02:00",
   "CreatedBy": null,
-  "Author": "nemo",
+  "Author": "est",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -158,161 +158,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "odit",
-      "PersonId": 447,
-      "Mrmrs": "similique",
-      "Firstname": "Dessie",
-      "Lastname": "Boyer",
-      "MiddleName": "Halvorson-Turcotte",
-      "Title": "fuga",
-      "Description": "Synchronised well-modulated encryption",
-      "Email": "mauricio_lockman@bradtke.uk",
-      "FullName": "Toby Sawayn",
-      "DirectPhone": "(687)037-2638 x8153",
-      "FormalName": "Rippin Inc and Sons",
-      "CountryId": 479,
-      "ContactId": 286,
-      "ContactName": "Schimmel LLC",
-      "Retired": 483,
-      "Rank": 808,
-      "ActiveInterests": 685,
-      "ContactDepartment": "",
-      "ContactCountryId": 453,
-      "ContactOrgNr": "833947",
-      "FaxPhone": "234-574-8619 x492",
-      "MobilePhone": "(966)130-3697",
-      "ContactPhone": "(883)436-2713 x15979",
-      "AssociateName": "Hayes, Conroy and Prohaska",
-      "AssociateId": 464,
-      "UsePersonAddress": false,
-      "ContactFax": "sit",
-      "Kanafname": "nihil",
-      "Kanalname": "doloremque",
-      "Post1": "fugiat",
-      "Post2": "quod",
-      "Post3": "ut",
-      "EmailName": "arnulfo@jasthermiston.co.uk",
-      "ContactFullName": "Christophe Bartell",
-      "ActiveErpLinks": 266,
-      "TicketPriorityId": 32,
-      "SupportLanguageId": 382,
-      "SupportAssociateId": 126,
+      "Position": "aut",
+      "PersonId": 938,
+      "Mrmrs": "non",
+      "Firstname": "Salvatore",
+      "Lastname": "Denesik",
+      "MiddleName": "Schmidt-Roberts",
+      "Title": "quod",
+      "Description": "Sharable fault-tolerant Graphic Interface",
+      "Email": "kristopher_hintz@reinger.co.uk",
+      "FullName": "Rico Leuschke",
+      "DirectPhone": "728-426-0927",
+      "FormalName": "Weber-Walsh",
+      "CountryId": 936,
+      "ContactId": 9,
+      "ContactName": "Fay, Monahan and Turner",
+      "Retired": 887,
+      "Rank": 770,
+      "ActiveInterests": 567,
+      "ContactDepartment": "iterate rich partnerships",
+      "ContactCountryId": 590,
+      "ContactOrgNr": "1424956",
+      "FaxPhone": "1-324-585-2803 x729",
+      "MobilePhone": "1-405-375-5980 x8129",
+      "ContactPhone": "425-605-4093 x07845",
+      "AssociateName": "Cummerata Group",
+      "AssociateId": 275,
+      "UsePersonAddress": true,
+      "ContactFax": "pariatur",
+      "Kanafname": "est",
+      "Kanalname": "ut",
+      "Post1": "rerum",
+      "Post2": "dolorem",
+      "Post3": "qui",
+      "EmailName": "lizeth@schamberger.uk",
+      "ContactFullName": "Lionel Hoeger",
+      "ActiveErpLinks": 989,
+      "TicketPriorityId": 764,
+      "SupportLanguageId": 874,
+      "SupportAssociateId": 499,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 573
+          "FieldLength": 705
         }
       }
     }
   ],
-  "AlertLevel": 668,
-  "ConnectId": 529,
+  "AlertLevel": 280,
+  "ConnectId": 149,
   "ReadStatus": "Green",
-  "TimeToReply": 110,
-  "RealTimeToReply": 77,
-  "TimeToClose": 677,
-  "RealTimeToClose": 993,
-  "TimeSpentInternally": 409,
-  "TimeSpentExternally": 856,
-  "TimeSpentQueue": 736,
-  "RealTimeSpentInternally": 93,
-  "RealTimeSpentExternally": 732,
-  "RealTimeSpentQueue": 217,
-  "TimeSpent": 572,
+  "TimeToReply": 949,
+  "RealTimeToReply": 326,
+  "TimeToClose": 865,
+  "RealTimeToClose": 977,
+  "TimeSpentInternally": 208,
+  "TimeSpentExternally": 635,
+  "TimeSpentQueue": 669,
+  "RealTimeSpentInternally": 689,
+  "RealTimeSpentExternally": 100,
+  "RealTimeSpentQueue": 847,
+  "TimeSpent": 365,
   "HasAttachment": true,
-  "NumReplies": 495,
-  "NumMessages": 774,
-  "FromAddress": "tempora",
+  "NumReplies": 9,
+  "NumMessages": 572,
+  "FromAddress": "nostrum",
   "Messages": [
     {
-      "TicketMessageId": 346,
-      "CreatedAt": "2022-11-30T03:24:48.4247716+01:00",
+      "TicketMessageId": 475,
+      "CreatedAt": "2009-03-12T13:38:14.2334357+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "veniam",
-      "PersonId": 453,
-      "PersonFullName": "Mr. Michelle Homenick",
-      "ContactId": 88,
-      "ContactName": "Pollich, Batz and Schimmel",
+      "Important": false,
+      "Author": "libero",
+      "PersonId": 878,
+      "PersonFullName": "Mellie Homenick",
+      "ContactId": 616,
+      "ContactName": "O'Reilly-Smitham",
       "ContactDepartment": "",
-      "NumAttachments": 670,
-      "EmailHeader": "emilia@monahan.ca",
+      "NumAttachments": 402,
+      "EmailHeader": "brannon@shields.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "voluptatem",
-      "Sentiment": 633,
-      "SentimentConfidence": 623,
-      "CreatedBy": 970,
-      "ChangedAt": "2008-10-20T03:24:48.4247716+02:00",
+      "Language": "quia",
+      "Sentiment": 574,
+      "SentimentConfidence": 186,
+      "CreatedBy": 888,
+      "ChangedAt": "1996-07-11T13:38:14.2334357+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 95
+          "FieldType": "System.String",
+          "FieldLength": 11
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 553,
-      "Name": "Kris-Murray",
-      "ToolTip": "Quasi laudantium tempore enim dolorem ea nihil quae.",
+      "Id": 996,
+      "Name": "Greenholt-Donnelly",
+      "ToolTip": "Dicta aspernatur sunt.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 667
         }
       }
     },
     {
-      "Id": 553,
-      "Name": "Kris-Murray",
-      "ToolTip": "Quasi laudantium tempore enim dolorem ea nihil quae.",
+      "Id": 996,
+      "Name": "Greenholt-Donnelly",
+      "ToolTip": "Dicta aspernatur sunt.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 667
         }
       }
     }
   ],
-  "Language": "temporibus",
-  "Sentiment": 464,
-  "SentimentConfidence": 36,
-  "SuggestedCategoryId": 599,
+  "Language": "atque",
+  "Sentiment": 126,
+  "SentimentConfidence": 655,
+  "SuggestedCategoryId": 504,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 370,
-  "IconHint": "temporibus",
+  "OrigHumanCategoryId": 242,
+  "IconHint": "quia",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "et"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "laborum"
+    "CustomFields1": "ut",
+    "CustomFields2": "error"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldType": "System.String",
+      "FieldLength": 505
     }
   }
 }

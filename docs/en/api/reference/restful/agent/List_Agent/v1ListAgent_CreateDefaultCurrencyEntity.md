@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 146,
-  "Name": "O'Hara-Greenfelder",
-  "Tooltip": "perferendis",
-  "Rank": 981,
-  "Rate": 19919.703999999998,
-  "Units": 12376.166,
+  "CurrencyId": 911,
+  "Name": "O'Keefe Group",
+  "Tooltip": "in",
+  "Rank": 209,
+  "Rate": 9919.11,
+  "Units": 9455.278,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 1002
     }
   }
 }

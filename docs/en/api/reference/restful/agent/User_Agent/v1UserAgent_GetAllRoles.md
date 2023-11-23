@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 623,
-    "Name": "Littel, Mayert and Nienow",
-    "ToolTip": "Adipisci neque sequi dolore dolor.",
+    "Id": 886,
+    "Name": "Kshlerin-West",
+    "ToolTip": "Eius labore officiis non omnis ipsum et soluta.",
     "Deleted": true,
-    "Rank": 24,
-    "Type": "officia",
-    "ColorBlock": 954,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2009-07-08T03:24:48.5497594+02:00",
+    "Rank": 520,
+    "Type": "aut",
+    "ColorBlock": 773,
+    "IconHint": "eaque",
+    "Selected": false,
+    "LastChanged": "2014-02-02T13:38:14.342802+01:00",
     "ChildItems": [
       {
-        "Id": 507,
-        "Name": "Effertz, Spencer and Monahan",
-        "ToolTip": "Natus corrupti ut delectus inventore placeat.",
-        "Deleted": true,
-        "Rank": 903,
-        "Type": "molestiae",
-        "ColorBlock": 141,
-        "IconHint": "quidem",
-        "Selected": false,
-        "LastChanged": "2016-08-01T03:24:48.5497594+02:00",
+        "Id": 980,
+        "Name": "Kris Inc and Sons",
+        "ToolTip": "At minima ipsum rerum.",
+        "Deleted": false,
+        "Rank": 705,
+        "Type": "nihil",
+        "ColorBlock": 376,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2009-12-13T13:38:14.342802+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "aut",
+        "ExtraInfo": "numquam",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Miss Katlynn Corrine Emmerich V",
+        "FullName": "Maribel Stiedemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 322
+            "FieldType": "System.Int32",
+            "FieldLength": 714
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "numquam",
-    "Hidden": false,
-    "FullName": "Emely Von",
+    "ExtraInfo": "ea",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Gerhard Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldType": "System.String",
+        "FieldLength": 74
       }
     }
   }

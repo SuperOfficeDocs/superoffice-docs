@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Cole Group",
-    "Comment": "id",
-    "StakeholderRoleId": 886,
-    "CountryId": 994,
-    "PersonId": 484,
-    "EmailDescription": "opal_klocko@krajcikullrich.com",
-    "EmailId": 341,
-    "EmailAddress": "rosalind_kerluke@lebsack.us",
-    "PhoneId": 908,
-    "ContactName": "VonRueden LLC",
-    "ContactId": 533,
-    "SaleId": 275,
-    "Mrmrs": "animi",
-    "Firstname": "Ulises",
-    "MiddleName": "Schiller Inc and Sons",
-    "Lastname": "Spinka",
-    "SaleStakeholderId": 352,
-    "Rank": 281,
-    "Phone": "1-903-539-1809 x3871",
+    "StakeholderRoleName": "Padberg, Nikolaus and Kuphal",
+    "Comment": "deserunt",
+    "StakeholderRoleId": 324,
+    "CountryId": 28,
+    "PersonId": 883,
+    "EmailDescription": "shania_hand@oreilly.info",
+    "EmailId": 782,
+    "EmailAddress": "mitchell_crooks@dickensmertz.ca",
+    "PhoneId": 780,
+    "ContactName": "Botsford-Kessler",
+    "ContactId": 231,
+    "SaleId": 563,
+    "Mrmrs": "voluptates",
+    "Firstname": "Rocky",
+    "MiddleName": "Kuhic LLC",
+    "Lastname": "Kuphal",
+    "SaleStakeholderId": 751,
+    "Rank": 314,
+    "Phone": "1-458-219-1684",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldLength": 521
       }
     }
   }

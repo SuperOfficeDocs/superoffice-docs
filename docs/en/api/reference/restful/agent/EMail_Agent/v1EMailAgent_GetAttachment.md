@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 78,
-  "AttachmentId": "voluptatibus"
+  "MessageServerId": 917,
+  "AttachmentId": "delectus"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reactive non-volatile toolset",
-  "Filename": "qui",
-  "Size": 679,
-  "Type": "et",
-  "Encoding": "itaque",
-  "Id": "eos",
-  "Disposition": "sit",
+  "Description": "Configurable impactful attitude",
+  "Filename": "sunt",
+  "Size": 146,
+  "Type": "occaecati",
+  "Encoding": "vero",
+  "Id": "nostrum",
+  "Disposition": "accusantium",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 351
     }
   }
 }

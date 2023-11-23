@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 483,
-  "WorkflowId": 803,
+  "WorkflowTriggerId": 401,
+  "WorkflowId": 700,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "VonRueden-Swift",
-      "Description": "Realigned impactful collaboration",
-      "Rank": 816,
+      "Name": "Franecki, Okuneva and Hintz",
+      "Description": "Vision-oriented encompassing customer loyalty",
+      "Rank": 811,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "VonRueden-Swift",
-      "Description": "Realigned impactful collaboration",
-      "Rank": 816,
+      "Name": "Franecki, Okuneva and Hintz",
+      "Description": "Vision-oriented encompassing customer loyalty",
+      "Rank": 811,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 608,
-  "WorkflowId": 959,
+  "WorkflowTriggerId": 21,
+  "WorkflowId": 743,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Hudson, Zulauf and Harber",
-      "Description": "Reactive full-range knowledge user",
-      "Rank": 72,
+      "Name": "Doyle-Kozey",
+      "Description": "Focused empowering open architecture",
+      "Rank": 909,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hudson, Zulauf and Harber",
-      "Description": "Reactive full-range knowledge user",
-      "Rank": 72,
+      "Name": "Doyle-Kozey",
+      "Description": "Focused empowering open architecture",
+      "Rank": 909,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldType": "System.String",
+      "FieldLength": 715
     }
   }
 }

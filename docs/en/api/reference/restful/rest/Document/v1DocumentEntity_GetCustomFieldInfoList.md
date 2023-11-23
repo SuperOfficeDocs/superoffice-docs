@@ -67,7 +67,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Harris-Rolfson",
-    "DisplayName": "Wolf, Nitzsche and Lueilwitz",
-    "Description": "Visionary leading edge application",
-    "ShortLabel": "aut",
-    "HideLabel": false,
-    "HideField": true,
+    "FieldName": "Feest Inc and Sons",
+    "DisplayName": "Schmidt, Wisoky and Altenwerth",
+    "Description": "Triple-buffered context-sensitive monitoring",
+    "ShortLabel": "non",
+    "HideLabel": true,
+    "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 375,
-    "TemplateVariableName": "Boyle-Roob"
+    "Rank": 935,
+    "TemplateVariableName": "Blanda Inc and Sons"
   }
 ]
 ```

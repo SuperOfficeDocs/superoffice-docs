@@ -72,16 +72,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "ea",
+      "RawValue": "tempora",
       "Specification": null,
-      "DisplayValue": "qui",
-      "DisplayTooltip": "sit",
+      "DisplayValue": "modi",
+      "DisplayTooltip": "iure",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 697,
-      "PrefDescId": 123,
-      "TableName": "Jenkins, Kuhn and Pfeffer",
-      "UserPreferenceId": 1000
+      "TargetId": 254,
+      "PrefDescId": 150,
+      "TableName": "Collier, Rohan and Bosco",
+      "UserPreferenceId": 738
     }
   ],
   "RemoveLowerLevels": false

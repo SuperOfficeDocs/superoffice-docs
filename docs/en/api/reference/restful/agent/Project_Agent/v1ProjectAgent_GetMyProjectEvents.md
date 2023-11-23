@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Ms. Barney Craig Lehner",
-    "Description": "Organized radical open architecture",
-    "ProjectId": 334,
-    "EventName": "Zulauf Group",
-    "AssociateId": 88,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "sed",
-    "SignOffText": "commodi",
-    "SignOnConfirmationText": "commodi",
-    "SignOnText": "maxime",
-    "EventDate": "2010-12-19T03:24:48.0957311+01:00",
+    "AssociateFullName": "Wilber Lemke",
+    "Description": "Upgradable client-driven capacity",
+    "ProjectId": 433,
+    "EventName": "Ziemann LLC",
+    "AssociateId": 824,
+    "IsSignedOn": true,
+    "SignOffConfirmationText": "quis",
+    "SignOffText": "facilis",
+    "SignOnConfirmationText": "fugit",
+    "SignOnText": "voluptas",
+    "EventDate": "2012-02-13T13:38:13.9834617+01:00",
     "Enabled": false,
-    "SignOff": true,
+    "SignOff": false,
     "SignOffTaskEnable": true,
-    "SignOnTaskEnable": true,
-    "SignOn": false,
-    "SignOffTaskId": 235,
-    "SignOnTaskId": 226,
+    "SignOnTaskEnable": false,
+    "SignOn": true,
+    "SignOffTaskId": 498,
+    "SignOnTaskId": 734,
     "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 217,
-    "SignOffPersonId": 386,
+    "SignOnPersonId": 641,
+    "SignOffPersonId": 585,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldType": "System.Int32",
+        "FieldLength": 992
       }
     }
   }

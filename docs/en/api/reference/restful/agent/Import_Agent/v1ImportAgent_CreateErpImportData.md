@@ -77,21 +77,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Maggio, Kulas and Gleichner",
-      "Operator": "voluptas",
+      "Name": "Trantow-Yundt",
+      "Operator": "molestias",
       "Values": [
-        "provident",
-        "optio"
+        "quos",
+        "ut"
       ],
       "DisplayValues": [
-        "hic",
-        "ut"
+        "laboriosam",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 111,
+      "InterParenthesis": 633,
       "InterOperator": "And",
-      "UniqueHash": 302
+      "UniqueHash": 203
     }
   ],
   "Columns": [
-    "fugiat",
-    "quam"
+    "omnis",
+    "omnis"
   ],
-  "ConnectionId": 836,
+  "ConnectionId": 973,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "aut",
-        "laudantium"
+        "eligendi",
+        "labore"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "pariatur",
+      "ExternalKey": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 413
+          "FieldLength": 103
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Marquardt-Wyman",
-      "DisplayName": "Durgan Inc and Sons",
+      "Name": "Bartoletti-Zboncak",
+      "DisplayName": "Rath-Wunsch",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 855
         }
       }
     },
     {
-      "Name": "Marquardt-Wyman",
-      "DisplayName": "Durgan Inc and Sons",
+      "Name": "Bartoletti-Zboncak",
+      "DisplayName": "Rath-Wunsch",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 855
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 742
     }
   }
 }

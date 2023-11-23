@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Value": "quia",
-    "Tooltip": "error",
+    "Id": 145,
+    "Value": "voluptatum",
+    "Tooltip": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldType": "System.String",
+        "FieldLength": 115
       }
     }
   },
   {
-    "Id": 328,
-    "Value": "quia",
-    "Tooltip": "error",
+    "Id": 145,
+    "Value": "voluptatum",
+    "Tooltip": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldType": "System.String",
+        "FieldLength": 115
       }
     }
   }

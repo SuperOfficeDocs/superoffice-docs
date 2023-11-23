@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Auer-McClure",
-    "ToolTip": "Reprehenderit unde.",
-    "Deleted": false,
-    "Rank": 903,
-    "Type": "sequi",
-    "ColorBlock": 541,
-    "IconHint": "error",
-    "Selected": false,
-    "LastChanged": "2010-10-30T03:24:52.3963183+02:00",
+    "Id": 361,
+    "Name": "Crooks-Buckridge",
+    "ToolTip": "Sed cumque tempore labore.",
+    "Deleted": true,
+    "Rank": 877,
+    "Type": "esse",
+    "ColorBlock": 519,
+    "IconHint": "autem",
+    "Selected": true,
+    "LastChanged": "2000-04-25T13:38:18.2181419+02:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Dickens-McLaughlin",
-        "ToolTip": "Aut accusantium accusamus.",
-        "Deleted": true,
-        "Rank": 744,
-        "Type": "tempora",
-        "ColorBlock": 113,
-        "IconHint": "odio",
-        "Selected": false,
-        "LastChanged": "2019-09-13T03:24:52.3963183+02:00",
+        "Id": 145,
+        "Name": "Fritsch LLC",
+        "ToolTip": "Maxime qui optio mollitia quo totam.",
+        "Deleted": false,
+        "Rank": 63,
+        "Type": "ut",
+        "ColorBlock": 674,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2022-11-18T13:38:18.2181419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "sunt",
+        "ExtraInfo": "et",
+        "StyleHint": "dolore",
         "Hidden": true,
-        "FullName": "Ms. Ansley Kunze V",
+        "FullName": "Hadley McLaughlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 258
+            "FieldLength": 991
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "alias",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Ellie Jacobi",
+    "FullName": "Christopher Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldType": "System.String",
+        "FieldLength": 887
       }
     }
   }

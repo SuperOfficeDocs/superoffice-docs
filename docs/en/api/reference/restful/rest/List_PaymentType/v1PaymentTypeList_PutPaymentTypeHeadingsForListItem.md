@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 144,
-    "Name": "Barrows, Kling and Gusikowski",
-    "ToolTip": "Velit consequuntur aut.",
+    "Id": 925,
+    "Name": "Fay-Pollich",
+    "ToolTip": "Repellendus velit atque explicabo.",
     "Deleted": false,
-    "Rank": 656,
-    "Type": "animi",
-    "ColorBlock": 597,
-    "IconHint": "quos",
+    "Rank": 777,
+    "Type": "molestiae",
+    "ColorBlock": 101,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2010-08-03T03:24:52.2869587+02:00",
+    "LastChanged": "2012-05-21T13:38:18.1087815+02:00",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "Reilly-Schiller",
-        "ToolTip": "Iste error repellat quae commodi.",
+        "Id": 46,
+        "Name": "Ernser, Gorczany and Hamill",
+        "ToolTip": "Ab rerum ut sit.",
         "Deleted": false,
-        "Rank": 830,
-        "Type": "molestiae",
-        "ColorBlock": 839,
-        "IconHint": "eaque",
+        "Rank": 386,
+        "Type": "aut",
+        "ColorBlock": 305,
+        "IconHint": "sunt",
         "Selected": true,
-        "LastChanged": "2018-08-18T03:24:52.2869587+02:00",
+        "LastChanged": "1999-01-05T13:38:18.1087815+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "nulla",
+        "ExtraInfo": "itaque",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Candida Wilkinson"
+        "FullName": "Haven Griffin Dickinson IV"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Maximilian Harber"
+    "ExtraInfo": "veritatis",
+    "StyleHint": "nihil",
+    "Hidden": true,
+    "FullName": "Gladyce Lueilwitz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 715,
-    "Name": "Brown, Osinski and West",
-    "ToolTip": "Hic ratione dicta dicta aspernatur.",
+    "Id": 615,
+    "Name": "Konopelski LLC",
+    "ToolTip": "Labore quia rerum sequi.",
     "Deleted": false,
-    "Rank": 250,
-    "Type": "nulla",
-    "ColorBlock": 520,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2016-11-17T03:24:52.2869587+01:00",
+    "Rank": 610,
+    "Type": "cum",
+    "ColorBlock": 158,
+    "IconHint": "rem",
+    "Selected": true,
+    "LastChanged": "2006-05-20T13:38:18.1087815+02:00",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Senger Inc and Sons",
-        "ToolTip": "Cupiditate minima autem numquam.",
+        "Id": 887,
+        "Name": "Goldner LLC",
+        "ToolTip": "Temporibus blanditiis ut.",
         "Deleted": true,
-        "Rank": 358,
-        "Type": "voluptatem",
-        "ColorBlock": 739,
-        "IconHint": "eveniet",
+        "Rank": 542,
+        "Type": "perspiciatis",
+        "ColorBlock": 272,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2004-05-14T03:24:52.2869587+02:00",
+        "LastChanged": "2001-09-12T13:38:18.1087815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Melyssa Greenfelder",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Carmel Homenick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 685
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Velda O'Connell Sr.",
+    "ExtraInfo": "quo",
+    "StyleHint": "fugiat",
+    "Hidden": true,
+    "FullName": "Mr. Autumn Lowe DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 986
+        "FieldLength": 381
       }
     }
   }

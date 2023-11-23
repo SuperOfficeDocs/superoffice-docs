@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 448,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2016-02-18T03:24:47.5020527+01:00",
-  "EndTime": "2022-06-26T03:24:47.5020527+02:00",
-  "Count": 152
+  "PersonId": 303,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2023-07-15T13:38:13.4208858+02:00",
+  "EndTime": "2014-04-06T13:38:13.4208858+02:00",
+  "Count": 444
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 304,
-    "Attention": "sint",
-    "Header": "officia",
-    "Name": "Hickle, Kub and Witting",
-    "OurRef": "non",
-    "YourRef": "est",
-    "Description": "Sharable analyzing implementation",
-    "DocumentTemplate": "veniam",
+    "DocumentId": 743,
+    "Attention": "sed",
+    "Header": "debitis",
+    "Name": "Green, Quigley and Brekke",
+    "OurRef": "qui",
+    "YourRef": "qui",
+    "Description": "Multi-layered discrete application",
+    "DocumentTemplate": "nam",
     "IsPublished": false,
-    "PersonId": 205,
-    "PersonFullName": "Theodore Kian Jast II",
-    "AssociateFullName": "Miss Derrick Mason Grady V",
-    "ContactId": 319,
-    "ContactName": "Morissette LLC",
-    "ProjectId": 272,
-    "ProjectName": "Moore LLC",
-    "AssociateId": 353,
-    "Snum": 584,
-    "SaleId": 123,
-    "SaleName": "Legros Group",
+    "PersonId": 323,
+    "PersonFullName": "Cecilia Schiller Jr.",
+    "AssociateFullName": "Khalid Reichel",
+    "ContactId": 605,
+    "ContactName": "Cremin-Balistreri",
+    "ProjectId": 661,
+    "ProjectName": "Walker-Rolfson",
+    "AssociateId": 775,
+    "Snum": 775,
+    "SaleId": 517,
+    "SaleName": "Mitchell, Barton and Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldLength": 607
       }
     }
   }

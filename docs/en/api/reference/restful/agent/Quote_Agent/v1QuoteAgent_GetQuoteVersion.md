@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 328
+  "QuoteVersionId": 938
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 909,
-  "ERPQuoteVersionKey": "aut",
-  "QuoteId": 896,
-  "Description": "Face to face methodical model",
-  "Number": "906447",
+  "QuoteVersionId": 954,
+  "ERPQuoteVersionKey": "expedita",
+  "QuoteId": 885,
+  "Description": "Mandatory empowering productivity",
+  "Number": "1331188",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 35,
-  "SentDate": "2022-03-11T03:24:48.111357+01:00",
-  "FollowupId": 313,
-  "ExpirationDate": "2022-01-08T03:24:48.111357+01:00",
-  "DeliveryCountryId": 674,
+  "LikelyQuoteAlternativeId": 197,
+  "SentDate": "2023-04-17T13:38:13.9990881+02:00",
+  "FollowupId": 345,
+  "ExpirationDate": "2006-07-25T13:38:13.9990881+02:00",
+  "DeliveryCountryId": 249,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 370,
+  "InvoiceCountryId": 707,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "omnis",
-  "ERPPaymentTypeKey": "esse",
-  "ERPDeliveryTermsKey": "autem",
-  "ERPDeliveryTypeKey": "quis",
-  "Rank": 879,
-  "ApprovedBy": 834,
-  "ApprovedText": "deleniti",
-  "ApprovedRegisteredBy": 293,
-  "ApprovedRegisteredDate": "2012-08-19T03:24:48.111357+02:00",
-  "ExtraField1": "quae",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "ullam",
-  "ExtraField4": "et",
-  "ExtraField5": "repellat",
-  "LastRecalculated": "2001-10-26T03:24:48.111357+02:00",
-  "Updated": "2009-08-06T03:24:48.111357+02:00",
-  "UpdatedAssociateId": 373,
-  "Registered": "2005-09-27T03:24:48.111357+02:00",
-  "RegisteredAssociateId": 865,
-  "RequestAssociateId": 657,
-  "RequestComment": "eum",
+  "ERPPaymentTermsKey": "atque",
+  "ERPPaymentTypeKey": "omnis",
+  "ERPDeliveryTermsKey": "blanditiis",
+  "ERPDeliveryTypeKey": "vero",
+  "Rank": 68,
+  "ApprovedBy": 709,
+  "ApprovedText": "sapiente",
+  "ApprovedRegisteredBy": 390,
+  "ApprovedRegisteredDate": "2015-05-31T13:38:13.9990881+02:00",
+  "ExtraField1": "dolor",
+  "ExtraField2": "laborum",
+  "ExtraField3": "qui",
+  "ExtraField4": "ut",
+  "ExtraField5": "neque",
+  "LastRecalculated": "2017-02-14T13:38:13.9990881+01:00",
+  "Updated": "2001-04-17T13:38:13.9990881+02:00",
+  "UpdatedAssociateId": 188,
+  "Registered": "2021-08-06T13:38:13.9990881+02:00",
+  "RegisteredAssociateId": 368,
+  "RequestAssociateId": 513,
+  "RequestComment": "qui",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 693,
-      "ERPQuoteAlternativeKey": "cumque",
-      "QuoteVersionId": 890,
-      "Name": "Wisoky LLC",
-      "Description": "Face to face heuristic support",
+      "QuoteAlternativeId": 973,
+      "ERPQuoteAlternativeKey": "rerum",
+      "QuoteVersionId": 276,
+      "Name": "Gutkowski, Farrell and Prosacco",
+      "Description": "Assimilated incremental benchmark",
       "Status": "Error",
-      "Reason": "generate customized communities",
-      "ERPDiscountPercent": 31086.146,
-      "ERPDiscountAmount": 4669.66,
-      "DiscountPercent": 5898.188,
-      "DiscountAmount": 22787.314,
+      "Reason": "",
+      "ERPDiscountPercent": 23646.03,
+      "ERPDiscountAmount": 1488.6499999999999,
+      "DiscountPercent": 16779.435999999998,
+      "DiscountAmount": 9668.39,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "aut",
-      "VAT": 18409.115999999998,
-      "EarningPercent": 21085.552,
-      "EarningAmount": 18108.252,
-      "SubTotal": 13921.228,
-      "TotalPrice": 3989.582,
-      "ExtraField1": "dolorem",
-      "ExtraField2": "aut",
-      "ExtraField3": "sint",
-      "ExtraField4": "accusamus",
-      "ExtraField5": "et",
+      "VATInfo": "dolores",
+      "VAT": 13306.964,
+      "EarningPercent": 17500.256,
+      "EarningAmount": 6268.0,
+      "SubTotal": 29841.948,
+      "TotalPrice": 14720.398,
+      "ExtraField1": "rerum",
+      "ExtraField2": "consequatur",
+      "ExtraField3": "molestiae",
+      "ExtraField4": "voluptates",
+      "ExtraField5": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 797
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldLength": 723
     }
   }
 }

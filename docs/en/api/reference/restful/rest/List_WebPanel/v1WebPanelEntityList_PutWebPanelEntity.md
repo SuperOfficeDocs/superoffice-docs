@@ -114,14 +114,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 590,
-  "Name": "D'Amore, Rowe and Funk",
-  "Tooltip": "quod",
+  "WebPanelId": 372,
+  "Name": "Collier Group",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 436,
+  "Rank": 219,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
@@ -130,11 +130,11 @@ Content-Type: application/json; charset=utf-8
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Turner, Lueilwitz and Gerhold",
+  "WindowName": "Bartell, Rodriguez and Green",
   "Url": "http://www.example.com/",
-  "ProgId": "explicabo",
-  "Icon": 667,
-  "AlwaysReloadOnShow": false
+  "ProgId": "beatae",
+  "Icon": 127,
+  "AlwaysReloadOnShow": true
 }
 ```
 
@@ -145,33 +145,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 652,
-  "Name": "Mraz Group",
-  "Tooltip": "sit",
+  "WebPanelId": 228,
+  "Name": "Wuckert-Wiza",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 369,
+  "Rank": 72,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Towne-Zulauf",
+  "WindowName": "Feeney Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "nihil",
-  "Icon": 24,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "temporibus",
+  "Icon": 223,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 423
     }
   }
 }

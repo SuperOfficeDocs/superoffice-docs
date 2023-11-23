@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Quote/DeleteConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 718
+  "QuoteConnectionId": 410
 }
 ```
 

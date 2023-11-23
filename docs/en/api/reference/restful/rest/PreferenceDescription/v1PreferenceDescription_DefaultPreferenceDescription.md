@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 410,
-  "Section": "nostrum",
-  "Key": "culpa",
-  "Name": "Mayert, Labadie and Friesen",
+  "PrefDescId": 431,
+  "Section": "quam",
+  "Key": "quo",
+  "Name": "Kuhlman, Wilderman and Ferry",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Operative static algorithm",
-  "IsBuiltin": false,
-  "TableName": "Muller-Corwin",
-  "UserDefinedListId": 624,
-  "Rank": 916,
-  "SubGroup": "nihil",
-  "MinLevel": 188,
-  "MaxValue": 38,
-  "MinValue": 491,
-  "RequiredLicense": "esse",
+  "Description": "Open-architected foreground info-mediaries",
+  "IsBuiltin": true,
+  "TableName": "Erdman, Haley and Rippin",
+  "UserDefinedListId": 201,
+  "Rank": 941,
+  "SubGroup": "eum",
+  "MinLevel": 437,
+  "MaxValue": 476,
+  "MinValue": 140,
+  "RequiredLicense": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldLength": 130
     }
   }
 }

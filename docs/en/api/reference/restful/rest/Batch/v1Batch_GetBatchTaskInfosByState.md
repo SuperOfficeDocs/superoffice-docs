@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 486,
-    "Name": "Hane Inc and Sons",
-    "AssociateId": 543,
-    "DetailsTable": 469,
-    "DetailsRecord": 527,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 713,
+    "Name": "Dietrich, Robel and Hettinger",
+    "AssociateId": 148,
+    "DetailsTable": 562,
+    "DetailsRecord": 646,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "adipisci"
+      "ParameterObject1": "eius",
+      "ParameterObject2": "repudiandae"
     },
-    "LastStarted": "2016-09-01T03:24:52.0369874+02:00",
-    "Created": "2001-03-01T03:24:52.0369874+01:00",
-    "StartCount": 1002,
-    "DatabaseSerialNumber": "475996",
-    "Context": "architecto",
-    "Result": "et",
+    "LastStarted": "2019-09-17T13:38:17.7650302+02:00",
+    "Created": "2010-06-03T13:38:17.7650302+02:00",
+    "StartCount": 79,
+    "DatabaseSerialNumber": "658192",
+    "Context": "maiores",
+    "Result": "molestiae",
     "State": "All",
-    "Description": "Profit-focused homogeneous open system",
-    "Response": "harum",
-    "Request": "est",
-    "ProgressDescription": "Reactive multimedia monitoring",
-    "ProgressPercent": 471,
-    "FileName": "Greenfelder LLC",
+    "Description": "Virtual human-resource monitoring",
+    "Response": "molestiae",
+    "Request": "fuga",
+    "ProgressDescription": "Programmable motivating installation",
+    "ProgressPercent": 759,
+    "FileName": "Davis, Dibbert and Emmerich",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 932
+        "FieldType": "System.Int32",
+        "FieldLength": 60
       }
     }
   }

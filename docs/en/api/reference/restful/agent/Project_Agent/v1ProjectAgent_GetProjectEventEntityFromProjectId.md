@@ -106,7 +106,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 230
+  "ProjectId": 213
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quia",
-  "SignOffText": "nesciunt",
-  "SignOnConfirmationText": "accusantium",
-  "SignOnText": "quia",
-  "EventDate": "2020-01-30T03:24:48.0957311+01:00",
+  "SignOffConfirmationText": "deserunt",
+  "SignOffText": "eius",
+  "SignOnConfirmationText": "dolorum",
+  "SignOnText": "alias",
+  "EventDate": "2021-06-06T13:38:13.9834617+02:00",
   "Enabled": false,
-  "CreatedDate": "2022-03-28T03:24:48.0957311+02:00",
+  "CreatedDate": "2015-06-26T13:38:13.9834617+02:00",
   "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 512,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 912,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOn": true,
   "SignOnTaskEnable": true,
-  "SignOnTaskId": 272,
+  "SignOnTaskId": 852,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2014-12-09T03:24:48.0957311+01:00",
+  "UpdatedDate": "2000-08-26T13:38:13.9834617+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 125,
-  "Id": 297,
-  "PublishFrom": "2022-03-02T03:24:48.0957311+01:00",
+  "ProjectId": 593,
+  "Id": 581,
+  "PublishFrom": "2023-02-04T13:38:13.9834617+01:00",
   "PublishType": "External",
-  "PublishTo": "2004-02-11T03:24:48.0957311+01:00",
+  "PublishTo": "2011-04-03T13:38:13.9834617+02:00",
   "VisibleForCategories": [
     {
-      "Id": 54,
-      "Name": "Prosacco-Tromp",
-      "ToolTip": "Ipsa quas libero possimus perferendis earum.",
-      "Deleted": true,
-      "Rank": 703,
-      "Type": "provident",
+      "Id": 723,
+      "Name": "Moore LLC",
+      "ToolTip": "Iusto vero deleniti.",
+      "Deleted": false,
+      "Rank": 720,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "maxime",
-      "ColorBlock": 257,
-      "ExtraInfo": "enim",
-      "StyleHint": "vel",
-      "FullName": "Tristian Kozey Sr.",
+      "IconHint": "occaecati",
+      "ColorBlock": 166,
+      "ExtraInfo": "quae",
+      "StyleHint": "quam",
+      "FullName": "Dr. Erick Metz MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldType": "System.String",
+          "FieldLength": 410
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 345,
-      "Name": "Muller-Stroman",
-      "ToolTip": "Et dolores ut omnis quibusdam.",
+      "Id": 923,
+      "Name": "Cartwright, Turcotte and Hettinger",
+      "ToolTip": "Magnam aut cupiditate alias assumenda enim.",
       "Deleted": false,
-      "Rank": 145,
-      "Type": "quas",
+      "Rank": 347,
+      "Type": "voluptatum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ea",
-      "ColorBlock": 317,
-      "ExtraInfo": "sed",
-      "StyleHint": "error",
-      "FullName": "Minnie Lemke",
+      "IconHint": "cumque",
+      "ColorBlock": 366,
+      "ExtraInfo": "cupiditate",
+      "StyleHint": "ex",
+      "FullName": "Tanner Braun",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 28
+          "FieldLength": 303
         }
       }
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": true,
+  "IsPublished": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 98,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 874,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 530
     }
   }
 }

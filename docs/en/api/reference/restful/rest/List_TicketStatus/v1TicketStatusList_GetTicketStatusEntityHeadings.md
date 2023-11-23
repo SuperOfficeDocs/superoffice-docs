@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 162,
-    "Name": "Robel-Paucek",
-    "Tooltip": "illo",
-    "Deleted": false,
-    "Rank": 124,
-    "UdListDefinitionId": 54,
+    "HeadingId": 741,
+    "Name": "Koepp LLC",
+    "Tooltip": "voluptatibus",
+    "Deleted": true,
+    "Rank": 114,
+    "UdListDefinitionId": 469,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldType": "System.String",
+        "FieldLength": 766
       }
     }
   }

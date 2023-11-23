@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 27
+  "ErpSyncConnectionId": 948
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Thiel, Feest and Lind",
-  "DisplayDescription": "Reactive regional moderator",
+  "DisplayName": "Kirlin LLC",
+  "DisplayDescription": "Profound transitional hardware",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2016-06-13T03:24:47.7832767+02:00",
+  "LastSync": "2003-03-11T13:38:13.592742+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "expedita",
-      "Mappings": "officia",
+      "HasMappings": true,
+      "Defaults": "et",
+      "Mappings": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 594
+          "FieldLength": 655
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "expedita",
-      "Mappings": "officia",
+      "HasMappings": true,
+      "Defaults": "et",
+      "Mappings": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 594
+          "FieldLength": 655
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 487
     }
   }
 }

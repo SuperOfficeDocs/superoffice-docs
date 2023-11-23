@@ -59,7 +59,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalUsers?$select=contactCategory,mrMrs,usergroup
+GET /api/v1/archive/ExternalUsers?$select=mrMrs,usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

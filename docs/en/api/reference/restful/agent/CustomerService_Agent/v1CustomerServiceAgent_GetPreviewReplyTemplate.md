@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 829
+  "ReplyTemplateId": 466
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Graham LLC",
-  "Description": "Profound assymetric solution",
-  "OwnedByFullName": "Candida Walker",
-  "Updated": "2016-04-15T03:24:47.4864254+02:00",
-  "Body": "dolore",
-  "IsHtml": true,
+  "Name": "Graham, Wiegand and Abernathy",
+  "Description": "Synchronised attitude-oriented orchestration",
+  "OwnedByFullName": "Dr. Scot Rempel",
+  "Updated": "2008-07-28T13:38:13.3896326+02:00",
+  "Body": "dolorem",
+  "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 701
+      "FieldType": "System.String",
+      "FieldLength": 780
     }
   }
 }

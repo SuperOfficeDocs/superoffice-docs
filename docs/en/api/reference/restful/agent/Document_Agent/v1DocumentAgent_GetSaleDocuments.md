@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 38
+  "SaleId": 108
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 434,
-    "Attention": "quae",
-    "Header": "et",
-    "Name": "Lesch-Stroman",
-    "OurRef": "in",
-    "YourRef": "quidem",
-    "Description": "Face to face interactive methodology",
-    "DocumentTemplate": "tempore",
-    "IsPublished": false,
-    "PersonId": 376,
-    "PersonFullName": "Dr. Kellen Joana Heidenreich",
-    "AssociateFullName": "Mr. Arnaldo Holden Wolff Sr.",
-    "ContactId": 273,
-    "ContactName": "Rau, Kirlin and Raynor",
-    "ProjectId": 960,
-    "ProjectName": "Rempel, Kuhic and Kunde",
-    "AssociateId": 573,
-    "Snum": 654,
-    "SaleId": 526,
-    "SaleName": "Lebsack LLC",
+    "DocumentId": 230,
+    "Attention": "earum",
+    "Header": "dolores",
+    "Name": "Fay, Stanton and Bins",
+    "OurRef": "labore",
+    "YourRef": "aut",
+    "Description": "Up-sized 5th generation interface",
+    "DocumentTemplate": "quae",
+    "IsPublished": true,
+    "PersonId": 635,
+    "PersonFullName": "Tillman Jacobs",
+    "AssociateFullName": "Jacinthe Beahan",
+    "ContactId": 468,
+    "ContactName": "Johnson-Mosciski",
+    "ProjectId": 500,
+    "ProjectName": "Blanda, Orn and Bruen",
+    "AssociateId": 725,
+    "Snum": 362,
+    "SaleId": 770,
+    "SaleName": "Walter, Kozey and Rau",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 66
+        "FieldType": "System.Int32",
+        "FieldLength": 94
       }
     }
   }

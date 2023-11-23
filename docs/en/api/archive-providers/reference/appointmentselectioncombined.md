@@ -704,7 +704,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionCombined?$select=contact/contactExtra/x_contact_longtext,person/hasInterests,person/personActiveErpLinks,person/personExtra/y_rental/x_amount,person/personAssociate/portraitThumbnail
+GET /api/v1/archive/AppointmentSelectionCombined?$select=registeredBy,contact/contactExtra/x_contact_timespan,person/kanaFirstName,person/personRegisteredByFullName,person/personAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

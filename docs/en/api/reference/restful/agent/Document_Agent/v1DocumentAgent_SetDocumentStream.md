@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 82,
+  "DocumentId": 809,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "culpa",
-  "Header": "aperiam",
-  "Name": "Gislason, Farrell and Padberg",
-  "OurRef": "fugiat",
-  "YourRef": "accusamus",
-  "CreatedDate": "2003-02-01T03:24:47.6426585+01:00",
-  "UpdatedDate": "2011-02-14T03:24:47.6426585+01:00",
-  "Description": "Persevering multimedia forecast",
+  "Attention": "error",
+  "Header": "aut",
+  "Name": "Hackett Group",
+  "OurRef": "repellat",
+  "YourRef": "et",
+  "CreatedDate": "2023-08-17T13:38:13.4677523+02:00",
+  "UpdatedDate": "1997-02-18T13:38:13.4677523+01:00",
+  "Description": "Balanced assymetric hub",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-08-21T03:24:47.6426585+02:00",
-  "ExternalRef": "aut",
+  "Date": "2017-08-24T13:38:13.4677523+02:00",
+  "ExternalRef": "laudantium",
   "Completed": "Completed",
-  "ActiveLinks": 405,
+  "ActiveLinks": 241,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lueilwitz, Tillman and Emmerich",
-      "Id": 395,
-      "Description": "Cross-group zero tolerance secured line",
-      "ExtraInfo": "est",
-      "LinkId": 945,
+      "EntityName": "Greenfelder-Mayert",
+      "Id": 747,
+      "Description": "Object-based human-resource archive",
+      "ExtraInfo": "amet",
+      "LinkId": 210,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldLength": 79
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 343,
-  "Snum": 563,
+  "SuggestedDocumentId": 925,
+  "Snum": 116,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bette Ardith Streich III",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mrs. Regan Hintz",
+    "SuperOffice:2": "Kacey Satterfield"
   },
   "ExtraFields": {
-    "ExtraFields1": "quibusdam",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "cum",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
+    "CustomFields1": "similique",
     "CustomFields2": "et"
   },
-  "PublishEventDate": "2023-04-01T03:24:47.6426585+02:00",
-  "PublishTo": "2009-11-30T03:24:47.6426585+01:00",
-  "PublishFrom": "2014-10-04T03:24:47.6426585+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-03-19T13:38:13.4677523+01:00",
+  "PublishTo": "2016-11-04T13:38:13.4677523+01:00",
+  "PublishFrom": "2000-01-24T13:38:13.4677523+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 59,
+      "VisibleId": 888,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 990
+          "FieldType": "System.String",
+          "FieldLength": 323
         }
       }
     },
     {
-      "VisibleId": 59,
+      "VisibleId": 888,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 990
+          "FieldType": "System.String",
+          "FieldLength": 323
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldType": "System.String",
+      "FieldLength": 901
     }
   }
 }

@@ -56,7 +56,7 @@ OK
 GET /api/v1/ChatTopic/{chatTopicId}/IsOpen
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

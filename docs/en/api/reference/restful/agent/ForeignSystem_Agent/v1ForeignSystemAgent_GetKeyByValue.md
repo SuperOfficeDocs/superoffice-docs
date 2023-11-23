@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Runolfsdottir, Corkery and Lubowitz",
-  "DeviceName": "Langosh Group",
-  "KeyName": "Muller Inc and Sons",
-  "KeyValue": "blanditiis",
-  "TableName": "Zemlak, Hessel and Romaguera"
+  "ApplicationName": "Eichmann, Lindgren and Moore",
+  "DeviceName": "Cronin LLC",
+  "KeyName": "Hansen-Lesch",
+  "KeyValue": "in",
+  "TableName": "Kautzer LLC"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolorem",
-  "Value": "voluptatem",
-  "RecordId": 299,
-  "CreatedDate": "2022-05-03T03:24:47.8145137+02:00",
-  "UpdatedDate": "2011-06-16T03:24:47.8145137+02:00",
-  "UpdatedBy": "quasi",
-  "CreatedBy": "corporis",
-  "TableName": "Kessler LLC",
+  "Key": "nisi",
+  "Value": "id",
+  "RecordId": 124,
+  "CreatedDate": "2006-12-31T13:38:13.6396102+01:00",
+  "UpdatedDate": "2011-10-31T13:38:13.6396102+01:00",
+  "UpdatedBy": "rerum",
+  "CreatedBy": "aut",
+  "TableName": "Kiehn-Hoppe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 232
+      "FieldLength": 896
     }
   }
 }

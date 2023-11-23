@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 185,
-  "Name": "Weissnat Inc and Sons",
-  "CreatedDate": "2013-11-09T03:24:51.6149823+01:00",
-  "UpdatedDate": "1999-07-26T03:24:51.6149823+02:00",
+  "ForeignAppId": 337,
+  "Name": "Grady-Ryan",
+  "CreatedDate": "2002-08-20T13:38:17.4368262+02:00",
+  "UpdatedDate": "2000-04-10T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 383,
-      "Name": "Hyatt Group",
-      "CreatedDate": "2003-04-03T03:24:51.6149823+02:00",
-      "UpdatedDate": "1997-06-20T03:24:51.6149823+02:00",
-      "AssociateFullName": "Torrey Cronin",
-      "CreatedBy": "quibusdam",
-      "UpdatedBy": "harum",
-      "DeviceIdentifier": "commodi",
-      "ForeignAppId": 812,
+      "ForeignDeviceId": 100,
+      "Name": "Waters Inc and Sons",
+      "CreatedDate": "2006-11-02T13:38:17.4368262+01:00",
+      "UpdatedDate": "2017-05-23T13:38:17.4368262+02:00",
+      "AssociateFullName": "Shany Spinka DVM",
+      "CreatedBy": "delectus",
+      "UpdatedBy": "labore",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 985,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 399
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   }
 }

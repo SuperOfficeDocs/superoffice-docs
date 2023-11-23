@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Gerhold-Buckridge",
-    "ToolTip": "Aut tenetur animi.",
-    "Deleted": true,
-    "Rank": 956,
-    "Type": "tempore",
-    "ColorBlock": 731,
-    "IconHint": "incidunt",
+    "Id": 330,
+    "Name": "Hartmann-Ward",
+    "ToolTip": "Sint aut officia.",
+    "Deleted": false,
+    "Rank": 770,
+    "Type": "corporis",
+    "ColorBlock": 634,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2013-01-28T03:24:52.2088405+01:00",
+    "LastChanged": "2016-12-01T13:38:18.0150452+01:00",
     "ChildItems": [
       {
-        "Id": 229,
-        "Name": "Farrell-Hackett",
-        "ToolTip": "Tempore doloribus non dicta.",
-        "Deleted": false,
-        "Rank": 534,
-        "Type": "et",
-        "ColorBlock": 571,
-        "IconHint": "numquam",
+        "Id": 177,
+        "Name": "McLaughlin-Erdman",
+        "ToolTip": "Et dolores iste.",
+        "Deleted": true,
+        "Rank": 879,
+        "Type": "distinctio",
+        "ColorBlock": 190,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2003-05-10T03:24:52.2088405+02:00",
+        "LastChanged": "1998-03-01T13:38:18.0150452+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "earum",
+        "ExtraInfo": "rerum",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Miss Bettye Gerhold",
+        "FullName": "Prof. Daisy Tyrell Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 885
+            "FieldType": "System.Int32",
+            "FieldLength": 627
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Cassie Prosacco",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "numquam",
+    "Hidden": true,
+    "FullName": "Sonia Spencer MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldType": "System.String",
+        "FieldLength": 327
       }
     }
   }

@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptByIncludeId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "pariatur",
+  "CRMScriptIncludeId": "nobis",
   "Parameters": {
-    "Parameters1": "qui",
-    "Parameters2": "vel"
+    "Parameters1": "aut",
+    "Parameters2": "nobis"
   }
 }
 ```

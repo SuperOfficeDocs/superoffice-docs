@@ -70,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 351,
-  "Name": "Wunsch-Fisher",
+  "ScreenChooserId": 659,
+  "Name": "Wuckert, Carter and Kuphal",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "sit",
-  "Source": "cupiditate",
-  "Registered": "2001-08-02T03:24:52.0213616+02:00",
-  "RegisteredAssociateId": 629,
-  "Updated": "2001-03-08T03:24:52.0213616+01:00",
-  "UpdatedAssociateId": 766,
+  "Enabled": false,
+  "UniqueIdentifier": "sapiente",
+  "Source": "ut",
+  "Registered": "2004-02-25T13:38:17.7650302+01:00",
+  "RegisteredAssociateId": 564,
+  "Updated": "2007-06-27T13:38:17.7650302+02:00",
+  "UpdatedAssociateId": 122,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldType": "System.Int32",
+      "FieldLength": 119
     }
   }
 }

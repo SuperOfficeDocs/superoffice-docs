@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 480,
-    "Name": "Stehr-Frami",
-    "Tooltip": "explicabo",
+    "HeadingId": 200,
+    "Name": "Jacobson, Rowe and Kshlerin",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 17,
-    "UdListDefinitionId": 977
+    "Rank": 532,
+    "UdListDefinitionId": 668
   },
   {
-    "HeadingId": 480,
-    "Name": "Stehr-Frami",
-    "Tooltip": "explicabo",
+    "HeadingId": 200,
+    "Name": "Jacobson, Rowe and Kshlerin",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 17,
-    "UdListDefinitionId": 977
+    "Rank": 532,
+    "UdListDefinitionId": 668
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 985,
-    "Name": "Schaefer LLC",
-    "Tooltip": "doloremque",
+    "HeadingId": 876,
+    "Name": "Pfannerstill LLC",
+    "Tooltip": "consectetur",
     "Deleted": false,
-    "Rank": 633,
-    "UdListDefinitionId": 897,
+    "Rank": 516,
+    "UdListDefinitionId": 435,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldType": "System.String",
+        "FieldLength": 405
       }
     }
   }

@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "placeat",
-      "Key": "minus"
+      "Section": "et",
+      "Key": "in"
     },
     {
-      "Section": "placeat",
-      "Key": "minus"
+      "Section": "et",
+      "Key": "in"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "et",
+    "RawValue": "ipsa",
     "Specification": null,
-    "DisplayValue": "quia",
-    "DisplayTooltip": "non",
+    "DisplayValue": "ipsa",
+    "DisplayTooltip": "velit",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 200,
-    "PrefDescId": 106,
-    "TableName": "Nolan, Rice and Zboncak",
-    "UserPreferenceId": 72,
+    "TargetId": 808,
+    "PrefDescId": 442,
+    "TableName": "Marks Inc and Sons",
+    "UserPreferenceId": 703,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldType": "System.Int32",
+        "FieldLength": 959
       }
     }
   }

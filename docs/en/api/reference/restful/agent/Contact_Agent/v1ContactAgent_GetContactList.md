@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 116,
-    "Name": "Wehner-Gutkowski",
-    "OrgNr": "1550801",
+    "ContactId": 999,
+    "Name": "Ryan, Roberts and Ledner",
+    "OrgNr": "1736667",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "voluptate",
-    "DirectPhone": "377-207-0906",
-    "AssociateId": 178,
-    "CountryId": 549,
-    "EmailAddress": "bettye@marks.uk",
-    "Kananame": "sit",
-    "EmailAddressName": "rowena.west@nikolaus.info",
+    "City": "adipisci",
+    "DirectPhone": "976-787-8234 x1479",
+    "AssociateId": 424,
+    "CountryId": 282,
+    "EmailAddress": "judah_koch@hauck.info",
+    "Kananame": "placeat",
+    "EmailAddressName": "joey_harris@mcglynn.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mae Welch Jr.",
+    "AssociateFullName": "Reese Sophie Smitham PhD",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "officia",
-    "FullName": "Mrs. Caleb Elwyn Hickle PhD",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 543,
-    "Number1": "692841",
-    "Number2": "1380889",
+    "FormattedAddress": "quis",
+    "FullName": "Peggie O'Connell",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 945,
+    "Number1": "941035",
+    "Number2": "260975",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldType": "System.String",
+        "FieldLength": 769
       }
     }
   }

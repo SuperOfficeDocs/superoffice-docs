@@ -105,7 +105,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -136,7 +137,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 567,
+  "AppointmentId": 267,
   "Participant": null,
   "UpdateMode": "OnlyThis"
 }
@@ -153,125 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-05-26T03:24:47.1270922+02:00",
-  "AppointmentId": 908,
-  "Description": "Exclusive 6th generation open architecture",
-  "StartDate": "2014-03-28T03:24:47.1270922+01:00",
-  "EndDate": "1998-01-06T03:24:47.1270922+01:00",
+  "CreatedDate": "2011-11-02T13:38:12.9678107+01:00",
+  "AppointmentId": 339,
+  "Description": "Vision-oriented static structure",
+  "StartDate": "2015-09-26T13:38:12.9678107+02:00",
+  "EndDate": "2002-08-21T13:38:12.9678107+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 255,
+  "MotherId": 297,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-10-08T03:24:47.1270922+02:00",
+  "UpdatedDate": "2004-06-25T13:38:12.9678107+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 510,
+  "ActiveLinks": 135,
   "Links": [
     {
-      "EntityName": "Blanda, Kuphal and Block",
-      "Id": 327,
-      "Description": "Intuitive dedicated website",
-      "ExtraInfo": "est",
-      "LinkId": 693,
+      "EntityName": "Bednar, Rutherford and Farrell",
+      "Id": 530,
+      "Description": "Re-engineered radical internet solution",
+      "ExtraInfo": "sit",
+      "LinkId": 524,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldLength": 69
         }
       }
     }
   ],
-  "AlarmLeadTime": "qui",
-  "HasAlarm": false,
-  "ColorIndex": 401,
+  "AlarmLeadTime": "tempora",
+  "HasAlarm": true,
+  "ColorIndex": 669,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "illum",
-  "LeadTime": "iusto",
-  "Location": "est",
-  "RejectCounter": 482,
+  "LagTime": "voluptatem",
+  "LeadTime": "animi",
+  "Location": "deserunt",
+  "RejectCounter": 354,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 345,
-      "PersonId": 610,
-      "ContactId": 956,
-      "EmailId": 628,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 345,
-      "PersonId": 610,
-      "ContactId": 956,
-      "EmailId": 628,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 146,
+      "PersonId": 48,
+      "ContactId": 808,
+      "EmailId": 579,
+      "SendEmail": false,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "coy.kunde@kundejewess.biz",
+      "Description": "Profit-focused non-volatile software"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-07-04T03:24:47.1270922+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2007-03-13T13:38:12.9678107+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 671,
+  "PreferredTZLocation": 529,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 933,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 626,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "qui",
-  "Title": "ipsam",
-  "Agenda": "rerum",
-  "InternalNotes": "ullam",
+  "CentralserviceVideomeetId": "doloribus",
+  "Title": "ex",
+  "Agenda": "doloremque",
+  "InternalNotes": "error",
   "UserDefinedFields": {
-    "SuperOffice:1": "Reggie Naomi Kemmer PhD",
-    "SuperOffice:2": "991637507"
+    "SuperOffice:1": "Zella Hammes",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "facere",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "delectus"
+    "CustomFields1": "deserunt",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2008-05-12T03:24:47.1270922+02:00",
-  "PublishTo": "2019-02-21T03:24:47.1270922+01:00",
-  "PublishFrom": "2006-11-01T03:24:47.1270922+01:00",
+  "PublishEventDate": "2021-12-12T13:38:12.9678107+01:00",
+  "PublishTo": "2018-03-10T13:38:12.9678107+01:00",
+  "PublishFrom": "2022-04-18T13:38:12.9678107+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 339,
+      "VisibleId": 241,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 458
+          "FieldLength": 791
         }
       }
     },
     {
-      "VisibleId": 339,
+      "VisibleId": 241,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 458
+          "FieldLength": 791
         }
       }
     }
@@ -281,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldLength": 434
     }
   }
 }

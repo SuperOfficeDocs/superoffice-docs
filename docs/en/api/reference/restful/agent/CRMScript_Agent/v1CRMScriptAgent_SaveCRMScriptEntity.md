@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 709,
-  "UniqueIdentifier": "non",
-  "Name": "Graham, Kilback and Kuphal",
-  "Description": "Persistent mission-critical model",
-  "IncludeId": "voluptatum",
-  "HierarchyId": 145,
-  "Source": "fuga",
-  "Registered": "2000-08-09T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 555,
-  "Updated": "2010-04-13T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 21
+  "EjscriptId": 594,
+  "UniqueIdentifier": "odit",
+  "Name": "Hettinger-Hudson",
+  "Description": "Front-line radical application",
+  "IncludeId": "molestias",
+  "HierarchyId": 132,
+  "Source": "provident",
+  "Registered": "2008-09-03T13:38:13.374011+02:00",
+  "RegisteredAssociateId": 445,
+  "Updated": "2017-04-17T13:38:13.374011+02:00",
+  "UpdatedAssociateId": 946
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 932,
-  "UniqueIdentifier": "qui",
-  "Name": "Bechtelar Inc and Sons",
-  "Description": "Managed multimedia firmware",
-  "IncludeId": "dolorem",
-  "HierarchyId": 584,
-  "Source": "quo",
-  "Registered": "2016-04-28T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 668,
-  "Updated": "2012-07-29T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 474,
+  "EjscriptId": 860,
+  "UniqueIdentifier": "earum",
+  "Name": "Green-Howell",
+  "Description": "Inverse 24 hour synergy",
+  "IncludeId": "nulla",
+  "HierarchyId": 970,
+  "Source": "autem",
+  "Registered": "2015-05-11T13:38:13.374011+02:00",
+  "RegisteredAssociateId": 337,
+  "Updated": "2010-09-19T13:38:13.374011+02:00",
+  "UpdatedAssociateId": 911,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldType": "System.String",
+      "FieldLength": 81
     }
   }
 }

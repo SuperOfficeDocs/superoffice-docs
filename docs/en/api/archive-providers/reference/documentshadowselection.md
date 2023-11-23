@@ -696,7 +696,7 @@ Shadow contact provider for the Document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowSelection?$select=person/personAssociate/ejStatus,contact/saintActivityType,project/registeredByFullName,documentUdef/SuperOffice:6,sale/who
+GET /api/v1/archive/DocumentShadowSelection?$select=person/personPager/description,person/email/emailLastSent,person/personExtra/x_person_request_relation,person/personAssociate/role,contact/postAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

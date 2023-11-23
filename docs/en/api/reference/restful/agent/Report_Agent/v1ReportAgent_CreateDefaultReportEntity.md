@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 973,
+  "ReportId": 335,
   "ReportCategory": "All",
-  "Description": "Optimized optimal application",
+  "Description": "Enhanced context-sensitive Graphic Interface",
   "ReportLayout": "CalendarMonth",
-  "Name": "Becker LLC",
-  "AssociateId": 715,
-  "TemplateId": 211,
+  "Name": "Weber, Carter and Waters",
+  "AssociateId": 269,
+  "TemplateId": 212,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 525
+      "FieldType": "System.Int32",
+      "FieldLength": 11
     }
   }
 }

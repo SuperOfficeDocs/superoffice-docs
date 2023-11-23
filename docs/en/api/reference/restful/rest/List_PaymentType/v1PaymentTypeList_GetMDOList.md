@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=non
+GET /api/v1/List/PaymentType/MDOItems?query=quam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 534,
-    "Name": "Muller Group",
-    "ToolTip": "Cumque id dolore quia veritatis non.",
-    "Deleted": true,
-    "Rank": 362,
-    "Type": "commodi",
+    "Id": 55,
+    "Name": "Ullrich-Berge",
+    "ToolTip": "Alias quo quasi non quo.",
+    "Deleted": false,
+    "Rank": 210,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 753,
-        "Name": "Toy Group",
-        "ToolTip": "Sunt dolorum itaque qui non amet neque tempore.",
-        "Deleted": true,
-        "Rank": 108,
-        "Type": "dignissimos",
+        "Id": 346,
+        "Name": "Schaefer Group",
+        "ToolTip": "Enim sed id.",
+        "Deleted": false,
+        "Rank": 907,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "expedita",
-        "ColorBlock": 30,
-        "ExtraInfo": "id",
-        "StyleHint": "rerum",
-        "FullName": "Prof. Brady Houston Mitchell",
+        "IconHint": "mollitia",
+        "ColorBlock": 541,
+        "ExtraInfo": "quis",
+        "StyleHint": "et",
+        "FullName": "Stephan Mante",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldLength": 398
           }
         }
       }
     ],
-    "IconHint": "voluptate",
-    "ColorBlock": 641,
-    "ExtraInfo": "magnam",
-    "StyleHint": "ratione",
-    "FullName": "Jennie Bailey",
+    "IconHint": "corporis",
+    "ColorBlock": 112,
+    "ExtraInfo": "quis",
+    "StyleHint": "facere",
+    "FullName": "Frederique Funk IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldLength": 342
       }
     }
   }

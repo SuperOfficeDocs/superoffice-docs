@@ -114,24 +114,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 989,
-  "Section": "dolore",
-  "Key": "numquam",
-  "Name": "Feeney LLC",
+  "PrefDescId": 32,
+  "Section": "consequatur",
+  "Key": "aut",
+  "Name": "Borer, Quigley and Lesch",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enterprise-wide fault-tolerant protocol",
-  "IsBuiltin": true,
-  "TableName": "Gutkowski LLC",
-  "UserDefinedListId": 436,
-  "Rank": 954,
-  "SubGroup": "et",
-  "MinLevel": 370,
-  "MaxValue": 626,
-  "MinValue": 632,
-  "RequiredLicense": "dolor"
+  "Description": "De-engineered logistical moratorium",
+  "IsBuiltin": false,
+  "TableName": "Bogan, Bauch and Pollich",
+  "UserDefinedListId": 794,
+  "Rank": 996,
+  "SubGroup": "aut",
+  "MinLevel": 312,
+  "MaxValue": 34,
+  "MinValue": 133,
+  "RequiredLicense": "doloremque"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 330,
-  "Section": "placeat",
-  "Key": "assumenda",
-  "Name": "Blanda, Gusikowski and Hermann",
+  "PrefDescId": 41,
+  "Section": "inventore",
+  "Key": "non",
+  "Name": "Murphy-Keebler",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fundamental zero tolerance project",
+  "Description": "Digitized composite database",
   "IsBuiltin": true,
-  "TableName": "Harris-Goodwin",
-  "UserDefinedListId": 363,
-  "Rank": 514,
-  "SubGroup": "exercitationem",
-  "MinLevel": 650,
-  "MaxValue": 716,
-  "MinValue": 779,
-  "RequiredLicense": "doloremque",
+  "TableName": "Auer, Johnston and Mills",
+  "UserDefinedListId": 366,
+  "Rank": 609,
+  "SubGroup": "vero",
+  "MinLevel": 474,
+  "MaxValue": 861,
+  "MinValue": 816,
+  "RequiredLicense": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   },
   "_Links": {

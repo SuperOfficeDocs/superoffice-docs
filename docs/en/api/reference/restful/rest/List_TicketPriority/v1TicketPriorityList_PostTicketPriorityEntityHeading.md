@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 140,
-  "Name": "Cormier, Heathcote and Hermann",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "Rank": 551,
-  "UdListDefinitionId": 273
+  "HeadingId": 923,
+  "Name": "Steuber LLC",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 179,
+  "UdListDefinitionId": 465
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 686,
-  "Name": "Brown, Pouros and Gleason",
-  "Tooltip": "earum",
+  "HeadingId": 725,
+  "Name": "Koelpin Inc and Sons",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "Rank": 883,
-  "UdListDefinitionId": 485,
+  "Rank": 325,
+  "UdListDefinitionId": 147,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 858
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

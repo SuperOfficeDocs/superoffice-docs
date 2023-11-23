@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Value": "dolor",
-    "Tooltip": "quia",
+    "Id": 223,
+    "Value": "aut",
+    "Tooltip": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldLength": 338
       }
     }
   },
   {
-    "Id": 274,
-    "Value": "dolor",
-    "Tooltip": "quia",
+    "Id": 223,
+    "Value": "aut",
+    "Tooltip": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldLength": 338
       }
     }
   }

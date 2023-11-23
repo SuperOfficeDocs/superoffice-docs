@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Ondricka, Pfeffer and Hickle",
-    "ToolTip": "Vel architecto quam incidunt omnis repellat iste.",
+    "Id": 691,
+    "Name": "Pacocha-Lowe",
+    "ToolTip": "Pariatur omnis unde.",
     "Deleted": false,
-    "Rank": 701,
-    "Type": "numquam",
-    "ColorBlock": 559,
-    "IconHint": "voluptatem",
+    "Rank": 176,
+    "Type": "beatae",
+    "ColorBlock": 430,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2000-07-17T03:24:52.3494474+02:00",
+    "LastChanged": "1997-07-19T13:38:18.1556538+02:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Collier-Jenkins",
-        "ToolTip": "Provident est praesentium atque modi culpa.",
+        "Id": 392,
+        "Name": "Cremin-Sanford",
+        "ToolTip": "Quod in consequatur omnis repellendus.",
         "Deleted": false,
-        "Rank": 441,
-        "Type": "ducimus",
-        "ColorBlock": 928,
-        "IconHint": "debitis",
+        "Rank": 245,
+        "Type": "modi",
+        "ColorBlock": 137,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "2002-01-03T03:24:52.3494474+01:00",
+        "LastChanged": "2012-06-04T13:38:18.1556538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Regan Kohler",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "quod",
+        "Hidden": true,
+        "FullName": "Dr. Verda Ally Botsford V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 658
+            "FieldLength": 872
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "est",
+    "ExtraInfo": "velit",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Prof. Candelario Tromp IV",
+    "FullName": "Neoma Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 696
+        "FieldType": "System.String",
+        "FieldLength": 88
       }
     }
   }

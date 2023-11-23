@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Keeling LLC",
-  "FieldName": "Franecki Inc and Sons"
+  "TableName": "Christiansen, Renner and Mraz",
+  "FieldName": "Hickle, Carter and Kassulke"
 }
 ```
 
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Cummerata, Hudson and Walker",
-  "DisplayName": "Towne-Hand",
-  "Description": "Right-sized radical groupware",
-  "ShortLabel": "odio",
+  "FieldName": "Jewess-Bartell",
+  "DisplayName": "Schuppe-Grimes",
+  "Description": "Open-source tertiary emulation",
+  "ShortLabel": "iure",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": true,
-  "IsMandatory": false,
+  "IsMandatory": true,
   "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 77,
-  "TemplateVariableName": "Goldner Group"
+  "Rank": 56,
+  "TemplateVariableName": "Green-Cole"
 }
 ```

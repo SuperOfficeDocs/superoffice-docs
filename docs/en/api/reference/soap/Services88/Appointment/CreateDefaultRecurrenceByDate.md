@@ -39,7 +39,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:CreateDefaultRecurrenceByDate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2023-09-19T01:22:14Z</Appointment:StartDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2023-11-10T12:35:40Z</Appointment:StartDate>
    </Appointment:CreateDefaultRecurrenceByDate>
 
  </SOAP-ENV:Body>
@@ -64,8 +64,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:CreateDefaultRecurrenceByDateResponse>
    <Appointment:Response xsi:type="Appointment:RecurrenceInfo">
     <Appointment:RecurrenceId xsi:type="xsd:int">0</Appointment:RecurrenceId>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2023-09-19T01:22:14Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2023-09-19T01:22:14Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2023-11-10T12:35:40Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2023-11-10T12:35:40Z</Appointment:EndDate>
     <Appointment:RecurrenceEndType xsi:type="Appointment:RecurrenceEndType">Unknown</Appointment:RecurrenceEndType>
     <Appointment:Pattern xsi:type="Appointment:RecurrencePattern">Unknown</Appointment:Pattern>
     <Appointment:DayPattern xsi:type="Appointment:RecurrenceDayPattern">
@@ -92,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Appointment:YearPattern>
     <Appointment:Dates xsi:type="Appointment:ArrayOfRecurrenceDate">
      <Appointment:RecurrenceDate xsi:type="Appointment:RecurrenceDate">
-      <Appointment:Date xsi:type="xsd:dateTime">2023-09-19T01:22:14Z</Appointment:Date>
+      <Appointment:Date xsi:type="xsd:dateTime">2023-11-10T12:35:40Z</Appointment:Date>
       <Appointment:IsConflict xsi:type="xsd:boolean">false</Appointment:IsConflict>
       <Appointment:Description xsi:type="xsd:string"></Appointment:Description>
       <Appointment:DescriptionStyleHint xsi:type="xsd:string"></Appointment:DescriptionStyleHint>

@@ -247,7 +247,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/deliveryType,alternative/version/quote/sale/currencyId,alternative/version/quote/sale/hasStakeholders
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/discountAmount,alternative/version/number,alternative/version/quote/sale/userGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

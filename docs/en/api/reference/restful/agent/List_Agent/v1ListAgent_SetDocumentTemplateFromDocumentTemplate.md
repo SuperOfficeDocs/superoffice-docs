@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 628,
+  "SourceDocumentTemplateId": 75,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 715,
-  "Name": "Bailey Inc and Sons",
-  "Tooltip": "porro",
-  "SaveInDb": 838,
-  "Filename": "rem",
-  "DefaultOref": "non",
+  "DocumentTemplateId": 283,
+  "Name": "O'Kon Group",
+  "Tooltip": "corporis",
+  "SaveInDb": 990,
+  "Filename": "minima",
+  "DefaultOref": "esse",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 843,
-  "IntentId": 607,
-  "IsDefaultPublished": false,
-  "Rank": 719,
-  "LoadTemplateFromPlugin": 952,
-  "MimeType": "modi",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 58,
+  "AutoeventId": 518,
+  "IntentId": 785,
+  "IsDefaultPublished": true,
+  "Rank": 194,
+  "LoadTemplateFromPlugin": 77,
+  "MimeType": "qui",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 824,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "allen@torpdickens.com",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "yazmin@nader.co.uk",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "cecile@bailey.com",
+  "SenderEmailAddress": "audreanne@schroeder.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 56
     }
   }
 }

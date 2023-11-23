@@ -97,12 +97,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 139,
-  "Name": "Stracke Group",
-  "Tooltip": "quia",
-  "PassiveText": "quidem",
+  "ReldefId": 137,
+  "Name": "Rohan, Jast and Greenholt",
+  "Tooltip": "ipsum",
+  "PassiveText": "mollitia",
   "Deleted": false,
-  "Rank": 30,
+  "Rank": 641,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,25 +115,25 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 111,
-  "Name": "Grimes Group",
-  "Tooltip": "velit",
-  "PassiveText": "voluptatem",
-  "Deleted": true,
-  "Rank": 135,
+  "ReldefId": 987,
+  "Name": "Jones, Hettinger and Quitzon",
+  "Tooltip": "consequatur",
+  "PassiveText": "sapiente",
+  "Deleted": false,
+  "Rank": 885,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Dietrich Inc and Sons",
-    "ToolTip": "Omnis aperiam blanditiis.",
+    "Id": 555,
+    "Name": "Price, Becker and Shanahan",
+    "ToolTip": "Reiciendis pariatur recusandae sed rem.",
     "Deleted": false,
-    "Rank": 349,
-    "Type": "qui",
-    "ColorBlock": 274,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "2020-10-22T03:24:47.8301403+02:00",
+    "Rank": 969,
+    "Type": "ea",
+    "ColorBlock": 548,
+    "IconHint": "earum",
+    "Selected": true,
+    "LastChanged": "2004-09-26T13:38:13.6396102+02:00",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Hackett Inc and Sons",
-        "ToolTip": "Ad ea sed dolor.",
+        "Id": 348,
+        "Name": "Strosin-O'Kon",
+        "ToolTip": "Nostrum sed aperiam reprehenderit minima non est.",
         "Deleted": false,
-        "Rank": 214,
-        "Type": "rem",
-        "ColorBlock": 855,
-        "IconHint": "odit",
+        "Rank": 622,
+        "Type": "quam",
+        "ColorBlock": 29,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2012-09-20T03:24:47.8301403+02:00",
+        "LastChanged": "1996-08-03T13:38:13.6396102+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "maiores",
-        "Hidden": false,
-        "FullName": "Dahlia Skiles",
+        "ExtraInfo": "vel",
+        "StyleHint": "quod",
+        "Hidden": true,
+        "FullName": "Prof. Sydni Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "molestias",
+    "ExtraInfo": "rerum",
+    "StyleHint": "sapiente",
     "Hidden": true,
-    "FullName": "Arvilla Johnston II",
+    "FullName": "Hermina Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldLength": 247
       }
     }
   }

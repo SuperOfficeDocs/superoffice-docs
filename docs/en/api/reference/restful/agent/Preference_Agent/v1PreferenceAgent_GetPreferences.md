@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "maiores",
-      "Key": "accusantium"
+      "Section": "vitae",
+      "Key": "qui"
     },
     {
-      "Section": "maiores",
-      "Key": "accusantium"
+      "Section": "vitae",
+      "Key": "qui"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "voluptatem",
+    "RawValue": "in",
     "Specification": null,
-    "DisplayValue": "architecto",
-    "DisplayTooltip": "ea",
+    "DisplayValue": "placeat",
+    "DisplayTooltip": "molestiae",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 446,
-    "PrefDescId": 885,
-    "TableName": "Crist Inc and Sons",
-    "UserPreferenceId": 269,
+    "TargetId": 996,
+    "PrefDescId": 997,
+    "TableName": "Marvin, Bednar and Powlowski",
+    "UserPreferenceId": 365,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldLength": 215
       }
     }
   }

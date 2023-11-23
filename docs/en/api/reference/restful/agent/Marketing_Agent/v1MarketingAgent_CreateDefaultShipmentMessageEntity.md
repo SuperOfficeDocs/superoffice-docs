@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 537,
-  "PlainMessage": "optio",
-  "HtmlMessage": "odio",
-  "SmsMessage": "doloremque",
-  "Description": "Vision-oriented full-range access",
-  "Subject": "perferendis",
-  "FolderId": 419,
-  "HeaderField": "repudiandae",
-  "Design": "eos",
+  "ShipmentMessageId": 405,
+  "PlainMessage": "rerum",
+  "HtmlMessage": "odit",
+  "SmsMessage": "numquam",
+  "Description": "Up-sized disintermediate matrices",
+  "Subject": "libero",
+  "FolderId": 152,
+  "HeaderField": "totam",
+  "Design": "dolorum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Quality-focused methodical challenge",
-  "AccessKey": "molestias",
-  "DocumentMessage": 831,
-  "Registered": "2011-06-19T03:24:47.9238778+02:00",
-  "RegisteredAssociateId": 203,
-  "Updated": "2007-03-21T03:24:47.9238778+01:00",
-  "UpdatedAssociateId": 398,
-  "UpdatedCount": 853,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Open-architected national task-force",
+  "AccessKey": "modi",
+  "DocumentMessage": 49,
+  "Registered": "2001-12-25T13:38:13.7333439+01:00",
+  "RegisteredAssociateId": 805,
+  "Updated": "2017-02-16T13:38:13.7333439+01:00",
+  "UpdatedAssociateId": 69,
+  "UpdatedCount": 906,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 934
+      "FieldLength": 603
     }
   }
 }

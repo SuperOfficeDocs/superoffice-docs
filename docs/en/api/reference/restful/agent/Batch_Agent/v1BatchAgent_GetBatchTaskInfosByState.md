@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 640,
-    "Name": "King LLC",
-    "AssociateId": 784,
-    "DetailsTable": 761,
-    "DetailsRecord": 593,
+    "Id": 99,
+    "Name": "Cassin, Becker and Homenick",
+    "AssociateId": 880,
+    "DetailsTable": 629,
+    "DetailsRecord": 147,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "provident",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "repudiandae",
+      "ParameterObject2": "dicta"
     },
-    "LastStarted": "2010-05-04T03:24:47.2520803+02:00",
-    "Created": "2008-05-07T03:24:47.2520803+02:00",
-    "StartCount": 450,
-    "DatabaseSerialNumber": "215977",
-    "Context": "repellendus",
-    "Result": "voluptate",
+    "LastStarted": "2005-05-09T13:38:13.0771703+02:00",
+    "Created": "2003-12-15T13:38:13.0771703+01:00",
+    "StartCount": 181,
+    "DatabaseSerialNumber": "887953",
+    "Context": "nesciunt",
+    "Result": "officiis",
     "State": "All",
-    "Description": "Up-sized user-facing moratorium",
-    "Response": "et",
-    "Request": "expedita",
-    "ProgressDescription": "Proactive multi-state approach",
-    "ProgressPercent": 331,
-    "FileName": "Leannon, Crooks and Stroman",
+    "Description": "Up-sized dynamic benchmark",
+    "Response": "maiores",
+    "Request": "adipisci",
+    "ProgressDescription": "Automated 24 hour archive",
+    "ProgressPercent": 225,
+    "FileName": "Mayer-Towne",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldType": "System.String",
+        "FieldLength": 171
       }
     }
   }

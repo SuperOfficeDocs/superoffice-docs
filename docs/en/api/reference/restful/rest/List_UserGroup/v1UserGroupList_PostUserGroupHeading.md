@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 931,
-  "Name": "Gibson Inc and Sons",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 217,
-  "UdListDefinitionId": 347
+  "HeadingId": 465,
+  "Name": "Bailey-Auer",
+  "Tooltip": "ab",
+  "Deleted": true,
+  "Rank": 147,
+  "UdListDefinitionId": 517
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 676,
-  "Name": "Armstrong-Willms",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "Rank": 506,
-  "UdListDefinitionId": 469,
+  "HeadingId": 270,
+  "Name": "Collier, Runte and Howell",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "Rank": 1002,
+  "UdListDefinitionId": 510,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 633
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetDefaultAssociateUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Heller-Johns"
+"Schinner-Kiehn"
 ```

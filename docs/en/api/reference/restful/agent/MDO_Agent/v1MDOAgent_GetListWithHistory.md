@@ -88,18 +88,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Green-Tillman",
-  "ForceFlatList": false,
-  "AdditionalInfo": "minus",
+  "Name": "Hickle, Doyle and Gorczany",
+  "ForceFlatList": true,
+  "AdditionalInfo": "sint",
   "HistoryItems": [
-    278,
-    528
+    698,
+    537
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Moore LLC",
-    "ToolTip": "Accusantium ratione nobis.",
+    "Id": 538,
+    "Name": "Krajcik Inc and Sons",
+    "ToolTip": "Facere et maiores.",
     "Deleted": true,
-    "Rank": 744,
-    "Type": "ullam",
+    "Rank": 643,
+    "Type": "error",
     "ChildItems": [
       {
-        "Id": 663,
-        "Name": "Rau LLC",
-        "ToolTip": "Molestias omnis at.",
-        "Deleted": false,
-        "Rank": 835,
-        "Type": "et",
+        "Id": 677,
+        "Name": "Streich, Skiles and Stanton",
+        "ToolTip": "Temporibus molestias et pariatur.",
+        "Deleted": true,
+        "Rank": 913,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 536,
-        "ExtraInfo": "fuga",
-        "StyleHint": "modi",
-        "FullName": "Jessie Skiles Sr.",
+        "IconHint": "optio",
+        "ColorBlock": 980,
+        "ExtraInfo": "rem",
+        "StyleHint": "enim",
+        "FullName": "Ciara Treutel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldLength": 842
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 469,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "sit",
-    "FullName": "Devon Raynor",
+    "IconHint": "iusto",
+    "ColorBlock": 248,
+    "ExtraInfo": "dolor",
+    "StyleHint": "beatae",
+    "FullName": "Ms. Elliott Adams I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldLength": 327
       }
     }
   }

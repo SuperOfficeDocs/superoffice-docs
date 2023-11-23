@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Padberg Group",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 676,
+  "Id": 310,
+  "Name": "Legros-Goyette",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "Rank": 514,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "saepe",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "repellat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 708,
-  "Name": "Christiansen-Conroy",
-  "Tooltip": "cumque",
+  "Id": 313,
+  "Name": "Schowalter LLC",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 367,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 684,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 716
     }
   }
 }

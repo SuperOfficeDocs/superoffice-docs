@@ -26,7 +26,7 @@ Gets a EmailFlow object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetEmailFlow?emailFlowId=850
+POST /api/v1/Agents/Workflow/GetEmailFlow?emailFlowId=648
 POST /api/v1/Agents/Workflow/GetEmailFlow?$select=name,department,category/id
 ```
 
@@ -92,6 +92,10 @@ OK
 | Goals | array | The goals for the workflow. |
 | Filter | WorkflowFilter | The filter for the workflow. |
 | BlockLists | array | Persons in the given selections are not allowed to enter this workflow |
+| CreatedBy | Associate | The associate that first created the flow. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the flow. |
+| CreatedDate | date-time | Registered date  in UTC. |
+| UpdatedDate | date-time | Updated date  in UTC. |
 | VisibleFor | array | The set of users or groups the record is visible for |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -102,7 +106,7 @@ OK
 POST /api/v1/Agents/Workflow/GetEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -112,34 +116,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 746,
-  "Name": "Waters LLC",
-  "Description": "Phased tertiary productivity",
+  "EmailFlowId": 104,
+  "Name": "Mosciski, Wisoky and Ritchie",
+  "Description": "Upgradable holistic leverage",
   "Status": "None",
-  "JumpToFinish": false,
-  "StartOnlyOnce": true,
+  "JumpToFinish": true,
+  "StartOnlyOnce": false,
   "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Ward-Frami",
-  "FromAddr": "aut",
+  "FromName": "Kerluke Group",
+  "FromAddr": "quae",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "ipsa",
-  "ReplyToName": "Lindgren, Schumm and Kutch",
-  "SmsSender": "possimus",
+  "ReplyToAddr": "sint",
+  "ReplyToName": "Grimes-Schimmel",
+  "SmsSender": "aut",
   "UseGoogleAnalytics": false,
   "GaSource": "et",
-  "GaCampaign": "praesentium",
+  "GaCampaign": "itaque",
   "UseTimeframe": false,
   "SelectedDays": "Friday",
-  "TimeframeStart": "illum",
-  "TimeframeEnd": "aut",
+  "TimeframeStart": "quis",
+  "TimeframeEnd": "hic",
   "UseWorkflowStart": false,
-  "WorkflowStart": "nobis",
+  "WorkflowStart": "quae",
   "UseEnrollmentEnd": false,
-  "EnrollmentEnd": "consequuntur",
+  "EnrollmentEnd": "odit",
   "RemoveFromFlows": [
-    697,
-    399
+    568,
+    142
   ],
   "TzLocation": null,
   "Folder": null,
@@ -147,22 +151,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 510,
-      "WorkflowId": 375,
+      "WorkflowStepId": 86,
+      "WorkflowId": 259,
       "StepType": "AddToList",
-      "Rank": 850
+      "Rank": 375
     },
     {
-      "WorkflowStepId": 510,
-      "WorkflowId": 375,
+      "WorkflowStepId": 86,
+      "WorkflowId": 259,
       "StepType": "AddToList",
-      "Rank": 850
+      "Rank": 375
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 420,
-      "WorkflowId": 491,
+      "WorkflowTriggerId": 966,
+      "WorkflowId": 704,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -172,14 +176,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 974
+          "FieldType": "System.String",
+          "FieldLength": 41
         }
       }
     },
     {
-      "WorkflowTriggerId": 420,
-      "WorkflowId": 491,
+      "WorkflowTriggerId": 966,
+      "WorkflowId": 704,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -189,16 +193,16 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 974
+          "FieldType": "System.String",
+          "FieldLength": 41
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 284,
-      "WorkflowId": 221,
+      "WorkflowGoalId": 802,
+      "WorkflowId": 827,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -209,13 +213,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 801
+          "FieldLength": 716
         }
       }
     },
     {
-      "WorkflowGoalId": 284,
-      "WorkflowId": 221,
+      "WorkflowGoalId": 802,
+      "WorkflowId": 827,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -226,40 +230,44 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 801
+          "FieldLength": 716
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    239,
-    247
+    278,
+    699
   ],
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "CreatedDate": "2013-03-19T13:38:14.4209159+01:00",
+  "UpdatedDate": "2001-01-09T13:38:14.4209159+01:00",
   "VisibleFor": [
     {
-      "VisibleId": 564,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 284
+          "FieldType": "System.Int32",
+          "FieldLength": 754
         }
       }
     },
     {
-      "VisibleId": 564,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 284
+          "FieldType": "System.Int32",
+          "FieldLength": 754
         }
       }
     }
@@ -268,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 378
     }
   }
 }

@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kassulke LLC",
+  "HistoryName": "Leffler LLC",
   "History": [
     {
-      "Rank": 418,
-      "Id": 252,
-      "HistoryName": "Heaney-Rutherford",
-      "HistoryId": 31,
-      "AssociateId": 344,
-      "Name": "Okuneva LLC",
-      "ItemInfo": "incidunt"
+      "Rank": 322,
+      "Id": 538,
+      "HistoryName": "Mueller, Morar and Braun",
+      "HistoryId": 5,
+      "AssociateId": 404,
+      "Name": "Pollich, Blick and Turner",
+      "ItemInfo": "quaerat"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 554,
-    "Id": 69,
-    "HistoryName": "Trantow Group",
-    "HistoryId": 446,
-    "AssociateId": 268,
-    "Name": "Kozey-Jaskolski",
-    "ItemInfo": "aut",
+    "Rank": 713,
+    "Id": 310,
+    "HistoryName": "Bashirian Group",
+    "HistoryId": 392,
+    "AssociateId": 326,
+    "Name": "Brekke Inc and Sons",
+    "ItemInfo": "pariatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 915
+        "FieldType": "System.Int32",
+        "FieldLength": 482
       }
     }
   }

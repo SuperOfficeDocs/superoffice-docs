@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 811,
-  "Section": "a",
-  "Key": "vel",
-  "Name": "Leannon LLC",
+  "PrefDescId": 683,
+  "Section": "deserunt",
+  "Key": "quod",
+  "Name": "Erdman, Predovic and McGlynn",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ergonomic global capacity",
-  "IsBuiltin": false,
-  "TableName": "Lind Group",
-  "UserDefinedListId": 930,
-  "Rank": 668,
-  "SubGroup": "eos",
-  "MinLevel": 429,
-  "MaxValue": 437,
-  "MinValue": 800,
-  "RequiredLicense": "explicabo",
+  "Description": "Persistent discrete Graphic Interface",
+  "IsBuiltin": true,
+  "TableName": "Nitzsche Inc and Sons",
+  "UserDefinedListId": 259,
+  "Rank": 861,
+  "SubGroup": "modi",
+  "MinLevel": 868,
+  "MaxValue": 58,
+  "MinValue": 619,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 839
     }
   }
 }

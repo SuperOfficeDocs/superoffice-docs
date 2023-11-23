@@ -79,11 +79,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 165,
-  "InstanceLayout": "quis",
-  "InstanceName": "Treutel, Erdman and Senger",
-  "CreatedDate": "1996-12-25T03:24:47.2364513+01:00",
-  "UpdatedDate": "2011-10-17T03:24:47.2364513+02:00",
+  "AudienceLayoutId": 395,
+  "InstanceLayout": "et",
+  "InstanceName": "Renner, Reilly and Smith",
+  "CreatedDate": "1999-11-15T13:38:13.0771703+01:00",
+  "UpdatedDate": "2012-06-25T13:38:13.0771703+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 486,
-  "InstanceLayout": "repellendus",
-  "InstanceName": "Runte-Adams",
-  "CreatedDate": "2006-11-10T03:24:47.2364513+01:00",
-  "UpdatedDate": "2016-02-24T03:24:47.2364513+01:00",
+  "AudienceLayoutId": 757,
+  "InstanceLayout": "impedit",
+  "InstanceName": "Corkery Inc and Sons",
+  "CreatedDate": "1999-03-02T13:38:13.0771703+01:00",
+  "UpdatedDate": "2021-05-31T13:38:13.0771703+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldLength": 102
     }
   }
 }

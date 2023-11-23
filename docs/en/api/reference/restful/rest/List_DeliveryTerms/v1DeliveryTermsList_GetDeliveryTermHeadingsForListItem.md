@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 579,
-    "Name": "Hansen-Towne",
-    "ToolTip": "Est aperiam.",
+    "Id": 384,
+    "Name": "Wyman, Monahan and Kuphal",
+    "ToolTip": "Et repudiandae corporis fugit rerum debitis rerum.",
     "Deleted": false,
-    "Rank": 165,
-    "Type": "quis",
-    "ColorBlock": 904,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2003-02-26T03:24:52.240053+01:00",
+    "Rank": 758,
+    "Type": "debitis",
+    "ColorBlock": 174,
+    "IconHint": "tempore",
+    "Selected": true,
+    "LastChanged": "2020-03-16T13:38:18.0462875+01:00",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Schroeder-Keebler",
-        "ToolTip": "Eius magnam possimus et ut.",
+        "Id": 713,
+        "Name": "Cummings Group",
+        "ToolTip": "Dicta enim magnam.",
         "Deleted": true,
-        "Rank": 740,
-        "Type": "repudiandae",
-        "ColorBlock": 868,
-        "IconHint": "autem",
+        "Rank": 702,
+        "Type": "nulla",
+        "ColorBlock": 353,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2009-06-14T03:24:52.240053+02:00",
+        "LastChanged": "2011-11-17T13:38:18.0462875+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "culpa",
+        "ExtraInfo": "delectus",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Friedrich Sauer",
+        "FullName": "Jacinto Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 55
+            "FieldLength": 326
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Marcella Ratke",
+    "ExtraInfo": "unde",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Tyreek Fritsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 33
+        "FieldType": "System.Int32",
+        "FieldLength": 56
       }
     }
   }

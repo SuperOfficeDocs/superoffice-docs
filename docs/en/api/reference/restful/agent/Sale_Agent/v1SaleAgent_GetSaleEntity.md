@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=637
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=299
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "repudiandae",
+  "SaleText": "cum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2008-10-08T03:24:48.2051019+02:00",
-  "Amount": 6340.0819999999994,
-  "SaleId": 490,
-  "Earning": 13212.944,
-  "EarningPercent": 8019.906,
-  "Heading": "ipsa",
-  "Number": "881632",
-  "Probability": 666,
-  "CreatedDate": "2009-11-20T03:24:48.2051019+01:00",
-  "UpdatedDate": "2003-06-27T03:24:48.2051019+02:00",
+  "Saledate": "2018-01-26T13:38:14.0928295+01:00",
+  "Amount": 10596.054,
+  "SaleId": 685,
+  "Earning": 14936.644,
+  "EarningPercent": 10298.324,
+  "Heading": "illo",
+  "Number": "657747",
+  "Probability": 407,
+  "CreatedDate": "2010-08-24T13:38:14.0928295+02:00",
+  "UpdatedDate": "2014-02-17T13:38:14.0928295+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 520,
+  "ActiveLinks": 496,
   "Links": [
     {
-      "EntityName": "Runte-Olson",
-      "Id": 193,
-      "Description": "Future-proofed uniform intranet",
-      "ExtraInfo": "amet",
-      "LinkId": 614,
+      "EntityName": "Bogan Inc and Sons",
+      "Id": 145,
+      "Description": "Team-oriented global task-force",
+      "ExtraInfo": "qui",
+      "LinkId": 215,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldLength": 454
         }
       }
     }
   ],
-  "NextDueDate": "2008-11-30T03:24:48.2051019+01:00",
-  "Postit": "nesciunt",
+  "NextDueDate": "2006-07-10T13:38:14.0928295+02:00",
+  "Postit": "et",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-06-02T03:24:48.2051019+02:00",
+  "ReopenDate": "2023-01-07T13:38:14.0928295+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kunde, Pacocha and Rippin",
-      "Comment": "odio",
-      "StakeholderRoleId": 148,
-      "CountryId": 318,
-      "PersonId": 525,
-      "EmailDescription": "joshua@ornheller.uk",
-      "EmailId": 696,
-      "EmailAddress": "kaylie_botsford@zulauf.ca",
-      "PhoneId": 335,
-      "ContactName": "Feeney LLC",
-      "ContactId": 43,
-      "SaleId": 960,
-      "Mrmrs": "ut",
-      "Firstname": "Bridget",
-      "MiddleName": "Lesch-Carroll",
-      "Lastname": "Kuvalis",
-      "SaleStakeholderId": 986,
-      "Rank": 799,
-      "Phone": "826-264-5412 x2704",
+      "StakeholderRoleName": "Lowe Inc and Sons",
+      "Comment": "quaerat",
+      "StakeholderRoleId": 744,
+      "CountryId": 749,
+      "PersonId": 771,
+      "EmailDescription": "russ@sipes.com",
+      "EmailId": 329,
+      "EmailAddress": "maryam.hahn@kuhic.co.uk",
+      "PhoneId": 330,
+      "ContactName": "Lemke Inc and Sons",
+      "ContactId": 8,
+      "SaleId": 144,
+      "Mrmrs": "non",
+      "Firstname": "Ernestina",
+      "MiddleName": "Runolfsdottir, Rolfson and Deckow",
+      "Lastname": "Reichert",
+      "SaleStakeholderId": 229,
+      "Rank": 371,
+      "Phone": "(510)217-1010",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 760
         }
       }
     }
   ],
-  "ActiveErpLinks": 19,
+  "ActiveErpLinks": 669,
   "UserDefinedFields": {
-    "SuperOffice:1": "39116216",
-    "SuperOffice:2": "1479405315"
+    "SuperOffice:1": "138734588",
+    "SuperOffice:2": "430451719"
   },
   "ExtraFields": {
-    "ExtraFields1": "consectetur",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "earum",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2000-10-10T03:24:48.2051019+02:00",
-  "PublishTo": "2002-01-05T03:24:48.2051019+01:00",
-  "PublishFrom": "2002-12-22T03:24:48.2051019+01:00",
+  "PublishEventDate": "2006-10-11T13:38:14.0928295+02:00",
+  "PublishTo": "2007-09-06T13:38:14.0928295+02:00",
+  "PublishFrom": "2008-12-11T13:38:14.0928295+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 212,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 319
+          "FieldLength": 390
         }
       }
     },
     {
-      "VisibleId": 212,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 319
+          "FieldLength": 390
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldLength": 805
     }
   }
 }

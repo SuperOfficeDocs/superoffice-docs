@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=True
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 442,
-    "Name": "Jacobson, Ullrich and Miller",
-    "ToolTip": "Ratione et.",
+    "Id": 546,
+    "Name": "Cremin, Greenholt and Bednar",
+    "ToolTip": "Autem quidem et quos quod.",
     "Deleted": false,
-    "Rank": 561,
-    "Type": "non",
+    "Rank": 439,
+    "Type": "vero",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Hudson Inc and Sons",
-        "ToolTip": "Illo aliquid earum dolor nemo.",
-        "Deleted": true,
-        "Rank": 710,
-        "Type": "deleniti",
+        "Id": 773,
+        "Name": "Barrows Group",
+        "ToolTip": "Vero non id laboriosam quas sapiente autem.",
+        "Deleted": false,
+        "Rank": 55,
+        "Type": "excepturi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 264,
-        "ExtraInfo": "et",
-        "StyleHint": "nulla",
-        "FullName": "Dianna Nolan",
+        "IconHint": "aperiam",
+        "ColorBlock": 430,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "rem",
+        "FullName": "Daphnee Leuschke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 479
+            "FieldType": "System.Int32",
+            "FieldLength": 923
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 348,
-    "ExtraInfo": "tempora",
-    "StyleHint": "vel",
-    "FullName": "Lolita Roob",
+    "IconHint": "suscipit",
+    "ColorBlock": 742,
+    "ExtraInfo": "veritatis",
+    "StyleHint": "unde",
+    "FullName": "Reagan Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 580
+        "FieldLength": 142
       }
     }
   }

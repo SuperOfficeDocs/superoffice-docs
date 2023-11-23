@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mayer, Marks and Marvin",
+  "TableName": "Hyatt Group",
   "IDs": [
-    443,
-    555
+    838,
+    342
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "quia",
-  "Inserts": 242,
-  "Updates": 176,
-  "Deletes": 166,
+  "Success": true,
+  "Message": "est",
+  "Inserts": 324,
+  "Updates": 820,
+  "Deletes": 426,
   "RowStatus": [
     {
-      "PrimaryKey": 830,
+      "PrimaryKey": 802,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "rem",
-        "dolore"
+        "qui",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 113
+          "FieldType": "System.Int32",
+          "FieldLength": 487
         }
       }
     },
     {
-      "PrimaryKey": 830,
+      "PrimaryKey": 802,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "rem",
-        "dolore"
+        "qui",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 113
+          "FieldType": "System.Int32",
+          "FieldLength": 487
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldType": "System.Int32",
+      "FieldLength": 679
     }
   }
 }

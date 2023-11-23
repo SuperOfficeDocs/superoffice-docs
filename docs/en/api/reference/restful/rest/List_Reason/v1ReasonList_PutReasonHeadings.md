@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 479,
-    "Name": "Gerlach LLC",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "Rank": 849,
-    "UdListDefinitionId": 935
+    "HeadingId": 162,
+    "Name": "Torphy-Stanton",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 111,
+    "UdListDefinitionId": 386
   },
   {
-    "HeadingId": 479,
-    "Name": "Gerlach LLC",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "Rank": 849,
-    "UdListDefinitionId": 935
+    "HeadingId": 162,
+    "Name": "Torphy-Stanton",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 111,
+    "UdListDefinitionId": 386
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 717,
-    "Name": "Roob-Kutch",
-    "Tooltip": "soluta",
+    "HeadingId": 734,
+    "Name": "Jewess, Green and Rippin",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 186,
-    "UdListDefinitionId": 129,
+    "Rank": 850,
+    "UdListDefinitionId": 181,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldType": "System.String",
+        "FieldLength": 668
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 694,
-    "Name": "Armstrong Group",
-    "Tooltip": "earum",
-    "Deleted": false,
-    "Rank": 919,
-    "UdListDefinitionId": 506,
+    "HeadingId": 683,
+    "Name": "Effertz-Gottlieb",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "Rank": 654,
+    "UdListDefinitionId": 841,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldLength": 861
       }
     }
   }

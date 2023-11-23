@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 683,
-  "Width": 817,
-  "Height": 359
+  "ContactId": 636,
+  "Width": 45,
+  "Height": 765
 }
 ```
 

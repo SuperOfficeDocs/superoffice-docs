@@ -108,47 +108,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schmeler Inc and Sons",
-  "ProviderName": "Parisian-Blick",
+  "GuiName": "Halvorson LLC",
+  "ProviderName": "Reilly-Walsh",
   "SortOrder": [
     {
-      "Name": "Swaniawski-Torphy",
+      "Name": "Auer-Schimmel",
       "Direction": "ASC"
     },
     {
-      "Name": "Swaniawski-Torphy",
+      "Name": "Auer-Schimmel",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Sipes, McDermott and Huel",
-      "Operator": "non",
+      "Name": "Hoppe, Dare and Ward",
+      "Operator": "magni",
       "Values": [
-        "doloribus",
-        "consequatur"
+        "odit",
+        "qui"
       ],
       "DisplayValues": [
-        "velit",
-        "magnam"
+        "provident",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 998,
+      "InterParenthesis": 922,
       "InterOperator": "And",
-      "UniqueHash": 490
+      "UniqueHash": 271
     }
   ],
   "Entities": [
-    "similique",
-    "amet"
+    "sit",
+    "dicta"
   ],
-  "Page": 759,
-  "PageSize": 174
+  "Page": 994,
+  "PageSize": 121
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gorczany, Quitzon and Jenkins",
-    "PrimaryKey": 404,
+    "EntityName": "Rogahn, Senger and Sporer",
+    "PrimaryKey": 851,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quia",
-        "TooltipHint": "omnis",
-        "LinkHint": "in"
+        "DisplayValue": "molestias",
+        "TooltipHint": "dolor",
+        "LinkHint": "qui"
       }
     },
-    "LinkHint": "sunt",
-    "StyleHint": "veniam",
+    "LinkHint": "maxime",
+    "StyleHint": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldType": "System.String",
+        "FieldLength": 418
       }
     }
   }

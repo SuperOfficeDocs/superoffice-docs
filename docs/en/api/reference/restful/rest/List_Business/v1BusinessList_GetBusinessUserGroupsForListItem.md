@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 887,
-    "Name": "Miller-Kulas",
-    "ToolTip": "Nihil sapiente fuga voluptates illo.",
-    "Deleted": false,
-    "Rank": 909,
-    "Type": "tempora",
-    "ColorBlock": 662,
-    "IconHint": "nulla",
+    "Id": 202,
+    "Name": "Casper Group",
+    "ToolTip": "Praesentium voluptas nostrum et et earum debitis.",
+    "Deleted": true,
+    "Rank": 126,
+    "Type": "impedit",
+    "ColorBlock": 765,
+    "IconHint": "laborum",
     "Selected": false,
-    "LastChanged": "2000-08-18T03:24:52.1619753+02:00",
+    "LastChanged": "2012-12-19T13:38:17.9056813+01:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Bartoletti-Hand",
-        "ToolTip": "Pariatur voluptate est qui voluptatem.",
+        "Id": 188,
+        "Name": "Emard-Kohler",
+        "ToolTip": "Atque fuga laudantium reiciendis necessitatibus occaecati ipsa porro.",
         "Deleted": true,
-        "Rank": 91,
-        "Type": "rerum",
-        "ColorBlock": 425,
-        "IconHint": "odio",
-        "Selected": false,
-        "LastChanged": "2010-09-04T03:24:52.1619753+02:00",
+        "Rank": 837,
+        "Type": "et",
+        "ColorBlock": 492,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2010-03-25T13:38:17.9056813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Mr. Dortha Barrows",
+        "ExtraInfo": "omnis",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Mr. Layla Stefanie Roberts III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 539
+            "FieldType": "System.Int32",
+            "FieldLength": 923
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "dolore",
+    "ExtraInfo": "vel",
+    "StyleHint": "hic",
     "Hidden": true,
-    "FullName": "Jimmy Wiza",
+    "FullName": "Jany Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldLength": 935
       }
     }
   }

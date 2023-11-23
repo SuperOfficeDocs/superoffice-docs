@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Name": "Wintheiser-Witting",
-    "ToolTip": "Recusandae porro et praesentium quaerat occaecati cum deleniti.",
+    "Id": 651,
+    "Name": "Jaskolski, Berge and Conn",
+    "ToolTip": "Eveniet saepe voluptatum est fuga officia adipisci et.",
     "Deleted": false,
-    "Rank": 783,
-    "Type": "numquam",
-    "ColorBlock": 288,
-    "IconHint": "odit",
+    "Rank": 857,
+    "Type": "fugiat",
+    "ColorBlock": 773,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2016-05-28T03:24:52.1463474+02:00",
+    "LastChanged": "2007-10-07T13:38:17.8900531+02:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Sporer-Hagenes",
-        "ToolTip": "Totam et velit quam et.",
+        "Id": 218,
+        "Name": "Runolfsdottir, Terry and Kuhn",
+        "ToolTip": "Rerum enim et nihil veritatis consequatur.",
         "Deleted": false,
-        "Rank": 214,
-        "Type": "a",
-        "ColorBlock": 667,
-        "IconHint": "cum",
-        "Selected": false,
-        "LastChanged": "2009-02-08T03:24:52.1463474+01:00",
+        "Rank": 192,
+        "Type": "omnis",
+        "ColorBlock": 908,
+        "IconHint": "neque",
+        "Selected": true,
+        "LastChanged": "2020-12-10T13:38:17.8900531+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Clemmie Lueilwitz Sr."
+        "FullName": "Silas VonRueden"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "atque",
-    "Hidden": false,
-    "FullName": "Mrs. Tatum Kemmer DVM"
+    "ExtraInfo": "ipsa",
+    "StyleHint": "vero",
+    "Hidden": true,
+    "FullName": "Mr. Jaunita Jettie Pagac"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Ferry-Schuppe",
-    "ToolTip": "Ipsa laboriosam enim quasi ut.",
+    "Id": 414,
+    "Name": "Schaefer Group",
+    "ToolTip": "Sit sed.",
     "Deleted": true,
-    "Rank": 228,
-    "Type": "nobis",
-    "ColorBlock": 722,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2016-03-07T03:24:52.1463474+01:00",
+    "Rank": 375,
+    "Type": "autem",
+    "ColorBlock": 36,
+    "IconHint": "recusandae",
+    "Selected": false,
+    "LastChanged": "2012-12-30T13:38:17.8900531+01:00",
     "ChildItems": [
       {
-        "Id": 378,
-        "Name": "Torphy-Haley",
-        "ToolTip": "Eveniet qui dolor tempore ad voluptatem.",
+        "Id": 407,
+        "Name": "Breitenberg Group",
+        "ToolTip": "Voluptas ab et eius consequatur.",
         "Deleted": false,
-        "Rank": 529,
-        "Type": "fugit",
-        "ColorBlock": 208,
+        "Rank": 454,
+        "Type": "consequatur",
+        "ColorBlock": 657,
         "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2018-02-20T03:24:52.1463474+01:00",
+        "LastChanged": "2004-09-03T13:38:17.8900531+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "et",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Travon Wiegand",
+        "FullName": "Ervin Alexander Berge Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 114
+            "FieldLength": 628
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Eliseo Wiza",
+    "ExtraInfo": "et",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Lois Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 316
       }
     }
   }

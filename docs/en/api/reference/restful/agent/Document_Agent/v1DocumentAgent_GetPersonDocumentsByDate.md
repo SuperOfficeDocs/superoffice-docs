@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 458,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2012-04-06T03:24:47.5176724+02:00",
-  "EndTime": "2012-05-09T03:24:47.5176724+02:00",
-  "Count": 616
+  "PersonId": 377,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2014-03-10T13:38:13.4365041+01:00",
+  "EndTime": "2004-05-04T13:38:13.4365041+02:00",
+  "Count": 564
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 925,
-    "Attention": "doloribus",
-    "Header": "omnis",
-    "Name": "Parisian-Johnston",
-    "OurRef": "velit",
-    "YourRef": "itaque",
-    "Description": "Public-key solution-oriented budgetary management",
-    "DocumentTemplate": "expedita",
+    "DocumentId": 148,
+    "Attention": "harum",
+    "Header": "repudiandae",
+    "Name": "Gerhold, Bode and Sipes",
+    "OurRef": "neque",
+    "YourRef": "corrupti",
+    "Description": "Fundamental disintermediate data-warehouse",
+    "DocumentTemplate": "neque",
     "IsPublished": false,
-    "PersonId": 98,
-    "PersonFullName": "Ms. Dewayne Stracke",
-    "AssociateFullName": "Mr. Johnathan Hane MD",
-    "ContactId": 406,
-    "ContactName": "Kuhic, Senger and Schinner",
-    "ProjectId": 569,
-    "ProjectName": "D'Amore LLC",
-    "AssociateId": 878,
-    "Snum": 672,
-    "SaleId": 409,
-    "SaleName": "Smitham Group",
+    "PersonId": 843,
+    "PersonFullName": "Terrell Shanahan",
+    "AssociateFullName": "Marlee Schmitt",
+    "ContactId": 305,
+    "ContactName": "Fadel, Nader and Morissette",
+    "ProjectId": 287,
+    "ProjectName": "Nicolas Inc and Sons",
+    "AssociateId": 872,
+    "Snum": 69,
+    "SaleId": 681,
+    "SaleName": "Adams-Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 577
+        "FieldType": "System.Int32",
+        "FieldLength": 631
       }
     }
   }

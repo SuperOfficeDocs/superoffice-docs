@@ -72,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 849,
-  "Purpose": "assumenda",
-  "Source": "labore",
-  "LegalBase": "laboriosam",
-  "Comment": "sunt"
+  "PersonId": 890,
+  "Purpose": "doloremque",
+  "Source": "aut",
+  "LegalBase": "illum",
+  "Comment": "dolor"
 }
 ```
 

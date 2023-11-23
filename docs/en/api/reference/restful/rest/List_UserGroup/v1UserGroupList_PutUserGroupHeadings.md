@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 239,
-    "Name": "Mayer, O'Connell and Kassulke",
-    "Tooltip": "magnam",
-    "Deleted": true,
-    "Rank": 18,
-    "UdListDefinitionId": 849
+    "HeadingId": 370,
+    "Name": "Olson, DuBuque and Dickens",
+    "Tooltip": "aliquid",
+    "Deleted": false,
+    "Rank": 344,
+    "UdListDefinitionId": 338
   },
   {
-    "HeadingId": 239,
-    "Name": "Mayer, O'Connell and Kassulke",
-    "Tooltip": "magnam",
-    "Deleted": true,
-    "Rank": 18,
-    "UdListDefinitionId": 849
+    "HeadingId": 370,
+    "Name": "Olson, DuBuque and Dickens",
+    "Tooltip": "aliquid",
+    "Deleted": false,
+    "Rank": 344,
+    "UdListDefinitionId": 338
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 88,
-    "Name": "Franecki-Koch",
-    "Tooltip": "commodi",
-    "Deleted": false,
-    "Rank": 94,
-    "UdListDefinitionId": 774,
+    "HeadingId": 99,
+    "Name": "DuBuque-Boyer",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 146,
+    "UdListDefinitionId": 21,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 197
+        "FieldLength": 789
       }
     }
   }

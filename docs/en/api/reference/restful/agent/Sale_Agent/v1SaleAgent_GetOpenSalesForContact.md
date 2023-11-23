@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 274
+  "ContactId": 465
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Moore Group",
-    "SaleDate": "2014-09-19T03:24:48.2207231+02:00",
-    "SaleId": 763,
-    "Probability": 651,
-    "Title": "accusamus",
-    "Amount": 18481.198,
-    "Currency": "provident",
-    "ProjectName": "Kertzmann-Pfeffer",
-    "AssociateFullName": "Miss Tate Paige O'Reilly",
-    "Description": "Realigned fresh-thinking methodology",
+    "ContactName": "Hodkiewicz-Willms",
+    "SaleDate": "2002-07-22T13:38:14.1084486+02:00",
+    "SaleId": 587,
+    "Probability": 896,
+    "Title": "eaque",
+    "Amount": 11708.624,
+    "Currency": "ipsa",
+    "ProjectName": "Ward LLC",
+    "AssociateFullName": "Jeremie America Rippin III",
+    "Description": "Multi-channelled human-resource matrices",
     "Status": "Lost",
-    "WeightedAmount": 11357.616,
-    "ProjectId": 380,
-    "EarningPercent": 24435.798,
-    "Earning": 30133.41,
-    "ContactId": 430,
-    "AssociateId": 893,
-    "PersonId": 468,
-    "SaleTypeId": 668,
-    "SaleTypeName": "Kunze-Borer",
-    "PersonFullName": "Ms. Christ Elbert Rempel",
+    "WeightedAmount": 13802.136,
+    "ProjectId": 591,
+    "EarningPercent": 16534.984,
+    "Earning": 18500.002,
+    "ContactId": 912,
+    "AssociateId": 766,
+    "PersonId": 833,
+    "SaleTypeId": 756,
+    "SaleTypeName": "Lind LLC",
+    "PersonFullName": "Kaleigh Rempel",
     "Completed": "Completed",
-    "ActiveErpLinks": 879,
-    "NextDueDate": "2023-09-02T03:24:48.2207231+02:00",
-    "Number": "1070075",
+    "ActiveErpLinks": 362,
+    "NextDueDate": "2008-11-25T13:38:14.1084486+01:00",
+    "Number": "627729",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 654
+        "FieldType": "System.Int32",
+        "FieldLength": 589
       }
     }
   }

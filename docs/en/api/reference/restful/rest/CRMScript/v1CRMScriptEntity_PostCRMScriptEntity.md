@@ -103,17 +103,17 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 700,
-  "UniqueIdentifier": "iure",
-  "Name": "Goodwin Group",
-  "Description": "Robust leading edge hardware",
-  "IncludeId": "autem",
-  "HierarchyId": 229,
-  "Source": "dolores",
-  "Registered": "2019-07-24T03:24:51.5368575+02:00",
-  "RegisteredAssociateId": 50,
-  "Updated": "2006-07-31T03:24:51.5368575+02:00",
-  "UpdatedAssociateId": 144
+  "EjscriptId": 136,
+  "UniqueIdentifier": "et",
+  "Name": "Herzog, Johnston and Hills",
+  "Description": "Ameliorated modular moderator",
+  "IncludeId": "voluptatem",
+  "HierarchyId": 232,
+  "Source": "dolorem",
+  "Registered": "1997-04-20T13:38:17.280593+02:00",
+  "RegisteredAssociateId": 53,
+  "Updated": "2005-10-13T13:38:17.280593+02:00",
+  "UpdatedAssociateId": 171
 }
 ```
 
@@ -124,28 +124,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 533,
-  "UniqueIdentifier": "est",
-  "Name": "Murray-Stehr",
-  "Description": "Synergized content-based installation",
-  "IncludeId": "est",
-  "HierarchyId": 326,
-  "Source": "maxime",
-  "Registered": "2014-05-20T03:24:51.5368575+02:00",
-  "RegisteredAssociateId": 675,
-  "Updated": "2021-04-16T03:24:51.5368575+02:00",
-  "UpdatedAssociateId": 66,
+  "EjscriptId": 305,
+  "UniqueIdentifier": "id",
+  "Name": "Mraz-Pollich",
+  "Description": "User-friendly real-time synergy",
+  "IncludeId": "ea",
+  "HierarchyId": 703,
+  "Source": "natus",
+  "Registered": "2020-09-04T13:38:17.280593+02:00",
+  "RegisteredAssociateId": 432,
+  "Updated": "2017-07-24T13:38:17.280593+02:00",
+  "UpdatedAssociateId": 624,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldLength": 655
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

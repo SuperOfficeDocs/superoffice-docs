@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=iure
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ullam
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 21 Dec 2015 03:24:51 G12T
+Last-Modified: Sat, 15 Mar 1997 13:38:17 G3T
 
 {
-  "Key": "quo",
-  "Value": "odio",
-  "RecordId": 449,
-  "CreatedDate": "2007-10-11T03:24:51.630601+02:00",
-  "UpdatedDate": "2015-12-21T03:24:51.630601+01:00",
-  "UpdatedBy": "libero",
-  "CreatedBy": "placeat",
-  "TableName": "Kutch-D'Amore",
+  "Key": "ducimus",
+  "Value": "asperiores",
+  "RecordId": 846,
+  "CreatedDate": "2003-12-04T13:38:17.4524494+01:00",
+  "UpdatedDate": "1997-03-15T13:38:17.4524494+01:00",
+  "UpdatedBy": "dolorum",
+  "CreatedBy": "error",
+  "TableName": "Smitham Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldType": "System.Int32",
+      "FieldLength": 268
     }
   }
 }

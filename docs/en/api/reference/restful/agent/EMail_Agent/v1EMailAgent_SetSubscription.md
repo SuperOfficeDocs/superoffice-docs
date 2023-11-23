@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Howe, Crona and Mraz",
-      "Delimiter": "distinctio",
-      "Flags": "excepturi",
-      "TotalItems": 921,
-      "UnreadItems": 924,
-      "Subscribed": false,
-      "EmailFolderId": 685
+      "Name": "Swift-Prosacco",
+      "Delimiter": "enim",
+      "Flags": "quas",
+      "TotalItems": 992,
+      "UnreadItems": 409,
+      "Subscribed": true,
+      "EmailFolderId": 305
     }
   ]
 }

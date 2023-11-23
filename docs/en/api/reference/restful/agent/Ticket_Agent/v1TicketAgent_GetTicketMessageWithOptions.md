@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 526,
-  "IncludeNonInlineAttachmentsInfo": true
+  "TicketMessageEntityId": 752,
+  "IncludeNonInlineAttachmentsInfo": false
 }
 ```
 
@@ -115,27 +115,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 130,
+  "EjMessageId": 424,
   "Ticket": null,
-  "CreatedAt": "2001-03-18T03:24:48.5028909+01:00",
+  "CreatedAt": "2007-12-30T13:38:14.3115522+01:00",
   "CreatedBy": null,
-  "Author": "eum",
+  "Author": "sed",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "vel",
-  "TimeSpent": 935,
-  "Body": "ad",
-  "HtmlBody": "provident",
-  "EmailHeader": "minerva_brown@deckowmetz.name",
-  "DebugInfo": "sit",
-  "MailSorter": "in",
+  "MessageId": "molestiae",
+  "TimeSpent": 215,
+  "Body": "dolorem",
+  "HtmlBody": "perspiciatis",
+  "EmailHeader": "pattie.kuvalis@erdmannader.com",
+  "DebugInfo": "ipsa",
+  "MailSorter": "recusandae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "officiis",
+  "SearchTitle": "animi",
   "MessageHeaders": [
     {
-      "Id": 392,
-      "Name": "Mohr Inc and Sons",
+      "Id": 623,
+      "Name": "Moore-Yost",
       "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
@@ -143,50 +143,50 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 394
+          "FieldType": "System.Int32",
+          "FieldLength": 523
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "non",
-  "Sentiment": 379,
-  "SentimentConfidence": 49,
+  "Important": false,
+  "Language": "distinctio",
+  "Sentiment": 625,
+  "SentimentConfidence": 817,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 878,
-      "Name": "Von, Boyer and Beatty",
-      "ContentType": "id",
-      "AttSize": 791,
+      "AttachmentId": 331,
+      "Name": "Carroll-Spencer",
+      "ContentType": "recusandae",
+      "AttSize": 498,
       "InlineImage": true,
-      "ContentId": "quidem",
-      "AuthKey": "ab",
+      "ContentId": "corporis",
+      "AuthKey": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 874
+          "FieldType": "System.Int32",
+          "FieldLength": 110
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "velit"
+    "CustomFields1": "atque",
+    "CustomFields2": "explicabo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 921
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

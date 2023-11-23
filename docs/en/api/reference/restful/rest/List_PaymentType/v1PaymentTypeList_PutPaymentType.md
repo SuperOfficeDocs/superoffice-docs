@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 530,
-  "Name": "Goyette-Volkman",
-  "Tooltip": "aut",
+  "Id": 641,
+  "Name": "VonRueden, Mills and Pollich",
+  "Tooltip": "at",
   "Deleted": true,
-  "UdListDefinitionId": 103,
-  "Rank": 953
+  "UdListDefinitionId": 271,
+  "Rank": 2
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 811,
-  "Name": "Padberg-Kerluke",
-  "Tooltip": "qui",
+  "Id": 676,
+  "Name": "Zulauf Group",
+  "Tooltip": "ea",
   "Deleted": false,
-  "UdListDefinitionId": 132,
-  "Rank": 854,
+  "UdListDefinitionId": 496,
+  "Rank": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 486
     }
   }
 }

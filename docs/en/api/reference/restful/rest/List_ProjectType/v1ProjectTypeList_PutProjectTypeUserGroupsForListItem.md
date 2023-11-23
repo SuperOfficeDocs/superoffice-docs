@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Mertz, Jerde and Roob",
-    "ToolTip": "Veniam qui itaque.",
-    "Deleted": false,
-    "Rank": 326,
-    "Type": "magnam",
-    "ColorBlock": 330,
-    "IconHint": "nobis",
-    "Selected": true,
-    "LastChanged": "2007-09-24T03:24:52.3494474+02:00",
+    "Id": 401,
+    "Name": "Mante, Lubowitz and Crist",
+    "ToolTip": "Nesciunt sequi molestiae.",
+    "Deleted": true,
+    "Rank": 12,
+    "Type": "vel",
+    "ColorBlock": 973,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2019-10-22T13:38:18.1556538+02:00",
     "ChildItems": [
       {
-        "Id": 515,
-        "Name": "Gislason, Trantow and Dicki",
-        "ToolTip": "Quis est qui ex sint ad.",
+        "Id": 289,
+        "Name": "Weissnat, Mante and Towne",
+        "ToolTip": "Voluptas perspiciatis sunt incidunt.",
         "Deleted": false,
-        "Rank": 669,
-        "Type": "earum",
-        "ColorBlock": 840,
-        "IconHint": "totam",
+        "Rank": 131,
+        "Type": "possimus",
+        "ColorBlock": 60,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "1996-09-10T03:24:52.3494474+02:00",
+        "LastChanged": "2007-10-15T13:38:18.1556538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "cupiditate",
-        "Hidden": false,
-        "FullName": "Danyka Botsford"
+        "ExtraInfo": "facilis",
+        "StyleHint": "atque",
+        "Hidden": true,
+        "FullName": "Beau Sierra Smith PhD"
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "culpa",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Miss Theresa Cicero Sipes DVM"
+    "FullName": "Garry Kurt Jerde DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 89,
-    "Name": "Roberts-Kuhic",
-    "ToolTip": "Et totam.",
+    "Id": 304,
+    "Name": "Wolf-Keeling",
+    "ToolTip": "Repudiandae fugit labore est modi at nesciunt dolorum.",
     "Deleted": false,
-    "Rank": 125,
-    "Type": "ex",
-    "ColorBlock": 20,
-    "IconHint": "velit",
+    "Rank": 794,
+    "Type": "eum",
+    "ColorBlock": 958,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2014-03-12T03:24:52.3494474+01:00",
+    "LastChanged": "2006-03-17T13:38:18.1712741+01:00",
     "ChildItems": [
       {
-        "Id": 675,
-        "Name": "Cartwright, Robel and Mohr",
-        "ToolTip": "Consequuntur dolores minus et impedit recusandae voluptatem.",
+        "Id": 974,
+        "Name": "Friesen, Rath and Towne",
+        "ToolTip": "Suscipit ipsam eveniet vero.",
         "Deleted": false,
-        "Rank": 773,
-        "Type": "ut",
-        "ColorBlock": 804,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "2012-05-24T03:24:52.3494474+02:00",
+        "Rank": 811,
+        "Type": "voluptates",
+        "ColorBlock": 653,
+        "IconHint": "explicabo",
+        "Selected": true,
+        "LastChanged": "2013-07-20T13:38:18.1712741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Johnathon Harber",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "magnam",
+        "Hidden": true,
+        "FullName": "Ms. Mathilde Huel Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldLength": 903
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "eaque",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Modesto Rogahn",
+    "FullName": "Gerard Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldLength": 469
       }
     }
   }

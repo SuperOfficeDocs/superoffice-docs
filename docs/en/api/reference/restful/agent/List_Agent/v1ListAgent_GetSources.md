@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 664,
-    "Value": "minus",
-    "Tooltip": "consectetur",
+    "Id": 303,
+    "Value": "dolores",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 353
+        "FieldLength": 760
       }
     }
   },
   {
-    "Id": 664,
-    "Value": "minus",
-    "Tooltip": "consectetur",
+    "Id": 303,
+    "Value": "dolores",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 353
+        "FieldLength": 760
       }
     }
   }

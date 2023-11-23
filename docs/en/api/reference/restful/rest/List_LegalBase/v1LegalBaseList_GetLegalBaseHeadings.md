@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 828,
-    "Name": "Williamson, Considine and Casper",
-    "Tooltip": "ea",
+    "HeadingId": 635,
+    "Name": "Connelly Inc and Sons",
+    "Tooltip": "rem",
     "Deleted": false,
-    "Rank": 341,
-    "UdListDefinitionId": 993,
+    "Rank": 501,
+    "UdListDefinitionId": 27,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldLength": 433
       }
     }
   }

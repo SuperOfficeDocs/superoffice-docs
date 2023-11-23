@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "magni",
-  "ProviderName": "Nienow, Goldner and Tremblay",
-  "StorageKey": "nobis",
+  "StorageType": "qui",
+  "ProviderName": "Jones, Green and Stokes",
+  "StorageKey": "voluptas",
   "DesiredColumnNames": [
-    "Jones-Hintz",
-    "Cartwright Group"
+    "Wuckert LLC",
+    "Grimes-Ruecker"
   ],
   "StaticColumns": [
-    "accusantium",
-    "enim"
+    "soluta",
+    "incidunt"
   ],
-  "Context": "non"
+  "Context": "nam"
 }
 ```
 
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Rolfson, Bashirian and Runolfsson",
-      "Operator": "natus",
+      "Name": "Dickens LLC",
+      "Operator": "dolorem",
       "Values": [
-        "occaecati",
-        "quibusdam"
+        "similique",
+        "rerum"
       ],
       "DisplayValues": [
-        "consequatur",
-        "est"
+        "qui",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -127,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 436,
+      "InterParenthesis": 469,
       "InterOperator": "And",
-      "UniqueHash": 154
+      "UniqueHash": 920
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Steuber LLC",
-      "DisplayTooltip": "explicabo",
-      "DisplayType": "sequi",
+      "DisplayName": "O'Hara-Spencer",
+      "DisplayTooltip": "in",
+      "DisplayType": "fugiat",
       "CanOrderBy": false,
-      "Name": "Jaskolski-Kiehn",
-      "CanRestrictBy": true,
-      "RestrictionType": "eveniet",
-      "RestrictionListName": "Dickens LLC",
-      "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "est",
-      "IconHint": "labore",
-      "HeadingIconHint": "delectus"
+      "Name": "Funk-Daugherty",
+      "CanRestrictBy": false,
+      "RestrictionType": "neque",
+      "RestrictionListName": "Howe-Cormier",
+      "IsVisible": true,
+      "ExtraInfo": "repellendus",
+      "Width": "reprehenderit",
+      "IconHint": "sint",
+      "HeadingIconHint": "sed"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Pacocha Group",
-      "PrimaryKey": 312,
+      "EntityName": "Stiedemann LLC",
+      "PrimaryKey": 823,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fugiat",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "fugiat"
+          "DisplayValue": "et",
+          "TooltipHint": "cupiditate",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "illum",
-      "StyleHint": "minus",
+      "LinkHint": "nesciunt",
+      "StyleHint": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 416
+          "FieldLength": 89
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Carter-Schmidt",
-      "Description": "Distributed tangible structure",
-      "Rank": 143,
+      "Name": "Emard-Sipes",
+      "Description": "Expanded asynchronous array",
+      "Rank": 804,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Carter-Schmidt",
-      "Description": "Distributed tangible structure",
-      "Rank": 143,
+      "Name": "Emard-Sipes",
+      "Description": "Expanded asynchronous array",
+      "Rank": 804,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 516
+      "FieldType": "System.Int32",
+      "FieldLength": 919
     }
   }
 }

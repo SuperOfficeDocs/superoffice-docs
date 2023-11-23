@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 172,
-  "Name": "Buckridge, Kiehn and Toy",
-  "OrgNr": "214435",
+  "ContactId": 556,
+  "Name": "Nicolas-Strosin",
+  "OrgNr": "749180",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "sit",
-  "DirectPhone": "(005)198-5817 x692",
-  "AssociateId": 874,
-  "CountryId": 927,
-  "EmailAddress": "milford@gleason.biz",
-  "Kananame": "et",
-  "EmailAddressName": "joshua@ernser.biz",
+  "City": "qui",
+  "DirectPhone": "(129)611-8325 x102",
+  "AssociateId": 793,
+  "CountryId": 908,
+  "EmailAddress": "jessie@collins.name",
+  "Kananame": "quidem",
+  "EmailAddressName": "adrianna.glover@fritschmarquardt.name",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Jarrod Shanel Lakin Sr.",
+  "AssociateFullName": "Zella Bayer Sr.",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "fugit",
-  "FullName": "Miss Zella Eryn Reinger",
-  "IsOwnerContact": false,
-  "ActiveErpLinks": 582,
-  "Number1": "269422",
-  "Number2": "499797",
+  "FormattedAddress": "explicabo",
+  "FullName": "Wava Bayer",
+  "IsOwnerContact": true,
+  "ActiveErpLinks": 986,
+  "Number1": "1430277",
+  "Number2": "970434",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 970
     }
   }
 }

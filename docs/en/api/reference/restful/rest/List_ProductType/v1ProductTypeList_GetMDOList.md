@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=id
+GET /api/v1/List/ProductType/MDOItems?query=ipsum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 830,
-    "Name": "McLaughlin Group",
-    "ToolTip": "Excepturi quae cupiditate culpa et eligendi autem aut.",
+    "Id": 828,
+    "Name": "Terry, Boyle and Schneider",
+    "ToolTip": "Ad consequatur velit.",
     "Deleted": false,
-    "Rank": 170,
-    "Type": "odio",
+    "Rank": 258,
+    "Type": "deleniti",
     "ChildItems": [
       {
-        "Id": 590,
-        "Name": "Schulist-Gerhold",
-        "ToolTip": "Tenetur sequi ut molestiae.",
+        "Id": 584,
+        "Name": "Stokes-Carter",
+        "ToolTip": "Natus eos eaque.",
         "Deleted": false,
-        "Rank": 874,
-        "Type": "quis",
+        "Rank": 20,
+        "Type": "quod",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "error",
-        "ColorBlock": 485,
-        "ExtraInfo": "dolor",
-        "StyleHint": "tempora",
-        "FullName": "Mrs. Zakary Reagan Eichmann",
+        "IconHint": "dolore",
+        "ColorBlock": 82,
+        "ExtraInfo": "tempore",
+        "StyleHint": "eos",
+        "FullName": "Leone Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 811
+            "FieldLength": 854
           }
         }
       }
     ],
-    "IconHint": "beatae",
-    "ColorBlock": 938,
-    "ExtraInfo": "ut",
-    "StyleHint": "tenetur",
-    "FullName": "Letitia Fisher",
+    "IconHint": "ex",
+    "ColorBlock": 113,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "sit",
+    "FullName": "Saul Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 56
       }
     }
   }

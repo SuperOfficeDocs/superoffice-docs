@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 206,
-  "Name": "Oberbrunner-Stark",
-  "Tooltip": "enim",
+  "RoleId": 855,
+  "Name": "Hagenes Inc and Sons",
+  "Tooltip": "eveniet",
   "RoleType": "Anonymous",
-  "Deleted": 520,
-  "Rank": 544,
-  "Created": "2010-01-29T03:24:48.5341362+01:00",
-  "UseCategories": 435,
+  "Deleted": 610,
+  "Rank": 869,
+  "Created": "2005-10-05T13:38:14.327173+02:00",
+  "UseCategories": 590,
   "CreatedBy": null,
-  "Updated": "2018-07-31T03:24:48.5341362+02:00",
+  "Updated": "2018-12-16T13:38:14.327173+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 551,
-  "Name": "Mante, King and Goldner",
-  "Tooltip": "et",
+  "RoleId": 168,
+  "Name": "Nolan-Kuphal",
+  "Tooltip": "voluptatem",
   "RoleType": "Anonymous",
-  "Deleted": 266,
-  "Rank": 385,
-  "Created": "2002-09-08T03:24:48.5341362+02:00",
-  "UseCategories": 211,
+  "Deleted": 575,
+  "Rank": 218,
+  "Created": "2018-09-09T13:38:14.342802+02:00",
+  "UseCategories": 107,
   "CreatedBy": null,
-  "Updated": "1999-02-13T03:24:48.5341362+01:00",
+  "Updated": "2011-05-31T13:38:14.342802+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldLength": 943
     }
   }
 }

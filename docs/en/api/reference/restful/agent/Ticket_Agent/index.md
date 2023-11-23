@@ -82,6 +82,8 @@ generated: true
 
 * [POST Agents/Ticket/ClearNotify](v1TicketAgent_ClearNotify.md)
 
+* [POST Agents/Ticket/GetTicketMessageEntities](v1TicketAgent_GetTicketMessageEntities.md)
+
 * [POST Agents/Ticket/GetTicketMessage](v1TicketAgent_GetTicketMessage.md)
 
 * [POST Agents/Ticket/GetTicketMessageEntity](v1TicketAgent_GetTicketMessageEntity.md)
@@ -117,6 +119,8 @@ generated: true
 * [POST Agents/Ticket/SaveTicketMessageEntityWithOptions](v1TicketAgent_SaveTicketMessageEntityWithOptions.md)
 
 * [POST Agents/Ticket/GetDefaultMessageContent](v1TicketAgent_GetDefaultMessageContent.md)
+
+* [POST Agents/Ticket/GetDefaultMessageContentFull](v1TicketAgent_GetDefaultMessageContentFull.md)
 
 * [POST Agents/Ticket/GetTicketMessageWithEmbeddedData](v1TicketAgent_GetTicketMessageWithEmbeddedData.md)
 

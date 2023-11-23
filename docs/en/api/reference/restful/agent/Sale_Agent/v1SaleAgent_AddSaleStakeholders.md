@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 388,
+  "SaleId": 912,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Keebler LLC",
+      "StakeholderRoleName": "Witting, Dietrich and Price",
       "Comment": "ratione",
-      "StakeholderRoleId": 40,
-      "CountryId": 567,
-      "PersonId": 306,
-      "EmailDescription": "william@prohaska.info",
-      "EmailId": 264,
-      "EmailAddress": "junior@runolfssonlowe.uk",
-      "PhoneId": 179,
-      "ContactName": "Grimes-Ziemann",
-      "ContactId": 678,
-      "SaleId": 473,
-      "Mrmrs": "pariatur",
-      "Firstname": "Janis",
-      "MiddleName": "Wyman Group",
-      "Lastname": "Ankunding",
-      "SaleStakeholderId": 961,
-      "Rank": 797,
-      "Phone": "(550)659-8765"
+      "StakeholderRoleId": 521,
+      "CountryId": 811,
+      "PersonId": 952,
+      "EmailDescription": "yesenia@cronin.biz",
+      "EmailId": 917,
+      "EmailAddress": "alice@mueller.com",
+      "PhoneId": 848,
+      "ContactName": "Gerlach Inc and Sons",
+      "ContactId": 956,
+      "SaleId": 817,
+      "Mrmrs": "sunt",
+      "Firstname": "Domenic",
+      "MiddleName": "Fay Inc and Sons",
+      "Lastname": "Schowalter",
+      "SaleStakeholderId": 722,
+      "Rank": 953,
+      "Phone": "456.406.7104"
     }
   ]
 }

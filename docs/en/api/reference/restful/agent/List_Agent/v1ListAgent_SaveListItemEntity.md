@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 910,
-  "Name": "Tromp Group",
-  "Tooltip": "accusamus",
+  "Id": 949,
+  "Name": "Bergstrom-Torp",
+  "Tooltip": "vel",
   "Deleted": false,
-  "UdListDefinitionId": 679,
-  "Rank": 955,
+  "UdListDefinitionId": 920,
+  "Rank": 20,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 852
+      "FieldType": "System.Int32",
+      "FieldLength": 878
     }
   }
 }

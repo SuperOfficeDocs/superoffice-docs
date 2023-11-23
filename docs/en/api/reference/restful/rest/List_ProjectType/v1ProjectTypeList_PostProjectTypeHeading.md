@@ -79,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 302,
-  "Name": "Schumm-Kuhic",
-  "Tooltip": "blanditiis",
+  "HeadingId": 679,
+  "Name": "Eichmann Group",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 284,
-  "UdListDefinitionId": 608
+  "Rank": 221,
+  "UdListDefinitionId": 707
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 951,
-  "Name": "Leuschke, Rippin and Hahn",
-  "Tooltip": "est",
+  "HeadingId": 455,
+  "Name": "D'Amore, Wiza and Runolfsdottir",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 640,
-  "UdListDefinitionId": 127,
+  "Rank": 966,
+  "UdListDefinitionId": 751,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldType": "System.Int32",
+      "FieldLength": 466
     }
   }
 }

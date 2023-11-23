@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 802,
-    "Name": "Grant-Nikolaus",
-    "Tooltip": "deleniti",
-    "Deleted": true,
-    "Rank": 177,
-    "UdListDefinitionId": 802,
+    "HeadingId": 863,
+    "Name": "Harber-Fadel",
+    "Tooltip": "facere",
+    "Deleted": false,
+    "Rank": 86,
+    "UdListDefinitionId": 931,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldType": "System.String",
+        "FieldLength": 202
       }
     }
   }

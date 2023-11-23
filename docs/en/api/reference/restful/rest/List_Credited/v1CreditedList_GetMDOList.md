@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=atque
+GET /api/v1/List/Credited/MDOItems?query=nisi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 889,
-    "Name": "Kuhic-McGlynn",
-    "ToolTip": "Nulla autem commodi.",
-    "Deleted": true,
-    "Rank": 555,
-    "Type": "ea",
+    "Id": 411,
+    "Name": "Waelchi, Huel and Kreiger",
+    "ToolTip": "Veritatis consequuntur aspernatur mollitia earum quaerat.",
+    "Deleted": false,
+    "Rank": 642,
+    "Type": "veniam",
     "ChildItems": [
       {
-        "Id": 383,
-        "Name": "Nicolas-Daugherty",
-        "ToolTip": "Ut eligendi et placeat asperiores repellat blanditiis repellendus.",
+        "Id": 858,
+        "Name": "Kessler LLC",
+        "ToolTip": "Ullam atque.",
         "Deleted": false,
-        "Rank": 989,
-        "Type": "ipsam",
+        "Rank": 425,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 2,
-        "ExtraInfo": "quia",
-        "StyleHint": "dolor",
-        "FullName": "Miss Katheryn Glover",
+        "IconHint": "perferendis",
+        "ColorBlock": 624,
+        "ExtraInfo": "dolor",
+        "StyleHint": "et",
+        "FullName": "Marcelle Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 653
+            "FieldLength": 247
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 999,
-    "ExtraInfo": "dolore",
-    "StyleHint": "commodi",
-    "FullName": "Della Paucek",
+    "IconHint": "omnis",
+    "ColorBlock": 686,
+    "ExtraInfo": "nulla",
+    "StyleHint": "qui",
+    "FullName": "Cory Eloy Steuber II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldLength": 846
       }
     }
   }

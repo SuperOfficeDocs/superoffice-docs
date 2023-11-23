@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 474
+  "QuoteVersionId": 342
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 22536.594,
-    "Wgs84Longitude": 12767.916,
+    "Wgs84Latitude": 18192.87,
+    "Wgs84Longitude": 1614.01,
     "LocalizedAddress": [
       [
         {
-          "Name": "Kuhic-Oberbrunner",
-          "Value": "voluptas",
-          "Tooltip": "laudantium",
-          "Label": "dolor",
-          "ValueLength": 983,
-          "AddressType": "soluta",
+          "Name": "Schinner-Graham",
+          "Value": "illum",
+          "Tooltip": "aut",
+          "Label": "recusandae",
+          "ValueLength": 635,
+          "AddressType": "consectetur",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 495
+              "FieldLength": 206
             }
           }
         }
       ],
       [
         {
-          "Name": "Huel Inc and Sons",
-          "Value": "officia",
-          "Tooltip": "sunt",
-          "Label": "voluptas",
-          "ValueLength": 264,
-          "AddressType": "voluptas",
+          "Name": "Douglas, Balistreri and Hintz",
+          "Value": "vero",
+          "Tooltip": "quo",
+          "Label": "praesentium",
+          "ValueLength": 548,
+          "AddressType": "est",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 190
+              "FieldLength": 338
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "consequuntur",
+    "Formatted": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 929
       }
     }
   }

@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 716,
-  "BlobSize": 627,
-  "Description": "Operative background workforce",
-  "ExtraInfo": "cupiditate",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 941,
-  "CreatedDate": "2015-12-31T03:24:52.0682283+01:00",
-  "UpdatedDate": "2010-11-16T03:24:52.0682283+01:00",
+  "BlobId": 260,
+  "BlobSize": 430,
+  "Description": "Customer-focused contextually-based neural-net",
+  "ExtraInfo": "excepturi",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "laborum",
+  "OriginalSize": 302,
+  "CreatedDate": "2003-03-09T13:38:17.8119358+01:00",
+  "UpdatedDate": "2000-11-07T13:38:17.8119358+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsum"
+  "ConceptualType": "quaerat"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 435,
-  "BlobSize": 981,
-  "Description": "Focused client-server conglomeration",
-  "ExtraInfo": "eos",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "saepe",
-  "OriginalSize": 270,
-  "CreatedDate": "2008-07-29T03:24:52.0682283+02:00",
-  "UpdatedDate": "2005-09-09T03:24:52.0682283+02:00",
+  "BlobId": 506,
+  "BlobSize": 760,
+  "Description": "Vision-oriented multi-tasking algorithm",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "adipisci",
+  "OriginalSize": 218,
+  "CreatedDate": "2007-11-19T13:38:17.8119358+01:00",
+  "UpdatedDate": "2007-12-24T13:38:17.8119358+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 835
     }
   }
 }

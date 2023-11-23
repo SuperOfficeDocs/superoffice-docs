@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Spinka-Reichel",
-    "Tooltip": "adipisci",
+    "Id": 470,
+    "Name": "Schoen, Langworth and Medhurst",
+    "Tooltip": "odit",
     "Deleted": true,
-    "UdListDefinitionId": 691,
-    "Rank": 605
+    "UdListDefinitionId": 312,
+    "Rank": 413
   },
   {
-    "Id": 747,
-    "Name": "Spinka-Reichel",
-    "Tooltip": "adipisci",
+    "Id": 470,
+    "Name": "Schoen, Langworth and Medhurst",
+    "Tooltip": "odit",
     "Deleted": true,
-    "UdListDefinitionId": 691,
-    "Rank": 605
+    "UdListDefinitionId": 312,
+    "Rank": 413
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 235,
-    "Name": "Tromp Inc and Sons",
-    "Tooltip": "blanditiis",
-    "Deleted": true,
-    "UdListDefinitionId": 224,
-    "Rank": 839,
+    "Id": 535,
+    "Name": "Moore, Kiehn and Stamm",
+    "Tooltip": "in",
+    "Deleted": false,
+    "UdListDefinitionId": 463,
+    "Rank": 535,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldLength": 192
       }
     }
   }

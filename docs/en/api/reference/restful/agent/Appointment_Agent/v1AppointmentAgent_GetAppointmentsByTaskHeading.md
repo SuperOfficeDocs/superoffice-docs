@@ -114,6 +114,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -126,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 841
+  "TaskHeadingId": 389
 }
 ```
 
@@ -142,64 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 405,
-    "StartDate": "2016-11-26T03:24:46.9550719+01:00",
-    "EndDate": "2015-06-08T03:24:46.9550719+02:00",
+    "AppointmentId": 234,
+    "StartDate": "2020-10-10T13:38:12.8740699+02:00",
+    "EndDate": "2021-05-05T13:38:12.8740699+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nobis",
-    "AssociateFullName": "Damien Shields MD",
-    "ContactName": "Simonis, Harvey and Doyle",
-    "Description": "Proactive transitional capability",
-    "PersonFullName": "Mandy Padberg",
-    "PersonId": 989,
-    "ContactId": 327,
-    "ProjectId": 154,
-    "ProjectName": "Nikolaus-Rogahn",
+    "Task": "aperiam",
+    "AssociateFullName": "Mrs. Dudley Gutmann",
+    "ContactName": "McLaughlin, Von and Ratke",
+    "Description": "Reduced next generation adapter",
+    "PersonFullName": "Delia Graham",
+    "PersonId": 782,
+    "ContactId": 472,
+    "ProjectId": 522,
+    "ProjectName": "Schoen, Adams and Grant",
     "IsPublished": false,
-    "AssociateId": 127,
-    "ColorIndex": 155,
+    "AssociateId": 294,
+    "ColorIndex": 528,
     "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 120,
-    "PriorityName": "Kub Inc and Sons",
+    "PriorityId": 930,
+    "PriorityName": "Veum Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2001-02-01T03:24:46.9550719+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2021-07-18T13:38:12.8740699+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-08-08T03:24:46.9550719+02:00",
-    "RecurringEndDate": "2017-12-30T03:24:46.9550719+01:00",
-    "MotherId": 858,
-    "AssignedBy": 389,
-    "AssignedByFullName": "Mr. Bernice Ward",
+    "RecurringStartDate": "2016-02-10T13:38:12.8740699+01:00",
+    "RecurringEndDate": "2001-09-12T13:38:12.8740699+02:00",
+    "MotherId": 88,
+    "AssignedBy": 122,
+    "AssignedByFullName": "Miss Ashtyn Jenkins PhD",
     "RejectReason": "",
-    "Location": "officia",
-    "AlarmLeadTime": "quisquam",
-    "SaleId": 127,
-    "SaleName": "Johnson LLC",
-    "AssociateName": "Hyatt-Rowe",
-    "CreatedDate": "2010-11-11T03:24:46.9550719+01:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Magdalen Jacobs",
-    "CreatedByAssociateId": 835,
+    "Location": "ducimus",
+    "AlarmLeadTime": "est",
+    "SaleId": 497,
+    "SaleName": "Williamson Inc and Sons",
+    "AssociateName": "Runte Group",
+    "CreatedDate": "2002-10-10T13:38:12.8740699+02:00",
+    "CreatedBy": "repellat",
+    "CreatedByFullName": "Mrs. Noemi Vida West",
+    "CreatedByAssociateId": 664,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "inventore",
-    "Agenda": "voluptates",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 584,
+    "Title": "atque",
+    "Agenda": "et",
+    "InternalNotes": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 110
+        "FieldLength": 355
       }
     }
   }

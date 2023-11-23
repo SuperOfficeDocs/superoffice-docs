@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/User/SaveUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 829,
-  "Name": "Strosin Inc and Sons",
-  "Rank": 410,
-  "Tooltip": "voluptatem",
+  "AssociateId": 950,
+  "Name": "Lubowitz, Morar and Hettinger",
+  "Rank": 322,
+  "Tooltip": "cum",
   "LicenseOwners": [
     {
-      "Name": "Sporer, Ledner and Tillman",
-      "Description": "Sharable didactic policy",
+      "Name": "Treutel Group",
+      "Description": "Vision-oriented mobile open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Sporer, Ledner and Tillman",
-      "Description": "Sharable didactic policy",
+      "Name": "Treutel Group",
+      "Description": "Vision-oriented mobile open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -151,87 +151,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "et",
-      "Tooltip": "non",
-      "Id": 409,
-      "Rank": 377,
+      "Value": "quasi",
+      "Tooltip": "enim",
+      "Id": 858,
+      "Rank": 981,
       "Deleted": true
     },
     {
-      "Value": "et",
-      "Tooltip": "non",
-      "Id": 409,
-      "Rank": 377,
+      "Value": "quasi",
+      "Tooltip": "enim",
+      "Id": 858,
+      "Rank": 981,
       "Deleted": true
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2006-07-08T03:24:48.5341362+02:00",
-  "Lastlogout": "2004-04-29T03:24:48.5341362+02:00",
-  "EjUserId": 977,
-  "RequestSignature": "commodi",
+  "Lastlogin": "2018-12-29T13:38:14.342802+01:00",
+  "Lastlogout": "2023-09-07T13:38:14.342802+02:00",
+  "EjUserId": 354,
+  "RequestSignature": "distinctio",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sint",
-      "DisplayValue": "quidem"
+      "Value": "quam",
+      "DisplayValue": "perspiciatis"
     },
     {
       "Type": null,
-      "Value": "sint",
-      "DisplayValue": "quidem"
+      "Value": "quam",
+      "DisplayValue": "perspiciatis"
     }
   ],
-  "UserName": "Beahan Group",
+  "UserName": "Rutherford LLC",
   "TicketCategories": [
     {
-      "Id": 709,
-      "Name": "Roberts, Champlin and Schinner",
-      "ToolTip": "Voluptatem facilis omnis.",
+      "Id": 116,
+      "Name": "Trantow-Ward",
+      "ToolTip": "Molestias ea molestias non.",
       "Deleted": true,
-      "Rank": 673,
-      "Type": "placeat",
+      "Rank": 903,
+      "Type": "magnam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dicta",
-      "ColorBlock": 638,
-      "ExtraInfo": "quo",
-      "StyleHint": "numquam",
-      "FullName": "Claire Metz"
+      "IconHint": "quisquam",
+      "ColorBlock": 658,
+      "ExtraInfo": "illo",
+      "StyleHint": "aut",
+      "FullName": "Gideon Bernadine Hodkiewicz PhD"
     }
   ],
-  "NickName": "Weissnat, Bechtelar and Kuhic",
-  "WaitingForApproval": true,
+  "NickName": "Ebert-Kulas",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "excepturi"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "id"
+    "CustomFields1": "nihil",
+    "CustomFields2": "nobis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Gislason LLC",
-      "DisplayName": "McGlynn, Bergstrom and Weissnat",
-      "Description": "Streamlined client-driven solution",
-      "ToolTip": "Quo est.",
+      "Name": "Bednar, Gerlach and Wyman",
+      "DisplayName": "Volkman, Sporer and Wisozk",
+      "Description": "Cross-group bottom-line data-warehouse",
+      "ToolTip": "Recusandae ut.",
       "Actions": "Implicit",
-      "ActionData": "molestiae"
+      "ActionData": "consequatur"
     },
     {
-      "Name": "Gislason LLC",
-      "DisplayName": "McGlynn, Bergstrom and Weissnat",
-      "Description": "Streamlined client-driven solution",
-      "ToolTip": "Quo est.",
+      "Name": "Bednar, Gerlach and Wyman",
+      "DisplayName": "Volkman, Sporer and Wisozk",
+      "Description": "Cross-group bottom-line data-warehouse",
+      "ToolTip": "Recusandae ut.",
       "Actions": "Implicit",
-      "ActionData": "molestiae"
+      "ActionData": "consequatur"
     }
   ]
 }
@@ -244,14 +244,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 831,
-  "Name": "Purdy-Tillman",
-  "Rank": 452,
-  "Tooltip": "suscipit",
+  "AssociateId": 490,
+  "Name": "Kub Group",
+  "Rank": 532,
+  "Tooltip": "odit",
   "LicenseOwners": [
     {
-      "Name": "Jerde-Kohler",
-      "Description": "Versatile multi-tasking hardware",
+      "Name": "Jast-Littel",
+      "Description": "Multi-tiered 6th generation task-force",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -265,13 +265,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldLength": 490
         }
       }
     },
     {
-      "Name": "Jerde-Kohler",
-      "Description": "Versatile multi-tasking hardware",
+      "Name": "Jast-Littel",
+      "Description": "Multi-tiered 6th generation task-force",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -285,7 +285,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldLength": 490
         }
       }
     }
@@ -294,110 +294,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "qui",
-      "Tooltip": "mollitia",
-      "Id": 718,
-      "Rank": 152,
+      "Value": "est",
+      "Tooltip": "iure",
+      "Id": 664,
+      "Rank": 383,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 485
+          "FieldType": "System.Int32",
+          "FieldLength": 728
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2002-03-18T03:24:48.5341362+01:00",
-  "Lastlogout": "2011-12-17T03:24:48.5341362+01:00",
-  "EjUserId": 441,
-  "RequestSignature": "dolore",
+  "Deleted": false,
+  "Lastlogin": "1999-11-29T13:38:14.342802+01:00",
+  "Lastlogout": "2000-09-10T13:38:14.342802+02:00",
+  "EjUserId": 248,
+  "RequestSignature": "odio",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "asperiores",
-      "DisplayValue": "porro",
+      "Value": "deserunt",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 925
         }
       }
     },
     {
       "Type": null,
-      "Value": "asperiores",
-      "DisplayValue": "porro",
+      "Value": "deserunt",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 925
         }
       }
     }
   ],
-  "UserName": "Conn Group",
+  "UserName": "Rowe LLC",
   "TicketCategories": [
     {
-      "Id": 53,
-      "Name": "Lockman, McDermott and Kirlin",
-      "ToolTip": "Voluptas dolores et laudantium eum cum eos dolor.",
+      "Id": 973,
+      "Name": "Frami LLC",
+      "ToolTip": "Autem minus eaque nemo.",
       "Deleted": false,
-      "Rank": 334,
-      "Type": "similique",
+      "Rank": 244,
+      "Type": "recusandae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "fugit",
-      "ColorBlock": 408,
-      "ExtraInfo": "repellendus",
-      "StyleHint": "praesentium",
-      "FullName": "Joanny Lowe",
+      "IconHint": "earum",
+      "ColorBlock": 377,
+      "ExtraInfo": "debitis",
+      "StyleHint": "sit",
+      "FullName": "Ms. Mack Winston Sporer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 417
+          "FieldLength": 621
         }
       }
     }
   ],
-  "NickName": "Corwin Group",
+  "NickName": "Grimes LLC",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "labore",
-    "ExtraFields2": "asperiores"
+    "ExtraFields1": "eveniet",
+    "ExtraFields2": "consequuntur"
   },
   "CustomFields": {
-    "CustomFields1": "nostrum",
-    "CustomFields2": "cum"
+    "CustomFields1": "quas",
+    "CustomFields2": "nisi"
   },
   "PostSaveCommands": [
     {
-      "Name": "Daniel, Kilback and Parker",
-      "DisplayName": "Bins-Douglas",
-      "Description": "Adaptive upward-trending service-desk",
-      "ToolTip": "Optio dolores recusandae omnis ipsum ex autem ratione.",
+      "Name": "Denesik Inc and Sons",
+      "DisplayName": "Greenfelder-Wiza",
+      "Description": "Networked asynchronous solution",
+      "ToolTip": "Vel animi delectus.",
       "Actions": "Implicit",
-      "ActionData": "eos",
+      "ActionData": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 595
+          "FieldType": "System.Int32",
+          "FieldLength": 128
         }
       }
     }
@@ -407,7 +407,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 670
     }
   }
 }

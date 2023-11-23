@@ -75,31 +75,31 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 254,
-  "CrmRecordId": 711,
+  "ErpConnectionId": 983,
+  "CrmRecordId": 778,
   "CrmActorType": "Contact",
-  "ErpKey": "eaque",
+  "ErpKey": "in",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Cruickshank LLC",
-      "CrmFieldKey": "quibusdam",
-      "Value": "id",
-      "DisplayValue": "porro",
+      "DisplayName": "Gutkowski-Reilly",
+      "CrmFieldKey": "ut",
+      "Value": "qui",
+      "DisplayValue": "iusto",
       "SyncToCrm": true,
-      "SyncToErp": false
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Cruickshank LLC",
-      "CrmFieldKey": "quibusdam",
-      "Value": "id",
-      "DisplayValue": "porro",
+      "DisplayName": "Gutkowski-Reilly",
+      "CrmFieldKey": "ut",
+      "Value": "qui",
+      "DisplayValue": "iusto",
       "SyncToCrm": true,
-      "SyncToErp": false
+      "SyncToErp": true
     }
   ]
 }
@@ -111,5 +111,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

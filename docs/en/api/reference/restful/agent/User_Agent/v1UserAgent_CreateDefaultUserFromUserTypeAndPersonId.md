@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 751
+  "PersonId": 420
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 2,
-  "Name": "Daniel Inc and Sons",
-  "Rank": 563,
-  "Tooltip": "iusto",
+  "AssociateId": 407,
+  "Name": "Gottlieb LLC",
+  "Rank": 61,
+  "Tooltip": "sit",
   "LicenseOwners": [
     {
-      "Name": "Nitzsche, Boyle and Bailey",
-      "Description": "Optimized leading edge projection",
+      "Name": "Rolfson, Schmitt and Paucek",
+      "Description": "Ergonomic systemic frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,14 +139,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldType": "System.String",
+          "FieldLength": 935
         }
       }
     },
     {
-      "Name": "Nitzsche, Boyle and Bailey",
-      "Description": "Optimized leading edge projection",
+      "Name": "Rolfson, Schmitt and Paucek",
+      "Description": "Ergonomic systemic frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldType": "System.String",
+          "FieldLength": 935
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "repellendus",
-      "Tooltip": "labore",
-      "Id": 345,
-      "Rank": 81,
-      "Deleted": true,
+      "Value": "aut",
+      "Tooltip": "natus",
+      "Id": 297,
+      "Rank": 210,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 433
+          "FieldType": "System.String",
+          "FieldLength": 384
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2001-11-19T03:24:48.5653818+01:00",
-  "Lastlogout": "2013-02-14T03:24:48.5653818+01:00",
-  "EjUserId": 401,
-  "RequestSignature": "aut",
+  "Lastlogin": "2022-08-20T13:38:14.374047+02:00",
+  "Lastlogout": "2008-02-11T13:38:14.374047+01:00",
+  "EjUserId": 726,
+  "RequestSignature": "dolorem",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quis",
-      "DisplayValue": "accusamus",
+      "Value": "unde",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 384
         }
       }
     },
     {
       "Type": null,
-      "Value": "quis",
-      "DisplayValue": "accusamus",
+      "Value": "unde",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 384
         }
       }
     }
   ],
-  "UserName": "Torphy-Cronin",
+  "UserName": "Mertz-Collins",
   "TicketCategories": [
     {
-      "Id": 259,
-      "Name": "Schuster, Stokes and Buckridge",
-      "ToolTip": "Enim est sit quas quo vero quasi.",
+      "Id": 431,
+      "Name": "Waelchi Inc and Sons",
+      "ToolTip": "Quasi debitis ut accusamus nobis omnis.",
       "Deleted": false,
-      "Rank": 478,
-      "Type": "officia",
+      "Rank": 321,
+      "Type": "odit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "facilis",
-      "ColorBlock": 748,
-      "ExtraInfo": "odio",
-      "StyleHint": "sit",
-      "FullName": "Louvenia Altenwerth",
+      "IconHint": "quaerat",
+      "ColorBlock": 96,
+      "ExtraInfo": "voluptatum",
+      "StyleHint": "consequuntur",
+      "FullName": "Stan Murazik",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 348
+          "FieldLength": 559
         }
       }
     }
   ],
-  "NickName": "Rowe, Sawayn and Toy",
+  "NickName": "Turcotte LLC",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "neque",
-    "ExtraFields2": "placeat"
+    "ExtraFields1": "cum",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "culpa",
+    "CustomFields2": "sapiente"
   },
   "PostSaveCommands": [
     {
-      "Name": "Crona, Abshire and Vandervort",
-      "DisplayName": "Windler-Lowe",
-      "Description": "Enhanced radical collaboration",
-      "ToolTip": "Magni architecto.",
+      "Name": "Daniel-Wisozk",
+      "DisplayName": "Fisher-Thiel",
+      "Description": "Organized client-driven installation",
+      "ToolTip": "Dolores et.",
       "Actions": "Implicit",
-      "ActionData": "autem",
+      "ActionData": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldLength": 603
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 637
     }
   }
 }

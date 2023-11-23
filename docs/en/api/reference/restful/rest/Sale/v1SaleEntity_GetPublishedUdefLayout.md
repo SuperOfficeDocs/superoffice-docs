@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 328,
-    "ColumnId": 21,
-    "FieldDefault": "qui",
-    "FieldHeight": 855,
-    "FieldLabel": "voluptatum",
-    "FieldLeft": 512,
+    "UDefFieldId": 250,
+    "ColumnId": 272,
+    "FieldDefault": "quis",
+    "FieldHeight": 223,
+    "FieldLabel": "sint",
+    "FieldLeft": 726,
     "FieldTop": 619,
     "FieldType": "Checkbox",
-    "FieldWidth": 35,
-    "FormatMask": "omnis",
+    "FieldWidth": 887,
+    "FormatMask": "sint",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 613,
-    "LabelLeft": 32,
-    "LabelTop": 758,
-    "LabelWidth": 120,
-    "LastVersionId": 600,
-    "ListTableId": 70,
+    "LabelHeight": 680,
+    "LabelLeft": 690,
+    "LabelTop": 909,
+    "LabelWidth": 673,
+    "LastVersionId": 580,
+    "ListTableId": 487,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 134,
-    "ProgId": "sapiente",
+    "Page1LineNo": 205,
+    "ProgId": "qui",
     "IsReadOnly": false,
-    "ShortLabel": "eaque",
-    "TabOrder": 30,
-    "TextLength": 870,
-    "Tooltip": "et",
-    "UdefIdentity": 596,
-    "UDListDefinitionId": 350,
+    "ShortLabel": "quis",
+    "TabOrder": 564,
+    "TextLength": 587,
+    "Tooltip": "ea",
+    "UdefIdentity": 600,
+    "UDListDefinitionId": 885,
     "Justification": "Center",
-    "Version": 140,
-    "TemplateVariableName": "Kirlin Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Johnson-Heller",
+    "Version": 192,
+    "TemplateVariableName": "Koelpin LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Kiehn-Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldLength": 11
       }
     }
   }

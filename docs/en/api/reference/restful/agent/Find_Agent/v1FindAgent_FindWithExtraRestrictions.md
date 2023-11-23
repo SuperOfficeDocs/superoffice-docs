@@ -84,52 +84,52 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nihil",
-  "ProviderName": "Little LLC",
-  "StorageKey": "quam",
+  "StorageType": "ut",
+  "ProviderName": "Bartoletti, Schulist and Haag",
+  "StorageKey": "recusandae",
   "ExtraRestrictions": [
     {
-      "Name": "Medhurst, Gaylord and Jenkins",
-      "Operator": "iusto",
+      "Name": "Towne-Cole",
+      "Operator": "quia",
       "Values": [
-        "consequatur",
-        "qui"
+        "aut",
+        "sed"
       ],
       "DisplayValues": [
-        "fugiat",
-        "illum"
+        "et",
+        "corporis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 864,
+      "InterParenthesis": 835,
       "InterOperator": "And",
-      "UniqueHash": 943
+      "UniqueHash": 652
     }
   ],
   "OrderBy": [
     {
-      "Name": "Feeney Group",
+      "Name": "Heidenreich LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Feeney Group",
+      "Name": "Heidenreich LLC",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "dolorem",
-    "pariatur"
+    "iusto",
+    "magnam"
   ],
-  "PageSize": 554,
-  "PageNumber": 844
+  "PageSize": 357,
+  "PageNumber": 905
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bauch-Weissnat",
-      "DisplayTooltip": "eaque",
-      "DisplayType": "rerum",
+      "DisplayName": "Cremin-Little",
+      "DisplayTooltip": "dolore",
+      "DisplayType": "nam",
       "CanOrderBy": false,
-      "Name": "Beatty-Flatley",
+      "Name": "Emmerich Group",
       "CanRestrictBy": false,
-      "RestrictionType": "cupiditate",
-      "RestrictionListName": "Hackett LLC",
-      "IsVisible": false,
-      "ExtraInfo": "quis",
-      "Width": "suscipit",
-      "IconHint": "tenetur",
-      "HeadingIconHint": "officiis"
+      "RestrictionType": "modi",
+      "RestrictionListName": "Dickinson LLC",
+      "IsVisible": true,
+      "ExtraInfo": "dolorum",
+      "Width": "sit",
+      "IconHint": "aliquid",
+      "HeadingIconHint": "commodi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Wiegand-Hamill",
-      "PrimaryKey": 161,
+      "EntityName": "Hand-Sauer",
+      "PrimaryKey": 603,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "nobis",
-          "LinkHint": "adipisci"
+          "DisplayValue": "ullam",
+          "TooltipHint": "recusandae",
+          "LinkHint": "expedita"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "iste",
+      "LinkHint": "et",
+      "StyleHint": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldLength": 450
         }
       }
     }
   ],
-  "RowCount": 92,
+  "RowCount": 278,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 615
+      "FieldLength": 671
     }
   }
 }

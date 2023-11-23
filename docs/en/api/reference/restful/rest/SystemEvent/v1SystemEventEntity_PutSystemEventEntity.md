@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 331,
+  "SystemEventId": 539,
   "Scope": "Database",
-  "Eta": "2005-05-13T03:24:51.927622+02:00",
-  "Eventkey": "aliquam",
-  "Eventmess": "vel",
-  "ExtraInfo": 669,
-  "Owner": 510,
-  "UpdatedCount": 559,
-  "Registered": "2020-01-27T03:24:51.927622+01:00",
+  "Eta": "2022-04-23T13:38:17.6711737+02:00",
+  "Eventkey": "deleniti",
+  "Eventmess": "id",
+  "ExtraInfo": 59,
+  "Owner": 64,
+  "UpdatedCount": 297,
+  "Registered": "2010-12-22T13:38:17.6711737+01:00",
   "ActivatedBy": null
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 589,
+  "SystemEventId": 967,
   "Scope": "Database",
-  "Eta": "1999-08-15T03:24:51.927622+02:00",
-  "Eventkey": "debitis",
-  "Eventmess": "in",
-  "ExtraInfo": 846,
-  "Owner": 432,
-  "UpdatedCount": 203,
-  "Registered": "2002-07-25T03:24:51.927622+02:00",
+  "Eta": "2017-10-13T13:38:17.6711737+02:00",
+  "Eventkey": "fuga",
+  "Eventmess": "fuga",
+  "ExtraInfo": 853,
+  "Owner": 204,
+  "UpdatedCount": 427,
+  "Registered": "2013-01-06T13:38:17.6711737+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 977
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

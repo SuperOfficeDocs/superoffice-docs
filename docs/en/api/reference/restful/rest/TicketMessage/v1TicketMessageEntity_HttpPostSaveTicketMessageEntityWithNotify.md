@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=False
+POST /api/v1/TicketMessage?notify=True
 ```
 
 
@@ -123,66 +123,66 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 831,
+  "EjMessageId": 341,
   "Ticket": null,
-  "CreatedAt": "2008-12-06T03:24:51.9901188+01:00",
+  "CreatedAt": "1999-04-02T13:38:17.7336652+02:00",
   "CreatedBy": null,
-  "Author": "nobis",
+  "Author": "facere",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolores",
-  "TimeSpent": 121,
-  "Body": "natus",
-  "HtmlBody": "optio",
-  "EmailHeader": "sheridan@west.biz",
-  "DebugInfo": "aliquam",
-  "MailSorter": "numquam",
+  "MessageId": "et",
+  "TimeSpent": 806,
+  "Body": "deserunt",
+  "HtmlBody": "vero",
+  "EmailHeader": "jasen@hilll.info",
+  "DebugInfo": "id",
+  "MailSorter": "iusto",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "suscipit",
+  "SearchTitle": "animi",
   "MessageHeaders": [
     {
-      "Id": 848,
-      "Name": "Streich-VonRueden",
-      "Value": "et",
+      "Id": 76,
+      "Name": "Osinski, Swift and Mraz",
+      "Value": "in",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 848,
-      "Name": "Streich-VonRueden",
-      "Value": "et",
+      "Id": 76,
+      "Name": "Osinski, Swift and Mraz",
+      "Value": "in",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "voluptas",
-  "Sentiment": 457,
-  "SentimentConfidence": 715,
+  "Language": "dolorum",
+  "Sentiment": 177,
+  "SentimentConfidence": 384,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 193,
-      "Name": "Crist Inc and Sons",
-      "ContentType": "voluptatem",
-      "AttSize": 933,
+      "AttachmentId": 824,
+      "Name": "Farrell-Stiedemann",
+      "ContentType": "facilis",
+      "AttSize": 399,
       "InlineImage": true,
-      "ContentId": "velit",
-      "AuthKey": "delectus"
+      "ContentId": "assumenda",
+      "AuthKey": "magni"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "et"
+    "CustomFields1": "soluta",
+    "CustomFields2": "fuga"
   }
 }
 ```
@@ -194,28 +194,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 308,
+  "EjMessageId": 108,
   "Ticket": null,
-  "CreatedAt": "2007-04-19T03:24:52.0057419+02:00",
+  "CreatedAt": "1998-03-09T13:38:17.7336652+01:00",
   "CreatedBy": null,
-  "Author": "illum",
+  "Author": "sed",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 504,
-  "Body": "qui",
-  "HtmlBody": "nostrum",
-  "EmailHeader": "abigayle.upton@lind.biz",
-  "DebugInfo": "ea",
-  "MailSorter": "aliquid",
+  "MessageId": "voluptatem",
+  "TimeSpent": 283,
+  "Body": "commodi",
+  "HtmlBody": "velit",
+  "EmailHeader": "jonathon@reicheldooley.ca",
+  "DebugInfo": "commodi",
+  "MailSorter": "deserunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sed",
+  "SearchTitle": "voluptate",
   "MessageHeaders": [
     {
-      "Id": 105,
-      "Name": "Zemlak, Kuphal and Cole",
-      "Value": "at",
+      "Id": 98,
+      "Name": "Effertz-Kreiger",
+      "Value": "quae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -223,49 +223,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldLength": 121
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "non",
-  "Sentiment": 159,
-  "SentimentConfidence": 620,
+  "Important": true,
+  "Language": "corporis",
+  "Sentiment": 835,
+  "SentimentConfidence": 531,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 644,
-      "Name": "Walker, Douglas and Parker",
-      "ContentType": "vel",
-      "AttSize": 157,
+      "AttachmentId": 643,
+      "Name": "O'Kon, Abbott and Larkin",
+      "ContentType": "nisi",
+      "AttSize": 109,
       "InlineImage": true,
-      "ContentId": "voluptatem",
-      "AuthKey": "id",
+      "ContentId": "odit",
+      "AuthKey": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 715
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "libero"
+    "CustomFields1": "ullam",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldType": "System.String",
+      "FieldLength": 174
     }
   }
 }

@@ -88,7 +88,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 751
+  "PersonId": 175
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 423,
-  "Name": "Littel Inc and Sons",
-  "PersonId": 25,
-  "Rank": 668,
-  "Tooltip": "quis",
+  "AssociateId": 71,
+  "Name": "Wintheiser Group",
+  "PersonId": 223,
+  "Rank": 722,
+  "Tooltip": "quas",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 148,
-  "FullName": "Darby Vandervort",
-  "FormalName": "Stehr-Hagenes",
+  "GroupIdx": 813,
+  "FullName": "Keshawn Schumm",
+  "FormalName": "Romaguera-Donnelly",
   "Deleted": false,
-  "EjUserId": 48,
-  "UserName": "Effertz, Erdman and Bode",
+  "EjUserId": 765,
+  "UserName": "Toy LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 973
     }
   }
 }

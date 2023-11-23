@@ -92,33 +92,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 310,
-  "Name": "Eichmann-Reynolds",
-  "Tooltip": "est",
+  "WebPanelId": 299,
+  "Name": "Schmitt Inc and Sons",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 319,
+  "Rank": 994,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Corkery-Waelchi",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Blick Group",
   "Url": "http://www.example.com/",
-  "ProgId": "illum",
-  "Icon": 370,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "officiis",
+  "Icon": 711,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 512
     }
   }
 }

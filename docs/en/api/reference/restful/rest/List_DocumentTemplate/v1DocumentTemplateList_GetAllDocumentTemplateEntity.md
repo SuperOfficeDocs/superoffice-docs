@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 130,
-    "Name": "Ernser Inc and Sons",
-    "Tooltip": "quas",
-    "SaveInDb": 732,
-    "Filename": "consequatur",
-    "DefaultOref": "et",
+    "DocumentTemplateId": 915,
+    "Name": "Bernier Inc and Sons",
+    "Tooltip": "temporibus",
+    "SaveInDb": 652,
+    "Filename": "qui",
+    "DefaultOref": "quia",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 108,
-    "IntentId": 857,
-    "IsDefaultPublished": false,
-    "Rank": 619,
-    "LoadTemplateFromPlugin": 704,
-    "MimeType": "nostrum",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 658,
+    "AutoeventId": 654,
+    "IntentId": 442,
+    "IsDefaultPublished": true,
+    "Rank": 435,
+    "LoadTemplateFromPlugin": 571,
+    "MimeType": "sequi",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 781,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "ryann.jenkins@stehrsenger.biz",
+    "EmailSubject": "anthony@walkerhowe.us",
     "IncludeSignature": false,
     "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "jolie@little.co.uk",
+    "SenderEmailAddress": "patience_walker@ruecker.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 86
+        "FieldType": "System.String",
+        "FieldLength": 207
       }
     }
   }

@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Beier-Bosco",
-  "ListItemId": 338,
+  "UdListDefinitionName": "Schamberger Group",
+  "ListItemId": 364,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 949,
-    "Name": "Hermiston-Hermann",
-    "ToolTip": "Voluptatem deleniti voluptates.",
+    "Id": 103,
+    "Name": "Hills-Sawayn",
+    "ToolTip": "Omnis dolores ut alias similique.",
     "Deleted": false,
-    "Rank": 411,
-    "Type": "temporibus",
-    "ColorBlock": 842,
-    "IconHint": "voluptas",
+    "Rank": 799,
+    "Type": "eos",
+    "ColorBlock": 209,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2022-08-13T03:24:47.8770078+02:00",
+    "LastChanged": "2008-06-27T13:38:13.6864749+02:00",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Torphy-Doyle",
-        "ToolTip": "Qui dolor nemo cumque quis.",
-        "Deleted": true,
-        "Rank": 576,
-        "Type": "architecto",
-        "ColorBlock": 476,
-        "IconHint": "aspernatur",
-        "Selected": true,
-        "LastChanged": "2009-06-02T03:24:47.8770078+02:00",
+        "Id": 903,
+        "Name": "Kirlin-Kirlin",
+        "ToolTip": "Placeat maxime.",
+        "Deleted": false,
+        "Rank": 795,
+        "Type": "dolorum",
+        "ColorBlock": 503,
+        "IconHint": "ipsa",
+        "Selected": false,
+        "LastChanged": "2021-02-06T13:38:13.6864749+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "ullam",
-        "Hidden": true,
-        "FullName": "Mario Thompson PhD",
+        "ExtraInfo": "sequi",
+        "StyleHint": "fuga",
+        "Hidden": false,
+        "FullName": "Dr. Aryanna Georgiana Yost",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 190
+            "FieldLength": 334
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "id",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Dewayne Berge",
+    "FullName": "Mr. Jalon Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

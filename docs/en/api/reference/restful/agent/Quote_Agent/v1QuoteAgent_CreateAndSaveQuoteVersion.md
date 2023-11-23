@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 227
+  "QuoteVersionId": 852
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 91,
-  "ERPQuoteVersionKey": "velit",
-  "QuoteId": 712,
-  "Description": "Programmable optimizing knowledge user",
-  "Number": "384231",
+  "QuoteVersionId": 384,
+  "ERPQuoteVersionKey": "necessitatibus",
+  "QuoteId": 58,
+  "Description": "Extended contextually-based adapter",
+  "Number": "1005678",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 521,
-  "SentDate": "2021-12-05T03:24:48.111357+01:00",
-  "FollowupId": 415,
-  "ExpirationDate": "1996-05-19T03:24:48.111357+02:00",
-  "DeliveryCountryId": 786,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 692,
+  "LikelyQuoteAlternativeId": 294,
+  "SentDate": "2013-08-26T13:38:13.9990881+02:00",
+  "FollowupId": 528,
+  "ExpirationDate": "2015-06-10T13:38:13.9990881+02:00",
+  "DeliveryCountryId": 110,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 881,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "neque",
-  "ERPPaymentTypeKey": "minus",
-  "ERPDeliveryTermsKey": "et",
-  "ERPDeliveryTypeKey": "error",
-  "Rank": 339,
-  "ApprovedBy": 947,
-  "ApprovedText": "praesentium",
-  "ApprovedRegisteredBy": 196,
-  "ApprovedRegisteredDate": "2000-01-09T03:24:48.111357+01:00",
-  "ExtraField1": "reprehenderit",
-  "ExtraField2": "voluptate",
-  "ExtraField3": "modi",
-  "ExtraField4": "commodi",
-  "ExtraField5": "delectus",
-  "LastRecalculated": "1998-04-08T03:24:48.111357+02:00",
-  "Updated": "2003-04-20T03:24:48.111357+02:00",
-  "UpdatedAssociateId": 351,
-  "Registered": "2015-04-17T03:24:48.111357+02:00",
-  "RegisteredAssociateId": 886,
-  "RequestAssociateId": 279,
-  "RequestComment": "et",
+  "ERPPaymentTermsKey": "consequatur",
+  "ERPPaymentTypeKey": "eum",
+  "ERPDeliveryTermsKey": "non",
+  "ERPDeliveryTypeKey": "nulla",
+  "Rank": 956,
+  "ApprovedBy": 178,
+  "ApprovedText": "amet",
+  "ApprovedRegisteredBy": 927,
+  "ApprovedRegisteredDate": "2021-05-05T13:38:13.9990881+02:00",
+  "ExtraField1": "nobis",
+  "ExtraField2": "expedita",
+  "ExtraField3": "ipsa",
+  "ExtraField4": "non",
+  "ExtraField5": "voluptates",
+  "LastRecalculated": "2010-07-16T13:38:13.9990881+02:00",
+  "Updated": "2001-02-05T13:38:13.9990881+01:00",
+  "UpdatedAssociateId": 749,
+  "Registered": "2010-01-08T13:38:13.9990881+01:00",
+  "RegisteredAssociateId": 221,
+  "RequestAssociateId": 875,
+  "RequestComment": "tenetur",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 596,
-      "ERPQuoteAlternativeKey": "quis",
-      "QuoteVersionId": 641,
-      "Name": "Heidenreich-Bosco",
-      "Description": "Persevering reciprocal hub",
+      "QuoteAlternativeId": 590,
+      "ERPQuoteAlternativeKey": "molestias",
+      "QuoteVersionId": 939,
+      "Name": "Hickle-Cole",
+      "Description": "Intuitive multi-tasking intranet",
       "Status": "Error",
-      "Reason": "cultivate compelling infomediaries",
-      "ERPDiscountPercent": 27635.611999999997,
-      "ERPDiscountAmount": 5973.4039999999995,
-      "DiscountPercent": 23081.91,
-      "DiscountAmount": 24156.872,
+      "Reason": "",
+      "ERPDiscountPercent": 23975.1,
+      "ERPDiscountAmount": 19565.561999999998,
+      "DiscountPercent": 7897.6799999999994,
+      "DiscountAmount": 5277.656,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "eum",
-      "VAT": 23132.054,
-      "EarningPercent": 9781.214,
-      "EarningAmount": 17020.754,
-      "SubTotal": 11526.851999999999,
-      "TotalPrice": 4835.762,
-      "ExtraField1": "pariatur",
-      "ExtraField2": "quo",
-      "ExtraField3": "itaque",
-      "ExtraField4": "non",
-      "ExtraField5": "voluptas",
+      "VATInfo": "nostrum",
+      "VAT": 3591.564,
+      "EarningPercent": 30747.674,
+      "EarningAmount": 22859.396,
+      "SubTotal": 29597.496,
+      "TotalPrice": 188.04,
+      "ExtraField1": "esse",
+      "ExtraField2": "laboriosam",
+      "ExtraField3": "dolores",
+      "ExtraField4": "ad",
+      "ExtraField5": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldLength": 20
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 534
     }
   }
 }

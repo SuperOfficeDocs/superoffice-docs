@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Hettinger, Dicki and Fritsch",
-    "ToolTip": "Architecto impedit quos ipsam iusto officiis corrupti.",
+    "Id": 213,
+    "Name": "Batz-Erdman",
+    "ToolTip": "Voluptatibus ea architecto.",
     "Deleted": false,
-    "Rank": 374,
-    "Type": "incidunt",
-    "ColorBlock": 542,
-    "IconHint": "sequi",
+    "Rank": 478,
+    "Type": "praesentium",
+    "ColorBlock": 221,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "1997-05-20T03:24:52.2557133+02:00",
+    "LastChanged": "2020-03-07T13:38:18.0775324+01:00",
     "ChildItems": [
       {
-        "Id": 320,
-        "Name": "Heaney, Gulgowski and Pouros",
-        "ToolTip": "Repudiandae perspiciatis suscipit.",
+        "Id": 765,
+        "Name": "Nader-Weimann",
+        "ToolTip": "Ab veritatis ipsam et qui at neque qui.",
         "Deleted": true,
-        "Rank": 432,
-        "Type": "dolores",
-        "ColorBlock": 902,
-        "IconHint": "odit",
+        "Rank": 599,
+        "Type": "maxime",
+        "ColorBlock": 868,
+        "IconHint": "optio",
         "Selected": false,
-        "LastChanged": "2007-08-06T03:24:52.2557133+02:00",
+        "LastChanged": "2014-01-31T13:38:18.0775324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "facilis",
+        "ExtraInfo": "eos",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Elmira Reinger",
+        "FullName": "Lance Towne PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 542
+            "FieldLength": 368
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "vitae",
-    "Hidden": true,
-    "FullName": "Beryl Michale Rogahn III",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "minus",
+    "Hidden": false,
+    "FullName": "Anjali Zieme",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 435
+        "FieldType": "System.Int32",
+        "FieldLength": 509
       }
     }
   }

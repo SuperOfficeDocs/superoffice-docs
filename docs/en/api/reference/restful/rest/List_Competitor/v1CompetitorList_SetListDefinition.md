@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 548,
-  "Name": "Jewess-Feest",
-  "Tooltip": "sed",
+  "Id": 495,
+  "Name": "McGlynn Inc and Sons",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "Rank": 826,
+  "Rank": 104,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "tempore",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Corkery Group",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "Rank": 330,
+  "Id": 943,
+  "Name": "Wisoky, Strosin and Legros",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "Rank": 930,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "magni",
+  "ListType": "nam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 964
     }
   }
 }

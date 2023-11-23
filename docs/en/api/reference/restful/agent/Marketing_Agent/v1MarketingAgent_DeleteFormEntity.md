@@ -25,7 +25,7 @@ Deletes the FormEntity
 | FormEntityId | int32 | **Required** The id of the FormEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteFormEntity?FormEntityId=987
+POST /api/v1/Agents/Marketing/DeleteFormEntity?FormEntityId=930
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Marketing/DeleteFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

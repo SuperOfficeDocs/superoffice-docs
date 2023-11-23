@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 625,
-    "ParentId": 794,
-    "Name": "Lynch LLC",
-    "Fullname": "iste",
-    "CategoryMaster": 722,
+    "TicketCategoryId": 835,
+    "ParentId": 918,
+    "Name": "Littel Group",
+    "Fullname": "ad",
+    "CategoryMaster": 831,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Mills, Funk and Blick",
+    "ExternalName": "Erdman, Mosciski and Brown",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 775,
-    "ReplyTemplate": 137,
-    "NotificationEmail": "jabari.hauck@larkincrooks.name",
+    "AssignmentLag": 744,
+    "ReplyTemplate": 416,
+    "NotificationEmail": "jacky@monahanjast.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 940,
+    "EffectiveReplyTemplateId": 193,
     "ExtraFields": {
-      "ExtraFields1": "et",
-      "ExtraFields2": "qui"
+      "ExtraFields1": "iure",
+      "ExtraFields2": "quis"
     },
     "CustomFields": {
-      "CustomFields1": "voluptatem",
-      "CustomFields2": "sed"
+      "CustomFields1": "cum",
+      "CustomFields2": "quo"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 830
+        "FieldLength": 995
       }
     }
   }

@@ -85,27 +85,27 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 55,
-  "Name": "Romaguera-Gutkowski",
-  "Rank": 796,
-  "Tooltip": "consequatur",
-  "Icon": "aperiam",
-  "DefaultTicketStatus": 864,
+  "TicketTypeId": 9,
+  "Name": "Paucek-Rosenbaum",
+  "Rank": 237,
+  "Tooltip": "nam",
+  "Icon": "nesciunt",
+  "DefaultTicketStatus": 146,
   "TicketStatuses": [
-    373,
-    126
+    673,
+    503
   ],
-  "DefaultTicketPriority": 393,
+  "DefaultTicketPriority": 502,
   "TicketPriorities": [
-    851,
-    554
+    359,
+    841
   ],
-  "ReplyTemplate": 568,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 62,
+  "IsExternalVisible": true,
   "IsDefault": false
 }
 ```
@@ -117,22 +117,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 246,
-  "Name": "Wuckert, Borer and Howell",
-  "Rank": 64,
-  "Tooltip": "iure",
-  "Icon": "voluptatem",
-  "DefaultTicketStatus": 234,
+  "TicketTypeId": 372,
+  "Name": "Kulas Inc and Sons",
+  "Rank": 601,
+  "Tooltip": "possimus",
+  "Icon": "autem",
+  "DefaultTicketStatus": 918,
   "TicketStatuses": [
-    301,
-    563
+    316,
+    871
   ],
-  "DefaultTicketPriority": 812,
+  "DefaultTicketPriority": 77,
   "TicketPriorities": [
-    412,
-    11
+    620,
+    86
   ],
-  "ReplyTemplate": 758,
+  "ReplyTemplate": 951,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 219
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 910,
-  "Name": "Walker, Marquardt and Borer",
-  "Tooltip": "architecto",
+  "Id": 128,
+  "Name": "Barrows, Gulgowski and Tromp",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 745,
+  "Rank": 235,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
+  "ListType": "commodi",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 861,
-  "Name": "Windler, Dickens and Bernier",
-  "Tooltip": "esse",
-  "Deleted": false,
-  "Rank": 718,
+  "Id": 803,
+  "Name": "Hodkiewicz Group",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 389,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 208
+      "FieldLength": 15
     }
   }
 }

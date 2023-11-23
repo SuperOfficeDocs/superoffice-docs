@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 73,
-  "PlainMessage": "error",
-  "HtmlMessage": "unde",
-  "SmsMessage": "non",
-  "Description": "Phased actuating matrices",
-  "Subject": "omnis",
-  "FolderId": 175,
-  "HeaderField": "repellendus",
-  "Design": "unde",
+  "ShipmentMessageId": 591,
+  "PlainMessage": "laboriosam",
+  "HtmlMessage": "consequatur",
+  "SmsMessage": "sunt",
+  "Description": "Compatible interactive hardware",
+  "Subject": "fugiat",
+  "FolderId": 619,
+  "HeaderField": "commodi",
+  "Design": "molestiae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Polarised user-facing process improvement",
-  "AccessKey": "commodi",
-  "DocumentMessage": 611,
-  "Registered": "2015-03-13T03:24:51.927622+01:00",
-  "RegisteredAssociateId": 199,
-  "Updated": "2004-07-19T03:24:51.927622+02:00",
-  "UpdatedAssociateId": 417,
-  "UpdatedCount": 618,
+  "InlineImages": true,
+  "LongDescription": "Multi-tiered leading edge ability",
+  "AccessKey": "quod",
+  "DocumentMessage": 142,
+  "Registered": "2009-04-06T13:38:17.6711737+02:00",
+  "RegisteredAssociateId": 705,
+  "Updated": "2001-11-20T13:38:17.6711737+01:00",
+  "UpdatedAssociateId": 184,
+  "UpdatedCount": 408,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldType": "System.String",
+      "FieldLength": 88
     }
   }
 }

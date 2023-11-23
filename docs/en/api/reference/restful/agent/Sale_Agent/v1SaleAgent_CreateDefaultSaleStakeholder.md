@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Okuneva, Kessler and Corkery",
+  "StakeholderRoleName": "Smith-Pollich",
   "Comment": "nobis",
-  "StakeholderRoleId": 647,
-  "CountryId": 52,
-  "PersonId": 412,
-  "EmailDescription": "mina.bednar@schmittflatley.co.uk",
-  "EmailId": 174,
-  "EmailAddress": "hunter_dare@mohrkrajcik.name",
-  "PhoneId": 830,
-  "ContactName": "Kub Inc and Sons",
-  "ContactId": 781,
-  "SaleId": 940,
-  "Mrmrs": "optio",
-  "Firstname": "Murray",
-  "MiddleName": "Anderson-Gislason",
-  "Lastname": "Tremblay",
-  "SaleStakeholderId": 302,
-  "Rank": 910,
-  "Phone": "688-723-5011",
+  "StakeholderRoleId": 844,
+  "CountryId": 92,
+  "PersonId": 89,
+  "EmailDescription": "kelton@kochvandervort.uk",
+  "EmailId": 90,
+  "EmailAddress": "alberta@hamill.biz",
+  "PhoneId": 979,
+  "ContactName": "Schulist-Denesik",
+  "ContactId": 637,
+  "SaleId": 400,
+  "Mrmrs": "vel",
+  "Firstname": "Montana",
+  "MiddleName": "O'Hara-Trantow",
+  "Lastname": "Harber",
+  "SaleStakeholderId": 122,
+  "Rank": 932,
+  "Phone": "1-550-031-1399",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 640
     }
   }
 }

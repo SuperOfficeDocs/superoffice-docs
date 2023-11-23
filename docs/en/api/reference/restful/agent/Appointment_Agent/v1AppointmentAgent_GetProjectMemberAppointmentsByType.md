@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -134,10 +135,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 516,
-  "StartTime": "2005-01-15T03:24:46.9238216+01:00",
-  "EndTime": "2007-10-15T03:24:46.9238216+02:00",
-  "Count": 462,
+  "PersonId": 108,
+  "StartTime": "2023-09-09T13:38:12.8428246+02:00",
+  "EndTime": "2010-10-02T13:38:12.8428246+02:00",
+  "Count": 334,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 28,
-    "StartDate": "2015-11-19T03:24:46.9238216+01:00",
-    "EndDate": "2009-05-03T03:24:46.9238216+02:00",
+    "AppointmentId": 767,
+    "StartDate": "2002-05-20T13:38:12.8428246+02:00",
+    "EndDate": "2001-09-06T13:38:12.8428246+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolorem",
-    "AssociateFullName": "Dr. Valentina Rollin Hermiston PhD",
-    "ContactName": "Bosco-Bergstrom",
-    "Description": "Cloned local access",
-    "PersonFullName": "Albina Stracke",
-    "PersonId": 936,
-    "ContactId": 612,
-    "ProjectId": 458,
-    "ProjectName": "Waters LLC",
+    "Task": "est",
+    "AssociateFullName": "Bennie Beahan",
+    "ContactName": "Rosenbaum-Friesen",
+    "Description": "Synergized well-modulated neural-net",
+    "PersonFullName": "Jessica Gaylord",
+    "PersonId": 201,
+    "ContactId": 339,
+    "ProjectId": 184,
+    "ProjectName": "Pfeffer, Abbott and Prohaska",
     "IsPublished": false,
-    "AssociateId": 833,
-    "ColorIndex": 867,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 778,
+    "ColorIndex": 353,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 724,
-    "PriorityName": "Prosacco Group",
+    "PriorityId": 833,
+    "PriorityName": "Borer-Jacobson",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2019-09-03T03:24:46.9394467+02:00",
+    "IsBooking": false,
+    "ActiveDate": "1998-04-18T13:38:12.8428246+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-09-09T03:24:46.9394467+02:00",
-    "RecurringEndDate": "1997-06-16T03:24:46.9394467+02:00",
-    "MotherId": 92,
-    "AssignedBy": 245,
-    "AssignedByFullName": "Rollin Prosacco",
+    "RecurringStartDate": "2009-12-11T13:38:12.8428246+01:00",
+    "RecurringEndDate": "2004-07-08T13:38:12.8428246+02:00",
+    "MotherId": 928,
+    "AssignedBy": 960,
+    "AssignedByFullName": "Mauricio Schuster",
     "RejectReason": "",
-    "Location": "sit",
-    "AlarmLeadTime": "et",
-    "SaleId": 696,
-    "SaleName": "Reynolds Group",
-    "AssociateName": "Wintheiser-Lowe",
-    "CreatedDate": "2014-09-14T03:24:46.9394467+02:00",
-    "CreatedBy": "aspernatur",
-    "CreatedByFullName": "Daron Kovacek",
-    "CreatedByAssociateId": 763,
+    "Location": "repellat",
+    "AlarmLeadTime": "illo",
+    "SaleId": 743,
+    "SaleName": "Hegmann, Rau and Kozey",
+    "AssociateName": "Bahringer LLC",
+    "CreatedDate": "1998-01-17T13:38:12.8428246+01:00",
+    "CreatedBy": "sint",
+    "CreatedByFullName": "Mrs. Dane Goyette",
+    "CreatedByAssociateId": 245,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
+    "PreferredTZLocation": 824,
     "Title": "dolorem",
-    "Agenda": "eum",
-    "InternalNotes": "qui",
+    "Agenda": "quibusdam",
+    "InternalNotes": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldLength": 128
       }
     }
   }

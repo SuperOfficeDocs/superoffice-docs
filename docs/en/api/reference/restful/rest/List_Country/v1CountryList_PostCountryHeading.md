@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 723,
-  "Name": "Reilly, Kilback and Botsford",
-  "Tooltip": "aperiam",
+  "HeadingId": 462,
+  "Name": "Jast-Trantow",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 770,
-  "UdListDefinitionId": 85
+  "Rank": 782,
+  "UdListDefinitionId": 882
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 941,
-  "Name": "Parker Group",
-  "Tooltip": "quisquam",
+  "HeadingId": 837,
+  "Name": "Homenick-Ziemann",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 785,
-  "UdListDefinitionId": 358,
+  "Rank": 811,
+  "UdListDefinitionId": 152,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 179
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=291
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=83
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 259,
-  "CreatedAt": "1997-04-08T03:24:48.4872676+02:00",
+  "TicketMessageId": 614,
+  "CreatedAt": "2016-09-17T13:38:14.295928+02:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "cupiditate",
-  "PersonId": 288,
-  "PersonFullName": "Jenifer Johnathan Kiehn Jr.",
-  "ContactId": 117,
-  "ContactName": "Schuppe Group",
-  "ContactDepartment": "disintermediate value-added systems",
-  "NumAttachments": 452,
-  "EmailHeader": "dangelo_ward@ratke.biz",
+  "Author": "saepe",
+  "PersonId": 319,
+  "PersonFullName": "Joan Lowe",
+  "ContactId": 262,
+  "ContactName": "Graham-Mueller",
+  "ContactDepartment": "facilitate cross-platform convergence",
+  "NumAttachments": 174,
+  "EmailHeader": "lester.sauer@ullrichmurazik.ca",
   "MessageHeaders": [
     {
-      "Id": 64,
-      "Name": "Ankunding Inc and Sons",
-      "Value": "blanditiis",
+      "Id": 807,
+      "Name": "Block, Kertzmann and Willms",
+      "Value": "sed",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 269
+          "FieldLength": 142
         }
       }
     }
   ],
-  "Language": "quam",
-  "Sentiment": 94,
-  "SentimentConfidence": 377,
-  "CreatedBy": 765,
-  "ChangedAt": "1996-07-13T03:24:48.4872676+02:00",
+  "Language": "est",
+  "Sentiment": 102,
+  "SentimentConfidence": 561,
+  "CreatedBy": 264,
+  "ChangedAt": "1998-02-10T13:38:14.295928+01:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 53
     }
   }
 }

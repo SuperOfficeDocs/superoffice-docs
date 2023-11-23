@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 120,
-  "StartTime": "1997-03-31T03:24:46.9394467+02:00",
-  "EndTime": "2020-03-16T03:24:46.9394467+01:00",
-  "Count": 492,
+  "PersonId": 511,
+  "StartTime": "2018-09-26T13:38:12.8584402+02:00",
+  "EndTime": "1998-03-16T13:38:12.8584402+01:00",
+  "Count": 2,
   "TaskIds": [
-    567,
-    218
+    256,
+    299
   ]
 }
 ```
@@ -153,64 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 107,
-    "StartDate": "2017-11-08T03:24:46.9394467+01:00",
-    "EndDate": "1998-09-18T03:24:46.9394467+02:00",
+    "AppointmentId": 572,
+    "StartDate": "2014-11-22T13:38:12.8584402+01:00",
+    "EndDate": "2016-03-26T13:38:12.8584402+01:00",
     "Type": "BookingForChecklist",
-    "Task": "unde",
-    "AssociateFullName": "Mrs. Antone Ward",
-    "ContactName": "Wiza Group",
-    "Description": "Programmable human-resource extranet",
-    "PersonFullName": "Maryjane Emard DDS",
-    "PersonId": 854,
-    "ContactId": 207,
-    "ProjectId": 143,
-    "ProjectName": "Schmeler-Zulauf",
-    "IsPublished": false,
-    "AssociateId": 735,
-    "ColorIndex": 409,
+    "Task": "numquam",
+    "AssociateFullName": "Mr. Litzy Sabryna Stark",
+    "ContactName": "Reilly-Larson",
+    "Description": "Integrated 5th generation architecture",
+    "PersonFullName": "Elian Turner",
+    "PersonId": 39,
+    "ContactId": 215,
+    "ProjectId": 554,
+    "ProjectName": "Maggio, Langosh and Moen",
+    "IsPublished": true,
+    "AssociateId": 58,
+    "ColorIndex": 477,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 552,
-    "PriorityName": "Macejkovic-Reichel",
+    "PriorityId": 731,
+    "PriorityName": "Rodriguez Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2001-05-19T03:24:46.9394467+02:00",
+    "ActiveDate": "1996-12-07T13:38:12.8584402+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-09-24T03:24:46.9394467+02:00",
-    "RecurringEndDate": "2021-10-25T03:24:46.9394467+02:00",
-    "MotherId": 538,
-    "AssignedBy": 84,
-    "AssignedByFullName": "Dr. Tracey Casper",
+    "RecurringStartDate": "2016-02-16T13:38:12.8584402+01:00",
+    "RecurringEndDate": "2016-03-31T13:38:12.8584402+02:00",
+    "MotherId": 516,
+    "AssignedBy": 482,
+    "AssignedByFullName": "Domenico Parker",
     "RejectReason": "",
-    "Location": "labore",
-    "AlarmLeadTime": "architecto",
-    "SaleId": 861,
-    "SaleName": "Swaniawski, Huels and Turcotte",
-    "AssociateName": "Davis-Hauck",
-    "CreatedDate": "1996-06-07T03:24:46.9394467+02:00",
-    "CreatedBy": "explicabo",
-    "CreatedByFullName": "Kiley Keebler",
-    "CreatedByAssociateId": 658,
+    "Location": "omnis",
+    "AlarmLeadTime": "saepe",
+    "SaleId": 130,
+    "SaleName": "Bartoletti Group",
+    "AssociateName": "Rau-Adams",
+    "CreatedDate": "2013-05-23T13:38:12.8584402+02:00",
+    "CreatedBy": "cum",
+    "CreatedByFullName": "Lyric Prosacco",
+    "CreatedByAssociateId": 950,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "reiciendis",
-    "Agenda": "sit",
-    "InternalNotes": "laborum",
+    "PreferredTZLocation": 234,
+    "Title": "earum",
+    "Agenda": "saepe",
+    "InternalNotes": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldType": "System.Int32",
+        "FieldLength": 949
       }
     }
   }

@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Carter, Davis and Herman",
-  "Comment": "adipisci",
-  "StakeholderRoleId": 71,
-  "CountryId": 81,
-  "PersonId": 407,
-  "EmailDescription": "donavon.dare@lemketowne.uk",
-  "EmailId": 436,
-  "EmailAddress": "vallie@krisspencer.name",
-  "PhoneId": 566,
-  "ContactName": "Wiegand, Frami and Smitham",
-  "ContactId": 828,
-  "SaleId": 634,
-  "Mrmrs": "sed",
-  "Firstname": "Ari",
-  "MiddleName": "Schuppe Group",
-  "Lastname": "Dickens",
-  "SaleStakeholderId": 868,
-  "Rank": 224,
-  "Phone": "(615)160-9679 x95187"
+  "StakeholderRoleName": "McDermott-Smitham",
+  "Comment": "cupiditate",
+  "StakeholderRoleId": 871,
+  "CountryId": 278,
+  "PersonId": 472,
+  "EmailDescription": "raphael@lindgren.co.uk",
+  "EmailId": 526,
+  "EmailAddress": "cali@dibbert.info",
+  "PhoneId": 766,
+  "ContactName": "Beer, Kuvalis and Kunze",
+  "ContactId": 251,
+  "SaleId": 688,
+  "Mrmrs": "temporibus",
+  "Firstname": "Faustino",
+  "MiddleName": "Johns, Gerhold and Bednar",
+  "Lastname": "Herzog",
+  "SaleStakeholderId": 211,
+  "Rank": 36,
+  "Phone": "059.934.4255"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Balistreri-Hansen",
-  "Comment": "autem",
-  "StakeholderRoleId": 981,
-  "CountryId": 743,
-  "PersonId": 663,
-  "EmailDescription": "buddy_howe@beattyhackett.uk",
-  "EmailId": 504,
-  "EmailAddress": "keon@okuneva.ca",
-  "PhoneId": 128,
-  "ContactName": "Harris-Kling",
-  "ContactId": 593,
-  "SaleId": 665,
-  "Mrmrs": "voluptatibus",
-  "Firstname": "Van",
-  "MiddleName": "Hilll Inc and Sons",
-  "Lastname": "McCullough",
-  "SaleStakeholderId": 463,
-  "Rank": 348,
-  "Phone": "(523)111-2821 x411",
+  "StakeholderRoleName": "Sanford LLC",
+  "Comment": "inventore",
+  "StakeholderRoleId": 410,
+  "CountryId": 849,
+  "PersonId": 542,
+  "EmailDescription": "thomas@waelchi.ca",
+  "EmailId": 113,
+  "EmailAddress": "nya.hickle@block.name",
+  "PhoneId": 546,
+  "ContactName": "Grimes, Purdy and Steuber",
+  "ContactId": 403,
+  "SaleId": 457,
+  "Mrmrs": "cum",
+  "Firstname": "Preston",
+  "MiddleName": "Swaniawski Group",
+  "Lastname": "Durgan",
+  "SaleStakeholderId": 352,
+  "Rank": 369,
+  "Phone": "(951)978-1653 x790",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldType": "System.String",
+      "FieldLength": 97
     }
   }
 }

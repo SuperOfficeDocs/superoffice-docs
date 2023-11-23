@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 685,
+  "EmailId": 198,
   "AttachmentIds": [
-    "aut",
-    "in"
+    "quia",
+    "iusto"
   ],
   "IncludeAttachments": false
 }
@@ -124,147 +124,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 324,
-      "ContactName": "Pfannerstill LLC",
-      "PersonId": 962,
-      "PersonName": "Walsh Inc and Sons",
-      "AssociateId": 61,
-      "Address": "qui",
-      "EmailId": 274,
+      "ContactId": 447,
+      "ContactName": "Satterfield Inc and Sons",
+      "PersonId": 458,
+      "PersonName": "Conroy-Durgan",
+      "AssociateId": 262,
+      "Address": "et",
+      "EmailId": 509,
       "DuplicatePersonIds": [
-        835,
-        96
+        906,
+        205
       ],
-      "Name": "Willms-Mayert",
+      "Name": "Howell-Dach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldType": "System.String",
+          "FieldLength": 656
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 60,
-      "ContactName": "Hudson Group",
-      "PersonId": 771,
-      "PersonName": "O'Reilly, Hagenes and Goodwin",
-      "AssociateId": 326,
-      "Address": "quia",
-      "EmailId": 467,
+      "ContactId": 84,
+      "ContactName": "Goodwin, Williamson and Huels",
+      "PersonId": 827,
+      "PersonName": "Willms-Reinger",
+      "AssociateId": 891,
+      "Address": "id",
+      "EmailId": 364,
       "DuplicatePersonIds": [
-        81,
-        431
+        116,
+        834
       ],
-      "Name": "Schneider LLC",
+      "Name": "Hackett LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldType": "System.String",
+          "FieldLength": 81
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 920,
-      "ContactName": "Bartoletti-Connelly",
-      "PersonId": 83,
-      "PersonName": "Marks Inc and Sons",
-      "AssociateId": 804,
-      "Address": "et",
-      "EmailId": 233,
+      "ContactId": 991,
+      "ContactName": "Swaniawski-Wolff",
+      "PersonId": 385,
+      "PersonName": "Dickens, Brekke and Yundt",
+      "AssociateId": 960,
+      "Address": "dolor",
+      "EmailId": 964,
       "DuplicatePersonIds": [
-        961,
-        430
+        15,
+        924
       ],
-      "Name": "Lemke-Heidenreich",
+      "Name": "Boehm LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 371
         }
       }
     }
   ],
-  "Subject": "temporibus",
-  "HTMLBody": "aliquid",
+  "Subject": "ut",
+  "HTMLBody": "harum",
   "From": null,
-  "Sent": "2014-01-25T03:24:47.7520273+01:00",
-  "Size": 665,
+  "Sent": "2007-06-07T13:38:13.5771153+02:00",
+  "Size": 709,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "sit",
+  "MessageID": "cupiditate",
+  "PlainBody": "facere",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 31,
+  "ServerId": 898,
   "Attachments": [
     {
-      "Description": "Reverse-engineered zero defect methodology",
-      "Filename": "quis",
-      "Size": 690,
-      "Type": "voluptatem",
-      "Encoding": "omnis",
-      "Id": "ea",
-      "Disposition": "perspiciatis",
+      "Description": "Ergonomic intangible database",
+      "Filename": "consequatur",
+      "Size": 484,
+      "Type": "quod",
+      "Encoding": "excepturi",
+      "Id": "fugit",
+      "Disposition": "saepe",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldType": "System.String",
+          "FieldLength": 600
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mueller-Paucek",
+      "Name": "O'Kon-Sipes",
       "Values": [
-        "dolores",
-        "quia"
+        "nihil",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldLength": 439
         }
       }
     },
     {
-      "Name": "Mueller-Paucek",
+      "Name": "O'Kon-Sipes",
       "Values": [
-        "dolores",
-        "quia"
+        "nihil",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldLength": 439
         }
       }
     }
   ],
-  "FolderName": "Hessel-Mertz",
-  "EmailItemId": 29,
-  "AccountId": 263,
-  "ReceivedAt": "2013-09-04T03:24:47.7520273+02:00",
+  "FolderName": "Schmidt, Nader and Wuckert",
+  "EmailItemId": 842,
+  "AccountId": 61,
+  "ReceivedAt": "2013-07-27T13:38:13.5771153+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-09-02T03:24:47.7520273+02:00",
+  "RepliedAt": "2020-04-10T13:38:13.5771153+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 737
     }
   }
 }

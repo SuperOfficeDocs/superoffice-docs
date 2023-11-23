@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eligendi",
+    "path": "voluptates",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eligendi",
+    "path": "voluptates",
     "value": {}
   }
 ]
@@ -146,31 +146,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 853,
-  "Name": "Kozey, Hudson and Rempel",
+  "WebhookId": 893,
+  "Name": "Wilkinson Group",
   "Events": [
-    "animi",
-    "similique"
+    "modi",
+    "magni"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eligendi",
+  "Secret": "est",
   "State": "Active",
-  "Type": "ad",
+  "Type": "sed",
   "Headers": {
-    "Headers1": "quia",
-    "Headers2": "at"
+    "Headers1": "accusamus",
+    "Headers2": "commodi"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2001-09-04T03:24:52.1463474+02:00",
+  "Registered": "2008-02-02T13:38:17.8744364+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-08-08T03:24:52.1463474+02:00",
+  "Updated": "2007-11-05T13:38:17.8744364+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "camden.russel@koelpin.co.uk",
+  "ErrorsEmail": "eliza@ledner.us",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

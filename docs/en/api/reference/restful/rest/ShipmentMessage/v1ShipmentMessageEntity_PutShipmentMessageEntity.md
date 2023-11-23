@@ -123,27 +123,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 742,
-  "PlainMessage": "possimus",
-  "HtmlMessage": "vitae",
-  "SmsMessage": "aut",
-  "Description": "Synergized needs-based attitude",
-  "Subject": "non",
-  "FolderId": 505,
-  "HeaderField": "perferendis",
-  "Design": "et",
+  "ShipmentMessageId": 628,
+  "PlainMessage": "dolorem",
+  "HtmlMessage": "sint",
+  "SmsMessage": "et",
+  "Description": "Stand-alone didactic solution",
+  "Subject": "deserunt",
+  "FolderId": 727,
+  "HeaderField": "voluptatum",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Front-line logistical orchestration",
-  "AccessKey": "eveniet",
-  "DocumentMessage": 957,
-  "Registered": "1996-10-30T03:24:51.927622+01:00",
-  "RegisteredAssociateId": 704,
-  "Updated": "2001-05-12T03:24:51.927622+02:00",
-  "UpdatedAssociateId": 674,
-  "UpdatedCount": 978
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Distributed 24/7 archive",
+  "AccessKey": "ipsa",
+  "DocumentMessage": 955,
+  "Registered": "1999-06-02T13:38:17.6711737+02:00",
+  "RegisteredAssociateId": 211,
+  "Updated": "2013-05-17T13:38:17.6711737+02:00",
+  "UpdatedAssociateId": 695,
+  "UpdatedCount": 796
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 909,
-  "PlainMessage": "tenetur",
-  "HtmlMessage": "laudantium",
-  "SmsMessage": "voluptatem",
-  "Description": "Future-proofed foreground instruction set",
-  "Subject": "qui",
-  "FolderId": 907,
-  "HeaderField": "voluptas",
-  "Design": "blanditiis",
+  "ShipmentMessageId": 729,
+  "PlainMessage": "facere",
+  "HtmlMessage": "suscipit",
+  "SmsMessage": "hic",
+  "Description": "Sharable uniform capability",
+  "Subject": "ea",
+  "FolderId": 837,
+  "HeaderField": "qui",
+  "Design": "voluptas",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "User-friendly static contingency",
-  "AccessKey": "sed",
-  "DocumentMessage": 214,
-  "Registered": "2006-07-06T03:24:51.927622+02:00",
-  "RegisteredAssociateId": 36,
-  "Updated": "2022-08-06T03:24:51.927622+02:00",
-  "UpdatedAssociateId": 475,
-  "UpdatedCount": 170,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Down-sized bottom-line architecture",
+  "AccessKey": "sunt",
+  "DocumentMessage": 915,
+  "Registered": "2010-10-02T13:38:17.6711737+02:00",
+  "RegisteredAssociateId": 790,
+  "Updated": "2012-12-21T13:38:17.6711737+01:00",
+  "UpdatedAssociateId": 528,
+  "UpdatedCount": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 927
+      "FieldLength": 782
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

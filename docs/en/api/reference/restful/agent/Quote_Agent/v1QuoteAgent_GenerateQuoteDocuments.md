@@ -91,12 +91,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 556,
-  "EmailBodyTemplateId": 364,
-  "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 413,
+  "QuoteVersionId": 352,
+  "EmailBodyTemplateId": 603,
+  "AttachMainDocument": false,
+  "QuotedProductsTemplateId": 616,
   "IncludeAttachments": false,
-  "RawMailSubject": "debitis"
+  "RawMailSubject": "consequatur"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 847,
-  "QuotedProductsId": 727,
+  "QuoteDocumentId": 964,
+  "QuotedProductsId": 914,
   "QuoteAttachmentIds": [
-    311,
-    320
+    312,
+    131
   ],
-  "MailBody": "est",
-  "MailSubject": "assumenda",
-  "ToEmail": "janie.anderson@brownjacobson.name",
-  "ToFullName": "Mr. Sandrine Alexandria Huels",
-  "ErrorMessage": "sed",
+  "MailBody": "laboriosam",
+  "MailSubject": "doloremque",
+  "ToEmail": "kris_kunde@lehner.co.uk",
+  "ToFullName": "Tony Gusikowski",
+  "ErrorMessage": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 258
     }
   }
 }

@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 731,
-    "AssociateName": "Fritsch LLC",
-    "AssociateId": 684,
+    "AccountId": 89,
+    "AssociateName": "Hodkiewicz Inc and Sons",
+    "AssociateId": 387,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 756
       }
     }
   },
   {
-    "AccountId": 731,
-    "AssociateName": "Fritsch LLC",
-    "AssociateId": 684,
+    "AccountId": 89,
+    "AssociateName": "Hodkiewicz Inc and Sons",
+    "AssociateId": 387,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 756
       }
     }
   }

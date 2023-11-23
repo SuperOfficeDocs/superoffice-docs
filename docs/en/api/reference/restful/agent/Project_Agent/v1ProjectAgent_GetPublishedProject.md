@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 175
+  "ProjectId": 38
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 613,
-  "Name": "Macejkovic Inc and Sons",
-  "Description": "Phased value-added complexity",
+  "ProjectId": 625,
+  "Name": "Hoeger Inc and Sons",
+  "Description": "Re-contextualized bottom-line hierarchy",
   "URL": "http://www.example.com/",
-  "Type": "provident",
-  "AssociateId": 419,
-  "AssociateFullName": "Miss Jaylan Carolina Mann V",
-  "TypeId": 359,
-  "Updated": "2018-08-23T03:24:48.0957311+02:00",
-  "StatusId": 671,
-  "Status": "maiores",
-  "TextId": 518,
-  "PublishTo": "2023-04-21T03:24:48.0957311+02:00",
-  "PublishFrom": "2000-10-15T03:24:48.0957311+02:00",
-  "IsPublished": false,
+  "Type": "molestias",
+  "AssociateId": 582,
+  "AssociateFullName": "Ms. Irwin Roscoe Robel II",
+  "TypeId": 182,
+  "Updated": "2020-01-26T13:38:13.9834617+01:00",
+  "StatusId": 524,
+  "Status": "in",
+  "TextId": 194,
+  "PublishTo": "1999-03-16T13:38:13.9834617+01:00",
+  "PublishFrom": "2013-07-27T13:38:13.9834617+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "614511",
-  "ActiveErpLinks": 486,
+  "ProjectNumber": "1062422",
+  "ActiveErpLinks": 593,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 67
     }
   }
 }

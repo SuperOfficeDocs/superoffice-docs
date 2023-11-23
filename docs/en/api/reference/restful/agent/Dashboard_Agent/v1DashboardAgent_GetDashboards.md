@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 672
+  "AssociateId": 932
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 452,
-    "AssociateId": 1000,
-    "Caption": "beatae",
+    "DashboardId": 645,
+    "AssociateId": 959,
+    "Caption": "minima",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 629,
-        "Caption": "maxime",
-        "Description": "Synergistic leading edge pricing structure",
-        "ChartName": "Connelly Group",
-        "ChartId": "beatae",
-        "IsDefault": true,
-        "AssociateId": 138,
-        "GroupId": 822,
-        "SelectionId": 154,
-        "Config": "in",
+        "DashboardTileId": 459,
+        "Caption": "et",
+        "Description": "Open-source maximized firmware",
+        "ChartName": "Kris Group",
+        "ChartId": "perferendis",
+        "IsDefault": false,
+        "AssociateId": 796,
+        "GroupId": 895,
+        "SelectionId": 7,
+        "Config": "provident",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 808
+            "FieldLength": 638
           }
         }
       }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldLength": 92
       }
     }
   }

@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 8,
-  "Name": "Hegmann Inc and Sons",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 761,
-  "UdListDefinitionId": 868
+  "HeadingId": 338,
+  "Name": "Kuphal, Schowalter and D'Amore",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "Rank": 906,
+  "UdListDefinitionId": 902
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 323,
-  "Name": "Stiedemann LLC",
-  "Tooltip": "inventore",
+  "HeadingId": 470,
+  "Name": "Emard, Langworth and Herman",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 251,
-  "UdListDefinitionId": 645,
+  "Rank": 950,
+  "UdListDefinitionId": 788,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldType": "System.String",
+      "FieldLength": 924
     }
   }
 }

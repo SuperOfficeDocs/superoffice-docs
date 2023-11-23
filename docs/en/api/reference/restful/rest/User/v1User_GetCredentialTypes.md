@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "qui",
-    "Type": "aut",
-    "Description": "Switchable systematic functionalities",
+    "DisplayType": "quod",
+    "Type": "inventore",
+    "Description": "Innovative attitude-oriented portal",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 482
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 59,
-    "Name": "Borer Inc and Sons",
-    "ToolTip": "Accusantium possimus esse dolor molestias minus quia autem.",
+    "Id": 528,
+    "Name": "Heller LLC",
+    "ToolTip": "Minima impedit laborum.",
     "Deleted": false,
-    "Rank": 710,
-    "Type": "nesciunt",
-    "ColorBlock": 8,
-    "IconHint": "sed",
+    "Rank": 965,
+    "Type": "id",
+    "ColorBlock": 934,
+    "IconHint": "deserunt",
     "Selected": false,
-    "LastChanged": "2001-01-19T03:24:52.1775959+01:00",
+    "LastChanged": "2007-05-09T13:38:17.9056813+02:00",
     "ChildItems": [
       {
-        "Id": 799,
-        "Name": "O'Keefe, Upton and Dicki",
-        "ToolTip": "Dicta voluptas tempore temporibus odit laboriosam.",
-        "Deleted": true,
-        "Rank": 251,
-        "Type": "id",
-        "ColorBlock": 3,
-        "IconHint": "sequi",
-        "Selected": true,
-        "LastChanged": "2018-05-06T03:24:52.1775959+02:00",
+        "Id": 256,
+        "Name": "Emmerich Group",
+        "ToolTip": "Occaecati aspernatur dolorem omnis.",
+        "Deleted": false,
+        "Rank": 3,
+        "Type": "sapiente",
+        "ColorBlock": 480,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2015-04-04T13:38:17.9056813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "ut",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Landen McKenzie"
+        "FullName": "Prof. Bernard Kshlerin"
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "non",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Narciso Predovic"
+    "FullName": "Mr. Rowland Clemens Runolfsdottir V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Zieme-Nienow",
-    "ToolTip": "Ut eius.",
+    "Id": 891,
+    "Name": "Harris Group",
+    "ToolTip": "Dolor tenetur qui quod.",
     "Deleted": false,
-    "Rank": 860,
-    "Type": "aut",
-    "ColorBlock": 415,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2002-09-10T03:24:52.1775959+02:00",
+    "Rank": 903,
+    "Type": "illo",
+    "ColorBlock": 984,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "1998-04-11T13:38:17.9056813+02:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "McCullough, Dietrich and Wilderman",
-        "ToolTip": "Numquam ullam voluptatem.",
-        "Deleted": true,
-        "Rank": 28,
-        "Type": "qui",
-        "ColorBlock": 734,
-        "IconHint": "excepturi",
+        "Id": 221,
+        "Name": "Williamson-Herman",
+        "ToolTip": "Quia nemo libero.",
+        "Deleted": false,
+        "Rank": 20,
+        "Type": "dolorem",
+        "ColorBlock": 852,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2012-12-13T03:24:52.1775959+01:00",
+        "LastChanged": "2019-01-10T13:38:17.9056813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "et",
+        "ExtraInfo": "repellat",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Anahi Kyleigh Hansen I",
+        "FullName": "Coy Marlen Bruen Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 539
+            "FieldLength": 42
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "ex",
+    "ExtraInfo": "nulla",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Mr. Claud Hodkiewicz",
+    "FullName": "Julie Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldType": "System.String",
+        "FieldLength": 175
       }
     }
   }

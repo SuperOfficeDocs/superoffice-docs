@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Kilback LLC",
-    "ToolTip": "Non doloremque.",
+    "Id": 870,
+    "Name": "Gislason-Toy",
+    "ToolTip": "Unde incidunt aperiam eius.",
     "Deleted": false,
-    "Rank": 698,
-    "Type": "est",
-    "ColorBlock": 961,
-    "IconHint": "quia",
+    "Rank": 707,
+    "Type": "consequatur",
+    "ColorBlock": 305,
+    "IconHint": "sapiente",
     "Selected": false,
-    "LastChanged": "2015-11-30T03:24:51.7557701+01:00",
+    "LastChanged": "2006-07-12T13:38:17.5774332+02:00",
     "ChildItems": [
       {
-        "Id": 26,
-        "Name": "Denesik, Larkin and Okuneva",
-        "ToolTip": "Omnis quasi voluptas vel dolorum.",
+        "Id": 166,
+        "Name": "Bartell, Bauch and Koelpin",
+        "ToolTip": "Consequatur voluptas nostrum nobis occaecati nisi incidunt qui.",
         "Deleted": true,
-        "Rank": 391,
-        "Type": "quod",
-        "ColorBlock": 757,
-        "IconHint": "excepturi",
+        "Rank": 764,
+        "Type": "voluptatibus",
+        "ColorBlock": 578,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2017-09-20T03:24:51.7557701+02:00",
+        "LastChanged": "2021-07-21T13:38:17.5774332+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "est",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "ratione",
         "Hidden": true,
-        "FullName": "Abigale Crona",
+        "FullName": "Mr. Bonnie Cloyd Braun PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 286
+            "FieldLength": 320
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Dr. Dejon Spencer",
+    "ExtraInfo": "quae",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Joanne Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 466
+        "FieldLength": 79
       }
     }
   }

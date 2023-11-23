@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 921,
+  "SystemEventId": 988,
   "Scope": "Database",
-  "Eta": "1999-09-21T03:24:47.3614382+02:00",
-  "Eventkey": "qui",
-  "Eventmess": "excepturi",
-  "ExtraInfo": 977,
-  "Owner": 34,
-  "UpdatedCount": 709,
-  "Registered": "2004-02-29T03:24:47.3614382+01:00",
+  "Eta": "2016-05-08T13:38:13.2646505+02:00",
+  "Eventkey": "nobis",
+  "Eventmess": "voluptatem",
+  "ExtraInfo": 59,
+  "Owner": 3,
+  "UpdatedCount": 559,
+  "Registered": "2009-11-12T13:38:13.2646505+01:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 88,
+  "SystemEventId": 405,
   "Scope": "Database",
-  "Eta": "2000-05-30T03:24:47.3614382+02:00",
-  "Eventkey": "officia",
-  "Eventmess": "voluptatibus",
-  "ExtraInfo": 103,
-  "Owner": 649,
-  "UpdatedCount": 527,
-  "Registered": "1999-01-14T03:24:47.3614382+01:00",
+  "Eta": "2014-06-19T13:38:13.2646505+02:00",
+  "Eventkey": "cumque",
+  "Eventmess": "nobis",
+  "ExtraInfo": 559,
+  "Owner": 858,
+  "UpdatedCount": 457,
+  "Registered": "2019-06-28T13:38:13.2646505+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 263
     }
   }
 }

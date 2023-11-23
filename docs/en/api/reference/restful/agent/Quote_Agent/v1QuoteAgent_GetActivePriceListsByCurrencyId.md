@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 756,
-  "CurrencyId": 702
+  "QuoteConnectionId": 214,
+  "CurrencyId": 95
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 197,
-    "ERPPriceListKey": "corporis",
-    "QuoteConnectionId": 134,
-    "Name": "Muller-Waters",
-    "Description": "Innovative intangible attitude",
-    "Currency": "magni",
-    "CurrencyName": "Yost LLC",
-    "ValidFrom": "2012-07-30T03:24:48.1426062+02:00",
-    "ValidTo": "1998-08-17T03:24:48.1426062+02:00",
+    "PriceListId": 970,
+    "ERPPriceListKey": "odit",
+    "QuoteConnectionId": 559,
+    "Name": "Pacocha, Buckridge and Davis",
+    "Description": "Expanded 24 hour array",
+    "Currency": "inventore",
+    "CurrencyName": "Welch Group",
+    "ValidFrom": "2019-08-13T13:38:14.0303322+02:00",
+    "ValidTo": "2015-02-03T13:38:14.0303322+01:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 371
+        "FieldLength": 758
       }
     }
   }

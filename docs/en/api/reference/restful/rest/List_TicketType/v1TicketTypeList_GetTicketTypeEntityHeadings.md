@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 84,
-    "Name": "Langworth, Corwin and Casper",
-    "Tooltip": "magnam",
+    "HeadingId": 411,
+    "Name": "Murray, Beatty and Hettinger",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 289,
-    "UdListDefinitionId": 437,
+    "Rank": 658,
+    "UdListDefinitionId": 845,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldLength": 368
       }
     }
   }

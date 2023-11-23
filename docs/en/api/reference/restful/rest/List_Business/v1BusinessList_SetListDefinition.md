@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Dickinson Group",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "Rank": 60,
+  "Id": 629,
+  "Name": "Gutkowski, Smitham and Beahan",
+  "Tooltip": "provident",
+  "Deleted": false,
+  "Rank": 723,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "maxime",
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 450,
-  "Name": "Nader-Robel",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 850,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 174,
+  "Name": "Bernhard, Kris and Reilly",
+  "Tooltip": "assumenda",
+  "Deleted": false,
+  "Rank": 395,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "amet",
+  "ListType": "dolorem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldType": "System.String",
+      "FieldLength": 114
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 954,
-  "Name": "Bartoletti, Doyle and White",
-  "Tooltip": "voluptatibus",
+  "Id": 981,
+  "Name": "Bauch LLC",
+  "Tooltip": "provident",
   "Deleted": true,
-  "UdListDefinitionId": 115,
-  "Rank": 17,
+  "UdListDefinitionId": 160,
+  "Rank": 348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 493
     }
   }
 }

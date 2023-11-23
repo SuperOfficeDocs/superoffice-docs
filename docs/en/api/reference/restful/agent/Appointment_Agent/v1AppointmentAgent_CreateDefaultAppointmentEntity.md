@@ -87,7 +87,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -128,125 +129,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-03-15T03:24:46.9864372+01:00",
-  "AppointmentId": 591,
-  "Description": "Business-focused asynchronous benchmark",
-  "StartDate": "2011-05-01T03:24:46.9864372+02:00",
-  "EndDate": "2016-08-26T03:24:46.9864372+02:00",
+  "CreatedDate": "2004-12-27T13:38:12.9053116+01:00",
+  "AppointmentId": 23,
+  "Description": "Assimilated stable intranet",
+  "StartDate": "2008-05-08T13:38:12.9053116+02:00",
+  "EndDate": "2003-07-29T13:38:12.9053116+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 576,
+  "MotherId": 567,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-04-01T03:24:46.9864372+02:00",
+  "UpdatedDate": "2000-11-07T13:38:12.9053116+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 834,
+  "ActiveLinks": 320,
   "Links": [
     {
-      "EntityName": "Jones-Brakus",
-      "Id": 174,
-      "Description": "Centralized radical hardware",
-      "ExtraInfo": "non",
-      "LinkId": 75,
+      "EntityName": "Lesch Inc and Sons",
+      "Id": 46,
+      "Description": "Right-sized disintermediate moderator",
+      "ExtraInfo": "laboriosam",
+      "LinkId": 70,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldLength": 519
         }
       }
     }
   ],
-  "AlarmLeadTime": "consequuntur",
+  "AlarmLeadTime": "sequi",
   "HasAlarm": false,
-  "ColorIndex": 730,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "molestiae",
-  "LeadTime": "ab",
-  "Location": "magni",
-  "RejectCounter": 731,
+  "ColorIndex": 887,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "vel",
+  "LeadTime": "illum",
+  "Location": "quaerat",
+  "RejectCounter": 654,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 639,
-      "PersonId": 615,
-      "ContactId": 225,
-      "EmailId": 671,
+      "AssociateId": 654,
+      "PersonId": 391,
+      "ContactId": 311,
+      "EmailId": 677,
       "SendEmail": true,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 639,
-      "PersonId": 615,
-      "ContactId": 225,
-      "EmailId": 671,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "royal_bednar@moore.biz",
+      "Description": "Polarised 5th generation collaboration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-09-14T03:24:46.9864372+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2022-12-03T13:38:12.9053116+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 279,
+  "PreferredTZLocation": 494,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 343,
+  "SuggestedAppointmentId": 19,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ipsam",
-  "Title": "vel",
-  "Agenda": "inventore",
-  "InternalNotes": "et",
+  "CentralserviceVideomeetId": "aut",
+  "Title": "rerum",
+  "Agenda": "vero",
+  "InternalNotes": "explicabo",
   "UserDefinedFields": {
-    "SuperOffice:1": "Guido Hane",
-    "SuperOffice:2": "Kiel Kuhn MD"
+    "SuperOffice:1": "1130380241",
+    "SuperOffice:2": "Jerod Ryan"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "ex",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "1999-10-17T03:24:46.9864372+02:00",
-  "PublishTo": "1999-04-28T03:24:46.9864372+02:00",
-  "PublishFrom": "2010-08-02T03:24:46.9864372+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2017-10-10T13:38:12.9053116+02:00",
+  "PublishTo": "2011-06-12T13:38:12.9053116+02:00",
+  "PublishFrom": "1998-05-21T13:38:12.9053116+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 412,
+      "VisibleId": 59,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 942
+          "FieldType": "System.Int32",
+          "FieldLength": 724
         }
       }
     },
     {
-      "VisibleId": 412,
+      "VisibleId": 59,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 942
+          "FieldType": "System.Int32",
+          "FieldLength": 724
         }
       }
     }
@@ -256,7 +252,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 353
     }
   }
 }

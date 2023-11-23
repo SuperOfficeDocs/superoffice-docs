@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    279,
-    297
+    828,
+    523
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 578,
-    "Caption": "reiciendis",
-    "Description": "User-centric scalable framework",
-    "ChartName": "Harber LLC",
-    "ChartId": "hic",
+    "DashboardTileId": 211,
+    "Caption": "dicta",
+    "Description": "Innovative 3rd generation matrix",
+    "ChartName": "Carter-Green",
+    "ChartId": "tenetur",
     "IsDefault": false,
-    "AssociateId": 639,
-    "GroupId": 817,
-    "SelectionId": 941,
-    "Config": "non",
+    "AssociateId": 717,
+    "GroupId": 625,
+    "SelectionId": 31,
+    "Config": "et",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Goyette Inc and Sons",
-        "Description": "Managed optimal concept",
+        "Name": "Dickens LLC",
+        "Description": "Multi-layered bi-directional challenge",
         "Type": "Boolean",
-        "ListName": "Cremin-Kihn",
+        "ListName": "Hackett-Leannon",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "aut",
+        "Value": "accusantium",
         "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 117
+            "FieldType": "System.Int32",
+            "FieldLength": 670
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 741,
+        "VisibleId": 490,
         "Visibility": "All",
-        "DisplayValue": "iure",
+        "DisplayValue": "ex",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 906
+            "FieldType": "System.Int32",
+            "FieldLength": 313
           }
         }
       },
       {
-        "VisibleId": 741,
+        "VisibleId": 490,
         "Visibility": "All",
-        "DisplayValue": "iure",
+        "DisplayValue": "ex",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 906
+            "FieldType": "System.Int32",
+            "FieldLength": 313
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldLength": 34
       }
     }
   }

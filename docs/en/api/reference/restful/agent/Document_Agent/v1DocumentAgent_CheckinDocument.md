@@ -83,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 529,
+  "DocumentId": 833,
   "AllowedReturnTypes": [
-    "nihil",
-    "doloremque"
+    "sunt",
+    "cumque"
   ],
-  "VersionDescription": "Universal logistical policy",
+  "VersionDescription": "Robust attitude-oriented support",
   "VersionExtraFields": [
-    "cum",
-    "vel"
+    "velit",
+    "exercitationem"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "non",
-  "VersionId": "harum",
+  "ExternalReference": "cumque",
+  "VersionId": "tempora",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "sint",
-  "AdditionalInfo": "commodi"
+  "Value": "quia",
+  "AdditionalInfo": "qui"
 }
 ```

@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 714,
+  "TargetYear": 348,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 912,
-  "DimensionId": 749
+  "Id": 3,
+  "DimensionId": 728
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 356,
+  "TargetAssignmentInfoId": 86,
   "Values": [
-    20,
-    127
+    629,
+    115
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 16,
-  "DimensionListItemDisplayName": "Bailey Group",
+  "DimensionListItem": 267,
+  "DimensionListItemDisplayName": "Grimes, Streich and Marquardt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 34
     }
   }
 }

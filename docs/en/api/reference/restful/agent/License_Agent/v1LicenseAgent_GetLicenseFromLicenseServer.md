@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Purdy LLC"
+  "OwnerName": "Toy Group"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "transform dynamic experiences",
-  "CanBeActivated": false,
+  "Reason": "",
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 771,
-      "NumberOfLicensesFree": 938,
-      "NumberOfLicensesAdded": 112,
-      "NumberOfLicensesNewTotal": 982,
-      "NumberOfLicensesNewFree": 131,
-      "NumberOfLicensesTotal": 158
+      "NumberOfLicensesInUse": 315,
+      "NumberOfLicensesFree": 841,
+      "NumberOfLicensesAdded": 320,
+      "NumberOfLicensesNewTotal": 700,
+      "NumberOfLicensesNewFree": 940,
+      "NumberOfLicensesTotal": 213
     }
   ],
-  "AccumulatedNextCheckDate": "2007-01-26T03:24:47.8301403+01:00"
+  "AccumulatedNextCheckDate": "2016-01-12T13:38:13.6396102+01:00"
 }
 ```

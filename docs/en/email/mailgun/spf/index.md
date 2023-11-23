@@ -13,7 +13,7 @@ An SPF record is a type of [Domain Name Service][1] (DNS) record that identifies
 
 ## Why is it Important?
 
-Today, nearly all abusive email messages carry fake sender addresses. Spammers send email from their mail servers but with your *domain* as the sending email. The victims whose addresses are being abused often suffer from the consequences, because their reputation gets diminished and they have to disclaim liability for the abuse or waste their time sorting out misdirected bounce messages.
+Today, nearly all abusive email messages carry fake sender addresses. Spammers send email from their mail servers but with your *domain* as the sending email. The victims whose addresses are being abused often suffer from the consequences because their reputation gets diminished and they have to disclaim liability for the abuse or waste their time sorting out misdirected bounce messages.
 
 ## What is the purpose of SPF record?
 
@@ -21,7 +21,7 @@ The purpose of an SPF record is to prevent spammers from sending messages with f
 
 **More info:**
 
-Google article [About SPF records][3]
+Google article [about SPF records][3].
 
 ## SuperOffice CRM Online SPF details
 
@@ -29,16 +29,16 @@ Most European CRM Online customers uses Mailgun EU IP addresses.
 
 The SPF 'mailgun.org' includes:
 
-* '_spf.mailgun.org' (ALL Mailgun US IP addresses)
-* '_spf.eu.mailgun.org' (all Mailgun EU IP addresses).
+* '_spf.mailgun.org' (all Mailgun US IP addresses)
+* '_spf.eu.mailgun.org' (all Mailgun EU IP addresses)
 
 <!-- markdownlint-disable MD044 -->
 The SPF '_spf.online.superoffice.com' includes:
 
-* 3 IP address (or ranges) of a Mailgun US cluster (the IP address we used to use while we were using Mailgun US)
+* 3 IP addresses (or ranges) of a Mailgun US cluster (the IP addresses we used to use while we were using Mailgun US)
 * shortcut to SPF range '_spf.eu.mailgun.org' (all Mailgun EU IP addresses)
 
-All SuperOffice Online customers should add SPF '_spf.online.superoffice.com' for the domains they use as sender's email or in custom DKIM.
+**All SuperOffice Online customers should add SPF '_spf.online.superoffice.com' for the domains they use as sender's email or in custom DKIM.**
 <!-- markdownlint-restore -->
 
 

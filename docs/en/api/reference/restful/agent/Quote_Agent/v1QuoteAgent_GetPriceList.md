@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=586
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=989
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 428,
-  "ERPPriceListKey": "id",
-  "QuoteConnectionId": 328,
-  "Name": "Miller LLC",
-  "Description": "Cross-group global help-desk",
-  "Currency": "odit",
-  "CurrencyName": "Kerluke, Gusikowski and Huel",
-  "ValidFrom": "2019-04-03T03:24:48.1269787+02:00",
-  "ValidTo": "2001-03-15T03:24:48.1269787+01:00",
-  "IsActive": true,
+  "PriceListId": 823,
+  "ERPPriceListKey": "impedit",
+  "QuoteConnectionId": 271,
+  "Name": "Ondricka, Adams and Reichert",
+  "Description": "Reduced transitional instruction set",
+  "Currency": "maxime",
+  "CurrencyName": "Kiehn Group",
+  "ValidFrom": "2010-06-12T13:38:14.0147081+02:00",
+  "ValidTo": "2012-01-03T13:38:14.0147081+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldLength": 93
     }
   }
 }

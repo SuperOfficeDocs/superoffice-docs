@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "O'Keefe-Schmitt"
+  "TaskName": "Hodkiewicz, Russel and Thiel"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Wyman-Wuckert",
-    "AssociateId": 572,
-    "DetailsTable": 295,
-    "DetailsRecord": 817,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 657,
+    "Name": "Hayes, Skiles and Gibson",
+    "AssociateId": 767,
+    "DetailsTable": 933,
+    "DetailsRecord": 278,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "sunt",
-      "ParameterObject2": "suscipit"
+      "ParameterObject1": "cum",
+      "ParameterObject2": "voluptas"
     },
-    "LastStarted": "2000-04-09T03:24:47.2520803+02:00",
-    "Created": "2014-11-05T03:24:47.2520803+01:00",
-    "StartCount": 886,
-    "DatabaseSerialNumber": "495212",
-    "Context": "in",
-    "Result": "nesciunt",
+    "LastStarted": "2007-06-18T13:38:13.0927968+02:00",
+    "Created": "2006-02-07T13:38:13.0927968+01:00",
+    "StartCount": 328,
+    "DatabaseSerialNumber": "551072",
+    "Context": "est",
+    "Result": "consequatur",
     "State": "All",
-    "Description": "Vision-oriented multi-tasking focus group",
-    "Response": "qui",
-    "Request": "rerum",
-    "ProgressDescription": "Triple-buffered local service-desk",
-    "ProgressPercent": 955,
-    "FileName": "Kunze-Schinner",
+    "Description": "Pre-emptive 5th generation concept",
+    "Response": "voluptas",
+    "Request": "nihil",
+    "ProgressDescription": "User-centric motivating methodology",
+    "ProgressPercent": 816,
+    "FileName": "Toy-Block",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldType": "System.Int32",
+        "FieldLength": 552
       }
     }
   }

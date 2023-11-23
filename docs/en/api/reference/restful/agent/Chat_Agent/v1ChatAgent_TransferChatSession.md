@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 339,
-  "ToAssociate": "cum"
+  "ChatSessionId": 954,
+  "ToAssociate": "fuga"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 979,
-  "TopicId": 169,
+  "ChatSessionId": 711,
+  "TopicId": 775,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quia",
-  "CustomerHost": "deserunt",
-  "CustomerName": "Simonis-Stanton",
-  "CustomerEmail": "kelly_upton@sanford.uk",
-  "CustomerPhone": "1-090-911-3926 x132",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Pfannerstill-Simonis",
+  "CustomerAlias": "voluptatum",
+  "CustomerHost": "illo",
+  "CustomerName": "Krajcik-Kirlin",
+  "CustomerEmail": "cleo_jacobi@mitchell.uk",
+  "CustomerPhone": "(219)886-5962",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Rohan LLC",
   "Status": "Closed",
-  "FirstMessage": "ut",
-  "LastMessage": "vel",
-  "WhenRequested": "1998-08-09T03:24:47.3145639+02:00",
-  "WhenStarted": "2007-03-04T03:24:47.3145639+01:00",
-  "WhenEnded": "2022-02-13T03:24:47.3145639+01:00",
-  "WhenIdle": "1998-05-15T03:24:47.3145639+02:00",
-  "WhenFetched": "2004-10-02T03:24:47.3145639+02:00",
-  "SessionKey": "facere",
-  "InitialQueuePos": 682,
-  "AlertLevel": 694,
-  "Rank": 897,
+  "FirstMessage": "sint",
+  "LastMessage": "molestiae",
+  "WhenRequested": "2006-10-10T13:38:13.1396659+02:00",
+  "WhenStarted": "2011-06-01T13:38:13.1396659+02:00",
+  "WhenEnded": "2018-02-25T13:38:13.1396659+01:00",
+  "WhenIdle": "2021-04-27T13:38:13.1396659+02:00",
+  "WhenFetched": "2014-05-05T13:38:13.1396659+02:00",
+  "SessionKey": "repellat",
+  "InitialQueuePos": 254,
+  "AlertLevel": 506,
+  "Rank": 850,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 727,
+  "Rating": 901,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 537
     }
   }
 }

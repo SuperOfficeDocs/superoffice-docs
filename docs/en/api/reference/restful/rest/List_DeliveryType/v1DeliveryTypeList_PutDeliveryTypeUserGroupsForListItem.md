@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 47,
-    "Name": "Ebert, Botsford and Rau",
-    "ToolTip": "Odit amet error debitis quaerat optio vitae autem.",
+    "Id": 860,
+    "Name": "Ruecker, Ondricka and Grimes",
+    "ToolTip": "Iste ad deserunt sapiente magni provident.",
     "Deleted": false,
-    "Rank": 773,
-    "Type": "voluptas",
-    "ColorBlock": 511,
-    "IconHint": "harum",
+    "Rank": 555,
+    "Type": "doloribus",
+    "ColorBlock": 495,
+    "IconHint": "corporis",
     "Selected": true,
-    "LastChanged": "2023-03-26T03:24:52.240053+02:00",
+    "LastChanged": "2003-12-06T13:38:18.0462875+01:00",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Schultz LLC",
-        "ToolTip": "Est commodi necessitatibus molestias consectetur sit.",
+        "Id": 728,
+        "Name": "Douglas-Rempel",
+        "ToolTip": "Sit quia dolore.",
         "Deleted": true,
-        "Rank": 727,
-        "Type": "explicabo",
-        "ColorBlock": 227,
-        "IconHint": "modi",
-        "Selected": true,
-        "LastChanged": "2018-07-27T03:24:52.240053+02:00",
+        "Rank": 181,
+        "Type": "enim",
+        "ColorBlock": 912,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2001-10-17T13:38:18.0462875+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "quia",
+        "ExtraInfo": "ut",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Alexane Kiarra Langosh Sr."
+        "FullName": "Brielle Braun"
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Caden Schoen"
+    "ExtraInfo": "molestias",
+    "StyleHint": "dignissimos",
+    "Hidden": true,
+    "FullName": "Stan Mayert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 339,
-    "Name": "Walker-Towne",
-    "ToolTip": "Earum commodi et qui ducimus quos animi quia.",
-    "Deleted": true,
-    "Rank": 864,
-    "Type": "dolores",
-    "ColorBlock": 301,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2000-09-23T03:24:52.240053+02:00",
+    "Id": 365,
+    "Name": "Gottlieb-King",
+    "ToolTip": "Labore aut unde ab.",
+    "Deleted": false,
+    "Rank": 767,
+    "Type": "excepturi",
+    "ColorBlock": 962,
+    "IconHint": "molestias",
+    "Selected": true,
+    "LastChanged": "1999-11-27T13:38:18.0462875+01:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Bauch, Hartmann and Kohler",
-        "ToolTip": "Ut voluptas perspiciatis cumque veritatis ad voluptatem.",
+        "Id": 259,
+        "Name": "Russel Inc and Sons",
+        "ToolTip": "Animi illo modi minus sequi in ex.",
         "Deleted": false,
-        "Rank": 623,
-        "Type": "cum",
-        "ColorBlock": 312,
-        "IconHint": "temporibus",
+        "Rank": 632,
+        "Type": "qui",
+        "ColorBlock": 89,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2005-05-15T03:24:52.240053+02:00",
+        "LastChanged": "2009-12-11T13:38:18.0462875+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "totam",
+        "ExtraInfo": "et",
+        "StyleHint": "doloribus",
         "Hidden": true,
-        "FullName": "Florence Legros",
+        "FullName": "Mrs. Retha Clint Hammes DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 549
+            "FieldType": "System.String",
+            "FieldLength": 765
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Hank Keeling",
+    "ExtraInfo": "eaque",
+    "StyleHint": "iste",
+    "Hidden": true,
+    "FullName": "Demarcus Alia Smith V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldType": "System.String",
+        "FieldLength": 203
       }
     }
   }

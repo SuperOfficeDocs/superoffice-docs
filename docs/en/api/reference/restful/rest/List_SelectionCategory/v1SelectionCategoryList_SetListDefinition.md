@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
-  "Name": "Gulgowski LLC",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 121,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 901,
+  "Name": "Johnston Group",
+  "Tooltip": "ipsam",
+  "Deleted": true,
+  "Rank": 298,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "delectus",
+  "ListType": "porro",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 802,
-  "Name": "Abbott-Ryan",
-  "Tooltip": "magni",
-  "Deleted": true,
-  "Rank": 902,
+  "Id": 334,
+  "Name": "Jewess Group",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "Rank": 999,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "corrupti",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 937
+      "FieldType": "System.Int32",
+      "FieldLength": 122
     }
   }
 }

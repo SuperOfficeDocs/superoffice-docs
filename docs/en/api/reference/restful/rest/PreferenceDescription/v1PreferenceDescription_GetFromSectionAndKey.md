@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 82,
-  "Section": "iste",
-  "Key": "delectus",
-  "Name": "Erdman Inc and Sons",
+  "PrefDescId": 998,
+  "Section": "libero",
+  "Key": "sit",
+  "Name": "Pacocha-Waelchi",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Compatible bottom-line extranet",
+  "Description": "Reduced non-volatile forecast",
   "IsBuiltin": false,
-  "TableName": "West-Olson",
-  "UserDefinedListId": 380,
-  "Rank": 949,
-  "SubGroup": "fuga",
-  "MinLevel": 218,
-  "MaxValue": 262,
-  "MinValue": 409,
-  "RequiredLicense": "et",
+  "TableName": "O'Keefe, Haag and Mitchell",
+  "UserDefinedListId": 850,
+  "Rank": 707,
+  "SubGroup": "modi",
+  "MinLevel": 710,
+  "MaxValue": 685,
+  "MinValue": 719,
+  "RequiredLicense": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldType": "System.Int32",
+      "FieldLength": 868
     }
   }
 }

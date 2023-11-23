@@ -116,6 +116,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -128,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2013-11-25T03:24:47.2052134+01:00",
-  "EndTime": "2019-05-02T03:24:47.2052134+02:00",
-  "Count": 377
+  "StartTime": "2018-06-18T13:38:13.0459237+02:00",
+  "EndTime": "2014-06-05T13:38:13.0459237+02:00",
+  "Count": 795
 }
 ```
 
@@ -146,64 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 644,
-    "StartDate": "1997-08-18T03:24:47.2052134+02:00",
-    "EndDate": "2003-04-16T03:24:47.2052134+02:00",
+    "AppointmentId": 817,
+    "StartDate": "2020-04-27T13:38:13.0459237+02:00",
+    "EndDate": "2023-05-03T13:38:13.0459237+02:00",
     "Type": "BookingForChecklist",
-    "Task": "id",
-    "AssociateFullName": "Ms. Doug Satterfield DDS",
-    "ContactName": "Marquardt, Mann and Harris",
-    "Description": "User-centric holistic circuit",
-    "PersonFullName": "Alison Willms",
-    "PersonId": 7,
-    "ContactId": 408,
-    "ProjectId": 231,
-    "ProjectName": "Rempel-Schulist",
-    "IsPublished": true,
-    "AssociateId": 182,
-    "ColorIndex": 943,
-    "IsFree": false,
+    "Task": "et",
+    "AssociateFullName": "Kacey Quitzon",
+    "ContactName": "Littel, Graham and Bahringer",
+    "Description": "Mandatory empowering structure",
+    "PersonFullName": "Miss Emerald Weber",
+    "PersonId": 841,
+    "ContactId": 478,
+    "ProjectId": 296,
+    "ProjectName": "Nienow Group",
+    "IsPublished": false,
+    "AssociateId": 125,
+    "ColorIndex": 290,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 339,
-    "PriorityName": "Wisoky Inc and Sons",
+    "PriorityId": 579,
+    "PriorityName": "Wehner Group",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2003-10-09T03:24:47.2052134+02:00",
+    "ActiveDate": "2016-11-15T13:38:13.0459237+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-02-03T03:24:47.2052134+01:00",
-    "RecurringEndDate": "2000-06-14T03:24:47.2052134+02:00",
-    "MotherId": 546,
-    "AssignedBy": 910,
-    "AssignedByFullName": "Jose Crist",
+    "RecurringStartDate": "2019-01-31T13:38:13.0459237+01:00",
+    "RecurringEndDate": "1996-11-13T13:38:13.0459237+01:00",
+    "MotherId": 730,
+    "AssignedBy": 475,
+    "AssignedByFullName": "Mrs. Sharon Baumbach",
     "RejectReason": "",
-    "Location": "sit",
-    "AlarmLeadTime": "doloremque",
-    "SaleId": 741,
-    "SaleName": "Halvorson Group",
-    "AssociateName": "Brekke, Gleason and Von",
-    "CreatedDate": "2003-04-04T03:24:47.2052134+02:00",
-    "CreatedBy": "ea",
-    "CreatedByFullName": "Ms. Christopher Nathen Miller DVM",
-    "CreatedByAssociateId": 919,
+    "Location": "nisi",
+    "AlarmLeadTime": "voluptates",
+    "SaleId": 221,
+    "SaleName": "Rath LLC",
+    "AssociateName": "Johnston, Ward and Kuhlman",
+    "CreatedDate": "2011-01-06T13:38:13.0459237+01:00",
+    "CreatedBy": "tenetur",
+    "CreatedByFullName": "Hester Gibson DDS",
+    "CreatedByAssociateId": 508,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "distinctio",
-    "Agenda": "harum",
-    "InternalNotes": "atque",
+    "PreferredTZLocation": 779,
+    "Title": "totam",
+    "Agenda": "quidem",
+    "InternalNotes": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 758
       }
     }
   }

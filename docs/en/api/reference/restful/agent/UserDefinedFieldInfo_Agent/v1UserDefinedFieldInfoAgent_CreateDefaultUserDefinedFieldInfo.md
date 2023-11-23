@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 226,
-  "ColumnId": 221,
-  "FieldDefault": "non",
-  "FieldHeight": 389,
-  "FieldLabel": "ipsa",
-  "FieldLeft": 442,
-  "FieldTop": 42,
+  "UDefFieldId": 112,
+  "ColumnId": 340,
+  "FieldDefault": "iusto",
+  "FieldHeight": 380,
+  "FieldLabel": "excepturi",
+  "FieldLeft": 999,
+  "FieldTop": 808,
   "FieldType": "Checkbox",
-  "FieldWidth": 817,
-  "FormatMask": "facilis",
+  "FieldWidth": 926,
+  "FormatMask": "autem",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 687,
-  "LabelLeft": 110,
-  "LabelTop": 88,
-  "LabelWidth": 682,
-  "LastVersionId": 852,
-  "ListTableId": 839,
-  "IsMandatory": true,
+  "LabelHeight": 20,
+  "LabelLeft": 105,
+  "LabelTop": 440,
+  "LabelWidth": 386,
+  "LastVersionId": 789,
+  "ListTableId": 517,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 757,
-  "ProgId": "eum",
-  "IsReadOnly": true,
-  "ShortLabel": "inventore",
-  "TabOrder": 417,
-  "TextLength": 537,
-  "Tooltip": "et",
-  "UdefIdentity": 660,
-  "UDListDefinitionId": 141,
+  "Page1LineNo": 265,
+  "ProgId": "consequatur",
+  "IsReadOnly": false,
+  "ShortLabel": "deleniti",
+  "TabOrder": 238,
+  "TextLength": 830,
+  "Tooltip": "officia",
+  "UdefIdentity": 948,
+  "UDListDefinitionId": 17,
   "Justification": "Center",
-  "Version": 640,
-  "TemplateVariableName": "Jewess, Oberbrunner and Strosin",
+  "Version": 495,
+  "TemplateVariableName": "Emard Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Dare-Streich",
+  "MdoListName": "Hauck-Borer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldType": "System.Int32",
+      "FieldLength": 91
     }
   }
 }

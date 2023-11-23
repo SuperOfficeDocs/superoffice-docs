@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 759
+  "QuoteLineId": 189
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 27,
-  "ERPQuoteLineKey": "provident",
-  "QuoteAlternativeId": 491,
-  "ERPProductKey": "reprehenderit",
+  "QuoteLineId": 941,
+  "ERPQuoteLineKey": "cumque",
+  "QuoteAlternativeId": 538,
+  "ERPProductKey": "eligendi",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 5819.838,
-  "DeliveredQuantity": 18760.124,
-  "Rank": 426,
-  "Name": "Schamberger-Stroman",
-  "Description": "Enhanced cohesive open architecture",
-  "Code": "voluptatibus",
-  "QuantityUnit": "repellat",
-  "PriceUnit": "non",
-  "ItemNumber": "1624133",
+  "Quantity": 17365.494,
+  "DeliveredQuantity": 24915.3,
+  "Rank": 539,
+  "Name": "Olson, Botsford and Mills",
+  "Description": "Diverse human-resource conglomeration",
+  "Code": "aspernatur",
+  "QuantityUnit": "minima",
+  "PriceUnit": "voluptatem",
+  "ItemNumber": "532940",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "perspiciatis",
-  "ProductTypeKey": "nostrum",
-  "Supplier": "ipsa",
-  "SupplierCode": "ut",
-  "Thumbnail": "corrupti",
-  "VATInfo": "ipsam",
-  "VAT": 18509.404,
-  "UnitCost": 29907.762,
-  "UnitMinimumPrice": 29945.37,
-  "UnitListPrice": 26516.773999999998,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "consectetur",
+  "Supplier": "voluptatem",
+  "SupplierCode": "optio",
+  "Thumbnail": "excepturi",
+  "VATInfo": "magnam",
+  "VAT": 9505.422,
+  "UnitCost": 12072.168,
+  "UnitMinimumPrice": 30412.336,
+  "UnitListPrice": 26780.03,
   "ExtraInfo": [
     {
-      "Name": "Mills, Jenkins and Huels",
-      "Value": "odit",
+      "Name": "Gislason-Franecki",
+      "Value": "sint",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldType": "System.Int32",
+          "FieldLength": 285
         }
       }
     },
     {
-      "Name": "Mills, Jenkins and Huels",
-      "Value": "odit",
+      "Name": "Gislason-Franecki",
+      "Value": "sint",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldType": "System.Int32",
+          "FieldLength": 285
         }
       }
     }
   ],
-  "RawExtraInfo": "cupiditate",
+  "RawExtraInfo": "sed",
   "IsSubscription": false,
   "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 11526.851999999999,
-  "SubscriptionStart": "2001-06-04T03:24:48.1582254+02:00",
-  "ERPDiscountPercent": 1397.764,
-  "ERPDiscountAmount": 16591.396,
-  "DiscountPercent": 11022.278,
-  "DiscountAmount": 11943.673999999999,
+  "SubscriptionQuantity": 915.12799999999993,
+  "SubscriptionStart": "2018-07-25T13:38:14.045953+02:00",
+  "ERPDiscountPercent": 8320.77,
+  "ERPDiscountAmount": 7342.9619999999995,
+  "DiscountPercent": 12404.372,
+  "DiscountAmount": 12307.217999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 14488.482,
-  "EarningAmount": 11990.684,
-  "SubTotal": 24777.404,
-  "TotalPrice": 6731.8319999999994,
-  "Rights": "cum",
-  "Rule": "et",
-  "ExtraField1": "sed",
-  "ExtraField2": "aut",
-  "ExtraField3": "sed",
-  "ExtraField4": "qui",
-  "ExtraField5": "voluptatem",
+  "EarningPercent": 16817.043999999998,
+  "EarningAmount": 5327.8,
+  "SubTotal": 26842.71,
+  "TotalPrice": 980.942,
+  "Rights": "reiciendis",
+  "Rule": "qui",
+  "ExtraField1": "corporis",
+  "ExtraField2": "magni",
+  "ExtraField3": "mollitia",
+  "ExtraField4": "soluta",
+  "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 105
     }
   }
 }

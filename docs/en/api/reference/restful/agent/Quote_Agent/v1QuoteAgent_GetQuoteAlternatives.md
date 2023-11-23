@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 743
+  "QuoteVersionId": 284
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 635,
-    "ERPQuoteAlternativeKey": "voluptatem",
-    "QuoteVersionId": 446,
-    "Name": "Reilly-Cormier",
-    "Description": "Enhanced dynamic success",
+    "QuoteAlternativeId": 517,
+    "ERPQuoteAlternativeKey": "modi",
+    "QuoteVersionId": 509,
+    "Name": "Mante, Aufderhar and Bruen",
+    "Description": "Networked uniform secured line",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 24924.701999999997,
-    "ERPDiscountAmount": 31314.928,
-    "DiscountPercent": 10903.186,
-    "DiscountAmount": 11978.148,
+    "ERPDiscountPercent": 1369.558,
+    "ERPDiscountAmount": 3704.388,
+    "DiscountPercent": 17396.834,
+    "DiscountAmount": 22107.236,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "aperiam",
-    "VAT": 11661.614,
-    "EarningPercent": 9966.119999999999,
-    "EarningAmount": 2695.24,
-    "SubTotal": 5848.044,
-    "TotalPrice": 25401.07,
-    "ExtraField1": "neque",
-    "ExtraField2": "laborum",
-    "ExtraField3": "nostrum",
-    "ExtraField4": "qui",
-    "ExtraField5": "nisi",
+    "VATInfo": "quo",
+    "VAT": 6669.152,
+    "EarningPercent": 6841.522,
+    "EarningAmount": 15384.805999999999,
+    "SubTotal": 22514.656,
+    "TotalPrice": 2240.81,
+    "ExtraField1": "ullam",
+    "ExtraField2": "quae",
+    "ExtraField3": "officiis",
+    "ExtraField4": "et",
+    "ExtraField5": "aperiam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 896
       }
     }
   }

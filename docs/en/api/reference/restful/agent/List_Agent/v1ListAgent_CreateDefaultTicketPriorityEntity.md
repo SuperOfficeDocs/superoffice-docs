@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 123,
-  "Name": "Lang-Wiza",
+  "TicketPriorityId": 607,
+  "Name": "Heathcote, Langworth and Emmerich",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 846,
+  "SortOrder": 314,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 778,
-  "MonStart": "2001-01-31T03:24:47.908255+01:00",
-  "MonStop": "2001-06-27T03:24:47.908255+02:00",
-  "TueStart": "2009-01-08T03:24:47.908255+01:00",
-  "TueStop": "2019-09-29T03:24:47.908255+02:00",
-  "WedStart": "2002-03-28T03:24:47.908255+01:00",
-  "WedStop": "1997-01-21T03:24:47.908255+01:00",
-  "ThuStart": "2011-05-07T03:24:47.908255+02:00",
-  "ThuStop": "2004-04-23T03:24:47.908255+02:00",
-  "FriStart": "1999-09-30T03:24:47.908255+02:00",
-  "FriStop": "2008-09-14T03:24:47.908255+02:00",
-  "SatStart": "2014-04-16T03:24:47.908255+02:00",
-  "SatStop": "2002-03-11T03:24:47.908255+01:00",
-  "SunStart": "2021-03-15T03:24:47.908255+01:00",
-  "SunStop": "2020-07-18T03:24:47.908255+02:00",
+  "Deadline": 56,
+  "MonStart": "2022-01-19T13:38:13.7177215+01:00",
+  "MonStop": "2001-10-09T13:38:13.7177215+02:00",
+  "TueStart": "2016-11-29T13:38:13.7177215+01:00",
+  "TueStop": "2002-10-03T13:38:13.7177215+02:00",
+  "WedStart": "2011-10-26T13:38:13.7177215+02:00",
+  "WedStop": "2014-01-07T13:38:13.7177215+01:00",
+  "ThuStart": "2012-11-13T13:38:13.7177215+01:00",
+  "ThuStop": "2021-02-05T13:38:13.7177215+01:00",
+  "FriStart": "2007-07-30T13:38:13.7177215+02:00",
+  "FriStop": "2003-03-04T13:38:13.7177215+01:00",
+  "SatStart": "2002-07-06T13:38:13.7177215+02:00",
+  "SatStop": "2023-08-24T13:38:13.7177215+02:00",
+  "SunStart": "1997-04-13T13:38:13.7177215+02:00",
+  "SunStop": "2011-07-04T13:38:13.7177215+02:00",
   "NonDates": [
-    "hic",
-    "aut"
+    "ullam",
+    "cumque"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 9,
-      "AlertLevel": 114,
-      "AlertTimeout": 582,
-      "Action": 32,
-      "DelegateTo": 932,
-      "ScriptId": 497,
-      "EmailTo": "anjali@runolfsdottir.biz",
-      "SmsTo": "voluptatem",
-      "ReplyTemplateIdCustomer": 251,
-      "ReplyTemplateIdUser": 80,
-      "ReplyTemplateIdCatmast": 83,
-      "ReplyTemplateIdEmail": 821,
-      "RtiCustomerSms": 187,
-      "ReplyTemplateIdUserSms": 365,
-      "ReplyTemplateIdCatmastSms": 845,
-      "ReplyTemplateIdSms": 606,
+      "TicketAlertId": 428,
+      "AlertLevel": 607,
+      "AlertTimeout": 152,
+      "Action": 715,
+      "DelegateTo": 661,
+      "ScriptId": 809,
+      "EmailTo": "carlos@gutkowski.biz",
+      "SmsTo": "ut",
+      "ReplyTemplateIdCustomer": 175,
+      "ReplyTemplateIdUser": 42,
+      "ReplyTemplateIdCatmast": 877,
+      "ReplyTemplateIdEmail": 272,
+      "RtiCustomerSms": 596,
+      "ReplyTemplateIdUserSms": 320,
+      "ReplyTemplateIdCatmastSms": 591,
+      "ReplyTemplateIdSms": 669,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 695
+          "FieldLength": 190
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 515
     }
   }
 }

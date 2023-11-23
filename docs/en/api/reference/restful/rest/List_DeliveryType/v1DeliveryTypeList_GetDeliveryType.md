@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 556,
-  "Name": "Sawayn-Morissette",
-  "Tooltip": "dolores",
+  "Id": 999,
+  "Name": "Bergnaum Inc and Sons",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "UdListDefinitionId": 342,
-  "Rank": 56,
+  "UdListDefinitionId": 288,
+  "Rank": 225,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldType": "System.String",
+      "FieldLength": 86
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 956,
-    "Name": "Predovic, Stokes and Ortiz",
-    "Tooltip": "sunt",
+    "HeadingId": 315,
+    "Name": "Ward, Glover and Olson",
+    "Tooltip": "esse",
     "Deleted": true,
-    "Rank": 202,
-    "UdListDefinitionId": 495,
+    "Rank": 793,
+    "UdListDefinitionId": 267,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldLength": 839
       }
     }
   }

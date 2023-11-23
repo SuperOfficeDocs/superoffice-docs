@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 37,
-  "SelectionId": 835,
-  "Restrictions": "tempora"
+  "DashboardTileId": 566,
+  "SelectionId": 682,
+  "Restrictions": "molestias"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Waters, Larson and Runte",
-        "DisplayTooltip": "laboriosam",
-        "DisplayType": "in",
+        "DisplayName": "Bashirian LLC",
+        "DisplayTooltip": "quia",
+        "DisplayType": "molestias",
         "CanOrderBy": false,
-        "Name": "Weimann, Champlin and Denesik",
+        "Name": "Goyette-Rempel",
         "CanRestrictBy": false,
-        "RestrictionType": "numquam",
-        "RestrictionListName": "Hoppe Group",
-        "IsVisible": false,
-        "ExtraInfo": "sit",
-        "Width": "facere",
-        "IconHint": "vitae",
-        "HeadingIconHint": "amet"
+        "RestrictionType": "mollitia",
+        "RestrictionListName": "Robel Inc and Sons",
+        "IsVisible": true,
+        "ExtraInfo": "sint",
+        "Width": "libero",
+        "IconHint": "cum",
+        "HeadingIconHint": "dolorum"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Waters, Larson and Runte",
-        "DisplayTooltip": "laboriosam",
-        "DisplayType": "in",
+        "DisplayName": "Bashirian LLC",
+        "DisplayTooltip": "quia",
+        "DisplayType": "molestias",
         "CanOrderBy": false,
-        "Name": "Weimann, Champlin and Denesik",
+        "Name": "Goyette-Rempel",
         "CanRestrictBy": false,
-        "RestrictionType": "numquam",
-        "RestrictionListName": "Hoppe Group",
-        "IsVisible": false,
-        "ExtraInfo": "sit",
-        "Width": "facere",
-        "IconHint": "vitae",
-        "HeadingIconHint": "amet"
+        "RestrictionType": "mollitia",
+        "RestrictionListName": "Robel Inc and Sons",
+        "IsVisible": true,
+        "ExtraInfo": "sint",
+        "Width": "libero",
+        "IconHint": "cum",
+        "HeadingIconHint": "dolorum"
       }
     ],
     "Result": null

@@ -89,24 +89,24 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 625,
-  "Name": "Heller-Weber",
-  "Tooltip": "in",
-  "TableName": "Halvorson Inc and Sons",
-  "Area": "enim",
+  "TaskMenuId": 687,
+  "Name": "Bosco, Kling and Johns",
+  "Tooltip": "et",
+  "TableName": "King Group",
+  "Area": "possimus",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 957,
+  "CrmScriptId": 881,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 370,
+  "Rank": 848,
   "Encoding": "ANSI",
-  "ProgId": "modi",
-  "Deleted": false
+  "ProgId": "qui",
+  "Deleted": true
 }
 ```
 
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 107,
-  "Name": "Schiller LLC",
-  "Tooltip": "ullam",
-  "TableName": "Dickens, Frami and Rippin",
-  "Area": "voluptatum",
+  "TaskMenuId": 97,
+  "Name": "Mayert, Kuvalis and Emard",
+  "Tooltip": "numquam",
+  "TableName": "Ferry, Marks and Yundt",
+  "Area": "dolorum",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 663,
+  "CrmScriptId": 610,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 344,
+  "Rank": 749,
   "Encoding": "ANSI",
-  "ProgId": "labore",
-  "Deleted": true,
+  "ProgId": "odit",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldType": "System.Int32",
+      "FieldLength": 357
     }
   }
 }

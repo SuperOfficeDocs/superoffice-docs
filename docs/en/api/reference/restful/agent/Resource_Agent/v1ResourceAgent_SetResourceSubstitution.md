@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Buckridge LLC",
-  "ResourceValues": "corrupti",
-  "Culture": "omnis",
-  "IsActive": false
+  "ResourceName": "Larkin-Jakubowski",
+  "ResourceValues": "rem",
+  "Culture": "iure",
+  "IsActive": true
 }
 ```
 

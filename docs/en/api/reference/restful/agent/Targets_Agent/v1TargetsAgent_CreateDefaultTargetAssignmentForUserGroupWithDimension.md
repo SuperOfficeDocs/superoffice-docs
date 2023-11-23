@@ -86,8 +86,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 764,
-  "TargetDimensionId": 668
+  "UserGroupId": 346,
+  "TargetDimensionId": 285
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 994,
+    "TargetAssignmentInfoId": 450,
     "Values": [
-      482,
-      876
+      873,
+      699
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 339,
-    "DimensionListItemDisplayName": "Zemlak Inc and Sons",
+    "DimensionListItem": 261,
+    "DimensionListItemDisplayName": "Larson-Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 890
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

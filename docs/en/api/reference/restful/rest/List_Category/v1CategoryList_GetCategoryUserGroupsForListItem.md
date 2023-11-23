@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 612,
-    "Name": "Senger Group",
-    "ToolTip": "Laborum est doloremque.",
+    "Id": 242,
+    "Name": "Kunde-Bayer",
+    "ToolTip": "Magnam id vitae adipisci nihil minima est consequuntur.",
     "Deleted": false,
-    "Rank": 272,
-    "Type": "quisquam",
-    "ColorBlock": 765,
-    "IconHint": "minima",
-    "Selected": true,
-    "LastChanged": "2011-07-30T03:24:52.1775959+02:00",
+    "Rank": 565,
+    "Type": "ipsa",
+    "ColorBlock": 925,
+    "IconHint": "praesentium",
+    "Selected": false,
+    "LastChanged": "2022-12-11T13:38:17.9056813+01:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Adams, Dibbert and Bashirian",
-        "ToolTip": "Sit harum sunt explicabo aut.",
-        "Deleted": false,
-        "Rank": 182,
-        "Type": "voluptatem",
-        "ColorBlock": 375,
-        "IconHint": "aut",
+        "Id": 54,
+        "Name": "Rempel-Douglas",
+        "ToolTip": "Culpa sit minus id.",
+        "Deleted": true,
+        "Rank": 925,
+        "Type": "et",
+        "ColorBlock": 72,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2002-05-10T03:24:52.1775959+02:00",
+        "LastChanged": "2018-09-02T13:38:17.9056813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Billy Tromp",
+        "ExtraInfo": "et",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Kelvin Bartoletti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 858
+            "FieldLength": 789
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "minima",
+    "StyleHint": "est",
     "Hidden": true,
-    "FullName": "Grayce Padberg",
+    "FullName": "Vince Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldLength": 162
       }
     }
   }

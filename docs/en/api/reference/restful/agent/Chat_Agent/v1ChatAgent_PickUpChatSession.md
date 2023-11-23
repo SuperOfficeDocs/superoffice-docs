@@ -109,7 +109,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 496
+  "ChatSessionId": 435
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 78,
-  "TopicId": 291,
+  "ChatSessionId": 301,
+  "TopicId": 432,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dignissimos",
-  "CustomerHost": "quia",
-  "CustomerName": "Kohler-Bartoletti",
-  "CustomerEmail": "katelyn_padberg@christiansen.uk",
-  "CustomerPhone": "608-892-7433 x461",
+  "CustomerAlias": "exercitationem",
+  "CustomerHost": "vitae",
+  "CustomerName": "Bauch-Hessel",
+  "CustomerEmail": "caden.connelly@gutkowski.uk",
+  "CustomerPhone": "015-779-1193",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schoen LLC",
+  "CustomerCompanyName": "Champlin Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "repellat",
-  "LastMessage": "itaque",
-  "WhenRequested": "1997-08-19T03:24:47.3301872+02:00",
-  "WhenStarted": "2011-11-04T03:24:47.3301872+01:00",
-  "WhenEnded": "1999-04-18T03:24:47.3301872+02:00",
-  "WhenIdle": "2020-09-16T03:24:47.3301872+02:00",
-  "WhenFetched": "2012-01-22T03:24:47.3301872+01:00",
-  "SessionKey": "eos",
-  "InitialQueuePos": 69,
-  "AlertLevel": 623,
-  "Rank": 346,
+  "FirstMessage": "repellendus",
+  "LastMessage": "quia",
+  "WhenRequested": "2005-08-17T13:38:13.1552857+02:00",
+  "WhenStarted": "2022-07-03T13:38:13.1552857+02:00",
+  "WhenEnded": "2004-06-09T13:38:13.1552857+02:00",
+  "WhenIdle": "2005-06-07T13:38:13.1552857+02:00",
+  "WhenFetched": "2015-04-06T13:38:13.1552857+02:00",
+  "SessionKey": "sit",
+  "InitialQueuePos": 338,
+  "AlertLevel": 928,
+  "Rank": 972,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 90,
+  "Rating": 31,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 896
     }
   }
 }

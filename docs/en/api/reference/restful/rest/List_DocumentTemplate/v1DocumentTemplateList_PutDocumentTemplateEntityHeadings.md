@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 553,
-    "Name": "Spencer-Ebert",
-    "Tooltip": "soluta",
+    "HeadingId": 132,
+    "Name": "Klein LLC",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 646,
-    "UdListDefinitionId": 825
+    "Rank": 676,
+    "UdListDefinitionId": 653
   },
   {
-    "HeadingId": 553,
-    "Name": "Spencer-Ebert",
-    "Tooltip": "soluta",
+    "HeadingId": 132,
+    "Name": "Klein LLC",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 646,
-    "UdListDefinitionId": 825
+    "Rank": 676,
+    "UdListDefinitionId": 653
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 5,
-    "Name": "Hirthe Inc and Sons",
-    "Tooltip": "autem",
-    "Deleted": false,
-    "Rank": 762,
-    "UdListDefinitionId": 551,
+    "HeadingId": 265,
+    "Name": "Stiedemann-Stoltenberg",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 424,
+    "UdListDefinitionId": 201,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 101
       }
     }
   }

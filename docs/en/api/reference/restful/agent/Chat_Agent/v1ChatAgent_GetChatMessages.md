@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Chat/GetChatMessages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 646,
-  "After": 448
+  "ChatSessionId": 18,
+  "After": 714
 }
 ```
 
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 521,
-    "ChatSessionId": 982,
+    "ChatMessageId": 476,
+    "ChatSessionId": 826,
     "Type": "Invalid",
-    "Message": "culpa",
-    "Author": "accusamus",
-    "ReadByCustomer": 914,
+    "Message": "velit",
+    "Author": "voluptatem",
+    "ReadByCustomer": 105,
     "SpecialType": "Block",
-    "SpecialParam": "tempora",
-    "WhenPosted": "2016-05-04T03:24:47.3458115+02:00"
+    "SpecialParam": "odio",
+    "WhenPosted": "2022-04-30T13:38:13.2490288+02:00"
   }
 ]
 ```

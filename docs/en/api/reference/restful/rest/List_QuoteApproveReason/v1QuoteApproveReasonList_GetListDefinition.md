@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 916,
-  "Name": "Prosacco Inc and Sons",
-  "Tooltip": "et",
+  "Id": 519,
+  "Name": "Abshire-Kuhlman",
+  "Tooltip": "rem",
   "Deleted": false,
-  "Rank": 767,
-  "IsCustomList": false,
+  "Rank": 700,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolor",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 884
     }
   },
   "_Links": {

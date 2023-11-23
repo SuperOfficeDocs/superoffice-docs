@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 702,
-  "Name": "Mertz, Ratke and Torp",
-  "Tooltip": "nam",
-  "Rank": 305,
+  "SaleTypeId": 764,
+  "Name": "Cormier-Herzog",
+  "Tooltip": "nihil",
+  "Rank": 421,
   "DurationUnit": "Century",
-  "SaleDuration": 202,
-  "SaleTypeCatId": 730,
+  "SaleDuration": 860,
+  "SaleTypeCatId": 201,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 3,
-  "QuoteLinesTemplate": 849,
-  "ConfirmationLinesTemplate": 515,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 13,
+  "QuoteLinesTemplate": 389,
+  "ConfirmationLinesTemplate": 814,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 890,
-  "MinEarningPercent": 768,
-  "GroupQuoteLinesBy": 350,
-  "SortGroupLinesBy": 791,
+  "MaxDiscountPercent": 713,
+  "MinEarningPercent": 745,
+  "GroupQuoteLinesBy": 675,
+  "SortGroupLinesBy": 828,
   "Stages": [
     {
-      "Id": 93,
-      "Name": "Mann-Miller",
-      "ToolTip": "Dolorum est et.",
+      "Id": 683,
+      "Name": "Mertz Inc and Sons",
+      "ToolTip": "Sunt omnis expedita aut facere officiis nostrum.",
       "Deleted": false,
-      "Rank": 716,
-      "Type": "sint",
-      "ColorBlock": 118,
-      "IconHint": "pariatur",
+      "Rank": 195,
+      "Type": "eos",
+      "ColorBlock": 505,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2006-10-27T03:24:52.4119449+02:00",
+      "LastChanged": "2012-12-04T13:38:18.2181419+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "explicabo",
-      "StyleHint": "repellat",
-      "Hidden": true,
-      "FullName": "Erick Tillman",
+      "ExtraInfo": "odit",
+      "StyleHint": "modi",
+      "Hidden": false,
+      "FullName": "Fatima Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldType": "System.Int32",
+          "FieldLength": 156
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   }
 }

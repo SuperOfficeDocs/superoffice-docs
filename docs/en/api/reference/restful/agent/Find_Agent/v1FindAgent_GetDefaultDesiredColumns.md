@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "perferendis",
-  "ProviderName": "Hauck Inc and Sons",
-  "StorageKey": "accusamus"
+  "StorageType": "et",
+  "ProviderName": "Grady, Dickinson and Jerde",
+  "StorageKey": "quidem"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Koepp Inc and Sons",
-    "DisplayTooltip": "repellendus",
-    "DisplayType": "earum",
-    "CanOrderBy": true,
-    "Name": "Littel, Ziemann and Upton",
+    "DisplayName": "Keebler-McGlynn",
+    "DisplayTooltip": "magni",
+    "DisplayType": "rerum",
+    "CanOrderBy": false,
+    "Name": "Kutch-Mohr",
     "CanRestrictBy": false,
-    "RestrictionType": "ab",
-    "RestrictionListName": "Legros, Emmerich and Tillman",
-    "IsVisible": true,
-    "ExtraInfo": "iste",
-    "Width": "ea",
-    "IconHint": "non",
-    "HeadingIconHint": "nesciunt"
+    "RestrictionType": "excepturi",
+    "RestrictionListName": "Williamson-Watsica",
+    "IsVisible": false,
+    "ExtraInfo": "animi",
+    "Width": "cum",
+    "IconHint": "repellat",
+    "HeadingIconHint": "voluptatum"
   }
 ]
 ```

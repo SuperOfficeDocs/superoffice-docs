@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 377,
-  "LanguageId": 914
+  "ReplyTemplateId": 816,
+  "LanguageId": 617
 }
 ```
 
@@ -96,35 +96,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 859,
-  "PlainParsed": "et",
-  "HtmlParsed": "quod",
+  "ReplyTemplateId": 882,
+  "PlainParsed": "quam",
+  "HtmlParsed": "repellat",
   "Attachments": [
     {
-      "AttachmentId": 285,
-      "Name": "Kassulke, Waters and Corwin",
-      "ContentType": "praesentium",
-      "AttSize": 87,
-      "InlineImage": false,
-      "ContentId": "commodi",
-      "AuthKey": "id",
+      "AttachmentId": 704,
+      "Name": "Klocko-Hills",
+      "ContentType": "voluptas",
+      "AttSize": 853,
+      "InlineImage": true,
+      "ContentId": "aperiam",
+      "AuthKey": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 378
+          "FieldType": "System.Int32",
+          "FieldLength": 370
         }
       }
     }
   ],
-  "Subject": "est",
+  "Subject": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldType": "System.String",
+      "FieldLength": 615
     }
   }
 }

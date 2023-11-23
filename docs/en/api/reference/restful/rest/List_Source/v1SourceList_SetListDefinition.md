@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 817,
-  "Name": "D'Amore-Kulas",
-  "Tooltip": "asperiores",
+  "Id": 920,
+  "Name": "Brakus LLC",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 900,
+  "Rank": 431,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quas",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "a",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 145,
-  "Name": "Rice, Nader and Treutel",
-  "Tooltip": "officiis",
+  "Id": 20,
+  "Name": "Streich-Terry",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 935,
+  "Rank": 990,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
+  "ListType": "nemo",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldType": "System.String",
+      "FieldLength": 1001
     }
   }
 }

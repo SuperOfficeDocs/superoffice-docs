@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "non",
-    "nesciunt"
+    "atque",
+    "architecto"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 233,
-    "ResourceId": 284,
-    "Text": "vitae",
+    "LanguageId": 965,
+    "ResourceId": 192,
+    "Text": "quas",
     "Type": "Column",
-    "LocalizedTextId": 913,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 291,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 937
       }
     }
   }

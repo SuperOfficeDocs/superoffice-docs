@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Person/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 104
+  "PersonId": 20
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 8709.386,
-  "Wgs84Longitude": 22793.582,
+  "Wgs84Latitude": 23570.814,
+  "Wgs84Longitude": 19042.184,
   "LocalizedAddress": [
     [
       {
-        "Name": "Christiansen Inc and Sons",
-        "Value": "ex",
-        "Tooltip": "veniam",
-        "Label": "dolores",
-        "ValueLength": 123,
-        "AddressType": "pariatur",
+        "Name": "Marks-Nikolaus",
+        "Value": "vel",
+        "Tooltip": "quam",
+        "Label": "hic",
+        "ValueLength": 148,
+        "AddressType": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 190
+            "FieldLength": 202
           }
         }
       }
     ],
     [
       {
-        "Name": "Muller-Abernathy",
-        "Value": "occaecati",
-        "Tooltip": "qui",
-        "Label": "aut",
-        "ValueLength": 953,
-        "AddressType": "architecto",
+        "Name": "Roob, Swift and Cassin",
+        "Value": "ipsam",
+        "Tooltip": "quibusdam",
+        "Label": "incidunt",
+        "ValueLength": 985,
+        "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 759
+            "FieldLength": 925
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "autem",
+  "Formatted": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   }
 }

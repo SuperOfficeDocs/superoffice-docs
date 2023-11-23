@@ -73,8 +73,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 914,
-  "DisplayName": "Ankunding Group",
+  "ErpConnectorId": 311,
+  "DisplayName": "Beahan-Pfeffer",
   "URL": "http://www.example.com/",
   "Deleted": false,
   "TableRight": null,
@@ -82,7 +82,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 294
+      "FieldLength": 886
     }
   }
 }

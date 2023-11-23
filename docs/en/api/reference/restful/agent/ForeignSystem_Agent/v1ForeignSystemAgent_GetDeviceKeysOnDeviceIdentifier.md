@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hirthe, Murazik and Daniel",
-  "DeviceName": "Volkman, Shields and Weimann",
-  "DeviceIdentifier": "ut"
+  "ApplicationName": "Casper, Gusikowski and White",
+  "DeviceName": "Medhurst LLC",
+  "DeviceIdentifier": "qui"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "aliquid",
-    "Value": "sit",
-    "RecordId": 808,
-    "CreatedDate": "2001-02-04T03:24:47.8301403+01:00",
-    "UpdatedDate": "2007-03-23T03:24:47.8301403+01:00",
-    "UpdatedBy": "id",
-    "CreatedBy": "et",
-    "TableName": "Volkman LLC",
+    "Key": "ut",
+    "Value": "libero",
+    "RecordId": 143,
+    "CreatedDate": "2003-03-27T13:38:13.6396102+01:00",
+    "UpdatedDate": "2017-12-15T13:38:13.6396102+01:00",
+    "UpdatedBy": "autem",
+    "CreatedBy": "sequi",
+    "TableName": "Lubowitz Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldType": "System.String",
+        "FieldLength": 596
       }
     }
   }

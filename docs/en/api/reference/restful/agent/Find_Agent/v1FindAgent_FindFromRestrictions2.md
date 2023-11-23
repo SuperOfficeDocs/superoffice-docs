@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "praesentium",
-  "ProviderName": "Zboncak LLC",
-  "PageSize": 477,
-  "PageNumber": 775
+  "Restrictions": "debitis",
+  "ProviderName": "Nikolaus-Botsford",
+  "PageSize": 202,
+  "PageNumber": 870
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Zulauf LLC",
-      "DisplayTooltip": "sit",
-      "DisplayType": "similique",
+      "DisplayName": "Okuneva-Bogisich",
+      "DisplayTooltip": "quia",
+      "DisplayType": "libero",
       "CanOrderBy": false,
-      "Name": "Graham Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "magnam",
-      "RestrictionListName": "Orn-Hammes",
-      "IsVisible": false,
-      "ExtraInfo": "vitae",
-      "Width": "natus",
-      "IconHint": "quia",
-      "HeadingIconHint": "ab"
+      "Name": "Kreiger, Barrows and Mertz",
+      "CanRestrictBy": false,
+      "RestrictionType": "iste",
+      "RestrictionListName": "Lowe-Skiles",
+      "IsVisible": true,
+      "ExtraInfo": "dolorum",
+      "Width": "quos",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "quam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "King, Roberts and Lakin",
-      "PrimaryKey": 620,
+      "EntityName": "Johnson-Bruen",
+      "PrimaryKey": 38,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "rem",
-          "TooltipHint": "est",
-          "LinkHint": "nemo"
+          "DisplayValue": "qui",
+          "TooltipHint": "non",
+          "LinkHint": "enim"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "dolores",
+      "LinkHint": "et",
+      "StyleHint": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldType": "System.String",
+          "FieldLength": 250
         }
       }
     }
   ],
-  "RowCount": 675,
+  "RowCount": 799,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 483
     }
   }
 }

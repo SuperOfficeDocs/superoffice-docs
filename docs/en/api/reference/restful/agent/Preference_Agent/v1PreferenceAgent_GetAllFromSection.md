@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "voluptate"
+  "Section": "veritatis"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 589,
-    "Section": "similique",
-    "Key": "impedit",
-    "Name": "Breitenberg Inc and Sons",
+    "PrefDescId": 211,
+    "Section": "hic",
+    "Key": "pariatur",
+    "Name": "Schiller Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Enterprise-wide transitional strategy",
-    "IsBuiltin": true,
-    "TableName": "Streich, Jewess and Kshlerin",
-    "UserDefinedListId": 449,
-    "Rank": 282,
-    "SubGroup": "illum",
-    "MinLevel": 768,
-    "MaxValue": 215,
-    "MinValue": 373,
-    "RequiredLicense": "sequi",
+    "Description": "Function-based background database",
+    "IsBuiltin": false,
+    "TableName": "Feest, Koepp and Hegmann",
+    "UserDefinedListId": 719,
+    "Rank": 660,
+    "SubGroup": "harum",
+    "MinLevel": 444,
+    "MaxValue": 587,
+    "MinValue": 254,
+    "RequiredLicense": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldType": "System.String",
+        "FieldLength": 733
       }
     }
   }

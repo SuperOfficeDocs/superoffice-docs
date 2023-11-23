@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 855,
-    "Name": "Harvey Group",
-    "Tooltip": "similique",
+    "HeadingId": 671,
+    "Name": "Schmidt-Bailey",
+    "Tooltip": "minima",
     "Deleted": true,
-    "Rank": 455,
-    "UdListDefinitionId": 943,
+    "Rank": 395,
+    "UdListDefinitionId": 63,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldLength": 494
       }
     }
   }

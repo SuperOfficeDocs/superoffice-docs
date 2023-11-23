@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 493,
-    "ParentId": 698,
-    "Name": "Schowalter-Stracke",
-    "Fullname": "dicta",
-    "CategoryMaster": 7,
+    "TicketCategoryId": 535,
+    "ParentId": 949,
+    "Name": "Corkery LLC",
+    "Fullname": "labore",
+    "CategoryMaster": 489,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Frami-Mayert",
+    "ExternalName": "Kautzer LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 416,
-    "ReplyTemplate": 777,
-    "NotificationEmail": "mazie_wiza@johns.name",
+    "AssignmentLag": 639,
+    "ReplyTemplate": 126,
+    "NotificationEmail": "jesus@wolf.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 487,
+    "EffectiveReplyTemplateId": 671,
     "ExtraFields": {
-      "ExtraFields1": "amet",
-      "ExtraFields2": "earum"
+      "ExtraFields1": "vero",
+      "ExtraFields2": "odio"
     },
     "CustomFields": {
-      "CustomFields1": "numquam",
-      "CustomFields2": "aliquid"
+      "CustomFields1": "temporibus",
+      "CustomFields2": "dolores"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldLength": 466
       }
     }
   }

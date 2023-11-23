@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Daugherty, Ruecker and Brekke",
-  "ProviderName": "Sauer-Sauer",
-  "Context": "dolores",
-  "OwnerKeys": "eos"
+  "GuiName": "Hintz, Bauch and Klocko",
+  "ProviderName": "Dibbert-Halvorson",
+  "Context": "consequuntur",
+  "OwnerKeys": "dolore"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Reynolds, Windler and Lueilwitz",
-      "DisplayTooltip": "aut",
-      "DisplayType": "ipsum",
+      "DisplayName": "Kirlin-Wunsch",
+      "DisplayTooltip": "eos",
+      "DisplayType": "et",
       "CanOrderBy": false,
-      "Name": "Berge-Muller",
+      "Name": "Hirthe, Wehner and Hettinger",
       "CanRestrictBy": false,
-      "RestrictionType": "facilis",
-      "RestrictionListName": "Crona-Bode",
-      "IsVisible": false,
-      "ExtraInfo": "eos",
-      "Width": "laboriosam",
-      "IconHint": "libero",
-      "HeadingIconHint": "nam"
+      "RestrictionType": "sit",
+      "RestrictionListName": "Klein Group",
+      "IsVisible": true,
+      "ExtraInfo": "nisi",
+      "Width": "sunt",
+      "IconHint": "sequi",
+      "HeadingIconHint": "accusamus"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 700,
-      "Name": "Moore, Hansen and Moore",
-      "ToolTip": "Exercitationem voluptatibus eius impedit ut sint.",
+      "Id": 561,
+      "Name": "Legros Inc and Sons",
+      "ToolTip": "Quae voluptates expedita et omnis esse molestiae sint.",
       "Deleted": false,
-      "Rank": 666,
-      "Type": "omnis",
-      "ColorBlock": 977,
-      "IconHint": "necessitatibus",
+      "Rank": 339,
+      "Type": "veritatis",
+      "ColorBlock": 701,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2013-11-01T03:24:47.220828+01:00",
+      "LastChanged": "2002-10-13T13:38:13.0615453+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "reiciendis",
-      "Hidden": true,
-      "FullName": "Prof. Vella Sydnee Dach",
+      "ExtraInfo": "inventore",
+      "StyleHint": "dolorem",
+      "Hidden": false,
+      "FullName": "Tatum Adolphus Hintz I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 170
+          "FieldLength": 162
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Metz-Schmitt",
+      "Name": "Hermann LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Metz-Schmitt",
+      "Name": "Hermann LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "consequatur",
+  "OwnerKeys": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   }
 }

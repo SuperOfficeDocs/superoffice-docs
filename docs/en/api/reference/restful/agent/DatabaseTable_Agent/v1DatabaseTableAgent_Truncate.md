@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Will-Bechtelar"
+  "TableName": "Torphy Inc and Sons"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "modi",
-  "Inserts": 51,
-  "Updates": 813,
-  "Deletes": 277,
+  "Message": "qui",
+  "Inserts": 125,
+  "Updates": 891,
+  "Deletes": 618,
   "RowStatus": [
     {
-      "PrimaryKey": 303,
+      "PrimaryKey": 975,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "non",
-        "perferendis"
+        "quia",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldType": "System.String",
+          "FieldLength": 594
         }
       }
     },
     {
-      "PrimaryKey": 303,
+      "PrimaryKey": 975,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "non",
-        "perferendis"
+        "quia",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldType": "System.String",
+          "FieldLength": 594
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldLength": 59
     }
   }
 }

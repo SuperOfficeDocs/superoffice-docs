@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Kuhlman-Boehm",
-  "Tooltip": "laborum",
+  "Id": 494,
+  "Name": "Altenwerth LLC",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 469,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 881,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
-  "InUseByUserDefinedFields": false
+  "ListType": "sed",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Lueilwitz Group",
-  "Tooltip": "unde",
+  "Id": 289,
+  "Name": "Flatley, Shanahan and Bailey",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "Rank": 187,
+  "Rank": 160,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   }
 }

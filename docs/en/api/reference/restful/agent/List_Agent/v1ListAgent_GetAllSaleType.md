@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Value": "maxime",
-    "Tooltip": "tenetur",
+    "Id": 206,
+    "Value": "magnam",
+    "Tooltip": "voluptatum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 838
+        "FieldType": "System.Int32",
+        "FieldLength": 814
       }
     }
   },
   {
-    "Id": 266,
-    "Value": "maxime",
-    "Tooltip": "tenetur",
+    "Id": 206,
+    "Value": "magnam",
+    "Tooltip": "voluptatum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 838
+        "FieldType": "System.Int32",
+        "FieldLength": 814
       }
     }
   }

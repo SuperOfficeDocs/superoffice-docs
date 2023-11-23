@@ -79,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 273,
-  "Name": "Sawayn LLC",
-  "CreatedDate": "2000-04-18T03:24:51.630601+02:00",
-  "UpdatedDate": "2020-03-02T03:24:51.630601+01:00",
-  "AssociateFullName": "Marquis Zemlak",
-  "CreatedBy": "consequatur",
-  "UpdatedBy": "corrupti",
-  "DeviceIdentifier": "aliquam",
-  "ForeignAppId": 203,
+  "ForeignDeviceId": 846,
+  "Name": "Macejkovic, Dickinson and Leuschke",
+  "CreatedDate": "2022-06-11T13:38:17.4524494+02:00",
+  "UpdatedDate": "2019-09-05T13:38:17.4524494+02:00",
+  "AssociateFullName": "Friedrich Kessler",
+  "CreatedBy": "perferendis",
+  "UpdatedBy": "deleniti",
+  "DeviceIdentifier": "laborum",
+  "ForeignAppId": 559,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 980
+      "FieldLength": 495
     }
   }
 }

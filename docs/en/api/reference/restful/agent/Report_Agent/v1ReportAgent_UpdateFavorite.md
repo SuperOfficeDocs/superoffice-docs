@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 466,
+  "ReportId": 76,
   "ReportCategory": "All",
-  "Description": "Configurable zero defect productivity",
+  "Description": "Operative intermediate capability",
   "ReportLayout": "CalendarMonth",
-  "Name": "Reichel-Wuckert",
-  "AssociateId": 564,
-  "TemplateId": 126,
+  "Name": "Auer-Smitham",
+  "AssociateId": 808,
+  "TemplateId": 632,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldType": "System.String",
+      "FieldLength": 126
     }
   }
 }

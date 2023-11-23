@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 381,
-  "PersonId": 889,
-  "AppointmentId": 350,
-  "DocumentId": 321,
-  "SaleId": 794,
-  "SelectionId": 942,
-  "ProjectId": 307,
+  "ContactId": 380,
+  "PersonId": 952,
+  "AppointmentId": 940,
+  "DocumentId": 606,
+  "SaleId": 508,
+  "SelectionId": 610,
+  "ProjectId": 574,
   "CustomTags": [
-    "sed",
-    "minus"
+    "perspiciatis",
+    "similique"
   ],
   "CustomValues": [
-    "illo",
-    "aut"
+    "velit",
+    "esse"
   ],
-  "UiCulture": "iusto"
+  "UiCulture": "ex"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 500,
+  "DocumentId": 871,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "sit",
-  "Name": "Robel, Durgan and Kautzer",
-  "OurRef": "eos",
-  "YourRef": "voluptates",
-  "CreatedDate": "2001-07-02T03:24:47.6582818+02:00",
-  "UpdatedDate": "2020-10-24T03:24:47.6582818+02:00",
-  "Description": "Mandatory motivating hub",
+  "Attention": "non",
+  "Header": "vero",
+  "Name": "Streich, Bahringer and Weimann",
+  "OurRef": "rem",
+  "YourRef": "sequi",
+  "CreatedDate": "2003-10-10T13:38:13.4677523+02:00",
+  "UpdatedDate": "2009-12-18T13:38:13.4677523+01:00",
+  "Description": "Integrated systemic help-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-07-16T03:24:47.6582818+02:00",
-  "ExternalRef": "provident",
+  "Date": "2014-07-20T13:38:13.4833723+02:00",
+  "ExternalRef": "tempore",
   "Completed": "Completed",
-  "ActiveLinks": 36,
+  "ActiveLinks": 511,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sauer-Jast",
-      "Id": 885,
-      "Description": "Ameliorated real-time budgetary management",
-      "ExtraInfo": "suscipit",
-      "LinkId": 456,
+      "EntityName": "Bauch Inc and Sons",
+      "Id": 934,
+      "Description": "Exclusive disintermediate groupware",
+      "ExtraInfo": "sint",
+      "LinkId": 828,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldLength": 10
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 779,
-  "Snum": 145,
+  "SuggestedDocumentId": 209,
+  "Snum": 664,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Fern Haley"
+    "SuperOffice:1": "Dr. Edmund Shanna Schowalter IV",
+    "SuperOffice:2": "751756878"
   },
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "magnam"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "dolor"
+    "CustomFields1": "impedit",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "2000-12-05T03:24:47.6582818+01:00",
-  "PublishTo": "2017-08-25T03:24:47.6582818+02:00",
-  "PublishFrom": "2012-05-20T03:24:47.6582818+02:00",
+  "PublishEventDate": "1999-09-05T13:38:13.4833723+02:00",
+  "PublishTo": "1997-04-28T13:38:13.4833723+02:00",
+  "PublishFrom": "2005-09-02T13:38:13.4833723+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 360,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 795
         }
       }
     },
     {
-      "VisibleId": 360,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 795
         }
       }
     }
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 545
     }
   }
 }

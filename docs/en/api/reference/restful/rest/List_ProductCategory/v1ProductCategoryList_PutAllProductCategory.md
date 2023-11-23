@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Dietrich-Macejkovic",
-    "Tooltip": "dolorem",
+    "Id": 408,
+    "Name": "Huel-O'Conner",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 168,
-    "Rank": 225
+    "UdListDefinitionId": 111,
+    "Rank": 588
   },
   {
-    "Id": 247,
-    "Name": "Dietrich-Macejkovic",
-    "Tooltip": "dolorem",
+    "Id": 408,
+    "Name": "Huel-O'Conner",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 168,
-    "Rank": 225
+    "UdListDefinitionId": 111,
+    "Rank": 588
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Haag Group",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "UdListDefinitionId": 948,
-    "Rank": 908,
+    "Id": 382,
+    "Name": "Gusikowski, Torp and Dibbert",
+    "Tooltip": "inventore",
+    "Deleted": true,
+    "UdListDefinitionId": 973,
+    "Rank": 841,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 155
       }
     }
   }

@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    996,
-    765
+    972,
+    768
   ],
-  "TargetTableNumber": 901
+  "TargetTableNumber": 763
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-centric real-time hierarchy",
-  "Postit": "nihil",
+  "Description": "Organic client-driven project",
+  "Postit": "ullam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 385,
-  "IncludePerson": 766,
-  "MemberCount": 129,
-  "Name": "Cole-Wolff",
-  "PostitTextId": 488,
-  "CreatedDate": "1999-01-28T03:24:48.2680521+01:00",
-  "SelectionId": 433,
-  "SoundEx": "veritatis",
-  "Source": 860,
-  "TextId": 622,
-  "UpdatedDate": "2022-02-17T03:24:48.2680521+01:00",
-  "UpdatedCount": 133,
-  "Visibility": 524,
+  "GroupIdx": 867,
+  "IncludePerson": 75,
+  "MemberCount": 583,
+  "Name": "Zieme-Hettinger",
+  "PostitTextId": 833,
+  "CreatedDate": "2001-05-22T13:38:14.1396943+02:00",
+  "SelectionId": 379,
+  "SoundEx": "fugiat",
+  "Source": 761,
+  "TextId": 897,
+  "UpdatedDate": "2006-08-11T13:38:14.1396943+02:00",
+  "UpdatedCount": 104,
+  "Visibility": 468,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 898,
-  "TargetTableName": "Fadel LLC",
+  "TargetTableNumber": 464,
+  "TargetTableName": "Halvorson, Hettinger and Bruen",
   "Completed": false,
-  "LeftSelectionId": 470,
-  "RightSelectionId": 635,
+  "LeftSelectionId": 287,
+  "RightSelectionId": 5,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Dach-Stehr",
-  "ShadowProviderName": "Ullrich-Durgan",
-  "ChartKey": "officiis",
-  "LastLoaded": "1997-09-30T03:24:48.2680521+02:00",
-  "LastLoadedBy": 204,
+  "MainProviderName": "Mohr, Will and Torp",
+  "ShadowProviderName": "Pollich Group",
+  "ChartKey": "a",
+  "LastLoaded": "2009-03-04T13:38:14.1396943+01:00",
+  "LastLoadedBy": 849,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-01-20T03:24:48.2680521+01:00",
-  "LastMembershipChangeBy": 955,
+  "LastMembershipChange": "2013-03-07T13:38:14.1396943+01:00",
+  "LastMembershipChangeBy": 646,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "molestias",
-  "MailingsProviderName": "Smitham-Howe",
-  "DashboardTileDefinitionId": 208,
+  "MainHeading": "reiciendis",
+  "MemberTabHeading": "vel",
+  "MailingsProviderName": "Mraz-Powlowski",
+  "DashboardTileDefinitionId": 639,
   "VisibleFor": [
     {
-      "VisibleId": 811,
+      "VisibleId": 881,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 507
+          "FieldLength": 858
         }
       }
     },
     {
-      "VisibleId": 811,
+      "VisibleId": 881,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 507
+          "FieldLength": 858
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

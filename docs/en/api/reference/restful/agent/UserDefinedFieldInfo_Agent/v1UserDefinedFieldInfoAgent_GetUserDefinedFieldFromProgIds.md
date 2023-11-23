@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "et",
-    "rerum"
+    "amet",
+    "eveniet"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 991,
-    "ColumnId": 200,
-    "FieldDefault": "dolor",
-    "FieldHeight": 722,
-    "FieldLabel": "error",
-    "FieldLeft": 944,
-    "FieldTop": 923,
+    "UDefFieldId": 110,
+    "ColumnId": 856,
+    "FieldDefault": "temporibus",
+    "FieldHeight": 716,
+    "FieldLabel": "est",
+    "FieldLeft": 393,
+    "FieldTop": 508,
     "FieldType": "Checkbox",
-    "FieldWidth": 5,
-    "FormatMask": "accusantium",
+    "FieldWidth": 349,
+    "FormatMask": "ea",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 509,
-    "LabelLeft": 438,
-    "LabelTop": 676,
-    "LabelWidth": 374,
-    "LastVersionId": 992,
-    "ListTableId": 339,
+    "LabelHeight": 913,
+    "LabelLeft": 224,
+    "LabelTop": 244,
+    "LabelWidth": 421,
+    "LastVersionId": 85,
+    "ListTableId": 946,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 767,
-    "ProgId": "fugit",
-    "IsReadOnly": true,
-    "ShortLabel": "nostrum",
-    "TabOrder": 33,
-    "TextLength": 160,
-    "Tooltip": "eos",
-    "UdefIdentity": 529,
-    "UDListDefinitionId": 589,
+    "Page1LineNo": 466,
+    "ProgId": "eos",
+    "IsReadOnly": false,
+    "ShortLabel": "eligendi",
+    "TabOrder": 691,
+    "TextLength": 605,
+    "Tooltip": "praesentium",
+    "UdefIdentity": 84,
+    "UDListDefinitionId": 1002,
     "Justification": "Center",
-    "Version": 499,
-    "TemplateVariableName": "Moen, Mann and Corwin",
+    "Version": 286,
+    "TemplateVariableName": "Torp, Kihn and Runte",
     "HasBeenPublished": false,
-    "MdoListName": "Hickle, Conroy and Jacobs",
+    "MdoListName": "Collins LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldType": "System.String",
+        "FieldLength": 937
       }
     }
   }

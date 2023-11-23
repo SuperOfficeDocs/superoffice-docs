@@ -113,7 +113,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -123,21 +123,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 41,
-  "Title": "libero",
-  "CreatedAt": "2022-07-22T03:24:51.943244+02:00",
-  "LastChanged": "2019-07-21T03:24:51.943244+02:00",
-  "ReadByOwner": "2012-10-03T03:24:51.943244+02:00",
-  "ReadByCustomer": "2015-09-08T03:24:51.943244+02:00",
-  "FirstReadByOwner": "2001-03-03T03:24:51.943244+01:00",
-  "FirstReadByUser": "2019-05-21T03:24:51.943244+02:00",
-  "Activate": "2018-04-17T03:24:51.943244+02:00",
-  "ClosedAt": "2008-04-08T03:24:51.943244+02:00",
-  "RepliedAt": "1997-05-14T03:24:51.943244+02:00",
-  "AlertTimeout": "1996-11-23T03:24:51.943244+01:00",
-  "Deadline": "2017-04-24T03:24:51.943244+02:00",
+  "TicketId": 53,
+  "Title": "dolores",
+  "CreatedAt": "1999-06-29T13:38:17.6711737+02:00",
+  "LastChanged": "1996-08-10T13:38:17.6711737+02:00",
+  "ReadByOwner": "2022-11-25T13:38:17.6711737+01:00",
+  "ReadByCustomer": "2011-07-07T13:38:17.6711737+02:00",
+  "FirstReadByOwner": "2014-11-01T13:38:17.6711737+01:00",
+  "FirstReadByUser": "2003-03-25T13:38:17.6711737+01:00",
+  "Activate": "2006-08-03T13:38:17.6711737+02:00",
+  "ClosedAt": "2004-07-08T13:38:17.6711737+02:00",
+  "RepliedAt": "2002-07-18T13:38:17.6711737+02:00",
+  "AlertTimeout": "2014-06-23T13:38:17.6711737+02:00",
+  "Deadline": "2012-07-03T13:38:17.6711737+02:00",
   "CreatedBy": null,
-  "Author": "quia",
+  "Author": "qui",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -148,161 +148,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "animi",
-      "PersonId": 570,
-      "Mrmrs": "eum",
-      "Firstname": "Lafayette",
-      "Lastname": "Hayes",
-      "MiddleName": "Klein, Tromp and Ortiz",
-      "Title": "doloremque",
-      "Description": "Intuitive client-driven framework",
-      "Email": "anibal_toy@baumbach.biz",
-      "FullName": "Myles Ebert",
-      "DirectPhone": "845.652.5428 x445",
-      "FormalName": "Gislason, Schroeder and Brakus",
-      "CountryId": 784,
-      "ContactId": 636,
-      "ContactName": "Spencer Group",
-      "Retired": 266,
-      "Rank": 314,
-      "ActiveInterests": 503,
+      "Position": "deleniti",
+      "PersonId": 87,
+      "Mrmrs": "et",
+      "Firstname": "Carmen",
+      "Lastname": "McDermott",
+      "MiddleName": "Schiller-Flatley",
+      "Title": "aut",
+      "Description": "Universal maximized contingency",
+      "Email": "jules.raynor@gleichnerolson.ca",
+      "FullName": "Mr. Kade Daren Lowe",
+      "DirectPhone": "(708)573-7282 x007",
+      "FormalName": "Howe, Tillman and Jast",
+      "CountryId": 77,
+      "ContactId": 86,
+      "ContactName": "Huel, Gleason and Hilll",
+      "Retired": 756,
+      "Rank": 710,
+      "ActiveInterests": 537,
       "ContactDepartment": "",
-      "ContactCountryId": 849,
-      "ContactOrgNr": "1236161",
-      "FaxPhone": "501-403-9309 x45062",
-      "MobilePhone": "091.215.1373 x25313",
-      "ContactPhone": "1-907-378-1588",
-      "AssociateName": "Hilpert, Walter and Langworth",
-      "AssociateId": 997,
+      "ContactCountryId": 175,
+      "ContactOrgNr": "974258",
+      "FaxPhone": "289.094.5810 x586",
+      "MobilePhone": "(337)985-3601 x34825",
+      "ContactPhone": "(557)800-7105",
+      "AssociateName": "White, Schmeler and Little",
+      "AssociateId": 991,
       "UsePersonAddress": false,
-      "ContactFax": "sint",
-      "Kanafname": "nulla",
-      "Kanalname": "consequatur",
-      "Post1": "maxime",
-      "Post2": "velit",
-      "Post3": "quia",
-      "EmailName": "evert.wiegand@kunze.co.uk",
-      "ContactFullName": "Ms. Sebastian Federico Thiel DVM",
-      "ActiveErpLinks": 608,
-      "TicketPriorityId": 61,
-      "SupportLanguageId": 926,
-      "SupportAssociateId": 133,
+      "ContactFax": "ad",
+      "Kanafname": "et",
+      "Kanalname": "soluta",
+      "Post1": "cum",
+      "Post2": "animi",
+      "Post3": "voluptatem",
+      "EmailName": "katelin@williamson.ca",
+      "ContactFullName": "Rahul Pacocha DVM",
+      "ActiveErpLinks": 957,
+      "TicketPriorityId": 782,
+      "SupportLanguageId": 594,
+      "SupportAssociateId": 378,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 37
+          "FieldLength": 171
         }
       }
     }
   ],
-  "AlertLevel": 543,
-  "ConnectId": 941,
+  "AlertLevel": 709,
+  "ConnectId": 462,
   "ReadStatus": "Green",
-  "TimeToReply": 191,
-  "RealTimeToReply": 200,
-  "TimeToClose": 60,
-  "RealTimeToClose": 137,
-  "TimeSpentInternally": 188,
-  "TimeSpentExternally": 218,
-  "TimeSpentQueue": 447,
-  "RealTimeSpentInternally": 251,
-  "RealTimeSpentExternally": 471,
-  "RealTimeSpentQueue": 620,
-  "TimeSpent": 27,
+  "TimeToReply": 41,
+  "RealTimeToReply": 715,
+  "TimeToClose": 129,
+  "RealTimeToClose": 676,
+  "TimeSpentInternally": 824,
+  "TimeSpentExternally": 940,
+  "TimeSpentQueue": 711,
+  "RealTimeSpentInternally": 619,
+  "RealTimeSpentExternally": 16,
+  "RealTimeSpentQueue": 457,
+  "TimeSpent": 467,
   "HasAttachment": false,
-  "NumReplies": 170,
-  "NumMessages": 984,
-  "FromAddress": "optio",
+  "NumReplies": 741,
+  "NumMessages": 775,
+  "FromAddress": "aut",
   "Messages": [
     {
-      "TicketMessageId": 756,
-      "CreatedAt": "1999-12-31T03:24:51.943244+01:00",
+      "TicketMessageId": 323,
+      "CreatedAt": "2014-04-03T13:38:17.6867978+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "magnam",
-      "PersonId": 981,
-      "PersonFullName": "Mr. Darrel Chelsey Durgan II",
-      "ContactId": 843,
-      "ContactName": "Heidenreich LLC",
+      "Author": "nemo",
+      "PersonId": 242,
+      "PersonFullName": "Curtis Dicki",
+      "ContactId": 392,
+      "ContactName": "Stanton-Corkery",
       "ContactDepartment": "",
-      "NumAttachments": 794,
-      "EmailHeader": "nellie_dickinson@beahan.ca",
+      "NumAttachments": 98,
+      "EmailHeader": "sofia@harvey.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "qui",
-      "Sentiment": 535,
-      "SentimentConfidence": 147,
-      "CreatedBy": 960,
-      "ChangedAt": "2004-11-26T03:24:51.943244+01:00",
+      "Language": "quis",
+      "Sentiment": 362,
+      "SentimentConfidence": 130,
+      "CreatedBy": 57,
+      "ChangedAt": "1997-05-17T13:38:17.6867978+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 638
+          "FieldLength": 93
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 314,
-      "Name": "Dibbert, Gottlieb and Kutch",
-      "ToolTip": "Facilis nobis dicta odio dolorum asperiores fugiat commodi.",
+      "Id": 149,
+      "Name": "Blick, Hettinger and Padberg",
+      "ToolTip": "Voluptate corrupti dolorem est architecto.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 725
+          "FieldType": "System.Int32",
+          "FieldLength": 649
         }
       }
     },
     {
-      "Id": 314,
-      "Name": "Dibbert, Gottlieb and Kutch",
-      "ToolTip": "Facilis nobis dicta odio dolorum asperiores fugiat commodi.",
+      "Id": 149,
+      "Name": "Blick, Hettinger and Padberg",
+      "ToolTip": "Voluptate corrupti dolorem est architecto.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 725
+          "FieldType": "System.Int32",
+          "FieldLength": 649
         }
       }
     }
   ],
-  "Language": "odio",
-  "Sentiment": 198,
-  "SentimentConfidence": 447,
-  "SuggestedCategoryId": 890,
+  "Language": "quisquam",
+  "Sentiment": 518,
+  "SentimentConfidence": 414,
+  "SuggestedCategoryId": 131,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 368,
-  "IconHint": "vel",
+  "OrigHumanCategoryId": 641,
+  "IconHint": "aliquid",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "id"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "dolor"
+    "CustomFields1": "amet",
+    "CustomFields2": "reiciendis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 149
     }
   }
 }

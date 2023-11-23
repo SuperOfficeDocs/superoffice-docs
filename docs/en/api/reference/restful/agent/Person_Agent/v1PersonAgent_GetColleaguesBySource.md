@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 229
+  "Count": 198
 }
 ```
 
@@ -132,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "et",
-    "PersonId": 256,
-    "Mrmrs": "voluptatem",
-    "Firstname": "Corrine",
-    "Lastname": "Lemke",
-    "MiddleName": "Von-Rosenbaum",
-    "Title": "soluta",
-    "Description": "Cloned disintermediate encryption",
-    "Email": "lula.davis@schummwilkinson.us",
-    "FullName": "Prof. Cathrine Adolphus Gusikowski",
-    "DirectPhone": "1-435-482-1880",
-    "FormalName": "Moen LLC",
-    "CountryId": 516,
-    "ContactId": 677,
-    "ContactName": "Emmerich-Johns",
-    "Retired": 761,
-    "Rank": 825,
-    "ActiveInterests": 284,
+    "Position": "voluptatem",
+    "PersonId": 785,
+    "Mrmrs": "necessitatibus",
+    "Firstname": "Thaddeus",
+    "Lastname": "Zboncak",
+    "MiddleName": "Ruecker-Mayert",
+    "Title": "et",
+    "Description": "Balanced incremental model",
+    "Email": "perry_lakin@lehnerschumm.ca",
+    "FullName": "Claude Bartoletti",
+    "DirectPhone": "197-767-6736",
+    "FormalName": "Bednar, Wyman and Ernser",
+    "CountryId": 270,
+    "ContactId": 500,
+    "ContactName": "Smith, Parker and Heller",
+    "Retired": 571,
+    "Rank": 784,
+    "ActiveInterests": 529,
     "ContactDepartment": "",
-    "ContactCountryId": 125,
-    "ContactOrgNr": "867065",
-    "FaxPhone": "(828)153-6120 x41431",
-    "MobilePhone": "1-913-581-0095",
-    "ContactPhone": "498-582-3594",
-    "AssociateName": "Gulgowski LLC",
-    "AssociateId": 508,
+    "ContactCountryId": 401,
+    "ContactOrgNr": "1110509",
+    "FaxPhone": "1-251-231-9780",
+    "MobilePhone": "(193)876-2485",
+    "ContactPhone": "308.154.5642",
+    "AssociateName": "Rodriguez, Harvey and Schuppe",
+    "AssociateId": 68,
     "UsePersonAddress": false,
-    "ContactFax": "ducimus",
-    "Kanafname": "quod",
-    "Kanalname": "similique",
-    "Post1": "minus",
-    "Post2": "iure",
-    "Post3": "aliquid",
-    "EmailName": "rex_hahn@schneider.com",
-    "ContactFullName": "Reese Gottlieb I",
-    "ActiveErpLinks": 396,
-    "TicketPriorityId": 865,
-    "SupportLanguageId": 32,
-    "SupportAssociateId": 941,
+    "ContactFax": "id",
+    "Kanafname": "aperiam",
+    "Kanalname": "fugiat",
+    "Post1": "cupiditate",
+    "Post2": "aperiam",
+    "Post3": "blanditiis",
+    "EmailName": "beulah.pouros@king.ca",
+    "ContactFullName": "Wiley Kirlin V",
+    "ActiveErpLinks": 803,
+    "TicketPriorityId": 716,
+    "SupportLanguageId": 502,
+    "SupportAssociateId": 929,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldType": "System.String",
+        "FieldLength": 725
       }
     }
   }

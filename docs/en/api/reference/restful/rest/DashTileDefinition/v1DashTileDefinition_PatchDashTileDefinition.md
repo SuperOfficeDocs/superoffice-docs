@@ -126,18 +126,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptate",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptate",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -150,36 +150,36 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 543,
-  "Name": "Murazik Group",
-  "Description": "Customizable dedicated product",
-  "DefaultHeight": 537,
-  "DefaultWidth": 792,
+  "DashboardTileDefinitionId": 197,
+  "Name": "Gleason, Ferry and Lindgren",
+  "Description": "Team-oriented value-added encryption",
+  "DefaultHeight": 755,
+  "DefaultWidth": 826,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Swaniawski, McClure and Barton",
-  "SelectionId": 4,
+  "EntityName": "Mante Group",
+  "SelectionId": 693,
   "CurrencyMode": "Base",
-  "CurrencyCode": "repellat",
+  "CurrencyCode": "repellendus",
   "Measure": "Average",
-  "MeasureField": "omnis",
-  "SortBy": "qui",
-  "LayoutConfig": "odio",
-  "SecondarySelectionId": 334,
+  "MeasureField": "ad",
+  "SortBy": "magni",
+  "LayoutConfig": "iusto",
+  "SecondarySelectionId": 655,
   "MeasureByField": "eos",
   "Usage": "Dashboard",
-  "ProviderName": "Heaney, Rice and Hudson",
+  "ProviderName": "Kuvalis-Smitham",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldType": "System.String",
+      "FieldLength": 149
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

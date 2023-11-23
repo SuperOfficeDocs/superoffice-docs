@@ -93,10 +93,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 950,
-  "AttachmentId": "est",
-  "AttachmentType": "unde",
-  "AttachmentFilename": "dolor"
+  "MailItemId": 227,
+  "AttachmentId": "voluptatum",
+  "AttachmentType": "impedit",
+  "AttachmentFilename": "eius"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Right-sized bottom-line firmware",
-  "Filename": "unde",
-  "Size": 173,
-  "Type": "laudantium",
+  "Description": "Distributed coherent info-mediaries",
+  "Filename": "impedit",
+  "Size": 453,
+  "Type": "facere",
   "Encoding": "ducimus",
-  "Id": "id",
-  "Disposition": "vel",
-  "IsSafeFileExtension": true,
+  "Id": "eos",
+  "Disposition": "sunt",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 431
     }
   }
 }

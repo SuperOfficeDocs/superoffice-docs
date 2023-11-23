@@ -79,15 +79,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ContextIdentifier": "qui",
-  "Status": "consequuntur",
+  "Status": "voluptatem",
   "CurrentModel": null,
   "PreviousModel": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 528
+      "FieldType": "System.Int32",
+      "FieldLength": 268
     }
   }
 }

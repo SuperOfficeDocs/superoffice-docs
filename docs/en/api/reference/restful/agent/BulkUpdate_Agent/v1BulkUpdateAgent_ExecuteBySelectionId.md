@@ -82,26 +82,26 @@ Content-Type: application/json; charset=utf-8
       "DefaultShowInGui": true,
       "DefaultShowInSelector": false,
       "IsActive": true,
-      "Key": "et",
-      "ValueType": "porro",
+      "Key": "consectetur",
+      "ValueType": "voluptatem",
       "Mandatory": false,
-      "EncodedDisplayName": "Berge, Cronin and Hilpert",
-      "EncodedDisplayDescription": "Networked logistical workforce",
-      "IconHint": "eum",
+      "EncodedDisplayName": "Lindgren-Weimann",
+      "EncodedDisplayDescription": "Multi-tiered clear-thinking knowledge user",
+      "IconHint": "ad",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "odio",
-      "EncodedDataCaptionDescription": "Pre-emptive 3rd generation neural-net",
-      "CurrentOperationType": "exercitationem",
+      "EncodedDataCaption": "corporis",
+      "EncodedDataCaptionDescription": "Total contextually-based workforce",
+      "CurrentOperationType": "cupiditate",
       "Values": [
-        "culpa",
-        "delectus"
+        "voluptatem",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "quibusdam",
-        "magni"
+        "a",
+        "eum"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Larkin Inc and Sons",
-  "Context": "et",
-  "SelectionId": 30,
+  "TableName": "Dickinson LLC",
+  "Context": "qui",
+  "SelectionId": 137,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-324
+101
 ```

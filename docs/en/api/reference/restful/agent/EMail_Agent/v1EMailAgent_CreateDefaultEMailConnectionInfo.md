@@ -74,17 +74,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Rogahn, Halvorson and Barton",
-  "UserName": "Carter Group",
-  "Password": "quis",
-  "Folder": "delectus",
+  "ServerName": "Cartwright LLC",
+  "UserName": "Schultz Inc and Sons",
+  "Password": "dolor",
+  "Folder": "qui",
   "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldType": "System.String",
+      "FieldLength": 353
     }
   }
 }

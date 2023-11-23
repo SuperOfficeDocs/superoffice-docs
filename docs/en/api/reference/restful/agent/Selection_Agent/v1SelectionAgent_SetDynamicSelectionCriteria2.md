@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 94,
-  "Filter": "velit"
+  "SelectionId": 113,
+  "Filter": "consequatur"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Willms-Stoltenberg",
-    "Operator": "optio",
+    "Name": "Kihn-Smitham",
+    "Operator": "blanditiis",
     "Values": [
-      "sit",
-      "sint"
+      "tempore",
+      "qui"
     ],
     "DisplayValues": [
-      "dolorem",
-      "nam"
+      "explicabo",
+      "est"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Lemke-Beer",
-        "Operator": "debitis",
+        "Name": "Koepp-Farrell",
+        "Operator": "et",
         "Values": [
-          "vitae",
-          "saepe"
+          "similique",
+          "itaque"
         ],
         "DisplayValues": [
-          "molestiae",
-          "sit"
+          "totam",
+          "alias"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 320,
+        "InterParenthesis": 566,
         "InterOperator": "And",
-        "UniqueHash": 524
+        "UniqueHash": 340
       }
     ],
-    "InterParenthesis": 939,
+    "InterParenthesis": 985,
     "InterOperator": "And",
-    "UniqueHash": 948
+    "UniqueHash": 508
   }
 ]
 ```

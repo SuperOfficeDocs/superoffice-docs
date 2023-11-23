@@ -90,11 +90,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jenkins, Goodwin and Parker",
-  "DeviceName": "Hilll-Prohaska",
-  "KeyName": "McKenzie-Robel",
-  "TableName": "O'Reilly-Blanda",
-  "RecordId": 409
+  "ApplicationName": "Hane Inc and Sons",
+  "DeviceName": "Bogisich-Anderson",
+  "KeyName": "Skiles LLC",
+  "TableName": "Lemke-Greenfelder",
+  "RecordId": 252
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "est",
-  "Value": "odio",
-  "RecordId": 608,
-  "CreatedDate": "1997-04-09T03:24:47.8145137+02:00",
-  "UpdatedDate": "2017-10-31T03:24:47.8145137+01:00",
-  "UpdatedBy": "numquam",
-  "CreatedBy": "vel",
-  "TableName": "Spencer, Prosacco and Sawayn",
+  "Key": "dignissimos",
+  "Value": "et",
+  "RecordId": 907,
+  "CreatedDate": "1997-05-01T13:38:13.623981+02:00",
+  "UpdatedDate": "2001-05-11T13:38:13.623981+02:00",
+  "UpdatedBy": "consequatur",
+  "CreatedBy": "cum",
+  "TableName": "Kuhic, Kassulke and Crooks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 347
+      "FieldType": "System.Int32",
+      "FieldLength": 108
     }
   }
 }

@@ -3,6 +3,8 @@ items:
   href: overview/index.md
 - name: NetServer fundamentals
   href: overview/netserver.md
+- name: Quick-start
+  href: overview/quickstart.md
 - name: Authentication
   href: authentication/index.yml
   items:

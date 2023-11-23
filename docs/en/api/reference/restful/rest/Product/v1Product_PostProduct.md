@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 396,
-  "ERPProductKey": "praesentium",
-  "ERPPriceListKey": "quae",
-  "Name": "Miller, Conroy and Torp",
-  "Description": "Mandatory modular time-frame",
-  "Code": "excepturi",
-  "PriceUnit": "dolor",
-  "QuantityUnit": "laboriosam",
-  "IsSubscription": true,
-  "SubscriptionUnit": "voluptates",
-  "DefaultSubscriptionQuantity": 26031.004,
-  "ItemNumber": "580693",
+  "ProductId": 475,
+  "ERPProductKey": "id",
+  "ERPPriceListKey": "et",
+  "Name": "Bernier Inc and Sons",
+  "Description": "Diverse discrete conglomeration",
+  "Code": "mollitia",
+  "PriceUnit": "aut",
+  "QuantityUnit": "repellendus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "delectus",
+  "DefaultSubscriptionQuantity": 11210.318,
+  "ItemNumber": "910564",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "maxime",
-  "ProductTypeKey": "voluptatem",
-  "VAT": 19330.512,
-  "VATInfo": "suscipit",
-  "UnitCost": 12043.962,
-  "UnitMinimumPrice": 29161.87,
-  "UnitListPrice": 2751.652,
+  "ProductFamilyKey": "necessitatibus",
+  "ProductTypeKey": "voluptatum",
+  "VAT": 1338.2179999999998,
+  "VATInfo": "quia",
+  "UnitCost": 1037.354,
+  "UnitMinimumPrice": 21539.982,
+  "UnitListPrice": 13143.996,
   "InAssortment": false,
-  "Supplier": "omnis",
-  "SupplierCode": "nulla",
-  "Rights": "ut",
-  "Rule": "corrupti",
+  "Supplier": "nostrum",
+  "SupplierCode": "quia",
+  "Rights": "voluptatem",
+  "Rule": "eos",
   "ExtraInfo": [
     {
-      "Name": "Gutkowski-Cole",
-      "Value": "qui",
+      "Name": "Gerlach, Block and Orn",
+      "Value": "commodi",
       "Type": "Image"
     },
     {
-      "Name": "Gutkowski-Cole",
-      "Value": "qui",
+      "Name": "Gerlach, Block and Orn",
+      "Value": "commodi",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "quis",
-  "ExtraField2": "et",
-  "ExtraField3": "tempora",
-  "ExtraField4": "et",
-  "ExtraField5": "ut",
-  "InStock": 19336.78
+  "RawExtraInfo": "libero",
+  "ExtraField1": "quo",
+  "ExtraField2": "iste",
+  "ExtraField3": "aliquid",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "sit",
+  "InStock": 22097.834
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 811,
-  "ERPProductKey": "fuga",
-  "ERPPriceListKey": "magnam",
-  "Name": "Lehner Inc and Sons",
-  "Description": "Visionary hybrid knowledge user",
-  "Code": "delectus",
-  "PriceUnit": "nulla",
-  "QuantityUnit": "rerum",
-  "IsSubscription": true,
-  "SubscriptionUnit": "error",
-  "DefaultSubscriptionQuantity": 896.324,
-  "ItemNumber": "919968",
+  "ProductId": 464,
+  "ERPProductKey": "voluptates",
+  "ERPPriceListKey": "occaecati",
+  "Name": "Hudson, Walker and Wolff",
+  "Description": "Synergistic 4th generation conglomeration",
+  "Code": "possimus",
+  "PriceUnit": "corporis",
+  "QuantityUnit": "officiis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "quos",
+  "DefaultSubscriptionQuantity": 3108.928,
+  "ItemNumber": "1626559",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolores",
-  "ProductTypeKey": "quae",
-  "VAT": 22182.451999999997,
-  "VATInfo": "quaerat",
-  "UnitCost": 6487.38,
-  "UnitMinimumPrice": 29954.771999999997,
-  "UnitListPrice": 2168.728,
-  "InAssortment": false,
-  "Supplier": "sapiente",
-  "SupplierCode": "et",
-  "Rights": "ducimus",
-  "Rule": "quia",
+  "ProductFamilyKey": "sint",
+  "ProductTypeKey": "quo",
+  "VAT": 14529.224,
+  "VATInfo": "sed",
+  "UnitCost": 8132.73,
+  "UnitMinimumPrice": 11363.884,
+  "UnitListPrice": 5813.57,
+  "InAssortment": true,
+  "Supplier": "ex",
+  "SupplierCode": "adipisci",
+  "Rights": "laborum",
+  "Rule": "tenetur",
   "ExtraInfo": [
     {
-      "Name": "Medhurst LLC",
-      "Value": "consequuntur",
+      "Name": "Runolfsson-Legros",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 394
         }
       }
     },
     {
-      "Name": "Medhurst LLC",
-      "Value": "consequuntur",
+      "Name": "Runolfsson-Legros",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 394
         }
       }
     }
   ],
-  "RawExtraInfo": "sint",
-  "ExtraField1": "distinctio",
-  "ExtraField2": "sint",
-  "ExtraField3": "ut",
-  "ExtraField4": "quis",
-  "ExtraField5": "rerum",
-  "InStock": 5064.544,
+  "RawExtraInfo": "sit",
+  "ExtraField1": "placeat",
+  "ExtraField2": "corrupti",
+  "ExtraField3": "eveniet",
+  "ExtraField4": "occaecati",
+  "ExtraField5": "laborum",
+  "InStock": 9452.144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 129
     }
   }
 }

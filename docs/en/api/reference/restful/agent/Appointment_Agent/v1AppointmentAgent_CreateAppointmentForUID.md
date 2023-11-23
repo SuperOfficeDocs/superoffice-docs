@@ -104,7 +104,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -136,7 +137,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "UID": "repellendus"
+  "UID": "asperiores"
 }
 ```
 
@@ -151,125 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2008-01-05T03:24:47.1895816+01:00",
-  "AppointmentId": 2,
-  "Description": "Proactive attitude-oriented approach",
-  "StartDate": "2019-01-11T03:24:47.1895816+01:00",
-  "EndDate": "1996-08-05T03:24:47.1895816+02:00",
+  "CreatedDate": "2007-01-15T13:38:13.0302987+01:00",
+  "AppointmentId": 969,
+  "Description": "Quality-focused clear-thinking ability",
+  "StartDate": "2015-10-23T13:38:13.0302987+02:00",
+  "EndDate": "2011-05-12T13:38:13.0302987+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 739,
+  "MotherId": 460,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-07-21T03:24:47.1895816+02:00",
+  "UpdatedDate": "2012-05-11T13:38:13.0302987+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 937,
+  "ActiveLinks": 515,
   "Links": [
     {
-      "EntityName": "West-Wisoky",
-      "Id": 93,
-      "Description": "Integrated tertiary artificial intelligence",
-      "ExtraInfo": "dolores",
-      "LinkId": 563,
+      "EntityName": "Cummerata Group",
+      "Id": 658,
+      "Description": "Advanced transitional task-force",
+      "ExtraInfo": "qui",
+      "LinkId": 776,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 272
+          "FieldLength": 706
         }
       }
     }
   ],
-  "AlarmLeadTime": "quos",
-  "HasAlarm": true,
-  "ColorIndex": 700,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "illum",
-  "LeadTime": "facere",
-  "Location": "in",
-  "RejectCounter": 555,
+  "AlarmLeadTime": "et",
+  "HasAlarm": false,
+  "ColorIndex": 163,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "in",
+  "LeadTime": "voluptatem",
+  "Location": "sed",
+  "RejectCounter": 326,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 769,
-      "PersonId": 331,
-      "ContactId": 486,
-      "EmailId": 668,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 769,
-      "PersonId": 331,
-      "ContactId": 486,
-      "EmailId": 668,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 62,
+      "PersonId": 886,
+      "ContactId": 947,
+      "EmailId": 586,
+      "SendEmail": false,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "leon.russel@lueilwitz.com",
+      "Description": "Vision-oriented assymetric process improvement"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-10-26T03:24:47.1895816+02:00",
+  "ActiveDate": "2006-07-13T13:38:13.0302987+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 98,
+  "PreferredTZLocation": 910,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 978,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 604,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "minus",
-  "Title": "neque",
-  "Agenda": "molestiae",
-  "InternalNotes": "earum",
+  "CentralserviceVideomeetId": "nobis",
+  "Title": "repellendus",
+  "Agenda": "assumenda",
+  "InternalNotes": "dolorem",
   "UserDefinedFields": {
-    "SuperOffice:1": "281905628",
-    "SuperOffice:2": "Kim Kris"
+    "SuperOffice:1": "Jacinthe Runte DVM",
+    "SuperOffice:2": "1635138393"
   },
   "ExtraFields": {
-    "ExtraFields1": "reprehenderit",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "porro",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "eveniet",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "ipsa",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2004-10-12T03:24:47.1895816+02:00",
-  "PublishTo": "2014-12-26T03:24:47.1895816+01:00",
-  "PublishFrom": "1999-12-24T03:24:47.1895816+01:00",
+  "PublishEventDate": "2011-11-01T13:38:13.0302987+01:00",
+  "PublishTo": "2003-08-11T13:38:13.0302987+02:00",
+  "PublishFrom": "2007-09-08T13:38:13.0302987+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 394,
+      "VisibleId": 347,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 889
         }
       }
     },
     {
-      "VisibleId": 394,
+      "VisibleId": 347,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 889
         }
       }
     }
@@ -279,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 1002
     }
   }
 }

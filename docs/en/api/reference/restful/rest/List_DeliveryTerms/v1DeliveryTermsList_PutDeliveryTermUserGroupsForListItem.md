@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Bergnaum-Schaefer",
-    "ToolTip": "Asperiores exercitationem omnis earum in ea neque.",
+    "Id": 345,
+    "Name": "Hilll, Considine and Konopelski",
+    "ToolTip": "Nam blanditiis sequi.",
     "Deleted": true,
-    "Rank": 283,
-    "Type": "deserunt",
-    "ColorBlock": 976,
-    "IconHint": "delectus",
+    "Rank": 205,
+    "Type": "consequuntur",
+    "ColorBlock": 433,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "2000-09-24T03:24:52.240053+02:00",
+    "LastChanged": "2020-08-22T13:38:18.0462875+02:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Luettgen Group",
-        "ToolTip": "Voluptatem occaecati et cumque.",
-        "Deleted": true,
-        "Rank": 119,
-        "Type": "quis",
-        "ColorBlock": 28,
-        "IconHint": "nostrum",
-        "Selected": false,
-        "LastChanged": "2016-05-06T03:24:52.240053+02:00",
+        "Id": 255,
+        "Name": "Kessler-Harris",
+        "ToolTip": "Repellendus voluptate.",
+        "Deleted": false,
+        "Rank": 207,
+        "Type": "repudiandae",
+        "ColorBlock": 285,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2011-11-30T13:38:18.0462875+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "velit",
+        "ExtraInfo": "saepe",
+        "StyleHint": "iure",
         "Hidden": true,
-        "FullName": "Leslie Wiza Sr."
+        "FullName": "Lincoln Koelpin"
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Zechariah Christiansen"
+    "ExtraInfo": "sed",
+    "StyleHint": "neque",
+    "Hidden": true,
+    "FullName": "Prof. Josue Gleason V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "D'Amore, King and White",
-    "ToolTip": "Eos corrupti assumenda numquam ea et dicta at.",
+    "Id": 783,
+    "Name": "Sipes-Cartwright",
+    "ToolTip": "Recusandae accusantium quidem consequatur.",
     "Deleted": false,
-    "Rank": 508,
-    "Type": "aliquid",
-    "ColorBlock": 218,
-    "IconHint": "maxime",
-    "Selected": true,
-    "LastChanged": "2018-12-14T03:24:52.240053+01:00",
+    "Rank": 692,
+    "Type": "eos",
+    "ColorBlock": 369,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2001-10-03T13:38:18.0462875+02:00",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Dare LLC",
-        "ToolTip": "Molestiae quis sit eum recusandae exercitationem.",
-        "Deleted": true,
-        "Rank": 799,
-        "Type": "et",
-        "ColorBlock": 806,
-        "IconHint": "et",
+        "Id": 199,
+        "Name": "Ritchie Group",
+        "ToolTip": "Doloremque quisquam tempora deserunt.",
+        "Deleted": false,
+        "Rank": 583,
+        "Type": "animi",
+        "ColorBlock": 122,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2018-01-14T03:24:52.240053+01:00",
+        "LastChanged": "2020-02-14T13:38:18.0462875+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "quod",
+        "StyleHint": "excepturi",
         "Hidden": false,
-        "FullName": "Leora Schoen MD",
+        "FullName": "Ms. Weldon Wilhelm Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 769
+            "FieldType": "System.Int32",
+            "FieldLength": 716
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "et",
+    "ExtraInfo": "hic",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Ms. Elton Glover",
+    "FullName": "Miss Thalia Ortiz Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldType": "System.String",
+        "FieldLength": 300
       }
     }
   }

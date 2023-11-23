@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 731,
-  "Field": "molestiae",
-  "RecordId": 887,
+  "RefCountsId": 567,
+  "Field": "porro",
+  "RecordId": 29,
   "SuggestedRecords": [
     {
-      "Id": 170,
-      "Name": "Grant, Ondricka and Brakus",
-      "ToolTip": "Architecto placeat quo et quod.",
+      "Id": 321,
+      "Name": "Doyle Inc and Sons",
+      "ToolTip": "Ducimus et quidem autem eligendi velit quia laboriosam.",
       "Deleted": false,
-      "Rank": 828,
-      "Type": "ab",
+      "Rank": 790,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "eum",
-      "ColorBlock": 411,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "provident",
-      "FullName": "Elenor Waelchi",
+      "ColorBlock": 827,
+      "ExtraInfo": "enim",
+      "StyleHint": "vitae",
+      "FullName": "Emilie Jacobi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 131
+          "FieldLength": 681
         }
       }
     }
   ],
-  "CurrentValue": 125,
-  "TravelPrefix": 690,
-  "SatPrefix": 473,
+  "CurrentValue": 558,
+  "TravelPrefix": 135,
+  "SatPrefix": 616,
   "Allocate": false,
-  "Unique": true,
+  "Unique": false,
   "ReadOnly": false,
   "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 861
     }
   }
 }

@@ -111,8 +111,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 158,
-  "ERPProductKey": "voluptatem"
+  "QuoteConnectionId": 89,
+  "ERPProductKey": "ut"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 761,
-  "ERPProductKey": "est",
-  "ERPPriceListKey": "occaecati",
-  "Name": "Bechtelar-Langosh",
-  "Description": "Cross-group actuating productivity",
-  "Code": "quos",
-  "PriceUnit": "placeat",
-  "QuantityUnit": "sed",
-  "IsSubscription": false,
+  "ProductId": 10,
+  "ERPProductKey": "consequuntur",
+  "ERPPriceListKey": "optio",
+  "Name": "Schmeler Group",
+  "Description": "Persistent optimizing pricing structure",
+  "Code": "natus",
+  "PriceUnit": "fugit",
+  "QuantityUnit": "voluptates",
+  "IsSubscription": true,
   "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 16907.93,
-  "ItemNumber": "989318",
+  "DefaultSubscriptionQuantity": 14103.0,
+  "ItemNumber": "522552",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "assumenda",
-  "ProductTypeKey": "perferendis",
-  "VAT": 6568.864,
-  "VATInfo": "enim",
-  "UnitCost": 27557.262,
-  "UnitMinimumPrice": 6518.7199999999993,
-  "UnitListPrice": 14422.668,
+  "ProductFamilyKey": "beatae",
+  "ProductTypeKey": "necessitatibus",
+  "VAT": 24329.242,
+  "VATInfo": "nam",
+  "UnitCost": 31308.66,
+  "UnitMinimumPrice": 9251.568,
+  "UnitListPrice": 25225.566,
   "InAssortment": false,
-  "Supplier": "pariatur",
-  "SupplierCode": "alias",
-  "Rights": "quidem",
-  "Rule": "libero",
+  "Supplier": "facilis",
+  "SupplierCode": "debitis",
+  "Rights": "non",
+  "Rule": "reprehenderit",
   "ExtraInfo": [
     {
-      "Name": "O'Keefe, Okuneva and Gulgowski",
-      "Value": "doloremque",
+      "Name": "Crist-Bogisich",
+      "Value": "veniam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldLength": 670
         }
       }
     },
     {
-      "Name": "O'Keefe, Okuneva and Gulgowski",
-      "Value": "doloremque",
+      "Name": "Crist-Bogisich",
+      "Value": "veniam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldLength": 670
         }
       }
     }
   ],
-  "RawExtraInfo": "quia",
-  "ExtraField1": "atque",
-  "ExtraField2": "aut",
-  "ExtraField3": "corrupti",
-  "ExtraField4": "sit",
-  "ExtraField5": "sed",
-  "InStock": 10815.434,
+  "RawExtraInfo": "at",
+  "ExtraField1": "dolorem",
+  "ExtraField2": "molestias",
+  "ExtraField3": "a",
+  "ExtraField4": "error",
+  "ExtraField5": "dolore",
+  "InStock": 14040.32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 961
+      "FieldType": "System.Int32",
+      "FieldLength": 796
     }
   }
 }

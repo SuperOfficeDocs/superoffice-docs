@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Homenick-Baumbach",
-  "Id": 85,
+  "TableName": "Runte, Windler and Stamm",
+  "Id": 646,
   "Values": {
-    "Values1": "deleniti",
-    "Values2": "rerum"
+    "Values1": "dolores",
+    "Values2": "eius"
   }
 }
 ```

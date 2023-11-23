@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=velit
-GET /api/v1/User?$top=669
-GET /api/v1/User?$skip=142
+GET /api/v1/User?$entities=quos
+GET /api/v1/User?$top=2
+GET /api/v1/User?$skip=124
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=minima
+GET /api/v1/User?$context=ut
 GET /api/v1/User?$format=JSON
-GET /api/v1/User?$jsonSafe=False
+GET /api/v1/User?$jsonSafe=True
 GET /api/v1/User?$output=Display
 ```
 
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "rerum",
+  "odata.nextLink": "quo",
   "value": [
     {
-      "PrimaryKey": 3608,
+      "PrimaryKey": 7655,
       "EntityName": "person",
-      "personId": 3608,
-      "fullName": "Michale Ebert"
+      "personId": 7655,
+      "fullName": "Prof. Diego Kara Eichmann DVM"
     },
     {
-      "PrimaryKey": 3963,
+      "PrimaryKey": 3515,
       "EntityName": "person",
-      "personId": 3963,
-      "fullName": "Mrs. Meghan Hills"
+      "personId": 3515,
+      "fullName": "Rod Fay"
     }
   ]
 }

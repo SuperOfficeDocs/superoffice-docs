@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 452,
-  "Name": "Mertz, Ritchie and Parisian",
-  "Tooltip": "cum",
-  "Rank": 922,
-  "AmountFrom": 742.75799999999992,
-  "AmountTo": 24987.381999999998,
+  "AmountClassId": 934,
+  "Name": "Thompson Inc and Sons",
+  "Tooltip": "omnis",
+  "Rank": 343,
+  "AmountFrom": 14222.091999999999,
+  "AmountTo": 22991.023999999998,
   "Deleted": false,
-  "CurrencyId": 377
+  "CurrencyId": 433
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 665,
-  "Name": "Reilly-Leannon",
-  "Tooltip": "et",
-  "Rank": 846,
-  "AmountFrom": 26993.142,
-  "AmountTo": 23928.09,
-  "Deleted": false,
-  "CurrencyId": 528,
+  "AmountClassId": 798,
+  "Name": "Hudson-Boyle",
+  "Tooltip": "sit",
+  "Rank": 122,
+  "AmountFrom": 19321.11,
+  "AmountTo": 2898.95,
+  "Deleted": true,
+  "CurrencyId": 677,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 288
     }
   }
 }

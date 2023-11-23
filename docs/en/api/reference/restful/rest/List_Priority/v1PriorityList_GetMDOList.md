@@ -27,7 +27,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=iusto
+GET /api/v1/List/Priority/MDOItems?query=tempore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "Murphy-Morar",
-    "ToolTip": "Ut quos fugiat.",
+    "Id": 328,
+    "Name": "Stanton-Rutherford",
+    "ToolTip": "Ipsum aliquid qui voluptatem porro et ipsam et.",
     "Deleted": false,
-    "Rank": 219,
-    "Type": "et",
+    "Rank": 752,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Wintheiser Inc and Sons",
-        "ToolTip": "Aut debitis ullam quis aut.",
+        "Id": 66,
+        "Name": "Smitham-Kuhlman",
+        "ToolTip": "Perferendis a.",
         "Deleted": false,
-        "Rank": 11,
-        "Type": "nihil",
+        "Rank": 595,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 568,
-        "ExtraInfo": "qui",
-        "StyleHint": "omnis",
-        "FullName": "Ms. Maximus Sienna Franecki",
+        "IconHint": "numquam",
+        "ColorBlock": 435,
+        "ExtraInfo": "optio",
+        "StyleHint": "facere",
+        "FullName": "Maritza Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 839
+            "FieldLength": 451
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 159,
-    "ExtraInfo": "non",
-    "StyleHint": "iste",
-    "FullName": "Felipe Feil DVM",
+    "IconHint": "et",
+    "ColorBlock": 846,
+    "ExtraInfo": "rem",
+    "StyleHint": "nobis",
+    "FullName": "Annalise Robel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldType": "System.String",
+        "FieldLength": 121
       }
     }
   }

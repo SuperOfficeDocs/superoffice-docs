@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Becker, Donnelly and Kris",
-  "Context": "quis"
+  "TableName": "Erdman LLC",
+  "Context": "quasi"
 }
 ```
 
@@ -109,72 +109,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "quae",
-    "ValueType": "non",
+    "Key": "cum",
+    "ValueType": "ipsa",
     "Mandatory": false,
-    "EncodedDisplayName": "Rempel, Hilll and Stanton",
-    "EncodedDisplayDescription": "Upgradable full-range matrices",
-    "IconHint": "officiis",
+    "EncodedDisplayName": "Stiedemann, Casper and Becker",
+    "EncodedDisplayDescription": "Enterprise-wide exuding emulation",
+    "IconHint": "molestiae",
     "ControlInfos": [
       {
-        "Type": "eos",
-        "Label": "ut",
-        "Dimension": 910,
-        "ListProviderName": "Cassin, Morar and McLaughlin",
-        "ListProviderExtraInfo": "consequatur",
-        "ListProviderPrimaryKeyName": "Hagenes-Murray",
-        "ListLeadText": "assumenda",
+        "Type": "voluptas",
+        "Label": "est",
+        "Dimension": 623,
+        "ListProviderName": "Halvorson Inc and Sons",
+        "ListProviderExtraInfo": "voluptates",
+        "ListProviderPrimaryKeyName": "Gusikowski-Tromp",
+        "ListLeadText": "nemo",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 451
           }
         }
       }
     ],
-    "EncodedDataCaption": "a",
-    "EncodedDataCaptionDescription": "Quality-focused discrete synergy",
-    "CurrentOperationType": "ut",
+    "EncodedDataCaption": "qui",
+    "EncodedDataCaptionDescription": "Devolved bifurcated migration",
+    "CurrentOperationType": "maiores",
     "Values": [
-      "tenetur",
-      "occaecati"
+      "consectetur",
+      "veritatis"
     ],
     "DisplayValues": [
-      "aut",
-      "ad"
+      "voluptatem",
+      "temporibus"
     ],
     "OperationInfos": [
       {
-        "Key": "quibusdam",
-        "EncodedDisplayName": "Kessler-Pollich",
+        "Key": "dolor",
+        "EncodedDisplayName": "Collier, Hamill and Shanahan",
         "EncodedLeadTexts": [
-          "earum",
-          "placeat"
+          "cupiditate",
+          "possimus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 252
+            "FieldType": "System.String",
+            "FieldLength": 525
           }
         }
       },
       {
-        "Key": "quibusdam",
-        "EncodedDisplayName": "Kessler-Pollich",
+        "Key": "dolor",
+        "EncodedDisplayName": "Collier, Hamill and Shanahan",
         "EncodedLeadTexts": [
-          "earum",
-          "placeat"
+          "cupiditate",
+          "possimus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 252
+            "FieldType": "System.String",
+            "FieldLength": 525
           }
         }
       }

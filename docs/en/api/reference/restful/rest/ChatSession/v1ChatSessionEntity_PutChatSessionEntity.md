@@ -139,33 +139,33 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 111,
-  "TopicId": 165,
+  "ChatSessionId": 638,
+  "TopicId": 849,
   "User": null,
   "Person": null,
-  "CustomerAlias": "occaecati",
-  "CustomerHost": "tempore",
-  "CustomerName": "Jakubowski, O'Connell and Leuschke",
-  "CustomerEmail": "hudson_blick@ledner.ca",
-  "CustomerPhone": "413-739-4493 x014",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Jast Group",
+  "CustomerAlias": "eos",
+  "CustomerHost": "ullam",
+  "CustomerName": "Schmidt, Schneider and Ruecker",
+  "CustomerEmail": "courtney@hoegermayert.ca",
+  "CustomerPhone": "700-520-0601",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Kemmer-Dickens",
   "Status": "Closed",
-  "FirstMessage": "voluptas",
-  "LastMessage": "ut",
-  "WhenRequested": "2022-06-10T03:24:51.3804391+02:00",
-  "WhenStarted": "1996-07-19T03:24:51.3804391+02:00",
-  "WhenEnded": "1999-07-24T03:24:51.3804391+02:00",
-  "WhenIdle": "2003-09-22T03:24:51.3804391+02:00",
-  "WhenFetched": "2020-01-19T03:24:51.3804391+01:00",
-  "SessionKey": "deserunt",
-  "InitialQueuePos": 991,
-  "AlertLevel": 761,
-  "Rank": 597,
+  "FirstMessage": "mollitia",
+  "LastMessage": "dolorum",
+  "WhenRequested": "2009-12-08T13:38:17.1243563+01:00",
+  "WhenStarted": "1996-11-13T13:38:17.1243563+01:00",
+  "WhenEnded": "2001-08-03T13:38:17.1243563+02:00",
+  "WhenIdle": "1996-07-25T13:38:17.1243563+02:00",
+  "WhenFetched": "1998-01-12T13:38:17.1243563+01:00",
+  "SessionKey": "vero",
+  "InitialQueuePos": 328,
+  "AlertLevel": 236,
+  "Rank": 978,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 350
+  "Rating": 589
 }
 ```
 
@@ -184,29 +184,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 956,
-  "TopicId": 884,
+  "ChatSessionId": 343,
+  "TopicId": 472,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "minima",
-  "CustomerName": "Kertzmann, Pollich and Runolfsson",
-  "CustomerEmail": "dayna@emmerichlittle.name",
-  "CustomerPhone": "271.072.1732 x8617",
+  "CustomerAlias": "quos",
+  "CustomerHost": "libero",
+  "CustomerName": "Bergstrom-Brekke",
+  "CustomerEmail": "bernard_stokes@hoegermurray.uk",
+  "CustomerPhone": "(895)542-7339 x90329",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Pagac-Bahringer",
+  "CustomerCompanyName": "Lehner, Mante and Welch",
   "Status": "Closed",
-  "FirstMessage": "saepe",
-  "LastMessage": "nam",
-  "WhenRequested": "1996-09-27T03:24:51.3804391+02:00",
-  "WhenStarted": "2001-12-26T03:24:51.3804391+01:00",
-  "WhenEnded": "2001-10-11T03:24:51.3804391+02:00",
-  "WhenIdle": "2003-11-30T03:24:51.3804391+01:00",
-  "WhenFetched": "2001-09-16T03:24:51.3804391+02:00",
-  "SessionKey": "fuga",
-  "InitialQueuePos": 791,
-  "AlertLevel": 629,
-  "Rank": 182,
+  "FirstMessage": "consectetur",
+  "LastMessage": "cum",
+  "WhenRequested": "2000-11-05T13:38:17.1243563+01:00",
+  "WhenStarted": "2022-04-26T13:38:17.1243563+02:00",
+  "WhenEnded": "2021-04-08T13:38:17.1243563+02:00",
+  "WhenIdle": "2007-01-20T13:38:17.1243563+01:00",
+  "WhenFetched": "2000-02-28T13:38:17.1243563+01:00",
+  "SessionKey": "commodi",
+  "InitialQueuePos": 732,
+  "AlertLevel": 245,
+  "Rank": 247,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -214,18 +214,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 704,
+  "Rating": 592,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldType": "System.String",
+      "FieldLength": 349
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

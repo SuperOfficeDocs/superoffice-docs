@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 721,
-  "TopicId": 341,
+  "ChatSessionId": 512,
+  "TopicId": 942,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatem",
-  "CustomerHost": "tempora",
-  "CustomerName": "Olson Group",
-  "CustomerEmail": "isaias@schowalter.co.uk",
-  "CustomerPhone": "060-442-9184 x7165",
+  "CustomerAlias": "non",
+  "CustomerHost": "ut",
+  "CustomerName": "Harber Group",
+  "CustomerEmail": "scarlett.ledner@schustergibson.uk",
+  "CustomerPhone": "(344)906-0447",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schultz Inc and Sons",
+  "CustomerCompanyName": "Simonis LLC",
   "Status": "Closed",
-  "FirstMessage": "ducimus",
-  "LastMessage": "blanditiis",
-  "WhenRequested": "2005-12-31T03:24:51.4117024+01:00",
-  "WhenStarted": "2009-03-30T03:24:51.4117024+02:00",
-  "WhenEnded": "1999-06-10T03:24:51.4117024+02:00",
-  "WhenIdle": "2004-12-24T03:24:51.4117024+01:00",
-  "WhenFetched": "2004-02-14T03:24:51.4117024+01:00",
-  "SessionKey": "dolorum",
-  "InitialQueuePos": 595,
-  "AlertLevel": 299,
-  "Rank": 811,
+  "FirstMessage": "libero",
+  "LastMessage": "autem",
+  "WhenRequested": "2004-05-10T13:38:17.171193+02:00",
+  "WhenStarted": "2003-02-26T13:38:17.171193+01:00",
+  "WhenEnded": "2020-03-07T13:38:17.171193+01:00",
+  "WhenIdle": "2016-09-16T13:38:17.171193+02:00",
+  "WhenFetched": "2007-07-26T13:38:17.171193+02:00",
+  "SessionKey": "ratione",
+  "InitialQueuePos": 598,
+  "AlertLevel": 502,
+  "Rank": 261,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 725,
+  "ChatbotIsActive": false,
+  "Rating": 800,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldType": "System.String",
+      "FieldLength": 762
     }
   }
 }

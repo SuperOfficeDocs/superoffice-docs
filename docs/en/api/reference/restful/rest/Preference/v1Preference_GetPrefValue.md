@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "expedita",
+  "RawValue": "veniam",
   "Specification": null,
-  "DisplayValue": "saepe",
-  "DisplayTooltip": "accusantium",
+  "DisplayValue": "mollitia",
+  "DisplayTooltip": "a",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 519,
-  "PrefDescId": 425,
-  "TableName": "Davis-Reichert",
-  "UserPreferenceId": 934,
+  "TargetId": 480,
+  "PrefDescId": 609,
+  "TableName": "Connelly Inc and Sons",
+  "UserPreferenceId": 336,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 974
     }
   }
 }

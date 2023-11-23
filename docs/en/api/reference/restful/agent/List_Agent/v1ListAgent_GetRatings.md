@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Value": "sit",
-    "Tooltip": "qui",
+    "Id": 489,
+    "Value": "quaerat",
+    "Tooltip": "alias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 814
+        "FieldLength": 897
       }
     }
   },
   {
-    "Id": 707,
-    "Value": "sit",
-    "Tooltip": "qui",
+    "Id": 489,
+    "Value": "quaerat",
+    "Tooltip": "alias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 814
+        "FieldLength": 897
       }
     }
   }

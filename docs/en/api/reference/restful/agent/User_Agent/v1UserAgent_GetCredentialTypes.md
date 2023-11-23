@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,9 +83,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "deserunt",
-    "Type": "aut",
-    "Description": "Automated holistic methodology",
+    "DisplayType": "quas",
+    "Type": "earum",
+    "Description": "Open-architected dedicated knowledge base",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": true,
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 113
+        "FieldType": "System.Int32",
+        "FieldLength": 762
       }
     }
   }

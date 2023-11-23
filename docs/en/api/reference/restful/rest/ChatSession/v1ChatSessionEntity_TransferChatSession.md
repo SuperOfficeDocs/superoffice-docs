@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,29 +102,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 900,
-  "TopicId": 487,
+  "ChatSessionId": 257,
+  "TopicId": 607,
   "User": null,
   "Person": null,
-  "CustomerAlias": "commodi",
-  "CustomerHost": "impedit",
-  "CustomerName": "Vandervort-Lind",
-  "CustomerEmail": "tito.legros@rogahn.info",
-  "CustomerPhone": "148.582.8323",
+  "CustomerAlias": "ut",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Johnson Group",
+  "CustomerEmail": "caleigh_hermann@leannon.us",
+  "CustomerPhone": "1-013-336-9042 x271",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bayer, Tremblay and Funk",
+  "CustomerCompanyName": "Smith-Hamill",
   "Status": "Closed",
-  "FirstMessage": "repudiandae",
-  "LastMessage": "et",
-  "WhenRequested": "1999-05-26T03:24:51.3960792+02:00",
-  "WhenStarted": "2001-06-28T03:24:51.3960792+02:00",
-  "WhenEnded": "2022-05-31T03:24:51.3960792+02:00",
-  "WhenIdle": "2003-01-21T03:24:51.3960792+01:00",
-  "WhenFetched": "2019-04-27T03:24:51.3960792+02:00",
-  "SessionKey": "sed",
-  "InitialQueuePos": 283,
-  "AlertLevel": 370,
-  "Rank": 55,
+  "FirstMessage": "veniam",
+  "LastMessage": "occaecati",
+  "WhenRequested": "1998-03-09T13:38:17.15557+01:00",
+  "WhenStarted": "2009-07-25T13:38:17.15557+02:00",
+  "WhenEnded": "2014-12-18T13:38:17.15557+01:00",
+  "WhenIdle": "2010-06-26T13:38:17.15557+02:00",
+  "WhenFetched": "2020-08-22T13:38:17.15557+02:00",
+  "SessionKey": "quibusdam",
+  "InitialQueuePos": 195,
+  "AlertLevel": 178,
+  "Rank": 566,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 351,
+  "Rating": 28,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldType": "System.String",
+      "FieldLength": 534
     }
   }
 }

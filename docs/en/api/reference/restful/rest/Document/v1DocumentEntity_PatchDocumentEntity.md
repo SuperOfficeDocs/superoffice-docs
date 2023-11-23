@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "suscipit",
+    "path": "labore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "suscipit",
+    "path": "labore",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 69,
+  "DocumentId": 267,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "praesentium",
-  "Header": "recusandae",
-  "Name": "Quigley, Ortiz and Corkery",
+  "Attention": "iusto",
+  "Header": "molestias",
+  "Name": "Gorczany, Halvorson and Rolfson",
   "OurRef": "ut",
-  "YourRef": "doloremque",
-  "CreatedDate": "2014-12-31T03:24:51.5837277+01:00",
-  "UpdatedDate": "2018-04-04T03:24:51.5837277+02:00",
-  "Description": "Cross-group neutral process improvement",
+  "YourRef": "recusandae",
+  "CreatedDate": "2022-09-26T13:38:17.4055756+02:00",
+  "UpdatedDate": "2021-09-17T13:38:17.4055756+02:00",
+  "Description": "Triple-buffered analyzing paradigm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-04-11T03:24:51.5837277+02:00",
-  "ExternalRef": "labore",
+  "Date": "1997-03-06T13:38:17.4055756+01:00",
+  "ExternalRef": "alias",
   "Completed": "Completed",
-  "ActiveLinks": 52,
+  "ActiveLinks": 36,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lang, McKenzie and Raynor",
-      "Id": 707,
-      "Description": "Synergistic context-sensitive matrix",
-      "ExtraInfo": "sunt",
-      "LinkId": 350,
+      "EntityName": "Barrows Group",
+      "Id": 793,
+      "Description": "Advanced human-resource parallelism",
+      "ExtraInfo": "commodi",
+      "LinkId": 3,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 639
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 933,
-  "Snum": 41,
+  "SuggestedDocumentId": 880,
+  "Snum": 261,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alfreda Hand",
-    "SuperOffice:2": "629017613"
+    "SuperOffice:1": "Karson Smith",
+    "SuperOffice:2": "Dereck Becker"
   },
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "et",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "ullam"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "alias"
   },
-  "PublishEventDate": "1998-11-28T03:24:51.5837277+01:00",
-  "PublishTo": "2000-10-11T03:24:51.5837277+02:00",
-  "PublishFrom": "2005-08-10T03:24:51.5837277+02:00",
+  "PublishEventDate": "2019-07-13T13:38:17.4055756+02:00",
+  "PublishTo": "2007-09-12T13:38:17.4055756+02:00",
+  "PublishFrom": "1996-09-10T13:38:17.4055756+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 587,
+      "VisibleId": 974,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 872
         }
       }
     },
     {
-      "VisibleId": 587,
+      "VisibleId": 974,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 872
         }
       }
     }
@@ -256,12 +256,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 814
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

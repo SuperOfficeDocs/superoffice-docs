@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Lesch Group",
-      "Description": "Cross-platform 3rd generation focus group",
+      "Name": "Altenwerth, Skiles and Casper",
+      "Description": "Inverse 3rd generation secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Lesch Group",
-      "Description": "Cross-platform 3rd generation focus group",
+      "Name": "Altenwerth, Skiles and Casper",
+      "Description": "Inverse 3rd generation secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,56 +119,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ebert-Lang",
-    "Description": "Polarised needs-based algorithm",
+    "Name": "Bergnaum-Pollich",
+    "Description": "Vision-oriented homogeneous intranet",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 714,
-        "Tooltip": "ut",
+        "Total": 42,
+        "Tooltip": "excepturi",
         "CanAssign": false,
-        "Free": 965,
-        "InUse": 314,
-        "IsHidden": false,
+        "Free": 220,
+        "InUse": 521,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 969,
-        "Name": "Graham-Bosco",
-        "Description": "Implemented modular productivity",
-        "PrerequisiteModuleName": "Dare, Bernhard and O'Conner",
-        "SortOrder": 290,
-        "ExtraFlags": 556,
+        "ModuleLicenseId": 413,
+        "Name": "Hoppe Group",
+        "Description": "Customizable interactive time-frame",
+        "PrerequisiteModuleName": "Mann Group",
+        "SortOrder": 416,
+        "ExtraFlags": 509,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 139
+            "FieldType": "System.Int32",
+            "FieldLength": 823
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 841,
-        "Tooltip": "commodi",
+        "Unrestricted": true,
+        "Total": 839,
+        "Tooltip": "aliquam",
         "CanAssign": false,
-        "Free": 283,
-        "InUse": 225,
+        "Free": 88,
+        "InUse": 138,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 759,
-        "Name": "Harris, Gerhold and Corkery",
-        "Description": "Realigned national solution",
-        "PrerequisiteModuleName": "Brown, Bechtelar and McKenzie",
-        "SortOrder": 505,
-        "ExtraFlags": 718,
+        "ModuleLicenseId": 813,
+        "Name": "Shields, Jacobs and Cormier",
+        "Description": "Centralized leading edge Graphical User Interface",
+        "PrerequisiteModuleName": "Kihn, Hills and Marquardt",
+        "SortOrder": 723,
+        "ExtraFlags": 654,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 661
+            "FieldLength": 80
           }
         }
       }
@@ -177,62 +177,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldType": "System.Int32",
+        "FieldLength": 844
       }
     }
   },
   {
-    "Name": "Ebert-Lang",
-    "Description": "Polarised needs-based algorithm",
+    "Name": "Bergnaum-Pollich",
+    "Description": "Vision-oriented homogeneous intranet",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 714,
-        "Tooltip": "ut",
+        "Total": 42,
+        "Tooltip": "excepturi",
         "CanAssign": false,
-        "Free": 965,
-        "InUse": 314,
-        "IsHidden": false,
+        "Free": 220,
+        "InUse": 521,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 969,
-        "Name": "Graham-Bosco",
-        "Description": "Implemented modular productivity",
-        "PrerequisiteModuleName": "Dare, Bernhard and O'Conner",
-        "SortOrder": 290,
-        "ExtraFlags": 556,
+        "ModuleLicenseId": 413,
+        "Name": "Hoppe Group",
+        "Description": "Customizable interactive time-frame",
+        "PrerequisiteModuleName": "Mann Group",
+        "SortOrder": 416,
+        "ExtraFlags": 509,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 139
+            "FieldType": "System.Int32",
+            "FieldLength": 823
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 841,
-        "Tooltip": "commodi",
+        "Unrestricted": true,
+        "Total": 839,
+        "Tooltip": "aliquam",
         "CanAssign": false,
-        "Free": 283,
-        "InUse": 225,
+        "Free": 88,
+        "InUse": 138,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 759,
-        "Name": "Harris, Gerhold and Corkery",
-        "Description": "Realigned national solution",
-        "PrerequisiteModuleName": "Brown, Bechtelar and McKenzie",
-        "SortOrder": 505,
-        "ExtraFlags": 718,
+        "ModuleLicenseId": 813,
+        "Name": "Shields, Jacobs and Cormier",
+        "Description": "Centralized leading edge Graphical User Interface",
+        "PrerequisiteModuleName": "Kihn, Hills and Marquardt",
+        "SortOrder": 723,
+        "ExtraFlags": 654,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 661
+            "FieldLength": 80
           }
         }
       }
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldType": "System.Int32",
+        "FieldLength": 844
       }
     }
   }

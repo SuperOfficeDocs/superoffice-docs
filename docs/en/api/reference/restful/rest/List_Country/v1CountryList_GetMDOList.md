@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=aliquid
+GET /api/v1/List/Country/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Olson-Reynolds",
-    "ToolTip": "Ex vel facilis ut.",
-    "Deleted": false,
-    "Rank": 525,
-    "Type": "debitis",
+    "Id": 517,
+    "Name": "Rice Group",
+    "ToolTip": "Temporibus fugit voluptates.",
+    "Deleted": true,
+    "Rank": 353,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Zemlak, Keeling and Emard",
-        "ToolTip": "Sit est.",
-        "Deleted": true,
-        "Rank": 849,
-        "Type": "voluptate",
+        "Id": 902,
+        "Name": "Fadel-Robel",
+        "ToolTip": "Vel consectetur ipsam et architecto excepturi.",
+        "Deleted": false,
+        "Rank": 526,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laborum",
-        "ColorBlock": 457,
-        "ExtraInfo": "error",
-        "StyleHint": "doloribus",
-        "FullName": "Miss Marguerite Lesly Schumm",
+        "IconHint": "numquam",
+        "ColorBlock": 37,
+        "ExtraInfo": "eius",
+        "StyleHint": "nihil",
+        "FullName": "Modesta Davis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldType": "System.Int32",
+            "FieldLength": 489
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 44,
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "FullName": "Mrs. Shania Gino Schimmel DVM",
+    "IconHint": "iusto",
+    "ColorBlock": 634,
+    "ExtraInfo": "qui",
+    "StyleHint": "animi",
+    "FullName": "Retta Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldType": "System.Int32",
+        "FieldLength": 784
       }
     }
   }

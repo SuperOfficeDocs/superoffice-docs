@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 673,
-  "BlobSize": 844,
-  "Description": "Business-focused holistic service-desk",
-  "ExtraInfo": "molestiae",
-  "IsEncrypted": false,
+  "BlobId": 926,
+  "BlobSize": 208,
+  "Description": "Self-enabling attitude-oriented website",
+  "ExtraInfo": "consequatur",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "iusto",
-  "OriginalSize": 160,
-  "CreatedDate": "1998-02-02T03:24:47.2520803+01:00",
-  "UpdatedDate": "2010-09-22T03:24:47.2520803+02:00",
+  "MimeType": "similique",
+  "OriginalSize": 987,
+  "CreatedDate": "2016-04-13T13:38:13.0927968+02:00",
+  "UpdatedDate": "2011-12-10T13:38:13.0927968+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rerum"
+  "ConceptualType": "perspiciatis"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 794,
-  "BlobSize": 888,
-  "Description": "Innovative user-facing infrastructure",
-  "ExtraInfo": "ut",
+  "BlobId": 740,
+  "BlobSize": 645,
+  "Description": "Enterprise-wide demand-driven Graphical User Interface",
+  "ExtraInfo": "veniam",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "mollitia",
-  "OriginalSize": 108,
-  "CreatedDate": "2003-04-30T03:24:47.2520803+02:00",
-  "UpdatedDate": "2020-11-03T03:24:47.2520803+01:00",
+  "MimeType": "consequuntur",
+  "OriginalSize": 528,
+  "CreatedDate": "2013-06-26T13:38:13.0927968+02:00",
+  "UpdatedDate": "2012-04-23T13:38:13.0927968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut",
+  "ConceptualType": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldLength": 971
     }
   }
 }

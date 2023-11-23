@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 381,
+  "DocumentTemplateId": 481,
   "WritableUrl": false,
-  "LanguageCode": "dicta"
+  "LanguageCode": "aut"
 }
 ```
 

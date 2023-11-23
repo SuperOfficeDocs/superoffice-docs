@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 788,
-  "StartDate": "2000-07-07T03:24:47.1270922+02:00",
-  "EndDate": "2019-05-27T03:24:47.1270922+02:00",
-  "RecurrenceCounter": 446,
+  "RecurrenceId": 357,
+  "StartDate": "2011-06-01T13:38:12.9521841+02:00",
+  "EndDate": "2022-02-12T13:38:12.9521841+01:00",
+  "RecurrenceCounter": 892,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2015-05-30T03:24:47.1270922+02:00",
-      "IsConflict": true,
-      "Description": "Ameliorated fresh-thinking challenge",
-      "DescriptionStyleHint": "Horizontal heuristic array",
-      "Tooltip": "quo"
+      "Date": "1999-04-28T13:38:12.9521841+02:00",
+      "IsConflict": false,
+      "Description": "Decentralized bandwidth-monitored parallelism",
+      "DescriptionStyleHint": "Operative radical support",
+      "Tooltip": "consequatur"
     },
     {
-      "Date": "2015-05-30T03:24:47.1270922+02:00",
-      "IsConflict": true,
-      "Description": "Ameliorated fresh-thinking challenge",
-      "DescriptionStyleHint": "Horizontal heuristic array",
-      "Tooltip": "quo"
+      "Date": "1999-04-28T13:38:12.9521841+02:00",
+      "IsConflict": false,
+      "Description": "Decentralized bandwidth-monitored parallelism",
+      "DescriptionStyleHint": "Operative radical support",
+      "Tooltip": "consequatur"
     }
   ],
   "IsRecurrence": false

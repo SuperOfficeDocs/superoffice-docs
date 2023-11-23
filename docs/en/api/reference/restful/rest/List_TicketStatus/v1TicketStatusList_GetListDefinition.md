@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 160,
-  "Name": "Hintz Inc and Sons",
-  "Tooltip": "at",
-  "Deleted": true,
-  "Rank": 170,
+  "Id": 620,
+  "Name": "Bogisich, Runolfsdottir and Ward",
+  "Tooltip": "similique",
+  "Deleted": false,
+  "Rank": 343,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "illum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldLength": 200
     }
   },
   "_Links": {

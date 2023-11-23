@@ -25,7 +25,7 @@ Deletes the SaleStakeholder
 | SaleStakeholderId | int32 | **Required** The id of the SaleStakeholder to be deleted. |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleStakeholder?SaleStakeholderId=733
+POST /api/v1/Agents/Sale/DeleteSaleStakeholder?SaleStakeholderId=111
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Sale/DeleteSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

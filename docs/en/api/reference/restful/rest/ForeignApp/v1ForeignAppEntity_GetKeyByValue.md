@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=aperiam
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=est
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 19 Jul 2023 03:24:51 G7T
+Last-Modified: Wed, 09 Feb 2022 13:38:17 G2T
 
 {
-  "Key": "totam",
-  "Value": "maiores",
-  "RecordId": 77,
-  "CreatedDate": "2014-02-14T03:24:51.630601+01:00",
-  "UpdatedDate": "2023-07-19T03:24:51.630601+02:00",
-  "UpdatedBy": "ipsum",
-  "CreatedBy": "necessitatibus",
-  "TableName": "Reinger LLC",
+  "Key": "at",
+  "Value": "voluptas",
+  "RecordId": 290,
+  "CreatedDate": "2011-04-27T13:38:17.4524494+02:00",
+  "UpdatedDate": "2022-02-09T13:38:17.4524494+01:00",
+  "UpdatedBy": "error",
+  "CreatedBy": "quod",
+  "TableName": "VonRueden-Daugherty",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldType": "System.Int32",
+      "FieldLength": 964
     }
   }
 }

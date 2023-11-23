@@ -1154,7 +1154,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=rowKind,sourceRelation/csRelation,sale/competitor,request/ownedBy/assocTooltip,projectMembers/statusRank
+GET /api/v1/archive/ContactSelectionCombined?$select=contactUdef/SuperOffice:12,contactExtra/x_contact_date,sourceRelation/hasInterests,sale/saleUdef/SuperOffice:7,appointment/booking
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

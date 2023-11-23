@@ -92,22 +92,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 310,
+  "SystemEventId": 23,
   "Scope": "Database",
-  "Eta": "2017-10-25T03:24:51.927622+02:00",
-  "Eventkey": "ipsam",
-  "Eventmess": "et",
-  "ExtraInfo": 553,
-  "Owner": 14,
-  "UpdatedCount": 694,
-  "Registered": "2000-11-04T03:24:51.927622+01:00",
+  "Eta": "2022-07-23T13:38:17.6711737+02:00",
+  "Eventkey": "voluptas",
+  "Eventmess": "nam",
+  "ExtraInfo": 307,
+  "Owner": 282,
+  "UpdatedCount": 110,
+  "Registered": "2002-10-22T13:38:17.6711737+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 716
     }
   },
   "_Links": {

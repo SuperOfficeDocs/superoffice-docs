@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 403,
-    "Name": "Gerhold-Jones",
-    "ToolTip": "Labore voluptates aut libero culpa amet dolorem et.",
-    "Deleted": false,
-    "Rank": 476,
-    "Type": "ullam",
-    "ColorBlock": 942,
-    "IconHint": "labore",
-    "Selected": true,
-    "LastChanged": "2008-11-18T03:24:52.318209+01:00",
+    "Id": 105,
+    "Name": "Nitzsche, Fisher and Franecki",
+    "ToolTip": "Dolores velit alias nostrum.",
+    "Deleted": true,
+    "Rank": 983,
+    "Type": "amet",
+    "ColorBlock": 493,
+    "IconHint": "sapiente",
+    "Selected": false,
+    "LastChanged": "2008-05-10T13:38:18.1244081+02:00",
     "ChildItems": [
       {
-        "Id": 673,
-        "Name": "Bechtelar-Rolfson",
-        "ToolTip": "Et voluptates atque id.",
-        "Deleted": true,
-        "Rank": 739,
-        "Type": "in",
-        "ColorBlock": 633,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2010-03-26T03:24:52.318209+01:00",
+        "Id": 702,
+        "Name": "Johnston Group",
+        "ToolTip": "Laudantium officia est et dolores aut quia.",
+        "Deleted": false,
+        "Rank": 908,
+        "Type": "aut",
+        "ColorBlock": 652,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2022-04-12T13:38:18.1244081+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "vero",
         "Hidden": false,
-        "FullName": "Mrs. Pansy Graham Hane",
+        "FullName": "Neil Anderson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 790
+            "FieldLength": 797
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Donato Kerluke",
+    "ExtraInfo": "omnis",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Ronny Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldLength": 773
       }
     }
   }

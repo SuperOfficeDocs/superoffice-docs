@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=998
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=939
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 905,
-  "Name": "Reinger, Fritsch and Daugherty",
-  "Tooltip": "quae",
-  "Rank": 861,
+  "SaleTypeId": 664,
+  "Name": "Lynch Group",
+  "Tooltip": "et",
+  "Rank": 319,
   "DurationUnit": "Century",
-  "SaleDuration": 616,
-  "SaleTypeCatId": 431,
-  "Deleted": false,
+  "SaleDuration": 948,
+  "SaleTypeCatId": 471,
+  "Deleted": true,
   "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 358,
-  "QuoteLinesTemplate": 255,
-  "ConfirmationLinesTemplate": 837,
-  "MaxDiscountPercentSet": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 633,
+  "QuoteLinesTemplate": 687,
+  "ConfirmationLinesTemplate": 297,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 422,
-  "MinEarningPercent": 727,
-  "GroupQuoteLinesBy": 567,
-  "SortGroupLinesBy": 159,
+  "MaxDiscountPercent": 351,
+  "MinEarningPercent": 386,
+  "GroupQuoteLinesBy": 332,
+  "SortGroupLinesBy": 192,
   "Stages": [
     {
-      "Id": 642,
-      "Name": "Roob, Mueller and Abshire",
-      "ToolTip": "Laudantium et quae repudiandae aut debitis odio odit.",
+      "Id": 52,
+      "Name": "Rempel-Bartell",
+      "ToolTip": "Ullam laudantium repellendus.",
       "Deleted": false,
-      "Rank": 45,
-      "Type": "aspernatur",
-      "ColorBlock": 490,
-      "IconHint": "pariatur",
-      "Selected": true,
-      "LastChanged": "2014-02-12T03:24:47.8613878+01:00",
+      "Rank": 78,
+      "Type": "minus",
+      "ColorBlock": 426,
+      "IconHint": "hic",
+      "Selected": false,
+      "LastChanged": "2019-08-30T13:38:13.6708541+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatum",
-      "StyleHint": "quos",
+      "ExtraInfo": "non",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Dr. Randi Fidel Roberts",
+      "FullName": "Xavier Littel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldType": "System.String",
+          "FieldLength": 175
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 399
     }
   }
 }

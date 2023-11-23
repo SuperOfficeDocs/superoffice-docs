@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Pouros LLC",
-    "ToolTip": "Aspernatur quidem ipsum non.",
-    "Deleted": false,
-    "Rank": 195,
-    "Type": "placeat",
-    "ColorBlock": 308,
-    "IconHint": "voluptatibus",
+    "Id": 606,
+    "Name": "Friesen, Altenwerth and Flatley",
+    "ToolTip": "Veniam placeat.",
+    "Deleted": true,
+    "Rank": 500,
+    "Type": "eaque",
+    "ColorBlock": 956,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2020-05-20T03:24:52.2557133+02:00",
+    "LastChanged": "2023-05-22T13:38:18.0619133+02:00",
     "ChildItems": [
       {
-        "Id": 278,
-        "Name": "Deckow, Parisian and Bednar",
-        "ToolTip": "Odit et vel porro et.",
+        "Id": 1000,
+        "Name": "Nitzsche-Keeling",
+        "ToolTip": "Et voluptatum minima itaque sint.",
         "Deleted": false,
-        "Rank": 406,
-        "Type": "quaerat",
-        "ColorBlock": 361,
-        "IconHint": "est",
+        "Rank": 561,
+        "Type": "placeat",
+        "ColorBlock": 624,
+        "IconHint": "modi",
         "Selected": true,
-        "LastChanged": "2018-05-10T03:24:52.2557133+02:00",
+        "LastChanged": "1999-09-19T13:38:18.0619133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Joyce Lubowitz"
+        "ExtraInfo": "distinctio",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Ms. Karley Melany Berge II"
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "nobis",
+    "ExtraInfo": "harum",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Rickey Corwin"
+    "FullName": "Jackeline Padberg"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 251,
-    "Name": "Goodwin-Wisozk",
-    "ToolTip": "Libero molestiae.",
+    "Id": 468,
+    "Name": "Gusikowski, Sauer and Hagenes",
+    "ToolTip": "Laborum unde.",
     "Deleted": false,
-    "Rank": 703,
-    "Type": "maxime",
-    "ColorBlock": 42,
-    "IconHint": "consequuntur",
+    "Rank": 774,
+    "Type": "qui",
+    "ColorBlock": 21,
+    "IconHint": "odit",
     "Selected": true,
-    "LastChanged": "2010-07-11T03:24:52.2557133+02:00",
+    "LastChanged": "2013-07-23T13:38:18.0619133+02:00",
     "ChildItems": [
       {
-        "Id": 469,
-        "Name": "Cole Inc and Sons",
-        "ToolTip": "Iure quasi iusto qui unde repellendus earum ab.",
+        "Id": 351,
+        "Name": "Konopelski, Emard and Durgan",
+        "ToolTip": "Voluptatibus eligendi error.",
         "Deleted": true,
-        "Rank": 825,
-        "Type": "dolorem",
-        "ColorBlock": 449,
-        "IconHint": "ullam",
+        "Rank": 984,
+        "Type": "placeat",
+        "ColorBlock": 215,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2018-11-16T03:24:52.2557133+01:00",
+        "LastChanged": "1999-11-15T13:38:18.0619133+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Beverly Wolff",
+        "ExtraInfo": "et",
+        "StyleHint": "dolorem",
+        "Hidden": false,
+        "FullName": "Delphia Legros DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldType": "System.String",
+            "FieldLength": 157
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "sit",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Bridgette Heidenreich",
+    "FullName": "Ms. Dane Macejkovic III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldType": "System.String",
+        "FieldLength": 480
       }
     }
   }

@@ -94,10 +94,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "1997-12-17T03:24:47.3926839+01:00",
+  "ActivityStartTime": "2016-03-05T13:38:13.2958954+01:00",
   "ContactCategories": [
-    175,
-    424
+    730,
+    850
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 317,
-    "Department": "",
-    "OrgNr": "1285022",
-    "Name": "Aufderhar-Friesen",
+    "ContactId": 1002,
+    "Department": "mesh dynamic functionalities",
+    "OrgNr": "320074",
+    "Name": "Donnelly-Harber",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Jaiden Mraz",
+    "AssociateFullName": "Amber Terry",
     "Action": "ActivityCompleted",
-    "ActionTime": "2020-08-19T03:24:47.3926839+02:00",
+    "ActionTime": "2021-03-12T13:38:13.2958954+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Cruickshank-Hegmann",
-    "ActionId": 60,
-    "PersonId": 888,
-    "ActivityPersonId": 614,
-    "AssociateId": 172,
+    "ActivityPersonName": "Goldner, Bartoletti and Graham",
+    "ActionId": 921,
+    "PersonId": 903,
+    "ActivityPersonId": 321,
+    "AssociateId": 376,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldType": "System.String",
+        "FieldLength": 440
       }
     }
   }

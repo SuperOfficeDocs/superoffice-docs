@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 572,
-    "Name": "O'Kon, Cruickshank and Fay",
-    "Tooltip": "earum",
-    "Deleted": true,
-    "Rank": 904,
-    "UdListDefinitionId": 781
+    "HeadingId": 563,
+    "Name": "Prosacco LLC",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 61,
+    "UdListDefinitionId": 271
   },
   {
-    "HeadingId": 572,
-    "Name": "O'Kon, Cruickshank and Fay",
-    "Tooltip": "earum",
-    "Deleted": true,
-    "Rank": 904,
-    "UdListDefinitionId": 781
+    "HeadingId": 563,
+    "Name": "Prosacco LLC",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 61,
+    "UdListDefinitionId": 271
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 491,
-    "Name": "O'Conner, Douglas and Jones",
-    "Tooltip": "delectus",
+    "HeadingId": 748,
+    "Name": "Hane-Quigley",
+    "Tooltip": "perferendis",
     "Deleted": true,
-    "Rank": 766,
-    "UdListDefinitionId": 525,
+    "Rank": 852,
+    "UdListDefinitionId": 429,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldType": "System.String",
+        "FieldLength": 6
       }
     }
   }

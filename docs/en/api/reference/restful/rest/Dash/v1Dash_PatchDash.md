@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eum",
+    "path": "nemo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eum",
+    "path": "nemo",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 667,
-  "UniqueId": "est",
-  "Name": "Smitham Inc and Sons",
-  "Description": "Multi-lateral didactic customer loyalty",
-  "AssociateId": 118,
-  "Columns": 654,
+  "DashboardId": 133,
+  "UniqueId": "sint",
+  "Name": "Schroeder Group",
+  "Description": "Right-sized bi-directional throughput",
+  "AssociateId": 943,
+  "Columns": 691,
   "Theme": null,
-  "VisibleForAll": 434,
+  "VisibleForAll": 982,
   "VisibleForAssociates": [
-    304,
-    382
+    404,
+    658
   ],
   "VisibleForGroups": [
-    383,
-    72
+    388,
+    384
   ],
-  "PinForAll": 142,
+  "PinForAll": 929,
   "PinForAssociates": [
-    255,
-    675
+    888,
+    816
   ],
   "PinForGroups": [
-    412,
-    964
+    958,
+    496
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldLength": 532
     }
   },
   "_Links": {

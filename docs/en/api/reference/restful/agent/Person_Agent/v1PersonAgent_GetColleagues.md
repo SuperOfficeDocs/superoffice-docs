@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "omnis",
-    "PersonId": 888,
-    "Mrmrs": "quasi",
-    "Firstname": "Alexandrine",
-    "Lastname": "Nitzsche",
-    "MiddleName": "Beahan Inc and Sons",
-    "Title": "ipsam",
-    "Description": "Self-enabling user-facing superstructure",
-    "Email": "bradley_weissnat@muller.biz",
-    "FullName": "Casimer Gutmann",
-    "DirectPhone": "277.640.0168 x40388",
-    "FormalName": "Tromp-Turner",
-    "CountryId": 581,
-    "ContactId": 892,
-    "ContactName": "Schimmel, Herzog and Auer",
-    "Retired": 785,
-    "Rank": 969,
-    "ActiveInterests": 856,
+    "Position": "recusandae",
+    "PersonId": 287,
+    "Mrmrs": "occaecati",
+    "Firstname": "Darwin",
+    "Lastname": "Langworth",
+    "MiddleName": "Huels-Lehner",
+    "Title": "eligendi",
+    "Description": "Streamlined object-oriented orchestration",
+    "Email": "dolores_russel@steuber.uk",
+    "FullName": "Prof. Vilma Kilback III",
+    "DirectPhone": "1-518-211-8329 x817",
+    "FormalName": "Littel-Mayert",
+    "CountryId": 148,
+    "ContactId": 932,
+    "ContactName": "Anderson-Batz",
+    "Retired": 252,
+    "Rank": 459,
+    "ActiveInterests": 458,
     "ContactDepartment": "",
-    "ContactCountryId": 159,
-    "ContactOrgNr": "1184787",
-    "FaxPhone": "095.522.4242 x173",
-    "MobilePhone": "(720)248-8151",
-    "ContactPhone": "1-860-262-8385 x370",
-    "AssociateName": "Wiegand Inc and Sons",
-    "AssociateId": 621,
+    "ContactCountryId": 162,
+    "ContactOrgNr": "1356621",
+    "FaxPhone": "993.383.3827 x169",
+    "MobilePhone": "193.336.8470",
+    "ContactPhone": "1-225-547-2049",
+    "AssociateName": "Mayert Inc and Sons",
+    "AssociateId": 771,
     "UsePersonAddress": false,
-    "ContactFax": "molestias",
-    "Kanafname": "repudiandae",
-    "Kanalname": "molestias",
-    "Post1": "est",
-    "Post2": "sed",
-    "Post3": "qui",
-    "EmailName": "tyree@jaskolski.ca",
-    "ContactFullName": "Russell Dicki I",
-    "ActiveErpLinks": 899,
-    "TicketPriorityId": 201,
-    "SupportLanguageId": 645,
-    "SupportAssociateId": 265,
+    "ContactFax": "doloremque",
+    "Kanafname": "eveniet",
+    "Kanalname": "aut",
+    "Post1": "suscipit",
+    "Post2": "nihil",
+    "Post3": "et",
+    "EmailName": "piper_thiel@daviscronin.uk",
+    "ContactFullName": "Kenton Dooley",
+    "ActiveErpLinks": 309,
+    "TicketPriorityId": 11,
+    "SupportLanguageId": 302,
+    "SupportAssociateId": 5,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 193
       }
     }
   }

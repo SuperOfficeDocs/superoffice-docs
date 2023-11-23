@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 744,
+  "UdListDefinitionId": 788,
   "IncludeDeleted": true
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Renner Inc and Sons",
-    "Tooltip": "error",
-    "Deleted": false,
-    "UdListDefinitionId": 51,
-    "Rank": 49,
+    "Id": 663,
+    "Name": "Botsford-Little",
+    "Tooltip": "voluptates",
+    "Deleted": true,
+    "UdListDefinitionId": 969,
+    "Rank": 16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldType": "System.String",
+        "FieldLength": 227
       }
     }
   }

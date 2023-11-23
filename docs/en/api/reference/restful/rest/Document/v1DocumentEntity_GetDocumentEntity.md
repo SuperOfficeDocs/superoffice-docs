@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 30 Oct 2002 03:24:51 G10T
+Last-Modified: Sun, 16 Oct 2011 13:38:17 G10T
 
 {
-  "DocumentId": 636,
+  "DocumentId": 179,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "iste",
-  "Header": "aliquid",
-  "Name": "Monahan, Baumbach and Funk",
-  "OurRef": "sit",
-  "YourRef": "quo",
-  "CreatedDate": "2003-09-15T03:24:51.5681102+02:00",
-  "UpdatedDate": "2002-10-30T03:24:51.5681102+01:00",
-  "Description": "Fully-configurable user-facing middleware",
+  "Attention": "occaecati",
+  "Header": "nihil",
+  "Name": "Koepp, Windler and Metz",
+  "OurRef": "reprehenderit",
+  "YourRef": "voluptate",
+  "CreatedDate": "2014-04-12T13:38:17.3900746+02:00",
+  "UpdatedDate": "2011-10-16T13:38:17.3900746+02:00",
+  "Description": "Universal bifurcated encoding",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-05-13T03:24:51.5681102+02:00",
-  "ExternalRef": "quia",
+  "Date": "1998-02-17T13:38:17.3900746+01:00",
+  "ExternalRef": "aut",
   "Completed": "Completed",
-  "ActiveLinks": 491,
+  "ActiveLinks": 630,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Heller-Feil",
-      "Id": 990,
-      "Description": "Re-engineered dedicated Graphic Interface",
-      "ExtraInfo": "omnis",
-      "LinkId": 840,
+      "EntityName": "O'Connell LLC",
+      "Id": 106,
+      "Description": "User-friendly tangible challenge",
+      "ExtraInfo": "quisquam",
+      "LinkId": 558,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldLength": 259
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 194,
-  "Snum": 65,
+  "SuggestedDocumentId": 937,
+  "Snum": 140,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dagmar Strosin",
-    "SuperOffice:2": "Alysha Von IV"
+    "SuperOffice:1": "Magdalena Kuhlman",
+    "SuperOffice:2": "Zakary Jerde"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "vero"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "mollitia"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "quo"
   },
-  "PublishEventDate": "1997-03-15T03:24:51.5681102+01:00",
-  "PublishTo": "2011-05-09T03:24:51.5681102+02:00",
-  "PublishFrom": "2021-11-26T03:24:51.5681102+01:00",
+  "PublishEventDate": "2005-07-06T13:38:17.3900746+02:00",
+  "PublishTo": "2021-03-30T13:38:17.3900746+02:00",
+  "PublishFrom": "2017-11-24T13:38:17.3900746+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 127,
+      "VisibleId": 22,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldType": "System.String",
+          "FieldLength": 415
         }
       }
     },
     {
-      "VisibleId": 127,
+      "VisibleId": 22,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldType": "System.String",
+          "FieldLength": 415
         }
       }
     }
@@ -211,7 +211,7 @@ Last-Modified: Wed, 30 Oct 2002 03:24:51 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 803
     }
   },
   "_Links": {

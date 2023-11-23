@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 50,
-  "Name": "Howe-Zulauf",
-  "Tooltip": "possimus",
+  "Id": 925,
+  "Name": "Collins, Jakubowski and Frami",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 762,
-  "Rank": 555,
+  "UdListDefinitionId": 206,
+  "Rank": 930,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldLength": 557
     }
   }
 }

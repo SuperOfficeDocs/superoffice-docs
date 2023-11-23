@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 706,
-  "ListItemId": 891,
+  "UdListDefinitionId": 765,
+  "ListItemId": 6,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "McKenzie-Rutherford",
-    "ToolTip": "Porro non.",
-    "Deleted": true,
-    "Rank": 738,
-    "Type": "vel",
-    "ColorBlock": 511,
-    "IconHint": "voluptatem",
+    "Id": 85,
+    "Name": "Fahey, Mayert and Hahn",
+    "ToolTip": "Saepe fugit ut animi.",
+    "Deleted": false,
+    "Rank": 861,
+    "Type": "harum",
+    "ColorBlock": 912,
+    "IconHint": "sapiente",
     "Selected": true,
-    "LastChanged": "2011-01-11T03:24:47.8770078+01:00",
+    "LastChanged": "1999-07-04T13:38:13.6864749+02:00",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Reilly, Hessel and Terry",
-        "ToolTip": "Ea labore aut esse et libero esse.",
+        "Id": 418,
+        "Name": "Schumm, Bergnaum and McCullough",
+        "ToolTip": "Nisi aut consequatur.",
         "Deleted": false,
-        "Rank": 509,
-        "Type": "facilis",
-        "ColorBlock": 593,
-        "IconHint": "veniam",
+        "Rank": 909,
+        "Type": "sapiente",
+        "ColorBlock": 296,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2005-06-06T03:24:47.8770078+02:00",
+        "LastChanged": "2021-03-25T13:38:13.6864749+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "officiis",
+        "StyleHint": "repudiandae",
         "Hidden": false,
-        "FullName": "Gerda Smitham DDS",
+        "FullName": "Mrs. Amely Alaina Yundt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 269
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "dolore",
+    "ExtraInfo": "ea",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Mrs. Tyson Charley Larkin",
+    "FullName": "Addison Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 910
+        "FieldLength": 52
       }
     }
   }

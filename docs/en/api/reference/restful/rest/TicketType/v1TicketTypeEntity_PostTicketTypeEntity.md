@@ -98,27 +98,27 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 45,
-  "Name": "Reinger, Smitham and Dicki",
-  "Rank": 279,
-  "Tooltip": "voluptatem",
-  "Icon": "fugit",
-  "DefaultTicketStatus": 743,
+  "TicketTypeId": 345,
+  "Name": "Ebert-Windler",
+  "Rank": 289,
+  "Tooltip": "molestias",
+  "Icon": "sequi",
+  "DefaultTicketStatus": 760,
   "TicketStatuses": [
-    102,
-    992
+    473,
+    416
   ],
-  "DefaultTicketPriority": 762,
+  "DefaultTicketPriority": 291,
   "TicketPriorities": [
-    767,
-    828
+    523,
+    472
   ],
-  "ReplyTemplate": 997,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 526,
+  "IsExternalVisible": false,
   "IsDefault": false
 }
 ```
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 907,
-  "Name": "Farrell Inc and Sons",
-  "Rank": 755,
-  "Tooltip": "repudiandae",
-  "Icon": "aut",
-  "DefaultTicketStatus": 321,
+  "TicketTypeId": 644,
+  "Name": "Breitenberg, Powlowski and Williamson",
+  "Rank": 795,
+  "Tooltip": "neque",
+  "Icon": "non",
+  "DefaultTicketStatus": 457,
   "TicketStatuses": [
-    117,
-    101
+    330,
+    566
   ],
-  "DefaultTicketPriority": 895,
+  "DefaultTicketPriority": 803,
   "TicketPriorities": [
-    183,
-    249
+    224,
+    879
   ],
-  "ReplyTemplate": 198,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 277,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldType": "System.String",
+      "FieldLength": 298
     }
   },
   "_Links": {

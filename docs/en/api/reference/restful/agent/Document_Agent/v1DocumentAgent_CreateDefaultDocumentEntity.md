@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 234,
+  "DocumentId": 556,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "est",
-  "Header": "culpa",
-  "Name": "Hackett LLC",
-  "OurRef": "dolor",
-  "YourRef": "quisquam",
-  "CreatedDate": "2005-08-11T03:24:47.5333016+02:00",
-  "UpdatedDate": "2005-08-10T03:24:47.5333016+02:00",
-  "Description": "Down-sized encompassing firmware",
+  "Attention": "aliquid",
+  "Header": "quis",
+  "Name": "Hahn LLC",
+  "OurRef": "molestiae",
+  "YourRef": "excepturi",
+  "CreatedDate": "2021-06-11T13:38:13.4365041+02:00",
+  "UpdatedDate": "1999-01-15T13:38:13.4365041+01:00",
+  "Description": "Focused background artificial intelligence",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-01-21T03:24:47.5333016+01:00",
-  "ExternalRef": "blanditiis",
+  "Date": "2017-04-29T13:38:13.4365041+02:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 211,
+  "ActiveLinks": 53,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cremin LLC",
-      "Id": 804,
-      "Description": "Synergized stable structure",
-      "ExtraInfo": "sed",
-      "LinkId": 442,
+      "EntityName": "Marquardt, Senger and Konopelski",
+      "Id": 836,
+      "Description": "Persevering attitude-oriented productivity",
+      "ExtraInfo": "qui",
+      "LinkId": 976,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldLength": 670
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 88,
-  "Snum": 77,
+  "SuggestedDocumentId": 895,
+  "Snum": 478,
   "UserDefinedFields": {
-    "SuperOffice:1": "Madelynn Crona",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "469207122",
+    "SuperOffice:2": "729812207"
   },
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "iste"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "aut"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "reiciendis"
   },
-  "PublishEventDate": "1999-07-31T03:24:47.5333016+02:00",
-  "PublishTo": "1998-10-27T03:24:47.5333016+01:00",
-  "PublishFrom": "2006-07-01T03:24:47.5333016+02:00",
+  "PublishEventDate": "2018-10-29T13:38:13.4365041+01:00",
+  "PublishTo": "2012-10-28T13:38:13.4365041+01:00",
+  "PublishFrom": "2005-06-09T13:38:13.4365041+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 693,
+      "VisibleId": 361,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 730
+          "FieldType": "System.Int32",
+          "FieldLength": 284
         }
       }
     },
     {
-      "VisibleId": 693,
+      "VisibleId": 361,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 730
+          "FieldType": "System.Int32",
+          "FieldLength": 284
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 547
     }
   }
 }

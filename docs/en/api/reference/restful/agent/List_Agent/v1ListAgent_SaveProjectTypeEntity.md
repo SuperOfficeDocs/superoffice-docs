@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 549,
-  "Name": "Stehr LLC",
-  "Tooltip": "et",
-  "Rank": 510,
+  "ProjTypeId": 176,
+  "Name": "Keebler, Krajcik and Marquardt",
+  "Tooltip": "corrupti",
+  "Rank": 301,
   "DurationUnit": "Century",
-  "ProjectDuration": 510,
+  "ProjectDuration": 144,
   "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 986,
-      "Name": "Schmitt-Collins",
-      "ToolTip": "Et velit commodi aliquam cumque.",
+      "Id": 573,
+      "Name": "Hayes Group",
+      "ToolTip": "Et est dicta occaecati cumque deserunt.",
       "Deleted": false,
-      "Rank": 458,
-      "Type": "sit",
-      "ColorBlock": 762,
-      "IconHint": "ut",
+      "Rank": 506,
+      "Type": "omnis",
+      "ColorBlock": 487,
+      "IconHint": "sint",
       "Selected": false,
-      "LastChanged": "2023-06-19T03:24:47.908255+02:00",
+      "LastChanged": "2009-06-13T13:38:13.7177215+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "autem",
-      "StyleHint": "illum",
+      "ExtraInfo": "est",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Hillard Carli Ankunding DDS"
+      "FullName": "Devyn Sporer"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 343,
-  "Name": "Blick Inc and Sons",
-  "Tooltip": "qui",
-  "Rank": 2,
+  "ProjTypeId": 51,
+  "Name": "Huel-Wintheiser",
+  "Tooltip": "ut",
+  "Rank": 994,
   "DurationUnit": "Century",
-  "ProjectDuration": 107,
-  "Deleted": true,
+  "ProjectDuration": 126,
+  "Deleted": false,
   "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 523,
-      "Name": "Volkman Inc and Sons",
-      "ToolTip": "Corporis cumque.",
-      "Deleted": true,
-      "Rank": 522,
-      "Type": "numquam",
-      "ColorBlock": 525,
-      "IconHint": "quia",
+      "Id": 38,
+      "Name": "Beahan Group",
+      "ToolTip": "Alias et dolor.",
+      "Deleted": false,
+      "Rank": 175,
+      "Type": "quaerat",
+      "ColorBlock": 209,
+      "IconHint": "voluptatem",
       "Selected": false,
-      "LastChanged": "2014-11-18T03:24:47.908255+01:00",
+      "LastChanged": "2020-11-04T13:38:13.7177215+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "commodi",
+      "ExtraInfo": "magni",
+      "StyleHint": "iure",
       "Hidden": false,
-      "FullName": "Abdul Shields",
+      "FullName": "Rebeka Doyle Mraz III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldLength": 25
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 689
     }
   }
 }

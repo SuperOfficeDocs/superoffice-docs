@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=520
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=611
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 753,
+  "DocumentId": 809,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "vel",
-  "Header": "veritatis",
-  "Name": "Predovic-Gibson",
-  "OurRef": "vel",
-  "YourRef": "eum",
-  "CreatedDate": "2018-12-01T03:24:47.5957885+01:00",
-  "UpdatedDate": "2019-11-21T03:24:47.5957885+01:00",
-  "Description": "Monitored impactful knowledge base",
+  "Attention": "ad",
+  "Header": "beatae",
+  "Name": "Walsh-McCullough",
+  "OurRef": "aliquam",
+  "YourRef": "quo",
+  "CreatedDate": "1999-08-09T13:38:13.452129+02:00",
+  "UpdatedDate": "2013-05-25T13:38:13.452129+02:00",
+  "Description": "Pre-emptive bifurcated standardization",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-01-05T03:24:47.6426585+01:00",
-  "ExternalRef": "enim",
+  "Date": "2018-06-15T13:38:13.452129+02:00",
+  "ExternalRef": "totam",
   "Completed": "Completed",
-  "ActiveLinks": 109,
+  "ActiveLinks": 724,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Luettgen, Turcotte and Ferry",
-      "Id": 442,
-      "Description": "Implemented fresh-thinking complexity",
-      "ExtraInfo": "iste",
-      "LinkId": 198,
+      "EntityName": "Franecki Group",
+      "Id": 633,
+      "Description": "Proactive exuding core",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 528,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 157
+          "FieldType": "System.Int32",
+          "FieldLength": 762
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 339,
-  "Snum": 467,
+  "SuggestedDocumentId": 508,
+  "Snum": 597,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1256745738",
+    "SuperOffice:2": "124073123"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "cumque",
-    "CustomFields2": "a"
+    "CustomFields1": "in",
+    "CustomFields2": "minus"
   },
-  "PublishEventDate": "2004-07-06T03:24:47.6426585+02:00",
-  "PublishTo": "2006-05-07T03:24:47.6426585+02:00",
-  "PublishFrom": "1999-11-04T03:24:47.6426585+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-12-31T13:38:13.452129+01:00",
+  "PublishTo": "2022-07-06T13:38:13.452129+02:00",
+  "PublishFrom": "2022-01-19T13:38:13.452129+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 138,
+      "VisibleId": 483,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldLength": 594
         }
       }
     },
     {
-      "VisibleId": 138,
+      "VisibleId": 483,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldLength": 594
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldLength": 805
     }
   }
 }

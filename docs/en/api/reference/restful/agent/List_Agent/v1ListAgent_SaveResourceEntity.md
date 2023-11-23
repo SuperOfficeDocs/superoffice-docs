@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 296,
-  "Name": "Gusikowski Inc and Sons",
-  "Rank": 573,
-  "Tooltip": "omnis",
+  "ResourceId": 830,
+  "Name": "Langosh-Price",
+  "Rank": 782,
+  "Tooltip": "illum",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "itaque"
+  "LocationAddress": "quaerat"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 667,
-  "Name": "Mayert, Bechtelar and Greenholt",
-  "Rank": 273,
-  "Tooltip": "minima",
+  "ResourceId": 42,
+  "Name": "Sipes, Pagac and West",
+  "Rank": 802,
+  "Tooltip": "consectetur",
   "Deleted": false,
   "IsLocation": true,
-  "LocationAddress": "et",
+  "LocationAddress": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 658
+      "FieldLength": 781
     }
   }
 }

@@ -79,7 +79,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,19 +89,19 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 267,
-  "Name": "Rolfson Group",
-  "ContentType": "rerum",
-  "AttSize": 818,
-  "InlineImage": false,
-  "ContentId": "fugit",
-  "AuthKey": "maxime",
+  "AttachmentId": 722,
+  "Name": "Boyle, Wolf and Olson",
+  "ContentType": "officia",
+  "AttSize": 287,
+  "InlineImage": true,
+  "ContentId": "aut",
+  "AuthKey": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 302
     }
   },
   "_Links": {

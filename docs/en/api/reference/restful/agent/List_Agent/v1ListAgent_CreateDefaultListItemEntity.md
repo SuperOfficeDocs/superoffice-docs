@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 92,
-  "Name": "Dietrich LLC",
-  "Tooltip": "qui",
+  "Id": 681,
+  "Name": "Wisoky, Hegmann and Pollich",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 173,
-  "Rank": 941,
+  "UdListDefinitionId": 694,
+  "Rank": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 473
     }
   }
 }

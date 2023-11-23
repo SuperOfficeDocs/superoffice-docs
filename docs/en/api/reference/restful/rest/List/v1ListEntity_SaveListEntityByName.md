@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 159,
-  "Name": "Corkery-Ratke",
-  "Tooltip": "commodi",
+  "Id": 947,
+  "Name": "Quitzon-Barton",
+  "Tooltip": "nobis",
   "Deleted": true,
-  "Rank": 828,
+  "Rank": 355,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laboriosam",
-  "InUseByUserDefinedFields": false
+  "ListType": "neque",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 8,
-  "Name": "Blanda Inc and Sons",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 795,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "beatae",
-  "InUseByUserDefinedFields": false,
+  "Id": 911,
+  "Name": "Moore, Grady and Deckow",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 188,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "esse",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 682
     }
   }
 }

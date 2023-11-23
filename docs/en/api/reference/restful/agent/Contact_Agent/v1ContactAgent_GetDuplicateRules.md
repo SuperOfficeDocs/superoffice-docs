@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gerhold, Keebler and Hudson",
-    "DisplayName": "Kuhlman, Mayert and Bartoletti",
-    "DisplayTooltip": "assumenda",
+    "Name": "Runte-Batz",
+    "DisplayName": "Gutkowski Inc and Sons",
+    "DisplayTooltip": "id",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 888
       }
     }
   },
   {
-    "Name": "Gerhold, Keebler and Hudson",
-    "DisplayName": "Kuhlman, Mayert and Bartoletti",
-    "DisplayTooltip": "assumenda",
+    "Name": "Runte-Batz",
+    "DisplayName": "Gutkowski Inc and Sons",
+    "DisplayTooltip": "id",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 888
       }
     }
   }

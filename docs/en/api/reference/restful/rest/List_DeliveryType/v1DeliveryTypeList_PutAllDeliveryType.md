@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 420,
-    "Name": "Kling, Harvey and Runte",
-    "Tooltip": "ex",
+    "Id": 288,
+    "Name": "Bruen, Strosin and Leannon",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "UdListDefinitionId": 827,
-    "Rank": 939
+    "UdListDefinitionId": 32,
+    "Rank": 347
   },
   {
-    "Id": 420,
-    "Name": "Kling, Harvey and Runte",
-    "Tooltip": "ex",
+    "Id": 288,
+    "Name": "Bruen, Strosin and Leannon",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "UdListDefinitionId": 827,
-    "Rank": 939
+    "UdListDefinitionId": 32,
+    "Rank": 347
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Crist, Bayer and Prosacco",
-    "Tooltip": "hic",
-    "Deleted": false,
-    "UdListDefinitionId": 945,
-    "Rank": 869,
+    "Id": 381,
+    "Name": "Gibson-Kris",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "UdListDefinitionId": 442,
+    "Rank": 17,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 265
+        "FieldType": "System.Int32",
+        "FieldLength": 543
       }
     }
   }

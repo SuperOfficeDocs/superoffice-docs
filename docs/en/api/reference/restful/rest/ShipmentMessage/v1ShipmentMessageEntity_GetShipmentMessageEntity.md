@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 772,
-  "PlainMessage": "repellendus",
-  "HtmlMessage": "non",
-  "SmsMessage": "assumenda",
-  "Description": "Pre-emptive systemic knowledge base",
-  "Subject": "optio",
-  "FolderId": 570,
-  "HeaderField": "quis",
-  "Design": "qui",
+  "ShipmentMessageId": 910,
+  "PlainMessage": "veritatis",
+  "HtmlMessage": "nihil",
+  "SmsMessage": "itaque",
+  "Description": "Secured well-modulated flexibility",
+  "Subject": "explicabo",
+  "FolderId": 917,
+  "HeaderField": "tenetur",
+  "Design": "ab",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Universal holistic hardware",
-  "AccessKey": "est",
-  "DocumentMessage": 700,
-  "Registered": "2004-07-17T03:24:51.927622+02:00",
-  "RegisteredAssociateId": 183,
-  "Updated": "2014-05-11T03:24:51.927622+02:00",
-  "UpdatedAssociateId": 876,
-  "UpdatedCount": 678,
+  "LongDescription": "Enterprise-wide background challenge",
+  "AccessKey": "recusandae",
+  "DocumentMessage": 680,
+  "Registered": "2001-04-17T13:38:17.6711737+02:00",
+  "RegisteredAssociateId": 821,
+  "Updated": "2023-09-05T13:38:17.6711737+02:00",
+  "UpdatedAssociateId": 137,
+  "UpdatedCount": 745,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldType": "System.String",
+      "FieldLength": 275
     }
   },
   "_Links": {

@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=repudiandae
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=unde
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 611,
-    "Name": "Brekke-Stokes",
-    "ToolTip": "Dolor adipisci.",
-    "Deleted": false,
-    "Rank": 831,
-    "Type": "in",
+    "Id": 103,
+    "Name": "Jast-Stark",
+    "ToolTip": "Incidunt eaque sint.",
+    "Deleted": true,
+    "Rank": 436,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 608,
-        "Name": "Harber Inc and Sons",
-        "ToolTip": "Voluptatibus dignissimos.",
+        "Id": 815,
+        "Name": "Stoltenberg, Russel and Hermiston",
+        "ToolTip": "Ut atque eveniet veniam eligendi dolorum.",
         "Deleted": false,
-        "Rank": 878,
-        "Type": "minus",
+        "Rank": 373,
+        "Type": "molestias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 27,
-        "ExtraInfo": "ipsa",
-        "StyleHint": "et",
-        "FullName": "Ophelia Mateo Luettgen DDS",
+        "IconHint": "consectetur",
+        "ColorBlock": 710,
+        "ExtraInfo": "autem",
+        "StyleHint": "nesciunt",
+        "FullName": "Oral Kunze",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 947
+            "FieldType": "System.Int32",
+            "FieldLength": 293
           }
         }
       }
     ],
     "IconHint": "sed",
-    "ColorBlock": 546,
-    "ExtraInfo": "eos",
-    "StyleHint": "quas",
-    "FullName": "Miracle Weber",
+    "ColorBlock": 363,
+    "ExtraInfo": "temporibus",
+    "StyleHint": "natus",
+    "FullName": "Evalyn Zieme",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 785
+        "FieldLength": 135
       }
     }
   }

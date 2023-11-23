@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=846
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=212
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 616,
-  "Section": "at",
-  "Key": "qui",
-  "Name": "Rempel Inc and Sons",
+  "PrefDescId": 247,
+  "Section": "est",
+  "Key": "omnis",
+  "Name": "Medhurst-Wiza",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergistic zero administration structure",
-  "IsBuiltin": false,
-  "TableName": "Grant-Jewess",
-  "UserDefinedListId": 20,
-  "Rank": 488,
-  "SubGroup": "sunt",
-  "MinLevel": 688,
-  "MaxValue": 248,
-  "MinValue": 700,
-  "RequiredLicense": "aut",
+  "Description": "Triple-buffered incremental data-warehouse",
+  "IsBuiltin": true,
+  "TableName": "Wintheiser-Daugherty",
+  "UserDefinedListId": 879,
+  "Rank": 270,
+  "SubGroup": "esse",
+  "MinLevel": 814,
+  "MaxValue": 294,
+  "MinValue": 577,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 616
     }
   }
 }

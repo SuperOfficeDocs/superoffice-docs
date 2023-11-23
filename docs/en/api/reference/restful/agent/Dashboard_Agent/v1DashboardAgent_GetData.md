@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 705,
-  "Restrictions": "nostrum"
+  "DashboardTileId": 485,
+  "Restrictions": "deleniti"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Nader, Jacobs and Parker",
-        "DisplayTooltip": "dolor",
-        "DisplayType": "provident",
-        "CanOrderBy": true,
-        "Name": "Considine-Windler",
+        "DisplayName": "Kessler, Pagac and Hilpert",
+        "DisplayTooltip": "in",
+        "DisplayType": "similique",
+        "CanOrderBy": false,
+        "Name": "Bruen Group",
         "CanRestrictBy": false,
-        "RestrictionType": "harum",
-        "RestrictionListName": "Zboncak, Schamberger and Hessel",
-        "IsVisible": true,
-        "ExtraInfo": "maxime",
-        "Width": "sapiente",
-        "IconHint": "dolores",
-        "HeadingIconHint": "ullam"
+        "RestrictionType": "dolorem",
+        "RestrictionListName": "Bednar, McGlynn and Gleichner",
+        "IsVisible": false,
+        "ExtraInfo": "eius",
+        "Width": "vel",
+        "IconHint": "reiciendis",
+        "HeadingIconHint": "maxime"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Nader, Jacobs and Parker",
-        "DisplayTooltip": "dolor",
-        "DisplayType": "provident",
-        "CanOrderBy": true,
-        "Name": "Considine-Windler",
+        "DisplayName": "Kessler, Pagac and Hilpert",
+        "DisplayTooltip": "in",
+        "DisplayType": "similique",
+        "CanOrderBy": false,
+        "Name": "Bruen Group",
         "CanRestrictBy": false,
-        "RestrictionType": "harum",
-        "RestrictionListName": "Zboncak, Schamberger and Hessel",
-        "IsVisible": true,
-        "ExtraInfo": "maxime",
-        "Width": "sapiente",
-        "IconHint": "dolores",
-        "HeadingIconHint": "ullam"
+        "RestrictionType": "dolorem",
+        "RestrictionListName": "Bednar, McGlynn and Gleichner",
+        "IsVisible": false,
+        "ExtraInfo": "eius",
+        "Width": "vel",
+        "IconHint": "reiciendis",
+        "HeadingIconHint": "maxime"
       }
     ],
     "Result": null

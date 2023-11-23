@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 202
+  "QuoteAlternativeId": 659
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 827,
-    "ERPQuoteLineKey": "minus",
-    "QuoteAlternativeId": 572,
-    "ERPProductKey": "placeat",
+    "QuoteLineId": 260,
+    "ERPQuoteLineKey": "enim",
+    "QuoteAlternativeId": 824,
+    "ERPProductKey": "illo",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 26253.518,
-    "DeliveredQuantity": 29550.486,
-    "Rank": 128,
-    "Name": "Hermann Inc and Sons",
-    "Description": "Object-based eco-centric toolset",
-    "Code": "ut",
-    "QuantityUnit": "eveniet",
-    "PriceUnit": "alias",
-    "ItemNumber": "834176",
+    "Quantity": 6659.75,
+    "DeliveredQuantity": 1896.07,
+    "Rank": 377,
+    "Name": "Larson-Pagac",
+    "Description": "Synchronised upward-trending analyzer",
+    "Code": "est",
+    "QuantityUnit": "deleniti",
+    "PriceUnit": "rerum",
+    "ItemNumber": "909864",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "vel",
-    "ProductTypeKey": "aspernatur",
-    "Supplier": "reiciendis",
-    "SupplierCode": "odit",
-    "Thumbnail": "distinctio",
-    "VATInfo": "non",
-    "VAT": 27820.518,
-    "UnitCost": 1523.124,
-    "UnitMinimumPrice": 23818.399999999998,
-    "UnitListPrice": 27550.994,
+    "ProductFamilyKey": "non",
+    "ProductTypeKey": "enim",
+    "Supplier": "voluptates",
+    "SupplierCode": "amet",
+    "Thumbnail": "architecto",
+    "VATInfo": "dolorem",
+    "VAT": 855.582,
+    "UnitCost": 7744.114,
+    "UnitMinimumPrice": 24742.93,
+    "UnitListPrice": 6443.504,
     "ExtraInfo": [
       {
-        "Name": "Pouros, Gaylord and Bayer",
-        "Value": "velit",
+        "Name": "Marks Inc and Sons",
+        "Value": "fugit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 414
+            "FieldType": "System.Int32",
+            "FieldLength": 491
           }
         }
       },
       {
-        "Name": "Pouros, Gaylord and Bayer",
-        "Value": "velit",
+        "Name": "Marks Inc and Sons",
+        "Value": "fugit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 414
+            "FieldType": "System.Int32",
+            "FieldLength": 491
           }
         }
       }
     ],
-    "RawExtraInfo": "voluptas",
+    "RawExtraInfo": "sed",
     "IsSubscription": false,
-    "SubscriptionUnit": "eum",
-    "SubscriptionQuantity": 19759.87,
-    "SubscriptionStart": "2002-02-19T03:24:48.1582254+01:00",
-    "ERPDiscountPercent": 15206.168,
-    "ERPDiscountAmount": 15566.578,
-    "DiscountPercent": 18036.17,
-    "DiscountAmount": 53.278,
+    "SubscriptionUnit": "error",
+    "SubscriptionQuantity": 2231.408,
+    "SubscriptionStart": "2020-07-21T13:38:14.045953+02:00",
+    "ERPDiscountPercent": 13125.192,
+    "ERPDiscountAmount": 27610.54,
+    "DiscountPercent": 1682.9579999999999,
+    "DiscountAmount": 10389.21,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 17901.408,
-    "EarningAmount": 16155.769999999999,
-    "SubTotal": 21994.412,
-    "TotalPrice": 10138.49,
-    "Rights": "sit",
-    "Rule": "sit",
-    "ExtraField1": "sint",
-    "ExtraField2": "magni",
-    "ExtraField3": "quos",
-    "ExtraField4": "perspiciatis",
-    "ExtraField5": "maiores",
+    "EarningPercent": 20659.327999999998,
+    "EarningAmount": 9837.626,
+    "SubTotal": 5888.786,
+    "TotalPrice": 16187.109999999999,
+    "Rights": "veritatis",
+    "Rule": "in",
+    "ExtraField1": "error",
+    "ExtraField2": "sapiente",
+    "ExtraField3": "et",
+    "ExtraField4": "harum",
+    "ExtraField5": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 458
       }
     }
   }

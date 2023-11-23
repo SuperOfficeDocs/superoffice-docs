@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 548,
-  "SourcePersonId": 451,
-  "DestinationContactId": 210,
-  "DestinationPersonId": 650,
-  "RelationId": 327,
-  "Comment": "minima",
-  "RelationDefinitionId": 211,
-  "Reversed": 917,
-  "UpdatedDate": "2005-12-29T03:24:48.1582254+01:00",
-  "CreatedDate": "2004-03-11T03:24:48.1582254+01:00",
+  "SourceContactId": 859,
+  "SourcePersonId": 885,
+  "DestinationContactId": 607,
+  "DestinationPersonId": 351,
+  "RelationId": 982,
+  "Comment": "a",
+  "RelationDefinitionId": 872,
+  "Reversed": 385,
+  "UpdatedDate": "2017-10-01T13:38:14.045953+02:00",
+  "CreatedDate": "2010-12-16T13:38:14.045953+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Pacocha Group",
-  "SourcePersonName": "Corkery LLC",
-  "DestinationContactName": "McClure, Kozey and Simonis",
-  "DestinationPersonName": "Kling, Kuphal and Padberg",
-  "ActiveText": "quis",
-  "PassiveText": "aut",
+  "SourceContactName": "Denesik, Weber and Barton",
+  "SourcePersonName": "Bechtelar LLC",
+  "DestinationContactName": "Stokes, Kessler and Kling",
+  "DestinationPersonName": "Herman Inc and Sons",
+  "ActiveText": "quia",
+  "PassiveText": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 144
     }
   }
 }

@@ -92,13 +92,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "et",
+  "Message": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 176
+      "FieldLength": 390
     }
   }
 }

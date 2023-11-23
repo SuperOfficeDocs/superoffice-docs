@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 903,
-  "TopicId": 548,
+  "ChatSessionId": 836,
+  "TopicId": 606,
   "User": null,
   "Person": null,
-  "CustomerAlias": "placeat",
-  "CustomerHost": "odio",
-  "CustomerName": "Keebler LLC",
-  "CustomerEmail": "bridget@purdywatsica.info",
-  "CustomerPhone": "875-621-7746",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Konopelski, Johnston and Bode",
+  "CustomerAlias": "et",
+  "CustomerHost": "earum",
+  "CustomerName": "Greenholt Inc and Sons",
+  "CustomerEmail": "margarett_ryan@auer.us",
+  "CustomerPhone": "281.621.8352 x6176",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Ullrich Group",
   "Status": "Closed",
-  "FirstMessage": "maiores",
-  "LastMessage": "quia",
-  "WhenRequested": "1996-12-04T03:24:47.2677007+01:00",
-  "WhenStarted": "2015-01-02T03:24:47.2677007+01:00",
-  "WhenEnded": "2010-03-25T03:24:47.2677007+01:00",
-  "WhenIdle": "2004-06-17T03:24:47.2677007+02:00",
-  "WhenFetched": "2020-02-28T03:24:47.2677007+01:00",
-  "SessionKey": "corrupti",
-  "InitialQueuePos": 751,
-  "AlertLevel": 84,
-  "Rank": 658,
+  "FirstMessage": "architecto",
+  "LastMessage": "voluptas",
+  "WhenRequested": "2018-05-11T13:38:13.1084134+02:00",
+  "WhenStarted": "2021-09-27T13:38:13.1084134+02:00",
+  "WhenEnded": "2001-05-23T13:38:13.1084134+02:00",
+  "WhenIdle": "2005-07-03T13:38:13.1084134+02:00",
+  "WhenFetched": "2006-07-10T13:38:13.1084134+02:00",
+  "SessionKey": "vitae",
+  "InitialQueuePos": 798,
+  "AlertLevel": 775,
+  "Rank": 239,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 29,
+  "ChatbotIsActive": false,
+  "Rating": 307,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldLength": 95
     }
   }
 }

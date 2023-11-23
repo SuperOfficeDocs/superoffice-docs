@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hintz, Ratke and Thompson",
-  "Columns": "facilis",
-  "SortOrder": "ipsum",
-  "Restriction": "cum",
-  "Entities": "architecto",
-  "Page": 127,
-  "PageSize": 649,
-  "Options": "et"
+  "ProviderName": "Rippin Inc and Sons",
+  "Columns": "illum",
+  "SortOrder": "impedit",
+  "Restriction": "delectus",
+  "Entities": "voluptatem",
+  "Page": 72,
+  "PageSize": 715,
+  "Options": "sed"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 414,
+  "RowCount": 7,
   "Rows": [
     {
-      "EntityName": "Bednar Inc and Sons",
-      "PrimaryKey": 186,
+      "EntityName": "Reilly Group",
+      "PrimaryKey": 91,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolorem",
-          "TooltipHint": "velit",
-          "LinkHint": "et"
+          "DisplayValue": "excepturi",
+          "TooltipHint": "recusandae",
+          "LinkHint": "tenetur"
         }
       },
-      "LinkHint": "mollitia",
-      "StyleHint": "magnam",
+      "LinkHint": "doloremque",
+      "StyleHint": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldType": "System.String",
+          "FieldLength": 152
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 112
     }
   }
 }

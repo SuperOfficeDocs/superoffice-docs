@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 04 Nov 2005 03:24:51 G11T
+Last-Modified: Wed, 28 Dec 2022 13:38:17 G12T
 
 {
-  "SourceContactId": 90,
-  "SourcePersonId": 600,
-  "DestinationContactId": 900,
-  "DestinationPersonId": 706,
-  "RelationId": 526,
-  "Comment": "consequuntur",
-  "RelationDefinitionId": 902,
-  "Reversed": 29,
-  "UpdatedDate": "2005-11-04T03:24:51.5368575+01:00",
-  "CreatedDate": "1998-02-19T03:24:51.5368575+01:00",
+  "SourceContactId": 1002,
+  "SourcePersonId": 249,
+  "DestinationContactId": 216,
+  "DestinationPersonId": 642,
+  "RelationId": 125,
+  "Comment": "odit",
+  "RelationDefinitionId": 30,
+  "Reversed": 449,
+  "UpdatedDate": "2022-12-28T13:38:17.280593+01:00",
+  "CreatedDate": "2008-10-31T13:38:17.280593+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Boehm, Lindgren and Leannon",
-  "SourcePersonName": "Hamill, Effertz and Mohr",
-  "DestinationContactName": "Becker, Mosciski and Pagac",
-  "DestinationPersonName": "Boyer Inc and Sons",
-  "ActiveText": "eligendi",
-  "PassiveText": "alias",
+  "SourceContactName": "Mueller LLC",
+  "SourcePersonName": "Pfannerstill, Nienow and Hettinger",
+  "DestinationContactName": "Kutch-Hamill",
+  "DestinationPersonName": "Rolfson Group",
+  "ActiveText": "eum",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldType": "System.Int32",
+      "FieldLength": 958
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

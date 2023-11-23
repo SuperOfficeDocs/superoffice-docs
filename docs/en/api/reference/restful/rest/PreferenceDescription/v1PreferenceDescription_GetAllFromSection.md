@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 135,
-    "Section": "molestiae",
-    "Key": "sit",
-    "Name": "Schmidt-Wisoky",
+    "PrefDescId": 235,
+    "Section": "qui",
+    "Key": "architecto",
+    "Name": "Huels-Okuneva",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Pre-emptive 5th generation help-desk",
+    "Description": "Organic client-server architecture",
     "IsBuiltin": false,
-    "TableName": "Pouros, McClure and Zboncak",
-    "UserDefinedListId": 774,
-    "Rank": 699,
-    "SubGroup": "veniam",
-    "MinLevel": 832,
-    "MaxValue": 815,
-    "MinValue": 186,
-    "RequiredLicense": "adipisci",
+    "TableName": "Maggio, Klocko and Purdy",
+    "UserDefinedListId": 299,
+    "Rank": 399,
+    "SubGroup": "consequatur",
+    "MinLevel": 693,
+    "MaxValue": 378,
+    "MinValue": 432,
+    "RequiredLicense": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldType": "System.String",
+        "FieldLength": 471
       }
     }
   }

@@ -470,7 +470,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowDynamicSelectionSingleCriteriaGroup?$select=associate/contactId,associate/simultaneousEjUser,person/personAssociateFullName,contact/email/emailLastSent
+GET /api/v1/archive/ChatConversationShadowDynamicSelectionSingleCriteriaGroup?$select=lastMessage,associate/contactCategory,contact/postAddress/wgs84latitude,contact/contactExtra/x_contact_date,contact/LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

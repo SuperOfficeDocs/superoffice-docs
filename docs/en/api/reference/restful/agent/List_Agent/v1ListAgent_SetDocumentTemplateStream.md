@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "sed",
-  "PluginId": 763
+  "LanguageCode": "omnis",
+  "PluginId": 785
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 351,
-  "Name": "Johns-Hand",
-  "Tooltip": "dolorem",
-  "SaveInDb": 116,
-  "Filename": "et",
-  "DefaultOref": "minima",
+  "DocumentTemplateId": 933,
+  "Name": "Walker, Weimann and Kuvalis",
+  "Tooltip": "vitae",
+  "SaveInDb": 824,
+  "Filename": "quasi",
+  "DefaultOref": "voluptatem",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 930,
-  "IntentId": 21,
+  "AutoeventId": 887,
+  "IntentId": 700,
   "IsDefaultPublished": false,
-  "Rank": 340,
-  "LoadTemplateFromPlugin": 355,
-  "MimeType": "nulla",
+  "Rank": 663,
+  "LoadTemplateFromPlugin": 337,
+  "MimeType": "vitae",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 104,
+  "DocumentTypeKey": 811,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "sophia@hoppe.name",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "davin@champlin.biz",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "elta@altenwerth.uk",
+  "SenderEmailAddress": "maria@parisian.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 471
+      "FieldLength": 265
     }
   }
 }

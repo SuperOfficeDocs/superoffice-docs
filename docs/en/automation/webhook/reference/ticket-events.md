@@ -3,7 +3,8 @@ title: Ticket webhook events
 uid: webhook_ticket_event
 description: Ticket events
 author:
-so.date:
+so.date: 11.22.2023
+so.version: 10.2.11
 keywords: automation
 so.topic: reference
 # so.envir:
@@ -17,7 +18,8 @@ These webhook events are fired when requests are created or changed:
 * `ticket.created`
 * `ticket.changed`
 
-Ticket events do not list changed fields.
+> [!NOTE]
+> From version 10.2.11 ticket events list changed fields.
 
 ## Ticket.Created
 
@@ -48,7 +50,55 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
 {
   "EventId": "1fc5752a-6de8-412d-847a-12d5529a0ec6",
   "Timestamp": "2018-04-24T08:13:02.8352175Z",
-  "Changes": [  ],
+  "Changes": [ 
+    "created_at",
+    "title",
+    "last_changed",
+    "read_by_owner",
+    "read_by_customer",
+    "closed_at",
+    "time_to_close",
+    "real_time_to_close",
+    "time_to_reply",
+    "real_time_to_reply",
+    "author",
+    "created_by",
+    "alert_level",
+    "alert_timeout",
+    "connect_id",
+    "filter_id",
+    "read_status",
+    "has_attachment",
+    "num_replies",
+    "num_messages",
+    "display_filter",
+    "alert_stop",
+    "replied_at",
+    "slevel",
+    "category",
+    "priority",
+    "cust_id",
+    "status",
+    "ticket_status",
+    "deadline",
+    "first_read_by_user",
+    "first_read_by_owner",
+    "activate",
+    "owned_by",
+    "agent_id",
+    "dbi_key",
+    "dbi_last_syncronized",
+    "extraField",
+    "filter_address",
+    "time_spent_internally",
+    "time_spent_externally",
+    "time_spent_queue",
+    "real_time_spent_internally",
+    "real_time_spent_externally",
+    "real_time_spent_queue",
+    "tags",
+    "ticket_type"
+   ],
   "Event": "ticket.changed",
   "PrimaryKey": 527331,
   "Entity": "ticket",

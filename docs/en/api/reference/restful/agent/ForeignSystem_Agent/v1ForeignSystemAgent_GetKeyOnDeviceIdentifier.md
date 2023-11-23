@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Erdman-Murray",
-  "DeviceName": "Koepp, Kilback and Beer",
-  "DeviceIdentifier": "consequatur",
-  "KeyName": "Kozey-Jakubowski",
-  "TableName": "Weissnat, Hauck and Schaefer",
-  "RecordId": 950
+  "ApplicationName": "Bruen-Hackett",
+  "DeviceName": "Gottlieb, Daniel and Rath",
+  "DeviceIdentifier": "facilis",
+  "KeyName": "Cummings-McLaughlin",
+  "TableName": "Gutkowski, Mante and Schmitt",
+  "RecordId": 151
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolor",
-  "Value": "temporibus",
-  "RecordId": 349,
-  "CreatedDate": "2013-03-19T03:24:47.8145137+01:00",
-  "UpdatedDate": "1996-06-30T03:24:47.8145137+02:00",
-  "UpdatedBy": "magnam",
-  "CreatedBy": "eveniet",
-  "TableName": "Turcotte-Schamberger",
+  "Key": "et",
+  "Value": "dolores",
+  "RecordId": 441,
+  "CreatedDate": "2008-03-19T13:38:13.6396102+01:00",
+  "UpdatedDate": "2002-10-14T13:38:13.6396102+02:00",
+  "UpdatedBy": "adipisci",
+  "CreatedBy": "autem",
+  "TableName": "Fahey Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldLength": 738
     }
   }
 }

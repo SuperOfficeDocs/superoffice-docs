@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 495,
-  "Select": "dolore"
+  "SelectionId": 591,
+  "Select": "sint"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schultz-Will",
-    "PrimaryKey": 224,
+    "EntityName": "Schumm Group",
+    "PrimaryKey": 594,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "aspernatur",
-        "TooltipHint": "quia",
-        "LinkHint": "asperiores"
+        "DisplayValue": "qui",
+        "TooltipHint": "natus",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "libero",
-    "StyleHint": "omnis",
+    "LinkHint": "eveniet",
+    "StyleHint": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 536
+        "FieldType": "System.Int32",
+        "FieldLength": 966
       }
     }
   }

@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "O'Conner-Denesik",
-  "NewSerialNumber": "1147811"
+  "NewCompanyName": "Ward, Auer and Kunde",
+  "NewSerialNumber": "419714"
 }
 ```
 
@@ -94,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Succeeded": true,
-  "Reason": "empower bricks-and-clicks applications",
+  "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 694
     }
   }
 }

@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/FreeText/AddWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StopWords": "est"
+  "StopWords": "ipsa"
 }
 ```
 

@@ -81,11 +81,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PersonIds": [
-    186,
+    915,
     686
   ],
-  "ScaledWidth": 913,
-  "ScaledHeight": 313
+  "ScaledWidth": 78,
+  "ScaledHeight": 369
 }
 ```
 
@@ -97,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 415,
+    "PersonId": 676,
     "ImageData": "GIF89....File contents as raw bytes..."
   },
   {
-    "PersonId": 415,
+    "PersonId": 676,
     "ImageData": "GIF89....File contents as raw bytes..."
   }
 ]

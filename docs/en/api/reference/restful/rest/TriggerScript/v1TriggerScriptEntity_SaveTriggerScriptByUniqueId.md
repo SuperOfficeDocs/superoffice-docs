@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 826,
-  "Name": "Jones, Metz and Prohaska",
+  "ScreenChooserId": 858,
+  "Name": "Torphy, Marvin and Roob",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "non",
-  "Source": "rem",
-  "Registered": "1998-12-20T03:24:52.0213616+01:00",
-  "RegisteredAssociateId": 661,
-  "Updated": "2000-07-07T03:24:52.0213616+02:00",
-  "UpdatedAssociateId": 896
+  "Enabled": false,
+  "UniqueIdentifier": "placeat",
+  "Source": "consequatur",
+  "Registered": "1999-10-28T13:38:17.7650302+02:00",
+  "RegisteredAssociateId": 637,
+  "Updated": "2013-03-23T13:38:17.7650302+01:00",
+  "UpdatedAssociateId": 78
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 286,
-  "Name": "Gislason, Denesik and Nader",
+  "ScreenChooserId": 519,
+  "Name": "Koch, Considine and Abshire",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "delectus",
-  "Source": "explicabo",
-  "Registered": "2003-05-03T03:24:52.0213616+02:00",
-  "RegisteredAssociateId": 372,
-  "Updated": "2006-09-29T03:24:52.0213616+02:00",
-  "UpdatedAssociateId": 636,
+  "UniqueIdentifier": "molestiae",
+  "Source": "optio",
+  "Registered": "2016-11-26T13:38:17.7650302+01:00",
+  "RegisteredAssociateId": 205,
+  "Updated": "2016-08-23T13:38:17.7650302+02:00",
+  "UpdatedAssociateId": 915,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldType": "System.String",
+      "FieldLength": 254
     }
   }
 }

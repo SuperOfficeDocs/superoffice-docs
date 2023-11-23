@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=et
+GET /api/v1/List/ConsentSource/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Kerluke, Zulauf and Schmidt",
-    "ToolTip": "Molestias eum ea soluta.",
-    "Deleted": false,
-    "Rank": 209,
-    "Type": "praesentium",
+    "Id": 497,
+    "Name": "Graham Group",
+    "ToolTip": "Deleniti voluptatem molestias error accusantium nesciunt.",
+    "Deleted": true,
+    "Rank": 435,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 423,
-        "Name": "Johns-Legros",
-        "ToolTip": "Velit est dolor consequatur.",
+        "Id": 826,
+        "Name": "Koepp Group",
+        "ToolTip": "Facere eius quidem ea totam vel ex sint.",
         "Deleted": false,
-        "Rank": 328,
-        "Type": "eius",
+        "Rank": 365,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 240,
-        "ExtraInfo": "rem",
-        "StyleHint": "modi",
-        "FullName": "Mr. Wilford Friesen PhD",
+        "IconHint": "perferendis",
+        "ColorBlock": 736,
+        "ExtraInfo": "vitae",
+        "StyleHint": "qui",
+        "FullName": "Dr. Austen Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 604
+            "FieldType": "System.String",
+            "FieldLength": 249
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 90,
-    "ExtraInfo": "facere",
-    "StyleHint": "officiis",
-    "FullName": "Fidel Dickinson",
+    "IconHint": "deleniti",
+    "ColorBlock": 779,
+    "ExtraInfo": "a",
+    "StyleHint": "consequatur",
+    "FullName": "Duane Cielo Kuhn I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 52
       }
     }
   }

@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "harum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "harum",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 863,
-  "Section": "consequatur",
-  "Key": "eos",
-  "Name": "Aufderhar, Quitzon and Marquardt",
+  "PrefDescId": 114,
+  "Section": "sed",
+  "Key": "commodi",
+  "Name": "Medhurst Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cross-group holistic groupware",
-  "IsBuiltin": true,
-  "TableName": "Huels, Baumbach and Jones",
-  "UserDefinedListId": 295,
-  "Rank": 278,
-  "SubGroup": "unde",
-  "MinLevel": 952,
-  "MaxValue": 443,
-  "MinValue": 297,
-  "RequiredLicense": "voluptas",
+  "Description": "Adaptive needs-based synergy",
+  "IsBuiltin": false,
+  "TableName": "Emard, Bogisich and Deckow",
+  "UserDefinedListId": 907,
+  "Rank": 629,
+  "SubGroup": "aliquam",
+  "MinLevel": 251,
+  "MaxValue": 898,
+  "MinValue": 660,
+  "RequiredLicense": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 579
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 746
+  "TicketMessageEntityId": 227
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 922,
-    "Name": "McGlynn-Erdman",
-    "ContentType": "itaque",
-    "AttSize": 951,
-    "InlineImage": true,
-    "ContentId": "maxime",
-    "AuthKey": "qui",
+    "AttachmentId": 846,
+    "Name": "Gusikowski-Connelly",
+    "ContentType": "est",
+    "AttSize": 240,
+    "InlineImage": false,
+    "ContentId": "architecto",
+    "AuthKey": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldLength": 945
       }
     }
   }

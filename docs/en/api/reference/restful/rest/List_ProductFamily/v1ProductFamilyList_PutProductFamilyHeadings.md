@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 34,
-    "Name": "Shields LLC",
-    "Tooltip": "tempora",
+    "HeadingId": 350,
+    "Name": "Moen, Schuppe and Shields",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 257,
-    "UdListDefinitionId": 52
+    "Rank": 773,
+    "UdListDefinitionId": 314
   },
   {
-    "HeadingId": 34,
-    "Name": "Shields LLC",
-    "Tooltip": "tempora",
+    "HeadingId": 350,
+    "Name": "Moen, Schuppe and Shields",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 257,
-    "UdListDefinitionId": 52
+    "Rank": 773,
+    "UdListDefinitionId": 314
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 133,
-    "Name": "Littel-Ferry",
-    "Tooltip": "asperiores",
-    "Deleted": false,
-    "Rank": 407,
-    "UdListDefinitionId": 564,
+    "HeadingId": 149,
+    "Name": "Murphy-Jacobi",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 711,
+    "UdListDefinitionId": 704,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 409
+        "FieldType": "System.Int32",
+        "FieldLength": 747
       }
     }
   }

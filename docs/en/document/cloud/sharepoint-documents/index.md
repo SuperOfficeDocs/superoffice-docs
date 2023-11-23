@@ -3,7 +3,7 @@ title: SharePoint documents
 uid: sharepoint-documents
 description: SharePoint document integration for SuperOffice
 author: Frode Berntsen
-so.date: 05.11.2023
+so.date: 11.01.2023
 keywords: SharePoint, document
 so.topic: concept
 so.version:
@@ -47,6 +47,10 @@ A self-service UI to provision and configure SharePoint as SO repository from Su
   * Visible for group - private in SharePoint
 
 ## Things to consider
+
+### Data rights for a role
+
+[!include[data rights](includes/req-data-rights.md)]
 
 ### Backup
 

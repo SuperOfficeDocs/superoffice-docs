@@ -100,21 +100,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Luettgen LLC",
-      "Operator": "ratione",
+      "Name": "Medhurst LLC",
+      "Operator": "voluptas",
       "Values": [
-        "ea",
-        "dolore"
+        "deleniti",
+        "nisi"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "debitis"
+        "dicta",
+        "ea"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 925,
+      "InterParenthesis": 289,
       "InterOperator": "And",
-      "UniqueHash": 394
+      "UniqueHash": 533
     }
   ],
-  "ProviderName": "Pouros, Wyman and Sanford",
+  "ProviderName": "Kunze-Rempel",
   "DesiredColumns": [
-    "itaque",
-    "sed"
+    "quia",
+    "quibusdam"
   ],
-  "PageSize": 472,
-  "PageNumber": 329
+  "PageSize": 326,
+  "PageNumber": 863
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Dietrich, Jerde and Leuschke",
-      "DisplayTooltip": "harum",
-      "DisplayType": "aut",
+      "DisplayName": "Berge, Greenfelder and Brown",
+      "DisplayTooltip": "ratione",
+      "DisplayType": "iste",
       "CanOrderBy": false,
-      "Name": "Rolfson, Konopelski and Hayes",
-      "CanRestrictBy": true,
-      "RestrictionType": "deserunt",
-      "RestrictionListName": "Quigley LLC",
+      "Name": "Hodkiewicz Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "ut",
+      "RestrictionListName": "Hudson, Larkin and Mitchell",
       "IsVisible": true,
-      "ExtraInfo": "iste",
-      "Width": "vel",
-      "IconHint": "dolore",
-      "HeadingIconHint": "nemo"
+      "ExtraInfo": "ipsum",
+      "Width": "consequatur",
+      "IconHint": "est",
+      "HeadingIconHint": "doloremque"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Eichmann, Parker and Gutmann",
-      "PrimaryKey": 647,
+      "EntityName": "Quigley-Reichel",
+      "PrimaryKey": 606,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "velit",
-          "TooltipHint": "aut",
-          "LinkHint": "dolore"
+          "DisplayValue": "harum",
+          "TooltipHint": "accusamus",
+          "LinkHint": "id"
         }
       },
-      "LinkHint": "veniam",
-      "StyleHint": "rerum",
+      "LinkHint": "facilis",
+      "StyleHint": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldType": "System.String",
+          "FieldLength": 241
         }
       }
     }
   ],
-  "RowCount": 930,
+  "RowCount": 348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldType": "System.Int32",
+      "FieldLength": 591
     }
   }
 }

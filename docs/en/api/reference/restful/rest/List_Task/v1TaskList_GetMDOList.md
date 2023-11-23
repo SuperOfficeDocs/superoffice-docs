@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=et
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=perferendis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Prohaska-Kassulke",
-    "ToolTip": "Quod dolores dicta esse.",
+    "Id": 218,
+    "Name": "Schneider Inc and Sons",
+    "ToolTip": "Illum nam.",
     "Deleted": false,
-    "Rank": 245,
-    "Type": "sint",
+    "Rank": 557,
+    "Type": "cum",
     "ChildItems": [
       {
-        "Id": 332,
-        "Name": "Nienow Inc and Sons",
-        "ToolTip": "Excepturi voluptatum ut vitae.",
+        "Id": 820,
+        "Name": "Boyle, Haley and Langworth",
+        "ToolTip": "Ex ipsam quae.",
         "Deleted": false,
-        "Rank": 503,
-        "Type": "ut",
+        "Rank": 656,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 897,
-        "ExtraInfo": "iure",
-        "StyleHint": "qui",
-        "FullName": "Mrs. Mike Douglas I",
+        "IconHint": "saepe",
+        "ColorBlock": 820,
+        "ExtraInfo": "voluptates",
+        "StyleHint": "minima",
+        "FullName": "Walker Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 396
+            "FieldType": "System.Int32",
+            "FieldLength": 887
           }
         }
       }
     ],
-    "IconHint": "adipisci",
-    "ColorBlock": 362,
-    "ExtraInfo": "et",
-    "StyleHint": "nisi",
-    "FullName": "Carolanne Wilkinson",
+    "IconHint": "rem",
+    "ColorBlock": 796,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "ratione",
+    "FullName": "Miss Alec Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 357
       }
     }
   }

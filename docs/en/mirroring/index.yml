@@ -28,8 +28,8 @@ landingContent:
           url: mirroring-task.md
         - text: Change tracking
           url: change-tracking.md
-        - text: Skip tables (blacklist)
-          url: skip-tables.md
+        - text: Blocked list
+          url: blocked-tables.md
   # Card
   - title: Getting started
     linkLists:

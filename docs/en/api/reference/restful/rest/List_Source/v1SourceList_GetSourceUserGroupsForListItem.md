@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Witting, Jaskolski and Mayert",
-    "ToolTip": "Sit asperiores minima ut perferendis.",
+    "Id": 58,
+    "Name": "Becker-Herzog",
+    "ToolTip": "Voluptas quaerat laborum.",
     "Deleted": true,
-    "Rank": 171,
-    "Type": "molestiae",
-    "ColorBlock": 571,
-    "IconHint": "sapiente",
-    "Selected": true,
-    "LastChanged": "2005-09-05T03:24:52.4275712+02:00",
+    "Rank": 141,
+    "Type": "vitae",
+    "ColorBlock": 603,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2004-12-09T13:38:18.2337719+01:00",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "Donnelly Inc and Sons",
-        "ToolTip": "Ut sed.",
+        "Id": 810,
+        "Name": "Swaniawski, Hills and Johnston",
+        "ToolTip": "Aut ipsam et dolores ut voluptatem quia fugit.",
         "Deleted": false,
-        "Rank": 119,
-        "Type": "enim",
-        "ColorBlock": 401,
-        "IconHint": "dicta",
+        "Rank": 863,
+        "Type": "amet",
+        "ColorBlock": 658,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "2021-06-02T03:24:52.4275712+02:00",
+        "LastChanged": "2011-08-14T13:38:18.2337719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "autem",
-        "Hidden": false,
-        "FullName": "Marlon Boehm",
+        "ExtraInfo": "quis",
+        "StyleHint": "repellat",
+        "Hidden": true,
+        "FullName": "Viva Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 329
+            "FieldType": "System.String",
+            "FieldLength": 48
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Keshawn Schuppe",
+    "ExtraInfo": "et",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Ms. Verdie Melyna Casper",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldType": "System.Int32",
+        "FieldLength": 744
       }
     }
   }

@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultCountryFlag
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Rohan-Reynolds",
+  "LayoutName": "Lind Inc and Sons",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

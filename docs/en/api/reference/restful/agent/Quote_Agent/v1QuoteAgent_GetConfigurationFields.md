@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 295,
-  "ConnectorName": "Moen Inc and Sons"
+  "ConnectionId": 557,
+  "ConnectorName": "Schmeler-Lakin"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "repellendus",
-    "Rank": 431,
-    "DisplayName": "Treutel, Stanton and Bayer",
-    "DisplayDescription": "Fundamental user-facing model",
+    "FieldKey": "adipisci",
+    "Rank": 195,
+    "DisplayName": "Hayes-Russel",
+    "DisplayDescription": "Pre-emptive user-facing protocol",
     "FieldType": "Checkbox",
-    "ListName": "Gleason-Schamberger",
-    "DefaultValue": "id",
-    "MaxLength": 872,
+    "ListName": "Reynolds LLC",
+    "DefaultValue": "amet",
+    "MaxLength": 4,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldLength": 828
       }
     }
   }

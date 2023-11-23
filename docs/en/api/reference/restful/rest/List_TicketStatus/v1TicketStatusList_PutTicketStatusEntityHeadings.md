@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 436,
-    "Name": "Luettgen LLC",
-    "Tooltip": "natus",
+    "HeadingId": 273,
+    "Name": "Ondricka LLC",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 616,
-    "UdListDefinitionId": 679
+    "Rank": 289,
+    "UdListDefinitionId": 601
   },
   {
-    "HeadingId": 436,
-    "Name": "Luettgen LLC",
-    "Tooltip": "natus",
+    "HeadingId": 273,
+    "Name": "Ondricka LLC",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 616,
-    "UdListDefinitionId": 679
+    "Rank": 289,
+    "UdListDefinitionId": 601
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 650,
-    "Name": "Schamberger-Adams",
-    "Tooltip": "at",
+    "HeadingId": 331,
+    "Name": "Goyette, Schinner and Osinski",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 736,
-    "UdListDefinitionId": 616,
+    "Rank": 966,
+    "UdListDefinitionId": 461,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 535
       }
     }
   }

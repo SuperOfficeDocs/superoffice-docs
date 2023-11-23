@@ -64,7 +64,7 @@ No Content
 POST /api/v1/Agents/FreeText/SetMultiWordOperator
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {

@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 783,
-  "ParentId": 810,
-  "Name": "Feil, Schmidt and Cole",
-  "Fullname": "rerum",
-  "CategoryMaster": 583,
+  "TicketCategoryId": 214,
+  "ParentId": 311,
+  "Name": "Corkery LLC",
+  "Fullname": "et",
+  "CategoryMaster": 624,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Weissnat-White",
+  "ExternalName": "Swift-Crooks",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 664,
-  "ReplyTemplate": 533,
-  "NotificationEmail": "philip@jakubowski.info",
+  "AssignmentLag": 107,
+  "ReplyTemplate": 721,
+  "NotificationEmail": "alena.wintheiser@naderbechtelar.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 421,
+  "EffectiveReplyTemplateId": 495,
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "debitis",
+    "CustomFields2": "autem"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 967,
-  "ParentId": 933,
-  "Name": "Herzog-Hudson",
-  "Fullname": "sunt",
-  "CategoryMaster": 468,
+  "TicketCategoryId": 577,
+  "ParentId": 553,
+  "Name": "Ebert, Schaefer and Barton",
+  "Fullname": "consequuntur",
+  "CategoryMaster": 394,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Boyle, Kertzmann and Lindgren",
+  "ExternalName": "Sanford-Crooks",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 650,
-  "ReplyTemplate": 667,
-  "NotificationEmail": "ardella@dachdoyle.info",
+  "AssignmentLag": 576,
+  "ReplyTemplate": 146,
+  "NotificationEmail": "jillian@emmerichfunk.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 744,
+  "EffectiveReplyTemplateId": 513,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "doloremque",
+    "ExtraFields2": "doloribus"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "earum"
+    "CustomFields1": "similique",
+    "CustomFields2": "odio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldType": "System.Int32",
+      "FieldLength": 588
     }
   }
 }

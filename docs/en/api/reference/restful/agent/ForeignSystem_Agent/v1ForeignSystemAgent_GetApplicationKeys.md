@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Glover Group"
+  "ApplicationName": "Schulist, O'Hara and Rogahn"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "corrupti",
-    "Value": "alias",
-    "RecordId": 793,
-    "CreatedDate": "2010-07-15T03:24:47.8301403+02:00",
-    "UpdatedDate": "2004-03-19T03:24:47.8301403+01:00",
-    "UpdatedBy": "quae",
-    "CreatedBy": "dolorem",
-    "TableName": "Abernathy, Corwin and Beier",
+    "Key": "sed",
+    "Value": "id",
+    "RecordId": 553,
+    "CreatedDate": "2008-05-02T13:38:13.6396102+02:00",
+    "UpdatedDate": "1999-06-05T13:38:13.6396102+02:00",
+    "UpdatedBy": "asperiores",
+    "CreatedBy": "sequi",
+    "TableName": "Quigley-Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 363
+        "FieldLength": 850
       }
     }
   }

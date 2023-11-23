@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 90,
-    "Name": "Cruickshank, Dietrich and Steuber",
-    "Tooltip": "iure",
+    "HeadingId": 625,
+    "Name": "Trantow, Beahan and Kovacek",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 187,
-    "UdListDefinitionId": 470
+    "Rank": 549,
+    "UdListDefinitionId": 511
   },
   {
-    "HeadingId": 90,
-    "Name": "Cruickshank, Dietrich and Steuber",
-    "Tooltip": "iure",
+    "HeadingId": 625,
+    "Name": "Trantow, Beahan and Kovacek",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 187,
-    "UdListDefinitionId": 470
+    "Rank": 549,
+    "UdListDefinitionId": 511
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 199,
-    "Name": "Zboncak, Koss and Gleason",
+    "HeadingId": 162,
+    "Name": "Lemke-Schultz",
     "Tooltip": "impedit",
-    "Deleted": false,
-    "Rank": 55,
-    "UdListDefinitionId": 559,
+    "Deleted": true,
+    "Rank": 832,
+    "UdListDefinitionId": 124,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldLength": 350
       }
     }
   }

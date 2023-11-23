@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 376,
-  "CurrencyId": 813
+  "QuoteConnectionId": 176,
+  "CurrencyId": 97
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 179,
-    "ERPPriceListKey": "quasi",
-    "QuoteConnectionId": 744,
-    "Name": "Trantow, Veum and Swaniawski",
-    "Description": "Organized demand-driven parallelism",
-    "Currency": "delectus",
-    "CurrencyName": "Anderson LLC",
-    "ValidFrom": "2001-09-12T03:24:48.1426062+02:00",
-    "ValidTo": "1999-02-05T03:24:48.1426062+01:00",
+    "PriceListId": 434,
+    "ERPPriceListKey": "ipsum",
+    "QuoteConnectionId": 40,
+    "Name": "Cartwright Group",
+    "Description": "Programmable disintermediate orchestration",
+    "Currency": "corporis",
+    "CurrencyName": "Morar, Anderson and Connelly",
+    "ValidFrom": "2008-11-22T13:38:14.0303322+01:00",
+    "ValidTo": "2010-10-25T13:38:14.0303322+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldType": "System.String",
+        "FieldLength": 392
       }
     }
   }

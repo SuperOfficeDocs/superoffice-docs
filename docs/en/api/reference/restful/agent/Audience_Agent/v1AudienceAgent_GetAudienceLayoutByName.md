@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Stoltenberg LLC"
+  "LayoutName": "Cassin-Bradtke"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 644,
-  "InstanceLayout": "animi",
-  "InstanceName": "Johnston LLC",
-  "CreatedDate": "2008-09-21T03:24:47.2520803+02:00",
-  "UpdatedDate": "1997-03-21T03:24:47.2520803+01:00",
+  "AudienceLayoutId": 486,
+  "InstanceLayout": "aut",
+  "InstanceName": "Dibbert, Jacobs and Fritsch",
+  "CreatedDate": "2001-01-05T13:38:13.0771703+01:00",
+  "UpdatedDate": "2022-04-28T13:38:13.0771703+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldType": "System.String",
+      "FieldLength": 791
     }
   }
 }

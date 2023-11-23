@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=337
+POST /api/v1/Agents/User/GetUser?userId=744
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 245,
-  "Name": "Orn Group",
-  "Rank": 818,
-  "Tooltip": "enim",
+  "AssociateId": 295,
+  "Name": "Crooks, Cruickshank and Maggio",
+  "Rank": 656,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Emmerich-Farrell",
-      "Description": "Focused maximized website",
+      "Name": "McKenzie-Mueller",
+      "Description": "Distributed 24/7 structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,14 +123,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldType": "System.String",
+          "FieldLength": 937
         }
       }
     },
     {
-      "Name": "Emmerich-Farrell",
-      "Description": "Focused maximized website",
+      "Name": "McKenzie-Mueller",
+      "Description": "Distributed 24/7 structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldType": "System.String",
+          "FieldLength": 937
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "corrupti",
-      "Tooltip": "consequatur",
-      "Id": 129,
-      "Rank": 606,
+      "Value": "cupiditate",
+      "Tooltip": "aliquam",
+      "Id": 717,
+      "Rank": 812,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 349
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2008-05-28T03:24:48.5497594+02:00",
-  "Lastlogout": "2015-04-21T03:24:48.5497594+02:00",
-  "EjUserId": 745,
-  "RequestSignature": "sed",
+  "Deleted": false,
+  "Lastlogin": "2010-01-02T13:38:14.3584195+01:00",
+  "Lastlogout": "2005-07-13T13:38:14.3584195+02:00",
+  "EjUserId": 551,
+  "RequestSignature": "ipsam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "expedita",
-      "DisplayValue": "at",
+      "Value": "neque",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldLength": 955
         }
       }
     },
     {
       "Type": null,
-      "Value": "expedita",
-      "DisplayValue": "at",
+      "Value": "neque",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldLength": 955
         }
       }
     }
   ],
-  "UserName": "Bins, Bradtke and Lubowitz",
+  "UserName": "Huels-Runolfsdottir",
   "TicketCategories": [
     {
-      "Id": 706,
-      "Name": "Gaylord-Reichel",
-      "ToolTip": "Tempore ipsum at quam ea ducimus voluptatem quia.",
-      "Deleted": true,
-      "Rank": 757,
-      "Type": "sequi",
+      "Id": 370,
+      "Name": "Padberg, Hoeger and Tromp",
+      "ToolTip": "Totam explicabo minus corrupti.",
+      "Deleted": false,
+      "Rank": 355,
+      "Type": "voluptas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dignissimos",
-      "ColorBlock": 413,
-      "ExtraInfo": "eveniet",
-      "StyleHint": "autem",
-      "FullName": "Prof. Shawn Muller",
+      "IconHint": "reprehenderit",
+      "ColorBlock": 443,
+      "ExtraInfo": "odit",
+      "StyleHint": "non",
+      "FullName": "Mr. Lenore Luciano Schneider Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 400
         }
       }
     }
   ],
-  "NickName": "Schamberger-Legros",
-  "WaitingForApproval": false,
+  "NickName": "Rice Group",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "odit"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "architecto"
+    "CustomFields1": "vel",
+    "CustomFields2": "voluptas"
   },
   "PostSaveCommands": [
     {
-      "Name": "Jones, Anderson and Stracke",
-      "DisplayName": "Kris, Eichmann and Pacocha",
-      "Description": "Function-based optimal customer loyalty",
-      "ToolTip": "Accusantium officiis ea recusandae necessitatibus autem perspiciatis non.",
+      "Name": "Torphy-Volkman",
+      "DisplayName": "Weber-Lakin",
+      "Description": "Cloned full-range secured line",
+      "ToolTip": "Molestiae quia qui harum.",
       "Actions": "Implicit",
-      "ActionData": "dolores",
+      "ActionData": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 16
+          "FieldType": "System.Int32",
+          "FieldLength": 115
         }
       }
     }
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 117
+      "FieldType": "System.Int32",
+      "FieldLength": 573
     }
   }
 }

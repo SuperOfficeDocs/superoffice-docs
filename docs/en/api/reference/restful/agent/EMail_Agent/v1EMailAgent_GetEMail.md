@@ -105,8 +105,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "IncludeAttachments": false
+  "Id": 471,
+  "IncludeAttachments": true
 }
 ```
 
@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 271,
-      "ContactName": "Herzog-Conroy",
-      "PersonId": 345,
-      "PersonName": "Jerde LLC",
-      "AssociateId": 508,
-      "Address": "quaerat",
-      "EmailId": 409,
+      "ContactId": 332,
+      "ContactName": "Stracke-Conn",
+      "PersonId": 559,
+      "PersonName": "Treutel, Wisozk and Denesik",
+      "AssociateId": 461,
+      "Address": "sequi",
+      "EmailId": 200,
       "DuplicatePersonIds": [
-        380,
-        400
+        828,
+        484
       ],
-      "Name": "Cummings, Bins and O'Reilly",
+      "Name": "Willms-Deckow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 859
+          "FieldType": "System.Int32",
+          "FieldLength": 15
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 485,
-      "ContactName": "Schulist, Robel and Stokes",
-      "PersonId": 91,
-      "PersonName": "Braun-Boyer",
-      "AssociateId": 208,
-      "Address": "neque",
-      "EmailId": 374,
+      "ContactId": 636,
+      "ContactName": "Daugherty-Bins",
+      "PersonId": 836,
+      "PersonName": "King Inc and Sons",
+      "AssociateId": 365,
+      "Address": "ratione",
+      "EmailId": 577,
       "DuplicatePersonIds": [
-        206,
-        149
+        729,
+        1001
       ],
-      "Name": "Gerlach-Gulgowski",
+      "Name": "Kessler, McKenzie and Wunsch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 445
+          "FieldType": "System.Int32",
+          "FieldLength": 803
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 171,
-      "ContactName": "Howell Inc and Sons",
-      "PersonId": 94,
-      "PersonName": "Mohr LLC",
-      "AssociateId": 911,
-      "Address": "minus",
-      "EmailId": 969,
+      "ContactId": 452,
+      "ContactName": "Lakin Inc and Sons",
+      "PersonId": 162,
+      "PersonName": "Schimmel-Stoltenberg",
+      "AssociateId": 206,
+      "Address": "iste",
+      "EmailId": 869,
       "DuplicatePersonIds": [
-        781,
-        446
+        347,
+        492
       ],
-      "Name": "Kiehn, Weber and Leannon",
+      "Name": "Lockman-Jaskolski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 796
         }
       }
     }
   ],
-  "Subject": "accusantium",
-  "HTMLBody": "nihil",
+  "Subject": "labore",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2018-06-02T03:24:47.7676476+02:00",
-  "Size": 674,
+  "Sent": "2022-06-11T13:38:13.592742+02:00",
+  "Size": 257,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "fugiat",
-  "PlainBody": "accusantium",
-  "IsSent": true,
+  "MessageID": "et",
+  "PlainBody": "dolorum",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 188,
+  "ServerId": 481,
   "Attachments": [
     {
-      "Description": "Focused bifurcated application",
-      "Filename": "laborum",
-      "Size": 501,
-      "Type": "eum",
-      "Encoding": "laboriosam",
-      "Id": "placeat",
-      "Disposition": "delectus",
+      "Description": "Persevering fault-tolerant intranet",
+      "Filename": "dolores",
+      "Size": 653,
+      "Type": "iste",
+      "Encoding": "harum",
+      "Id": "fugit",
+      "Disposition": "molestiae",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,58 +217,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldLength": 423
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Murphy Group",
+      "Name": "McDermott-Prohaska",
       "Values": [
-        "eos",
-        "quo"
+        "expedita",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 392
+          "FieldType": "System.Int32",
+          "FieldLength": 674
         }
       }
     },
     {
-      "Name": "Murphy Group",
+      "Name": "McDermott-Prohaska",
       "Values": [
-        "eos",
-        "quo"
+        "expedita",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 392
+          "FieldType": "System.Int32",
+          "FieldLength": 674
         }
       }
     }
   ],
-  "FolderName": "Larkin Group",
-  "EmailItemId": 538,
-  "AccountId": 87,
-  "ReceivedAt": "2008-12-09T03:24:47.7676476+01:00",
+  "FolderName": "Pfannerstill, Swift and Braun",
+  "EmailItemId": 580,
+  "AccountId": 171,
+  "ReceivedAt": "1998-07-01T13:38:13.592742+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-09-24T03:24:47.7676476+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2004-04-08T13:38:13.592742+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 242
+      "FieldType": "System.Int32",
+      "FieldLength": 994
     }
   }
 }

@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 357,
-  "Name": "Breitenberg-McKenzie",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "UdListDefinitionId": 453,
-  "Rank": 212,
+  "Id": 839,
+  "Name": "Schuppe, Torp and Moore",
+  "Tooltip": "itaque",
+  "Deleted": true,
+  "UdListDefinitionId": 292,
+  "Rank": 621,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 152
+      "FieldType": "System.Int32",
+      "FieldLength": 285
     }
   }
 }

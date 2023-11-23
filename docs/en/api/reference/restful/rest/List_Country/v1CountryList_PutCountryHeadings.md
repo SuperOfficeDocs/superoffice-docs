@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 21,
-    "Name": "Medhurst, Hickle and Nicolas",
-    "Tooltip": "enim",
+    "HeadingId": 627,
+    "Name": "Hand Group",
+    "Tooltip": "quia",
     "Deleted": true,
-    "Rank": 944,
-    "UdListDefinitionId": 975
+    "Rank": 778,
+    "UdListDefinitionId": 304
   },
   {
-    "HeadingId": 21,
-    "Name": "Medhurst, Hickle and Nicolas",
-    "Tooltip": "enim",
+    "HeadingId": 627,
+    "Name": "Hand Group",
+    "Tooltip": "quia",
     "Deleted": true,
-    "Rank": 944,
-    "UdListDefinitionId": 975
+    "Rank": 778,
+    "UdListDefinitionId": 304
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 585,
-    "Name": "Murphy-Powlowski",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "Rank": 113,
-    "UdListDefinitionId": 727,
+    "HeadingId": 268,
+    "Name": "Lesch, Ebert and Christiansen",
+    "Tooltip": "nulla",
+    "Deleted": true,
+    "Rank": 1000,
+    "UdListDefinitionId": 413,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 287
+        "FieldType": "System.Int32",
+        "FieldLength": 471
       }
     }
   }

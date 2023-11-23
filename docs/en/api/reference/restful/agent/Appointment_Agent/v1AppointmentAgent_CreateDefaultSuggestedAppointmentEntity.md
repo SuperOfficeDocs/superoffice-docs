@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 597,
-  "Name": "Goyette Inc and Sons",
-  "Tooltip": "molestias",
-  "Rank": 308,
-  "Deleted": true,
-  "DaysFuture": 891,
-  "Duration": "blanditiis",
-  "AutoSuggest": false,
+  "SuggestedAppointmentId": 324,
+  "Name": "Schamberger, Gusikowski and Kautzer",
+  "Tooltip": "quae",
+  "Rank": 503,
+  "Deleted": false,
+  "DaysFuture": 664,
+  "Duration": "veritatis",
+  "AutoSuggest": true,
   "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "assumenda",
+  "AssignToMember": false,
+  "Text": "hic",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldType": "System.Int32",
+      "FieldLength": 790
     }
   }
 }

@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 991
+  "RoleId": 331
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Name": "Stamm-Smith",
-    "ToolTip": "Enim autem omnis et.",
-    "Deleted": true,
-    "Rank": 30,
-    "Type": "accusamus",
-    "ColorBlock": 410,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2011-08-09T03:24:48.5497594+02:00",
+    "Id": 286,
+    "Name": "Schiller, Connelly and Wiegand",
+    "ToolTip": "Provident similique quas cupiditate.",
+    "Deleted": false,
+    "Rank": 404,
+    "Type": "eaque",
+    "ColorBlock": 859,
+    "IconHint": "esse",
+    "Selected": true,
+    "LastChanged": "2019-02-17T13:38:14.3584195+01:00",
     "ChildItems": [
       {
-        "Id": 831,
-        "Name": "Robel LLC",
-        "ToolTip": "Accusantium aut ut ab.",
+        "Id": 865,
+        "Name": "Boyle Inc and Sons",
+        "ToolTip": "Quasi incidunt aut cupiditate nostrum adipisci cumque.",
         "Deleted": false,
-        "Rank": 779,
-        "Type": "eos",
-        "ColorBlock": 983,
-        "IconHint": "consequatur",
+        "Rank": 590,
+        "Type": "tempora",
+        "ColorBlock": 777,
+        "IconHint": "odio",
         "Selected": true,
-        "LastChanged": "2010-03-17T03:24:48.5497594+01:00",
+        "LastChanged": "2014-08-17T13:38:14.3584195+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "dolore",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Ms. Gayle Wiza MD",
+        "FullName": "Darren Brakus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 113
+            "FieldLength": 316
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "iusto",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "dicta",
     "Hidden": true,
-    "FullName": "Rogers Kole Koch DVM",
+    "FullName": "Yvonne Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldLength": 615
       }
     }
   }

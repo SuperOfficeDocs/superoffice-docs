@@ -83,26 +83,26 @@ OK
 POST /api/v1/Agents/Find/FindWithColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsum",
-  "ProviderName": "O'Kon, Stroman and Oberbrunner",
-  "StorageKey": "voluptatem",
+  "StorageType": "laudantium",
+  "ProviderName": "Keeling, Schneider and Bergstrom",
+  "StorageKey": "est",
   "DesiredColumns": [
-    "possimus",
-    "quia"
+    "minus",
+    "vero"
   ],
-  "PageSize": 287,
-  "PageNumber": 269,
+  "PageSize": 13,
+  "PageNumber": 608,
   "OrderBy": [
     {
-      "Name": "Schmitt, Jones and Green",
+      "Name": "Leuschke Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Schmitt, Jones and Green",
+      "Name": "Leuschke Group",
       "Direction": "ASC"
     }
   ]
@@ -118,51 +118,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Batz, Wolff and Gaylord",
-      "DisplayTooltip": "in",
-      "DisplayType": "qui",
+      "DisplayName": "Wintheiser Group",
+      "DisplayTooltip": "cumque",
+      "DisplayType": "praesentium",
       "CanOrderBy": false,
-      "Name": "Blanda-Wyman",
-      "CanRestrictBy": true,
-      "RestrictionType": "in",
-      "RestrictionListName": "Schultz-Streich",
+      "Name": "Hayes, Jacobs and Bergnaum",
+      "CanRestrictBy": false,
+      "RestrictionType": "quae",
+      "RestrictionListName": "King LLC",
       "IsVisible": false,
-      "ExtraInfo": "fuga",
-      "Width": "dolores",
-      "IconHint": "excepturi",
-      "HeadingIconHint": "similique"
+      "ExtraInfo": "pariatur",
+      "Width": "autem",
+      "IconHint": "non",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bergnaum Inc and Sons",
-      "PrimaryKey": 457,
+      "EntityName": "Franecki Inc and Sons",
+      "PrimaryKey": 239,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "optio",
-          "TooltipHint": "dicta",
-          "LinkHint": "molestiae"
+          "DisplayValue": "sint",
+          "TooltipHint": "soluta",
+          "LinkHint": "eos"
         }
       },
-      "LinkHint": "maiores",
-      "StyleHint": "sunt",
+      "LinkHint": "voluptas",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldLength": 236
         }
       }
     }
   ],
-  "RowCount": 366,
+  "RowCount": 283,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 936
     }
   }
 }

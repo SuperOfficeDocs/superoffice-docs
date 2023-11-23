@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 546
+  "SaleId": 854
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Yundt Inc and Sons",
-    "Comment": "quos",
-    "StakeholderRoleId": 893,
-    "CountryId": 580,
-    "PersonId": 689,
-    "EmailDescription": "fern@altenwerthoreilly.uk",
-    "EmailId": 990,
-    "EmailAddress": "nathan_wilkinson@rowe.uk",
-    "PhoneId": 797,
-    "ContactName": "Flatley-Cartwright",
-    "ContactId": 248,
-    "SaleId": 107,
-    "Mrmrs": "placeat",
-    "Firstname": "Francesco",
-    "MiddleName": "Herman, Schuppe and Wilderman",
-    "Lastname": "Gorczany",
-    "SaleStakeholderId": 840,
-    "Rank": 776,
-    "Phone": "396.496.7292 x13281",
+    "StakeholderRoleName": "Connelly, Ondricka and Brown",
+    "Comment": "perferendis",
+    "StakeholderRoleId": 573,
+    "CountryId": 421,
+    "PersonId": 150,
+    "EmailDescription": "julius_vandervort@kris.name",
+    "EmailId": 250,
+    "EmailAddress": "ramon.predovic@paucekschultz.info",
+    "PhoneId": 14,
+    "ContactName": "Glover-Smitham",
+    "ContactId": 775,
+    "SaleId": 142,
+    "Mrmrs": "sit",
+    "Firstname": "Aubrey",
+    "MiddleName": "Schulist-Keeling",
+    "Lastname": "D'Amore",
+    "SaleStakeholderId": 562,
+    "Rank": 910,
+    "Phone": "(366)066-3482 x43186",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldType": "System.String",
+        "FieldLength": 707
       }
     }
   }

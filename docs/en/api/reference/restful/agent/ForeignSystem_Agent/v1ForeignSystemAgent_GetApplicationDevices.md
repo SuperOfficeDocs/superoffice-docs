@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "McDermott Group"
+  "ApplicationName": "Dicki-Luettgen"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 417,
-    "Name": "Ziemann Group",
-    "CreatedDate": "2023-08-08T03:24:47.8145137+02:00",
-    "UpdatedDate": "1997-03-29T03:24:47.8145137+01:00",
-    "AssociateFullName": "Anastacio Farrell",
-    "CreatedBy": "placeat",
-    "UpdatedBy": "inventore",
-    "DeviceIdentifier": "aliquam",
-    "ForeignAppId": 154,
+    "ForeignDeviceId": 365,
+    "Name": "Bechtelar-Nitzsche",
+    "CreatedDate": "2004-07-15T13:38:13.623981+02:00",
+    "UpdatedDate": "2019-05-24T13:38:13.623981+02:00",
+    "AssociateFullName": "Prof. Herminia Terry IV",
+    "CreatedBy": "fugiat",
+    "UpdatedBy": "perferendis",
+    "DeviceIdentifier": "magnam",
+    "ForeignAppId": 667,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 893
+        "FieldType": "System.Int32",
+        "FieldLength": 615
       }
     }
   }

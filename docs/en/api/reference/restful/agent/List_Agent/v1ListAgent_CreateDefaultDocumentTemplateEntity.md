@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 842,
-  "Name": "Kovacek, Sauer and Crona",
-  "Tooltip": "voluptatem",
-  "SaveInDb": 938,
-  "Filename": "placeat",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 715,
+  "Name": "Leannon LLC",
+  "Tooltip": "ratione",
+  "SaveInDb": 522,
+  "Filename": "sed",
+  "DefaultOref": "enim",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 827,
-  "IntentId": 656,
+  "AutoeventId": 23,
+  "IntentId": 879,
   "IsDefaultPublished": false,
-  "Rank": 577,
-  "LoadTemplateFromPlugin": 372,
-  "MimeType": "pariatur",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 345,
+  "Rank": 539,
+  "LoadTemplateFromPlugin": 720,
+  "MimeType": "fugiat",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 426,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "flavio@schuppe.name",
-  "IncludeSignature": true,
+  "EmailSubject": "merlin@kozey.com",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "casandra@okuneva.com",
+  "SenderEmailAddress": "colten@monahan.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldType": "System.Int32",
+      "FieldLength": 481
     }
   }
 }

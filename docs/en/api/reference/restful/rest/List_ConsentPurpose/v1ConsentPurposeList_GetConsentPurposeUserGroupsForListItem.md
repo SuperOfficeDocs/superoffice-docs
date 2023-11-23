@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 718,
-    "Name": "Hansen, Schultz and Ernser",
-    "ToolTip": "Quis odit.",
+    "Id": 184,
+    "Name": "Powlowski-Reilly",
+    "ToolTip": "Ducimus veniam molestiae voluptates saepe qui id quo.",
     "Deleted": false,
-    "Rank": 449,
-    "Type": "earum",
-    "ColorBlock": 739,
-    "IconHint": "totam",
+    "Rank": 214,
+    "Type": "quae",
+    "ColorBlock": 938,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2004-01-07T03:24:52.1932187+01:00",
+    "LastChanged": "2014-01-05T13:38:17.9994152+01:00",
     "ChildItems": [
       {
-        "Id": 741,
-        "Name": "Mohr-Schulist",
-        "ToolTip": "Doloribus ullam rerum aspernatur consequuntur.",
+        "Id": 571,
+        "Name": "Halvorson, Olson and Cormier",
+        "ToolTip": "Officia quia et non molestiae eos.",
         "Deleted": false,
-        "Rank": 147,
-        "Type": "nobis",
-        "ColorBlock": 678,
-        "IconHint": "et",
+        "Rank": 451,
+        "Type": "aspernatur",
+        "ColorBlock": 694,
+        "IconHint": "officiis",
         "Selected": true,
-        "LastChanged": "2018-03-26T03:24:52.1932187+02:00",
+        "LastChanged": "2011-09-28T13:38:17.9994152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "esse",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Eusebio Reichel",
+        "FullName": "Christophe Satterfield V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 642
+            "FieldType": "System.String",
+            "FieldLength": 954
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Wilma Kub",
+    "ExtraInfo": "error",
+    "StyleHint": "expedita",
+    "Hidden": false,
+    "FullName": "Junior Bertrand Balistreri DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 17
+        "FieldType": "System.Int32",
+        "FieldLength": 341
       }
     }
   }

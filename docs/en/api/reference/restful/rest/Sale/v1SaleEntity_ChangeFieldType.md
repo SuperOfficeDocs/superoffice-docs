@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 543,
-  "ColumnId": 35,
-  "FieldDefault": "non",
-  "FieldHeight": 887,
-  "FieldLabel": "nostrum",
-  "FieldLeft": 390,
-  "FieldTop": 964,
+  "UDefFieldId": 555,
+  "ColumnId": 38,
+  "FieldDefault": "aut",
+  "FieldHeight": 535,
+  "FieldLabel": "velit",
+  "FieldLeft": 643,
+  "FieldTop": 723,
   "FieldType": "Checkbox",
-  "FieldWidth": 688,
-  "FormatMask": "modi",
+  "FieldWidth": 821,
+  "FormatMask": "nam",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 36,
-  "LabelLeft": 721,
-  "LabelTop": 733,
-  "LabelWidth": 420,
-  "LastVersionId": 356,
-  "ListTableId": 749,
+  "IsIndexed": true,
+  "LabelHeight": 229,
+  "LabelLeft": 848,
+  "LabelTop": 267,
+  "LabelWidth": 5,
+  "LastVersionId": 289,
+  "ListTableId": 90,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 868,
-  "ProgId": "nulla",
+  "Page1LineNo": 726,
+  "ProgId": "impedit",
   "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 400,
-  "TextLength": 59,
-  "Tooltip": "quia",
-  "UdefIdentity": 325,
-  "UDListDefinitionId": 714,
+  "ShortLabel": "numquam",
+  "TabOrder": 12,
+  "TextLength": 187,
+  "Tooltip": "eligendi",
+  "UdefIdentity": 725,
+  "UDListDefinitionId": 518,
   "Justification": "Center",
-  "Version": 29,
-  "TemplateVariableName": "Brekke Group",
+  "Version": 63,
+  "TemplateVariableName": "Torp LLC",
   "HasBeenPublished": false,
-  "MdoListName": "West Group",
+  "MdoListName": "Koss Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldLength": 726
     }
   }
 }

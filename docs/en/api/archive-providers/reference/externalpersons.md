@@ -663,7 +663,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=personSourceRelation/position,personSourceRelation/personDeletedDate,personAssociate/credentialDisplayValue,correspondingAssociate/role,projectMembers/projectEvent/hasSignOn
+GET /api/v1/archive/ExternalPersons?$select=restrictionAddress/zip,personSourceRelation/hasCompany,projectMembers/projectPublish/publishedBy,personAppointment/date,personAppointment/appointmentUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

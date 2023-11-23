@@ -67,36 +67,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Spinka-Doyle",
+  "ProviderName": "Boyle, Wolff and Swaniawski",
   "Restrictions": [
     {
-      "Name": "Jerde, Effertz and McLaughlin",
-      "Operator": "in",
+      "Name": "Hilpert, Mayer and Conroy",
+      "Operator": "fuga",
       "Values": [
-        "ut",
-        "consequatur"
+        "accusantium",
+        "velit"
       ],
       "DisplayValues": [
-        "iste",
-        "beatae"
+        "cumque",
+        "doloremque"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 289,
+      "InterParenthesis": 90,
       "InterOperator": "And",
-      "UniqueHash": 332
+      "UniqueHash": 133
     }
   ],
-  "AssociateId": 851,
-  "ExtraInfo": "temporibus"
+  "AssociateId": 441,
+  "ExtraInfo": "sit"
 }
 ```
 

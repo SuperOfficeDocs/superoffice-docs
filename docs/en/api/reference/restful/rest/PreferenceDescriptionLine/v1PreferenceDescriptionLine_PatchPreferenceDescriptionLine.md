@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "harum",
+    "path": "excepturi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "harum",
+    "path": "excepturi",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 177,
-  "PrefDescId": 769,
-  "PrefValue": "voluptatibus",
-  "PrefShowValue": "vitae",
-  "Description": "Programmable 3rd generation customer loyalty",
+  "PrefDescLineId": 106,
+  "PrefDescId": 702,
+  "PrefValue": "dolorum",
+  "PrefShowValue": "doloribus",
+  "Description": "Exclusive heuristic capacity",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 635
     }
   },
   "_Links": {

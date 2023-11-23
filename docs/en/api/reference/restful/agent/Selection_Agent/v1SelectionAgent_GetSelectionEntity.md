@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=597
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=942
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enterprise-wide tangible orchestration",
-  "Postit": "dolore",
+  "Description": "Switchable client-driven adapter",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 95,
-  "IncludePerson": 1000,
-  "MemberCount": 350,
-  "Name": "Jacobs, Schamberger and Green",
-  "PostitTextId": 354,
-  "CreatedDate": "1998-02-04T03:24:48.2409231+01:00",
-  "SelectionId": 63,
-  "SoundEx": "eos",
-  "Source": 727,
-  "TextId": 930,
-  "UpdatedDate": "2018-06-09T03:24:48.2409231+02:00",
-  "UpdatedCount": 763,
-  "Visibility": 143,
+  "GroupIdx": 525,
+  "IncludePerson": 63,
+  "MemberCount": 411,
+  "Name": "Schmidt, Barrows and Predovic",
+  "PostitTextId": 245,
+  "CreatedDate": "2004-04-18T13:38:14.124071+02:00",
+  "SelectionId": 404,
+  "SoundEx": "aut",
+  "Source": 590,
+  "TextId": 106,
+  "UpdatedDate": "2018-04-05T13:38:14.124071+02:00",
+  "UpdatedCount": 284,
+  "Visibility": 333,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 299,
-  "TargetTableName": "Sauer, Hirthe and Heller",
-  "Completed": true,
-  "LeftSelectionId": 4,
-  "RightSelectionId": 405,
+  "CompanyUnique": false,
+  "TargetTableNumber": 159,
+  "TargetTableName": "Hermiston Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 265,
+  "RightSelectionId": 13,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Vandervort Inc and Sons",
-  "ShadowProviderName": "Howe Inc and Sons",
-  "ChartKey": "quod",
-  "LastLoaded": "2018-08-11T03:24:48.2409231+02:00",
-  "LastLoadedBy": 325,
+  "MainProviderName": "Swaniawski-Littel",
+  "ShadowProviderName": "Langworth, Hyatt and Braun",
+  "ChartKey": "rerum",
+  "LastLoaded": "2001-06-16T13:38:14.124071+02:00",
+  "LastLoadedBy": 375,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-06-21T03:24:48.2409231+02:00",
-  "LastMembershipChangeBy": 239,
+  "LastMembershipChange": "2010-03-06T13:38:14.124071+01:00",
+  "LastMembershipChangeBy": 955,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "adipisci",
-  "MemberTabHeading": "labore",
-  "MailingsProviderName": "Stracke Inc and Sons",
-  "DashboardTileDefinitionId": 642,
+  "MainHeading": "numquam",
+  "MemberTabHeading": "iure",
+  "MailingsProviderName": "Brown, Kuvalis and Schoen",
+  "DashboardTileDefinitionId": 430,
   "VisibleFor": [
     {
-      "VisibleId": 694,
+      "VisibleId": 511,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldType": "System.String",
+          "FieldLength": 780
         }
       }
     },
     {
-      "VisibleId": 694,
+      "VisibleId": 511,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldType": "System.String",
+          "FieldLength": 780
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 134
+      "FieldType": "System.Int32",
+      "FieldLength": 859
     }
   }
 }

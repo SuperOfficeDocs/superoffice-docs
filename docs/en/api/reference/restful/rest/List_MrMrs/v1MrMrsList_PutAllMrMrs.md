@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Roberts-Christiansen",
-    "Tooltip": "odio",
+    "Id": 549,
+    "Name": "Maggio-Sauer",
+    "Tooltip": "itaque",
     "Deleted": false,
-    "UdListDefinitionId": 310,
-    "Rank": 289
+    "UdListDefinitionId": 146,
+    "Rank": 723
   },
   {
-    "Id": 787,
-    "Name": "Roberts-Christiansen",
-    "Tooltip": "odio",
+    "Id": 549,
+    "Name": "Maggio-Sauer",
+    "Tooltip": "itaque",
     "Deleted": false,
-    "UdListDefinitionId": 310,
-    "Rank": 289
+    "UdListDefinitionId": 146,
+    "Rank": 723
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Runte-Buckridge",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 68,
-    "Rank": 55,
+    "Id": 260,
+    "Name": "Barrows Group",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "UdListDefinitionId": 107,
+    "Rank": 907,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 422
+        "FieldLength": 494
       }
     }
   }

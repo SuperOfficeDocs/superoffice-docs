@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 229,
-    "Name": "Skiles-Boyle",
-    "Value": "cumque",
-    "CreatedDate": "2022-01-17T03:24:47.2520803+01:00",
-    "UpdatedDate": "2018-01-11T03:24:47.2520803+01:00",
-    "CreatedBy": "sint",
-    "UpdatedBy": "necessitatibus",
+    "AudienceLayoutId": 622,
+    "Name": "Roob Inc and Sons",
+    "Value": "ut",
+    "CreatedDate": "2016-07-06T13:38:13.0771703+02:00",
+    "UpdatedDate": "2020-02-19T13:38:13.0771703+01:00",
+    "CreatedBy": "ut",
+    "UpdatedBy": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 656
+        "FieldLength": 638
       }
     }
   }

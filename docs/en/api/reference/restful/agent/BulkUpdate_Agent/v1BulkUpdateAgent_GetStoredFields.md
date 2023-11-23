@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "nesciunt"
+  "Context": "sunt"
 }
 ```
 
@@ -108,73 +108,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "est",
-    "ValueType": "ut",
+    "IsActive": true,
+    "Key": "et",
+    "ValueType": "numquam",
     "Mandatory": false,
-    "EncodedDisplayName": "Hegmann-Bogan",
-    "EncodedDisplayDescription": "Synergized 6th generation definition",
-    "IconHint": "et",
+    "EncodedDisplayName": "Franecki, Lindgren and Barton",
+    "EncodedDisplayDescription": "Sharable optimal pricing structure",
+    "IconHint": "qui",
     "ControlInfos": [
       {
-        "Type": "iure",
-        "Label": "sapiente",
-        "Dimension": 893,
-        "ListProviderName": "Padberg, Reinger and Blanda",
-        "ListProviderExtraInfo": "fugit",
-        "ListProviderPrimaryKeyName": "Bahringer LLC",
-        "ListLeadText": "assumenda",
+        "Type": "quo",
+        "Label": "dolores",
+        "Dimension": 987,
+        "ListProviderName": "Kris-Gerlach",
+        "ListProviderExtraInfo": "labore",
+        "ListProviderPrimaryKeyName": "Gerhold, Morissette and Kling",
+        "ListLeadText": "dolorem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 836
+            "FieldLength": 756
           }
         }
       }
     ],
-    "EncodedDataCaption": "quia",
-    "EncodedDataCaptionDescription": "Cross-platform cohesive circuit",
-    "CurrentOperationType": "recusandae",
+    "EncodedDataCaption": "deserunt",
+    "EncodedDataCaptionDescription": "De-engineered demand-driven archive",
+    "CurrentOperationType": "hic",
     "Values": [
-      "voluptas",
-      "nostrum"
+      "est",
+      "voluptatibus"
     ],
     "DisplayValues": [
-      "quis",
-      "enim"
+      "vel",
+      "labore"
     ],
     "OperationInfos": [
       {
-        "Key": "sunt",
-        "EncodedDisplayName": "Block Group",
+        "Key": "quia",
+        "EncodedDisplayName": "Krajcik-Romaguera",
         "EncodedLeadTexts": [
-          "sunt",
-          "amet"
+          "accusamus",
+          "a"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 393
+            "FieldLength": 777
           }
         }
       },
       {
-        "Key": "sunt",
-        "EncodedDisplayName": "Block Group",
+        "Key": "quia",
+        "EncodedDisplayName": "Krajcik-Romaguera",
         "EncodedLeadTexts": [
-          "sunt",
-          "amet"
+          "accusamus",
+          "a"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 393
+            "FieldLength": 777
           }
         }
       }

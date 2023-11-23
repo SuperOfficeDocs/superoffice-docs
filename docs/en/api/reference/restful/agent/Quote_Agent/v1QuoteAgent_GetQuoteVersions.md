@@ -115,7 +115,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 520
+  "QuoteId": 499
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 569,
-    "ERPQuoteVersionKey": "tempore",
-    "QuoteId": 67,
-    "Description": "Assimilated human-resource support",
-    "Number": "458058",
+    "QuoteVersionId": 637,
+    "ERPQuoteVersionKey": "rerum",
+    "QuoteId": 612,
+    "Description": "Front-line needs-based core",
+    "Number": "1391465",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "embrace 24/7 networks",
-    "LikelyQuoteAlternativeId": 566,
-    "SentDate": "2023-01-29T03:24:48.111357+01:00",
-    "FollowupId": 429,
-    "ExpirationDate": "2015-10-31T03:24:48.111357+01:00",
-    "DeliveryCountryId": 223,
+    "Reason": "",
+    "LikelyQuoteAlternativeId": 325,
+    "SentDate": "2020-03-29T13:38:13.9990881+02:00",
+    "FollowupId": 730,
+    "ExpirationDate": "2008-06-12T13:38:13.9990881+02:00",
+    "DeliveryCountryId": 379,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 890,
+    "InvoiceCountryId": 157,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "quisquam",
-    "ERPPaymentTypeKey": "maiores",
-    "ERPDeliveryTermsKey": "ut",
-    "ERPDeliveryTypeKey": "perferendis",
-    "Rank": 193,
-    "ApprovedBy": 807,
-    "ApprovedText": "neque",
-    "ApprovedRegisteredBy": 347,
-    "ApprovedRegisteredDate": "2004-09-30T03:24:48.111357+02:00",
-    "ExtraField1": "minus",
-    "ExtraField2": "dolores",
-    "ExtraField3": "repellendus",
-    "ExtraField4": "fugit",
-    "ExtraField5": "assumenda",
-    "LastRecalculated": "2001-12-11T03:24:48.111357+01:00",
-    "Updated": "2006-11-08T03:24:48.111357+01:00",
-    "UpdatedAssociateId": 939,
-    "Registered": "2017-05-10T03:24:48.111357+02:00",
-    "RegisteredAssociateId": 673,
-    "RequestAssociateId": 862,
-    "RequestComment": "sint",
+    "ERPPaymentTermsKey": "delectus",
+    "ERPPaymentTypeKey": "aut",
+    "ERPDeliveryTermsKey": "laudantium",
+    "ERPDeliveryTypeKey": "error",
+    "Rank": 491,
+    "ApprovedBy": 756,
+    "ApprovedText": "officiis",
+    "ApprovedRegisteredBy": 697,
+    "ApprovedRegisteredDate": "2022-01-12T13:38:13.9990881+01:00",
+    "ExtraField1": "provident",
+    "ExtraField2": "minima",
+    "ExtraField3": "porro",
+    "ExtraField4": "incidunt",
+    "ExtraField5": "voluptatibus",
+    "LastRecalculated": "2010-03-12T13:38:13.9990881+01:00",
+    "Updated": "2020-01-09T13:38:13.9990881+01:00",
+    "UpdatedAssociateId": 182,
+    "Registered": "2004-05-13T13:38:13.9990881+02:00",
+    "RegisteredAssociateId": 598,
+    "RequestAssociateId": 948,
+    "RequestComment": "nihil",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 440,
-        "ERPQuoteAlternativeKey": "voluptatem",
-        "QuoteVersionId": 667,
-        "Name": "Lynch-Lebsack",
-        "Description": "Synchronised high-level definition",
+        "QuoteAlternativeId": 959,
+        "ERPQuoteAlternativeKey": "animi",
+        "QuoteVersionId": 5,
+        "Name": "Toy Group",
+        "Description": "Fundamental cohesive alliance",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 13379.046,
-        "ERPDiscountAmount": 22448.842,
-        "DiscountPercent": 29926.566,
-        "DiscountAmount": 24517.282,
+        "ERPDiscountPercent": 1172.116,
+        "ERPDiscountAmount": 7505.9299999999994,
+        "DiscountPercent": 6885.398,
+        "DiscountAmount": 29926.566,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "nam",
-        "VAT": 18647.3,
-        "EarningPercent": 19054.72,
-        "EarningAmount": 24282.232,
-        "SubTotal": 23241.744,
-        "TotalPrice": 15290.786,
-        "ExtraField1": "fugiat",
-        "ExtraField2": "nam",
-        "ExtraField3": "doloribus",
-        "ExtraField4": "ipsam",
-        "ExtraField5": "voluptatem",
+        "VATInfo": "modi",
+        "VAT": 9050.992,
+        "EarningPercent": 5258.852,
+        "EarningAmount": 11765.036,
+        "SubTotal": 23827.802,
+        "TotalPrice": 25983.994,
+        "ExtraField1": "tempora",
+        "ExtraField2": "aut",
+        "ExtraField3": "optio",
+        "ExtraField4": "vel",
+        "ExtraField5": "omnis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 856
+            "FieldLength": 589
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 307
       }
     }
   }

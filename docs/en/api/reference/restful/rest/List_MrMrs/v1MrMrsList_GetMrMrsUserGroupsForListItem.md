@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Name": "Nader Inc and Sons",
-    "ToolTip": "Perferendis libero nesciunt ex nihil id.",
-    "Deleted": true,
-    "Rank": 898,
-    "Type": "non",
-    "ColorBlock": 443,
-    "IconHint": "accusamus",
-    "Selected": false,
-    "LastChanged": "2002-04-30T03:24:52.2713365+02:00",
+    "Id": 55,
+    "Name": "Abbott Group",
+    "ToolTip": "Hic occaecati eius asperiores sed blanditiis.",
+    "Deleted": false,
+    "Rank": 13,
+    "Type": "quia",
+    "ColorBlock": 211,
+    "IconHint": "ipsam",
+    "Selected": true,
+    "LastChanged": "2019-01-05T13:38:18.0775324+01:00",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Upton Inc and Sons",
-        "ToolTip": "Rerum magnam dolorem voluptate iusto omnis.",
+        "Id": 647,
+        "Name": "Simonis, Goodwin and Bechtelar",
+        "ToolTip": "Sit nemo quaerat.",
         "Deleted": false,
-        "Rank": 706,
-        "Type": "ea",
-        "ColorBlock": 720,
-        "IconHint": "maxime",
+        "Rank": 557,
+        "Type": "natus",
+        "ColorBlock": 923,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "1998-09-26T03:24:52.2713365+02:00",
+        "LastChanged": "2013-05-28T13:38:18.0775324+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "reprehenderit",
-        "Hidden": false,
-        "FullName": "Dr. Pamela Boyer II",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Arlo Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 37
+            "FieldLength": 748
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "illo",
-    "Hidden": true,
-    "FullName": "Joey Chance Bartell DVM",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "expedita",
+    "Hidden": false,
+    "FullName": "Else Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 154
       }
     }
   }

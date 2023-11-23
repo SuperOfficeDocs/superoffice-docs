@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "fuga",
-  "ProviderName": "Schmeler-Fritsch",
-  "DesiredColumns": "reiciendis",
-  "OrderBy": "eum",
-  "PageSize": 471,
-  "PageNumber": 19
+  "Restrictions": "vero",
+  "ProviderName": "Feeney LLC",
+  "DesiredColumns": "nesciunt",
+  "OrderBy": "et",
+  "PageSize": 601,
+  "PageNumber": 398
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Powlowski LLC",
-      "DisplayTooltip": "quis",
-      "DisplayType": "asperiores",
+      "DisplayName": "Schmitt, Wunsch and Oberbrunner",
+      "DisplayTooltip": "praesentium",
+      "DisplayType": "cupiditate",
       "CanOrderBy": false,
-      "Name": "Huels, Rempel and Effertz",
+      "Name": "Rogahn, Kessler and Schaden",
       "CanRestrictBy": false,
-      "RestrictionType": "hic",
-      "RestrictionListName": "Zboncak Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "odit",
-      "Width": "saepe",
-      "IconHint": "et",
-      "HeadingIconHint": "sint"
+      "RestrictionType": "est",
+      "RestrictionListName": "O'Keefe Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "aut",
+      "Width": "quia",
+      "IconHint": "dolor",
+      "HeadingIconHint": "quam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bartell Inc and Sons",
-      "PrimaryKey": 14,
+      "EntityName": "Bechtelar, Rutherford and Kub",
+      "PrimaryKey": 49,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "porro",
-          "TooltipHint": "dolorem",
-          "LinkHint": "beatae"
+          "DisplayValue": "dolorem",
+          "TooltipHint": "id",
+          "LinkHint": "ullam"
         }
       },
-      "LinkHint": "sed",
-      "StyleHint": "ut",
+      "LinkHint": "ducimus",
+      "StyleHint": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldType": "System.String",
+          "FieldLength": 821
         }
       }
     }
   ],
-  "RowCount": 235,
+  "RowCount": 461,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 917
     }
   }
 }

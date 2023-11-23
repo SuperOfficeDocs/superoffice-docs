@@ -13,7 +13,7 @@ so.client: online
 
 Microsoft SQL Server physical schemas are used on both the SuperOffice CRM Online and partner ends. This makes the mirroring independent of various functional complexities, such as dictionaries (CRM, Service extra tables).
 
-All tables **except** a blacklist will be [mirrored][1]. This is (at least initially) a fixed set. Because the physical schema is used, we don't distinguish between *dictionary* and *normal* tables. There is also no distinction between tables belonging to Sales, Service, extra-tables in Service, or any partner-defined tables that might appear in the future.
+All tables **except** a blocked list will be [mirrored][1]. This is (at least initially) a fixed set. Because the physical schema is used, we don't distinguish between *dictionary* and *normal* tables. There is also no distinction between tables belonging to Sales, Service, extra-tables in Service, or any partner-defined tables that might appear in the future.
 
 Mirroring uses a **simplified table schema**. This means that foreign key constraints, collating sequences, and indexes are **not mirrored**.
 
@@ -37,7 +37,7 @@ In the NuGet implementation, you can do this in one of the event-handling method
 * In `OnBeforeReplicateTable`, which is called once for each table in each mirroring cycle
 * In `OnReplicationCompleted`, which is called once at the end of a complete cycle
 
-## Blacklisted tables
+## Blocked list tables
 
 Database tables that fall into one of the following categories are not mirrored:
 
@@ -45,7 +45,7 @@ Database tables that fall into one of the following categories are not mirrored:
 * not useful (`traveltransactionlog`, `countervalue`)
 * confidential (`credentials`)
 
-<a href="../../assets/downloads/mirroredtables.docx" download>Click to download the Mirrored Tables document</a>
+See the [list of blocked tables][2].
 
 ## When mirroring schema changes fails
 
@@ -58,4 +58,5 @@ This might happen if a customer creates an extra table containing a character fi
 
 <!-- Referenced links -->
 [1]: overview.md
+[2]: blocked-tables.md
 [3]: mirroring-task.md

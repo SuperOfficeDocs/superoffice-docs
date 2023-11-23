@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 35
+  "AssociateId": 858
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Kessler, Barrows and Schinner",
-    "DeviceIdentifier": "est",
-    "PocketVersion": "nostrum",
-    "Language": "ex",
-    "PNSHandle": "labore",
+    "DeviceName": "Schulist Inc and Sons",
+    "DeviceIdentifier": "voluptates",
+    "PocketVersion": "laudantium",
+    "Language": "a",
+    "PNSHandle": "odit",
     "Platform": "Apple",
-    "OSVersion": "quos",
-    "TimeZoneId": 738
+    "OSVersion": "consequatur",
+    "TimeZoneId": 16
   }
 ]
 ```

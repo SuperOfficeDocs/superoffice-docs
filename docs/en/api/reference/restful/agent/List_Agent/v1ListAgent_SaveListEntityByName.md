@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Sawayn LLC",
+  "Name": "Pfannerstill LLC",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 280,
-  "Name": "Prohaska-Mitchell",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "Rank": 391,
+  "Id": 122,
+  "Name": "Carroll-Hilll",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "Rank": 469,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "earum",
+  "ListType": "similique",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 905
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 154,
-    "ColumnId": 46,
-    "FieldDefault": "facere",
-    "FieldHeight": 630,
-    "FieldLabel": "minima",
-    "FieldLeft": 296,
-    "FieldTop": 383,
+    "UDefFieldId": 913,
+    "ColumnId": 995,
+    "FieldDefault": "quia",
+    "FieldHeight": 836,
+    "FieldLabel": "aut",
+    "FieldLeft": 949,
+    "FieldTop": 725,
     "FieldType": "Checkbox",
-    "FieldWidth": 234,
-    "FormatMask": "accusamus",
+    "FieldWidth": 330,
+    "FormatMask": "ex",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 900,
-    "LabelLeft": 273,
-    "LabelTop": 852,
-    "LabelWidth": 578,
-    "LastVersionId": 415,
-    "ListTableId": 518,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 620,
+    "LabelLeft": 114,
+    "LabelTop": 310,
+    "LabelWidth": 911,
+    "LastVersionId": 599,
+    "ListTableId": 675,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 357,
-    "ProgId": "quia",
+    "Page1LineNo": 910,
+    "ProgId": "mollitia",
     "IsReadOnly": false,
-    "ShortLabel": "impedit",
-    "TabOrder": 60,
-    "TextLength": 113,
-    "Tooltip": "ut",
-    "UdefIdentity": 743,
-    "UDListDefinitionId": 572,
+    "ShortLabel": "ad",
+    "TabOrder": 676,
+    "TextLength": 889,
+    "Tooltip": "non",
+    "UdefIdentity": 904,
+    "UDListDefinitionId": 229,
     "Justification": "Center",
-    "Version": 148,
-    "TemplateVariableName": "Howe Group",
+    "Version": 871,
+    "TemplateVariableName": "Fisher Group",
     "HasBeenPublished": false,
-    "MdoListName": "Moore-Sipes",
+    "MdoListName": "Powlowski, Abbott and Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldLength": 602
       }
     }
   }

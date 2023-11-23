@@ -19,6 +19,8 @@ AdditionalInfo = "123" returns all active timezones and the specific location
 <para />
 AdditionalInfo = "locationId=123" returns only the given location.
 <para />
+/// AdditionalInfo = "countryFlag=true" returns an iconhint for the country's flag.
+<para />
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TimeZoneProvider">TimeZoneProvider</see> class.
 The name of the MDO list is 'timezone'.

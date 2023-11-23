@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 712
+  "ChatSessionId": 743
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 357,
-  "TopicId": 413,
+  "ChatSessionId": 129,
+  "TopicId": 268,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sint",
-  "CustomerHost": "asperiores",
-  "CustomerName": "McGlynn Inc and Sons",
-  "CustomerEmail": "macie@bradtke.uk",
-  "CustomerPhone": "872.044.9847 x557",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Murray LLC",
+  "CustomerAlias": "et",
+  "CustomerHost": "expedita",
+  "CustomerName": "Rice, Lebsack and Kirlin",
+  "CustomerEmail": "mark@oreilly.us",
+  "CustomerPhone": "(236)015-5698 x65555",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hane, McClure and Rolfson",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "perferendis",
-  "WhenRequested": "2006-01-15T03:24:47.3145639+01:00",
-  "WhenStarted": "2009-05-26T03:24:47.3145639+02:00",
-  "WhenEnded": "2006-06-04T03:24:47.3145639+02:00",
-  "WhenIdle": "2019-06-07T03:24:47.3145639+02:00",
-  "WhenFetched": "2014-01-09T03:24:47.3145639+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 382,
-  "AlertLevel": 557,
-  "Rank": 157,
+  "FirstMessage": "voluptas",
+  "LastMessage": "molestiae",
+  "WhenRequested": "2000-01-28T13:38:13.1396659+01:00",
+  "WhenStarted": "2000-08-15T13:38:13.1396659+02:00",
+  "WhenEnded": "2006-06-02T13:38:13.1396659+02:00",
+  "WhenIdle": "2006-06-09T13:38:13.1396659+02:00",
+  "WhenFetched": "2023-04-24T13:38:13.1396659+02:00",
+  "SessionKey": "expedita",
+  "InitialQueuePos": 49,
+  "AlertLevel": 432,
+  "Rank": 733,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 78,
+  "Rating": 984,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldType": "System.String",
+      "FieldLength": 589
     }
   }
 }

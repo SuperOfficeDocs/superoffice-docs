@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 863,
-  "Name": "Grimes Inc and Sons",
-  "CreatedDate": "2021-12-13T03:24:51.630601+01:00",
-  "UpdatedDate": "2006-05-22T03:24:51.630601+02:00",
-  "AssociateFullName": "Darron Barton",
-  "CreatedBy": "libero",
-  "UpdatedBy": "possimus",
-  "DeviceIdentifier": "id",
-  "ForeignAppId": 872
+  "ForeignDeviceId": 55,
+  "Name": "Conn, Sanford and VonRueden",
+  "CreatedDate": "2006-12-01T13:38:17.4368262+01:00",
+  "UpdatedDate": "2006-06-26T13:38:17.4368262+02:00",
+  "AssociateFullName": "Joanne Rempel",
+  "CreatedBy": "est",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "ipsum",
+  "ForeignAppId": 471
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 422,
-  "Name": "Weber-Ebert",
-  "CreatedDate": "2021-12-27T03:24:51.630601+01:00",
-  "UpdatedDate": "2019-12-12T03:24:51.630601+01:00",
-  "AssociateFullName": "Annetta Nicolas",
-  "CreatedBy": "eos",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "asperiores",
-  "ForeignAppId": 895,
+  "ForeignDeviceId": 483,
+  "Name": "Sauer, Quigley and Carter",
+  "CreatedDate": "2008-10-27T13:38:17.4524494+01:00",
+  "UpdatedDate": "2018-07-25T13:38:17.4524494+02:00",
+  "AssociateFullName": "Ollie Ernser",
+  "CreatedBy": "totam",
+  "UpdatedBy": "neque",
+  "DeviceIdentifier": "quia",
+  "ForeignAppId": 187,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

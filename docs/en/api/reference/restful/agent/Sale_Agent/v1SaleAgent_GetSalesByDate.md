@@ -106,9 +106,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "1998-01-17T03:24:48.2207231+01:00",
-  "ToDate": "2011-09-30T03:24:48.2207231+02:00",
-  "AmountLimit": 100,
+  "FromDate": "2003-06-14T13:38:14.0928295+02:00",
+  "ToDate": "2022-08-04T13:38:14.0928295+02:00",
+  "AmountLimit": 474,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lind, Veum and Morissette",
-    "SaleDate": "2009-06-27T03:24:48.2207231+02:00",
-    "SaleId": 696,
-    "Probability": 174,
-    "Title": "aut",
-    "Amount": 4691.598,
-    "Currency": "labore",
-    "ProjectName": "Leuschke, Ullrich and Emard",
-    "AssociateFullName": "Mr. Kathlyn Gutkowski I",
-    "Description": "Profound static array",
+    "ContactName": "Bernier, Leannon and Smith",
+    "SaleDate": "2005-05-12T13:38:14.1084486+02:00",
+    "SaleId": 25,
+    "Probability": 360,
+    "Title": "et",
+    "Amount": 16268.594,
+    "Currency": "eum",
+    "ProjectName": "Hyatt, Windler and Grady",
+    "AssociateFullName": "Joy Pfannerstill",
+    "Description": "Right-sized homogeneous support",
     "Status": "Lost",
-    "WeightedAmount": 4033.458,
-    "ProjectId": 348,
-    "EarningPercent": 4494.156,
-    "Earning": 5888.786,
-    "ContactId": 773,
-    "AssociateId": 677,
-    "PersonId": 300,
-    "SaleTypeId": 653,
-    "SaleTypeName": "Dicki Inc and Sons",
-    "PersonFullName": "Kennith Padberg",
+    "WeightedAmount": 28566.41,
+    "ProjectId": 684,
+    "EarningPercent": 20643.658,
+    "Earning": 21549.384,
+    "ContactId": 907,
+    "AssociateId": 551,
+    "PersonId": 905,
+    "SaleTypeId": 651,
+    "SaleTypeName": "Schoen-Kuhn",
+    "PersonFullName": "Ms. Elbert Mraz Jr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 806,
-    "NextDueDate": "2010-01-27T03:24:48.2207231+01:00",
-    "Number": "1117321",
+    "ActiveErpLinks": 358,
+    "NextDueDate": "2020-03-03T13:38:14.1084486+01:00",
+    "Number": "1534714",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 683
+        "FieldType": "System.Int32",
+        "FieldLength": 704
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 663,
-    "Name": "Hessel Group",
-    "ToolTip": "Dolor et non occaecati.",
-    "Deleted": true,
-    "Rank": 159,
-    "Type": "nemo",
-    "ColorBlock": 716,
-    "IconHint": "minus",
+    "Id": 831,
+    "Name": "Schuppe-Herzog",
+    "ToolTip": "Reprehenderit nisi consequatur in ea modi aut et.",
+    "Deleted": false,
+    "Rank": 129,
+    "Type": "molestias",
+    "ColorBlock": 669,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2015-05-02T03:24:52.3025813+02:00",
+    "LastChanged": "2008-01-04T13:38:18.1087815+01:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Connelly, Littel and Rowe",
-        "ToolTip": "Tempora nam.",
-        "Deleted": false,
-        "Rank": 126,
-        "Type": "voluptatem",
-        "ColorBlock": 692,
-        "IconHint": "magni",
-        "Selected": true,
-        "LastChanged": "2009-12-16T03:24:52.3025813+01:00",
+        "Id": 634,
+        "Name": "Rolfson, Mueller and Ritchie",
+        "ToolTip": "Nihil distinctio et laboriosam iste sit ut.",
+        "Deleted": true,
+        "Rank": 270,
+        "Type": "nam",
+        "ColorBlock": 597,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2016-08-25T13:38:18.1087815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Ms. Jennie Adrain Strosin PhD"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "culpa",
+        "Hidden": true,
+        "FullName": "Roma Prosacco"
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Dr. Roxanne Macy Senger"
+    "ExtraInfo": "mollitia",
+    "StyleHint": "quod",
+    "Hidden": false,
+    "FullName": "Dina Lebsack"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Jakubowski-Kshlerin",
-    "ToolTip": "Excepturi at soluta.",
+    "Id": 592,
+    "Name": "McGlynn Group",
+    "ToolTip": "Laudantium officia quaerat omnis in repellat.",
     "Deleted": false,
-    "Rank": 949,
-    "Type": "sint",
-    "ColorBlock": 798,
-    "IconHint": "hic",
+    "Rank": 923,
+    "Type": "quod",
+    "ColorBlock": 662,
+    "IconHint": "minus",
     "Selected": false,
-    "LastChanged": "2018-02-22T03:24:52.3025813+01:00",
+    "LastChanged": "1998-03-02T13:38:18.1087815+01:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Bins-Luettgen",
-        "ToolTip": "Harum fuga qui explicabo velit.",
+        "Id": 600,
+        "Name": "Nolan, Hahn and Torp",
+        "ToolTip": "Ducimus voluptatibus.",
         "Deleted": false,
-        "Rank": 887,
-        "Type": "ullam",
-        "ColorBlock": 270,
-        "IconHint": "illum",
+        "Rank": 951,
+        "Type": "ipsa",
+        "ColorBlock": 308,
+        "IconHint": "ratione",
         "Selected": false,
-        "LastChanged": "2020-01-25T03:24:52.3025813+01:00",
+        "LastChanged": "2020-09-30T13:38:18.1087815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "vel",
+        "ExtraInfo": "qui",
+        "StyleHint": "optio",
         "Hidden": true,
-        "FullName": "Mariela Sporer",
+        "FullName": "Brant Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 523
+            "FieldType": "System.String",
+            "FieldLength": 738
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Efren Waters",
+    "ExtraInfo": "quod",
+    "StyleHint": "aperiam",
+    "Hidden": true,
+    "FullName": "Jaylin Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 920
+        "FieldType": "System.String",
+        "FieldLength": 797
       }
     }
   }

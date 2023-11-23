@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 478,
-  "ColumnId": 445,
-  "FieldDefault": "cupiditate",
-  "FieldHeight": 590,
-  "FieldLabel": "et",
-  "FieldLeft": 632,
-  "FieldTop": 267,
+  "UDefFieldId": 960,
+  "ColumnId": 692,
+  "FieldDefault": "earum",
+  "FieldHeight": 218,
+  "FieldLabel": "ipsum",
+  "FieldLeft": 496,
+  "FieldTop": 410,
   "FieldType": "Checkbox",
-  "FieldWidth": 191,
-  "FormatMask": "iste",
+  "FieldWidth": 932,
+  "FormatMask": "eaque",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 39,
-  "LabelLeft": 947,
-  "LabelTop": 661,
-  "LabelWidth": 450,
-  "LastVersionId": 437,
-  "ListTableId": 892,
-  "IsMandatory": true,
+  "LabelHeight": 752,
+  "LabelLeft": 914,
+  "LabelTop": 323,
+  "LabelWidth": 511,
+  "LastVersionId": 443,
+  "ListTableId": 675,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 189,
-  "ProgId": "architecto",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptas",
-  "TabOrder": 602,
-  "TextLength": 939,
-  "Tooltip": "dolorem",
-  "UdefIdentity": 162,
-  "UDListDefinitionId": 759,
+  "Page1LineNo": 687,
+  "ProgId": "debitis",
+  "IsReadOnly": true,
+  "ShortLabel": "harum",
+  "TabOrder": 125,
+  "TextLength": 215,
+  "Tooltip": "quo",
+  "UdefIdentity": 675,
+  "UDListDefinitionId": 262,
   "Justification": "Center",
-  "Version": 888,
-  "TemplateVariableName": "Boyle-Howe",
+  "Version": 368,
+  "TemplateVariableName": "Littel-Tillman",
   "HasBeenPublished": false,
-  "MdoListName": "Fritsch LLC",
+  "MdoListName": "Krajcik Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldLength": 230
     }
   }
 }

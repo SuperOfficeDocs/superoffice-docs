@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended responsive adapter",
-  "Postit": "quaerat",
+  "Description": "Fundamental zero tolerance algorithm",
+  "Postit": "dolorum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 744,
-  "IncludePerson": 964,
-  "MemberCount": 269,
-  "Name": "Abshire, Kohler and Lynch",
-  "PostitTextId": 455,
-  "CreatedDate": "2001-11-25T03:24:48.2524255+01:00",
-  "SelectionId": 53,
-  "SoundEx": "dolores",
-  "Source": 558,
-  "TextId": 747,
-  "UpdatedDate": "2014-05-08T03:24:48.2524255+02:00",
-  "UpdatedCount": 948,
-  "Visibility": 804,
+  "GroupIdx": 828,
+  "IncludePerson": 13,
+  "MemberCount": 746,
+  "Name": "Von, Larson and Nicolas",
+  "PostitTextId": 759,
+  "CreatedDate": "2008-12-29T13:38:14.1396943+01:00",
+  "SelectionId": 761,
+  "SoundEx": "et",
+  "Source": 494,
+  "TextId": 773,
+  "UpdatedDate": "2020-11-03T13:38:14.1396943+01:00",
+  "UpdatedCount": 600,
+  "Visibility": 245,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 769,
-  "TargetTableName": "Johnston-Jacobson",
+  "CompanyUnique": true,
+  "TargetTableNumber": 138,
+  "TargetTableName": "Beahan-Simonis",
   "Completed": false,
-  "LeftSelectionId": 261,
-  "RightSelectionId": 5,
+  "LeftSelectionId": 221,
+  "RightSelectionId": 350,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Dooley, Bernier and Hackett",
-  "ShadowProviderName": "Conn-Waters",
-  "ChartKey": "non",
-  "LastLoaded": "2003-11-09T03:24:48.2524255+01:00",
-  "LastLoadedBy": 383,
+  "MainProviderName": "Jaskolski, Ullrich and Wilderman",
+  "ShadowProviderName": "Lesch LLC",
+  "ChartKey": "dolorum",
+  "LastLoaded": "2012-02-19T13:38:14.1396943+01:00",
+  "LastLoadedBy": 785,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-02-06T03:24:48.2524255+01:00",
-  "LastMembershipChangeBy": 42,
+  "LastMembershipChange": "1997-10-31T13:38:14.1396943+01:00",
+  "LastMembershipChangeBy": 589,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fuga",
-  "MemberTabHeading": "provident",
-  "MailingsProviderName": "Brakus LLC",
-  "DashboardTileDefinitionId": 956,
+  "MainHeading": "eius",
+  "MemberTabHeading": "maxime",
+  "MailingsProviderName": "Franecki, Skiles and Botsford",
+  "DashboardTileDefinitionId": 536,
   "VisibleFor": [
     {
-      "VisibleId": 818,
+      "VisibleId": 364,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 321
+          "FieldLength": 478
         }
       }
     },
     {
-      "VisibleId": 818,
+      "VisibleId": 364,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 321
+          "FieldLength": 478
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 922
     }
   }
 }

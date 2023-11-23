@@ -97,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "dolore"
+  "ProgId": "et"
 }
 ```
 
@@ -108,33 +108,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 493,
-  "Name": "Rohan-Larson",
-  "Tooltip": "placeat",
+  "WebPanelId": 496,
+  "Name": "Powlowski-Littel",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 7,
+  "Rank": 928,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Hartmann, Murazik and Walsh",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Kreiger Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "eveniet",
-  "Icon": 753,
+  "ProgId": "odit",
+  "Icon": 553,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 285
     }
   }
 }

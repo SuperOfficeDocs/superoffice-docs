@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "expedita",
+  "SaleText": "accusamus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2010-08-07T03:24:51.8963736+02:00",
-  "Amount": 31340.0,
-  "SaleId": 402,
-  "Earning": 2911.486,
-  "EarningPercent": 9809.42,
-  "Heading": "qui",
-  "Number": "1103399",
-  "Probability": 371,
-  "CreatedDate": "2020-03-22T03:24:51.8963736+01:00",
-  "UpdatedDate": "2023-05-26T03:24:51.8963736+02:00",
+  "Saledate": "2004-07-16T13:38:17.6399305+02:00",
+  "Amount": 7825.598,
+  "SaleId": 914,
+  "Earning": 1172.116,
+  "EarningPercent": 11442.234,
+  "Heading": "optio",
+  "Number": "1437034",
+  "Probability": 820,
+  "CreatedDate": "2019-01-26T13:38:17.6399305+01:00",
+  "UpdatedDate": "2006-02-07T13:38:17.6399305+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 671,
+  "ActiveLinks": 235,
   "Links": [
     {
-      "EntityName": "Nienow LLC",
-      "Id": 265,
-      "Description": "Reactive explicit parallelism",
-      "ExtraInfo": "iure",
-      "LinkId": 737
+      "EntityName": "Wisoky, Von and Wiza",
+      "Id": 677,
+      "Description": "Optional uniform toolset",
+      "ExtraInfo": "et",
+      "LinkId": 660
     },
     {
-      "EntityName": "Nienow LLC",
-      "Id": 265,
-      "Description": "Reactive explicit parallelism",
-      "ExtraInfo": "iure",
-      "LinkId": 737
+      "EntityName": "Wisoky, Von and Wiza",
+      "Id": 677,
+      "Description": "Optional uniform toolset",
+      "ExtraInfo": "et",
+      "LinkId": 660
     }
   ],
-  "NextDueDate": "2021-08-10T03:24:51.8963736+02:00",
-  "Postit": "voluptatem",
+  "NextDueDate": "2013-06-30T13:38:17.6399305+02:00",
+  "Postit": "perferendis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-07-22T03:24:51.8963736+02:00",
+  "ReopenDate": "1996-08-21T13:38:17.6399305+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Brekke-Gutmann",
-      "Comment": "blanditiis",
-      "StakeholderRoleId": 510,
-      "CountryId": 970,
-      "PersonId": 197,
-      "EmailDescription": "walker_steuber@mclaughlinhermann.com",
-      "EmailId": 695,
-      "EmailAddress": "amya@trantow.co.uk",
-      "PhoneId": 629,
-      "ContactName": "Brown-Langworth",
-      "ContactId": 289,
-      "SaleId": 369,
-      "Mrmrs": "distinctio",
-      "Firstname": "Daphne",
-      "MiddleName": "Stracke-Boehm",
-      "Lastname": "Lockman",
-      "SaleStakeholderId": 538,
-      "Rank": 286,
-      "Phone": "362.535.0733 x83857"
+      "StakeholderRoleName": "Kirlin LLC",
+      "Comment": "et",
+      "StakeholderRoleId": 784,
+      "CountryId": 836,
+      "PersonId": 875,
+      "EmailDescription": "christopher@raustehr.info",
+      "EmailId": 382,
+      "EmailAddress": "keon@raynorhowell.biz",
+      "PhoneId": 306,
+      "ContactName": "Tremblay, Schumm and Cassin",
+      "ContactId": 449,
+      "SaleId": 372,
+      "Mrmrs": "molestiae",
+      "Firstname": "Trudie",
+      "MiddleName": "Purdy, Douglas and Mertz",
+      "Lastname": "Trantow",
+      "SaleStakeholderId": 867,
+      "Rank": 839,
+      "Phone": "699-176-0617"
     }
   ],
-  "ActiveErpLinks": 46,
+  "ActiveErpLinks": 412,
   "UserDefinedFields": {
-    "SuperOffice:1": "610403024",
-    "SuperOffice:2": "1601245532"
+    "SuperOffice:1": "370951413",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "quasi"
+    "CustomFields1": "non",
+    "CustomFields2": "dicta"
   },
-  "PublishEventDate": "2014-09-14T03:24:51.8963736+02:00",
-  "PublishTo": "2011-12-28T03:24:51.8963736+01:00",
-  "PublishFrom": "2006-06-15T03:24:51.8963736+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-03-17T13:38:17.6399305+01:00",
+  "PublishTo": "2016-02-22T13:38:17.6399305+01:00",
+  "PublishFrom": "2000-07-03T13:38:17.6399305+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 823,
+      "VisibleId": 634,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "occaecati"
     },
     {
-      "VisibleId": 823,
+      "VisibleId": 634,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "occaecati"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sapiente",
-  "2": "sint"
+  "1": "illum",
+  "2": "sed"
 }
 ```

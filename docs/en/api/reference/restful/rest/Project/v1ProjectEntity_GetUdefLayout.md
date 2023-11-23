@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 984,
-    "ColumnId": 416,
-    "FieldDefault": "quo",
-    "FieldHeight": 417,
-    "FieldLabel": "et",
-    "FieldLeft": 212,
-    "FieldTop": 580,
+    "UDefFieldId": 838,
+    "ColumnId": 827,
+    "FieldDefault": "ipsam",
+    "FieldHeight": 906,
+    "FieldLabel": "sit",
+    "FieldLeft": 863,
+    "FieldTop": 247,
     "FieldType": "Checkbox",
-    "FieldWidth": 244,
-    "FormatMask": "voluptatibus",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 601,
-    "LabelLeft": 888,
-    "LabelTop": 525,
-    "LabelWidth": 573,
-    "LastVersionId": 583,
-    "ListTableId": 290,
-    "IsMandatory": false,
+    "FieldWidth": 711,
+    "FormatMask": "aut",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 815,
+    "LabelLeft": 631,
+    "LabelTop": 794,
+    "LabelWidth": 204,
+    "LastVersionId": 60,
+    "ListTableId": 937,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 955,
-    "ProgId": "quis",
+    "Page1LineNo": 872,
+    "ProgId": "ipsa",
     "IsReadOnly": false,
-    "ShortLabel": "delectus",
-    "TabOrder": 996,
-    "TextLength": 969,
-    "Tooltip": "ducimus",
-    "UdefIdentity": 46,
-    "UDListDefinitionId": 222,
+    "ShortLabel": "dolor",
+    "TabOrder": 810,
+    "TextLength": 383,
+    "Tooltip": "voluptatum",
+    "UdefIdentity": 345,
+    "UDListDefinitionId": 737,
     "Justification": "Center",
-    "Version": 77,
-    "TemplateVariableName": "Hills Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Muller, Rice and Padberg",
+    "Version": 760,
+    "TemplateVariableName": "Kautzer-Mante",
+    "HasBeenPublished": false,
+    "MdoListName": "Prosacco-Bruen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 297
       }
     }
   }

@@ -82,16 +82,16 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "perspiciatis",
-  "ProviderName": "Mayert-Rowe",
-  "StorageKey": "ipsam",
-  "PageSize": 568,
-  "PageNumber": 777,
-  "OrderBy": "tenetur"
+  "StorageType": "tenetur",
+  "ProviderName": "Ryan-Goldner",
+  "StorageKey": "neque",
+  "PageSize": 345,
+  "PageNumber": 59,
+  "OrderBy": "veniam"
 }
 ```
 
@@ -104,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Towne, Bartell and Jast",
-      "DisplayTooltip": "laborum",
-      "DisplayType": "et",
+      "DisplayName": "Larkin, Gulgowski and Krajcik",
+      "DisplayTooltip": "voluptatum",
+      "DisplayType": "id",
       "CanOrderBy": true,
-      "Name": "Feest-Pouros",
+      "Name": "Mante Group",
       "CanRestrictBy": false,
-      "RestrictionType": "eum",
-      "RestrictionListName": "Denesik-Gislason",
+      "RestrictionType": "ducimus",
+      "RestrictionListName": "Robel-Boyer",
       "IsVisible": true,
-      "ExtraInfo": "expedita",
-      "Width": "repellendus",
-      "IconHint": "optio",
-      "HeadingIconHint": "ipsam"
+      "ExtraInfo": "explicabo",
+      "Width": "architecto",
+      "IconHint": "quo",
+      "HeadingIconHint": "consectetur"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kutch Group",
-      "PrimaryKey": 731,
+      "EntityName": "Borer Inc and Sons",
+      "PrimaryKey": 72,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aperiam",
-          "TooltipHint": "ad",
-          "LinkHint": "rerum"
+          "DisplayValue": "eos",
+          "TooltipHint": "vel",
+          "LinkHint": "officiis"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "repellat",
+      "LinkHint": "ut",
+      "StyleHint": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 470
+          "FieldLength": 41
         }
       }
     }
   ],
-  "RowCount": 140,
+  "RowCount": 89,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldType": "System.String",
+      "FieldLength": 224
     }
   }
 }

@@ -76,11 +76,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 652,
-  "AssociateId": 232,
+  "DocumentId": 557,
+  "AssociateId": 562,
   "CustomTags": {
-    "CustomTags1": "incidunt",
-    "CustomTags2": "eos"
+    "CustomTags1": "sunt",
+    "CustomTags2": "illum"
   }
 }
 ```

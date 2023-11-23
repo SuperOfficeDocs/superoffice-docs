@@ -103,16 +103,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 433,
-  "Name": "Bashirian-Stanton",
+  "ScreenChooserId": 184,
+  "Name": "Wiza, Pfeffer and Graham",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "nam",
-  "Source": "fugiat",
-  "Registered": "2019-10-19T03:24:52.0213616+02:00",
-  "RegisteredAssociateId": 565,
-  "Updated": "2016-10-23T03:24:52.0213616+02:00",
-  "UpdatedAssociateId": 506
+  "UniqueIdentifier": "in",
+  "Source": "quia",
+  "Registered": "2006-10-07T13:38:17.7650302+02:00",
+  "RegisteredAssociateId": 580,
+  "Updated": "2018-08-19T13:38:17.7650302+02:00",
+  "UpdatedAssociateId": 46
 }
 ```
 
@@ -123,27 +123,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 579,
-  "Name": "Hoeger-Harber",
+  "ScreenChooserId": 517,
+  "Name": "Harber-Bayer",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "assumenda",
-  "Source": "qui",
-  "Registered": "1997-12-02T03:24:52.0213616+01:00",
-  "RegisteredAssociateId": 295,
-  "Updated": "2012-10-23T03:24:52.0213616+02:00",
-  "UpdatedAssociateId": 548,
+  "UniqueIdentifier": "aperiam",
+  "Source": "ea",
+  "Registered": "2002-02-08T13:38:17.7650302+01:00",
+  "RegisteredAssociateId": 464,
+  "Updated": "2007-08-26T13:38:17.7650302+02:00",
+  "UpdatedAssociateId": 104,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldType": "System.String",
+      "FieldLength": 743
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

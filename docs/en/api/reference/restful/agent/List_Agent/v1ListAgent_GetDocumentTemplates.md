@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 600,
-    "Name": "Wilderman Group",
-    "Tooltip": "aut",
-    "SaveInDb": 315,
-    "Filename": "nihil",
-    "DefaultOref": "voluptatum",
+    "DocumentTemplateId": 982,
+    "Name": "O'Hara, Goodwin and Waters",
+    "Tooltip": "placeat",
+    "SaveInDb": 19,
+    "Filename": "ut",
+    "DefaultOref": "itaque",
     "RecordType": "Appointment",
-    "Deleted": 699,
+    "Deleted": 623,
     "Direction": "Incoming",
-    "AutoeventId": 652,
+    "AutoeventId": 860,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldType": "System.String",
+        "FieldLength": 215
       }
     }
   }

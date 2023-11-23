@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 598,
-  "Name": "Bartoletti, Parisian and Kiehn",
-  "Tooltip": "architecto",
-  "SaveInDb": 71,
-  "Filename": "ipsam",
-  "DefaultOref": "unde",
+  "DocumentTemplateId": 731,
+  "Name": "Howe-Hayes",
+  "Tooltip": "quos",
+  "SaveInDb": 995,
+  "Filename": "in",
+  "DefaultOref": "iste",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 520,
-  "IntentId": 606,
+  "AutoeventId": 488,
+  "IntentId": 622,
   "IsDefaultPublished": true,
-  "Rank": 824,
-  "LoadTemplateFromPlugin": 396,
-  "MimeType": "est",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 752,
+  "Rank": 943,
+  "LoadTemplateFromPlugin": 91,
+  "MimeType": "explicabo",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 512,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "elza@sawayn.ca",
-  "IncludeSignature": true,
+  "EmailSubject": "kaia_jones@leannon.com",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "reva_beier@bartolettinikolaus.info",
+  "SenderEmailAddress": "katarina@towne.info",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 428,
-  "Name": "Marks-Feil",
-  "Tooltip": "saepe",
-  "SaveInDb": 376,
-  "Filename": "officiis",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 460,
+  "Name": "McDermott LLC",
+  "Tooltip": "ut",
+  "SaveInDb": 145,
+  "Filename": "tenetur",
+  "DefaultOref": "similique",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 31,
-  "IntentId": 765,
+  "AutoeventId": 344,
+  "IntentId": 832,
   "IsDefaultPublished": false,
-  "Rank": 726,
-  "LoadTemplateFromPlugin": 881,
-  "MimeType": "odit",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 280,
+  "Rank": 564,
+  "LoadTemplateFromPlugin": 189,
+  "MimeType": "sed",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 552,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "beverly@harveygreenfelder.ca",
+  "EmailSubject": "ena.walsh@witting.co.uk",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "keyshawn@mills.com",
+  "SenderEmailAddress": "beaulah@bauch.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 655
+      "FieldLength": 981
     }
   }
 }

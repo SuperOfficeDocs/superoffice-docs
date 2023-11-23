@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "non",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 712,
-  "Name": "Boyer LLC",
-  "Config": "id",
-  "Rank": 521,
-  "Client": "architecto",
-  "Style": "veniam",
+  "DashboardThemeId": 197,
+  "Name": "Volkman Group",
+  "Config": "quam",
+  "Rank": 954,
+  "Client": "debitis",
+  "Style": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 331
     }
   },
   "_Links": {

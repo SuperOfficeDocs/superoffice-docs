@@ -350,7 +350,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/contactfavourites?$select=contactAssociate/simultaneousEjUser,contactSupportAssociate/personId,LastCompletedTicket
+GET /api/v1/archive/contactfavourites?$select=contactSupportPerson/personExtra/x_person_timespan,contactExtra/x_contact_dropdown,contactAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

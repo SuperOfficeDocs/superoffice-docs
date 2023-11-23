@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Abshire LLC",
-  "Restrictions": "odit"
+  "ProviderName": "Lebsack Inc and Sons",
+  "Restrictions": "dolor"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Halvorson-Terry",
-    "DisplayTooltip": "est",
-    "DisplayType": "voluptatum",
+    "DisplayName": "Schinner-Dickens",
+    "DisplayTooltip": "et",
+    "DisplayType": "rerum",
     "CanOrderBy": false,
-    "Name": "Kiehn Inc and Sons",
+    "Name": "Pagac Group",
     "CanRestrictBy": false,
-    "RestrictionType": "repudiandae",
-    "RestrictionListName": "Rath-Cummerata",
+    "RestrictionType": "non",
+    "RestrictionListName": "Batz-Bailey",
     "IsVisible": true,
-    "ExtraInfo": "doloribus",
-    "Width": "velit",
-    "IconHint": "unde",
-    "HeadingIconHint": "modi"
+    "ExtraInfo": "atque",
+    "Width": "quia",
+    "IconHint": "eum",
+    "HeadingIconHint": "minima"
   }
 ]
 ```

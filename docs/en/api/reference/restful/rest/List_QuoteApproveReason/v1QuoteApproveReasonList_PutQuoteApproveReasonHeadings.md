@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 364,
-    "Name": "Ferry LLC",
-    "Tooltip": "ex",
+    "HeadingId": 80,
+    "Name": "Dach Group",
+    "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 288
+    "Rank": 54,
+    "UdListDefinitionId": 929
   },
   {
-    "HeadingId": 364,
-    "Name": "Ferry LLC",
-    "Tooltip": "ex",
+    "HeadingId": 80,
+    "Name": "Dach Group",
+    "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 288
+    "Rank": 54,
+    "UdListDefinitionId": 929
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 252,
-    "Name": "Reichert, Hudson and Satterfield",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 295,
-    "UdListDefinitionId": 516,
+    "HeadingId": 483,
+    "Name": "Hermiston, Nader and Murphy",
+    "Tooltip": "dolorem",
+    "Deleted": true,
+    "Rank": 214,
+    "UdListDefinitionId": 610,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 985
+        "FieldType": "System.Int32",
+        "FieldLength": 813
       }
     }
   }

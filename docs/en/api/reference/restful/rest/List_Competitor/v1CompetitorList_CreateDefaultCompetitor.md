@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Franecki Group",
-  "Tooltip": "deserunt",
+  "Id": 74,
+  "Name": "Feest-Heathcote",
+  "Tooltip": "in",
   "Deleted": true,
-  "UdListDefinitionId": 662,
-  "Rank": 642,
+  "UdListDefinitionId": 994,
+  "Rank": 797,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldLength": 803
     }
   }
 }

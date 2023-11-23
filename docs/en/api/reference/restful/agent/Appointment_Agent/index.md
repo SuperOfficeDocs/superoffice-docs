@@ -74,6 +74,8 @@ generated: true
 
 * [POST Agents/Appointment/GetAlarms](v1AppointmentAgent_GetAlarms.md)
 
+* [POST Agents/Appointment/GetNextAvailableTime](v1AppointmentAgent_GetNextAvailableTime.md)
+
 * [POST Agents/Appointment/GenerateLead](v1AppointmentAgent_GenerateLead.md)
 
 * [POST Agents/Appointment/RequestForInfo](v1AppointmentAgent_RequestForInfo.md)

@@ -64,7 +64,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Ticket:GetTicketMessageResponse>
    <Ticket:Response xsi:type="Ticket:TicketMessage">
     <Ticket:TicketMessageId xsi:type="xsd:int">0</Ticket:TicketMessageId>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-09-19T01:24:27Z</Ticket:CreatedAt>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-11-10T12:37:53Z</Ticket:CreatedAt>
     <Ticket:Slevel xsi:type="Ticket:TicketSecurityLevel">Unknown</Ticket:Slevel>
     <Ticket:Important xsi:type="xsd:boolean">false</Ticket:Important>
     <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
@@ -88,7 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:Sentiment xsi:type="xsd:int">0</Ticket:Sentiment>
     <Ticket:SentimentConfidence xsi:type="xsd:int">0</Ticket:SentimentConfidence>
     <Ticket:CreatedBy xsi:type="xsd:int">0</Ticket:CreatedBy>
-    <Ticket:ChangedAt xsi:type="xsd:dateTime">2023-09-19T01:24:27Z</Ticket:ChangedAt>
+    <Ticket:ChangedAt xsi:type="xsd:dateTime">2023-11-10T12:37:53Z</Ticket:ChangedAt>
     <Ticket:Badge xsi:type="Ticket:BadgeType">Unknown</Ticket:Badge>
    </Ticket:Response>
   </Ticket:GetTicketMessageResponse>

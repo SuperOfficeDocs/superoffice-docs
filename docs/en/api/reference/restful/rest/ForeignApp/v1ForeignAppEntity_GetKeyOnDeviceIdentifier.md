@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 04 Feb 2000 03:24:51 G2T
+Last-Modified: Sat, 28 Jan 2017 13:38:17 G1T
 
 {
-  "Key": "sed",
-  "Value": "vero",
-  "RecordId": 846,
-  "CreatedDate": "2018-03-26T03:24:51.630601+02:00",
-  "UpdatedDate": "2000-02-04T03:24:51.630601+01:00",
-  "UpdatedBy": "impedit",
-  "CreatedBy": "nesciunt",
-  "TableName": "Spinka LLC",
+  "Key": "expedita",
+  "Value": "qui",
+  "RecordId": 515,
+  "CreatedDate": "1998-03-25T13:38:17.4524494+01:00",
+  "UpdatedDate": "2017-01-28T13:38:17.4524494+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "similique",
+  "TableName": "Goodwin Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldType": "System.String",
+      "FieldLength": 313
     }
   }
 }

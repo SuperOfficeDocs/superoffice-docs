@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Bradtke Group",
-    "ToolTip": "In tempora veritatis ea quibusdam saepe voluptatem tempore.",
+    "Id": 97,
+    "Name": "Koepp Inc and Sons",
+    "ToolTip": "Asperiores doloremque ut.",
     "Deleted": false,
-    "Rank": 654,
-    "Type": "sed",
-    "ColorBlock": 403,
-    "IconHint": "saepe",
-    "Selected": false,
-    "LastChanged": "2011-09-04T03:24:52.1932187+02:00",
+    "Rank": 784,
+    "Type": "veniam",
+    "ColorBlock": 477,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2017-08-08T13:38:17.9994152+02:00",
     "ChildItems": [
       {
-        "Id": 847,
-        "Name": "Daniel LLC",
-        "ToolTip": "Animi et optio ab temporibus error.",
-        "Deleted": false,
-        "Rank": 730,
-        "Type": "fugiat",
-        "ColorBlock": 301,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2007-06-26T03:24:52.1932187+02:00",
+        "Id": 724,
+        "Name": "Torphy-Schmitt",
+        "ToolTip": "Dolorem enim consequatur autem et iste.",
+        "Deleted": true,
+        "Rank": 570,
+        "Type": "non",
+        "ColorBlock": 431,
+        "IconHint": "laborum",
+        "Selected": true,
+        "LastChanged": "2016-01-03T13:38:17.9994152+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "totam",
+        "ExtraInfo": "debitis",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Zora Schroeder DVM"
+        "FullName": "Lorine Reichel DDS"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "commodi",
+    "ExtraInfo": "impedit",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Veronica Larson"
+    "FullName": "Jailyn Borer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 544,
-    "Name": "Donnelly, Dare and Gutkowski",
-    "ToolTip": "Consequatur deserunt excepturi eveniet autem veritatis.",
+    "Id": 257,
+    "Name": "Baumbach Inc and Sons",
+    "ToolTip": "A aut aut est.",
     "Deleted": false,
-    "Rank": 647,
-    "Type": "atque",
-    "ColorBlock": 500,
-    "IconHint": "provident",
-    "Selected": true,
-    "LastChanged": "2022-08-31T03:24:52.1932187+02:00",
+    "Rank": 17,
+    "Type": "fugit",
+    "ColorBlock": 393,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2004-07-31T13:38:17.9994152+02:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Bode Group",
-        "ToolTip": "Sapiente maiores mollitia maiores aspernatur iusto voluptas eveniet.",
-        "Deleted": true,
-        "Rank": 373,
-        "Type": "earum",
-        "ColorBlock": 657,
-        "IconHint": "suscipit",
+        "Id": 308,
+        "Name": "Connelly-Jakubowski",
+        "ToolTip": "Laborum sint.",
+        "Deleted": false,
+        "Rank": 216,
+        "Type": "exercitationem",
+        "ColorBlock": 804,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2022-04-17T03:24:52.1932187+02:00",
+        "LastChanged": "2023-04-10T13:38:17.9994152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "optio",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Randall Berge",
+        "FullName": "Kristian Labadie MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 388
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "officiis",
+    "ExtraInfo": "dolor",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Dejah Christiansen",
+    "FullName": "Rex Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldLength": 278
       }
     }
   }

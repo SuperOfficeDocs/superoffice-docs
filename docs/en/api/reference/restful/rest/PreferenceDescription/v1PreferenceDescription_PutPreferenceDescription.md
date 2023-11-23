@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 445,
-  "Section": "quam",
-  "Key": "est",
-  "Name": "Johnson, Heaney and Johns",
+  "PrefDescId": 410,
+  "Section": "reprehenderit",
+  "Key": "aut",
+  "Name": "Haley-Nader",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Assimilated real-time knowledge user",
-  "IsBuiltin": false,
-  "TableName": "Goodwin-Lebsack",
-  "UserDefinedListId": 411,
-  "Rank": 820,
-  "SubGroup": "vero",
-  "MinLevel": 84,
-  "MaxValue": 290,
-  "MinValue": 200,
-  "RequiredLicense": "officiis"
+  "Description": "Devolved neutral process improvement",
+  "IsBuiltin": true,
+  "TableName": "Hoppe, Ritchie and Farrell",
+  "UserDefinedListId": 819,
+  "Rank": 975,
+  "SubGroup": "iusto",
+  "MinLevel": 756,
+  "MaxValue": 793,
+  "MinValue": 609,
+  "RequiredLicense": "voluptatum"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 226,
-  "Section": "et",
-  "Key": "rerum",
-  "Name": "Williamson-Koss",
+  "PrefDescId": 206,
+  "Section": "asperiores",
+  "Key": "a",
+  "Name": "Hintz-Lemke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Public-key dynamic website",
-  "IsBuiltin": false,
-  "TableName": "Nitzsche, Hills and Harber",
-  "UserDefinedListId": 170,
-  "Rank": 141,
-  "SubGroup": "quo",
-  "MinLevel": 644,
-  "MaxValue": 691,
-  "MinValue": 762,
-  "RequiredLicense": "explicabo",
+  "Description": "Open-source next generation leverage",
+  "IsBuiltin": true,
+  "TableName": "Bernhard-Russel",
+  "UserDefinedListId": 197,
+  "Rank": 808,
+  "SubGroup": "vero",
+  "MinLevel": 690,
+  "MaxValue": 54,
+  "MinValue": 488,
+  "RequiredLicense": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldType": "System.Int32",
+      "FieldLength": 650
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 671,
-  "Name": "Frami Inc and Sons",
-  "Tooltip": "deleniti",
+  "WebPanelId": 6,
+  "Name": "Bergnaum LLC",
+  "Tooltip": "iure",
   "Deleted": true,
-  "Rank": 988,
+  "Rank": 563,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Dach Group",
+  "ShowInStatusBar": true,
+  "WindowName": "Hand Group",
   "Url": "http://www.example.com/",
-  "ProgId": "saepe",
-  "Icon": 211,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "voluptatem",
+  "Icon": 585,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldLength": 453
     }
   }
 }

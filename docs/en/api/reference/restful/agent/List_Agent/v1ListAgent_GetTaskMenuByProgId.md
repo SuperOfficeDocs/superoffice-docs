@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "nesciunt"
+  "ProgId": "quia"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 128,
-  "Name": "McKenzie Inc and Sons",
-  "Tooltip": "dolor",
-  "TableName": "Brakus Inc and Sons",
-  "Area": "molestiae",
+  "TaskMenuId": 533,
+  "Name": "Rau, Von and Medhurst",
+  "Tooltip": "hic",
+  "TableName": "Cummings-Klocko",
+  "Area": "eveniet",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 680,
+  "CrmScriptId": 628,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 315,
+  "Rank": 549,
   "Encoding": "ANSI",
-  "ProgId": "voluptatum",
-  "Deleted": true,
+  "ProgId": "culpa",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

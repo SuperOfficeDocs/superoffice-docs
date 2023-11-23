@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 728,
-    "TabName": "Simonis-Denesik",
-    "Order": "maxime",
-    "AssociateId": 23,
+    "TabOrderId": 354,
+    "TabName": "Hamill Group",
+    "Order": "sed",
+    "AssociateId": 478,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 222
+        "FieldLength": 975
       }
     }
   },
   {
-    "TabOrderId": 728,
-    "TabName": "Simonis-Denesik",
-    "Order": "maxime",
-    "AssociateId": 23,
+    "TabOrderId": 354,
+    "TabName": "Hamill Group",
+    "Order": "sed",
+    "AssociateId": 478,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 222
+        "FieldLength": 975
       }
     }
   }

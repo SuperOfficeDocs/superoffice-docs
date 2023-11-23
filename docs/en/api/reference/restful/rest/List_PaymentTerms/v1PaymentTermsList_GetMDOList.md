@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=animi
+GET /api/v1/List/PaymentTerm/MDOItems?query=rerum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Gleason, Jenkins and Mraz",
-    "ToolTip": "Nesciunt odio quod iusto laudantium.",
-    "Deleted": true,
-    "Rank": 577,
-    "Type": "aut",
+    "Id": 352,
+    "Name": "Marvin, Erdman and Hansen",
+    "ToolTip": "Sapiente nihil doloribus dolor quidem.",
+    "Deleted": false,
+    "Rank": 394,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Gleason-Aufderhar",
-        "ToolTip": "Et sunt consequatur.",
+        "Id": 151,
+        "Name": "Rempel, Frami and Gislason",
+        "ToolTip": "Et et porro.",
         "Deleted": false,
-        "Rank": 411,
-        "Type": "perspiciatis",
+        "Rank": 929,
+        "Type": "ipsa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "incidunt",
-        "ColorBlock": 5,
-        "ExtraInfo": "non",
-        "StyleHint": "maiores",
-        "FullName": "Tracy Hickle",
+        "IconHint": "laborum",
+        "ColorBlock": 653,
+        "ExtraInfo": "animi",
+        "StyleHint": "explicabo",
+        "FullName": "Miss Yazmin Garry O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldLength": 925
           }
         }
       }
     ],
-    "IconHint": "pariatur",
-    "ColorBlock": 22,
-    "ExtraInfo": "excepturi",
-    "StyleHint": "odit",
-    "FullName": "Mrs. Jakob Witting I",
+    "IconHint": "est",
+    "ColorBlock": 884,
+    "ExtraInfo": "quas",
+    "StyleHint": "harum",
+    "FullName": "Dayna Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldLength": 238
       }
     }
   }

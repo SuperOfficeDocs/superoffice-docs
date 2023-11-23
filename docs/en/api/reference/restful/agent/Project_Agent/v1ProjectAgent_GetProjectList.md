@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 341,
-    "Name": "Hirthe Inc and Sons",
-    "Description": "Horizontal coherent toolset",
+    "ProjectId": 876,
+    "Name": "Hammes Group",
+    "Description": "Mandatory zero administration hub",
     "URL": "http://www.example.com/",
-    "Type": "natus",
-    "AssociateId": 125,
-    "AssociateFullName": "Janessa Funk",
-    "TypeId": 414,
-    "Updated": "2016-06-03T03:24:48.0957311+02:00",
-    "StatusId": 366,
-    "Status": "modi",
-    "TextId": 734,
-    "PublishTo": "2005-06-05T03:24:48.0957311+02:00",
-    "PublishFrom": "2017-06-09T03:24:48.0957311+02:00",
+    "Type": "reiciendis",
+    "AssociateId": 272,
+    "AssociateFullName": "Samir Cronin",
+    "TypeId": 126,
+    "Updated": "1999-12-18T13:38:13.9834617+01:00",
+    "StatusId": 919,
+    "Status": "illum",
+    "TextId": 511,
+    "PublishTo": "2013-01-08T13:38:13.9834617+01:00",
+    "PublishFrom": "2014-06-24T13:38:13.9834617+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1225069",
-    "ActiveErpLinks": 656,
+    "ProjectNumber": "1225869",
+    "ActiveErpLinks": 976,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 466
       }
     }
   }

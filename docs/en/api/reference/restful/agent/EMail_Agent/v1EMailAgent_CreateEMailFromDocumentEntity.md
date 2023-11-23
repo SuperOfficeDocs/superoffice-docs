@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 50,
-      "ContactName": "Smitham-Reichel",
-      "PersonId": 85,
-      "PersonName": "Greenholt Group",
-      "AssociateId": 143,
-      "Address": "vel",
-      "EmailId": 360,
+      "ContactId": 162,
+      "ContactName": "Kuphal, Stroman and Lemke",
+      "PersonId": 385,
+      "PersonName": "Walker-Dibbert",
+      "AssociateId": 675,
+      "Address": "voluptatem",
+      "EmailId": 242,
       "DuplicatePersonIds": [
-        549,
-        530
+        391,
+        438
       ],
-      "Name": "Emard, Ratke and Stiedemann",
+      "Name": "Huels-Lynch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldLength": 87
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 317,
-      "ContactName": "Johnson LLC",
-      "PersonId": 438,
-      "PersonName": "Wisoky Group",
-      "AssociateId": 181,
-      "Address": "repellat",
-      "EmailId": 428,
+      "ContactId": 376,
+      "ContactName": "Stokes Group",
+      "PersonId": 589,
+      "PersonName": "Dicki Inc and Sons",
+      "AssociateId": 475,
+      "Address": "facilis",
+      "EmailId": 264,
       "DuplicatePersonIds": [
-        873,
-        574
+        444,
+        67
       ],
-      "Name": "Connelly, Schimmel and Kris",
+      "Name": "Connelly LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 720
+          "FieldLength": 716
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 749,
-      "ContactName": "Jast, Windler and Gutkowski",
-      "PersonId": 802,
-      "PersonName": "Abshire, Ward and Pollich",
-      "AssociateId": 518,
-      "Address": "dolor",
-      "EmailId": 350,
+      "ContactId": 667,
+      "ContactName": "Marquardt, King and Flatley",
+      "PersonId": 567,
+      "PersonName": "Reinger-Dicki",
+      "AssociateId": 126,
+      "Address": "quasi",
+      "EmailId": 837,
       "DuplicatePersonIds": [
-        480,
-        308
+        555,
+        336
       ],
-      "Name": "Macejkovic Inc and Sons",
+      "Name": "Nikolaus Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 99
+          "FieldLength": 594
         }
       }
     }
   ],
-  "Subject": "omnis",
-  "HTMLBody": "quasi",
+  "Subject": "nemo",
+  "HTMLBody": "provident",
   "From": null,
-  "Sent": "1999-04-21T03:24:47.7676476+02:00",
-  "Size": 367,
+  "Sent": "2021-04-14T13:38:13.5771153+02:00",
+  "Size": 700,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "velit",
-  "PlainBody": "quam",
-  "IsSent": true,
+  "MessageID": "et",
+  "PlainBody": "aut",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 29,
+  "ServerId": 616,
   "Attachments": [
     {
-      "Description": "Extended motivating budgetary management",
-      "Filename": "quas",
-      "Size": 987,
-      "Type": "et",
-      "Encoding": "id",
-      "Id": "eaque",
-      "Disposition": "ea",
+      "Description": "Switchable incremental moderator",
+      "Filename": "fugit",
+      "Size": 73,
+      "Type": "temporibus",
+      "Encoding": "suscipit",
+      "Id": "aut",
+      "Disposition": "rem",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 403
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schuster LLC",
+      "Name": "Medhurst Group",
       "Values": [
-        "perferendis",
-        "modi"
+        "pariatur",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 773
+          "FieldType": "System.Int32",
+          "FieldLength": 501
         }
       }
     },
     {
-      "Name": "Schuster LLC",
+      "Name": "Medhurst Group",
       "Values": [
-        "perferendis",
-        "modi"
+        "pariatur",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 773
+          "FieldType": "System.Int32",
+          "FieldLength": 501
         }
       }
     }
   ],
-  "FolderName": "Jenkins-Wuckert",
-  "EmailItemId": 38,
-  "AccountId": 643,
-  "ReceivedAt": "2013-11-01T03:24:47.7676476+01:00",
+  "FolderName": "Mann Group",
+  "EmailItemId": 53,
+  "AccountId": 891,
+  "ReceivedAt": "2007-06-28T13:38:13.5771153+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-12-30T03:24:47.7676476+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2002-03-01T13:38:13.5771153+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldType": "System.String",
+      "FieldLength": 476
     }
   }
 }

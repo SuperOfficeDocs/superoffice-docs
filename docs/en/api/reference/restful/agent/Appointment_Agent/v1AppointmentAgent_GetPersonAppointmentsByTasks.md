@@ -119,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -135,14 +136,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 609,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2022-02-10T03:24:46.9394467+01:00",
-  "EndTime": "1997-09-02T03:24:46.9394467+02:00",
-  "Count": 271,
+  "PersonId": 288,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2013-12-26T13:38:12.8428246+01:00",
+  "EndTime": "2008-04-12T13:38:12.8428246+02:00",
+  "Count": 820,
   "TaskIds": [
-    881,
-    641
+    416,
+    129
   ]
 }
 ```
@@ -155,64 +156,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 680,
-    "StartDate": "2017-05-07T03:24:46.9394467+02:00",
-    "EndDate": "1999-12-10T03:24:46.9394467+01:00",
+    "AppointmentId": 34,
+    "StartDate": "2016-01-01T13:38:12.8428246+01:00",
+    "EndDate": "2017-01-15T13:38:12.8428246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "saepe",
-    "AssociateFullName": "Isai Dietrich",
-    "ContactName": "Conn LLC",
-    "Description": "Programmable clear-thinking success",
-    "PersonFullName": "Destin Wolff",
-    "PersonId": 745,
-    "ContactId": 406,
-    "ProjectId": 777,
-    "ProjectName": "Rice, Herman and Eichmann",
-    "IsPublished": false,
-    "AssociateId": 320,
-    "ColorIndex": 336,
-    "IsFree": false,
+    "Task": "et",
+    "AssociateFullName": "Mr. Markus Thomas Carter II",
+    "ContactName": "Wisozk Inc and Sons",
+    "Description": "Innovative dedicated process improvement",
+    "PersonFullName": "Prof. Gaston Ashly Harvey III",
+    "PersonId": 629,
+    "ContactId": 944,
+    "ProjectId": 308,
+    "ProjectName": "Hagenes, Stoltenberg and Waters",
+    "IsPublished": true,
+    "AssociateId": 639,
+    "ColorIndex": 115,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 585,
-    "PriorityName": "Becker, Morar and Goldner",
+    "PriorityId": 252,
+    "PriorityName": "Leannon-Ritchie",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2001-09-09T03:24:46.9394467+02:00",
+    "ActiveDate": "2022-09-08T13:38:12.8428246+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-06-30T03:24:46.9394467+02:00",
-    "RecurringEndDate": "1997-10-16T03:24:46.9394467+02:00",
-    "MotherId": 510,
-    "AssignedBy": 131,
-    "AssignedByFullName": "Hector Yundt",
+    "RecurringStartDate": "2013-04-15T13:38:12.8428246+02:00",
+    "RecurringEndDate": "2017-06-13T13:38:12.8428246+02:00",
+    "MotherId": 252,
+    "AssignedBy": 832,
+    "AssignedByFullName": "Carmella O'Connell",
     "RejectReason": "",
-    "Location": "earum",
-    "AlarmLeadTime": "ut",
-    "SaleId": 863,
-    "SaleName": "Sipes, Cartwright and Fay",
-    "AssociateName": "Vandervort, Hayes and Marvin",
-    "CreatedDate": "2010-01-04T03:24:46.9394467+01:00",
-    "CreatedBy": "laborum",
-    "CreatedByFullName": "Miss Elliot Wisozk",
-    "CreatedByAssociateId": 989,
+    "Location": "ratione",
+    "AlarmLeadTime": "illum",
+    "SaleId": 438,
+    "SaleName": "Bartell, Brekke and Ziemann",
+    "AssociateName": "Parker-Lakin",
+    "CreatedDate": "2008-05-23T13:38:12.8428246+02:00",
+    "CreatedBy": "nihil",
+    "CreatedByFullName": "Damien Toy",
+    "CreatedByAssociateId": 201,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "sed",
-    "Agenda": "quia",
-    "InternalNotes": "nobis",
+    "PreferredTZLocation": 134,
+    "Title": "recusandae",
+    "Agenda": "qui",
+    "InternalNotes": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 305
+        "FieldType": "System.Int32",
+        "FieldLength": 688
       }
     }
   }

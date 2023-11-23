@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    384,
-    142
+    628,
+    891
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 884,
-    "MessageId": "deserunt",
-    "Subject": "totam",
+    "ServerId": 529,
+    "MessageId": "explicabo",
+    "Subject": "molestiae",
     "From": null,
     "To": [
       {
-        "ContactId": 743,
-        "ContactName": "Heathcote LLC",
-        "PersonId": 698,
-        "PersonName": "Abernathy-Paucek",
-        "AssociateId": 569,
-        "Address": "sint",
-        "EmailId": 165,
+        "ContactId": 257,
+        "ContactName": "Carroll, Bogan and Funk",
+        "PersonId": 48,
+        "PersonName": "Dare Group",
+        "AssociateId": 915,
+        "Address": "est",
+        "EmailId": 546,
         "DuplicatePersonIds": [
-          810,
-          824
+          620,
+          9
         ],
-        "Name": "Fahey Inc and Sons",
+        "Name": "Pfannerstill-Denesik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 297
+            "FieldLength": 413
           }
         }
       }
     ],
-    "Sent": "2002-03-05T03:24:47.705153+01:00",
+    "Sent": "2020-05-10T13:38:13.5302438+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 852,
+    "Size": 755,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 245
+        "FieldType": "System.Int32",
+        "FieldLength": 120
       }
     }
   }

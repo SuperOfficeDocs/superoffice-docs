@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 585,
-  "TopicId": 105,
+  "ChatSessionId": 485,
+  "TopicId": 967,
   "User": null,
   "Person": null,
-  "CustomerAlias": "amet",
-  "CustomerHost": "pariatur",
-  "CustomerName": "Wiza-Lakin",
-  "CustomerEmail": "maxwell.frami@feil.us",
-  "CustomerPhone": "300-096-7489 x821",
+  "CustomerAlias": "est",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Balistreri Inc and Sons",
+  "CustomerEmail": "kamryn_cummings@sauer.us",
+  "CustomerPhone": "027-184-1889",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hand, Reilly and Steuber",
+  "CustomerCompanyName": "O'Hara, Ebert and Blick",
   "Status": "Closed",
-  "FirstMessage": "odit",
-  "LastMessage": "ipsum",
-  "WhenRequested": "2023-04-01T03:24:51.4273279+02:00",
-  "WhenStarted": "2009-06-29T03:24:51.4273279+02:00",
-  "WhenEnded": "2009-05-29T03:24:51.4273279+02:00",
-  "WhenIdle": "2003-04-21T03:24:51.4273279+02:00",
-  "WhenFetched": "2015-02-04T03:24:51.4273279+01:00",
-  "SessionKey": "sit",
-  "InitialQueuePos": 442,
-  "AlertLevel": 167,
-  "Rank": 310,
+  "FirstMessage": "corporis",
+  "LastMessage": "sit",
+  "WhenRequested": "1998-12-17T13:38:17.1868579+01:00",
+  "WhenStarted": "2018-04-15T13:38:17.1868579+02:00",
+  "WhenEnded": "2011-10-22T13:38:17.1868579+02:00",
+  "WhenIdle": "2016-09-13T13:38:17.1868579+02:00",
+  "WhenFetched": "2018-09-23T13:38:17.1868579+02:00",
+  "SessionKey": "dicta",
+  "InitialQueuePos": 786,
+  "AlertLevel": 777,
+  "Rank": 321,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 590,
+  "Rating": 788,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 123
+      "FieldType": "System.String",
+      "FieldLength": 833
     }
   }
 }

@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Centralized contextually-based secured line
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=et,totam
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Phased foreground budgetary management
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=aut,omnis
 ```
 
 
@@ -76,7 +76,7 @@ OK
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "illum",
-  "VersionId": "ab",
-  "Success": false,
+  "ExternalReference": "in",
+  "VersionId": "vel",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "nesciunt",
-  "AdditionalInfo": "et"
+  "Value": "omnis",
+  "AdditionalInfo": "nobis"
 }
 ```

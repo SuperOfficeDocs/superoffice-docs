@@ -3,10 +3,10 @@ title: Update app-specific page
 uid: dp-update-app-info
 description: How to update your app-specific page in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.27.2023
+so.date: 11.15.2023
 keywords: Developer Portal, App Store listing
 so.topic: howto
-so.dp-version: 1.11
+so.dp-version: 1.16
 so.envir: cloud
 ---
 
@@ -79,6 +79,10 @@ When you click **Save Settings**, the confirmation dialog lists the fields needi
 ## Verify your changes
 
 1. Review your listing in the SOD App Store.
+
+    > [!TIP]
+    > Click the eye icon on a version to preview the published app store information in the [SOD App Store][10]. This is a shortcut to `https://appstore-sod.superoffice.com/PARTNER-NAME/APP-NAME`.
+
 2. Fix issues in the Developer Portal if necessary.
 
 ## Request to publish
@@ -110,6 +114,7 @@ When you are happy with how it looks, return to your partner page in the Develop
 [4]: ../../create-app/request-to-publish.md
 [5]: ../requirements/marketing.md#application-description
 [6]: https://www.charactercountonline.com
+[10]: https://appstore-sod.superoffice.com/
 
 <!-- Referenced images -->
 [img1]: media/app-store-listing.png

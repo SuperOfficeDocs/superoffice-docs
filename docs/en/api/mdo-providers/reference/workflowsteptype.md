@@ -48,8 +48,8 @@ foreach (var item in listProvider.RootItems) {
 |4|Wait for action|||
 |5|Split|||
 |6|Update contact|||
-|7|Add to list|||
-|8|Remove from list|||
+|7|Add to selection and/or project|||
+|8|Remove from selection and/or project|||
 |9|Create request|||
 |10|Create follow-up|||
 |11|Create sale|||

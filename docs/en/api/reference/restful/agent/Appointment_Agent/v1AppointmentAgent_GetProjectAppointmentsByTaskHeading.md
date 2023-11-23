@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -134,11 +135,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 169,
-  "StartTime": "1999-11-16T03:24:46.9394467+01:00",
-  "EndTime": "2005-03-19T03:24:46.9394467+01:00",
-  "Count": 317,
-  "TaskHeadingId": 360
+  "ProjectId": 781,
+  "StartTime": "2007-07-03T13:38:12.8428246+02:00",
+  "EndTime": "2005-09-18T13:38:12.8428246+02:00",
+  "Count": 891,
+  "TaskHeadingId": 252
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 936,
-    "StartDate": "2008-10-19T03:24:46.9394467+02:00",
-    "EndDate": "2011-05-13T03:24:46.9394467+02:00",
+    "AppointmentId": 190,
+    "StartDate": "2008-07-17T13:38:12.8428246+02:00",
+    "EndDate": "2011-07-18T13:38:12.8428246+02:00",
     "Type": "BookingForChecklist",
-    "Task": "fugit",
-    "AssociateFullName": "Jerrell Louisa Balistreri V",
-    "ContactName": "Gleason-Stanton",
-    "Description": "Centralized static solution",
-    "PersonFullName": "Ahmad Conn",
-    "PersonId": 352,
-    "ContactId": 118,
-    "ProjectId": 629,
-    "ProjectName": "Mills-Klocko",
-    "IsPublished": false,
-    "AssociateId": 910,
-    "ColorIndex": 840,
-    "IsFree": false,
+    "Task": "sint",
+    "AssociateFullName": "Dr. Carey Elissa Ledner V",
+    "ContactName": "Boyle Group",
+    "Description": "Distributed grid-enabled analyzer",
+    "PersonFullName": "Cathryn Harvey",
+    "PersonId": 536,
+    "ContactId": 185,
+    "ProjectId": 961,
+    "ProjectName": "Veum-Schamberger",
+    "IsPublished": true,
+    "AssociateId": 728,
+    "ColorIndex": 948,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 144,
-    "PriorityName": "Casper, Ferry and Leffler",
+    "PriorityId": 19,
+    "PriorityName": "Marvin, Lindgren and Schumm",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2008-12-09T03:24:46.9394467+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2015-08-17T13:38:12.8584402+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-12-13T03:24:46.9394467+01:00",
-    "RecurringEndDate": "2009-08-26T03:24:46.9394467+02:00",
-    "MotherId": 967,
-    "AssignedBy": 527,
-    "AssignedByFullName": "Mrs. Shana Doyle MD",
-    "RejectReason": "brand killer bandwidth",
-    "Location": "ut",
-    "AlarmLeadTime": "aut",
-    "SaleId": 874,
-    "SaleName": "Walter-Cummings",
-    "AssociateName": "Sauer Inc and Sons",
-    "CreatedDate": "2007-12-12T03:24:46.9394467+01:00",
-    "CreatedBy": "reiciendis",
-    "CreatedByFullName": "Lera O'Hara",
-    "CreatedByAssociateId": 208,
+    "RecurringStartDate": "2014-02-11T13:38:12.8584402+01:00",
+    "RecurringEndDate": "2008-05-15T13:38:12.8584402+02:00",
+    "MotherId": 10,
+    "AssignedBy": 150,
+    "AssignedByFullName": "Estelle Jed Sauer Sr.",
+    "RejectReason": "",
+    "Location": "sint",
+    "AlarmLeadTime": "dicta",
+    "SaleId": 261,
+    "SaleName": "Rempel, Nolan and Lind",
+    "AssociateName": "Jast LLC",
+    "CreatedDate": "2006-09-18T13:38:12.8584402+02:00",
+    "CreatedBy": "ipsam",
+    "CreatedByFullName": "Dr. Jessy Marjorie Feil DDS",
+    "CreatedByAssociateId": 833,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "doloremque",
-    "Agenda": "labore",
-    "InternalNotes": "dolorum",
+    "PreferredTZLocation": 236,
+    "Title": "dolor",
+    "Agenda": "est",
+    "InternalNotes": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldType": "System.String",
+        "FieldLength": 672
       }
     }
   }

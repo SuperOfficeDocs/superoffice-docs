@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=969
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=198
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 784,
-  "ColumnId": 73,
-  "FieldDefault": "totam",
-  "FieldHeight": 219,
-  "FieldLabel": "quasi",
-  "FieldLeft": 535,
-  "FieldTop": 360,
+  "UDefFieldId": 873,
+  "ColumnId": 81,
+  "FieldDefault": "est",
+  "FieldHeight": 612,
+  "FieldLabel": "corporis",
+  "FieldLeft": 764,
+  "FieldTop": 269,
   "FieldType": "Checkbox",
-  "FieldWidth": 396,
-  "FormatMask": "vero",
-  "HideLabel": false,
+  "FieldWidth": 473,
+  "FormatMask": "iure",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 564,
-  "LabelLeft": 43,
-  "LabelTop": 916,
-  "LabelWidth": 22,
-  "LastVersionId": 557,
-  "ListTableId": 533,
-  "IsMandatory": true,
+  "LabelHeight": 265,
+  "LabelLeft": 825,
+  "LabelTop": 398,
+  "LabelWidth": 838,
+  "LastVersionId": 537,
+  "ListTableId": 839,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 966,
-  "ProgId": "cum",
-  "IsReadOnly": false,
-  "ShortLabel": "delectus",
-  "TabOrder": 578,
-  "TextLength": 243,
-  "Tooltip": "id",
-  "UdefIdentity": 324,
-  "UDListDefinitionId": 333,
+  "Page1LineNo": 66,
+  "ProgId": "facere",
+  "IsReadOnly": true,
+  "ShortLabel": "rerum",
+  "TabOrder": 37,
+  "TextLength": 355,
+  "Tooltip": "corrupti",
+  "UdefIdentity": 923,
+  "UDListDefinitionId": 304,
   "Justification": "Center",
-  "Version": 232,
-  "TemplateVariableName": "Koch, Kassulke and Jakubowski",
-  "HasBeenPublished": false,
-  "MdoListName": "Pfannerstill, Harvey and Feil",
+  "Version": 514,
+  "TemplateVariableName": "Lockman Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Deckow, Romaguera and Green",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 257
+      "FieldType": "System.String",
+      "FieldLength": 513
     }
   }
 }

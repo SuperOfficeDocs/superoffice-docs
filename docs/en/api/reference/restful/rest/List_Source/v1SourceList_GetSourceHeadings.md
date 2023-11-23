@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 826,
-    "Name": "Littel-Hills",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 11,
-    "UdListDefinitionId": 765,
+    "HeadingId": 464,
+    "Name": "Durgan Inc and Sons",
+    "Tooltip": "veniam",
+    "Deleted": true,
+    "Rank": 680,
+    "UdListDefinitionId": 626,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 819
+        "FieldType": "System.Int32",
+        "FieldLength": 273
       }
     }
   }

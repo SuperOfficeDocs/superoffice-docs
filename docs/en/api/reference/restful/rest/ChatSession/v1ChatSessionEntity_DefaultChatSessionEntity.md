@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 564,
-  "TopicId": 692,
+  "ChatSessionId": 307,
+  "TopicId": 554,
   "User": null,
   "Person": null,
-  "CustomerAlias": "consequatur",
+  "CustomerAlias": "quia",
   "CustomerHost": "et",
-  "CustomerName": "Barrows-Erdman",
-  "CustomerEmail": "lenna@howell.us",
-  "CustomerPhone": "1-310-771-4061 x11492",
+  "CustomerName": "Boehm-Moen",
+  "CustomerEmail": "catharine.romaguera@reichel.name",
+  "CustomerPhone": "152.838.6138 x130",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Roberts, Ritchie and Torp",
+  "CustomerCompanyName": "Roob LLC",
   "Status": "Closed",
-  "FirstMessage": "beatae",
-  "LastMessage": "dolore",
-  "WhenRequested": "2000-12-16T03:24:51.3648436+01:00",
-  "WhenStarted": "2011-07-01T03:24:51.3648436+02:00",
-  "WhenEnded": "2009-05-14T03:24:51.3648436+02:00",
-  "WhenIdle": "2002-08-13T03:24:51.3648436+02:00",
-  "WhenFetched": "2000-08-12T03:24:51.3648436+02:00",
-  "SessionKey": "doloremque",
-  "InitialQueuePos": 130,
-  "AlertLevel": 154,
-  "Rank": 92,
+  "FirstMessage": "aut",
+  "LastMessage": "repellendus",
+  "WhenRequested": "2021-01-24T13:38:17.1087373+01:00",
+  "WhenStarted": "2016-08-30T13:38:17.1087373+02:00",
+  "WhenEnded": "2022-02-09T13:38:17.1087373+01:00",
+  "WhenIdle": "2006-03-07T13:38:17.1087373+01:00",
+  "WhenFetched": "2007-09-09T13:38:17.1087373+02:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 168,
+  "AlertLevel": 533,
+  "Rank": 67,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 586,
+  "Rating": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldType": "System.String",
+      "FieldLength": 1000
     }
   }
 }

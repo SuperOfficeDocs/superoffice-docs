@@ -3,7 +3,7 @@ title: How to configure settings in SuperOffice Settings and maintenance
 uid: configure-superoffice-admin
 description: How to configure document templates for SharePoint Documents
 author: Frode Berntsen
-so.date: 05.10.2023
+so.date: 11.02.2023
 keywords: SharePoint, document, template
 so.topic: howto
 so.envir: cloud
@@ -27,16 +27,37 @@ You select your document library in **Settings and maintenance** > **Preferences
 > [!NOTE]
 > It will be possible to change some of the settings in the Wizard later​.
 
-## Four-step configuration ​wizard
+## Five-step configuration ​wizard
 
-![Microsoft SharePoint Online wizard -screenshot][img1]
+![Microsoft SharePoint Online wizard header -screenshot][img1]
 
 * Each of these steps must be filled in completely before you can move to the next step. The **Next step** button is disabled until you have finished the step.
 * If **Next step** is disabled, use the **Save and Close** button to save your settings so far and return to finish the configuration later.
 * The **Previous step** button takes you back one step.​
 * Click **Discard changes** to cancel your edits.
 
-## Step 1 – Sites and Folders​
+## Step 1 – CRM compatibility
+
+First, we run a set of validation test.
+
+**Microsoft-login only:**
+
+* For your integration to work properly, we support only users with Microsoft login. Users from other vendors / password login will not be able to create, edit, or delete documents, and that will cause problems.
+
+* If not successful, this test will cause an error and you will not be allowed to proceed with the configuration.
+
+    > [!NOTE]
+    > If you need temporary access from consultants, those users must be set to former employees during configuration.
+
+**User names:**
+
+* We check that all users belongs to the same Microsoft domain. If they do not, that could cause issues when applying permissions to or creating SharePoint documents.
+
+* If unsuccessful, this test will cause a warning with information, but you will still be able to proceed with the configuration.
+
+![Microsoft SharePoint Online wizard CRM compatibility check -screenshot][img3]
+
+## Step 2 – Sites and folders​
 
 ### ​SuperOffice documents - location, folders and filenames​
 
@@ -57,7 +78,7 @@ You select your document library in **Settings and maintenance** > **Preferences
 
   ![SuperOffice document templates – Location​ -screenshot][img2]
 
-## Step 2 - Document properties​
+## Step 3 - Document properties​
 
 Select **SuperOffice documents fields** to transfer as SharePoint document properties​.
 
@@ -72,40 +93,35 @@ We recommend that you select all here. These fields will appear as columns in yo
 
     ![SuperOffice documents fields -screenshot][img10]
 
-## <a id="step-3" />Step 3 - Groups and access​
+## <a id="step-4" />Step 4 - Groups and access​
+
+![Groups and access​ -screenshot][img4]
 
 ### Confidentiality in SharePoint (Visible for)
 
 Group access on SharePoint documents based on *Visible for* settings.
 
-* If you plan **NOT to use Visible for**, leave this ticked off​.
-* If you plan to **use Visible for**, tick this checkbox and and follow the next steps.
+* If you plan **NOT to use Visible for**, leave this ticked off.​ Go to the next section.
+* If you plan to **use Visible for** (or already do so), tick this checkbox. Follow the next steps.
+
+To to set permissions on documents in SharePoint, the app needs to have *Read Write* permission to selected site. This is a one-time authorization and will include only the site you have selected for your SuperOffice documents.
 
 ### <a id="apps" />Apps for SuperOffice (system user)
 
-To use any app for SuperOffice that interacts with documents (to use *Visible for*, to migrate documents, or have a third-party app that creates documents in SuperOffice), you need to [enable a system user and add the SuperOffice Document Library app to your SharePoint][2].
+To use any app for SuperOffice that interacts with documents (to use *Visible for*, to migrate documents, or have a third-party app that creates documents in SuperOffice), you need to [enable a system user][2]. We recommend you keep this on and go through the authorization.
 
-​    ![Groups and access​ -screenshot][img4]
+### Authorize
 
-### Confidentiality in SharePoint (Visible for) is ticked on​
+> [!NOTE]
+> This requires authorization by a Microsoft 365 Global Administrator. That user must also be in the owner group of the site (needs owner permission to the site to set Read Write permission)​.
 
-* To to set permissions on documents in SharePoint, the app needs to have *Read Write* permission to selected site. Only a Microsoft 365 Global Administrator can authorize this permissions. This is a one-time authorization and will include only the site you have selected for your SuperOffice documents.
+1. Press **Authorize** to start the authorization process.
 
-* If you are a Microsoft 365 Global Administrator, you can authorize now. If not, you must copy the URL and send it to someone with that role in your organization.​
+    * If you are a Microsoft 365 Global Administrator, you can authorize now.
 
-* That user also needs to be in the owner group of the site (needs owner permission to the site in order to set Read Write permission)​.
+    * If not, you must copy the URL and send it to someone with that role in your organization.​ If you wait for an authorization, you can press **Save and Close** and return to your settings later.
 
-    If you wait for an authorization, you can press **Save and Close** and return to your settings later.
-
-    ![Enable group access on SharePoint documents based on Visible for settings in SuperOffice ticked on -screenshot][img5]
-
-If you wait for an authorization, and return to the Wizard, this page will be shown.
-
-You can also **Check status again** to see if Microsoft 365 Global administrator has authorized the app.
-
-As soon as someone has authorized the SuperOffice app, you will see the next page and will be able to map your SuperOffice user groups to AD-groups within your document library.​
-
-​    ![Has Microsoft 365 Global administrator authorized the app? -screenshot][img6]
+### Map user groups
 
 When the SuperOffice app has been authorized, you can map your SuperOffice user groups to AD-groups within your document library.​
 
@@ -115,7 +131,7 @@ See the [reference of permissions in SharePoint​][1] for more information.
 
   ![Map your SuperOffice user groups to AD-groups within your document library -screenshot][img7]
 
-## Step 4 - Review and confirm​
+## Step 5 - Review and confirm​
 
 ​Read carefully and make sure you have the correct settings. When you are sure, click **Confirm​**.
 
@@ -129,11 +145,10 @@ See the [reference of permissions in SharePoint​][1] for more information.
 [2]: permissions-app.md
 
 <!-- Referenced images -->
-[img1]: media/sharepoint-wizard.png
+[img1]: media/sharepoint-config-wizard.png
 [img2]: media/template-location.png
+[img3]: media/compatibility-check.png
 [img4]: media/groups-and-access.png
-[img5]: media/groups-and-access-2.png
-[img6]: media/groups-and-access-authorization.png
 [img7]: media/groups-and-access-ad.png
 [img8]: media/confirm.png
 [img9]: media/so-admin-document-library.png

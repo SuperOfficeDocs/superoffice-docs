@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 544,
-  "FieldName": "Jakubowski-Ankunding",
-  "Label": "et",
-  "Tooltip": "tenetur",
-  "Editable": false,
+  "QuoteLineConfigurationId": 737,
+  "FieldName": "Wisoky LLC",
+  "Label": "praesentium",
+  "Tooltip": "blanditiis",
+  "Editable": true,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 242,
-  "RestrictEdit": true,
+  "Rank": 818,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldLength": 268
     }
   }
 }

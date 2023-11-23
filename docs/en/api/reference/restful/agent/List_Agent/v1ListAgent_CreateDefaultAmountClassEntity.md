@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 516,
-  "Name": "Mertz, Robel and Ward",
-  "Tooltip": "excepturi",
-  "Rank": 847,
-  "AmountFrom": 4813.824,
-  "AmountTo": 10787.228,
+  "AmountClassId": 300,
+  "Name": "Kemmer Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 763,
+  "AmountFrom": 7114.1799999999994,
+  "AmountTo": 15764.019999999999,
   "Deleted": false,
-  "CurrencyId": 665,
+  "CurrencyId": 764,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 481
     }
   }
 }

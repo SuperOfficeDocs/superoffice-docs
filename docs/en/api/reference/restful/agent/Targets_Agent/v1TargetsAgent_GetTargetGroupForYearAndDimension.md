@@ -83,8 +83,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 202,
-  "DimensionId": 157
+  "TargetYear": 725,
+  "DimensionId": 452
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 24,
-  "Year": 32,
+  "TargetGroupId": 665,
+  "Year": 856,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 707,
+      "TargetAssignmentInfoId": 275,
       "Values": [
-        631,
-        269
+        653,
+        357
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 499,
-      "DimensionListItemDisplayName": "Von Inc and Sons",
+      "DimensionListItem": 359,
+      "DimensionListItemDisplayName": "Harris LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 928
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldType": "System.String",
+      "FieldLength": 303
     }
   }
 }

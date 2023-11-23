@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": false
+  "Children": true
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 948,
+    "HierarchyId": 831,
     "Domain": "Dashboards",
-    "Name": "Moen Group",
-    "Fullname": "recusandae",
-    "ParentId": 925,
+    "Name": "Goyette-Abernathy",
+    "Fullname": "qui",
+    "ParentId": 389,
     "Children": [
       {
-        "HierarchyId": 905,
+        "HierarchyId": 526,
         "Domain": "Dashboards",
-        "Name": "Heaney, Schmidt and Davis",
-        "Fullname": "enim",
-        "ParentId": 287,
+        "Name": "Adams LLC",
+        "Fullname": "quis",
+        "ParentId": 639,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2008-09-10T03:24:47.8926276+02:00",
-        "RegisteredAssociateId": 970,
-        "Updated": "2015-08-08T03:24:47.8926276+02:00",
-        "UpdatedAssociateId": 927,
+        "Registered": "2019-08-05T13:38:13.7021023+02:00",
+        "RegisteredAssociateId": 434,
+        "Updated": "2020-01-11T13:38:13.7021023+01:00",
+        "UpdatedAssociateId": 46,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 789
+            "FieldType": "System.Int32",
+            "FieldLength": 577
           }
         }
       }
     ],
-    "Registered": "2010-12-13T03:24:47.8926276+01:00",
-    "RegisteredAssociateId": 686,
-    "Updated": "2017-06-05T03:24:47.8926276+02:00",
-    "UpdatedAssociateId": 457,
+    "Registered": "2016-07-18T13:38:13.7021023+02:00",
+    "RegisteredAssociateId": 665,
+    "Updated": "2002-03-01T13:38:13.7021023+01:00",
+    "UpdatedAssociateId": 883,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 544
+        "FieldType": "System.Int32",
+        "FieldLength": 155
       }
     }
   }

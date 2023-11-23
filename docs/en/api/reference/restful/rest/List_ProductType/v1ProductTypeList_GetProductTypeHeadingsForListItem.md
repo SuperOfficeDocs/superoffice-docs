@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Maggio-Kunde",
-    "ToolTip": "Dolorum aut ut quia.",
-    "Deleted": true,
-    "Rank": 804,
-    "Type": "enim",
-    "ColorBlock": 744,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2014-05-04T03:24:52.3338241+02:00",
+    "Id": 332,
+    "Name": "Heaney-Runolfsdottir",
+    "ToolTip": "Quam et fugit.",
+    "Deleted": false,
+    "Rank": 433,
+    "Type": "magnam",
+    "ColorBlock": 414,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2002-01-04T13:38:18.1400255+01:00",
     "ChildItems": [
       {
-        "Id": 483,
-        "Name": "Lynch LLC",
-        "ToolTip": "Inventore id beatae quod animi debitis.",
+        "Id": 559,
+        "Name": "Terry-Hodkiewicz",
+        "ToolTip": "Enim laborum sed blanditiis et distinctio nihil rem.",
         "Deleted": false,
-        "Rank": 706,
-        "Type": "voluptatem",
-        "ColorBlock": 16,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2004-01-19T03:24:52.3338241+01:00",
+        "Rank": 872,
+        "Type": "et",
+        "ColorBlock": 465,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "1998-12-12T13:38:18.1400255+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "est",
+        "ExtraInfo": "id",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Mr. Meredith Harris",
+        "FullName": "Kristofer Kenyatta Towne V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 991
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "dicta",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Ms. Brandt Mary Cartwright Jr.",
+    "FullName": "Prof. Harrison Wolff PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 804
       }
     }
   }

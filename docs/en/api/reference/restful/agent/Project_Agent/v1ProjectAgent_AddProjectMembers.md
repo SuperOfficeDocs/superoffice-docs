@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 690,
+  "ProjectEntityId": 276,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 677,
-      "ContactId": 316,
-      "ProjectId": 122,
-      "ContactName": "Rolfson-Bins",
+      "ProjectmemberId": 410,
+      "ContactId": 138,
+      "ProjectId": 467,
+      "ContactName": "Willms Group",
       "ContactDepartment": "",
-      "ProjectName": "Rogahn Group",
-      "EmailId": 691,
-      "EmailAddress": "talon@kuphalhermiston.name",
-      "CountryId": 36,
-      "Firstname": "Steve",
-      "MiddleName": "Streich, Baumbach and Klocko",
-      "Lastname": "Bosco",
-      "PersonId": 474,
-      "Mrmrs": "voluptatem",
-      "ProjectMemberTypeName": "Wiza, Wilkinson and Schaefer",
-      "Phone": "922-027-1414 x76511",
-      "PhoneId": 703,
-      "ProjectMemberTypeId": 984,
-      "EmailAddressName": "tanya@kertzmannhermann.com",
-      "Comment": "quae",
-      "FullName": "Keshaun Hickle"
+      "ProjectName": "Kling-Block",
+      "EmailId": 750,
+      "EmailAddress": "sid_donnelly@boscowalker.co.uk",
+      "CountryId": 586,
+      "Firstname": "Joany",
+      "MiddleName": "Quigley LLC",
+      "Lastname": "Tremblay",
+      "PersonId": 247,
+      "Mrmrs": "qui",
+      "ProjectMemberTypeName": "Harvey-Langosh",
+      "Phone": "1-104-470-7144 x93946",
+      "PhoneId": 647,
+      "ProjectMemberTypeId": 296,
+      "EmailAddressName": "dalton@nader.uk",
+      "Comment": "in",
+      "FullName": "Jadyn Durward Lynch DDS"
     }
   ]
 }

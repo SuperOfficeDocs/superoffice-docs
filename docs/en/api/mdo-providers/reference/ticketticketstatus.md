@@ -21,6 +21,8 @@ The name of the MDO list is 'ticketticketstatus'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |onlyNormal| |true|
+|onlyNormalWithPostponed| |true|
+|ticketType| |1|
 
 Separator: &
 

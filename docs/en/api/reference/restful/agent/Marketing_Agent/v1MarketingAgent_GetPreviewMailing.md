@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 601
+  "ShipmentAddrId": 983
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2003-02-16T03:24:47.9238778+01:00",
+  "SendingTime": "2001-08-11T13:38:13.7333439+02:00",
   "Status": "Blocked",
-  "ShipmentId": 322,
-  "ShipmentDescription": "Enterprise-wide non-volatile flexibility",
-  "FromAddress": "molestiae",
-  "ContactId": 650,
-  "ContactName": "Koch LLC",
-  "PersonId": 763,
-  "PersonFullName": "Mr. Christophe Stokes",
-  "ShipmentType": "voluptatem",
-  "MessageId": 485,
-  "MessageSubject": "quis",
-  "DocumentMessageId": 489,
-  "Opened": "2018-04-28T03:24:47.9238778+02:00",
-  "LinkClicks": 639,
+  "ShipmentId": 900,
+  "ShipmentDescription": "Persevering explicit data-warehouse",
+  "FromAddress": "eaque",
+  "ContactId": 110,
+  "ContactName": "Swaniawski, Lubowitz and Dibbert",
+  "PersonId": 835,
+  "PersonFullName": "Donna Pedro Kshlerin II",
+  "ShipmentType": "rerum",
+  "MessageId": 756,
+  "MessageSubject": "officia",
+  "DocumentMessageId": 388,
+  "Opened": "1998-06-29T13:38:13.7333439+02:00",
+  "LinkClicks": 993,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   }
 }

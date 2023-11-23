@@ -113,7 +113,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "aut",
+  "FieldLabel": "voluptatem",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 430,
-  "ColumnId": 801,
-  "FieldDefault": "atque",
-  "FieldHeight": 539,
-  "FieldLabel": "qui",
-  "FieldLeft": 328,
-  "FieldTop": 122,
+  "UDefFieldId": 100,
+  "ColumnId": 701,
+  "FieldDefault": "assumenda",
+  "FieldHeight": 713,
+  "FieldLabel": "veniam",
+  "FieldLeft": 243,
+  "FieldTop": 781,
   "FieldType": "Checkbox",
-  "FieldWidth": 708,
-  "FormatMask": "fugit",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 454,
-  "LabelLeft": 391,
-  "LabelTop": 810,
-  "LabelWidth": 141,
-  "LastVersionId": 390,
-  "ListTableId": 414,
-  "IsMandatory": true,
+  "FieldWidth": 962,
+  "FormatMask": "deserunt",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 789,
+  "LabelLeft": 757,
+  "LabelTop": 676,
+  "LabelWidth": 123,
+  "LastVersionId": 756,
+  "ListTableId": 163,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 412,
-  "ProgId": "iusto",
-  "IsReadOnly": false,
-  "ShortLabel": "perspiciatis",
-  "TabOrder": 977,
-  "TextLength": 988,
-  "Tooltip": "voluptatem",
-  "UdefIdentity": 120,
-  "UDListDefinitionId": 859,
+  "Page1LineNo": 754,
+  "ProgId": "omnis",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptatibus",
+  "TabOrder": 754,
+  "TextLength": 994,
+  "Tooltip": "ut",
+  "UdefIdentity": 95,
+  "UDListDefinitionId": 252,
   "Justification": "Center",
-  "Version": 845,
-  "TemplateVariableName": "Effertz, Casper and Volkman",
+  "Version": 111,
+  "TemplateVariableName": "Mayert LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Wolff-Johns",
+  "MdoListName": "Klocko-Becker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldType": "System.String",
+      "FieldLength": 170
     }
   }
 }

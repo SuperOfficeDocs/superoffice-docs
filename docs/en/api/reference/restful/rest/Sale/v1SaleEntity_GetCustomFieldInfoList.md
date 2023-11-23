@@ -67,7 +67,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bernier-Ruecker",
-    "DisplayName": "Ferry-Larkin",
-    "Description": "Organized content-based conglomeration",
-    "ShortLabel": "qui",
+    "FieldName": "Hoeger Inc and Sons",
+    "DisplayName": "Halvorson, Jaskolski and Treutel",
+    "Description": "Optimized 5th generation middleware",
+    "ShortLabel": "sed",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": false,
+    "HideField": true,
+    "IsIndexed": true,
     "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "Rank": 21,
-    "TemplateVariableName": "Pollich, O'Kon and Wunsch"
+    "IsReadOnly": false,
+    "IsExternal": false,
+    "Rank": 609,
+    "TemplateVariableName": "Stehr Group"
   }
 ]
 ```

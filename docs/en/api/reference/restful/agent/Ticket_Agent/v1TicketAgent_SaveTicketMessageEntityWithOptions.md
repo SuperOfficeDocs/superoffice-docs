@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    325,
-    209
+    269,
+    483
   ],
-  "UpdateRepliedAt": false
+  "UpdateRepliedAt": true
 }
 ```
 
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 305,
+  "EjMessageId": 115,
   "Ticket": null,
-  "CreatedAt": "2001-07-26T03:24:48.5028909+02:00",
+  "CreatedAt": "2016-01-05T13:38:14.3115522+01:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "doloremque",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quam",
-  "TimeSpent": 851,
-  "Body": "ut",
-  "HtmlBody": "recusandae",
-  "EmailHeader": "chaim@kovacek.biz",
-  "DebugInfo": "quisquam",
-  "MailSorter": "tempora",
+  "MessageId": "adipisci",
+  "TimeSpent": 392,
+  "Body": "modi",
+  "HtmlBody": "ea",
+  "EmailHeader": "brett_damore@osinski.co.uk",
+  "DebugInfo": "qui",
+  "MailSorter": "culpa",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatum",
+  "SearchTitle": "id",
   "MessageHeaders": [
     {
-      "Id": 714,
-      "Name": "Franecki-Weissnat",
-      "Value": "ut",
+      "Id": 722,
+      "Name": "Glover-Moore",
+      "Value": "aliquam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,49 +151,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldLength": 566
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "velit",
-  "Sentiment": 951,
-  "SentimentConfidence": 445,
+  "Important": true,
+  "Language": "voluptatem",
+  "Sentiment": 577,
+  "SentimentConfidence": 82,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 402,
-      "Name": "Schoen Inc and Sons",
-      "ContentType": "hic",
-      "AttSize": 876,
-      "InlineImage": false,
-      "ContentId": "est",
-      "AuthKey": "recusandae",
+      "AttachmentId": 655,
+      "Name": "Wunsch, Herman and Glover",
+      "ContentType": "at",
+      "AttSize": 350,
+      "InlineImage": true,
+      "ContentId": "eos",
+      "AuthKey": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 15
+          "FieldType": "System.Int32",
+          "FieldLength": 878
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "dolorum"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "animi"
+    "CustomFields1": "vel",
+    "CustomFields2": "fugiat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldType": "System.Int32",
+      "FieldLength": 671
     }
   }
 }

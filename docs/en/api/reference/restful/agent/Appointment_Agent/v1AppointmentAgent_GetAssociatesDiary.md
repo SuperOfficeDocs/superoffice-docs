@@ -114,6 +114,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -126,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    705,
-    124
+    399,
+    726
   ],
-  "StartTime": "2012-12-31T03:24:46.9550719+01:00",
-  "EndTime": "2010-08-07T03:24:46.9550719+02:00"
+  "StartTime": "2001-08-06T13:38:12.8740699+02:00",
+  "EndTime": "2006-10-05T13:38:12.8740699+02:00"
 }
 ```
 
@@ -147,64 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 154,
-    "StartDate": "1997-03-22T03:24:46.9550719+01:00",
-    "EndDate": "1997-06-04T03:24:46.9550719+02:00",
+    "AppointmentId": 884,
+    "StartDate": "2020-09-05T13:38:12.8740699+02:00",
+    "EndDate": "2013-01-18T13:38:12.8740699+01:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Johnnie Lakin",
-    "ContactName": "Cummings-O'Conner",
-    "Description": "Re-contextualized assymetric leverage",
-    "PersonFullName": "Stephanie Strosin",
-    "PersonId": 575,
-    "ContactId": 800,
-    "ProjectId": 125,
-    "ProjectName": "Smith, D'Amore and Cormier",
-    "IsPublished": true,
-    "AssociateId": 560,
-    "ColorIndex": 744,
+    "Task": "magni",
+    "AssociateFullName": "Ayana Von",
+    "ContactName": "Barton, Kuvalis and Heaney",
+    "Description": "Team-oriented optimizing software",
+    "PersonFullName": "Pansy Leuschke",
+    "PersonId": 568,
+    "ContactId": 659,
+    "ProjectId": 496,
+    "ProjectName": "Botsford Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 277,
+    "ColorIndex": 429,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 138,
-    "PriorityName": "Turcotte-Zulauf",
+    "PriorityId": 956,
+    "PriorityName": "Halvorson Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "1996-11-28T03:24:46.9550719+01:00",
+    "ActiveDate": "2009-08-22T13:38:12.8740699+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-12-21T03:24:46.9550719+01:00",
-    "RecurringEndDate": "2021-02-04T03:24:46.9550719+01:00",
-    "MotherId": 454,
-    "AssignedBy": 178,
-    "AssignedByFullName": "Felton Hauck",
+    "RecurringStartDate": "2011-11-17T13:38:12.8740699+01:00",
+    "RecurringEndDate": "1999-01-03T13:38:12.8740699+01:00",
+    "MotherId": 987,
+    "AssignedBy": 128,
+    "AssignedByFullName": "Russell Kuhn",
     "RejectReason": "",
-    "Location": "eveniet",
-    "AlarmLeadTime": "soluta",
-    "SaleId": 573,
-    "SaleName": "Reichel, Kunze and Paucek",
-    "AssociateName": "Cruickshank Group",
-    "CreatedDate": "2014-06-15T03:24:46.9550719+02:00",
-    "CreatedBy": "suscipit",
-    "CreatedByFullName": "Jackson Joana Powlowski II",
-    "CreatedByAssociateId": 91,
+    "Location": "debitis",
+    "AlarmLeadTime": "commodi",
+    "SaleId": 347,
+    "SaleName": "Osinski-Walsh",
+    "AssociateName": "Borer, Stamm and Armstrong",
+    "CreatedDate": "2013-01-20T13:38:12.8740699+01:00",
+    "CreatedBy": "alias",
+    "CreatedByFullName": "Dr. Guillermo Hagenes",
+    "CreatedByAssociateId": 72,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "ullam",
-    "Agenda": "rerum",
-    "InternalNotes": "doloremque",
+    "PreferredTZLocation": 239,
+    "Title": "voluptatem",
+    "Agenda": "optio",
+    "InternalNotes": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 640
+        "FieldType": "System.Int32",
+        "FieldLength": 250
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 471,
-  "BlobSize": 479,
-  "Description": "Synchronised zero administration data-warehouse",
-  "ExtraInfo": "unde",
-  "IsEncrypted": false,
+  "BlobId": 178,
+  "BlobSize": 348,
+  "Description": "Devolved cohesive access",
+  "ExtraInfo": "architecto",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "sunt",
-  "OriginalSize": 128,
-  "CreatedDate": "2019-11-26T03:24:47.2520803+01:00",
-  "UpdatedDate": "2009-06-04T03:24:47.2520803+02:00",
+  "MimeType": "qui",
+  "OriginalSize": 727,
+  "CreatedDate": "2015-01-11T13:38:13.0927968+01:00",
+  "UpdatedDate": "2000-05-02T13:38:13.0927968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "delectus",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldLength": 768
     }
   }
 }

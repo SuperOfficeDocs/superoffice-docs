@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolor",
-  "ProviderName": "Littel-Harber",
-  "StorageKey": "voluptatum",
+  "StorageType": "accusantium",
+  "ProviderName": "Marquardt, Nitzsche and Baumbach",
+  "StorageKey": "architecto",
   "RestrictionGroup": null,
-  "Context": "officia"
+  "Context": "inventore"
 }
 ```
 

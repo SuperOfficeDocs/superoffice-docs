@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 431,
-    "Name": "Gottlieb Group",
-    "Tooltip": "perferendis",
+    "Id": 973,
+    "Name": "Aufderhar Inc and Sons",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 994,
+    "Rank": 797,
     "IsCustomList": false,
-    "IsMDOList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "blanditiis",
+    "ListType": "deleniti",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 520
+        "FieldLength": 73
       }
     }
   }

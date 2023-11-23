@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 544,
-  "Name": "Grimes LLC",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 172,
+  "Id": 171,
+  "Name": "Bartoletti, Herman and Sporer",
+  "Tooltip": "nesciunt",
+  "Deleted": false,
+  "Rank": 620,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
+  "ListType": "aut",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 342,
-  "Name": "Ernser Inc and Sons",
-  "Tooltip": "neque",
+  "Id": 834,
+  "Name": "Kilback Group",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 708,
+  "Rank": 368,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ullam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

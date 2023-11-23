@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 408,
-  "PersonId": 451,
-  "AppointmentId": 608,
-  "DocumentId": 129,
-  "SaleId": 425,
-  "SelectionId": 38,
-  "ProjectId": 800,
-  "UiCulture": "porro"
+  "ContactId": 23,
+  "PersonId": 221,
+  "AppointmentId": 909,
+  "DocumentId": 431,
+  "SaleId": 595,
+  "SelectionId": 326,
+  "ProjectId": 6,
+  "UiCulture": "delectus"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 262,
+  "DocumentId": 771,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "explicabo",
-  "Header": "consequatur",
-  "Name": "Zboncak Group",
-  "OurRef": "sit",
-  "YourRef": "est",
-  "CreatedDate": "1998-09-25T03:24:47.6739096+02:00",
-  "UpdatedDate": "2012-06-14T03:24:47.6739096+02:00",
-  "Description": "Total tangible database",
+  "Attention": "velit",
+  "Header": "ut",
+  "Name": "Oberbrunner LLC",
+  "OurRef": "distinctio",
+  "YourRef": "asperiores",
+  "CreatedDate": "2015-03-16T13:38:13.4833723+01:00",
+  "UpdatedDate": "2013-06-09T13:38:13.4833723+02:00",
+  "Description": "Open-architected optimal info-mediaries",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-07-30T03:24:47.6739096+02:00",
-  "ExternalRef": "inventore",
+  "Date": "2022-11-10T13:38:13.4833723+01:00",
+  "ExternalRef": "quo",
   "Completed": "Completed",
-  "ActiveLinks": 738,
+  "ActiveLinks": 622,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Little, Smitham and Hilpert",
-      "Id": 972,
-      "Description": "Business-focused well-modulated firmware",
-      "ExtraInfo": "minima",
-      "LinkId": 115,
+      "EntityName": "Wunsch-Cole",
+      "Id": 575,
+      "Description": "Up-sized explicit service-desk",
+      "ExtraInfo": "assumenda",
+      "LinkId": 705,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldLength": 812
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 82,
-  "Snum": 427,
+  "SuggestedDocumentId": 303,
+  "Snum": 605,
   "UserDefinedFields": {
-    "SuperOffice:1": "1715527706",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1211627395",
+    "SuperOffice:2": "Dillan O'Connell"
   },
   "ExtraFields": {
-    "ExtraFields1": "cum",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "odio",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "in"
+    "CustomFields1": "eum",
+    "CustomFields2": "laboriosam"
   },
-  "PublishEventDate": "2023-01-26T03:24:47.6739096+01:00",
-  "PublishTo": "2015-11-16T03:24:47.6739096+01:00",
-  "PublishFrom": "2012-05-26T03:24:47.6739096+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2019-02-09T13:38:13.4833723+01:00",
+  "PublishTo": "2008-01-17T13:38:13.4833723+01:00",
+  "PublishFrom": "1996-07-07T13:38:13.4833723+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 232,
+      "VisibleId": 103,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldLength": 807
         }
       }
     },
     {
-      "VisibleId": 232,
+      "VisibleId": 103,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldLength": 807
         }
       }
     }
@@ -228,7 +228,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 240
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Becker, Purdy and Zulauf",
-    "DisplayName": "Wolff-Osinski",
-    "Description": "Polarised methodical algorithm",
-    "ShortLabel": "eius",
-    "HideLabel": true,
+    "FieldName": "Jones, Price and Powlowski",
+    "DisplayName": "Ruecker-DuBuque",
+    "Description": "Stand-alone interactive matrices",
+    "ShortLabel": "vel",
+    "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsIndexed": false,
+    "IsMandatory": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 615,
-    "TemplateVariableName": "Altenwerth-Pfannerstill"
+    "Rank": 271,
+    "TemplateVariableName": "Kulas LLC"
   }
 ]
 ```

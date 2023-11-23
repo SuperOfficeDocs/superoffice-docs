@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Connelly-Nader",
-  "Culture": "temporibus",
-  "IsActive": true
+  "ResourceName": "Bernhard-McKenzie",
+  "Culture": "perspiciatis",
+  "IsActive": false
 }
 ```
 

@@ -87,8 +87,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 600,
-  "Data": "ex"
+  "TicketId": 528,
+  "Data": "quaerat"
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 487,
-  "Title": "labore",
-  "OwnerName": "Schmitt, Armstrong and Schulist",
+  "TicketId": 898,
+  "Title": "laborum",
+  "OwnerName": "Robel-Reynolds",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Parisian, Boyer and Hermiston",
+  "PriorityName": "Bogisich, Cronin and Bosco",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Rippin Group",
-  "ContactName": "Prosacco LLC",
+  "PersonName": "Wyman, Johns and Kuvalis",
+  "ContactName": "Kirlin Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldType": "System.Int32",
+      "FieldLength": 393
     }
   }
 }

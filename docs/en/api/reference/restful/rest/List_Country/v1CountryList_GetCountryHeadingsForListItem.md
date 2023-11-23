@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Bruen-Glover",
-    "ToolTip": "Id sit ratione sint quia earum.",
+    "Id": 517,
+    "Name": "Wiza-Kuphal",
+    "ToolTip": "Non odit ipsam libero impedit.",
     "Deleted": false,
-    "Rank": 320,
-    "Type": "itaque",
-    "ColorBlock": 547,
-    "IconHint": "ut",
+    "Rank": 604,
+    "Type": "necessitatibus",
+    "ColorBlock": 743,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2021-05-09T03:24:52.2088405+02:00",
+    "LastChanged": "2000-05-28T13:38:18.0150452+02:00",
     "ChildItems": [
       {
-        "Id": 678,
-        "Name": "Gibson Inc and Sons",
-        "ToolTip": "Amet quidem aut aut cum qui.",
+        "Id": 181,
+        "Name": "Kiehn LLC",
+        "ToolTip": "Maxime aut.",
         "Deleted": false,
-        "Rank": 447,
-        "Type": "quaerat",
-        "ColorBlock": 711,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2004-08-16T03:24:52.2088405+02:00",
+        "Rank": 158,
+        "Type": "aut",
+        "ColorBlock": 736,
+        "IconHint": "laborum",
+        "Selected": false,
+        "LastChanged": "2018-06-15T13:38:18.0150452+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "quis",
-        "StyleHint": "facilis",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Judah Jast",
+        "FullName": "Mrs. Stephany Genesis Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 529
+            "FieldType": "System.String",
+            "FieldLength": 26
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quos",
-    "Hidden": true,
-    "FullName": "Martina Herzog",
+    "ExtraInfo": "rem",
+    "StyleHint": "commodi",
+    "Hidden": false,
+    "FullName": "Maymie Kris Conroy Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 527
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 190,
-    "Name": "Sipes-Schamberger",
-    "ContentType": "rerum",
-    "AttSize": 58,
+    "AttachmentId": 388,
+    "Name": "Greenfelder, Bins and Roob",
+    "ContentType": "pariatur",
+    "AttSize": 448,
     "InlineImage": true,
-    "ContentId": "quo",
-    "AuthKey": "cum",
+    "ContentId": "tempore",
+    "AuthKey": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldType": "System.String",
+        "FieldLength": 663
       }
     }
   }

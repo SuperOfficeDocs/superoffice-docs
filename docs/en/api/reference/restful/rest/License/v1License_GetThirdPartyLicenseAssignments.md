@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 337,
-    "Tooltip": "soluta",
-    "CanAssign": true,
-    "Free": 681,
-    "InUse": 681,
-    "IsHidden": true,
+    "Unrestricted": false,
+    "Total": 778,
+    "Tooltip": "praesentium",
+    "CanAssign": false,
+    "Free": 636,
+    "InUse": 410,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 842,
-    "Name": "Eichmann, Ledner and Wintheiser",
-    "Description": "Exclusive analyzing contingency",
-    "PrerequisiteModuleName": "Collins Group",
-    "SortOrder": 916,
-    "ExtraFlags": 207,
+    "ModuleLicenseId": 169,
+    "Name": "Dibbert-Wilderman",
+    "Description": "Diverse 3rd generation capability",
+    "PrerequisiteModuleName": "Osinski, Gleichner and Heathcote",
+    "SortOrder": 297,
+    "ExtraFlags": 692,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldType": "System.String",
+        "FieldLength": 93
       }
     }
   }

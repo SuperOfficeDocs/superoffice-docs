@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 928,
-  "Name": "Hoeger Group",
-  "Description": "Switchable content-based flexibility",
-  "WelcomeMessage": "saepe",
+  "ChatTopicId": 69,
+  "Name": "Jakubowski Group",
+  "Description": "Optional static time-frame",
+  "WelcomeMessage": "cumque",
   "Language": null,
-  "LastAccept": "2005-04-25T03:24:47.2833249+02:00",
-  "SecondsPrAccept": 209,
-  "AlertRecipient": "reprehenderit",
+  "LastAccept": "2000-06-14T13:38:13.1240408+02:00",
+  "SecondsPrAccept": 56,
+  "AlertRecipient": "ducimus",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "aut",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "officia",
-  "WarnNewChatMinutes": 457,
-  "WarnManagerNewChatMinutes": 431,
+  "CollectConsent": false,
+  "BadgeHeader": "a",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "magni",
+  "WarnNewChatMinutes": 65,
+  "WarnManagerNewChatMinutes": 387,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 169,
-  "WarnManagerChatMessageMinutes": 695,
+  "WarnChatMessageMinutes": 514,
+  "WarnManagerChatMessageMinutes": 493,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 396,
-  "OfflineFormQueueLength": 353,
+  "OfflineFormTimeLimit": 154,
+  "OfflineFormQueueLength": 773,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "adipisci",
+  "WidgetRatingText": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldLength": 240
     }
   }
 }

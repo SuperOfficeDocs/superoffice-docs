@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,58 +73,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sauer Inc and Sons",
-    "Description": "Implemented tangible extranet",
-    "Rank": 886,
+    "Name": "Miller-Kihn",
+    "Description": "Function-based intangible support",
+    "Rank": 90,
     "Restrictions": [
       {
-        "Name": "Kohler-Orn",
-        "Operator": "totam",
+        "Name": "Wilkinson Inc and Sons",
+        "Operator": "quo",
         "Values": [
-          "itaque",
-          "vel"
+          "facere",
+          "ut"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "et"
+          "voluptate",
+          "dolor"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 543,
+        "InterParenthesis": 944,
         "InterOperator": "And",
-        "UniqueHash": 395
+        "UniqueHash": 983
       }
     ]
   },
   {
-    "Name": "Sauer Inc and Sons",
-    "Description": "Implemented tangible extranet",
-    "Rank": 886,
+    "Name": "Miller-Kihn",
+    "Description": "Function-based intangible support",
+    "Rank": 90,
     "Restrictions": [
       {
-        "Name": "Kohler-Orn",
-        "Operator": "totam",
+        "Name": "Wilkinson Inc and Sons",
+        "Operator": "quo",
         "Values": [
-          "itaque",
-          "vel"
+          "facere",
+          "ut"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "et"
+          "voluptate",
+          "dolor"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 543,
+        "InterParenthesis": 944,
         "InterOperator": "And",
-        "UniqueHash": 395
+        "UniqueHash": 983
       }
     ]
   }

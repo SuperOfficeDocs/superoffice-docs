@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Reynolds, Koch and Bernhard",
+  "ProviderName": "Weber-Conroy",
   "Restrictions": [
     {
-      "Name": "Flatley, Dach and Swift",
-      "Operator": "maxime",
+      "Name": "Abernathy-Franecki",
+      "Operator": "officia",
       "Values": [
-        "aliquam",
-        "cupiditate"
+        "sed",
+        "aut"
       ],
       "DisplayValues": [
-        "consectetur",
-        "libero"
+        "aut",
+        "quis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 550,
+      "InterParenthesis": 613,
       "InterOperator": "And",
-      "UniqueHash": 527
+      "UniqueHash": 240
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  789,
-  65
+  794,
+  727
 ]
 ```

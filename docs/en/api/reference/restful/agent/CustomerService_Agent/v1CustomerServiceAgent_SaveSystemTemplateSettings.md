@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 177,
-  "CustomerCustomerReplyTemplateId": 530,
-  "CustomerPasswordTemplateId": 841,
-  "CustomerConfirmEmailTemplateId": 31,
-  "CustomerChatLogTemplateId": 8,
-  "NewLinkTemplateId": 228,
-  "HotlistNewMessageTemplateId": 848,
-  "HotlistTicketActivatedTemplateId": 470,
-  "UserTicketAlarmTemplateId": 782,
-  "HotlistTicketTakenOverTemplateId": 586,
-  "UserActiveTicketsTemplateId": 603,
-  "UserNewMessageTemplateId": 966,
-  "UserTicketActivatedTemplateId": 937,
-  "UserNewTicketTemplateId": 946,
-  "PublishKbQuestionTemplateId": 581,
-  "PublishKbAnswerTemplateId": 59,
-  "UserTicketTakenOverTemplateId": 245,
-  "PrintTicketTemplateId": 880,
-  "WeekStatTemplateId": 407,
-  "TicketAlarmHotlistTemplateId": 458,
-  "EmailAddresses": "leda@gibson.us",
+  "CustomerNewCustomerTemplateId": 10,
+  "CustomerCustomerReplyTemplateId": 600,
+  "CustomerPasswordTemplateId": 172,
+  "CustomerConfirmEmailTemplateId": 387,
+  "CustomerChatLogTemplateId": 847,
+  "NewLinkTemplateId": 65,
+  "HotlistNewMessageTemplateId": 950,
+  "HotlistTicketActivatedTemplateId": 949,
+  "UserTicketAlarmTemplateId": 378,
+  "HotlistTicketTakenOverTemplateId": 937,
+  "UserActiveTicketsTemplateId": 508,
+  "UserNewMessageTemplateId": 991,
+  "UserTicketActivatedTemplateId": 127,
+  "UserNewTicketTemplateId": 135,
+  "PublishKbQuestionTemplateId": 828,
+  "PublishKbAnswerTemplateId": 986,
+  "UserTicketTakenOverTemplateId": 882,
+  "PrintTicketTemplateId": 181,
+  "WeekStatTemplateId": 171,
+  "TicketAlarmHotlistTemplateId": 424,
+  "EmailAddresses": "alia_hills@mayer.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldLength": 593
     }
   }
 }

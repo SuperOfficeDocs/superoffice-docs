@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 863,
-  "Name": "Medhurst, Dach and Skiles",
-  "Tooltip": "labore",
+  "Id": 915,
+  "Name": "Bahringer-Ebert",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "UdListDefinitionId": 938,
-  "Rank": 196,
+  "UdListDefinitionId": 30,
+  "Rank": 280,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldType": "System.String",
+      "FieldLength": 643
     }
   }
 }

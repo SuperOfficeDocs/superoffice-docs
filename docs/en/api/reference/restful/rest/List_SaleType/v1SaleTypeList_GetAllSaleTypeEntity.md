@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=False
+GET /api/v1/List/SaleType/Items?includeDeleted=True
 ```
 
 
@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 340,
-    "Name": "Schneider, Kuhn and Rath",
-    "Tooltip": "incidunt",
-    "Rank": 777,
+    "SaleTypeId": 60,
+    "Name": "Bashirian-Russel",
+    "Tooltip": "ullam",
+    "Rank": 776,
     "DurationUnit": "Century",
-    "SaleDuration": 610,
-    "SaleTypeCatId": 555,
+    "SaleDuration": 235,
+    "SaleTypeCatId": 288,
     "Deleted": false,
     "HasGuide": true,
-    "HasStakeholders": false,
+    "HasStakeholders": true,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 27,
-    "QuoteLinesTemplate": 524,
-    "ConfirmationLinesTemplate": 994,
+    "DefaultQuoteValidity": 353,
+    "QuoteLinesTemplate": 335,
+    "ConfirmationLinesTemplate": 179,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 254,
-    "MinEarningPercent": 492,
-    "GroupQuoteLinesBy": 11,
-    "SortGroupLinesBy": 264,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 222,
+    "MinEarningPercent": 920,
+    "GroupQuoteLinesBy": 709,
+    "SortGroupLinesBy": 55,
     "Stages": [
       {
-        "Id": 632,
-        "Name": "VonRueden, Koss and Lind",
-        "ToolTip": "Placeat facere incidunt ducimus quia mollitia.",
+        "Id": 19,
+        "Name": "Gorczany, Reinger and Jenkins",
+        "ToolTip": "Eligendi reprehenderit deleniti quis.",
         "Deleted": true,
-        "Rank": 810,
-        "Type": "ipsum",
-        "ColorBlock": 383,
-        "IconHint": "quidem",
-        "Selected": false,
-        "LastChanged": "2001-02-28T03:24:52.4119449+01:00",
+        "Rank": 873,
+        "Type": "nobis",
+        "ColorBlock": 691,
+        "IconHint": "error",
+        "Selected": true,
+        "LastChanged": "1999-06-19T13:38:18.2181419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "est",
+        "ExtraInfo": "magnam",
+        "StyleHint": "doloremque",
         "Hidden": true,
-        "FullName": "Henriette Boehm",
+        "FullName": "Ms. Wiley Calista VonRueden Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 903
+            "FieldLength": 334
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 201
       }
     }
   }

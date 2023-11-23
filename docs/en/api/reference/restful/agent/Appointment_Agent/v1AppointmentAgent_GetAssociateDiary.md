@@ -115,6 +115,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -127,14 +128,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 375,
-  "StartTime": "2002-12-04T03:24:46.9550719+01:00",
-  "EndTime": "2003-11-13T03:24:46.9550719+01:00",
-  "Count": 722
+  "AssociateId": 698,
+  "StartTime": "2019-09-11T13:38:12.8740699+02:00",
+  "EndTime": "2008-09-12T13:38:12.8740699+02:00",
+  "Count": 14
 }
 ```
 
@@ -146,64 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 598,
-    "StartDate": "2016-09-18T03:24:46.9550719+02:00",
-    "EndDate": "2008-04-06T03:24:46.9550719+02:00",
+    "AppointmentId": 47,
+    "StartDate": "2021-05-12T13:38:12.8740699+02:00",
+    "EndDate": "2001-07-30T13:38:12.8740699+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ad",
-    "AssociateFullName": "Mr. Bradly Irwin Reinger",
-    "ContactName": "Zulauf, Hahn and Schaefer",
-    "Description": "User-friendly system-worthy paradigm",
-    "PersonFullName": "Susie Stroman",
-    "PersonId": 485,
-    "ContactId": 633,
-    "ProjectId": 949,
-    "ProjectName": "Greenholt LLC",
-    "IsPublished": false,
-    "AssociateId": 679,
-    "ColorIndex": 642,
-    "IsFree": true,
+    "Task": "ex",
+    "AssociateFullName": "Travis Bailey",
+    "ContactName": "Zemlak, Mohr and Kuvalis",
+    "Description": "Quality-focused cohesive approach",
+    "PersonFullName": "Rachel Swaniawski",
+    "PersonId": 484,
+    "ContactId": 57,
+    "ProjectId": 412,
+    "ProjectName": "Beatty-Pagac",
+    "IsPublished": true,
+    "AssociateId": 794,
+    "ColorIndex": 167,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 909,
-    "PriorityName": "Welch-Effertz",
+    "PriorityId": 129,
+    "PriorityName": "Auer, Wolff and Rohan",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2019-07-07T03:24:46.9550719+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2021-02-27T13:38:12.8740699+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-12-03T03:24:46.9550719+01:00",
-    "RecurringEndDate": "2009-12-01T03:24:46.9550719+01:00",
-    "MotherId": 276,
-    "AssignedBy": 1001,
-    "AssignedByFullName": "Ms. Georgette Sauer Sr.",
-    "RejectReason": "",
-    "Location": "iusto",
-    "AlarmLeadTime": "deleniti",
-    "SaleId": 157,
-    "SaleName": "Mitchell Group",
-    "AssociateName": "Mayer-Goodwin",
-    "CreatedDate": "2006-06-20T03:24:46.9550719+02:00",
-    "CreatedBy": "id",
-    "CreatedByFullName": "Garret DuBuque DVM",
-    "CreatedByAssociateId": 211,
+    "RecurringStartDate": "2010-01-02T13:38:12.8740699+01:00",
+    "RecurringEndDate": "2003-10-04T13:38:12.8740699+02:00",
+    "MotherId": 198,
+    "AssignedBy": 359,
+    "AssignedByFullName": "Prof. Marian Kristoffer Crist",
+    "RejectReason": "mesh transparent interfaces",
+    "Location": "et",
+    "AlarmLeadTime": "dolor",
+    "SaleId": 425,
+    "SaleName": "Bahringer Inc and Sons",
+    "AssociateName": "Renner LLC",
+    "CreatedDate": "2005-10-27T13:38:12.8740699+02:00",
+    "CreatedBy": "illo",
+    "CreatedByFullName": "Lisette Skiles",
+    "CreatedByAssociateId": 960,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "commodi",
-    "Agenda": "et",
-    "InternalNotes": "vel",
+    "PreferredTZLocation": 270,
+    "Title": "vel",
+    "Agenda": "consequatur",
+    "InternalNotes": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldType": "System.String",
+        "FieldLength": 770
       }
     }
   }

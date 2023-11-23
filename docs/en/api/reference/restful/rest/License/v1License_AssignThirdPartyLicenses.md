@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 192,
-    "Tooltip": "laudantium",
+    "Unrestricted": true,
+    "Total": 827,
+    "Tooltip": "sunt",
     "CanAssign": true,
-    "Free": 523,
-    "InUse": 105,
+    "Free": 557,
+    "InUse": 134,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 818,
-    "Name": "Huel Group",
-    "Description": "Horizontal assymetric internet solution",
-    "PrerequisiteModuleName": "Beatty Group",
-    "SortOrder": 78,
-    "ExtraFlags": 529,
+    "Assigned": false,
+    "ModuleLicenseId": 277,
+    "Name": "Mayert Group",
+    "Description": "Horizontal systemic project",
+    "PrerequisiteModuleName": "Mueller Inc and Sons",
+    "SortOrder": 384,
+    "ExtraFlags": 414,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldType": "System.String",
+        "FieldLength": 508
       }
     }
   }

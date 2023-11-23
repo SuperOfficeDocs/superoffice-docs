@@ -64,13 +64,13 @@ No Content
 POST /api/v1/Agents/FreeText/DeleteStopWordsById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "StopWordIds": [
-    309,
-    404
+    212,
+    811
   ]
 }
 ```

@@ -114,6 +114,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,7 +131,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 137
+  "Count": 601
 }
 ```
 
@@ -142,64 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 84,
-    "StartDate": "2023-05-09T03:24:47.2052134+02:00",
-    "EndDate": "2008-02-14T03:24:47.2052134+01:00",
+    "AppointmentId": 256,
+    "StartDate": "2006-02-05T13:38:13.0459237+01:00",
+    "EndDate": "1999-02-20T13:38:13.0459237+01:00",
     "Type": "BookingForChecklist",
-    "Task": "culpa",
-    "AssociateFullName": "Izaiah Langosh",
-    "ContactName": "Upton-Koch",
-    "Description": "Configurable bandwidth-monitored knowledge base",
-    "PersonFullName": "Spencer Wilderman Jr.",
-    "PersonId": 181,
-    "ContactId": 594,
-    "ProjectId": 710,
-    "ProjectName": "Towne-Hoeger",
-    "IsPublished": false,
-    "AssociateId": 797,
-    "ColorIndex": 107,
+    "Task": "voluptates",
+    "AssociateFullName": "Veronica Tremblay",
+    "ContactName": "Kirlin-Kilback",
+    "Description": "Fundamental real-time process improvement",
+    "PersonFullName": "Sallie Zulauf",
+    "PersonId": 590,
+    "ContactId": 922,
+    "ProjectId": 147,
+    "ProjectName": "Greenfelder, Steuber and Nienow",
+    "IsPublished": true,
+    "AssociateId": 872,
+    "ColorIndex": 169,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 641,
-    "PriorityName": "Purdy-Osinski",
+    "PriorityId": 739,
+    "PriorityName": "Auer Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2015-07-05T03:24:47.2052134+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2015-04-08T13:38:13.0459237+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-10-22T03:24:47.2052134+02:00",
-    "RecurringEndDate": "2009-08-18T03:24:47.2052134+02:00",
-    "MotherId": 690,
-    "AssignedBy": 215,
-    "AssignedByFullName": "Mavis Wisoky",
+    "RecurringStartDate": "1997-08-01T13:38:13.0459237+02:00",
+    "RecurringEndDate": "2014-04-13T13:38:13.0459237+02:00",
+    "MotherId": 922,
+    "AssignedBy": 989,
+    "AssignedByFullName": "Kaelyn Klein",
     "RejectReason": "",
-    "Location": "similique",
-    "AlarmLeadTime": "accusantium",
-    "SaleId": 265,
-    "SaleName": "Rolfson LLC",
-    "AssociateName": "Kutch, Marvin and Pfeffer",
-    "CreatedDate": "2017-06-04T03:24:47.2052134+02:00",
-    "CreatedBy": "id",
-    "CreatedByFullName": "Mr. Narciso Jayde Will",
-    "CreatedByAssociateId": 117,
+    "Location": "non",
+    "AlarmLeadTime": "voluptas",
+    "SaleId": 389,
+    "SaleName": "Huel, Kirlin and Kub",
+    "AssociateName": "Ankunding Inc and Sons",
+    "CreatedDate": "2006-04-15T13:38:13.0459237+02:00",
+    "CreatedBy": "repudiandae",
+    "CreatedByFullName": "Dr. Anastacio Kasandra Schuster II",
+    "CreatedByAssociateId": 248,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "consequatur",
-    "Agenda": "aut",
-    "InternalNotes": "commodi",
+    "PreferredTZLocation": 524,
+    "Title": "corrupti",
+    "Agenda": "accusantium",
+    "InternalNotes": "voluptate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 981,
-  "Name": "Johns, Bogan and Kuhlman",
-  "Tooltip": "consequatur",
+  "HeadingId": 808,
+  "Name": "Willms Group",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 334,
-  "UdListDefinitionId": 366
+  "Rank": 944,
+  "UdListDefinitionId": 721
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 575,
-  "Name": "Adams-Hackett",
-  "Tooltip": "facere",
-  "Deleted": true,
-  "Rank": 111,
-  "UdListDefinitionId": 298,
+  "HeadingId": 225,
+  "Name": "Blanda LLC",
+  "Tooltip": "voluptates",
+  "Deleted": false,
+  "Rank": 657,
+  "UdListDefinitionId": 675,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 155
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   }
 }

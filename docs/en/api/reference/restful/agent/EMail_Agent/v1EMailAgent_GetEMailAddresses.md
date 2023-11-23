@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    864,
-    795
+    840,
+    791
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 679,
-    "ContactName": "Christiansen Group",
-    "PersonId": 461,
-    "PersonName": "Wiegand Inc and Sons",
-    "AssociateId": 348,
-    "Address": "doloremque",
-    "EmailId": 590,
+    "ContactId": 52,
+    "ContactName": "Kihn LLC",
+    "PersonId": 69,
+    "PersonName": "Glover, Herzog and Gottlieb",
+    "AssociateId": 191,
+    "Address": "dolores",
+    "EmailId": 99,
     "DuplicatePersonIds": [
-      996,
-      276
+      910,
+      332
     ],
-    "Name": "Goyette, Frami and Dietrich",
+    "Name": "Runolfsson, Langworth and Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldType": "System.String",
+        "FieldLength": 521
       }
     }
   }

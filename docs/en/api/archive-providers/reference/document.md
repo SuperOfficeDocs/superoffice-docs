@@ -692,7 +692,7 @@ Archive provider for Document type activities. This provider can be used on its 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Document?$select=userGroup,person/personAddress/formattedMultiLineAddress,person/personExtra/x_person_date,person/personAssociate/lastName,person/personAssociate/role
+GET /api/v1/archive/Document?$select=suggestedDocumentId,person/personPrivate/description,person/correspondingAssociate/assocName,contact/contactUdef/SuperOffice:9,contact/NumberOfTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

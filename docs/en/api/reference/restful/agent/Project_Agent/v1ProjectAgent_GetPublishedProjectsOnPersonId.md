@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 601
+  "PersonId": 397
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 910,
-    "Name": "Stiedemann, Okuneva and Kutch",
-    "Description": "Switchable transitional flexibility",
+    "ProjectId": 345,
+    "Name": "Strosin-Little",
+    "Description": "Advanced exuding definition",
     "URL": "http://www.example.com/",
-    "Type": "ut",
-    "AssociateId": 195,
-    "AssociateFullName": "Miss Maryam Shanahan MD",
-    "TypeId": 945,
-    "Updated": "2020-12-27T03:24:48.0957311+01:00",
-    "StatusId": 500,
-    "Status": "accusantium",
-    "TextId": 497,
-    "PublishTo": "2020-10-10T03:24:48.0957311+02:00",
-    "PublishFrom": "2009-06-06T03:24:48.0957311+02:00",
+    "Type": "animi",
+    "AssociateId": 858,
+    "AssociateFullName": "Mr. Estell Fritsch",
+    "TypeId": 178,
+    "Updated": "2002-01-05T13:38:13.9834617+01:00",
+    "StatusId": 727,
+    "Status": "dolor",
+    "TextId": 627,
+    "PublishTo": "2007-06-26T13:38:13.9834617+02:00",
+    "PublishFrom": "2001-01-09T13:38:13.9834617+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1314788",
-    "ActiveErpLinks": 574,
+    "ProjectNumber": "1189712",
+    "ActiveErpLinks": 462,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 863
       }
     }
   }

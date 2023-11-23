@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 975
+  "UserGroupId": 747
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 731,
-    "ColumnId": 635,
-    "FieldDefault": "et",
-    "FieldHeight": 273,
-    "FieldLabel": "consequatur",
-    "FieldLeft": 800,
-    "FieldTop": 740,
+    "UDefFieldId": 583,
+    "ColumnId": 146,
+    "FieldDefault": "consequatur",
+    "FieldHeight": 278,
+    "FieldLabel": "mollitia",
+    "FieldLeft": 817,
+    "FieldTop": 322,
     "FieldType": "Checkbox",
-    "FieldWidth": 607,
-    "FormatMask": "perspiciatis",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 337,
-    "LabelLeft": 778,
-    "LabelTop": 315,
-    "LabelWidth": 11,
-    "LastVersionId": 734,
-    "ListTableId": 158,
-    "IsMandatory": true,
+    "FieldWidth": 596,
+    "FormatMask": "dolores",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 221,
+    "LabelLeft": 374,
+    "LabelTop": 454,
+    "LabelWidth": 763,
+    "LastVersionId": 343,
+    "ListTableId": 494,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 55,
-    "ProgId": "voluptatibus",
+    "Page1LineNo": 438,
+    "ProgId": "et",
     "IsReadOnly": false,
-    "ShortLabel": "molestias",
-    "TabOrder": 443,
-    "TextLength": 37,
-    "Tooltip": "autem",
-    "UdefIdentity": 326,
-    "UDListDefinitionId": 621,
+    "ShortLabel": "eaque",
+    "TabOrder": 365,
+    "TextLength": 495,
+    "Tooltip": "labore",
+    "UdefIdentity": 710,
+    "UDListDefinitionId": 332,
     "Justification": "Center",
-    "Version": 208,
-    "TemplateVariableName": "Towne-Gerhold",
+    "Version": 159,
+    "TemplateVariableName": "Runte-Skiles",
     "HasBeenPublished": false,
-    "MdoListName": "Oberbrunner LLC",
+    "MdoListName": "Thiel-Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldLength": 885
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2004-07-19T03:24:47.220828+02:00",
-  "ToDate": "2013-11-01T03:24:47.220828+01:00",
+  "FromDate": "2015-08-03T13:38:13.0615453+02:00",
+  "ToDate": "2007-06-19T13:38:13.0615453+02:00",
   "AssociateList": [
     {
-      "Id": 759,
-      "Name": "Harris LLC",
-      "ToolTip": "Nostrum in repellendus.",
-      "Deleted": false,
-      "Rank": 369,
-      "Type": "tempore",
-      "ColorBlock": 293,
-      "IconHint": "quia",
+      "Id": 200,
+      "Name": "Bogisich Group",
+      "ToolTip": "Autem suscipit sequi ipsum exercitationem odio corrupti dolorem.",
+      "Deleted": true,
+      "Rank": 301,
+      "Type": "quaerat",
+      "ColorBlock": 997,
+      "IconHint": "ea",
       "Selected": false,
-      "LastChanged": "2012-01-17T03:24:47.220828+01:00",
+      "LastChanged": "2003-05-15T13:38:13.0615453+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "hic",
-      "StyleHint": "totam",
+      "ExtraInfo": "qui",
+      "StyleHint": "facere",
       "Hidden": false,
-      "FullName": "Hayden Russel I",
+      "FullName": "Mr. Daphne Shields III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldType": "System.String",
+          "FieldLength": 687
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 912,
-      "Name": "Johnson-Hoeger",
-      "ToolTip": "Eaque hic veniam enim dolores.",
+      "Id": 757,
+      "Name": "Ernser, Thiel and Gibson",
+      "ToolTip": "Earum sed nobis praesentium ratione laudantium quas repellat.",
       "Deleted": false,
-      "Rank": 97,
-      "Type": "delectus",
-      "ColorBlock": 247,
-      "IconHint": "aut",
+      "Rank": 262,
+      "Type": "veniam",
+      "ColorBlock": 713,
+      "IconHint": "magnam",
       "Selected": false,
-      "LastChanged": "2023-02-07T03:24:47.220828+01:00",
+      "LastChanged": "2010-01-23T13:38:13.0615453+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "magnam",
-      "Hidden": true,
-      "FullName": "Prof. Lea Rohan II",
+      "ExtraInfo": "soluta",
+      "StyleHint": "possimus",
+      "Hidden": false,
+      "FullName": "Miss Reuben White",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 594
+          "FieldLength": 242
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 391,
-      "Name": "Donnelly, McKenzie and Johns",
-      "ToolTip": "Sit consequatur.",
+      "Id": 537,
+      "Name": "Marquardt-Hansen",
+      "ToolTip": "Optio aut.",
       "Deleted": false,
-      "Rank": 921,
-      "Type": "sit",
+      "Rank": 482,
+      "Type": "facilis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cumque",
-      "ColorBlock": 472,
-      "ExtraInfo": "quia",
-      "StyleHint": "dolores",
-      "FullName": "Miss Aniyah Eliseo Bogisich",
+      "IconHint": "culpa",
+      "ColorBlock": 396,
+      "ExtraInfo": "odio",
+      "StyleHint": "accusantium",
+      "FullName": "Ms. Constantin Torp V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 165
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 99
     }
   }
 }

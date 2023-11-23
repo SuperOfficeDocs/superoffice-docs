@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Daugherty, Rutherford and Nicolas",
-  "Columns": "maiores",
-  "SortOrder": "dicta",
-  "Restrictions": "maxime",
-  "Entities": "recusandae",
-  "Page": 682,
-  "PageSize": 784
+  "ProviderName": "Gorczany-Thompson",
+  "Columns": "sed",
+  "SortOrder": "tenetur",
+  "Restrictions": "pariatur",
+  "Entities": "dolorum",
+  "Page": 395,
+  "PageSize": 363
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Carter, Hagenes and Green",
-    "PrimaryKey": 438,
+    "EntityName": "Jerde, Waters and Yundt",
+    "PrimaryKey": 930,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "architecto",
-        "TooltipHint": "perferendis",
-        "LinkHint": "iure"
+        "DisplayValue": "earum",
+        "TooltipHint": "ad",
+        "LinkHint": "rerum"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "aut",
+    "LinkHint": "dolor",
+    "StyleHint": "saepe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldLength": 565
       }
     }
   }

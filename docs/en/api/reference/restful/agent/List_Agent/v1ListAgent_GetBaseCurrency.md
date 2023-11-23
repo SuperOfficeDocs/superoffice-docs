@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 281,
-  "Name": "Block LLC",
-  "Tooltip": "molestiae",
-  "Rank": 687,
-  "Rate": 8806.5399999999991,
-  "Units": 23022.363999999998,
+  "CurrencyId": 364,
+  "Name": "Torphy-Rau",
+  "Tooltip": "ea",
+  "Rank": 176,
+  "Rate": 24818.146,
+  "Units": 15886.246,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldType": "System.Int32",
+      "FieldLength": 152
     }
   }
 }

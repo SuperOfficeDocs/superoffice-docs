@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "eos"
+  "RemoteIp": "maiores"
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "tenetur",
-  "LoginId": 743,
-  "UserId": 218,
+  "Key": "eum",
+  "LoginId": 701,
+  "UserId": 446,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 95
     }
   }
 }

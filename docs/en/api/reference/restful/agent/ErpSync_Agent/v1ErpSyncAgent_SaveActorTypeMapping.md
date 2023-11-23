@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 882,
+  "ErpConnectionId": 376,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 863,
-      "CrmFieldKey": "repellendus",
-      "CrmDisplayName": "Mann, Mann and Schimmel",
-      "CrmDisplayTooltip": "similique",
-      "ErpFieldKey": "dolorum",
+      "ErpFieldId": 442,
+      "CrmFieldKey": "quia",
+      "CrmDisplayName": "Tremblay-Cartwright",
+      "CrmDisplayTooltip": "ullam",
+      "ErpFieldKey": "eum",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Adams-Hartmann",
-      "ErpDisplayTooltip": "voluptatibus",
+      "ErpDisplayName": "Effertz LLC",
+      "ErpDisplayTooltip": "corrupti",
       "SyncToCrm": false,
-      "SyncToErp": true,
-      "ShowInGui": false,
+      "SyncToErp": false,
+      "ShowInGui": true,
       "ShowInSearch": false,
-      "AlreadyMapped": false,
-      "MissingInERP": true,
-      "MissingInCRM": false,
+      "AlreadyMapped": true,
+      "MissingInERP": false,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "voluptatem",
+      "ListReference": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldLength": 610
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 490
     }
   }
 }

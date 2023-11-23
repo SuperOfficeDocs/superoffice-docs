@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 758,
-    "Name": "Sipes LLC",
-    "Tooltip": "rem",
-    "Deleted": false,
-    "Rank": 658,
-    "UdListDefinitionId": 646
+    "HeadingId": 112,
+    "Name": "Runte, Lubowitz and Yost",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 857,
+    "UdListDefinitionId": 629
   },
   {
-    "HeadingId": 758,
-    "Name": "Sipes LLC",
-    "Tooltip": "rem",
-    "Deleted": false,
-    "Rank": 658,
-    "UdListDefinitionId": 646
+    "HeadingId": 112,
+    "Name": "Runte, Lubowitz and Yost",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 857,
+    "UdListDefinitionId": 629
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 801,
-    "Name": "Parisian Inc and Sons",
-    "Tooltip": "quibusdam",
-    "Deleted": false,
-    "Rank": 602,
-    "UdListDefinitionId": 163,
+    "HeadingId": 564,
+    "Name": "Kohler, DuBuque and Moen",
+    "Tooltip": "sed",
+    "Deleted": true,
+    "Rank": 361,
+    "UdListDefinitionId": 467,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 72
       }
     }
   }

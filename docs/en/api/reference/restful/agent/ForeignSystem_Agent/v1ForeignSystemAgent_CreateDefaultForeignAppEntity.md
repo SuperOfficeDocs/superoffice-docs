@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 57,
-  "Name": "Eichmann LLC",
-  "CreatedDate": "2000-04-16T03:24:47.8145137+02:00",
-  "UpdatedDate": "1997-01-02T03:24:47.8145137+01:00",
+  "ForeignAppId": 968,
+  "Name": "Walsh LLC",
+  "CreatedDate": "2019-08-08T13:38:13.623981+02:00",
+  "UpdatedDate": "2008-10-28T13:38:13.623981+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 928,
-      "Name": "Torp, Hauck and Wilkinson",
-      "CreatedDate": "2008-03-17T03:24:47.8145137+01:00",
-      "UpdatedDate": "2000-02-23T03:24:47.8145137+01:00",
-      "AssociateFullName": "Furman Hickle",
-      "CreatedBy": "a",
-      "UpdatedBy": "pariatur",
-      "DeviceIdentifier": "incidunt",
-      "ForeignAppId": 941,
+      "ForeignDeviceId": 764,
+      "Name": "Funk-Cummings",
+      "CreatedDate": "1997-12-24T13:38:13.623981+01:00",
+      "UpdatedDate": "1999-05-29T13:38:13.623981+02:00",
+      "AssociateFullName": "Heath Schuppe",
+      "CreatedBy": "mollitia",
+      "UpdatedBy": "id",
+      "DeviceIdentifier": "excepturi",
+      "ForeignAppId": 539,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 503
+          "FieldLength": 816
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 581
     }
   }
 }

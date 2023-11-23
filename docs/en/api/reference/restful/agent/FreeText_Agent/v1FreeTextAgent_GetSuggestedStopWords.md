@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 275
+  "CountWords": 972
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Hahn Group",
-    "ToolTip": "Eaque odio et ut molestiae dolorem vero dolore.",
+    "Id": 782,
+    "Name": "Kub Inc and Sons",
+    "ToolTip": "Maiores nam voluptas occaecati pariatur.",
     "Deleted": false,
-    "Rank": 907,
-    "Type": "nobis",
+    "Rank": 366,
+    "Type": "quae",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Murray-Kulas",
-        "ToolTip": "Aut excepturi ab voluptates.",
-        "Deleted": false,
-        "Rank": 597,
-        "Type": "deserunt",
+        "Id": 233,
+        "Name": "Hilll-Wiza",
+        "ToolTip": "Optio voluptas eos neque et.",
+        "Deleted": true,
+        "Rank": 530,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quaerat",
-        "ColorBlock": 95,
-        "ExtraInfo": "est",
-        "StyleHint": "voluptate",
-        "FullName": "Brock Davis",
+        "IconHint": "aut",
+        "ColorBlock": 589,
+        "ExtraInfo": "amet",
+        "StyleHint": "nesciunt",
+        "FullName": "Dr. Amelie Ethan Schumm DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 261
+            "FieldType": "System.Int32",
+            "FieldLength": 780
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 977,
-    "ExtraInfo": "debitis",
-    "StyleHint": "est",
-    "FullName": "Miss Daisha Mosciski",
+    "IconHint": "rerum",
+    "ColorBlock": 620,
+    "ExtraInfo": "fugit",
+    "StyleHint": "facere",
+    "FullName": "Miss Trudie Amie Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 806
+        "FieldType": "System.Int32",
+        "FieldLength": 968
       }
     }
   }

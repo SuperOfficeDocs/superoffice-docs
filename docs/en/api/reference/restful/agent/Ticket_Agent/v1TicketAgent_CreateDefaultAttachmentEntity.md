@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 454,
-  "Name": "Harber-Jenkins",
-  "ContentType": "adipisci",
-  "AttSize": 660,
+  "AttachmentId": 677,
+  "Name": "Farrell LLC",
+  "ContentType": "totam",
+  "AttSize": 794,
   "InlineImage": false,
-  "ContentId": "delectus",
-  "AuthKey": "exercitationem",
+  "ContentId": "id",
+  "AuthKey": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 525
     }
   }
 }

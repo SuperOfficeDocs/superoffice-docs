@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 209,
-  "Name": "Fay, Ledner and Lowe",
-  "Tooltip": "est",
-  "Rank": 849,
-  "Key": "quos",
-  "Deleted": false,
+  "LegalBaseId": 340,
+  "Name": "Hauck-Welch",
+  "Tooltip": "dolorum",
+  "Rank": 337,
+  "Key": "doloribus",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 6
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Thiel-Kulas",
-    "ToolTip": "Autem nobis consequatur nemo sed architecto fuga enim.",
-    "Deleted": false,
-    "Rank": 379,
-    "Type": "eaque",
-    "ColorBlock": 882,
-    "IconHint": "vel",
+    "Id": 47,
+    "Name": "Gulgowski, Braun and Bruen",
+    "ToolTip": "Provident placeat.",
+    "Deleted": true,
+    "Rank": 744,
+    "Type": "repellat",
+    "ColorBlock": 308,
+    "IconHint": "dolorum",
     "Selected": true,
-    "LastChanged": "2016-09-27T03:24:52.240053+02:00",
+    "LastChanged": "1997-06-17T13:38:18.0462875+02:00",
     "ChildItems": [
       {
-        "Id": 514,
-        "Name": "Frami-Reilly",
-        "ToolTip": "Consequatur ab in.",
-        "Deleted": true,
-        "Rank": 967,
-        "Type": "dolorem",
-        "ColorBlock": 926,
-        "IconHint": "harum",
+        "Id": 758,
+        "Name": "Emard-Padberg",
+        "ToolTip": "Ut quasi laborum.",
+        "Deleted": false,
+        "Rank": 128,
+        "Type": "ut",
+        "ColorBlock": 608,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2004-10-19T03:24:52.240053+02:00",
+        "LastChanged": "2009-04-26T13:38:18.0462875+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Mrs. Kasandra Sid Hilll",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "eveniet",
+        "Hidden": false,
+        "FullName": "Lucienne Windler I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 565
+            "FieldType": "System.Int32",
+            "FieldLength": 172
           }
         }
       }
     ],
     "ExtraInfo": "ut",
-    "StyleHint": "unde",
-    "Hidden": false,
-    "FullName": "Dr. Layne Jo Ryan",
+    "StyleHint": "inventore",
+    "Hidden": true,
+    "FullName": "Kira Raynor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 458
+        "FieldType": "System.Int32",
+        "FieldLength": 263
       }
     }
   }

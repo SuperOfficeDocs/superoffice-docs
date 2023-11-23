@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 313,
-  "Currency": "nam"
+  "QuoteConnectionId": 706,
+  "Currency": "distinctio"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 429,
-    "ERPPriceListKey": "reprehenderit",
-    "QuoteConnectionId": 203,
-    "Name": "Stamm Inc and Sons",
-    "Description": "Fully-configurable discrete groupware",
-    "Currency": "quis",
-    "CurrencyName": "Cremin-Kihn",
-    "ValidFrom": "2016-05-14T03:24:48.1426062+02:00",
-    "ValidTo": "2015-12-05T03:24:48.1426062+01:00",
+    "PriceListId": 199,
+    "ERPPriceListKey": "labore",
+    "QuoteConnectionId": 560,
+    "Name": "Gutmann Group",
+    "Description": "Persistent methodical core",
+    "Currency": "consequuntur",
+    "CurrencyName": "Erdman, Padberg and Powlowski",
+    "ValidFrom": "2005-11-01T13:38:14.0303322+01:00",
+    "ValidTo": "2007-04-07T13:38:14.0303322+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 428
       }
     }
   }

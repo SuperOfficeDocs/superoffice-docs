@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 419,
-    "Name": "Bartell, O'Connell and Rolfson",
-    "Tooltip": "ducimus",
-    "Deleted": true,
-    "Rank": 399,
-    "UdListDefinitionId": 899,
+    "HeadingId": 564,
+    "Name": "Torp Group",
+    "Tooltip": "hic",
+    "Deleted": false,
+    "Rank": 566,
+    "UdListDefinitionId": 835,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldType": "System.String",
+        "FieldLength": 377
       }
     }
   }

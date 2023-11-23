@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 987,
+    "TargetDimensionId": 356,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "alias",
-    "DimensionListName": "Kohler, Wilderman and Kuvalis",
-    "DimensionListId": 403,
-    "DimensionListLabel": "quia",
+    "DimensionListField": "voluptates",
+    "DimensionListName": "Zieme, Nitzsche and O'Keefe",
+    "DimensionListId": 551,
+    "DimensionListLabel": "deserunt",
     "SelectedDimensions": [
-      151,
-      938
+      660,
+      88
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 326
+        "FieldLength": 56
       }
     }
   }

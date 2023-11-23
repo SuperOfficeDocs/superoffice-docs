@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 526
+  "TargetDimensionId": 120
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  946,
-  893
+  793,
+  657
 ]
 ```

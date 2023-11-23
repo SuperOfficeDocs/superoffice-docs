@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=877
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=635
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -124,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -138,125 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-10-20T03:24:47.095837+02:00",
-  "AppointmentId": 980,
-  "Description": "User-friendly contextually-based Graphic Interface",
-  "StartDate": "2000-03-18T03:24:47.095837+01:00",
-  "EndDate": "2021-08-30T03:24:47.095837+02:00",
+  "CreatedDate": "2020-02-10T13:38:12.9209358+01:00",
+  "AppointmentId": 661,
+  "Description": "Ameliorated client-server software",
+  "StartDate": "2010-02-13T13:38:12.9209358+01:00",
+  "EndDate": "2006-06-29T13:38:12.9209358+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 263,
+  "MotherId": 843,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-05-21T03:24:47.095837+02:00",
+  "UpdatedDate": "1999-02-28T13:38:12.9209358+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 446,
+  "ActiveLinks": 923,
   "Links": [
     {
-      "EntityName": "Hermann, Dooley and Dietrich",
-      "Id": 541,
-      "Description": "Assimilated multimedia leverage",
-      "ExtraInfo": "ad",
-      "LinkId": 738,
+      "EntityName": "Runolfsson-Hills",
+      "Id": 724,
+      "Description": "Horizontal encompassing model",
+      "ExtraInfo": "vero",
+      "LinkId": 247,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldLength": 456
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptatem",
-  "HasAlarm": true,
-  "ColorIndex": 62,
+  "AlarmLeadTime": "alias",
+  "HasAlarm": false,
+  "ColorIndex": 589,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "laudantium",
-  "LeadTime": "ut",
-  "Location": "numquam",
-  "RejectCounter": 131,
+  "LagTime": "dolore",
+  "LeadTime": "eum",
+  "Location": "enim",
+  "RejectCounter": 268,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 893,
-      "PersonId": 390,
-      "ContactId": 156,
-      "EmailId": 505,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 893,
-      "PersonId": 390,
-      "ContactId": 156,
-      "EmailId": 505,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 426,
+      "PersonId": 571,
+      "ContactId": 458,
+      "EmailId": 135,
+      "SendEmail": false,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "andrew_turner@okon.biz",
+      "Description": "Managed client-driven hub"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-05-03T03:24:47.095837+02:00",
-  "HasConflict": true,
+  "ActiveDate": "1999-05-18T13:38:12.9209358+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 692,
+  "PreferredTZLocation": 993,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 80,
+  "SuggestedAppointmentId": 611,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "deleniti",
-  "Title": "alias",
-  "Agenda": "sint",
-  "InternalNotes": "sunt",
+  "CentralserviceVideomeetId": "aliquid",
+  "Title": "optio",
+  "Agenda": "est",
+  "InternalNotes": "autem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Roberta Gerhold",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "413945845",
+    "SuperOffice:2": "Sandrine Herzog"
   },
   "ExtraFields": {
-    "ExtraFields1": "perferendis",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "ut",
+    "CustomFields2": "ea"
   },
-  "PublishEventDate": "2003-12-27T03:24:47.095837+01:00",
-  "PublishTo": "1998-09-26T03:24:47.095837+02:00",
-  "PublishFrom": "2007-02-17T03:24:47.095837+01:00",
+  "PublishEventDate": "2022-12-17T13:38:12.9209358+01:00",
+  "PublishTo": "2016-01-12T13:38:12.9209358+01:00",
+  "PublishFrom": "2017-05-26T13:38:12.9209358+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 623,
+      "VisibleId": 230,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 971
         }
       }
     },
     {
-      "VisibleId": 623,
+      "VisibleId": 230,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 971
         }
       }
     }
@@ -265,8 +261,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldType": "System.String",
+      "FieldLength": 640
     }
   }
 }

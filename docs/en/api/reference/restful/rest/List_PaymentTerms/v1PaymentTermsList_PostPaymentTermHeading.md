@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 7,
-  "Name": "Romaguera-Tillman",
-  "Tooltip": "voluptatem",
+  "HeadingId": 760,
+  "Name": "Breitenberg, Medhurst and Kerluke",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 478,
-  "UdListDefinitionId": 843
+  "Rank": 701,
+  "UdListDefinitionId": 342
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 614,
-  "Name": "Torp-Predovic",
-  "Tooltip": "amet",
+  "HeadingId": 754,
+  "Name": "Romaguera Inc and Sons",
+  "Tooltip": "dolor",
   "Deleted": true,
-  "Rank": 479,
-  "UdListDefinitionId": 90,
+  "Rank": 30,
+  "UdListDefinitionId": 314,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   }
 }

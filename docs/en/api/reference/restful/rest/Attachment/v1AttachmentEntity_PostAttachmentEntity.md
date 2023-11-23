@@ -88,17 +88,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 711,
-  "Name": "Kuhn-Ward",
-  "ContentType": "reprehenderit",
-  "AttSize": 548,
+  "AttachmentId": 869,
+  "Name": "Reichert-Klein",
+  "ContentType": "odio",
+  "AttSize": 816,
   "InlineImage": false,
-  "ContentId": "blanditiis",
-  "AuthKey": "earum"
+  "ContentId": "corporis",
+  "AuthKey": "debitis"
 }
 ```
 
@@ -109,24 +109,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 129,
-  "Name": "Wisoky, Grady and Heathcote",
-  "ContentType": "dolores",
-  "AttSize": 54,
+  "AttachmentId": 169,
+  "Name": "Kunde LLC",
+  "ContentType": "tempore",
+  "AttSize": 382,
   "InlineImage": false,
-  "ContentId": "sed",
-  "AuthKey": "eos",
+  "ContentId": "ut",
+  "AuthKey": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 873
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

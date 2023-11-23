@@ -104,7 +104,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -135,7 +136,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 257,
+  "AppointmentId": 517,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -151,125 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2008-10-20T03:24:47.1427162+02:00",
-  "AppointmentId": 459,
-  "Description": "Ameliorated empowering hub",
-  "StartDate": "1999-11-10T03:24:47.1427162+01:00",
-  "EndDate": "2006-07-09T03:24:47.1427162+02:00",
+  "CreatedDate": "2018-11-05T13:38:12.983428+01:00",
+  "AppointmentId": 264,
+  "Description": "Fully-configurable human-resource concept",
+  "StartDate": "2019-06-13T13:38:12.983428+02:00",
+  "EndDate": "2016-07-20T13:38:12.983428+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 971,
+  "MotherId": 423,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-05-03T03:24:47.1427162+02:00",
+  "UpdatedDate": "2016-05-06T13:38:12.983428+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 667,
+  "ActiveLinks": 821,
   "Links": [
     {
-      "EntityName": "Bartoletti-Boyle",
-      "Id": 388,
-      "Description": "Multi-tiered neutral contingency",
-      "ExtraInfo": "et",
-      "LinkId": 372,
+      "EntityName": "Rempel Group",
+      "Id": 808,
+      "Description": "De-engineered local workforce",
+      "ExtraInfo": "sunt",
+      "LinkId": 591,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 758
+          "FieldType": "System.Int32",
+          "FieldLength": 220
         }
       }
     }
   ],
-  "AlarmLeadTime": "dolorum",
+  "AlarmLeadTime": "impedit",
   "HasAlarm": false,
-  "ColorIndex": 840,
+  "ColorIndex": 145,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "dolores",
-  "LeadTime": "aut",
-  "Location": "dolores",
-  "RejectCounter": 87,
+  "LagTime": "voluptas",
+  "LeadTime": "ullam",
+  "Location": "incidunt",
+  "RejectCounter": 977,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 807,
-      "PersonId": 927,
-      "ContactId": 126,
-      "EmailId": 126,
+      "AssociateId": 877,
+      "PersonId": 575,
+      "ContactId": 884,
+      "EmailId": 75,
       "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 807,
-      "PersonId": 927,
-      "ContactId": 126,
-      "EmailId": 126,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "flavie_gleichner@legrosweissnat.ca",
+      "Description": "Progressive clear-thinking system engine"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-10-03T03:24:47.1427162+02:00",
+  "ActiveDate": "2000-07-31T13:38:12.983428+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 365,
+  "PreferredTZLocation": 757,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 486,
+  "SuggestedAppointmentId": 496,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "harum",
-  "Title": "amet",
-  "Agenda": "suscipit",
-  "InternalNotes": "corrupti",
+  "CentralserviceVideomeetId": "error",
+  "Title": "et",
+  "Agenda": "tempora",
+  "InternalNotes": "voluptatem",
   "UserDefinedFields": {
-    "SuperOffice:1": "250555937",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Gus Rutherford"
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "itaque",
-    "CustomFields2": "aut"
+    "CustomFields1": "vel",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2010-12-26T03:24:47.1427162+01:00",
-  "PublishTo": "2012-09-10T03:24:47.1427162+02:00",
-  "PublishFrom": "2013-10-19T03:24:47.1427162+02:00",
+  "PublishEventDate": "2011-10-06T13:38:12.983428+02:00",
+  "PublishTo": "2001-03-10T13:38:12.983428+01:00",
+  "PublishFrom": "2001-10-17T13:38:12.983428+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 186,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 551
         }
       }
     },
     {
-      "VisibleId": 186,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 551
         }
       }
     }
@@ -279,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 674
     }
   }
 }

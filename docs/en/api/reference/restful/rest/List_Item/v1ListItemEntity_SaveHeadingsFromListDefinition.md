@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 57,
-    "Name": "Wiza LLC",
-    "Tooltip": "ea",
+    "HeadingId": 8,
+    "Name": "Kemmer LLC",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 872,
-    "UdListDefinitionId": 530
+    "Rank": 777,
+    "UdListDefinitionId": 431
   },
   {
-    "HeadingId": 57,
-    "Name": "Wiza LLC",
-    "Tooltip": "ea",
+    "HeadingId": 8,
+    "Name": "Kemmer LLC",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 872,
-    "UdListDefinitionId": 530
+    "Rank": 777,
+    "UdListDefinitionId": 431
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 529,
-    "Name": "Anderson, Greenholt and Klocko",
-    "Tooltip": "in",
+    "HeadingId": 651,
+    "Name": "Leuschke, Erdman and Abernathy",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 874,
-    "UdListDefinitionId": 673,
+    "Rank": 309,
+    "UdListDefinitionId": 203,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldType": "System.String",
+        "FieldLength": 328
       }
     }
   }

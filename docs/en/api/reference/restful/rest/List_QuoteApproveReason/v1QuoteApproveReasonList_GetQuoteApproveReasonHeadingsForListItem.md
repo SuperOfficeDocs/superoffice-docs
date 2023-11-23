@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Name": "Gislason Group",
-    "ToolTip": "Reiciendis et dolores dolor voluptatem voluptatum itaque odit.",
-    "Deleted": true,
-    "Rank": 788,
-    "Type": "facere",
-    "ColorBlock": 978,
-    "IconHint": "ullam",
+    "Id": 541,
+    "Name": "Marks Group",
+    "ToolTip": "Quasi id aliquam assumenda.",
+    "Deleted": false,
+    "Rank": 441,
+    "Type": "minus",
+    "ColorBlock": 504,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2015-05-06T03:24:52.3650758+02:00",
+    "LastChanged": "2014-12-07T13:38:18.1712741+01:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Pacocha-Senger",
-        "ToolTip": "Et recusandae.",
+        "Id": 32,
+        "Name": "Baumbach, Koch and Gibson",
+        "ToolTip": "Suscipit voluptas.",
         "Deleted": false,
-        "Rank": 890,
-        "Type": "et",
-        "ColorBlock": 696,
-        "IconHint": "et",
+        "Rank": 528,
+        "Type": "id",
+        "ColorBlock": 757,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "1997-10-27T03:24:52.3650758+01:00",
+        "LastChanged": "2016-06-14T13:38:18.1712741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "quia",
+        "ExtraInfo": "sed",
+        "StyleHint": "repellendus",
         "Hidden": true,
-        "FullName": "Victor DuBuque",
+        "FullName": "Manuela Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 29
+            "FieldType": "System.String",
+            "FieldLength": 511
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Thora Christiansen",
+    "ExtraInfo": "rerum",
+    "StyleHint": "minima",
+    "Hidden": false,
+    "FullName": "Mrs. Emely Loyal Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 269,
-    "Name": "Ruecker LLC",
-    "Tooltip": "at",
+    "HeadingId": 893,
+    "Name": "Reilly, Conn and Schmitt",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 253,
-    "UdListDefinitionId": 864
+    "Rank": 991,
+    "UdListDefinitionId": 419
   },
   {
-    "HeadingId": 269,
-    "Name": "Ruecker LLC",
-    "Tooltip": "at",
+    "HeadingId": 893,
+    "Name": "Reilly, Conn and Schmitt",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 253,
-    "UdListDefinitionId": 864
+    "Rank": 991,
+    "UdListDefinitionId": 419
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 427,
-    "Name": "Rutherford, Howe and Kuphal",
-    "Tooltip": "tempora",
+    "HeadingId": 347,
+    "Name": "Towne, Hane and Beahan",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 880,
-    "UdListDefinitionId": 7,
+    "Rank": 33,
+    "UdListDefinitionId": 987,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 613
+        "FieldType": "System.Int32",
+        "FieldLength": 566
       }
     }
   }

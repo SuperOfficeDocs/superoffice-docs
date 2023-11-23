@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 522,
-  "WorkflowId": 213,
+  "WorkflowGoalId": 943,
+  "WorkflowId": 832,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Mosciski-Zulauf",
-      "Description": "Triple-buffered fault-tolerant help-desk",
-      "Rank": 518,
+      "Name": "Olson LLC",
+      "Description": "Fundamental multi-state website",
+      "Rank": 669,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mosciski-Zulauf",
-      "Description": "Triple-buffered fault-tolerant help-desk",
-      "Rank": 518,
+      "Name": "Olson LLC",
+      "Description": "Fundamental multi-state website",
+      "Rank": 669,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 5,
-  "WorkflowId": 17,
+  "WorkflowGoalId": 907,
+  "WorkflowId": 135,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Conroy, Flatley and Bogan",
-      "Description": "Progressive discrete standardization",
-      "Rank": 64,
+      "Name": "Okuneva-Keebler",
+      "Description": "Reactive optimal application",
+      "Rank": 815,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Conroy, Flatley and Bogan",
-      "Description": "Progressive discrete standardization",
-      "Rank": 64,
+      "Name": "Okuneva-Keebler",
+      "Description": "Reactive optimal application",
+      "Rank": 815,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

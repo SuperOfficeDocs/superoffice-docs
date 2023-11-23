@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lakin-Cummerata",
-    "DisplayName": "Fritsch LLC",
-    "DisplayTooltip": "non",
+    "Name": "Schroeder Inc and Sons",
+    "DisplayName": "Wilkinson Group",
+    "DisplayTooltip": "sunt",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 626
+        "FieldType": "System.String",
+        "FieldLength": 183
       }
     }
   },
   {
-    "Name": "Lakin-Cummerata",
-    "DisplayName": "Fritsch LLC",
-    "DisplayTooltip": "non",
+    "Name": "Schroeder Inc and Sons",
+    "DisplayName": "Wilkinson Group",
+    "DisplayTooltip": "sunt",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 626
+        "FieldType": "System.String",
+        "FieldLength": 183
       }
     }
   }

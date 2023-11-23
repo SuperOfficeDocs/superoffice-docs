@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=velit
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=deserunt
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Boyer-Bergstrom",
-    "ToolTip": "Omnis nostrum voluptatibus aliquid enim.",
+    "Id": 367,
+    "Name": "Goyette-Monahan",
+    "ToolTip": "Quibusdam sit repellat quasi fugit numquam.",
     "Deleted": false,
-    "Rank": 231,
-    "Type": "consequuntur",
+    "Rank": 20,
+    "Type": "dignissimos",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Wehner-Bailey",
-        "ToolTip": "Exercitationem quisquam autem earum et non autem.",
-        "Deleted": false,
-        "Rank": 684,
-        "Type": "voluptatem",
+        "Id": 70,
+        "Name": "Hirthe Group",
+        "ToolTip": "Rerum eos molestiae hic quis.",
+        "Deleted": true,
+        "Rank": 35,
+        "Type": "in",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 142,
-        "ExtraInfo": "placeat",
-        "StyleHint": "nemo",
-        "FullName": "Kevon Russel",
+        "IconHint": "optio",
+        "ColorBlock": 98,
+        "ExtraInfo": "pariatur",
+        "StyleHint": "ex",
+        "FullName": "Miss Kavon Daniel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 404
+            "FieldLength": 946
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 178,
-    "ExtraInfo": "tempore",
-    "StyleHint": "assumenda",
-    "FullName": "Kamren Feest",
+    "IconHint": "omnis",
+    "ColorBlock": 29,
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "ad",
+    "FullName": "Mr. Martin Hilpert Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldLength": 391
       }
     }
   }

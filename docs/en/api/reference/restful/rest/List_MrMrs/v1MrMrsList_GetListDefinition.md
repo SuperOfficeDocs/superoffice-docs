@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 817,
-  "Name": "Borer-Spinka",
-  "Tooltip": "ad",
-  "Deleted": true,
-  "Rank": 70,
+  "Id": 647,
+  "Name": "Larkin Group",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "Rank": 556,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldLength": 515
     }
   },
   "_Links": {

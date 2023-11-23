@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Ziemann, Johns and Jewess",
-    "Tooltip": "sed",
+    "Id": 101,
+    "Name": "Kuvalis-Funk",
+    "Tooltip": "natus",
     "Deleted": false,
-    "UdListDefinitionId": 544,
-    "Rank": 981,
+    "UdListDefinitionId": 30,
+    "Rank": 3,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldType": "System.String",
+        "FieldLength": 628
       }
     }
   }

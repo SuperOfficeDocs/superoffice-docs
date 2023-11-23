@@ -30,7 +30,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 347,
-  "ColumnId": 299,
-  "FieldDefault": "illo",
-  "FieldHeight": 642,
-  "FieldLabel": "voluptate",
-  "FieldLeft": 601,
-  "FieldTop": 431,
+  "UDefFieldId": 53,
+  "ColumnId": 183,
+  "FieldDefault": "ipsum",
+  "FieldHeight": 557,
+  "FieldLabel": "quo",
+  "FieldLeft": 51,
+  "FieldTop": 38,
   "FieldType": "Checkbox",
-  "FieldWidth": 250,
-  "FormatMask": "non",
-  "HideLabel": false,
+  "FieldWidth": 323,
+  "FormatMask": "libero",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 153,
-  "LabelLeft": 370,
-  "LabelTop": 304,
-  "LabelWidth": 519,
-  "LastVersionId": 702,
-  "ListTableId": 753,
+  "LabelHeight": 221,
+  "LabelLeft": 597,
+  "LabelTop": 449,
+  "LabelWidth": 408,
+  "LastVersionId": 371,
+  "ListTableId": 605,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 856,
-  "ProgId": "rem",
+  "Page1LineNo": 677,
+  "ProgId": "quibusdam",
   "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 300,
-  "TextLength": 928,
-  "Tooltip": "eius",
-  "UdefIdentity": 110,
-  "UDListDefinitionId": 672,
+  "ShortLabel": "provident",
+  "TabOrder": 352,
+  "TextLength": 39,
+  "Tooltip": "est",
+  "UdefIdentity": 408,
+  "UDListDefinitionId": 128,
   "Justification": "Center",
-  "Version": 999,
-  "TemplateVariableName": "Hettinger Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Hirthe, Beer and Considine",
+  "Version": 419,
+  "TemplateVariableName": "Bernhard-Kohler",
+  "HasBeenPublished": false,
+  "MdoListName": "Murray Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 339
     }
   }
 }

@@ -86,7 +86,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AllUsers?$select=superoffice_ten-salesservicemarketing,title
+GET /api/v1/archive/AllUsers?$select=fullName,superoffice_ten-salesservicemarketing,title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

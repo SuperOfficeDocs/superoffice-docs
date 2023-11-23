@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 461,
-  "Name": "Erdman Inc and Sons",
-  "ConsentText": "ex",
-  "FormText": "corporis",
-  "Key": "voluptatem",
-  "Tooltip": "accusamus",
-  "Active": 783,
-  "UpdatedDate": "2008-08-05T03:24:52.1932187+02:00",
+  "ConsentPurposeId": 778,
+  "Name": "Ullrich-Erdman",
+  "ConsentText": "tempora",
+  "FormText": "accusamus",
+  "Key": "iste",
+  "Tooltip": "vero",
+  "Active": 129,
+  "UpdatedDate": "2010-08-02T13:38:17.9994152+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 151,
-  "PrivacyStatementDesc": "expedita",
+  "Rank": 928,
+  "PrivacyStatementDesc": "maxime",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 853,
-  "Name": "Ritchie-Hagenes",
-  "ConsentText": "inventore",
-  "FormText": "vero",
-  "Key": "sit",
-  "Tooltip": "inventore",
-  "Active": 978,
-  "UpdatedDate": "2014-11-25T03:24:52.1932187+01:00",
+  "ConsentPurposeId": 941,
+  "Name": "Dare, Hilll and Will",
+  "ConsentText": "maiores",
+  "FormText": "non",
+  "Key": "eveniet",
+  "Tooltip": "qui",
+  "Active": 596,
+  "UpdatedDate": "2014-10-30T13:38:17.9994152+01:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 994,
-  "PrivacyStatementDesc": "placeat",
+  "Rank": 207,
+  "PrivacyStatementDesc": "tempore",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldType": "System.Int32",
+      "FieldLength": 682
     }
   }
 }

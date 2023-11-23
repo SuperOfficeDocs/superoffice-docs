@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 570,
-  "Name": "McLaughlin Group",
-  "TZLocationCode": "quasi",
-  "TZLocationCities": "voluptas",
-  "IsoNumber": 87,
+  "TZLocationID": 793,
+  "Name": "Prohaska LLC",
+  "TZLocationCode": "consequatur",
+  "TZLocationCities": "dolor",
+  "IsoNumber": 200,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 367,
-      "StartMonth": 726,
-      "EndDay": 620,
-      "EndMonth": 839,
-      "TZOffset": 577,
-      "StartRulePattern": "ipsum",
-      "EndRulePattern": "at"
+      "StartDay": 233,
+      "StartMonth": 111,
+      "EndDay": 48,
+      "EndMonth": 1002,
+      "TZOffset": 560,
+      "StartRulePattern": "aliquam",
+      "EndRulePattern": "quia"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 284,
-      "StartMonth": 738,
-      "EndDay": 541,
-      "EndMonth": 985,
-      "TZOffset": 214,
-      "StartRulePattern": "ipsum",
-      "EndRulePattern": "voluptas"
+      "StartDay": 837,
+      "StartMonth": 773,
+      "EndDay": 191,
+      "EndMonth": 202,
+      "TZOffset": 195,
+      "StartRulePattern": "ut",
+      "EndRulePattern": "reprehenderit"
     }
   }
 }

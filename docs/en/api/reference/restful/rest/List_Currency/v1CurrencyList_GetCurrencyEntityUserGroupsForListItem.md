@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "Miller-Haley",
-    "ToolTip": "Soluta voluptatum quia corrupti natus.",
+    "Id": 243,
+    "Name": "Hirthe, Streich and Heaney",
+    "ToolTip": "Est eius odio necessitatibus eos quas voluptate rem.",
     "Deleted": false,
-    "Rank": 847,
-    "Type": "corporis",
-    "ColorBlock": 915,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2012-12-14T03:24:52.2244666+01:00",
+    "Rank": 568,
+    "Type": "enim",
+    "ColorBlock": 565,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "1997-12-03T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 486,
-        "Name": "Torp-Leffler",
-        "ToolTip": "Aut recusandae molestiae sequi fugiat.",
-        "Deleted": false,
-        "Rank": 517,
-        "Type": "asperiores",
-        "ColorBlock": 853,
-        "IconHint": "impedit",
+        "Id": 462,
+        "Name": "Blick Group",
+        "ToolTip": "Aut ut quae.",
+        "Deleted": true,
+        "Rank": 222,
+        "Type": "aut",
+        "ColorBlock": 116,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2010-07-13T03:24:52.2244666+02:00",
+        "LastChanged": "2016-07-23T13:38:18.0306692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "tempora",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Dr. Norwood Bartell",
+        "FullName": "Veronica Blick DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 759
+            "FieldLength": 414
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "pariatur",
-    "Hidden": false,
-    "FullName": "Coty Jast DVM",
+    "ExtraInfo": "labore",
+    "StyleHint": "modi",
+    "Hidden": true,
+    "FullName": "Pierre Kovacek DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldType": "System.Int32",
+        "FieldLength": 650
       }
     }
   }

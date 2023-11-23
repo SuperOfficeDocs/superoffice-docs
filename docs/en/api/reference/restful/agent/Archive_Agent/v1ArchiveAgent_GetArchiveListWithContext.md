@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Deckow-Upton",
-  "ProviderName": "Upton Group",
+  "GuiName": "Leffler-Schoen",
+  "ProviderName": "Runte, Schmeler and Bailey",
   "SortOrder": [
     {
-      "Name": "Flatley-Metz",
+      "Name": "Hudson, Wolff and Rau",
       "Direction": "ASC"
     },
     {
-      "Name": "Flatley-Metz",
+      "Name": "Hudson, Wolff and Rau",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Prosacco Inc and Sons",
-      "Operator": "ea",
+      "Name": "Klein-Pacocha",
+      "Operator": "quas",
       "Values": [
-        "necessitatibus",
-        "consequatur"
+        "asperiores",
+        "aut"
       ],
       "DisplayValues": [
-        "ex",
-        "aspernatur"
+        "explicabo",
+        "iste"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 875,
+      "InterParenthesis": 257,
       "InterOperator": "And",
-      "UniqueHash": 957
+      "UniqueHash": 407
     }
   ],
   "Entities": [
-    "ad",
-    "et"
+    "non",
+    "voluptatem"
   ],
-  "Page": 435,
-  "PageSize": 143,
-  "Context": "explicabo"
+  "Page": 381,
+  "PageSize": 82,
+  "Context": "ut"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Parker Inc and Sons",
-    "PrimaryKey": 357,
+    "EntityName": "Ruecker-Wintheiser",
+    "PrimaryKey": 478,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "magni",
-        "TooltipHint": "repellendus",
-        "LinkHint": "illum"
+        "DisplayValue": "reprehenderit",
+        "TooltipHint": "est",
+        "LinkHint": "impedit"
       }
     },
-    "LinkHint": "est",
-    "StyleHint": "quos",
+    "LinkHint": "nemo",
+    "StyleHint": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 475
+        "FieldLength": 261
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 154,
-  "Name": "Larson LLC",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 500,
-  "Rank": 55,
+  "Id": 283,
+  "Name": "Schneider, Lueilwitz and Tremblay",
+  "Tooltip": "cumque",
+  "Deleted": true,
+  "UdListDefinitionId": 379,
+  "Rank": 375,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 201
     }
   }
 }

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 82,
-    "Name": "Hodkiewicz, Kohler and Bernier",
-    "Tooltip": "consequuntur",
-    "Rank": 631,
+    "SaleTypeId": 176,
+    "Name": "Wisoky, Gusikowski and Grimes",
+    "Tooltip": "doloremque",
+    "Rank": 283,
     "DurationUnit": "Century",
-    "SaleDuration": 250,
-    "SaleTypeCatId": 249,
+    "SaleDuration": 162,
+    "SaleTypeCatId": 598,
     "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": false,
+    "HasGuide": true,
+    "HasStakeholders": true,
     "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 864,
-    "QuoteLinesTemplate": 253,
-    "ConfirmationLinesTemplate": 409,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 774,
+    "QuoteLinesTemplate": 199,
+    "ConfirmationLinesTemplate": 174,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 624,
-    "MinEarningPercent": 198,
-    "GroupQuoteLinesBy": 589,
-    "SortGroupLinesBy": 282,
+    "MaxDiscountPercent": 787,
+    "MinEarningPercent": 90,
+    "GroupQuoteLinesBy": 457,
+    "SortGroupLinesBy": 662,
     "Stages": [
       {
-        "Id": 668,
-        "Name": "Bosco, Greenholt and Wunsch",
-        "ToolTip": "Velit autem incidunt tempora.",
+        "Id": 479,
+        "Name": "Wolff-Keebler",
+        "ToolTip": "Atque voluptas.",
         "Deleted": false,
-        "Rank": 46,
-        "Type": "corrupti",
-        "ColorBlock": 719,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2016-01-18T03:24:47.8613878+01:00",
+        "Rank": 75,
+        "Type": "recusandae",
+        "ColorBlock": 40,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2005-02-24T13:38:13.6708541+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Ms. Elbert Adriana Collier Jr.",
+        "ExtraInfo": "est",
+        "StyleHint": "quibusdam",
+        "Hidden": true,
+        "FullName": "Kaleb Mabelle Sipes Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldType": "System.String",
+            "FieldLength": 44
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 774
+        "FieldLength": 516
       }
     }
   }

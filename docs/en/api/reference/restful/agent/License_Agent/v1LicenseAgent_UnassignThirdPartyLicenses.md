@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 674,
-  "ModuleOwner": "inventore",
+  "AssociateId": 270,
+  "ModuleOwner": "debitis",
   "ModuleLicenseNames": [
-    "Langosh LLC",
-    "Frami Inc and Sons"
+    "Brakus-Ward",
+    "Runolfsdottir, Towne and Miller"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 540,
-    "Tooltip": "aut",
-    "CanAssign": true,
-    "Free": 24,
-    "InUse": 36,
+    "Total": 440,
+    "Tooltip": "sunt",
+    "CanAssign": false,
+    "Free": 745,
+    "InUse": 512,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 672,
-    "Name": "Heaney-Howe",
-    "Description": "Cross-platform intangible secured line",
-    "PrerequisiteModuleName": "Donnelly-Deckow",
-    "SortOrder": 563,
-    "ExtraFlags": 381,
+    "ModuleLicenseId": 132,
+    "Name": "Crooks LLC",
+    "Description": "Automated reciprocal collaboration",
+    "PrerequisiteModuleName": "Huels, Gislason and Rath",
+    "SortOrder": 611,
+    "ExtraFlags": 559,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldType": "System.String",
+        "FieldLength": 692
       }
     }
   }

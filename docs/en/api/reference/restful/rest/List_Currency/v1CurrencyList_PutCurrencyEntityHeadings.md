@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 947,
-    "Name": "Krajcik-Carroll",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "Rank": 65,
-    "UdListDefinitionId": 473
+    "HeadingId": 821,
+    "Name": "McCullough Group",
+    "Tooltip": "illum",
+    "Deleted": true,
+    "Rank": 783,
+    "UdListDefinitionId": 177
   },
   {
-    "HeadingId": 947,
-    "Name": "Krajcik-Carroll",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "Rank": 65,
-    "UdListDefinitionId": 473
+    "HeadingId": 821,
+    "Name": "McCullough Group",
+    "Tooltip": "illum",
+    "Deleted": true,
+    "Rank": 783,
+    "UdListDefinitionId": 177
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 934,
-    "Name": "Collier, Windler and Eichmann",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 959,
-    "UdListDefinitionId": 417,
+    "HeadingId": 720,
+    "Name": "Crooks, Wilkinson and Orn",
+    "Tooltip": "architecto",
+    "Deleted": false,
+    "Rank": 596,
+    "UdListDefinitionId": 679,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 629
+        "FieldLength": 313
       }
     }
   }

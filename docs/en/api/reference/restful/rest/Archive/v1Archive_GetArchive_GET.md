@@ -140,14 +140,14 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=a
-GET /api/v1/Archive/{archiveProviderName}?$top=523
-GET /api/v1/Archive/{archiveProviderName}?$skip=826
+GET /api/v1/Archive/{archiveProviderName}?$entities=excepturi
+GET /api/v1/Archive/{archiveProviderName}?$top=938
+GET /api/v1/Archive/{archiveProviderName}?$skip=71
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=dolorum
+GET /api/v1/Archive/{archiveProviderName}?$context=cupiditate
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=aut
+GET /api/v1/Archive/{archiveProviderName}?$metadata=error
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
 GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
@@ -190,7 +190,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -201,19 +201,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sit",
+  "odata.nextLink": "sunt",
   "value": [
     {
-      "PrimaryKey": 5329,
+      "PrimaryKey": 8785,
       "EntityName": "person",
-      "personId": 5329,
-      "fullName": "Clemmie Braun IV"
+      "personId": 8785,
+      "fullName": "Adrianna Auer"
     },
     {
-      "PrimaryKey": 1840,
+      "PrimaryKey": 9589,
       "EntityName": "person",
-      "personId": 1840,
-      "fullName": "Kathryn Rowe Sr."
+      "personId": 9589,
+      "fullName": "Miss Xavier Jerde"
     }
   ]
 }

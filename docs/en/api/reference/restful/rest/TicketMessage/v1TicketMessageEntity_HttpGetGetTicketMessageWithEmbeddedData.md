@@ -107,28 +107,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 736,
+  "EjMessageId": 181,
   "Ticket": null,
-  "CreatedAt": "2009-11-19T03:24:52.0057419+01:00",
+  "CreatedAt": "2000-10-05T13:38:17.7492894+02:00",
   "CreatedBy": null,
-  "Author": "quia",
+  "Author": "consequuntur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sint",
-  "TimeSpent": 839,
-  "Body": "assumenda",
-  "HtmlBody": "ut",
-  "EmailHeader": "zelma.denesik@kiehn.co.uk",
-  "DebugInfo": "reprehenderit",
-  "MailSorter": "non",
+  "MessageId": "explicabo",
+  "TimeSpent": 357,
+  "Body": "dolore",
+  "HtmlBody": "magni",
+  "EmailHeader": "katheryn@kozey.info",
+  "DebugInfo": "aliquam",
+  "MailSorter": "id",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eos",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 835,
-      "Name": "Anderson LLC",
-      "Value": "odit",
+      "Id": 429,
+      "Name": "Littel Group",
+      "Value": "hic",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -136,49 +136,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 130
+          "FieldLength": 348
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "ut",
-  "Sentiment": 44,
-  "SentimentConfidence": 386,
+  "Important": true,
+  "Language": "sit",
+  "Sentiment": 585,
+  "SentimentConfidence": 88,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 858,
-      "Name": "Boehm LLC",
-      "ContentType": "voluptas",
-      "AttSize": 42,
+      "AttachmentId": 936,
+      "Name": "Russel-Fay",
+      "ContentType": "sequi",
+      "AttSize": 858,
       "InlineImage": true,
-      "ContentId": "id",
-      "AuthKey": "sequi",
+      "ContentId": "natus",
+      "AuthKey": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldLength": 259
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "rerum",
+    "CustomFields2": "quae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 155
     }
   }
 }

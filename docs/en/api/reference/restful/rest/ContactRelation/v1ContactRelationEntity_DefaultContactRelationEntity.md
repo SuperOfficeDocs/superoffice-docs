@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 12 Sep 2001 03:24:51 G9T
+Last-Modified: Thu, 08 Aug 2019 13:38:17 G8T
 
 {
-  "SourceContactId": 382,
-  "SourcePersonId": 466,
-  "DestinationContactId": 167,
-  "DestinationPersonId": 544,
-  "RelationId": 68,
-  "Comment": "cupiditate",
-  "RelationDefinitionId": 152,
-  "Reversed": 539,
-  "UpdatedDate": "2001-09-12T03:24:51.5368575+02:00",
-  "CreatedDate": "1999-10-31T03:24:51.5368575+01:00",
+  "SourceContactId": 730,
+  "SourcePersonId": 662,
+  "DestinationContactId": 344,
+  "DestinationPersonId": 165,
+  "RelationId": 110,
+  "Comment": "in",
+  "RelationDefinitionId": 63,
+  "Reversed": 483,
+  "UpdatedDate": "2019-08-08T13:38:17.280593+02:00",
+  "CreatedDate": "2004-08-02T13:38:17.280593+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Miller LLC",
-  "SourcePersonName": "Tromp Group",
-  "DestinationContactName": "Tromp-Huel",
-  "DestinationPersonName": "Turner, Greenfelder and Gorczany",
-  "ActiveText": "ex",
-  "PassiveText": "architecto",
+  "SourceContactName": "Corwin Group",
+  "SourcePersonName": "Bradtke-Stroman",
+  "DestinationContactName": "Kassulke-Graham",
+  "DestinationPersonName": "Howell, Romaguera and O'Keefe",
+  "ActiveText": "sit",
+  "PassiveText": "asperiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldType": "System.String",
+      "FieldLength": 755
     }
   }
 }

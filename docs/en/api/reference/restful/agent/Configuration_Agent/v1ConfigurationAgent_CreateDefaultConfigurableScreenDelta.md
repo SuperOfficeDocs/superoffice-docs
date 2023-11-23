@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 911,
-  "Name": "Bednar-Block",
-  "Description": "Realigned intangible help-desk",
-  "DeltaJson": "eos",
+  "ConfigurableScreenDeltaId": 786,
+  "Name": "Kris-Carroll",
+  "Description": "Versatile attitude-oriented workforce",
+  "DeltaJson": "nobis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quis",
-  "UpdatedDate": "2014-08-15T03:24:47.3614382+02:00",
-  "CreatedDate": "2021-06-16T03:24:47.3614382+02:00",
+  "RecipeId": "sequi",
+  "UpdatedDate": "1998-11-27T13:38:13.2646505+01:00",
+  "CreatedDate": "2008-10-08T13:38:13.2646505+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    846,
-    328
+    848,
+    33
   ],
-  "AppliesToKey": "odio",
+  "AppliesToKey": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 876
     }
   }
 }

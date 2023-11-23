@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 05 Oct 2022 03:24:51 G10T
+Last-Modified: Wed, 30 Dec 2020 13:38:17 G12T
 
 {
-  "ForeignDeviceId": 274,
-  "Name": "Abbott, Bruen and Okuneva",
-  "CreatedDate": "2018-04-03T03:24:51.630601+02:00",
-  "UpdatedDate": "2022-10-05T03:24:51.630601+02:00",
-  "AssociateFullName": "Shawna Toni Miller Sr.",
-  "CreatedBy": "at",
-  "UpdatedBy": "voluptatem",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 328,
+  "ForeignDeviceId": 331,
+  "Name": "Cummings-Nikolaus",
+  "CreatedDate": "2019-04-28T13:38:17.4368262+02:00",
+  "UpdatedDate": "2020-12-30T13:38:17.4368262+01:00",
+  "AssociateFullName": "Hailee Kertzmann",
+  "CreatedBy": "unde",
+  "UpdatedBy": "fuga",
+  "DeviceIdentifier": "porro",
+  "ForeignAppId": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 111
     }
   }
 }

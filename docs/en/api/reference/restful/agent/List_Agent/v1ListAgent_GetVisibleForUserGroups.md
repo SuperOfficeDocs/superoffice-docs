@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 34,
-  "ListItemId": 837
+  "UdListDefinitionId": 467,
+  "ListItemId": 54
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 547,
-    "Name": "Hyatt, Lockman and Willms",
-    "ToolTip": "Cupiditate omnis autem ut quis ea impedit ut.",
-    "Deleted": false,
-    "Rank": 584,
-    "Type": "illo",
-    "ColorBlock": 646,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2014-03-09T03:24:47.8613878+01:00",
+    "Id": 308,
+    "Name": "Cormier, Dickens and Thompson",
+    "ToolTip": "Quia quod sit perspiciatis molestiae consequuntur.",
+    "Deleted": true,
+    "Rank": 914,
+    "Type": "dolorum",
+    "ColorBlock": 925,
+    "IconHint": "dolorum",
+    "Selected": false,
+    "LastChanged": "2004-10-15T13:38:13.6708541+02:00",
     "ChildItems": [
       {
-        "Id": 877,
-        "Name": "Stokes-Weimann",
-        "ToolTip": "Qui at aliquid ad suscipit est nihil incidunt.",
-        "Deleted": false,
-        "Rank": 61,
-        "Type": "harum",
-        "ColorBlock": 447,
-        "IconHint": "aspernatur",
+        "Id": 29,
+        "Name": "Fahey-Jacobs",
+        "ToolTip": "Ipsum veniam.",
+        "Deleted": true,
+        "Rank": 556,
+        "Type": "ut",
+        "ColorBlock": 34,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2002-05-18T03:24:47.8613878+02:00",
+        "LastChanged": "2015-10-10T13:38:13.6708541+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "libero",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "aliquam",
         "Hidden": true,
-        "FullName": "Jadyn Kelsi Stiedemann III",
+        "FullName": "Mr. Alexzander Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 560
+            "FieldLength": 792
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "facere",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "eligendi",
     "Hidden": true,
-    "FullName": "Cydney Keebler",
+    "FullName": "Dr. Mariana Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 237
+        "FieldType": "System.Int32",
+        "FieldLength": 671
       }
     }
   }

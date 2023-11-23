@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Goyette-Bradtke",
-  "DisplayName": "Metz, Bednar and Hahn",
-  "Description": "Extended discrete budgetary management",
-  "ShortLabel": "et",
-  "HideLabel": false,
+  "FieldName": "Mills, D'Amore and Okuneva",
+  "DisplayName": "McClure-Johns",
+  "Description": "Front-line foreground alliance",
+  "ShortLabel": "eaque",
+  "HideLabel": true,
   "HideField": true,
-  "IsIndexed": false,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 214,
-  "TemplateVariableName": "Stroman-Toy"
+  "Rank": 230,
+  "TemplateVariableName": "Sawayn, Schuppe and Herman"
 }
 ```

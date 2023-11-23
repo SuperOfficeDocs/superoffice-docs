@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 169,
-  "ERPName": "Kerluke-Pouros",
-  "DisplayName": "Gerhold, Heidenreich and Larkin",
-  "DisplayDescription": "De-engineered fresh-thinking core",
-  "Rank": 699,
-  "ConnectorName": "Torp-Cummings",
-  "ErpConnectionId": 652,
-  "ExtraData": "ex",
+  "QuoteConnectionId": 554,
+  "ERPName": "Barton-O'Reilly",
+  "DisplayName": "Collier, Sipes and Quitzon",
+  "DisplayDescription": "Streamlined scalable moratorium",
+  "Rank": 196,
+  "ConnectorName": "Carroll-Rowe",
+  "ErpConnectionId": 338,
+  "ExtraData": "aspernatur",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 215,
-      "ERPPriceListKey": "consequatur",
-      "QuoteConnectionId": 454,
-      "Name": "Daniel Group",
-      "Description": "Versatile clear-thinking methodology",
-      "Currency": "ut",
-      "CurrencyName": "Heathcote Group",
-      "ValidFrom": "2002-03-28T03:24:48.1426062+01:00",
-      "ValidTo": "2013-07-12T03:24:48.1426062+02:00",
+      "PriceListId": 22,
+      "ERPPriceListKey": "id",
+      "QuoteConnectionId": 301,
+      "Name": "Bins LLC",
+      "Description": "Extended next generation matrix",
+      "Currency": "voluptatum",
+      "CurrencyName": "Larkin Group",
+      "ValidFrom": "2016-03-12T13:38:14.0303322+01:00",
+      "ValidTo": "2017-02-06T13:38:14.0303322+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 807
+          "FieldType": "System.String",
+          "FieldLength": 855
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    40,
-    961
+    621,
+    722
   ],
   "AssociateAccessIds": [
-    730,
-    784
+    82,
+    814
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 817
     }
   }
 }

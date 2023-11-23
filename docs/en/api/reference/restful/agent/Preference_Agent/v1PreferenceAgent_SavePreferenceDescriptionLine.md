@@ -73,15 +73,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 624,
-  "PrefDescId": 713,
-  "PrefValue": "quae",
-  "PrefShowValue": "esse",
-  "Description": "Implemented national initiative",
+  "PrefDescLineId": 307,
+  "PrefDescId": 29,
+  "PrefValue": "nihil",
+  "PrefShowValue": "id",
+  "Description": "Digitized client-server monitoring",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 358,
-  "PrefDescId": 502,
-  "PrefValue": "omnis",
-  "PrefShowValue": "omnis",
-  "Description": "Balanced user-facing open system",
-  "IsBuiltin": true,
+  "PrefDescLineId": 147,
+  "PrefDescId": 820,
+  "PrefValue": "illo",
+  "PrefShowValue": "ipsam",
+  "Description": "Triple-buffered discrete matrix",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldType": "System.String",
+      "FieldLength": 406
     }
   }
 }

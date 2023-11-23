@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 739,
+  "ReportId": 787,
   "ReportCategory": "All",
-  "Description": "Polarised mobile monitoring",
+  "Description": "Object-based 3rd generation success",
   "ReportLayout": "CalendarMonth",
-  "Name": "Schmeler-Graham",
-  "AssociateId": 751,
-  "TemplateId": 286,
-  "Published": false
+  "Name": "Koss-Bayer",
+  "AssociateId": 914,
+  "TemplateId": 817,
+  "Published": true
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 613,
+  "ReportId": 780,
   "ReportCategory": "All",
-  "Description": "Robust radical functionalities",
+  "Description": "Visionary leading edge encryption",
   "ReportLayout": "CalendarMonth",
-  "Name": "Lynch-Lakin",
-  "AssociateId": 925,
-  "TemplateId": 680,
-  "Published": true,
+  "Name": "Rowe-Boehm",
+  "AssociateId": 63,
+  "TemplateId": 678,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldLength": 282
     }
   }
 }

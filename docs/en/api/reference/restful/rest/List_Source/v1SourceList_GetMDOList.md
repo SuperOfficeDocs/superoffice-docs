@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=repudiandae
+GET /api/v1/List/Source/MDOItems?query=repellendus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Gusikowski-Treutel",
-    "ToolTip": "Saepe voluptatem sint ratione non optio quis.",
-    "Deleted": true,
-    "Rank": 403,
-    "Type": "quidem",
+    "Id": 255,
+    "Name": "Ward, Kunze and Jast",
+    "ToolTip": "Iusto dolor sit.",
+    "Deleted": false,
+    "Rank": 812,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Gulgowski, Wolff and Fahey",
-        "ToolTip": "Aliquid nobis at illum esse impedit qui quod.",
+        "Id": 817,
+        "Name": "Anderson-Bins",
+        "ToolTip": "Est et.",
         "Deleted": false,
-        "Rank": 975,
-        "Type": "nobis",
+        "Rank": 794,
+        "Type": "delectus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 295,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "minus",
-        "FullName": "Amina Hoppe",
+        "IconHint": "accusantium",
+        "ColorBlock": 409,
+        "ExtraInfo": "tenetur",
+        "StyleHint": "ipsa",
+        "FullName": "Dr. Ernestina Parisian DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldLength": 254
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 726,
-    "ExtraInfo": "et",
-    "StyleHint": "accusantium",
-    "FullName": "Cara Elsie Wolf III",
+    "IconHint": "omnis",
+    "ColorBlock": 260,
+    "ExtraInfo": "fuga",
+    "StyleHint": "atque",
+    "FullName": "Adrianna Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 677
       }
     }
   }

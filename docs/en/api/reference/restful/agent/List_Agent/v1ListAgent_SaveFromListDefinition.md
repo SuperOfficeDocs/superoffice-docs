@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 845,
-  "UdListDefinitionId": 466,
+  "Id": 691,
+  "UdListDefinitionId": 325,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 693,
-  "Name": "Christiansen, Schmidt and Kuhlman",
-  "Tooltip": "voluptas",
+  "Id": 885,
+  "Name": "Runolfsson, Feest and Brown",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "UdListDefinitionId": 316,
-  "Rank": 98,
+  "UdListDefinitionId": 168,
+  "Rank": 800,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 212
     }
   }
 }

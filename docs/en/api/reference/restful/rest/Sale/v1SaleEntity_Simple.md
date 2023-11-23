@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Jerde Inc and Sons",
-  "SaleDate": "2015-05-14T03:24:51.8963736+02:00",
-  "SaleId": 101,
-  "Probability": 959,
-  "Title": "asperiores",
-  "Amount": 23210.404,
-  "Currency": "corrupti",
-  "ProjectName": "Rosenbaum-Johnson",
-  "AssociateFullName": "Shawna Johnson",
-  "Description": "Seamless needs-based adapter",
+  "ContactName": "Barrows-Larson",
+  "SaleDate": "2012-08-31T13:38:17.6399305+02:00",
+  "SaleId": 410,
+  "Probability": 234,
+  "Title": "laboriosam",
+  "Amount": 25874.304,
+  "Currency": "autem",
+  "ProjectName": "Medhurst-Satterfield",
+  "AssociateFullName": "Alexandria Stanton Jr.",
+  "Description": "Compatible high-level paradigm",
   "Status": "Lost",
-  "WeightedAmount": 27889.466,
-  "ProjectId": 182,
-  "EarningPercent": 4729.206,
-  "Earning": 19035.916,
-  "ContactId": 663,
-  "AssociateId": 343,
-  "PersonId": 572,
-  "SaleTypeId": 460,
-  "SaleTypeName": "Hills, Gutkowski and Will",
-  "PersonFullName": "Caleb Morar",
+  "WeightedAmount": 100.288,
+  "ProjectId": 868,
+  "EarningPercent": 25391.667999999998,
+  "Earning": 20668.73,
+  "ContactId": 878,
+  "AssociateId": 371,
+  "PersonId": 402,
+  "SaleTypeId": 345,
+  "SaleTypeName": "Goyette-Strosin",
+  "PersonFullName": "Ned VonRueden",
   "Completed": "Completed",
-  "ActiveErpLinks": 212,
-  "NextDueDate": "2019-06-28T03:24:51.8963736+02:00",
-  "Number": "1443061",
+  "ActiveErpLinks": 80,
+  "NextDueDate": "1998-11-17T13:38:17.6399305+01:00",
+  "Number": "540406",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldType": "System.Int32",
+      "FieldLength": 875
     }
   }
 }

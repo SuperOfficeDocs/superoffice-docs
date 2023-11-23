@@ -91,30 +91,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 888,
-  "UniqueId": "ad",
-  "Name": "Wyman, Mante and Wolff",
-  "Description": "Cross-platform clear-thinking utilisation",
-  "AssociateId": 307,
-  "Columns": 251,
+  "DashboardId": 505,
+  "UniqueId": "porro",
+  "Name": "Hartmann LLC",
+  "Description": "Upgradable stable circuit",
+  "AssociateId": 732,
+  "Columns": 697,
   "Theme": null,
-  "VisibleForAll": 782,
+  "VisibleForAll": 617,
   "VisibleForAssociates": [
-    385,
-    642
+    382,
+    960
   ],
   "VisibleForGroups": [
-    532,
-    644
+    285,
+    150
   ],
-  "PinForAll": 904,
+  "PinForAll": 241,
   "PinForAssociates": [
-    525,
-    831
+    282,
+    678
   ],
   "PinForGroups": [
-    61,
-    270
+    211,
+    878
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 767,
-  "UniqueId": "ea",
-  "Name": "Mann-Schiller",
-  "Description": "Enhanced 5th generation firmware",
-  "AssociateId": 391,
-  "Columns": 572,
+  "DashboardId": 675,
+  "UniqueId": "eaque",
+  "Name": "Upton Inc and Sons",
+  "Description": "Centralized non-volatile Graphic Interface",
+  "AssociateId": 75,
+  "Columns": 56,
   "Theme": null,
-  "VisibleForAll": 633,
+  "VisibleForAll": 299,
   "VisibleForAssociates": [
-    753,
-    891
+    791,
+    170
   ],
   "VisibleForGroups": [
-    901,
-    61
+    32,
+    799
   ],
-  "PinForAll": 815,
+  "PinForAll": 674,
   "PinForAssociates": [
-    596,
-    194
+    891,
+    840
   ],
   "PinForGroups": [
-    72,
-    610
+    966,
+    913
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 155
     }
   }
 }

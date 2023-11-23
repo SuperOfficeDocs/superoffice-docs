@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Rowe-Bernhard",
-    "ToolTip": "Vero maiores ullam aperiam.",
+    "Id": 391,
+    "Name": "Hackett, Kessler and Gleichner",
+    "ToolTip": "Ab vitae sapiente dolores earum non ea aut.",
     "Deleted": true,
-    "Rank": 204,
-    "Type": "esse",
-    "ColorBlock": 783,
-    "IconHint": "tempore",
+    "Rank": 812,
+    "Type": "quis",
+    "ColorBlock": 86,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "2008-11-02T03:24:52.4119449+01:00",
+    "LastChanged": "2003-08-31T13:38:18.2181419+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Marquardt-Emard",
-        "ToolTip": "Id neque voluptatum voluptatum cumque.",
-        "Deleted": false,
-        "Rank": 803,
-        "Type": "sed",
-        "ColorBlock": 376,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2006-05-31T03:24:52.4119449+02:00",
+        "Id": 868,
+        "Name": "Kovacek, Pagac and Erdman",
+        "ToolTip": "Quibusdam sed sit amet omnis.",
+        "Deleted": true,
+        "Rank": 207,
+        "Type": "saepe",
+        "ColorBlock": 186,
+        "IconHint": "maxime",
+        "Selected": true,
+        "LastChanged": "2020-01-31T13:38:18.2181419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "commodi",
+        "ExtraInfo": "enim",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Gus Muller",
+        "FullName": "Sheila Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 550
+            "FieldType": "System.Int32",
+            "FieldLength": 847
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "et",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "ullam",
     "Hidden": true,
-    "FullName": "Anissa Denesik",
+    "FullName": "Noah Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldLength": 727
       }
     }
   }

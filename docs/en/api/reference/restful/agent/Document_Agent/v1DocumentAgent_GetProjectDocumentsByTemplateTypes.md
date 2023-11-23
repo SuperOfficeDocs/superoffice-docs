@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 895,
-  "StartTime": "2000-09-13T03:24:47.5176724+02:00",
-  "EndTime": "2008-07-03T03:24:47.5176724+02:00",
-  "Count": 285,
+  "ProjectId": 855,
+  "StartTime": "1998-10-31T13:38:13.4208858+01:00",
+  "EndTime": "2012-06-22T13:38:13.4208858+02:00",
+  "Count": 113,
   "DocumentTemplateIds": [
-    812,
-    106
+    937,
+    387
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 691,
-    "Attention": "tempore",
-    "Header": "ea",
-    "Name": "Abernathy, Toy and Champlin",
-    "OurRef": "sequi",
-    "YourRef": "assumenda",
-    "Description": "Ameliorated optimizing protocol",
-    "DocumentTemplate": "deleniti",
-    "IsPublished": true,
-    "PersonId": 769,
-    "PersonFullName": "Mrs. Cooper Olson MD",
-    "AssociateFullName": "Fleta Cummings",
-    "ContactId": 185,
-    "ContactName": "Lang, Leffler and Denesik",
-    "ProjectId": 794,
-    "ProjectName": "Hane, Parker and Schmeler",
-    "AssociateId": 290,
-    "Snum": 254,
-    "SaleId": 651,
-    "SaleName": "Lowe-Becker",
+    "DocumentId": 582,
+    "Attention": "at",
+    "Header": "inventore",
+    "Name": "Hegmann, Fay and Rath",
+    "OurRef": "qui",
+    "YourRef": "molestiae",
+    "Description": "Front-line bottom-line ability",
+    "DocumentTemplate": "blanditiis",
+    "IsPublished": false,
+    "PersonId": 207,
+    "PersonFullName": "Joana Boyle",
+    "AssociateFullName": "Dr. Alessia Emely Bradtke III",
+    "ContactId": 674,
+    "ContactName": "Hegmann-Franecki",
+    "ProjectId": 232,
+    "ProjectName": "Dickens-Heaney",
+    "AssociateId": 97,
+    "Snum": 119,
+    "SaleId": 134,
+    "SaleName": "Nitzsche Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldLength": 145
       }
     }
   }

@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Turcotte-McLaughlin",
+  "Name": "Ortiz Group",
   "Entities": [
     {
-      "HeadingId": 329,
-      "Name": "Reinger, Ernser and Jacobi",
-      "Tooltip": "error",
+      "HeadingId": 636,
+      "Name": "Walter, Luettgen and Feest",
+      "Tooltip": "rem",
       "Deleted": false,
-      "Rank": 953,
-      "UdListDefinitionId": 37
+      "Rank": 529,
+      "UdListDefinitionId": 579
     },
     {
-      "HeadingId": 329,
-      "Name": "Reinger, Ernser and Jacobi",
-      "Tooltip": "error",
+      "HeadingId": 636,
+      "Name": "Walter, Luettgen and Feest",
+      "Tooltip": "rem",
       "Deleted": false,
-      "Rank": 953,
-      "UdListDefinitionId": 37
+      "Rank": 529,
+      "UdListDefinitionId": 579
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 712,
-    "Name": "Brekke-Pollich",
-    "Tooltip": "possimus",
+    "HeadingId": 449,
+    "Name": "Nolan Inc and Sons",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 308,
-    "UdListDefinitionId": 512,
+    "Rank": 33,
+    "UdListDefinitionId": 364,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldType": "System.Int32",
+        "FieldLength": 500
       }
     }
   }

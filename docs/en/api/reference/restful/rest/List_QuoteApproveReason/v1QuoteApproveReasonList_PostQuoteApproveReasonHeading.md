@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 713,
-  "Name": "Toy, Powlowski and O'Conner",
-  "Tooltip": "vero",
+  "HeadingId": 684,
+  "Name": "Little LLC",
+  "Tooltip": "atque",
   "Deleted": false,
-  "Rank": 146,
-  "UdListDefinitionId": 684
+  "Rank": 929,
+  "UdListDefinitionId": 291
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 524,
-  "Name": "Witting-Schoen",
-  "Tooltip": "amet",
+  "HeadingId": 857,
+  "Name": "Harris-Ortiz",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "Rank": 609,
-  "UdListDefinitionId": 392,
+  "Rank": 18,
+  "UdListDefinitionId": 781,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 346
     }
   }
 }

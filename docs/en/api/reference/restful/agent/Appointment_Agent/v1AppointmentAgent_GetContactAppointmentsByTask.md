@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 306,
-  "StartTime": "2001-06-15T03:24:46.9394467+02:00",
-  "EndTime": "2004-10-07T03:24:46.9394467+02:00",
-  "Count": 359,
-  "TaskId": 96
+  "ContactId": 746,
+  "StartTime": "2014-02-19T13:38:12.8584402+01:00",
+  "EndTime": "2016-10-18T13:38:12.8584402+02:00",
+  "Count": 899,
+  "TaskId": 45
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 516,
-    "StartDate": "2006-06-03T03:24:46.9394467+02:00",
-    "EndDate": "2010-11-22T03:24:46.9394467+01:00",
+    "AppointmentId": 830,
+    "StartDate": "2009-01-29T13:38:12.8584402+01:00",
+    "EndDate": "2007-12-15T13:38:12.8584402+01:00",
     "Type": "BookingForChecklist",
-    "Task": "autem",
-    "AssociateFullName": "Ronny Grimes",
-    "ContactName": "Huel-Moen",
-    "Description": "Networked full-range process improvement",
-    "PersonFullName": "Hester Wehner",
-    "PersonId": 275,
-    "ContactId": 946,
-    "ProjectId": 860,
-    "ProjectName": "Kiehn, Wunsch and Bode",
+    "Task": "et",
+    "AssociateFullName": "Lukas Rolfson",
+    "ContactName": "Anderson-Durgan",
+    "Description": "Right-sized bifurcated product",
+    "PersonFullName": "Mr. Pinkie Torp",
+    "PersonId": 875,
+    "ContactId": 595,
+    "ProjectId": 904,
+    "ProjectName": "Hickle Group",
     "IsPublished": false,
-    "AssociateId": 503,
-    "ColorIndex": 217,
+    "AssociateId": 971,
+    "ColorIndex": 991,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 344,
-    "PriorityName": "Larson, Kuvalis and Macejkovic",
+    "PriorityId": 816,
+    "PriorityName": "Collier-Hane",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2013-01-01T03:24:46.9394467+01:00",
+    "ActiveDate": "2020-02-08T13:38:12.8584402+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-03-25T03:24:46.9394467+01:00",
-    "RecurringEndDate": "2009-06-11T03:24:46.9394467+02:00",
-    "MotherId": 639,
-    "AssignedBy": 135,
-    "AssignedByFullName": "Prof. Dallas Josiah Schmidt",
+    "RecurringStartDate": "2009-12-17T13:38:12.8584402+01:00",
+    "RecurringEndDate": "2009-12-20T13:38:12.8584402+01:00",
+    "MotherId": 481,
+    "AssignedBy": 693,
+    "AssignedByFullName": "Velma Prosacco",
     "RejectReason": "",
-    "Location": "quia",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 477,
-    "SaleName": "Windler Inc and Sons",
-    "AssociateName": "Smitham, Deckow and Feeney",
-    "CreatedDate": "2002-05-16T03:24:46.9394467+02:00",
-    "CreatedBy": "amet",
-    "CreatedByFullName": "Miss Lelah Parker MD",
-    "CreatedByAssociateId": 654,
+    "Location": "vitae",
+    "AlarmLeadTime": "quia",
+    "SaleId": 71,
+    "SaleName": "Rodriguez-Gutkowski",
+    "AssociateName": "Jenkins Group",
+    "CreatedDate": "2015-10-19T13:38:12.8584402+02:00",
+    "CreatedBy": "laborum",
+    "CreatedByFullName": "Miss Jamarcus Renner MD",
+    "CreatedByAssociateId": 185,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "commodi",
-    "Agenda": "non",
-    "InternalNotes": "sequi",
+    "PreferredTZLocation": 886,
+    "Title": "error",
+    "Agenda": "adipisci",
+    "InternalNotes": "iste",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 279
       }
     }
   }

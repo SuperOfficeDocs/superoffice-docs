@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jaskolski-Bosco"
+  "Name": "Rohan-Hahn"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 899,
-    "Name": "Zemlak LLC",
-    "ToolTip": "Placeat amet a.",
+    "Id": 349,
+    "Name": "Hegmann-Kilback",
+    "ToolTip": "Nihil earum.",
     "Deleted": true,
-    "Rank": 894,
-    "Type": "laudantium",
-    "ColorBlock": 43,
-    "IconHint": "ut",
+    "Rank": 845,
+    "Type": "architecto",
+    "ColorBlock": 903,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2008-08-07T03:24:47.9238778+02:00",
+    "LastChanged": "2018-12-15T13:38:13.7333439+01:00",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "Jones Group",
-        "ToolTip": "Voluptatibus nihil est incidunt et.",
-        "Deleted": false,
-        "Rank": 980,
-        "Type": "sed",
-        "ColorBlock": 11,
-        "IconHint": "facere",
+        "Id": 557,
+        "Name": "Nitzsche-Nolan",
+        "ToolTip": "Qui ea et aut delectus occaecati quas.",
+        "Deleted": true,
+        "Rank": 80,
+        "Type": "numquam",
+        "ColorBlock": 167,
+        "IconHint": "suscipit",
         "Selected": true,
-        "LastChanged": "2017-05-16T03:24:47.9238778+02:00",
+        "LastChanged": "2006-01-26T13:38:13.7333439+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "nisi",
+        "ExtraInfo": "debitis",
+        "StyleHint": "maiores",
         "Hidden": true,
-        "FullName": "Lane Hettinger IV",
+        "FullName": "Audrey McDermott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 777
+            "FieldType": "System.String",
+            "FieldLength": 272
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "sapiente",
-    "Hidden": false,
-    "FullName": "Mr. Maybell McGlynn",
+    "ExtraInfo": "enim",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Damian Walsh III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 184
+        "FieldType": "System.Int32",
+        "FieldLength": 846
       }
     }
   }

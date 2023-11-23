@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Dach, Glover and Mosciski",
-  "TypicalSearchId": 260
+  "EntityName": "Rath, Lockman and Weber",
+  "TypicalSearchId": 801
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gislason-Bogan",
-  "SelectionId": 866,
+  "ProviderName": "Kemmer, Kirlin and Howe",
+  "SelectionId": 96,
   "CanSaveAsSelection": false,
-  "MainHeading": "facilis",
-  "FilterScreenHeading": "aut",
-  "SelectionEntityHeading": "minus",
+  "MainHeading": "autem",
+  "FilterScreenHeading": "nulla",
+  "SelectionEntityHeading": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldType": "System.String",
+      "FieldLength": 543
     }
   }
 }

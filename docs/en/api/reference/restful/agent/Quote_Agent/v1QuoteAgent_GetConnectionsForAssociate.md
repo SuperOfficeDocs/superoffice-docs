@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 714
+  "AssociateId": 70
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 330,
-    "ERPName": "Sipes Group",
-    "DisplayName": "McDermott, Carroll and Sawayn",
-    "DisplayDescription": "Stand-alone bi-directional moratorium",
-    "Rank": 246,
-    "ConnectorName": "Little-Lang",
-    "ErpConnectionId": 784,
-    "ExtraData": "vero",
+    "QuoteConnectionId": 778,
+    "ERPName": "Harris-Sporer",
+    "DisplayName": "Hamill, Padberg and Morissette",
+    "DisplayDescription": "Face to face incremental neural-net",
+    "Rank": 849,
+    "ConnectorName": "Rodriguez Inc and Sons",
+    "ErpConnectionId": 930,
+    "ExtraData": "saepe",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 835,
-        "ERPPriceListKey": "sint",
-        "QuoteConnectionId": 441,
-        "Name": "Schaefer Inc and Sons",
-        "Description": "Multi-layered system-worthy approach",
-        "Currency": "velit",
-        "CurrencyName": "Bins-Brakus",
-        "ValidFrom": "2001-04-24T03:24:48.1426062+02:00",
-        "ValidTo": "2023-04-22T03:24:48.1426062+02:00",
+        "PriceListId": 214,
+        "ERPPriceListKey": "autem",
+        "QuoteConnectionId": 109,
+        "Name": "Klein, Quitzon and Heller",
+        "Description": "Integrated tangible approach",
+        "Currency": "voluptatem",
+        "CurrencyName": "Jenkins, Marquardt and Braun",
+        "ValidFrom": "2019-10-28T13:38:14.0303322+01:00",
+        "ValidTo": "1999-01-23T13:38:14.0303322+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 378
+            "FieldLength": 846
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": true,
+    "AllAccess": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      852,
-      698
+      581,
+      868
     ],
     "AssociateAccessIds": [
-      63,
-      588
+      114,
+      833
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 891
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Spinka-Jaskolski",
-    "ToolTip": "Eos voluptate et omnis nisi qui sint.",
+    "Id": 195,
+    "Name": "Feest LLC",
+    "ToolTip": "Inventore praesentium beatae.",
     "Deleted": false,
-    "Rank": 814,
-    "Type": "est",
-    "ColorBlock": 447,
-    "IconHint": "architecto",
-    "Selected": true,
-    "LastChanged": "2011-07-19T03:24:52.2713365+02:00",
+    "Rank": 631,
+    "Type": "animi",
+    "ColorBlock": 888,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2020-11-10T13:38:18.0775324+01:00",
     "ChildItems": [
       {
-        "Id": 41,
-        "Name": "Buckridge, Swift and Goodwin",
-        "ToolTip": "Quos minima rerum voluptatem.",
-        "Deleted": false,
-        "Rank": 317,
-        "Type": "necessitatibus",
-        "ColorBlock": 160,
-        "IconHint": "quod",
+        "Id": 789,
+        "Name": "Schroeder, McDermott and Connelly",
+        "ToolTip": "Nisi minus error totam quos dicta adipisci.",
+        "Deleted": true,
+        "Rank": 831,
+        "Type": "ullam",
+        "ColorBlock": 243,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2002-01-13T03:24:52.2713365+01:00",
+        "LastChanged": "2007-05-11T13:38:18.0931573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "sit",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Prof. Maxie Janick Swaniawski Sr.",
+        "FullName": "Jessie Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "libero",
+    "ExtraInfo": "delectus",
+    "StyleHint": "a",
     "Hidden": true,
-    "FullName": "Crystel Feil",
+    "FullName": "Freda Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldLength": 861
       }
     }
   }

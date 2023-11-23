@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 420,
-    "Name": "Pagac, Heaney and Gerhold",
-    "Tooltip": "neque",
+    "Id": 824,
+    "Name": "Zboncak, Collier and Champlin",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "UdListDefinitionId": 615,
-    "Rank": 828,
+    "UdListDefinitionId": 847,
+    "Rank": 40,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 894
       }
     }
   }

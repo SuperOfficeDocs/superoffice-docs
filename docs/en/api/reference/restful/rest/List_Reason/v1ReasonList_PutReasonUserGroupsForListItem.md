@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Kuhlman, Langworth and Swift",
-    "ToolTip": "Qui consectetur fuga maxime.",
-    "Deleted": true,
-    "Rank": 609,
-    "Type": "quis",
-    "ColorBlock": 877,
-    "IconHint": "placeat",
+    "Id": 695,
+    "Name": "Terry Group",
+    "ToolTip": "Ad est repellat provident.",
+    "Deleted": false,
+    "Rank": 816,
+    "Type": "quo",
+    "ColorBlock": 807,
+    "IconHint": "consectetur",
     "Selected": false,
-    "LastChanged": "2008-08-30T03:24:52.3806958+02:00",
+    "LastChanged": "2013-05-03T13:38:18.2025212+02:00",
     "ChildItems": [
       {
-        "Id": 242,
-        "Name": "Hirthe, Zulauf and Rutherford",
-        "ToolTip": "Sint rerum repellendus cumque quidem suscipit tenetur.",
+        "Id": 602,
+        "Name": "Gutkowski, Carter and Pacocha",
+        "ToolTip": "Voluptas sit rerum autem magni quibusdam.",
         "Deleted": false,
-        "Rank": 811,
-        "Type": "molestiae",
-        "ColorBlock": 543,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1999-11-02T03:24:52.3806958+01:00",
+        "Rank": 16,
+        "Type": "eligendi",
+        "ColorBlock": 623,
+        "IconHint": "iure",
+        "Selected": true,
+        "LastChanged": "2004-11-21T13:38:18.2025212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Hans Marks"
+        "ExtraInfo": "eos",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Sandrine Larkin"
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "odio",
-    "Hidden": false,
-    "FullName": "Mr. Marty Shane Kreiger Sr."
+    "ExtraInfo": "officiis",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Stanley Langosh"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Boehm LLC",
-    "ToolTip": "Laborum est delectus atque omnis pariatur sint voluptatibus.",
+    "Id": 778,
+    "Name": "Langworth, McCullough and Koss",
+    "ToolTip": "Magni sunt et autem quo optio culpa.",
     "Deleted": false,
-    "Rank": 822,
-    "Type": "alias",
-    "ColorBlock": 189,
-    "IconHint": "itaque",
+    "Rank": 625,
+    "Type": "id",
+    "ColorBlock": 126,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2021-05-11T03:24:52.3806958+02:00",
+    "LastChanged": "2022-09-30T13:38:18.2025212+02:00",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Greenfelder, Kautzer and Windler",
-        "ToolTip": "Adipisci autem accusantium sed.",
+        "Id": 573,
+        "Name": "Champlin LLC",
+        "ToolTip": "Voluptate accusantium esse possimus adipisci.",
         "Deleted": false,
-        "Rank": 937,
-        "Type": "consectetur",
-        "ColorBlock": 500,
-        "IconHint": "possimus",
-        "Selected": true,
-        "LastChanged": "2023-01-04T03:24:52.3806958+01:00",
+        "Rank": 398,
+        "Type": "dolorum",
+        "ColorBlock": 421,
+        "IconHint": "repellat",
+        "Selected": false,
+        "LastChanged": "2019-06-22T13:38:18.2025212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "dolore",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Ms. Francesca Stark II",
+        "FullName": "Lauretta Goodwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 345
+            "FieldLength": 273
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "inventore",
+    "ExtraInfo": "fugit",
+    "StyleHint": "error",
     "Hidden": false,
-    "FullName": "Albina Hyatt PhD",
+    "FullName": "Dr. Concepcion Zachary McCullough I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldLength": 912
       }
     }
   }

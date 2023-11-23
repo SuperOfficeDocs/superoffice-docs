@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=nobis
+GET /api/v1/MDOList/{listname}/selectable?additional=sit
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Barrows-Conn",
-    "ToolTip": "Et vero sequi minus sit.",
+    "Id": 622,
+    "Name": "Sporer Group",
+    "ToolTip": "Necessitatibus et architecto.",
     "Deleted": false,
-    "Rank": 823,
-    "Type": "eligendi",
-    "ColorBlock": 554,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2002-12-20T03:24:52.2713365+01:00",
+    "Rank": 962,
+    "Type": "optio",
+    "ColorBlock": 504,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2013-11-16T13:38:18.0775324+01:00",
     "ChildItems": [
       {
-        "Id": 76,
-        "Name": "Keeling-Legros",
-        "ToolTip": "Aperiam voluptas magni.",
+        "Id": 586,
+        "Name": "Lowe LLC",
+        "ToolTip": "Consectetur dicta quas aut molestiae nobis.",
         "Deleted": true,
-        "Rank": 67,
-        "Type": "dolor",
-        "ColorBlock": 557,
-        "IconHint": "aliquam",
+        "Rank": 575,
+        "Type": "cumque",
+        "ColorBlock": 139,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2002-07-03T03:24:52.2713365+02:00",
+        "LastChanged": "2021-12-14T13:38:18.0775324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "optio",
-        "Hidden": false,
-        "FullName": "Kallie Kulas",
+        "ExtraInfo": "eos",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Robb Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 95
+            "FieldLength": 473
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "sunt",
+    "ExtraInfo": "sint",
+    "StyleHint": "magnam",
     "Hidden": true,
-    "FullName": "Dr. Madison Schiller",
+    "FullName": "Sim Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 641
+        "FieldType": "System.Int32",
+        "FieldLength": 968
       }
     }
   }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 10 Apr 1997 03:24:52 G4T
+Last-Modified: Tue, 03 Jul 2018 13:38:17 G7T
 
 {
-  "BlobId": 818,
-  "BlobSize": 15,
-  "Description": "Public-key next generation matrices",
-  "ExtraInfo": "quae",
+  "BlobId": 704,
+  "BlobSize": 540,
+  "Description": "Stand-alone multimedia migration",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "dolores",
-  "OriginalSize": 685,
-  "CreatedDate": "2007-02-14T03:24:52.0682283+01:00",
-  "UpdatedDate": "1997-04-10T03:24:52.0682283+02:00",
+  "MimeType": "omnis",
+  "OriginalSize": 845,
+  "CreatedDate": "2017-12-20T13:38:17.8119358+01:00",
+  "UpdatedDate": "2018-07-03T13:38:17.8119358+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eum",
+  "ConceptualType": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 515
     }
   }
 }

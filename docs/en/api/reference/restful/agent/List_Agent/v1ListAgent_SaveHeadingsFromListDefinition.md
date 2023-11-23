@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 115,
+  "Id": 187,
   "Entities": [
     {
-      "HeadingId": 354,
-      "Name": "Yundt, Farrell and Simonis",
-      "Tooltip": "dolorum",
+      "HeadingId": 924,
+      "Name": "Robel Group",
+      "Tooltip": "sequi",
       "Deleted": true,
-      "Rank": 148,
-      "UdListDefinitionId": 23
+      "Rank": 252,
+      "UdListDefinitionId": 393
     },
     {
-      "HeadingId": 354,
-      "Name": "Yundt, Farrell and Simonis",
-      "Tooltip": "dolorum",
+      "HeadingId": 924,
+      "Name": "Robel Group",
+      "Tooltip": "sequi",
       "Deleted": true,
-      "Rank": 148,
-      "UdListDefinitionId": 23
+      "Rank": 252,
+      "UdListDefinitionId": 393
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 555,
-    "Name": "Ullrich-Streich",
-    "Tooltip": "nam",
+    "HeadingId": 721,
+    "Name": "Bernier, Hegmann and Moore",
+    "Tooltip": "tenetur",
     "Deleted": true,
-    "Rank": 973,
-    "UdListDefinitionId": 187,
+    "Rank": 897,
+    "UdListDefinitionId": 765,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 327
+        "FieldLength": 833
       }
     }
   }

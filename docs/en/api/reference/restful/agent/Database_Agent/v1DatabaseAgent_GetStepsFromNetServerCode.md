@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Quitzon-Pollich",
-    "StepNumber": 496,
+    "Name": "Watsica, Goldner and Hahn",
+    "StepNumber": 776,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldType": "System.String",
+        "FieldLength": 720
       }
     }
   },
   {
-    "Name": "Quitzon-Pollich",
-    "StepNumber": 496,
+    "Name": "Watsica, Goldner and Hahn",
+    "StepNumber": 776,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldType": "System.String",
+        "FieldLength": 720
       }
     }
   }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 237,
-  "ErpConnectorId": 61,
-  "DisplayName": "Kohler, Thompson and Kertzmann",
-  "DisplayDescription": "Compatible uniform neural-net",
-  "Active": false,
-  "ConnectionId": "porro",
-  "MostRecentTimestamp": "explicabo",
+  "ErpConnectionId": 107,
+  "ErpConnectorId": 829,
+  "DisplayName": "Schmidt Group",
+  "DisplayDescription": "Horizontal demand-driven contingency",
+  "Active": true,
+  "ConnectionId": "minus",
+  "MostRecentTimestamp": "cupiditate",
   "ConfigFields": {
-    "ConfigFields1": "aliquid",
-    "ConfigFields2": "id"
+    "ConfigFields1": "qui",
+    "ConfigFields2": "non"
   },
-  "Deleted": false,
-  "AllAccess": false,
+  "Deleted": true,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    170,
-    735
+    702,
+    918
   ],
   "AssociateAccessIds": [
-    914,
-    915
+    729,
+    700
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "McKenzie, Bartoletti and Green",
-    "ToolTip": "Numquam qui earum architecto magni.",
-    "Deleted": true,
-    "Rank": 211,
-    "Type": "ut",
-    "ColorBlock": 316,
-    "IconHint": "sed",
+    "Id": 410,
+    "Name": "Powlowski, Bernier and Turcotte",
+    "ToolTip": "Molestiae voluptatem itaque libero et ut nesciunt.",
+    "Deleted": false,
+    "Rank": 862,
+    "Type": "error",
+    "ColorBlock": 651,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2002-07-02T03:24:52.4119449+02:00",
+    "LastChanged": "2022-04-14T13:38:18.2337719+02:00",
     "ChildItems": [
       {
-        "Id": 301,
-        "Name": "Carter LLC",
-        "ToolTip": "Nesciunt aut voluptates voluptatibus quas dolore dolore.",
-        "Deleted": true,
-        "Rank": 996,
-        "Type": "autem",
-        "ColorBlock": 595,
-        "IconHint": "cum",
+        "Id": 482,
+        "Name": "Gerlach, Fritsch and Pagac",
+        "ToolTip": "Magnam et.",
+        "Deleted": false,
+        "Rank": 400,
+        "Type": "voluptatem",
+        "ColorBlock": 623,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2006-02-24T03:24:52.4119449+01:00",
+        "LastChanged": "2015-01-30T13:38:18.2337719+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "aut",
+        "ExtraInfo": "amet",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Layne Sporer",
+        "FullName": "Miss Danny Wehner II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 1001
+            "FieldType": "System.Int32",
+            "FieldLength": 680
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "id",
+    "StyleHint": "pariatur",
     "Hidden": true,
-    "FullName": "Arturo Rempel",
+    "FullName": "Aniyah Hahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 392
+        "FieldLength": 427
       }
     }
   }

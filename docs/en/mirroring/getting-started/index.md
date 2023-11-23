@@ -64,13 +64,14 @@ Backup/restore is a special case. If the sequence of events is mirror – backup
 
 ## Restrictions
 
-It does not make business sense to provide a complete database mirror to partner applications. Not only might this incur unnecessary stress between systems, but we also prevent access to sensitive customer data that simply doesn't belong in any other domain, such as area and travel tables, search criteria and operators, dbi agent information, and windows positions. A complete list of tables both replicated and not replicated with reason is listed in the <a href="../../../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>.
+It does not make business sense to provide a complete database mirror to partner applications. Not only might this incur unnecessary stress between systems, but we also prevent access to sensitive customer data that simply doesn't belong in any other domain, such as area and travel tables, search criteria and operators, dbi agent information, and windows positions. A complete list of tables both replicated and not replicated with reason is listed in the [blocked tables list][3].
 
 If you believe you have a great case for an application, navigate to the [application registration page][10] (for existing partners) and get started today! If you are not yet an online application partner, get started today by filling our [developer registration form][6].
 
 <!-- Referenced links -->
 [1]: ../../api/authentication/online/certificates/override-resolver.md
 [2]: ../../api/authentication/online/certificates/index.md
+[3]: ../blocked-tables.md
 [4]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
 [7]: ../order-database-mirroring.md
 [6]: ../../developer-portal/getting-started/get-access-to-sod.md

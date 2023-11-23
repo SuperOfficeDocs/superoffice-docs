@@ -96,23 +96,23 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 175,
-  "Name": "Klocko, Zemlak and Abbott",
-  "CreatedDate": "2001-05-10T03:24:51.6149823+02:00",
-  "UpdatedDate": "1998-09-13T03:24:51.6149823+02:00",
+  "ForeignAppId": 385,
+  "Name": "Gerhold LLC",
+  "CreatedDate": "2006-01-17T13:38:17.4368262+01:00",
+  "UpdatedDate": "2021-07-10T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 664,
-      "Name": "Turcotte-Ebert",
-      "CreatedDate": "2015-07-09T03:24:51.6149823+02:00",
-      "UpdatedDate": "2015-09-29T03:24:51.6149823+02:00",
-      "AssociateFullName": "Alice Nolan",
-      "CreatedBy": "modi",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "quia",
-      "ForeignAppId": 775
+      "ForeignDeviceId": 873,
+      "Name": "Hartmann-Heller",
+      "CreatedDate": "2005-07-17T13:38:17.4368262+02:00",
+      "UpdatedDate": "2013-12-24T13:38:17.4368262+01:00",
+      "AssociateFullName": "Bernardo Shanel Kuvalis V",
+      "CreatedBy": "rem",
+      "UpdatedBy": "vitae",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 187
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 523,
-  "Name": "Fritsch, Nader and Kub",
-  "CreatedDate": "2018-03-03T03:24:51.6149823+01:00",
-  "UpdatedDate": "2012-01-05T03:24:51.6149823+01:00",
+  "ForeignAppId": 747,
+  "Name": "Kris LLC",
+  "CreatedDate": "2014-09-23T13:38:17.4368262+02:00",
+  "UpdatedDate": "2020-09-29T13:38:17.4368262+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 936,
-      "Name": "Smith Inc and Sons",
-      "CreatedDate": "2005-08-08T03:24:51.6149823+02:00",
-      "UpdatedDate": "2021-11-10T03:24:51.6149823+01:00",
-      "AssociateFullName": "Violette Feil III",
-      "CreatedBy": "autem",
-      "UpdatedBy": "necessitatibus",
-      "DeviceIdentifier": "excepturi",
-      "ForeignAppId": 271,
+      "ForeignDeviceId": 452,
+      "Name": "Lehner, Dooley and Dare",
+      "CreatedDate": "2013-04-24T13:38:17.4368262+02:00",
+      "UpdatedDate": "2005-08-29T13:38:17.4368262+02:00",
+      "AssociateFullName": "Lenora Willms V",
+      "CreatedBy": "enim",
+      "UpdatedBy": "voluptas",
+      "DeviceIdentifier": "expedita",
+      "ForeignAppId": 437,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 691
+          "FieldLength": 382
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 688
     }
   },
   "_Links": {

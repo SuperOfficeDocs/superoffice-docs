@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 838,
-  "Name": "Grimes, Waters and Tremblay",
-  "Tooltip": "perferendis",
-  "SaveInDb": 776,
-  "Filename": "voluptatem",
-  "DefaultOref": "molestias",
+  "DocumentTemplateId": 490,
+  "Name": "Koch LLC",
+  "Tooltip": "et",
+  "SaveInDb": 965,
+  "Filename": "repellat",
+  "DefaultOref": "quod",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 707,
-  "IntentId": 477,
-  "IsDefaultPublished": true,
-  "Rank": 707,
-  "LoadTemplateFromPlugin": 295,
-  "MimeType": "ea",
+  "AutoeventId": 447,
+  "IntentId": 241,
+  "IsDefaultPublished": false,
+  "Rank": 762,
+  "LoadTemplateFromPlugin": 888,
+  "MimeType": "laudantium",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 42,
+  "DocumentTypeKey": 595,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "misael@schillertowne.co.uk",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "julian.runte@wolff.com",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "halie_wyman@braunspinka.com",
+  "SenderEmailAddress": "jerad@pagac.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 961
     }
   }
 }

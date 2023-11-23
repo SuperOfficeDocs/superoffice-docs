@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 696,
-    "Name": "Lubowitz, Cremin and Little",
-    "TZLocationCode": "ducimus",
-    "TZLocationCities": "quia",
-    "IsoNumber": 884,
+    "TZLocationID": 884,
+    "Name": "Lebsack, Larson and Gleason",
+    "TZLocationCode": "iste",
+    "TZLocationCities": "voluptatem",
+    "IsoNumber": 906,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 713,
-        "StartMonth": 850,
-        "EndDay": 197,
-        "EndMonth": 655,
-        "TZOffset": 41,
-        "StartRulePattern": "molestiae",
-        "EndRulePattern": "quaerat"
+        "StartDay": 535,
+        "StartMonth": 970,
+        "EndDay": 501,
+        "EndMonth": 557,
+        "TZOffset": 701,
+        "StartRulePattern": "dolorem",
+        "EndRulePattern": "similique"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 723,
-        "StartMonth": 436,
-        "EndDay": 188,
-        "EndMonth": 836,
-        "TZOffset": 500,
-        "StartRulePattern": "et",
-        "EndRulePattern": "eos"
+        "StartDay": 44,
+        "StartMonth": 168,
+        "EndDay": 887,
+        "EndMonth": 941,
+        "TZOffset": 847,
+        "StartRulePattern": "aut",
+        "EndRulePattern": "vel"
       }
     }
   }

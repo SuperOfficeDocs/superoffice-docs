@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 404,
-    "ParentId": 351,
-    "Name": "Rosenbaum Inc and Sons",
-    "Fullname": "nisi",
-    "CategoryMaster": 951,
+    "TicketCategoryId": 432,
+    "ParentId": 981,
+    "Name": "Ortiz LLC",
+    "Fullname": "voluptate",
+    "CategoryMaster": 776,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Bayer-Luettgen",
+    "ExternalName": "Leffler-Emmerich",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 953,
-    "ReplyTemplate": 426,
-    "NotificationEmail": "moses@eichmann.com",
+    "AssignmentLag": 548,
+    "ReplyTemplate": 955,
+    "NotificationEmail": "verlie@herzog.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 835,
+    "EffectiveReplyTemplateId": 224,
     "ExtraFields": {
-      "ExtraFields1": "nobis",
-      "ExtraFields2": "dolores"
+      "ExtraFields1": "possimus",
+      "ExtraFields2": "aut"
     },
     "CustomFields": {
-      "CustomFields1": "facere",
-      "CustomFields2": "et"
+      "CustomFields1": "qui",
+      "CustomFields2": "eaque"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldLength": 910
       }
     }
   }

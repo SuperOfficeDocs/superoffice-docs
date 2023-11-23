@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Leffler-Marquardt",
-  "PersonId": 46
+  "ParameterName": "Fisher-Boehm",
+  "PersonId": 439
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 847,
-  "Name": "Dibbert LLC",
-  "Value": "minima",
-  "CreatedDate": "2005-01-29T03:24:47.2520803+01:00",
-  "UpdatedDate": "2018-12-21T03:24:47.2520803+01:00",
-  "CreatedBy": "ut",
-  "UpdatedBy": "numquam",
+  "AudienceLayoutId": 459,
+  "Name": "O'Hara Group",
+  "Value": "illo",
+  "CreatedDate": "2010-04-20T13:38:13.0771703+02:00",
+  "UpdatedDate": "2015-03-09T13:38:13.0771703+01:00",
+  "CreatedBy": "vel",
+  "UpdatedBy": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 357
     }
   }
 }

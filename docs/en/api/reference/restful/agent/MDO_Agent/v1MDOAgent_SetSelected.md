@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jacobson, Altenwerth and Bode",
-  "AdditionalInfo": "voluptatibus",
+  "Name": "Wilderman, Schaefer and Schimmel",
+  "AdditionalInfo": "mollitia",
   "SelectableMDOList": [
     {
-      "Id": 888,
-      "Name": "Gleichner LLC",
-      "ToolTip": "Quia necessitatibus saepe qui nesciunt dignissimos molestias ut.",
+      "Id": 781,
+      "Name": "Heaney, Quitzon and Rosenbaum",
+      "ToolTip": "Dolores a quos dolor amet voluptatem.",
       "Deleted": true,
-      "Rank": 435,
-      "Type": "aut",
-      "ColorBlock": 666,
-      "IconHint": "voluptatem",
+      "Rank": 158,
+      "Type": "qui",
+      "ColorBlock": 708,
+      "IconHint": "non",
       "Selected": false,
-      "LastChanged": "2010-07-16T03:24:47.9395013+02:00",
+      "LastChanged": "2001-10-16T13:38:13.7491627+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "exercitationem",
-      "StyleHint": "nobis",
-      "Hidden": true,
-      "FullName": "Cecelia Crystal Gibson II"
+      "ExtraInfo": "quisquam",
+      "StyleHint": "consequatur",
+      "Hidden": false,
+      "FullName": "Tiffany Mayert Sr."
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Smith, Hansen and Bergstrom",
-    "ToolTip": "Modi blanditiis dolorem.",
+    "Id": 873,
+    "Name": "Hartmann Inc and Sons",
+    "ToolTip": "Consequatur et libero doloremque quo fugit ipsum.",
     "Deleted": false,
-    "Rank": 71,
-    "Type": "qui",
-    "ColorBlock": 826,
-    "IconHint": "aut",
+    "Rank": 151,
+    "Type": "quaerat",
+    "ColorBlock": 262,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "1996-09-08T03:24:47.9395013+02:00",
+    "LastChanged": "2009-01-24T13:38:13.7491627+01:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Labadie, Powlowski and Stoltenberg",
-        "ToolTip": "Dolore aut veniam ea saepe.",
+        "Id": 211,
+        "Name": "Friesen-Franecki",
+        "ToolTip": "Labore natus sed.",
         "Deleted": false,
-        "Rank": 66,
-        "Type": "eveniet",
-        "ColorBlock": 768,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "1998-10-02T03:24:47.9395013+02:00",
+        "Rank": 824,
+        "Type": "vitae",
+        "ColorBlock": 467,
+        "IconHint": "molestias",
+        "Selected": true,
+        "LastChanged": "2021-01-28T13:38:13.7491627+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "cupiditate",
-        "Hidden": false,
-        "FullName": "Prof. Rollin Sim Beatty",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "earum",
+        "Hidden": true,
+        "FullName": "Miss Alan Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 250
+            "FieldLength": 670
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Mrs. Horace Antonetta Rath",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Lucie Franecki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldType": "System.String",
+        "FieldLength": 965
       }
     }
   }

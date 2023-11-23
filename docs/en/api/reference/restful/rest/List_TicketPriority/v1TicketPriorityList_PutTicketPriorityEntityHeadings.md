@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 175,
-    "Name": "Schmeler-Bernhard",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "Rank": 361,
-    "UdListDefinitionId": 284
+    "HeadingId": 214,
+    "Name": "Reichel, Maggio and Walker",
+    "Tooltip": "sed",
+    "Deleted": true,
+    "Rank": 541,
+    "UdListDefinitionId": 398
   },
   {
-    "HeadingId": 175,
-    "Name": "Schmeler-Bernhard",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "Rank": 361,
-    "UdListDefinitionId": 284
+    "HeadingId": 214,
+    "Name": "Reichel, Maggio and Walker",
+    "Tooltip": "sed",
+    "Deleted": true,
+    "Rank": 541,
+    "UdListDefinitionId": 398
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 349,
-    "Name": "Bergstrom-Rodriguez",
-    "Tooltip": "perferendis",
-    "Deleted": true,
-    "Rank": 673,
-    "UdListDefinitionId": 1002,
+    "HeadingId": 8,
+    "Name": "Altenwerth, O'Reilly and Stamm",
+    "Tooltip": "quam",
+    "Deleted": false,
+    "Rank": 344,
+    "UdListDefinitionId": 718,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldType": "System.String",
+        "FieldLength": 982
       }
     }
   }

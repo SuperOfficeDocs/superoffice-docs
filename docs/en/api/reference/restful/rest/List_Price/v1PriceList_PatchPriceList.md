@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 769,
-  "ERPPriceListKey": "sit",
-  "QuoteConnectionId": 20,
-  "Name": "Leuschke LLC",
-  "Description": "Open-source exuding workforce",
-  "Currency": "enim",
-  "CurrencyName": "Beier-Yundt",
-  "ValidFrom": "2022-10-09T03:24:52.3025813+02:00",
-  "ValidTo": "2021-05-07T03:24:52.3025813+02:00",
-  "IsActive": false,
+  "PriceListId": 768,
+  "ERPPriceListKey": "aut",
+  "QuoteConnectionId": 395,
+  "Name": "Thompson, Schoen and Friesen",
+  "Description": "Distributed real-time utilisation",
+  "Currency": "inventore",
+  "CurrencyName": "Paucek Inc and Sons",
+  "ValidFrom": "2015-07-25T13:38:18.1087815+02:00",
+  "ValidTo": "1997-08-25T13:38:18.1087815+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 147
     }
   },
   "_Links": {

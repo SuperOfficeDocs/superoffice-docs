@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 295,
-  "Name": "Kassulke, Graham and Anderson",
-  "Tooltip": "quasi",
+  "Id": 129,
+  "Name": "Hane, Schmeler and Oberbrunner",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 865,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 982,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "doloremque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldLength": 259
     }
   },
   "_Links": {

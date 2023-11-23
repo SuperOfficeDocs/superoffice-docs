@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Jakubowski-Yost",
-    "ToolTip": "Et pariatur.",
+    "Id": 576,
+    "Name": "Berge, Dickens and Beer",
+    "ToolTip": "Rerum sed omnis quia omnis consequatur magnam.",
     "Deleted": false,
-    "Rank": 935,
-    "Type": "dignissimos",
-    "ColorBlock": 619,
-    "IconHint": "est",
+    "Rank": 631,
+    "Type": "quia",
+    "ColorBlock": 530,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2018-12-26T03:24:52.1932187+01:00",
+    "LastChanged": "2020-05-31T13:38:17.9994152+02:00",
     "ChildItems": [
       {
-        "Id": 961,
-        "Name": "Dibbert, Harris and Russel",
-        "ToolTip": "Culpa quia.",
+        "Id": 337,
+        "Name": "Bernier-Nitzsche",
+        "ToolTip": "Aut ut.",
         "Deleted": false,
-        "Rank": 85,
-        "Type": "provident",
-        "ColorBlock": 692,
-        "IconHint": "doloremque",
-        "Selected": false,
-        "LastChanged": "2023-02-22T03:24:52.1932187+01:00",
+        "Rank": 666,
+        "Type": "dicta",
+        "ColorBlock": 927,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "1998-08-31T13:38:17.9994152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "non",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Raul Hansen",
+        "FullName": "Maximo Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 161
+            "FieldType": "System.Int32",
+            "FieldLength": 481
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "ipsam",
-    "Hidden": true,
-    "FullName": "Ransom Johnson V",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "rem",
+    "Hidden": false,
+    "FullName": "Abdiel Russel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 592
+        "FieldLength": 460
       }
     }
   }

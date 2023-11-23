@@ -112,6 +112,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -124,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 302
+  "ProjectId": 159
 }
 ```
 
@@ -140,64 +141,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 904,
-    "StartDate": "1998-06-23T03:24:46.9550719+02:00",
-    "EndDate": "2021-01-16T03:24:46.9550719+01:00",
+    "AppointmentId": 865,
+    "StartDate": "1997-12-31T13:38:12.8584402+01:00",
+    "EndDate": "2020-12-03T13:38:12.8584402+01:00",
     "Type": "BookingForChecklist",
-    "Task": "velit",
-    "AssociateFullName": "Carolyn Herman",
-    "ContactName": "Heidenreich, Graham and O'Connell",
-    "Description": "Versatile cohesive archive",
-    "PersonFullName": "Mr. Teagan Beahan",
-    "PersonId": 922,
-    "ContactId": 40,
-    "ProjectId": 714,
-    "ProjectName": "Kunde, Hessel and Klocko",
+    "Task": "sint",
+    "AssociateFullName": "Dr. Cordell Haley",
+    "ContactName": "Fritsch-Krajcik",
+    "Description": "Enterprise-wide mission-critical frame",
+    "PersonFullName": "Ms. Stephany Bayer",
+    "PersonId": 829,
+    "ContactId": 637,
+    "ProjectId": 701,
+    "ProjectName": "Schimmel, Bernier and Dicki",
     "IsPublished": false,
-    "AssociateId": 354,
-    "ColorIndex": 919,
-    "IsFree": false,
+    "AssociateId": 993,
+    "ColorIndex": 81,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 346,
-    "PriorityName": "Rippin-O'Conner",
+    "PriorityId": 223,
+    "PriorityName": "Kshlerin Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2007-08-08T03:24:46.9550719+02:00",
+    "ActiveDate": "1999-06-27T13:38:12.8584402+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-06-27T03:24:46.9550719+02:00",
-    "RecurringEndDate": "1998-08-23T03:24:46.9550719+02:00",
-    "MotherId": 783,
-    "AssignedBy": 1001,
-    "AssignedByFullName": "Nyah Parker",
+    "RecurringStartDate": "2003-05-19T13:38:12.8584402+02:00",
+    "RecurringEndDate": "1996-10-11T13:38:12.8584402+02:00",
+    "MotherId": 911,
+    "AssignedBy": 526,
+    "AssignedByFullName": "Merritt Schiller",
     "RejectReason": "",
-    "Location": "quos",
+    "Location": "cum",
     "AlarmLeadTime": "error",
-    "SaleId": 989,
-    "SaleName": "Kuphal-Collins",
-    "AssociateName": "Carroll-O'Reilly",
-    "CreatedDate": "2002-12-08T03:24:46.9550719+01:00",
-    "CreatedBy": "nesciunt",
-    "CreatedByFullName": "Dixie Koepp",
-    "CreatedByAssociateId": 363,
+    "SaleId": 603,
+    "SaleName": "Zboncak Group",
+    "AssociateName": "Mills Inc and Sons",
+    "CreatedDate": "2018-07-12T13:38:12.8584402+02:00",
+    "CreatedBy": "quo",
+    "CreatedByFullName": "Pattie D'Amore DDS",
+    "CreatedByAssociateId": 488,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "voluptates",
-    "Agenda": "sunt",
-    "InternalNotes": "est",
+    "PreferredTZLocation": 377,
+    "Title": "ipsa",
+    "Agenda": "nihil",
+    "InternalNotes": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 711
+        "FieldLength": 440
       }
     }
   }

@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 336
+  "ProductId": 828
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 118,
-  "BlobSize": 894,
-  "Description": "Open-architected contextually-based extranet",
-  "ExtraInfo": "neque",
+  "BlobId": 334,
+  "BlobSize": 836,
+  "Description": "Robust multimedia neural-net",
+  "ExtraInfo": "et",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "molestiae",
-  "OriginalSize": 480,
-  "CreatedDate": "1998-12-29T03:24:47.2677007+01:00",
-  "UpdatedDate": "2013-07-14T03:24:47.2677007+02:00",
+  "MimeType": "minima",
+  "OriginalSize": 101,
+  "CreatedDate": "2006-12-25T13:38:13.0927968+01:00",
+  "UpdatedDate": "2019-06-10T13:38:13.0927968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fugiat",
+  "ConceptualType": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldLength": 114
     }
   }
 }

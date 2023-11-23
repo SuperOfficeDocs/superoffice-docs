@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 888,
-  "StartTime": "2006-06-16T03:24:47.5176724+02:00",
-  "EndTime": "1997-01-08T03:24:47.5176724+01:00",
-  "Count": 83,
-  "DocumentTemplateId": 14
+  "PersonId": 746,
+  "StartTime": "2018-08-17T13:38:13.4208858+02:00",
+  "EndTime": "2000-08-16T13:38:13.4208858+02:00",
+  "Count": 42,
+  "DocumentTemplateId": 778
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 33,
-    "Attention": "voluptatem",
-    "Header": "atque",
-    "Name": "DuBuque-Lakin",
-    "OurRef": "qui",
-    "YourRef": "nisi",
-    "Description": "Future-proofed mobile project",
-    "DocumentTemplate": "optio",
+    "DocumentId": 366,
+    "Attention": "perferendis",
+    "Header": "dolorem",
+    "Name": "Nitzsche-Schoen",
+    "OurRef": "ut",
+    "YourRef": "eos",
+    "Description": "Synchronised heuristic forecast",
+    "DocumentTemplate": "nostrum",
     "IsPublished": false,
-    "PersonId": 904,
-    "PersonFullName": "Dr. Peggie Lehner I",
-    "AssociateFullName": "Freddy Schultz",
-    "ContactId": 679,
-    "ContactName": "Feeney-Hackett",
-    "ProjectId": 148,
-    "ProjectName": "Schamberger-McDermott",
-    "AssociateId": 113,
-    "Snum": 698,
-    "SaleId": 711,
-    "SaleName": "Conn Inc and Sons",
+    "PersonId": 71,
+    "PersonFullName": "Hans Koch DVM",
+    "AssociateFullName": "Flavio Jacobson",
+    "ContactId": 601,
+    "ContactName": "Schroeder Group",
+    "ProjectId": 770,
+    "ProjectName": "Jaskolski Group",
+    "AssociateId": 519,
+    "Snum": 17,
+    "SaleId": 265,
+    "SaleName": "Osinski, Schaefer and Gleason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldType": "System.String",
+        "FieldLength": 14
       }
     }
   }

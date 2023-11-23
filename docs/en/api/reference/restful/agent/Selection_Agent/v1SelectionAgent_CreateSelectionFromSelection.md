@@ -120,10 +120,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 481,
-  "Name": "Stehr-Armstrong",
+  "SelectionId": 984,
+  "Name": "White, Kovacek and Strosin",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cloned tangible extranet",
-  "Postit": "est",
+  "Description": "Quality-focused multi-state ability",
+  "Postit": "eligendi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 431,
-  "IncludePerson": 853,
-  "MemberCount": 836,
-  "Name": "Buckridge, Prohaska and Schaden",
-  "PostitTextId": 149,
-  "CreatedDate": "2001-01-21T03:24:48.2680521+01:00",
-  "SelectionId": 741,
-  "SoundEx": "in",
-  "Source": 413,
-  "TextId": 108,
-  "UpdatedDate": "2006-07-30T03:24:48.2680521+02:00",
-  "UpdatedCount": 591,
-  "Visibility": 386,
+  "GroupIdx": 754,
+  "IncludePerson": 172,
+  "MemberCount": 373,
+  "Name": "Greenholt LLC",
+  "PostitTextId": 93,
+  "CreatedDate": "2021-12-25T13:38:14.1553188+01:00",
+  "SelectionId": 199,
+  "SoundEx": "est",
+  "Source": 599,
+  "TextId": 598,
+  "UpdatedDate": "2021-11-11T13:38:14.1553188+01:00",
+  "UpdatedCount": 145,
+  "Visibility": 512,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 67,
-  "TargetTableName": "Bogan Inc and Sons",
+  "TargetTableNumber": 197,
+  "TargetTableName": "Mraz, Abernathy and Gottlieb",
   "Completed": false,
-  "LeftSelectionId": 891,
-  "RightSelectionId": 683,
+  "LeftSelectionId": 318,
+  "RightSelectionId": 300,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Koelpin, O'Hara and Gutkowski",
-  "ShadowProviderName": "Towne, Ortiz and Daugherty",
-  "ChartKey": "rerum",
-  "LastLoaded": "2003-09-21T03:24:48.2680521+02:00",
-  "LastLoadedBy": 304,
+  "MainProviderName": "Schoen, Sipes and Little",
+  "ShadowProviderName": "Treutel Inc and Sons",
+  "ChartKey": "vero",
+  "LastLoaded": "2017-07-15T13:38:14.1553188+02:00",
+  "LastLoadedBy": 500,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-04-13T03:24:48.2680521+02:00",
-  "LastMembershipChangeBy": 595,
+  "LastMembershipChange": "2000-08-14T13:38:14.1553188+02:00",
+  "LastMembershipChangeBy": 48,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Walker Inc and Sons",
-  "DashboardTileDefinitionId": 882,
+  "MainHeading": "et",
+  "MemberTabHeading": "excepturi",
+  "MailingsProviderName": "Waters LLC",
+  "DashboardTileDefinitionId": 762,
   "VisibleFor": [
     {
-      "VisibleId": 923,
+      "VisibleId": 7,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldType": "System.String",
+          "FieldLength": 322
         }
       }
     },
     {
-      "VisibleId": 923,
+      "VisibleId": 7,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldType": "System.String",
+          "FieldLength": 322
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 873
     }
   }
 }

@@ -112,6 +112,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -124,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 314
+  "ProjectId": 477
 }
 ```
 
@@ -139,64 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 466,
-  "StartDate": "2016-01-03T03:24:48.0957311+01:00",
-  "EndDate": "2007-01-07T03:24:48.0957311+01:00",
+  "AppointmentId": 905,
+  "StartDate": "1998-02-27T13:38:13.9834617+01:00",
+  "EndDate": "2005-01-17T13:38:13.9834617+01:00",
   "Type": "BookingForChecklist",
-  "Task": "quia",
-  "AssociateFullName": "Mr. Koby Pfeffer",
-  "ContactName": "Strosin-Lindgren",
-  "Description": "Organic regional application",
-  "PersonFullName": "Monserrat Beahan",
-  "PersonId": 436,
-  "ContactId": 101,
-  "ProjectId": 38,
-  "ProjectName": "Nikolaus, Farrell and DuBuque",
-  "IsPublished": false,
-  "AssociateId": 304,
-  "ColorIndex": 784,
-  "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "Task": "quod",
+  "AssociateFullName": "Roxane Marvin",
+  "ContactName": "Miller-Medhurst",
+  "Description": "Upgradable local array",
+  "PersonFullName": "Akeem O'Kon",
+  "PersonId": 683,
+  "ContactId": 537,
+  "ProjectId": 262,
+  "ProjectName": "Gislason-Kshlerin",
+  "IsPublished": true,
+  "AssociateId": 237,
+  "ColorIndex": 164,
+  "IsFree": true,
+  "HasAlarm": true,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 137,
-  "PriorityName": "Padberg Inc and Sons",
+  "PriorityId": 255,
+  "PriorityName": "Bergnaum-Graham",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "2023-05-29T03:24:48.0957311+02:00",
+  "IsRecurrence": false,
+  "IsBooking": false,
+  "ActiveDate": "2021-02-08T13:38:13.9834617+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1998-10-16T03:24:48.0957311+02:00",
-  "RecurringEndDate": "2016-09-26T03:24:48.0957311+02:00",
-  "MotherId": 648,
-  "AssignedBy": 478,
-  "AssignedByFullName": "Mr. Turner O'Reilly",
+  "RecurringStartDate": "2019-05-25T13:38:13.9834617+02:00",
+  "RecurringEndDate": "2022-04-13T13:38:13.9834617+02:00",
+  "MotherId": 818,
+  "AssignedBy": 923,
+  "AssignedByFullName": "Nedra Veum V",
   "RejectReason": "",
-  "Location": "a",
-  "AlarmLeadTime": "ut",
-  "SaleId": 595,
-  "SaleName": "Welch Group",
-  "AssociateName": "Mann Group",
-  "CreatedDate": "2021-01-07T03:24:48.0957311+01:00",
-  "CreatedBy": "quos",
-  "CreatedByFullName": "Abdullah Miller",
-  "CreatedByAssociateId": 769,
+  "Location": "et",
+  "AlarmLeadTime": "sit",
+  "SaleId": 206,
+  "SaleName": "Hayes LLC",
+  "AssociateName": "Hodkiewicz-D'Amore",
+  "CreatedDate": "1997-08-28T13:38:13.9834617+02:00",
+  "CreatedBy": "sunt",
+  "CreatedByFullName": "Kelley Beier Sr.",
+  "CreatedByAssociateId": 758,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "magnam",
-  "Agenda": "porro",
-  "InternalNotes": "enim",
+  "PreferredTZLocation": 15,
+  "Title": "iusto",
+  "Agenda": "et",
+  "InternalNotes": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

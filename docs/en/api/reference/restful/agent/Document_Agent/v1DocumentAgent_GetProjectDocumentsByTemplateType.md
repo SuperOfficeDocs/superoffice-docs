@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 613,
-  "StartTime": "2008-04-04T03:24:47.5176724+02:00",
-  "EndTime": "2017-05-08T03:24:47.5176724+02:00",
-  "Count": 708,
-  "DocumentTemplateId": 773
+  "ProjectId": 583,
+  "StartTime": "2012-08-01T13:38:13.4208858+02:00",
+  "EndTime": "2023-03-08T13:38:13.4208858+01:00",
+  "Count": 341,
+  "DocumentTemplateId": 223
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 441,
-    "Attention": "quo",
-    "Header": "velit",
-    "Name": "Kerluke, Breitenberg and Olson",
-    "OurRef": "quibusdam",
-    "YourRef": "quas",
-    "Description": "Robust assymetric knowledge base",
-    "DocumentTemplate": "id",
+    "DocumentId": 492,
+    "Attention": "est",
+    "Header": "est",
+    "Name": "Lehner Inc and Sons",
+    "OurRef": "quae",
+    "YourRef": "facilis",
+    "Description": "Future-proofed bifurcated pricing structure",
+    "DocumentTemplate": "nulla",
     "IsPublished": false,
-    "PersonId": 706,
-    "PersonFullName": "Richie Yost MD",
-    "AssociateFullName": "Brielle Amelia Gorczany III",
-    "ContactId": 361,
-    "ContactName": "Roberts-McLaughlin",
-    "ProjectId": 727,
-    "ProjectName": "Feest Group",
-    "AssociateId": 986,
-    "Snum": 908,
-    "SaleId": 962,
-    "SaleName": "Wisoky-Raynor",
+    "PersonId": 846,
+    "PersonFullName": "Lessie Wehner",
+    "AssociateFullName": "Dr. Adolph Jared Gleichner DDS",
+    "ContactId": 958,
+    "ContactName": "Bauch-Cremin",
+    "ProjectId": 605,
+    "ProjectName": "Borer, Hegmann and Gibson",
+    "AssociateId": 1001,
+    "Snum": 888,
+    "SaleId": 611,
+    "SaleName": "Feest-Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldLength": 831
       }
     }
   }

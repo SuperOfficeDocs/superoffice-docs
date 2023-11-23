@@ -89,15 +89,15 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 163,
-      "FieldName": "Hills, Tremblay and Prohaska",
-      "Label": "modi",
-      "Tooltip": "ratione",
+      "QuoteLineConfigurationId": 60,
+      "FieldName": "Dickens, Sauer and Romaguera",
+      "Label": "ea",
+      "Tooltip": "eius",
       "Editable": false,
-      "InUse": false,
-      "Mandatory": false,
-      "Rank": 184,
-      "RestrictEdit": true
+      "InUse": true,
+      "Mandatory": true,
+      "Rank": 356,
+      "RestrictEdit": false
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 351,
-    "FieldName": "Flatley LLC",
-    "Label": "voluptate",
-    "Tooltip": "illo",
-    "Editable": true,
+    "QuoteLineConfigurationId": 463,
+    "FieldName": "VonRueden, Lockman and Goyette",
+    "Label": "nobis",
+    "Tooltip": "qui",
+    "Editable": false,
     "InUse": false,
-    "Mandatory": false,
-    "Rank": 653,
-    "RestrictEdit": true,
+    "Mandatory": true,
+    "Rank": 235,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 63
       }
     }
   }

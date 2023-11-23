@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,148 +97,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 721,
-      "ContactName": "Schaefer, Schamberger and Erdman",
-      "PersonId": 693,
-      "PersonName": "Toy, Hahn and Herman",
-      "AssociateId": 602,
-      "Address": "neque",
-      "EmailId": 430,
+      "ContactId": 216,
+      "ContactName": "Langosh, Anderson and Koepp",
+      "PersonId": 651,
+      "PersonName": "Bartoletti-Wiza",
+      "AssociateId": 800,
+      "Address": "quas",
+      "EmailId": 765,
       "DuplicatePersonIds": [
-        639,
-        50
+        441,
+        158
       ],
-      "Name": "Beer LLC",
+      "Name": "Klocko, Mante and McLaughlin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 948
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 260,
-      "ContactName": "Daniel, Gorczany and Stark",
-      "PersonId": 603,
-      "PersonName": "Shields, Spencer and Schiller",
-      "AssociateId": 822,
-      "Address": "et",
-      "EmailId": 369,
+      "ContactId": 858,
+      "ContactName": "Kulas Inc and Sons",
+      "PersonId": 408,
+      "PersonName": "Yost, McLaughlin and Schneider",
+      "AssociateId": 972,
+      "Address": "nisi",
+      "EmailId": 337,
       "DuplicatePersonIds": [
-        659,
-        315
+        211,
+        879
       ],
-      "Name": "Luettgen LLC",
+      "Name": "Hessel-Block",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 148
+          "FieldLength": 856
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 826,
-      "ContactName": "Gislason-Reynolds",
-      "PersonId": 963,
-      "PersonName": "Kozey Inc and Sons",
-      "AssociateId": 276,
-      "Address": "soluta",
-      "EmailId": 461,
+      "ContactId": 747,
+      "ContactName": "Hegmann-Johns",
+      "PersonId": 503,
+      "PersonName": "Hermann, Parisian and Fahey",
+      "AssociateId": 95,
+      "Address": "accusamus",
+      "EmailId": 126,
       "DuplicatePersonIds": [
-        524,
-        868
+        939,
+        875
       ],
-      "Name": "Parker, Walker and McKenzie",
+      "Name": "Bradtke-Frami",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 753
+          "FieldLength": 425
         }
       }
     }
   ],
-  "Subject": "eos",
-  "HTMLBody": "quia",
+  "Subject": "sed",
+  "HTMLBody": "fugiat",
   "From": null,
-  "Sent": "2003-11-01T03:24:47.7363985+01:00",
-  "Size": 862,
+  "Sent": "2007-10-25T13:38:13.5458695+02:00",
+  "Size": 468,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptas",
-  "PlainBody": "laudantium",
+  "MessageID": "sapiente",
+  "PlainBody": "corporis",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 537,
+  "ServerId": 323,
   "Attachments": [
     {
-      "Description": "Inverse modular website",
-      "Filename": "deleniti",
-      "Size": 558,
-      "Type": "necessitatibus",
-      "Encoding": "autem",
-      "Id": "quibusdam",
-      "Disposition": "aut",
-      "IsSafeFileExtension": true,
+      "Description": "Synchronised cohesive challenge",
+      "Filename": "temporibus",
+      "Size": 70,
+      "Type": "voluptatem",
+      "Encoding": "sed",
+      "Id": "est",
+      "Disposition": "eligendi",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 476
+          "FieldLength": 52
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Pacocha, Beier and Mante",
+      "Name": "Nicolas-Fadel",
       "Values": [
-        "cupiditate",
-        "autem"
+        "nemo",
+        "ipsam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 275
         }
       }
     },
     {
-      "Name": "Pacocha, Beier and Mante",
+      "Name": "Nicolas-Fadel",
       "Values": [
-        "cupiditate",
-        "autem"
+        "nemo",
+        "ipsam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 275
         }
       }
     }
   ],
-  "FolderName": "Hilll, Blick and Witting",
-  "EmailItemId": 156,
-  "AccountId": 845,
-  "ReceivedAt": "2012-11-01T03:24:47.7363985+01:00",
+  "FolderName": "Cassin Inc and Sons",
+  "EmailItemId": 996,
+  "AccountId": 436,
+  "ReceivedAt": "2007-10-09T13:38:13.5458695+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-09-02T03:24:47.7363985+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2020-06-29T13:38:13.5458695+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 966
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 05 Jun 2008 03:24:51 G6T
+Last-Modified: Thu, 03 Oct 2019 13:38:17 G10T
 
 {
-  "Key": "eligendi",
-  "Value": "error",
-  "RecordId": 542,
-  "CreatedDate": "1996-05-31T03:24:51.630601+02:00",
-  "UpdatedDate": "2008-06-05T03:24:51.630601+02:00",
-  "UpdatedBy": "eos",
-  "CreatedBy": "dolores",
-  "TableName": "Rogahn Group",
+  "Key": "dignissimos",
+  "Value": "necessitatibus",
+  "RecordId": 502,
+  "CreatedDate": "1999-12-27T13:38:17.4524494+01:00",
+  "UpdatedDate": "2019-10-03T13:38:17.4524494+02:00",
+  "UpdatedBy": "aperiam",
+  "CreatedBy": "amet",
+  "TableName": "Ankunding Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldLength": 555
     }
   }
 }

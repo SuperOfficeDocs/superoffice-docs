@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 21 Apr 2015 03:24:51 G4T
+Last-Modified: Mon, 29 Apr 2002 13:38:17 G4T
 
 [
   {
-    "ForeignDeviceId": 627,
-    "Name": "Conn, Kub and Wuckert",
-    "CreatedDate": "2001-02-16T03:24:51.6149823+01:00",
-    "UpdatedDate": "2015-04-21T03:24:51.6149823+02:00",
-    "AssociateFullName": "Heidi Hane III",
-    "CreatedBy": "recusandae",
-    "UpdatedBy": "voluptas",
-    "DeviceIdentifier": "ut",
-    "ForeignAppId": 595,
+    "ForeignDeviceId": 493,
+    "Name": "Dickinson Inc and Sons",
+    "CreatedDate": "2012-11-02T13:38:17.4368262+01:00",
+    "UpdatedDate": "2002-04-29T13:38:17.4368262+02:00",
+    "AssociateFullName": "Mrs. Vickie Farrell V",
+    "CreatedBy": "voluptatum",
+    "UpdatedBy": "labore",
+    "DeviceIdentifier": "omnis",
+    "ForeignAppId": 655,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 361
+        "FieldType": "System.Int32",
+        "FieldLength": 725
       }
     }
   }

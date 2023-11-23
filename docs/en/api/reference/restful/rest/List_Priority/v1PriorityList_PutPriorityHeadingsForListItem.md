@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Leannon LLC",
-    "ToolTip": "Velit doloribus consectetur.",
-    "Deleted": false,
-    "Rank": 96,
-    "Type": "eius",
-    "ColorBlock": 794,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2008-09-08T03:24:52.3025813+02:00",
+    "Id": 27,
+    "Name": "Okuneva Inc and Sons",
+    "ToolTip": "Quaerat ipsam aut est beatae consequatur.",
+    "Deleted": true,
+    "Rank": 748,
+    "Type": "sed",
+    "ColorBlock": 426,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2018-03-30T13:38:18.1244081+02:00",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Ritchie LLC",
-        "ToolTip": "Asperiores cumque sequi repudiandae recusandae qui molestiae.",
-        "Deleted": false,
-        "Rank": 139,
-        "Type": "modi",
-        "ColorBlock": 556,
-        "IconHint": "numquam",
-        "Selected": false,
-        "LastChanged": "2012-05-26T03:24:52.3025813+02:00",
+        "Id": 337,
+        "Name": "Littel Inc and Sons",
+        "ToolTip": "Quidem quia.",
+        "Deleted": true,
+        "Rank": 398,
+        "Type": "iste",
+        "ColorBlock": 41,
+        "IconHint": "sequi",
+        "Selected": true,
+        "LastChanged": "2008-02-04T13:38:18.1244081+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "sed",
+        "ExtraInfo": "porro",
+        "StyleHint": "molestiae",
         "Hidden": true,
-        "FullName": "Kenna Marjolaine Adams III"
+        "FullName": "Lilla O'Conner"
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "ut",
+    "ExtraInfo": "quo",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Koby Mante"
+    "FullName": "Ronny Bogisich I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Adams Inc and Sons",
-    "ToolTip": "Omnis exercitationem facere omnis quia alias unde expedita.",
+    "Id": 603,
+    "Name": "Ondricka, Morissette and Balistreri",
+    "ToolTip": "Dolorem facilis.",
     "Deleted": true,
-    "Rank": 566,
-    "Type": "libero",
-    "ColorBlock": 581,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "2009-07-20T03:24:52.3025813+02:00",
+    "Rank": 917,
+    "Type": "facere",
+    "ColorBlock": 858,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2009-05-12T13:38:18.1244081+02:00",
     "ChildItems": [
       {
-        "Id": 582,
-        "Name": "Prohaska Inc and Sons",
-        "ToolTip": "Magnam sit incidunt aut id sunt assumenda nisi.",
-        "Deleted": true,
-        "Rank": 287,
-        "Type": "consequatur",
-        "ColorBlock": 725,
-        "IconHint": "placeat",
+        "Id": 295,
+        "Name": "Abbott Inc and Sons",
+        "ToolTip": "Necessitatibus culpa.",
+        "Deleted": false,
+        "Rank": 515,
+        "Type": "ipsa",
+        "ColorBlock": 696,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2008-01-12T03:24:52.318209+01:00",
+        "LastChanged": "2001-07-22T13:38:18.1244081+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "quia",
+        "ExtraInfo": "officiis",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Lemuel Kilback",
+        "FullName": "Ariane Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 405
+            "FieldType": "System.String",
+            "FieldLength": 391
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "error",
-    "Hidden": true,
-    "FullName": "Adam Klein",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "necessitatibus",
+    "Hidden": false,
+    "FullName": "Rod McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldLength": 889
       }
     }
   }

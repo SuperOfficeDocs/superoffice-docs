@@ -118,24 +118,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 354,
-  "SourcePersonId": 45,
-  "DestinationContactId": 391,
-  "DestinationPersonId": 924,
-  "RelationId": 907,
-  "Comment": "commodi",
-  "RelationDefinitionId": 68,
-  "Reversed": 492,
-  "UpdatedDate": "2006-12-16T03:24:51.5368575+01:00",
-  "CreatedDate": "2008-07-17T03:24:51.5368575+02:00",
+  "SourceContactId": 600,
+  "SourcePersonId": 933,
+  "DestinationContactId": 157,
+  "DestinationPersonId": 380,
+  "RelationId": 627,
+  "Comment": "nisi",
+  "RelationDefinitionId": 405,
+  "Reversed": 577,
+  "UpdatedDate": "1999-11-06T13:38:17.280593+01:00",
+  "CreatedDate": "2019-06-15T13:38:17.280593+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Beahan Inc and Sons",
-  "SourcePersonName": "Bradtke LLC",
-  "DestinationContactName": "Schneider, Berge and Stracke",
-  "DestinationPersonName": "Zieme Inc and Sons",
-  "ActiveText": "nulla",
-  "PassiveText": "aut"
+  "SourceContactName": "Walter, Reynolds and Conn",
+  "SourcePersonName": "Okuneva Inc and Sons",
+  "DestinationContactName": "Collins, McDermott and Hackett",
+  "DestinationPersonName": "Farrell, Kuphal and Anderson",
+  "ActiveText": "dignissimos",
+  "PassiveText": "nemo"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 97,
-  "SourcePersonId": 406,
-  "DestinationContactId": 217,
-  "DestinationPersonId": 949,
-  "RelationId": 721,
-  "Comment": "magnam",
-  "RelationDefinitionId": 782,
-  "Reversed": 389,
-  "UpdatedDate": "2007-10-28T03:24:51.5368575+01:00",
-  "CreatedDate": "1999-09-15T03:24:51.5368575+02:00",
+  "SourceContactId": 650,
+  "SourcePersonId": 653,
+  "DestinationContactId": 429,
+  "DestinationPersonId": 52,
+  "RelationId": 498,
+  "Comment": "ut",
+  "RelationDefinitionId": 858,
+  "Reversed": 41,
+  "UpdatedDate": "2012-05-14T13:38:17.280593+02:00",
+  "CreatedDate": "2001-09-04T13:38:17.280593+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Koch-Spinka",
-  "SourcePersonName": "Wuckert-Thompson",
-  "DestinationContactName": "Little-Cormier",
-  "DestinationPersonName": "Stiedemann LLC",
-  "ActiveText": "corrupti",
-  "PassiveText": "provident",
+  "SourceContactName": "Kub, Lueilwitz and Tremblay",
+  "SourcePersonName": "Dietrich Inc and Sons",
+  "DestinationContactName": "Dooley-Fay",
+  "DestinationPersonName": "Purdy, Mann and Wintheiser",
+  "ActiveText": "quod",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldLength": 952
     }
   },
   "_Links": {

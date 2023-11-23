@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "perferendis",
+    "path": "a",
     "value": {}
   },
   {
     "op": "add",
-    "path": "perferendis",
+    "path": "a",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 581,
-  "SourcePersonId": 49,
-  "DestinationContactId": 545,
-  "DestinationPersonId": 174,
-  "RelationId": 843,
-  "Comment": "aliquid",
-  "RelationDefinitionId": 993,
-  "Reversed": 408,
-  "UpdatedDate": "2014-09-25T03:24:51.5368575+02:00",
-  "CreatedDate": "2003-11-01T03:24:51.5368575+01:00",
+  "SourceContactId": 715,
+  "SourcePersonId": 955,
+  "DestinationContactId": 302,
+  "DestinationPersonId": 785,
+  "RelationId": 353,
+  "Comment": "repellendus",
+  "RelationDefinitionId": 130,
+  "Reversed": 977,
+  "UpdatedDate": "2008-11-24T13:38:17.280593+01:00",
+  "CreatedDate": "2011-02-03T13:38:17.280593+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hagenes, Schinner and Keeling",
-  "SourcePersonName": "Weber LLC",
-  "DestinationContactName": "Goldner-Runolfsson",
-  "DestinationPersonName": "Borer-Brakus",
-  "ActiveText": "aut",
-  "PassiveText": "rerum",
+  "SourceContactName": "Friesen Group",
+  "SourcePersonName": "Tromp, Stoltenberg and Cormier",
+  "DestinationContactName": "Jast, Thompson and Goodwin",
+  "DestinationPersonName": "Bailey, Beer and Keeling",
+  "ActiveText": "nam",
+  "PassiveText": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldType": "System.Int32",
+      "FieldLength": 734
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

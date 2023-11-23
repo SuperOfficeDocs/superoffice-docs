@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Purdy Group",
-    "DisplayName": "Schowalter Inc and Sons",
-    "DisplayTooltip": "alias",
-    "IsActive": true,
+    "Name": "Funk-Jakubowski",
+    "DisplayName": "Morar-Borer",
+    "DisplayTooltip": "aut",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 294
       }
     }
   },
   {
-    "Name": "Purdy Group",
-    "DisplayName": "Schowalter Inc and Sons",
-    "DisplayTooltip": "alias",
-    "IsActive": true,
+    "Name": "Funk-Jakubowski",
+    "DisplayName": "Morar-Borer",
+    "DisplayTooltip": "aut",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 294
       }
     }
   }

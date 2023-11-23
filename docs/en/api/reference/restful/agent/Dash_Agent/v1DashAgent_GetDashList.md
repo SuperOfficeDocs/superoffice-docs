@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    673,
-    432
+    422,
+    429
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 86,
-    "UniqueId": "quam",
-    "Name": "Towne Inc and Sons",
-    "Description": "Assimilated bottom-line moratorium",
-    "AssociateId": 648,
-    "Columns": 395,
+    "DashboardId": 364,
+    "UniqueId": "laborum",
+    "Name": "Wuckert LLC",
+    "Description": "Re-engineered dedicated internet solution",
+    "AssociateId": 434,
+    "Columns": 920,
     "Theme": null,
-    "VisibleForAll": 395,
+    "VisibleForAll": 129,
     "VisibleForAssociates": [
-      790,
-      500
+      178,
+      529
     ],
     "VisibleForGroups": [
-      706,
-      148
+      824,
+      583
     ],
-    "PinForAll": 452,
+    "PinForAll": 672,
     "PinForAssociates": [
-      355,
-      859
+      881,
+      793
     ],
     "PinForGroups": [
-      425,
-      65
+      117,
+      7
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 918
+        "FieldType": "System.Int32",
+        "FieldLength": 129
       }
     }
   }

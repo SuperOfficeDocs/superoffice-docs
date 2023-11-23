@@ -8,10 +8,32 @@ items:
     href: aiagent/detectlanguage.md
   - name: DetectSentiment
     href: aiagent/detectsentiment.md
+  - name: ExpandText
+    href: aiagent/expandtext.md
+  - name: GetChatbotPromptSuggestions
+    href: aiagent/getchatbotpromptsuggestions.md
+  - name: GetChatbotResponse
+    href: aiagent/getchatbotresponse.md
+  - name: GetSummarizeContactPrompt
+    href: aiagent/getsummarizecontactprompt.md
+  - name: GetSummarizeSalePrompt
+    href: aiagent/getsummarizesaleprompt.md
+  - name: GetSummarizeTicketPrompt
+    href: aiagent/getsummarizeticketprompt.md
   - name: GetTrainingStatus
     href: aiagent/gettrainingstatus.md
   - name: GuessCategory
     href: aiagent/guesscategory.md
+  - name: RephraseText
+    href: aiagent/rephrasetext.md
+  - name: SummarizeContact
+    href: aiagent/summarizecontact.md
+  - name: SummarizeSale
+    href: aiagent/summarizesale.md
+  - name: SummarizeText
+    href: aiagent/summarizetext.md
+  - name: SummarizeTicket
+    href: aiagent/summarizeticket.md
   - name: TrainCategoryGuesser
     href: aiagent/traincategoryguesser.md
   - name: Translate
@@ -125,6 +147,8 @@ items:
     href: appointmentagent/getmysyncappointments.md
   - name: GetMyTasks
     href: appointmentagent/getmytasks.md
+  - name: GetNextAvailableTime
+    href: appointmentagent/getnextavailabletime.md
   - name: GetNextSuggestedAppointmentBySale
     href: appointmentagent/getnextsuggestedappointmentbysale.md
   - name: GetOrganizerName
@@ -587,6 +611,8 @@ items:
     href: contactagent/getcontactsummary.md
   - name: GetContactWithPersons
     href: contactagent/getcontactwithpersons.md
+  - name: GetDomainDuplicates
+    href: contactagent/getdomainduplicates.md
   - name: GetDuplicateRules
     href: contactagent/getduplicaterules.md
   - name: GetDuplicates
@@ -2145,6 +2171,8 @@ items:
     href: listagent/getwebpanellist.md
   - name: GlobalChangeTicketStatus
     href: listagent/globalchangeticketstatus.md
+  - name: GlobalChangeTicketType
+    href: listagent/globalchangetickettype.md
   - name: MoveAllTickets
     href: listagent/movealltickets.md
   - name: MoveListItem
@@ -2482,6 +2510,8 @@ items:
     href: personagent/sendconsentconfirmationemail.md
   - name: SendEmail
     href: personagent/sendemail.md
+  - name: SendEmailWithEventName
+    href: personagent/sendemailwitheventname.md
   - name: SetConsent
     href: personagent/setconsent.md
   - name: SetPersonImage
@@ -3333,6 +3363,8 @@ items:
     href: ticketagent/getattachmentstream.md
   - name: GetDefaultMessageContent
     href: ticketagent/getdefaultmessagecontent.md
+  - name: GetDefaultMessageContentFull
+    href: ticketagent/getdefaultmessagecontentfull.md
   - name: GetForRmUi
     href: ticketagent/getforrmui.md
   - name: GetNextInQueue
@@ -3347,6 +3379,8 @@ items:
     href: ticketagent/getticketentity.md
   - name: GetTicketMessage
     href: ticketagent/getticketmessage.md
+  - name: GetTicketMessageEntities
+    href: ticketagent/getticketmessageentities.md
   - name: GetTicketMessageEntity
     href: ticketagent/getticketmessageentity.md
   - name: GetTicketMessageWithEmbeddedData
@@ -3777,8 +3811,8 @@ items:
     href: workflowagent/createdefaultworkflowgoal.md
   - name: CreateDefaultWorkflowStepFromType
     href: workflowagent/createdefaultworkflowstepfromtype.md
-  - name: CreateDefaultWorkflowStepOption
-    href: workflowagent/createdefaultworkflowstepoption.md
+  - name: CreateDefaultWorkflowStepOptionFromType
+    href: workflowagent/createdefaultworkflowstepoptionfromtype.md
   - name: CreateDefaultWorkflowTrigger
     href: workflowagent/createdefaultworkflowtrigger.md
   - name: CreateEmailFlowContent
@@ -3787,8 +3821,6 @@ items:
     href: workflowagent/deleteemailflow.md
   - name: DeleteWorkflowGoal
     href: workflowagent/deleteworkflowgoal.md
-  - name: DeleteWorkflowStepOption
-    href: workflowagent/deleteworkflowstepoption.md
   - name: DeleteWorkflowTrigger
     href: workflowagent/deleteworkflowtrigger.md
   - name: GetEmailFlow
@@ -3809,8 +3841,6 @@ items:
     href: workflowagent/saveemailflow.md
   - name: SaveWorkflowGoal
     href: workflowagent/saveworkflowgoal.md
-  - name: SaveWorkflowStepOption
-    href: workflowagent/saveworkflowstepoption.md
   - name: SaveWorkflowTrigger
     href: workflowagent/saveworkflowtrigger.md
   - name: SendEvent

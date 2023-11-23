@@ -104,55 +104,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Littel Group",
+  "ProviderName": "Cruickshank LLC",
   "Columns": [
-    "vel",
-    "aliquam"
+    "nihil",
+    "vel"
   ],
   "SortOrder": [
     {
-      "Name": "Orn-Metz",
+      "Name": "Collins Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Orn-Metz",
+      "Name": "Collins Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Schinner-Jerde",
-      "Operator": "et",
+      "Name": "Bogisich, Pfannerstill and Kerluke",
+      "Operator": "maxime",
       "Values": [
-        "commodi",
-        "vel"
+        "error",
+        "et"
       ],
       "DisplayValues": [
-        "ullam",
-        "sed"
+        "dolore",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 300,
+      "InterParenthesis": 888,
       "InterOperator": "And",
-      "UniqueHash": 273
+      "UniqueHash": 437
     }
   ],
   "Entities": [
-    "cum",
-    "qui"
+    "autem",
+    "et"
   ],
-  "Page": 869,
-  "PageSize": 187,
-  "Context": "est"
+  "Page": 698,
+  "PageSize": 299,
+  "Context": "et"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ferry, Beahan and Hodkiewicz",
-    "PrimaryKey": 607,
+    "EntityName": "Padberg-Von",
+    "PrimaryKey": 15,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "deleniti",
-        "TooltipHint": "laborum",
-        "LinkHint": "nemo"
+        "DisplayValue": "voluptate",
+        "TooltipHint": "nobis",
+        "LinkHint": "sit"
       }
     },
-    "LinkHint": "ea",
-    "StyleHint": "numquam",
+    "LinkHint": "animi",
+    "StyleHint": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 98
       }
     }
   }

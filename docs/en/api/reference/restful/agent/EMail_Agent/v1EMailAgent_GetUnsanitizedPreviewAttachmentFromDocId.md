@@ -91,8 +91,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 7,
-  "AttachmentId": "sint"
+  "DocId": 344,
+  "AttachmentId": "et"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Innovative dedicated moratorium",
-  "Filename": "nesciunt",
-  "Size": 406,
-  "Type": "autem",
-  "Encoding": "tempore",
-  "Id": "sed",
-  "Disposition": "voluptatum",
+  "Description": "Multi-tiered 24 hour data-warehouse",
+  "Filename": "quibusdam",
+  "Size": 963,
+  "Type": "officia",
+  "Encoding": "voluptas",
+  "Id": "sit",
+  "Disposition": "corporis",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldType": "System.String",
+      "FieldLength": 902
     }
   }
 }

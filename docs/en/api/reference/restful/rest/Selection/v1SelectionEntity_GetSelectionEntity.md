@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 14 Feb 2020 03:24:51 G2T
+Last-Modified: Wed, 16 Jun 2010 13:38:17 G6T
 
 {
-  "Description": "Upgradable user-facing synergy",
-  "Postit": "ipsa",
+  "Description": "Pre-emptive bottom-line product",
+  "Postit": "sunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 755,
-  "IncludePerson": 879,
-  "MemberCount": 106,
-  "Name": "Bogisich, Prohaska and Jacobs",
-  "PostitTextId": 269,
-  "CreatedDate": "2010-08-18T03:24:51.9119624+02:00",
-  "SelectionId": 146,
-  "SoundEx": "sunt",
-  "Source": 527,
-  "TextId": 236,
-  "UpdatedDate": "2020-02-14T03:24:51.9119624+01:00",
-  "UpdatedCount": 964,
-  "Visibility": 921,
+  "GroupIdx": 719,
+  "IncludePerson": 440,
+  "MemberCount": 948,
+  "Name": "West-Gutkowski",
+  "PostitTextId": 272,
+  "CreatedDate": "2017-11-24T13:38:17.6555554+01:00",
+  "SelectionId": 76,
+  "SoundEx": "quia",
+  "Source": 899,
+  "TextId": 281,
+  "UpdatedDate": "2010-06-16T13:38:17.6555554+02:00",
+  "UpdatedCount": 473,
+  "Visibility": 896,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 577,
-  "TargetTableName": "Greenfelder Group",
-  "Completed": true,
-  "LeftSelectionId": 399,
-  "RightSelectionId": 560,
+  "TargetTableNumber": 68,
+  "TargetTableName": "Herman-Morissette",
+  "Completed": false,
+  "LeftSelectionId": 41,
+  "RightSelectionId": 148,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Balistreri Inc and Sons",
-  "ShadowProviderName": "Herzog, Donnelly and Harvey",
-  "ChartKey": "dolorum",
-  "LastLoaded": "2018-12-07T03:24:51.9119624+01:00",
-  "LastLoadedBy": 855,
+  "MainProviderName": "Herzog, Fritsch and Rutherford",
+  "ShadowProviderName": "Bauch-Leuschke",
+  "ChartKey": "rerum",
+  "LastLoaded": "1997-07-09T13:38:17.6555554+02:00",
+  "LastLoadedBy": 652,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-05-13T03:24:51.9119624+02:00",
-  "LastMembershipChangeBy": 21,
+  "LastMembershipChange": "2017-08-21T13:38:17.6555554+02:00",
+  "LastMembershipChangeBy": 621,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "distinctio",
-  "MemberTabHeading": "animi",
-  "MailingsProviderName": "Hermiston Inc and Sons",
-  "DashboardTileDefinitionId": 396,
+  "MainHeading": "facere",
+  "MemberTabHeading": "voluptatum",
+  "MailingsProviderName": "Denesik-Marks",
+  "DashboardTileDefinitionId": 980,
   "VisibleFor": [
     {
-      "VisibleId": 449,
+      "VisibleId": 930,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldLength": 918
         }
       }
     },
     {
-      "VisibleId": 449,
+      "VisibleId": 930,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldLength": 918
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Fri, 14 Feb 2020 03:24:51 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldType": "System.Int32",
+      "FieldLength": 807
     }
   },
   "_Links": {

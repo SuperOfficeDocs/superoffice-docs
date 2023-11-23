@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 262,
-  "Name": "Schumm Group",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "Rank": 317,
+  "Id": 374,
+  "Name": "Greenholt-Gulgowski",
+  "Tooltip": "officia",
+  "Deleted": true,
+  "Rank": 958,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "UseGroupsAndHeadings": true,
+  "ListType": "perferendis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 188,
-  "Name": "Rogahn, Lowe and Roberts",
-  "Tooltip": "nam",
+  "Id": 215,
+  "Name": "Koepp-Huels",
+  "Tooltip": "laboriosam",
   "Deleted": true,
-  "Rank": 116,
+  "Rank": 171,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldLength": 787
     }
   }
 }

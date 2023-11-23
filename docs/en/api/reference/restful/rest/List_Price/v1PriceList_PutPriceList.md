@@ -101,15 +101,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 140,
-  "ERPPriceListKey": "cumque",
-  "QuoteConnectionId": 640,
-  "Name": "Grant LLC",
-  "Description": "Balanced composite task-force",
-  "Currency": "culpa",
-  "CurrencyName": "Bernhard-Anderson",
-  "ValidFrom": "2012-10-30T03:24:52.3025813+01:00",
-  "ValidTo": "2020-01-11T03:24:52.3025813+01:00",
+  "PriceListId": 505,
+  "ERPPriceListKey": "sint",
+  "QuoteConnectionId": 368,
+  "Name": "Purdy LLC",
+  "Description": "Object-based systemic task-force",
+  "Currency": "perspiciatis",
+  "CurrencyName": "Osinski, O'Hara and White",
+  "ValidFrom": "2014-08-10T13:38:18.1087815+02:00",
+  "ValidTo": "2002-11-14T13:38:18.1087815+01:00",
   "IsActive": false
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 360,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 924,
-  "Name": "McClure, Hahn and Sanford",
-  "Description": "Balanced responsive architecture",
-  "Currency": "et",
-  "CurrencyName": "Luettgen-Parisian",
-  "ValidFrom": "2012-02-29T03:24:52.3025813+01:00",
-  "ValidTo": "2001-06-22T03:24:52.3025813+02:00",
+  "PriceListId": 265,
+  "ERPPriceListKey": "sunt",
+  "QuoteConnectionId": 641,
+  "Name": "Prosacco-Becker",
+  "Description": "Decentralized content-based database",
+  "Currency": "sint",
+  "CurrencyName": "Kuphal-Zulauf",
+  "ValidFrom": "2008-09-19T13:38:18.1087815+02:00",
+  "ValidTo": "2023-03-28T13:38:18.1087815+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 833
+      "FieldLength": 941
     }
   },
   "_Links": {

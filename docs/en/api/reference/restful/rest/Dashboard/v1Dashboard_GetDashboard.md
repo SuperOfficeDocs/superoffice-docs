@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 765,
-  "AssociateId": 836,
-  "Caption": "itaque",
+  "DashboardId": 15,
+  "AssociateId": 618,
+  "Caption": "ut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 460,
-      "Caption": "distinctio",
-      "Description": "Customer-focused bifurcated monitoring",
-      "ChartName": "Feil Group",
-      "ChartId": "dolores",
+      "DashboardTileId": 102,
+      "Caption": "adipisci",
+      "Description": "Implemented upward-trending utilisation",
+      "ChartName": "Breitenberg Inc and Sons",
+      "ChartId": "dolor",
       "IsDefault": true,
-      "AssociateId": 355,
-      "GroupId": 240,
-      "SelectionId": 960,
-      "Config": "quia",
+      "AssociateId": 11,
+      "GroupId": 110,
+      "SelectionId": 900,
+      "Config": "eum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 905
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1002
+      "FieldType": "System.Int32",
+      "FieldLength": 173
     }
   },
   "_Links": {

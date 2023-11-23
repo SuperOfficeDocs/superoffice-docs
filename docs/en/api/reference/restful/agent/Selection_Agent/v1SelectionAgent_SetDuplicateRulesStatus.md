@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "McDermott Group",
-      "DisplayName": "Volkman Inc and Sons",
-      "DisplayTooltip": "non",
+      "Name": "Effertz-Gulgowski",
+      "DisplayName": "Schinner Inc and Sons",
+      "DisplayTooltip": "aut",
       "IsActive": false
     },
     {
-      "Name": "McDermott Group",
-      "DisplayName": "Volkman Inc and Sons",
-      "DisplayTooltip": "non",
+      "Name": "Effertz-Gulgowski",
+      "DisplayName": "Schinner Inc and Sons",
+      "DisplayTooltip": "aut",
       "IsActive": false
     }
   ]

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 193,
-  "ModuleOwner": "aperiam"
+  "AssociateId": 711,
+  "ModuleOwner": "nihil"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 365,
-    "Tooltip": "harum",
-    "CanAssign": false,
-    "Free": 907,
-    "InUse": 167,
+    "Total": 255,
+    "Tooltip": "voluptatibus",
+    "CanAssign": true,
+    "Free": 691,
+    "InUse": 252,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 783,
-    "Name": "Okuneva-Turner",
-    "Description": "Streamlined coherent solution",
-    "PrerequisiteModuleName": "Marks, O'Connell and Heaney",
-    "SortOrder": 406,
-    "ExtraFlags": 322,
+    "Assigned": true,
+    "ModuleLicenseId": 954,
+    "Name": "Funk, Hilpert and Nienow",
+    "Description": "User-friendly tertiary matrix",
+    "PrerequisiteModuleName": "Stehr LLC",
+    "SortOrder": 777,
+    "ExtraFlags": 571,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldLength": 884
       }
     }
   }

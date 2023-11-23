@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 399,
-  "Select": "fuga"
+  "SelectionId": 796,
+  "Select": "animi"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Dach, Wolff and Kreiger",
-    "PrimaryKey": 919,
+    "EntityName": "McClure, Grant and Johnson",
+    "PrimaryKey": 132,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "illo",
-        "TooltipHint": "veniam",
-        "LinkHint": "soluta"
+        "DisplayValue": "et",
+        "TooltipHint": "et",
+        "LinkHint": "fugit"
       }
     },
-    "LinkHint": "tenetur",
-    "StyleHint": "laudantium",
+    "LinkHint": "vero",
+    "StyleHint": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   }

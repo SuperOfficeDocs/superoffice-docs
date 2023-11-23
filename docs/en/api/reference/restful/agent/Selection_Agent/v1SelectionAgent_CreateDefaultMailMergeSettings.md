@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 326,
-  "DocumentId": 562,
+  "SelectionId": 918,
+  "DocumentId": 799,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "esse",
+  "CustomAttention": "culpa",
   "AlwaysUseCustomAttention": false,
-  "SaveDocument": true,
-  "CustomMailBody": "atque",
+  "SaveDocument": false,
+  "CustomMailBody": "et",
   "TaskEntity": null,
-  "AddCompanyInterest": 505,
-  "AddPersonInterest": 15,
-  "RemoveCompanyInterest": 396,
-  "RemovePersonInterest": 897,
+  "AddCompanyInterest": 193,
+  "AddPersonInterest": 688,
+  "RemoveCompanyInterest": 692,
+  "RemovePersonInterest": 824,
   "IncludeNoMailingsRecipient": false,
-  "TestOnly": true,
-  "ProjectId": 823,
-  "IncludeRetiredRecipients": false,
+  "TestOnly": false,
+  "ProjectId": 804,
+  "IncludeRetiredRecipients": true,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "voluptatibus",
-  "ExtraInfo": "nihil",
+  "CustomMailSubject": "sed",
+  "ExtraInfo": "dolorem",
   "Synchronous": false,
-  "IsTemporarySelection": true,
+  "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 415
+      "FieldType": "System.Int32",
+      "FieldLength": 389
     }
   }
 }

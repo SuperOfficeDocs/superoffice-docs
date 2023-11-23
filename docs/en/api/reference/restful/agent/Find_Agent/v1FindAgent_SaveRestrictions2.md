@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "recusandae",
-  "ProviderName": "Morissette LLC",
-  "StorageKey": "atque",
-  "Restrictions": "aut"
+  "StorageType": "quam",
+  "ProviderName": "Greenfelder, Shanahan and VonRueden",
+  "StorageKey": "rerum",
+  "Restrictions": "voluptas"
 }
 ```
 

@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 203
+  "ChatSessionId": 764
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 312,
-  "TopicId": 524,
+  "ChatSessionId": 760,
+  "TopicId": 163,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nulla",
-  "CustomerHost": "ut",
-  "CustomerName": "Schmitt-Rolfson",
-  "CustomerEmail": "laron.turner@okeefebarton.com",
-  "CustomerPhone": "617-629-8132",
+  "CustomerAlias": "non",
+  "CustomerHost": "eos",
+  "CustomerName": "Hauck, Prosacco and Harris",
+  "CustomerEmail": "leilani_ryan@kuhlmanmiller.us",
+  "CustomerPhone": "650-652-5828 x50126",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hand Inc and Sons",
+  "CustomerCompanyName": "Kassulke-Block",
   "Status": "Closed",
-  "FirstMessage": "placeat",
-  "LastMessage": "assumenda",
-  "WhenRequested": "2009-09-21T03:24:47.3145639+02:00",
-  "WhenStarted": "2013-09-29T03:24:47.3145639+02:00",
-  "WhenEnded": "2007-11-05T03:24:47.3145639+01:00",
-  "WhenIdle": "2017-06-03T03:24:47.3145639+02:00",
-  "WhenFetched": "2016-03-21T03:24:47.3145639+01:00",
-  "SessionKey": "dolor",
-  "InitialQueuePos": 478,
-  "AlertLevel": 627,
-  "Rank": 383,
+  "FirstMessage": "ea",
+  "LastMessage": "eveniet",
+  "WhenRequested": "2011-10-08T13:38:13.1552857+02:00",
+  "WhenStarted": "2017-05-02T13:38:13.1552857+02:00",
+  "WhenEnded": "2000-02-12T13:38:13.1552857+01:00",
+  "WhenIdle": "2020-09-24T13:38:13.1552857+02:00",
+  "WhenFetched": "2004-11-28T13:38:13.1552857+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 5,
+  "AlertLevel": 1001,
+  "Rank": 242,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 76,
+  "Rating": 943,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 779
     }
   }
 }

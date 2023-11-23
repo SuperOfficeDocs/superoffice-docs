@@ -3,10 +3,10 @@ title: Widgets
 uid: dp-widgets
 description: About the SuperOffice Developer Portal home page and how to manage widgets.
 author: Bergfrid Dias
-so.date: 10.03.2023
+so.date: 11.15.2023
 keywords: Developer Portal, widget, home page
 so.topic: concept
-so.dp-version: 1.14
+so.dp-version: 1.16
 so.lang: en
 so.envir: cloud
 so.client: online
@@ -24,6 +24,7 @@ Each widget represents distinctive features.
 
 | Widget | Purpose |
 |---|---|
+| Application Failures | Monitors problems with API calls. |
 | Messaging Center | Provides quick information on communication related to requests. |
 | Onboarding | Aids users getting started. |
 
@@ -66,6 +67,14 @@ Organize your dashboard based on your specific needs and preferences.
 ## Available widgets
 
 Below are the details for each widget.
+
+### Application failures
+
+Displays the cumulative errors per application, showcasing the top 10 applications with the highest count of exceptions.
+
+Filter failures by:
+
+[!include[Legend](../includes/list-failure-types.md)]
 
 ### Onboarding
 

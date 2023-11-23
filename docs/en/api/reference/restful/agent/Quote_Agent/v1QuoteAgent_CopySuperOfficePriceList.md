@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 857,
-  "NewName": "Cremin-Labadie",
-  "ValidFrom": "2007-03-19T03:24:48.1269787+01:00",
-  "ValidTo": "2013-07-13T03:24:48.1269787+02:00",
-  "NewCurrencyId": 628,
+  "OriginalPriceListId": 43,
+  "NewName": "Waelchi-Stehr",
+  "ValidFrom": "1999-01-02T13:38:14.0147081+01:00",
+  "ValidTo": "2016-02-09T13:38:14.0147081+01:00",
+  "NewCurrencyId": 930,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 672,
-  "ERPPriceListKey": "adipisci",
-  "QuoteConnectionId": 491,
-  "Name": "Collier Inc and Sons",
-  "Description": "Decentralized context-sensitive capacity",
-  "Currency": "id",
-  "CurrencyName": "Paucek LLC",
-  "ValidFrom": "1999-11-07T03:24:48.1269787+01:00",
-  "ValidTo": "1999-02-06T03:24:48.1269787+01:00",
+  "PriceListId": 289,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 66,
+  "Name": "Stark-Goodwin",
+  "Description": "Multi-channelled systemic knowledge user",
+  "Currency": "laborum",
+  "CurrencyName": "Kautzer, Crona and Koepp",
+  "ValidFrom": "2015-03-28T13:38:14.0147081+01:00",
+  "ValidTo": "2022-11-16T13:38:14.0147081+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 222
+      "FieldType": "System.String",
+      "FieldLength": 932
     }
   }
 }

@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    304,
-    428
+    563,
+    242
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 261,
-    "MessageId": "qui",
-    "Subject": "dignissimos",
+    "ServerId": 800,
+    "MessageId": "sunt",
+    "Subject": "consequatur",
     "From": null,
     "To": [
       {
-        "ContactId": 511,
-        "ContactName": "Pacocha-Dare",
-        "PersonId": 335,
-        "PersonName": "Nikolaus, Mueller and Parker",
-        "AssociateId": 639,
-        "Address": "libero",
-        "EmailId": 589,
+        "ContactId": 753,
+        "ContactName": "Rodriguez Group",
+        "PersonId": 204,
+        "PersonName": "Jacobson, Deckow and Lehner",
+        "AssociateId": 599,
+        "Address": "reiciendis",
+        "EmailId": 114,
         "DuplicatePersonIds": [
-          920,
-          206
+          751,
+          673
         ],
-        "Name": "Oberbrunner-Glover",
+        "Name": "Hilll, Brown and Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 242
+            "FieldLength": 18
           }
         }
       }
     ],
-    "Sent": "2000-10-09T03:24:47.7676476+02:00",
+    "Sent": "2001-11-20T13:38:13.5771153+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 131,
+    "Size": 872,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 30
       }
     }
   }

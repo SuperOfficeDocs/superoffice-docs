@@ -82,8 +82,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "eum",
-  "From": "voluptatem",
+  "SmtpUri": "laudantium",
+  "From": "suscipit",
   "UseStoredPassword": true
 }
 ```
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
+  "Success": true,
   "ErrorMessage": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 750
     }
   }
 }

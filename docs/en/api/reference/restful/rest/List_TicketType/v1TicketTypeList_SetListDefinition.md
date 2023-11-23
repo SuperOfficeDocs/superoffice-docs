@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 177,
-  "Name": "Schoen, Williamson and Howe",
-  "Tooltip": "facere",
+  "Id": 462,
+  "Name": "Williamson Inc and Sons",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 33,
-  "IsCustomList": true,
+  "Rank": 548,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
-  "InUseByUserDefinedFields": true
+  "ListType": "possimus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 190,
-  "Name": "Johnson-Predovic",
-  "Tooltip": "laudantium",
+  "Id": 355,
+  "Name": "Lowe Inc and Sons",
+  "Tooltip": "consequuntur",
   "Deleted": true,
-  "Rank": 166,
+  "Rank": 483,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": true,
+  "ListType": "saepe",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldLength": 823
     }
   }
 }

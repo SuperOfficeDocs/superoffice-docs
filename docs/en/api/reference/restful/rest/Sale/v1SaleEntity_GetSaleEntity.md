@@ -33,7 +33,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=True
+GET /api/v1/Sale/{id}?fk=False
 ```
 
 
@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 04 May 2021 03:24:51 G5T
+Last-Modified: Sat, 01 Jul 2023 13:38:17 G7T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Tue, 04 May 2021 03:24:51 G5T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "id",
+  "SaleText": "velit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Tue, 04 May 2021 03:24:51 G5T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-10-03T03:24:51.849507+02:00",
-  "Amount": 26203.374,
-  "SaleId": 728,
-  "Earning": 11025.412,
-  "EarningPercent": 28663.564,
-  "Heading": "ut",
-  "Number": "1331157",
-  "Probability": 440,
-  "CreatedDate": "1997-05-23T03:24:51.849507+02:00",
-  "UpdatedDate": "2021-05-04T03:24:51.849507+02:00",
+  "Saledate": "2022-07-29T13:38:17.608684+02:00",
+  "Amount": 5989.074,
+  "SaleId": 153,
+  "Earning": 24310.438,
+  "EarningPercent": 26971.203999999998,
+  "Heading": "quisquam",
+  "Number": "830818",
+  "Probability": 366,
+  "CreatedDate": "2022-10-01T13:38:17.608684+02:00",
+  "UpdatedDate": "2023-07-01T13:38:17.608684+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 916,
+  "ActiveLinks": 516,
   "Links": [
     {
-      "EntityName": "Bashirian LLC",
-      "Id": 294,
-      "Description": "Multi-tiered directional moderator",
-      "ExtraInfo": "autem",
-      "LinkId": 959,
+      "EntityName": "Pollich, Goyette and Senger",
+      "Id": 344,
+      "Description": "Horizontal foreground open system",
+      "ExtraInfo": "sed",
+      "LinkId": 187,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 390
         }
       }
     }
   ],
-  "NextDueDate": "2022-02-02T03:24:51.849507+01:00",
-  "Postit": "fuga",
+  "NextDueDate": "2008-02-12T13:38:17.608684+01:00",
+  "Postit": "occaecati",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-10-08T03:24:51.8651245+02:00",
+  "ReopenDate": "1997-09-06T13:38:17.608684+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Nikolaus, Aufderhar and DuBuque",
-      "Comment": "aliquam",
-      "StakeholderRoleId": 370,
-      "CountryId": 172,
-      "PersonId": 667,
-      "EmailDescription": "ella.rowe@rutherford.biz",
-      "EmailId": 99,
-      "EmailAddress": "eden@rennermills.uk",
-      "PhoneId": 972,
-      "ContactName": "Kreiger Inc and Sons",
-      "ContactId": 348,
-      "SaleId": 87,
-      "Mrmrs": "quia",
-      "Firstname": "Alexane",
-      "MiddleName": "Corkery Inc and Sons",
-      "Lastname": "Rempel",
-      "SaleStakeholderId": 863,
-      "Rank": 492,
-      "Phone": "(009)715-9838 x4735",
+      "StakeholderRoleName": "Stark-Goldner",
+      "Comment": "dolores",
+      "StakeholderRoleId": 678,
+      "CountryId": 300,
+      "PersonId": 39,
+      "EmailDescription": "milan_bechtelar@hammes.co.uk",
+      "EmailId": 39,
+      "EmailAddress": "arlo.larkin@white.name",
+      "PhoneId": 933,
+      "ContactName": "Blick Group",
+      "ContactId": 15,
+      "SaleId": 796,
+      "Mrmrs": "dicta",
+      "Firstname": "Santino",
+      "MiddleName": "Kohler-Schultz",
+      "Lastname": "Jewess",
+      "SaleStakeholderId": 943,
+      "Rank": 417,
+      "Phone": "(623)680-2188",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldLength": 843
         }
       }
     }
   ],
-  "ActiveErpLinks": 644,
+  "ActiveErpLinks": 536,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ena Wilkinson",
-    "SuperOffice:2": "Dayton Kiehn V"
+    "SuperOffice:1": "Marcelina Hamill",
+    "SuperOffice:2": "Pearlie Zulauf"
   },
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "id",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "est"
+    "CustomFields1": "alias",
+    "CustomFields2": "eveniet"
   },
-  "PublishEventDate": "2015-07-26T03:24:51.8807491+02:00",
-  "PublishTo": "2022-07-11T03:24:51.8807491+02:00",
-  "PublishFrom": "2000-01-18T03:24:51.8807491+01:00",
+  "PublishEventDate": "2015-04-20T13:38:17.608684+02:00",
+  "PublishTo": "2013-10-01T13:38:17.608684+02:00",
+  "PublishFrom": "2005-12-09T13:38:17.608684+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 46,
+      "VisibleId": 783,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldType": "System.String",
+          "FieldLength": 99
         }
       }
     },
     {
-      "VisibleId": 46,
+      "VisibleId": 783,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldType": "System.String",
+          "FieldLength": 99
         }
       }
     }
@@ -260,8 +260,8 @@ Last-Modified: Tue, 04 May 2021 03:24:51 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 230
     }
   },
   "_Links": {

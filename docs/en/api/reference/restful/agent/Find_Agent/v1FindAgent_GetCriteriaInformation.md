@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolorem",
-  "ProviderName": "Hayes-Oberbrunner",
-  "StorageKey": "esse",
+  "StorageType": "non",
+  "ProviderName": "Hauck-Kassulke",
+  "StorageKey": "ea",
   "StaticColumns": [
-    "iure",
-    "non"
+    "eius",
+    "totam"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wiegand-Turner",
-      "Operator": "cupiditate",
+      "Name": "Bernier-Ortiz",
+      "Operator": "repellat",
       "Values": [
-        "esse",
-        "magnam"
+        "eum",
+        "ullam"
       ],
       "DisplayValues": [
-        "architecto",
-        "mollitia"
+        "dicta",
+        "voluptatem"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 515,
+      "InterParenthesis": 503,
       "InterOperator": "And",
-      "UniqueHash": 328
+      "UniqueHash": 337
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Friesen, Conroy and Toy",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "distinctio",
-      "CanOrderBy": false,
-      "Name": "Boyle Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "nostrum",
-      "RestrictionListName": "Eichmann-Schuster",
+      "DisplayName": "Bednar-Lowe",
+      "DisplayTooltip": "provident",
+      "DisplayType": "animi",
+      "CanOrderBy": true,
+      "Name": "Wilderman LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "molestiae",
+      "RestrictionListName": "Senger LLC",
       "IsVisible": false,
-      "ExtraInfo": "consequuntur",
-      "Width": "dolorem",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "doloremque"
+      "ExtraInfo": "dolores",
+      "Width": "non",
+      "IconHint": "quis",
+      "HeadingIconHint": "rem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Luettgen, Dickens and Kertzmann",
-      "PrimaryKey": 40,
+      "EntityName": "Turner, Fay and Eichmann",
+      "PrimaryKey": 320,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "doloribus",
-          "LinkHint": "dolorem"
+          "DisplayValue": "quod",
+          "TooltipHint": "id",
+          "LinkHint": "exercitationem"
         }
       },
-      "LinkHint": "molestias",
-      "StyleHint": "est",
+      "LinkHint": "perspiciatis",
+      "StyleHint": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 199
+          "FieldType": "System.Int32",
+          "FieldLength": 257
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Carroll-Mayert",
-      "Description": "Universal actuating open architecture",
-      "Rank": 661,
+      "Name": "Boyer-Gaylord",
+      "Description": "Customer-focused analyzing intranet",
+      "Rank": 644,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Carroll-Mayert",
-      "Description": "Universal actuating open architecture",
-      "Rank": 661,
+      "Name": "Boyer-Gaylord",
+      "Description": "Customer-focused analyzing intranet",
+      "Rank": 644,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldType": "System.String",
+      "FieldLength": 504
     }
   }
 }

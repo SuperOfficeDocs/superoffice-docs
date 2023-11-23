@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 139,
-  "ColumnId": 56,
-  "FieldDefault": "vel",
-  "FieldHeight": 387,
-  "FieldLabel": "odit",
-  "FieldLeft": 637,
-  "FieldTop": 472,
+  "UDefFieldId": 37,
+  "ColumnId": 83,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 550,
+  "FieldLabel": "error",
+  "FieldLeft": 836,
+  "FieldTop": 96,
   "FieldType": "Checkbox",
-  "FieldWidth": 192,
-  "FormatMask": "ipsum",
-  "HideLabel": true,
+  "FieldWidth": 16,
+  "FormatMask": "occaecati",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 746,
-  "LabelLeft": 54,
-  "LabelTop": 903,
-  "LabelWidth": 921,
-  "LastVersionId": 23,
-  "ListTableId": 626,
+  "LabelHeight": 62,
+  "LabelLeft": 578,
+  "LabelTop": 407,
+  "LabelWidth": 121,
+  "LastVersionId": 116,
+  "ListTableId": 912,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 788,
-  "ProgId": "voluptas",
+  "Page1LineNo": 190,
+  "ProgId": "neque",
   "IsReadOnly": false,
-  "ShortLabel": "consequuntur",
-  "TabOrder": 224,
-  "TextLength": 103,
-  "Tooltip": "non",
-  "UdefIdentity": 112,
-  "UDListDefinitionId": 197,
+  "ShortLabel": "maxime",
+  "TabOrder": 141,
+  "TextLength": 721,
+  "Tooltip": "vitae",
+  "UdefIdentity": 441,
+  "UDListDefinitionId": 290,
   "Justification": "Center",
-  "Version": 804,
-  "TemplateVariableName": "Willms-Hand",
+  "Version": 971,
+  "TemplateVariableName": "Hahn LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Gerhold-Bode",
+  "MdoListName": "Wintheiser, Bartoletti and Fahey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 457
     }
   }
 }

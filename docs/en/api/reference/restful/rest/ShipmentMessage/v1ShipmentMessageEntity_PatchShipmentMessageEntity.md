@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "neque",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "neque",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 394,
-  "PlainMessage": "non",
-  "HtmlMessage": "rerum",
-  "SmsMessage": "libero",
-  "Description": "Progressive foreground groupware",
-  "Subject": "aliquid",
-  "FolderId": 951,
-  "HeaderField": "quis",
-  "Design": "nobis",
+  "ShipmentMessageId": 693,
+  "PlainMessage": "laboriosam",
+  "HtmlMessage": "delectus",
+  "SmsMessage": "sunt",
+  "Description": "Optimized systemic moderator",
+  "Subject": "consequatur",
+  "FolderId": 510,
+  "HeaderField": "rerum",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Reduced foreground forecast",
-  "AccessKey": "voluptatem",
-  "DocumentMessage": 218,
-  "Registered": "2020-11-01T03:24:51.927622+01:00",
-  "RegisteredAssociateId": 84,
-  "Updated": "2008-11-10T03:24:51.927622+01:00",
-  "UpdatedAssociateId": 976,
-  "UpdatedCount": 270,
+  "InlineImages": true,
+  "LongDescription": "Seamless web-enabled pricing structure",
+  "AccessKey": "sit",
+  "DocumentMessage": 756,
+  "Registered": "2001-06-07T13:38:17.6711737+02:00",
+  "RegisteredAssociateId": 154,
+  "Updated": "2015-11-03T13:38:17.6711737+01:00",
+  "UpdatedAssociateId": 59,
+  "UpdatedCount": 692,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldLength": 595
     }
   },
   "_Links": {

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Koelpin, Shanahan and Wiegand",
-    "ToolTip": "Vero est asperiores ut vel dolorum.",
+    "Id": 704,
+    "Name": "Nicolas, Parker and Dickens",
+    "ToolTip": "Beatae dolores mollitia.",
     "Deleted": false,
-    "Rank": 32,
-    "Type": "natus",
-    "ColorBlock": 909,
-    "IconHint": "dolore",
-    "Selected": false,
-    "LastChanged": "2017-02-25T03:24:52.2869587+01:00",
+    "Rank": 352,
+    "Type": "reprehenderit",
+    "ColorBlock": 904,
+    "IconHint": "hic",
+    "Selected": true,
+    "LastChanged": "2016-11-21T13:38:18.0931573+01:00",
     "ChildItems": [
       {
-        "Id": 164,
-        "Name": "Lebsack-Lind",
-        "ToolTip": "Ea non ex eum maiores et odit.",
-        "Deleted": true,
-        "Rank": 422,
+        "Id": 81,
+        "Name": "Schmitt Inc and Sons",
+        "ToolTip": "Sit facilis.",
+        "Deleted": false,
+        "Rank": 302,
         "Type": "adipisci",
-        "ColorBlock": 94,
-        "IconHint": "consectetur",
+        "ColorBlock": 328,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2002-09-28T03:24:52.2869587+02:00",
+        "LastChanged": "2014-02-13T13:38:18.0931573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "quasi",
+        "ExtraInfo": "ullam",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Forrest Ransom Satterfield III",
+        "FullName": "Megane Graham II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 136
+            "FieldLength": 917
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Katlynn Collier",
+    "ExtraInfo": "debitis",
+    "StyleHint": "distinctio",
+    "Hidden": true,
+    "FullName": "Watson Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 388
+        "FieldType": "System.Int32",
+        "FieldLength": 825
       }
     }
   }

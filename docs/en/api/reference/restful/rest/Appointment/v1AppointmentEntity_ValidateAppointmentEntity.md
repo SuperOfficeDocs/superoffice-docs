@@ -79,7 +79,8 @@ Entity to be checked.
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | Integer | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | Integer | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | Integer | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | Boolean | Is this appointment a milestone? |
@@ -115,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,110 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-08-22T03:24:51.3492095+02:00",
-  "AppointmentId": 368,
-  "Description": "Open-architected intangible intranet",
-  "StartDate": "2000-05-23T03:24:51.3492095+02:00",
-  "EndDate": "2022-10-31T03:24:51.3492095+01:00",
+  "CreatedDate": "2005-02-12T13:38:17.0931089+01:00",
+  "AppointmentId": 773,
+  "Description": "Synergized zero defect info-mediaries",
+  "StartDate": "2016-09-21T13:38:17.0931089+02:00",
+  "EndDate": "2005-01-15T13:38:17.0931089+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 936,
+  "MotherId": 648,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-11-15T03:24:51.3492095+01:00",
+  "UpdatedDate": "2003-05-22T13:38:17.0931089+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 893,
+  "ActiveLinks": 121,
   "Links": [
     {
-      "EntityName": "Bechtelar Group",
-      "Id": 569,
-      "Description": "Devolved tertiary policy",
-      "ExtraInfo": "similique",
-      "LinkId": 201
+      "EntityName": "Boyle Inc and Sons",
+      "Id": 670,
+      "Description": "Advanced 24 hour core",
+      "ExtraInfo": "est",
+      "LinkId": 447
     },
     {
-      "EntityName": "Bechtelar Group",
-      "Id": 569,
-      "Description": "Devolved tertiary policy",
-      "ExtraInfo": "similique",
-      "LinkId": 201
+      "EntityName": "Boyle Inc and Sons",
+      "Id": 670,
+      "Description": "Advanced 24 hour core",
+      "ExtraInfo": "est",
+      "LinkId": 447
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": false,
-  "ColorIndex": 832,
+  "AlarmLeadTime": "est",
+  "HasAlarm": true,
+  "ColorIndex": 417,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "incidunt",
-  "LeadTime": "quia",
-  "Location": "doloribus",
-  "RejectCounter": 683,
+  "LagTime": "laudantium",
+  "LeadTime": "enim",
+  "Location": "dignissimos",
+  "RejectCounter": 954,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 899,
-      "PersonId": 316,
-      "ContactId": 204,
-      "EmailId": 364,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 899,
-      "PersonId": 316,
-      "ContactId": 204,
-      "EmailId": 364,
-      "SendEmail": false,
-      "InvitationStatus": "Accepted"
+      "AssociateId": 934,
+      "PersonId": 354,
+      "ContactId": 213,
+      "EmailId": 204,
+      "SendEmail": true,
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "jedediah@kuvalis.uk",
+      "Description": "Expanded high-level customer loyalty"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-09-23T03:24:51.3492095+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2002-12-17T13:38:17.0931089+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 229,
+  "PreferredTZLocation": 885,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 854,
+  "SuggestedAppointmentId": 219,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "consequatur",
-  "Title": "et",
-  "Agenda": "voluptatem",
-  "InternalNotes": "alias",
+  "CentralserviceVideomeetId": "non",
+  "Title": "impedit",
+  "Agenda": "quia",
+  "InternalNotes": "aut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Gilbert Darrel Kilback V",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "et",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
+    "CustomFields1": "natus",
     "CustomFields2": "et"
   },
-  "PublishEventDate": "2023-02-10T03:24:51.3492095+01:00",
-  "PublishTo": "2008-08-30T03:24:51.3492095+02:00",
-  "PublishFrom": "2007-05-13T03:24:51.3492095+02:00",
+  "PublishEventDate": "1999-07-12T13:38:17.0931089+02:00",
+  "PublishTo": "2010-10-17T13:38:17.0931089+02:00",
+  "PublishFrom": "2023-02-09T13:38:17.0931089+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 977,
+      "VisibleId": 15,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "facilis"
     },
     {
-      "VisibleId": 977,
+      "VisibleId": 15,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "facilis"
     }
   ]
 }
@@ -239,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "suscipit",
-  "2": "ut"
+  "1": "est",
+  "2": "repudiandae"
 }
 ```

@@ -26,7 +26,7 @@ Gets a ShipmentMessageBlockEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=340
+POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=403
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 64,
-  "AssociateId": 182,
-  "Block": "et",
-  "Registered": "2002-01-24T03:24:47.9238778+01:00",
-  "RegisteredAssociateId": 594,
-  "Updated": "2022-04-18T03:24:47.9238778+02:00",
-  "UpdatedAssociateId": 656,
-  "UpdatedCount": 682,
+  "ShipmentMessageBlockId": 197,
+  "AssociateId": 785,
+  "Block": "repudiandae",
+  "Registered": "2003-08-28T13:38:13.7333439+02:00",
+  "RegisteredAssociateId": 866,
+  "Updated": "2000-11-09T13:38:13.7333439+01:00",
+  "UpdatedAssociateId": 22,
+  "UpdatedCount": 529,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 892
     }
   }
 }

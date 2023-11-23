@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Wunsch LLC",
-    "ToolTip": "Cum delectus deleniti corrupti minima nisi.",
+    "Id": 42,
+    "Name": "Beer-Runolfsdottir",
+    "ToolTip": "Non aliquam in.",
     "Deleted": false,
-    "Rank": 391,
-    "Type": "molestias",
-    "ColorBlock": 593,
-    "IconHint": "fugit",
-    "Selected": true,
-    "LastChanged": "2017-06-03T03:24:52.4119449+02:00",
+    "Rank": 97,
+    "Type": "vel",
+    "ColorBlock": 535,
+    "IconHint": "odio",
+    "Selected": false,
+    "LastChanged": "2020-06-11T13:38:18.2181419+02:00",
     "ChildItems": [
       {
-        "Id": 943,
-        "Name": "Cruickshank, Littel and Borer",
-        "ToolTip": "Beatae aut provident numquam sed.",
+        "Id": 331,
+        "Name": "Windler-Ferry",
+        "ToolTip": "Molestiae repellendus rerum fuga ut.",
         "Deleted": false,
-        "Rank": 62,
-        "Type": "voluptatum",
-        "ColorBlock": 629,
-        "IconHint": "tempora",
+        "Rank": 122,
+        "Type": "eligendi",
+        "ColorBlock": 620,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2013-07-10T03:24:52.4119449+02:00",
+        "LastChanged": "2004-06-06T13:38:18.2181419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Brock Gleason"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "cupiditate",
+        "Hidden": true,
+        "FullName": "Maureen Schiller"
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Dr. Adell Elvera Beier III"
+    "ExtraInfo": "culpa",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Clara Alta Powlowski I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Wilderman-Feeney",
-    "ToolTip": "Qui quis ducimus animi repellendus fugit fugit.",
+    "Id": 517,
+    "Name": "McLaughlin, Schmeler and Mosciski",
+    "ToolTip": "Molestiae maiores dignissimos dolor.",
     "Deleted": false,
-    "Rank": 349,
-    "Type": "quo",
-    "ColorBlock": 712,
-    "IconHint": "quo",
-    "Selected": false,
-    "LastChanged": "2020-03-29T03:24:52.4119449+02:00",
+    "Rank": 144,
+    "Type": "fuga",
+    "ColorBlock": 876,
+    "IconHint": "libero",
+    "Selected": true,
+    "LastChanged": "2023-08-24T13:38:18.2181419+02:00",
     "ChildItems": [
       {
-        "Id": 884,
-        "Name": "Mayert-Hoppe",
-        "ToolTip": "Excepturi ullam omnis tenetur doloremque.",
+        "Id": 408,
+        "Name": "Yost-Konopelski",
+        "ToolTip": "Ipsam voluptas laudantium culpa dicta voluptatem aut inventore.",
         "Deleted": false,
-        "Rank": 670,
-        "Type": "sed",
-        "ColorBlock": 975,
-        "IconHint": "corporis",
+        "Rank": 414,
+        "Type": "occaecati",
+        "ColorBlock": 722,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2018-02-26T03:24:52.4119449+01:00",
+        "LastChanged": "1999-08-27T13:38:18.2181419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Miss Bernita Tromp",
+        "ExtraInfo": "qui",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Prof. Marshall Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 600
+            "FieldLength": 131
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "nihil",
+    "ExtraInfo": "hic",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Dawson Johns",
+    "FullName": "Otis DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 90
       }
     }
   }

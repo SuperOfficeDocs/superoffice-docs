@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 747,
+  "TargetDimensionId": 494,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "sint",
-  "DimensionListName": "Champlin-Balistreri",
-  "DimensionListId": 50,
-  "DimensionListLabel": "optio",
+  "DimensionListField": "odit",
+  "DimensionListName": "Simonis Group",
+  "DimensionListId": 824,
+  "DimensionListLabel": "autem",
   "SelectedDimensions": [
-    486,
-    162
+    132,
+    217
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 122,
+  "TargetDimensionId": 580,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "qui",
-  "DimensionListName": "Spinka-Kirlin",
-  "DimensionListId": 388,
-  "DimensionListLabel": "numquam",
+  "DimensionListField": "eum",
+  "DimensionListName": "Blick-Simonis",
+  "DimensionListId": 831,
+  "DimensionListLabel": "asperiores",
   "SelectedDimensions": [
-    173,
-    375
+    92,
+    154
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 356
     }
   }
 }

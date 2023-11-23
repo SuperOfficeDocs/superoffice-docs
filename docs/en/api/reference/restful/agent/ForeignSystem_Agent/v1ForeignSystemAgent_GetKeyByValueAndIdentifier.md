@@ -89,12 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Maggio-Altenwerth",
-  "DeviceName": "Orn, Yost and Donnelly",
-  "DeviceIdentifier": "hic",
-  "KeyName": "Kulas, Pagac and Jones",
-  "KeyValue": "praesentium",
-  "TableName": "Ondricka, Bernier and King"
+  "ApplicationName": "Pfannerstill-Koepp",
+  "DeviceName": "Barrows-Stracke",
+  "DeviceIdentifier": "velit",
+  "KeyName": "Morar-Gulgowski",
+  "KeyValue": "natus",
+  "TableName": "Howe-Hickle"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "deserunt",
-  "Value": "porro",
-  "RecordId": 152,
-  "CreatedDate": "2001-06-17T03:24:47.8301403+02:00",
-  "UpdatedDate": "1997-07-01T03:24:47.8301403+02:00",
+  "Key": "qui",
+  "Value": "et",
+  "RecordId": 243,
+  "CreatedDate": "2001-04-10T13:38:13.6396102+02:00",
+  "UpdatedDate": "2023-02-26T13:38:13.6396102+01:00",
   "UpdatedBy": "vel",
-  "CreatedBy": "assumenda",
-  "TableName": "McGlynn, Ward and Rohan",
+  "CreatedBy": "ratione",
+  "TableName": "Bosco-Okuneva",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldType": "System.String",
+      "FieldLength": 343
     }
   }
 }

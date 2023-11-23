@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 190
+  "ErpConnectionId": 939
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Herman LLC",
+      "ErpListName": "Deckow-Kertzmann",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Schoen Inc and Sons",
-      "ErpFieldId": 996,
+      "ErpActorTypeName": "Rosenbaum, O'Keefe and Swaniawski",
+      "ErpFieldId": 464,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 629
+          "FieldLength": 329
         }
       }
     }
   ],
-  "ErpConnectionId": 653,
-  "ErpConnectionName": "Tremblay-Labadie",
+  "ErpConnectionId": 879,
+  "ErpConnectionName": "Hudson, Schmidt and Paucek",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 544
     }
   }
 }

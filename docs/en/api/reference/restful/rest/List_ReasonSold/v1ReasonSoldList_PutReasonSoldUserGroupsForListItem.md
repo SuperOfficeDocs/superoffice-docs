@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Kohler-Bahringer",
-    "ToolTip": "Voluptatibus saepe voluptate enim eaque quod qui.",
+    "Id": 485,
+    "Name": "Mosciski-Schroeder",
+    "ToolTip": "Harum in sunt blanditiis quis saepe voluptatem.",
     "Deleted": false,
-    "Rank": 743,
-    "Type": "alias",
-    "ColorBlock": 952,
+    "Rank": 153,
+    "Type": "consequatur",
+    "ColorBlock": 475,
     "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2022-09-03T03:24:52.3963183+02:00",
+    "LastChanged": "2007-02-13T13:38:18.2025212+01:00",
     "ChildItems": [
       {
-        "Id": 738,
-        "Name": "Rolfson-Lockman",
-        "ToolTip": "Voluptatem odio.",
+        "Id": 225,
+        "Name": "Zieme Inc and Sons",
+        "ToolTip": "Non eius quia omnis odit.",
         "Deleted": false,
-        "Rank": 167,
-        "Type": "at",
-        "ColorBlock": 491,
-        "IconHint": "magni",
+        "Rank": 592,
+        "Type": "explicabo",
+        "ColorBlock": 796,
+        "IconHint": "a",
         "Selected": false,
-        "LastChanged": "2010-12-17T03:24:52.3963183+01:00",
+        "LastChanged": "2014-07-25T13:38:18.2025212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Prof. Jayson Batz"
+        "ExtraInfo": "alias",
+        "StyleHint": "doloremque",
+        "Hidden": false,
+        "FullName": "Mrs. Carole Huel II"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Raul Windler"
+    "ExtraInfo": "praesentium",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Makenna Collin Stroman Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Hyatt LLC",
-    "ToolTip": "Dignissimos minima mollitia.",
+    "Id": 103,
+    "Name": "Hand-Johnston",
+    "ToolTip": "Recusandae tempore explicabo.",
     "Deleted": false,
-    "Rank": 510,
-    "Type": "et",
-    "ColorBlock": 186,
-    "IconHint": "est",
+    "Rank": 431,
+    "Type": "voluptates",
+    "ColorBlock": 541,
+    "IconHint": "eos",
     "Selected": true,
-    "LastChanged": "1999-02-08T03:24:52.3963183+01:00",
+    "LastChanged": "2005-06-17T13:38:18.2025212+02:00",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "Hahn LLC",
-        "ToolTip": "Voluptatibus accusamus consectetur optio magnam nulla.",
+        "Id": 718,
+        "Name": "Smith Group",
+        "ToolTip": "Iure qui ullam.",
         "Deleted": false,
-        "Rank": 436,
-        "Type": "minima",
-        "ColorBlock": 249,
-        "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2017-04-20T03:24:52.3963183+02:00",
+        "Rank": 358,
+        "Type": "sit",
+        "ColorBlock": 782,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2022-10-30T13:38:18.2025212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Ms. Hailey Tromp I",
+        "ExtraInfo": "non",
+        "StyleHint": "dignissimos",
+        "Hidden": false,
+        "FullName": "Lavada Sanford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 267
+            "FieldType": "System.Int32",
+            "FieldLength": 841
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Joesph Okuneva",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "rem",
+    "Hidden": true,
+    "FullName": "Miss Ethel Wilkinson DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 875
+        "FieldLength": 149
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 869
+  "ContactId": 880
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 24081.656,
-  "Wgs84Longitude": 31158.228,
+  "Wgs84Latitude": 18741.32,
+  "Wgs84Longitude": 10458.158,
   "LocalizedAddress": [
     [
       {
-        "Name": "Kautzer, Murphy and Schiller",
-        "Value": "tempore",
-        "Tooltip": "nam",
-        "Label": "sapiente",
-        "ValueLength": 995,
-        "AddressType": "libero",
+        "Name": "Gislason, Larson and Fadel",
+        "Value": "nobis",
+        "Tooltip": "atque",
+        "Label": "eveniet",
+        "ValueLength": 185,
+        "AddressType": "ut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 491
+            "FieldType": "System.Int32",
+            "FieldLength": 898
           }
         }
       }
     ],
     [
       {
-        "Name": "Simonis-Corwin",
-        "Value": "hic",
-        "Tooltip": "et",
-        "Label": "sit",
-        "ValueLength": 946,
-        "AddressType": "voluptate",
+        "Name": "Lind Group",
+        "Value": "odit",
+        "Tooltip": "rem",
+        "Label": "velit",
+        "ValueLength": 343,
+        "AddressType": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 872
+            "FieldType": "System.Int32",
+            "FieldLength": 909
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "commodi",
+  "Formatted": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 591
     }
   }
 }

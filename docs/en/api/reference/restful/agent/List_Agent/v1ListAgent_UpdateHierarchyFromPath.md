@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "et",
+  "Path": "culpa",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 130,
+  "HierarchyId": 141,
   "Domain": "Dashboards",
-  "Name": "Crooks-Effertz",
-  "Fullname": "explicabo",
-  "ParentId": 937,
+  "Name": "Renner Inc and Sons",
+  "Fullname": "odio",
+  "ParentId": 343,
   "Children": [
     {
-      "HierarchyId": 530,
+      "HierarchyId": 394,
       "Domain": "Dashboards",
-      "Name": "Bailey Inc and Sons",
-      "Fullname": "dolorem",
-      "ParentId": 33,
+      "Name": "Kozey-Farrell",
+      "Fullname": "numquam",
+      "ParentId": 173,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2015-10-20T03:24:47.8926276+02:00",
-      "RegisteredAssociateId": 898,
-      "Updated": "2019-05-20T03:24:47.8926276+02:00",
-      "UpdatedAssociateId": 308,
+      "Registered": "2023-06-02T13:38:13.7021023+02:00",
+      "RegisteredAssociateId": 711,
+      "Updated": "2013-07-06T13:38:13.7021023+02:00",
+      "UpdatedAssociateId": 867,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 446
+          "FieldLength": 386
         }
       }
     }
   ],
-  "Registered": "1999-09-07T03:24:47.8926276+02:00",
-  "RegisteredAssociateId": 573,
-  "Updated": "2003-04-23T03:24:47.8926276+02:00",
-  "UpdatedAssociateId": 905,
+  "Registered": "2011-09-20T13:38:13.7021023+02:00",
+  "RegisteredAssociateId": 444,
+  "Updated": "2001-03-17T13:38:13.7021023+01:00",
+  "UpdatedAssociateId": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   }
 }

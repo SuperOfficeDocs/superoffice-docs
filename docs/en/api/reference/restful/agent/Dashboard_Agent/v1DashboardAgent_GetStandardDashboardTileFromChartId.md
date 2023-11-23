@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "dolorem"
+  "ChartId": "est"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 645,
-  "Caption": "saepe",
-  "Description": "Right-sized client-server firmware",
-  "ChartName": "Leffler LLC",
-  "ChartId": "sunt",
+  "DashboardTileId": 822,
+  "Caption": "occaecati",
+  "Description": "Monitored leading edge hub",
+  "ChartName": "Nicolas-Wiza",
+  "ChartId": "quis",
   "IsDefault": false,
-  "AssociateId": 668,
-  "GroupId": 543,
-  "SelectionId": 552,
-  "Config": "optio",
+  "AssociateId": 503,
+  "GroupId": 290,
+  "SelectionId": 63,
+  "Config": "amet",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Stiedemann-Bartoletti",
-      "Description": "Persevering optimal attitude",
+      "Name": "Lebsack Inc and Sons",
+      "Description": "Configurable neutral interface",
       "Type": "Boolean",
-      "ListName": "Von Inc and Sons",
+      "ListName": "Wisozk, Douglas and Johnston",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "qui",
-      "DefaultDataOption": false,
+      "Value": "corporis",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldLength": 7
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 644,
+      "VisibleId": 100,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldType": "System.String",
+          "FieldLength": 950
         }
       }
     },
     {
-      "VisibleId": 644,
+      "VisibleId": 100,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldType": "System.String",
+          "FieldLength": 950
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 357
     }
   }
 }

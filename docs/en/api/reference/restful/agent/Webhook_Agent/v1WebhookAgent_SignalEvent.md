@@ -71,12 +71,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Borer Inc and Sons",
-  "PrimaryKey": 1001,
+  "EventName": "Roob Group",
+  "PrimaryKey": 599,
   "Data": {
     "fieldName": {}
   }

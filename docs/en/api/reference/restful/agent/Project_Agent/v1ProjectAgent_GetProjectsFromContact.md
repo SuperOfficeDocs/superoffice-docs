@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 105
+  "ContactId": 101
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 473,
-    "Name": "Romaguera LLC",
-    "Description": "Configurable fault-tolerant system engine",
+    "ProjectId": 555,
+    "Name": "Murray Group",
+    "Description": "Integrated content-based product",
     "URL": "http://www.example.com/",
-    "Type": "nemo",
-    "AssociateId": 295,
-    "AssociateFullName": "Dr. Kaia Madyson Rice",
-    "TypeId": 601,
-    "Updated": "2005-12-24T03:24:48.0957311+01:00",
-    "StatusId": 248,
-    "Status": "aperiam",
-    "TextId": 130,
-    "PublishTo": "2015-12-03T03:24:48.0957311+01:00",
-    "PublishFrom": "2008-05-18T03:24:48.0957311+02:00",
-    "IsPublished": false,
+    "Type": "et",
+    "AssociateId": 217,
+    "AssociateFullName": "Narciso O'Hara",
+    "TypeId": 389,
+    "Updated": "2013-08-21T13:38:13.9834617+02:00",
+    "StatusId": 695,
+    "Status": "id",
+    "TextId": 395,
+    "PublishTo": "2006-10-06T13:38:13.9834617+02:00",
+    "PublishFrom": "2018-01-28T13:38:13.9834617+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1536516",
-    "ActiveErpLinks": 882,
+    "ProjectNumber": "1076883",
+    "ActiveErpLinks": 845,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 970
+        "FieldType": "System.Int32",
+        "FieldLength": 852
       }
     }
   }

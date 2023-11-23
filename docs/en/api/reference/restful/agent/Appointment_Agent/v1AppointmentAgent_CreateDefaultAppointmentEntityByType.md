@@ -103,7 +103,8 @@ OK
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
 | Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
-| PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
+| PreferredTZLocation | int32 | Appointments preferred timezone location. |
+| PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
 | Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
@@ -130,7 +131,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -149,125 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-12-29T03:24:47.095837+01:00",
-  "AppointmentId": 297,
-  "Description": "Exclusive exuding alliance",
-  "StartDate": "2019-12-20T03:24:47.095837+01:00",
-  "EndDate": "2002-09-29T03:24:47.095837+02:00",
+  "CreatedDate": "2000-08-12T13:38:12.9365582+02:00",
+  "AppointmentId": 431,
+  "Description": "Compatible holistic infrastructure",
+  "StartDate": "2012-04-12T13:38:12.9365582+02:00",
+  "EndDate": "2011-05-20T13:38:12.9365582+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 511,
+  "MotherId": 867,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-01-28T03:24:47.095837+01:00",
+  "UpdatedDate": "2010-05-01T13:38:12.9365582+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 441,
+  "ActiveLinks": 698,
   "Links": [
     {
-      "EntityName": "Brekke LLC",
-      "Id": 668,
-      "Description": "Cross-group human-resource support",
-      "ExtraInfo": "facilis",
-      "LinkId": 168,
+      "EntityName": "Armstrong, O'Hara and Zulauf",
+      "Id": 252,
+      "Description": "User-friendly responsive parallelism",
+      "ExtraInfo": "consequatur",
+      "LinkId": 899,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 445
+          "FieldLength": 688
         }
       }
     }
   ],
-  "AlarmLeadTime": "expedita",
+  "AlarmLeadTime": "aut",
   "HasAlarm": false,
-  "ColorIndex": 268,
+  "ColorIndex": 688,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "voluptas",
-  "LeadTime": "quibusdam",
-  "Location": "eligendi",
-  "RejectCounter": 132,
+  "LagTime": "accusantium",
+  "LeadTime": "cumque",
+  "Location": "hic",
+  "RejectCounter": 983,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 543,
-      "PersonId": 129,
-      "ContactId": 849,
-      "EmailId": 549,
+      "AssociateId": 735,
+      "PersonId": 189,
+      "ContactId": 571,
+      "EmailId": 727,
       "SendEmail": true,
-      "InvitationStatus": "Accepted"
-    },
-    {
-      "AssociateId": 543,
-      "PersonId": 129,
-      "ContactId": 849,
-      "EmailId": 549,
-      "SendEmail": true,
-      "InvitationStatus": "Accepted"
+      "InvitationStatus": "Accepted",
+      "EmailAddress": "deontae.crona@kassulke.name",
+      "Description": "Persevering homogeneous orchestration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-12-28T03:24:47.095837+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2019-07-31T13:38:12.9365582+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 6,
+  "PreferredTZLocation": 869,
+  "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 593,
+  "SuggestedAppointmentId": 207,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quae",
-  "Title": "magnam",
-  "Agenda": "necessitatibus",
-  "InternalNotes": "autem",
+  "CentralserviceVideomeetId": "est",
+  "Title": "eum",
+  "Agenda": "enim",
+  "InternalNotes": "eum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Brandt Lulu Kilback PhD",
-    "SuperOffice:2": "708254138"
+    "SuperOffice:1": "Kade Thompson",
+    "SuperOffice:2": "Kenyon Mohr"
   },
   "ExtraFields": {
-    "ExtraFields1": "aliquam",
-    "ExtraFields2": "amet"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "quas"
+    "CustomFields1": "tempore",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2012-08-04T03:24:47.095837+02:00",
-  "PublishTo": "2009-02-17T03:24:47.095837+01:00",
-  "PublishFrom": "2008-11-07T03:24:47.095837+01:00",
+  "PublishEventDate": "2020-12-25T13:38:12.9365582+01:00",
+  "PublishTo": "2018-04-29T13:38:12.9365582+02:00",
+  "PublishFrom": "2008-06-03T13:38:12.9365582+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 55,
+      "VisibleId": 767,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldType": "System.String",
+          "FieldLength": 356
         }
       }
     },
     {
-      "VisibleId": 55,
+      "VisibleId": 767,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldType": "System.String",
+          "FieldLength": 356
         }
       }
     }
@@ -276,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldType": "System.String",
+      "FieldLength": 125
     }
   }
 }

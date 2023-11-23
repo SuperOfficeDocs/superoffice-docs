@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 700,
-  "Name": "Becker Group",
-  "Tooltip": "illum",
-  "Deleted": true,
-  "UdListDefinitionId": 218,
-  "Rank": 109,
+  "Id": 752,
+  "Name": "Beatty, Zulauf and Collier",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "UdListDefinitionId": 777,
+  "Rank": 633,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldLength": 918
     }
   }
 }

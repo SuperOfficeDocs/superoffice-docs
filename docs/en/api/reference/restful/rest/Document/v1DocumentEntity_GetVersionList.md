@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "fugiat",
-    "DocumentId": 49,
-    "VersionId": "id",
-    "CheckedInDate": "2018-07-02T03:24:51.599356+02:00",
-    "CheckedInByName": "Pfannerstill, Wiegand and Wintheiser",
-    "CheckedInByAssociateId": 804,
-    "Description": "Profound value-added system engine",
-    "DisplayText": "architecto",
+    "ExternalReference": "quis",
+    "DocumentId": 485,
+    "VersionId": "illo",
+    "CheckedInDate": "2013-12-01T13:38:17.4212037+01:00",
+    "CheckedInByName": "Goodwin Inc and Sons",
+    "CheckedInByAssociateId": 901,
+    "Description": "Advanced 5th generation secured line",
+    "DisplayText": "inventore",
     "ExtraFields": [
-      "maxime",
-      "ut"
+      "debitis",
+      "omnis"
     ]
   }
 ]

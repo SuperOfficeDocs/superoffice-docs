@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    721,
-    104
+    549,
+    264
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Orn Inc and Sons",
-    "Comment": "voluptate",
-    "StakeholderRoleId": 410,
-    "CountryId": 715,
-    "PersonId": 964,
-    "EmailDescription": "teagan_johnston@colliervonrueden.name",
-    "EmailId": 334,
-    "EmailAddress": "isadore_jacobs@simonisfranecki.co.uk",
-    "PhoneId": 631,
-    "ContactName": "Bins-Williamson",
-    "ContactId": 465,
-    "SaleId": 381,
-    "Mrmrs": "soluta",
-    "Firstname": "Jamison",
-    "MiddleName": "Hilpert LLC",
-    "Lastname": "Hane",
-    "SaleStakeholderId": 366,
-    "Rank": 156,
-    "Phone": "213-007-9811 x887",
+    "StakeholderRoleName": "Thompson-Koelpin",
+    "Comment": "veritatis",
+    "StakeholderRoleId": 869,
+    "CountryId": 827,
+    "PersonId": 301,
+    "EmailDescription": "noel@reichert.ca",
+    "EmailId": 6,
+    "EmailAddress": "genesis_hintz@fisherpollich.info",
+    "PhoneId": 704,
+    "ContactName": "Kilback-Towne",
+    "ContactId": 705,
+    "SaleId": 843,
+    "Mrmrs": "voluptatibus",
+    "Firstname": "Elsie",
+    "MiddleName": "Romaguera, Medhurst and Brekke",
+    "Lastname": "Deckow",
+    "SaleStakeholderId": 849,
+    "Rank": 15,
+    "Phone": "671.866.9958 x52965",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 606
+        "FieldType": "System.Int32",
+        "FieldLength": 932
       }
     }
   }

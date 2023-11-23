@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Zieme, Welch and Luettgen",
-    "Tooltip": "ab",
+    "Id": 167,
+    "Name": "Rutherford-Zulauf",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "UdListDefinitionId": 349,
-    "Rank": 485
+    "UdListDefinitionId": 894,
+    "Rank": 86
   },
   {
-    "Id": 78,
-    "Name": "Zieme, Welch and Luettgen",
-    "Tooltip": "ab",
+    "Id": 167,
+    "Name": "Rutherford-Zulauf",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "UdListDefinitionId": 349,
-    "Rank": 485
+    "UdListDefinitionId": 894,
+    "Rank": 86
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Name": "Corkery, Koss and Reinger",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "UdListDefinitionId": 271,
-    "Rank": 785,
+    "Id": 650,
+    "Name": "Hansen-Bosco",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 887,
+    "Rank": 440,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldType": "System.String",
+        "FieldLength": 677
       }
     }
   }

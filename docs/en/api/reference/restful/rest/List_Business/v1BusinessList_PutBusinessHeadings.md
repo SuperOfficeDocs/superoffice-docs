@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 264,
-    "Name": "Rath Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 358,
+    "Name": "Goldner, Weber and Smitham",
+    "Tooltip": "veritatis",
     "Deleted": false,
-    "Rank": 401,
-    "UdListDefinitionId": 437
+    "Rank": 296,
+    "UdListDefinitionId": 614
   },
   {
-    "HeadingId": 264,
-    "Name": "Rath Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 358,
+    "Name": "Goldner, Weber and Smitham",
+    "Tooltip": "veritatis",
     "Deleted": false,
-    "Rank": 401,
-    "UdListDefinitionId": 437
+    "Rank": 296,
+    "UdListDefinitionId": 614
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 961,
-    "Name": "Kshlerin Group",
-    "Tooltip": "similique",
+    "HeadingId": 453,
+    "Name": "Friesen, Hayes and Steuber",
+    "Tooltip": "facere",
     "Deleted": true,
-    "Rank": 227,
-    "UdListDefinitionId": 462,
+    "Rank": 231,
+    "UdListDefinitionId": 93,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 701
+        "FieldLength": 703
       }
     }
   }

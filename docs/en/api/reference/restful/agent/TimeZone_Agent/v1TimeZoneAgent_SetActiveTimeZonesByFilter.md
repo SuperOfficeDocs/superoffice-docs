@@ -69,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "in",
+  "Filter": "facere",
   "Active": true
 }
 ```

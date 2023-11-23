@@ -85,11 +85,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "commodi",
-  "ProviderName": "Windler-Block",
-  "StorageKey": "placeat",
-  "PageSize": 312,
-  "PageNumber": 724
+  "StorageType": "doloremque",
+  "ProviderName": "Sanford, Kuvalis and Kutch",
+  "StorageKey": "consequatur",
+  "PageSize": 554,
+  "PageNumber": 128
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Brekke Group",
-      "DisplayTooltip": "ratione",
-      "DisplayType": "at",
+      "DisplayName": "Lesch, Bernier and Nader",
+      "DisplayTooltip": "nemo",
+      "DisplayType": "architecto",
       "CanOrderBy": false,
-      "Name": "Glover, Sauer and Denesik",
+      "Name": "DuBuque, Tremblay and Ward",
       "CanRestrictBy": false,
-      "RestrictionType": "fuga",
-      "RestrictionListName": "Nolan-Jenkins",
+      "RestrictionType": "eos",
+      "RestrictionListName": "Schamberger-Renner",
       "IsVisible": false,
-      "ExtraInfo": "mollitia",
-      "Width": "nemo",
-      "IconHint": "ex",
-      "HeadingIconHint": "magni"
+      "ExtraInfo": "voluptatibus",
+      "Width": "quos",
+      "IconHint": "provident",
+      "HeadingIconHint": "quis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Pouros LLC",
-      "PrimaryKey": 624,
+      "EntityName": "Pacocha LLC",
+      "PrimaryKey": 57,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptas",
-          "TooltipHint": "reiciendis",
-          "LinkHint": "eum"
+          "DisplayValue": "consequuntur",
+          "TooltipHint": "voluptatibus",
+          "LinkHint": "saepe"
         }
       },
-      "LinkHint": "maiores",
-      "StyleHint": "labore",
+      "LinkHint": "ut",
+      "StyleHint": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 796
         }
       }
     }
   ],
-  "RowCount": 331,
+  "RowCount": 311,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldType": "System.Int32",
+      "FieldLength": 610
     }
   }
 }

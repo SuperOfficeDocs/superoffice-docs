@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Braun, O'Conner and Schowalter",
-  "DeviceName": "Wisozk LLC",
-  "DeviceIdentifier": "ea",
-  "TableName": "Prohaska Group"
+  "ApplicationName": "Ullrich LLC",
+  "DeviceName": "Wilderman, Langosh and Littel",
+  "DeviceIdentifier": "dolore",
+  "TableName": "Rowe-Gaylord"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "assumenda",
-    "Value": "omnis",
-    "RecordId": 119,
-    "CreatedDate": "2023-01-04T03:24:47.8301403+01:00",
-    "UpdatedDate": "1996-10-25T03:24:47.8301403+02:00",
-    "UpdatedBy": "voluptas",
-    "CreatedBy": "fugit",
-    "TableName": "Bergnaum Inc and Sons",
+    "Key": "sequi",
+    "Value": "in",
+    "RecordId": 363,
+    "CreatedDate": "2015-09-25T13:38:13.6396102+02:00",
+    "UpdatedDate": "2013-04-12T13:38:13.6396102+02:00",
+    "UpdatedBy": "sit",
+    "CreatedBy": "laborum",
+    "TableName": "Moore-Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 825
       }
     }
   }

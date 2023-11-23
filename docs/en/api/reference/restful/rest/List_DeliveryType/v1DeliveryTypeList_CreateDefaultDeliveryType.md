@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "O'Hara-Batz",
-  "Tooltip": "accusamus",
+  "Id": 100,
+  "Name": "Johnson Inc and Sons",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "UdListDefinitionId": 518,
-  "Rank": 809,
+  "UdListDefinitionId": 652,
+  "Rank": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 369
     }
   }
 }

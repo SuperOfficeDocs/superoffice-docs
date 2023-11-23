@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 287,
-  "Section": "provident",
-  "Key": "quae",
-  "Name": "Buckridge-Farrell",
+  "PrefDescId": 348,
+  "Section": "autem",
+  "Key": "sequi",
+  "Name": "Wilkinson Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused radical leverage",
+  "Description": "Progressive 6th generation product",
   "IsBuiltin": false,
-  "TableName": "Little, Ankunding and Runolfsdottir",
-  "UserDefinedListId": 187,
-  "Rank": 373,
-  "SubGroup": "consequatur",
-  "MinLevel": 91,
-  "MaxValue": 364,
-  "MinValue": 724,
-  "RequiredLicense": "aliquam"
+  "TableName": "Wilkinson-Dickinson",
+  "UserDefinedListId": 674,
+  "Rank": 617,
+  "SubGroup": "repudiandae",
+  "MinLevel": 154,
+  "MaxValue": 170,
+  "MinValue": 237,
+  "RequiredLicense": "atque"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 137,
-  "Section": "tenetur",
-  "Key": "assumenda",
-  "Name": "Homenick, Satterfield and Rippin",
+  "PrefDescId": 1000,
+  "Section": "veritatis",
+  "Key": "quis",
+  "Name": "Bogan, Jerde and Zboncak",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Phased reciprocal data-warehouse",
+  "Description": "Pre-emptive optimal extranet",
   "IsBuiltin": false,
-  "TableName": "Marvin-Lind",
-  "UserDefinedListId": 304,
-  "Rank": 491,
-  "SubGroup": "nesciunt",
-  "MinLevel": 615,
-  "MaxValue": 706,
-  "MinValue": 332,
-  "RequiredLicense": "magnam",
+  "TableName": "Powlowski, Littel and Bernier",
+  "UserDefinedListId": 640,
+  "Rank": 650,
+  "SubGroup": "quia",
+  "MinLevel": 958,
+  "MaxValue": 256,
+  "MinValue": 464,
+  "RequiredLicense": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldType": "System.String",
+      "FieldLength": 857
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 598,
-    "Name": "Pouros Inc and Sons",
-    "Description": "Organic scalable capability",
-    "DeltaJson": "nobis",
+    "ConfigurableScreenDeltaId": 465,
+    "Name": "Hills Group",
+    "Description": "Automated dynamic protocol",
+    "DeltaJson": "et",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "ex",
-    "UpdatedDate": "2004-01-13T03:24:47.3614382+01:00",
-    "CreatedDate": "2018-11-11T03:24:47.3614382+01:00",
+    "RecipeId": "deleniti",
+    "UpdatedDate": "2004-10-08T13:38:13.2646505+02:00",
+    "CreatedDate": "2019-12-17T13:38:13.2646505+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      237,
-      614
+      963,
+      912
     ],
-    "AppliesToKey": "cum",
+    "AppliesToKey": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldLength": 104
       }
     }
   }

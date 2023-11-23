@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 996,
-  "Name": "Kuphal-Hartmann",
-  "Tooltip": "sint",
+  "Id": 613,
+  "Name": "Dickens-Gaylord",
+  "Tooltip": "similique",
   "Deleted": false,
-  "UdListDefinitionId": 592,
-  "Rank": 377,
+  "UdListDefinitionId": 328,
+  "Rank": 658,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 703
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 36,
-  "Name": "Becker Inc and Sons",
-  "Tooltip": "deleniti",
+  "HeadingId": 557,
+  "Name": "Schumm Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 378,
-  "UdListDefinitionId": 821
+  "Rank": 553,
+  "UdListDefinitionId": 496
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 208,
-  "Name": "Dach, Jones and Abernathy",
-  "Tooltip": "recusandae",
+  "HeadingId": 251,
+  "Name": "Shields-Mosciski",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 620,
-  "UdListDefinitionId": 918,
+  "Rank": 291,
+  "UdListDefinitionId": 783,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 622
     }
   }
 }

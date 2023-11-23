@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 937,
-  "QuoteAlternativeName": "Kassulke-Wuckert",
-  "QuoteAlternativeDescription": "Advanced bottom-line projection"
+  "QuoteVersionId": 221,
+  "QuoteAlternativeName": "Langworth-Satterfield",
+  "QuoteAlternativeDescription": "Re-contextualized impactful throughput"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 609,
-  "ERPQuoteAlternativeKey": "fuga",
-  "QuoteVersionId": 57,
-  "Name": "Corwin Inc and Sons",
-  "Description": "Decentralized intermediate initiative",
+  "QuoteAlternativeId": 935,
+  "ERPQuoteAlternativeKey": "sunt",
+  "QuoteVersionId": 936,
+  "Name": "Roberts-Bernhard",
+  "Description": "Fully-configurable empowering help-desk",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 2463.324,
-  "ERPDiscountAmount": 26134.426,
-  "DiscountPercent": 15018.127999999999,
-  "DiscountAmount": 1883.5339999999999,
+  "ERPDiscountPercent": 16663.478,
+  "ERPDiscountAmount": 11404.626,
+  "DiscountPercent": 30600.376,
+  "DiscountAmount": 26990.007999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quam",
-  "VAT": 4547.434,
-  "EarningPercent": 25936.984,
-  "EarningAmount": 1560.732,
-  "SubTotal": 26212.775999999998,
-  "TotalPrice": 4230.9,
-  "ExtraField1": "quaerat",
-  "ExtraField2": "nihil",
-  "ExtraField3": "alias",
-  "ExtraField4": "numquam",
-  "ExtraField5": "eaque",
+  "VATInfo": "consequatur",
+  "VAT": 13002.966,
+  "EarningPercent": 8345.842,
+  "EarningAmount": 9919.11,
+  "SubTotal": 8258.09,
+  "TotalPrice": 18797.732,
+  "ExtraField1": "reprehenderit",
+  "ExtraField2": "aliquid",
+  "ExtraField3": "est",
+  "ExtraField4": "autem",
+  "ExtraField5": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldLength": 875
     }
   }
 }

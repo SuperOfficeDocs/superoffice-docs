@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 18,
-  "LanguageCode": "blanditiis"
+  "DocumentTemplateId": 815,
+  "LanguageCode": "consequatur"
 }
 ```
 

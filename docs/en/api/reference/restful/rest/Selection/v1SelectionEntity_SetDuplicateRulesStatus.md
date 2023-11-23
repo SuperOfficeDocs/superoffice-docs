@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lesch, Braun and Koelpin",
-    "DisplayName": "Bauch-Ryan",
-    "DisplayTooltip": "saepe",
+    "Name": "Boyle, Kub and Collier",
+    "DisplayName": "Gorczany LLC",
+    "DisplayTooltip": "maiores",
     "IsActive": true
   },
   {
-    "Name": "Lesch, Braun and Koelpin",
-    "DisplayName": "Bauch-Ryan",
-    "DisplayTooltip": "saepe",
+    "Name": "Boyle, Kub and Collier",
+    "DisplayName": "Gorczany LLC",
+    "DisplayTooltip": "maiores",
     "IsActive": true
   }
 ]

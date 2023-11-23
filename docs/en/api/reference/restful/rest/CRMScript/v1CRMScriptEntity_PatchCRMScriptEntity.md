@@ -121,18 +121,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "ducimus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "ducimus",
     "value": {}
   }
 ]
@@ -145,28 +145,28 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 978,
-  "UniqueIdentifier": "hic",
-  "Name": "Rowe-Kozey",
-  "Description": "Down-sized intangible ability",
-  "IncludeId": "et",
-  "HierarchyId": 103,
-  "Source": "praesentium",
-  "Registered": "2015-01-10T03:24:51.5368575+01:00",
-  "RegisteredAssociateId": 599,
-  "Updated": "2003-04-25T03:24:51.5368575+02:00",
-  "UpdatedAssociateId": 979,
+  "EjscriptId": 608,
+  "UniqueIdentifier": "ut",
+  "Name": "Altenwerth, Schiller and Sanford",
+  "Description": "Automated bottom-line firmware",
+  "IncludeId": "odio",
+  "HierarchyId": 28,
+  "Source": "velit",
+  "Registered": "2012-03-21T13:38:17.280593+01:00",
+  "RegisteredAssociateId": 231,
+  "Updated": "2006-11-13T13:38:17.280593+01:00",
+  "UpdatedAssociateId": 812,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldType": "System.String",
+      "FieldLength": 649
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

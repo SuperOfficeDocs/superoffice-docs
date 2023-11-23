@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Little-Schaefer",
-  "ParameterName": "Gibson-Langosh"
+  "LayoutName": "Glover LLC",
+  "ParameterName": "Pacocha, Gaylord and Gibson"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 626,
-  "Name": "Wilderman, Kovacek and Mertz",
-  "Value": "suscipit",
-  "CreatedDate": "2008-10-06T03:24:47.2364513+02:00",
-  "UpdatedDate": "2009-01-19T03:24:47.2364513+01:00",
-  "CreatedBy": "quia",
-  "UpdatedBy": "at",
+  "AudienceLayoutId": 922,
+  "Name": "Dicki-Ziemann",
+  "Value": "vel",
+  "CreatedDate": "2007-05-25T13:38:13.0771703+02:00",
+  "UpdatedDate": "2008-10-20T13:38:13.0771703+02:00",
+  "CreatedBy": "quasi",
+  "UpdatedBy": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 500
+      "FieldType": "System.Int32",
+      "FieldLength": 637
     }
   }
 }

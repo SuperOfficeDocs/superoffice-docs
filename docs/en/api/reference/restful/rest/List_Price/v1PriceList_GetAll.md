@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=ut
-GET /api/v1/Pricelist?$top=665
-GET /api/v1/Pricelist?$skip=161
+GET /api/v1/Pricelist?$entities=iusto
+GET /api/v1/Pricelist?$top=315
+GET /api/v1/Pricelist?$skip=364
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=omnis
+GET /api/v1/Pricelist?$context=ducimus
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "molestiae",
+  "odata.nextLink": "velit",
   "value": [
     {
-      "PrimaryKey": 3750,
+      "PrimaryKey": 2845,
       "EntityName": "person",
-      "personId": 3750,
-      "fullName": "Carmela Wilford Collins PhD"
+      "personId": 2845,
+      "fullName": "Brycen Dach"
     },
     {
-      "PrimaryKey": 3884,
+      "PrimaryKey": 4892,
       "EntityName": "person",
-      "personId": 3884,
-      "fullName": "Justus Schaefer"
+      "personId": 4892,
+      "fullName": "Marquis Langworth"
     }
   ]
 }

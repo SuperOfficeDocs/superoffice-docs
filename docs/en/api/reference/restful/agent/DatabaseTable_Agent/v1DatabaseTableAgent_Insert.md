@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Moen-Marvin",
+  "TableName": "Kunze LLC",
   "Columns": [
-    "ut",
-    "consequatur"
+    "quaerat",
+    "repudiandae"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "et",
-  "Inserts": 60,
-  "Updates": 845,
-  "Deletes": 249,
+  "Message": "sequi",
+  "Inserts": 69,
+  "Updates": 457,
+  "Deletes": 670,
   "RowStatus": [
     {
-      "PrimaryKey": 668,
+      "PrimaryKey": 714,
       "Action": "ColumnsZeroed",
       "RowKeys": [
         "ut",
-        "eum"
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldLength": 80
         }
       }
     },
     {
-      "PrimaryKey": 668,
+      "PrimaryKey": 714,
       "Action": "ColumnsZeroed",
       "RowKeys": [
         "ut",
-        "eum"
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldLength": 80
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldType": "System.Int32",
+      "FieldLength": 288
     }
   }
 }

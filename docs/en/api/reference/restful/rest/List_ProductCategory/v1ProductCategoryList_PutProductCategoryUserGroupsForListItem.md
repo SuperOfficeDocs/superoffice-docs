@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Baumbach LLC",
-    "ToolTip": "Et architecto blanditiis sed consequatur dolores voluptatem et.",
-    "Deleted": true,
-    "Rank": 318,
-    "Type": "vel",
-    "ColorBlock": 12,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2020-11-05T03:24:52.318209+01:00",
+    "Id": 394,
+    "Name": "Bayer, Stiedemann and Huel",
+    "ToolTip": "Consequatur dignissimos autem qui odit.",
+    "Deleted": false,
+    "Rank": 297,
+    "Type": "totam",
+    "ColorBlock": 795,
+    "IconHint": "sunt",
+    "Selected": true,
+    "LastChanged": "2007-09-27T13:38:18.1244081+02:00",
     "ChildItems": [
       {
-        "Id": 638,
-        "Name": "Bednar, Hickle and Sauer",
-        "ToolTip": "Ullam ut.",
-        "Deleted": false,
-        "Rank": 251,
-        "Type": "provident",
-        "ColorBlock": 158,
-        "IconHint": "expedita",
+        "Id": 57,
+        "Name": "Christiansen-Braun",
+        "ToolTip": "Aut magni autem harum porro facilis ut.",
+        "Deleted": true,
+        "Rank": 95,
+        "Type": "labore",
+        "ColorBlock": 209,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2008-07-23T03:24:52.318209+02:00",
+        "LastChanged": "2007-10-27T13:38:18.1244081+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "odio",
+        "ExtraInfo": "cumque",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Ms. Howell Tremblay"
+        "FullName": "Brenna Hessel"
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "dignissimos",
-    "Hidden": false,
-    "FullName": "Orland Stark"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Mrs. Eulalia Stroman Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Wolf Group",
-    "ToolTip": "Vel praesentium.",
-    "Deleted": false,
-    "Rank": 375,
-    "Type": "illum",
-    "ColorBlock": 47,
-    "IconHint": "sed",
+    "Id": 769,
+    "Name": "Terry, Stracke and Murray",
+    "ToolTip": "Voluptatem quia dignissimos amet fuga qui.",
+    "Deleted": true,
+    "Rank": 83,
+    "Type": "cumque",
+    "ColorBlock": 160,
+    "IconHint": "officia",
     "Selected": false,
-    "LastChanged": "2017-06-05T03:24:52.318209+02:00",
+    "LastChanged": "2016-12-06T13:38:18.1244081+01:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Miller, Dietrich and Thiel",
-        "ToolTip": "Aut modi.",
-        "Deleted": false,
-        "Rank": 723,
-        "Type": "et",
-        "ColorBlock": 709,
-        "IconHint": "non",
+        "Id": 757,
+        "Name": "Yost-White",
+        "ToolTip": "Est sint.",
+        "Deleted": true,
+        "Rank": 894,
+        "Type": "dicta",
+        "ColorBlock": 443,
+        "IconHint": "fuga",
         "Selected": false,
-        "LastChanged": "2004-02-23T03:24:52.318209+01:00",
+        "LastChanged": "2018-01-01T13:38:18.1244081+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "quia",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Ms. Georgiana Delores O'Connell DDS",
+        "FullName": "Dr. Caleb Eulalia Doyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 376
+            "FieldLength": 240
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Josue Buckridge",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "cum",
+    "Hidden": false,
+    "FullName": "Miss Alvis Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 978
       }
     }
   }

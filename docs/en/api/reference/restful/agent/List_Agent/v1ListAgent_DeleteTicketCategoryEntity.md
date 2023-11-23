@@ -25,7 +25,7 @@ Deletes the TicketCategoryEntity
 | TicketCategoryEntityId | int32 | **Required** The id of the TicketCategoryEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketCategoryEntity?TicketCategoryEntityId=13
+POST /api/v1/Agents/List/DeleteTicketCategoryEntity?TicketCategoryEntityId=175
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/List/DeleteTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

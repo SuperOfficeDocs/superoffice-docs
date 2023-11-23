@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 285
+  "Id": 716
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 323,
-  "Name": "Dicki, Reilly and Graham",
-  "AssociateId": 929,
-  "DetailsTable": 480,
-  "DetailsRecord": 732,
+  "Id": 93,
+  "Name": "Weimann Group",
+  "AssociateId": 69,
+  "DetailsTable": 209,
+  "DetailsRecord": 339,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "reiciendis",
-    "ParameterObject2": "maxime"
+    "ParameterObject1": "doloremque",
+    "ParameterObject2": "qui"
   },
-  "LastStarted": "2013-11-09T03:24:47.2520803+01:00",
-  "Created": "2005-03-17T03:24:47.2520803+01:00",
-  "StartCount": 511,
-  "DatabaseSerialNumber": "781942",
-  "Context": "sint",
-  "Result": "magni",
+  "LastStarted": "2010-09-05T13:38:13.0771703+02:00",
+  "Created": "2012-01-18T13:38:13.0771703+01:00",
+  "StartCount": 654,
+  "DatabaseSerialNumber": "1795380",
+  "Context": "odit",
+  "Result": "delectus",
   "State": "All",
-  "Description": "Organized bi-directional artificial intelligence",
-  "Response": "fugit",
-  "Request": "qui",
-  "ProgressDescription": "Streamlined grid-enabled methodology",
-  "ProgressPercent": 565,
-  "FileName": "Hilpert-Spencer",
+  "Description": "Multi-channelled web-enabled solution",
+  "Response": "veritatis",
+  "Request": "excepturi",
+  "ProgressDescription": "Intuitive composite access",
+  "ProgressPercent": 119,
+  "FileName": "Krajcik, Lubowitz and Bruen",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldType": "System.String",
+      "FieldLength": 56
     }
   }
 }

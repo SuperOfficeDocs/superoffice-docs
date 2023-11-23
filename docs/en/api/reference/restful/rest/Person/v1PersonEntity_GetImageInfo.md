@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 13 Jun 2015 03:24:51 G6T
+Last-Modified: Thu, 08 Jun 2000 13:38:17 G6T
 
 {
-  "BlobId": 523,
-  "BlobSize": 835,
-  "Description": "Ergonomic optimizing framework",
-  "ExtraInfo": "reprehenderit",
-  "IsEncrypted": true,
+  "BlobId": 35,
+  "BlobSize": 160,
+  "Description": "Function-based transitional success",
+  "ExtraInfo": "voluptate",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "a",
-  "OriginalSize": 902,
-  "CreatedDate": "2010-10-31T03:24:51.6930999+01:00",
-  "UpdatedDate": "2015-06-13T03:24:51.6930999+02:00",
+  "MimeType": "facere",
+  "OriginalSize": 195,
+  "CreatedDate": "1997-09-01T13:38:17.5305626+02:00",
+  "UpdatedDate": "2000-06-08T13:38:17.5305626+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "corporis",
+  "ConceptualType": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   }
 }

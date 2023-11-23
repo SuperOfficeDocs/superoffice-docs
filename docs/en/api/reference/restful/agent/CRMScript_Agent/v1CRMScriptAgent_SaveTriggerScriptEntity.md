@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 592,
-  "Name": "Connelly-Stehr",
+  "ScreenChooserId": 968,
+  "Name": "Wehner, Bode and Bednar",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "voluptas",
-  "Source": "reiciendis",
-  "Registered": "2016-02-27T03:24:47.4708008+01:00",
-  "RegisteredAssociateId": 166,
-  "Updated": "2006-05-30T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 654
+  "Enabled": false,
+  "UniqueIdentifier": "harum",
+  "Source": "odit",
+  "Registered": "2023-01-18T13:38:13.374011+01:00",
+  "RegisteredAssociateId": 854,
+  "Updated": "2007-12-31T13:38:13.374011+01:00",
+  "UpdatedAssociateId": 412
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 478,
-  "Name": "Abshire LLC",
+  "ScreenChooserId": 687,
+  "Name": "Koepp, Nitzsche and Toy",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "non",
-  "Source": "quo",
-  "Registered": "2021-08-13T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 64,
-  "Updated": "2023-04-16T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 522,
+  "Enabled": false,
+  "UniqueIdentifier": "adipisci",
+  "Source": "odio",
+  "Registered": "2014-03-09T13:38:13.374011+01:00",
+  "RegisteredAssociateId": 497,
+  "Updated": "2008-04-17T13:38:13.374011+02:00",
+  "UpdatedAssociateId": 723,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 30
     }
   }
 }

@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsam",
-  "ProviderName": "Abernathy, Wiegand and Schoen",
-  "StorageKey": "quas",
-  "Rank": 184,
-  "Context": "fugit"
+  "StorageType": "tempore",
+  "ProviderName": "Witting, Bosco and Abbott",
+  "StorageKey": "quidem",
+  "Rank": 556,
+  "Context": "amet"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Herzog-Hauck",
-  "Description": "Vision-oriented non-volatile software",
-  "Rank": 429,
+  "Name": "Becker-Jacobs",
+  "Description": "Open-source grid-enabled hub",
+  "Rank": 116,
   "Restrictions": [
     {
-      "Name": "Russel, Robel and Feest",
-      "Operator": "nostrum",
+      "Name": "Fahey, Kunze and Lehner",
+      "Operator": "corrupti",
       "Values": [
-        "impedit",
-        "sed"
+        "error",
+        "voluptas"
       ],
       "DisplayValues": [
-        "architecto",
-        "quos"
+        "consequuntur",
+        "sit"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 181,
+      "InterParenthesis": 460,
       "InterOperator": "And",
-      "UniqueHash": 992
+      "UniqueHash": 936
     }
   ]
 }

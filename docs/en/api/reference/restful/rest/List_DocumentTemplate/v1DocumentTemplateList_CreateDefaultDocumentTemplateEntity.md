@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 279,
-  "Name": "Ward, Ankunding and Walter",
-  "Tooltip": "voluptatibus",
-  "SaveInDb": 129,
-  "Filename": "qui",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 815,
+  "Name": "Prohaska LLC",
+  "Tooltip": "rerum",
+  "SaveInDb": 236,
+  "Filename": "nulla",
+  "DefaultOref": "sunt",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 1001,
-  "IntentId": 602,
-  "IsDefaultPublished": false,
-  "Rank": 979,
-  "LoadTemplateFromPlugin": 508,
-  "MimeType": "possimus",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 841,
+  "AutoeventId": 442,
+  "IntentId": 539,
+  "IsDefaultPublished": true,
+  "Rank": 787,
+  "LoadTemplateFromPlugin": 573,
+  "MimeType": "distinctio",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 176,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "samson.davis@wuckertkertzmann.info",
-  "IncludeSignature": false,
+  "EmailSubject": "buford@kutchmohr.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "annalise@sipespollich.com",
+  "SenderEmailAddress": "marcel@ernser.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 66
     }
   }
 }

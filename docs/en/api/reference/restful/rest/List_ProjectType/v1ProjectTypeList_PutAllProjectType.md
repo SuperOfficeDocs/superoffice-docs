@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 847,
-    "Name": "Barrows, Purdy and Kirlin",
-    "Tooltip": "quaerat",
-    "Deleted": true,
-    "UdListDefinitionId": 590,
-    "Rank": 49
+    "Id": 689,
+    "Name": "Leuschke LLC",
+    "Tooltip": "non",
+    "Deleted": false,
+    "UdListDefinitionId": 534,
+    "Rank": 357
   },
   {
-    "Id": 847,
-    "Name": "Barrows, Purdy and Kirlin",
-    "Tooltip": "quaerat",
-    "Deleted": true,
-    "UdListDefinitionId": 590,
-    "Rank": 49
+    "Id": 689,
+    "Name": "Leuschke LLC",
+    "Tooltip": "non",
+    "Deleted": false,
+    "UdListDefinitionId": 534,
+    "Rank": 357
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 406,
-    "Name": "Walter, McClure and Powlowski",
-    "Tooltip": "sed",
+    "Id": 298,
+    "Name": "Lowe-Stiedemann",
+    "Tooltip": "facere",
     "Deleted": true,
-    "UdListDefinitionId": 401,
-    "Rank": 531,
+    "UdListDefinitionId": 940,
+    "Rank": 998,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 443
       }
     }
   }

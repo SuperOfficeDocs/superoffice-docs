@@ -64,6 +64,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAppointmentAge
 * [GetMyPublishedAppointments](getmypublishedappointments.md)
 * [GetMySyncAppointments](getmysyncappointments.md)
 * [GetMyTasks](getmytasks.md)
+* [GetNextAvailableTime](getnextavailabletime.md)
 * [GetNextSuggestedAppointmentBySale](getnextsuggestedappointmentbysale.md)
 * [GetOrganizerName](getorganizername.md)
 * [GetPersonAppointments](getpersonappointments.md)

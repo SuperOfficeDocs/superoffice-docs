@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Conroy Group",
-  "HeadingId": 846,
+  "UdListDefinitionName": "Huel, Hudson and Lebsack",
+  "HeadingId": 200,
   "ListItemIds": [
-    282,
-    197
+    402,
+    716
   ],
   "Enable": true
 }

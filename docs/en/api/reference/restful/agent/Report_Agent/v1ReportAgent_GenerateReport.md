@@ -73,26 +73,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 21,
-  "LabelLayoutId": 551,
-  "Filename": "nesciunt",
-  "Language": "quis",
-  "FileType": "dolor",
+  "ReportId": 177,
+  "LabelLayoutId": 150,
+  "Filename": "laborum",
+  "Language": "quia",
+  "FileType": "sunt",
   "Restrictions": [
     {
-      "Name": "Kulas Group",
-      "Operator": "culpa",
+      "Name": "Rodriguez-Bode",
+      "Operator": "excepturi",
       "Values": [
-        "aliquid",
-        "sed"
+        "numquam",
+        "eligendi"
       ],
       "DisplayValues": [
-        "et",
-        "doloribus"
+        "iusto",
+        "reprehenderit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 643,
+      "InterParenthesis": 8,
       "InterOperator": "And",
-      "UniqueHash": 390
+      "UniqueHash": 809
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"laudantium"
+"non"
 ```

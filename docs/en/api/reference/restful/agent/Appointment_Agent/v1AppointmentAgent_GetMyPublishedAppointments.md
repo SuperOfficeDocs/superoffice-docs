@@ -104,6 +104,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -116,7 +117,7 @@ OK
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -127,64 +128,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 173,
-    "StartDate": "2017-12-27T03:24:46.9550719+01:00",
-    "EndDate": "2021-06-18T03:24:46.9550719+02:00",
+    "AppointmentId": 320,
+    "StartDate": "2002-08-04T13:38:12.8584402+02:00",
+    "EndDate": "2017-06-02T13:38:12.8584402+02:00",
     "Type": "BookingForChecklist",
-    "Task": "odio",
-    "AssociateFullName": "General Hagenes",
-    "ContactName": "Carroll LLC",
-    "Description": "Multi-tiered neutral model",
-    "PersonFullName": "Mrs. Jaida Barrows",
-    "PersonId": 430,
-    "ContactId": 193,
-    "ProjectId": 535,
-    "ProjectName": "Kuhlman, Quitzon and Cormier",
+    "Task": "ut",
+    "AssociateFullName": "Prof. Cora Bartell DVM",
+    "ContactName": "Cremin Inc and Sons",
+    "Description": "User-friendly client-driven secured line",
+    "PersonFullName": "Vicky Solon Schimmel Jr.",
+    "PersonId": 722,
+    "ContactId": 645,
+    "ProjectId": 619,
+    "ProjectName": "Cronin, Maggio and Kohler",
     "IsPublished": false,
-    "AssociateId": 989,
-    "ColorIndex": 255,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 296,
+    "ColorIndex": 642,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 297,
-    "PriorityName": "Fritsch, Marquardt and Gulgowski",
+    "PriorityId": 770,
+    "PriorityName": "Deckow Group",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1997-12-11T03:24:46.9550719+01:00",
+    "ActiveDate": "2015-08-13T13:38:12.8584402+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-10-31T03:24:46.9550719+01:00",
-    "RecurringEndDate": "2009-12-19T03:24:46.9550719+01:00",
-    "MotherId": 230,
-    "AssignedBy": 214,
-    "AssignedByFullName": "Mr. Autumn Sadie Fay Jr.",
+    "RecurringStartDate": "1998-09-26T13:38:12.8584402+02:00",
+    "RecurringEndDate": "2009-06-09T13:38:12.8584402+02:00",
+    "MotherId": 906,
+    "AssignedBy": 130,
+    "AssignedByFullName": "Forest Rebekah Kunze IV",
     "RejectReason": "",
-    "Location": "aperiam",
-    "AlarmLeadTime": "nisi",
-    "SaleId": 729,
-    "SaleName": "Batz, Paucek and Shanahan",
-    "AssociateName": "Blanda Inc and Sons",
-    "CreatedDate": "2002-05-13T03:24:46.9550719+02:00",
-    "CreatedBy": "hic",
-    "CreatedByFullName": "Hillard Davis PhD",
-    "CreatedByAssociateId": 853,
+    "Location": "dolores",
+    "AlarmLeadTime": "sit",
+    "SaleId": 889,
+    "SaleName": "Schamberger-Mertz",
+    "AssociateName": "Douglas-Beier",
+    "CreatedDate": "2000-01-11T13:38:12.8584402+01:00",
+    "CreatedBy": "quis",
+    "CreatedByFullName": "Ernestine Ullrich",
+    "CreatedByAssociateId": 279,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "ex",
-    "Agenda": "possimus",
-    "InternalNotes": "eos",
+    "PreferredTZLocation": 358,
+    "Title": "et",
+    "Agenda": "accusamus",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldLength": 663
       }
     }
   }

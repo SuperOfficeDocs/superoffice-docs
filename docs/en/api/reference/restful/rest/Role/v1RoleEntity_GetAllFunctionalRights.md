@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Name": "Rice LLC",
-    "ToolTip": "Dolores ut ad.",
+    "Id": 797,
+    "Name": "Ziemann Inc and Sons",
+    "ToolTip": "Et est et consequatur explicabo autem a odio.",
     "Deleted": false,
-    "Rank": 85,
-    "Type": "nihil",
-    "ColorBlock": 416,
-    "IconHint": "ut",
+    "Rank": 424,
+    "Type": "autem",
+    "ColorBlock": 667,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2004-03-27T03:24:51.7557701+01:00",
+    "LastChanged": "2005-04-14T13:38:17.5774332+02:00",
     "ChildItems": [
       {
-        "Id": 890,
-        "Name": "Kshlerin LLC",
-        "ToolTip": "Tempora nobis.",
-        "Deleted": false,
-        "Rank": 774,
-        "Type": "amet",
-        "ColorBlock": 695,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2003-07-24T03:24:51.7557701+02:00",
+        "Id": 90,
+        "Name": "Lebsack-Sporer",
+        "ToolTip": "Ea ut nemo ea ut.",
+        "Deleted": true,
+        "Rank": 402,
+        "Type": "quod",
+        "ColorBlock": 249,
+        "IconHint": "eum",
+        "Selected": true,
+        "LastChanged": "2011-10-21T13:38:17.5774332+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "impedit",
+        "ExtraInfo": "non",
+        "StyleHint": "distinctio",
         "Hidden": true,
-        "FullName": "Otis Rempel",
+        "FullName": "Brigitte Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 458
+            "FieldLength": 627
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Winona Wolf",
+    "ExtraInfo": "quia",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Julius Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 854
       }
     }
   }

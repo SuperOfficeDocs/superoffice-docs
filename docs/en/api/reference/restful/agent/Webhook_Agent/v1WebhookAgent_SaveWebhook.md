@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 782,
-  "Name": "Treutel-Christiansen",
+  "WebhookId": 893,
+  "Name": "Robel-Howell",
   "Events": [
-    "aliquam",
-    "possimus"
+    "non",
+    "ipsa"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eos",
+  "Secret": "quia",
   "State": "Active",
-  "Type": "labore",
+  "Type": "laudantium",
   "Headers": {
-    "Headers1": "sed",
-    "Headers2": "rerum"
+    "Headers1": "incidunt",
+    "Headers2": "ad"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-09-03T03:24:48.5966823+02:00",
+  "Registered": "2013-01-16T13:38:14.4052895+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-09-09T03:24:48.5966823+02:00",
+  "Updated": "2009-01-15T13:38:14.4052895+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "arthur@schumm.uk"
+  "ErrorsEmail": "bernard@bernhardkling.name"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 356,
-  "Name": "Pacocha, Davis and Johns",
+  "WebhookId": 672,
+  "Name": "Kub, Jerde and Beatty",
   "Events": [
-    "sit",
-    "eum"
+    "sint",
+    "quis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "porro",
+  "Secret": "odit",
   "State": "Active",
-  "Type": "reiciendis",
+  "Type": "laboriosam",
   "Headers": {
     "Headers1": "ratione",
-    "Headers2": "dolorum"
+    "Headers2": "numquam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-09-10T03:24:48.5966823+02:00",
+  "Registered": "2010-05-21T13:38:14.4052895+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-01-11T03:24:48.5966823+01:00",
+  "Updated": "2013-04-20T13:38:14.4052895+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "hermann@schinnerratke.com"
+  "ErrorsEmail": "otha_klocko@kozey.name"
 }
 ```

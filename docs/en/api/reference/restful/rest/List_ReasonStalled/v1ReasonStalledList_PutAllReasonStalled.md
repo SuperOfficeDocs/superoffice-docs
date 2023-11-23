@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Johns, Beer and Monahan",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "UdListDefinitionId": 435,
-    "Rank": 173
+    "Id": 911,
+    "Name": "Wunsch, Jenkins and Luettgen",
+    "Tooltip": "id",
+    "Deleted": true,
+    "UdListDefinitionId": 238,
+    "Rank": 662
   },
   {
-    "Id": 986,
-    "Name": "Johns, Beer and Monahan",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "UdListDefinitionId": 435,
-    "Rank": 173
+    "Id": 911,
+    "Name": "Wunsch, Jenkins and Luettgen",
+    "Tooltip": "id",
+    "Deleted": true,
+    "UdListDefinitionId": 238,
+    "Rank": 662
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Keebler, Rempel and Fadel",
-    "Tooltip": "cumque",
-    "Deleted": false,
-    "UdListDefinitionId": 78,
-    "Rank": 285,
+    "Id": 441,
+    "Name": "Huel Group",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "UdListDefinitionId": 599,
+    "Rank": 247,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldType": "System.Int32",
+        "FieldLength": 855
       }
     }
   }

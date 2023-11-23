@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Nikolaus-Tromp",
-    "Tooltip": "cupiditate",
-    "Deleted": false,
-    "UdListDefinitionId": 34,
-    "Rank": 18,
+    "Id": 9,
+    "Name": "Crooks Inc and Sons",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 466,
+    "Rank": 690,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 8
       }
     }
   }

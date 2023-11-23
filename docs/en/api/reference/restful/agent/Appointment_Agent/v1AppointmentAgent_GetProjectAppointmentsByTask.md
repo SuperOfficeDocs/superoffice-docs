@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -134,11 +135,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 958,
-  "StartTime": "2004-04-05T03:24:46.9394467+02:00",
-  "EndTime": "2013-12-16T03:24:46.9394467+01:00",
-  "Count": 200,
-  "TaskId": 958
+  "ProjectId": 279,
+  "StartTime": "2019-10-19T13:38:12.8428246+02:00",
+  "EndTime": "1996-10-03T13:38:12.8428246+02:00",
+  "Count": 218,
+  "TaskId": 614
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 2,
-    "StartDate": "2005-08-04T03:24:46.9394467+02:00",
-    "EndDate": "2020-11-05T03:24:46.9394467+01:00",
+    "AppointmentId": 1001,
+    "StartDate": "2002-10-10T13:38:12.8428246+02:00",
+    "EndDate": "2016-02-12T13:38:12.8428246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "officiis",
-    "AssociateFullName": "Manley Goldner",
-    "ContactName": "Flatley, Hintz and Waelchi",
-    "Description": "Cloned multi-state Graphical User Interface",
-    "PersonFullName": "Ms. Emanuel Yundt Sr.",
-    "PersonId": 50,
-    "ContactId": 513,
-    "ProjectId": 667,
-    "ProjectName": "Schroeder LLC",
-    "IsPublished": true,
-    "AssociateId": 760,
-    "ColorIndex": 521,
-    "IsFree": false,
+    "Task": "debitis",
+    "AssociateFullName": "Angie Batz",
+    "ContactName": "Gorczany Group",
+    "Description": "Enhanced human-resource toolset",
+    "PersonFullName": "Robyn Homenick",
+    "PersonId": 887,
+    "ContactId": 118,
+    "ProjectId": 33,
+    "ProjectName": "Koelpin, Dare and Tillman",
+    "IsPublished": false,
+    "AssociateId": 355,
+    "ColorIndex": 276,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 355,
-    "PriorityName": "Champlin, Flatley and Morissette",
+    "PriorityId": 222,
+    "PriorityName": "Conroy Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2009-03-25T03:24:46.9394467+01:00",
+    "ActiveDate": "1997-04-17T13:38:12.8428246+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-09-20T03:24:46.9394467+02:00",
-    "RecurringEndDate": "2003-10-16T03:24:46.9394467+02:00",
-    "MotherId": 195,
-    "AssignedBy": 627,
-    "AssignedByFullName": "Mr. Weston Ritchie",
+    "RecurringStartDate": "2006-05-08T13:38:12.8428246+02:00",
+    "RecurringEndDate": "2010-01-16T13:38:12.8428246+01:00",
+    "MotherId": 136,
+    "AssignedBy": 737,
+    "AssignedByFullName": "Graham Ritchie",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "fuga",
-    "SaleId": 707,
-    "SaleName": "Corkery LLC",
-    "AssociateName": "Ziemann, Roberts and Hudson",
-    "CreatedDate": "2006-12-14T03:24:46.9394467+01:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Tianna Ankunding",
-    "CreatedByAssociateId": 480,
+    "Location": "veniam",
+    "AlarmLeadTime": "eaque",
+    "SaleId": 543,
+    "SaleName": "Blick, Kassulke and Wintheiser",
+    "AssociateName": "Medhurst Inc and Sons",
+    "CreatedDate": "2020-11-15T13:38:12.8428246+01:00",
+    "CreatedBy": "nostrum",
+    "CreatedByFullName": "Jeffrey Douglas",
+    "CreatedByAssociateId": 275,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "rerum",
-    "Agenda": "qui",
-    "InternalNotes": "quia",
+    "PreferredTZLocation": 928,
+    "Title": "veritatis",
+    "Agenda": "facilis",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldLength": 251
       }
     }
   }

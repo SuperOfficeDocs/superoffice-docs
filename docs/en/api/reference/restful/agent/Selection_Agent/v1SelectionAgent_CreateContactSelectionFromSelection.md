@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 724,
-  "Name": "Macejkovic, Bogan and Ward",
+  "SelectionId": 970,
+  "Name": "Kihn, Tremblay and Grant",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group executive success",
-  "Postit": "ut",
+  "Description": "Fundamental modular initiative",
+  "Postit": "placeat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 894,
-  "IncludePerson": 186,
-  "MemberCount": 101,
-  "Name": "Hane LLC",
-  "PostitTextId": 869,
-  "CreatedDate": "2007-10-02T03:24:48.2524255+02:00",
-  "SelectionId": 370,
-  "SoundEx": "nihil",
-  "Source": 57,
-  "TextId": 792,
-  "UpdatedDate": "2020-05-07T03:24:48.2524255+02:00",
-  "UpdatedCount": 279,
-  "Visibility": 103,
+  "GroupIdx": 867,
+  "IncludePerson": 361,
+  "MemberCount": 311,
+  "Name": "Kertzmann, Bartell and Runolfsson",
+  "PostitTextId": 485,
+  "CreatedDate": "2011-09-19T13:38:14.124071+02:00",
+  "SelectionId": 889,
+  "SoundEx": "ut",
+  "Source": 551,
+  "TextId": 993,
+  "UpdatedDate": "2000-04-20T13:38:14.124071+02:00",
+  "UpdatedCount": 771,
+  "Visibility": 746,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 865,
-  "TargetTableName": "Tremblay, Heidenreich and Wintheiser",
-  "Completed": false,
-  "LeftSelectionId": 938,
-  "RightSelectionId": 823,
+  "TargetTableNumber": 884,
+  "TargetTableName": "Hermann, Vandervort and Durgan",
+  "Completed": true,
+  "LeftSelectionId": 460,
+  "RightSelectionId": 228,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Reynolds Inc and Sons",
-  "ShadowProviderName": "O'Conner-Zboncak",
-  "ChartKey": "tempora",
-  "LastLoaded": "1996-12-06T03:24:48.2524255+01:00",
-  "LastLoadedBy": 684,
+  "MainProviderName": "Turcotte-Pagac",
+  "ShadowProviderName": "Ward-Lang",
+  "ChartKey": "necessitatibus",
+  "LastLoaded": "2001-05-25T13:38:14.124071+02:00",
+  "LastLoadedBy": 302,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-08-21T03:24:48.2524255+02:00",
-  "LastMembershipChangeBy": 718,
+  "LastMembershipChange": "2017-03-22T13:38:14.124071+01:00",
+  "LastMembershipChangeBy": 332,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Quitzon, Osinski and Waters",
-  "DashboardTileDefinitionId": 641,
+  "MainHeading": "cum",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Conn LLC",
+  "DashboardTileDefinitionId": 25,
   "VisibleFor": [
     {
-      "VisibleId": 194,
+      "VisibleId": 842,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 673
         }
       }
     },
     {
-      "VisibleId": 194,
+      "VisibleId": 842,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 673
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Huel, Oberbrunner and Sipes"
+  "FunctionalRightName": "Dickens, Emmerich and Durgan"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 426,
-    "Name": "Rutherford-Ledner",
-    "ToolTip": "Qui unde tempore commodi maxime est beatae.",
+    "Id": 108,
+    "Name": "Volkman, Kling and Bernhard",
+    "ToolTip": "Illo ab saepe sunt laudantium qui rerum sit.",
     "Deleted": false,
-    "Rank": 57,
-    "Type": "ea",
+    "Rank": 928,
+    "Type": "officia",
     "ChildItems": [
       {
-        "Id": 84,
-        "Name": "Hane-Kessler",
-        "ToolTip": "Aspernatur non deleniti at facere.",
-        "Deleted": false,
-        "Rank": 368,
-        "Type": "ut",
+        "Id": 105,
+        "Name": "Schroeder Group",
+        "ToolTip": "Aut porro.",
+        "Deleted": true,
+        "Rank": 485,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "praesentium",
-        "ColorBlock": 263,
-        "ExtraInfo": "ut",
-        "StyleHint": "reiciendis",
-        "FullName": "Aniyah Trantow",
+        "IconHint": "accusantium",
+        "ColorBlock": 278,
+        "ExtraInfo": "repellat",
+        "StyleHint": "illo",
+        "FullName": "Dr. Francesca Ben Steuber I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 762
+            "FieldLength": 975
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 836,
-    "ExtraInfo": "eum",
-    "StyleHint": "fugiat",
-    "FullName": "Neva Kirlin",
+    "IconHint": "esse",
+    "ColorBlock": 936,
+    "ExtraInfo": "delectus",
+    "StyleHint": "et",
+    "FullName": "Luigi Kessler Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 746
+        "FieldType": "System.Int32",
+        "FieldLength": 328
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 345,
-    "Name": "Kuvalis Group",
-    "ToolTip": "Mollitia iure quibusdam quo sint asperiores.",
+    "Id": 746,
+    "Name": "Mraz Inc and Sons",
+    "ToolTip": "Praesentium hic harum repudiandae.",
     "Deleted": false,
-    "Rank": 533,
-    "Type": "ducimus",
-    "ColorBlock": 563,
-    "IconHint": "repudiandae",
+    "Rank": 382,
+    "Type": "libero",
+    "ColorBlock": 57,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "2016-05-07T03:24:52.2869587+02:00",
+    "LastChanged": "2013-01-10T13:38:18.0931573+01:00",
     "ChildItems": [
       {
-        "Id": 612,
-        "Name": "Marvin Group",
-        "ToolTip": "Eveniet facilis.",
+        "Id": 50,
+        "Name": "Klein-Hoppe",
+        "ToolTip": "Molestias vero voluptate sed aut.",
         "Deleted": false,
-        "Rank": 901,
-        "Type": "nemo",
-        "ColorBlock": 473,
-        "IconHint": "sint",
+        "Rank": 828,
+        "Type": "recusandae",
+        "ColorBlock": 820,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "2017-03-18T03:24:52.2869587+01:00",
+        "LastChanged": "2018-01-16T13:38:18.0931573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "facilis",
+        "ExtraInfo": "et",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Kendra Bins",
+        "FullName": "Mrs. Jermey Adams PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 72
+            "FieldType": "System.Int32",
+            "FieldLength": 772
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "quia",
+    "ExtraInfo": "sit",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Kelton Keeling",
+    "FullName": "Philip Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldType": "System.String",
+        "FieldLength": 955
       }
     }
   }

@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 601,
-  "Name": "O'Reilly, Quitzon and Predovic",
-  "Tooltip": "est",
-  "Rank": 206,
+  "ProjTypeId": 739,
+  "Name": "Hessel, Haley and Rolfson",
+  "Tooltip": "iusto",
+  "Rank": 783,
   "DurationUnit": "Century",
-  "ProjectDuration": 989,
+  "ProjectDuration": 187,
   "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 646,
-      "Name": "Walter Group",
-      "ToolTip": "Ut recusandae.",
-      "Deleted": true,
-      "Rank": 503,
-      "Type": "nesciunt",
-      "ColorBlock": 720,
-      "IconHint": "dolor",
+      "Id": 249,
+      "Name": "Harvey Group",
+      "ToolTip": "Velit iure quam est repellat in eos.",
+      "Deleted": false,
+      "Rank": 704,
+      "Type": "ut",
+      "ColorBlock": 305,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2005-09-21T03:24:47.908255+02:00",
+      "LastChanged": "2000-02-25T13:38:13.7177215+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "placeat",
-      "StyleHint": "omnis",
+      "ExtraInfo": "numquam",
+      "StyleHint": "laborum",
       "Hidden": false,
-      "FullName": "Melvin Germaine Hermann Sr.",
+      "FullName": "Mrs. Arnold Orin Mohr MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldType": "System.String",
+          "FieldLength": 862
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 543
     }
   }
 }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Value": "sit",
-    "Tooltip": "suscipit",
+    "Id": 688,
+    "Value": "qui",
+    "Tooltip": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 773
       }
     }
   },
   {
-    "Id": 162,
-    "Value": "sit",
-    "Tooltip": "suscipit",
+    "Id": 688,
+    "Value": "qui",
+    "Tooltip": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 773
       }
     }
   }

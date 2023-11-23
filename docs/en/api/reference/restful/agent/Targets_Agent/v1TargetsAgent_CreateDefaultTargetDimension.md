@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 748,
+  "TargetDimensionId": 467,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "ab",
-  "DimensionListName": "Carroll LLC",
-  "DimensionListId": 106,
-  "DimensionListLabel": "maiores",
+  "DimensionListField": "nemo",
+  "DimensionListName": "Kling-Feeney",
+  "DimensionListId": 663,
+  "DimensionListLabel": "labore",
   "SelectedDimensions": [
-    110,
-    573
+    392,
+    122
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldType": "System.String",
+      "FieldLength": 115
     }
   }
 }

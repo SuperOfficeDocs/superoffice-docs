@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "necessitatibus",
-  "ProviderName": "McDermott, Feeney and Bartell",
-  "StorageKey": "saepe",
-  "Context": "corporis"
+  "StorageType": "minima",
+  "ProviderName": "Koch Inc and Sons",
+  "StorageKey": "velit",
+  "Context": "aperiam"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mante-Klocko",
-    "Description": "Streamlined global approach",
-    "Rank": 174,
+    "Name": "Rempel LLC",
+    "Description": "Triple-buffered non-volatile installation",
+    "Rank": 802,
     "Restrictions": [
       {
-        "Name": "Reichel-Jenkins",
-        "Operator": "ad",
+        "Name": "Friesen-Breitenberg",
+        "Operator": "eum",
         "Values": [
-          "blanditiis",
-          "et"
+          "sed",
+          "nostrum"
         ],
         "DisplayValues": [
-          "rerum",
-          "aut"
+          "et",
+          "cupiditate"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 82,
+        "InterParenthesis": 211,
         "InterOperator": "And",
-        "UniqueHash": 171
+        "UniqueHash": 714
       }
     ]
   },
   {
-    "Name": "Mante-Klocko",
-    "Description": "Streamlined global approach",
-    "Rank": 174,
+    "Name": "Rempel LLC",
+    "Description": "Triple-buffered non-volatile installation",
+    "Rank": 802,
     "Restrictions": [
       {
-        "Name": "Reichel-Jenkins",
-        "Operator": "ad",
+        "Name": "Friesen-Breitenberg",
+        "Operator": "eum",
         "Values": [
-          "blanditiis",
-          "et"
+          "sed",
+          "nostrum"
         ],
         "DisplayValues": [
-          "rerum",
-          "aut"
+          "et",
+          "cupiditate"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -145,9 +145,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 82,
+        "InterParenthesis": 211,
         "InterOperator": "And",
-        "UniqueHash": 171
+        "UniqueHash": 714
       }
     ]
   }

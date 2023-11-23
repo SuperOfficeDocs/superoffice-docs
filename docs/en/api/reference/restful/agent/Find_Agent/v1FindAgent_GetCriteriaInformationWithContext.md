@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "unde",
-  "ProviderName": "Schiller Inc and Sons",
-  "StorageKey": "saepe",
+  "StorageType": "asperiores",
+  "ProviderName": "Kertzmann Inc and Sons",
+  "StorageKey": "quo",
   "StaticColumns": [
-    "alias",
-    "ullam"
+    "voluptates",
+    "cumque"
   ],
-  "Context": "ipsa"
+  "Context": "non"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Klocko, Littel and Lind",
-      "Operator": "ratione",
+      "Name": "Frami Group",
+      "Operator": "qui",
       "Values": [
-        "doloribus",
-        "assumenda"
+        "omnis",
+        "est"
       ],
       "DisplayValues": [
-        "est",
-        "sed"
+        "fuga",
+        "beatae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 75,
+      "InterParenthesis": 607,
       "InterOperator": "And",
-      "UniqueHash": 2
+      "UniqueHash": 360
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Stoltenberg, Shields and Breitenberg",
-      "DisplayTooltip": "architecto",
-      "DisplayType": "consequatur",
+      "DisplayName": "Wunsch LLC",
+      "DisplayTooltip": "corporis",
+      "DisplayType": "illo",
       "CanOrderBy": false,
-      "Name": "Buckridge Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "repudiandae",
-      "RestrictionListName": "Thompson Group",
+      "Name": "Ritchie Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "rerum",
+      "RestrictionListName": "Monahan-Powlowski",
       "IsVisible": true,
-      "ExtraInfo": "expedita",
-      "Width": "quas",
-      "IconHint": "perspiciatis",
-      "HeadingIconHint": "occaecati"
+      "ExtraInfo": "sit",
+      "Width": "porro",
+      "IconHint": "eaque",
+      "HeadingIconHint": "doloribus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Purdy, Morar and Heller",
-      "PrimaryKey": 941,
+      "EntityName": "Koelpin Inc and Sons",
+      "PrimaryKey": 282,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "earum",
-          "TooltipHint": "quas",
-          "LinkHint": "quasi"
+          "DisplayValue": "consequatur",
+          "TooltipHint": "qui",
+          "LinkHint": "nihil"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "quod",
+      "LinkHint": "ipsam",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 944
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Wehner, Nolan and Haley",
-      "Description": "Reactive high-level customer loyalty",
-      "Rank": 50,
+      "Name": "Pagac Inc and Sons",
+      "Description": "Ergonomic user-facing challenge",
+      "Rank": 170,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wehner, Nolan and Haley",
-      "Description": "Reactive high-level customer loyalty",
-      "Rank": 50,
+      "Name": "Pagac Inc and Sons",
+      "Description": "Ergonomic user-facing challenge",
+      "Rank": 170,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 282
     }
   }
 }

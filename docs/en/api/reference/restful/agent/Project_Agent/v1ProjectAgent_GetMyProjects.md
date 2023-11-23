@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 123,
-    "Name": "Hudson, Paucek and Ruecker",
-    "Description": "Reverse-engineered 3rd generation success",
+    "ProjectId": 272,
+    "Name": "Champlin, Douglas and Heathcote",
+    "Description": "Balanced tertiary artificial intelligence",
     "URL": "http://www.example.com/",
-    "Type": "ipsa",
-    "AssociateId": 924,
-    "AssociateFullName": "Ms. Devyn Braeden Dicki",
-    "TypeId": 39,
-    "Updated": "2017-04-02T03:24:48.0957311+02:00",
-    "StatusId": 638,
-    "Status": "quia",
-    "TextId": 457,
-    "PublishTo": "2001-01-10T03:24:48.0957311+01:00",
-    "PublishFrom": "2009-09-11T03:24:48.0957311+02:00",
+    "Type": "quam",
+    "AssociateId": 739,
+    "AssociateFullName": "Kale Zieme",
+    "TypeId": 387,
+    "Updated": "2008-03-21T13:38:13.9834617+01:00",
+    "StatusId": 589,
+    "Status": "id",
+    "TextId": 259,
+    "PublishTo": "2013-12-24T13:38:13.9834617+01:00",
+    "PublishFrom": "2013-05-14T13:38:13.9834617+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "331487",
-    "ActiveErpLinks": 637,
+    "ProjectNumber": "672209",
+    "ActiveErpLinks": 380,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldLength": 231
       }
     }
   }

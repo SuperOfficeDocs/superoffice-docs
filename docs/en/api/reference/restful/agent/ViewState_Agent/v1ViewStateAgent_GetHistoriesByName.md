@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Koch Group"
+  "HistoryName": "Price LLC"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 595,
-    "Id": 942,
-    "HistoryName": "Daniel, Hoppe and Fritsch",
-    "HistoryId": 417,
-    "AssociateId": 728,
-    "Name": "Prosacco LLC",
-    "ItemInfo": "ipsa",
+    "Rank": 656,
+    "Id": 74,
+    "HistoryName": "Armstrong, Littel and Glover",
+    "HistoryId": 112,
+    "AssociateId": 481,
+    "Name": "Koepp Group",
+    "ItemInfo": "facilis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 65
       }
     }
   }

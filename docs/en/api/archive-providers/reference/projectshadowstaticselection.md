@@ -767,7 +767,7 @@ Shadow contact provider for the static Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowStaticSelection?$select=LastDoByActivity,appointment/recordTypeText,document/ourref,document/associate/associateDbId,document/associate/contactCategory
+GET /api/v1/archive/ProjectShadowStaticSelection?$select=projectAssociate/middleName,appointment/time,document/associate/lastName,document/associate/mrMrs,document/associate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

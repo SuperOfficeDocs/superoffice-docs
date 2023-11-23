@@ -81,21 +81,21 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 850,
+  "SelectionId": 875,
   "Criteria": [
     {
-      "Name": "Ziemann LLC",
-      "Description": "Intuitive zero administration complexity",
-      "Rank": 446,
+      "Name": "Gutkowski-Heaney",
+      "Description": "Multi-tiered composite local area network",
+      "Rank": 107,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ziemann LLC",
-      "Description": "Intuitive zero administration complexity",
-      "Rank": 446,
+      "Name": "Gutkowski-Heaney",
+      "Description": "Multi-tiered composite local area network",
+      "Rank": 107,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolff Inc and Sons",
-    "Description": "Ergonomic intermediate encoding",
-    "Rank": 180,
+    "Name": "Beahan, Glover and Reilly",
+    "Description": "Exclusive multi-tasking approach",
+    "Rank": 455,
     "Restrictions": [
       {
-        "Name": "Okuneva Group",
-        "Operator": "est",
+        "Name": "Lubowitz, Wiza and White",
+        "Operator": "quisquam",
         "Values": [
-          "praesentium",
-          "consequuntur"
+          "sed",
+          "atque"
         ],
         "DisplayValues": [
-          "aut",
-          "ea"
+          "exercitationem",
+          "voluptate"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 421,
+        "InterParenthesis": 845,
         "InterOperator": "And",
-        "UniqueHash": 307
+        "UniqueHash": 995
       }
     ]
   },
   {
-    "Name": "Wolff Inc and Sons",
-    "Description": "Ergonomic intermediate encoding",
-    "Rank": 180,
+    "Name": "Beahan, Glover and Reilly",
+    "Description": "Exclusive multi-tasking approach",
+    "Rank": 455,
     "Restrictions": [
       {
-        "Name": "Okuneva Group",
-        "Operator": "est",
+        "Name": "Lubowitz, Wiza and White",
+        "Operator": "quisquam",
         "Values": [
-          "praesentium",
-          "consequuntur"
+          "sed",
+          "atque"
         ],
         "DisplayValues": [
-          "aut",
-          "ea"
+          "exercitationem",
+          "voluptate"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 421,
+        "InterParenthesis": 845,
         "InterOperator": "And",
-        "UniqueHash": 307
+        "UniqueHash": 995
       }
     ]
   }

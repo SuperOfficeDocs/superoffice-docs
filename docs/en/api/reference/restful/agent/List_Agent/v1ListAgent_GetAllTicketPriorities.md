@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 248,
-    "Name": "Blick LLC",
+    "TicketPriorityId": 140,
+    "Name": "Ryan-Kreiger",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 717,
+    "SortOrder": 385,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 894,
-    "MonStart": "2017-11-13T03:24:47.8457602+01:00",
-    "MonStop": "2006-11-05T03:24:47.8457602+01:00",
-    "TueStart": "2006-01-14T03:24:47.8457602+01:00",
-    "TueStop": "1997-01-22T03:24:47.8457602+01:00",
-    "WedStart": "2004-01-16T03:24:47.8457602+01:00",
-    "WedStop": "2003-09-25T03:24:47.8457602+02:00",
-    "ThuStart": "2001-05-23T03:24:47.8457602+02:00",
-    "ThuStop": "2021-05-27T03:24:47.8457602+02:00",
-    "FriStart": "2020-09-24T03:24:47.8457602+02:00",
-    "FriStop": "2017-03-07T03:24:47.8457602+01:00",
-    "SatStart": "2001-01-16T03:24:47.8457602+01:00",
-    "SatStop": "2020-02-24T03:24:47.8457602+01:00",
-    "SunStart": "2007-03-28T03:24:47.8457602+02:00",
-    "SunStop": "2007-01-12T03:24:47.8457602+01:00",
+    "Deadline": 398,
+    "MonStart": "2002-07-18T13:38:13.6552317+02:00",
+    "MonStop": "2018-04-02T13:38:13.6552317+02:00",
+    "TueStart": "2006-11-05T13:38:13.6552317+01:00",
+    "TueStop": "1998-08-26T13:38:13.6552317+02:00",
+    "WedStart": "2006-01-16T13:38:13.6552317+01:00",
+    "WedStop": "2005-09-13T13:38:13.6552317+02:00",
+    "ThuStart": "2004-09-27T13:38:13.6552317+02:00",
+    "ThuStop": "2017-10-04T13:38:13.6552317+02:00",
+    "FriStart": "1997-06-02T13:38:13.6552317+02:00",
+    "FriStop": "2021-04-20T13:38:13.6552317+02:00",
+    "SatStart": "2006-11-07T13:38:13.6552317+01:00",
+    "SatStop": "2007-03-25T13:38:13.6552317+02:00",
+    "SunStart": "2004-08-13T13:38:13.6552317+02:00",
+    "SunStop": "2002-02-16T13:38:13.6552317+01:00",
     "NonDates": [
-      "voluptatem",
-      "et"
+      "consectetur",
+      "ut"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 342,
-        "AlertLevel": 309,
-        "AlertTimeout": 191,
-        "Action": 778,
-        "DelegateTo": 950,
-        "ScriptId": 763,
-        "EmailTo": "elinore_lemke@turcotte.uk",
-        "SmsTo": "velit",
-        "ReplyTemplateIdCustomer": 384,
-        "ReplyTemplateIdUser": 890,
-        "ReplyTemplateIdCatmast": 833,
-        "ReplyTemplateIdEmail": 357,
-        "RtiCustomerSms": 579,
-        "ReplyTemplateIdUserSms": 845,
-        "ReplyTemplateIdCatmastSms": 104,
-        "ReplyTemplateIdSms": 6,
+        "TicketAlertId": 170,
+        "AlertLevel": 872,
+        "AlertTimeout": 326,
+        "Action": 351,
+        "DelegateTo": 416,
+        "ScriptId": 894,
+        "EmailTo": "emerson@kassulkehowe.ca",
+        "SmsTo": "voluptatem",
+        "ReplyTemplateIdCustomer": 581,
+        "ReplyTemplateIdUser": 924,
+        "ReplyTemplateIdCatmast": 535,
+        "ReplyTemplateIdEmail": 877,
+        "RtiCustomerSms": 410,
+        "ReplyTemplateIdUserSms": 331,
+        "ReplyTemplateIdCatmastSms": 575,
+        "ReplyTemplateIdSms": 224,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 605
+            "FieldLength": 828
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldLength": 592
       }
     }
   }

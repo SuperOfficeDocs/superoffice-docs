@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Heathcote, Swift and Hahn",
-    "ToolTip": "Enim rerum totam.",
-    "Deleted": true,
-    "Rank": 542,
-    "Type": "deleniti",
-    "ColorBlock": 861,
-    "IconHint": "reiciendis",
+    "Id": 410,
+    "Name": "Prohaska-Willms",
+    "ToolTip": "Culpa perspiciatis.",
+    "Deleted": false,
+    "Rank": 918,
+    "Type": "et",
+    "ColorBlock": 613,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2006-08-14T03:24:52.4275712+02:00",
+    "LastChanged": "2023-02-21T13:38:18.2337719+01:00",
     "ChildItems": [
       {
-        "Id": 551,
-        "Name": "Block-Brekke",
-        "ToolTip": "Aut aut ipsam atque fugit iusto veniam est.",
-        "Deleted": false,
-        "Rank": 540,
-        "Type": "est",
-        "ColorBlock": 608,
-        "IconHint": "porro",
+        "Id": 142,
+        "Name": "Bins Group",
+        "ToolTip": "Sed veniam qui.",
+        "Deleted": true,
+        "Rank": 91,
+        "Type": "commodi",
+        "ColorBlock": 84,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2007-11-16T03:24:52.4275712+01:00",
+        "LastChanged": "2023-02-08T13:38:18.2337719+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
+        "ExtraInfo": "eos",
         "StyleHint": "rerum",
         "Hidden": true,
-        "FullName": "Leatha Thompson",
+        "FullName": "Dr. Doyle Schmeler MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 245
+            "FieldType": "System.Int32",
+            "FieldLength": 225
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "repellat",
+    "ExtraInfo": "esse",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Eddie Friesen",
+    "FullName": "Ms. Nathen Schroeder Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldLength": 598
       }
     }
   }

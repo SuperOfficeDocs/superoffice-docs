@@ -105,17 +105,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 294,
-  "UniqueIdentifier": "sit",
-  "Name": "Bode, Mitchell and Baumbach",
-  "Description": "Enhanced incremental archive",
-  "IncludeId": "eveniet",
-  "HierarchyId": 197,
-  "Source": "quam",
-  "Registered": "2016-05-05T03:24:51.5368575+02:00",
-  "RegisteredAssociateId": 150,
-  "Updated": "1998-07-18T03:24:51.5368575+02:00",
-  "UpdatedAssociateId": 880
+  "EjscriptId": 835,
+  "UniqueIdentifier": "impedit",
+  "Name": "Windler, Streich and Torp",
+  "Description": "Networked dynamic hierarchy",
+  "IncludeId": "eos",
+  "HierarchyId": 263,
+  "Source": "ipsam",
+  "Registered": "2016-06-04T13:38:17.280593+02:00",
+  "RegisteredAssociateId": 368,
+  "Updated": "2015-11-25T13:38:17.280593+01:00",
+  "UpdatedAssociateId": 376
 }
 ```
 
@@ -126,23 +126,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 59,
-  "UniqueIdentifier": "in",
-  "Name": "Dicki-Dicki",
-  "Description": "Function-based foreground capability",
-  "IncludeId": "porro",
-  "HierarchyId": 732,
-  "Source": "dolorem",
-  "Registered": "1999-06-12T03:24:51.5368575+02:00",
-  "RegisteredAssociateId": 945,
-  "Updated": "2005-03-10T03:24:51.5368575+01:00",
-  "UpdatedAssociateId": 313,
+  "EjscriptId": 432,
+  "UniqueIdentifier": "natus",
+  "Name": "Klein-Anderson",
+  "Description": "Business-focused eco-centric policy",
+  "IncludeId": "rerum",
+  "HierarchyId": 905,
+  "Source": "asperiores",
+  "Registered": "2000-12-01T13:38:17.280593+01:00",
+  "RegisteredAssociateId": 738,
+  "Updated": "1996-10-14T13:38:17.280593+02:00",
+  "UpdatedAssociateId": 975,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldType": "System.String",
+      "FieldLength": 981
     }
   },
   "_Links": {

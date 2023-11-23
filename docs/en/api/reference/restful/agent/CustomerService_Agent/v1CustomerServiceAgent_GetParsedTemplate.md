@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 836,
-  "LanguageId": 906,
-  "PersonId": 765,
-  "TicketId": 112
+  "ReplyTemplateId": 407,
+  "LanguageId": 114,
+  "PersonId": 936,
+  "TicketId": 339
 }
 ```
 
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 768,
-  "PlainParsed": "adipisci",
-  "HtmlParsed": "tenetur",
+  "ReplyTemplateId": 153,
+  "PlainParsed": "laudantium",
+  "HtmlParsed": "assumenda",
   "Attachments": [
     {
-      "AttachmentId": 880,
-      "Name": "Gutmann-Harvey",
-      "ContentType": "quis",
-      "AttSize": 924,
-      "InlineImage": false,
-      "ContentId": "eveniet",
-      "AuthKey": "modi",
+      "AttachmentId": 817,
+      "Name": "Murphy Inc and Sons",
+      "ContentType": "expedita",
+      "AttSize": 132,
+      "InlineImage": true,
+      "ContentId": "quas",
+      "AuthKey": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldType": "System.String",
+          "FieldLength": 549
         }
       }
     }
   ],
-  "Subject": "perferendis",
+  "Subject": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldType": "System.Int32",
+      "FieldLength": 746
     }
   }
 }

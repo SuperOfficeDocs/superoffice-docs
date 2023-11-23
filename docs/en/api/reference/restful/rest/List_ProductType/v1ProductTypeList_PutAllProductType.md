@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Weber Inc and Sons",
-    "Tooltip": "perferendis",
-    "Deleted": false,
-    "UdListDefinitionId": 242,
-    "Rank": 508
+    "Id": 159,
+    "Name": "Ritchie-Block",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "UdListDefinitionId": 453,
+    "Rank": 30
   },
   {
-    "Id": 863,
-    "Name": "Weber Inc and Sons",
-    "Tooltip": "perferendis",
-    "Deleted": false,
-    "UdListDefinitionId": 242,
-    "Rank": 508
+    "Id": 159,
+    "Name": "Ritchie-Block",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "UdListDefinitionId": 453,
+    "Rank": 30
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Name": "Cole Inc and Sons",
-    "Tooltip": "non",
+    "Id": 507,
+    "Name": "Nolan Group",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 708,
-    "Rank": 316,
+    "UdListDefinitionId": 848,
+    "Rank": 456,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 247
+        "FieldLength": 12
       }
     }
   }

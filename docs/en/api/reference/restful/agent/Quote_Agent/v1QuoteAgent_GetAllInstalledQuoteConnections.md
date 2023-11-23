@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 544,
-    "ERPName": "Kessler Group",
-    "DisplayName": "Jones, Welch and Littel",
-    "DisplayDescription": "De-engineered regional conglomeration",
-    "Rank": 995,
-    "ConnectorName": "Koelpin, Klocko and Kris",
-    "ErpConnectionId": 235,
-    "ExtraData": "labore",
+    "QuoteConnectionId": 621,
+    "ERPName": "Gusikowski, Stracke and Botsford",
+    "DisplayName": "Larkin Group",
+    "DisplayDescription": "Robust optimizing internet solution",
+    "Rank": 908,
+    "ConnectorName": "Ratke-Ratke",
+    "ErpConnectionId": 251,
+    "ExtraData": "debitis",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 6,
-        "ERPPriceListKey": "accusamus",
-        "QuoteConnectionId": 228,
-        "Name": "Krajcik-Ernser",
-        "Description": "Implemented intangible budgetary management",
-        "Currency": "enim",
-        "CurrencyName": "Ernser-Connelly",
-        "ValidFrom": "2020-02-28T03:24:48.1426062+01:00",
-        "ValidTo": "2010-08-08T03:24:48.1426062+02:00",
+        "PriceListId": 375,
+        "ERPPriceListKey": "aliquam",
+        "QuoteConnectionId": 626,
+        "Name": "Johnson-Lynch",
+        "Description": "Cross-platform web-enabled focus group",
+        "Currency": "et",
+        "CurrencyName": "Williamson, Greenfelder and Carroll",
+        "ValidFrom": "2012-09-12T13:38:14.0303322+02:00",
+        "ValidTo": "2020-07-31T13:38:14.0303322+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 449
+            "FieldLength": 274
           }
         }
       }
     ],
-    "AllAccess": true,
-    "Deleted": true,
+    "AllAccess": false,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      679,
-      352
+      977,
+      269
     ],
     "AssociateAccessIds": [
-      264,
-      636
+      247,
+      161
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 749
       }
     }
   }

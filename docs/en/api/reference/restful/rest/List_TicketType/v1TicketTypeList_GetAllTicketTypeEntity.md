@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 412,
-    "Name": "Brakus Inc and Sons",
-    "Rank": 93,
-    "Tooltip": "quidem",
-    "Icon": "accusantium",
-    "DefaultTicketStatus": 549,
+    "TicketTypeId": 601,
+    "Name": "Konopelski-Schimmel",
+    "Rank": 394,
+    "Tooltip": "modi",
+    "Icon": "quisquam",
+    "DefaultTicketStatus": 35,
     "TicketStatuses": [
-      390,
-      262
+      628,
+      82
     ],
-    "DefaultTicketPriority": 613,
+    "DefaultTicketPriority": 711,
     "TicketPriorities": [
-      657,
-      657
+      300,
+      255
     ],
-    "ReplyTemplate": 965,
+    "ReplyTemplate": 749,
     "IsExternalVisible": true,
-    "IsDefault": true,
+    "IsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 439
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   }

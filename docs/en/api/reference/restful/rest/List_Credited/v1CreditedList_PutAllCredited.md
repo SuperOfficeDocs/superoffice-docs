@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Runte, Turner and Mills",
-    "Tooltip": "beatae",
+    "Id": 328,
+    "Name": "Mante Inc and Sons",
+    "Tooltip": "velit",
     "Deleted": false,
-    "UdListDefinitionId": 659,
-    "Rank": 597
+    "UdListDefinitionId": 17,
+    "Rank": 66
   },
   {
-    "Id": 882,
-    "Name": "Runte, Turner and Mills",
-    "Tooltip": "beatae",
+    "Id": 328,
+    "Name": "Mante Inc and Sons",
+    "Tooltip": "velit",
     "Deleted": false,
-    "UdListDefinitionId": 659,
-    "Rank": 597
+    "UdListDefinitionId": 17,
+    "Rank": 66
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Wisozk, Homenick and Rosenbaum",
-    "Tooltip": "ea",
-    "Deleted": false,
-    "UdListDefinitionId": 569,
-    "Rank": 148,
+    "Id": 510,
+    "Name": "Shields, Conroy and Veum",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 306,
+    "Rank": 759,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldLength": 27
       }
     }
   }

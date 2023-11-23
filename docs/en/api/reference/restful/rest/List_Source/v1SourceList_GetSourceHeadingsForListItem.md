@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Beier LLC",
-    "ToolTip": "Dolorem sunt amet autem quidem voluptas.",
+    "Id": 473,
+    "Name": "Kautzer Inc and Sons",
+    "ToolTip": "Autem error.",
     "Deleted": false,
-    "Rank": 905,
-    "Type": "quis",
-    "ColorBlock": 902,
-    "IconHint": "eaque",
+    "Rank": 350,
+    "Type": "illum",
+    "ColorBlock": 681,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "2004-12-10T03:24:52.4275712+01:00",
+    "LastChanged": "2013-01-01T13:38:18.2493876+01:00",
     "ChildItems": [
       {
-        "Id": 787,
-        "Name": "Hackett, Durgan and Feest",
-        "ToolTip": "Rerum voluptas aperiam corrupti ut.",
+        "Id": 113,
+        "Name": "Kuhlman-Rau",
+        "ToolTip": "Deleniti sunt.",
         "Deleted": false,
-        "Rank": 667,
-        "Type": "ipsum",
-        "ColorBlock": 774,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2019-11-29T03:24:52.4275712+01:00",
+        "Rank": 486,
+        "Type": "error",
+        "ColorBlock": 133,
+        "IconHint": "corporis",
+        "Selected": true,
+        "LastChanged": "1996-08-06T13:38:18.2493876+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Gordon Rowe",
+        "ExtraInfo": "impedit",
+        "StyleHint": "cupiditate",
+        "Hidden": true,
+        "FullName": "Ms. Rosa Elton Fadel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 384
+            "FieldType": "System.Int32",
+            "FieldLength": 311
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "nisi",
+    "ExtraInfo": "dolor",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Chanelle Anderson",
+    "FullName": "Earnest Darien Jast III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldType": "System.String",
+        "FieldLength": 69
       }
     }
   }

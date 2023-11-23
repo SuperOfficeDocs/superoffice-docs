@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 358,
-  "SaleId": 1002,
-  "QuoteConnectionId": 532,
-  "ERPQuoteKey": "omnis",
-  "ERPOrderKey": "est",
-  "ActiveQuoteVersionId": 126,
-  "AcceptedQuoteAlternativeId": 575,
-  "UseValuesFromQuote": 150,
-  "DocumentId": 619,
-  "PoNumber": "1480857",
-  "OrderComment": "tempora",
-  "PreferredEmailCulture": "sasha.roob@murphy.name",
+  "QuoteId": 408,
+  "SaleId": 457,
+  "QuoteConnectionId": 700,
+  "ERPQuoteKey": "illum",
+  "ERPOrderKey": "non",
+  "ActiveQuoteVersionId": 380,
+  "AcceptedQuoteAlternativeId": 539,
+  "UseValuesFromQuote": 731,
+  "DocumentId": 1000,
+  "PoNumber": "667992",
+  "OrderComment": "et",
+  "PreferredEmailCulture": "dock.west@nikolauskilback.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldType": "System.String",
+      "FieldLength": 986
     }
   }
 }

@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -134,13 +135,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 70,
-  "StartTime": "2003-01-10T03:24:46.9550719+01:00",
-  "EndTime": "2014-05-05T03:24:46.9550719+02:00",
-  "Count": 523,
+  "ContactId": 105,
+  "StartTime": "1997-10-01T13:38:12.8584402+02:00",
+  "EndTime": "2009-12-12T13:38:12.8584402+01:00",
+  "Count": 713,
   "TaskIds": [
-    497,
-    792
+    411,
+    574
   ]
 }
 ```
@@ -153,64 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 101,
-    "StartDate": "2005-12-29T03:24:46.9550719+01:00",
-    "EndDate": "2002-10-28T03:24:46.9550719+01:00",
+    "AppointmentId": 104,
+    "StartDate": "2009-03-16T13:38:12.8584402+01:00",
+    "EndDate": "1999-09-03T13:38:12.8584402+02:00",
     "Type": "BookingForChecklist",
-    "Task": "error",
-    "AssociateFullName": "Mrs. Amiya Feest",
-    "ContactName": "Hackett-Senger",
-    "Description": "Cloned 5th generation matrix",
-    "PersonFullName": "Timmothy Feil",
-    "PersonId": 463,
-    "ContactId": 294,
-    "ProjectId": 828,
-    "ProjectName": "Douglas Group",
-    "IsPublished": true,
-    "AssociateId": 178,
-    "ColorIndex": 266,
+    "Task": "corrupti",
+    "AssociateFullName": "Candice Gleichner",
+    "ContactName": "Lehner Group",
+    "Description": "Decentralized user-facing attitude",
+    "PersonFullName": "Albin Sanford Collier DVM",
+    "PersonId": 702,
+    "ContactId": 369,
+    "ProjectId": 1002,
+    "ProjectName": "Goodwin LLC",
+    "IsPublished": false,
+    "AssociateId": 670,
+    "ColorIndex": 833,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 803,
-    "PriorityName": "Satterfield, Erdman and Tromp",
+    "PriorityId": 206,
+    "PriorityName": "Batz Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2017-09-17T03:24:46.9550719+02:00",
+    "ActiveDate": "2012-12-22T13:38:12.8584402+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-05-20T03:24:46.9550719+02:00",
-    "RecurringEndDate": "2023-03-21T03:24:46.9550719+01:00",
-    "MotherId": 659,
-    "AssignedBy": 559,
-    "AssignedByFullName": "Mortimer Olson",
+    "RecurringStartDate": "2021-07-10T13:38:12.8584402+02:00",
+    "RecurringEndDate": "2011-12-07T13:38:12.8584402+01:00",
+    "MotherId": 916,
+    "AssignedBy": 383,
+    "AssignedByFullName": "Prof. Jennie Casper Sr.",
     "RejectReason": "",
-    "Location": "qui",
-    "AlarmLeadTime": "aut",
-    "SaleId": 441,
-    "SaleName": "Ankunding-Bosco",
-    "AssociateName": "Feil-Pouros",
-    "CreatedDate": "2001-09-30T03:24:46.9550719+02:00",
-    "CreatedBy": "reprehenderit",
-    "CreatedByFullName": "Kirk Schmeler",
-    "CreatedByAssociateId": 348,
+    "Location": "beatae",
+    "AlarmLeadTime": "unde",
+    "SaleId": 185,
+    "SaleName": "O'Reilly-Cruickshank",
+    "AssociateName": "Greenholt, Gutmann and Schiller",
+    "CreatedDate": "2019-06-30T13:38:12.8584402+02:00",
+    "CreatedBy": "sint",
+    "CreatedByFullName": "Leora Norwood Schmeler MD",
+    "CreatedByAssociateId": 263,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "veritatis",
-    "Agenda": "numquam",
-    "InternalNotes": "nihil",
+    "PreferredTZLocation": 100,
+    "Title": "et",
+    "Agenda": "tempore",
+    "InternalNotes": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 472
       }
     }
   }

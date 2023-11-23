@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 336,
-  "Name": "Torphy Group",
-  "Tooltip": "cupiditate",
-  "Deleted": false,
-  "UdListDefinitionId": 98,
-  "Rank": 957,
+  "Id": 874,
+  "Name": "Zulauf, Hirthe and Dicki",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "UdListDefinitionId": 958,
+  "Rank": 492,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldType": "System.String",
+      "FieldLength": 670
     }
   }
 }

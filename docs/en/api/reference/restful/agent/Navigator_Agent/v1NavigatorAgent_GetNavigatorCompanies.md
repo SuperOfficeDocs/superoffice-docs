@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kutch Group"
+  "Name": "Kirlin Group"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Value": "eaque",
-    "Tooltip": "ea",
+    "Id": 258,
+    "Value": "est",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldType": "System.String",
+        "FieldLength": 828
       }
     }
   },
   {
-    "Id": 659,
-    "Value": "eaque",
-    "Tooltip": "ea",
+    "Id": 258,
+    "Value": "est",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldType": "System.String",
+        "FieldLength": 828
       }
     }
   }

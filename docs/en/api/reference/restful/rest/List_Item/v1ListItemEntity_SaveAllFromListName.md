@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Name": "Koss Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 962,
-    "Rank": 488
+    "Id": 46,
+    "Name": "Herman, Abbott and Turcotte",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 732,
+    "Rank": 968
   },
   {
-    "Id": 355,
-    "Name": "Koss Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 962,
-    "Rank": 488
+    "Id": 46,
+    "Name": "Herman, Abbott and Turcotte",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 732,
+    "Rank": 968
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Keebler Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 769,
-    "Rank": 109,
+    "Id": 620,
+    "Name": "Greenholt, Powlowski and Lebsack",
+    "Tooltip": "ullam",
+    "Deleted": true,
+    "UdListDefinitionId": 415,
+    "Rank": 350,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 205
+        "FieldType": "System.Int32",
+        "FieldLength": 649
       }
     }
   }

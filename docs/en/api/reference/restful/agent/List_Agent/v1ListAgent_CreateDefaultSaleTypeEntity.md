@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 759,
-  "Name": "Ebert Inc and Sons",
-  "Tooltip": "expedita",
-  "Rank": 329,
+  "SaleTypeId": 706,
+  "Name": "Beahan-Jewess",
+  "Tooltip": "ea",
+  "Rank": 832,
   "DurationUnit": "Century",
-  "SaleDuration": 478,
-  "SaleTypeCatId": 137,
-  "Deleted": false,
+  "SaleDuration": 755,
+  "SaleTypeCatId": 29,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 211,
-  "QuoteLinesTemplate": 58,
-  "ConfirmationLinesTemplate": 902,
+  "DefaultQuoteValidity": 830,
+  "QuoteLinesTemplate": 928,
+  "ConfirmationLinesTemplate": 265,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 776,
-  "MinEarningPercent": 522,
-  "GroupQuoteLinesBy": 320,
-  "SortGroupLinesBy": 993,
+  "MaxDiscountPercent": 216,
+  "MinEarningPercent": 872,
+  "GroupQuoteLinesBy": 678,
+  "SortGroupLinesBy": 784,
   "Stages": [
     {
-      "Id": 303,
-      "Name": "Hane-Dach",
-      "ToolTip": "Perspiciatis tempora architecto et recusandae.",
+      "Id": 362,
+      "Name": "Deckow LLC",
+      "ToolTip": "Ut quod sunt aliquam.",
       "Deleted": false,
-      "Rank": 926,
-      "Type": "omnis",
-      "ColorBlock": 749,
-      "IconHint": "quod",
+      "Rank": 265,
+      "Type": "aspernatur",
+      "ColorBlock": 177,
+      "IconHint": "porro",
       "Selected": false,
-      "LastChanged": "2013-05-02T03:24:47.908255+02:00",
+      "LastChanged": "2019-09-06T13:38:13.7177215+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "enim",
-      "StyleHint": "quia",
-      "Hidden": false,
-      "FullName": "Conrad Johns",
+      "ExtraInfo": "deserunt",
+      "StyleHint": "quasi",
+      "Hidden": true,
+      "FullName": "Jermaine Armando Weissnat Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldType": "System.String",
+          "FieldLength": 326
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldType": "System.String",
+      "FieldLength": 312
     }
   }
 }

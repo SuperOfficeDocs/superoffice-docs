@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 515,
-  "UserInput": "maiores",
-  "PriceListKey": "sit"
+  "QuoteAlternativeId": 197,
+  "UserInput": "id",
+  "PriceListKey": "voluptatem"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 131,
-    "ERPProductKey": "incidunt",
-    "ERPPriceListKey": "omnis",
-    "Name": "Crona, Breitenberg and Stoltenberg",
-    "Description": "Multi-lateral neutral projection",
-    "Code": "quae",
-    "PriceUnit": "nobis",
-    "QuantityUnit": "illo",
-    "IsSubscription": false,
-    "SubscriptionUnit": "officiis",
-    "DefaultSubscriptionQuantity": 12213.198,
-    "ItemNumber": "621730",
+    "ProductId": 640,
+    "ERPProductKey": "et",
+    "ERPPriceListKey": "sed",
+    "Name": "McClure-Konopelski",
+    "Description": "Distributed modular instruction set",
+    "Code": "odit",
+    "PriceUnit": "placeat",
+    "QuantityUnit": "iste",
+    "IsSubscription": true,
+    "SubscriptionUnit": "rerum",
+    "DefaultSubscriptionQuantity": 14955.448,
+    "ItemNumber": "1204176",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "qui",
-    "ProductTypeKey": "quaerat",
-    "VAT": 10367.271999999999,
+    "ProductFamilyKey": "nihil",
+    "ProductTypeKey": "est",
+    "VAT": 28187.196,
     "VATInfo": "est",
-    "UnitCost": 23501.865999999998,
-    "UnitMinimumPrice": 22978.487999999998,
-    "UnitListPrice": 5161.6979999999994,
+    "UnitCost": 29823.144,
+    "UnitMinimumPrice": 8618.5,
+    "UnitListPrice": 2936.558,
     "InAssortment": false,
-    "Supplier": "maxime",
-    "SupplierCode": "est",
-    "Rights": "ut",
-    "Rule": "autem",
+    "Supplier": "et",
+    "SupplierCode": "alias",
+    "Rights": "non",
+    "Rule": "dolorem",
     "ExtraInfo": [
       {
-        "Name": "O'Conner Inc and Sons",
-        "Value": "tempora",
+        "Name": "Ruecker, Okuneva and Schneider",
+        "Value": "omnis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldType": "System.String",
+            "FieldLength": 747
           }
         }
       },
       {
-        "Name": "O'Conner Inc and Sons",
-        "Value": "tempora",
+        "Name": "Ruecker, Okuneva and Schneider",
+        "Value": "omnis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldType": "System.String",
+            "FieldLength": 747
           }
         }
       }
     ],
-    "RawExtraInfo": "facilis",
-    "ExtraField1": "quod",
-    "ExtraField2": "impedit",
-    "ExtraField3": "nostrum",
-    "ExtraField4": "ad",
-    "ExtraField5": "quam",
-    "InStock": 1886.668,
+    "RawExtraInfo": "nihil",
+    "ExtraField1": "suscipit",
+    "ExtraField2": "fuga",
+    "ExtraField3": "nemo",
+    "ExtraField4": "officiis",
+    "ExtraField5": "nihil",
+    "InStock": 5775.9619999999995,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 664
+        "FieldType": "System.Int32",
+        "FieldLength": 593
       }
     }
   }

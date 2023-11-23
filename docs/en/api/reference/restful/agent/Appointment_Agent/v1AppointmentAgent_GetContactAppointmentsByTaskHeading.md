@@ -118,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
+| PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
 | Agenda | string | The agenda of the appointment. |
 | InternalNotes | string | Internal notes for the appointment. |
@@ -130,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 145,
-  "StartTime": "2023-05-20T03:24:46.9550719+02:00",
-  "EndTime": "2021-09-15T03:24:46.9550719+02:00",
-  "Count": 569,
-  "TaskHeadingId": 408
+  "ContactId": 572,
+  "StartTime": "2008-11-29T13:38:12.8584402+01:00",
+  "EndTime": "2013-12-31T13:38:12.8584402+01:00",
+  "Count": 526,
+  "TaskHeadingId": 352
 }
 ```
 
@@ -150,64 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 511,
-    "StartDate": "1998-12-04T03:24:46.9550719+01:00",
-    "EndDate": "2014-09-18T03:24:46.9550719+02:00",
+    "AppointmentId": 164,
+    "StartDate": "2008-11-23T13:38:12.8584402+01:00",
+    "EndDate": "2018-03-05T13:38:12.8584402+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsum",
-    "AssociateFullName": "Coy Buckridge",
-    "ContactName": "Spinka-Reynolds",
-    "Description": "Profound methodical frame",
-    "PersonFullName": "Stella McKenzie",
-    "PersonId": 507,
-    "ContactId": 354,
-    "ProjectId": 627,
-    "ProjectName": "Barrows Group",
+    "Task": "eaque",
+    "AssociateFullName": "Kellie Stella Smith DVM",
+    "ContactName": "Mraz Group",
+    "Description": "Function-based next generation encoding",
+    "PersonFullName": "Augustus Miller",
+    "PersonId": 555,
+    "ContactId": 64,
+    "ProjectId": 988,
+    "ProjectName": "D'Amore LLC",
     "IsPublished": true,
-    "AssociateId": 255,
-    "ColorIndex": 142,
+    "AssociateId": 85,
+    "ColorIndex": 279,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 51,
-    "PriorityName": "Bahringer-Weber",
+    "PriorityId": 980,
+    "PriorityName": "Schimmel-Feest",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2012-09-07T03:24:46.9550719+02:00",
+    "ActiveDate": "2006-04-30T13:38:12.8584402+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-11-09T03:24:46.9550719+01:00",
-    "RecurringEndDate": "2018-05-10T03:24:46.9550719+02:00",
-    "MotherId": 573,
-    "AssignedBy": 354,
-    "AssignedByFullName": "Hortense Gutkowski",
+    "RecurringStartDate": "2002-10-16T13:38:12.8584402+02:00",
+    "RecurringEndDate": "2018-08-09T13:38:12.8584402+02:00",
+    "MotherId": 303,
+    "AssignedBy": 235,
+    "AssignedByFullName": "Isaias Reinger DVM",
     "RejectReason": "",
-    "Location": "explicabo",
-    "AlarmLeadTime": "ut",
-    "SaleId": 87,
-    "SaleName": "Cole Inc and Sons",
-    "AssociateName": "Orn-Stroman",
-    "CreatedDate": "2005-10-07T03:24:46.9550719+02:00",
-    "CreatedBy": "similique",
-    "CreatedByFullName": "Hailey Johann Lueilwitz MD",
-    "CreatedByAssociateId": 829,
+    "Location": "est",
+    "AlarmLeadTime": "voluptas",
+    "SaleId": 473,
+    "SaleName": "Lynch Inc and Sons",
+    "AssociateName": "Bashirian Inc and Sons",
+    "CreatedDate": "1996-08-10T13:38:12.8584402+02:00",
+    "CreatedBy": "ea",
+    "CreatedByFullName": "Tom Dach",
+    "CreatedByAssociateId": 476,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "id",
-    "Agenda": "et",
-    "InternalNotes": "alias",
+    "PreferredTZLocation": 324,
+    "Title": "corrupti",
+    "Agenda": "molestiae",
+    "InternalNotes": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldType": "System.String",
+        "FieldLength": 707
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 873,
-  "Name": "Shields Group",
-  "Tooltip": "sapiente",
+  "Id": 166,
+  "Name": "Collins-Muller",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 629,
-  "Rank": 215,
+  "UdListDefinitionId": 151,
+  "Rank": 236,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 118
     }
   }
 }

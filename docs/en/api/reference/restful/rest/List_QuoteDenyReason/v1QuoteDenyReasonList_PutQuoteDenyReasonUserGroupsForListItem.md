@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Bogan, Ullrich and Barton",
-    "ToolTip": "Ea nisi omnis dignissimos aut qui delectus blanditiis.",
+    "Id": 346,
+    "Name": "Jones-Larkin",
+    "ToolTip": "Voluptas nesciunt voluptas similique rerum laudantium debitis optio.",
     "Deleted": false,
-    "Rank": 418,
-    "Type": "culpa",
-    "ColorBlock": 25,
-    "IconHint": "officiis",
-    "Selected": true,
-    "LastChanged": "2015-01-07T03:24:52.3650758+01:00",
+    "Rank": 716,
+    "Type": "soluta",
+    "ColorBlock": 111,
+    "IconHint": "quos",
+    "Selected": false,
+    "LastChanged": "1998-05-14T13:38:18.186902+02:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Lubowitz-Schoen",
-        "ToolTip": "Reprehenderit sint nulla mollitia.",
-        "Deleted": true,
-        "Rank": 317,
-        "Type": "hic",
-        "ColorBlock": 525,
-        "IconHint": "dolorem",
-        "Selected": true,
-        "LastChanged": "2017-08-22T03:24:52.3650758+02:00",
+        "Id": 745,
+        "Name": "Cruickshank LLC",
+        "ToolTip": "Inventore commodi aliquid.",
+        "Deleted": false,
+        "Rank": 930,
+        "Type": "consectetur",
+        "ColorBlock": 617,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2016-06-28T13:38:18.186902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "expedita",
+        "ExtraInfo": "rerum",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Fermin Wuckert"
+        "FullName": "Javonte Hudson"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Abagail Murray"
+    "ExtraInfo": "modi",
+    "StyleHint": "veritatis",
+    "Hidden": false,
+    "FullName": "Steve Loren Price DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Wolf, Lind and Kautzer",
-    "ToolTip": "Voluptatem tempora et.",
-    "Deleted": true,
-    "Rank": 68,
-    "Type": "fuga",
-    "ColorBlock": 996,
-    "IconHint": "voluptates",
-    "Selected": false,
-    "LastChanged": "2000-07-07T03:24:52.3650758+02:00",
+    "Id": 598,
+    "Name": "Cronin-Ruecker",
+    "ToolTip": "Vel inventore.",
+    "Deleted": false,
+    "Rank": 829,
+    "Type": "dolores",
+    "ColorBlock": 126,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2013-09-11T13:38:18.186902+02:00",
     "ChildItems": [
       {
-        "Id": 868,
-        "Name": "Treutel Inc and Sons",
-        "ToolTip": "Est ratione modi illum voluptatem sed vero.",
+        "Id": 397,
+        "Name": "Howe, Carter and Lakin",
+        "ToolTip": "Rerum neque.",
         "Deleted": false,
-        "Rank": 510,
-        "Type": "tempore",
-        "ColorBlock": 242,
-        "IconHint": "nesciunt",
+        "Rank": 706,
+        "Type": "ratione",
+        "ColorBlock": 43,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2021-08-21T03:24:52.3650758+02:00",
+        "LastChanged": "2000-01-31T13:38:18.186902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "quia",
+        "ExtraInfo": "ut",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Christ Nicolas",
+        "FullName": "Ceasar Koelpin V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldLength": 394
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "a",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Dr. Green Braden Veum DDS",
+    "FullName": "Brian Neva Quitzon DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 890
+        "FieldType": "System.Int32",
+        "FieldLength": 153
       }
     }
   }

@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    772,
-    268
+    214,
+    143
   ],
   "MoveToFolder": "et"
 }

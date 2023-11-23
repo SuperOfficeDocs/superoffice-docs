@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 59,
-  "Name": "Murray, Dare and Frami",
-  "Tooltip": "assumenda",
-  "Deleted": false,
-  "Rank": 790,
-  "Filename": "ipsa",
-  "Parameters": "pariatur",
-  "Workdir": "repellat",
+  "ExtAppId": 419,
+  "Name": "Ruecker, Flatley and Conroy",
+  "Tooltip": "optio",
+  "Deleted": true,
+  "Rank": 435,
+  "Filename": "esse",
+  "Parameters": "eligendi",
+  "Workdir": "vel",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 562,
+  "ShowInStatusBar": false,
+  "Icon": 41,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "debitis"
+  "Path": "sit"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 79,
-  "Name": "Shields LLC",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 463,
-  "Filename": "ut",
-  "Parameters": "accusantium",
-  "Workdir": "rem",
+  "ExtAppId": 935,
+  "Name": "O'Hara, Abernathy and Fisher",
+  "Tooltip": "illum",
+  "Deleted": true,
+  "Rank": 218,
+  "Filename": "fugiat",
+  "Parameters": "deserunt",
+  "Workdir": "quos",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 405,
-  "WaitToFinish": true,
+  "ShowInStatusBar": true,
+  "Icon": 262,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "explicabo",
+  "Path": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 781
     }
   }
 }

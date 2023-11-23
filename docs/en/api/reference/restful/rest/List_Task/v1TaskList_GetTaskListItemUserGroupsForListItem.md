@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Cummings-Mertz",
-    "ToolTip": "Labore rem totam sapiente eos doloribus ad.",
+    "Id": 705,
+    "Name": "Pagac-Schiller",
+    "ToolTip": "Est magnam dolorem molestiae nemo similique numquam.",
     "Deleted": false,
-    "Rank": 516,
-    "Type": "ullam",
-    "ColorBlock": 371,
-    "IconHint": "aperiam",
+    "Rank": 63,
+    "Type": "quasi",
+    "ColorBlock": 762,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "1997-06-06T03:24:52.4431914+02:00",
+    "LastChanged": "2020-08-20T13:38:18.2493876+02:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Lebsack Group",
-        "ToolTip": "Eaque qui est vel reprehenderit repellendus excepturi.",
-        "Deleted": false,
-        "Rank": 518,
-        "Type": "sed",
-        "ColorBlock": 244,
-        "IconHint": "possimus",
-        "Selected": false,
-        "LastChanged": "2005-09-17T03:24:52.4431914+02:00",
+        "Id": 983,
+        "Name": "Davis Inc and Sons",
+        "ToolTip": "Asperiores quis.",
+        "Deleted": true,
+        "Rank": 249,
+        "Type": "sit",
+        "ColorBlock": 202,
+        "IconHint": "cupiditate",
+        "Selected": true,
+        "LastChanged": "2002-04-10T13:38:18.2493876+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "tempora",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Dr. Antwon Quinn Heidenreich",
+        "FullName": "Keshaun Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 815
+            "FieldType": "System.Int32",
+            "FieldLength": 88
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "hic",
+    "ExtraInfo": "quidem",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Anjali Jacobs",
+    "FullName": "Jessika Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldType": "System.String",
+        "FieldLength": 917
       }
     }
   }

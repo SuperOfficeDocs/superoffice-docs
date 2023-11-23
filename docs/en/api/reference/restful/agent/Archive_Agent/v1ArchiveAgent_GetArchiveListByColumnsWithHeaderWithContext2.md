@@ -167,19 +167,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Abernathy-Farrell",
-  "Columns": "inventore",
-  "SortOrder": "accusamus",
-  "Restriction": "pariatur",
-  "Entities": "fugiat",
-  "Page": 617,
-  "PageSize": 213,
-  "Options": "sint",
-  "Context": "et"
+  "ProviderName": "Smitham Inc and Sons",
+  "Columns": "molestiae",
+  "SortOrder": "molestiae",
+  "Restriction": "excepturi",
+  "Entities": "nihil",
+  "Page": 963,
+  "PageSize": 552,
+  "Options": "unde",
+  "Context": "ex"
 }
 ```
 
@@ -190,26 +190,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 237,
+  "RowCount": 29,
   "Rows": [
     {
-      "EntityName": "Ruecker-Bins",
-      "PrimaryKey": 321,
+      "EntityName": "Mann Group",
+      "PrimaryKey": 131,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "optio",
-          "TooltipHint": "quibusdam",
-          "LinkHint": "quo"
+          "DisplayValue": "beatae",
+          "TooltipHint": "quidem",
+          "LinkHint": "deleniti"
         }
       },
-      "LinkHint": "neque",
-      "StyleHint": "reiciendis",
+      "LinkHint": "voluptatibus",
+      "StyleHint": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldLength": 700
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 740
+      "FieldType": "System.Int32",
+      "FieldLength": 850
     }
   }
 }

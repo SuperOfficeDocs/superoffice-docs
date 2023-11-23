@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 51,
+  "HierarchyId": 920,
   "Domain": "Dashboards",
-  "Name": "Terry-Kozey",
-  "Fullname": "deserunt",
-  "ParentId": 961,
+  "Name": "Kulas-Koepp",
+  "Fullname": "velit",
+  "ParentId": 329,
   "Children": [
     {
-      "HierarchyId": 807,
+      "HierarchyId": 85,
       "Domain": "Dashboards",
-      "Name": "D'Amore LLC",
-      "Fullname": "consequatur",
-      "ParentId": 429,
+      "Name": "Schaden LLC",
+      "Fullname": "quam",
+      "ParentId": 286,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-07-18T03:24:47.908255+02:00",
-      "RegisteredAssociateId": 504,
-      "Updated": "2019-03-07T03:24:47.908255+01:00",
-      "UpdatedAssociateId": 621,
+      "Registered": "2010-11-30T13:38:13.7177215+01:00",
+      "RegisteredAssociateId": 86,
+      "Updated": "2015-09-15T13:38:13.7177215+02:00",
+      "UpdatedAssociateId": 731,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldLength": 924
         }
       }
     }
   ],
-  "Registered": "2018-08-07T03:24:47.908255+02:00",
-  "RegisteredAssociateId": 99,
-  "Updated": "2001-06-03T03:24:47.908255+02:00",
-  "UpdatedAssociateId": 658,
+  "Registered": "2004-02-18T13:38:13.7177215+01:00",
+  "RegisteredAssociateId": 158,
+  "Updated": "2007-07-25T13:38:13.7177215+02:00",
+  "UpdatedAssociateId": 701,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldLength": 788
     }
   }
 }

@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 437,
-    "Name": "Wunsch LLC",
-    "ToolTip": "Dolores eaque asperiores laboriosam officiis est.",
-    "Deleted": false,
-    "Rank": 425,
-    "Type": "aliquam",
-    "ColorBlock": 740,
-    "IconHint": "aspernatur",
-    "Selected": false,
-    "LastChanged": "1999-12-11T03:24:52.1463474+01:00",
+    "Id": 363,
+    "Name": "Reynolds-Fay",
+    "ToolTip": "Quo inventore accusamus aut cupiditate magnam et.",
+    "Deleted": true,
+    "Rank": 191,
+    "Type": "quod",
+    "ColorBlock": 990,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2011-12-02T13:38:17.8900531+01:00",
     "ChildItems": [
       {
-        "Id": 857,
-        "Name": "Hackett-Von",
-        "ToolTip": "Error pariatur.",
-        "Deleted": true,
-        "Rank": 507,
-        "Type": "amet",
-        "ColorBlock": 587,
-        "IconHint": "et",
+        "Id": 18,
+        "Name": "Bosco-Sauer",
+        "ToolTip": "Facere assumenda.",
+        "Deleted": false,
+        "Rank": 899,
+        "Type": "veritatis",
+        "ColorBlock": 970,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2021-09-03T03:24:52.1463474+02:00",
+        "LastChanged": "2016-02-22T13:38:17.8900531+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "tempore",
+        "ExtraInfo": "in",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Dr. Vida Magdalena Lubowitz III",
+        "FullName": "Miss Oren Laverne Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 620
+            "FieldType": "System.String",
+            "FieldLength": 903
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "ex",
-    "Hidden": false,
-    "FullName": "Sigrid Hyatt",
+    "ExtraInfo": "saepe",
+    "StyleHint": "illum",
+    "Hidden": true,
+    "FullName": "Leonor Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 986
       }
     }
   }

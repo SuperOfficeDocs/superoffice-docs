@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 163,
-    "Name": "Bode LLC",
-    "Tooltip": "ipsa",
-    "Rank": 373,
-    "Rate": 6073.692,
-    "Units": 29008.304,
+    "CurrencyId": 389,
+    "Name": "Koss, Ortiz and Kutch",
+    "Tooltip": "quasi",
+    "Rank": 951,
+    "Rate": 8909.962,
+    "Units": 28274.948,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 392
+        "FieldLength": 216
       }
     }
   }

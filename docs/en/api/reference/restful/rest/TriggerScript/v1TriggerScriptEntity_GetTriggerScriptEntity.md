@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 800,
-  "Name": "Lesch-Rau",
+  "ScreenChooserId": 432,
+  "Name": "Dibbert, Shields and Brown",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "distinctio",
-  "Source": "voluptate",
-  "Registered": "2015-10-17T03:24:52.0213616+02:00",
-  "RegisteredAssociateId": 125,
-  "Updated": "2007-07-29T03:24:52.0213616+02:00",
-  "UpdatedAssociateId": 683,
+  "Enabled": true,
+  "UniqueIdentifier": "et",
+  "Source": "aspernatur",
+  "Registered": "2002-07-06T13:38:17.7650302+02:00",
+  "RegisteredAssociateId": 61,
+  "Updated": "2000-02-02T13:38:17.7650302+01:00",
+  "UpdatedAssociateId": 255,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 249
     }
   },
   "_Links": {

@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hand, Purdy and Hayes",
+  "LayoutName": "Bartoletti Group",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 501,
-  "ColumnId": 574,
-  "FieldDefault": "alias",
-  "FieldHeight": 660,
-  "FieldLabel": "ut",
-  "FieldLeft": 489,
-  "FieldTop": 342,
+  "UDefFieldId": 151,
+  "ColumnId": 186,
+  "FieldDefault": "quia",
+  "FieldHeight": 159,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 572,
+  "FieldTop": 803,
   "FieldType": "Checkbox",
-  "FieldWidth": 23,
-  "FormatMask": "facilis",
+  "FieldWidth": 219,
+  "FormatMask": "omnis",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 137,
-  "LabelLeft": 396,
-  "LabelTop": 494,
-  "LabelWidth": 423,
-  "LastVersionId": 834,
-  "ListTableId": 963,
+  "LabelHeight": 228,
+  "LabelLeft": 840,
+  "LabelTop": 134,
+  "LabelWidth": 766,
+  "LastVersionId": 411,
+  "ListTableId": 255,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 132,
-  "ProgId": "accusantium",
-  "IsReadOnly": false,
-  "ShortLabel": "quis",
-  "TabOrder": 79,
-  "TextLength": 405,
-  "Tooltip": "sed",
-  "UdefIdentity": 281,
-  "UDListDefinitionId": 810,
+  "Page1LineNo": 719,
+  "ProgId": "aut",
+  "IsReadOnly": true,
+  "ShortLabel": "neque",
+  "TabOrder": 18,
+  "TextLength": 662,
+  "Tooltip": "dolor",
+  "UdefIdentity": 811,
+  "UDListDefinitionId": 295,
   "Justification": "Center",
-  "Version": 701,
-  "TemplateVariableName": "Pollich, Will and Kerluke",
-  "HasBeenPublished": false,
-  "MdoListName": "Herzog Inc and Sons",
+  "Version": 308,
+  "TemplateVariableName": "Runolfsdottir Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Lueilwitz, Rosenbaum and Murazik",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldLength": 437
     }
   }
 }

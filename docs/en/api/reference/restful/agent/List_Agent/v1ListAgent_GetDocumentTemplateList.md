@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 929,
-    "Name": "Kertzmann, Ratke and Durgan",
-    "Tooltip": "at",
-    "SaveInDb": 645,
-    "Filename": "nihil",
-    "DefaultOref": "quibusdam",
+    "DocumentTemplateId": 307,
+    "Name": "Johnston-Kuphal",
+    "Tooltip": "quidem",
+    "SaveInDb": 250,
+    "Filename": "quod",
+    "DefaultOref": "aut",
     "RecordType": "Appointment",
-    "Deleted": 781,
+    "Deleted": 111,
     "Direction": "Incoming",
-    "AutoeventId": 658,
+    "AutoeventId": 770,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldType": "System.Int32",
+        "FieldLength": 308
       }
     }
   }

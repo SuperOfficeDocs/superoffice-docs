@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Lemke, Lockman and Shanahan",
-    "ToolTip": "Possimus qui et est.",
+    "Id": 446,
+    "Name": "Boyer Inc and Sons",
+    "ToolTip": "Quibusdam corrupti dolor.",
     "Deleted": false,
-    "Rank": 4,
-    "Type": "nihil",
-    "ColorBlock": 330,
-    "IconHint": "excepturi",
+    "Rank": 872,
+    "Type": "veniam",
+    "ColorBlock": 944,
+    "IconHint": "ipsa",
     "Selected": true,
-    "LastChanged": "1998-09-01T03:24:52.3806958+02:00",
+    "LastChanged": "1997-01-29T13:38:18.186902+01:00",
     "ChildItems": [
       {
-        "Id": 890,
-        "Name": "Raynor-Pagac",
-        "ToolTip": "Distinctio maiores occaecati eos quasi repellendus nesciunt.",
+        "Id": 424,
+        "Name": "Schneider Inc and Sons",
+        "ToolTip": "Asperiores iste sint alias autem quo dolorem est.",
         "Deleted": false,
-        "Rank": 799,
-        "Type": "consequatur",
-        "ColorBlock": 233,
-        "IconHint": "illum",
+        "Rank": 113,
+        "Type": "et",
+        "ColorBlock": 691,
+        "IconHint": "quas",
         "Selected": true,
-        "LastChanged": "2001-02-06T03:24:52.3806958+01:00",
+        "LastChanged": "2000-08-06T13:38:18.186902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "veniam",
+        "ExtraInfo": "error",
+        "StyleHint": "recusandae",
         "Hidden": true,
-        "FullName": "Brice Cassin",
+        "FullName": "Parker Collins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 646
+            "FieldLength": 845
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Rudy Schuppe",
+    "ExtraInfo": "in",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Mrs. Rahsaan Carlotta Runolfsson I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldType": "System.String",
+        "FieldLength": 573
       }
     }
   }

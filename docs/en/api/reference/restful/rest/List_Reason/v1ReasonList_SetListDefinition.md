@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Williamson Inc and Sons",
-  "Tooltip": "reiciendis",
+  "Id": 654,
+  "Name": "Green Group",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 596,
+  "Rank": 68,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "maiores",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 113,
-  "Name": "O'Keefe Inc and Sons",
-  "Tooltip": "reiciendis",
+  "Id": 412,
+  "Name": "Macejkovic-Pacocha",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 993,
+  "Rank": 425,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
+  "ListType": "laborum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 346
     }
   }
 }

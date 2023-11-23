@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "sint",
-    "PersonId": 4,
-    "AssociateId": 92,
-    "ExtraId": 193,
-    "ExtraInfo": "culpa",
-    "Height": 71,
-    "LeftX": 461,
+    "OwnerWindow": "laudantium",
+    "PersonId": 320,
+    "AssociateId": 469,
+    "ExtraId": 710,
+    "ExtraInfo": "quia",
+    "Height": 459,
+    "LeftX": 30,
     "State": "Maximized",
-    "UpperY": 704,
-    "Width": 454,
-    "WindowPosSizeId": 160,
+    "UpperY": 45,
+    "Width": 734,
+    "WindowPosSizeId": 96,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 625
+        "FieldType": "System.Int32",
+        "FieldLength": 617
       }
     }
   }

@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 398,
-  "StartTime": "2000-10-21T03:24:47.5020527+02:00",
-  "EndTime": "2009-06-07T03:24:47.5020527+02:00",
-  "Count": 490
+  "ContactId": 764,
+  "StartTime": "2015-02-08T13:38:13.4208858+01:00",
+  "EndTime": "2019-09-20T13:38:13.4208858+02:00",
+  "Count": 972
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 739,
+    "DocumentId": 621,
     "Attention": "et",
-    "Header": "voluptatem",
-    "Name": "Yundt Group",
-    "OurRef": "omnis",
-    "YourRef": "illum",
-    "Description": "Extended static encryption",
-    "DocumentTemplate": "asperiores",
-    "IsPublished": true,
-    "PersonId": 569,
-    "PersonFullName": "Braden Gerlach",
-    "AssociateFullName": "Melissa Hickle",
-    "ContactId": 394,
-    "ContactName": "Goyette LLC",
-    "ProjectId": 806,
-    "ProjectName": "Stiedemann Group",
-    "AssociateId": 221,
-    "Snum": 138,
-    "SaleId": 234,
-    "SaleName": "Graham, Konopelski and Krajcik",
+    "Header": "provident",
+    "Name": "Adams-Smitham",
+    "OurRef": "ullam",
+    "YourRef": "voluptas",
+    "Description": "Triple-buffered human-resource flexibility",
+    "DocumentTemplate": "non",
+    "IsPublished": false,
+    "PersonId": 430,
+    "PersonFullName": "Billy Kiarra Littel II",
+    "AssociateFullName": "Houston Parisian",
+    "ContactId": 84,
+    "ContactName": "Nitzsche-Marks",
+    "ProjectId": 488,
+    "ProjectName": "Schiller Inc and Sons",
+    "AssociateId": 885,
+    "Snum": 525,
+    "SaleId": 233,
+    "SaleName": "Kassulke-Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldLength": 917
       }
     }
   }

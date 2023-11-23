@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Audience/DeleteConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Jakubowski, Rau and Effertz",
-  "ParameterName": "Christiansen-Cremin"
+  "LayoutName": "Batz, Koelpin and Champlin",
+  "ParameterName": "Cummings, Reinger and McCullough"
 }
 ```
 

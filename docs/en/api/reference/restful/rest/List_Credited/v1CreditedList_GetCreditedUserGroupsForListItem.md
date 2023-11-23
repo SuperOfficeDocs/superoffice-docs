@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Toy, Gusikowski and Stark",
-    "ToolTip": "Odio minima ex blanditiis voluptatem esse tempore.",
+    "Id": 935,
+    "Name": "Volkman LLC",
+    "ToolTip": "Nemo deserunt eius deleniti magni tenetur accusantium.",
     "Deleted": true,
-    "Rank": 448,
-    "Type": "eum",
-    "ColorBlock": 597,
-    "IconHint": "similique",
-    "Selected": false,
-    "LastChanged": "2011-01-12T03:24:52.2244666+01:00",
+    "Rank": 322,
+    "Type": "aut",
+    "ColorBlock": 643,
+    "IconHint": "adipisci",
+    "Selected": true,
+    "LastChanged": "1999-01-07T13:38:18.0306692+01:00",
     "ChildItems": [
       {
-        "Id": 364,
-        "Name": "Auer-Boyer",
-        "ToolTip": "Nisi et eaque.",
+        "Id": 87,
+        "Name": "Krajcik Inc and Sons",
+        "ToolTip": "Odio similique non.",
         "Deleted": false,
-        "Rank": 811,
-        "Type": "ipsam",
-        "ColorBlock": 681,
-        "IconHint": "excepturi",
+        "Rank": 527,
+        "Type": "qui",
+        "ColorBlock": 642,
+        "IconHint": "minima",
         "Selected": true,
-        "LastChanged": "2002-08-30T03:24:52.2244666+02:00",
+        "LastChanged": "2019-11-03T13:38:18.0306692+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Carlos Schumm",
+        "FullName": "Mrs. Muhammad Freda Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 946
+            "FieldLength": 487
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "atque",
-    "Hidden": true,
-    "FullName": "Thalia Herman II",
+    "ExtraInfo": "vero",
+    "StyleHint": "tenetur",
+    "Hidden": false,
+    "FullName": "Frida Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 782
       }
     }
   }
