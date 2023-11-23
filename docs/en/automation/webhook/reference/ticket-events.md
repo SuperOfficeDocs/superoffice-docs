@@ -3,7 +3,7 @@ title: Ticket webhook events
 uid: webhook_ticket_event
 description: Ticket events
 author:
-so.date: 22.11.2023
+so.date: 11.22.2023
 so.version: 10.2.11
 keywords: automation
 so.topic: reference
@@ -19,7 +19,7 @@ These webhook events are fired when requests are created or changed:
 * `ticket.changed`
 
 > [!NOTE]
-From version 10.2.11 Ticket events list changed fields.
+> From version 10.2.11 ticket events list changed fields.
 
 ## Ticket.Created
 
