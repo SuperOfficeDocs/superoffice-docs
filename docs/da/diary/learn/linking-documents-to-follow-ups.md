@@ -1,5 +1,5 @@
 ---
-uid: help-da-linking-documents-to-follow-ups
+uid: help-da-activity-add-link
 title: Sammenkædning af dokumenter med opfølgninger
 description: Sammenkædning af dokumenter med opfølgninger
 author: SuperOffice RnD
@@ -15,22 +15,35 @@ Når du er inde i dialogboksen for opfølgninger eller dialogboksen **Dokument**
 
 ## Tilføjelse af aktiviteter og salg
 
-1. Åbn dialogboksen **Aftale**, **Opgave**, **Samtale** eller **Dokument**, og angiv de ønskede oplysninger. Se [dialogboksen for opfølgninger][2] eller [Dialogboksen Salg][1].
-2. Åbn fanen **Links**, og klik på **Tilføj link** nederst på fanen.
-3. Vælg en af de tilgængelige indstillinger.
-4. Vælg en post på listen, eller begynd at skrive navnet på en post, der skal søges i. Hvis du har valgt indstillingen **URL**, skal du angive linket manuelt.
-5. Klik på **OK**. Du kommer så tilbage til fanen **Links** i dialogboksen, du valgte på trin 1, med den valgte port vist på listen over links.
+1. [Åbn eller opret en opfølgning][2] eller [dokument][1].
+1. Åbn fanen **Links**, og klik på **Tilføj link** nederst på fanen.
+1. Vælg en af de tilgængelige indstillinger.
+1. Vælg en post på listen, eller begynd at skrive navnet på en post, der skal søges i. Hvis du har valgt indstillingen **URL**, skal du angive linket manuelt.
+1. Klik på **OK**. Du kommer så tilbage til fanen **Links** i dialogboksen, du valgte på trin 1, med den valgte port vist på listen over links.
 
 ## Åbn tilknyttede aktiviteter
 
-Hvis du vil se nærmere på et tilknyttet dokument, en tilknyttet opfølgning eller et tilknyttet salg, skal du markere den aktuelle række og klikke på **Åbn**. Du kan også dobbeltklikke på den.
+For at se detaljer for et linket dokument, opfølgning, salg eller projekt, dobbeltklik på det.
 
 ## Fjern tilknyttede aktiviteter
 
-Hvis du vil fjerne tilknytningen til et dokument, en opfølgning eller et salg, skal du markere den aktuelle række og klikke på **Slet**.
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/remove-link-old)
+
+For at fjerne linket til et dokument, opfølgning, salg eller projekt, vælg den pågældende række og klik på **Slet**.
+
+### [Ny (fra version 10.2.11 pilot)](#tab/remove-link-new)
+
+For at fjerne en link, klik på det røde X på den række.
+
+![Fanen for links i en opfølgning - skærmbillede][img1]
+
+***
+<!-- markdownlint-restore -->
 
 <!-- Referenced links -->
-[1]: ../../document/learn/screen/index.md
-[2]: screen/dialog-for-followups.md
+[1]: ../../document/learn/create.md
+[2]: create-follow-up.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/diary/links.png

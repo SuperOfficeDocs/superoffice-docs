@@ -1,5 +1,5 @@
 ---
-uid: help-no-linking-documents-to-follow-ups
+uid: help-no-activity-add-link
 title: Knytte dokumenter til oppfølginger
 description: Knytte dokumenter til oppfølginger
 author: SuperOffice RnD
@@ -15,22 +15,35 @@ Når du er inne i dialogboksen for oppfølginger eller dialogboksen **Dokument**
 
 ## Legge til aktiviteter og salg
 
-1. Åpne dialogboksen **Avtale**, **Oppgave**, **Samtale**, eller **Dokument** og skriv inn ønsket informasjon. Se [dialogboksen for oppfølginger][2] eller [dialogboksen for salg][1].
-2. Åpne fanen **Koblinger**, og klikk på **Legg til kobling** nederst på fanen.
-3. Velg en av de tilgjengelige alternativene.
-4. Velg en oppføring fra listen, eller begynn å skrive inn navnet på en oppføring for å søke. Hvis du valgte **URL**-alternativet skriver du inn koblingen manuelt.
-5. Klikk på **OK**. Du kommer deretter tilbake til fanen **Koblinger** i dialogboksen som ble valgt i trinn 1, med den valgte oppføringen vist i listen over koblinger.
+1. [Åpne eller opprett en oppfølging][2] eller [dokument][1].
+1. Åpne fanen **Koblinger**, og klikk på **Legg til kobling** nederst på fanen.
+1. Velg en av de tilgjengelige alternativene.
+1. Velg en oppføring fra listen, eller begynn å skrive inn navnet på en oppføring for å søke. Hvis du valgte **URL**-alternativet skriver du inn koblingen manuelt.
+1. Klikk på **OK**. Du kommer deretter tilbake til fanen **Koblinger** i dialogboksen som ble valgt i trinn 1, med den valgte oppføringen vist i listen over koblinger.
 
 ## Åpne tilknyttede aktiviteter
 
-Hvis du vil ha mer informasjon om et tilknyttet dokument, oppfølging eller salg, merker du den aktuelle raden og klikker på **Åpne**. Du kan også dobbeltklikke på den.
+For å se detaljer for et lenket dokument, oppfølging, salg eller prosjekt, dobbeltklikk på det.
 
 ## Fjerne tilknyttede aktiviteter
 
-Hvis du vil fjerne koblingen til et dokument, en oppfølging eller et salg, velger du den aktuelle raden og klikker på **Slett**.
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/remove-link-old)
+
+For å fjerne koblingen til et dokument, oppfølging, salg eller prosjekt, velg raden det gjelder, og klikk **Slett**.
+
+### [Ny (fra versjon 10.2.11 pilot)](#tab/remove-link-new)
+
+For å fjerne en kobling, klikk på det røde X-et på den raden.
+
+![Fanen for lenker i en oppfølging - skjermbilde][img1]
+
+***
+<!-- markdownlint-restore -->
 
 <!-- Referenced links -->
-[1]: ../../document/learn/screen/index.md
-[2]: screen/dialog-for-followups.md
+[1]: ../../document/learn/create.md
+[2]: create-follow-up.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/diary/links.png

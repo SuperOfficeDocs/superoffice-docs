@@ -1,5 +1,5 @@
 ---
-uid: help-nl-linking-documents-to-follow-ups
+uid: help-nl-activity-add-link
 title: Documenten koppelen aan vervolgactiviteiten
 description: Documenten koppelen aan vervolgactiviteiten
 author: SuperOffice RnD
@@ -15,22 +15,35 @@ Wanneer het dialoogvenster voor vervolgactiviteiten of het dialoogvenster **Docu
 
 ## Activiteiten en verkopen toevoegen
 
-1. Open het dialoogvenster **Afspraak**, **Taak**, **Gesprek** of **Document** en voer de benodigde gegevens in. Zie [het dialoogvenster voor vervolgactiviteiten][2] of [het dialoogvenster Verkoop][1].
-2. Open het tabblad **Koppelingen** en klik op **Koppeling toevoegen** onder aan het tabblad.
-3. Selecteer een van de beschikbare opties.
-4. Selecteer een record in de lijst of typ het begin van de naam van een record om te zoeken. Als u de optie **URL** hebt geselecteerd, voert u de koppeling handmatig in.
-5. Klik op **OK**. U keert vervolgens terug naar het tabblad **Koppelingen** in het dialoogvenster dat u in stap 1 hebt gekozen, waarbij de geselecteerde record wordt weergegeven in de lijst met koppelingen.
+1. [Open of maak een vervolgactiviteit][2] of [document][1].
+1. Open het tabblad **Koppelingen** en klik op **Koppeling toevoegen** onder aan het tabblad.
+1. Selecteer een van de beschikbare opties.
+1. Selecteer een record in de lijst of typ het begin van de naam van een record om te zoeken. Als u de optie **URL** hebt geselecteerd, voert u de koppeling handmatig in.
+1. Klik op **OK**. U keert vervolgens terug naar het tabblad **Koppelingen** in het dialoogvenster dat u in stap 1 hebt gekozen, waarbij de geselecteerde record wordt weergegeven in de lijst met koppelingen.
 
 ## Gekoppelde activiteiten openen
 
-Voor de weergave van meer informatie van een gekoppeld document, vervolgactiviteit of verkoop selecteert u de betreffende rij selecteren en klikt u op **Openen**. U kunt er ook op dubbelklikken.
+Om details van een gekoppeld document, vervolgactiviteit, verkoop of project te bekijken, dubbelklik erop.
 
 ## Gekoppelde activiteiten verwijderen
 
-Voor de verwijdering van de koppeling naar een document, vervolgactiviteit of verkoop selecteert u de betreffende rij en klikt u op **Verwijderen**.
+<!-- markdownlint-disable MD051 -->
+### [Klassiek](#tab/remove-link-old)
+
+Om de koppeling naar een document, vervolgactiviteit, verkoop of project te verwijderen, selecteer de betreffende rij en klik op **Verwijderen**.
+
+### [Nieuw (vanaf versie 10.2.11 pilot)](#tab/remove-link-new)
+
+Om een koppeling te verwijderen, klik op het rode X op die rij.
+
+![Tabblad Links van een vervolgactiviteit - schermafbeelding][img1]
+
+***
+<!-- markdownlint-restore -->
 
 <!-- Referenced links -->
-[1]: ../../document/learn/screen/index.md
-[2]: screen/dialog-for-followups.md
+[1]: ../../document/learn/create.md
+[2]: create-follow-up.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/diary/links.png

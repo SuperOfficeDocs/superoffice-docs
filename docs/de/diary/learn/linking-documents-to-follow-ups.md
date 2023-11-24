@@ -1,5 +1,5 @@
 ---
-uid: help-de-linking-documents-to-follow-ups
+uid: help-de-activity-add-link
 title: Dokumente mit Folgeaufgaben verknüpfen
 description: Dokumente mit Folgeaufgaben verknüpfen
 author: SuperOffice RnD
@@ -15,22 +15,35 @@ Im Dialogfeld für Folgeaufgaben sowie im Dialogfeld **Dokument** können Sie Ve
 
 ## Aktivitäten und Verkäufe hinzufügen
 
-1. Öffnen Sie das Dialogfeld **Termin**, **Aufgabe**, **Anruf** oder **Dokument**, und geben Sie die erforderlichen Informationen ein. Siehe [Dialogfeld für Folgeaufgaben][2] oder [Dialogfeld Verkauf][1].
-2. Öffnen Sie die Registerkarte **Verknüpfungen** und klicken Sie unten auf der Registerkarte auf **Link hinzufügen**.
-3. Wählen Sie eine der verfügbaren Optionen aus.
-4. Wählen Sie einen Datensatz aus der Liste aus, oder beginnen Sie mit der Eingabe des Namens eines Datensatzes, der gesucht werden soll. Wenn Sie die Option **URL** ausgewählt haben, müssen Sie die Verknüpfung manuell eingeben.
-5. Klicken Sie auf **OK**. Sie kehren daraufhin zur Registerkarte **Verknüpfungen** im Dialogfeld zurück, das im Schritt 1 ausgewählt wurde. Der ausgewählte Datensatz wird in der Liste der Verknüpfungen angezeigt.
+1. [Öffnen Sie eine Folgeaufgabe][2] oder [dokument][1] oder erstellen Sie eine neue.
+1. Öffnen Sie die Registerkarte **Verknüpfungen** und klicken Sie unten auf der Registerkarte auf **Link hinzufügen**.
+1. Wählen Sie eine der verfügbaren Optionen aus.
+1. Wählen Sie einen Datensatz aus der Liste aus, oder beginnen Sie mit der Eingabe des Namens eines Datensatzes, der gesucht werden soll. Wenn Sie die Option **URL** ausgewählt haben, müssen Sie die Verknüpfung manuell eingeben.
+1. Klicken Sie auf **OK**. Sie kehren daraufhin zur Registerkarte **Verknüpfungen** im Dialogfeld zurück, das im Schritt 1 ausgewählt wurde. Der ausgewählte Datensatz wird in der Liste der Verknüpfungen angezeigt.
 
 ## Verknüpfte Aktivitäten öffnen
 
-Um weitere Details zu einem verknüpften Dokument, Verkauf bzw. einer Folgeaufgabe anzuzeigen, markieren Sie die betreffende Zeile und klicken auf **Öffnen**. Alternativ können Sie auch darauf doppelklicken.
+Um Details zu einem verknüpften Dokument, einer Folgeaufgabe, einem Verkauf oder einem Projekt anzuzeigen, doppelklicken Sie darauf.
 
 ## Verknüpfte Aktivitäten entfernen
 
-Um die Verknüpfung zu einem Dokument, Verkauf bzw. einer Folgeaufgabe zu entfernen, markieren Sie die betreffende Zeile und klicken auf **Löschen**.
+<!-- markdownlint-disable MD051 -->
+### [Klassisch](#tab/remove-link-old)
+
+Um Details zu einem verknüpften Dokument, einer Folgeaufgabe, einem Verkauf oder einem Projekt anzuzeigen, doppelklicken Sie darauf.
+
+### [Neu (ab Version 10.2.11 Pilot)](#tab/remove-link-new)
+
+Um einen Link zu entfernen, klicken Sie auf das rote X in dieser Zeile.
+
+![Registerkarte für Links einer Folgeaufgabe - screenshot][img1]
+
+***
+<!-- markdownlint-restore -->
 
 <!-- Referenced links -->
-[1]: ../../document/learn/screen/index.md
-[2]: screen/dialog-for-followups.md
+[1]: ../../document/learn/create.md
+[2]: create-follow-up.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/diary/links.png
