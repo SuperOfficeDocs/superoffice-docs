@@ -14,10 +14,6 @@ language: no
 
 Det kan hende at du ønsker å opprette en rekke avtaler som forekommer med jevne mellomrom, for eksempel et ukentlig statusmøte. I stedet for å registrere disse møtene enkeltvis, kan du bruke funksjonen for repeterende oppfølginger.
 
-![Recurring follow-up dialog -screenshot][img1]
-
-Øverst til høyre i dialogboksen **Repeterende oppfølginger** vises startdato og -klokkeslett for oppfølgingen samt sluttiden.
-
 ## <a id="frequency" />Hyppighet
 
 **Hyppighet** er hvordan oppfølgingen gjentas. Mønsteret kan være daglig, ukentlig, månedlig, årlig eller gjentas med et brukerdefinert intervall. Alternativene som er tilgjengelige for hver hyppighet, varierer.
@@ -38,8 +34,8 @@ Velger du **Ukentlig**, kan du angi at oppfølgingen skal gjentas med et egendef
 
 | Alternativ | Beskrivelse | Eksempel |
 |---|---|---|
-| Hver &lt;tall&gt;. uke| Antall uker mellom hvert møte. | Hver tredje uke. |
-| &lt;ukedag&gt;| Hvilke(n) ukedag(er) møtet forekommer på. | |
+| Hver &lt;tall&gt;. uke | Antall uker mellom hvert møte. | Hver tredje uke. |
+| &lt;ukedag&gt;| Hvilke(n) ukedag(er) møtet forekommer på. | Hver tirsdag. |
 
 ### Månedlig
 
@@ -59,10 +55,6 @@ Velger du **Årlig**, kan du angi dag og måned som oppfølgingen skal gjentas h
 | Dag &lt;tall&gt; i &lt;måned&gt; | Oppfølgingen finner sted på samme dato hver gang. | Dag 13 i april. |
 | &lt;ordenstall&gt; &lt;ukedag&gt; i &lt;måned&gt; | Oppfølgingen finner sted på samme ukedag hver gang. | Den fjerde torsdagen i august. |
 
-### Egendefinert
-
-Hvis ingen av mønstrene fungerer for deg, kan du manuelt angi datoene du trenger.
-
 ## Aktuelt innhold
 
 * [Opprette en gjentakende oppfølging][4]
@@ -75,4 +67,3 @@ Hvis ingen av mønstrene fungerer for deg, kan du manuelt angi datoene du trenge
 [4]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png

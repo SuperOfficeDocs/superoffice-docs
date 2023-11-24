@@ -13,10 +13,6 @@ language: de
 
 Es kann vorkommen, dass Sie eine Reihe von Terminen in regelmäßigen Abständen erstellen möchten, zum Beispiel ein wöchentlich stattfindendes Statusmeeting. Statt diese Besprechungen eine nach der anderen zu erstellen, können Sie die Funktion für regelmäßige Folgeaufgaben verwenden.
 
-![Recurring follow-up dialog -screenshot][img1]
-
-Im Dialogfeld weiter oben rechts **Regelmäßige Folgeaufgaben** werden das Startdatum und der Endzeitpunkt für die Folgeaufgabe sowie die Endzeit angezeigt.
-
 ## <a id="frequency" />Häufigkeit
 
 Die **Häufigkeit** ist die Art und Weise, wie die Folgeaufgabe wiederholt wird. Das Muster kann täglich, wöchentlich, monatlich, jährlich oder in einem benutzerdefinierten Intervall wiederholt werden. Die verfügbaren Optionen für jede Häufigkeit.
@@ -37,8 +33,8 @@ Wenn Sie **Wöchentlich** auswählen, können Sie festlegen, dass die Folgeaufga
 
 | Option | Beschreibung | Beispiel |
 |---|---|---|
-| Alle &lt;number&gt; Woche(n)| Anzahl den Wochen die zwischen den einzelnen Besprechungen vergehen. | Alle 3 Wochen. |
-| &lt;weekday&gt;| An welchem/n Wochentag(en) die Besprechung stattfinden. | |
+| Alle &lt;number&gt; Woche(n) | Anzahl den Wochen die zwischen den einzelnen Besprechungen vergehen. | Alle 3 Wochen. |
+| &lt;weekday&gt; | An welchem/n Wochentag(en) die Besprechung stattfinden. | Jeden Dienstag. |
 
 ## Monatlich
 
@@ -58,10 +54,6 @@ Wenn Sie **Jährlich** auswählen, können Sie festlegen, an welchem Tag und in 
 | Tag &lt;number&gt; im &lt;month&gt;| Die Folgeaufgabe immer am gleichen Datum stattfinden. | Tag 13 im April. |
 | &lt;ordinal number&gt; &lt;weekday&gt; im &lt;month&gt;| Die Folgeaufgabe immer am gleichen Wochentag stattfinden. | Am vierten Donnerstag im August. |
 
-## Benutzerdefiniert
-
-Wenn keines der Muster für Sie anwendbar ist, können Sie die gewünschten Datumsangaben manuell eingeben.
-
 ## Zugehörige Inhalte
 
 * [Wiederholende Folgeaufgabe erstellen][4]
@@ -74,4 +66,3 @@ Wenn keines der Muster für Sie anwendbar ist, können Sie die gewünschten Datu
 [4]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png

@@ -13,10 +13,6 @@ language: sv
 
 Det kan hända att du vill skapa en serie bokningar som återkommer med jämna mellanrum, till exempel ett veckomöte för statusuppdatering. Istället för att lägga in dessa möten ett i taget kan du använda funktionen för återkommande händelser.
 
-![Recurring follow-up dialog -screenshot][img1]
-
-Längst upp till höger i dialogrutan **Återkommande händelser** visas startdatum och starttid för händelsen samt sluttiden.
-
 ## <a id="frequency" />Förekomst
 
 **Förekomst** beskriver hur händelsen upprepas. Mönstret kan vara dagligen, veckovis, månadsvis, årligen eller upprepning med ett användardefinierat intervall. Vilka alternativ som är tillgängliga för varje förekomst varierar.
@@ -37,8 +33,8 @@ Om du väljer **Veckovis** kan du ange att händelsen ska upprepas med ett anvä
 
 | Alternativ | Beskrivning | Exempel |
 |---|---|---|
-| Var &lt;number&gt; vecka| Antalet veckor mellan varje möte. | Var 3:e vecka. |
-| &lt;weekday&gt;| Vilken eller vilka veckodagar mötet ska äga rum. | |
+| Var &lt;number&gt; vecka | Antalet veckor mellan varje möte. | Var 3:e vecka. |
+| &lt;weekday&gt; | Vilken eller vilka veckodagar mötet ska äga rum. | Varje tisdag. |
 
 ### Månatlig
 
@@ -58,10 +54,6 @@ Om du väljer **Årlig** kan du ange vilken dag och månad händelsen ska upprep
 | Dag &lt;number&gt; i &lt;month&gt; | Händelsen inträffar på samma datum varje gång. | Dag 13 i april. |
 | &lt;ordinal number&gt; &lt;weekday&gt; i &lt;month&gt; | Händelsen inträffar på samma veckodag varje gång. | Den fjärde torsdagen i augusti. |
 
-### Anpassad
-
-Om inget av mönstren fungerar kan du ange önskade datum manuellt.
-
 ## Relaterat innehåll
 
 * [Skapa en återkommande händelse][4]
@@ -74,4 +66,3 @@ Om inget av mönstren fungerar kan du ange önskade datum manuellt.
 [4]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png

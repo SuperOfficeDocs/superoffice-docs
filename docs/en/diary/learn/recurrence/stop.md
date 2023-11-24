@@ -36,6 +36,9 @@ When you stop the repeating follow-up, all instances of the follow-up *after* th
 1. Click **Stop repeating**.
 1. Click **Save** in the **Follow-up** dialog to save all changes.
 
+***
+<!-- markdownlint-restore -->
+
 ## Delete this and all future instances
 
 You can also stop a repeating follow-up by selecting it in the diary and deleting it.
@@ -44,9 +47,6 @@ You can also stop a repeating follow-up by selecting it in the diary and deletin
 2. Right-click and choose **Delete**.
 3. Select **Delete all future instances including this one**.
 4. Click **Yes** to confirm.
-
-***
-<!-- markdownlint-restore -->
 
 ## What would you like to do now?
 

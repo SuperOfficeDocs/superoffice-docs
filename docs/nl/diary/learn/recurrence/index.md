@@ -13,10 +13,6 @@ language: nl
 
 Het kan gebeuren dat u een reeks afspraken wilt maken die met regelmatige tussenpozen moeten plaatsvinden, bijvoorbeeld een wekelijkse statusvergadering. In plaats van deze vergadering één voor één vast te leggen kunt u hiervoor de functie voor herhalende vervolgactiviteiten gebruiken.
 
-![Recurring follow-up dialog -screenshot][img1]
-
-Rechtsboven in het dialoogvenster **Herhalende vervolgactiviteiten** worden de begindatum en tijd voor de vervolgactiviteit en de eindtijd weergegeven.
-
 ## <a id="frequency" />Frequentie
 
 **Frequentie** is hoe de vervolgactiviteit wordt herhaald. Het patroon kan dagelijks, wekelijks, maandelijks, jaarlijks of herhaald worden met een door de gebruiker gedefinieerd interval. De beschikbare opties voor elke frequentie variëren.
@@ -37,8 +33,8 @@ Wanneer u **Wekelijks** selecteert, kunt u opgeven dat de vervolgactiviteit met 
 
 | Optie | Beschrijving | Voorbeeld |
 |---|---|---|
-| Iedere &lt;number&gt; week/weken| Het aantal weken dat tussen elke vergadering moet verstrijken. | Elke 3 weken. |
-| &lt;weekday&gt;| Welke weekdag(en) de vergadering moet plaatsvinden. | |
+| Iedere &lt;number&gt; week/weken | Het aantal weken dat tussen elke vergadering moet verstrijken. | Elke 3 weken. |
+| &lt;weekday&gt; | Welke weekdag(en) de vergadering moet plaatsvinden. | Elke dinsdag. |
 
 ### Maandelijks
 
@@ -58,10 +54,6 @@ Wanneer u **Jaarlijks** selecteert, kunt u opgeven op welke dag in welke maand d
 | Dag &lt;number&gt; in &lt;month&gt; | De vervolgactiviteit moet altijd op dezelfde datum plaatsvinden. | Dag 13 in april. |
 | &lt;ordinal number&gt; &lt;weekday&gt; in &lt;month&gt; | De vervolgactiviteit moet altijd op dezelfde dag van de week plaatsvinden. | Vierde donderdag in augustus. |
 
-### Aangepast
-
-Als geen van de patronen voor u werkt, kunt u handmatig de gewenste datums invoeren.
-
 ## Gerelateerde inhoud
 
 * [Een terugkerende vervolgactiviteit maken][4]
@@ -74,4 +66,3 @@ Als geen van de patronen voor u werkt, kunt u handmatig de gewenste datums invoe
 [4]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png

@@ -13,10 +13,6 @@ language: da
 
 Det kan ske, at du vil oprette en række aftaler, der skal forekomme med jævne mellemrum, for eksempel et ugentligt statusmøde. I stedet for at optage disse møder et ad gangen, kan du bruge den gentagne opfølgningsfunktion.
 
-![Recurring follow-up dialog -screenshot][img1]
-
-Øverst til højre i dialogboksen **Gentagne opfølgninger** vises startdato og -klokkeslæt for opfølgningen samt sluttidspunktet.
-
 ## <a id="frequency" />Frekvens
 
 **Frekvens** er, hvordan opfølgningen gentages. Mønsteret kan være dagligt, ugentligt, månedligt, årligt eller gentages med et brugerdefineret interval. De tilgængelige indstillinger for hver frekvens varierer.
@@ -37,8 +33,8 @@ Hvis du vælger **Ugentligt**, kan du angive, at opfølgningen skal gentages med
 
 | Mulighed | Beskrivelse | Eksempel |
 |---|---|---|
-| Hver &lt;number&gt; uge(r)| Antalet uger mellem hvert møde. | Hver 3. dag. |
-| &lt;weekday&gt;| Hvilke(n) ugedag(e) mødet finder sted. | |
+| Hver &lt;number&gt; uge(r) | Antalet uger mellem hvert møde. | Hver 3. dag. |
+| &lt;weekday&gt;| Hvilke(n) ugedag(e) mødet finder sted. | Hver tirsdag. |
 
 ### Månedlig
 
@@ -58,10 +54,6 @@ Hvis du vælger **Årligt**, kan du angive, hvilken dag og måned opfølgningen 
 | Dag &lt;number&gt; i &lt;month&gt; | Opfølgningen finder sted på samme dato hver gang. | Dag 13 i april. |
 | &lt;ordinal number&gt; &lt;weekday&gt; i &lt;month&gt; | Opfølgningen finder sted på samme ugedag hver gang. | Den fjerde torsdag i august. |
 
-### Brugerdefinerede
-
-Hvis ingen af mønstrene fungerer for dig, kan du manuelt angive de datoer, du har brug for.
-
 ## Relateret indhold
 
 * [Opret en gentagen opfølgning][4]
@@ -74,4 +66,3 @@ Hvis ingen af mønstrene fungerer for dig, kan du manuelt angive de datoer, du h
 [4]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png
