@@ -19,12 +19,9 @@ Sie haben viele Möglichkeiten, eine Folgeaufgaben zu erstellen. Diese Methode f
 
 1. Klicken Sie auf **Neu** auf der oberen Leiste und wählen Sie **Besprechung/Termin**, **Folgeaufgab/Anruf** oder **Zu erledigen/Aufgabe** aus.
 
-2. [Geben Sie die erforderlichen Informationen in das Feld ein.][6]
+2. [Geben Sie die erforderlichen Informationen in das Feld ein.](#fields)
 
-    > [!NOTE]
-    > Wenn Sie versuchen, eine sich überlappende Folgeaufgabe aufzuzeichnen, wird im Dialogfeld neben den Feldern Start und Stopp das ein ![Symbol][img2] Ausrufezeichen zur Erinnerung angezeigt (Sie können die Nachverfolgung weiterhin aufzeichnen). Es wird ein Vorschlag für das erste freie Zeitfenster angezeigt. Klicken Sie auf die vorgeschlagene Zeit rechts von **Zuerst verfügbar**, wenn Sie stattdessen diese Zeit auswählen möchten.
-    >
-    > Wenn Sie eine neue Aufgabe erstellen, wird keine Zeit in den Feldern **Start** und **Fällig** angezeigt. Das aktuelle Datum wird automatisch eingefügt. Sie können das Datum aber auch ändern. Das Datum gibt den Fälligkeitstermin der Aufgabe an.
+    Einige Informationen werden automatisch basierend auf dem Kontext eingefügt, zum Beispiel das heutige Datum.
 
 3. Klicken Sie auf die Schaltfläche **Aufgabe**.
 
@@ -35,6 +32,69 @@ Sie haben viele Möglichkeiten, eine Folgeaufgaben zu erstellen. Diese Methode f
 | Bereichsregisterkarte Aktivitäten | x | x | x |
 | Schaltfläche Aufgabe in der Personenkarte | x | x | |
 | Kalender | x | | |
+
+### <a id="fields" />Wie Informationen eingegeben werden
+
+> [!NOTE]
+> Viele Felder haben eine Liste von vordefinierten Werten, aus denen Sie wählen können. Klicken Sie auf den Pfeil ![Symbol][img4], um die Liste zu erweitern. Wählen Sie dann einen Wert für dieses Feld. Alternativ können Sie im Feld mit der Eingabe beginnen, um nach einem bestimmten Wert zu suchen, wie zum Beispiel einem Firmennamen.
+
+Wenn Ihre SuperOffice [Zeitzonen][9] aktiviert hat, können Sie auswählen, in welcher Zeitzone die Folgeaufgabe erstellt werden soll. Die Zeitzonen werden nach Ländern angezeigt, und Sie können sowohl nach Land als auch direkt nach Stadt im Zeitzonenfeld suchen.
+
+Wenn Sie **Ganztägig** aktivieren, wird die Zeit der Folgeaufgabe auf den als [Standard-Arbeitstag][8] festgelegten Zeitraum eingestellt (Voreinstellung für **Startzeit ganztägig** und **Endzeit ganztägig**).
+
+<!-- markdownlint-disable MD051 -->
+#### [Klassisch](#tab/fields-old)
+
+![Termin-Dialogfeld -screenshot][img6]
+
+* Wählen Sie den Typ der Folgeaufgabe aus.
+
+* Optional können Sie ein Unternehmen und/oder einen Kontakt auswählen, auf den sich die Folgeaufgabe bezieht.
+
+* Optional können Sie ein Projekt und/oder einen Verkauf auswählen, um es mit der Folgeaufgabe zu verknüpfen. Sie können jedes Projekt/Verkauf auswählen, unabhängig davon, welches Unternehmen Sie zuvor ausgewählt haben.
+
+* Geben Sie Zeit und Datum an. Das Feld **Dauer** wird automatisch angepasst.
+
+    Wenn die neue Folgeaufgabe mit einer bestehenden Folgeaufgabe überlappt, wird ein Ausrufezeichen ![Symbol][img2] neben den Start- und Stoppfeldern als Erinnerung angezeigt (Sie können die Folgeaufgabe dennoch hinzufügen). Ein Vorschlag für den ersten verfügbaren Zeitpunkt wird angezeigt. Klicken Sie auf die vorgeschlagene Zeit rechts von **Zuerst verfügbar**, um stattdessen diese Zeit auszuwählen.
+
+    Wenn Sie eine neue Aufgabe erstellen, wird keine Zeit in den Feldern **Start** und **Fällig** angezeigt. Das heutige Datum wird automatisch eingefügt, Sie können es jedoch auf das erforderliche Datum ändern. Das Datum gibt den Termin für die Aufgabe an.
+
+* Optional können Sie die Adresse auswählen oder eingeben, an der die Folgeaufgabe stattfinden wird.
+
+* Wählen Sie den Tab **Beschreibung**, um eine Beschreibung der Folgeaufgabe hinzuzufügen (maximal 2048 Zeichen).
+* Wählen Sie den Tab **Details**, um [Wiederholung][4], Priorität, [Alarm][3], Eigentümer und "als anzeigen" festzulegen.
+* Wählen Sie den Tab **Teilnehmer**, um [Teilnehmer hinzuzufügen][5].
+
+> [!TIP]
+> Klicken Sie auf ![Symbol][img5], um ein [Videotreffen][2] einzurichten.
+
+#### [Neu (ab Version 10.2.11 Pilot)](#tab/fields-new)
+
+![Folgeaufgabesdialog -screenshot][img7]
+
+* Geben Sie einen Titel ein.
+
+* Klicken Sie auf den farbigen Ball und wählen Sie einen Folgeaufgabestyp aus.
+
+* Optional können Sie ein Unternehmen oder einen Kontakt auswählen, auf den sich die Folgeaufgabe bezieht. Wenn Sie sie und andere zu Ihrem Meeting einladen möchten, klicken Sie auf **Einladen**.
+
+  * [Teilnehmer hinzufügen][5].
+  * Optional, fügen Sie einen Standort hinzu.
+  * Optional, fügen Sie (weitere) Räume, Ressourcen und/oder Standorte hinzu.
+
+    ![Erweiterter Folgeaufgabesdialog -screenshot][img8]
+
+* Geben Sie Zeit und Datum an. Klicken Sie auf **Mehr anzeigen**, um [Wiederholung][4], "ganztägig", "beschäftigt/frei" und Zeitzoneneinstellungen vorzunehmen. Klicken Sie auf das Glockensymbol in der Kopfzeile, um [den Alarm einzustellen][3].
+
+* Optional, wählen Sie ein Projekt und/oder Verkauf aus, um es mit der Folgeaufgabe zu verknüpfen. Sie können jedes Projekt/Verkauf auswählen, unabhängig davon, welches Unternehmen Sie zuvor ausgewählt haben.
+
+* Wählen Sie den Tab **Agenda**, um zusätzliche Informationen hinzuzufügen, wie z.B. eine Agenda, eine Beschreibung der Folgeaufgabe, Dateien, Bilder und Links. Verwenden Sie die Schaltflächen in der Fußzeile, um Rich-Text-Formatierung und Inhalt hinzuzufügen.
+
+    > [!TIP]
+    > Wenn Sie den Zugriff auf Mitarbeiter beschränken möchten, platzieren Sie diesen Inhalt im Tab **Interne Notizen**. Alles, was hier hinzugefügt wird, wird nicht an externe Teilnehmer gesendet. Klicken Sie auf das Uhrsymbol, um einen Zeitstempel hinzuzufügen. Ein Punkt auf dem Tab zeigt an, dass jemand eine Notiz hinzugefügt hat.
+
+***
+<!-- markdownlint-restore -->
 
 ## Folgeaufgaben in der Bereichsregisterkarte Aktivitäten erstellen
 
@@ -49,9 +109,9 @@ Sie haben viele Möglichkeiten, eine Folgeaufgaben zu erstellen. Diese Methode f
 
 1. Klicken Sie auf das ![Symbol][img3] der Schaltfläche **Aufgabe** in der Personenkarte.
 
-1. Um eine Besprechung zu erstellen, wählen Sie **Besprechung anfordern**.
+    * Um eine Besprechung zu erstellen, wählen Sie **Besprechung anfordern**.
 
-    Um einen Anruf zu erfassen, wählen Sie **Anrufen**.
+    * Um einen Anruf zu erfassen, wählen Sie **Anrufen**.
 
 1. Geben Sie die erforderlichen Informationen in das Feld ein und klicken Sie auf **Speichern**.
 
@@ -74,7 +134,7 @@ Sie können den Kalender anderer Benutzer oder einer verfügbaren Ressource öff
 
 3. Führen Sie mithilfe der Maus die Option Neuen Besprechung erstellen in diesem Kalender aus.
 
-4. In dialogfeld **Folgeaufgabe**, [geben Sie die erforderlichen Informationen in das Feld ein][6].
+4. In dialogfeld **Folgeaufgabe**, [geben Sie die erforderlichen Informationen in das Feld ein](#fields).
 
 5. Führen Sie die Option [Einzubeziehende Teilnehmer auswählen][5] aus, wenn sie nicht bereits automatisch einbezogen wurden.
 
@@ -93,19 +153,25 @@ Sie können auch eine neue Folgeaufgabe erstellen, indem Sie eine vorhandene Fol
 ## Zugehörige Inhalte
 
 * [Termin][1]
-* [Aktivitäten][8]
-* [Benachrichtigungen/Alarme][3]
+* [Aktivitäten][7]
 * [Videokonferenz vom SuperOffice-Kalender erstellen][2]
 
 <!-- Referenced links -->
 [1]: follow-ups.md
 [2]: video-meetings.md
 [3]: set-alarm.md
+[4]: recurrence/index.md
 [5]: invitation/add-participant.md
-[6]: screen/dialog-for-followups.md
-[8]: ../../learn/basics/activity.md
+[7]: ../../learn/basics/activity.md
+[8]: ../../learn/getting-started/preferences.md
+[9]: ../../globalization-and-localization/learn/time-zones.m
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/warning-red.png
 [img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/btn-menu.png
+[img2]: ../../../../common/icons/warning-red.png
+[img4]: ../../../../common/icons/dropdown-icon.png
+[img5]: ../../../../common/icons/videocall-off.png
+[img6]: ../../../media/loc/en/diary/appointment-new.png
+[img7]: ../../../media/loc/en/diary/follow-up-dialog.png
+[img8]: ../../../media/loc/en/diary/follow-up-attendees.png

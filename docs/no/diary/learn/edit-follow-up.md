@@ -50,23 +50,24 @@ I Dagbok-bildet kan du endre sluttidspunktet for en oppfølging uten å måtte �
 
 Endringer fungerer på samme måte som når du redigerer oppfølginger, men når du gjør en endring, vises dialogboksen **Repeterende oppfølginger**, der det vises en kort beskrivelse av oppfølgingen.
 
+![Repeating follow-up dialog -screenshot][img1]
+
 * Hvis du velger **Endre bare denne forekomsten**, vil ikke endringen påvirke andre tidspunkter enn det som er angitt.
 
-* Hvis du velger **Endre alle fremtidige forekomster inkludert denne**, foretas den samme endringen på denne oppfølgingen også i fremtiden.
+* Hvis du velger **Endre alle fremtidige forekomster inkludert denne**, foretas den samme endringen på denne oppfølgingen og alle gjentagelser også i fremtiden.
 
-Du kan kun endre startdatoen for oppfølgingen mens du ser på gjentakelsesmønsteret. For å endre tiden, klikk **OK** eller **Avbryt** for å gå tilbake til oppfølgingsdetaljene.
+Du kan kun endre startdatoen for oppfølgingen mens du ser på gjentakelsesdetaljene. For å endre tiden, klikk **OK** eller **Avbryt** for å gå tilbake til oppfølgingsdetaljene.
 
 Hvis du bestemmer deg for å endre mønsteret midt i en rekke møter, opprettes en ny regel, og den gamle regelen stoppes der bruddet oppstår.
 
 Hvis du endrer starttiden for et enkelt møte, påvirkes ikke regelen. Møtet behandles som et unntak fra regelen. Unntaket kan gjøres om til en vanlig hendelse ved å flytte det tilbake i linje med de andre møtene.
 
-> [!CAUTION]
-> Å endre start- eller sluttdatoen for et gjentakende møte etter at det er blitt lagret, er en dårlig idé. Å endre tidspunktet på et gjentakende møte vil fungere bra, men å endre datoen vil bare føre til forvirring. Å endre starttidspunktet på et møte vil utløse en oppdatering for alle påfølgende gjentakelser hvis du har satt oppdateringsmodus til dette og fremover.
+[!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
 ## <a id="delete" />Slette oppfølging ved hjelp av dagboken
 
 * Hvis du sletter en oppfølging du er invitert til, blir oppfølgingen kun fjernet fra din dagbok.
-* Hvis du sletter en invitasjon du eier fra din dagbok, forsvinner denne oppføringen fra dagbøkene til alle inviterte deltakere også.
+* Hvis du sletter en invitasjon du eier fra din dagbok, forsvinner denne oppfølgingen fra dagbøkene til alle inviterte deltakere også.
 
 1. Merk ønsket oppfølging.
 2. Høyreklikk og velg **Slett**.
@@ -81,7 +82,8 @@ Hvis du endrer starttiden for et enkelt møte, påvirkes ikke regelen. Møtet be
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
-[3]: screen/dialog-for-followups.md
+[3]: create-follow-up.md#fields
 [5]: recurrence/stop.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/diary/change-repeating-fo.png

@@ -18,18 +18,18 @@ Teilnehmer, die zu einer Folgeaufgabe eingeladen sind, werden eine Benachrichtig
 ## <a id="accept" />Einladungen annehmen oder ablehnen
 
 * Klicken Sie auf das Glocken-Symbol in der oberen Leiste, um Ihre Einladungen anzuzeigen.
-* Klicken Sie auf den Link in der Benachrichtigung, um die Aktivität zu öffnen.
+* Klicken Sie auf den Link in der Benachrichtigungen-Panel, um die Folgeaufgabe zu öffnen.
 * Klicken Sie auf **Annehmen** oder **Ablehnen**, um auf die Einladung zu antworten.
 
 [Erfahren Sie mehr über Benachrichtigungen.][1]
 
 ### Notiz
 
-* Wenn Sie eine Folgeaufgabe anzeigen möchten, deren Eigentümer nicht Sie sind, wird wie gewohnt das Dialog Folgeaufgabe geöffnet. Bis Sie die Einladung annehmen oder ablehnen, hat das Dialogfeld zwei zusätzliche Schaltflächen: **Annehmen** und **Ablehnen**.
+* Wenn Sie eine Folgeaufgabe anzeigen möchten, deren Eigentümer nicht Sie sind, hat das Dialogfeld zwei zusätzliche Schaltflächen: **Annehmen** und **Ablehnen** - bis Sie auf die Einladung antworten.
 
 * Wenn Sie eine Einladung annehmen und anschließend die Folgeaufgabe aus dem Kalender löschen, wird dies als Ablehnung angesehen. Die Folgeaufgabe wird aus dem Kalender entfernt und Ihr Name wird mit einem roten Kreuz ![Symbol][img4] in der Teilnehmerliste markiert.
 
-* Wenn Sie eine Einladung annehmen und anschließend das Dialogfeld für Folgeaufgaben öffnen, können Sie ausschließlich die Felder **Priorität**, **Abgeschlossen** und **Alarm** der Folgeaufgabe bearbeiten. Alle anderen Änderungen können nur von der Person vorgenommen werden, die die Einladung gesendet hat. Sie können nicht Teilnehmer hinzufügen. Daher ist die Schaltfläche **Hinzufügen** auf der Registerkarte **Teilnehmer** deaktiviert.
+* Wenn Sie eine Einladung annehmen und anschließend das Dialogfeld **Folgeaufgabe** öffnen, können Sie ausschließlich die Felder **Priorität**, **Abgeschlossen** und **Alarm** der Folgeaufgabe bearbeiten. Alle anderen Änderungen können nur von der Person vorgenommen werden, die die Einladung gesendet hat. Sie können nicht Teilnehmer hinzufügen. Daher ist die Schaltfläche **Hinzufügen** auf der Registerkarte **Teilnehmer** deaktiviert.
 
 * Wenn Sie einem anderen Benutzer eine Folgeaufgabe zuweisen (Eigentümer ändern) und der Empfänger diese ablehnt, wird die Folgeaufgabe erneut Ihnen zugewiesen.
 

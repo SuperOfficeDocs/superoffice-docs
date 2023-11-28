@@ -19,12 +19,9 @@ Det er mange måter å opprette en oppfølging på. Denne metoden fungerer fra h
 
 1. Klikk på **Ny** i toppraden, og velg deretter **Møte/Avtale**, **Oppfølging/Samtale** eller **Oppgave**.
 
-2. [Fyll ut de andre feltene med ønsket informasjon.][6]
+2. [Fyll ut de andre feltene med ønsket informasjon.](#fields)
 
-    > [!NOTE]
-    > Når du prøver å registrere en overlappende oppfølging, har dialogboksen et utropstegn ![ikon][img2] ved siden av start- og stoppfeltene som en påminnelse (du kan fortsatt registrere oppfølgingen). Det vises et forslag til det første ledige tidsrommet. Klikk på foreslått tidspunkt til høyre for **Første ledige** for å velge det tidspunktet i stedet.
-    >
-    > Når du oppretter en ny oppgave, vises det ikke noe klokkeslett i feltene **Start** og **Slutt**. Dagens dato blir satt inn automatisk, men den kan du endre til ønsket dato. Datoen gjenspeiler fristen for oppgaven.
+    Noe informasjon blir automatisk satt inn basert på konteksten, for eksempel dagens dato.
 
 3. Klikk på **Lagre**-knappen.
 
@@ -35,6 +32,69 @@ Det er mange måter å opprette en oppfølging på. Denne metoden fungerer fra h
 | Detaljkortet Aktiviteter | x | x | x |
 | Oppgaveknappen i personkortet | x | x | |
 | Dagboken | x | | |
+
+### <a id="fields" />Hvordan legge inn informasjon
+
+> [!NOTE]
+> Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![ikon][img4] for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en spesifikk verdi, for eksempel et firmanavn.
+
+Hvis din SuperOffice har [tidssoner][9] aktivert, kan du velge hvilken tidssone oppfølgingen skal opprettes i. Tidssonene vises etter land, og du kan søke både etter land og by direkte i tidssonen feltet.
+
+Hvis du markerer **Hele dagen**, blir tiden for oppfølgingen satt til perioden som er spesifisert som [standard arbeidsdag][8] (**Starttid for hele dagen** og **Sluttid for hele dagen**-innstillingen).
+
+<!-- markdownlint-disable MD051 -->
+#### [Klassisk](#tab/fields-old)
+
+![Avtalevindu - skjermbilde][img6]
+
+* Velg oppfølgingstype.
+
+* Valgfritt, velg et selskap og/eller en kontakt som oppfølgingen gjelder.
+
+* Valgfritt, velg et prosjekt og/eller salg for å koble det til oppfølgingen. Du kan velge hvilket som helst prosjekt/salg uavhengig av hvilket selskap du valgte tidligere.
+
+* Spesifiser tid og dato. **Varighet**-feltet justeres automatisk.
+
+    Hvis den nye oppfølgingen overlapper med en eksisterende oppfølging, vises et utropstegn ![ikon][img2] ved siden av start- og stoppfeltene som en påminnelse (du kan fortsatt legge til oppfølgingen). Forslag til første ledige tidspunkt vises. Klikk på foreslått tid til høyre for **Første tilgjengelige** for å velge denne tiden i stedet.
+
+    Når du oppretter en ny to-do, vises ingen tid i feltene **Start** og **Slutt**. Dagens dato settes automatisk inn, men du kan endre den til den nødvendige datoen. Datoen indikerer fristen for to-do-en.
+
+* Valgfritt, velg eller skriv inn adressen der oppfølgingen vil finne sted.
+
+* Velg fanen **Beskrivelse** for å legge til en beskrivelse av oppfølgingen (maks 2048 tegn).
+* Velg fanen **Detaljer** for å angi [gjentakelse][4], prioritet, [alarm][3], eier og "vis som".
+* Velg fanen **Deltakere** for å [legge til deltakere][5].
+
+> [!TIP]
+> Klikk ![ikon][img5] for å sette opp et [videomøte][2].
+
+#### [Ny (fra versjon 10.2.11 pilot)](#tab/fields-new)
+
+![Oppfølgingsdialog - skjermbilde][img7]
+
+* Skriv inn en tittel.
+
+* Klikk på den fargede ballen og velg en oppfølgingstype.
+
+* Valgfritt, velg et selskap eller en kontakt som oppfølgingen gjelder for. Hvis du vil invitere dem og andre til møtet, klikk på **Inviter**.
+
+  * [Legg til deltakere][5].
+  * Valgfritt, legg til en plassering.
+  * Valgfritt, legg til (flere) rom, ressurs og/eller steder.
+
+    ![Utvidet oppfølgingsdialog - skjermbilde][img8]
+
+* Spesifiser tid og dato. Klikk på **Vis mer** for å angi [gjentakelse][4], "hele dagen", "opptatt/fri" og tidssone. Klikk på klokkeikonet i overskriften for å [sette alarm][3].
+
+* Valgfritt, velg et prosjekt og/eller salg for å koble det til oppfølgingen. Du kan velge hvilket som helst prosjekt/salg uavhengig av hvilket selskap du valgte tidligere.
+
+* Velg fanen **Dagsorden** for å legge til ytterligere informasjon, for eksempel en dagsorden, en beskrivelse av oppfølgingen, filer, bilder og lenker. Bruk knappene i bunnen for å legge til formatering og innhold i rik tekst.
+
+    > [!TIP]
+    > Hvis du vil begrense tilgangen til kun ansatte, plasser den informasjonen i fanen **Interne notater**. Det som legges til her sendes ikke til eksterne deltakere. Klikk på klokkeikonet for å legge til et tidsstempel. En prikk på fanen indikerer at noen har lagt til en merknad.
+
+***
+<!-- markdownlint-restore -->
 
 ## Opprette oppfølging fra detaljkortet Aktiviteter
 
@@ -49,9 +109,9 @@ Det er mange måter å opprette en oppfølging på. Denne metoden fungerer fra h
 
 1. Klikk på ![ikon][img3] **Oppgave**-knappen i personkortet.
 
-1. For å opprette et møte, velg **Be om et møte**.
+    * For å opprette et møte, velg **Be om et møte**.
 
-    For å registrere et telefonsamtale, velg **Opprett samtale**.
+    * For å registrere et telefonsamtale, velg **Opprett samtale**.
 
 1. Angi informasjon og klikk på **Lagre**.
 
@@ -74,7 +134,7 @@ Du kan hente inn dagboken til en annen bruker eller en tilgjengelig ressurs hvis
 
 3. Opprett et ny møte i denne dagboken ved hjelp av musen.
 
-4. I dialogboksen **Oppfølging**, [fyll ut de andre feltene med ønsket informasjon][6].
+4. I dialogboksen **Oppfølging**, [fyll ut de andre feltene med ønsket informasjon](#fields).
 
 5. [Velg deltakerne du vil inkludere][5], hvis de ikke inkluderes automatisk.
 
@@ -93,19 +153,25 @@ Du kan også lage en oppfølging ved å kopiere en eksistterende oppfølging til
 ## Aktuelt innhold
 
 * [Avtaletyper][1]
-* [Aktiviteter][8]
-* [Varslinger/alarmer][3]
+* [Aktiviteter][7]
 * [Opprette et videomøte fra SuperOffice-dagboken][2]
 
 <!-- Referenced links -->
 [1]: follow-ups.md
 [2]: video-meetings.md
 [3]: set-alarm.md
+[4]: recurrence/index.md
 [5]: invitation/add-participant.md
-[6]: screen/dialog-for-followups.md
-[8]: ../../learn/basics/activity.md
+[7]: ../../learn/basics/activity.md
+[8]: ../../learn/getting-started/preferences.md
+[9]: ../../globalization-and-localization/learn/time-zones.m
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/warning-red.png
 [img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/btn-menu.png
+[img2]: ../../../../common/icons/warning-red.png
+[img4]: ../../../../common/icons/dropdown-icon.png
+[img5]: ../../../../common/icons/videocall-off.png
+[img6]: ../../../media/loc/en/diary/appointment-new.png
+[img7]: ../../../media/loc/en/diary/follow-up-dialog.png
+[img8]: ../../../media/loc/en/diary/follow-up-attendees.png

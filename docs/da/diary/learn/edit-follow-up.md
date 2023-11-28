@@ -50,23 +50,24 @@ På skærmbilledet Dagbog kan du ændre sluttidspunktet for en opfølgning uden 
 
 Ændringer fungerer på samme måde, som når du redigerer opfølgninger, men når du foretager en ændring, vises dialogboksen **Gentaget opfølgning**.
 
+![Repeating follow-up dialog -screenshot][img1]
+
 * Hvis du vælger **Skift kun denne forekomst**, påvirker ændringen ikke andre tidspunkter.
 
-* Hvis du vælger **Skift alle fremtidige forekomster, herunder denne**, vil ændringen også gælde for denne opfølgning i fremtiden.
+* Hvis du vælger **Skift alle fremtidige forekomster, herunder denne**, vil ændringen gælde for denne opfølgning og alle gentagelser i fremtiden.
 
-Du kan kun ændre startdatoen for opfølgningen, mens du ser på gentagelsesmønsteret. For at ændre tiden, skal du klikke på **OK** eller **Afbry** for at vende tilbage til opfølgningsoplysningerne.
+Du kan kun ændre startdatoen for opfølgningen, mens du ser på gentagelsesdetaljerne. For at ændre tiden, skal du klikke på **OK** eller **Afbry** for at vende tilbage til opfølgningsoplysningerne.
 
-Hvis du beslutter at ændre regel mønsteret midt i en række møder, oprettes en ny regel, og den gamle regel stoppes ved det punkt, hvor afbrydelsen opstår.
+Hvis du beslutter at ændre mønsteret midt i en række møder, oprettes en ny regel, og den gamle regel stoppes ved det punkt, hvor afbrydelsen opstår.
 
 Hvis du ændrer starttidspunktet for et enkelt møde, påvirkes reglen ikke. Mødet behandles som en undtagelse fra reglen. Undtagelsen kan gøres normal igen ved at flytte den tilbage i linje med de andre møder.
 
-> [!CAUTION]
-> At ændre start- eller slutdatoen for et gentaget møde efter det er blevet gemt, er en dårlig idé. At ændre tiden på et gentaget møde vil fungere fint, men at ændre datoen vil kun føre til forvirring. At ændre starttidspunktet på et møde vil udløse en opdatering for alle efterfølgende gentagelser, hvis du har indstillet opdateringstilstanden til dette og fremad.
+[!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
 ## <a id="delete" />Slet opfølgning ved hjælp af Dagbogen
 
 * Hvis du sletter en opfølgning, som du er inviteret til, fjernes opfølgningen kun fra din dagbog.
-* Hvis du sletter en invitation, som du ejer, fra din dagbog, forsvinder denne post også fra de inviteredes dagbøger.
+* Hvis du sletter en invitation, som du ejer, fra din dagbog, forsvinder denne opfølgning også fra de inviteredes dagbøger.
 
 1. Vælg den ønskede opfølgning.
 2. Højreklik, og vælg **Slet**.
@@ -81,7 +82,8 @@ Hvis du ændrer starttidspunktet for et enkelt møde, påvirkes reglen ikke. Mø
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
-[3]: screen/dialog-for-followups.md
+[3]: create-follow-up.md#fields
 [5]: recurrence/stop.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/diary/change-repeating-fo.png

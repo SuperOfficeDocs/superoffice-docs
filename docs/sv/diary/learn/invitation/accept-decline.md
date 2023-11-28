@@ -18,18 +18,18 @@ Deltagare som har bjudits in till en händelse får ett varningsmeddelande på t
 ## <a id="accept" />Acceptera eller tacka nej till förfrågningar
 
 * Klicka på klockikonet i toppraden för att se dina förfrågningar.
-* Klicka på länken i aviseringen för att öppna aktiviteten.
+* Klicka på länken i Aviseringar-panelen för att öppna händelsen.
 * Klicka på **Acceptera** eller **Avslå** för att svara på förfrågningan.
 
 [Läs mer om aviseringar.][1]
 
 ### OBS!
 
-* När du ska visa en händelse som du inte själv äger visas den vanliga dialogrutan. Tills du accepterar eller avslår förfrågan visas två extra knappar i dialogrutan: **Acceptera** och **Avslå**.
+* När du ska visa en händelse som du inte själv äger visas två extra knappar i dialogrutan: **Acceptera** och **Avslå** - tills du svarar på inbjudan.
 
 * Om du först accepterar en förfrågan och därefter tar bort händelsen från kalendern räknas det som att du avslår den. Händelsen tas bort från kalendern och ditt namn markeras med ett rött kryss ![ikon][img4] i deltagarlistan.
 
-* Om du accepterar en förfrågan och därefter öppnar dialogrutan för händelser kan du bara ändra informationen om händelsen i fälten **Prioritet**, **Slutfört** och **Alarm**. Övriga ändringar kan endast göras av personen som skickade förfrågan. Du kan inte lägga till deltagare. Därmed är knappen **Lägg till** på fliken **Deltagare** inaktiverad.
+* Om du accepterar en förfrågan och därefter öppnar dialogrutan **Händelser** kan du bara ändra informationen om händelsen i fälten **Prioritet**, **Slutfört** och **Alarm**. Övriga ändringar kan endast göras av personen som skickade förfrågan. Du kan inte lägga till deltagare. Därmed är knappen **Lägg till** på fliken **Deltagare** inaktiverad.
 
 * Om du tilldelar en händelse till en annan användare (byter ägare) och mottagaren avböjer den tilldelas händelse till dig igen.
 

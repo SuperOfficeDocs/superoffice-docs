@@ -19,12 +19,9 @@ Det finns många olika sätt att skapa händelser. Denna metod fungerar från va
 
 1. Klicka på **Nytt** i det övre fältet och välj **Möte/Bokning**, **Händelse/Samtal** eller **Att göra/Uppgift**.
 
-2. [Fyll i nödvändiga uppgifter i fälten.][6]
+2. [Fyll i nödvändiga uppgifter i fälten.](#fields)
 
-    > [!NOTE]
-    > När du försöker lägga in en överlappande händelse visas ett utropstecken ![ikon][img2] bredvid start- och stoppfälten i dialogrutan som en påminnelse (du kan fortfarande skapa händelsen). Den första lediga tiden föreslås. Klicka på den föreslagna tiden till höger om **Första lediga** för att välja den tiden istället.
-    >
-    > När du registrerar en ny uppgift visas inget klockslag i fälten **Start** och **Slut**. Som standard anges dagens datum, men du kan naturligtvis ändra detta till ett annat datum. Detta datum avser tidsfristen för uppgiften.
+    Viss information infogas automatiskt baserat på sammanhanget, till exempel dagens datum.
 
 3. Klicka på **Spara**-knappen.
 
@@ -35,6 +32,68 @@ Det finns många olika sätt att skapa händelser. Denna metod fungerar från va
 | Detaljkortet Aktiviteter | x | x | x |
 | Knappen Uppgift på kontaktkortet | x | x | |
 | Kalender | x | | |
+
+### <a id="fields" />Hur man anger information
+
+> [!NOTE]
+> Många fält har en lista över fördefinierade värden som du kan välja från. Klicka på pilen ![ikon][img4] för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, som ett företagsnamn.
+
+Om din SuperOffice har [tidszoner][9] aktiverat, kan du välja vilken tidszon händelsen ska skapas i. Tidszonerna visas efter land, och du kan söka både efter land och stad direkt i tidszonfältet.
+
+Om du kryssar i **Hela dagen**, sätts tiden för händelsen till den period som anges som [standard arbetsdag][8] (**Starttid för hela dagen** och **Sluttid för hela dagen** preferens).
+
+<!-- markdownlint-disable MD051 -->
+#### [Klassisk](#tab/fields-old)
+
+![Mötesdialogruta -screenshot][img6]
+
+* Välj händelsestyp.
+
+* Valfritt, välj ett företag och/eller en kontakt som händelsen gäller.
+
+* Valfritt, välj ett projekt och/eller en försäljning för att länka det till händelsen. Du kan välja vilket projekt/försäljning som helst oavsett vilket företag du valde tidigare.
+
+* Ange tid och datum. **Varaktighet**-fältet justeras automatiskt.
+händelsen överlappar med en befintlig händelse, visas ett utropstecken ![ikon][img2] bredvid start- och stoppfälten som en påminnelse (du kan fortfarande lägga till händelsen). Ett förslag på första lediga tidpunkt visas. Klicka på den föreslagna tiden till höger om **Första lediga** för att välja den här tiden istället.
+
+    När du skapar en ny to-do visas ingen tid i fälten **Start** och **Slut**. Dagens datum sätts automatiskt in, men du kan ändra det till det önskade datumet. Datumet indikerar deadline för to-do:n.
+
+* Valfritt, välj eller ange adressen där händelsen kommer att äga rum.
+
+* Välj fliken **Beskrivning** för att lägga till en beskrivning av händelsen (max 2048 tecken).
+* Välj fliken **Detaljer** för att ställa in [återkommande][4], prioritet, [larm][3], ägare och "visa som".
+* Välj fliken **Deltagare** för att [lägga till deltagare][5].
+
+> [!TIP]
+> Klicka på ![ikon][img5] för att ställa in en [videomöte][2].
+
+#### [Ny (från version 10.2.11 pilot)](#tab/fields-new)
+
+![Uppföljningsdialogruta -screenshot][img7]
+
+* Ange en titel.
+
+* Klicka på den färgade bollen och välj en händelsestyp.
+
+* Valgfritt, välj ett företag eller en kontakt som händelsen gäller. Om du vill bjuda in dem och andra till mötet, klicka på **Bjud in**.
+
+  * [Lägg till deltagare][5].
+  * Valgfritt, lägg till en plats.
+  * Valgfritt, lägg till (fler) rum, resurs och/eller platser.
+
+    ![Utökad uppföljningsdialogruta -screenshot][img8]
+
+* Specificera tid och datum. Klicka på **Visa mer** för att ställa in [upprepning][4], "hela dagen", "upptagen/fri" och tidszon. Klicka på klockikonen i huvudet för att [ställa in larmet][3].
+
+* Valgfritt, välj ett projekt och/eller försäljning för att länka det till uppföljningen. Du kan välja vilket projekt/försäljning som helst oavsett vilket företag du valde tidigare.
+
+* Välj fliken **Agenda** för att lägga till ytterligare information, som en dagordning, en beskrivning av händelsen, filer, bilder och länkar. Använd knapparna i sidfoten för att lägga till formatering av rik text och innehåll.
+
+    > [!TIP]
+    > Om du vill begränsa åtkomsten endast till anställda, placera den informationen i fliken **Intern anteckningar**. Det som läggs till här skickas inte till externa deltagare. Klicka på klockikonen för att lägga till en tidsstämpel. En prick på fliken indikerar att någon har lagt till en anteckning.
+
+***
+<!-- markdownlint-restore -->
 
 ## Skapa händelser från detaljkortet Aktiviteter
 
@@ -49,9 +108,9 @@ Det finns många olika sätt att skapa händelser. Denna metod fungerar från va
 
 1. Klicka på ![ikon][img3] knappen **Uppgift** på kontaktkortet.
 
-1. För att skapa en mötesförfrågan, välj **Förfrågan om möte**.
+    * För att skapa en mötesförfrågan, välj **Förfrågan om möte**.
 
-    För att registrera ett samtal, välj **Inled samtal**.
+    * För att registrera ett samtal, välj **Inled samtal**.
 
 1. Mata in information och klicka på **Spara**.
 
@@ -74,7 +133,7 @@ Du kan öppna en annan användares kalender, eller kalendern för en tillgängli
 
 3. Skapa ett nytt möte i den här kalendern med musen.
 
-4. I dialogrutan **Händelse**, [fyll i nödvändiga uppgifter i fälten][6].
+4. I dialogrutan **Händelse**, [fyll i nödvändiga uppgifter i fälten](#fields).
 
 5. [Välj vilka deltagare som ska inkluderas][5] om de inte inkluderas automatiskt.
 
@@ -93,19 +152,25 @@ Du kan också skapa en ny uppföljning genom att kopiera en befintlig uppföljni
 ## Relaterat innehåll
 
 * [Händelser][1]
-* [Aktiviteter][8]
-* [Varningar/larm][3]
+* [Aktiviteter][7]
 * [Skapa ett videomöte från SuperOffice-kalendern][2]
 
 <!-- Referenced links -->
 [1]: follow-ups.md
 [2]: video-meetings.md
 [3]: set-alarm.md
+[4]: recurrence/index.md
 [5]: invitation/add-participant.md
-[6]: screen/dialog-for-followups.md
-[8]: ../../learn/basics/activity.md
+[7]: ../../learn/basics/activity.md
+[8]: ../../learn/getting-started/preferences.md
+[9]: ../../globalization-and-localization/learn/time-zones.m
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/warning-red.png
 [img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/btn-menu.png
+[img2]: ../../../../common/icons/warning-red.png
+[img4]: ../../../../common/icons/dropdown-icon.png
+[img5]: ../../../../common/icons/videocall-off.png
+[img6]: ../../../media/loc/en/diary/appointment-new.png
+[img7]: ../../../media/loc/en/diary/follow-up-dialog.png
+[img8]: ../../../media/loc/en/diary/follow-up-attendees.png

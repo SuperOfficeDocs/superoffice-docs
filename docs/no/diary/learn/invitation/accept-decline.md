@@ -18,18 +18,18 @@ Deltakere som er blitt invitert til en oppfølging, får et varsel.
 ## <a id="accept" />Godta eller avslå invitasjoner
 
 * Klikk på bjelleikonet i toppfeltet for å se invitasjonene dine.
-* Klikk på lenken i varselet for å åpne aktiviteten.
+* Klikk på lenken i Varsler-panelet for å åpne oppfølgingen.
 * Klikk på **Godta** eller **Avslå** for å svare på invitasjonen.
 
 [Les mer om varsler.][1]
 
 ### Merk
 
-* Når du ser på en oppfølging du ikke eier selv, får du opp den vanlige dialogboksen for oppfølginger. Frem til du godtar eller avslår invitasjonen har dialogboksen to ekstra knapper: **Godta** og **Avslå**.
+* Når du ser på en oppfølging du ikke eier selv, har dialogboksen to ekstra knapper: **Godta** og **Avslå** - til du svarer på invitasjonen.
 
 * Hvis du først godtar en invitasjon og deretter sletter oppfølgingen fra dagboken, regnes det som at du avslår den. Oppfølgingen forsvinner da fra dagboken, og navnet ditt merkes med et rødt kryss ![ikon][img4] i deltakerlisten.
 
-* Hvis du godtar en invitasjon og deretter åpner dialogboksen for oppfølginger, kan du ikke endre annen informasjon om oppfølgingen enn det som står i feltene **Prioritet**, **Utført** og **Alarm**. Andre endringer kan bare gjøres av den som har sendt invitasjonen. Du kan ikke legge til deltakere. Derfor er **Legg til**-knappen i fanen **Deltakere** deaktivert.
+* Hvis du godtar en invitasjon og deretter åpner dialogboksen **Oppfølging**, kan du ikke endre annen informasjon om oppfølgingen enn det som står i feltene **Prioritet**, **Utført** og **Alarm**. Andre endringer kan bare gjøres av den som har sendt invitasjonen. Du kan ikke legge til deltakere. Derfor er **Legg til**-knappen i fanen **Deltakere** deaktivert.
 
 * Hvis du tilordner en oppfølging til en annen bruker (endrer eier), og mottakeren avslår den, blir oppfølgingen tildelt deg igjen.
 

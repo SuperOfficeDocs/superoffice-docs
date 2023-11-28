@@ -50,23 +50,24 @@ Sie können die Endzeitpunkt einer Folgeaufgabe in der Ansicht Kalender ändern,
 
 Änderungen werden auf dieselbe Weise ausgeführt wie Folgeaufgaben bearbeiten. Wenn Sie die Änderungen vornehmen, wird das Dialogfeld **Regelmäßige Folgeaufgaben**.
 
+![Repeating follow-up dialog -screenshot][img1]
+
 * Wenn Sie **Nur diese Instanz ändern** wählen, wirkt sich die Änderung nur auf diese Instanz der Folgeaufgabe aus.
 
 * Wenn Sie **Alle zukünftigen Instanzen einschließlich dieser ändern** wählen, gelten die Änderungen auch für alle Wiederholungen dieser Folgeaufgabe.
 
-Sie können nur das Startdatum für die Folgeaufgabe ändern, wenn Sie das Wiederholungsmuster anzeigen. Um die Uhrzeit zu ändern, klicken Sie auf **OK** oder **Abbrechen**, um zu den Details der Nachverfolgung zurückzukehren.
+Sie können nur das Startdatum für die Folgeaufgabe ändern, wenn Sie die Wiederholungsdetails anzeigen. Um die Uhrzeit zu ändern, klicken Sie auf **OK** oder **Abbrechen**, um zu den Details der Nachverfolgung zurückzukehren.
 
-Wenn Sie sich entscheiden, das Regel-Muster mitten in einer Serie von Besprechungen zu ändern, wird eine neue Regel erstellt, und die alte Regel wird an dem Punkt gestoppt, an dem die Änderung erfolgt.
+Wenn Sie sich entscheiden, die Regel mitten in einer Serie von Besprechungen zu ändern, wird eine neue Regel erstellt, und die alte Regel wird an dem Punkt gestoppt, an dem die Änderung erfolgt.
 
 Wenn Sie die Startzeit für ein einzelnes Besprechung ändern, bleibt die Regel unberührt. Der Besprechungen wird als Ausnahme von der Regel behandelt. Die Ausnahme kann wieder in Übereinstimmung mit den anderen Besprechungen gebracht werden.
 
-> [!CAUTION]
-> Die Änderung des Start- oder Enddatums einem wiederkehrenden Besprechungen nachdem es gespeichert wurde, ist keine gute Idee. Die Änderung der Uhrzeit für eine wiederkehrendes Besprechung funktioniert gut, aber die Änderung des Datums führt nur zu Verwirrung. Das Ändern der Startzeit für eine Besprechung löst ein Update für alle nachfolgenden Wiederholungen aus, wenn Sie den Aktualisierungsmodus auf 'dies und zukünftig' festgelegt haben.
+[!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
 ## <a id="delete" />Folgeaufgabe aus dem Kalender löschen
 
 * Wenn Sie eine Folgeaufgabe löschen, zu der Sie eingeladen sind, wird die Folgeaufgabe nur aus Ihrem Kalender entfernt.
-* Wenn Sie eine Einladung, deren Eigentümer Sie sind, von Ihrem Kalender löschen, verschwindet dieser Datensatz auch aus den Kalendern der Eingeladenen.
+* Wenn Sie eine Einladung, deren Eigentümer Sie sind, von Ihrem Kalender löschen, verschwindet diese Folgeaufgabe auch aus den Kalendern der Eingeladenen.
 
 1. Wählen Sie die gewünschte Folgeaufgabe aus.
 2. Klicken Sie mit der rechten Maustaste, und wählen Sie **Löschen**.
@@ -81,7 +82,8 @@ Wenn Sie die Startzeit für ein einzelnes Besprechung ändern, bleibt die Regel 
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
-[3]: screen/dialog-for-followups.md
+[3]: create-follow-up.md#fields
 [5]: recurrence/stop.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/diary/change-repeating-fo.png
