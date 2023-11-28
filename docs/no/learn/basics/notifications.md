@@ -83,7 +83,7 @@ Dette er varslingsalternativene:
 * Systemvarslinger for e-post
 * Systemvarslinger for chat
 
-## Hvordan endre nettleserinnstillingene for varsler
+## <a id="enable-browser" />Hvordan endre nettleserinnstillingene for varsler
 
 **Chrome:** Klikk på hengelåsikonet foran URL-en og slå på **Varsler**-bryteren.
 

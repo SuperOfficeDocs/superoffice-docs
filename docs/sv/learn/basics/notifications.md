@@ -83,7 +83,7 @@ Det här är aviseringsalternativen:
 * Systemmeddelanden för e-post
 * Systemmeddelanden för chatt
 
-## Hvordan endre nettleserinnstillingene for varsler
+## <a id="enable-browser" />Hvordan endre nettleserinnstillingene for varsler
 
 **Chrome:** Klicka på hänglåssymbolen framför URL:en och aktivera **Aviseringar**-omkopplaren.
 
