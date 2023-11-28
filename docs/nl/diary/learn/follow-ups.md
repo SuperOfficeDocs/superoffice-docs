@@ -99,7 +99,7 @@ De standaardduur van een vergadering is één uur en 15 minuten van een gesprek.
 * [Meer informatie over activiteiten][4]
 
 <!-- Referenced links -->
-[2]: create-vervolgactiviteit.md
+[2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md
 [5]: invitation/index.md
 

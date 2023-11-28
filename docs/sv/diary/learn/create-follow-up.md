@@ -163,7 +163,7 @@ Du kan också skapa en ny uppföljning genom att kopiera en befintlig uppföljni
 [5]: invitation/add-participant.md
 [7]: ../../learn/basics/activity.md
 [8]: ../../learn/getting-started/preferences.md
-[9]: ../../globalization-and-localization/learn/time-zones.m
+[9]: ../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

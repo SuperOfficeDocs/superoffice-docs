@@ -164,7 +164,7 @@ Sie können auch eine neue Folgeaufgabe erstellen, indem Sie eine vorhandene Fol
 [5]: invitation/add-participant.md
 [7]: ../../learn/basics/activity.md
 [8]: ../../learn/getting-started/preferences.md
-[9]: ../../globalization-and-localization/learn/time-zones.m
+[9]: ../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
