@@ -83,7 +83,7 @@ Dies sind die Benachrichtigungsoptionen:
 * Benachrichtigungen für Email
 * Benachrichtigungen für Chat
 
-## Die Browsereinstellungen für Benachrichtigungen ändern
+## <a id="enable-browser" />Die Browsereinstellungen für Benachrichtigungen ändern
 
 **Chrome:** Klicken Sie auf das Vorhängeschlosssymbol vor der URL und aktivieren Sie den **Benachrichtigungen**-Schalter.
 

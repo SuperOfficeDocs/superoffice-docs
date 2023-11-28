@@ -87,7 +87,7 @@ These are the notification options:
 * System notifications for emails
 * System notifications for chats
 
-## How to change browser settings for notifications
+## <a id="enable-browser" />How to change browser settings for notifications
 
 **Chrome:** Click the padlock icon in front of the URL and turn on the **Notifications** toggle.
 

@@ -83,7 +83,7 @@ Dette er meddelelsesmulighederne:
 * Systembeskeder for e-mails
 * Systembeskeder for chats
 
-## Ændres browserindstillingerne for notifikationer
+## <a id="enable-browser" />Ændres browserindstillingerne for notifikationer
 
 **Chrome:** Klik på hængelåsen foran URL'en og aktiver **Notifikationer**-vippen.
 
