@@ -18,7 +18,7 @@ By *work with* we mean CRUD operations: create, read, update, and delete. A **se
 
 ## Authentication
 
-When using NetServer, the SCMScript runs as the **currently signed in user**.
+When using NetServer, the CRMScript runs as the **currently signed in user**.
 
 For background tasks such as email import, scheduled tasks and data exchange (DBI), the script runs as a **system user**.
 
@@ -37,6 +37,13 @@ All NetServer services are called through an agent. To get your hands on data, y
 A few services are not reachable through CRMScript. These exceptions are:
 
 * AudienceAgent
+* BulkUpdateAgent
+* CRMScriptAgent
+* DashboardAgent
+* DashAgent
+* DatabaseAgent
+* DatabaseTableAgent
+* ErpSyncAgent
 * EmailAgent
 * FileManagerAgent
 * TrayAppAgent
