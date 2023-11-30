@@ -34,7 +34,7 @@ The agent and carrier pattern separates data from actions:
 
 All NetServer services are called through an agent. To get your hands on data, you must go through the appropriate agent.
 
-[!include[ALT](../../includes/restricted-crmscript-agents.md)]
+[!include[Restricted agents](../../includes/restricted-crmscript-agents.md)]
 
 ## Agents
 
