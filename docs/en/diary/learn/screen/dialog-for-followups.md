@@ -9,7 +9,7 @@ so.topic: reference
 language: en
 ---
 <!-- DO NOT CHANGE TERMINOLOGY IN THIS FILE -->
-# The Dialog for follow-ups
+# The dialog for follow-ups
 
 Regardless of the [type of follow-up][1] you are working with, you will see the dialog for follow-ups. The actual name of this dialog varies according to the type of follow-up – Appointment, Task, or Phone Call – but the fields are the same in each case. The fields in the dialog and how to use them are described below.
 
@@ -20,6 +20,9 @@ The dialog consists of a main section with general information about the follow-
 * Participants
 * Links
 * More
+
+> [!NOTE]
+> The descriptions on this page pertain to the **classic** dialog for follow-ups, named **Appointment**, **Phone call**, or **Task**. If you use the pilot version of the new **Follow-up** dialog, see the [Fields section][2] in the how-to for explanation of dialogs and fields.
 
 ## Information about the follow-up
 
@@ -157,6 +160,7 @@ This tab displays any [custom fields][14] configured in Settings and maintenance
 
 <!-- Referenced links -->
 [1]: ../follow-ups.md
+[2]: ../create-follow-up.md#fields
 [4]: ../recurrence/index.md
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md

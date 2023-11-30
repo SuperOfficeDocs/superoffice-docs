@@ -32,7 +32,7 @@ You can access the diary of another user or an available resource to check their
 
 ## <a id="nav" />Navigate in the Diary screen
 
-The diary consists of [four tabs][24]: **Day** tab, **Week** tab, **Month** tab and **View** tab. Switching between these views is easy: simply click the tabs at the top of the Diary screen. The relevant day, week, or month is displayed at the top of the page, depending on which tab you selected.
+The diary consists of [four tabs][24]: **Day** tab, **Week** tab, **Month** tab, and **View** tab. Switching between these views is easy: simply click the tabs at the top of the Diary screen. The relevant day, week, or month is displayed at the top of the page, depending on which tab you selected.
 
 * In the **Day** tab, **Week** tab, and **Month** tab, click **Today** or **This week** to move to the current day or week.
 
