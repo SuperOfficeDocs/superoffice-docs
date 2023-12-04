@@ -11,12 +11,12 @@ so.topic: reference
 
 # New and improved Core CRM
 
-* [Preferences, Batch management, Custom tasks, Document preview of meta data (10.2.1)][1]
-* [End of life for Old dashboards (10.2.4)][4]
-* [Notifications panel (10.2.8)][8]
-* [Time zones and Daylight Saving Time (10.2.10)][10] in Settings and maintenance
-* [Document editing in Local settings dialog (10.2.11)][11]
 * [Browser security question when opening files (10.2.11)][11]
+* [Document editing in Local settings dialog (10.2.11)][11]
+* [Time zones and Daylight Saving Time (10.2.10)][10] in Settings and maintenance
+* [Notifications panel (10.2.8)][8]
+* [End of life for Old dashboards (10.2.4)][4]
+* [Preferences, Batch management, Custom tasks, Document preview of meta data (10.2.1)][1]
 
 <!-- Referenced links-->
 [1]: 10.2.1-update.md
